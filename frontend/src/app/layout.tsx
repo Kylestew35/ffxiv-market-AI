@@ -1,5 +1,5 @@
 // frontend/src/app/layout.tsx
-import "./global.css";
+import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
