@@ -47,7 +47,7 @@ export function ItemSearch({ onResults }: Props) {
       </div>
       <button
         type="submit"
-        className="px-5 py-2 rounded-lg bg-gradient-to-r from-sky-500 to-indigo-600 border border-sky-300 text-sm font-semibold tracking-wide shadow-[0_0_16px_rgba(56,189,248,0.7)] disabled:opacity-50"
+        className="from-sky-500 to-indigo-600 border border-sky-300 text-sm font-semibold tracking-wide shadow-[0_0_16px_rgba(56,189,248,0.7)] disabled:opacity-50"
         disabled={loading}
       >
         {loading ? "Scanning..." : "Search"}

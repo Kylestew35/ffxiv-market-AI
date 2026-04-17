@@ -46,7 +46,7 @@ export function ChatWindow() {
         AI Question Box
       </div>
 
-      <div className="flex-1 min-h-[180px] max-h-80 overflow-y-auto space-y-2 border border-slate-800 rounded-lg p-2 bg-slate-900/80">
+      <div className=" max-h-80 overflow-y-auto space-y-2 border border-slate-800 rounded-lg p-2 bg-slate-900/80">
         {messages.length === 0 && (
           <div className="text-xs text-slate-500">
             Ask anything about prices, strategies, or market behavior. This chat
