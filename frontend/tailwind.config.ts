@@ -28,7 +28,7 @@ const config: Config = {
           "radial-gradient(circle at top, rgba(56,189,248,0.18), transparent 60%), radial-gradient(circle at bottom, rgba(129,140,248,0.18), transparent 60%)",
       },
       fontFamily: {
-        ffxiv: ["'Cinzel'", "serif"], // optional FFXIV‑style font
+        ffxiv: ["'Cinzel'", "serif"],
       },
     },
   },

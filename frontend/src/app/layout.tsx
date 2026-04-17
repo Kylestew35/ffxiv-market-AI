@@ -14,15 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
       <body>
-       
         <div className="min-h-screen text-slate-200 relative">
-
-          {/* Actual app content */}
-          <div className="">
-            {children}
-          </div>
+          {children}
         </div>
       </body>
     </html>
