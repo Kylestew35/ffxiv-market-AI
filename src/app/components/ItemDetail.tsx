@@ -55,40 +55,7 @@ export function ItemDetail({ world, itemId }: Props) {
           )}&itemId=${itemId}`,
         );
         const json = await res.json();
-
-        if (json.error) {
-          console.error("Market error:", json.error);
-          setData({
-            item: { id: itemId, name: "Unknown item" },
-            currentWorld: world,
-            marketSummary: {
-              minNQ: null,
-              minHQ: null,
-              numListings: 0,
-            },
-            worldSummaries: {},
-            options: [],
-            aiInsight:
-              "There was a problem loading market data for this item. Please try another item or ask the AI below.",
-          });
-        } else {
-          setData(json);
-        }
-      } catch (e) {
-        console.error("Market fetch failed:", e);
-        setData({
-          item: { id: itemId, name: "Unknown item" },
-          currentWorld: world,
-          marketSummary: {
-            minNQ: null,
-            minHQ: null,
-            numListings: 0,
-          },
-          worldSummaries: {},
-          options: [],
-          aiInsight:
-            "There was a problem loading market data for this item. Please try another item or ask the AI below.",
-        });
+        setData(json);
       } finally {
         setLoading(false);
       }
@@ -114,7 +81,7 @@ export function ItemDetail({ world, itemId }: Props) {
   if (!data) {
     return (
       <div className="h-full bg-slate-950/90 border border-slate-700 rounded-xl p-5 flex items-center justify-center text-sm">
-        No data available for this item.
+        No data available.
       </div>
     );
   }
