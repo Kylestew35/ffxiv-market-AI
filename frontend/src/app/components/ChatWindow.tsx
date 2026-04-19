@@ -12,7 +12,7 @@ export function ChatWindow({ world }: { world: string }) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
 
-  const backend = process.env.NEXT_PUBLIC_BACKEND_URL1;
+  const backend = process.env.NEXT_BACKEND_URL;
 
   async function sendMessage(e: React.FormEvent) {
     e.preventDefault();
