@@ -1,0 +1,278 @@
+{
+  "item": {
+    "name": "Hyper-Potion",
+    "description": "This highly concentrated concoction instantly restores a prodigious amount of HP.",
+    "id": 38956,
+    "patch": 6.3,
+    "patchCategory": 4,
+    "price": 99999,
+    "ilvl": 560,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 63,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "HP": {
+          "rate": 20,
+          "limit": 8800
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "HP": {
+          "rate": 25,
+          "limit": 11000
+        }
+      }
+    },
+    "icon": 20605,
+    "craft": [
+      {
+        "id": 5500,
+        "job": 14,
+        "rlvl": 560,
+        "durability": 80,
+        "quality": 7200,
+        "progress": 3500,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27782,
+            "amount": 2
+          },
+          {
+            "id": 36258,
+            "amount": 1
+          },
+          {
+            "id": 36260,
+            "amount": 1
+          },
+          {
+            "id": 36261,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 8
+          },
+          {
+            "id": 12,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 172,
+          "hq": 192
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    },
+    {
+      "name": "Petalouda Scales",
+      "id": 36260,
+      "icon": 22210,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36260",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        946
+      ]
+    },
+    {
+      "name": "Berkanan Sap",
+      "id": 36261,
+      "icon": 22675,
+      "category": 54,
+      "ilvl": 545,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1636,
+        1637
+      ],
+      "ventures": [
+        948
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36260",
+      "obj": {
+        "i": 36260,
+        "n": "Petalouda Scales",
+        "l": 539,
+        "c": 22210,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36261",
+      "obj": {
+        "i": 36261,
+        "n": "Berkanan Sap",
+        "l": 545,
+        "c": 22675,
+        "t": 54
+      }
+    }
+  ]
+}

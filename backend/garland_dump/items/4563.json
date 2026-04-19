@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Onyx Tears",
+    "description": "This fragrant fusion of aromatic oils has long been used by the Brass Blades of Ul'dah to instantly rejuvenate both body and mind.",
+    "id": 4563,
+    "patch": 1.0,
+    "patchCategory": 4,
+    "price": 990,
+    "ilvl": 50,
+    "category": 44,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "attr": {
+      "action": {
+        "HP": {
+          "rate": 50,
+          "limit": 1000
+        },
+        "MP": {
+          "rate": 8,
+          "limit": 800
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "HP": {
+          "rate": 63,
+          "limit": 1250
+        }
+      }
+    },
+    "icon": 20626,
+    "tradeShops": [
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4563",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 2850
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    }
+  ]
+}

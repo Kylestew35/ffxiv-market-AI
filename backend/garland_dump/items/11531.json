@@ -1,0 +1,158 @@
+{
+  "item": {
+    "name": "Gordian Plate Mail of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 11531,
+    "patch": 3.05,
+    "patchCategory": 0,
+    "price": 102910,
+    "ilvl": 210,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1081,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1170,
+    "slot": 4,
+    "elvl": 60,
+    "jobs": 59,
+    "models": [
+      "280-1-0-0"
+    ],
+    "attr": {
+      "Defense": 330,
+      "Magic Defense": 330,
+      "Strength": 76,
+      "Vitality": 75,
+      "Determination": 81,
+      "Direct Hit Rate": 57
+    },
+    "icon": 48073,
+    "instances": [
+      30028
+    ],
+    "sharedModels": [
+      11455
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Manifesto Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11531",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12684",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gordian Gear (IL 210)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11531",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12684",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "desynthedTo": [
+      12527
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30028",
+      "obj": {
+        "i": 30028,
+        "n": "Alexander - The Burden of the Father (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 205
+      }
+    },
+    {
+      "type": "item",
+      "id": "11455",
+      "obj": {
+        "i": 11455,
+        "n": "Prototype Gordian Plate Mail of Fending",
+        "l": 190,
+        "c": 48073,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12684",
+      "obj": {
+        "i": 12684,
+        "n": "Gordian Manifesto - Page 4",
+        "l": 1,
+        "c": 26160,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12527",
+      "obj": {
+        "i": 12527,
+        "n": "Adamantite Ingot",
+        "l": 180,
+        "c": 20832,
+        "t": 49
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Ruby Sea Riding Map",
+    "description": "This highly detailed map of the Ruby Sea, including everything from land elevation to the location of exposed rocks and roots, was originally drafted by Far Eastern merchants seeking to reduce delivery times.",
+    "id": 24229,
+    "patch": 4.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26193,
+    "tradeShops": [
+      {
+        "shop": "Centurio Seal Exchange I",
+        "npcs": [
+          1019007,
+          1019454
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24229",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 250
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019007",
+      "obj": {
+        "i": 1019007,
+        "n": "Estrild",
+        "l": 2404,
+        "s": 1,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2906,
+        "c": [
+          10.4,
+          10.29
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019454",
+      "obj": {
+        "i": 1019454,
+        "n": "Leuekin",
+        "l": 2403,
+        "s": 1,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.09,
+          11.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

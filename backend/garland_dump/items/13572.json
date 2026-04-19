@@ -1,0 +1,548 @@
+{
+  "item": {
+    "name": "Luminous Earth Crystal",
+    "description": "Formed during a battle waged in the Dravanian forelands, this crystal's unusual luminosity is the result of a concentrated elemental charge.",
+    "id": 13572,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 3564,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20024,
+    "tradeCurrency": [
+      {
+        "shop": "Luminous Crystal Exchange",
+        "npcs": [
+          1016289
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13576",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13569",
+                "amount": 1
+              },
+              {
+                "id": "13572",
+                "amount": 1
+              },
+              {
+                "id": "13574",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fates": [
+      827,
+      902,
+      828,
+      823,
+      821,
+      818,
+      826,
+      829,
+      822,
+      819,
+      820,
+      833,
+      825,
+      824,
+      831,
+      830,
+      832,
+      834,
+      838,
+      836,
+      835,
+      903,
+      837,
+      910,
+      905,
+      904,
+      906,
+      907
+    ],
+    "alla": {
+      "source": [
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016289",
+      "obj": {
+        "i": 1016289,
+        "n": "Syndony",
+        "l": 67,
+        "s": 1,
+        "q": 1,
+        "t": "Zodiac Weapon Exchange",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.66,
+          5.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13569",
+      "obj": {
+        "i": 13569,
+        "n": "Luminous Ice Crystal",
+        "l": 1,
+        "c": 20022,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13574",
+      "obj": {
+        "i": 13574,
+        "n": "Luminous Water Crystal",
+        "l": 1,
+        "c": 20026,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13576",
+      "obj": {
+        "i": 13576,
+        "n": "Umbral Nodule",
+        "l": 1,
+        "c": 26053,
+        "t": 63
+      }
+    },
+    {
+      "type": "fate",
+      "id": "827",
+      "obj": {
+        "i": 827,
+        "n": "The Whole Truth",
+        "l": 52,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          25,
+          22
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "902",
+      "obj": {
+        "i": 902,
+        "n": "Long Live the Coeurl",
+        "l": 52,
+        "t": "Slay Enemies",
+        "z": 2000
+      }
+    },
+    {
+      "type": "fate",
+      "id": "828",
+      "obj": {
+        "i": 828,
+        "n": "Nothing but the Truth",
+        "l": 52,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          25,
+          21
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "823",
+      "obj": {
+        "i": 823,
+        "n": "Bear Apparent",
+        "l": 52,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          31,
+          15
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "821",
+      "obj": {
+        "i": 821,
+        "n": "Birds of a Feather",
+        "l": 52,
+        "t": "Gather",
+        "z": 2000
+      }
+    },
+    {
+      "type": "fate",
+      "id": "818",
+      "obj": {
+        "i": 818,
+        "n": "By the Horns",
+        "l": 52,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          34,
+          31
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "826",
+      "obj": {
+        "i": 826,
+        "n": "Dead Meat",
+        "l": 52,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          24,
+          20
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "829",
+      "obj": {
+        "i": 829,
+        "n": "Drone Under",
+        "l": 52,
+        "t": "Slay Enemies",
+        "z": 2000
+      }
+    },
+    {
+      "type": "fate",
+      "id": "822",
+      "obj": {
+        "i": 822,
+        "n": "Glawackus On, Glawackus Off",
+        "l": 52,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          36,
+          9
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "819",
+      "obj": {
+        "i": 819,
+        "n": "Ladies First",
+        "l": 52,
+        "t": "Slay Enemies",
+        "z": 2000
+      }
+    },
+    {
+      "type": "fate",
+      "id": "820",
+      "obj": {
+        "i": 820,
+        "n": "Run, Run Away",
+        "l": 52,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          38,
+          20
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "833",
+      "obj": {
+        "i": 833,
+        "n": "The Migas Touch",
+        "l": 52,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          22,
+          31
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "825",
+      "obj": {
+        "i": 825,
+        "n": "The Rite Stuff",
+        "l": 52,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          26,
+          13
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Who's the Moss",
+        "l": 52,
+        "t": "Defense",
+        "z": 2000
+      }
+    },
+    {
+      "type": "fate",
+      "id": "831",
+      "obj": {
+        "i": 831,
+        "n": "Cerf's Up",
+        "l": 53,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          19,
+          28
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "830",
+      "obj": {
+        "i": 830,
+        "n": "El Miacid",
+        "l": 53,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          22,
+          33
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "832",
+      "obj": {
+        "i": 832,
+        "n": "Elephant in the Brume",
+        "l": 53,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          16,
+          35
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "834",
+      "obj": {
+        "i": 834,
+        "n": "Hearing Voices",
+        "l": 53,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          13,
+          18
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Special Tarasque Force",
+        "l": 53,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          13,
+          36
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "836",
+      "obj": {
+        "i": 836,
+        "n": "Stamp the Yard",
+        "l": 53,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          15,
+          20
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "835",
+      "obj": {
+        "i": 835,
+        "n": "The Mourning After",
+        "l": 53,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          18,
+          6
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "903",
+      "obj": {
+        "i": 903,
+        "n": "Coeurls Chase Boys",
+        "l": 57,
+        "t": "Notorious Monster",
+        "z": 2000
+      }
+    },
+    {
+      "type": "fate",
+      "id": "837",
+      "obj": {
+        "i": 837,
+        "n": "Come to My Arms",
+        "l": 57,
+        "t": "Slay Enemies",
+        "z": 2000,
+        "c": [
+          28,
+          8
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "910",
+      "obj": {
+        "i": 910,
+        "n": "Ware the Maiden Fair",
+        "l": 57,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          12,
+          39
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "905",
+      "obj": {
+        "i": 905,
+        "n": "Coeurls Chase Boys Chase Coeurls",
+        "l": 60,
+        "t": "Notorious Monster",
+        "z": 2000,
+        "c": [
+          12,
+          10
+        ]
+      }
+    },
+    {
+      "type": "fate",
+      "id": "904",
+      "obj": {
+        "i": 904,
+        "n": "Coeurls Chase Boys",
+        "l": 57,
+        "t": "Notorious Monster",
+        "z": 2000
+      }
+    },
+    {
+      "type": "fate",
+      "id": "906",
+      "obj": {
+        "i": 906,
+        "n": "Coeurls Chase Boys Chase Coeurls",
+        "l": 60,
+        "t": "Notorious Monster",
+        "z": 2000
+      }
+    },
+    {
+      "type": "fate",
+      "id": "907",
+      "obj": {
+        "i": 907,
+        "n": "Coeurls Chase Boys Chase Coeurls",
+        "l": 60,
+        "t": "Notorious Monster",
+        "z": 2000
+      }
+    }
+  ]
+}

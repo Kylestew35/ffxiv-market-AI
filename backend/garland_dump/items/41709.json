@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Vegetal Voucher",
+    "description": "A voucher ostensibly named for its verdant color.<br><br>Can be exchanged with the horrendous hoarder for an island adenium whistle.",
+    "id": 41709,
+    "patch": 6.5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 26185,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41709",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41668",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Shop",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41650",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41709",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "41668",
+      "obj": {
+        "i": 41668,
+        "n": "Felicitous Token",
+        "l": 1,
+        "c": "t/65104",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "41650",
+      "obj": {
+        "i": 41650,
+        "n": "Island Adenium Whistle",
+        "l": 1,
+        "c": 26039,
+        "t": 63
+      }
+    }
+  ]
+}

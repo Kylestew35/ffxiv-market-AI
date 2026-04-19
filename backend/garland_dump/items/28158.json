@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Chocolate Fountain",
+    "description": "Complete with a range of fruit and other sweet treats. Just try not to get any chocolate on the upholstery.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Determination Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 28158,
+    "patch": 5.1,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53316,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1032099
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28158",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28650",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "871"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032099",
+      "obj": {
+        "i": 1032099,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28650",
+      "obj": {
+        "i": 28650,
+        "n": "Valentione's Day Chocolate MMXX",
+        "l": 1,
+        "c": 24063,
+        "t": 85
+      }
+    }
+  ]
+}

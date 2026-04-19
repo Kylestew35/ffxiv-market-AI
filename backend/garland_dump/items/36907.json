@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Hippo Cart Horn",
+    "description": "When blown, this horn produces a rumbling sound that calls a hippo to your side, cart and all.",
+    "mount": {
+      "name": "Hippo Cart",
+      "action": "Summon forth your hippo cart, a mean if not so lean transporting machine.",
+      "description": "Drawing upon the design of chocobo carriages, a collective of Arkasodara youths invented this two-wheeled hippo-drawn cart. The sunshade cloth incorporates techniques used in crafting Corvosi flying carpets, and grants cart and hippo both the ability to soar the skies.",
+      "tooltip": "A hippo cart can outrun<br>most anythin' in this jungle.<br>   - Trna",
+      "icon": 4228,
+      "guideIcon": 68228
+    },
+    "id": 36907,
+    "patch": 6.15,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Arkasodara Pana Exchange",
+        "npcs": [
+          1042424
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36907",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36657",
+                "amount": 18
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "778-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1042424",
+      "obj": {
+        "i": 1042424,
+        "n": "Ghanta",
+        "l": 3709,
+        "s": 2,
+        "t": "Peddler",
+        "r": 1,
+        "a": 4030,
+        "c": [
+          20.51,
+          28.49
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36657",
+      "obj": {
+        "i": 36657,
+        "n": "Arkasodara Pana",
+        "l": 1,
+        "c": "t/65091",
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "item": {
+    "name": "Herring Pie",
+    "description": "Chunks of seasoned herring baked into a flaky crust that's been shaped like a fish so as to inform the eater to expect savory instead of sweet.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 29504,
+    "patch": 5.2,
+    "patchCategory": 6,
+    "price": 3785,
+    "ilvl": 480,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 53
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 54
+        },
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 32
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 66
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 68
+        },
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 40
+        }
+      }
+    },
+    "icon": 24052,
+    "craft": [
+      {
+        "id": 33893,
+        "job": 15,
+        "rlvl": 480,
+        "durability": 70,
+        "quality": 8500,
+        "progress": 2800,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29491,
+        "ingredients": [
+          {
+            "id": 29510,
+            "amount": 2
+          },
+          {
+            "id": 27841,
+            "amount": 1,
+            "quality": 460.78827
+          },
+          {
+            "id": 27828,
+            "amount": 2
+          },
+          {
+            "id": 27782,
+            "amount": 2
+          },
+          {
+            "id": 27829,
+            "amount": 1
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 532,
+          "hq": 552
+        }
+      }
+    ],
+    "quests": [
+      69312,
+      69544
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Platinum Herring",
+      "id": 29510,
+      "icon": 29044,
+      "category": 47,
+      "ilvl": 480,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29510",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29510",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Mist Spinach",
+      "id": 27828,
+      "icon": 25206,
+      "category": 45,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        839
+      ],
+      "nodes": [
+        631
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Creamtop Mushroom",
+      "id": 27829,
+      "icon": 25402,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "desynthedFrom": [
+        35564
+      ],
+      "ventures": [
+        829
+      ],
+      "nodes": [
+        619
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "631",
+      "obj": {
+        "i": 631,
+        "n": "Bowrest",
+        "l": 80,
+        "t": 3,
+        "z": 2957,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "619",
+      "obj": {
+        "i": 619,
+        "n": "The Deliberating Doll",
+        "l": 75,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29491",
+      "obj": {
+        "i": 29491,
+        "n": "Master Culinarian VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29510",
+      "obj": {
+        "i": 29510,
+        "n": "Platinum Herring",
+        "l": 480,
+        "c": 29044,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27828",
+      "obj": {
+        "i": 27828,
+        "n": "Mist Spinach",
+        "l": 415,
+        "c": 25206,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27829",
+      "obj": {
+        "i": 27829,
+        "n": "Creamtop Mushroom",
+        "l": 406,
+        "c": 25402,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69312",
+      "obj": {
+        "i": 69312,
+        "n": "Etched in the Stars",
+        "g": 9,
+        "l": "The Tempest",
+        "s": 260
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69544",
+      "obj": {
+        "i": 69544,
+        "n": "The Wisdom of Allag",
+        "g": 10,
+        "l": "Azys Lla",
+        "s": 340
+      }
+    }
+  ]
+}

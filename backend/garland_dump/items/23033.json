@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Frilled Dragon",
+    "description": "Also known as the <span class=\"emphasis\">chlamydosaurus</span> but...uh, yeah.<br><br>Use item to acquire the frilled dragon minion.",
+    "minionrace": "Critter",
+    "tooltip": "Are you some kind of\r\nlesser dragon, kupo?\r\n   - Mogzin",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Desert Sprint",
+    "specialactiondescription": "Increases movement speed of all allies within range by 35%.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 23033,
+    "patch": 4.35,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59695,
+    "tradeShops": [
+      {
+        "shop": "Exchange artifacts",
+        "npcs": [
+          1025848
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23033",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23164",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 30,
+      "Attack": 35,
+      "Defense": 30,
+      "Speed": 3
+    },
+    "models": [
+      "8264-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025848",
+      "obj": {
+        "i": 1025848,
+        "n": "Confederate Custodian",
+        "l": 2409,
+        "s": 2,
+        "r": 1,
+        "a": 2775,
+        "c": [
+          21.29,
+          9.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23164",
+      "obj": {
+        "i": 23164,
+        "n": "Empyrean Potsherd",
+        "l": 1,
+        "c": 26537,
+        "t": 61
+      }
+    }
+  ]
+}

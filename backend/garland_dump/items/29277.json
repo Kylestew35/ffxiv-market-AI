@@ -1,0 +1,236 @@
+{
+  "item": {
+    "name": "Augmented Crystarium Circlet of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 29277,
+    "patch": 5.2,
+    "patchCategory": 0,
+    "price": 65576,
+    "ilvl": 500,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 975,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1726,
+    "slot": 3,
+    "elvl": 80,
+    "jobs": 59,
+    "models": [
+      "650-1-0-0"
+    ],
+    "attr": {
+      "Defense": 572,
+      "Magic Defense": 572,
+      "Strength": 120,
+      "Vitality": 123,
+      "Tenacity": 118,
+      "Critical Hit": 83
+    },
+    "attr_max": {
+      "Strength": 323,
+      "Dexterity": 323,
+      "Vitality": 333,
+      "Intelligence": 323,
+      "Mind": 323,
+      "Piety": 318,
+      "GP": 3,
+      "CP": 5,
+      "Tenacity": 318,
+      "Defense": 2700,
+      "Direct Hit Rate": 318,
+      "Magic Defense": 2700,
+      "Critical Hit": 318,
+      "Fire Resistance": 43,
+      "Ice Resistance": 43,
+      "Wind Resistance": 43,
+      "Earth Resistance": 43,
+      "Lightning Resistance": 43,
+      "Water Resistance": 43,
+      "Determination": 318,
+      "Skill Speed": 318,
+      "Spell Speed": 318,
+      "Slow Resistance": 15,
+      "Petrification Resistance": 15,
+      "Paralysis Resistance": 15,
+      "Silence Resistance": 15,
+      "Blind Resistance": 15,
+      "Poison Resistance": 15,
+      "Stun Resistance": 15,
+      "Sleep Resistance": 15,
+      "Bind Resistance": 15,
+      "Heavy Resistance": 15,
+      "Doom Resistance": 15,
+      "Craftsmanship": 178,
+      "Control": 770,
+      "Gathering": 168,
+      "Perception": 840
+    },
+    "icon": 40855,
+    "sharedModels": [
+      29197,
+      29203,
+      29283
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW, IL 500)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29277",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Crystarium Gear Augmentation (DoW) I",
+        "npcs": [
+          1027563
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29277",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29197",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Crystarium Gear (IL 500)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29277",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "29197",
+      "obj": {
+        "i": 29197,
+        "n": "Crystarium Circlet of Fending",
+        "l": 490,
+        "c": 40855,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29203",
+      "obj": {
+        "i": 29203,
+        "n": "Crystarium Circlet of Maiming",
+        "l": 490,
+        "c": 40856,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29283",
+      "obj": {
+        "i": 29283,
+        "n": "Augmented Crystarium Circlet of Maiming",
+        "l": 500,
+        "c": 40856,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027563",
+      "obj": {
+        "i": 1027563,
+        "n": "Shee-Tatch",
+        "l": 2952,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.34,
+          12.05
+        ]
+      }
+    }
+  ]
+}

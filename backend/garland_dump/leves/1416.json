@@ -1,0 +1,609 @@
+{
+  "leve": {
+    "name": "Kindling the Flame",
+    "description": "One of the laborers in Amh Araeng approached me seeking a ring of wood that would be fit to use in a marriage proposal. A peculiar request, to be sure, but now that love is in the air, perhaps it would be prudent to add such an item to my stock in anticipation of further demand.",
+    "id": 1416,
+    "patch": 5.0,
+    "client": "Caravan Leader, Cassard",
+    "lvl": 78,
+    "jobCategory": 9,
+    "levemete": 1027848,
+    "areaid": 2951,
+    "xp": 495550,
+    "gil": 3629,
+    "rewards": 641,
+    "plate": 80061,
+    "frame": 80005,
+    "areaicon": 110113,
+    "requires": [
+      {
+        "item": 27230
+      }
+    ],
+    "complexity": {
+      "nq": 10,
+      "hq": 270
+    }
+  },
+  "rewards": {
+    "id": 641,
+    "entries": [
+      {
+        "item": 10,
+        "rate": 0.23,
+        "amount": 85
+      },
+      {
+        "item": 9,
+        "rate": 0.23,
+        "amount": 85
+      },
+      {
+        "item": 27693,
+        "rate": 0.23
+      },
+      {
+        "item": 10,
+        "rate": 0.1,
+        "amount": 102
+      },
+      {
+        "item": 9,
+        "rate": 0.1,
+        "amount": 102
+      },
+      {
+        "item": 27693,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Lignum Vitae Ring",
+      "id": 27230,
+      "icon": 54660,
+      "category": 43,
+      "ilvl": 430,
+      "price": 18925,
+      "craft": [
+        {
+          "id": 4466,
+          "job": 8,
+          "rlvl": 418,
+          "durability": 80,
+          "quality": 4500,
+          "progress": 1710,
+          "lvl": 79,
+          "materialQualityFactor": 75,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27693,
+              "amount": 1,
+              "quality": 1687.5
+            },
+            {
+              "id": 27715,
+              "amount": 1,
+              "quality": 1687.5
+            },
+            {
+              "id": 10,
+              "amount": 7
+            },
+            {
+              "id": 9,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 250,
+            "hq": 270
+          }
+        }
+      ],
+      "vendors": [
+        1027242,
+        1052589,
+        1052601,
+        1052609,
+        1052610,
+        1052641,
+        1052651
+      ]
+    },
+    {
+      "name": "Lignum Vitae Lumber",
+      "id": 27693,
+      "icon": 22454,
+      "category": 50,
+      "ilvl": 415,
+      "price": 3075,
+      "craft": [
+        {
+          "id": 3816,
+          "job": 8,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27687,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "desynthedFrom": [
+        33295,
+        33267,
+        28992,
+        28991,
+        33273,
+        30387,
+        33282,
+        27605,
+        27227,
+        26356
+      ],
+      "leves": [
+        1415,
+        1416,
+        1417
+      ]
+    },
+    {
+      "name": "Lignum Vitae Log",
+      "id": 27687,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        817
+      ],
+      "nodes": [
+        621
+      ]
+    },
+    {
+      "name": "Dwarven Mythril Nugget",
+      "id": 27715,
+      "icon": 20818,
+      "category": 49,
+      "ilvl": 415,
+      "price": 3075,
+      "craft": [
+        {
+          "id": 3831,
+          "job": 11,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27702,
+              "amount": 4
+            },
+            {
+              "id": 12531,
+              "amount": 1
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        31821,
+        31890,
+        26925,
+        26933,
+        25611,
+        25617,
+        26931,
+        27230,
+        26922,
+        26926,
+        29381,
+        28255,
+        31873,
+        26929
+      ],
+      "leves": [
+        1520,
+        1521,
+        1522
+      ]
+    },
+    {
+      "name": "Dimythrite Sand",
+      "id": 27702,
+      "icon": 22650,
+      "category": 48,
+      "ilvl": 418,
+      "price": 210,
+      "voyages": [
+        {
+          "id": 55,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        807
+      ],
+      "nodes": [
+        602
+      ]
+    },
+    {
+      "name": "Mythrite Sand",
+      "id": 12531,
+      "icon": 21218,
+      "category": 48,
+      "ilvl": 115,
+      "price": 683,
+      "voyages": [
+        {
+          "id": 19,
+          "type": 0
+        },
+        {
+          "id": 24,
+          "type": 1
+        }
+      ],
+      "leves": [
+        968,
+        969,
+        970,
+        971,
+        972,
+        973,
+        998,
+        999,
+        1000,
+        1001,
+        1002,
+        1003,
+        1118,
+        1119,
+        1120,
+        1121,
+        1122,
+        1123
+      ],
+      "ventures": [
+        445
+      ],
+      "nodes": [
+        288
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27687",
+      "obj": {
+        "i": 27687,
+        "n": "Lignum Vitae Log",
+        "l": 415,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "621",
+      "obj": {
+        "i": 621,
+        "n": "Hare Among Giants",
+        "l": 80,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "27702",
+      "obj": {
+        "i": 27702,
+        "n": "Dimythrite Sand",
+        "l": 418,
+        "c": 22650,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12531",
+      "obj": {
+        "i": 12531,
+        "n": "Mythrite Sand",
+        "l": 115,
+        "c": 21218,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "602",
+      "obj": {
+        "i": 602,
+        "n": "Mount Biran Mines",
+        "l": 80,
+        "t": 1,
+        "z": 2955
+      }
+    },
+    {
+      "type": "node",
+      "id": "288",
+      "obj": {
+        "i": 288,
+        "n": "Twinpools",
+        "l": 55,
+        "t": 1,
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "27220",
+      "obj": {
+        "i": 27220,
+        "n": "White Ash Ring",
+        "l": 390,
+        "c": 54659,
+        "t": 43,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "30480",
+      "obj": {
+        "i": 30480,
+        "n": "Aesthete's Ring of Gathering",
+        "l": 490,
+        "c": 54676,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35451",
+      "obj": {
+        "i": 35451,
+        "n": "Horse Chestnut Ring of Gathering",
+        "l": 480,
+        "c": 54704,
+        "t": 43,
+        "p": 19159
+      }
+    },
+    {
+      "type": "item",
+      "id": "39859",
+      "obj": {
+        "i": 39859,
+        "n": "Artful Afflatus Ring",
+        "l": 620,
+        "c": 54719,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39863",
+      "obj": {
+        "i": 39863,
+        "n": "Natural Afflatus Ring",
+        "l": 620,
+        "c": 54719,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "43331",
+      "obj": {
+        "i": 43331,
+        "n": "Ginseng Ring",
+        "l": 610,
+        "c": 54727,
+        "t": 43,
+        "p": 21408
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027242",
+      "obj": {
+        "i": 1027242,
+        "n": "Ania",
+        "l": 2951,
+        "s": 2,
+        "t": "Jeweler",
+        "a": 3257,
+        "c": [
+          8.82,
+          13.85
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052589",
+      "obj": {
+        "i": 1052589,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.87
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052601",
+      "obj": {
+        "i": 1052601,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.87
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052609",
+      "obj": {
+        "i": 1052609,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.86
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052610",
+      "obj": {
+        "i": 1052610,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.86
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052641",
+      "obj": {
+        "i": 1052641,
+        "n": "Godgyth",
+        "l": 5301,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          28.7,
+          13.46
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052651",
+      "obj": {
+        "i": 1052651,
+        "n": "Godgyth",
+        "l": 5406,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "a": 5420,
+        "c": [
+          17.45,
+          24.59
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27693",
+      "obj": {
+        "i": 27693,
+        "n": "Lignum Vitae Lumber",
+        "l": 415,
+        "c": 22454,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27715",
+      "obj": {
+        "i": 27715,
+        "n": "Dwarven Mythril Nugget",
+        "l": 415,
+        "c": 20818,
+        "t": 49
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1416",
+      "obj": {
+        "i": 1416,
+        "n": "Kindling the Flame",
+        "l": 78,
+        "j": 9,
+        "p": 2951
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027848",
+      "obj": {
+        "i": 1027848,
+        "n": "Moyce",
+        "l": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "27230",
+      "obj": {
+        "i": 27230,
+        "n": "Lignum Vitae Ring",
+        "l": 430,
+        "c": 54660,
+        "t": 43,
+        "p": 18925
+      }
+    }
+  ]
+}

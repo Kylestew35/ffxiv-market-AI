@@ -1,0 +1,138 @@
+{
+  "item": {
+    "name": "Sliced Watermelon",
+    "description": "This juicy, fresh-cut watermelon makes the perfect summer treat.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Tenacity Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 30427,
+    "patch": 5.3,
+    "patchCategory": 9,
+    "price": 300,
+    "ilvl": 430,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 15,
+    "icon": 53370,
+    "craft": [
+      {
+        "id": 4651,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 30873,
+            "amount": 1
+          },
+          {
+            "id": 19907,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 342,
+          "hq": 362
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "891"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Allagan Melon",
+      "id": 30873,
+      "icon": 59786,
+      "category": 81,
+      "ilvl": 1,
+      "price": 100,
+      "seeds": [
+        30364
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30873",
+      "obj": {
+        "i": 30873,
+        "n": "Allagan Melon",
+        "l": 1,
+        "c": 59786,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    }
+  ]
+}

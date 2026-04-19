@@ -1,0 +1,87 @@
+{
+  "item": {
+    "name": "Dusken Draught",
+    "description": "Powdered coral gives this medicinal concoction the deep amber tone from which it gets its name. It is distributed to members of the Lominsan Armada during battle to provide quick recovery from physical wounds.",
+    "id": 4561,
+    "patch": 1.0,
+    "patchCategory": 4,
+    "price": 990,
+    "ilvl": 50,
+    "category": 44,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "attr": {
+      "action": {
+        "HP": {
+          "rate": 50,
+          "limit": 1000
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "HP": {
+          "rate": 63,
+          "limit": 1250
+        }
+      }
+    },
+    "icon": 20624,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4561",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 2850
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    }
+  ]
+}

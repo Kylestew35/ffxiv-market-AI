@@ -1,0 +1,621 @@
+{
+  "item": {
+    "name": "Caviar Sandwich",
+    "description": "Its every bite extraordinary enough to render one speechless, this sandwich incorporates eggs from the caviar sturgeon and bird of Elpis both. Given the further inclusion of alligator pear slices, one cannot help but wonder at its inventor's obvious preference for ovoid foodstuffs.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 39875,
+    "patch": 6.4,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 82
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 114
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 49
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 103
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 143
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 62
+        }
+      }
+    },
+    "icon": 24009,
+    "craft": [
+      {
+        "id": 35596,
+        "job": 15,
+        "rlvl": 640,
+        "durability": 70,
+        "quality": 14040,
+        "progress": 6600,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3660,
+        "craftsmanshipReq": 3950,
+        "unlockId": 37741,
+        "ingredients": [
+          {
+            "id": 39867,
+            "amount": 1
+          },
+          {
+            "id": 36078,
+            "amount": 2,
+            "quality": 1122.5093
+          },
+          {
+            "id": 27841,
+            "amount": 1,
+            "quality": 869.94464
+          },
+          {
+            "id": 36256,
+            "amount": 1
+          },
+          {
+            "id": 4813,
+            "amount": 1
+          },
+          {
+            "id": 38936,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 714,
+          "hq": 734
+        }
+      }
+    ],
+    "quests": [
+      70288
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Caviar Sturgeon",
+      "id": 39867,
+      "icon": 29225,
+      "category": 47,
+      "ilvl": 640,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39867",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39867",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Northern Sea Salt",
+      "id": 36078,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5283,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36084,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sharlayan Rock Salt",
+      "id": 36084,
+      "icon": 22688,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "leves": [
+        1638
+      ],
+      "ventures": [
+        895
+      ],
+      "nodes": [
+        815
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Egg of Elpis",
+      "id": 36256,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36256",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1644,
+        1645
+      ],
+      "ventures": [
+        945
+      ]
+    },
+    {
+      "name": "Alligator Pear",
+      "id": 4813,
+      "icon": 25313,
+      "category": 45,
+      "ilvl": 30,
+      "price": 128,
+      "ventures": [
+        263
+      ],
+      "nodes": [
+        27
+      ]
+    },
+    {
+      "name": "Earthbreak Aethersand",
+      "id": 38936,
+      "icon": 21246,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "reducedFrom": [
+        38938,
+        38937,
+        38841,
+        38939
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36084",
+      "obj": {
+        "i": 36084,
+        "n": "Sharlayan Rock Salt",
+        "l": 520,
+        "c": 22688,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "815",
+      "obj": {
+        "i": 815,
+        "n": "The Aesthete's Tholos",
+        "l": 85,
+        "t": 0,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Silent Arbor",
+        "l": 30,
+        "t": 2,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "38938",
+      "obj": {
+        "i": 38938,
+        "n": "Sophora Roots",
+        "l": 600,
+        "c": 25025,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38937",
+      "obj": {
+        "i": 38937,
+        "n": "Earthen Quartz",
+        "l": 600,
+        "c": 21458,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "38841",
+      "obj": {
+        "i": 38841,
+        "n": "Nosceasaur",
+        "l": 600,
+        "c": 28548,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38939",
+      "obj": {
+        "i": 38939,
+        "n": "Verdigris Guppy",
+        "l": 600,
+        "c": 28544,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "37741",
+      "obj": {
+        "i": 37741,
+        "n": "Master Culinarian X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39867",
+      "obj": {
+        "i": 39867,
+        "n": "Caviar Sturgeon",
+        "l": 640,
+        "c": 29225,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36078",
+      "obj": {
+        "i": 36078,
+        "n": "Northern Sea Salt",
+        "l": 520,
+        "c": 25104,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36256",
+      "obj": {
+        "i": 36256,
+        "n": "Egg of Elpis",
+        "l": 539,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4813",
+      "obj": {
+        "i": 4813,
+        "n": "Alligator Pear",
+        "l": 30,
+        "c": 25313,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "38936",
+      "obj": {
+        "i": 38936,
+        "n": "Earthbreak Aethersand",
+        "l": 600,
+        "c": 21246,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70288",
+      "obj": {
+        "i": 70288,
+        "n": "The Game Is Afoot",
+        "g": 12,
+        "l": "Old Sharlayan",
+        "s": 664
+      }
+    }
+  ]
+}

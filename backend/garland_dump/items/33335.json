@@ -1,0 +1,126 @@
+{
+  "item": {
+    "name": "Lunar Ifrit Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 309",
+    "id": 33335,
+    "patch": 5.55,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tradeShops": [
+      {
+        "shop": "Triple Triad Cards",
+        "npcs": [
+          1010478,
+          1016294,
+          1016296
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33335",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 22400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "This twisted fiend is believed to have been forcibly summoned by Amalj'aa held captive in one of the Telophoroi's towers. While similar in many ways to the Lord of the Inferno, he lacks the capacity to temper those in his vicinity."
+      },
+      "ja": {
+        "description": "テロフォロイが使役する異形の蛮神。おそらく誘拐されたアマルジャ族の祈りを利用し、「異形の塔」において召喚されたものと思われる。焔神イフリートと同等以上の戦闘力を秘めているが、他者をテンパードにする能力はないようだ。"
+      },
+      "de": {
+        "description": "Diese Manifestation des Primae wurde vermutlich von den Amalj'aa gerufen, die in einem der Türme der Telophoroi eingesperrt waren. Ihre gemarterten Seelen hatten zur Folge, dass Ifrits Erscheinung ebenso verzerrt und verändert ist."
+      },
+      "fr": {
+        "description": "Les Télophores ont capturé des Amalj'aa puis ont canalisé leurs prières dans une tour de l'apocalypse afin de donner naissance à ce Néo-Primodial. Bien que Luna-Ifrit soit plus puissant que le Seigneur des flammes original, il ne bénéficie pas de son redoutable pouvoir de subjugation."
+      },
+      "type": "Primal",
+      "sellMgp": 500,
+      "plate": 87320,
+      "rarity": 3,
+      "top": 8,
+      "bottom": 4,
+      "left": 7,
+      "right": 3
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010478",
+      "obj": {
+        "i": 1010478,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 1487,
+        "c": [
+          4.14,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016294",
+      "obj": {
+        "i": 1016294,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.02,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016296",
+      "obj": {
+        "i": 1016296,
+        "n": "Triple Triad Trader",
+        "l": 1665,
+        "s": 1,
+        "r": 1,
+        "c": [
+          3.56,
+          3.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

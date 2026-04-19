@@ -1,0 +1,276 @@
+{
+  "item": {
+    "name": "Aetheryte Ticket",
+    "description": "Good for a single journey through the aetheryte network.<br><br>[Collected in place of gil when using the Teleport command.]",
+    "id": 7569,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25918,
+    "tradeShops": [
+      {
+        "shop": "Exchange Centurio Seals",
+        "npcs": [
+          1012225
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7569",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gold Chocobo Feather Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7569",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "12994",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allied Seals (Other)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7569",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      65782,
+      66048,
+      68852
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012225",
+      "obj": {
+        "i": 1012225,
+        "n": "Ardolain",
+        "l": 2300,
+        "s": 2,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.05,
+          11.85
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12994",
+      "obj": {
+        "i": 12994,
+        "n": "Gold Chocobo Feather",
+        "l": 1,
+        "c": 21901,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65782",
+      "obj": {
+        "i": 65782,
+        "n": "Feast of Famine",
+        "g": 111,
+        "l": "Limsa Lominsa",
+        "s": 515
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66048",
+      "obj": {
+        "i": 66048,
+        "n": "Where Did Our Loves Go",
+        "g": 238,
+        "l": "Gridania",
+        "s": 72
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68852",
+      "obj": {
+        "i": 68852,
+        "n": "The Lawless Ones",
+        "g": 8,
+        "l": "Il Mheg",
+        "s": 380
+      }
+    }
+  ]
+}

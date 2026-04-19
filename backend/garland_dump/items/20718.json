@@ -1,0 +1,305 @@
+{
+  "item": {
+    "name": "Hingan Flooring",
+    "description": "Floorboards designed to complement Hingan residences.",
+    "id": 20718,
+    "patch": 4.1,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 285,
+    "category": 74,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 51033,
+    "craft": [
+      {
+        "id": 3715,
+        "job": 8,
+        "rlvl": 285,
+        "durability": 80,
+        "quality": 1710,
+        "progress": 980,
+        "lvl": 68,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 19928,
+            "amount": 5,
+            "quality": 149.0367
+          },
+          {
+            "id": 7009,
+            "amount": 4,
+            "quality": 15.688073
+          },
+          {
+            "id": 7008,
+            "amount": 3
+          },
+          {
+            "id": 10,
+            "amount": 5
+          },
+          {
+            "id": 9,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 297,
+          "hq": 317
+        }
+      }
+    ],
+    "desynthedTo": [
+      7008,
+      7009,
+      19928
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Zelkova Lumber",
+      "id": 19928,
+      "icon": 22459,
+      "category": 50,
+      "ilvl": 285,
+      "price": 3264,
+      "craft": [
+        {
+          "id": 3612,
+          "job": 8,
+          "rlvl": 285,
+          "durability": 40,
+          "quality": 2736,
+          "progress": 490,
+          "lvl": 68,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19933,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 64,
+            "hq": 84
+          }
+        }
+      ],
+      "desynthedFrom": [
+        17957,
+        20718,
+        17960,
+        20711,
+        18865
+      ],
+      "leves": [
+        1247,
+        1248,
+        1249,
+        1250,
+        1252
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Zelkova Log",
+      "id": 19933,
+      "icon": 22409,
+      "category": 50,
+      "ilvl": 279,
+      "price": 546,
+      "leves": [
+        1251
+      ],
+      "ventures": [
+        678
+      ],
+      "drops": [
+        65880000005716
+      ],
+      "nodes": [
+        514
+      ]
+    },
+    {
+      "name": "Cut Stone",
+      "id": 7009,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 30,
+      "price": 440,
+      "craft": [
+        {
+          "id": 1581,
+          "job": 11,
+          "rlvl": 30,
+          "durability": 40,
+          "quality": 680,
+          "progress": 51,
+          "lvl": 30,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 7008,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ],
+      "desynthedFrom": [
+        37374,
+        20718,
+        36866,
+        36868,
+        36870,
+        36871,
+        6379,
+        6390,
+        6397,
+        20701,
+        8012,
+        10346
+      ]
+    },
+    {
+      "name": "Granite",
+      "id": 7008,
+      "icon": 22615,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "desynthedFrom": [
+        20718,
+        37401,
+        6377,
+        6390,
+        20689,
+        8012,
+        12754
+      ],
+      "ventures": [
+        133
+      ],
+      "nodes": [
+        178
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19933",
+      "obj": {
+        "i": 19933,
+        "n": "Zelkova Log",
+        "l": 279,
+        "c": 22409,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "514",
+      "obj": {
+        "i": 514,
+        "n": "Abalathia's Skull",
+        "l": 70,
+        "t": 2,
+        "z": 2408
+      }
+    },
+    {
+      "type": "mob",
+      "id": "65880000005716",
+      "obj": {
+        "i": 65880000005716,
+        "n": "Kaluk",
+        "l": "69",
+        "z": 2408
+      }
+    },
+    {
+      "type": "item",
+      "id": "7008",
+      "obj": {
+        "i": 7008,
+        "n": "Granite",
+        "l": 30,
+        "c": 22615,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "178",
+      "obj": {
+        "i": 178,
+        "n": "Sorrel Haven",
+        "l": 35,
+        "t": 0,
+        "z": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19928",
+      "obj": {
+        "i": 19928,
+        "n": "Zelkova Lumber",
+        "l": 285,
+        "c": 22459,
+        "t": 50,
+        "p": 3264
+      }
+    },
+    {
+      "type": "item",
+      "id": "7009",
+      "obj": {
+        "i": 7009,
+        "n": "Cut Stone",
+        "l": 30,
+        "c": 21470,
+        "t": 48
+      }
+    }
+  ]
+}

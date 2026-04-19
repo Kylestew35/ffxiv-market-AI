@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Select Bait Ball",
+    "description": "A specialized bait ball procured by the Boutique of Splendors. This unique paste has been designed to attract a highly specific type of catch.",
+    "jobCategories": "FSH",
+    "id": 38808,
+    "patch": 6.35,
+    "patchCategory": 2,
+    "price": 99999,
+    "ilvl": 560,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 90,
+    "jobs": 19,
+    "icon": 27011,
+    "tradeShops": [
+      {
+        "shop": "Gatherers' Scrip Exchange",
+        "npcs": [
+          1045069
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38808",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "47",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1045069",
+      "obj": {
+        "i": 1045069,
+        "n": "Quinnana",
+        "l": 2951,
+        "s": 3,
+        "t": "Splendorous Tool Exchange",
+        "r": 1,
+        "a": 3252,
+        "c": [
+          10.44,
+          7.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Allagan Tomestone of Heliometry",
+        "l": 1,
+        "c": "t/65108",
+        "t": 63
+      }
+    }
+  ]
+}

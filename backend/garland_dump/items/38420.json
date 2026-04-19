@@ -1,0 +1,100 @@
+{
+  "item": {
+    "name": "Manderium Meteorite",
+    "description": "This fist-sized hunk of meteorite contains rich deposits of exceedingly rare manderium ore. Provides a small quantity of mineral oil when subjected to a unique extraction and refinement process.",
+    "id": 38420,
+    "patch": 6.25,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21225,
+    "tradeShops": [
+      {
+        "shop": "Manderville Weapon Materials Exchange",
+        "npcs": [
+          1043892
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38420",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      70188,
+      70189
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043892",
+      "obj": {
+        "i": 1043892,
+        "n": "Jubrunnah",
+        "l": 3707,
+        "s": 1,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3875,
+        "c": [
+          12.22,
+          10.99
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70188",
+      "obj": {
+        "i": 70188,
+        "n": "Make It a Manderville",
+        "g": 85,
+        "l": "Radz-at-Han",
+        "s": 101,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70189",
+      "obj": {
+        "i": 70189,
+        "n": "Make Another Manderville",
+        "g": 85,
+        "l": "Radz-at-Han",
+        "s": 151,
+        "r": 1,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "item": {
+    "name": "Vintage Buckler",
+    "jobCategories": "GLA CNJ THM PLD WHM BLM",
+    "id": 2264,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 9421,
+    "ilvl": 46,
+    "category": 11,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 31,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 5598,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 2,
+    "elvl": 43,
+    "jobs": 56,
+    "models": [
+      "101-5-1-0"
+    ],
+    "attr": {
+      "Block Strength": 91,
+      "Block Rate": 91,
+      "Intelligence": 4,
+      "Mind": 4,
+      "Vitality": 4,
+      "Direct Hit Rate": 5
+    },
+    "attr_hq": {
+      "Block Strength": 101,
+      "Block Rate": 101,
+      "Intelligence": 4,
+      "Mind": 4,
+      "Vitality": 4,
+      "Direct Hit Rate": 6
+    },
+    "attr_max": {
+      "Strength": 2,
+      "Dexterity": 2,
+      "Piety": 6,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 6,
+      "Critical Hit": 6,
+      "Fire Resistance": 2,
+      "Ice Resistance": 2,
+      "Wind Resistance": 2,
+      "Earth Resistance": 2,
+      "Lightning Resistance": 2,
+      "Water Resistance": 2,
+      "Determination": 6,
+      "Skill Speed": 6,
+      "Spell Speed": 6,
+      "Craftsmanship": 104,
+      "Control": 59,
+      "Gathering": 62,
+      "Perception": 109
+    },
+    "icon": 30004,
+    "sharedModels": [
+      2227,
+      2231,
+      2239,
+      2260,
+      2274,
+      2293,
+      2303,
+      2309,
+      31649
+    ],
+    "craft": [
+      {
+        "id": 1241,
+        "job": 10,
+        "rlvl": 43,
+        "durability": 80,
+        "quality": 1580,
+        "progress": 155,
+        "lvl": 43,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 2227,
+            "amount": 1
+          },
+          {
+            "id": 5374,
+            "amount": 1,
+            "quality": 400.12988
+          },
+          {
+            "id": 11,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 79,
+          "hq": 99
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Notched Buckler",
+      "id": 2227,
+      "icon": 30029,
+      "category": 11,
+      "ilvl": 38,
+      "price": 2723,
+      "instances": [
+        13
+      ],
+      "leves": [
+        249,
+        250,
+        251,
+        252,
+        253,
+        254
+      ],
+      "vendors": [
+        1003267,
+        1003270
+      ]
+    },
+    {
+      "name": "Mahogany Lumber",
+      "id": 5374,
+      "icon": 22462,
+      "category": 50,
+      "ilvl": 39,
+      "price": 620,
+      "craft": [
+        {
+          "id": 1083,
+          "job": 8,
+          "rlvl": 39,
+          "durability": 40,
+          "quality": 1072,
+          "progress": 68,
+          "lvl": 39,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5391,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 58,
+            "hq": 78
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6362,
+        6389,
+        31509
+      ],
+      "treasure": [
+        6689
+      ]
+    },
+    {
+      "name": "Mahogany Log",
+      "id": 5391,
+      "icon": 22410,
+      "category": 50,
+      "ilvl": 39,
+      "price": 181,
+      "leves": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ],
+      "ventures": [
+        286
+      ],
+      "nodes": [
+        137
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "13",
+      "obj": {
+        "i": 13,
+        "n": "Dzemael Darkhold",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 44,
+        "max_lvl": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003267",
+      "obj": {
+        "i": 1003267,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "q": 1,
+        "a": 231,
+        "c": [
+          14.9,
+          24.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003270",
+      "obj": {
+        "i": 1003270,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "c": [
+          "26.1",
+          "26.4"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5391",
+      "obj": {
+        "i": 5391,
+        "n": "Mahogany Log",
+        "l": 39,
+        "c": 22410,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "137",
+      "obj": {
+        "i": 137,
+        "n": "Raincatcher Gully",
+        "l": 40,
+        "t": 2,
+        "z": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "2227",
+      "obj": {
+        "i": 2227,
+        "n": "Notched Buckler",
+        "l": 38,
+        "c": 30029,
+        "t": 11,
+        "p": 2723
+      }
+    },
+    {
+      "type": "item",
+      "id": "2231",
+      "obj": {
+        "i": 2231,
+        "n": "Bronze Buckler",
+        "l": 14,
+        "c": 30004,
+        "t": 11,
+        "p": 598
+      }
+    },
+    {
+      "type": "item",
+      "id": "2239",
+      "obj": {
+        "i": 2239,
+        "n": "Ironclad Bronze Buckler",
+        "l": 21,
+        "c": 30005,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "2260",
+      "obj": {
+        "i": 2260,
+        "n": "Decorated Buckler",
+        "l": 34,
+        "c": 30006,
+        "t": 11,
+        "p": 4527
+      }
+    },
+    {
+      "type": "item",
+      "id": "2274",
+      "obj": {
+        "i": 2274,
+        "n": "Gridanian Buckler",
+        "l": 43,
+        "c": 30043,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "2293",
+      "obj": {
+        "i": 2293,
+        "n": "Warlock's Buckler",
+        "l": 49,
+        "c": 30039,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "2303",
+      "obj": {
+        "i": 2303,
+        "n": "Darksteel Buckler",
+        "l": 70,
+        "c": 30039,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "2309",
+      "obj": {
+        "i": 2309,
+        "n": "Ancient Buckler",
+        "l": 90,
+        "c": 30090,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "31649",
+      "obj": {
+        "i": 31649,
+        "n": "Doctore's Buckler",
+        "l": 22,
+        "c": 30043,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "5374",
+      "obj": {
+        "i": 5374,
+        "n": "Mahogany Lumber",
+        "l": 39,
+        "c": 22462,
+        "t": 50
+      }
+    }
+  ]
+}

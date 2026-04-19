@@ -1,0 +1,114 @@
+{
+  "item": {
+    "name": "Sharlayan Fishcake Ingredient",
+    "description": "A key ingredient for making Sharlayan fishcakes.",
+    "id": 35846,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 560,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25055,
+    "craft": [
+      {
+        "id": 34793,
+        "job": 14,
+        "rlvl": 560,
+        "durability": 80,
+        "quality": 4320,
+        "progress": 2625,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 35845,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 8
+          },
+          {
+            "id": 12,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 100105,
+          "hq": 100125
+        }
+      },
+      {
+        "id": 34799,
+        "job": 15,
+        "rlvl": 560,
+        "durability": 80,
+        "quality": 4320,
+        "progress": 2625,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 35845,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 100105,
+          "hq": 100125
+        }
+      }
+    ],
+    "usedInQuest": [
+      69688
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Fishcake Ingredient Supplies",
+      "id": 35845,
+      "icon": 26109,
+      "category": 63,
+      "ilvl": 560,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "35845",
+      "obj": {
+        "i": 35845,
+        "n": "Fishcake Ingredient Supplies",
+        "l": 560,
+        "c": 26109,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69688",
+      "obj": {
+        "i": 69688,
+        "n": "Sharlayan Cuisine",
+        "g": 205,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    }
+  ]
+}

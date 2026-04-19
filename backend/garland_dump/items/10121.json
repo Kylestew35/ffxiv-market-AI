@@ -1,0 +1,405 @@
+{
+  "item": {
+    "name": "Bamboo Paper",
+    "description": "Thinly sliced bamboo used to preserve the aroma of rare fragrant wood.",
+    "id": 10121,
+    "patch": 2.5,
+    "patchCategory": 5,
+    "price": 4500,
+    "ilvl": 90,
+    "category": 50,
+    "dyecount": 0,
+    "sell_price": 360,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21005,
+    "tradeCurrency": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10109",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8031",
+                "amount": 30
+              },
+              {
+                "id": "10121",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10121",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allied Seals (Other)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10121",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10121",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10121",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10121",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "leves": [
+      710,
+      711,
+      712,
+      713
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8031",
+      "obj": {
+        "i": 8031,
+        "n": "Redolent Log",
+        "l": 75,
+        "c": 22415,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "10109",
+      "obj": {
+        "i": 10109,
+        "n": "Talan's Seal of Botany Mastery",
+        "l": 1,
+        "c": 26177,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10146",
+      "obj": {
+        "i": 10146,
+        "n": "Better Crowned Pie",
+        "l": 110,
+        "c": 24057,
+        "t": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "710",
+      "obj": {
+        "i": 710,
+        "n": "Caught in the Long Grass",
+        "l": 45,
+        "j": 18,
+        "p": 67
+      }
+    },
+    {
+      "type": "leve",
+      "id": "711",
+      "obj": {
+        "i": 711,
+        "n": "Topsy-turvy Time",
+        "l": 45,
+        "j": 18,
+        "p": 67
+      }
+    },
+    {
+      "type": "leve",
+      "id": "712",
+      "obj": {
+        "i": 712,
+        "n": "Wonders Don't Cease, They're Discontinued",
+        "l": 45,
+        "j": 18,
+        "p": 67
+      }
+    },
+    {
+      "type": "leve",
+      "id": "713",
+      "obj": {
+        "i": 713,
+        "n": "See How They Shine",
+        "l": 45,
+        "j": 18,
+        "p": 67
+      }
+    }
+  ]
+}

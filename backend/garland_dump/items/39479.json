@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Findingway",
+    "description": "Can find his own way without you, but chooses to tag along.<br><br>Use item to acquire the Findingway minion.",
+    "minionrace": "Monster",
+    "tooltip": "There's a whole world\r\nout there to explore!\r\n   - Shaggles",
+    "minionskilltype": "Special",
+    "specialactionname": "Discovery",
+    "specialactiondescription": "Instantly restores damaged ally Shield. ",
+    "id": 39479,
+    "patch": 6.35,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59872,
+    "tradeShops": [
+      {
+        "shop": "Loporrit Carat Exchange",
+        "npcs": [
+          1044404
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39479",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38952",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 45,
+      "Defense": 45,
+      "Speed": 2
+    },
+    "models": [
+      "8429-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1044404",
+      "obj": {
+        "i": 1044404,
+        "n": "Coiningway",
+        "l": 3711,
+        "s": 4,
+        "t": "Dreaming Vendor",
+        "r": 1,
+        "a": 4290,
+        "c": [
+          17.43,
+          15.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38952",
+      "obj": {
+        "i": 38952,
+        "n": "Loporrit Carat",
+        "l": 1,
+        "c": "t/65100",
+        "t": 100
+      }
+    }
+  ]
+}

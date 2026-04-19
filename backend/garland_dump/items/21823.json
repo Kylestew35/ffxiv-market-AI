@@ -1,0 +1,774 @@
+{
+  "item": {
+    "name": "Stuffed Alpha",
+    "description": "A charming recreation of the chocobo Alpha, filled with the feathers of a fowl less fortunate.",
+    "id": 21823,
+    "patch": 4.2,
+    "patchCategory": 9,
+    "price": 57024,
+    "ilvl": 350,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "icon": 53202,
+    "craft": [
+      {
+        "id": 32665,
+        "job": 13,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 2600,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "unlockId": 22314,
+        "ingredients": [
+          {
+            "id": 22308,
+            "amount": 1
+          },
+          {
+            "id": 21083,
+            "amount": 2,
+            "quality": 173.11694
+          },
+          {
+            "id": 19988,
+            "amount": 3,
+            "quality": 154.18227
+          },
+          {
+            "id": 19985,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 421,
+          "hq": 441
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "613"
+    ],
+    "desynthedTo": [
+      21083,
+      22308,
+      8144,
+      19988,
+      19985,
+      8150
+    ],
+    "alla": {
+      "source": [
+        "VENTURE"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Alpha's Feather",
+      "id": 22308,
+      "icon": 21901,
+      "category": 51,
+      "ilvl": 350,
+      "price": 2328,
+      "desynthedFrom": [
+        21823
+      ],
+      "instances": [
+        30062
+      ]
+    },
+    {
+      "name": "Ala Mhigan Burdet",
+      "id": 21083,
+      "icon": 21610,
+      "category": 51,
+      "ilvl": 320,
+      "price": 1000,
+      "craft": [
+        {
+          "id": 32457,
+          "job": 14,
+          "rlvl": 320,
+          "durability": 70,
+          "quality": 4320,
+          "progress": 720,
+          "lvl": 70,
+          "materialQualityFactor": 50,
+          "stars": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "controlReq": 1220,
+          "craftsmanshipReq": 1320,
+          "quickSynthCraftsmanship": 1500,
+          "unlockId": 17875,
+          "ingredients": [
+            {
+              "id": 21082,
+              "amount": 1
+            },
+            {
+              "id": 21085,
+              "amount": 3
+            },
+            {
+              "id": 21086,
+              "amount": 3
+            },
+            {
+              "id": 19,
+              "amount": 2
+            },
+            {
+              "id": 18,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 389,
+            "hq": 409
+          }
+        }
+      ],
+      "desynthedFrom": [
+        21823
+      ]
+    },
+    {
+      "name": "Gyr Abanian Alchemic",
+      "id": 21082,
+      "icon": 22666,
+      "category": 54,
+      "ilvl": 320,
+      "price": 1000,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21082",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21082",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gyr Abanian Spring Water",
+      "id": 21085,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 300,
+      "price": 333,
+      "ventures": [
+        748
+      ],
+      "nodes": [
+        503
+      ]
+    },
+    {
+      "name": "Azim Cotton Boll",
+      "id": 21086,
+      "icon": 25037,
+      "category": 51,
+      "ilvl": 300,
+      "price": 333,
+      "ventures": [
+        749
+      ],
+      "nodes": [
+        528
+      ]
+    },
+    {
+      "name": "Twinthread",
+      "id": 19988,
+      "icon": 21657,
+      "category": 51,
+      "ilvl": 285,
+      "price": 2516,
+      "craft": [
+        {
+          "id": 3643,
+          "job": 13,
+          "rlvl": 285,
+          "durability": 40,
+          "quality": 2736,
+          "progress": 490,
+          "lvl": 68,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19989,
+              "amount": 4
+            },
+            {
+              "id": 5491,
+              "amount": 1
+            },
+            {
+              "id": 12,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        19019,
+        20843,
+        19754,
+        25759,
+        21823
+      ],
+      "leves": [
+        1337,
+        1338,
+        1339,
+        1340,
+        1341,
+        1342
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Twincoon",
+      "id": 19989,
+      "icon": 21661,
+      "category": 51,
+      "ilvl": 285,
+      "price": 2198,
+      "ventures": [
+        707,
+        726
+      ],
+      "drops": [
+        66660000005713
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Effervescent Water",
+      "id": 5491,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 11,
+      "price": 16,
+      "ventures": [
+        105
+      ],
+      "nodes": [
+        47
+      ]
+    },
+    {
+      "name": "Halgai Mane",
+      "id": 19985,
+      "icon": 21655,
+      "category": 51,
+      "ilvl": 279,
+      "price": 2186,
+      "desynthedFrom": [
+        21823
+      ],
+      "instances": [
+        50,
+        52,
+        53,
+        54,
+        55,
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "ventures": [
+        722
+      ],
+      "drops": [
+        66440000005777
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30062",
+      "obj": {
+        "i": 30062,
+        "n": "Sigmascape V4.0",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 325
+      }
+    },
+    {
+      "type": "item",
+      "id": "17875",
+      "obj": {
+        "i": 17875,
+        "n": "Master Alchemist V",
+        "l": 1,
+        "c": 26158,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21082",
+      "obj": {
+        "i": 21082,
+        "n": "Gyr Abanian Alchemic",
+        "l": 320,
+        "c": 22666,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "21085",
+      "obj": {
+        "i": 21085,
+        "n": "Gyr Abanian Spring Water",
+        "l": 300,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "21086",
+      "obj": {
+        "i": 21086,
+        "n": "Azim Cotton Boll",
+        "l": 300,
+        "c": 25037,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "503",
+      "obj": {
+        "i": 503,
+        "n": "Wightrock",
+        "l": 70,
+        "t": 0,
+        "z": 2407,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "528",
+      "obj": {
+        "i": 528,
+        "n": "Onsal Hakair",
+        "l": 70,
+        "t": 3,
+        "z": 2411,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19989",
+      "obj": {
+        "i": 19989,
+        "n": "Twincoon",
+        "l": 285,
+        "c": 21661,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5491",
+      "obj": {
+        "i": 5491,
+        "n": "Effervescent Water",
+        "l": 11,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66660000005713",
+      "obj": {
+        "i": 66660000005713,
+        "n": "Highland Eruca",
+        "l": "68",
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "instance",
+      "id": "50",
+      "obj": {
+        "i": 50,
+        "n": "Shisui of the Violet Tides",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 63,
+        "max_lvl": 64,
+        "min_ilvl": 245
+      }
+    },
+    {
+      "type": "instance",
+      "id": "52",
+      "obj": {
+        "i": 52,
+        "n": "The Sirensong Sea",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 61,
+        "max_lvl": 62,
+        "min_ilvl": 240
+      }
+    },
+    {
+      "type": "instance",
+      "id": "53",
+      "obj": {
+        "i": 53,
+        "n": "Bardam's Mettle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 65,
+        "max_lvl": 66,
+        "min_ilvl": 250
+      }
+    },
+    {
+      "type": "instance",
+      "id": "54",
+      "obj": {
+        "i": 54,
+        "n": "Doma Castle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 67,
+        "max_lvl": 68,
+        "min_ilvl": 255
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55",
+      "obj": {
+        "i": 55,
+        "n": "Castrum Abania",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 69,
+        "max_lvl": 70,
+        "min_ilvl": 260,
+        "max_ilvl": 290
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66440000005777",
+      "obj": {
+        "i": 66440000005777,
+        "n": "Halgai",
+        "l": "65",
+        "z": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "22314",
+      "obj": {
+        "i": 22314,
+        "n": "Master Weaver VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "22308",
+      "obj": {
+        "i": 22308,
+        "n": "Alpha's Feather",
+        "l": 350,
+        "c": 21901,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "21083",
+      "obj": {
+        "i": 21083,
+        "n": "Ala Mhigan Burdet",
+        "l": 320,
+        "c": 21610,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "19988",
+      "obj": {
+        "i": 19988,
+        "n": "Twinthread",
+        "l": 285,
+        "c": 21657,
+        "t": 51,
+        "p": 2516
+      }
+    },
+    {
+      "type": "item",
+      "id": "19985",
+      "obj": {
+        "i": 19985,
+        "n": "Halgai Mane",
+        "l": 279,
+        "c": 21655,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "8144",
+      "obj": {
+        "i": 8144,
+        "n": "Clear Demimateria III",
+        "l": 50,
+        "c": 20239,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8150",
+      "obj": {
+        "i": 8150,
+        "n": "Fieldcraft Demimateria III",
+        "l": 70,
+        "c": 20243,
+        "t": 83
+      }
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "item": {
+    "name": "Glamour Dispeller",
+    "description": "This black prism absorbs the magical lights woven upon a glamoured piece of equipment, thus dispelling the optical illusion. Be fairly warned that dyes and company crests are also removed in the process.",
+    "id": 7621,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 500,
+    "ilvl": 30,
+    "category": 60,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 26228,
+    "vendors": [
+      1001276,
+      1001787,
+      1004417,
+      1006970,
+      1024586,
+      1017188,
+      1018091,
+      1018094,
+      1018097,
+      1019111,
+      1039493,
+      1005554,
+      1005569,
+      1008909,
+      1008907,
+      1009205,
+      1019443,
+      1018991
+    ],
+    "tradeShops": [
+      {
+        "shop": "Steel Amalj'ok Exchange",
+        "npcs": [
+          1005554
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21076",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Sylphic Goldleaf Exchange",
+        "npcs": [
+          1005569
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21075",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Titan Cobaltpiece Exchange",
+        "npcs": [
+          1008909
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21078",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Rainbowtide Psashp Exchange",
+        "npcs": [
+          1008907
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21077",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027385,
+          1027497,
+          1027892,
+          1027665,
+          1027709,
+          1027766
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37550",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66029,
+      66046,
+      66250,
+      66267,
+      66308
+    ],
+    "desynthedFrom": [
+      20069
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "VOYAGE"
+      ]
+    },
+    "voyages": [
+      {
+        "id": 27,
+        "type": 1
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1001276",
+      "obj": {
+        "i": 1001276,
+        "n": "Maisenta",
+        "l": 52,
+        "s": 10,
+        "q": 2,
+        "t": "Black Rabbit Traders",
+        "a": 551,
+        "c": [
+          11.53,
+          11.29
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001787",
+      "obj": {
+        "i": 1001787,
+        "n": "Bango Zango",
+        "l": 29,
+        "s": 10,
+        "q": 1,
+        "t": "Brugaire Consortium",
+        "a": 739,
+        "c": [
+          10.01,
+          11.44
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004417",
+      "obj": {
+        "i": 1004417,
+        "n": "Roarich",
+        "l": 40,
+        "s": 10,
+        "t": "Independent Importer",
+        "a": 640,
+        "c": [
+          10.58,
+          9.56
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006970",
+      "obj": {
+        "i": 1006970,
+        "n": "Tataroga",
+        "l": 67,
+        "s": 3,
+        "t": "Purveyor of Prisms",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.22,
+          6.79
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024586",
+      "obj": {
+        "i": 1024586,
+        "n": "Goberin",
+        "l": 42,
+        "s": 3,
+        "q": 1,
+        "t": "Crafting Tome Vendor",
+        "r": 1,
+        "a": 728,
+        "c": [
+          12.21,
+          15.07
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005554",
+      "obj": {
+        "i": 1005554,
+        "n": "Amalj'aa Vendor",
+        "l": 45,
+        "s": 2,
+        "r": 1,
+        "a": 482,
+        "c": [
+          23.28,
+          14.17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019443",
+      "obj": {
+        "i": 1019443,
+        "n": "Independent Merchant",
+        "l": 2403,
+        "s": 10,
+        "c": [
+          "12.7",
+          "11.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018991",
+      "obj": {
+        "i": 1018991,
+        "n": "Tokohana",
+        "l": 2404,
+        "s": 1,
+        "t": "Independent Peddler",
+        "a": 2917,
+        "c": [
+          12.91,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21076",
+      "obj": {
+        "i": 21076,
+        "n": "Steel Amalj'ok",
+        "l": 1,
+        "c": 65050,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027497",
+      "obj": {
+        "i": 1027497,
+        "n": "Zumutt",
+        "l": 2954,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3354,
+        "c": [
+          11.83,
+          8.91
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027892",
+      "obj": {
+        "i": 1027892,
+        "n": "Halden",
+        "l": 2955,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3135,
+        "c": [
+          10.66,
+          17.15
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027709",
+      "obj": {
+        "i": 1027709,
+        "n": "Nacille",
+        "l": 2957,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3179,
+        "c": [
+          27.97,
+          18.26
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027766",
+      "obj": {
+        "i": 1027766,
+        "n": "Goushs Ooan",
+        "l": 2958,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3195,
+        "c": [
+          33.24,
+          18.02
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "37550",
+      "obj": {
+        "i": 37550,
+        "n": "Islander's Cowrie",
+        "l": 1,
+        "c": "t/65097",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66029",
+      "obj": {
+        "i": 66029,
+        "n": "Truths Untold",
+        "g": 81,
+        "l": "Ul'dah",
+        "s": 20,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66046",
+      "obj": {
+        "i": 66046,
+        "n": "A Wild Rose by Any Other Name",
+        "g": 1,
+        "l": "The Waking Sands",
+        "s": 97
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66250",
+      "obj": {
+        "i": 66250,
+        "n": "Swinophobia",
+        "g": 112,
+        "l": "East Shroud",
+        "s": 200
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66267",
+      "obj": {
+        "i": 66267,
+        "n": "Potsherds for Posterity",
+        "g": 112,
+        "l": "South Shroud",
+        "s": 220
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66308",
+      "obj": {
+        "i": 66308,
+        "n": "The Marvelous Mun-Tuy Bean",
+        "g": 112,
+        "l": "South Shroud",
+        "s": 260
+      }
+    },
+    {
+      "type": "item",
+      "id": "20069",
+      "obj": {
+        "i": 20069,
+        "n": "Invisible Crayfish",
+        "l": 215,
+        "c": 29209,
+        "t": 47
+      }
+    }
+  ]
+}

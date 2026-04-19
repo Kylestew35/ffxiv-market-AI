@@ -1,0 +1,143 @@
+{
+  "item": {
+    "name": "Blue Coral Formation",
+    "description": "A luminescent blue coral found within the Sastasha Seagrot.",
+    "id": 6503,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 6045,
+    "ilvl": 25,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "icon": 52133,
+    "craft": [
+      {
+        "id": 1745,
+        "job": 14,
+        "rlvl": 25,
+        "durability": 70,
+        "quality": 330,
+        "progress": 89,
+        "lvl": 25,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 5461,
+            "amount": 4
+          },
+          {
+            "id": 7036,
+            "amount": 4
+          },
+          {
+            "id": 7,
+            "amount": 2
+          },
+          {
+            "id": 6,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 550,
+          "hq": 570
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Blue Coral",
+      "id": 5461,
+      "icon": 29061,
+      "category": 47,
+      "ilvl": 25,
+      "price": 128,
+      "ventures": [
+        328
+      ],
+      "fishingSpots": [
+        51,
+        61
+      ]
+    },
+    {
+      "name": "Seagrot Water",
+      "id": 7036,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 15,
+      "price": 24,
+      "instances": [
+        4
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "51",
+      "obj": {
+        "i": 51,
+        "n": "South Bloodshore",
+        "l": 25,
+        "c": 0,
+        "z": 32,
+        "x": 32.93,
+        "y": 34.47
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "Halfstone",
+        "l": 35,
+        "c": 0,
+        "z": 33,
+        "x": 17.56,
+        "y": 20.98
+      }
+    },
+    {
+      "type": "instance",
+      "id": "4",
+      "obj": {
+        "i": 4,
+        "n": "Sastasha",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 15,
+        "max_lvl": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "5461",
+      "obj": {
+        "i": 5461,
+        "n": "Blue Coral",
+        "l": 25,
+        "c": 29061,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "7036",
+      "obj": {
+        "i": 7036,
+        "n": "Seagrot Water",
+        "l": 15,
+        "c": 22614,
+        "t": 54
+      }
+    }
+  ]
+}

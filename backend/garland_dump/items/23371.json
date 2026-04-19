@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Oroniri Cloth",
+    "description": "The dyeing techniques used to color this bolt of cloth are unique to the Oronir.",
+    "id": 23371,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 3,
+    "ilvl": 1,
+    "category": 51,
+    "dyecount": 0,
+    "sell_price": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 23155,
+    "tradeShops": [
+      {
+        "shop": "Namazu Koban Exchange",
+        "npcs": [
+          1025604
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23371",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22525",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "21915": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025604",
+      "obj": {
+        "i": 1025604,
+        "n": "Gyosho",
+        "l": 2411,
+        "s": 8,
+        "t": "Festival Vendor",
+        "r": 1,
+        "a": 2850,
+        "c": [
+          5.84,
+          23.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22525",
+      "obj": {
+        "i": 22525,
+        "n": "Namazu Koban",
+        "l": 1,
+        "c": 65064,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "21915",
+      "obj": {
+        "i": 21915,
+        "n": "Wind-up Magnai",
+        "l": 1,
+        "c": 59682,
+        "t": 81
+      }
+    }
+  ]
+}

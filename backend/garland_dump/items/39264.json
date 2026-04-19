@@ -1,0 +1,102 @@
+{
+  "item": {
+    "name": "Prestige Sabatons of Light",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 39264,
+    "patch": 6.3,
+    "patchCategory": 3,
+    "price": 2,
+    "ilvl": 1,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 8,
+    "elvl": 1,
+    "jobs": 59,
+    "models": [
+      "95-2-0-0"
+    ],
+    "attr": {
+      "Defense": 20,
+      "Magic Defense": 20
+    },
+    "icon": 49567,
+    "sharedModels": [
+      3956
+    ],
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (DoW Gear) II",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39264",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "3956",
+      "obj": {
+        "i": 3956,
+        "n": "Sabatons of Light",
+        "l": 80,
+        "c": 46911,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

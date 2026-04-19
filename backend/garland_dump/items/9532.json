@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Aged Mortar",
+    "description": "An antiquated mortar of unknown origin.",
+    "id": 9532,
+    "patch": 2.45,
+    "patchCategory": 5,
+    "price": 3000,
+    "ilvl": 55,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 10,
+    "icon": 35651,
+    "vendors": [
+      1004421
+    ],
+    "desynthedTo": [
+      9524,
+      5057,
+      5058
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1004421",
+      "obj": {
+        "i": 1004421,
+        "n": "Merchant & Mender",
+        "l": 42,
+        "s": 5,
+        "c": [
+          "15.1",
+          "29.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "9524",
+      "obj": {
+        "i": 9524,
+        "n": "Aged Mortar Pieces",
+        "l": 55,
+        "c": 20803,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "5057",
+      "obj": {
+        "i": 5057,
+        "n": "Iron Ingot",
+        "l": 14,
+        "c": 20801,
+        "t": 49,
+        "p": 68
+      }
+    },
+    {
+      "type": "item",
+      "id": "5058",
+      "obj": {
+        "i": 5058,
+        "n": "Steel Ingot",
+        "l": 26,
+        "c": 20802,
+        "t": 49,
+        "p": 258
+      }
+    }
+  ]
+}

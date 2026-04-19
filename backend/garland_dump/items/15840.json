@@ -1,0 +1,109 @@
+{
+  "item": {
+    "name": "Umbrite",
+    "description": "A naturally occurring mineral formed from crystallized aether whose energies lean heavily toward the umbral.",
+    "id": 15840,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 5227,
+    "ilvl": 1,
+    "category": 48,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21228,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Special Arms)",
+        "npcs": [
+          1008119,
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15840",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Special Arms Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15840",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

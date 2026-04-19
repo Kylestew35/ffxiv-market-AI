@@ -1,0 +1,117 @@
+{
+  "item": {
+    "name": "Python Discus",
+    "description": "A king among snakeskin discus, and lord of the waters of Sullen.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "The mottled, python-like pattern of this fish is prized by artisans of all kinds. Rumor has it that one Eulmoran fop employed as many as fifty fisherfolk to trawl the seas in order to have an entire suit fashioned from the elusive wavekin's scales. ",
+      "icon": 78494,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 205,
+          "transition": [
+            "Rain"
+          ],
+          "weather": [
+            "Thunderstorms"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2150,
+          "baits": [
+            [
+              27582
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33317,
+    "patch": 5.5,
+    "patchCategory": 7,
+    "price": 2000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28494,
+    "fishingSpots": [
+      205
+    ],
+    "desynthedTo": [
+      32949,
+      26728
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "205",
+      "obj": {
+        "i": 205,
+        "n": "Sullen",
+        "l": 72,
+        "c": 1,
+        "z": 2953,
+        "x": 19.42,
+        "y": 35.83
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27582",
+      "obj": {
+        "i": 27582,
+        "n": "Fruit Worm",
+        "l": 320,
+        "c": 27036,
+        "t": 33,
+        "p": 64
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26728",
+      "obj": {
+        "i": 26728,
+        "n": "Heavens' Eye Materia VIII",
+        "l": 420,
+        "c": 20279,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

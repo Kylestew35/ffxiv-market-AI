@@ -1,0 +1,152 @@
+{
+  "item": {
+    "name": "Talan's Seal of Fishing Mastery",
+    "description": "A document bearing master crafter Talan's personal seal. Can be presented in exchange for unparalleled fishing equipment.",
+    "id": 10110,
+    "patch": 2.5,
+    "patchCategory": 5,
+    "price": 3564,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26177,
+    "tradeCurrency": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10142",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8446",
+                "amount": 1
+              },
+              {
+                "id": "10110",
+                "amount": 1
+              },
+              {
+                "id": "10124",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10110",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10123",
+                "amount": 10
+              },
+              {
+                "id": "10122",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8446",
+      "obj": {
+        "i": 8446,
+        "n": "Halcyon Rod Supra",
+        "l": 75,
+        "c": 38215,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "10124",
+      "obj": {
+        "i": 10124,
+        "n": "Moonstone",
+        "l": 90,
+        "c": 21273,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10142",
+      "obj": {
+        "i": 10142,
+        "n": "Halcyon Rod Lucis",
+        "l": 90,
+        "c": 38217,
+        "t": 32,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "10123",
+      "obj": {
+        "i": 10123,
+        "n": "Gigant Clam",
+        "l": 80,
+        "c": 29047,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "10122",
+      "obj": {
+        "i": 10122,
+        "n": "Glacier Crystal",
+        "l": 90,
+        "c": 20002,
+        "t": 54
+      }
+    }
+  ]
+}

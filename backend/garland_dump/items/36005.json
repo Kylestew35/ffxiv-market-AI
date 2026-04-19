@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Wivre Horn",
+    "description": "When blown, this horn produces a deep, booming sound that summons forth your mighty wivre.",
+    "mount": {
+      "name": "Wivre",
+      "action": "Summon forth your wivre, a mighty horned beast said to be nature's battering ram.",
+      "description": "Native to the New World, these ill-mannered scalekin are notoriously difficult to tame. Yet where others have failed, the Mamool Ja have succeeded, their people employing wivres as beasts of burden and weapons of war both.",
+      "tooltip": "I pray that you at least consider<br>a watchful trot into danger rather<br>than a headlong charge...<br>   - Iliud",
+      "icon": 4223,
+      "guideIcon": 68223
+    },
+    "id": 36005,
+    "patch": 6.0,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Bicolor Gemstone Vouchers",
+        "npcs": [
+          1036913
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36005",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35833",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "566-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1036913",
+      "obj": {
+        "i": 1036913,
+        "n": "Edelina",
+        "l": 67,
+        "s": 2,
+        "t": "Luxury Trader",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.19,
+          4.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35833",
+      "obj": {
+        "i": 35833,
+        "n": "Bicolor Gemstone Voucher",
+        "l": 1,
+        "c": 25906,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Master Armorer: Demimateria",
+    "description": "This esoteric tome contains advanced armorcraft recipes that can only be learned by highly skilled armorers.",
+    "id": 8137,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26160,
+    "tradeShops": [
+      {
+        "shop": "Master Crafting Tomes",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8137",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8148",
+                "amount": 1
+              },
+              {
+                "id": "8145",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocks": [
+      8454,
+      8455
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8148",
+      "obj": {
+        "i": 8148,
+        "n": "Fieldcraft Demimateria I",
+        "l": 30,
+        "c": 20241,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8145",
+      "obj": {
+        "i": 8145,
+        "n": "Battlecraft Demimateria I",
+        "l": 30,
+        "c": 20245,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8454",
+      "obj": {
+        "i": 8454,
+        "n": "Augmented Heavy Wolfram Cuirass",
+        "l": 90,
+        "c": 48050,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "8455",
+      "obj": {
+        "i": 8455,
+        "n": "Augmented Wolfram Cuirass",
+        "l": 90,
+        "c": 43202,
+        "t": 35
+      }
+    }
+  ]
+}

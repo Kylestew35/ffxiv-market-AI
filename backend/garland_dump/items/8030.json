@@ -1,0 +1,187 @@
+{
+  "item": {
+    "name": "Antumbral Rock",
+    "description": "A rock with an elemental aspect leaning unnaturally towards umbral.",
+    "id": 8030,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 1633,
+    "ilvl": 75,
+    "category": 48,
+    "dyecount": 0,
+    "sell_price": 25,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21213,
+    "nodes": [
+      246
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Supra Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8040",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8030",
+                "amount": 30
+              },
+              {
+                "id": "8150",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10108",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8030",
+                "amount": 30
+              },
+              {
+                "id": "10120",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6141",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8030",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "246",
+      "obj": {
+        "i": 246,
+        "n": "Wellwick Wood",
+        "l": 50,
+        "t": 1,
+        "z": 44,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8150",
+      "obj": {
+        "i": 8150,
+        "n": "Fieldcraft Demimateria III",
+        "l": 70,
+        "c": 20243,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8040",
+      "obj": {
+        "i": 8040,
+        "n": "Talan's Seal of Mining",
+        "l": 1,
+        "c": 26176,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10120",
+      "obj": {
+        "i": 10120,
+        "n": "Magicked Oilcloth",
+        "l": 90,
+        "c": 21615,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "10108",
+      "obj": {
+        "i": 10108,
+        "n": "Talan's Seal of Mining Mastery",
+        "l": 1,
+        "c": 26177,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6141",
+      "obj": {
+        "i": 6141,
+        "n": "Cordial",
+        "l": 25,
+        "c": 20622,
+        "t": 44
+      }
+    }
+  ]
+}

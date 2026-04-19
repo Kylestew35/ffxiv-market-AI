@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Decadent Fruit Platter",
+    "description": "A branching golden vessel harboring enough fruit to feed two Crystarium families or one Eulmoran hedonist for several days.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Piety Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27294,
+    "patch": 5.0,
+    "patchCategory": 9,
+    "price": 22176,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53314,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027538
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27294",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "827"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

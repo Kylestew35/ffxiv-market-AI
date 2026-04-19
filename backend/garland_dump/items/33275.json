@@ -1,0 +1,244 @@
+{
+  "item": {
+    "name": "Icebox",
+    "description": "Rather than with magic or magitek, this wooden box keeps its contents chilled the old-fashioned way─with a large block of ice.",
+    "id": 33275,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 430,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 53396,
+    "craft": [
+      {
+        "id": 4726,
+        "job": 8,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 33873,
+            "amount": 1
+          },
+          {
+            "id": 27693,
+            "amount": 2,
+            "quality": 545.4286
+          },
+          {
+            "id": 5153,
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "amount": 7
+          },
+          {
+            "id": 9,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 383,
+          "hq": 403
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1052"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Damaged Icebox",
+      "id": 33873,
+      "icon": 25998,
+      "category": 61,
+      "ilvl": 1,
+      "price": 115,
+      "voyages": [
+        {
+          "id": 70,
+          "type": 1
+        },
+        {
+          "id": 75,
+          "type": 1
+        },
+        {
+          "id": 84,
+          "type": 1
+        },
+        {
+          "id": 91,
+          "type": 1
+        },
+        {
+          "id": 110,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Lignum Vitae Lumber",
+      "id": 27693,
+      "icon": 22454,
+      "category": 50,
+      "ilvl": 415,
+      "price": 3075,
+      "craft": [
+        {
+          "id": 3816,
+          "job": 8,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27687,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "desynthedFrom": [
+        33295,
+        33267,
+        28992,
+        28991,
+        33273,
+        30387,
+        33282,
+        27605,
+        27227,
+        26356
+      ],
+      "leves": [
+        1415,
+        1416,
+        1417
+      ]
+    },
+    {
+      "name": "Lignum Vitae Log",
+      "id": 27687,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        817
+      ],
+      "nodes": [
+        621
+      ]
+    },
+    {
+      "name": "Ice Rock",
+      "id": 5153,
+      "icon": 21451,
+      "category": 48,
+      "ilvl": 22,
+      "price": 168,
+      "ventures": [
+        104
+      ],
+      "nodes": [
+        48
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27687",
+      "obj": {
+        "i": 27687,
+        "n": "Lignum Vitae Log",
+        "l": 415,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "621",
+      "obj": {
+        "i": 621,
+        "n": "Hare Among Giants",
+        "l": 80,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 1,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "33873",
+      "obj": {
+        "i": 33873,
+        "n": "Damaged Icebox",
+        "l": 1,
+        "c": 25998,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "27693",
+      "obj": {
+        "i": 27693,
+        "n": "Lignum Vitae Lumber",
+        "l": 415,
+        "c": 22454,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "5153",
+      "obj": {
+        "i": 5153,
+        "n": "Ice Rock",
+        "l": 22,
+        "c": 21451,
+        "t": 48
+      }
+    }
+  ]
+}

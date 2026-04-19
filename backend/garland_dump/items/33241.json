@@ -1,0 +1,135 @@
+{
+  "item": {
+    "name": "Cinder Surprise",
+    "description": "These bizarre, steaming-hot creatures inhabit the River of Sand, and on rare occasions, find themselves on anglers' hooks. Said anglers are normally bemused by such an apparently inedible catch, but when desperately searching for sustenance in the arid desert, one takes what one can find.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Charging through the searing desert at improbable speed, this boss of the sand eggs is a mystery wrapped in a concealing shell. Even when cracked open, the true nature of this glowing-eyed enigma is obfuscated beneath a seemingly endless eruption of sooty smoke.",
+      "icon": 79622,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 215,
+          "transition": [
+            "Dust Storms"
+          ],
+          "weather": [
+            "Heat Waves"
+          ],
+          "predator": [
+            {
+              "id": 27462,
+              "amount": 10
+            }
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2250,
+          "baits": [
+            [
+              27584
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33241,
+    "patch": 5.55,
+    "patchCategory": 7,
+    "price": 5000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29622,
+    "fishingSpots": [
+      215
+    ],
+    "desynthedTo": [
+      29976,
+      26727
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "215",
+      "obj": {
+        "i": 215,
+        "n": "The River of Sand",
+        "l": 71,
+        "c": 2,
+        "z": 2955,
+        "x": 31.83,
+        "y": 12.71
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27584",
+      "obj": {
+        "i": 27584,
+        "n": "Desert Dessert Frog",
+        "l": 320,
+        "c": 27073,
+        "t": 33,
+        "p": 1920
+      }
+    },
+    {
+      "type": "item",
+      "id": "27462",
+      "obj": {
+        "i": 27462,
+        "n": "Sand Egg",
+        "l": 390,
+        "c": 29617,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29976",
+      "obj": {
+        "i": 29976,
+        "n": "Ashen Alumen",
+        "l": 480,
+        "c": 22604,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26727",
+      "obj": {
+        "i": 26727,
+        "n": "Piety Materia VIII",
+        "l": 420,
+        "c": 20278,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Flame Flooring",
+    "description": "Display your patriotic zeal with this Immortal Flames-themed flooring.",
+    "id": 7145,
+    "patch": 2.2,
+    "patchCategory": 9,
+    "price": 10252,
+    "ilvl": 30,
+    "category": 74,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "icon": 51006,
+    "tradeShops": [
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7145",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 10950
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    }
+  ]
+}

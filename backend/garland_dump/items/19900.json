@@ -1,0 +1,445 @@
+{
+  "item": {
+    "name": "Grade 2 Reisui of Mind",
+    "description": "When applied to items such as battle gear, this Far Eastern potation will, similarly to Eorzean dissolvents, dissolve away minute amounts of aether aspected to elements detrimental to mind, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 19900,
+    "patch": 4.05,
+    "patchCategory": 5,
+    "price": 11340,
+    "ilvl": 320,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 28,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20642,
+    "ingredient_of": {
+      "18977": 3,
+      "18980": 3,
+      "18981": 3,
+      "19015": 1,
+      "19016": 2,
+      "19017": 1,
+      "19018": 2,
+      "19019": 1,
+      "19030": 1,
+      "19035": 1,
+      "19040": 1,
+      "19045": 1
+    },
+    "craft": [
+      {
+        "id": 32424,
+        "job": 14,
+        "rlvl": 320,
+        "durability": 70,
+        "quality": 4800,
+        "progress": 1200,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1220,
+        "craftsmanshipReq": 1320,
+        "quickSynthCraftsmanship": 1500,
+        "unlockId": 17875,
+        "ingredients": [
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 19918,
+            "amount": 2
+          },
+          {
+            "id": 19915,
+            "amount": 2
+          },
+          {
+            "id": 20014,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 311,
+          "hq": 331
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Hallowed Basil",
+      "id": 19918,
+      "icon": 25010,
+      "category": 54,
+      "ilvl": 300,
+      "price": 556,
+      "ventures": [
+        708
+      ],
+      "nodes": [
+        524
+      ]
+    },
+    {
+      "name": "Nipplewort",
+      "id": 19915,
+      "icon": 25030,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "ventures": [
+        705
+      ],
+      "nodes": [
+        519
+      ]
+    },
+    {
+      "name": "Dawnlight Aethersand",
+      "id": 20014,
+      "icon": 22210,
+      "category": 54,
+      "ilvl": 290,
+      "price": 552,
+      "reducedFrom": [
+        20009,
+        20181
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20014",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20014",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "524",
+      "obj": {
+        "i": 524,
+        "n": "Rustrock",
+        "l": 70,
+        "t": 3,
+        "z": 2407,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "519",
+      "obj": {
+        "i": 519,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 3,
+        "z": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20009",
+      "obj": {
+        "i": 20009,
+        "n": "Schorl",
+        "l": 279,
+        "c": 21476,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20181",
+      "obj": {
+        "i": 20181,
+        "n": "Snow Crab",
+        "l": 225,
+        "c": 29110,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "18977",
+      "obj": {
+        "i": 18977,
+        "n": "Torreya Cane",
+        "l": 320,
+        "c": 32715,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "18980",
+      "obj": {
+        "i": 18980,
+        "n": "Codex of the True Griffin",
+        "l": 320,
+        "c": 33587,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "18981",
+      "obj": {
+        "i": 18981,
+        "n": "Palladium Orrery",
+        "l": 320,
+        "c": 34891,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "19015",
+      "obj": {
+        "i": 19015,
+        "n": "True Griffin Hat of Healing",
+        "l": 320,
+        "c": 40752,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "19016",
+      "obj": {
+        "i": 19016,
+        "n": "Indigo Ramie Robe of Healing",
+        "l": 320,
+        "c": 43796,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "19017",
+      "obj": {
+        "i": 19017,
+        "n": "True Griffin Gloves of Healing",
+        "l": 320,
+        "c": 44562,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19018",
+      "obj": {
+        "i": 19018,
+        "n": "Indigo Ramie Skirt of Healing",
+        "l": 320,
+        "c": 45988,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "19019",
+      "obj": {
+        "i": 19019,
+        "n": "True Griffin Sandals of Healing",
+        "l": 320,
+        "c": 49849,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "19030",
+      "obj": {
+        "i": 19030,
+        "n": "Palladium Earring of Healing",
+        "l": 320,
+        "c": 55407,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "19035",
+      "obj": {
+        "i": 19035,
+        "n": "Torreya Choker of Healing",
+        "l": 320,
+        "c": 54977,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "19040",
+      "obj": {
+        "i": 19040,
+        "n": "Torreya Bracelet of Healing",
+        "l": 320,
+        "c": 55781,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "19045",
+      "obj": {
+        "i": 19045,
+        "n": "Palladium Band of Healing",
+        "l": 320,
+        "c": 54630,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "17875",
+      "obj": {
+        "i": 17875,
+        "n": "Master Alchemist V",
+        "l": 1,
+        "c": 26158,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19918",
+      "obj": {
+        "i": 19918,
+        "n": "Hallowed Basil",
+        "l": 300,
+        "c": 25010,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19915",
+      "obj": {
+        "i": 19915,
+        "n": "Nipplewort",
+        "l": 288,
+        "c": 25030,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "20014",
+      "obj": {
+        "i": 20014,
+        "n": "Dawnlight Aethersand",
+        "l": 290,
+        "c": 22210,
+        "t": 54
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "item": {
+    "name": "The Mushroomery Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">The Mushroomery</span>. Use to add to your orchestrion list.",
+    "id": 15803,
+    "patch": 3.3,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 52,
+      "name": "The Mushroomery",
+      "description": "Available for purchase at Matoya's Cave.",
+      "category": "Locales I",
+      "order": 44
+    },
+    "vendors": [
+      1012135
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012135",
+      "obj": {
+        "i": 1012135,
+        "n": "Junkmonger",
+        "l": 2036,
+        "s": 5,
+        "c": [
+          6.83,
+          6.15
+        ]
+      }
+    }
+  ]
+}

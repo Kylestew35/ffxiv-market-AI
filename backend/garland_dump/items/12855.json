@@ -1,0 +1,521 @@
+{
+  "item": {
+    "name": "Grilled Sweetfish",
+    "description": "A simple dish created by piercing a lightly salted fresh sweetfish with a sharpened stick and slowly roasting it over an open flame.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 12855,
+    "patch": 3.0,
+    "patchCategory": 6,
+    "price": 1053,
+    "ilvl": 133,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 29
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 27
+        },
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 18
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 36
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 34
+        },
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 22
+        }
+      }
+    },
+    "icon": 24301,
+    "vendors": [
+      1018986
+    ],
+    "craft": [
+      {
+        "id": 2804,
+        "job": 15,
+        "rlvl": 133,
+        "durability": 80,
+        "quality": 2280,
+        "progress": 340,
+        "lvl": 54,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12780,
+            "amount": 1
+          },
+          {
+            "id": 6152,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 106,
+          "hq": 126
+        }
+      }
+    ],
+    "quests": [
+      67373
+    ],
+    "usedInQuest": [
+      67581
+    ],
+    "leves": [
+      890,
+      891,
+      892,
+      893,
+      894,
+      895
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Sweetfish",
+      "id": 12780,
+      "icon": 29395,
+      "category": 47,
+      "ilvl": 136,
+      "price": 1292,
+      "ventures": [
+        504
+      ],
+      "fishingSpots": [
+        125,
+        127,
+        128
+      ]
+    },
+    {
+      "name": "Volcanic Rock Salt",
+      "id": 6152,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6152",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        511
+      ],
+      "nodes": [
+        224
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "125",
+      "obj": {
+        "i": 125,
+        "n": "Thaliak River",
+        "l": 57,
+        "c": 1,
+        "z": 2001,
+        "x": 23.17,
+        "y": 23.55
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "127",
+      "obj": {
+        "i": 127,
+        "n": "Upper Thaliak River",
+        "l": 58,
+        "c": 1,
+        "z": 2001,
+        "x": 22.96,
+        "y": 36.36
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "128",
+      "obj": {
+        "i": 128,
+        "n": "Middle Thaliak River",
+        "l": 60,
+        "c": 1,
+        "z": 2001,
+        "x": 20.62,
+        "y": 25.02
+      }
+    },
+    {
+      "type": "node",
+      "id": "224",
+      "obj": {
+        "i": 224,
+        "n": "Raincatcher Gully",
+        "l": 50,
+        "t": 1,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018986",
+      "obj": {
+        "i": 1018986,
+        "n": "Kurogai",
+        "l": 2404,
+        "s": 1,
+        "t": "Independent Culinarian",
+        "c": [
+          "12.2",
+          "12.7"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12780",
+      "obj": {
+        "i": 12780,
+        "n": "Sweetfish",
+        "l": 136,
+        "c": 29395,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "6152",
+      "obj": {
+        "i": 6152,
+        "n": "Volcanic Rock Salt",
+        "l": 70,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67373",
+      "obj": {
+        "i": 67373,
+        "n": "Something in the Water",
+        "g": 120,
+        "l": "The Churning Mists",
+        "s": 5502
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67581",
+      "obj": {
+        "i": 67581,
+        "n": "Looking for Some Hot Stuff",
+        "g": 171,
+        "l": "Limsa Lominsa",
+        "s": 550,
+        "f": 1
+      }
+    },
+    {
+      "type": "leve",
+      "id": "890",
+      "obj": {
+        "i": 890,
+        "n": "Show Your Work",
+        "l": 54,
+        "j": 34,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "891",
+      "obj": {
+        "i": 891,
+        "n": "Puppet Show",
+        "l": 54,
+        "j": 34,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "892",
+      "obj": {
+        "i": 892,
+        "n": "Cry Home",
+        "l": 54,
+        "j": 34,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "893",
+      "obj": {
+        "i": 893,
+        "n": "Family Comes First (L)",
+        "l": 54,
+        "j": 34,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "894",
+      "obj": {
+        "i": 894,
+        "n": "More Than One Way (L)",
+        "l": 54,
+        "j": 34,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "895",
+      "obj": {
+        "i": 895,
+        "n": "Hello, Cousin (L)",
+        "l": 54,
+        "j": 34,
+        "p": 2002
+      }
+    }
+  ]
+}

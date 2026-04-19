@@ -1,0 +1,601 @@
+{
+  "item": {
+    "name": "Sandalwood Lumber",
+    "description": "Processed sandalwood lumber.",
+    "id": 27694,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 450,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22455,
+    "craft": [
+      {
+        "id": 33326,
+        "job": 8,
+        "rlvl": 450,
+        "durability": 35,
+        "quality": 6320,
+        "progress": 1640,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24266,
+        "ingredients": [
+          {
+            "id": 27688,
+            "amount": 4
+          },
+          {
+            "id": 27695,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 456,
+          "hq": 476
+        }
+      }
+    ],
+    "ingredient_of": {
+      "26431": 2,
+      "26432": 3,
+      "26436": 2,
+      "26437": 2,
+      "26438": 2,
+      "26439": 1,
+      "26462": 1,
+      "26468": 1,
+      "26474": 1,
+      "26480": 1,
+      "26486": 1,
+      "28471": 3,
+      "28512": 3,
+      "28514": 3,
+      "28994": 1,
+      "33890": 2,
+      "33891": 1,
+      "33896": 3,
+      "33897": 2,
+      "33898": 3,
+      "33901": 1,
+      "38544": 3,
+      "38545": 4,
+      "38549": 3,
+      "38550": 3,
+      "38551": 2,
+      "38552": 3,
+      "38555": 1,
+      "39552": 3,
+      "39553": 3,
+      "39557": 3,
+      "39558": 3
+    },
+    "desynthedFrom": [
+      26438
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Sandalwood Log",
+      "id": 27688,
+      "icon": 22401,
+      "category": 50,
+      "ilvl": 450,
+      "price": 630,
+      "ventures": [
+        859
+      ],
+      "nodes": [
+        633
+      ]
+    },
+    {
+      "name": "Multifaceted Varnish",
+      "id": 27695,
+      "icon": 22802,
+      "category": 54,
+      "ilvl": 450,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27695",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27695",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "633",
+      "obj": {
+        "i": 633,
+        "n": "Mjrl's Regret",
+        "l": 80,
+        "t": 2,
+        "z": 2957,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          2,
+          14
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "24266",
+      "obj": {
+        "i": 24266,
+        "n": "Master Carpenter VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27688",
+      "obj": {
+        "i": 27688,
+        "n": "Sandalwood Log",
+        "l": 450,
+        "c": 22401,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27695",
+      "obj": {
+        "i": 27695,
+        "n": "Multifaceted Varnish",
+        "l": 450,
+        "c": 22802,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26431",
+      "obj": {
+        "i": 26431,
+        "n": "Skystrider",
+        "l": 450,
+        "c": 31979,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "26432",
+      "obj": {
+        "i": 26432,
+        "n": "Gendawa",
+        "l": 450,
+        "c": 32367,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "26436",
+      "obj": {
+        "i": 26436,
+        "n": "Clearpath",
+        "l": 450,
+        "c": 32751,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "26437",
+      "obj": {
+        "i": 26437,
+        "n": "Catalyst",
+        "l": 450,
+        "c": 33121,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "26438",
+      "obj": {
+        "i": 26438,
+        "n": "Galdrabok",
+        "l": 450,
+        "c": 33290,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "26439",
+      "obj": {
+        "i": 26439,
+        "n": "Pragmatism",
+        "l": 450,
+        "c": 33289,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "26462",
+      "obj": {
+        "i": 26462,
+        "n": "Facet Sandals of Striking",
+        "l": 450,
+        "c": 49033,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26468",
+      "obj": {
+        "i": 26468,
+        "n": "Facet Boots of Aiming",
+        "l": 450,
+        "c": 49034,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26474",
+      "obj": {
+        "i": 26474,
+        "n": "Facet Thighboots of Scouting",
+        "l": 450,
+        "c": 47202,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26480",
+      "obj": {
+        "i": 26480,
+        "n": "Facet Boots of Healing",
+        "l": 450,
+        "c": 49032,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26486",
+      "obj": {
+        "i": 26486,
+        "n": "Facet Boots of Casting",
+        "l": 450,
+        "c": 49031,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28471",
+      "obj": {
+        "i": 28471,
+        "n": "Facet Fishing Rod",
+        "l": 460,
+        "c": 38237,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "28512",
+      "obj": {
+        "i": 28512,
+        "n": "Facet Grinding Wheel",
+        "l": 460,
+        "c": 35362,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "28514",
+      "obj": {
+        "i": 28514,
+        "n": "Facet Spinning Wheel",
+        "l": 460,
+        "c": 35563,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "28994",
+      "obj": {
+        "i": 28994,
+        "n": "Ruby Weapon Bust",
+        "l": 450,
+        "c": 53342,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "33890",
+      "obj": {
+        "i": 33890,
+        "n": "Augmented Menis",
+        "l": 430,
+        "c": 31992,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "33891",
+      "obj": {
+        "i": 33891,
+        "n": "Augmented Deima",
+        "l": 430,
+        "c": 32380,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "33896",
+      "obj": {
+        "i": 33896,
+        "n": "Augmented Oknos",
+        "l": 430,
+        "c": 33134,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "33897",
+      "obj": {
+        "i": 33897,
+        "n": "Augmented Epikairekakia",
+        "l": 430,
+        "c": 33316,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "33898",
+      "obj": {
+        "i": 33898,
+        "n": "Augmented Enochlesis",
+        "l": 430,
+        "c": 33315,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "33901",
+      "obj": {
+        "i": 33901,
+        "n": "Augmented Agonia",
+        "l": 430,
+        "c": 36798,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "38544",
+      "obj": {
+        "i": 38544,
+        "n": "The Fae's Crown Spear",
+        "l": 430,
+        "c": 31977,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "38545",
+      "obj": {
+        "i": 38545,
+        "n": "The Fae's Crown Longbow",
+        "l": 430,
+        "c": 32365,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "38549",
+      "obj": {
+        "i": 38549,
+        "n": "The Fae's Crown Cane",
+        "l": 430,
+        "c": 32749,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "38550",
+      "obj": {
+        "i": 38550,
+        "n": "The Fae's Crown Rod",
+        "l": 430,
+        "c": 33119,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "38551",
+      "obj": {
+        "i": 38551,
+        "n": "The Fae's Crown Grimoire",
+        "l": 430,
+        "c": 33286,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "38552",
+      "obj": {
+        "i": 38552,
+        "n": "The Fae's Crown Codex",
+        "l": 430,
+        "c": 33285,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "38555",
+      "obj": {
+        "i": 38555,
+        "n": "The Fae's Crown Rapier",
+        "l": 430,
+        "c": 36783,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "39552",
+      "obj": {
+        "i": 39552,
+        "n": "Rubellux Partisan",
+        "l": 430,
+        "c": 31998,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "39553",
+      "obj": {
+        "i": 39553,
+        "n": "Rubellux Bow",
+        "l": 430,
+        "c": 32384,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "39557",
+      "obj": {
+        "i": 39557,
+        "n": "Rubellux Cane",
+        "l": 430,
+        "c": 32766,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "39558",
+      "obj": {
+        "i": 39558,
+        "n": "Rubellux Rod",
+        "l": 430,
+        "c": 33138,
+        "t": 7
+      }
+    }
+  ]
+}

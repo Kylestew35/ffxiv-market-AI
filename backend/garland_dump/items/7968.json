@@ -1,0 +1,143 @@
+{
+  "item": {
+    "name": "Onus of an Engineer",
+    "description": "A commissioned oil painting of Cid Garlond, former engineer for the Garlean Empire and founder of the Garlond Ironworks. Original artist unknown.",
+    "id": 7968,
+    "patch": 3.0,
+    "patchCategory": 9,
+    "price": 26136,
+    "ilvl": 1,
+    "category": 79,
+    "dyecount": 0,
+    "tradeable": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 51325,
+    "tradeShops": [
+      {
+        "shop": "Company Credit Exchange",
+        "npcs": [
+          1005632,
+          1005639,
+          1005646,
+          1019100,
+          1039486
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7968",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "fccredit",
+                "amount": 12500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "258"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005632",
+      "obj": {
+        "i": 1005632,
+        "n": "Resident Caretaker",
+        "l": 425,
+        "s": 2,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.45,
+          11.39
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005639",
+      "obj": {
+        "i": 1005639,
+        "n": "Resident Caretaker",
+        "l": 427,
+        "s": 2,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.4,
+          9.5
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005646",
+      "obj": {
+        "i": 1005646,
+        "n": "Resident Caretaker",
+        "l": 426,
+        "s": 2,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.97,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019100",
+      "obj": {
+        "i": 1019100,
+        "n": "Resident Caretaker",
+        "l": 2412,
+        "s": 2,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          8.91,
+          9.55
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039486",
+      "obj": {
+        "i": 1039486,
+        "n": "Resident Caretaker",
+        "l": 4139,
+        "s": 2,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.22,
+          11.73
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "fccredit",
+      "obj": {
+        "i": "fccredit",
+        "n": "Company Credit",
+        "l": 1,
+        "c": "custom/fccredit",
+        "t": 63
+      }
+    }
+  ]
+}

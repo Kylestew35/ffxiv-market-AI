@@ -1,0 +1,101 @@
+{
+  "item": {
+    "name": "Albino Karakul Horn",
+    "description": "This horn of carved...horn emits a tone to which your albino karakul is well attuned.",
+    "mount": {
+      "name": "Albino Karakul",
+      "action": "Summon forth your albino karakul, a black sheep among its kind. Which is to say it's white.",
+      "description": "Though karakuls ordinarily have black fleece, this creature raised in the paddocks of House Haillenarte was born snowy white. This rarest of qualities spared it a fate at the dining table, and it grew to such a size as to be able to bear people upon its fluffy back.",
+      "tooltip": "A wise knight keeps her<br>own source of wool.<br>   - Yaelle",
+      "icon": 4167,
+      "guideIcon": 68167
+    },
+    "id": 28125,
+    "patch": 5.21,
+    "patchCategory": 17,
+    "price": 50000,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28125",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 8400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "610-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

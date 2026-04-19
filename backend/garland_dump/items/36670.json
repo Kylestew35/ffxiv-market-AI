@@ -1,0 +1,158 @@
+{
+  "item": {
+    "name": "Aetheroconductive Focus Materials",
+    "description": "A sack of rare materials essential in the crafting of aetheroconductive foci.",
+    "id": 36670,
+    "patch": 6.15,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 495,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 26110,
+    "nodes": [
+      820,
+      840
+    ],
+    "satisfaction": [
+      {
+        "level": 2,
+        "npc": 1042241,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          80,
+          80,
+          80
+        ],
+        "gil": [
+          780,
+          980,
+          1170
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              104,
+              127,
+              150
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              76,
+              91,
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1042241,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "820",
+      "obj": {
+        "i": 820,
+        "n": "The Hamsa Hatchery",
+        "l": 85,
+        "t": 1,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1042241",
+      "obj": {
+        "i": 1042241,
+        "n": "Ameliance",
+        "l": 3706,
+        "q": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

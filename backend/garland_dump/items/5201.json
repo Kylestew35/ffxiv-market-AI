@@ -1,0 +1,138 @@
+{
+  "item": {
+    "name": "Eye of Earth",
+    "description": "A polished stone sphere elementally aspected to earth.",
+    "id": 5201,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 100,
+    "ilvl": 22,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21256,
+    "ingredient_of": {
+      "2476": 1,
+      "3662": 1,
+      "2071": 1,
+      "1976": 1
+    },
+    "craft": [
+      {
+        "id": 722,
+        "job": 11,
+        "rlvl": 23,
+        "durability": 40,
+        "quality": 480,
+        "progress": 39,
+        "lvl": 23,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5155,
+            "amount": 1
+          },
+          {
+            "id": 4,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 28,
+          "hq": 48
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Earth Rock",
+      "id": 5155,
+      "icon": 21451,
+      "category": 48,
+      "ilvl": 22,
+      "price": 168,
+      "ventures": [
+        101
+      ],
+      "nodes": [
+        48
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 1,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "2476",
+      "obj": {
+        "i": 2476,
+        "n": "Mythril Alembic",
+        "l": 39,
+        "c": 35608,
+        "t": 24,
+        "p": 4447
+      }
+    },
+    {
+      "type": "item",
+      "id": "3662",
+      "obj": {
+        "i": 3662,
+        "n": "Boarskin Ringbands of Tremors",
+        "l": 46,
+        "c": 44131,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "5155",
+      "obj": {
+        "i": 5155,
+        "n": "Earth Rock",
+        "l": 22,
+        "c": 21451,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "2071",
+      "obj": {
+        "i": 2071,
+        "n": "Earth Brand",
+        "l": 31,
+        "c": 32809,
+        "t": 6,
+        "p": 3044
+      }
+    },
+    {
+      "type": "item",
+      "id": "1976",
+      "obj": {
+        "i": 1976,
+        "n": "Wand of Tremors",
+        "l": 42,
+        "c": 32408,
+        "t": 8
+      }
+    }
+  ]
+}

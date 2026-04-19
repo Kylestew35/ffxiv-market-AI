@@ -1,0 +1,101 @@
+{
+  "item": {
+    "name": "Armoring Delineation",
+    "description": "A detailed outline of complex armoring techniques.<br><br>[Can be exchanged with Calamity salvagers for all-purpose crafter's delineations.]",
+    "id": 12661,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 5940,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26188,
+    "tradeCurrency": [
+      {
+        "shop": "Delineation Collection",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28724",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12661",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28724",
+      "obj": {
+        "i": 28724,
+        "n": "Crafter's Delineation",
+        "l": 1,
+        "c": 26188,
+        "t": 61
+      }
+    }
+  ]
+}

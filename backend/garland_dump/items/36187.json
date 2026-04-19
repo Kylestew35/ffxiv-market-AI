@@ -1,0 +1,996 @@
+{
+  "item": {
+    "name": "Rhodium Ingot",
+    "description": "An ingot of smelted rhodium. Shiny.",
+    "id": 36187,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20815,
+    "ingredient_of": {
+      "35022": 2,
+      "35024": 2,
+      "35027": 2,
+      "35028": 2,
+      "35032": 3,
+      "35034": 3,
+      "35035": 2,
+      "35037": 3,
+      "35040": 1,
+      "35050": 1,
+      "35055": 1,
+      "35057": 1,
+      "35065": 2,
+      "35066": 2,
+      "35067": 2,
+      "35070": 2,
+      "35071": 2,
+      "35072": 1,
+      "35075": 1,
+      "35076": 1,
+      "35077": 1,
+      "35078": 1,
+      "35079": 1,
+      "35080": 1,
+      "35081": 1,
+      "35082": 1,
+      "35083": 1,
+      "35084": 1,
+      "35090": 2,
+      "35091": 2,
+      "35092": 2,
+      "35093": 2,
+      "35094": 2,
+      "36692": 3,
+      "48174": 2,
+      "48175": 1,
+      "48176": 2,
+      "48178": 2,
+      "48179": 1,
+      "48180": 2,
+      "48181": 4,
+      "48182": 3,
+      "48183": 3,
+      "48184": 2,
+      "48185": 3,
+      "48186": 1,
+      "48187": 4,
+      "48188": 2,
+      "48189": 1,
+      "48190": 4,
+      "48191": 1,
+      "48193": 2
+    },
+    "craft": [
+      {
+        "id": 34892,
+        "job": 11,
+        "rlvl": 580,
+        "durability": 35,
+        "quality": 7800,
+        "progress": 2925,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35621,
+        "ingredients": [
+          {
+            "id": 36179,
+            "amount": 4
+          },
+          {
+            "id": 36219,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 3
+          },
+          {
+            "id": 14,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 516,
+          "hq": 536
+        }
+      }
+    ],
+    "desynthedFrom": [
+      39008,
+      38998,
+      39001,
+      38999,
+      39011,
+      38198,
+      35160,
+      35166,
+      39005,
+      38208,
+      35077,
+      38194,
+      35169
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Rhodium Sand",
+      "id": 36179,
+      "icon": 21244,
+      "category": 48,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        968
+      ],
+      "nodes": [
+        836
+      ]
+    },
+    {
+      "name": "Alchemical Abrasive",
+      "id": 36219,
+      "icon": 21241,
+      "category": 48,
+      "ilvl": 580,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36219",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36219",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "836",
+      "obj": {
+        "i": 836,
+        "n": "Ktisis Hyperboreia",
+        "l": 90,
+        "t": 1,
+        "z": 3713,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "35022",
+      "obj": {
+        "i": 35022,
+        "n": "Classical Battleaxe",
+        "l": 580,
+        "c": 31221,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "35024",
+      "obj": {
+        "i": 35024,
+        "n": "Classical Cavalry Bow",
+        "l": 580,
+        "c": 32012,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "35027",
+      "obj": {
+        "i": 35027,
+        "n": "Classical Handgonne",
+        "l": 580,
+        "c": 34421,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "35028",
+      "obj": {
+        "i": 35028,
+        "n": "Classical Cane",
+        "l": 580,
+        "c": 32794,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "35032",
+      "obj": {
+        "i": 35032,
+        "n": "Classical Torquetum",
+        "l": 580,
+        "c": 34969,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "35034",
+      "obj": {
+        "i": 35034,
+        "n": "Classical Smallsword",
+        "l": 580,
+        "c": 36825,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "35035",
+      "obj": {
+        "i": 35035,
+        "n": "Classical Gunblade",
+        "l": 580,
+        "c": 36067,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "35037",
+      "obj": {
+        "i": 35037,
+        "n": "Classical Milpreves",
+        "l": 580,
+        "c": 37017,
+        "t": 109
+      }
+    },
+    {
+      "type": "item",
+      "id": "35040",
+      "obj": {
+        "i": 35040,
+        "n": "Classical Hoplomachus's Headgear",
+        "l": 580,
+        "c": 41878,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35050",
+      "obj": {
+        "i": 35050,
+        "n": "Classical Secutor's Mask",
+        "l": 580,
+        "c": 41880,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35055",
+      "obj": {
+        "i": 35055,
+        "n": "Classical Sagittarius's Headband",
+        "l": 580,
+        "c": 41881,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35057",
+      "obj": {
+        "i": 35057,
+        "n": "Classical Sagittarius's Wrist Torque",
+        "l": 580,
+        "c": 44905,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35065",
+      "obj": {
+        "i": 35065,
+        "n": "Classical Medicus's Laurel Wreath",
+        "l": 580,
+        "c": 41879,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35066",
+      "obj": {
+        "i": 35066,
+        "n": "Classical Medicus's Chiton",
+        "l": 580,
+        "c": 42790,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35067",
+      "obj": {
+        "i": 35067,
+        "n": "Classical Medicus's Wrist Torque",
+        "l": 580,
+        "c": 44902,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35070",
+      "obj": {
+        "i": 35070,
+        "n": "Classical Signifer's Horns",
+        "l": 580,
+        "c": 41877,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35071",
+      "obj": {
+        "i": 35071,
+        "n": "Classical Signifer's Chiton",
+        "l": 580,
+        "c": 42788,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35072",
+      "obj": {
+        "i": 35072,
+        "n": "Classical Signifer's Fingerless Gloves",
+        "l": 580,
+        "c": 44900,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35075",
+      "obj": {
+        "i": 35075,
+        "n": "Classical Earrings of Fending",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35076",
+      "obj": {
+        "i": 35076,
+        "n": "Classical Earrings of Slaying",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35077",
+      "obj": {
+        "i": 35077,
+        "n": "Classical Earrings of Aiming",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35078",
+      "obj": {
+        "i": 35078,
+        "n": "Classical Earrings of Healing",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35079",
+      "obj": {
+        "i": 35079,
+        "n": "Classical Earrings of Casting",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35080",
+      "obj": {
+        "i": 35080,
+        "n": "Classical Choker of Fending",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35081",
+      "obj": {
+        "i": 35081,
+        "n": "Classical Choker of Slaying",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35082",
+      "obj": {
+        "i": 35082,
+        "n": "Classical Choker of Aiming",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35083",
+      "obj": {
+        "i": 35083,
+        "n": "Classical Choker of Healing",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35084",
+      "obj": {
+        "i": 35084,
+        "n": "Classical Choker of Casting",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35090",
+      "obj": {
+        "i": 35090,
+        "n": "Classical Ring of Fending",
+        "l": 580,
+        "c": 54688,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35091",
+      "obj": {
+        "i": 35091,
+        "n": "Classical Ring of Slaying",
+        "l": 580,
+        "c": 54688,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35092",
+      "obj": {
+        "i": 35092,
+        "n": "Classical Ring of Aiming",
+        "l": 580,
+        "c": 54688,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35093",
+      "obj": {
+        "i": 35093,
+        "n": "Classical Ring of Healing",
+        "l": 580,
+        "c": 54688,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35094",
+      "obj": {
+        "i": 35094,
+        "n": "Classical Ring of Casting",
+        "l": 580,
+        "c": 54688,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35621",
+      "obj": {
+        "i": 35621,
+        "n": "Master Goldsmith IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36179",
+      "obj": {
+        "i": 36179,
+        "n": "Rhodium Sand",
+        "l": 580,
+        "c": 21244,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36219",
+      "obj": {
+        "i": 36219,
+        "n": "Alchemical Abrasive",
+        "l": 580,
+        "c": 21241,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36692",
+      "obj": {
+        "i": 36692,
+        "n": "Pactmaker's Needle",
+        "l": 590,
+        "c": 35547,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "48174",
+      "obj": {
+        "i": 48174,
+        "n": "Sainti of Sanctifying Light",
+        "l": 560,
+        "c": 30801,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "48175",
+      "obj": {
+        "i": 48175,
+        "n": "Labrys of Sanctifying Light",
+        "l": 560,
+        "c": 31210,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "48176",
+      "obj": {
+        "i": 48176,
+        "n": "Partisan of Sanctifying Light",
+        "l": 560,
+        "c": 31612,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "48178",
+      "obj": {
+        "i": 48178,
+        "n": "Daggers of Sanctifying Light",
+        "l": 560,
+        "c": 33986,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "48179",
+      "obj": {
+        "i": 48179,
+        "n": "Greatsword of Sanctifying Light",
+        "l": 560,
+        "c": 34364,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "48180",
+      "obj": {
+        "i": 48180,
+        "n": "Pistol of Sanctifying Light",
+        "l": 560,
+        "c": 34410,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "48181",
+      "obj": {
+        "i": 48181,
+        "n": "Cane of Sanctifying Light",
+        "l": 560,
+        "c": 32783,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "48182",
+      "obj": {
+        "i": 48182,
+        "n": "Rod of Sanctifying Light",
+        "l": 560,
+        "c": 33154,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "48183",
+      "obj": {
+        "i": 48183,
+        "n": "Grimoire of Sanctifying Light",
+        "l": 560,
+        "c": 33326,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "48184",
+      "obj": {
+        "i": 48184,
+        "n": "Codex of Sanctifying Light",
+        "l": 560,
+        "c": 33325,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "48185",
+      "obj": {
+        "i": 48185,
+        "n": "Torquetum of Sanctifying Light",
+        "l": 560,
+        "c": 34958,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "48186",
+      "obj": {
+        "i": 48186,
+        "n": "Blade of Sanctifying Light",
+        "l": 560,
+        "c": 36515,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "48187",
+      "obj": {
+        "i": 48187,
+        "n": "Foil of Sanctifying Light",
+        "l": 560,
+        "c": 36814,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "48188",
+      "obj": {
+        "i": 48188,
+        "n": "Gunblade of Sanctifying Light",
+        "l": 560,
+        "c": 36056,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "48189",
+      "obj": {
+        "i": 48189,
+        "n": "Tathlums of Sanctifying Light",
+        "l": 560,
+        "c": 36255,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "48190",
+      "obj": {
+        "i": 48190,
+        "n": "Wings of Sanctifying Light",
+        "l": 560,
+        "c": 37003,
+        "t": 109
+      }
+    },
+    {
+      "type": "item",
+      "id": "48191",
+      "obj": {
+        "i": 48191,
+        "n": "War Scythe of Sanctifying Light",
+        "l": 560,
+        "c": 37202,
+        "t": 108
+      }
+    },
+    {
+      "type": "item",
+      "id": "48193",
+      "obj": {
+        "i": 48193,
+        "n": "Paladin's Arms of Sanctifying Light",
+        "l": 1,
+        "c": 26634,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "39008",
+      "obj": {
+        "i": 39008,
+        "n": "Manalis Ring of Slaying",
+        "l": 605,
+        "c": 54718,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "38998",
+      "obj": {
+        "i": 38998,
+        "n": "Manalis Choker of Slaying",
+        "l": 605,
+        "c": 55067,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39001",
+      "obj": {
+        "i": 39001,
+        "n": "Manalis Choker of Casting",
+        "l": 605,
+        "c": 55067,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "38999",
+      "obj": {
+        "i": 38999,
+        "n": "Manalis Choker of Aiming",
+        "l": 605,
+        "c": 55067,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39011",
+      "obj": {
+        "i": 39011,
+        "n": "Manalis Ring of Casting",
+        "l": 605,
+        "c": 54718,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "38198",
+      "obj": {
+        "i": 38198,
+        "n": "Troian Choker of Aiming",
+        "l": 595,
+        "c": 55062,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35160",
+      "obj": {
+        "i": 35160,
+        "n": "Radiant's Bracelet of Fending",
+        "l": 590,
+        "c": 55858,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35166",
+      "obj": {
+        "i": 35166,
+        "n": "Radiant's Ring of Slaying",
+        "l": 590,
+        "c": 54709,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39005",
+      "obj": {
+        "i": 39005,
+        "n": "Manalis Wristband of Healing",
+        "l": 605,
+        "c": 55867,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "38208",
+      "obj": {
+        "i": 38208,
+        "n": "Troian Ring of Aiming",
+        "l": 595,
+        "c": 54714,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "38194",
+      "obj": {
+        "i": 38194,
+        "n": "Troian Earrings of Healing",
+        "l": 595,
+        "c": 55502,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35169",
+      "obj": {
+        "i": 35169,
+        "n": "Radiant's Ring of Casting",
+        "l": 590,
+        "c": 54709,
+        "t": 43
+      }
+    }
+  ]
+}

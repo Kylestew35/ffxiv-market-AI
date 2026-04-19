@@ -1,0 +1,362 @@
+{
+  "item": {
+    "name": "Enchanted Manasilver Ink",
+    "description": "Ink fortified with manasilver sand to improve aetherial conductivity.",
+    "id": 27772,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2917,
+    "ilvl": 403,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25923,
+    "craft": [
+      {
+        "id": 3863,
+        "job": 14,
+        "rlvl": 403,
+        "durability": 40,
+        "quality": 3200,
+        "progress": 680,
+        "lvl": 74,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27699,
+            "amount": 3
+          },
+          {
+            "id": 27764,
+            "amount": 1
+          },
+          {
+            "id": 27968,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 94,
+          "hq": 114
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25958": 1,
+      "25959": 1,
+      "25960": 1,
+      "28169": 2,
+      "31073": 1
+    },
+    "leves": [
+      1485
+    ],
+    "desynthedFrom": [
+      26038
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    },
+    "supply": {
+      "count": 1,
+      "xp": 883000,
+      "seals": 828
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Manasilver Sand",
+      "id": 27699,
+      "icon": 21219,
+      "category": 48,
+      "ilvl": 406,
+      "price": 210,
+      "voyages": [
+        {
+          "id": 54,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1514
+      ],
+      "ventures": [
+        804
+      ],
+      "nodes": [
+        595
+      ]
+    },
+    {
+      "name": "Silkmoth Scales",
+      "id": 27764,
+      "icon": 22210,
+      "category": 54,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27764",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1478
+      ],
+      "ventures": [
+        774
+      ]
+    },
+    {
+      "name": "Highland Spring Water",
+      "id": 27968,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        29986
+      ],
+      "leves": [
+        1482,
+        1483
+      ],
+      "ventures": [
+        791
+      ],
+      "nodes": [
+        592
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "595",
+      "obj": {
+        "i": 595,
+        "n": "Lozatl's Conquest",
+        "l": 75,
+        "t": 1,
+        "z": 2957
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "592",
+      "obj": {
+        "i": 592,
+        "n": "The Bookman's Shelves",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "item",
+      "id": "27699",
+      "obj": {
+        "i": 27699,
+        "n": "Manasilver Sand",
+        "l": 406,
+        "c": 21219,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27764",
+      "obj": {
+        "i": 27764,
+        "n": "Silkmoth Scales",
+        "l": 390,
+        "c": 22210,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27968",
+      "obj": {
+        "i": 27968,
+        "n": "Highland Spring Water",
+        "l": 400,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "25958",
+      "obj": {
+        "i": 25958,
+        "n": "Bluespirit Grimoire",
+        "l": 403,
+        "c": 33312,
+        "t": 10,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25959",
+      "obj": {
+        "i": 25959,
+        "n": "Bluespirit Codex",
+        "l": 403,
+        "c": 33311,
+        "t": 98,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25960",
+      "obj": {
+        "i": 25960,
+        "n": "Bluespirit Star Globe",
+        "l": 403,
+        "c": 34938,
+        "t": 89,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "28169",
+      "obj": {
+        "i": 28169,
+        "n": "Bookseller's Stall",
+        "l": 415,
+        "c": 52286,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "31073",
+      "obj": {
+        "i": 31073,
+        "n": "Rarefied Bluespirit Codex",
+        "l": 409,
+        "c": 33311,
+        "t": 61
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1485",
+      "obj": {
+        "i": 1485,
+        "n": "Conserving Combat",
+        "l": 74,
+        "j": 15,
+        "p": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "26038",
+      "obj": {
+        "i": 26038,
+        "n": "Ravel Keeper's Grimoire",
+        "l": 406,
+        "c": 33304,
+        "t": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,978 @@
+{
+  "leve": {
+    "name": "Cloth for Canvas",
+    "description": "My work in painting myriad landscapes takes me to every corner of Tural, but the rural settlements I visit often have nothing in the way of canvases. I've taken to preparing my own panels, but I find myself short on fabric. If an artisan would be kind enough to weave me a fine linen for my paintings, I would be deeply grateful.",
+    "id": 1740,
+    "patch": 7.0,
+    "client": "Traveling Artist, Uapyone",
+    "lvl": 92,
+    "jobCategory": 14,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 1665250,
+    "gil": 2535,
+    "rewards": 858,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44030,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 264,
+      "hq": 324
+    }
+  },
+  "rewards": {
+    "id": 858,
+    "entries": [
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 10,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 44025,
+        "rate": 0.23
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 10,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 44025,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Mountain Linen",
+      "id": 44030,
+      "icon": 21608,
+      "category": 51,
+      "ilvl": 653,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5649,
+          "job": 13,
+          "rlvl": 653,
+          "durability": 40,
+          "quality": 8600,
+          "progress": 2125,
+          "lvl": 92,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 44025,
+              "amount": 5
+            },
+            {
+              "id": 12,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 88,
+            "hq": 108
+          }
+        }
+      ],
+      "treasure": [
+        43556
+      ],
+      "leves": [
+        1741
+      ]
+    },
+    {
+      "name": "Mountain Flax",
+      "id": 44025,
+      "icon": 25033,
+      "category": 51,
+      "ilvl": 653,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 118,
+          "type": 1
+        },
+        {
+          "id": 127,
+          "type": 1
+        },
+        {
+          "id": 129,
+          "type": 1
+        },
+        {
+          "id": 113,
+          "type": 1
+        }
+      ],
+      "treasure": [
+        43556
+      ],
+      "leves": [
+        1740
+      ],
+      "ventures": [
+        1006
+      ],
+      "nodes": [
+        994
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "994",
+      "obj": {
+        "i": 994,
+        "n": "Larh Tortoh",
+        "l": 95,
+        "t": 3,
+        "z": 4505
+      }
+    },
+    {
+      "type": "item",
+      "id": "43556",
+      "obj": {
+        "i": 43556,
+        "n": "Timeworn Loboskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44025",
+      "obj": {
+        "i": 44025,
+        "n": "Mountain Flax",
+        "l": 653,
+        "c": 25033,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "42015",
+      "obj": {
+        "i": 42015,
+        "n": "Mountain Linen Hose of Fending",
+        "l": 655,
+        "c": 57652,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42020",
+      "obj": {
+        "i": 42020,
+        "n": "Mountain Linen Hose of Maiming",
+        "l": 655,
+        "c": 57653,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42022",
+      "obj": {
+        "i": 42022,
+        "n": "Mountain Linen Bandana of Striking",
+        "l": 655,
+        "c": 56738,
+        "t": 34,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42023",
+      "obj": {
+        "i": 42023,
+        "n": "Mountain Linen Top of Striking",
+        "l": 655,
+        "c": 57130,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42024",
+      "obj": {
+        "i": 42024,
+        "n": "Crocodileskin Fingerless Gloves of Striking",
+        "l": 655,
+        "c": 56252,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42025",
+      "obj": {
+        "i": 42025,
+        "n": "Crocodileskin Breeches of Striking",
+        "l": 655,
+        "c": 57657,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42026",
+      "obj": {
+        "i": 42026,
+        "n": "Crocodileskin Leg Wraps of Striking",
+        "l": 655,
+        "c": 49750,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42027",
+      "obj": {
+        "i": 42027,
+        "n": "Mountain Linen Field Dressing of Aiming",
+        "l": 655,
+        "c": 56740,
+        "t": 34,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42028",
+      "obj": {
+        "i": 42028,
+        "n": "Mountain Linen Cloak of Aiming",
+        "l": 655,
+        "c": 57129,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42029",
+      "obj": {
+        "i": 42029,
+        "n": "Crocodileskin Armguards of Aiming",
+        "l": 655,
+        "c": 56251,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42030",
+      "obj": {
+        "i": 42030,
+        "n": "Mountain Linen Longkilt of Aiming",
+        "l": 655,
+        "c": 57656,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42031",
+      "obj": {
+        "i": 42031,
+        "n": "Crocodileskin Thighboots of Aiming",
+        "l": 655,
+        "c": 49749,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42032",
+      "obj": {
+        "i": 42032,
+        "n": "Mountain Linen Bandana of Scouting",
+        "l": 655,
+        "c": 56739,
+        "t": 34,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42033",
+      "obj": {
+        "i": 42033,
+        "n": "Mountain Linen Top of Scouting",
+        "l": 655,
+        "c": 57131,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42034",
+      "obj": {
+        "i": 42034,
+        "n": "Crocodileskin Fingerless Gloves of Scouting",
+        "l": 655,
+        "c": 56253,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42035",
+      "obj": {
+        "i": 42035,
+        "n": "Crocodileskin Breeches of Scouting",
+        "l": 655,
+        "c": 57658,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42036",
+      "obj": {
+        "i": 42036,
+        "n": "Crocodileskin Leg Wraps of Scouting",
+        "l": 655,
+        "c": 49751,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42037",
+      "obj": {
+        "i": 42037,
+        "n": "Mountain Linen Hat of Healing",
+        "l": 655,
+        "c": 56737,
+        "t": 34,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42038",
+      "obj": {
+        "i": 42038,
+        "n": "Mountain Linen Cloak of Healing",
+        "l": 655,
+        "c": 57128,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42039",
+      "obj": {
+        "i": 42039,
+        "n": "Crocodileskin Armguards of Healing",
+        "l": 655,
+        "c": 56250,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42040",
+      "obj": {
+        "i": 42040,
+        "n": "Mountain Linen Longkilt of Healing",
+        "l": 655,
+        "c": 57655,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42041",
+      "obj": {
+        "i": 42041,
+        "n": "Crocodileskin Thighboots of Healing",
+        "l": 655,
+        "c": 49748,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42042",
+      "obj": {
+        "i": 42042,
+        "n": "Mountain Linen Hat of Casting",
+        "l": 655,
+        "c": 56736,
+        "t": 34,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42043",
+      "obj": {
+        "i": 42043,
+        "n": "Mountain Linen Cloak of Casting",
+        "l": 655,
+        "c": 57127,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42044",
+      "obj": {
+        "i": 42044,
+        "n": "Crocodileskin Armguards of Casting",
+        "l": 655,
+        "c": 56249,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42045",
+      "obj": {
+        "i": 42045,
+        "n": "Mountain Linen Longkilt of Casting",
+        "l": 655,
+        "c": 57654,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42046",
+      "obj": {
+        "i": 42046,
+        "n": "Crocodileskin Thighboots of Casting",
+        "l": 655,
+        "c": 49747,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42151",
+      "obj": {
+        "i": 42151,
+        "n": "Br'aaxskin Grimoire",
+        "l": 663,
+        "c": 37815,
+        "t": 10,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42152",
+      "obj": {
+        "i": 42152,
+        "n": "Br'aaxskin Codex",
+        "l": 663,
+        "c": 37814,
+        "t": 98,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42166",
+      "obj": {
+        "i": 42166,
+        "n": "Br'aaxskin Headband of Fending",
+        "l": 663,
+        "c": 56742,
+        "t": 34,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42171",
+      "obj": {
+        "i": 42171,
+        "n": "Br'aaxskin Headband of Maiming",
+        "l": 663,
+        "c": 56745,
+        "t": 34,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42176",
+      "obj": {
+        "i": 42176,
+        "n": "Br'aaxskin Headband of Striking",
+        "l": 663,
+        "c": 56746,
+        "t": 34,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42177",
+      "obj": {
+        "i": 42177,
+        "n": "Sarcenet Chestwrap of Striking",
+        "l": 663,
+        "c": 57136,
+        "t": 35,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42179",
+      "obj": {
+        "i": 42179,
+        "n": "Sarcenet Slops of Striking",
+        "l": 663,
+        "c": 57663,
+        "t": 36,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42181",
+      "obj": {
+        "i": 42181,
+        "n": "Br'aaxskin Headband of Aiming",
+        "l": 663,
+        "c": 56743,
+        "t": 34,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42182",
+      "obj": {
+        "i": 42182,
+        "n": "Sarcenet Chestwrap of Aiming",
+        "l": 663,
+        "c": 57137,
+        "t": 35,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42184",
+      "obj": {
+        "i": 42184,
+        "n": "Sarcenet Slops of Aiming",
+        "l": 663,
+        "c": 57664,
+        "t": 36,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42186",
+      "obj": {
+        "i": 42186,
+        "n": "Sarcenet Headband of Scouting",
+        "l": 663,
+        "c": 56747,
+        "t": 34,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42187",
+      "obj": {
+        "i": 42187,
+        "n": "Sarcenet Chestwrap of Scouting",
+        "l": 663,
+        "c": 57138,
+        "t": 35,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42189",
+      "obj": {
+        "i": 42189,
+        "n": "Sarcenet Slops of Scouting",
+        "l": 663,
+        "c": 57665,
+        "t": 36,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42192",
+      "obj": {
+        "i": 42192,
+        "n": "Sarcenet Chestwrap of Healing",
+        "l": 663,
+        "c": 57135,
+        "t": 35,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42193",
+      "obj": {
+        "i": 42193,
+        "n": "Pink Beryl Halfgloves of Healing",
+        "l": 663,
+        "c": 56258,
+        "t": 37,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42194",
+      "obj": {
+        "i": 42194,
+        "n": "Sarcenet Slops of Healing",
+        "l": 663,
+        "c": 57662,
+        "t": 36,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42195",
+      "obj": {
+        "i": 42195,
+        "n": "Br'aaxskin Sandals of Healing",
+        "l": 663,
+        "c": 49755,
+        "t": 38,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42197",
+      "obj": {
+        "i": 42197,
+        "n": "Sarcenet Chestwrap of Casting",
+        "l": 663,
+        "c": 57134,
+        "t": 35,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42198",
+      "obj": {
+        "i": 42198,
+        "n": "Pink Beryl Halfgloves of Casting",
+        "l": 663,
+        "c": 56257,
+        "t": 37,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42199",
+      "obj": {
+        "i": 42199,
+        "n": "Sarcenet Slops of Casting",
+        "l": 663,
+        "c": 57661,
+        "t": 36,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42200",
+      "obj": {
+        "i": 42200,
+        "n": "Br'aaxskin Sandals of Casting",
+        "l": 663,
+        "c": 49754,
+        "t": 38,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "43226",
+      "obj": {
+        "i": 43226,
+        "n": "Cobalt Tungsten Needle",
+        "l": 650,
+        "c": 39505,
+        "t": 22,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43294",
+      "obj": {
+        "i": 43294,
+        "n": "Sarcenet Work Cap of Crafting",
+        "l": 650,
+        "c": 56723,
+        "t": 34,
+        "p": 28459
+      }
+    },
+    {
+      "type": "item",
+      "id": "43296",
+      "obj": {
+        "i": 43296,
+        "n": "Br'aaxskin Halfgloves of Crafting",
+        "l": 650,
+        "c": 56235,
+        "t": 37,
+        "p": 28459
+      }
+    },
+    {
+      "type": "item",
+      "id": "43301",
+      "obj": {
+        "i": 43301,
+        "n": "Br'aaxskin Halfgloves of Gathering",
+        "l": 650,
+        "c": 56234,
+        "t": 37,
+        "p": 28459
+      }
+    },
+    {
+      "type": "item",
+      "id": "41090",
+      "obj": {
+        "i": 41090,
+        "n": "Tomestool",
+        "l": 690,
+        "c": 51730,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "44914",
+      "obj": {
+        "i": 44914,
+        "n": "Indoor Awning",
+        "l": 690,
+        "c": 51569,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "46096",
+      "obj": {
+        "i": 46096,
+        "n": "Tuliyollan Table",
+        "l": 690,
+        "c": 51748,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "46097",
+      "obj": {
+        "i": 46097,
+        "n": "Tuliyollan Stool",
+        "l": 690,
+        "c": 52869,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "46099",
+      "obj": {
+        "i": 46099,
+        "n": "Tuliyollan Rug",
+        "l": 690,
+        "c": 52049,
+        "t": 80
+      }
+    },
+    {
+      "type": "item",
+      "id": "43893",
+      "obj": {
+        "i": 43893,
+        "n": "Moblin Cover Components",
+        "l": 665,
+        "c": 25979,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "44192",
+      "obj": {
+        "i": 44192,
+        "n": "Rarefied Ruthenium War Axe",
+        "l": 656,
+        "c": 31253,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44210",
+      "obj": {
+        "i": 44210,
+        "n": "Rarefied Crocodileskin Leggings",
+        "l": 656,
+        "c": 49751,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44216",
+      "obj": {
+        "i": 44216,
+        "n": "Rarefied Mountain Linen Top",
+        "l": 656,
+        "c": 57130,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41810",
+      "obj": {
+        "i": 41810,
+        "n": "Country Cottage Wall",
+        "l": 1,
+        "c": 50855,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41811",
+      "obj": {
+        "i": 41811,
+        "n": "Country House Wall",
+        "l": 1,
+        "c": 50856,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41812",
+      "obj": {
+        "i": 41812,
+        "n": "Country Mansion Wall",
+        "l": 1,
+        "c": 50857,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1740",
+      "obj": {
+        "i": 1740,
+        "n": "Cloth for Canvas",
+        "l": 92,
+        "j": 14,
+        "p": 4504
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1741",
+      "obj": {
+        "i": 1741,
+        "n": "In Line with Linen",
+        "l": 92,
+        "j": 14,
+        "p": 4504
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "44030",
+      "obj": {
+        "i": 44030,
+        "n": "Mountain Linen",
+        "l": 653,
+        "c": 21608,
+        "t": 51
+      }
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "item": {
+    "name": "Farmer's Breakfast",
+    "description": "This simple-yet-delightful dish of popotoes and lightly scrambled eggs will fill you up before a day of tilling the fields.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 29505,
+    "patch": 5.2,
+    "patchCategory": 6,
+    "price": 3785,
+    "ilvl": 480,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Tenacity": {
+          "rate": 8,
+          "limit": 53
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 54
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 32
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Tenacity": {
+          "rate": 10,
+          "limit": 66
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 68
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 40
+        }
+      }
+    },
+    "icon": 24263,
+    "craft": [
+      {
+        "id": 33894,
+        "job": 15,
+        "rlvl": 480,
+        "durability": 70,
+        "quality": 8500,
+        "progress": 2800,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29491,
+        "ingredients": [
+          {
+            "id": 29511,
+            "amount": 2
+          },
+          {
+            "id": 27838,
+            "amount": 1,
+            "quality": 472.761
+          },
+          {
+            "id": 27822,
+            "amount": 2
+          },
+          {
+            "id": 27852,
+            "amount": 2
+          },
+          {
+            "id": 27823,
+            "amount": 1
+          },
+          {
+            "id": 12878,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 538,
+          "hq": 558
+        }
+      }
+    ],
+    "quests": [
+      69316,
+      69548
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Silkie Egg",
+      "id": 29511,
+      "icon": 25252,
+      "category": 45,
+      "ilvl": 480,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29511",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29511",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frantoio Oil",
+      "id": 27838,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 390,
+      "price": 2799,
+      "craft": [
+        {
+          "id": 3877,
+          "job": 15,
+          "rlvl": 390,
+          "durability": 40,
+          "quality": 3010,
+          "progress": 597,
+          "lvl": 71,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27820,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frantoio",
+      "id": 27820,
+      "icon": 25307,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1463,
+        1464,
+        1465
+      ],
+      "ventures": [
+        808
+      ],
+      "nodes": [
+        612
+      ]
+    },
+    {
+      "name": "Russet Popoto",
+      "id": 27822,
+      "icon": 25204,
+      "category": 45,
+      "ilvl": 409,
+      "price": 630,
+      "ventures": [
+        831
+      ],
+      "nodes": [
+        630
+      ]
+    },
+    {
+      "name": "Ovim Meat",
+      "id": 27852,
+      "icon": 25152,
+      "category": 45,
+      "ilvl": 409,
+      "price": 2397,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027892
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27852",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        782
+      ]
+    },
+    {
+      "name": "Curly Parsley",
+      "id": 27823,
+      "icon": 25211,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "ventures": [
+        822
+      ],
+      "nodes": [
+        617
+      ]
+    },
+    {
+      "name": "Cyclops Onion",
+      "id": 12878,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        548
+      ],
+      "nodes": [
+        297
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27820",
+      "obj": {
+        "i": 27820,
+        "n": "Frantoio",
+        "l": 390,
+        "c": 25307,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "612",
+      "obj": {
+        "i": 612,
+        "n": "The Chiliad",
+        "l": 75,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "630",
+      "obj": {
+        "i": 630,
+        "n": "The Dragging Tail",
+        "l": 80,
+        "t": 3,
+        "z": 2955,
+        "lt": "Unspoiled",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027892",
+      "obj": {
+        "i": 1027892,
+        "n": "Halden",
+        "l": 2955,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3135,
+        "c": [
+          10.66,
+          17.15
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "29491",
+      "obj": {
+        "i": 29491,
+        "n": "Master Culinarian VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29511",
+      "obj": {
+        "i": 29511,
+        "n": "Silkie Egg",
+        "l": 480,
+        "c": 25252,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27838",
+      "obj": {
+        "i": 27838,
+        "n": "Frantoio Oil",
+        "l": 390,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27822",
+      "obj": {
+        "i": 27822,
+        "n": "Russet Popoto",
+        "l": 409,
+        "c": 25204,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27852",
+      "obj": {
+        "i": 27852,
+        "n": "Ovim Meat",
+        "l": 409,
+        "c": 25152,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27823",
+      "obj": {
+        "i": 27823,
+        "n": "Curly Parsley",
+        "l": 390,
+        "c": 25211,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12878",
+      "obj": {
+        "i": 12878,
+        "n": "Cyclops Onion",
+        "l": 130,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69316",
+      "obj": {
+        "i": 69316,
+        "n": "The Journey Continues",
+        "g": 9,
+        "l": "Eulmore",
+        "s": 300
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69548",
+      "obj": {
+        "i": 69548,
+        "n": "The Admiral's Resolve",
+        "g": 10,
+        "l": "The Dravanian Hinterlands",
+        "s": 380
+      }
+    }
+  ]
+}

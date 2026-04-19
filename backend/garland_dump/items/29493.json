@@ -1,0 +1,356 @@
+{
+  "item": {
+    "name": "Grade 3 Tincture of Dexterity",
+    "description": "This diluted brew temporarily increases dexterity for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 29493,
+    "patch": 5.2,
+    "patchCategory": 4,
+    "price": 12617,
+    "ilvl": 480,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 95,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Dexterity": {
+          "rate": 8,
+          "limit": 106
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Dexterity": {
+          "rate": 10,
+          "limit": 133
+        }
+      }
+    },
+    "icon": 20709,
+    "craft": [
+      {
+        "id": 33882,
+        "job": 14,
+        "rlvl": 480,
+        "durability": 70,
+        "quality": 8500,
+        "progress": 2800,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29490,
+        "ingredients": [
+          {
+            "id": 29979,
+            "amount": 2
+          },
+          {
+            "id": 27785,
+            "amount": 1
+          },
+          {
+            "id": 27811,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 411,
+          "hq": 431
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Dried Hi-Ether",
+      "id": 29979,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 480,
+      "price": 3154,
+      "desynthedFrom": [
+        30433,
+        28927,
+        28929,
+        28928,
+        30434,
+        30436,
+        20036,
+        30435,
+        27540,
+        28930,
+        30439,
+        30437,
+        28925,
+        30438,
+        30432,
+        28926,
+        30439,
+        30434,
+        29348,
+        29354,
+        29352,
+        29375
+      ],
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29979",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29979",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light Gerbera",
+      "id": 27785,
+      "icon": 25008,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        838
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Chiaroglow Aethersand",
+      "id": 27811,
+      "icon": 21235,
+      "category": 54,
+      "ilvl": 409,
+      "price": 599,
+      "reducedFrom": [
+        27805,
+        27808,
+        27542
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27811",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27811",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27805",
+      "obj": {
+        "i": 27805,
+        "n": "Gale Rock",
+        "l": 409,
+        "c": 21473,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27808",
+      "obj": {
+        "i": 27808,
+        "n": "White Clay",
+        "l": 409,
+        "c": 22610,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27542",
+      "obj": {
+        "i": 27542,
+        "n": "Voeburt Bichir",
+        "l": 406,
+        "c": 28441,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29490",
+      "obj": {
+        "i": 29490,
+        "n": "Master Alchemist VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29979",
+      "obj": {
+        "i": 29979,
+        "n": "Dried Hi-Ether",
+        "l": 480,
+        "c": 22613,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27785",
+      "obj": {
+        "i": 27785,
+        "n": "Light Gerbera",
+        "l": 418,
+        "c": 25008,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27811",
+      "obj": {
+        "i": 27811,
+        "n": "Chiaroglow Aethersand",
+        "l": 409,
+        "c": 21235,
+        "t": 54
+      }
+    }
+  ]
+}

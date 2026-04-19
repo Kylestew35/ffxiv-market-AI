@@ -1,0 +1,231 @@
+{
+  "item": {
+    "name": "Augmented Lost Allagan Shield",
+    "jobCategories": "GLA PLD",
+    "id": 19296,
+    "patch": 4.05,
+    "patchCategory": 0,
+    "price": 34620,
+    "ilvl": 340,
+    "category": 11,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 517,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 17837,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1430,
+    "slot": 2,
+    "elvl": 70,
+    "jobs": 38,
+    "models": [
+      "101-64-1-0"
+    ],
+    "attr": {
+      "Block Strength": 600,
+      "Block Rate": 600,
+      "Strength": 36,
+      "Vitality": 37,
+      "Determination": 36,
+      "Tenacity": 25
+    },
+    "icon": 30168,
+    "sharedModels": [
+      19218
+    ],
+    "tradeShops": [
+      {
+        "shop": "Lost Allagan Gear Augmentation (DoW) I",
+        "npcs": [
+          1019453
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19281",
+                "amount": 1
+              },
+              {
+                "id": "19296",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "19203",
+                "amount": 1
+              },
+              {
+                "id": "19218",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lost Allagan Gear Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19296",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 170
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lost Allagan Gear (DoW, IL 340)",
+        "npcs": [
+          1019008,
+          1019455
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19296",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 40
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "19218",
+      "obj": {
+        "i": 19218,
+        "n": "Lost Allagan Shield",
+        "l": 330,
+        "c": 30168,
+        "t": 11
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019453",
+      "obj": {
+        "i": 1019453,
+        "n": "E'bolaff",
+        "l": 2403,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.72,
+          12.31
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19203",
+      "obj": {
+        "i": 19203,
+        "n": "Lost Allagan Saber",
+        "l": 330,
+        "c": 30574,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19281",
+      "obj": {
+        "i": 19281,
+        "n": "Augmented Lost Allagan Saber",
+        "l": 340,
+        "c": 30574,
+        "t": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019008",
+      "obj": {
+        "i": 1019008,
+        "n": "Satsuya",
+        "l": 2404,
+        "s": 5,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2906,
+        "c": [
+          10.47,
+          10.29
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019455",
+      "obj": {
+        "i": 1019455,
+        "n": "Billebaut",
+        "l": 2403,
+        "s": 5,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.11,
+          11.76
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

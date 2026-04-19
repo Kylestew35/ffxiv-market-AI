@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Wind-up Fuath",
+    "description": "Markedly less murderous than the real thing.<br><br>Use item to acquire the wind-up Fuath minion.",
+    "minionrace": "Poppet",
+    "tooltip": "The first rule of dealing\r\nwith the Fuath...is do <Emphasis>not</Emphasis>\r\ndeal with the Fuath.\r\n   - Ardbert",
+    "minionskilltype": "Trap",
+    "specialactionname": "Jolly Good Sport",
+    "specialactiondescription": "Sets a trap that, when triggered, reduces the movement speed of all enemies within range by 70%.<br><span class=\"highlight-green\">Duration:</span> 20s<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 26789,
+    "patch": 5.05,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59735,
+    "cost": 15,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 390,
+      "Skill Cost": 30,
+      "Attack": 45,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8301-1-1"
+    ],
+    "instances": [
+      55006
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      26745
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55006",
+      "obj": {
+        "i": 55006,
+        "n": "The Dungeons of Lyhe Ghiah",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 80,
+        "max_ilvl": 505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26745",
+      "obj": {
+        "i": 26745,
+        "n": "Timeworn Zonureskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    }
+  ]
+}

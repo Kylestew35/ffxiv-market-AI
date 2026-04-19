@@ -1,0 +1,116 @@
+{
+  "item": {
+    "name": "Ealad Skaan",
+    "description": "Very rarely caught in Longmirror Lake, the fisher is invariably struck by pangs of guilt at having sunk their hook into such a charming, delicate creature.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Called “butterfly wings” in the faerie tongue in praise of its elegant fins, this wavekin is said to have been glamoured by a pixie to resemble their beloved, departed Titania.",
+      "icon": 78495,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 219,
+          "transition": [
+            "Thunderstorms"
+          ],
+          "weather": [
+            "Clear Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2250,
+          "baits": [
+            [
+              27589
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33242,
+    "patch": 5.55,
+    "patchCategory": 7,
+    "price": 5000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28495,
+    "fishingSpots": [
+      219
+    ],
+    "desynthedTo": [
+      27705,
+      26732
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "219",
+      "obj": {
+        "i": 219,
+        "n": "Longmirror Lake",
+        "l": 73,
+        "c": 1,
+        "z": 2956,
+        "x": 21.02,
+        "y": 22.82
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27589",
+      "obj": {
+        "i": 27589,
+        "n": "Baitbugs",
+        "l": 430,
+        "c": 27040,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "27705",
+      "obj": {
+        "i": 27705,
+        "n": "Prismstone",
+        "l": 450,
+        "c": 21232,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "26732",
+      "obj": {
+        "i": 26732,
+        "n": "Gatherer's Guerdon Materia VIII",
+        "l": 430,
+        "c": 20277,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 20,
+          "attr": "Gathering",
+          "category": 2
+        }
+      }
+    }
+  ]
+}

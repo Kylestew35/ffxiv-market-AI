@@ -1,0 +1,132 @@
+{
+  "item": {
+    "name": "Wayward Hatchling",
+    "description": "Summons a lost chocobo chick. Until he finds his real mother, you'll have to suffice.<br><br>Use item to acquire the wayward hatchling minion.",
+    "minionrace": "Critter",
+    "tooltip": "Whoa, whoa, whoa!\r\nHooold your chocobos.\r\n  - Buscarron",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Choco Shuffle",
+    "specialactiondescription": "Inflicts a weakness to <span class=\"highlight\">critters</span> on all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 6005,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59402,
+    "vendors": [
+      1001276,
+      1001787,
+      1004417,
+      1011595
+    ],
+    "cost": 15,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 410,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 30,
+      "Speed": 3
+    },
+    "models": [
+      "8002-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1001276",
+      "obj": {
+        "i": 1001276,
+        "n": "Maisenta",
+        "l": 52,
+        "s": 10,
+        "q": 2,
+        "t": "Black Rabbit Traders",
+        "a": 551,
+        "c": [
+          11.53,
+          11.29
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001787",
+      "obj": {
+        "i": 1001787,
+        "n": "Bango Zango",
+        "l": 29,
+        "s": 10,
+        "q": 1,
+        "t": "Brugaire Consortium",
+        "a": 739,
+        "c": [
+          10.01,
+          11.44
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004417",
+      "obj": {
+        "i": 1004417,
+        "n": "Roarich",
+        "l": 40,
+        "s": 10,
+        "t": "Independent Importer",
+        "a": 640,
+        "c": [
+          10.58,
+          9.56
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011595",
+      "obj": {
+        "i": 1011595,
+        "n": "Minion Trader",
+        "l": 1484,
+        "s": 2,
+        "r": 1,
+        "a": 1663,
+        "c": [
+          7.77,
+          7.02
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

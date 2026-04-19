@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Loporrit Mender Permit",
+    "description": "This permit allows the hiring of Loporrit menders on the estate.<br><br>※Private chambers (apartments), cottages, houses, and mansions can host 4, 6, 8, and 10 vendors, respectively.",
+    "id": 39399,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 120,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26192,
+    "tradeShops": [
+      {
+        "shop": "Loporrit Carat Exchange",
+        "npcs": [
+          1044404
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39399",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38952",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "243"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1044404",
+      "obj": {
+        "i": 1044404,
+        "n": "Coiningway",
+        "l": 3711,
+        "s": 4,
+        "t": "Dreaming Vendor",
+        "r": 1,
+        "a": 4290,
+        "c": [
+          17.43,
+          15.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38952",
+      "obj": {
+        "i": 38952,
+        "n": "Loporrit Carat",
+        "l": 1,
+        "c": "t/65100",
+        "t": 100
+      }
+    }
+  ]
+}

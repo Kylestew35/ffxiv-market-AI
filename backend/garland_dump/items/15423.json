@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Carved Kupo Nut Promissory Note",
+    "description": "A promissory note that can be exchanged for carved kupo nuts─inedible kupo nuts carved with a special symbol to denote use as moogle currency.",
+    "id": 15423,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2178,
+    "ilvl": 55,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26187,
+    "disposal": [
+      {
+        "amount": 1,
+        "item": 21080,
+        "shop": "Certificate Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ]
+      },
+      {
+        "amount": 1,
+        "item": 21080,
+        "shop": "Currency Exchange",
+        "npcs": [
+          1017172
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21080",
+      "obj": {
+        "i": 21080,
+        "n": "Carved Kupo Nut",
+        "l": 1,
+        "c": 65057,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    }
+  ]
+}

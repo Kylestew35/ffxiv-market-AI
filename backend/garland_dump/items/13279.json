@@ -1,0 +1,166 @@
+{
+  "item": {
+    "name": "Hunting Hawk",
+    "description": "She loves you more than life itself. She's had to.<br><br>Use item to acquire the hunting hawk minion.",
+    "minionrace": "Critter",
+    "tooltip": "Our companions gliding proudly\r\nthrough the skies will be as they\r\nalways have and always will be.\r\n   - Josseloux",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Hawk's Eye",
+    "specialactiondescription": "Reduces ATK of all enemies within range by 50%.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 13279,
+    "patch": 3.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59562,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13279",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 800
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 30,
+    "strengths": [],
+    "attr": {
+      "HP": 520,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 50,
+      "Speed": 4
+    },
+    "models": [
+      "8134-1-1"
+    ],
+    "treasure": [
+      23223,
+      23224,
+      36635,
+      41667
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "23223",
+      "obj": {
+        "i": 23223,
+        "n": "Silver-haloed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "23224",
+      "obj": {
+        "i": 23224,
+        "n": "Gold-haloed Sack",
+        "l": 1,
+        "c": 25991,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41667",
+      "obj": {
+        "i": 41667,
+        "n": "Sanctuary Materiel Container",
+        "l": 1,
+        "c": 21002,
+        "t": 61
+      }
+    }
+  ]
+}

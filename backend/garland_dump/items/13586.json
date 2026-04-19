@@ -1,0 +1,509 @@
+{
+  "item": {
+    "name": "Unidentifiable Ore",
+    "description": "This highly collectable variety of ore is undocumented in the extensive Amajina & Sons mining logs.",
+    "id": 13586,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 15000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21478,
+    "tradeShops": [
+      {
+        "shop": "Titan Cobaltpiece Exchange",
+        "npcs": [
+          1008909
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21078",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Vanu Whitebone Exchange",
+        "npcs": [
+          1016093
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21074",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Precision Gordian Part Exchange",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13585",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Black Copper Gil Exchange",
+        "npcs": [
+          1016804
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21079",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Carved Kupo Nut Exchange",
+        "npcs": [
+          1017172
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21080",
+                "amount": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allagan Tomestones of Poetics (Special Arms)",
+        "npcs": [
+          1008119,
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Special Arms Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Anima Weapon Materials",
+        "npcs": [
+          1016290
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13579",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13586",
+                "amount": 10
+              },
+              {
+                "id": "13593",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Uncanny Knickknacks",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7766",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      12242,
+      12243
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016290",
+      "obj": {
+        "i": 1016290,
+        "n": "Cristiana",
+        "l": 67,
+        "s": 1,
+        "q": 1,
+        "t": "Anima Weapon Modification",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          21.39,
+          5.5
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13593",
+      "obj": {
+        "i": 13593,
+        "n": "Dispelling Arrow",
+        "l": 160,
+        "c": 27209,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "13579",
+      "obj": {
+        "i": 13579,
+        "n": "Divine Water",
+        "l": 1,
+        "c": 22659,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13585",
+      "obj": {
+        "i": 13585,
+        "n": "Precision Gordian Spring",
+        "l": 1,
+        "c": 20911,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21080",
+      "obj": {
+        "i": 21080,
+        "n": "Carved Kupo Nut",
+        "l": 1,
+        "c": 65057,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1015578",
+      "obj": {
+        "i": 1015578,
+        "n": "Bertana",
+        "l": 2082,
+        "s": 6,
+        "t": "Primal Gear Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.86,
+          5.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7766",
+      "obj": {
+        "i": 7766,
+        "n": "Grade 3 Thanalan Topsoil",
+        "l": 50,
+        "c": 27409,
+        "t": 82
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12242",
+      "obj": {
+        "i": 12242,
+        "n": "Timeworn Wyvernskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12243",
+      "obj": {
+        "i": 12243,
+        "n": "Timeworn Dragonskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    }
+  ]
+}

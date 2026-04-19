@@ -1,0 +1,100 @@
+{
+  "item": {
+    "name": "Amplifying Achondrite",
+    "description": "This hunk of meteorite contains deposits of a rare form of pyroxene. When subjected to an advanced extraction process, the achondrite produces mineral oil which can be used to manipulate the pathways of aetherial conductivity.",
+    "id": 40322,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21210,
+    "tradeShops": [
+      {
+        "shop": "Manderville Weapon Materials Exchange",
+        "npcs": [
+          1043892
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40322",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      70307,
+      70308
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043892",
+      "obj": {
+        "i": 1043892,
+        "n": "Jubrunnah",
+        "l": 3707,
+        "s": 1,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3875,
+        "c": [
+          12.22,
+          10.99
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70307",
+      "obj": {
+        "i": 70307,
+        "n": "A Spirited Reforging",
+        "g": 85,
+        "l": "Radz-at-Han",
+        "s": 301,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70308",
+      "obj": {
+        "i": 70308,
+        "n": "In Need of Adjustment",
+        "g": 85,
+        "l": "Radz-at-Han",
+        "s": 351,
+        "r": 1,
+        "f": 1
+      }
+    }
+  ]
+}

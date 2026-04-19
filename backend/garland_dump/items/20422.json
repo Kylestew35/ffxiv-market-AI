@@ -1,0 +1,326 @@
+{
+  "item": {
+    "name": "Augmented Shire Katana",
+    "jobCategories": "SAM",
+    "id": 20422,
+    "patch": 4.0,
+    "patchCategory": 0,
+    "price": 96228,
+    "ilvl": 270,
+    "category": 96,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1444,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1290,
+    "slot": 13,
+    "elvl": 60,
+    "jobs": 111,
+    "models": [
+      "2201-8-1-0",
+      "2251-8-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 79,
+      "Magic Damage": 40,
+      "Delay": 2.64,
+      "Strength": 98,
+      "Vitality": 103,
+      "Skill Speed": 96,
+      "Direct Hit Rate": 67
+    },
+    "attr_max": {
+      "Dexterity": 69,
+      "Intelligence": 69,
+      "Mind": 69,
+      "Piety": 67,
+      "GP": 6,
+      "CP": 5,
+      "Tenacity": 96,
+      "Direct Hit Rate": 96,
+      "Critical Hit": 96,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Determination": 96,
+      "Spell Speed": 96,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 452,
+      "Control": 242,
+      "Gathering": 392,
+      "Perception": 224
+    },
+    "icon": 36409,
+    "sharedModels": [
+      20420,
+      34243
+    ],
+    "tradeShops": [
+      {
+        "shop": "Shire Gear Augmentation (DoW) I.",
+        "npcs": [
+          1013747
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20422",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20420",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allagan Tomestones of Poetics (IL 270 Weapons)",
+        "npcs": [
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20422",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Silver Chocobo Feather Exchange II (Lv. 60 Gear)",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20422",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12995",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shire Gear (IL 270)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20422",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shire Gear Augmentation (IL 270 DoW)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20422",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20420",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "20420",
+      "obj": {
+        "i": 20420,
+        "n": "Shire Katana",
+        "l": 260,
+        "c": 36409,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "34243",
+      "obj": {
+        "i": 34243,
+        "n": "High Durium Uchigatana",
+        "l": 525,
+        "c": 36522,
+        "t": 96,
+        "p": 46551
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013747",
+      "obj": {
+        "i": 1013747,
+        "n": "Seika",
+        "l": 2082,
+        "s": 22,
+        "t": "Gear Improvement",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.74,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12995",
+      "obj": {
+        "i": 12995,
+        "n": "Silver Chocobo Feather",
+        "l": 1,
+        "c": 21909,
+        "t": 61
+      }
+    }
+  ]
+}

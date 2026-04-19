@@ -1,0 +1,275 @@
+{
+  "item": {
+    "name": "Sweet Gnomefish",
+    "description": "A gnomefish boiled in sweet birch syrup. The glaze preserves the fish for days after cooking.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 14141,
+    "patch": 3.2,
+    "patchCategory": 6,
+    "price": 1496,
+    "ilvl": 180,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 31
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 30
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 39
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 38
+        }
+      }
+    },
+    "icon": 24301,
+    "craft": [
+      {
+        "id": 31481,
+        "job": 15,
+        "rlvl": 180,
+        "durability": 70,
+        "quality": 2900,
+        "progress": 740,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 695,
+        "craftsmanshipReq": 718,
+        "quickSynthCraftsmanship": 810,
+        "unlockId": 14133,
+        "ingredients": [
+          {
+            "id": 14212,
+            "amount": 1
+          },
+          {
+            "id": 12892,
+            "amount": 1,
+            "quality": 634.91125
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 197,
+          "hq": 217
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Gnomefish",
+      "id": 14212,
+      "icon": 29421,
+      "category": 47,
+      "ilvl": 190,
+      "price": 3333,
+      "fishingSpots": [
+        126
+      ]
+    },
+    {
+      "name": "Birch Syrup",
+      "id": 12892,
+      "icon": 25105,
+      "category": 45,
+      "ilvl": 148,
+      "price": 468,
+      "craft": [
+        {
+          "id": 2819,
+          "job": 15,
+          "rlvl": 148,
+          "durability": 35,
+          "quality": 2104,
+          "progress": 270,
+          "lvl": 59,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12891,
+              "amount": 3
+            },
+            {
+              "id": 2,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 73,
+            "hq": 93
+          }
+        }
+      ]
+    },
+    {
+      "name": "Birch Sap",
+      "id": 12891,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 148,
+      "price": 468,
+      "tradeShops": [
+        {
+          "shop": "Vanu Whitebone Exchange",
+          "npcs": [
+            1016093
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12891",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21074",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        478
+      ],
+      "nodes": [
+        356
+      ],
+      "vendors": [
+        1016093
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "126",
+      "obj": {
+        "i": 126,
+        "n": "Quickspill Delta",
+        "l": 58,
+        "c": 1,
+        "z": 2001,
+        "x": 11.33,
+        "y": 27.55
+      }
+    },
+    {
+      "type": "item",
+      "id": "12891",
+      "obj": {
+        "i": 12891,
+        "n": "Birch Sap",
+        "l": 148,
+        "c": 22642,
+        "t": 45,
+        "p": 468
+      }
+    },
+    {
+      "type": "node",
+      "id": "356",
+      "obj": {
+        "i": 356,
+        "n": "Voor Sian Siran",
+        "l": 60,
+        "t": 2,
+        "z": 2100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "14133",
+      "obj": {
+        "i": 14133,
+        "n": "Master Culinarian IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "14212",
+      "obj": {
+        "i": 14212,
+        "n": "Gnomefish",
+        "l": 190,
+        "c": 29421,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12892",
+      "obj": {
+        "i": 12892,
+        "n": "Birch Syrup",
+        "l": 148,
+        "c": 25105,
+        "t": 45
+      }
+    }
+  ]
+}

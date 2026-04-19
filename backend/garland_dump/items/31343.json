@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Lugus Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 282",
+    "id": 31343,
+    "patch": 5.3,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tradeShops": [
+      {
+        "shop": "Triple Triad Cards",
+        "npcs": [
+          1010478,
+          1016294,
+          1016296
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "31343",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 21000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "A familiar of flame birthed by the recluse mage Beq Lugg, whose original intent was to more efficiently create porxies. An experiment gone awry, however, resulted in the flames of a fae lantern gaining sentience. Realizing that such a creature would be far better suited to protecting their domain, further research was conducted, leading to the creation of Lugus."
+      },
+      "ja": {
+        "description": "ン・モゥ族の隠者、ベーク＝ラグが造った炎の使い魔。効率的にポークシーを増産する目的で、ピクシー族の「妖精のランプ」に改良を加えたところ、副産物として踊る炎が誕生。これを宮殿を守る将として、調整したものがルゴスらしい。"
+      },
+      "de": {
+        "description": "Der Lohengeneral Lugus, ein einzigartiges Familiar, ist der persönliche Leibwächter des Einsiedlers Beq Lugg. Es heißt, bei der Verwendung einer manipulierten Feenlampe, die ein paar freche Pixies dem Nu Mou untergejubelt hatten, sei als unvorhergesehenes Nebenprodukt bei der Beschwörung eines Quiexie eine mysteriöse, lebendige Flamme entstanden. Fasziniert von der Erscheinung, nutzte Beq Lugg sein Wissen über Seelentransfers und kultivierte die magische Flamme nach und nach zu einem kontrollierten, lebenden Inferno."
+      },
+      "fr": {
+        "description": "Le familier de feu de Beq Lugg, un ermite nu mou. Celui-ci a découvert la flamme dansante en cherchant à améliorer la loupiote féérique des Pixies afin d'accélerer efficacement la production de porxies, et s'en est servi pour créer Lugus, le gardien du palais."
+      },
+      "sellMgp": 500,
+      "plate": 87297,
+      "rarity": 3,
+      "top": 5,
+      "bottom": 7,
+      "left": 7,
+      "right": 4
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010478",
+      "obj": {
+        "i": 1010478,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 1487,
+        "c": [
+          4.14,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016294",
+      "obj": {
+        "i": 1016294,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.02,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016296",
+      "obj": {
+        "i": 1016296,
+        "n": "Triple Triad Trader",
+        "l": 1665,
+        "s": 1,
+        "r": 1,
+        "c": [
+          3.56,
+          3.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Cloud Strife Card",
+    "description": "A legendary (★★★★★) card used in the game Triple Triad.<br>Card No. Ex. 7",
+    "id": 9845,
+    "patch": 2.51,
+    "patchCategory": 14,
+    "price": 19,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27671,
+    "tradeShops": [
+      {
+        "shop": "Triple Triad Cards",
+        "npcs": [
+          1010478,
+          1016294,
+          1016296
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9845",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 1000000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "“I can't remain trapped in an illusion anymore.”"
+      },
+      "ja": {
+        "description": "「もう幻想はいらない……。\r\n俺は俺の現実を生きる」\r\n伝説の英雄：クラウド・ストライフ"
+      },
+      "de": {
+        "description": "„Ich kann nicht länger gefangen in einer Illusion verweilen.“"
+      },
+      "fr": {
+        "description": "“Je ne peux plus rester enfermé dans cette illusion... Je vais vivre ma vie sans faire semblant.”"
+      },
+      "sellMgp": 1500,
+      "plate": 87074,
+      "rarity": 5,
+      "top": 9,
+      "bottom": 9,
+      "left": 8,
+      "right": 3
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010478",
+      "obj": {
+        "i": 1010478,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 1487,
+        "c": [
+          4.14,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016294",
+      "obj": {
+        "i": 1016294,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.02,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016296",
+      "obj": {
+        "i": 1016296,
+        "n": "Triple Triad Trader",
+        "l": 1665,
+        "s": 1,
+        "r": 1,
+        "c": [
+          3.56,
+          3.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

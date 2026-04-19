@@ -1,0 +1,556 @@
+{
+  "item": {
+    "name": "Spodumene",
+    "description": "A light-pink jewel.",
+    "id": 39719,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21336,
+    "ingredient_of": {
+      "39637": 2,
+      "39638": 2,
+      "39639": 2,
+      "39640": 2,
+      "39641": 2,
+      "39642": 2,
+      "39644": 2,
+      "39645": 1,
+      "39647": 2,
+      "39648": 1,
+      "39675": 1,
+      "39676": 1,
+      "39680": 1,
+      "39681": 1,
+      "39690": 1,
+      "39691": 1,
+      "39692": 1,
+      "39693": 1,
+      "39694": 1,
+      "39695": 1,
+      "39696": 1,
+      "39697": 1,
+      "39698": 1,
+      "39699": 1,
+      "41593": 1,
+      "41086": 2,
+      "41057": 1,
+      "43602": 1,
+      "43603": 1
+    },
+    "craft": [
+      {
+        "id": 35577,
+        "job": 11,
+        "rlvl": 640,
+        "durability": 35,
+        "quality": 9090,
+        "progress": 4488,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3660,
+        "craftsmanshipReq": 3950,
+        "unlockId": 37737,
+        "ingredients": [
+          {
+            "id": 39707,
+            "amount": 5
+          },
+          {
+            "id": 39713,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 3
+          },
+          {
+            "id": 14,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 540,
+          "hq": 560
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raw Spodumene",
+      "id": 39707,
+      "icon": 21475,
+      "category": 48,
+      "ilvl": 640,
+      "price": 99999,
+      "ventures": [
+        1045
+      ],
+      "nodes": [
+        934
+      ]
+    },
+    {
+      "name": "Grinding Fluid",
+      "id": 39713,
+      "icon": 25452,
+      "category": 54,
+      "ilvl": 640,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39713",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39713",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "934",
+      "obj": {
+        "i": 934,
+        "n": "Lethe",
+        "l": 90,
+        "t": 0,
+        "z": 3713,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39637",
+      "obj": {
+        "i": 39637,
+        "n": "Diadochos Revolver",
+        "l": 640,
+        "c": 34490,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "39638",
+      "obj": {
+        "i": 39638,
+        "n": "Diadochos Cane",
+        "l": 640,
+        "c": 32461,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "39639",
+      "obj": {
+        "i": 39639,
+        "n": "Diadochos Rod",
+        "l": 640,
+        "c": 32876,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "39640",
+      "obj": {
+        "i": 39640,
+        "n": "Diadochos Index",
+        "l": 640,
+        "c": 33386,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "39641",
+      "obj": {
+        "i": 39641,
+        "n": "Diadochos Codex",
+        "l": 640,
+        "c": 33385,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "39642",
+      "obj": {
+        "i": 39642,
+        "n": "Diadochos Planisphere",
+        "l": 640,
+        "c": 34988,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "39644",
+      "obj": {
+        "i": 39644,
+        "n": "Diadochos Smallsword",
+        "l": 640,
+        "c": 36844,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "39645",
+      "obj": {
+        "i": 39645,
+        "n": "Diadochos Gunblade",
+        "l": 640,
+        "c": 36087,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "39647",
+      "obj": {
+        "i": 39647,
+        "n": "Diadochos Wings",
+        "l": 640,
+        "c": 37053,
+        "t": 109
+      }
+    },
+    {
+      "type": "item",
+      "id": "39648",
+      "obj": {
+        "i": 39648,
+        "n": "Diadochos Zaghnal",
+        "l": 640,
+        "c": 37256,
+        "t": 108
+      }
+    },
+    {
+      "type": "item",
+      "id": "39675",
+      "obj": {
+        "i": 39675,
+        "n": "Diadochos Beret of Healing",
+        "l": 640,
+        "c": 56584,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39676",
+      "obj": {
+        "i": 39676,
+        "n": "Diadochos Coat of Healing",
+        "l": 640,
+        "c": 42965,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39680",
+      "obj": {
+        "i": 39680,
+        "n": "Diadochos Beret of Casting",
+        "l": 640,
+        "c": 56585,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39681",
+      "obj": {
+        "i": 39681,
+        "n": "Diadochos Coat of Casting",
+        "l": 640,
+        "c": 42966,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39690",
+      "obj": {
+        "i": 39690,
+        "n": "Diadochos Choker of Fending",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39691",
+      "obj": {
+        "i": 39691,
+        "n": "Diadochos Choker of Slaying",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39692",
+      "obj": {
+        "i": 39692,
+        "n": "Diadochos Choker of Aiming",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39693",
+      "obj": {
+        "i": 39693,
+        "n": "Diadochos Choker of Healing",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39694",
+      "obj": {
+        "i": 39694,
+        "n": "Diadochos Choker of Casting",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39695",
+      "obj": {
+        "i": 39695,
+        "n": "Diadochos Wristband of Fending",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39696",
+      "obj": {
+        "i": 39696,
+        "n": "Diadochos Wristband of Slaying",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39697",
+      "obj": {
+        "i": 39697,
+        "n": "Diadochos Wristband of Aiming",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39698",
+      "obj": {
+        "i": 39698,
+        "n": "Diadochos Wristband of Healing",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39699",
+      "obj": {
+        "i": 39699,
+        "n": "Diadochos Wristband of Casting",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "37737",
+      "obj": {
+        "i": 37737,
+        "n": "Master Goldsmith X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39707",
+      "obj": {
+        "i": 39707,
+        "n": "Raw Spodumene",
+        "l": 640,
+        "c": 21475,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "39713",
+      "obj": {
+        "i": 39713,
+        "n": "Grinding Fluid",
+        "l": 640,
+        "c": 25452,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "41593",
+      "obj": {
+        "i": 41593,
+        "n": "Martial Artist's Slops",
+        "l": 1,
+        "c": 57539,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "41086",
+      "obj": {
+        "i": 41086,
+        "n": "Abyssal Wings Display",
+        "l": 610,
+        "c": 53476,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "41057",
+      "obj": {
+        "i": 41057,
+        "n": "Abyssal Barding",
+        "l": 1,
+        "c": 58785,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "43602",
+      "obj": {
+        "i": 43602,
+        "n": "Skyruin Barding",
+        "l": 1,
+        "c": 58794,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "43603",
+      "obj": {
+        "i": 43603,
+        "n": "Electrope Barding",
+        "l": 1,
+        "c": 58797,
+        "t": 63
+      }
+    }
+  ]
+}

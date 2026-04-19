@@ -1,0 +1,424 @@
+{
+  "item": {
+    "name": "Dark Cherry Lumber",
+    "description": "Processed dark cherry lumber.",
+    "id": 39717,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22453,
+    "ingredient_of": {
+      "39631": 1,
+      "39632": 1,
+      "39633": 3,
+      "39634": 3,
+      "39643": 2,
+      "39646": 1,
+      "39649": 1,
+      "39685": 1,
+      "39686": 1,
+      "39687": 1,
+      "39688": 1,
+      "39689": 1,
+      "39700": 1,
+      "39701": 1,
+      "39702": 1,
+      "39703": 1,
+      "39704": 1,
+      "41086": 1
+    },
+    "craft": [
+      {
+        "id": 35574,
+        "job": 8,
+        "rlvl": 640,
+        "durability": 35,
+        "quality": 9090,
+        "progress": 4488,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3660,
+        "craftsmanshipReq": 3950,
+        "unlockId": 37734,
+        "ingredients": [
+          {
+            "id": 39705,
+            "amount": 5
+          },
+          {
+            "id": 39711,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 3
+          },
+          {
+            "id": 15,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 540,
+          "hq": 560
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Dark Cherry Log",
+      "id": 39705,
+      "icon": 22408,
+      "category": 50,
+      "ilvl": 640,
+      "price": 99999,
+      "ventures": [
+        1046
+      ],
+      "nodes": [
+        937
+      ]
+    },
+    {
+      "name": "Liquid Glass",
+      "id": 39711,
+      "icon": 22606,
+      "category": 54,
+      "ilvl": 640,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39711",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39711",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "937",
+      "obj": {
+        "i": 937,
+        "n": "The Central Circuit",
+        "l": 90,
+        "t": 2,
+        "z": 3708,
+        "s": 4,
+        "lt": "Legendary",
+        "ti": [
+          2,
+          14
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39631",
+      "obj": {
+        "i": 39631,
+        "n": "Diadochos Knuckles",
+        "l": 640,
+        "c": 30831,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "39632",
+      "obj": {
+        "i": 39632,
+        "n": "Diadochos War Axe",
+        "l": 640,
+        "c": 31241,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "39633",
+      "obj": {
+        "i": 39633,
+        "n": "Diadochos Spear",
+        "l": 640,
+        "c": 31643,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "39634",
+      "obj": {
+        "i": 39634,
+        "n": "Diadochos Compound Bow",
+        "l": 640,
+        "c": 32031,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "39643",
+      "obj": {
+        "i": 39643,
+        "n": "Diadochos Blade",
+        "l": 640,
+        "c": 36545,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "39646",
+      "obj": {
+        "i": 39646,
+        "n": "Diadochos Chakrams",
+        "l": 640,
+        "c": 36286,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "39649",
+      "obj": {
+        "i": 39649,
+        "n": "Diadochos Shield",
+        "l": 640,
+        "c": 30256,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "39685",
+      "obj": {
+        "i": 39685,
+        "n": "Diadochos Earring of Fending",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39686",
+      "obj": {
+        "i": 39686,
+        "n": "Diadochos Earring of Slaying",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39687",
+      "obj": {
+        "i": 39687,
+        "n": "Diadochos Earring of Aiming",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39688",
+      "obj": {
+        "i": 39688,
+        "n": "Diadochos Earring of Healing",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39689",
+      "obj": {
+        "i": 39689,
+        "n": "Diadochos Earring of Casting",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39700",
+      "obj": {
+        "i": 39700,
+        "n": "Diadochos Ring of Fending",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39701",
+      "obj": {
+        "i": 39701,
+        "n": "Diadochos Ring of Slaying",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39702",
+      "obj": {
+        "i": 39702,
+        "n": "Diadochos Ring of Aiming",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39703",
+      "obj": {
+        "i": 39703,
+        "n": "Diadochos Ring of Healing",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39704",
+      "obj": {
+        "i": 39704,
+        "n": "Diadochos Ring of Casting",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "37734",
+      "obj": {
+        "i": 37734,
+        "n": "Master Carpenter X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39705",
+      "obj": {
+        "i": 39705,
+        "n": "Dark Cherry Log",
+        "l": 640,
+        "c": 22408,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "39711",
+      "obj": {
+        "i": 39711,
+        "n": "Liquid Glass",
+        "l": 640,
+        "c": 22606,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "41086",
+      "obj": {
+        "i": 41086,
+        "n": "Abyssal Wings Display",
+        "l": 610,
+        "c": 53476,
+        "t": 78
+      }
+    }
+  ]
+}

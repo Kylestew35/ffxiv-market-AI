@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Wind-up Sasquatch",
+    "description": "It thankfully cannot pelt you with its steaming stool.<br><br>Use item to acquire the wind-up sasquatch minion.",
+    "minionrace": "Monster",
+    "tooltip": "I've decided to follow\r\nin your footsteps.\r\n   - Sisipu",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Agitation",
+    "specialactiondescription": "Disarms deployed enemy traps.",
+    "id": 15446,
+    "patch": 3.35,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59608,
+    "tradeShops": [
+      {
+        "shop": "Gelmorran Potsherd Exchange",
+        "npcs": [
+          1017338
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15446",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15422",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 420,
+      "Skill Cost": 20,
+      "Attack": 45,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8152-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017338",
+      "obj": {
+        "i": 1017338,
+        "n": "E-Una-Kotor",
+        "l": 56,
+        "s": 2,
+        "r": 1,
+        "a": 129,
+        "c": [
+          25.12,
+          20.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15422",
+      "obj": {
+        "i": 15422,
+        "n": "Gelmorran Potsherd",
+        "l": 230,
+        "c": 25975,
+        "t": 61
+      }
+    }
+  ]
+}

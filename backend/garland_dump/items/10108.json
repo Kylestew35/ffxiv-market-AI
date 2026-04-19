@@ -1,0 +1,152 @@
+{
+  "item": {
+    "name": "Talan's Seal of Mining Mastery",
+    "description": "A document bearing master crafter Talan's personal seal. Can be presented in exchange for unparalleled mining equipment.",
+    "id": 10108,
+    "patch": 2.5,
+    "patchCategory": 5,
+    "price": 3564,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26177,
+    "tradeCurrency": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10140",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8444",
+                "amount": 1
+              },
+              {
+                "id": "10108",
+                "amount": 1
+              },
+              {
+                "id": "10124",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10108",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8030",
+                "amount": 30
+              },
+              {
+                "id": "10120",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8444",
+      "obj": {
+        "i": 8444,
+        "n": "Mammon Supra",
+        "l": 75,
+        "c": 38015,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "10124",
+      "obj": {
+        "i": 10124,
+        "n": "Moonstone",
+        "l": 90,
+        "c": 21273,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10140",
+      "obj": {
+        "i": 10140,
+        "n": "Mammon Lucis",
+        "l": 90,
+        "c": 38016,
+        "t": 28,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "8030",
+      "obj": {
+        "i": 8030,
+        "n": "Antumbral Rock",
+        "l": 75,
+        "c": 21213,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10120",
+      "obj": {
+        "i": 10120,
+        "n": "Magicked Oilcloth",
+        "l": 90,
+        "c": 21615,
+        "t": 51
+      }
+    }
+  ]
+}

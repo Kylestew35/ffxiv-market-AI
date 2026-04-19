@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Looping in the Deepest Fringes Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Looping in the Deepest Fringes</span>. Use to add to your orchestrion list.",
+    "id": 40713,
+    "patch": 6.4,
+    "patchCategory": 16,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 603,
+      "name": "Looping in the Deepest Fringes",
+      "description": "Available for exchange in Old Sharlayan.",
+      "category": "Locales I",
+      "order": 79
+    },
+    "tradeShops": [
+      {
+        "shop": "Rokkon Potsherd Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40713",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39884",
+                "amount": 9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "39884",
+      "obj": {
+        "i": 39884,
+        "n": "Rokkon Potsherd",
+        "l": 1,
+        "c": 26641,
+        "t": 61
+      }
+    }
+  ]
+}

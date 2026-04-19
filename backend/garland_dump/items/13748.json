@@ -1,0 +1,633 @@
+{
+  "item": {
+    "name": "Cloud Cloth",
+    "description": "Soft, light cotton woven from rare cloud cotton bolls.",
+    "id": 13748,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 2661,
+    "ilvl": 160,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21605,
+    "ingredient_of": {
+      "13641": 1,
+      "13643": 2,
+      "13647": 1,
+      "13649": 2,
+      "13653": 1,
+      "13655": 2,
+      "13659": 2,
+      "13661": 2,
+      "13665": 1,
+      "13667": 2,
+      "13671": 2,
+      "13673": 2,
+      "13677": 2,
+      "13679": 2,
+      "14939": 1,
+      "14943": 1,
+      "15145": 1,
+      "15511": 1,
+      "15513": 1,
+      "15520": 1,
+      "15521": 2,
+      "15522": 1,
+      "15523": 1,
+      "17467": 2,
+      "17468": 2
+    },
+    "craft": [
+      {
+        "id": 31339,
+        "job": 13,
+        "rlvl": 160,
+        "durability": 35,
+        "quality": 2800,
+        "progress": 330,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "quickSynth": 1,
+        "craftsmanshipReq": 620,
+        "quickSynthCraftsmanship": 718,
+        "unlockId": 12249,
+        "ingredients": [
+          {
+            "id": 13753,
+            "amount": 2
+          },
+          {
+            "id": 12595,
+            "amount": 1,
+            "quality": 383.87097
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 335,
+          "hq": 355
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Cloud Cotton Boll",
+      "id": 13753,
+      "icon": 21652,
+      "category": 51,
+      "ilvl": 180,
+      "price": 641,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13753",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13753",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ramie Thread",
+      "id": 12595,
+      "icon": 21659,
+      "category": 51,
+      "ilvl": 136,
+      "price": 1998,
+      "craft": [
+        {
+          "id": 2757,
+          "job": 13,
+          "rlvl": 133,
+          "durability": 40,
+          "quality": 1824,
+          "progress": 170,
+          "lvl": 54,
+          "materialQualityFactor": 0,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12598,
+              "amount": 3
+            },
+            {
+              "id": 5346,
+              "amount": 2
+            },
+            {
+              "id": 12,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        11216,
+        15165
+      ],
+      "treasure": [
+        12241
+      ],
+      "leves": [
+        1100,
+        1101,
+        1102,
+        1103,
+        1104,
+        1105
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Stalk of Ramie",
+      "id": 12598,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 136,
+      "price": 484,
+      "ventures": [
+        467
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Flax",
+      "id": 5346,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 32,
+      "price": 83,
+      "leves": [
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428
+      ],
+      "ventures": [
+        266
+      ],
+      "nodes": [
+        29
+      ],
+      "seeds": [
+        7741
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12598",
+      "obj": {
+        "i": 12598,
+        "n": "Stalk of Ramie",
+        "l": 136,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5346",
+      "obj": {
+        "i": 5346,
+        "n": "Flax",
+        "l": 32,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "12241",
+      "obj": {
+        "i": 12241,
+        "n": "Timeworn Archaeoskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 3,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "13641",
+      "obj": {
+        "i": 13641,
+        "n": "Sky Pirate's Coat of Fending",
+        "l": 185,
+        "c": 48092,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13643",
+      "obj": {
+        "i": 13643,
+        "n": "Sky Pirate's Gaskins of Fending",
+        "l": 185,
+        "c": 45706,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13647",
+      "obj": {
+        "i": 13647,
+        "n": "Sky Pirate's Coat of Maiming",
+        "l": 185,
+        "c": 48093,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13649",
+      "obj": {
+        "i": 13649,
+        "n": "Sky Pirate's Gaskins of Maiming",
+        "l": 185,
+        "c": 45707,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13653",
+      "obj": {
+        "i": 13653,
+        "n": "Sky Pirate's Jacket of Striking",
+        "l": 185,
+        "c": 42480,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13655",
+      "obj": {
+        "i": 13655,
+        "n": "Sky Pirate's Trousers of Striking",
+        "l": 185,
+        "c": 45708,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13659",
+      "obj": {
+        "i": 13659,
+        "n": "Sky Pirate's Vest of Aiming",
+        "l": 185,
+        "c": 42482,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13661",
+      "obj": {
+        "i": 13661,
+        "n": "Sky Pirate's Halfslops of Aiming",
+        "l": 185,
+        "c": 45710,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13665",
+      "obj": {
+        "i": 13665,
+        "n": "Sky Pirate's Jacket of Scouting",
+        "l": 185,
+        "c": 42481,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13667",
+      "obj": {
+        "i": 13667,
+        "n": "Sky Pirate's Trousers of Scouting",
+        "l": 185,
+        "c": 45709,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13671",
+      "obj": {
+        "i": 13671,
+        "n": "Sky Pirate's Coat of Healing",
+        "l": 185,
+        "c": 43697,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13673",
+      "obj": {
+        "i": 13673,
+        "n": "Sky Pirate's Bottoms of Healing",
+        "l": 185,
+        "c": 45711,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13677",
+      "obj": {
+        "i": 13677,
+        "n": "Sky Pirate's Coat of Casting",
+        "l": 185,
+        "c": 43698,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13679",
+      "obj": {
+        "i": 13679,
+        "n": "Sky Pirate's Bottoms of Casting",
+        "l": 185,
+        "c": 45712,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "12249",
+      "obj": {
+        "i": 12249,
+        "n": "Master Weaver III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13753",
+      "obj": {
+        "i": 13753,
+        "n": "Cloud Cotton Boll",
+        "l": 180,
+        "c": 21652,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "12595",
+      "obj": {
+        "i": 12595,
+        "n": "Ramie Thread",
+        "l": 136,
+        "c": 21659,
+        "t": 51,
+        "p": 1998
+      }
+    },
+    {
+      "type": "item",
+      "id": "14939",
+      "obj": {
+        "i": 14939,
+        "n": "Wind Silk Wedge Cap",
+        "l": 1,
+        "c": 41319,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "14943",
+      "obj": {
+        "i": 14943,
+        "n": "Dinosaur Leather Shoes",
+        "l": 1,
+        "c": 46608,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "15145",
+      "obj": {
+        "i": 15145,
+        "n": "Stuffed Bear",
+        "l": 160,
+        "c": 53093,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15511",
+      "obj": {
+        "i": 15511,
+        "n": "Carbonweave Vest of Gathering",
+        "l": 170,
+        "c": 42514,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "15513",
+      "obj": {
+        "i": 15513,
+        "n": "Carbonweave Slops of Gathering",
+        "l": 170,
+        "c": 45783,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "15520",
+      "obj": {
+        "i": 15520,
+        "n": "Carbonweave Cap of Crafting",
+        "l": 170,
+        "c": 41321,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "15521",
+      "obj": {
+        "i": 15521,
+        "n": "Carbonweave Apron of Crafting",
+        "l": 170,
+        "c": 42512,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "15522",
+      "obj": {
+        "i": 15522,
+        "n": "Carbonweave Sleeves of Crafting",
+        "l": 170,
+        "c": 44448,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "15523",
+      "obj": {
+        "i": 15523,
+        "n": "Carbonweave Breeches of Crafting",
+        "l": 170,
+        "c": 45781,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17467",
+      "obj": {
+        "i": 17467,
+        "n": "Flannel Suspenders",
+        "l": 1,
+        "c": 43752,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17468",
+      "obj": {
+        "i": 17468,
+        "n": "Cropped Flannel Slops",
+        "l": 1,
+        "c": 45863,
+        "t": 36
+      }
+    }
+  ]
+}

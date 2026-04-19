@@ -1,0 +1,924 @@
+{
+  "item": {
+    "name": "Rebel Coat",
+    "jobCategories": "All Classes",
+    "id": 28590,
+    "patch": 5.1,
+    "patchCategory": 3,
+    "price": 19,
+    "ilvl": 1,
+    "category": 35,
+    "dyeable": 1,
+    "dyecount": 2,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5594,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "6096-2-0-0"
+    ],
+    "attr": {
+      "Defense": 9,
+      "Magic Defense": 16
+    },
+    "attr_hq": {
+      "Defense": 11,
+      "Magic Defense": 17
+    },
+    "icon": 42686,
+    "sharedModels": [
+      28588
+    ],
+    "craft": [
+      {
+        "id": 33685,
+        "job": 13,
+        "rlvl": 450,
+        "durability": 70,
+        "quality": 7900,
+        "progress": 2050,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "unlockId": 24271,
+        "ingredients": [
+          {
+            "id": 28905,
+            "amount": 3
+          },
+          {
+            "id": 27760,
+            "amount": 2,
+            "quality": 553.56586
+          },
+          {
+            "id": 19986,
+            "amount": 2
+          },
+          {
+            "id": 27710,
+            "amount": 1,
+            "quality": 495.749
+          },
+          {
+            "id": 12,
+            "amount": 7
+          },
+          {
+            "id": 10,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 820,
+          "hq": 840
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Shell Leather",
+      "id": 28905,
+      "icon": 22008,
+      "category": 52,
+      "ilvl": 450,
+      "price": 115,
+      "treasure": [
+        26744
+      ]
+    },
+    {
+      "name": "Ethereal Silk",
+      "id": 27760,
+      "icon": 21620,
+      "category": 51,
+      "ilvl": 450,
+      "price": 3154,
+      "craft": [
+        {
+          "id": 33331,
+          "job": 13,
+          "rlvl": 450,
+          "durability": 35,
+          "quality": 6320,
+          "progress": 1640,
+          "lvl": 80,
+          "materialQualityFactor": 0,
+          "stars": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "controlReq": 1990,
+          "craftsmanshipReq": 2140,
+          "quickSynthCraftsmanship": 2480,
+          "unlockId": 24271,
+          "ingredients": [
+            {
+              "id": 27761,
+              "amount": 4
+            },
+            {
+              "id": 27762,
+              "amount": 2
+            },
+            {
+              "id": 18,
+              "amount": 2
+            },
+            {
+              "id": 16,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 456,
+            "hq": 476
+          }
+        }
+      ],
+      "desynthedFrom": [
+        31798,
+        25575,
+        29359,
+        33540,
+        25602,
+        32593,
+        26456,
+        30649
+      ]
+    },
+    {
+      "name": "Ethereal Cocoon",
+      "id": 27761,
+      "icon": 21661,
+      "category": 51,
+      "ilvl": 450,
+      "price": 630,
+      "ventures": [
+        860
+      ],
+      "nodes": [
+        634
+      ]
+    },
+    {
+      "name": "Multifaceted Cotton Cloth",
+      "id": 27762,
+      "icon": 21601,
+      "category": 51,
+      "ilvl": 450,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27762",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27762",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manzasiri Hair",
+      "id": 19986,
+      "icon": 21616,
+      "category": 51,
+      "ilvl": 279,
+      "price": 2186,
+      "instances": [
+        50,
+        52,
+        53,
+        54,
+        55,
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "ventures": [
+        723
+      ],
+      "drops": [
+        66430000005783
+      ]
+    },
+    {
+      "name": "Manasilver Nugget",
+      "id": 27710,
+      "icon": 20829,
+      "category": 49,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3829,
+          "job": 11,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27699,
+              "amount": 4
+            },
+            {
+              "id": 5113,
+              "amount": 1
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        28148,
+        28973,
+        26106,
+        27114
+      ],
+      "leves": [
+        1515,
+        1516
+      ]
+    },
+    {
+      "name": "Manasilver Sand",
+      "id": 27699,
+      "icon": 21219,
+      "category": 48,
+      "ilvl": 406,
+      "price": 210,
+      "voyages": [
+        {
+          "id": 54,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1514
+      ],
+      "ventures": [
+        804
+      ],
+      "nodes": [
+        595
+      ]
+    },
+    {
+      "name": "Silver Ore",
+      "id": 5113,
+      "icon": 21211,
+      "category": 48,
+      "ilvl": 23,
+      "price": 52,
+      "voyages": [
+        {
+          "id": 16,
+          "type": 0
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5113",
+                  "amount": 8
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "ventures": [
+        108
+      ],
+      "nodes": [
+        47
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "26744",
+      "obj": {
+        "i": 26744,
+        "n": "Timeworn Gliderskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "24271",
+      "obj": {
+        "i": 24271,
+        "n": "Master Weaver VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27761",
+      "obj": {
+        "i": 27761,
+        "n": "Ethereal Cocoon",
+        "l": 450,
+        "c": 21661,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "27762",
+      "obj": {
+        "i": 27762,
+        "n": "Multifaceted Cotton Cloth",
+        "l": 450,
+        "c": 21601,
+        "t": 51
+      }
+    },
+    {
+      "type": "node",
+      "id": "634",
+      "obj": {
+        "i": 634,
+        "n": "Inviolate Witness",
+        "l": 80,
+        "t": 3,
+        "z": 2953,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "instance",
+      "id": "50",
+      "obj": {
+        "i": 50,
+        "n": "Shisui of the Violet Tides",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 63,
+        "max_lvl": 64,
+        "min_ilvl": 245
+      }
+    },
+    {
+      "type": "instance",
+      "id": "52",
+      "obj": {
+        "i": 52,
+        "n": "The Sirensong Sea",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 61,
+        "max_lvl": 62,
+        "min_ilvl": 240
+      }
+    },
+    {
+      "type": "instance",
+      "id": "53",
+      "obj": {
+        "i": 53,
+        "n": "Bardam's Mettle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 65,
+        "max_lvl": 66,
+        "min_ilvl": 250
+      }
+    },
+    {
+      "type": "instance",
+      "id": "54",
+      "obj": {
+        "i": 54,
+        "n": "Doma Castle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 67,
+        "max_lvl": 68,
+        "min_ilvl": 255
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55",
+      "obj": {
+        "i": 55,
+        "n": "Castrum Abania",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 69,
+        "max_lvl": 70,
+        "min_ilvl": 260,
+        "max_ilvl": 290
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66430000005783",
+      "obj": {
+        "i": 66430000005783,
+        "n": "Manzasiri",
+        "l": "66",
+        "z": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "27699",
+      "obj": {
+        "i": 27699,
+        "n": "Manasilver Sand",
+        "l": 406,
+        "c": 21219,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5113",
+      "obj": {
+        "i": 5113,
+        "n": "Silver Ore",
+        "l": 23,
+        "c": 21211,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "595",
+      "obj": {
+        "i": 595,
+        "n": "Lozatl's Conquest",
+        "l": 75,
+        "t": 1,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "28588",
+      "obj": {
+        "i": 28588,
+        "n": "Urban Coat",
+        "l": 1,
+        "c": 42685,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28905",
+      "obj": {
+        "i": 28905,
+        "n": "Shell Leather",
+        "l": 450,
+        "c": 22008,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "27760",
+      "obj": {
+        "i": 27760,
+        "n": "Ethereal Silk",
+        "l": 450,
+        "c": 21620,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "19986",
+      "obj": {
+        "i": 19986,
+        "n": "Manzasiri Hair",
+        "l": 279,
+        "c": 21616,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "27710",
+      "obj": {
+        "i": 27710,
+        "n": "Manasilver Nugget",
+        "l": 403,
+        "c": 20829,
+        "t": 49
+      }
+    }
+  ]
+}

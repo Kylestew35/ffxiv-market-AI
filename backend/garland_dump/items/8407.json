@@ -1,0 +1,124 @@
+{
+  "item": {
+    "name": "Augmented Drachen Mail",
+    "jobCategories": "DRG",
+    "id": 8407,
+    "patch": 2.3,
+    "patchCategory": 0,
+    "price": 30995,
+    "ilvl": 55,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 50,
+    "jobs": 23,
+    "models": [
+      "36-1-0-0"
+    ],
+    "attr": {
+      "Defense": 115,
+      "Magic Defense": 90,
+      "Strength": 15,
+      "Vitality": 18,
+      "Determination": 24,
+      "Critical Hit": 17
+    },
+    "icon": 43088,
+    "sharedModels": [
+      3223,
+      6065
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Equipment (DoW)",
+        "npcs": [
+          1006987
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8407",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "3223",
+                "amount": 1
+              },
+              {
+                "id": "8046",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "3223",
+      "obj": {
+        "i": 3223,
+        "n": "Drachen Mail",
+        "l": 55,
+        "c": 43088,
+        "t": 35,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6065",
+      "obj": {
+        "i": 6065,
+        "n": "Wyrm's Mail",
+        "l": 90,
+        "c": 48037,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006987",
+      "obj": {
+        "i": 1006987,
+        "n": "Kakalan",
+        "l": 67,
+        "s": 4,
+        "t": "Forge Sales",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.32,
+          5.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8046",
+      "obj": {
+        "i": 8046,
+        "n": "Drachen Armor Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    }
+  ]
+}

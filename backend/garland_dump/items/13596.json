@@ -1,0 +1,322 @@
+{
+  "item": {
+    "name": "Moogle Miniature",
+    "description": "A small ceramic figurine bearing the likeness of a plump moogle.",
+    "id": 13596,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 6336,
+    "ilvl": 160,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 11,
+    "icon": 59472,
+    "ingredient_of": {
+      "13595": 1
+    },
+    "craft": [
+      {
+        "id": 31301,
+        "job": 11,
+        "rlvl": 160,
+        "durability": 70,
+        "quality": 2800,
+        "progress": 660,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 1,
+        "hq": 1,
+        "controlReq": 589,
+        "unlockId": 12247,
+        "ingredients": [
+          {
+            "id": 13753,
+            "amount": 2
+          },
+          {
+            "id": 12970,
+            "amount": 1
+          },
+          {
+            "id": 12937,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 2
+          },
+          {
+            "id": 14,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 495,
+          "hq": 515
+        }
+      }
+    ],
+    "desynthedFrom": [
+      17586
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Cloud Cotton Boll",
+      "id": 13753,
+      "icon": 21652,
+      "category": 51,
+      "ilvl": 180,
+      "price": 641,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13753",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13753",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Black Soil",
+      "id": 12970,
+      "icon": 27404,
+      "category": 54,
+      "ilvl": 150,
+      "price": 950,
+      "nodes": [
+        331,
+        333,
+        337
+      ]
+    },
+    {
+      "name": "Dawnborne Aethersand",
+      "id": 12937,
+      "icon": 22648,
+      "category": 54,
+      "ilvl": 150,
+      "price": 950,
+      "reducedFrom": [
+        12966,
+        12967,
+        12969,
+        33149
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "331",
+      "obj": {
+        "i": 331,
+        "n": "Avalonia Fallen",
+        "l": 60,
+        "t": 3,
+        "z": 2000,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          8
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "333",
+      "obj": {
+        "i": 333,
+        "n": "Greensward",
+        "l": 60,
+        "t": 3,
+        "z": 2002,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          16
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "337",
+      "obj": {
+        "i": 337,
+        "n": "Saint Mocianne's Arboretum",
+        "l": 60,
+        "t": 3,
+        "z": 2001,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12966",
+      "obj": {
+        "i": 12966,
+        "n": "Bright Fire Rock",
+        "l": 145,
+        "c": 21471,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12967",
+      "obj": {
+        "i": 12967,
+        "n": "Bright Lightning Rock",
+        "l": 145,
+        "c": 21475,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12969",
+      "obj": {
+        "i": 12969,
+        "n": "Peat Moss",
+        "l": 145,
+        "c": 27401,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33149",
+      "obj": {
+        "i": 33149,
+        "n": "Water Mint",
+        "l": 145,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "13595",
+      "obj": {
+        "i": 13595,
+        "n": "Kingcake",
+        "l": 160,
+        "c": 24057,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "12247",
+      "obj": {
+        "i": 12247,
+        "n": "Master Goldsmith III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13753",
+      "obj": {
+        "i": 13753,
+        "n": "Cloud Cotton Boll",
+        "l": 180,
+        "c": 21652,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "12970",
+      "obj": {
+        "i": 12970,
+        "n": "Black Soil",
+        "l": 150,
+        "c": 27404,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12937",
+      "obj": {
+        "i": 12937,
+        "n": "Dawnborne Aethersand",
+        "l": 150,
+        "c": 22648,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "17586",
+      "obj": {
+        "i": 17586,
+        "n": "Thousand Fin",
+        "l": 230,
+        "c": 29439,
+        "t": 47
+      }
+    }
+  ]
+}

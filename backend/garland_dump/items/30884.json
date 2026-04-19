@@ -1,0 +1,189 @@
+{
+  "item": {
+    "name": "Forgotten Fragment of Caution",
+    "description": "A single, unidentified memory of the lost.<br><br>Resistance rank required for appraisal: 2<br>Potential memories contained: Lost Manawall, Lost Stealth, Lost Protect, Lost Shell, Lost Cure, Lost Cure III, Lost Incense",
+    "id": 30884,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20043,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30884",
+                "amount": 5
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      69480
+    ],
+    "loot": [
+      30909,
+      30904,
+      30902,
+      30930,
+      30927,
+      30925,
+      30908
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69480",
+      "obj": {
+        "i": 69480,
+        "n": "Lost No Longer",
+        "g": 90,
+        "l": "Bozjan Southern Front",
+        "s": 104,
+        "f": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "30909",
+      "obj": {
+        "i": 30909,
+        "n": "Lost Shell",
+        "l": 1,
+        "c": "t/64666",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30904",
+      "obj": {
+        "i": 30904,
+        "n": "Lost Stealth",
+        "l": 1,
+        "c": "t/64661",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30902",
+      "obj": {
+        "i": 30902,
+        "n": "Lost Manawall",
+        "l": 1,
+        "c": "t/64659",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30930",
+      "obj": {
+        "i": 30930,
+        "n": "Lost Incense",
+        "l": 1,
+        "c": "t/64687",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30927",
+      "obj": {
+        "i": 30927,
+        "n": "Lost Cure III",
+        "l": 1,
+        "c": "t/64684",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30925",
+      "obj": {
+        "i": 30925,
+        "n": "Lost Cure",
+        "l": 1,
+        "c": "t/64682",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30908",
+      "obj": {
+        "i": 30908,
+        "n": "Lost Protect",
+        "l": 1,
+        "c": "t/64665",
+        "t": 63
+      }
+    }
+  ]
+}

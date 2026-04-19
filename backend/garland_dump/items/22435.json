@@ -1,0 +1,689 @@
+{
+  "item": {
+    "name": "Dzo Steak",
+    "description": "A thick cut of dzo sirloin sprinkled with salt and seared to perfection.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 22435,
+    "patch": 4.2,
+    "patchCategory": 6,
+    "price": 2308,
+    "ilvl": 340,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Tenacity": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 40
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Tenacity": {
+          "rate": 10,
+          "limit": 47
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 50
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 28
+        }
+      }
+    },
+    "icon": 24360,
+    "craft": [
+      {
+        "id": 32652,
+        "job": 15,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 5200,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22316,
+        "ingredients": [
+          {
+            "id": 22438,
+            "amount": 1
+          },
+          {
+            "id": 19848,
+            "amount": 1,
+            "quality": 729.1005
+          },
+          {
+            "id": 19846,
+            "amount": 1,
+            "quality": 742.8571
+          },
+          {
+            "id": 6151,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 489,
+          "hq": 509
+        }
+      }
+    ],
+    "quests": [
+      68562,
+      68607
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Dzo Sirloin",
+      "id": 22438,
+      "icon": 25152,
+      "category": 45,
+      "ilvl": 340,
+      "price": 2308,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22438",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22438",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algae Salt",
+      "id": 19848,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "craft": [
+        {
+          "id": 3586,
+          "job": 15,
+          "rlvl": 265,
+          "durability": 40,
+          "quality": 2304,
+          "progress": 340,
+          "lvl": 62,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19881,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gem Algae",
+      "id": 19881,
+      "icon": 25225,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "ventures": [
+        684
+      ],
+      "nodes": [
+        511
+      ]
+    },
+    {
+      "name": "Cottonseed Oil",
+      "id": 19846,
+      "icon": 25452,
+      "category": 45,
+      "ilvl": 270,
+      "price": 534,
+      "craft": [
+        {
+          "id": 3585,
+          "job": 15,
+          "rlvl": 270,
+          "durability": 40,
+          "quality": 2376,
+          "progress": 365,
+          "lvl": 63,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19979,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ruby Cotton Boll",
+      "id": 19979,
+      "icon": 21652,
+      "category": 51,
+      "ilvl": 265,
+      "price": 2098,
+      "leves": [
+        1301,
+        1302,
+        1303
+      ],
+      "ventures": [
+        686
+      ],
+      "nodes": [
+        511
+      ]
+    },
+    {
+      "name": "Cooking Sherry",
+      "id": 6151,
+      "icon": 25057,
+      "category": 45,
+      "ilvl": 70,
+      "price": 221,
+      "desynthedFrom": [
+        9536
+      ],
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6151",
+                  "amount": 20
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6151",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6151",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6151",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "19881",
+      "obj": {
+        "i": 19881,
+        "n": "Gem Algae",
+        "l": 265,
+        "c": 25225,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "item",
+      "id": "19979",
+      "obj": {
+        "i": 19979,
+        "n": "Ruby Cotton Boll",
+        "l": 265,
+        "c": 21652,
+        "t": 51
+      }
+    },
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "22316",
+      "obj": {
+        "i": 22316,
+        "n": "Master Culinarian VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "22438",
+      "obj": {
+        "i": 22438,
+        "n": "Dzo Sirloin",
+        "l": 340,
+        "c": 25152,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19848",
+      "obj": {
+        "i": 19848,
+        "n": "Algae Salt",
+        "l": 265,
+        "c": 25104,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19846",
+      "obj": {
+        "i": 19846,
+        "n": "Cottonseed Oil",
+        "l": 270,
+        "c": 25452,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "6151",
+      "obj": {
+        "i": 6151,
+        "n": "Cooking Sherry",
+        "l": 70,
+        "c": 25057,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68562",
+      "obj": {
+        "i": 68562,
+        "n": "Storm on the Horizon",
+        "g": 7,
+        "l": "Yanxia",
+        "s": 16
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68607",
+      "obj": {
+        "i": 68607,
+        "n": "Gone Like the Morning Dew",
+        "g": 7,
+        "l": "The Doman Enclave",
+        "s": 21
+      }
+    }
+  ]
+}

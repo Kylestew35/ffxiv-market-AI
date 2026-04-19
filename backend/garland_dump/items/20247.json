@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Susano Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 177",
+    "id": 20247,
+    "patch": 4.0,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "instances": [
+      20046,
+      20047,
+      20046,
+      20047
+    ],
+    "tradeShops": [
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20247",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "A deity summoned forth by the Kojin, Susano resided in three sacred receptacles. As well as being one of the greatest kami, this entity is also revered as the god of the sea. The Lord of the Revel rejoices in both battle and banquet, meeting all challengers with jubilant and unrestrained ferocity."
+      },
+      "ja": {
+        "description": "コウジン族が呼び降ろした豪の神。三種の神器に宿っていた八百万の神の一柱であり、海の神としての顔も併せ持つ。戦をも祭りと愉しみ、挑む者には容赦なく、神剣「アメノムラクモ」を振り下ろす。"
+      },
+      "de": {
+        "description": "Die Kojin rufen den Herrn der Feste mit ihren Gebeten und einer Dreieinigkeit von Schätzen herbei, um ihn zu verehren. Der wilde Meeresgott ist ein Krieger, der jeden, der es wagt, ihn herauszufordern, mit seinem Schwert Ame no Murakumo erschlägt."
+      },
+      "fr": {
+        "description": "Un kami invoqué par les Kojin. Détenteur de trois reliques, c'est le dieu de la mer de ces hommes-bêtes. C'est également un adorateur des combats qui n'hésite pas à assommer quiconque le défie d'un grand coup d'Ame no Murakumo, son sabre."
+      },
+      "type": "Primal",
+      "sellMgp": 500,
+      "plate": 87190,
+      "rarity": 3,
+      "top": 2,
+      "bottom": 3,
+      "left": 8,
+      "right": 8
+    },
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20046",
+      "obj": {
+        "i": 20046,
+        "n": "The Pool of Tribute",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 63,
+        "max_lvl": 64
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20047",
+      "obj": {
+        "i": 20047,
+        "n": "The Pool of Tribute (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    }
+  ]
+}

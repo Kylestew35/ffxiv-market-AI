@@ -1,0 +1,508 @@
+{
+  "item": {
+    "name": "Tako-yaki Boat",
+    "description": "A steaming and sauce-slathered serving of enough doughy fried octopus to share.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Determination Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 30391,
+    "patch": 5.3,
+    "patchCategory": 9,
+    "price": 450,
+    "ilvl": 430,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 15,
+    "icon": 53368,
+    "craft": [
+      {
+        "id": 4627,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 27841,
+            "amount": 1,
+            "quality": 177.9762
+          },
+          {
+            "id": 27509,
+            "amount": 1
+          },
+          {
+            "id": 21089,
+            "amount": 1
+          },
+          {
+            "id": 19859,
+            "amount": 1
+          },
+          {
+            "id": 27851,
+            "amount": 2
+          },
+          {
+            "id": 27838,
+            "amount": 1,
+            "quality": 172.23502
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 439,
+          "hq": 459
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "979"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Cyan Sea Devil",
+      "id": 27509,
+      "icon": 29189,
+      "category": 47,
+      "ilvl": 418,
+      "price": 630,
+      "fishingSpots": [
+        234
+      ]
+    },
+    {
+      "name": "Secret Recipe Broth",
+      "id": 21089,
+      "icon": 25055,
+      "category": 45,
+      "ilvl": 320,
+      "price": 2186,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21089",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21089",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Green Leek",
+      "id": 19859,
+      "icon": 25035,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        688
+      ],
+      "nodes": [
+        512
+      ]
+    },
+    {
+      "name": "Lorikeet Egg",
+      "id": 27851,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 400,
+      "price": 2302,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027665
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27851",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        778
+      ]
+    },
+    {
+      "name": "Frantoio Oil",
+      "id": 27838,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 390,
+      "price": 2799,
+      "craft": [
+        {
+          "id": 3877,
+          "job": 15,
+          "rlvl": 390,
+          "durability": 40,
+          "quality": 3010,
+          "progress": 597,
+          "lvl": 71,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27820,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frantoio",
+      "id": 27820,
+      "icon": 25307,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1463,
+        1464,
+        1465
+      ],
+      "ventures": [
+        808
+      ],
+      "nodes": [
+        612
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "234",
+      "obj": {
+        "i": 234,
+        "n": "East Caliban Gap",
+        "l": 80,
+        "c": 0,
+        "z": 2958,
+        "x": 8.51,
+        "y": 15.61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27820",
+      "obj": {
+        "i": 27820,
+        "n": "Frantoio",
+        "l": 390,
+        "c": 25307,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "612",
+      "obj": {
+        "i": 612,
+        "n": "The Chiliad",
+        "l": 75,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27509",
+      "obj": {
+        "i": 27509,
+        "n": "Cyan Sea Devil",
+        "l": 418,
+        "c": 29189,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "21089",
+      "obj": {
+        "i": 21089,
+        "n": "Secret Recipe Broth",
+        "l": 320,
+        "c": 25055,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19859",
+      "obj": {
+        "i": 19859,
+        "n": "Green Leek",
+        "l": 273,
+        "c": 25035,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27851",
+      "obj": {
+        "i": 27851,
+        "n": "Lorikeet Egg",
+        "l": 400,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27838",
+      "obj": {
+        "i": 27838,
+        "n": "Frantoio Oil",
+        "l": 390,
+        "c": 25451,
+        "t": 45
+      }
+    }
+  ]
+}

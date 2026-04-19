@@ -1,0 +1,590 @@
+{
+  "item": {
+    "name": "Piennolo Tomato Salad",
+    "description": "A bright tomato salad lightly tossed in perilla oil.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 38267,
+    "patch": 6.2,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 610,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 78
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 94
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 46
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 97
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 118
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 58
+        }
+      }
+    },
+    "icon": 24166,
+    "craft": [
+      {
+        "id": 35123,
+        "job": 15,
+        "rlvl": 610,
+        "durability": 70,
+        "quality": 12628,
+        "progress": 5060,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3280,
+        "craftsmanshipReq": 3700,
+        "unlockId": 37741,
+        "ingredients": [
+          {
+            "id": 38274,
+            "amount": 1
+          },
+          {
+            "id": 36079,
+            "amount": 2,
+            "quality": 902.98285
+          },
+          {
+            "id": 27843,
+            "amount": 1,
+            "quality": 698.3067
+          },
+          {
+            "id": 36098,
+            "amount": 1
+          },
+          {
+            "id": 36088,
+            "amount": 1
+          },
+          {
+            "id": 36223,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 702,
+          "hq": 722
+        }
+      }
+    ],
+    "quests": [
+      70208,
+      70271
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Piennolo Tomato",
+      "id": 38274,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 610,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38274",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38274",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perilla Oil",
+      "id": 36079,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5284,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36085,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thavnairian Perilla Leaf",
+      "id": 36085,
+      "icon": 25036,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        916
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Night Vinegar",
+      "id": 27843,
+      "icon": 25107,
+      "category": 45,
+      "ilvl": 406,
+      "price": 2957,
+      "craft": [
+        {
+          "id": 3882,
+          "job": 15,
+          "rlvl": 406,
+          "durability": 40,
+          "quality": 3280,
+          "progress": 715,
+          "lvl": 75,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27826,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Royal Grapes",
+      "id": 27826,
+      "icon": 24058,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "leves": [
+        1469,
+        1470,
+        1471
+      ],
+      "ventures": [
+        830
+      ],
+      "nodes": [
+        619
+      ]
+    },
+    {
+      "name": "Thavnairian Paprika",
+      "id": 36098,
+      "icon": 25018,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "ventures": [
+        917
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "id": 36088,
+      "icon": 25219,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "ventures": [
+        912
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36085",
+      "obj": {
+        "i": 36085,
+        "n": "Thavnairian Perilla Leaf",
+        "l": 525,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "item",
+      "id": "27826",
+      "obj": {
+        "i": 27826,
+        "n": "Royal Grapes",
+        "l": 406,
+        "c": 24058,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "619",
+      "obj": {
+        "i": 619,
+        "n": "The Deliberating Doll",
+        "l": 75,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "37741",
+      "obj": {
+        "i": 37741,
+        "n": "Master Culinarian X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "38274",
+      "obj": {
+        "i": 38274,
+        "n": "Piennolo Tomato",
+        "l": 610,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36079",
+      "obj": {
+        "i": 36079,
+        "n": "Perilla Oil",
+        "l": 525,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27843",
+      "obj": {
+        "i": 27843,
+        "n": "Night Vinegar",
+        "l": 406,
+        "c": 25107,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36098",
+      "obj": {
+        "i": 36098,
+        "n": "Thavnairian Paprika",
+        "l": 525,
+        "c": 25018,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36088",
+      "obj": {
+        "i": 36088,
+        "n": "Iceberg Lettuce",
+        "l": 520,
+        "c": 25219,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70208",
+      "obj": {
+        "i": 70208,
+        "n": "Kindled Spirit",
+        "g": 12,
+        "l": "Garlemald",
+        "s": 640
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70271",
+      "obj": {
+        "i": 70271,
+        "n": "Currying Flavor",
+        "g": 12,
+        "l": "Radz-at-Han",
+        "s": 647
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Twin Adder Aetheryte Ticket",
+    "description": "A voucher redeemable by Order of the Twin Adder enlistees for instant teleportation to the Adders' Nest.",
+    "id": 21070,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 3333,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "sell_price": 100,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26519,
+    "tradeShops": [
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21070",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 2000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    }
+  ]
+}

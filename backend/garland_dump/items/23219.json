@@ -1,0 +1,107 @@
+{
+  "item": {
+    "name": "Speed Belt",
+    "description": "Before becoming obsolete due to advancements in tailoring, belts such as this were used for holding up trousers and the like. This particular design, however, has retained some modicum of value, or so the Calamity salvagers appear to believe.<br><br>[Can be exchanged with Calamity salvagers for a blitzring.]",
+    "jobCategories": "All Classes",
+    "id": 23219,
+    "patch": 4.36,
+    "patchCategory": 3,
+    "price": 41737,
+    "ilvl": 300,
+    "category": 39,
+    "dyecount": 0,
+    "sell_price": 646,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 70,
+    "jobs": 1,
+    "icon": 54193,
+    "tradeCurrency": [
+      {
+        "shop": "Speed Belt Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36121",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23219",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36121",
+      "obj": {
+        "i": 36121,
+        "n": "Blitzring",
+        "l": 300,
+        "c": 54483,
+        "t": 43
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Ceremonial Bow Component Materials",
+    "description": "Various materials necessary to craft ceremonial bow components.<br><br>※Only for use in Namazu society quests.",
+    "id": 22697,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "22723": 1
+    },
+    "usedInQuest": [
+      68636
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22723",
+      "obj": {
+        "i": 22723,
+        "n": "Ceremonial Bow Components",
+        "l": 150,
+        "c": 21012,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68636",
+      "obj": {
+        "i": 68636,
+        "n": "Out of the Frypan",
+        "g": 60,
+        "l": "The Azim Steppe",
+        "s": 5,
+        "f": 1
+      }
+    }
+  ]
+}

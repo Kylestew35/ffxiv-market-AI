@@ -1,0 +1,406 @@
+{
+  "leve": {
+    "name": "Bobbing for Compliments",
+    "description": "When an Archon graces your café, you pay attention to what she has to say─especially when said Archon is a well-traveled gourmet. Perhaps it's a little on the nose, but I'd like to have some tasty miq'abobs on which to base a new dish, and hopefully impress our Miqo'te guest on her next visit.",
+    "id": 1640,
+    "patch": 6.0,
+    "client": "The Last Stand Proprietor, Dickon",
+    "lvl": 82,
+    "jobCategory": 16,
+    "levemete": 1037264,
+    "areaid": 3706,
+    "xp": 866040,
+    "gil": 4910,
+    "rewards": 802,
+    "plate": 80033,
+    "frame": 80005,
+    "areaicon": 110135,
+    "requires": [
+      {
+        "item": 36040,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 690,
+      "hq": 750
+    }
+  },
+  "rewards": {
+    "id": 802,
+    "entries": [
+      {
+        "item": 8,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 36085,
+        "rate": 0.23
+      },
+      {
+        "item": 8,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 36255,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Island Miq'abob",
+      "id": 36040,
+      "icon": 24351,
+      "category": 46,
+      "ilvl": 525,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5255,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 80,
+          "quality": 5700,
+          "progress": 2300,
+          "lvl": 82,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36253,
+              "amount": 1
+            },
+            {
+              "id": 36079,
+              "amount": 1,
+              "quality": 599.4591
+            },
+            {
+              "id": 36098,
+              "amount": 2
+            },
+            {
+              "id": 27829,
+              "amount": 1
+            },
+            {
+              "id": 8,
+              "amount": 8
+            },
+            {
+              "id": 13,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 230,
+            "hq": 250
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hamsa Tenderloin",
+      "id": 36253,
+      "icon": 25151,
+      "category": 45,
+      "ilvl": 515,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36253",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1638
+      ],
+      "ventures": [
+        934
+      ]
+    },
+    {
+      "name": "Perilla Oil",
+      "id": 36079,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5284,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36085,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thavnairian Perilla Leaf",
+      "id": 36085,
+      "icon": 25036,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        916
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Thavnairian Paprika",
+      "id": 36098,
+      "icon": 25018,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "ventures": [
+        917
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Creamtop Mushroom",
+      "id": 27829,
+      "icon": 25402,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "desynthedFrom": [
+        35564
+      ],
+      "ventures": [
+        829
+      ],
+      "nodes": [
+        619
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36085",
+      "obj": {
+        "i": 36085,
+        "n": "Thavnairian Perilla Leaf",
+        "l": 525,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "619",
+      "obj": {
+        "i": 619,
+        "n": "The Deliberating Doll",
+        "l": 75,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "36253",
+      "obj": {
+        "i": 36253,
+        "n": "Hamsa Tenderloin",
+        "l": 515,
+        "c": 25151,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36079",
+      "obj": {
+        "i": 36079,
+        "n": "Perilla Oil",
+        "l": 525,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36098",
+      "obj": {
+        "i": 36098,
+        "n": "Thavnairian Paprika",
+        "l": 525,
+        "c": 25018,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27829",
+      "obj": {
+        "i": 27829,
+        "n": "Creamtop Mushroom",
+        "l": 406,
+        "c": 25402,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69757",
+      "obj": {
+        "i": 69757,
+        "n": "Heroes All",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1480
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70037",
+      "obj": {
+        "i": 70037,
+        "n": "Energy for All",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1580
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70041",
+      "obj": {
+        "i": 70041,
+        "n": "Mum Is the Word",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1748
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1640",
+      "obj": {
+        "i": 1640,
+        "n": "Bobbing for Compliments",
+        "l": 82,
+        "j": 16,
+        "p": 3706
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037264",
+      "obj": {
+        "i": 1037264,
+        "n": "Ahldiyrn",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36040",
+      "obj": {
+        "i": 36040,
+        "n": "Island Miq'abob",
+        "l": 525,
+        "c": 24351,
+        "t": 46
+      }
+    }
+  ]
+}

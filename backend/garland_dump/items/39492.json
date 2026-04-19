@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Lynx of Righteous Fire Flute",
+    "description": "Emitting an ardent and dignified tone, this flute summons a lynx of righteous fire to your side.",
+    "mount": {
+      "name": "Lynx Of Righteous Fire",
+      "action": "Summon forth your lynx of righteous fire, which could be what a certain honor-bound archfiend might look like as a large, winged feline.",
+      "description": "A phantom creation whose elemental aspect is tipped strongly towards astral fire. Its fiery body calls to mind the ardor of Rubicante, archfiend of fire, but the origins of this familiar are shrouded in impenetrable flames.",
+      "tooltip": "It is time you were purified<br>in the raging blaze of His blessing!<br>   - Zagozz Teh",
+      "icon": 4252,
+      "guideIcon": 68252
+    },
+    "id": 39492,
+    "patch": 6.3,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20087,
+      20087
+    ],
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39492",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38949",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39492",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38949",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "716-1-5"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20087",
+      "obj": {
+        "i": 20087,
+        "n": "Mount Ordeals (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 610
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38949",
+      "obj": {
+        "i": 38949,
+        "n": "Flamecloaked Archfiend Totem",
+        "l": 1,
+        "c": 26638,
+        "t": 61
+      }
+    }
+  ]
+}

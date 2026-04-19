@@ -1,0 +1,62 @@
+{
+  "item": {
+    "name": "Construct 8",
+    "description": "Batteries not included.<br><br>Use item to acquire the Construct 8 minion.",
+    "minionrace": "Monster",
+    "tooltip": "A construct born of\r\ndesperation and denial.\r\n   - Penitent Heretic",
+    "minionskilltype": "Damage",
+    "specialactionname": "Compute",
+    "specialactiondescription": "Delivers an attack 5 times the potency of the caster's ATK.",
+    "id": 23031,
+    "patch": 4.3,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59702,
+    "instances": [
+      30068,
+      30068
+    ],
+    "cost": 25,
+    "skill_angle": 30,
+    "strengths": [
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 580,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 35,
+      "Speed": 1
+    },
+    "models": [
+      "8271-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30068",
+      "obj": {
+        "i": 30068,
+        "n": "The Ridorana Lighthouse",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 335
+      }
+    }
+  ]
+}

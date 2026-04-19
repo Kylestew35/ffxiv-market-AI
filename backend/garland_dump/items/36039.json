@@ -1,0 +1,385 @@
+{
+  "item": {
+    "name": "Amra Lassi",
+    "description": "A blend of yoghurt and spices, this refreshing drink is infused with the mellow sweetness of the amra fruit.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36039,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 525,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Determination": {
+          "rate": 8,
+          "limit": 58
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 62
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Determination": {
+          "rate": 10,
+          "limit": 73
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 78
+        }
+      }
+    },
+    "icon": 24454,
+    "craft": [
+      {
+        "id": 5254,
+        "job": 15,
+        "rlvl": 520,
+        "durability": 80,
+        "quality": 5700,
+        "progress": 2300,
+        "lvl": 82,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36264,
+            "amount": 1
+          },
+          {
+            "id": 36255,
+            "amount": 1
+          },
+          {
+            "id": 36080,
+            "amount": 1,
+            "quality": 635.7323
+          },
+          {
+            "id": 27836,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 278,
+          "hq": 298
+        }
+      }
+    ],
+    "quests": [
+      69734,
+      69904,
+      70019
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1735500,
+      "seals": 874
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Amra",
+      "id": 36264,
+      "icon": 25325,
+      "category": 45,
+      "ilvl": 515,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36264",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        935
+      ]
+    },
+    {
+      "name": "Ovibos Milk",
+      "id": 36255,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36255",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        939
+      ]
+    },
+    {
+      "name": "Palm Sugar",
+      "id": 36080,
+      "icon": 25103,
+      "category": 45,
+      "ilvl": 530,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5285,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36086,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Palm Syrup",
+      "id": 36086,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 74,
+          "type": 1
+        },
+        {
+          "id": 88,
+          "type": 1
+        },
+        {
+          "id": 81,
+          "type": 1
+        },
+        {
+          "id": 96,
+          "type": 1
+        },
+        {
+          "id": 104,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        914
+      ],
+      "nodes": [
+        839
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "id": 27836,
+      "icon": 25016,
+      "category": 45,
+      "ilvl": 403,
+      "price": 630,
+      "ventures": [
+        827
+      ],
+      "nodes": [
+        629
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36086",
+      "obj": {
+        "i": 36086,
+        "n": "Palm Syrup",
+        "l": 525,
+        "c": 22642,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "839",
+      "obj": {
+        "i": 839,
+        "n": "The Great Work",
+        "l": 85,
+        "t": 2,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "629",
+      "obj": {
+        "i": 629,
+        "n": "Embrasure",
+        "l": 75,
+        "t": 3,
+        "z": 2953,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36264",
+      "obj": {
+        "i": 36264,
+        "n": "Amra",
+        "l": 515,
+        "c": 25325,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36080",
+      "obj": {
+        "i": 36080,
+        "n": "Palm Sugar",
+        "l": 530,
+        "c": 25103,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27836",
+      "obj": {
+        "i": 27836,
+        "n": "Peppermint",
+        "l": 403,
+        "c": 25016,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69734",
+      "obj": {
+        "i": 69734,
+        "n": "Tikka Hike",
+        "g": 140,
+        "l": "Thavnair",
+        "s": 1220
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69904",
+      "obj": {
+        "i": 69904,
+        "n": "For Thavnair Bound",
+        "g": 11,
+        "l": "Old Sharlayan",
+        "s": 522
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70019",
+      "obj": {
+        "i": 70019,
+        "n": "Dream Big",
+        "g": 141,
+        "l": "Labyrinthos",
+        "s": 1194
+      }
+    }
+  ]
+}

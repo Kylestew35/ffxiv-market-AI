@@ -1,0 +1,52 @@
+{
+  "item": {
+    "name": "Raw Brewing Vat Materials",
+    "description": "Unsorted and unrefined materials that you are assured can be used to assemble the necessary components for brewing arkhi.",
+    "id": 24581,
+    "patch": 4.5,
+    "patchCategory": 5,
+    "price": 200,
+    "ilvl": 285,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25977,
+    "vendors": [
+      1017188
+    ],
+    "ingredient_of": {
+      "24576": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "24576",
+      "obj": {
+        "i": 24576,
+        "n": "Arkhi Brewing Vat Materials",
+        "l": 285,
+        "c": 21005,
+        "t": 61,
+        "p": 400
+      }
+    }
+  ]
+}

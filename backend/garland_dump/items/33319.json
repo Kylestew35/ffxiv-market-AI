@@ -1,0 +1,118 @@
+{
+  "item": {
+    "name": "Shadeshifter",
+    "description": "A king among shapeshifters, and lord of the waters of Seagazer Shoals.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "So proficient is this wavekin's mimicry that it can live entirely unnoticed in the shadow of other species. Some suspect its ability to preemptively imitate the behavior of other creatures is a limited form of precognition.",
+      "icon": 78036,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 212,
+          "transition": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "weather": [
+            "Gales"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2150,
+          "baits": [
+            [
+              27590
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33319,
+    "patch": 5.5,
+    "patchCategory": 7,
+    "price": 2000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28036,
+    "fishingSpots": [
+      212
+    ],
+    "desynthedTo": [
+      26730,
+      13,
+      32949
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "212",
+      "obj": {
+        "i": 212,
+        "n": "Seagazer Shoals",
+        "l": 75,
+        "c": 0,
+        "z": 2954,
+        "x": 16.82,
+        "y": 35.83
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27590",
+      "obj": {
+        "i": 27590,
+        "n": "Squid Strip",
+        "l": 430,
+        "c": 27041,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "26730",
+      "obj": {
+        "i": 26730,
+        "n": "Savage Might Materia VIII",
+        "l": 420,
+        "c": 20279,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    }
+  ]
+}

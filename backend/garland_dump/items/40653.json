@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Oyoroi Display",
+    "description": "A set of Far Eastern armor arranged to resemble a stern─yet comfortably seated─warrior.",
+    "id": 40653,
+    "patch": 6.4,
+    "patchCategory": 9,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "sell_price": 30,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53462,
+    "tradeShops": [
+      {
+        "shop": "Rokkon Manuscript Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40653",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1282"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "39886",
+      "obj": {
+        "i": 39886,
+        "n": "Rokkon Manuscript",
+        "l": 1,
+        "c": 26455,
+        "t": 61
+      }
+    }
+  ]
+}

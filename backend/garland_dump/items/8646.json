@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Ironworks Magitek Rod",
+    "jobCategories": "THM BLM",
+    "id": 8646,
+    "patch": 2.4,
+    "patchCategory": 0,
+    "price": 37065,
+    "ilvl": 120,
+    "category": 7,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 642,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 690,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 55,
+    "models": [
+      "1006-1-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 64,
+      "Magic Damage": 64,
+      "Delay": 3.12,
+      "Intelligence": 48,
+      "Vitality": 45,
+      "Critical Hit": 47,
+      "Direct Hit Rate": 33
+    },
+    "icon": 33029,
+    "sharedModels": [
+      8940
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Ironworks Gear Augmentation (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8940",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8646",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8940",
+      "obj": {
+        "i": 8940,
+        "n": "Augmented Ironworks Magitek Rod",
+        "l": 130,
+        "c": 33029,
+        "t": 7
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

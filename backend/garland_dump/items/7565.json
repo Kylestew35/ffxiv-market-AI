@@ -1,0 +1,129 @@
+{
+  "item": {
+    "name": "Zu Hatchling",
+    "description": "This newborn zu has yet to exhibit aggressive or territorial behavior, but when it gets bigger...<br><br>Use item to acquire the zu hatchling minion.",
+    "minionrace": "Monster",
+    "tooltip": "These birds move slow,\r\nbut they've a nasty peck!\r\n  - Jacke",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Nasty Peck",
+    "specialactiondescription": "Increases action party ATK by 60.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 7565,
+    "patch": 2.51,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59473,
+    "tradeShops": [
+      {
+        "shop": "Purchase Minions (MGP)",
+        "npcs": [
+          1011595
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7565",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 10000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7565",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 10000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 450,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 25,
+      "Speed": 3
+    },
+    "models": [
+      "8063-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011595",
+      "obj": {
+        "i": 1011595,
+        "n": "Minion Trader",
+        "l": 1484,
+        "s": 2,
+        "r": 1,
+        "a": 1663,
+        "c": [
+          7.77,
+          7.02
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    }
+  ]
+}

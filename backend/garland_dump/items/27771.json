@@ -1,0 +1,605 @@
+{
+  "item": {
+    "name": "Grade 1 Mind Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to mind, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 27771,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2878,
+    "ilvl": 400,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 29,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22681,
+    "craft": [
+      {
+        "id": 3862,
+        "job": 14,
+        "rlvl": 400,
+        "durability": 40,
+        "quality": 3120,
+        "progress": 645,
+        "lvl": 73,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27968,
+            "amount": 1
+          },
+          {
+            "id": 27763,
+            "amount": 1
+          },
+          {
+            "id": 19915,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 82,
+          "hq": 102
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25996": 1,
+      "25997": 2,
+      "25998": 1,
+      "25999": 2,
+      "26000": 1,
+      "26011": 1,
+      "26016": 1,
+      "26021": 1,
+      "26026": 1,
+      "26156": 1,
+      "26157": 2,
+      "26158": 1,
+      "26159": 2,
+      "26160": 1,
+      "26171": 1,
+      "26176": 1,
+      "26181": 1,
+      "26186": 1,
+      "26316": 1,
+      "26317": 2,
+      "26318": 1,
+      "26319": 2,
+      "26320": 1,
+      "26331": 1,
+      "26336": 1,
+      "26341": 1,
+      "26346": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Highland Spring Water",
+      "id": 27968,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        29986
+      ],
+      "leves": [
+        1482,
+        1483
+      ],
+      "ventures": [
+        791
+      ],
+      "nodes": [
+        592
+      ]
+    },
+    {
+      "name": "Hoptrap Leaf",
+      "id": 27763,
+      "icon": 25202,
+      "category": 54,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27763",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1487,
+        1489
+      ],
+      "ventures": [
+        773
+      ]
+    },
+    {
+      "name": "Nipplewort",
+      "id": 19915,
+      "icon": 25030,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "ventures": [
+        705
+      ],
+      "nodes": [
+        519
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "592",
+      "obj": {
+        "i": 592,
+        "n": "The Bookman's Shelves",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "519",
+      "obj": {
+        "i": 519,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 3,
+        "z": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "27968",
+      "obj": {
+        "i": 27968,
+        "n": "Highland Spring Water",
+        "l": 400,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27763",
+      "obj": {
+        "i": 27763,
+        "n": "Hoptrap Leaf",
+        "l": 390,
+        "c": 25202,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19915",
+      "obj": {
+        "i": 19915,
+        "n": "Nipplewort",
+        "l": 288,
+        "c": 25030,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "25996",
+      "obj": {
+        "i": 25996,
+        "n": "Pixie Cotton Hood of Healing",
+        "l": 403,
+        "c": 41783,
+        "t": 34,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25997",
+      "obj": {
+        "i": 25997,
+        "n": "Pixie Cotton Robe of Healing",
+        "l": 403,
+        "c": 43478,
+        "t": 35,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "25998",
+      "obj": {
+        "i": 25998,
+        "n": "Atrociraptorskin Armguards of Healing",
+        "l": 403,
+        "c": 48600,
+        "t": 37,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25999",
+      "obj": {
+        "i": 25999,
+        "n": "Pixie Cotton Slops of Healing",
+        "l": 403,
+        "c": 47623,
+        "t": 36,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "26000",
+      "obj": {
+        "i": 26000,
+        "n": "Atrociraptorskin Boots of Healing",
+        "l": 403,
+        "c": 49082,
+        "t": 38,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "26011",
+      "obj": {
+        "i": 26011,
+        "n": "White Ash Earring of Healing",
+        "l": 403,
+        "c": 55444,
+        "t": 41,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26016",
+      "obj": {
+        "i": 26016,
+        "n": "Atrociraptorskin Necklace of Healing",
+        "l": 403,
+        "c": 55014,
+        "t": 40,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26021",
+      "obj": {
+        "i": 26021,
+        "n": "Atrociraptorskin Amulet of Healing",
+        "l": 403,
+        "c": 55814,
+        "t": 42,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26026",
+      "obj": {
+        "i": 26026,
+        "n": "Lazurite Ring of Healing",
+        "l": 403,
+        "c": 54662,
+        "t": 43,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26156",
+      "obj": {
+        "i": 26156,
+        "n": "Ovim Wool Muffed Met of Healing",
+        "l": 409,
+        "c": 40338,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26157",
+      "obj": {
+        "i": 26157,
+        "n": "Ovim Wool Coat of Healing",
+        "l": 409,
+        "c": 43883,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26158",
+      "obj": {
+        "i": 26158,
+        "n": "Zonureskin Fingerless Gloves of Healing",
+        "l": 409,
+        "c": 44714,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26159",
+      "obj": {
+        "i": 26159,
+        "n": "Ovim Wool Skirt of Healing",
+        "l": 409,
+        "c": 47577,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26160",
+      "obj": {
+        "i": 26160,
+        "n": "Zonureskin Caligae of Healing",
+        "l": 409,
+        "c": 49045,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26171",
+      "obj": {
+        "i": 26171,
+        "n": "Triplite Earrings of Healing",
+        "l": 409,
+        "c": 55430,
+        "t": 41,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26176",
+      "obj": {
+        "i": 26176,
+        "n": "Triplite Choker of Healing",
+        "l": 409,
+        "c": 55000,
+        "t": 40,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26181",
+      "obj": {
+        "i": 26181,
+        "n": "Triplite Bracelet of Healing",
+        "l": 409,
+        "c": 55800,
+        "t": 42,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26186",
+      "obj": {
+        "i": 26186,
+        "n": "Triplite Ring of Healing",
+        "l": 409,
+        "c": 54648,
+        "t": 43,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26316",
+      "obj": {
+        "i": 26316,
+        "n": "Dwarven Cotton Petasos of Healing",
+        "l": 415,
+        "c": 41466,
+        "t": 34,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26317",
+      "obj": {
+        "i": 26317,
+        "n": "Swallowskin Robe of Healing",
+        "l": 415,
+        "c": 43895,
+        "t": 35,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26318",
+      "obj": {
+        "i": 26318,
+        "n": "Swallowskin Gloves of Healing",
+        "l": 415,
+        "c": 44729,
+        "t": 37,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26319",
+      "obj": {
+        "i": 26319,
+        "n": "Dwarven Cotton Gaskins of Healing",
+        "l": 415,
+        "c": 47602,
+        "t": 36,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26320",
+      "obj": {
+        "i": 26320,
+        "n": "Swallowskin Shoes of Healing",
+        "l": 415,
+        "c": 49064,
+        "t": 38,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26331",
+      "obj": {
+        "i": 26331,
+        "n": "Petalite Earrings of Healing",
+        "l": 415,
+        "c": 55433,
+        "t": 41,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26336",
+      "obj": {
+        "i": 26336,
+        "n": "Petalite Choker of Healing",
+        "l": 415,
+        "c": 55003,
+        "t": 40,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26341",
+      "obj": {
+        "i": 26341,
+        "n": "Petalite Bracelet of Healing",
+        "l": 415,
+        "c": 55803,
+        "t": 42,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26346",
+      "obj": {
+        "i": 26346,
+        "n": "Petalite Ring of Healing",
+        "l": 415,
+        "c": 54651,
+        "t": 43,
+        "p": 18451
+      }
+    }
+  ]
+}

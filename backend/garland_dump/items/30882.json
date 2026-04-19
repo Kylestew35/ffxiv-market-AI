@@ -1,0 +1,62 @@
+{
+  "item": {
+    "name": "2P Automaton",
+    "description": "For when you need the company of a compact version of an advanced combat android dressed in a distinctive subculture style. <br><br>Use item to acquire the 2P automaton minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Not that I'm not eager to\r\ntake apart an android,\r\nbut...how do we...do that?\r\n   - Konogg",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "The War Rages On",
+    "specialactiondescription": "Reduces action points of all enemies within range by 50% of the maximum value.",
+    "id": 30882,
+    "patch": 5.3,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59795,
+    "instances": [
+      30096,
+      30096
+    ],
+    "cost": 20,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 380,
+      "Skill Cost": 20,
+      "Attack": 75,
+      "Defense": 45,
+      "Speed": 4
+    },
+    "models": [
+      "8355-2-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30096",
+      "obj": {
+        "i": 30096,
+        "n": "The Puppets' Bunker",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 465
+      }
+    }
+  ]
+}

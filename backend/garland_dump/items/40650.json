@@ -1,0 +1,114 @@
+{
+  "item": {
+    "name": "Cactuar Colony Planter",
+    "description": "A large pot containing an assortment of cacti fashioned to resemble a colony of cactuars. Their empty gaze is somehow unsettling.",
+    "id": 40650,
+    "patch": 6.4,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53455,
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Music/Furnishings)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40650",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 5000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Seasonal Event Prizes (Other)",
+        "npcs": [
+          1049034
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40650",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 3500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1247"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1049034",
+      "obj": {
+        "i": 1049034,
+        "n": "Campaign Attendant",
+        "l": 1484,
+        "s": 3,
+        "r": 1,
+        "a": 1485,
+        "c": [
+          5.39,
+          6.35
+        ]
+      }
+    }
+  ]
+}

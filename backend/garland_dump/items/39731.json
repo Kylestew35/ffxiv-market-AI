@@ -1,0 +1,519 @@
+{
+  "item": {
+    "name": "Grade 8 Tincture of Mind",
+    "description": "This diluted brew temporarily increases mind for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 39731,
+    "patch": 6.4,
+    "patchCategory": 4,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 95,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Mind": {
+          "rate": 8,
+          "limit": 209
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Mind": {
+          "rate": 10,
+          "limit": 262
+        }
+      }
+    },
+    "icon": 20708,
+    "craft": [
+      {
+        "id": 35589,
+        "job": 14,
+        "rlvl": 640,
+        "durability": 70,
+        "quality": 14040,
+        "progress": 6600,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3660,
+        "craftsmanshipReq": 3950,
+        "unlockId": 37740,
+        "ingredients": [
+          {
+            "id": 39716,
+            "amount": 1
+          },
+          {
+            "id": 36231,
+            "amount": 1,
+            "quality": 2151.5437
+          },
+          {
+            "id": 38936,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 520,
+          "hq": 540
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Alche-mist",
+      "id": 39716,
+      "icon": 22689,
+      "category": 54,
+      "ilvl": 640,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39716",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39716",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grade 5 Mind Alkahest",
+      "id": 36231,
+      "icon": 22681,
+      "category": 54,
+      "ilvl": 548,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5332,
+          "job": 14,
+          "rlvl": 525,
+          "durability": 40,
+          "quality": 6200,
+          "progress": 1300,
+          "lvl": 83,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27782,
+              "amount": 2
+            },
+            {
+              "id": 36258,
+              "amount": 1
+            },
+            {
+              "id": 27784,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 100,
+            "hq": 120
+          }
+        }
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    },
+    {
+      "name": "Tiger Lily",
+      "id": 27784,
+      "icon": 25022,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        837
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Earthbreak Aethersand",
+      "id": 38936,
+      "icon": 21246,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "reducedFrom": [
+        38938,
+        38937,
+        38841,
+        38939
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27784",
+      "obj": {
+        "i": 27784,
+        "n": "Tiger Lily",
+        "l": 418,
+        "c": 25022,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "38938",
+      "obj": {
+        "i": 38938,
+        "n": "Sophora Roots",
+        "l": 600,
+        "c": 25025,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38937",
+      "obj": {
+        "i": 38937,
+        "n": "Earthen Quartz",
+        "l": 600,
+        "c": 21458,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "38841",
+      "obj": {
+        "i": 38841,
+        "n": "Nosceasaur",
+        "l": 600,
+        "c": 28548,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38939",
+      "obj": {
+        "i": 38939,
+        "n": "Verdigris Guppy",
+        "l": 600,
+        "c": 28544,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "37740",
+      "obj": {
+        "i": 37740,
+        "n": "Master Alchemist X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39716",
+      "obj": {
+        "i": 39716,
+        "n": "Alche-mist",
+        "l": 640,
+        "c": 22689,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36231",
+      "obj": {
+        "i": 36231,
+        "n": "Grade 5 Mind Alkahest",
+        "l": 548,
+        "c": 22681,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38936",
+      "obj": {
+        "i": 38936,
+        "n": "Earthbreak Aethersand",
+        "l": 600,
+        "c": 21246,
+        "t": 54
+      }
+    }
+  ]
+}

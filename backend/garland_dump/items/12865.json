@@ -1,0 +1,438 @@
+{
+  "item": {
+    "name": "Seafood Stew",
+    "description": "A simple stew made from available seafood boiled with tomatoes and spices.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 12865,
+    "patch": 3.0,
+    "patchCategory": 6,
+    "price": 1330,
+    "ilvl": 160,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 15,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "CP": {
+          "rate": 12,
+          "limit": 40
+        },
+        "Control": {
+          "rate": 4,
+          "limit": 25
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "CP": {
+          "rate": 15,
+          "limit": 50
+        },
+        "Control": {
+          "rate": 5,
+          "limit": 31
+        }
+      }
+    },
+    "icon": 24117,
+    "craft": [
+      {
+        "id": 31225,
+        "job": 15,
+        "rlvl": 160,
+        "durability": 70,
+        "quality": 2800,
+        "progress": 660,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 1,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "craftsmanshipReq": 620,
+        "quickSynthCraftsmanship": 718,
+        "unlockId": 12251,
+        "ingredients": [
+          {
+            "id": 12903,
+            "amount": 2
+          },
+          {
+            "id": 12722,
+            "amount": 1
+          },
+          {
+            "id": 12718,
+            "amount": 1
+          },
+          {
+            "id": 12733,
+            "amount": 1
+          },
+          {
+            "id": 6148,
+            "amount": 2
+          },
+          {
+            "id": 12936,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 385,
+          "hq": 405
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Dravanian Paprika",
+      "id": 12903,
+      "icon": 25018,
+      "category": 45,
+      "ilvl": 160,
+      "price": 1013,
+      "ventures": [
+        618
+      ],
+      "nodes": [
+        345
+      ]
+    },
+    {
+      "name": "Blueclaw Shrimp",
+      "id": 12722,
+      "icon": 29404,
+      "category": 47,
+      "ilvl": 125,
+      "price": 1188,
+      "ventures": [
+        501
+      ],
+      "fishingSpots": [
+        117,
+        118,
+        119,
+        120,
+        126
+      ]
+    },
+    {
+      "name": "Coerthan Crab",
+      "id": 12718,
+      "icon": 29808,
+      "category": 47,
+      "ilvl": 125,
+      "price": 1188,
+      "fishingSpots": [
+        109,
+        112
+      ]
+    },
+    {
+      "name": "Rock Mussel",
+      "id": 12733,
+      "icon": 29413,
+      "category": 47,
+      "ilvl": 136,
+      "price": 1292,
+      "ventures": [
+        502
+      ],
+      "fishingSpots": [
+        118,
+        119
+      ]
+    },
+    {
+      "name": "Dzemael Tomato",
+      "id": 6148,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 70,
+      "price": 443,
+      "ventures": [
+        568
+      ],
+      "nodes": [
+        220
+      ],
+      "seeds": [
+        7724
+      ]
+    },
+    {
+      "name": "Duskborne Aethersand",
+      "id": 12936,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 139,
+      "price": 880,
+      "reducedFrom": [
+        5214,
+        5218,
+        12968,
+        33148
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "345",
+      "obj": {
+        "i": 345,
+        "n": "Twinpools",
+        "l": 60,
+        "t": 3,
+        "z": 2200,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "117",
+      "obj": {
+        "i": 117,
+        "n": "The Hundred Throes",
+        "l": 52,
+        "c": 1,
+        "z": 2000,
+        "x": 31.39,
+        "y": 10.1
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "118",
+      "obj": {
+        "i": 118,
+        "n": "Whilom River",
+        "l": 52,
+        "c": 1,
+        "z": 2000,
+        "x": 30.63,
+        "y": 14.82
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "119",
+      "obj": {
+        "i": 119,
+        "n": "The Smoldering Wastes",
+        "l": 52,
+        "c": 1,
+        "z": 2000,
+        "x": 25.28,
+        "y": 25.82
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "120",
+      "obj": {
+        "i": 120,
+        "n": "The Iron Feast",
+        "l": 55,
+        "c": 1,
+        "z": 2000,
+        "x": 31.62,
+        "y": 6.06
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "126",
+      "obj": {
+        "i": 126,
+        "n": "Quickspill Delta",
+        "l": 58,
+        "c": 1,
+        "z": 2001,
+        "x": 11.33,
+        "y": 27.55
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "109",
+      "obj": {
+        "i": 109,
+        "n": "Riversmeet",
+        "l": 50,
+        "c": 1,
+        "z": 2200,
+        "x": 32.86,
+        "y": 27.55
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "112",
+      "obj": {
+        "i": 112,
+        "n": "Clearpool",
+        "l": 60,
+        "c": 1,
+        "z": 2200,
+        "x": 36.78,
+        "y": 5.97
+      }
+    },
+    {
+      "type": "node",
+      "id": "220",
+      "obj": {
+        "i": 220,
+        "n": "Raincatcher Gully",
+        "l": 50,
+        "t": 3,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5214",
+      "obj": {
+        "i": 5214,
+        "n": "Fire Moraine",
+        "l": 139,
+        "c": 21456,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5218",
+      "obj": {
+        "i": 5218,
+        "n": "Lightning Moraine",
+        "l": 139,
+        "c": 21461,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12968",
+      "obj": {
+        "i": 12968,
+        "n": "Granular Clay",
+        "l": 139,
+        "c": 27407,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33148",
+      "obj": {
+        "i": 33148,
+        "n": "Pot Marjoram",
+        "l": 139,
+        "c": 25010,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12251",
+      "obj": {
+        "i": 12251,
+        "n": "Master Culinarian III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12903",
+      "obj": {
+        "i": 12903,
+        "n": "Dravanian Paprika",
+        "l": 160,
+        "c": 25018,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12722",
+      "obj": {
+        "i": 12722,
+        "n": "Blueclaw Shrimp",
+        "l": 125,
+        "c": 29404,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12718",
+      "obj": {
+        "i": 12718,
+        "n": "Coerthan Crab",
+        "l": 125,
+        "c": 29808,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12733",
+      "obj": {
+        "i": 12733,
+        "n": "Rock Mussel",
+        "l": 136,
+        "c": 29413,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "6148",
+      "obj": {
+        "i": 6148,
+        "n": "Dzemael Tomato",
+        "l": 70,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12936",
+      "obj": {
+        "i": 12936,
+        "n": "Duskborne Aethersand",
+        "l": 139,
+        "c": 22613,
+        "t": 54
+      }
+    }
+  ]
+}

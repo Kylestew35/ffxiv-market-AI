@@ -1,0 +1,183 @@
+{
+  "item": {
+    "name": "Staff of Crags",
+    "jobCategories": "THM BLM",
+    "id": 14893,
+    "patch": 3.2,
+    "patchCategory": 0,
+    "price": 42768,
+    "ilvl": 80,
+    "category": 7,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 428,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 460,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 55,
+    "models": [
+      "1001-52-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 60,
+      "Magic Damage": 60,
+      "Delay": 3.28,
+      "Intelligence": 27,
+      "Vitality": 25,
+      "Direct Hit Rate": 33,
+      "Determination": 23
+    },
+    "icon": 33059,
+    "instances": [
+      20005,
+      20005
+    ],
+    "sharedModels": [
+      15916
+    ],
+    "tradeShops": [
+      {
+        "shop": "Single-handed Arm Exchange",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14893",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "2104",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Two-handed Arm Exchange",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "2104",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14893",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "desynthedTo": [
+      8153
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      36137
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20005",
+      "obj": {
+        "i": 20005,
+        "n": "The Navel (Hard)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "15916",
+      "obj": {
+        "i": 15916,
+        "n": "Tremor Staff",
+        "l": 95,
+        "c": 33059,
+        "t": 7
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "2104",
+      "obj": {
+        "i": 2104,
+        "n": "The Cudgel of Crags",
+        "l": 80,
+        "c": 32847,
+        "t": 6
+      }
+    },
+    {
+      "type": "item",
+      "id": "8153",
+      "obj": {
+        "i": 8153,
+        "n": "Demimateria of Crags",
+        "l": 90,
+        "c": 21264,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "36137",
+      "obj": {
+        "i": 36137,
+        "n": "Crag Weapon Coffer (IL 80)",
+        "l": 1,
+        "c": 26557,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "item": {
+    "name": "Pterodactyl",
+    "description": "A winged scalekin native to the Diadem.",
+    "id": 13733,
+    "patch": 3.1,
+    "patchCategory": 7,
+    "price": 1425,
+    "ilvl": 150,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29724,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13733",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13733",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "13590": 1,
+      "13749": 1
+    },
+    "fish": {
+      "spots": [
+        {
+          "spot": 10021,
+          "ff14anglerId": 444,
+          "baits": [
+            [
+              12712
+            ]
+          ]
+        },
+        {
+          "spot": 10022,
+          "ff14anglerId": 444,
+          "baits": [
+            [
+              12712
+            ]
+          ]
+        },
+        {
+          "spot": 10020,
+          "ff14anglerId": 444,
+          "baits": [
+            [
+              12712
+            ]
+          ]
+        }
+      ]
+    },
+    "fishingSpots": [
+      10021,
+      10022,
+      10020
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "13590",
+      "obj": {
+        "i": 13590,
+        "n": "Pterodactyl Strap",
+        "l": 160,
+        "c": 22030,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "13749",
+      "obj": {
+        "i": 13749,
+        "n": "Pterodactyl Leather",
+        "l": 160,
+        "c": 22010,
+        "t": 52
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10021",
+      "obj": {
+        "i": 10021,
+        "n": "Calm Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 28,
+        "y": 33
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10022",
+      "obj": {
+        "i": 10022,
+        "n": "Swirling Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 13,
+        "y": 24
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10020",
+      "obj": {
+        "i": 10020,
+        "n": "Blustery Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 31,
+        "y": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "12712",
+      "obj": {
+        "i": 12712,
+        "n": "Giant Crane Fly",
+        "l": 180,
+        "c": 27002,
+        "t": 33
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "item": {
+    "name": "Unbreakable Rock",
+    "description": "An uncommonly sturdy rock sourced from La Noscea. You break it, you buy it.",
+    "id": 6479,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 4836,
+    "ilvl": 24,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "icon": 52101,
+    "craft": [
+      {
+        "id": 1726,
+        "job": 14,
+        "rlvl": 24,
+        "durability": 70,
+        "quality": 315,
+        "progress": 85,
+        "lvl": 24,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 5491,
+            "amount": 12
+          },
+          {
+            "id": 5230,
+            "amount": 12
+          },
+          {
+            "id": 7,
+            "amount": 2
+          },
+          {
+            "id": 6,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 178,
+          "hq": 198
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Effervescent Water",
+      "id": 5491,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 11,
+      "price": 16,
+      "ventures": [
+        105
+      ],
+      "nodes": [
+        47
+      ]
+    },
+    {
+      "name": "Limestone",
+      "id": 5230,
+      "icon": 22615,
+      "category": 48,
+      "ilvl": 20,
+      "price": 33,
+      "desynthedFrom": [
+        6366,
+        6367,
+        6392,
+        6393
+      ],
+      "ventures": [
+        95
+      ],
+      "nodes": [
+        166
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "node",
+      "id": "166",
+      "obj": {
+        "i": 166,
+        "n": "Skull Valley",
+        "l": 20,
+        "t": 1,
+        "z": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5491",
+      "obj": {
+        "i": 5491,
+        "n": "Effervescent Water",
+        "l": 11,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5230",
+      "obj": {
+        "i": 5230,
+        "n": "Limestone",
+        "l": 20,
+        "c": 22615,
+        "t": 48
+      }
+    }
+  ]
+}

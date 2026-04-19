@@ -1,0 +1,102 @@
+{
+  "item": {
+    "name": "Gatherer's Guile Materia III",
+    "id": 5691,
+    "patch": 1.0,
+    "patchCategory": 10,
+    "price": 4500,
+    "ilvl": 45,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 81,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20211,
+    "tradeShops": [
+      {
+        "shop": "Ixali Oaknot Exchange (Materia)",
+        "npcs": [
+          1009205
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5691",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21073",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 2,
+      "value": 5,
+      "attr": "Perception",
+      "category": 2
+    },
+    "voyages": [
+      {
+        "id": 3,
+        "type": 0
+      },
+      {
+        "id": 9,
+        "type": 0
+      },
+      {
+        "id": 21,
+        "type": 0
+      },
+      {
+        "id": 4,
+        "type": 1
+      }
+    ],
+    "alla": {
+      "source": [
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    }
+  ]
+}

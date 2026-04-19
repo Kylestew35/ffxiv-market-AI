@@ -1,0 +1,154 @@
+{
+  "item": {
+    "name": "Palaka Mistletoe",
+    "description": "A variety of parasitic plant found growing on trees near Palaka's Stand.",
+    "id": 37823,
+    "patch": 6.2,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 600,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25001,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "37823",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "37823",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "37840": 1,
+      "37841": 1,
+      "37842": 1,
+      "37843": 1,
+      "37844": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "37840",
+      "obj": {
+        "i": 37840,
+        "n": "Grade 7 Tincture of Strength",
+        "l": 610,
+        "c": 20710,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "37841",
+      "obj": {
+        "i": 37841,
+        "n": "Grade 7 Tincture of Dexterity",
+        "l": 610,
+        "c": 20709,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "37842",
+      "obj": {
+        "i": 37842,
+        "n": "Grade 7 Tincture of Vitality",
+        "l": 610,
+        "c": 20707,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "37843",
+      "obj": {
+        "i": 37843,
+        "n": "Grade 7 Tincture of Intelligence",
+        "l": 610,
+        "c": 20706,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "37844",
+      "obj": {
+        "i": 37844,
+        "n": "Grade 7 Tincture of Mind",
+        "l": 610,
+        "c": 20708,
+        "t": 44
+      }
+    }
+  ]
+}

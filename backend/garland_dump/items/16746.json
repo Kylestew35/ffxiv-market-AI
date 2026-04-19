@@ -1,0 +1,145 @@
+{
+  "item": {
+    "name": "Flarefish",
+    "description": "A king among sorcerer fish, and lord of the waters of the unfrozen pond.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "Believed to be the sole reason the unfrozen pond remains free of ice, in order to partake in the warmth emitted by the flarefish's sanguine humours, other fish will form schools (at a distance), surrounding the specimen in a barrier which effectively provides protection from larger predators.",
+      "icon": 79815,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 111,
+          "weather": [
+            "Blizzards"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 479,
+          "baits": [
+            [
+              28634,
+              12715
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 16746,
+    "patch": 3.4,
+    "patchCategory": 7,
+    "price": 3333,
+    "ilvl": 230,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 82,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29815,
+    "fishingSpots": [
+      111
+    ],
+    "desynthedTo": [
+      5672,
+      5673,
+      5826,
+      10386
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "111",
+      "obj": {
+        "i": 111,
+        "n": "Unfrozen Pond",
+        "l": 52,
+        "c": 1,
+        "z": 2200,
+        "x": 28.44,
+        "y": 17.9
+      }
+    },
+    {
+      "type": "item",
+      "id": "28634",
+      "obj": {
+        "i": 28634,
+        "n": "Metal Spinner",
+        "l": 136,
+        "c": 27062,
+        "t": 33,
+        "p": 1200
+      }
+    },
+    {
+      "type": "item",
+      "id": "12715",
+      "obj": {
+        "i": 12715,
+        "n": "Ice Faerie",
+        "l": 120,
+        "c": 29803,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "5672",
+      "obj": {
+        "i": 5672,
+        "n": "Savage Aim Materia IV",
+        "l": 70,
+        "c": 20224,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5673",
+      "obj": {
+        "i": 5673,
+        "n": "Savage Aim Materia V",
+        "l": 160,
+        "c": 20258,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5826",
+      "obj": {
+        "i": 5826,
+        "n": "Allagan Gold Piece",
+        "l": 35,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10386",
+      "obj": {
+        "i": 10386,
+        "n": "Grade 6 Dark Matter",
+        "l": 1,
+        "c": 20404,
+        "t": 60,
+        "p": 120
+      }
+    }
+  ]
+}

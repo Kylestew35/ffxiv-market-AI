@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Marid Horn",
+    "description": "A horn of ivory used to summon a towering marid.",
+    "mount": {
+      "name": "Marid",
+      "action": "Summon forth your marid, trained by the Ananta and outfitted with a magicked carpet allowing for flight.",
+      "description": "There was once a time when if someone told you they witnessed a marid aloft, you could have had them committed to a sanatorium. Now, marids crisscross the skies thanks, in part, to magicked carpets which the Ananta affix to the backs of beasts they train for battle.",
+      "tooltip": "A rampaging marid is<br>absolutely unssstoppable.<br>   - Dakshina",
+      "icon": 4112,
+      "guideIcon": 68112
+    },
+    "id": 21904,
+    "patch": 4.2,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Ananta Dreamstaff Exchange",
+        "npcs": [
+          1024774
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21904",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21935",
+                "amount": 18
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "440-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024774",
+      "obj": {
+        "i": 1024774,
+        "n": "Madhura",
+        "l": 2406,
+        "s": 1,
+        "t": "Dreamstaff Exchange",
+        "r": 1,
+        "a": 2632,
+        "c": [
+          20.98,
+          26.25
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21935",
+      "obj": {
+        "i": 21935,
+        "n": "Ananta Dreamstaff",
+        "l": 1,
+        "c": 65061,
+        "t": 100
+      }
+    }
+  ]
+}

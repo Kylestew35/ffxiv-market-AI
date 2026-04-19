@@ -1,0 +1,514 @@
+{
+  "item": {
+    "name": "Citrine",
+    "description": "A yellow jewel almost identical to topaz, but several times softer.",
+    "id": 12547,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 4956,
+    "ilvl": 148,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21329,
+    "vendors": [
+      1001977
+    ],
+    "craft": [
+      {
+        "id": 2537,
+        "job": 11,
+        "rlvl": 148,
+        "durability": 35,
+        "quality": 2104,
+        "progress": 270,
+        "lvl": 59,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12557,
+            "amount": 3
+          },
+          {
+            "id": 12561,
+            "amount": 1,
+            "quality": 250.8199
+          },
+          {
+            "id": 10,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 63,
+          "hq": 83
+        }
+      }
+    ],
+    "ingredient_of": {
+      "10969": 1,
+      "10993": 1,
+      "11017": 1,
+      "11041": 1,
+      "11065": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Raw Citrine",
+      "id": 12557,
+      "icon": 21474,
+      "category": 48,
+      "ilvl": 148,
+      "price": 3223,
+      "ventures": [
+        458
+      ],
+      "nodes": [
+        351
+      ]
+    },
+    {
+      "name": "Cloud Mica Whetstone",
+      "id": 12561,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 139,
+      "price": 2520,
+      "craft": [
+        {
+          "id": 2541,
+          "job": 11,
+          "rlvl": 139,
+          "durability": 35,
+          "quality": 1936,
+          "progress": 210,
+          "lvl": 56,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12539,
+              "amount": 3
+            },
+            {
+              "id": 10,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 55,
+            "hq": 75
+          }
+        }
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Cloud Mica",
+      "id": 12539,
+      "icon": 21226,
+      "category": 48,
+      "ilvl": 142,
+      "price": 843,
+      "desynthedFrom": [
+        12787
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12539",
+                  "amount": 4
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021
+      ],
+      "ventures": [
+        456
+      ],
+      "nodes": [
+        355
+      ],
+      "vendors": [
+        1017172
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "351",
+      "obj": {
+        "i": 351,
+        "n": "Red Rim",
+        "l": 60,
+        "t": 0,
+        "z": 2200
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12539",
+      "obj": {
+        "i": 12539,
+        "n": "Cloud Mica",
+        "l": 142,
+        "c": 21226,
+        "t": 48,
+        "p": 843
+      }
+    },
+    {
+      "type": "node",
+      "id": "355",
+      "obj": {
+        "i": 355,
+        "n": "Landlord Colony",
+        "l": 60,
+        "t": 1,
+        "z": 2002,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001977",
+      "obj": {
+        "i": 1001977,
+        "n": "Sileas",
+        "l": 41,
+        "s": 2,
+        "t": "Jeweler",
+        "c": [
+          "10.0",
+          "12.5"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12557",
+      "obj": {
+        "i": 12557,
+        "n": "Raw Citrine",
+        "l": 148,
+        "c": 21474,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12561",
+      "obj": {
+        "i": 12561,
+        "n": "Cloud Mica Whetstone",
+        "l": 139,
+        "c": 21470,
+        "t": 48,
+        "p": 2520
+      }
+    },
+    {
+      "type": "item",
+      "id": "10969",
+      "obj": {
+        "i": 10969,
+        "n": "Citrine Choker of Fending",
+        "l": 150,
+        "c": 54927,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "10993",
+      "obj": {
+        "i": 10993,
+        "n": "Citrine Choker of Slaying",
+        "l": 150,
+        "c": 54927,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11017",
+      "obj": {
+        "i": 11017,
+        "n": "Citrine Choker of Aiming",
+        "l": 150,
+        "c": 54927,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11041",
+      "obj": {
+        "i": 11041,
+        "n": "Citrine Choker of Healing",
+        "l": 150,
+        "c": 54927,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11065",
+      "obj": {
+        "i": 11065,
+        "n": "Citrine Choker of Casting",
+        "l": 150,
+        "c": 54927,
+        "t": 40
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Doman Udon Broth",
+    "description": "Golden savory stock taken by boiling flakes of a dried bonito. Used in many varieties of Far Eastern cuisine, including the noodle dish, udon.",
+    "id": 17936,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 276,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25055,
+    "craft": [
+      {
+        "id": 32301,
+        "job": 15,
+        "rlvl": 276,
+        "durability": 80,
+        "quality": 1732,
+        "progress": 581,
+        "lvl": 65,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17935,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 100027,
+          "hq": 100047
+        }
+      }
+    ],
+    "usedInQuest": [
+      68142
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Broth Ingredients",
+      "id": 17935,
+      "icon": 22418,
+      "category": 63,
+      "ilvl": 276,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17935",
+      "obj": {
+        "i": 17935,
+        "n": "Broth Ingredients",
+        "l": 276,
+        "c": 22418,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68142",
+      "obj": {
+        "i": 68142,
+        "n": "A Broth from the Brine",
+        "g": 171,
+        "l": "Mor Dhona",
+        "s": 650,
+        "f": 1
+      }
+    }
+  ]
+}

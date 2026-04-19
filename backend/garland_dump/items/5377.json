@@ -1,0 +1,704 @@
+{
+  "item": {
+    "name": "Ebony Lumber",
+    "description": "Processed ebony lumber.",
+    "id": 5377,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 2090,
+    "ilvl": 110,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22454,
+    "ingredient_of": {
+      "8779": 2,
+      "8780": 2,
+      "8781": 2,
+      "8789": 5,
+      "9724": 3,
+      "9737": 6,
+      "39424": 4,
+      "9046": 2,
+      "9489": 2,
+      "9085": 2,
+      "9086": 3,
+      "9087": 3,
+      "9089": 3,
+      "9090": 3,
+      "9092": 3,
+      "13792": 1,
+      "13793": 2,
+      "13794": 2,
+      "13795": 1,
+      "13796": 1,
+      "13797": 2,
+      "13798": 2,
+      "13799": 1,
+      "13800": 1,
+      "13837": 1,
+      "13838": 2,
+      "13839": 2,
+      "13840": 1,
+      "13841": 1,
+      "13842": 2,
+      "13843": 2,
+      "13844": 1,
+      "13845": 1,
+      "15097": 1
+    },
+    "craft": [
+      {
+        "id": 30861,
+        "job": 8,
+        "rlvl": 110,
+        "durability": 80,
+        "quality": 2900,
+        "progress": 480,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 407,
+        "craftsmanshipReq": 451,
+        "quickSynthCraftsmanship": 620,
+        "unlockId": 9336,
+        "ingredients": [
+          {
+            "id": 5394,
+            "amount": 2
+          },
+          {
+            "id": 9366,
+            "amount": 9
+          },
+          {
+            "id": 16,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 910,
+          "hq": 930
+        }
+      }
+    ],
+    "desynthedFrom": [
+      9724
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Ebony Log",
+      "id": 5394,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 80,
+      "price": 443,
+      "ventures": [
+        537
+      ],
+      "nodes": [
+        248
+      ]
+    },
+    {
+      "name": "Borax",
+      "id": 9366,
+      "icon": 21206,
+      "category": 54,
+      "ilvl": 110,
+      "price": 2395,
+      "desynthedFrom": [
+        8770
+      ],
+      "tradeShops": [
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9366",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9366",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9366",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "248",
+      "obj": {
+        "i": 248,
+        "n": "Zephyr Drift",
+        "l": 50,
+        "t": 2,
+        "z": 30,
+        "s": 3,
+        "lt": "Unspoiled",
+        "ti": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "8779",
+      "obj": {
+        "i": 8779,
+        "n": "Riviera Canopy Bed",
+        "l": 110,
+        "c": 52540,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "8780",
+      "obj": {
+        "i": 8780,
+        "n": "Glade Canopy Bed",
+        "l": 110,
+        "c": 52541,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "8781",
+      "obj": {
+        "i": 8781,
+        "n": "Oasis Canopy Bed",
+        "l": 110,
+        "c": 52542,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "8789",
+      "obj": {
+        "i": 8789,
+        "n": "Armoire",
+        "l": 110,
+        "c": 52536,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "9724",
+      "obj": {
+        "i": 9724,
+        "n": "Guildleve Counter",
+        "l": 110,
+        "c": 51640,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "9737",
+      "obj": {
+        "i": 9737,
+        "n": "Order of Nald'thal Lectern",
+        "l": 110,
+        "c": 51641,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "39424",
+      "obj": {
+        "i": 39424,
+        "n": "Jinrikisha",
+        "l": 560,
+        "c": 52355,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "9336",
+      "obj": {
+        "i": 9336,
+        "n": "Master Carpenter II",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5394",
+      "obj": {
+        "i": 5394,
+        "n": "Ebony Log",
+        "l": 80,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "9366",
+      "obj": {
+        "i": 9366,
+        "n": "Borax",
+        "l": 110,
+        "c": 21206,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "9046",
+      "obj": {
+        "i": 9046,
+        "n": "Kirimu Sandals of Striking",
+        "l": 110,
+        "c": 46424,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "9489",
+      "obj": {
+        "i": 9489,
+        "n": "Kirimu Sandals of Scouting",
+        "l": 110,
+        "c": 46427,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "9085",
+      "obj": {
+        "i": 9085,
+        "n": "Wootz Bhuj",
+        "l": 110,
+        "c": 31487,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "9086",
+      "obj": {
+        "i": 9086,
+        "n": "Wootz Spear",
+        "l": 110,
+        "c": 31886,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "9087",
+      "obj": {
+        "i": 9087,
+        "n": "Ebony Longbow",
+        "l": 110,
+        "c": 32282,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "9089",
+      "obj": {
+        "i": 9089,
+        "n": "Ebony Cane",
+        "l": 110,
+        "c": 32662,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "9090",
+      "obj": {
+        "i": 9090,
+        "n": "Ebony Staff",
+        "l": 110,
+        "c": 33030,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "9092",
+      "obj": {
+        "i": 9092,
+        "n": "Kirimu Codex",
+        "l": 110,
+        "c": 33497,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "13792",
+      "obj": {
+        "i": 13792,
+        "n": "Replica Allagan Battleaxe",
+        "l": 50,
+        "c": 31469,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "13793",
+      "obj": {
+        "i": 13793,
+        "n": "Replica Allagan Spear",
+        "l": 50,
+        "c": 31868,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "13794",
+      "obj": {
+        "i": 13794,
+        "n": "Replica Allagan Composite Bow",
+        "l": 50,
+        "c": 32265,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "13795",
+      "obj": {
+        "i": 13795,
+        "n": "Replica Allagan Cane",
+        "l": 50,
+        "c": 32652,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "13796",
+      "obj": {
+        "i": 13796,
+        "n": "Replica Allagan Scepter",
+        "l": 50,
+        "c": 32848,
+        "t": 6
+      }
+    },
+    {
+      "type": "item",
+      "id": "13797",
+      "obj": {
+        "i": 13797,
+        "n": "Replica Allagan Grimoire of Casting",
+        "l": 50,
+        "c": 33459,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "13798",
+      "obj": {
+        "i": 13798,
+        "n": "Replica Allagan Grimoire of Healing",
+        "l": 50,
+        "c": 33460,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "13799",
+      "obj": {
+        "i": 13799,
+        "n": "Replica Allagan Daggers",
+        "l": 50,
+        "c": 33857,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "13800",
+      "obj": {
+        "i": 13800,
+        "n": "Replica Allagan Guillotine",
+        "l": 50,
+        "c": 34219,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "13837",
+      "obj": {
+        "i": 13837,
+        "n": "Replica High Allagan Battleaxe",
+        "l": 50,
+        "c": 31475,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "13838",
+      "obj": {
+        "i": 13838,
+        "n": "Replica High Allagan Spear",
+        "l": 50,
+        "c": 31874,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "13839",
+      "obj": {
+        "i": 13839,
+        "n": "Replica High Allagan Composite Bow",
+        "l": 50,
+        "c": 32270,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "13840",
+      "obj": {
+        "i": 13840,
+        "n": "Replica High Allagan Crook",
+        "l": 50,
+        "c": 32436,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "13841",
+      "obj": {
+        "i": 13841,
+        "n": "Replica High Allagan Staff",
+        "l": 50,
+        "c": 32853,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "13842",
+      "obj": {
+        "i": 13842,
+        "n": "Replica High Allagan Grimoire of Casting",
+        "l": 50,
+        "c": 33472,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "13843",
+      "obj": {
+        "i": 13843,
+        "n": "Replica High Allagan Grimoire of Healing",
+        "l": 50,
+        "c": 33473,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "13844",
+      "obj": {
+        "i": 13844,
+        "n": "Replica High Allagan Cleavers",
+        "l": 50,
+        "c": 33862,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "13845",
+      "obj": {
+        "i": 13845,
+        "n": "Replica High Allagan Guillotine",
+        "l": 50,
+        "c": 34220,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "15097",
+      "obj": {
+        "i": 15097,
+        "n": "Replica Allagan Rod",
+        "l": 50,
+        "c": 33058,
+        "t": 7
+      }
+    }
+  ]
+}

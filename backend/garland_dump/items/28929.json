@@ -1,0 +1,117 @@
+{
+  "item": {
+    "name": "Black Jet",
+    "description": "A king among black tri-stars, and lord of the waters of the Lozatl.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Said to be stained black by the blood of their slain caretakers, these fish swim with a fervor only those who have fled for their lives know. Just three are enough to turn a river's tide─would that they could turn the tide of battle as well.",
+      "icon": 78478,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 227,
+          "transition": [
+            "Clouds",
+            "Fog"
+          ],
+          "weather": [
+            "Fair Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 3197,
+          "baits": [
+            [
+              27587
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 28929,
+    "patch": 5.2,
+    "patchCategory": 7,
+    "price": 1672,
+    "ilvl": 460,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28478,
+    "fishingSpots": [
+      227
+    ],
+    "desynthedTo": [
+      29979,
+      26731
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "227",
+      "obj": {
+        "i": 227,
+        "n": "The Lozatl",
+        "l": 70,
+        "c": 1,
+        "z": 2957,
+        "x": 16.01,
+        "y": 21.52
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27587",
+      "obj": {
+        "i": 27587,
+        "n": "Robber Ball",
+        "l": 380,
+        "c": 27010,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "29979",
+      "obj": {
+        "i": 29979,
+        "n": "Dried Hi-Ether",
+        "l": 480,
+        "c": 22613,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26731",
+      "obj": {
+        "i": 26731,
+        "n": "Battledance Materia VIII",
+        "l": 420,
+        "c": 20278,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

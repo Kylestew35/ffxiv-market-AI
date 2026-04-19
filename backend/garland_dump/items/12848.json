@@ -1,0 +1,489 @@
+{
+  "item": {
+    "name": "Creme Brulee",
+    "description": "A vanilla-flavored egg custard drenched in a sweet syrup that is then heated with a fire crystal until a crisp brown shell is created.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 12848,
+    "patch": 3.0,
+    "patchCategory": 6,
+    "price": 1077,
+    "ilvl": 160,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 15,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 30
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 29
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 18
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 36
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 23
+        }
+      }
+    },
+    "icon": 24075,
+    "craft": [
+      {
+        "id": 31222,
+        "job": 15,
+        "rlvl": 160,
+        "durability": 70,
+        "quality": 2800,
+        "progress": 660,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "craftsmanshipReq": 620,
+        "quickSynthCraftsmanship": 718,
+        "unlockId": 12251,
+        "ingredients": [
+          {
+            "id": 4833,
+            "amount": 2
+          },
+          {
+            "id": 12872,
+            "amount": 1
+          },
+          {
+            "id": 12888,
+            "amount": 1
+          },
+          {
+            "id": 12892,
+            "amount": 1,
+            "quality": 238.43498
+          },
+          {
+            "id": 12936,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 379,
+          "hq": 399
+        }
+      }
+    ],
+    "quests": [
+      67692
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Vanilla Beans",
+      "id": 4833,
+      "icon": 25014,
+      "category": 45,
+      "ilvl": 160,
+      "price": 760,
+      "ventures": [
+        617
+      ],
+      "nodes": [
+        345
+      ]
+    },
+    {
+      "name": "Okeanis Egg",
+      "id": 12872,
+      "icon": 25253,
+      "category": 45,
+      "ilvl": 142,
+      "price": 1068,
+      "ventures": [
+        432
+      ],
+      "drops": [
+        40260000003610
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Birch Syrup",
+      "id": 12892,
+      "icon": 25105,
+      "category": 45,
+      "ilvl": 148,
+      "price": 468,
+      "craft": [
+        {
+          "id": 2819,
+          "job": 15,
+          "rlvl": 148,
+          "durability": 35,
+          "quality": 2104,
+          "progress": 270,
+          "lvl": 59,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12891,
+              "amount": 3
+            },
+            {
+              "id": 2,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 73,
+            "hq": 93
+          }
+        }
+      ]
+    },
+    {
+      "name": "Birch Sap",
+      "id": 12891,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 148,
+      "price": 468,
+      "tradeShops": [
+        {
+          "shop": "Vanu Whitebone Exchange",
+          "npcs": [
+            1016093
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12891",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21074",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        478
+      ],
+      "nodes": [
+        356
+      ],
+      "vendors": [
+        1016093
+      ]
+    },
+    {
+      "name": "Duskborne Aethersand",
+      "id": 12936,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 139,
+      "price": 880,
+      "reducedFrom": [
+        5214,
+        5218,
+        12968,
+        33148
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "345",
+      "obj": {
+        "i": 345,
+        "n": "Twinpools",
+        "l": 60,
+        "t": 3,
+        "z": 2200,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "40260000003610",
+      "obj": {
+        "i": 40260000003610,
+        "n": "Okeanis",
+        "l": "59",
+        "z": 2001
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "12891",
+      "obj": {
+        "i": 12891,
+        "n": "Birch Sap",
+        "l": 148,
+        "c": 22642,
+        "t": 45,
+        "p": 468
+      }
+    },
+    {
+      "type": "node",
+      "id": "356",
+      "obj": {
+        "i": 356,
+        "n": "Voor Sian Siran",
+        "l": 60,
+        "t": 2,
+        "z": 2100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "5214",
+      "obj": {
+        "i": 5214,
+        "n": "Fire Moraine",
+        "l": 139,
+        "c": 21456,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5218",
+      "obj": {
+        "i": 5218,
+        "n": "Lightning Moraine",
+        "l": 139,
+        "c": 21461,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12968",
+      "obj": {
+        "i": 12968,
+        "n": "Granular Clay",
+        "l": 139,
+        "c": 27407,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33148",
+      "obj": {
+        "i": 33148,
+        "n": "Pot Marjoram",
+        "l": 139,
+        "c": 25010,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12251",
+      "obj": {
+        "i": 12251,
+        "n": "Master Culinarian III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "4833",
+      "obj": {
+        "i": 4833,
+        "n": "Vanilla Beans",
+        "l": 160,
+        "c": 25014,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12872",
+      "obj": {
+        "i": 12872,
+        "n": "Okeanis Egg",
+        "l": 142,
+        "c": 25253,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "item",
+      "id": "12892",
+      "obj": {
+        "i": 12892,
+        "n": "Birch Syrup",
+        "l": 148,
+        "c": 25105,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12936",
+      "obj": {
+        "i": 12936,
+        "n": "Duskborne Aethersand",
+        "l": 139,
+        "c": 22613,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67692",
+      "obj": {
+        "i": 67692,
+        "n": "An Uncertain Future",
+        "g": 4,
+        "l": "Fortemps Manor",
+        "s": 1
+      }
+    }
+  ]
+}

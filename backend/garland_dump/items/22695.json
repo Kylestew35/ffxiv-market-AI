@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Altar Component Materials",
+    "description": "Various materials necessary to craft altar components.<br><br>※Only for use in Namazu society quests.",
+    "id": 22695,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 148,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "22721": 1
+    },
+    "usedInQuest": [
+      68634
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22721",
+      "obj": {
+        "i": 22721,
+        "n": "Altar Components",
+        "l": 148,
+        "c": 21012,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68634",
+      "obj": {
+        "i": 68634,
+        "n": "Big, Big Fish",
+        "g": 60,
+        "l": "The Azim Steppe",
+        "s": 3,
+        "f": 1
+      }
+    }
+  ]
+}

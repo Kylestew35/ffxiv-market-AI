@@ -1,0 +1,340 @@
+{
+  "item": {
+    "name": "Persimmon Tannin",
+    "description": "A translucent liquid extracted from persimmon wood by steeping it in hot water. Used in the tanning of raw animal hides.",
+    "id": 19909,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 1518,
+    "ilvl": 279,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22637,
+    "vendors": [
+      1022232
+    ],
+    "ingredient_of": {
+      "19905": 1,
+      "19996": 1,
+      "19997": 1,
+      "22910": 1,
+      "31069": 2,
+      "19767": 9,
+      "19768": 27,
+      "19769": 45,
+      "20723": 9,
+      "20724": 27,
+      "20725": 45,
+      "22533": 9,
+      "22534": 27,
+      "22535": 45
+    },
+    "craft": [
+      {
+        "id": 3607,
+        "job": 14,
+        "rlvl": 279,
+        "durability": 40,
+        "quality": 2592,
+        "progress": 440,
+        "lvl": 66,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19869,
+            "amount": 5
+          },
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 76,
+          "hq": 96
+        }
+      }
+    ],
+    "requiredByLeves": [
+      1324
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Persimmon",
+      "id": 19869,
+      "icon": 25321,
+      "category": 45,
+      "ilvl": 282,
+      "price": 548,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        676
+      ],
+      "nodes": [
+        513
+      ]
+    },
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "513",
+      "obj": {
+        "i": 513,
+        "n": "Dimwold",
+        "l": 70,
+        "t": 2,
+        "z": 2406
+      }
+    },
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19905",
+      "obj": {
+        "i": 19905,
+        "n": "Growth Formula Theta",
+        "l": 279,
+        "c": 22664,
+        "t": 54,
+        "p": 4158
+      }
+    },
+    {
+      "type": "item",
+      "id": "19869",
+      "obj": {
+        "i": 19869,
+        "n": "Persimmon",
+        "l": 282,
+        "c": 25321,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19996",
+      "obj": {
+        "i": 19996,
+        "n": "Marid Leather",
+        "l": 279,
+        "c": 22008,
+        "t": 52,
+        "p": 4158
+      }
+    },
+    {
+      "type": "item",
+      "id": "19997",
+      "obj": {
+        "i": 19997,
+        "n": "Gazelle Leather",
+        "l": 285,
+        "c": 22014,
+        "t": 52,
+        "p": 4284
+      }
+    },
+    {
+      "type": "item",
+      "id": "22910",
+      "obj": {
+        "i": 22910,
+        "n": "Yamashi Kasa",
+        "l": 340,
+        "c": 41414,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31069",
+      "obj": {
+        "i": 31069,
+        "n": "Rarefied Growth Formula",
+        "l": 285,
+        "c": 22664,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "19767",
+      "obj": {
+        "i": 19767,
+        "n": "Carbuncle Cottage Walls",
+        "l": 1,
+        "c": 50822,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19768",
+      "obj": {
+        "i": 19768,
+        "n": "Carbuncle House Walls",
+        "l": 1,
+        "c": 50823,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19769",
+      "obj": {
+        "i": 19769,
+        "n": "Carbuncle Mansion Walls",
+        "l": 1,
+        "c": 50824,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "20723",
+      "obj": {
+        "i": 20723,
+        "n": "Small Shirogane Castle Walls",
+        "l": 1,
+        "c": 50825,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "20724",
+      "obj": {
+        "i": 20724,
+        "n": "Medium Shirogane Castle Walls",
+        "l": 1,
+        "c": 50826,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "20725",
+      "obj": {
+        "i": 20725,
+        "n": "Large Shirogane Castle Walls",
+        "l": 1,
+        "c": 50827,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "22533",
+      "obj": {
+        "i": 22533,
+        "n": "Odder Otter Cottage Walls",
+        "l": 1,
+        "c": 50828,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "22534",
+      "obj": {
+        "i": 22534,
+        "n": "Odder Otter House Walls",
+        "l": 1,
+        "c": 50829,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "22535",
+      "obj": {
+        "i": 22535,
+        "n": "Odder Otter Mansion Walls",
+        "l": 1,
+        "c": 50830,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1324",
+      "obj": {
+        "i": 1324,
+        "n": "Let Loose the Juice",
+        "l": 66,
+        "j": 15,
+        "p": 2404
+      }
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "leve": {
+    "name": "Halfhearted Effort",
+    "description": "Our engineering corps has been hard at work building and maintaining the Lakeland forts which defend the approach to the Crystarium. So hard, in fact, that they've ground the teeth right off their tools. If you can craft replacements, we'll take the best halfheart saws you have to offer.",
+    "id": 1440,
+    "patch": 5.0,
+    "client": "Crystarium Guard Officer, Pitrig ",
+    "lvl": 74,
+    "jobCategory": 10,
+    "levemete": 1027848,
+    "areaid": 2951,
+    "xp": 646380,
+    "gil": 4339,
+    "rewards": 651,
+    "plate": 80061,
+    "frame": 80005,
+    "areaicon": 110113,
+    "requires": [
+      {
+        "item": 27098
+      }
+    ],
+    "complexity": {
+      "nq": 25,
+      "hq": 424
+    }
+  },
+  "rewards": {
+    "id": 651,
+    "entries": [
+      {
+        "item": 8,
+        "rate": 0.23,
+        "amount": 82
+      },
+      {
+        "item": 11,
+        "rate": 0.23,
+        "amount": 82
+      },
+      {
+        "item": 27711,
+        "rate": 0.23
+      },
+      {
+        "item": 8,
+        "rate": 0.1,
+        "amount": 98
+      },
+      {
+        "item": 11,
+        "rate": 0.1,
+        "amount": 98
+      },
+      {
+        "item": 27711,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bluespirit Halfheart Saw",
+      "id": 27098,
+      "icon": 35034,
+      "category": 12,
+      "ilvl": 370,
+      "price": 42012,
+      "craft": [
+        {
+          "id": 4334,
+          "job": 9,
+          "rlvl": 406,
+          "durability": 80,
+          "quality": 4100,
+          "progress": 1430,
+          "lvl": 75,
+          "materialQualityFactor": 75,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27711,
+              "amount": 3,
+              "quality": 768.75
+            },
+            {
+              "id": 27691,
+              "amount": 1,
+              "quality": 768.75
+            },
+            {
+              "id": 8,
+              "amount": 7
+            },
+            {
+              "id": 11,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 404,
+            "hq": 424
+          }
+        }
+      ],
+      "vendors": [
+        1027708,
+        1027877,
+        1027914,
+        1027241,
+        1052589,
+        1052601,
+        1052609,
+        1052610,
+        1052641,
+        1052651,
+        1033714
+      ]
+    },
+    {
+      "name": "Bluespirit Tile",
+      "id": 27711,
+      "icon": 21479,
+      "category": 48,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3819,
+          "job": 9,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27698,
+              "amount": 4
+            },
+            {
+              "id": 5232,
+              "amount": 1
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        },
+        {
+          "id": 3824,
+          "job": 10,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27698,
+              "amount": 4
+            },
+            {
+              "id": 5232,
+              "amount": 1
+            },
+            {
+              "id": 9,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        26193
+      ],
+      "leves": [
+        1440,
+        1441,
+        1454,
+        1455,
+        1456
+      ]
+    },
+    {
+      "name": "Bluespirit Ore",
+      "id": 27698,
+      "icon": 21228,
+      "category": 48,
+      "ilvl": 403,
+      "price": 210,
+      "voyages": [
+        {
+          "id": 56,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1439
+      ],
+      "ventures": [
+        793
+      ],
+      "nodes": [
+        593
+      ]
+    },
+    {
+      "name": "Stiperstone",
+      "id": 5232,
+      "icon": 22615,
+      "category": 48,
+      "ilvl": 260,
+      "price": 907,
+      "voyages": [
+        {
+          "id": 32,
+          "type": 1
+        }
+      ],
+      "desynthedFrom": [
+        12755
+      ],
+      "ventures": [
+        659
+      ],
+      "nodes": [
+        489
+      ]
+    },
+    {
+      "name": "White Ash Lumber",
+      "id": 27691,
+      "icon": 22463,
+      "category": 50,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3814,
+          "job": 8,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27685,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "desynthedFrom": [
+        26101,
+        26096,
+        27101
+      ],
+      "leves": [
+        1410,
+        1411
+      ]
+    },
+    {
+      "name": "White Ash Log",
+      "id": 27685,
+      "icon": 22406,
+      "category": 50,
+      "ilvl": 403,
+      "price": 210,
+      "voyages": [
+        {
+          "id": 57,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1409
+      ],
+      "ventures": [
+        812
+      ],
+      "nodes": [
+        615
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27698",
+      "obj": {
+        "i": 27698,
+        "n": "Bluespirit Ore",
+        "l": 403,
+        "c": 21228,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5232",
+      "obj": {
+        "i": 5232,
+        "n": "Stiperstone",
+        "l": 260,
+        "c": 22615,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "593",
+      "obj": {
+        "i": 593,
+        "n": "Weed",
+        "l": 75,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "489",
+      "obj": {
+        "i": 489,
+        "n": "Rustrock",
+        "l": 65,
+        "t": 1,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "27685",
+      "obj": {
+        "i": 27685,
+        "n": "White Ash Log",
+        "l": 403,
+        "c": 22406,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "615",
+      "obj": {
+        "i": 615,
+        "n": "Woven Oath",
+        "l": 75,
+        "t": 2,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "11871",
+      "obj": {
+        "i": 11871,
+        "n": "Mythrite Halfheart Saw",
+        "l": 85,
+        "c": 35018,
+        "t": 12,
+        "p": 13194
+      }
+    },
+    {
+      "type": "item",
+      "id": "11873",
+      "obj": {
+        "i": 11873,
+        "n": "Titanium Halfheart Saw",
+        "l": 120,
+        "c": 35019,
+        "t": 12,
+        "p": 18627
+      }
+    },
+    {
+      "type": "item",
+      "id": "19527",
+      "obj": {
+        "i": 19527,
+        "n": "Doman Iron Halfheart Saw",
+        "l": 220,
+        "c": 35025,
+        "t": 12,
+        "p": 31363
+      }
+    },
+    {
+      "type": "item",
+      "id": "19569",
+      "obj": {
+        "i": 19569,
+        "n": "Molybdenum Halfheart Saw",
+        "l": 290,
+        "c": 35026,
+        "t": 12,
+        "p": 39744
+      }
+    },
+    {
+      "type": "item",
+      "id": "23076",
+      "obj": {
+        "i": 23076,
+        "n": "Handking's Saw",
+        "l": 350,
+        "c": 35029,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "36687",
+      "obj": {
+        "i": 36687,
+        "n": "Pactmaker's Halfheart Saw",
+        "l": 590,
+        "c": 35048,
+        "t": 12
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027708",
+      "obj": {
+        "i": 1027708,
+        "n": "Local Merchant",
+        "l": 2957,
+        "s": 7,
+        "a": 3179,
+        "c": [
+          27.78,
+          18.07
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027877",
+      "obj": {
+        "i": 1027877,
+        "n": "Merchant & Mender",
+        "l": 2955,
+        "s": 7,
+        "a": 3135,
+        "c": [
+          10.86,
+          16.79
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027914",
+      "obj": {
+        "i": 1027914,
+        "n": "Mord Junkmonger",
+        "l": 2955,
+        "s": 7,
+        "a": 3133,
+        "c": [
+          12.8,
+          9.87
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027241",
+      "obj": {
+        "i": 1027241,
+        "n": "Vernarth",
+        "l": 2951,
+        "s": 4,
+        "t": "Tool Supplier",
+        "a": 3254,
+        "c": [
+          9.33,
+          14.47
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052589",
+      "obj": {
+        "i": 1052589,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.87
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052601",
+      "obj": {
+        "i": 1052601,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.87
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052609",
+      "obj": {
+        "i": 1052609,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.86
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052610",
+      "obj": {
+        "i": 1052610,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.86
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052641",
+      "obj": {
+        "i": 1052641,
+        "n": "Godgyth",
+        "l": 5301,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          28.7,
+          13.46
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052651",
+      "obj": {
+        "i": 1052651,
+        "n": "Godgyth",
+        "l": 5406,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "a": 5420,
+        "c": [
+          17.45,
+          24.59
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033714",
+      "obj": {
+        "i": 1033714,
+        "n": "Mizutt",
+        "l": 2953,
+        "s": 4,
+        "t": "Watts's Anvil Vendor",
+        "r": 1,
+        "a": 3574,
+        "c": [
+          9.5,
+          13.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27711",
+      "obj": {
+        "i": 27711,
+        "n": "Bluespirit Tile",
+        "l": 403,
+        "c": 21479,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27691",
+      "obj": {
+        "i": 27691,
+        "n": "White Ash Lumber",
+        "l": 403,
+        "c": 22463,
+        "t": 50
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1440",
+      "obj": {
+        "i": 1440,
+        "n": "Halfhearted Effort",
+        "l": 74,
+        "j": 10,
+        "p": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "27077",
+      "obj": {
+        "i": 27077,
+        "n": "Deepgold Saw",
+        "l": 330,
+        "c": 35031,
+        "t": 12,
+        "p": 40309
+      }
+    },
+    {
+      "type": "item",
+      "id": "27119",
+      "obj": {
+        "i": 27119,
+        "n": "Titanbronze Saw",
+        "l": 400,
+        "c": 35032,
+        "t": 12,
+        "p": 43718
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027848",
+      "obj": {
+        "i": 1027848,
+        "n": "Moyce",
+        "l": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "27098",
+      "obj": {
+        "i": 27098,
+        "n": "Bluespirit Halfheart Saw",
+        "l": 370,
+        "c": 35034,
+        "t": 12,
+        "p": 42012
+      }
+    }
+  ]
+}

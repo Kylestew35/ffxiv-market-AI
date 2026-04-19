@@ -1,0 +1,423 @@
+{
+  "item": {
+    "name": "Spiritbond Potion",
+    "description": "This concoction enhances the rate at which your equipment gains spiritbond.<br><br><span class=\"highlight-green\">Duration:</span> 180m",
+    "id": 7059,
+    "patch": 2.2,
+    "patchCategory": 4,
+    "price": 1045,
+    "ilvl": 55,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 16,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Increased Spiritbond Gain": 3
+      }
+    },
+    "icon": 20645,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7059",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7059",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7059",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 30934,
+        "job": 14,
+        "rlvl": 55,
+        "durability": 80,
+        "quality": 2200,
+        "progress": 210,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 1,
+        "yield": 3,
+        "quickSynth": 1,
+        "controlReq": 255,
+        "quickSynthControl": 318,
+        "unlockId": 8141,
+        "ingredients": [
+          {
+            "id": 5547,
+            "amount": 2
+          },
+          {
+            "id": 5537,
+            "amount": 2
+          },
+          {
+            "id": 8146,
+            "amount": 1
+          },
+          {
+            "id": 8149,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 3
+          },
+          {
+            "id": 12,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 272,
+          "hq": 292
+        }
+      }
+    ],
+    "quests": [
+      65960,
+      66894,
+      67262
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Vampire Plant",
+      "id": 5547,
+      "icon": 25001,
+      "category": 54,
+      "ilvl": 55,
+      "price": 348,
+      "treasure": [
+        6692
+      ],
+      "ventures": [
+        569
+      ],
+      "nodes": [
+        212
+      ]
+    },
+    {
+      "name": "Thavnairian Mistletoe",
+      "id": 5537,
+      "icon": 25001,
+      "category": 54,
+      "ilvl": 55,
+      "price": 348,
+      "leves": [
+        375,
+        376,
+        377,
+        378,
+        379,
+        380
+      ],
+      "ventures": [
+        517
+      ],
+      "nodes": [
+        213
+      ]
+    },
+    {
+      "name": "Battlecraft Demimateria II",
+      "id": 8146,
+      "icon": 20246,
+      "category": 83,
+      "ilvl": 50,
+      "price": 12000,
+      "desynthedFrom": [
+        10748
+      ]
+    },
+    {
+      "name": "Fieldcraft Demimateria II",
+      "id": 8149,
+      "icon": 20242,
+      "category": 83,
+      "ilvl": 50,
+      "price": 11000,
+      "desynthedFrom": [
+        20229,
+        17583,
+        20107
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "212",
+      "obj": {
+        "i": 212,
+        "n": "Dragonhead",
+        "l": 50,
+        "t": 2,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "213",
+      "obj": {
+        "i": 213,
+        "n": "Whitebrim",
+        "l": 50,
+        "t": 2,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "8141",
+      "obj": {
+        "i": 8141,
+        "n": "Master Alchemist: Demimateria",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5547",
+      "obj": {
+        "i": 5547,
+        "n": "Vampire Plant",
+        "l": 55,
+        "c": 25001,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5537",
+      "obj": {
+        "i": 5537,
+        "n": "Thavnairian Mistletoe",
+        "l": 55,
+        "c": 25001,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "8146",
+      "obj": {
+        "i": 8146,
+        "n": "Battlecraft Demimateria II",
+        "l": 50,
+        "c": 20246,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8149",
+      "obj": {
+        "i": 8149,
+        "n": "Fieldcraft Demimateria II",
+        "l": 50,
+        "c": 20242,
+        "t": 83
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65960",
+      "obj": {
+        "i": 65960,
+        "n": "The Least among Us",
+        "g": 2,
+        "l": "South Shroud",
+        "s": 96
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66894",
+      "obj": {
+        "i": 66894,
+        "n": "Scouts in Distress",
+        "g": 2,
+        "l": "Western La Noscea",
+        "s": 33
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67262",
+      "obj": {
+        "i": 67262,
+        "n": "Remembering Ishgard",
+        "g": 116,
+        "l": "Ishgard",
+        "s": 5001
+      }
+    }
+  ]
+}

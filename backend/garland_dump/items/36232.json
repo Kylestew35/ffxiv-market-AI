@@ -1,0 +1,562 @@
+{
+  "item": {
+    "name": "Grade 6 Strength Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to strength, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 36232,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22683,
+    "ingredient_of": {
+      "35021": 2,
+      "35023": 2,
+      "35033": 2,
+      "35038": 2,
+      "35045": 2,
+      "35046": 2,
+      "35047": 2,
+      "35048": 2,
+      "35049": 2,
+      "35050": 2,
+      "35051": 2,
+      "35052": 2,
+      "35053": 2,
+      "35054": 2,
+      "35076": 1,
+      "35081": 1,
+      "35086": 1,
+      "35091": 1
+    },
+    "craft": [
+      {
+        "id": 34896,
+        "job": 14,
+        "rlvl": 580,
+        "durability": 35,
+        "quality": 7800,
+        "progress": 2925,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35624,
+        "ingredients": [
+          {
+            "id": 36217,
+            "amount": 1
+          },
+          {
+            "id": 36263,
+            "amount": 1
+          },
+          {
+            "id": 27779,
+            "amount": 1
+          },
+          {
+            "id": 36223,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 341,
+          "hq": 361
+        }
+      }
+    ],
+    "desynthedFrom": [
+      35054,
+      35081,
+      35021,
+      35049
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Double-edged Herb",
+      "id": 36217,
+      "icon": 25201,
+      "category": 54,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        972
+      ],
+      "nodes": [
+        858
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Sweet Alyssum",
+      "id": 27779,
+      "icon": 22627,
+      "category": 54,
+      "ilvl": 409,
+      "price": 210,
+      "ventures": [
+        832
+      ],
+      "nodes": [
+        623
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "858",
+      "obj": {
+        "i": 858,
+        "n": "The Tube",
+        "l": 90,
+        "t": 3,
+        "z": 3712,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "node",
+      "id": "623",
+      "obj": {
+        "i": 623,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "35021",
+      "obj": {
+        "i": 35021,
+        "n": "Classical Tonfa",
+        "l": 580,
+        "c": 30812,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "35023",
+      "obj": {
+        "i": 35023,
+        "n": "Classical Spear",
+        "l": 580,
+        "c": 31623,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "35033",
+      "obj": {
+        "i": 35033,
+        "n": "Classical Samurai Blade",
+        "l": 580,
+        "c": 36526,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "35038",
+      "obj": {
+        "i": 35038,
+        "n": "Classical War Scythe",
+        "l": 580,
+        "c": 37218,
+        "t": 108
+      }
+    },
+    {
+      "type": "item",
+      "id": "35045",
+      "obj": {
+        "i": 35045,
+        "n": "Classical Eques's Headgear",
+        "l": 580,
+        "c": 41946,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35046",
+      "obj": {
+        "i": 35046,
+        "n": "Classical Eques's Chiton",
+        "l": 580,
+        "c": 42819,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35047",
+      "obj": {
+        "i": 35047,
+        "n": "Classical Eques's Manicae",
+        "l": 580,
+        "c": 44969,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35048",
+      "obj": {
+        "i": 35048,
+        "n": "Classical Eques's Loincloth",
+        "l": 580,
+        "c": 46047,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35049",
+      "obj": {
+        "i": 35049,
+        "n": "Classical Eques's Caligae",
+        "l": 580,
+        "c": 49377,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35050",
+      "obj": {
+        "i": 35050,
+        "n": "Classical Secutor's Mask",
+        "l": 580,
+        "c": 41880,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35051",
+      "obj": {
+        "i": 35051,
+        "n": "Classical Secutor's Lorica",
+        "l": 580,
+        "c": 42791,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35052",
+      "obj": {
+        "i": 35052,
+        "n": "Classical Secutor's Manicae",
+        "l": 580,
+        "c": 44903,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35053",
+      "obj": {
+        "i": 35053,
+        "n": "Classical Secutor's Loincloth",
+        "l": 580,
+        "c": 46048,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35054",
+      "obj": {
+        "i": 35054,
+        "n": "Classical Secutor's Caligae",
+        "l": 580,
+        "c": 49379,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35076",
+      "obj": {
+        "i": 35076,
+        "n": "Classical Earrings of Slaying",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35081",
+      "obj": {
+        "i": 35081,
+        "n": "Classical Choker of Slaying",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35086",
+      "obj": {
+        "i": 35086,
+        "n": "Classical Wristband of Slaying",
+        "l": 580,
+        "c": 55837,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35091",
+      "obj": {
+        "i": 35091,
+        "n": "Classical Ring of Slaying",
+        "l": 580,
+        "c": 54688,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35624",
+      "obj": {
+        "i": 35624,
+        "n": "Master Alchemist IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36217",
+      "obj": {
+        "i": 36217,
+        "n": "Double-edged Herb",
+        "l": 580,
+        "c": 25201,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27779",
+      "obj": {
+        "i": 27779,
+        "n": "Sweet Alyssum",
+        "l": 409,
+        "c": 22627,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    }
+  ]
+}

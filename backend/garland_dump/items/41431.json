@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Forgotten Figure",
+    "description": "A stunning replica of a statue once lost to the ages─but no longer.",
+    "id": 41431,
+    "patch": 6.51,
+    "patchCategory": 9,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "sell_price": 30,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52790,
+    "tradeShops": [
+      {
+        "shop": "Aloalo Manuscript Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41431",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1353"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41080",
+      "obj": {
+        "i": 41080,
+        "n": "Aloalo Manuscript",
+        "l": 1,
+        "c": 26456,
+        "t": 61
+      }
+    }
+  ]
+}

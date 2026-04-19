@@ -1,0 +1,603 @@
+{
+  "item": {
+    "name": "Farreach Canvas",
+    "description": "Originally conceived by inhabitants of the sparsely settled Farreach to withstand the gale-force winds ceaselessly blowing on the Bloodbrine Sea, this rugged sailcloth is one of few materials suited to air travel.",
+    "id": 12231,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 2162,
+    "ilvl": 130,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 17,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21603,
+    "craft": [
+      {
+        "id": 31190,
+        "job": 13,
+        "rlvl": 130,
+        "durability": 80,
+        "quality": 2210,
+        "progress": 300,
+        "lvl": 53,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "unlockId": 7783,
+        "ingredients": [
+          {
+            "id": 12220,
+            "amount": 3,
+            "quality": 140.83333
+          },
+          {
+            "id": 5501,
+            "amount": 9
+          },
+          {
+            "id": 18,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 1390,
+          "hq": 1410
+        }
+      }
+    ],
+    "ingredient_of": {
+      "15959": 1,
+      "15961": 1,
+      "15963": 1,
+      "10158": 9,
+      "10160": 9,
+      "10164": 9,
+      "10166": 9,
+      "14004": 6,
+      "14006": 9,
+      "21798": 9,
+      "21797": 9,
+      "24354": 9,
+      "24353": 9
+    },
+    "desynthedFrom": [
+      15959
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Red Moko Grass",
+      "id": 12220,
+      "icon": 21654,
+      "category": 51,
+      "ilvl": 130,
+      "price": 463,
+      "voyages": [
+        {
+          "id": 16,
+          "type": 1
+        },
+        {
+          "id": 38,
+          "type": 1
+        },
+        {
+          "id": 2,
+          "type": 1
+        },
+        {
+          "id": 2,
+          "type": 0
+        },
+        {
+          "id": 3,
+          "type": 0
+        },
+        {
+          "id": 5,
+          "type": 1
+        },
+        {
+          "id": 3,
+          "type": 1
+        },
+        {
+          "id": 1,
+          "type": 1
+        },
+        {
+          "id": 7,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Potash",
+      "id": 5501,
+      "icon": 27612,
+      "category": 54,
+      "ilvl": 70,
+      "price": 1191,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5501",
+                  "amount": 2
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5501",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5501",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5501",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "7783",
+      "obj": {
+        "i": 7783,
+        "n": "Master Weaver I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12220",
+      "obj": {
+        "i": 12220,
+        "n": "Red Moko Grass",
+        "l": 130,
+        "c": 21654,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5501",
+      "obj": {
+        "i": 5501,
+        "n": "Potash",
+        "l": 70,
+        "c": 27612,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "15959",
+      "obj": {
+        "i": 15959,
+        "n": "Enterprise Miniature",
+        "l": 180,
+        "c": 53129,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15961",
+      "obj": {
+        "i": 15961,
+        "n": "Odyssey Miniature",
+        "l": 180,
+        "c": 53131,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15963",
+      "obj": {
+        "i": 15963,
+        "n": "Viltgance Miniature",
+        "l": 180,
+        "c": 53133,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "10158",
+      "obj": {
+        "i": 10158,
+        "n": "Enterprise-type Hull",
+        "l": 133,
+        "c": 27703,
+        "t": 90
+      }
+    },
+    {
+      "type": "item",
+      "id": "10160",
+      "obj": {
+        "i": 10160,
+        "n": "Odyssey-type Hull",
+        "l": 145,
+        "c": 27705,
+        "t": 90
+      }
+    },
+    {
+      "type": "item",
+      "id": "10164",
+      "obj": {
+        "i": 10164,
+        "n": "Enterprise-type Bladder",
+        "l": 133,
+        "c": 27723,
+        "t": 91
+      }
+    },
+    {
+      "type": "item",
+      "id": "10166",
+      "obj": {
+        "i": 10166,
+        "n": "Odyssey-type Bladders",
+        "l": 145,
+        "c": 27725,
+        "t": 91
+      }
+    },
+    {
+      "type": "item",
+      "id": "14004",
+      "obj": {
+        "i": 14004,
+        "n": "Viltgance-type Aetherwings",
+        "l": 160,
+        "c": 27727,
+        "t": 91
+      }
+    },
+    {
+      "type": "item",
+      "id": "14006",
+      "obj": {
+        "i": 14006,
+        "n": "Viltgance-type Aftcastle",
+        "l": 160,
+        "c": 27767,
+        "t": 92
+      }
+    },
+    {
+      "type": "item",
+      "id": "21798",
+      "obj": {
+        "i": 21798,
+        "n": "Unkiu-class Pressure Hull",
+        "l": 125,
+        "c": 27841,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "21797",
+      "obj": {
+        "i": 21797,
+        "n": "Unkiu-class Bridge",
+        "l": 125,
+        "c": 27801,
+        "t": 104
+      }
+    },
+    {
+      "type": "item",
+      "id": "24354",
+      "obj": {
+        "i": 24354,
+        "n": "Modified Unkiu-class Pressure Hull",
+        "l": 180,
+        "c": 27846,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "24353",
+      "obj": {
+        "i": 24353,
+        "n": "Modified Unkiu-class Bridge",
+        "l": 180,
+        "c": 27806,
+        "t": 104
+      }
+    }
+  ]
+}

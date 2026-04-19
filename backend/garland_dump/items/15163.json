@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Firefly Lamp",
+    "description": "A wooden cage weaved in a Far Eastern style. The fireflies within provide very little light, but are pleasing to gaze upon.<br><br>※Up to five may be placed in a single estate, regardless of type.",
+    "id": 15163,
+    "patch": 3.35,
+    "patchCategory": 9,
+    "price": 10092,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "sell_price": 57,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52229,
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1017230
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15163",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15424",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017230",
+      "obj": {
+        "i": 1017230,
+        "n": "P'obyano",
+        "l": 32,
+        "s": 1,
+        "t": "Moonfire Faire Vendor",
+        "r": 1,
+        "a": 206,
+        "c": [
+          32.66,
+          28.92
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15424",
+      "obj": {
+        "i": 15424,
+        "n": "Faire Voucher MMXVI",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    }
+  ]
+}

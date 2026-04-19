@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Lynx of Fallen Shadow Flute",
+    "description": "Emitting a grim and melancholic tone, this flute summons a lynx of fallen shadow to your side.",
+    "mount": {
+      "name": "Lynx Of Fallen Shadow",
+      "action": "Summon forth your lynx of fallen shadow, which is what a certain knight in black might look like as a large, winged feline.",
+      "description": "A phantom creation whose elemental aspect is tipped strongly towards Darkness. The motes of Light it sheds call to mind the grim resolve of one who bears a great burden, but the origins of this familiar are shrouded in fallen shadow.",
+      "tooltip": "I may deal from the shadows,<br>but I dislike shadowy dealings.<br>   - Remon",
+      "icon": 4263,
+      "guideIcon": 68263
+    },
+    "id": 40391,
+    "patch": 6.4,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20090,
+      20090
+    ],
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40391",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "40295",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40391",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "40295",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "716-1-6"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20090",
+      "obj": {
+        "i": 20090,
+        "n": "The Voidcast Dais (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 630
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "40295",
+      "obj": {
+        "i": 40295,
+        "n": "Voidcast Archfiend Totem",
+        "l": 1,
+        "c": 26644,
+        "t": 61
+      }
+    }
+  ]
+}

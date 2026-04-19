@@ -1,0 +1,721 @@
+{
+  "item": {
+    "name": "Beet Soup",
+    "description": "Sliced magma beets and lean loaghtan meat slow-cooked with vegetables and served with a dollop of rich sour cream. A dish popular throughout Ishgard, though families in the Brume often use the meat of animals easier to find in the district's dark back alleys.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 12862,
+    "patch": 3.0,
+    "patchCategory": 6,
+    "price": 1105,
+    "ilvl": 133,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Control": {
+          "rate": 10,
+          "limit": 54
+        },
+        "Craftsmanship": {
+          "rate": 4,
+          "limit": 23
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Control": {
+          "rate": 12,
+          "limit": 68
+        },
+        "Craftsmanship": {
+          "rate": 5,
+          "limit": 29
+        }
+      }
+    },
+    "icon": 24103,
+    "vendors": [
+      1019335
+    ],
+    "craft": [
+      {
+        "id": 2810,
+        "job": 15,
+        "rlvl": 133,
+        "durability": 80,
+        "quality": 2280,
+        "progress": 340,
+        "lvl": 54,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12885,
+            "amount": 2
+          },
+          {
+            "id": 12873,
+            "amount": 2
+          },
+          {
+            "id": 12877,
+            "amount": 2
+          },
+          {
+            "id": 12883,
+            "amount": 2
+          },
+          {
+            "id": 12894,
+            "amount": 1,
+            "quality": 110.80871
+          },
+          {
+            "id": 12901,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 232,
+          "hq": 252
+        }
+      }
+    ],
+    "ingredient_of": {
+      "14052": 1
+    },
+    "usedInQuest": [
+      67581
+    ],
+    "quests": [
+      68675,
+      69208
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Magma Beet",
+      "id": 12885,
+      "icon": 25223,
+      "category": 45,
+      "ilvl": 136,
+      "price": 646,
+      "ventures": [
+        470
+      ],
+      "nodes": [
+        298
+      ]
+    },
+    {
+      "name": "Loaghtan Chump",
+      "id": 12873,
+      "icon": 25159,
+      "category": 45,
+      "ilvl": 125,
+      "price": 1386,
+      "ventures": [
+        421
+      ],
+      "drops": [
+        40120000003571
+      ]
+    },
+    {
+      "name": "Pearl Sprouts",
+      "id": 12877,
+      "icon": 25208,
+      "category": 45,
+      "ilvl": 125,
+      "price": 792,
+      "leves": [
+        1040,
+        1041,
+        1042,
+        1043,
+        1044,
+        1045
+      ],
+      "ventures": [
+        606
+      ],
+      "nodes": [
+        339
+      ],
+      "seeds": [
+        13767
+      ]
+    },
+    {
+      "name": "Mist Dill",
+      "id": 12883,
+      "icon": 25034,
+      "category": 45,
+      "ilvl": 125,
+      "price": 594,
+      "ventures": [
+        465
+      ],
+      "nodes": [
+        296
+      ]
+    },
+    {
+      "name": "Sour Cream",
+      "id": 12894,
+      "icon": 25056,
+      "category": 45,
+      "ilvl": 125,
+      "price": 396,
+      "craft": [
+        {
+          "id": 2820,
+          "job": 15,
+          "rlvl": 115,
+          "durability": 40,
+          "quality": 1656,
+          "progress": 110,
+          "lvl": 51,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 3
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 67,
+            "hq": 87
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "298",
+      "obj": {
+        "i": 298,
+        "n": "Landlord Colony",
+        "l": 55,
+        "t": 3,
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "40120000003571",
+      "obj": {
+        "i": 40120000003571,
+        "n": "Loaghtan",
+        "l": "52",
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "339",
+      "obj": {
+        "i": 339,
+        "n": "Riversmeet",
+        "l": 55,
+        "t": 3,
+        "z": 2200,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "296",
+      "obj": {
+        "i": 296,
+        "n": "Twinpools",
+        "l": 55,
+        "t": 3,
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019335",
+      "obj": {
+        "i": 1019335,
+        "n": "Steppe Cook",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.3",
+          "29.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12885",
+      "obj": {
+        "i": 12885,
+        "n": "Magma Beet",
+        "l": 136,
+        "c": 25223,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12873",
+      "obj": {
+        "i": 12873,
+        "n": "Loaghtan Chump",
+        "l": 125,
+        "c": 25159,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12877",
+      "obj": {
+        "i": 12877,
+        "n": "Pearl Sprouts",
+        "l": 125,
+        "c": 25208,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12883",
+      "obj": {
+        "i": 12883,
+        "n": "Mist Dill",
+        "l": 125,
+        "c": 25034,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12894",
+      "obj": {
+        "i": 12894,
+        "n": "Sour Cream",
+        "l": 125,
+        "c": 25056,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "item",
+      "id": "14052",
+      "obj": {
+        "i": 14052,
+        "n": "Alpine Supper Set",
+        "l": 150,
+        "c": 53080,
+        "t": 78
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67581",
+      "obj": {
+        "i": 67581,
+        "n": "Looking for Some Hot Stuff",
+        "g": 171,
+        "l": "Limsa Lominsa",
+        "s": 550,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68675",
+      "obj": {
+        "i": 68675,
+        "n": "The Seaweed Is Always Greener",
+        "g": 127,
+        "l": "Kugane",
+        "s": 1000,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69208",
+      "obj": {
+        "i": 69208,
+        "n": "Towards the Firmament",
+        "g": 99,
+        "l": "Ishgard",
+        "s": 1,
+        "f": 1
+      }
+    }
+  ]
+}

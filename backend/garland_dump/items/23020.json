@@ -1,0 +1,156 @@
+{
+  "item": {
+    "name": "Lunar Kamuy Fife",
+    "description": "The bitter song of this stout flute is said to summon a kamuy blessed by Tsukuyomi herself.",
+    "mount": {
+      "name": "Lunar Kamuy",
+      "action": "Summon forth the lunar kamuy, noble wolf blessed by the Lady of the Moon.",
+      "description": "When a wild wolf living in an abandoned imperial stronghold is bathed in the aether of a goddess reborn, amazing results are to be expected.",
+      "tooltip": "Doth the sun,<br>in her midday glory,<br>outshine the moon<br>of a night silent and solitary?<br>   - Seigetsu the Enlightened",
+      "icon": 4127,
+      "guideIcon": 68127
+    },
+    "id": 23020,
+    "patch": 4.3,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20056,
+      20056
+    ],
+    "tradeShops": [
+      {
+        "shop": "Wondrous Sundries",
+        "npcs": [
+          1019451
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23020",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23043",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23020",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23020",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23043",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "414-1-5"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20056",
+      "obj": {
+        "i": 20056,
+        "n": "The Minstrel's Ballad: Tsukuyomi's Pain",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 350
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019451",
+      "obj": {
+        "i": 1019451,
+        "n": "Eschina",
+        "l": 2403,
+        "s": 10,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.9,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23043",
+      "obj": {
+        "i": 23043,
+        "n": "Lunar Totem",
+        "l": 1,
+        "c": 26533,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    }
+  ]
+}

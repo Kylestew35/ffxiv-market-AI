@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Pegwin",
+    "description": "You chased after it; now it chases after you.<br><br>Use item to acquire the Pegwin minion.",
+    "minionrace": "Poppet",
+    "tooltip": "My, what charming little toys.\r\n   - Kan-E-Senna",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Scurry",
+    "specialactiondescription": "Disarms deployed enemy traps.",
+    "id": 41480,
+    "patch": 6.51,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59900,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1046441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41480",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41629",
+                "amount": 350
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 40,
+      "Speed": 3
+    },
+    "models": [
+      "8456-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1046441",
+      "obj": {
+        "i": 1046441,
+        "n": "MGF Trader",
+        "l": 4468,
+        "s": 1,
+        "t": "Prize Claim",
+        "r": 1,
+        "c": [
+          3.85,
+          3.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41629",
+      "obj": {
+        "i": 41629,
+        "n": "MGF",
+        "l": 1,
+        "c": "t/65106",
+        "t": 100
+      }
+    }
+  ]
+}

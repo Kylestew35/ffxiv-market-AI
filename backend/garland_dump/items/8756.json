@@ -1,0 +1,162 @@
+{
+  "item": {
+    "name": "Endoceras",
+    "description": "An ancient sea-dweller with a body like a lance and a temper like the Fury's. Only few have ever seen this living legend, let alone landed one.<br><br>[Suitable for printing on extra large canvases.]",
+    "fish": {
+      "guide": "So rare is this spear-shaped wavekin that ten summers may pass before one is caught in a lucky puller's net or found suctioned to the hull of a warship.",
+      "icon": 79090,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 63,
+          "during": {
+            "start": 18,
+            "end": 6
+          },
+          "transition": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "weather": [
+            "Clouds",
+            "Fog",
+            "Wind"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 292,
+          "baits": [
+            [
+              2596,
+              4898
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 8756,
+    "patch": 2.4,
+    "patchCategory": 7,
+    "price": 950,
+    "ilvl": 80,
+    "category": 47,
+    "dyecount": 0,
+    "sell_price": 29,
+    "rarity": 2,
+    "unlistable": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29090,
+    "usedInQuest": [
+      65782
+    ],
+    "fishingSpots": [
+      63
+    ],
+    "desynthedTo": [
+      5722,
+      7596,
+      5827,
+      5267
+    ]
+  },
+  "partials": [
+    {
+      "type": "quest",
+      "id": "65782",
+      "obj": {
+        "i": 65782,
+        "n": "Feast of Famine",
+        "g": 111,
+        "l": "Limsa Lominsa",
+        "s": 515
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "Isles of Umbra Southshore",
+        "l": 50,
+        "c": 0,
+        "z": 33,
+        "x": 12.81,
+        "y": 36.23
+      }
+    },
+    {
+      "type": "item",
+      "id": "2596",
+      "obj": {
+        "i": 2596,
+        "n": "Spoon Worm",
+        "l": 30,
+        "c": 27015,
+        "t": 33,
+        "p": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "4898",
+      "obj": {
+        "i": 4898,
+        "n": "Fullmoon Sardine",
+        "l": 34,
+        "c": 29055,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "5722",
+      "obj": {
+        "i": 5722,
+        "n": "Quicktongue Materia IV",
+        "l": 70,
+        "c": 20228,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "7596",
+      "obj": {
+        "i": 7596,
+        "n": "Petrified Log",
+        "l": 90,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "5827",
+      "obj": {
+        "i": 5827,
+        "n": "Allagan Platinum Piece",
+        "l": 45,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5267",
+      "obj": {
+        "i": 5267,
+        "n": "Fine Sand",
+        "l": 2,
+        "c": 21464,
+        "t": 48
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Komainu",
+    "description": "Part lion, part dog, all lion-dog.<br><br>Use item to acquire the komainu minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Bright as a lamp,\r\nbrave as a lion.\r\n   - Haermaga",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Two Pups in a Pod",
+    "specialactiondescription": "Disarms deployed enemy traps.",
+    "id": 21923,
+    "patch": 4.2,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59688,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21923",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 460,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 50,
+      "Speed": 3
+    },
+    "models": [
+      "8261-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

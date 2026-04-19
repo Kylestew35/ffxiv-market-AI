@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Pineapple Juice",
+    "description": "Juice freshly squeezed from sun-ripened prickly pineapples.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 4748,
+    "patch": 1.0,
+    "patchCategory": 6,
+    "price": 388,
+    "ilvl": 70,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 14
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 15
+        },
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 11
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 17
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 19
+        },
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 14
+        }
+      }
+    },
+    "icon": 24404,
+    "craft": [
+      {
+        "id": 1513,
+        "job": 15,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 318,
+        "quickSynthControl": 374,
+        "ingredients": [
+          {
+            "id": 4816,
+            "amount": 4
+          },
+          {
+            "id": 14,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 142,
+          "hq": 162
+        }
+      }
+    ],
+    "quests": [
+      67111,
+      67477
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Prickly Pineapple",
+      "id": 4816,
+      "icon": 25303,
+      "category": 45,
+      "ilvl": 50,
+      "price": 316,
+      "ventures": [
+        571
+      ],
+      "nodes": [
+        214
+      ],
+      "seeds": [
+        7734
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "214",
+      "obj": {
+        "i": 214,
+        "n": "Bloodshore",
+        "l": 50,
+        "t": 2,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4816",
+      "obj": {
+        "i": 4816,
+        "n": "Prickly Pineapple",
+        "l": 50,
+        "c": 25303,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67111",
+      "obj": {
+        "i": 67111,
+        "n": "Hostages to Fortune",
+        "g": 93,
+        "l": "Limsa Lominsa",
+        "s": 18
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67477",
+      "obj": {
+        "i": 67477,
+        "n": "A New Leaf",
+        "g": 121,
+        "l": "Idyllshire",
+        "s": 5806
+      }
+    }
+  ]
+}

@@ -1,0 +1,887 @@
+{
+  "item": {
+    "name": "Titanoboa Leather",
+    "description": "A large piece of cured titanoboa skin.",
+    "id": 37832,
+    "patch": 6.2,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 610,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21833,
+    "ingredient_of": {
+      "37743": 2,
+      "37749": 2,
+      "37752": 3,
+      "37753": 3,
+      "37755": 1,
+      "37760": 1,
+      "37764": 1,
+      "37765": 2,
+      "37766": 1,
+      "37769": 1,
+      "37770": 2,
+      "37771": 1,
+      "37773": 2,
+      "37774": 2,
+      "37775": 2,
+      "37776": 2,
+      "37778": 2,
+      "37779": 2,
+      "37780": 2,
+      "37783": 2,
+      "37784": 2,
+      "37785": 2,
+      "37786": 1,
+      "37788": 2,
+      "37789": 2,
+      "37790": 2,
+      "37791": 2,
+      "37793": 2,
+      "37794": 2,
+      "37795": 2,
+      "37796": 2,
+      "37797": 1,
+      "37798": 1,
+      "37799": 1,
+      "37800": 1,
+      "37801": 1,
+      "38898": 1,
+      "38902": 2,
+      "38905": 2,
+      "38913": 3,
+      "38914": 3,
+      "38915": 3,
+      "38919": 3,
+      "38920": 4,
+      "38925": 2,
+      "38926": 2,
+      "38927": 2,
+      "38928": 2,
+      "39310": 2,
+      "39312": 2,
+      "40757": 1,
+      "40758": 1,
+      "40407": 2,
+      "40411": 2,
+      "40415": 2
+    },
+    "craft": [
+      {
+        "id": 35103,
+        "job": 12,
+        "rlvl": 610,
+        "durability": 35,
+        "quality": 8200,
+        "progress": 3696,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3280,
+        "craftsmanshipReq": 3700,
+        "unlockId": 37738,
+        "ingredients": [
+          {
+            "id": 37827,
+            "amount": 2
+          },
+          {
+            "id": 37819,
+            "amount": 5
+          },
+          {
+            "id": 17,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 540,
+          "hq": 560
+        }
+      }
+    ],
+    "desynthedFrom": [
+      38043
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Titanoboa Skin",
+      "id": 37827,
+      "icon": 21830,
+      "category": 52,
+      "ilvl": 600,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37827",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37827",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haritaki",
+      "id": 37819,
+      "icon": 25017,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "ventures": [
+        979
+      ],
+      "nodes": [
+        627
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "627",
+      "obj": {
+        "i": 627,
+        "n": "The Shroud of the Samgha",
+        "l": 90,
+        "t": 2,
+        "z": 3709,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "37743",
+      "obj": {
+        "i": 37743,
+        "n": "Rinascita Knuckles",
+        "l": 610,
+        "c": 30820,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "37749",
+      "obj": {
+        "i": 37749,
+        "n": "Rinascita Culverin",
+        "l": 610,
+        "c": 34479,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "37752",
+      "obj": {
+        "i": 37752,
+        "n": "Rinascita Index",
+        "l": 610,
+        "c": 33364,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "37753",
+      "obj": {
+        "i": 37753,
+        "n": "Rinascita Codex",
+        "l": 610,
+        "c": 33363,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "37755",
+      "obj": {
+        "i": 37755,
+        "n": "Rinascita Samurai Blade",
+        "l": 610,
+        "c": 36534,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "37760",
+      "obj": {
+        "i": 37760,
+        "n": "Rinascita Zaghnal",
+        "l": 610,
+        "c": 37243,
+        "t": 108
+      }
+    },
+    {
+      "type": "item",
+      "id": "37764",
+      "obj": {
+        "i": 37764,
+        "n": "Rinascita Vambraces of Fending",
+        "l": 610,
+        "c": 56042,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37765",
+      "obj": {
+        "i": 37765,
+        "n": "Rinascita Poleyns of Fending",
+        "l": 610,
+        "c": 47930,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37766",
+      "obj": {
+        "i": 37766,
+        "n": "Rinascita Sabatons of Fending",
+        "l": 610,
+        "c": 49525,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "37769",
+      "obj": {
+        "i": 37769,
+        "n": "Rinascita Vambraces of Maiming",
+        "l": 610,
+        "c": 56043,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37770",
+      "obj": {
+        "i": 37770,
+        "n": "Rinascita Poleyns of Maiming",
+        "l": 610,
+        "c": 47933,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37771",
+      "obj": {
+        "i": 37771,
+        "n": "Rinascita Sabatons of Maiming",
+        "l": 610,
+        "c": 49526,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "37773",
+      "obj": {
+        "i": 37773,
+        "n": "Rinascita Jacket of Striking",
+        "l": 610,
+        "c": 42903,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37774",
+      "obj": {
+        "i": 37774,
+        "n": "Rinascita Armguards of Striking",
+        "l": 610,
+        "c": 56040,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37775",
+      "obj": {
+        "i": 37775,
+        "n": "Rinascita Poleyns of Striking",
+        "l": 610,
+        "c": 47934,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37776",
+      "obj": {
+        "i": 37776,
+        "n": "Rinascita Shoes of Striking",
+        "l": 610,
+        "c": 49531,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "37778",
+      "obj": {
+        "i": 37778,
+        "n": "Rinascita Jacket of Aiming",
+        "l": 610,
+        "c": 42904,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37779",
+      "obj": {
+        "i": 37779,
+        "n": "Rinascita Gloves of Aiming",
+        "l": 610,
+        "c": 56045,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37780",
+      "obj": {
+        "i": 37780,
+        "n": "Rinascita Poleyns of Aiming",
+        "l": 610,
+        "c": 47935,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37783",
+      "obj": {
+        "i": 37783,
+        "n": "Rinascita Jacket of Scouting",
+        "l": 610,
+        "c": 42902,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37784",
+      "obj": {
+        "i": 37784,
+        "n": "Rinascita Armguards of Scouting",
+        "l": 610,
+        "c": 56041,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37785",
+      "obj": {
+        "i": 37785,
+        "n": "Rinascita Poleyns of Scouting",
+        "l": 610,
+        "c": 47936,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37786",
+      "obj": {
+        "i": 37786,
+        "n": "Rinascita Sabatons of Scouting",
+        "l": 610,
+        "c": 49528,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "37788",
+      "obj": {
+        "i": 37788,
+        "n": "Rinascita Coat of Healing",
+        "l": 610,
+        "c": 42901,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37789",
+      "obj": {
+        "i": 37789,
+        "n": "Rinascita Gloves of Healing",
+        "l": 610,
+        "c": 56044,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37790",
+      "obj": {
+        "i": 37790,
+        "n": "Rinascita Poleyns of Healing",
+        "l": 610,
+        "c": 47932,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37791",
+      "obj": {
+        "i": 37791,
+        "n": "Rinascita Shoes of Healing",
+        "l": 610,
+        "c": 49529,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "37793",
+      "obj": {
+        "i": 37793,
+        "n": "Rinascita Coat of Casting",
+        "l": 610,
+        "c": 42898,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37794",
+      "obj": {
+        "i": 37794,
+        "n": "Rinascita Armguards of Casting",
+        "l": 610,
+        "c": 56039,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37795",
+      "obj": {
+        "i": 37795,
+        "n": "Rinascita Poleyns of Casting",
+        "l": 610,
+        "c": 47931,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37796",
+      "obj": {
+        "i": 37796,
+        "n": "Rinascita Shoes of Casting",
+        "l": 610,
+        "c": 49530,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "37797",
+      "obj": {
+        "i": 37797,
+        "n": "Rinascita Earring of Fending",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37798",
+      "obj": {
+        "i": 37798,
+        "n": "Rinascita Earring of Slaying",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37799",
+      "obj": {
+        "i": 37799,
+        "n": "Rinascita Earring of Aiming",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37800",
+      "obj": {
+        "i": 37800,
+        "n": "Rinascita Earring of Healing",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37801",
+      "obj": {
+        "i": 37801,
+        "n": "Rinascita Earring of Casting",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37738",
+      "obj": {
+        "i": 37738,
+        "n": "Master Leatherworker X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "37827",
+      "obj": {
+        "i": 37827,
+        "n": "Titanoboa Skin",
+        "l": 600,
+        "c": 21830,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "37819",
+      "obj": {
+        "i": 37819,
+        "n": "Haritaki",
+        "l": 600,
+        "c": 25017,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38898",
+      "obj": {
+        "i": 38898,
+        "n": "Indagator's Pickaxe",
+        "l": 620,
+        "c": 38302,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "38902",
+      "obj": {
+        "i": 38902,
+        "n": "Indagator's File",
+        "l": 620,
+        "c": 35165,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "38905",
+      "obj": {
+        "i": 38905,
+        "n": "Indagator's Awl",
+        "l": 620,
+        "c": 35460,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "38913",
+      "obj": {
+        "i": 38913,
+        "n": "Indagator's Gloves of Crafting",
+        "l": 620,
+        "c": 56066,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "38914",
+      "obj": {
+        "i": 38914,
+        "n": "Indagator's Trousers of Crafting",
+        "l": 620,
+        "c": 47958,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38915",
+      "obj": {
+        "i": 38915,
+        "n": "Indagator's Boots of Crafting",
+        "l": 620,
+        "c": 49553,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "38919",
+      "obj": {
+        "i": 38919,
+        "n": "Indagator's Bottoms of Gathering",
+        "l": 620,
+        "c": 47957,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38920",
+      "obj": {
+        "i": 38920,
+        "n": "Indagator's Shoes of Gathering",
+        "l": 620,
+        "c": 49552,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "38925",
+      "obj": {
+        "i": 38925,
+        "n": "Indagator's Earrings of Gathering",
+        "l": 620,
+        "c": 55504,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "38926",
+      "obj": {
+        "i": 38926,
+        "n": "Indagator's Necklace of Gathering",
+        "l": 620,
+        "c": 55063,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "38927",
+      "obj": {
+        "i": 38927,
+        "n": "Indagator's Bracelet of Gathering",
+        "l": 620,
+        "c": 55864,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "38928",
+      "obj": {
+        "i": 38928,
+        "n": "Indagator's Ring of Gathering",
+        "l": 620,
+        "c": 54715,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39310",
+      "obj": {
+        "i": 39310,
+        "n": "Salon Server's Gloves",
+        "l": 1,
+        "c": 56068,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39312",
+      "obj": {
+        "i": 39312,
+        "n": "Salon Server's Shoes",
+        "l": 1,
+        "c": 49554,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "40757",
+      "obj": {
+        "i": 40757,
+        "n": "Seiryu Sculpture",
+        "l": 610,
+        "c": 52772,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "40758",
+      "obj": {
+        "i": 40758,
+        "n": "Suzaku Sculpture",
+        "l": 610,
+        "c": 52771,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "40407",
+      "obj": {
+        "i": 40407,
+        "n": "Plain Pajama Slippers",
+        "l": 1,
+        "c": 49594,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "40411",
+      "obj": {
+        "i": 40411,
+        "n": "Cactuar Pajama Slippers",
+        "l": 1,
+        "c": 49595,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "40415",
+      "obj": {
+        "i": 40415,
+        "n": "Chocobo Pajama Slippers",
+        "l": 1,
+        "c": 49596,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "38043",
+      "obj": {
+        "i": 38043,
+        "n": "Augmented Lunar Envoy's Fingerless Gloves of Aiming",
+        "l": 630,
+        "c": 56038,
+        "t": 37
+      }
+    }
+  ]
+}

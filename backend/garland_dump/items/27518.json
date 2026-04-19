@@ -1,0 +1,96 @@
+{
+  "item": {
+    "name": "Purple Ghost",
+    "description": "This particular species of freshwater fish has unusual organs that can produce powerful jolts of electricity. Rubber gloves recommended.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "This creature has the ability to produce a strong galvanic force, which it uses to stun prey by the schoolload. Scavengers often follow behind it to scoop up the leftovers, but if they stray too close, they too may be in for a shock.",
+      "icon": 79597,
+      "spots": [
+        {
+          "node": 635,
+          "gig": [
+            "Small Gig Head"
+          ],
+          "ff14anglerId": 3115
+        },
+        {
+          "node": 645,
+          "gig": [
+            "Small Gig Head"
+          ],
+          "ff14anglerId": 3115
+        }
+      ]
+    },
+    "id": 27518,
+    "patch": 5.0,
+    "patchCategory": 7,
+    "price": 240,
+    "ilvl": 390,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29597,
+    "nodes": [
+      635,
+      645
+    ],
+    "requiredByLeves": [
+      1555
+    ],
+    "desynthedTo": [
+      28062
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "635",
+      "obj": {
+        "i": 635,
+        "n": "Northeast Source",
+        "l": 70,
+        "t": 5,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "645",
+      "obj": {
+        "i": 645,
+        "n": "Eastern Isle of Ken",
+        "l": 75,
+        "t": 5,
+        "z": 2953,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1555",
+      "obj": {
+        "i": 1555,
+        "n": "The Source of the Problem",
+        "l": 70,
+        "j": 19,
+        "p": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "28062",
+      "obj": {
+        "i": 28062,
+        "n": "Nightworld Bronze Piece",
+        "l": 385,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

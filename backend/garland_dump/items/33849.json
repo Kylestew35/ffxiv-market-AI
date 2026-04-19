@@ -1,0 +1,80 @@
+{
+  "item": {
+    "name": "Freedom Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Freedom</span>. Use to add to your orchestrion list.",
+    "id": 33849,
+    "patch": 5.5,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 443,
+      "name": "Freedom",
+      "description": "Available for exchange in Limsa Lominsa and with other exchange vendors.",
+      "category": "Quests",
+      "order": 24
+    },
+    "tradeShops": [
+      {
+        "shop": "Bait/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33849",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Music/Furnishings/Misc.)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33849",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

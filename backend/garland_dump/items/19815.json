@@ -1,0 +1,577 @@
+{
+  "item": {
+    "name": "Persimmon Leaf Sushi",
+    "description": "One of many varieties of the Hingan dish sushi, this iteration consists of sweet vinegared rice topped with fish, pressed into a narrow rectangle, and finally wrapped in green persimmon leaves.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19815,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2226,
+    "ilvl": 300,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 36
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 45
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 47
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 27
+        }
+      }
+    },
+    "icon": 21005,
+    "craft": [
+      {
+        "id": 3558,
+        "job": 15,
+        "rlvl": 300,
+        "durability": 70,
+        "quality": 4200,
+        "progress": 1140,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1080,
+        "craftsmanshipReq": 1100,
+        "quickSynthCraftsmanship": 1320,
+        "ingredients": [
+          {
+            "id": 19849,
+            "amount": 1
+          },
+          {
+            "id": 19843,
+            "amount": 1,
+            "quality": 346.02985
+          },
+          {
+            "id": 19870,
+            "amount": 1
+          },
+          {
+            "id": 20225,
+            "amount": 1
+          },
+          {
+            "id": 20226,
+            "amount": 1
+          },
+          {
+            "id": 20013,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 344,
+          "hq": 364
+        }
+      }
+    ],
+    "quests": [
+      68035,
+      68505
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Koshu Sticky Rice",
+      "id": 19849,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1304,
+        1305,
+        1306
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Rice Vinegar",
+      "id": 19843,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "craft": [
+        {
+          "id": 3583,
+          "job": 15,
+          "rlvl": 276,
+          "durability": 40,
+          "quality": 2520,
+          "progress": 415,
+          "lvl": 65,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19849,
+              "amount": 2
+            },
+            {
+              "id": 4819,
+              "amount": 2
+            },
+            {
+              "id": 19872,
+              "amount": 1
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 80,
+            "hq": 100
+          }
+        }
+      ],
+      "leves": [
+        1310,
+        1311,
+        1312
+      ]
+    },
+    {
+      "name": "Sticky Rice",
+      "id": 4819,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 25,
+      "price": 73,
+      "ventures": [
+        241
+      ],
+      "nodes": [
+        41
+      ]
+    },
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Persimmon Leaf",
+      "id": 19870,
+      "icon": 25010,
+      "category": 54,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        675
+      ],
+      "nodes": [
+        513
+      ]
+    },
+    {
+      "name": "Ivory Sole",
+      "id": 20225,
+      "icon": 29921,
+      "category": 47,
+      "ilvl": 275,
+      "price": 1000,
+      "nodes": [
+        479,
+        483
+      ]
+    },
+    {
+      "name": "Motley Beakfish",
+      "id": 20226,
+      "icon": 29120,
+      "category": 47,
+      "ilvl": 290,
+      "price": 1000,
+      "ventures": [
+        738
+      ],
+      "nodes": [
+        472,
+        530
+      ]
+    },
+    {
+      "name": "Dusklight Aethersand",
+      "id": 20013,
+      "icon": 21219,
+      "category": 54,
+      "ilvl": 279,
+      "price": 546,
+      "reducedFrom": [
+        20012,
+        33153,
+        20180
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19849",
+      "obj": {
+        "i": 19849,
+        "n": "Koshu Sticky Rice",
+        "l": 276,
+        "c": 25358,
+        "t": 45,
+        "p": 545
+      }
+    },
+    {
+      "type": "item",
+      "id": "4819",
+      "obj": {
+        "i": 4819,
+        "n": "Sticky Rice",
+        "l": 25,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Oakwood",
+        "l": 25,
+        "t": 3,
+        "z": 34
+      }
+    },
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "513",
+      "obj": {
+        "i": 513,
+        "n": "Dimwold",
+        "l": 70,
+        "t": 2,
+        "z": 2406
+      }
+    },
+    {
+      "type": "node",
+      "id": "479",
+      "obj": {
+        "i": 479,
+        "n": "Loch Seld Southeastern Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2408
+      }
+    },
+    {
+      "type": "node",
+      "id": "483",
+      "obj": {
+        "i": 483,
+        "n": "Loch Seld Deep Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2408,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "node",
+      "id": "472",
+      "obj": {
+        "i": 472,
+        "n": "The Kobayashi Maru",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "s": 1
+      }
+    },
+    {
+      "type": "node",
+      "id": "530",
+      "obj": {
+        "i": 530,
+        "n": "Kobayashi Maru's Northern Wake",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "s": 1,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20012",
+      "obj": {
+        "i": 20012,
+        "n": "Doman Yellow",
+        "l": 279,
+        "c": 27407,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "33153",
+      "obj": {
+        "i": 33153,
+        "n": "Rhodolite",
+        "l": 300,
+        "c": 21474,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20180",
+      "obj": {
+        "i": 20180,
+        "n": "False Scad",
+        "l": 225,
+        "c": 29135,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "19843",
+      "obj": {
+        "i": 19843,
+        "n": "Rice Vinegar",
+        "l": 276,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19870",
+      "obj": {
+        "i": 19870,
+        "n": "Persimmon Leaf",
+        "l": 279,
+        "c": 25010,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "20225",
+      "obj": {
+        "i": 20225,
+        "n": "Ivory Sole",
+        "l": 275,
+        "c": 29921,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "20226",
+      "obj": {
+        "i": 20226,
+        "n": "Motley Beakfish",
+        "l": 290,
+        "c": 29120,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "20013",
+      "obj": {
+        "i": 20013,
+        "n": "Dusklight Aethersand",
+        "l": 279,
+        "c": 21219,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68035",
+      "obj": {
+        "i": 68035,
+        "n": "All the Little Angels",
+        "g": 6,
+        "l": "Yanxia",
+        "s": 560
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68505",
+      "obj": {
+        "i": 68505,
+        "n": "A Sultana's Resolve",
+        "g": 7,
+        "l": "The Gold Saucer",
+        "s": 8
+      }
+    }
+  ]
+}

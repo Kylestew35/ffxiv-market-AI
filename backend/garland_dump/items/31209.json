@@ -1,0 +1,249 @@
+{
+  "item": {
+    "name": "Grade 3 Skybuilders' Crosscut Saw",
+    "description": "Extremely effective at producing sawdust. Also cuts wood.",
+    "id": 31209,
+    "patch": 5.31,
+    "patchCategory": 5,
+    "price": 900,
+    "ilvl": 290,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 31,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 26590,
+    "craft": [
+      {
+        "id": 34400,
+        "job": 9,
+        "rlvl": 290,
+        "durability": 60,
+        "quality": 9900,
+        "progress": 1080,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31247,
+            "amount": 10
+          },
+          {
+            "id": 31251,
+            "amount": 10
+          },
+          {
+            "id": 31250,
+            "amount": 10
+          },
+          {
+            "id": 5372,
+            "amount": 1,
+            "quality": 286.05527
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 11,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 3000021,
+          "hq": 3000041
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 3 Skybuilders' Diadem Iron Ore",
+      "id": 31247,
+      "icon": 23897,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Approved Grade 3 Skybuilders' Siltstone",
+      "id": 31251,
+      "icon": 23814,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Approved Grade 3 Skybuilders' Diadem Iron Sand",
+      "id": 31250,
+      "icon": 23894,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Pine Lumber",
+      "id": 5372,
+      "icon": 22466,
+      "category": 50,
+      "ilvl": 276,
+      "price": 3072,
+      "craft": [
+        {
+          "id": 3610,
+          "job": 8,
+          "rlvl": 273,
+          "durability": 40,
+          "quality": 2448,
+          "progress": 390,
+          "lvl": 64,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5389,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 58,
+            "hq": 78
+          }
+        }
+      ],
+      "treasure": [
+        17835
+      ],
+      "leves": [
+        1241,
+        1242,
+        1243,
+        1244,
+        1246
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Pine Log",
+      "id": 5389,
+      "icon": 22414,
+      "category": 50,
+      "ilvl": 276,
+      "price": 90,
+      "leves": [
+        1245
+      ],
+      "ventures": [
+        672
+      ],
+      "nodes": [
+        508
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5389",
+      "obj": {
+        "i": 5389,
+        "n": "Pine Log",
+        "l": 276,
+        "c": 22414,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "508",
+      "obj": {
+        "i": 508,
+        "n": "The Heron's Flight",
+        "l": 65,
+        "t": 2,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "31247",
+      "obj": {
+        "i": 31247,
+        "n": "Approved Grade 3 Skybuilders' Diadem Iron Ore",
+        "l": 150,
+        "c": 23897,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "31251",
+      "obj": {
+        "i": 31251,
+        "n": "Approved Grade 3 Skybuilders' Siltstone",
+        "l": 150,
+        "c": 23814,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "31250",
+      "obj": {
+        "i": 31250,
+        "n": "Approved Grade 3 Skybuilders' Diadem Iron Sand",
+        "l": 150,
+        "c": 23894,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5372",
+      "obj": {
+        "i": 5372,
+        "n": "Pine Lumber",
+        "l": 276,
+        "c": 22466,
+        "t": 50,
+        "p": 3072
+      }
+    }
+  ]
+}

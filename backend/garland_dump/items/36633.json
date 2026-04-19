@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Chi Bolt",
+    "description": "A top-drawer bolt obtained from Chi.",
+    "id": 36633,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21016,
+    "tradeCurrency": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36007",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36633",
+                "amount": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fates": [
+      1855
+    ],
+    "alla": {
+      "source": [
+        "FATE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36007",
+      "obj": {
+        "i": 36007,
+        "n": "Level Checker Identification Key",
+        "l": 1,
+        "c": 26014,
+        "t": 63
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1855",
+      "obj": {
+        "i": 1855,
+        "n": "Omicron Recall: Killing Order",
+        "l": 90,
+        "t": "Notorious Monster"
+      }
+    }
+  ]
+}

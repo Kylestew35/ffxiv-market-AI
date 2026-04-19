@@ -1,0 +1,424 @@
+{
+  "item": {
+    "name": "Magma Worm",
+    "description": "A small worm with a stone-like shell encasing its entire body, protecting it from the extreme temperatures of the molten lava in which it resides. Live bait for hellfishing.",
+    "jobCategories": "FSH",
+    "id": 12709,
+    "patch": 3.0,
+    "patchCategory": 2,
+    "price": 17,
+    "ilvl": 136,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 55,
+    "jobs": 19,
+    "icon": 27026,
+    "vendors": [
+      1011206,
+      1011925,
+      1027241,
+      1018987
+    ],
+    "tradeShops": [
+      {
+        "shop": "Sky Pirate Spoils (Steel)",
+        "npcs": [
+          1016261,
+          1016496,
+          1016498,
+          1016500,
+          1019106
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12709",
+                "amount": 99
+              }
+            ],
+            "currency": [
+              {
+                "id": "13631",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Bait/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12709",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12709",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67623
+    ],
+    "leves": [
+      1220,
+      1221,
+      1222,
+      1223,
+      1224,
+      1225,
+      1226,
+      1227,
+      1228,
+      1229,
+      1230,
+      1231
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011206",
+      "obj": {
+        "i": 1011206,
+        "n": "Evrardoux",
+        "l": 2301,
+        "s": 7,
+        "t": "Fieldcraft Supplier",
+        "a": 2317,
+        "c": [
+          6.51,
+          9.6
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011925",
+      "obj": {
+        "i": 1011925,
+        "n": "Vath Vendor",
+        "l": 2000,
+        "s": 5,
+        "a": 2021,
+        "c": [
+          24.28,
+          19.47
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027241",
+      "obj": {
+        "i": 1027241,
+        "n": "Vernarth",
+        "l": 2951,
+        "s": 4,
+        "t": "Tool Supplier",
+        "a": 3254,
+        "c": [
+          9.33,
+          14.47
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13631",
+      "obj": {
+        "i": 13631,
+        "n": "Steel Sky Pirate Spoil",
+        "l": 1,
+        "c": 25951,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018987",
+      "obj": {
+        "i": 1018987,
+        "n": "Shichiho",
+        "l": 2404,
+        "s": 4,
+        "t": "Tool Supplier",
+        "c": [
+          "12.7",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67623",
+      "obj": {
+        "i": 67623,
+        "n": "Invasion of the Supper Snatchers",
+        "g": 174,
+        "l": "Ishgard",
+        "s": 550,
+        "f": 1
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1220",
+      "obj": {
+        "i": 1220,
+        "n": "Analysis of Paralysis",
+        "l": 54,
+        "j": 19,
+        "p": 2100
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1221",
+      "obj": {
+        "i": 1221,
+        "n": "The Aquariums of Ishgard",
+        "l": 54,
+        "j": 19,
+        "p": 2100
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1222",
+      "obj": {
+        "i": 1222,
+        "n": "Bearing of the Blue",
+        "l": 54,
+        "j": 19,
+        "p": 2100
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1223",
+      "obj": {
+        "i": 1223,
+        "n": "Send a Feeling to My Spine (L)",
+        "l": 54,
+        "j": 19,
+        "p": 2100
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1224",
+      "obj": {
+        "i": 1224,
+        "n": "A Win-win Situation (L)",
+        "l": 54,
+        "j": 19,
+        "p": 2100
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1225",
+      "obj": {
+        "i": 1225,
+        "n": "Blue of Sky and Sea (L)",
+        "l": 54,
+        "j": 19,
+        "p": 2100
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1226",
+      "obj": {
+        "i": 1226,
+        "n": "Dining with Dravanians",
+        "l": 56,
+        "j": 19,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1227",
+      "obj": {
+        "i": 1227,
+        "n": "Solo Out the Bolo",
+        "l": 56,
+        "j": 19,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1228",
+      "obj": {
+        "i": 1228,
+        "n": "Pipira Pirouette",
+        "l": 56,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1229",
+      "obj": {
+        "i": 1229,
+        "n": "Hundred Fins for a Hundred Wings (L)",
+        "l": 56,
+        "j": 19,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1230",
+      "obj": {
+        "i": 1230,
+        "n": "Sucking on Face (L)",
+        "l": 56,
+        "j": 19,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1231",
+      "obj": {
+        "i": 1231,
+        "n": "Plus One or Two or Three (L)",
+        "l": 56,
+        "j": 19,
+        "p": 2000
+      }
+    }
+  ]
+}

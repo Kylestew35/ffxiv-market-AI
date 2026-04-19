@@ -1,0 +1,199 @@
+{
+  "item": {
+    "name": "Radiant's Bayonet",
+    "jobCategories": "GNB",
+    "id": 35110,
+    "patch": 6.05,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 590,
+    "category": 106,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1879,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 149,
+    "models": [
+      "2501-47-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 117,
+      "Magic Damage": 59,
+      "Delay": 2.8,
+      "Strength": 280,
+      "Vitality": 290,
+      "Determination": 260,
+      "Critical Hit": 182
+    },
+    "attr_max": {
+      "Strength": 756,
+      "Dexterity": 756,
+      "Vitality": 784,
+      "Intelligence": 756,
+      "Mind": 756,
+      "Piety": 701,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 701,
+      "Direct Hit Rate": 701,
+      "Critical Hit": 701,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 701,
+      "Skill Speed": 701,
+      "Spell Speed": 701,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 4166,
+      "Control": 1675,
+      "Gathering": 3953,
+      "Perception": 1130
+    },
+    "icon": 36059,
+    "sharedModels": [
+      35185
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Astronomy Exchange (Weapons)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35110",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "48",
+                "amount": 500
+              },
+              {
+                "id": "35831",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Radiant's Gear Augmentation (DoW) I",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35185",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35110",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "35185",
+      "obj": {
+        "i": 35185,
+        "n": "Augmented Radiant's Bayonet",
+        "l": 600,
+        "c": 36059,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Allagan Tomestone of Mathematics",
+        "l": 1,
+        "c": "t/65122",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "35831",
+      "obj": {
+        "i": 35831,
+        "n": "Discal Tomestone",
+        "l": 1,
+        "c": 26621,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

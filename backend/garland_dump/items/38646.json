@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "The Sands' Secrets Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">The Sands' Secrets</span>. Use to add to your orchestrion list.",
+    "id": 38646,
+    "patch": 6.2,
+    "patchCategory": 16,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 553,
+      "name": "The Sands' Secrets",
+      "description": "Available for exchange at the Hall of Flames.",
+      "category": "Quests",
+      "order": 8
+    },
+    "tradeShops": [
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38646",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 40000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    }
+  ]
+}

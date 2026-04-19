@@ -1,0 +1,104 @@
+{
+  "item": {
+    "name": "Wings of Ruin",
+    "description": "Manifest your wings of ruin and soar the skies with an aura of irrepressible might.",
+    "mount": {
+      "name": "Wings Of Ruin",
+      "action": "Manifest your wings of ruin. Rest assured they won't bring destruction wherever they go.",
+      "description": "Calling to mind Valigarmanda, the dread creature dubbed the Skyruin, these magicked wings grant their wearer an aura of irrepressible might. Though they are said to manifest only for those who are worthy, the truth of their nature is shrouded in mystery.",
+      "tooltip": "The tales these walls could<br>tell of the Skyruin...<br>   - Pameka",
+      "icon": 4283,
+      "guideIcon": 68283
+    },
+    "id": 43593,
+    "patch": 7.0,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26070,
+    "tradeShops": [
+      {
+        "shop": "Sublime Curiosities",
+        "npcs": [
+          1049080
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43593",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43539",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "883-1-1"
+    ],
+    "instances": [
+      20094
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1049080",
+      "obj": {
+        "i": 1049080,
+        "n": "Uah'shepya",
+        "l": 4503,
+        "s": 9,
+        "t": "Miscellany",
+        "r": 1,
+        "a": 4647,
+        "c": [
+          8.69,
+          13.52
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "43539",
+      "obj": {
+        "i": 43539,
+        "n": "Skyruin Totem",
+        "l": 1,
+        "c": 26662,
+        "t": 61
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20094",
+      "obj": {
+        "i": 20094,
+        "n": "Worqor Lar Dor (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 100,
+        "max_lvl": 100,
+        "min_ilvl": 690
+      }
+    }
+  ]
+}

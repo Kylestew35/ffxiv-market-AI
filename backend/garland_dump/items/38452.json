@@ -1,0 +1,63 @@
+{
+  "item": {
+    "name": "Sewer Skink",
+    "description": "When it comes to keeping aqueducts free of creepy-crawlies, this lightning-tongued lizard is the hero of the day.<br><br>Use item to acquire the sewer skink minion.",
+    "minionrace": "Critter",
+    "tooltip": "Why, I'd rather hire a sewer\r\nrat to mind my larder!\r\n   - Milala",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Flickering Lick",
+    "specialactiondescription": "Inflicts a weakness to <span class=\"highlight\">critters</span> on all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 38452,
+    "patch": 6.25,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59864,
+    "cost": 15,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 20,
+      "Attack": 45,
+      "Defense": 50,
+      "Speed": 3
+    },
+    "models": [
+      "8421-1-1"
+    ],
+    "instances": [
+      36001
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "36001",
+      "obj": {
+        "i": 36001,
+        "n": "The Sil'dihn Subterrane",
+        "c": 61846,
+        "t": "V&C Dungeon Finder",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 575,
+        "max_ilvl": 635
+      }
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "item": {
+    "name": "Goblin Longsword",
+    "jobCategories": "GLA PLD",
+    "id": 1649,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 9773,
+    "ilvl": 48,
+    "category": 2,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 67,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "slot": 1,
+    "elvl": 45,
+    "jobs": 38,
+    "models": [
+      "201-24-2-0"
+    ],
+    "attr": {
+      "Physical Damage": 49,
+      "Magic Damage": 24,
+      "Delay": 2.08,
+      "Strength": 8,
+      "Vitality": 10,
+      "Tenacity": 14
+    },
+    "attr_hq": {
+      "Physical Damage": 54,
+      "Magic Damage": 27,
+      "Strength": 9,
+      "Vitality": 11,
+      "Tenacity": 16
+    },
+    "attr_max": {
+      "Strength": 24,
+      "Dexterity": 24,
+      "Vitality": 31,
+      "Intelligence": 24,
+      "Mind": 24,
+      "Piety": 42,
+      "GP": 2,
+      "CP": 1,
+      "Tenacity": 42,
+      "Direct Hit Rate": 42,
+      "Critical Hit": 42,
+      "Fire Resistance": 11,
+      "Ice Resistance": 11,
+      "Wind Resistance": 11,
+      "Earth Resistance": 11,
+      "Lightning Resistance": 11,
+      "Water Resistance": 11,
+      "Determination": 42,
+      "Skill Speed": 42,
+      "Spell Speed": 42,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 343,
+      "Control": 147,
+      "Gathering": 336,
+      "Perception": 96
+    },
+    "icon": 30429,
+    "sharedModels": [
+      1621,
+      1639
+    ],
+    "craft": [
+      {
+        "id": 1200,
+        "job": 9,
+        "rlvl": 45,
+        "durability": 80,
+        "quality": 1700,
+        "progress": 158,
+        "lvl": 45,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 1621,
+            "amount": 1
+          },
+          {
+            "id": 5262,
+            "amount": 1,
+            "quality": 425.0
+          },
+          {
+            "id": 8,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 67,
+          "hq": 87
+        }
+      }
+    ],
+    "downgrades": [
+      1642,
+      1653,
+      1643,
+      1659
+    ],
+    "upgrades": [
+      1663
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Blunt Goblin Longsword",
+      "id": 1621,
+      "icon": 30428,
+      "category": 2,
+      "ilvl": 40,
+      "price": 2862,
+      "instances": [
+        13
+      ],
+      "leves": [
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661
+      ],
+      "vendors": [
+        1003267,
+        1003270
+      ]
+    },
+    {
+      "name": "Basilisk Whetstone",
+      "id": 5262,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "craft": [
+        {
+          "id": 826,
+          "job": 11,
+          "rlvl": 40,
+          "durability": 40,
+          "quality": 1120,
+          "progress": 69,
+          "lvl": 40,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5263,
+              "amount": 1
+            },
+            {
+              "id": 4,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basilisk Egg",
+      "id": 5263,
+      "icon": 21215,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "ventures": [
+        60,
+        156
+      ],
+      "drops": [
+        16170000001593,
+        1730000000304
+      ],
+      "nodes": [
+        189
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "13",
+      "obj": {
+        "i": 13,
+        "n": "Dzemael Darkhold",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 44,
+        "max_lvl": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003267",
+      "obj": {
+        "i": 1003267,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "q": 1,
+        "a": 231,
+        "c": [
+          14.9,
+          24.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003270",
+      "obj": {
+        "i": 1003270,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "c": [
+          "26.1",
+          "26.4"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5263",
+      "obj": {
+        "i": 5263,
+        "n": "Basilisk Egg",
+        "l": 40,
+        "c": 21215,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "189",
+      "obj": {
+        "i": 189,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1730000000304",
+      "obj": {
+        "i": 1730000000304,
+        "n": "Basilisk",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16170000001593",
+      "obj": {
+        "i": 16170000001593,
+        "n": "Quicksand Basilisk",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "1621",
+      "obj": {
+        "i": 1621,
+        "n": "Blunt Goblin Longsword",
+        "l": 40,
+        "c": 30428,
+        "t": 2,
+        "p": 2862
+      }
+    },
+    {
+      "type": "item",
+      "id": "1639",
+      "obj": {
+        "i": 1639,
+        "n": "Steel Longsword",
+        "l": 36,
+        "c": 30435,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "5262",
+      "obj": {
+        "i": 5262,
+        "n": "Basilisk Whetstone",
+        "l": 40,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "1642",
+      "obj": {
+        "i": 1642,
+        "n": "Goblin Scimitar",
+        "l": 45,
+        "c": 30426,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "1653",
+      "obj": {
+        "i": 1653,
+        "n": "Gridanian Spatha",
+        "l": 43,
+        "c": 30451,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "1643",
+      "obj": {
+        "i": 1643,
+        "n": "Mythril Broadsword",
+        "l": 38,
+        "c": 30500,
+        "t": 2,
+        "p": 4159
+      }
+    },
+    {
+      "type": "item",
+      "id": "1659",
+      "obj": {
+        "i": 1659,
+        "n": "Cobalt Shamshir",
+        "l": 46,
+        "c": 30453,
+        "t": 2,
+        "p": 6577
+      }
+    },
+    {
+      "type": "item",
+      "id": "1663",
+      "obj": {
+        "i": 1663,
+        "n": "Cobalt Winglet",
+        "l": 49,
+        "c": 30436,
+        "t": 2
+      }
+    }
+  ]
+}

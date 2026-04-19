@@ -1,0 +1,331 @@
+{
+  "item": {
+    "name": "Skybuilders' Candelabra",
+    "description": "It almost seems a shame to cover this in layers of melted wax, though sadder still would be a candelabra without a candle.",
+    "id": 28744,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 53020,
+    "craft": [
+      {
+        "id": 33592,
+        "job": 11,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 28777,
+            "amount": 6
+          },
+          {
+            "id": 28778,
+            "amount": 6
+          },
+          {
+            "id": 5998,
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "amount": 4
+          },
+          {
+            "id": 8,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 296,
+          "hq": 316
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Skybuilders' Hardsilver Ore",
+      "id": 28777,
+      "icon": 21223,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        665
+      ]
+    },
+    {
+      "name": "Skybuilders' Mythrite Sand",
+      "id": 28778,
+      "icon": 21218,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        666
+      ]
+    },
+    {
+      "name": "Tallow Candle",
+      "id": 5998,
+      "icon": 26102,
+      "category": 61,
+      "ilvl": 20,
+      "price": 225,
+      "desynthedFrom": [
+        21869,
+        44109
+      ],
+      "drops": [
+        29360000002754,
+        29370000002753,
+        27190000002596,
+        27180000002594,
+        27200000002595
+      ],
+      "vendors": [
+        1000236,
+        1001204,
+        1001966,
+        1011201,
+        1018984,
+        1019333,
+        1027992
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "665",
+      "obj": {
+        "i": 665,
+        "n": "The Answering Quarter",
+        "l": 60,
+        "t": 0,
+        "z": 2001
+      }
+    },
+    {
+      "type": "node",
+      "id": "666",
+      "obj": {
+        "i": 666,
+        "n": "Riversmeet",
+        "l": 55,
+        "t": 1,
+        "z": 2200
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000236",
+      "obj": {
+        "i": 1000236,
+        "n": "O'rhoyod",
+        "l": 53,
+        "s": 1,
+        "t": "Tradecraft Supplier",
+        "a": 564,
+        "c": [
+          14.42,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001204",
+      "obj": {
+        "i": 1001204,
+        "n": "Engerrand",
+        "l": 29,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Supplier",
+        "a": 744,
+        "c": [
+          8.66,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001966",
+      "obj": {
+        "i": 1001966,
+        "n": "Fridurih",
+        "l": 41,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Merchant",
+        "a": 646,
+        "c": [
+          13.79,
+          9.57
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27180000002594",
+      "obj": {
+        "i": 27180000002594,
+        "n": "Champion Gladiator",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27200000002595",
+      "obj": {
+        "i": 27200000002595,
+        "n": "Champion Lancer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27190000002596",
+      "obj": {
+        "i": 27190000002596,
+        "n": "Champion Marauder",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29370000002753",
+      "obj": {
+        "i": 29370000002753,
+        "n": "Champion Conjurer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29360000002754",
+      "obj": {
+        "i": 29360000002754,
+        "n": "Champion Archer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "28777",
+      "obj": {
+        "i": 28777,
+        "n": "Skybuilders' Hardsilver Ore",
+        "l": 150,
+        "c": 21223,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "28778",
+      "obj": {
+        "i": 28778,
+        "n": "Skybuilders' Mythrite Sand",
+        "l": 150,
+        "c": 21218,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5998",
+      "obj": {
+        "i": 5998,
+        "n": "Tallow Candle",
+        "l": 20,
+        "c": 26102,
+        "t": 61,
+        "p": 225
+      }
+    }
+  ]
+}

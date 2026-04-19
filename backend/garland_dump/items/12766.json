@@ -1,0 +1,109 @@
+{
+  "item": {
+    "name": "Rime Eater",
+    "description": "A small floating jellyfish often seen in the Sea of Clouds.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "In Coerthas it is five winters' bad luck to slay a rime eater, for the creatures feed on the glacier cores that the smallfolk believe to be the cause of snowstorms.",
+      "icon": 79656,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 110,
+          "weather": [
+            "Blizzards",
+            "Snow"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 366,
+          "baits": [
+            [
+              12708,
+              12724
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12766,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1292,
+    "ilvl": 136,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29656,
+    "fishingSpots": [
+      110
+    ],
+    "desynthedTo": [
+      5826,
+      5817
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "110",
+      "obj": {
+        "i": 110,
+        "n": "Greytail Falls",
+        "l": 51,
+        "c": 3,
+        "z": 2200,
+        "x": 35.56,
+        "y": 27.38
+      }
+    },
+    {
+      "type": "item",
+      "id": "12708",
+      "obj": {
+        "i": 12708,
+        "n": "Red Balloon",
+        "l": 130,
+        "c": 27025,
+        "t": 33,
+        "p": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "12724",
+      "obj": {
+        "i": 12724,
+        "n": "Glacier Core",
+        "l": 120,
+        "c": 29706,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "5826",
+      "obj": {
+        "i": 5826,
+        "n": "Allagan Gold Piece",
+        "l": 35,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5817",
+      "obj": {
+        "i": 5817,
+        "n": "Grey Pigment",
+        "l": 28,
+        "c": 21463,
+        "t": 55
+      }
+    }
+  ]
+}

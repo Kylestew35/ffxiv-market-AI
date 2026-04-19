@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Painting Supply Materials",
+    "description": "A convenient package of components necessary to create tools for enthusiastic amateur artists.<br><br>※Only for use in Loporrit society quests.",
+    "id": 38848,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "38849": 1
+    },
+    "usedInQuest": [
+      70220
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "38849",
+      "obj": {
+        "i": 38849,
+        "n": "Painting Supplies",
+        "l": 430,
+        "c": 21012,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70220",
+      "obj": {
+        "i": 70220,
+        "n": "Teamwork Makes the Dream Work",
+        "g": 72,
+        "l": "Mare Lamentorum",
+        "s": 4,
+        "f": 1
+      }
+    }
+  ]
+}

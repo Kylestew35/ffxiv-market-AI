@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Storm Desk",
+    "description": "An officer's desk issued by the Maelstrom.",
+    "id": 6538,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 16200,
+    "ilvl": 40,
+    "category": 77,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 51603,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6538",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 8300
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "119"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    }
+  ]
+}

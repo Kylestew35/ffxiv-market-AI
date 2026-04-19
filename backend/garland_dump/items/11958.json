@@ -1,0 +1,142 @@
+{
+  "item": {
+    "name": "Adept's Hat",
+    "jobCategories": "All Classes",
+    "id": 11958,
+    "patch": 3.0,
+    "patchCategory": 1,
+    "price": 12972,
+    "ilvl": 130,
+    "category": 34,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 153,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 3,
+    "elvl": 58,
+    "jobs": 1,
+    "models": [
+      "9098-5-0-0"
+    ],
+    "attr": {
+      "Defense": 46,
+      "Magic Defense": 92,
+      "Control": 69
+    },
+    "icon": 41274,
+    "tradeShops": [
+      {
+        "shop": "Carved Kupo Nut Exchange",
+        "npcs": [
+          1017172
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11958",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21080",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Adept Gear (IL 130)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11958",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 60
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 58/IL 130)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11958",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 60
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21080",
+      "obj": {
+        "i": 21080,
+        "n": "Carved Kupo Nut",
+        "l": 1,
+        "c": 65057,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    }
+  ]
+}

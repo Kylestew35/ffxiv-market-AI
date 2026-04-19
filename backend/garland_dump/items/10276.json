@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Fieldkeep's Shirt",
+    "jobCategories": "BTN",
+    "id": 10276,
+    "patch": 3.05,
+    "patchCategory": 2,
+    "price": 88209,
+    "ilvl": 180,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 60,
+    "jobs": 18,
+    "models": [
+      "218-1-0-0"
+    ],
+    "attr": {
+      "Defense": 103,
+      "Magic Defense": 206,
+      "Gathering": 146,
+      "Perception": 73,
+      "GP": 4,
+      "Vitality": 23
+    },
+    "icon": 42435,
+    "sharedModels": [
+      15711
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Fieldcraft Keep Gear Augmentation",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15711",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10276",
+                "amount": 1
+              },
+              {
+                "id": "14105",
+                "amount": 9
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15711",
+      "obj": {
+        "i": 15711,
+        "n": "Augmented Fieldkeep's Shirt",
+        "l": 200,
+        "c": 42435,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14105",
+      "obj": {
+        "i": 14105,
+        "n": "Goblin Dice",
+        "l": 1,
+        "c": 26253,
+        "t": 61
+      }
+    }
+  ]
+}

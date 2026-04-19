@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Seductive Bustier",
+    "description": "A bustier of Thavnairian design, cut low to distract potential business clients, thus providing the upper hand in negotiations.",
+    "id": 17922,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 285,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 42441,
+    "craft": [
+      {
+        "id": 32294,
+        "job": 13,
+        "rlvl": 285,
+        "durability": 80,
+        "quality": 1881,
+        "progress": 686,
+        "lvl": 68,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17921,
+            "amount": 1
+          },
+          {
+            "id": 12,
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 33,
+          "hq": 53
+        }
+      }
+    ],
+    "usedInQuest": [
+      67970
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bustier Materials",
+      "id": 17921,
+      "icon": 23001,
+      "category": 63,
+      "ilvl": 285,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17921",
+      "obj": {
+        "i": 17921,
+        "n": "Bustier Materials",
+        "l": 285,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67970",
+      "obj": {
+        "i": 67970,
+        "n": "A Geiko for All Seasons",
+        "g": 169,
+        "l": "Kugane",
+        "s": 680,
+        "f": 1
+      }
+    }
+  ]
+}

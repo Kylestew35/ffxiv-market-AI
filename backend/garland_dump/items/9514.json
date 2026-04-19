@@ -1,0 +1,357 @@
+{
+  "item": {
+    "name": "Perfect Vellum",
+    "description": "Meticulous pouncing has ensured that any ink applied to this dried calfskin will adhere without fail.",
+    "id": 9514,
+    "patch": 2.45,
+    "patchCategory": 5,
+    "price": 7484,
+    "ilvl": 90,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 12,
+    "icon": 26180,
+    "craft": [
+      {
+        "id": 30921,
+        "job": 12,
+        "rlvl": 90,
+        "durability": 80,
+        "quality": 2750,
+        "progress": 420,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "hq": 1,
+        "controlReq": 374,
+        "craftsmanshipReq": 391,
+        "unlockId": 7782,
+        "ingredients": [
+          {
+            "id": 9526,
+            "amount": 1
+          },
+          {
+            "id": 9519,
+            "amount": 2
+          },
+          {
+            "id": 5486,
+            "amount": 1,
+            "quality": 215.68628
+          },
+          {
+            "id": 17,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 320,
+          "hq": 340
+        }
+      }
+    ],
+    "usedInQuest": [
+      65895
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Aged Vellum",
+      "id": 9526,
+      "icon": 26151,
+      "category": 52,
+      "ilvl": 55,
+      "price": 2286,
+      "desynthedFrom": [
+        9534
+      ]
+    },
+    {
+      "name": "Pumice",
+      "id": 9519,
+      "icon": 21454,
+      "category": 48,
+      "ilvl": 80,
+      "price": 475,
+      "ventures": [
+        538
+      ],
+      "nodes": [
+        250
+      ]
+    },
+    {
+      "name": "Shark Oil",
+      "id": 5486,
+      "icon": 22636,
+      "category": 54,
+      "ilvl": 40,
+      "price": 580,
+      "craft": [
+        {
+          "id": 1171,
+          "job": 14,
+          "rlvl": 41,
+          "durability": 40,
+          "quality": 1168,
+          "progress": 71,
+          "lvl": 41,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 4903,
+              "amount": 1
+            },
+            {
+              "id": 4893,
+              "amount": 1
+            },
+            {
+              "id": 7,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 100,
+            "hq": 120
+          }
+        }
+      ],
+      "desynthedFrom": [
+        24883
+      ]
+    },
+    {
+      "name": "Silver Shark",
+      "id": 4903,
+      "icon": 29011,
+      "category": 47,
+      "ilvl": 41,
+      "price": 337,
+      "ventures": [
+        338
+      ],
+      "fishingSpots": [
+        38,
+        51,
+        52,
+        62,
+        74
+      ]
+    },
+    {
+      "name": "Hammerhead Shark",
+      "id": 4893,
+      "icon": 29026,
+      "category": 47,
+      "ilvl": 29,
+      "price": 173,
+      "ventures": [
+        331
+      ],
+      "fishingSpots": [
+        61,
+        69
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "250",
+      "obj": {
+        "i": 250,
+        "n": "Red Mantis Falls",
+        "l": 50,
+        "t": 1,
+        "z": 32,
+        "s": 3,
+        "lt": "Unspoiled",
+        "ti": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4903",
+      "obj": {
+        "i": 4903,
+        "n": "Silver Shark",
+        "l": 41,
+        "c": 29011,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "4893",
+      "obj": {
+        "i": 4893,
+        "n": "Hammerhead Shark",
+        "l": 29,
+        "c": 29026,
+        "t": 47
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "38",
+      "obj": {
+        "i": 38,
+        "n": "Summerford",
+        "l": 5,
+        "c": 0,
+        "z": 30,
+        "x": 14.65,
+        "y": 15.69
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "51",
+      "obj": {
+        "i": 51,
+        "n": "South Bloodshore",
+        "l": 25,
+        "c": 0,
+        "z": 32,
+        "x": 32.93,
+        "y": 34.47
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "52",
+      "obj": {
+        "i": 52,
+        "n": "Costa del Sol",
+        "l": 30,
+        "c": 0,
+        "z": 32,
+        "x": 32.89,
+        "y": 29.31
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Isles of Umbra Northshore",
+        "l": 40,
+        "c": 0,
+        "z": 33,
+        "x": 14.47,
+        "y": 29.91
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "74",
+      "obj": {
+        "i": 74,
+        "n": "Cape Westwind",
+        "l": 45,
+        "c": 0,
+        "z": 42,
+        "x": 9.93,
+        "y": 7.37
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "Halfstone",
+        "l": 35,
+        "c": 0,
+        "z": 33,
+        "x": 17.56,
+        "y": 20.98
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "69",
+      "obj": {
+        "i": 69,
+        "n": "The Silver Bazaar",
+        "l": 25,
+        "c": 0,
+        "z": 42,
+        "x": 14.57,
+        "y": 29.55
+      }
+    },
+    {
+      "type": "item",
+      "id": "7782",
+      "obj": {
+        "i": 7782,
+        "n": "Master Leatherworker I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "9526",
+      "obj": {
+        "i": 9526,
+        "n": "Aged Vellum",
+        "l": 55,
+        "c": 26151,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "9519",
+      "obj": {
+        "i": 9519,
+        "n": "Pumice",
+        "l": 80,
+        "c": 21454,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5486",
+      "obj": {
+        "i": 5486,
+        "n": "Shark Oil",
+        "l": 40,
+        "c": 22636,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65895",
+      "obj": {
+        "i": 65895,
+        "n": "Method in His Malice",
+        "g": 87,
+        "l": "Central Thanalan",
+        "s": 9,
+        "r": 1,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "item": {
+    "name": "Fledgling Dodo",
+    "description": "Properly trained not to eructate, regurgitate, expectorate, or flatulate.<br><br>Use item to acquire the fledgling dodo minion.",
+    "minionrace": "Monster",
+    "tooltip": "Lightning Drools over the\r\nBismarck's Delightful\r\nGrilled Dodo!\r\n  - The <Emphasis>Harbor Herald</Emphasis>",
+    "minionskilltype": "Special",
+    "specialactionname": "New Nest",
+    "specialactiondescription": "Instantly restores damaged ally Shield. ",
+    "id": 6198,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59432,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1008119
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6198",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6198",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 55,
+      "Speed": 3
+    },
+    "models": [
+      "8030-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

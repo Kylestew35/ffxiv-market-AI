@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Gold Paper Parasol",
+    "description": "Unfortunately not covered in gold leaf, but fool's gold leaf, which is considerably cheaper on account of its rather silly name. Use to acquire a gold paper parasol.",
+    "id": 31323,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 100000,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 58005,
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "31323",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 200000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ornament": {
+      "name": "Gold Paper Parasol",
+      "id": 5,
+      "description": "Open a gold paper parasol.",
+      "icon": 8005,
+      "image": 67005
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

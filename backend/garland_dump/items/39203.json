@@ -1,0 +1,168 @@
+{
+  "item": {
+    "name": "Orthos Shield",
+    "jobCategories": "GLA PLD",
+    "id": 39203,
+    "patch": 6.35,
+    "patchCategory": 0,
+    "price": 2,
+    "ilvl": 620,
+    "category": 11,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 2,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 33916,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 2,
+    "elvl": 90,
+    "jobs": 38,
+    "models": [
+      "101-121-1-0"
+    ],
+    "attr": {
+      "Block Strength": 1267,
+      "Block Rate": 1267,
+      "Strength": 94,
+      "Vitality": 101,
+      "Critical Hit": 79,
+      "Determination": 55
+    },
+    "icon": 30251,
+    "sharedModels": [
+      39223
+    ],
+    "tradeShops": [
+      {
+        "shop": "DEEP_DUNGEON_WEAPON_SHOP",
+        "npcs": [
+          1044503
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39184",
+                "amount": 1
+              },
+              {
+                "id": "39203",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38943",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "DEEP_DUNGEON_WEAPON_SHOP",
+        "npcs": [
+          1044503
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39204",
+                "amount": 1
+              },
+              {
+                "id": "39223",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39184",
+                "amount": 1
+              },
+              {
+                "id": "39203",
+                "amount": 1
+              },
+              {
+                "id": "38943",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "39223",
+      "obj": {
+        "i": 39223,
+        "n": "Enaretos Shield",
+        "l": 625,
+        "c": 30252,
+        "t": 11
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1044503",
+      "obj": {
+        "i": 1044503,
+        "n": "Synthesis Node",
+        "l": 67,
+        "s": 3,
+        "r": 1,
+        "a": 420,
+        "c": [
+          34.95,
+          19.09
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38943",
+      "obj": {
+        "i": 38943,
+        "n": "Orthos Aetherpool Grip",
+        "l": 1,
+        "c": 26535,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "39184",
+      "obj": {
+        "i": 39184,
+        "n": "Orthos Katzbalger",
+        "l": 620,
+        "c": 30661,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "39204",
+      "obj": {
+        "i": 39204,
+        "n": "Enaretos Katzbalger",
+        "l": 625,
+        "c": 30662,
+        "t": 2
+      }
+    }
+  ]
+}

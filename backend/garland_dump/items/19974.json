@@ -1,0 +1,1066 @@
+{
+  "item": {
+    "name": "Bloodhempen Cloth",
+    "description": "Several yalms of undyed, bright-red bloodhempen cloth wrapped around a short wooden distaff.",
+    "id": 19974,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 4087,
+    "ilvl": 255,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21601,
+    "vendors": [
+      1022232
+    ],
+    "ingredient_of": {
+      "18049": 1,
+      "18050": 2,
+      "18055": 1,
+      "18056": 2,
+      "18061": 1,
+      "18062": 2,
+      "18063": 2,
+      "18064": 3,
+      "18067": 1,
+      "18068": 1,
+      "18070": 1,
+      "18073": 1,
+      "18074": 2,
+      "18075": 2,
+      "18076": 3,
+      "18080": 3,
+      "18081": 1,
+      "18082": 3,
+      "18086": 3,
+      "18087": 1,
+      "18088": 3,
+      "18190": 1,
+      "18202": 1,
+      "18206": 2,
+      "18233": 1,
+      "18236": 1,
+      "19521": 1,
+      "19612": 2,
+      "19613": 2,
+      "19615": 3,
+      "19616": 1,
+      "19617": 1,
+      "19618": 2,
+      "19620": 3,
+      "20729": 2,
+      "20730": 5,
+      "20745": 1,
+      "21202": 1,
+      "21203": 1,
+      "21711": 1,
+      "21717": 1,
+      "21830": 2,
+      "22543": 2,
+      "28808": 1,
+      "28813": 1,
+      "28819": 1,
+      "28823": 1,
+      "28829": 1,
+      "28834": 1,
+      "28839": 1,
+      "28844": 1,
+      "28845": 1,
+      "28847": 1,
+      "28849": 1,
+      "28850": 1,
+      "28852": 1,
+      "28855": 1,
+      "28860": 1,
+      "28864": 1,
+      "28865": 1,
+      "28867": 1,
+      "28869": 1,
+      "28870": 1,
+      "28872": 1,
+      "28875": 1,
+      "31036": 1,
+      "31051": 3,
+      "19767": 9,
+      "19768": 27,
+      "19769": 45
+    },
+    "craft": [
+      {
+        "id": 3634,
+        "job": 13,
+        "rlvl": 255,
+        "durability": 40,
+        "quality": 2232,
+        "progress": 315,
+        "lvl": 61,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19975,
+            "amount": 3,
+            "quality": 372.0
+          },
+          {
+            "id": 12,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 37,
+          "hq": 57
+        }
+      }
+    ],
+    "desynthedFrom": [
+      18074,
+      21830
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Bloodhempen Yarn",
+      "id": 19975,
+      "icon": 21658,
+      "category": 51,
+      "ilvl": 255,
+      "price": 2257,
+      "craft": [
+        {
+          "id": 3635,
+          "job": 13,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19976,
+              "amount": 4
+            },
+            {
+              "id": 12,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        16510,
+        18160
+      ],
+      "treasure": [
+        17835
+      ],
+      "leves": [
+        1328,
+        1329,
+        1330
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Bloodhemp",
+      "id": 19976,
+      "icon": 21654,
+      "category": 51,
+      "ilvl": 255,
+      "price": 504,
+      "ventures": [
+        681
+      ],
+      "nodes": [
+        505
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19976",
+      "obj": {
+        "i": 19976,
+        "n": "Bloodhemp",
+        "l": 255,
+        "c": 21654,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "505",
+      "obj": {
+        "i": 505,
+        "n": "East End",
+        "l": 60,
+        "t": 3,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "18049",
+      "obj": {
+        "i": 18049,
+        "n": "High Steel Helm of Fending",
+        "l": 255,
+        "c": 40280,
+        "t": 34,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18050",
+      "obj": {
+        "i": 18050,
+        "n": "High Steel Scale Mail of Fending",
+        "l": 255,
+        "c": 48156,
+        "t": 35,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18055",
+      "obj": {
+        "i": 18055,
+        "n": "High Steel Helm of Maiming",
+        "l": 255,
+        "c": 40281,
+        "t": 34,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18056",
+      "obj": {
+        "i": 18056,
+        "n": "High Steel Scale Mail of Maiming",
+        "l": 255,
+        "c": 48157,
+        "t": 35,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18061",
+      "obj": {
+        "i": 18061,
+        "n": "Koppranickel Turban of Striking",
+        "l": 255,
+        "c": 41712,
+        "t": 34,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18062",
+      "obj": {
+        "i": 18062,
+        "n": "Bloodhempen Vest of Striking",
+        "l": 255,
+        "c": 43366,
+        "t": 35,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18063",
+      "obj": {
+        "i": 18063,
+        "n": "Bloodhempen Armguards of Striking",
+        "l": 255,
+        "c": 44588,
+        "t": 37,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18064",
+      "obj": {
+        "i": 18064,
+        "n": "Bloodhempen Brais of Striking",
+        "l": 255,
+        "c": 47331,
+        "t": 36,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18067",
+      "obj": {
+        "i": 18067,
+        "n": "Gaganaskin Hat of Aiming",
+        "l": 255,
+        "c": 41380,
+        "t": 34,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18068",
+      "obj": {
+        "i": 18068,
+        "n": "Gaganaskin Jacket of Aiming",
+        "l": 255,
+        "c": 42574,
+        "t": 35,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18070",
+      "obj": {
+        "i": 18070,
+        "n": "Gaganaskin Chaps of Aiming",
+        "l": 255,
+        "c": 47343,
+        "t": 36,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18073",
+      "obj": {
+        "i": 18073,
+        "n": "Koppranickel Turban of Scouting",
+        "l": 255,
+        "c": 41713,
+        "t": 34,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18074",
+      "obj": {
+        "i": 18074,
+        "n": "Bloodhempen Vest of Scouting",
+        "l": 255,
+        "c": 43367,
+        "t": 35,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18075",
+      "obj": {
+        "i": 18075,
+        "n": "Bloodhempen Armguards of Scouting",
+        "l": 255,
+        "c": 44589,
+        "t": 37,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18076",
+      "obj": {
+        "i": 18076,
+        "n": "Bloodhempen Brais of Scouting",
+        "l": 255,
+        "c": 47332,
+        "t": 36,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18080",
+      "obj": {
+        "i": 18080,
+        "n": "Bloodhempen Chestwrap of Healing",
+        "l": 255,
+        "c": 43807,
+        "t": 35,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18081",
+      "obj": {
+        "i": 18081,
+        "n": "Koppranickel Armlets of Healing",
+        "l": 255,
+        "c": 44596,
+        "t": 37,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18082",
+      "obj": {
+        "i": 18082,
+        "n": "Bloodhempen Culottes of Healing",
+        "l": 255,
+        "c": 47342,
+        "t": 36,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18086",
+      "obj": {
+        "i": 18086,
+        "n": "Bloodhempen Chestwrap of Casting",
+        "l": 255,
+        "c": 43806,
+        "t": 35,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18087",
+      "obj": {
+        "i": 18087,
+        "n": "Koppranickel Armlets of Casting",
+        "l": 255,
+        "c": 44595,
+        "t": 37,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18088",
+      "obj": {
+        "i": 18088,
+        "n": "Bloodhempen Culottes of Casting",
+        "l": 255,
+        "c": 47341,
+        "t": 36,
+        "p": 33323
+      }
+    },
+    {
+      "type": "item",
+      "id": "18190",
+      "obj": {
+        "i": 18190,
+        "n": "Folded High Steel Knuckles",
+        "l": 265,
+        "c": 31130,
+        "t": 1,
+        "p": 37778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18202",
+      "obj": {
+        "i": 18202,
+        "n": "High Steel Uchigatana",
+        "l": 265,
+        "c": 36430,
+        "t": 96,
+        "p": 37778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18206",
+      "obj": {
+        "i": 18206,
+        "n": "High Steel Mail of Fending",
+        "l": 265,
+        "c": 48155,
+        "t": 35,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18233",
+      "obj": {
+        "i": 18233,
+        "n": "Gyuki Leather Highboots of Scouting",
+        "l": 265,
+        "c": 46770,
+        "t": 38,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18236",
+      "obj": {
+        "i": 18236,
+        "n": "Ruby Cotton Chasuble",
+        "l": 265,
+        "c": 43804,
+        "t": 35,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "19521",
+      "obj": {
+        "i": 19521,
+        "n": "High Steel Awl",
+        "l": 200,
+        "c": 35454,
+        "t": 21,
+        "p": 28512
+      }
+    },
+    {
+      "type": "item",
+      "id": "19612",
+      "obj": {
+        "i": 19612,
+        "n": "Bloodhempen Turban of Crafting",
+        "l": 180,
+        "c": 41388,
+        "t": 34,
+        "p": 14113
+      }
+    },
+    {
+      "type": "item",
+      "id": "19613",
+      "obj": {
+        "i": 19613,
+        "n": "Bloodhempen Doublet of Crafting",
+        "l": 180,
+        "c": 42563,
+        "t": 35,
+        "p": 23522
+      }
+    },
+    {
+      "type": "item",
+      "id": "19615",
+      "obj": {
+        "i": 19615,
+        "n": "Bloodhempen Skirt",
+        "l": 180,
+        "c": 45971,
+        "t": 36,
+        "p": 23522
+      }
+    },
+    {
+      "type": "item",
+      "id": "19616",
+      "obj": {
+        "i": 19616,
+        "n": "Gaganaskin Shoes",
+        "l": 180,
+        "c": 46757,
+        "t": 38,
+        "p": 14113
+      }
+    },
+    {
+      "type": "item",
+      "id": "19617",
+      "obj": {
+        "i": 19617,
+        "n": "Gaganaskin Bush Hat",
+        "l": 180,
+        "c": 41387,
+        "t": 34,
+        "p": 14113
+      }
+    },
+    {
+      "type": "item",
+      "id": "19618",
+      "obj": {
+        "i": 19618,
+        "n": "Gaganaskin Vest",
+        "l": 180,
+        "c": 42562,
+        "t": 35,
+        "p": 23522
+      }
+    },
+    {
+      "type": "item",
+      "id": "19620",
+      "obj": {
+        "i": 19620,
+        "n": "Bloodhempen Trousers of Gathering",
+        "l": 180,
+        "c": 45970,
+        "t": 36,
+        "p": 23522
+      }
+    },
+    {
+      "type": "item",
+      "id": "19975",
+      "obj": {
+        "i": 19975,
+        "n": "Bloodhempen Yarn",
+        "l": 255,
+        "c": 21658,
+        "t": 51,
+        "p": 2257
+      }
+    },
+    {
+      "type": "item",
+      "id": "20729",
+      "obj": {
+        "i": 20729,
+        "n": "Hingan Chair",
+        "l": 265,
+        "c": 52608,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "20730",
+      "obj": {
+        "i": 20730,
+        "n": "Hingan Sofa",
+        "l": 279,
+        "c": 52609,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "20745",
+      "obj": {
+        "i": 20745,
+        "n": "Kimono Hanger",
+        "l": 260,
+        "c": 53183,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21202",
+      "obj": {
+        "i": 21202,
+        "n": "Thavnairian Wool Autumn Shirt",
+        "l": 1,
+        "c": 42579,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21203",
+      "obj": {
+        "i": 21203,
+        "n": "Thavnairian Wool Autumn Dress",
+        "l": 1,
+        "c": 42580,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21711",
+      "obj": {
+        "i": 21711,
+        "n": "Nightsteel Helm of Fending",
+        "l": 350,
+        "c": 40294,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "21717",
+      "obj": {
+        "i": 21717,
+        "n": "Nightsteel Helm of Maiming",
+        "l": 350,
+        "c": 40295,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "21830",
+      "obj": {
+        "i": 21830,
+        "n": "Counter Cart",
+        "l": 320,
+        "c": 51666,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "22543",
+      "obj": {
+        "i": 22543,
+        "n": "Sewing Baskets",
+        "l": 1,
+        "c": 53218,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "28808",
+      "obj": {
+        "i": 28808,
+        "n": "Replica Sky Pirate's Helm of Fending",
+        "l": 1,
+        "c": 40471,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28813",
+      "obj": {
+        "i": 28813,
+        "n": "Replica Sky Pirate's Helm of Maiming",
+        "l": 1,
+        "c": 40472,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28819",
+      "obj": {
+        "i": 28819,
+        "n": "Replica Sky Pirate's Jacket of Striking",
+        "l": 1,
+        "c": 42480,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28823",
+      "obj": {
+        "i": 28823,
+        "n": "Replica Sky Pirate's Beret of Aiming",
+        "l": 1,
+        "c": 41280,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28829",
+      "obj": {
+        "i": 28829,
+        "n": "Replica Sky Pirate's Jacket of Scouting",
+        "l": 1,
+        "c": 42481,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28834",
+      "obj": {
+        "i": 28834,
+        "n": "Replica Sky Pirate's Coat of Healing",
+        "l": 1,
+        "c": 43697,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28839",
+      "obj": {
+        "i": 28839,
+        "n": "Replica Sky Pirate's Coat of Casting",
+        "l": 1,
+        "c": 43698,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28844",
+      "obj": {
+        "i": 28844,
+        "n": "Replica Sky Rat Harness of Fending",
+        "l": 1,
+        "c": 43316,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28845",
+      "obj": {
+        "i": 28845,
+        "n": "Replica Sky Rat Hook of Fending",
+        "l": 1,
+        "c": 48573,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28847",
+      "obj": {
+        "i": 28847,
+        "n": "Replica Sky Rat Hookboots of Fending",
+        "l": 1,
+        "c": 47070,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28849",
+      "obj": {
+        "i": 28849,
+        "n": "Replica Sky Rat Harness of Maiming",
+        "l": 1,
+        "c": 43318,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28850",
+      "obj": {
+        "i": 28850,
+        "n": "Replica Sky Rat Hook of Maiming",
+        "l": 1,
+        "c": 48575,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28852",
+      "obj": {
+        "i": 28852,
+        "n": "Replica Sky Rat Hookboots of Maiming",
+        "l": 1,
+        "c": 47072,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28855",
+      "obj": {
+        "i": 28855,
+        "n": "Replica Sky Rat Fingerless Gloves of Striking",
+        "l": 1,
+        "c": 48576,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28860",
+      "obj": {
+        "i": 28860,
+        "n": "Replica Sky Rat Fingerless Gloves of Aiming",
+        "l": 1,
+        "c": 48577,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28864",
+      "obj": {
+        "i": 28864,
+        "n": "Replica Sky Rat Harness of Scouting",
+        "l": 1,
+        "c": 43321,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28865",
+      "obj": {
+        "i": 28865,
+        "n": "Replica Sky Rat Hook of Scouting",
+        "l": 1,
+        "c": 48578,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28867",
+      "obj": {
+        "i": 28867,
+        "n": "Replica Sky Rat Hookboots of Scouting",
+        "l": 1,
+        "c": 47075,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28869",
+      "obj": {
+        "i": 28869,
+        "n": "Replica Sky Rat Harness of Healing",
+        "l": 1,
+        "c": 43317,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28870",
+      "obj": {
+        "i": 28870,
+        "n": "Replica Sky Rat Hook of Healing",
+        "l": 1,
+        "c": 48574,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28872",
+      "obj": {
+        "i": 28872,
+        "n": "Replica Sky Rat Hookboots of Healing",
+        "l": 1,
+        "c": 47071,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28875",
+      "obj": {
+        "i": 28875,
+        "n": "Replica Sky Rat Fingerless Gloves of Casting",
+        "l": 1,
+        "c": 48572,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31036",
+      "obj": {
+        "i": 31036,
+        "n": "Rarefied Gaganaskin Shoes",
+        "l": 265,
+        "c": 46757,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31051",
+      "obj": {
+        "i": 31051,
+        "n": "Rarefied Bloodhempen Skirt",
+        "l": 265,
+        "c": 45971,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "19767",
+      "obj": {
+        "i": 19767,
+        "n": "Carbuncle Cottage Walls",
+        "l": 1,
+        "c": 50822,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19768",
+      "obj": {
+        "i": 19768,
+        "n": "Carbuncle House Walls",
+        "l": 1,
+        "c": 50823,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19769",
+      "obj": {
+        "i": 19769,
+        "n": "Carbuncle Mansion Walls",
+        "l": 1,
+        "c": 50824,
+        "t": 66
+      }
+    }
+  ]
+}

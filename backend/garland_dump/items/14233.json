@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Agent of Inquiry Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Agent of Inquiry</span>. Use to add to your orchestrion list.",
+    "id": 14233,
+    "patch": 3.2,
+    "patchCategory": 16,
+    "price": 2,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 13,
+      "name": "Agent of Inquiry",
+      "description": "Available for MGP exchange at the Gold Saucer.",
+      "category": "Quests",
+      "order": 10
+    },
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Music/Furnishings)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14233",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 30000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

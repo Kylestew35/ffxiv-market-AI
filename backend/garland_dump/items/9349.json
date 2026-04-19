@@ -1,0 +1,105 @@
+{
+  "item": {
+    "name": "Mummy's Little Mummy",
+    "description": "While as cute as a button, remember, mummies are ultimately embalmed corpses damned to eternal thralldom in the land of the living. Have fun.<br><br>Use item to acquire the mummy's little mummy minion.",
+    "minionrace": "Monster",
+    "tooltip": "I told you, I'm\r\n<Emphasis>not</Emphasis> your mummy!\r\n  - Ul'dahn Citizen",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Forty-thousand-year Funk",
+    "specialactiondescription": "Inflicts a weakness to <span class=\"highlight\">monsters</span> on all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 9349,
+    "patch": 2.4,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59509,
+    "instances": [
+      26,
+      55001
+    ],
+    "cost": 15,
+    "skill_angle": 30,
+    "strengths": [
+      "Gate",
+      "Shield",
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 475,
+      "Skill Cost": 20,
+      "Attack": 35,
+      "Defense": 40,
+      "Speed": 1
+    },
+    "models": [
+      "8082-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      16170,
+      36635
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "26",
+      "obj": {
+        "i": 26,
+        "n": "The Sunken Temple of Qarn (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

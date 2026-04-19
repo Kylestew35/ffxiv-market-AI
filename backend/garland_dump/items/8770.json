@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Blue Corpse",
+    "description": "A king among wandering sculpin.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "To survive the extreme cold of Coerthas, this strange breed of wavekin will shut down all but the most vital of bodily functions and remain on the lakebed, unmoving, conserving its energy until the sun warms the waters enough to allow for hunting.",
+      "icon": 79388,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 33,
+          "transition": [
+            "Blizzards",
+            "Snow"
+          ],
+          "weather": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 306,
+          "baits": [
+            [
+              2607
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 8770,
+    "patch": 2.4,
+    "patchCategory": 7,
+    "price": 950,
+    "ilvl": 80,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 29,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29388,
+    "fishingSpots": [
+      33
+    ],
+    "desynthedTo": [
+      9366,
+      5818,
+      5826
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "33",
+      "obj": {
+        "i": 33,
+        "n": "Snowcloak",
+        "l": 45,
+        "c": 1,
+        "z": 63,
+        "x": 3.16,
+        "y": 21.3
+      }
+    },
+    {
+      "type": "item",
+      "id": "2607",
+      "obj": {
+        "i": 2607,
+        "n": "Caddisfly Larva",
+        "l": 50,
+        "c": 27013,
+        "t": 33,
+        "p": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "9366",
+      "obj": {
+        "i": 9366,
+        "n": "Borax",
+        "l": 110,
+        "c": 21206,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5818",
+      "obj": {
+        "i": 5818,
+        "n": "Brown Pigment",
+        "l": 28,
+        "c": 21462,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5826",
+      "obj": {
+        "i": 5826,
+        "n": "Allagan Gold Piece",
+        "l": 35,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

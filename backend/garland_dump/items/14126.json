@@ -1,0 +1,831 @@
+{
+  "item": {
+    "name": "Master Carpenter IV",
+    "description": "This esoteric tome─the fourth in an equally esoteric series─contains advanced woodworking recipes that can only be learned by highly skilled carpenters.",
+    "id": 14126,
+    "patch": 3.2,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26157,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Master Recipes I)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14126",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Master Recipes I",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14126",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocks": [
+      13301,
+      13303,
+      13305,
+      13307,
+      13309,
+      13311,
+      13313,
+      13315,
+      13317,
+      13319,
+      14045,
+      14051,
+      14065,
+      14157,
+      14158,
+      15160,
+      15525,
+      15527,
+      15530,
+      15532,
+      15545,
+      15549,
+      15551,
+      15573,
+      15574,
+      15578,
+      16630,
+      16631,
+      16635,
+      16688,
+      16689,
+      16690,
+      16691,
+      16692,
+      16693,
+      16694,
+      16695,
+      16696,
+      16697,
+      5375,
+      15777,
+      15778,
+      15971,
+      16781,
+      15587,
+      15588,
+      15592,
+      15601,
+      15602,
+      15606,
+      16937,
+      17607,
+      17608,
+      17612,
+      22570,
+      24323,
+      24324,
+      23883,
+      25025,
+      25026,
+      25041,
+      25042,
+      26530
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "13301",
+      "obj": {
+        "i": 13301,
+        "n": "Camphorwood Necklace of Fending",
+        "l": 220,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "13303",
+      "obj": {
+        "i": 13303,
+        "n": "Camphorwood Armillae of Fending",
+        "l": 220,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "13305",
+      "obj": {
+        "i": 13305,
+        "n": "Camphorwood Necklace of Slaying",
+        "l": 220,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "13307",
+      "obj": {
+        "i": 13307,
+        "n": "Camphorwood Armillae of Slaying",
+        "l": 220,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "13309",
+      "obj": {
+        "i": 13309,
+        "n": "Camphorwood Necklace of Aiming",
+        "l": 220,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "13311",
+      "obj": {
+        "i": 13311,
+        "n": "Camphorwood Armillae of Aiming",
+        "l": 220,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "13313",
+      "obj": {
+        "i": 13313,
+        "n": "Camphorwood Necklace of Healing",
+        "l": 220,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "13315",
+      "obj": {
+        "i": 13315,
+        "n": "Camphorwood Armillae of Healing",
+        "l": 220,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "13317",
+      "obj": {
+        "i": 13317,
+        "n": "Camphorwood Necklace of Casting",
+        "l": 220,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "13319",
+      "obj": {
+        "i": 13319,
+        "n": "Camphorwood Armillae of Casting",
+        "l": 220,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "14045",
+      "obj": {
+        "i": 14045,
+        "n": "Orchestrion",
+        "l": 210,
+        "c": 52587,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "14051",
+      "obj": {
+        "i": 14051,
+        "n": "Pudding Desk",
+        "l": 180,
+        "c": 51654,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "14065",
+      "obj": {
+        "i": 14065,
+        "n": "Shishi-odoshi",
+        "l": 180,
+        "c": 52219,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "14157",
+      "obj": {
+        "i": 14157,
+        "n": "Treated Camphorwood Lumber",
+        "l": 210,
+        "c": 22459,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "14158",
+      "obj": {
+        "i": 14158,
+        "n": "Camphorwood Lumber",
+        "l": 210,
+        "c": 22457,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "15160",
+      "obj": {
+        "i": 15160,
+        "n": "Oriental Wood Bridge",
+        "l": 210,
+        "c": 52227,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "15525",
+      "obj": {
+        "i": 15525,
+        "n": "Ironworks Necklace of Gathering",
+        "l": 190,
+        "c": 54944,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "15527",
+      "obj": {
+        "i": 15527,
+        "n": "Ironworks Armillae of Gathering",
+        "l": 190,
+        "c": 55749,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "15530",
+      "obj": {
+        "i": 15530,
+        "n": "Ironworks Necklace of Crafting",
+        "l": 190,
+        "c": 54944,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "15532",
+      "obj": {
+        "i": 15532,
+        "n": "Ironworks Armillae of Crafting",
+        "l": 190,
+        "c": 55749,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "15545",
+      "obj": {
+        "i": 15545,
+        "n": "Luminous Fiber Fishing Rod",
+        "l": 195,
+        "c": 38223,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "15549",
+      "obj": {
+        "i": 15549,
+        "n": "Eikon Iron Grinding Wheel",
+        "l": 195,
+        "c": 35359,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "15551",
+      "obj": {
+        "i": 15551,
+        "n": "Camphorwood Spinning Wheel",
+        "l": 195,
+        "c": 35560,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "15573",
+      "obj": {
+        "i": 15573,
+        "n": "Endless Expanse Partisan",
+        "l": 180,
+        "c": 31896,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "15574",
+      "obj": {
+        "i": 15574,
+        "n": "Endless Expanse Longbow",
+        "l": 180,
+        "c": 32292,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "15578",
+      "obj": {
+        "i": 15578,
+        "n": "Endless Expanse Cane",
+        "l": 180,
+        "c": 32671,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "16630",
+      "obj": {
+        "i": 16630,
+        "n": "Heavy Metal Lance",
+        "l": 250,
+        "c": 31909,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "16631",
+      "obj": {
+        "i": 16631,
+        "n": "Teak Composite Bow",
+        "l": 250,
+        "c": 32305,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "16635",
+      "obj": {
+        "i": 16635,
+        "n": "Teak Cane",
+        "l": 250,
+        "c": 32685,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "16688",
+      "obj": {
+        "i": 16688,
+        "n": "Teak Choker of Fending",
+        "l": 250,
+        "c": 54952,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "16689",
+      "obj": {
+        "i": 16689,
+        "n": "Teak Choker of Slaying",
+        "l": 250,
+        "c": 54952,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "16690",
+      "obj": {
+        "i": 16690,
+        "n": "Teak Choker of Aiming",
+        "l": 250,
+        "c": 54952,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "16691",
+      "obj": {
+        "i": 16691,
+        "n": "Teak Choker of Healing",
+        "l": 250,
+        "c": 54952,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "16692",
+      "obj": {
+        "i": 16692,
+        "n": "Teak Choker of Casting",
+        "l": 250,
+        "c": 54952,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "16693",
+      "obj": {
+        "i": 16693,
+        "n": "Teak Bracelet of Fending",
+        "l": 250,
+        "c": 55753,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "16694",
+      "obj": {
+        "i": 16694,
+        "n": "Teak Bracelet of Slaying",
+        "l": 250,
+        "c": 55753,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "16695",
+      "obj": {
+        "i": 16695,
+        "n": "Teak Bracelet of Aiming",
+        "l": 250,
+        "c": 55753,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "16696",
+      "obj": {
+        "i": 16696,
+        "n": "Teak Bracelet of Healing",
+        "l": 250,
+        "c": 55753,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "16697",
+      "obj": {
+        "i": 16697,
+        "n": "Teak Bracelet of Casting",
+        "l": 250,
+        "c": 55753,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "5375",
+      "obj": {
+        "i": 5375,
+        "n": "Teak Lumber",
+        "l": 250,
+        "c": 22453,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "15777",
+      "obj": {
+        "i": 15777,
+        "n": "Tier 3 Aquarium",
+        "l": 180,
+        "c": 53119,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15778",
+      "obj": {
+        "i": 15778,
+        "n": "Tier 4 Aquarium",
+        "l": 250,
+        "c": 53120,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15971",
+      "obj": {
+        "i": 15971,
+        "n": "Knightly Round Table",
+        "l": 210,
+        "c": 51658,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "16781",
+      "obj": {
+        "i": 16781,
+        "n": "Troupe Stage",
+        "l": 180,
+        "c": 51656,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "15587",
+      "obj": {
+        "i": 15587,
+        "n": "Dead Hive Spear",
+        "l": 180,
+        "c": 31901,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "15588",
+      "obj": {
+        "i": 15588,
+        "n": "Dead Hive Bow",
+        "l": 180,
+        "c": 32296,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "15592",
+      "obj": {
+        "i": 15592,
+        "n": "Dead Hive Cane",
+        "l": 180,
+        "c": 32676,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "15601",
+      "obj": {
+        "i": 15601,
+        "n": "Halberd of the Round",
+        "l": 180,
+        "c": 31907,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "15602",
+      "obj": {
+        "i": 15602,
+        "n": "Bow of the Round",
+        "l": 180,
+        "c": 32303,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "15606",
+      "obj": {
+        "i": 15606,
+        "n": "Cane of the Round",
+        "l": 180,
+        "c": 32683,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "16937",
+      "obj": {
+        "i": 16937,
+        "n": "Grade 3 Picture Frame",
+        "l": 210,
+        "c": 51351,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "17607",
+      "obj": {
+        "i": 17607,
+        "n": "Pike of the Fiend",
+        "l": 180,
+        "c": 31914,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "17608",
+      "obj": {
+        "i": 17608,
+        "n": "Bow of the Fiend",
+        "l": 180,
+        "c": 32310,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "17612",
+      "obj": {
+        "i": 17612,
+        "n": "Cane of the Fiend",
+        "l": 180,
+        "c": 32692,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "22570",
+      "obj": {
+        "i": 22570,
+        "n": "Hingan Cleaning Supplies",
+        "l": 1,
+        "c": 53225,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "24323",
+      "obj": {
+        "i": 24323,
+        "n": "Seeing Horde Spear",
+        "l": 180,
+        "c": 31918,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "24324",
+      "obj": {
+        "i": 24324,
+        "n": "Seeing Horde Bow",
+        "l": 180,
+        "c": 32313,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "23883",
+      "obj": {
+        "i": 23883,
+        "n": "Bread Rack",
+        "l": 210,
+        "c": 52645,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "25025",
+      "obj": {
+        "i": 25025,
+        "n": "Pike of the Goddess",
+        "l": 180,
+        "c": 31910,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "25026",
+      "obj": {
+        "i": 25026,
+        "n": "Bow of the Goddess",
+        "l": 180,
+        "c": 32306,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "25041",
+      "obj": {
+        "i": 25041,
+        "n": "Pike of the Demon",
+        "l": 180,
+        "c": 31929,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "25042",
+      "obj": {
+        "i": 25042,
+        "n": "Bow of the Demon",
+        "l": 180,
+        "c": 32321,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "26530",
+      "obj": {
+        "i": 26530,
+        "n": "Cryptomeria Lumber",
+        "l": 300,
+        "c": 22466,
+        "t": 50
+      }
+    }
+  ]
+}

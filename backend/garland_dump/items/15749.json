@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Statue Supplies Materials",
+    "description": "Materials required to craft statue supplies.<br><br>※Only for use in moogle society quests.",
+    "id": 15749,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "15723": 1
+    },
+    "usedInQuest": [
+      67861
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15723",
+      "obj": {
+        "i": 15723,
+        "n": "Statue Supplies",
+        "l": 55,
+        "c": 21012,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67861",
+      "obj": {
+        "i": 67861,
+        "n": "A Monumental Task",
+        "g": 54,
+        "l": "The Churning Mists",
+        "s": 6,
+        "f": 1
+      }
+    }
+  ]
+}

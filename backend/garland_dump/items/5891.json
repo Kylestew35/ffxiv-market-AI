@@ -1,0 +1,506 @@
+{
+  "item": {
+    "name": "Flame Tracer",
+    "description": "A handheld incendiary device distributed by the Immortal Flames.",
+    "id": 5891,
+    "patch": 1.0,
+    "patchCategory": 13,
+    "price": 8,
+    "ilvl": 1,
+    "category": 85,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22645,
+    "vendors": [
+      1009245,
+      1009246,
+      1009247,
+      1009288,
+      1009289,
+      1026055,
+      1042690,
+      1045023,
+      1050954,
+      1053936
+    ],
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1015612,
+          1017230,
+          1023794
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5891",
+                "amount": 5
+              }
+            ],
+            "currency": [
+              {
+                "id": "10333",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5891",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "15424",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5891",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "20304",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shop",
+        "npcs": [
+          1031465,
+          1036606
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5891",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "27993",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5891",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "33714",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Exchange Faire Voucher",
+        "npcs": [
+          1034215
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5891",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "31577",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67660
+    ],
+    "treasure": [
+      16170,
+      16171,
+      22508
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009245",
+      "obj": {
+        "i": 1009245,
+        "n": "Moonfire Faire Vendor",
+        "l": 28,
+        "s": 2,
+        "a": 737,
+        "c": [
+          11.59,
+          13.9
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009246",
+      "obj": {
+        "i": 1009246,
+        "n": "Moonfire Faire Vendor",
+        "l": 53,
+        "s": 2,
+        "a": 580,
+        "c": [
+          10.31,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009247",
+      "obj": {
+        "i": 1009247,
+        "n": "Moonfire Faire Vendor",
+        "l": 40,
+        "s": 2,
+        "a": 640,
+        "c": [
+          10.69,
+          9.16
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009288",
+      "obj": {
+        "i": 1009288,
+        "n": "Moonfire Faire Vendor",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009289",
+      "obj": {
+        "i": 1009289,
+        "n": "Moonfire Faire Vendor",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026055",
+      "obj": {
+        "i": 1026055,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "a": 167,
+        "c": [
+          36.31,
+          26.77
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1042690",
+      "obj": {
+        "i": 1042690,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "a": 167,
+        "c": [
+          36.26,
+          26.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045023",
+      "obj": {
+        "i": 1045023,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "a": 167,
+        "c": [
+          36.26,
+          26.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1050954",
+      "obj": {
+        "i": 1050954,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "a": 167,
+        "c": [
+          36.26,
+          26.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1053936",
+      "obj": {
+        "i": 1053936,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "a": 229,
+        "c": [
+          37.04,
+          29.38
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1015612",
+      "obj": {
+        "i": 1015612,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 3,
+        "r": 1,
+        "a": 206,
+        "c": [
+          30.65,
+          27.74
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10333",
+      "obj": {
+        "i": 10333,
+        "n": "Faire Voucher MMXV",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017230",
+      "obj": {
+        "i": 1017230,
+        "n": "P'obyano",
+        "l": 32,
+        "s": 1,
+        "t": "Moonfire Faire Vendor",
+        "r": 1,
+        "a": 206,
+        "c": [
+          32.66,
+          28.92
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15424",
+      "obj": {
+        "i": 15424,
+        "n": "Faire Voucher MMXVI",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1023794",
+      "obj": {
+        "i": 1023794,
+        "n": "Wunthyll",
+        "l": 32,
+        "s": 1,
+        "t": "Moonfire Faire Vendor",
+        "r": 1,
+        "a": 229,
+        "c": [
+          36.88,
+          31.14
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20304",
+      "obj": {
+        "i": 20304,
+        "n": "Faire Voucher MMXVII",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031465",
+      "obj": {
+        "i": 1031465,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "r": 1,
+        "a": 167,
+        "c": [
+          36.26,
+          26.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27993",
+      "obj": {
+        "i": 27993,
+        "n": "Faire Voucher MMXIX",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1034215",
+      "obj": {
+        "i": 1034215,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "r": 1,
+        "a": 169,
+        "c": [
+          34.83,
+          25.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31577",
+      "obj": {
+        "i": 31577,
+        "n": "Faire Voucher MMXX",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036606",
+      "obj": {
+        "i": 1036606,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "r": 1,
+        "a": 169,
+        "c": [
+          34.81,
+          25.93
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33714",
+      "obj": {
+        "i": 33714,
+        "n": "Faire Voucher",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67660",
+      "obj": {
+        "i": 67660,
+        "n": "Reigniting the Festivities",
+        "g": 244,
+        "l": "Limsa Lominsa",
+        "s": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "16171",
+      "obj": {
+        "i": 16171,
+        "n": "Iron-trimmed Sack",
+        "l": 1,
+        "c": 25991,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "22508",
+      "obj": {
+        "i": 22508,
+        "n": "Anemos Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Finishing Component Materials",
+    "description": "Materials required to craft finishing components used to complete an airship.<br><br>※Only for use in Ixal society quests.",
+    "id": 8089,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "8133": 1
+    },
+    "usedInQuest": [
+      67029
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8133",
+      "obj": {
+        "i": 8133,
+        "n": "Finishing Component",
+        "l": 1,
+        "c": 21012,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67029",
+      "obj": {
+        "i": 67029,
+        "n": "Spread Your Wings and Soar",
+        "g": 48,
+        "l": "North Shroud",
+        "s": 8,
+        "f": 1
+      }
+    }
+  ]
+}

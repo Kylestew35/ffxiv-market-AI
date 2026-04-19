@@ -1,0 +1,145 @@
+{
+  "item": {
+    "name": "Bronze Decorative Egg",
+    "description": "What manner of surprise lies in wait within this decorative egg? There is only one way to find out!",
+    "id": 7063,
+    "patch": 2.2,
+    "patchCategory": 13,
+    "price": 19,
+    "ilvl": 1,
+    "category": 85,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21322,
+    "tradeCurrency": [
+      {
+        "shop": "Decorative Egg: Exchange Bronze for Silver",
+        "npcs": [
+          1007904,
+          1007905,
+          1007906
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7062",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7063",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66953,
+      66954,
+      66955
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1007904",
+      "obj": {
+        "i": 1007904,
+        "n": "Dreamer",
+        "l": 53,
+        "s": 3,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.19,
+          9.39
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1007905",
+      "obj": {
+        "i": 1007905,
+        "n": "Dreamer",
+        "l": 28,
+        "s": 3,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.3,
+          13.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1007906",
+      "obj": {
+        "i": 1007906,
+        "n": "Dreamer",
+        "l": 40,
+        "s": 3,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.69,
+          9.16
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7062",
+      "obj": {
+        "i": 7062,
+        "n": "Silver Decorative Egg",
+        "l": 1,
+        "c": 21321,
+        "t": 85
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66953",
+      "obj": {
+        "i": 66953,
+        "n": "Eggsigent Circumstances",
+        "g": 242,
+        "l": "Gridania",
+        "s": 38
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66954",
+      "obj": {
+        "i": 66954,
+        "n": "Nothing to Yolk About",
+        "g": 242,
+        "l": "Gridania",
+        "s": 39
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66955",
+      "obj": {
+        "i": 66955,
+        "n": "The Yolks on Us",
+        "g": 242,
+        "l": "Gridania",
+        "s": 40
+      }
+    }
+  ]
+}

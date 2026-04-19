@@ -1,0 +1,405 @@
+{
+  "item": {
+    "name": "Glacier Crystal",
+    "description": "A crystal aspected to both ice and water. House chefs for wealthy and noble families will oft use these rare specimens to chill ales and white wines during the summer moons.",
+    "id": 10122,
+    "patch": 2.5,
+    "patchCategory": 5,
+    "price": 4500,
+    "ilvl": 90,
+    "category": 54,
+    "dyecount": 0,
+    "sell_price": 360,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20002,
+    "tradeCurrency": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10110",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10123",
+                "amount": 10
+              },
+              {
+                "id": "10122",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10122",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allied Seals (Other)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10122",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10122",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10122",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10122",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "leves": [
+      790,
+      791,
+      792,
+      793
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10123",
+      "obj": {
+        "i": 10123,
+        "n": "Gigant Clam",
+        "l": 80,
+        "c": 29047,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "10110",
+      "obj": {
+        "i": 10110,
+        "n": "Talan's Seal of Fishing Mastery",
+        "l": 1,
+        "c": 26177,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10146",
+      "obj": {
+        "i": 10146,
+        "n": "Better Crowned Pie",
+        "l": 110,
+        "c": 24057,
+        "t": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "790",
+      "obj": {
+        "i": 790,
+        "n": "Putting the Zap on Nature",
+        "l": 45,
+        "j": 19,
+        "p": 67
+      }
+    },
+    {
+      "type": "leve",
+      "id": "791",
+      "obj": {
+        "i": 791,
+        "n": "Awash in Evidence",
+        "l": 45,
+        "j": 19,
+        "p": 67
+      }
+    },
+    {
+      "type": "leve",
+      "id": "792",
+      "obj": {
+        "i": 792,
+        "n": "Snail Fail",
+        "l": 45,
+        "j": 19,
+        "p": 67
+      }
+    },
+    {
+      "type": "leve",
+      "id": "793",
+      "obj": {
+        "i": 793,
+        "n": "Sleeper Creeper",
+        "l": 45,
+        "j": 19,
+        "p": 67
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "item": {
+    "name": "Broken Heart Pendant (Right)",
+    "description": "When held aloft, this pendant magically summons half of a flying heart. The right half.",
+    "mount": {
+      "name": "Broken Heart (right)",
+      "action": "Summon forth your broken heart─a magicked chair representing the right half of a Valentione's Day heart.",
+      "description": "Burdened with a warehouse of unsold broken heart chairs, House Valentione came up with the diabolic plan to repurpose the cushions with cloudsbreath and peddle them to the unknowing masses as flying mounts.",
+      "tooltip": "But alas...the heart<br>will not be denied.<br>   - Byakudan",
+      "icon": 4114,
+      "guideIcon": 68114
+    },
+    "id": 21908,
+    "patch": 4.2,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52582,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1025313
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21908",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22403",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "469-1-1"
+    ],
+    "quests": [
+      68618
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025313",
+      "obj": {
+        "i": 1025313,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22403",
+      "obj": {
+        "i": 22403,
+        "n": "Old Valentione's Day Chocolate",
+        "l": 1,
+        "c": 24063,
+        "t": 85
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68618",
+      "obj": {
+        "i": 68618,
+        "n": "Lessons in Love",
+        "g": 238,
+        "l": "Gridania",
+        "s": 150,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "item": {
+    "name": "Virtu Goetia Tricorne",
+    "jobCategories": "BLM",
+    "id": 37013,
+    "patch": 6.1,
+    "patchCategory": 3,
+    "price": 2,
+    "ilvl": 1,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5594,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 3,
+    "elvl": 1,
+    "jobs": 26,
+    "models": [
+      "166-4-0-0"
+    ],
+    "attr": {
+      "Defense": 8,
+      "Magic Defense": 14
+    },
+    "icon": 41963,
+    "sharedModels": [
+      10210,
+      11824
+    ],
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (DoM Gear) I",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "37013",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10210",
+      "obj": {
+        "i": 10210,
+        "n": "Antiquated Goetia Tricorne",
+        "l": 200,
+        "c": 41232,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "11824",
+      "obj": {
+        "i": 11824,
+        "n": "Goetia Tricorne",
+        "l": 210,
+        "c": 41232,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

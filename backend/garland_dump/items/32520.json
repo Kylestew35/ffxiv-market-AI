@@ -1,0 +1,236 @@
+{
+  "item": {
+    "name": "Augmented Cryptlurker's Sollerets of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 32520,
+    "patch": 5.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 530,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 975,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1778,
+    "slot": 8,
+    "elvl": 80,
+    "jobs": 59,
+    "models": [
+      "708-1-0-0"
+    ],
+    "attr": {
+      "Defense": 610,
+      "Magic Defense": 610,
+      "Strength": 129,
+      "Vitality": 136,
+      "Critical Hit": 126,
+      "Determination": 88
+    },
+    "attr_max": {
+      "Strength": 348,
+      "Dexterity": 348,
+      "Vitality": 368,
+      "Intelligence": 348,
+      "Mind": 348,
+      "Piety": 340,
+      "GP": 7,
+      "CP": 5,
+      "Tenacity": 340,
+      "Defense": 2880,
+      "Direct Hit Rate": 340,
+      "Magic Defense": 2880,
+      "Critical Hit": 340,
+      "Fire Resistance": 43,
+      "Ice Resistance": 43,
+      "Wind Resistance": 43,
+      "Earth Resistance": 43,
+      "Lightning Resistance": 43,
+      "Water Resistance": 43,
+      "Determination": 340,
+      "Skill Speed": 340,
+      "Spell Speed": 340,
+      "Slow Resistance": 15,
+      "Petrification Resistance": 15,
+      "Paralysis Resistance": 15,
+      "Silence Resistance": 15,
+      "Blind Resistance": 15,
+      "Poison Resistance": 15,
+      "Stun Resistance": 15,
+      "Sleep Resistance": 15,
+      "Bind Resistance": 15,
+      "Heavy Resistance": 15,
+      "Doom Resistance": 15,
+      "Craftsmanship": 191,
+      "Control": 832,
+      "Gathering": 93,
+      "Perception": 512
+    },
+    "icon": 47241,
+    "sharedModels": [
+      32440,
+      32446,
+      32526
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW, IL 530)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32520",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cryptlurker Gear Augmentation (DoW) I",
+        "npcs": [
+          1027563
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32520",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32440",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cryptlurker Gear (IL 530)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32520",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "32440",
+      "obj": {
+        "i": 32440,
+        "n": "Cryptlurker's Sollerets of Fending",
+        "l": 520,
+        "c": 47241,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "32446",
+      "obj": {
+        "i": 32446,
+        "n": "Cryptlurker's Sollerets of Maiming",
+        "l": 520,
+        "c": 47242,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "32526",
+      "obj": {
+        "i": 32526,
+        "n": "Augmented Cryptlurker's Sollerets of Maiming",
+        "l": 530,
+        "c": 47242,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027563",
+      "obj": {
+        "i": 1027563,
+        "n": "Shee-Tatch",
+        "l": 2952,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.34,
+          12.05
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "item": {
+    "name": "Shiva's Diamond Astrometer",
+    "jobCategories": "AST",
+    "id": 10576,
+    "patch": 3.0,
+    "patchCategory": 0,
+    "price": 34701,
+    "ilvl": 115,
+    "category": 89,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 615,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 662,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 99,
+    "models": [
+      "2101-5-2-0",
+      "2199-1-7-0"
+    ],
+    "attr": {
+      "Physical Damage": 64,
+      "Magic Damage": 64,
+      "Delay": 3.2,
+      "Mind": 45,
+      "Vitality": 41,
+      "Piety": 46,
+      "Determination": 32,
+      "Direct Hit Rate": 9
+    },
+    "icon": 34806,
+    "sharedModels": [
+      10575
+    ],
+    "tradeShops": [
+      {
+        "shop": "Primal Gear",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10576",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10575",
+                "amount": 1
+              },
+              {
+                "id": "9559",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal Gear (IL 100-115)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10576",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10575",
+                "amount": 1
+              },
+              {
+                "id": "9559",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10575",
+      "obj": {
+        "i": 10575,
+        "n": "True Ice Astrometer",
+        "l": 110,
+        "c": 34806,
+        "t": 89
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "9559",
+      "obj": {
+        "i": 9559,
+        "n": "Diamond Dust",
+        "l": 1,
+        "c": 20003,
+        "t": 63
+      }
+    }
+  ]
+}

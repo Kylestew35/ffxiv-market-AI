@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Sabotender Emperador Horn",
+    "description": "This eccentric horn emits a thunderous toot that summons the Sabotender Emperador.",
+    "mount": {
+      "name": "Sabotender Emperador",
+      "action": "Summon forth Sabotender Emperador and bask in his desert sun radiance.",
+      "description": "No one knows exactly why the Manderville Gold Saucer was built to resemble a sabotender, just as no one knows why its mascot is a sabotender or why more than half of its drink menu features sabotender-themed “cact-tails.” This giant flying sabotender will not see you any closer to those answers, but it is fun to stare at.",
+      "tooltip": "Very fleet of foot,<br>those sabotenders.<br>   - Mayaru Moyaru",
+      "icon": 4140,
+      "guideIcon": 68140
+    },
+    "id": 24628,
+    "patch": 4.5,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24628",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 2000000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "533-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

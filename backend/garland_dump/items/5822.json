@@ -1,0 +1,140 @@
+{
+  "item": {
+    "name": "Black Urushi",
+    "description": "Originating from a country in the Far East, this glossy black coating, made from the sap of the lacquer tree, is often used on wooden crafts.",
+    "id": 5822,
+    "patch": 1.0,
+    "patchCategory": 8,
+    "price": 139,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22852,
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event",
+        "npcs": [
+          1017613,
+          1017614,
+          1017615
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5822",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "5821",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Seasonal Event",
+        "npcs": [
+          1017613,
+          1017614,
+          1017615
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "2705",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "5822",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017613",
+      "obj": {
+        "i": 1017613,
+        "n": "Recompense Officer",
+        "l": 53,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017614",
+      "obj": {
+        "i": 1017614,
+        "n": "Recompense Officer",
+        "l": 28,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "11.2",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017615",
+      "obj": {
+        "i": 1017615,
+        "n": "Recompense Officer",
+        "l": 41,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5821",
+      "obj": {
+        "i": 5821,
+        "n": "Raw Urushi",
+        "l": 1,
+        "c": 22852,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "2705",
+      "obj": {
+        "i": 2705,
+        "n": "Black Usagi Kabuto",
+        "l": 20,
+        "c": 40037,
+        "t": 34,
+        "p": 850
+      }
+    }
+  ]
+}

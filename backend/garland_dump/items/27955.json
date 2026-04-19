@@ -1,0 +1,413 @@
+{
+  "item": {
+    "name": "Crimson Firesand",
+    "description": "The use of coarse saltpeter makes this flammable powder slightly more volatile than normal firesand.",
+    "id": 27955,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2799,
+    "ilvl": 390,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22656,
+    "craft": [
+      {
+        "id": 3857,
+        "job": 14,
+        "rlvl": 390,
+        "durability": 40,
+        "quality": 3010,
+        "progress": 597,
+        "lvl": 71,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27954,
+            "amount": 3
+          },
+          {
+            "id": 5527,
+            "amount": 3
+          },
+          {
+            "id": 19931,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 85,
+          "hq": 105
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25635": 1,
+      "25795": 1,
+      "25955": 1,
+      "26115": 1,
+      "26275": 1,
+      "34087": 1,
+      "34237": 1,
+      "34387": 1,
+      "26435": 1,
+      "33894": 2,
+      "38548": 2,
+      "39556": 2,
+      "41607": 2,
+      "44983": 2
+    },
+    "desynthedFrom": [
+      34087
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Coarse Saltpeter",
+      "id": 27954,
+      "icon": 22615,
+      "category": 54,
+      "ilvl": 385,
+      "price": 210,
+      "ventures": [
+        801
+      ],
+      "nodes": [
+        591
+      ]
+    },
+    {
+      "name": "Brimstone",
+      "id": 5527,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 28,
+      "price": 103,
+      "desynthedFrom": [
+        9535,
+        12723,
+        12835
+      ],
+      "tradeShops": [
+        {
+          "shop": "Black Copper Gil Exchange",
+          "npcs": [
+            1016804
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5527",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21079",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        126
+      ],
+      "nodes": [
+        176
+      ],
+      "vendors": [
+        1016804
+      ]
+    },
+    {
+      "name": "Larch Log",
+      "id": 19931,
+      "icon": 22403,
+      "category": 50,
+      "ilvl": 265,
+      "price": 524,
+      "ventures": [
+        670
+      ],
+      "nodes": [
+        507
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "591",
+      "obj": {
+        "i": 591,
+        "n": "Twitch",
+        "l": 70,
+        "t": 1,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "node",
+      "id": "176",
+      "obj": {
+        "i": 176,
+        "n": "Oakwood",
+        "l": 30,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "507",
+      "obj": {
+        "i": 507,
+        "n": "Onokoro",
+        "l": 65,
+        "t": 2,
+        "z": 2409
+      }
+    },
+    {
+      "type": "item",
+      "id": "27954",
+      "obj": {
+        "i": 27954,
+        "n": "Coarse Saltpeter",
+        "l": 385,
+        "c": 22615,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5527",
+      "obj": {
+        "i": 5527,
+        "n": "Brimstone",
+        "l": 28,
+        "c": 22613,
+        "t": 54,
+        "p": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "19931",
+      "obj": {
+        "i": 19931,
+        "n": "Larch Log",
+        "l": 265,
+        "c": 22403,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "25635",
+      "obj": {
+        "i": 25635,
+        "n": "Deepgold Revolver",
+        "l": 385,
+        "c": 34463,
+        "t": 88,
+        "p": 39744
+      }
+    },
+    {
+      "type": "item",
+      "id": "25795",
+      "obj": {
+        "i": 25795,
+        "n": "Deepgold Arquebus",
+        "l": 395,
+        "c": 34456,
+        "t": 88,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25955",
+      "obj": {
+        "i": 25955,
+        "n": "Bluespirit Handgonne",
+        "l": 403,
+        "c": 34464,
+        "t": 88,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "26115",
+      "obj": {
+        "i": 26115,
+        "n": "Titanbronze Musketoon",
+        "l": 409,
+        "c": 34454,
+        "t": 88,
+        "p": 43149
+      }
+    },
+    {
+      "type": "item",
+      "id": "26275",
+      "obj": {
+        "i": 26275,
+        "n": "Dwarven Mythril Pistol",
+        "l": 415,
+        "c": 34458,
+        "t": 88,
+        "p": 44283
+      }
+    },
+    {
+      "type": "item",
+      "id": "34087",
+      "obj": {
+        "i": 34087,
+        "n": "High Durium Pistol",
+        "l": 515,
+        "c": 34423,
+        "t": 88,
+        "p": 45417
+      }
+    },
+    {
+      "type": "item",
+      "id": "34237",
+      "obj": {
+        "i": 34237,
+        "n": "High Durium Musketoon",
+        "l": 525,
+        "c": 34417,
+        "t": 88,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34387",
+      "obj": {
+        "i": 34387,
+        "n": "Bismuth Blunderbuss",
+        "l": 533,
+        "c": 34411,
+        "t": 88,
+        "p": 47685
+      }
+    },
+    {
+      "type": "item",
+      "id": "26435",
+      "obj": {
+        "i": 26435,
+        "n": "Murderer",
+        "l": 450,
+        "c": 34453,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "33894",
+      "obj": {
+        "i": 33894,
+        "n": "Augmented Ekplexis",
+        "l": 430,
+        "c": 34466,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "38548",
+      "obj": {
+        "i": 38548,
+        "n": "The Fae's Crown Handgonne",
+        "l": 430,
+        "c": 34451,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "39556",
+      "obj": {
+        "i": 39556,
+        "n": "Rubellux Knifelock",
+        "l": 430,
+        "c": 34470,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "41607",
+      "obj": {
+        "i": 41607,
+        "n": "Smaragdine Pistol",
+        "l": 430,
+        "c": 34407,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "44983",
+      "obj": {
+        "i": 44983,
+        "n": "Adamant Pistol",
+        "l": 430,
+        "c": 34409,
+        "t": 88
+      }
+    }
+  ]
+}

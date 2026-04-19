@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Firecrest Trophy",
+    "description": "A stunning trophy crafted from an item believed to contain the soul of a legendary dragon.<br><br>※One per estate only.",
+    "id": 15986,
+    "patch": 3.45,
+    "patchCategory": 9,
+    "price": 99792,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "sell_price": 57,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52236,
+    "tradeShops": [
+      {
+        "shop": "Gelmorran Potsherd Exchange",
+        "npcs": [
+          1017338
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15986",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16168",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017338",
+      "obj": {
+        "i": 1017338,
+        "n": "E-Una-Kotor",
+        "l": 56,
+        "s": 2,
+        "r": 1,
+        "a": 129,
+        "c": [
+          25.12,
+          20.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "16168",
+      "obj": {
+        "i": 16168,
+        "n": "Firecrest",
+        "l": 1,
+        "c": 25988,
+        "t": 61
+      }
+    }
+  ]
+}

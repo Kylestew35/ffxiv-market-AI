@@ -1,0 +1,559 @@
+{
+  "item": {
+    "name": "Manor Highback Chair",
+    "description": "A haunting chair custom-made for Haukke Manor.",
+    "id": 6520,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 8811,
+    "ilvl": 30,
+    "category": 57,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 52451,
+    "craft": [
+      {
+        "id": 1762,
+        "job": 8,
+        "rlvl": 27,
+        "durability": 70,
+        "quality": 360,
+        "progress": 91,
+        "lvl": 27,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 5371,
+            "amount": 3,
+            "quality": 30.201342
+          },
+          {
+            "id": 5064,
+            "amount": 2,
+            "quality": 27.785234
+          },
+          {
+            "id": 7038,
+            "amount": 1
+          },
+          {
+            "id": 4,
+            "amount": 3
+          },
+          {
+            "id": 3,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 240,
+          "hq": 260
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "77"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Walnut Lumber",
+      "id": 5371,
+      "icon": 22456,
+      "category": 50,
+      "ilvl": 25,
+      "price": 219,
+      "craft": [
+        {
+          "id": 1056,
+          "job": 8,
+          "rlvl": 25,
+          "durability": 40,
+          "quality": 528,
+          "progress": 44,
+          "lvl": 25,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5388,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6351,
+        6352,
+        6359,
+        35568
+      ],
+      "treasure": [
+        6688,
+        6689
+      ],
+      "vendors": [
+        1009205
+      ]
+    },
+    {
+      "name": "Walnut Log",
+      "id": 5388,
+      "icon": 22404,
+      "category": 50,
+      "ilvl": 25,
+      "price": 64,
+      "leves": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "ventures": [
+        236
+      ],
+      "nodes": [
+        24
+      ]
+    },
+    {
+      "name": "Silver Ingot",
+      "id": 5064,
+      "icon": 20810,
+      "category": 49,
+      "ilvl": 23,
+      "price": 176,
+      "craft": [
+        {
+          "id": 725,
+          "job": 11,
+          "rlvl": 23,
+          "durability": 40,
+          "quality": 480,
+          "progress": 39,
+          "lvl": 23,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5113,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        9530,
+        4462
+      ],
+      "treasure": [
+        6688,
+        6689
+      ]
+    },
+    {
+      "name": "Silver Ore",
+      "id": 5113,
+      "icon": 21211,
+      "category": 48,
+      "ilvl": 23,
+      "price": 52,
+      "voyages": [
+        {
+          "id": 16,
+          "type": 0
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5113",
+                  "amount": 8
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "ventures": [
+        108
+      ],
+      "nodes": [
+        47
+      ]
+    },
+    {
+      "name": "Fine Wax",
+      "id": 7038,
+      "icon": 25051,
+      "category": 54,
+      "ilvl": 28,
+      "price": 279,
+      "instances": [
+        6,
+        6
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5388",
+      "obj": {
+        "i": 5388,
+        "n": "Walnut Log",
+        "l": 25,
+        "c": 22404,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 2,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "5113",
+      "obj": {
+        "i": 5113,
+        "n": "Silver Ore",
+        "l": 23,
+        "c": 21211,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "instance",
+      "id": "6",
+      "obj": {
+        "i": 6,
+        "n": "Haukke Manor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 28,
+        "max_lvl": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "5371",
+      "obj": {
+        "i": 5371,
+        "n": "Walnut Lumber",
+        "l": 25,
+        "c": 22456,
+        "t": 50,
+        "p": 219
+      }
+    },
+    {
+      "type": "item",
+      "id": "5064",
+      "obj": {
+        "i": 5064,
+        "n": "Silver Ingot",
+        "l": 23,
+        "c": 20810,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "7038",
+      "obj": {
+        "i": 7038,
+        "n": "Fine Wax",
+        "l": 28,
+        "c": 25051,
+        "t": 54
+      }
+    }
+  ]
+}

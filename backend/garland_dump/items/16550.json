@@ -1,0 +1,395 @@
+{
+  "item": {
+    "name": "Tarnished Alexandrian Pedal",
+    "description": "A uniquely crafted pedal discovered in Alexander's main sector.<br><br>Two pedals can be traded for special foot gear.",
+    "id": 16550,
+    "patch": 3.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20970,
+    "instances": [
+      30039,
+      30040,
+      30042,
+      30039,
+      30040,
+      30042
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Alexandrian Part Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16407",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16413",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16419",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Alexandrian Part Exchange (DoW) II",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16425",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16431",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Alexandrian Part Exchange (DoM)",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16437",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16443",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prototype Alexandrian Gear (IL 250)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16407",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16413",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16419",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16431",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16425",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16443",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16437",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16550",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30039",
+      "obj": {
+        "i": 30039,
+        "n": "Alexander - The Eyes of the Creator",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 230
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30040",
+      "obj": {
+        "i": 30040,
+        "n": "Alexander - The Breath of the Creator",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 230
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30042",
+      "obj": {
+        "i": 30042,
+        "n": "Alexander - The Soul of the Creator",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 230
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "16407",
+      "obj": {
+        "i": 16407,
+        "n": "Prototype Alexandrian Sollerets of Fending",
+        "l": 250,
+        "c": 46642,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "16413",
+      "obj": {
+        "i": 16413,
+        "n": "Prototype Alexandrian Sollerets of Maiming",
+        "l": 250,
+        "c": 46644,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "16419",
+      "obj": {
+        "i": 16419,
+        "n": "Prototype Alexandrian Thighboots of Striking",
+        "l": 250,
+        "c": 46646,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "16425",
+      "obj": {
+        "i": 16425,
+        "n": "Prototype Alexandrian Thighboots of Aiming",
+        "l": 250,
+        "c": 46648,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "16431",
+      "obj": {
+        "i": 16431,
+        "n": "Prototype Alexandrian Thighboots of Scouting",
+        "l": 250,
+        "c": 46650,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "16437",
+      "obj": {
+        "i": 16437,
+        "n": "Prototype Alexandrian Boots of Healing",
+        "l": 250,
+        "c": 46652,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "16443",
+      "obj": {
+        "i": 16443,
+        "n": "Prototype Alexandrian Boots of Casting",
+        "l": 250,
+        "c": 46654,
+        "t": 38
+      }
+    }
+  ]
+}

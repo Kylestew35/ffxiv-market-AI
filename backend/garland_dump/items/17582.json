@@ -1,0 +1,161 @@
+{
+  "item": {
+    "name": "Thunderscale",
+    "description": "A king among amber salamanders, and lord of the waters of the Iron Feast.<br><br>[Suitable for printing on extra large canvases.]",
+    "fish": {
+      "guide": "Having no other explanation as to why this lone amber salamander would exhibit the ability to emit electric shocks from its skin, the fisher who first discovered this unique wavekin simply assumed that it was because it fed upon the shed scales of a thunder dragon. As of this writing, no one has been able to confirm or deny her claim.",
+      "icon": 79437,
+      "weatherRestricted": 1,
+      "folklore": 12702,
+      "spots": [
+        {
+          "spot": 120,
+          "transition": [
+            "Clouds",
+            "Dust Storms",
+            "Fog"
+          ],
+          "weather": [
+            "Thunder"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 494,
+          "baits": [
+            [
+              12704,
+              12722
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 17582,
+    "patch": 3.5,
+    "patchCategory": 7,
+    "price": 3000,
+    "ilvl": 230,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 82,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29437,
+    "fishingSpots": [
+      120
+    ],
+    "desynthedTo": [
+      5722,
+      5723,
+      5818,
+      5827
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "120",
+      "obj": {
+        "i": 120,
+        "n": "The Iron Feast",
+        "l": 55,
+        "c": 1,
+        "z": 2000,
+        "x": 31.62,
+        "y": 6.06
+      }
+    },
+    {
+      "type": "item",
+      "id": "12702",
+      "obj": {
+        "i": 12702,
+        "n": "Tome of Ichthyological Folklore - Dravania",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12704",
+      "obj": {
+        "i": 12704,
+        "n": "Stonefly Nymph",
+        "l": 120,
+        "c": 27028,
+        "t": 33,
+        "p": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "12722",
+      "obj": {
+        "i": 12722,
+        "n": "Blueclaw Shrimp",
+        "l": 125,
+        "c": 29404,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "5722",
+      "obj": {
+        "i": 5722,
+        "n": "Quicktongue Materia IV",
+        "l": 70,
+        "c": 20228,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5723",
+      "obj": {
+        "i": 5723,
+        "n": "Quicktongue Materia V",
+        "l": 160,
+        "c": 20259,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5818",
+      "obj": {
+        "i": 5818,
+        "n": "Brown Pigment",
+        "l": 28,
+        "c": 21462,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5827",
+      "obj": {
+        "i": 5827,
+        "n": "Allagan Platinum Piece",
+        "l": 45,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

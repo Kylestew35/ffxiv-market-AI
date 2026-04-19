@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "True Griffin Horn",
+    "description": "A beautifully carved horn that summons a true griffin trained since birth to carry riders on her back.",
+    "mount": {
+      "name": "True Griffin",
+      "action": "Summon forth your true griffin, a noble winged beast native to the hidden reaches of Abalathia's Spine.",
+      "description": "Covered in the pristine white feathers representative of a true griffin, this native of Abalathia's Spine has been trained by Giff, one of the Ala Mhigan Resistance's most competent handlers. So tame is the creature that it will even emit powerful bursts of air on command.",
+      "tooltip": "Their meat's supposed to be<br>some of the best around.<br>   - Papin",
+      "icon": 4113,
+      "guideIcon": 68113
+    },
+    "id": 22459,
+    "patch": 4.2,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Ananta Dreamstaff Exchange",
+        "npcs": [
+          1024774
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22459",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21935",
+                "amount": 18
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "236-2-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024774",
+      "obj": {
+        "i": 1024774,
+        "n": "Madhura",
+        "l": 2406,
+        "s": 1,
+        "t": "Dreamstaff Exchange",
+        "r": 1,
+        "a": 2632,
+        "c": [
+          20.98,
+          26.25
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21935",
+      "obj": {
+        "i": 21935,
+        "n": "Ananta Dreamstaff",
+        "l": 1,
+        "c": 65061,
+        "t": 100
+      }
+    }
+  ]
+}

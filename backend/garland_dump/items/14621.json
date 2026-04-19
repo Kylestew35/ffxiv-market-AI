@@ -1,0 +1,205 @@
+{
+  "item": {
+    "name": "Midan Trousers of Healing",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 14621,
+    "patch": 3.2,
+    "patchCategory": 0,
+    "price": 117612,
+    "ilvl": 240,
+    "category": 36,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1235,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1230,
+    "slot": 7,
+    "elvl": 60,
+    "jobs": 64,
+    "models": [
+      "343-1-0-0"
+    ],
+    "attr": {
+      "Defense": 142,
+      "Magic Defense": 248,
+      "Mind": 85,
+      "Vitality": 77,
+      "Critical Hit": 86,
+      "Piety": 60
+    },
+    "attr_max": {
+      "Strength": 59,
+      "Dexterity": 85,
+      "Vitality": 86,
+      "Intelligence": 59,
+      "GP": 6,
+      "CP": 7,
+      "Tenacity": 86,
+      "Defense": 195,
+      "Direct Hit Rate": 86,
+      "Fire Resistance": 25,
+      "Ice Resistance": 25,
+      "Wind Resistance": 25,
+      "Earth Resistance": 25,
+      "Lightning Resistance": 25,
+      "Water Resistance": 25,
+      "Determination": 86,
+      "Skill Speed": 86,
+      "Spell Speed": 86,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 24,
+      "Control": 134,
+      "Gathering": 108,
+      "Perception": 54
+    },
+    "icon": 45749,
+    "instances": [
+      30036
+    ],
+    "sharedModels": [
+      14545,
+      14546,
+      14622
+    ],
+    "tradeShops": [
+      {
+        "shop": "Midan Manifesto Exchange (DoM)",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14310",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Midan Gear (IL 240-245)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14310",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30036",
+      "obj": {
+        "i": 30036,
+        "n": "Alexander - The Arm of the Son (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 225
+      }
+    },
+    {
+      "type": "item",
+      "id": "14545",
+      "obj": {
+        "i": 14545,
+        "n": "Prototype Midan Trousers of Healing",
+        "l": 220,
+        "c": 45749,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14546",
+      "obj": {
+        "i": 14546,
+        "n": "Prototype Midan Trousers of Casting",
+        "l": 220,
+        "c": 45750,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14622",
+      "obj": {
+        "i": 14622,
+        "n": "Midan Trousers of Casting",
+        "l": 240,
+        "c": 45750,
+        "t": 36
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14310",
+      "obj": {
+        "i": 14310,
+        "n": "Midan Manifesto - Page 3",
+        "l": 1,
+        "c": 26198,
+        "t": 61
+      }
+    }
+  ]
+}

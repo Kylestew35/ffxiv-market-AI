@@ -1,0 +1,47 @@
+{
+  "item": {
+    "name": "Yok Kukuru Pod",
+    "description": "A rather hefty pod harvested from a kukuru tree in Yok Tural. The value is in the beans, but the pulp has its own uses.",
+    "id": 43939,
+    "patch": 7.0,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 665,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26110,
+    "ingredient_of": {
+      "43911": 1
+    },
+    "usedInQuest": [
+      70522
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "43911",
+      "obj": {
+        "i": 43911,
+        "n": "Kukuru Pulp Juice",
+        "l": 665,
+        "c": 24422,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70522",
+      "obj": {
+        "i": 70522,
+        "n": "The Missing Drink",
+        "g": 211,
+        "l": "Tuliyollal",
+        "s": 350
+      }
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "item": {
+    "name": "Gatherer's Guile Materia V",
+    "id": 5693,
+    "patch": 3.0,
+    "patchCategory": 10,
+    "price": 6000,
+    "ilvl": 160,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 108,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20255,
+    "tradeShops": [
+      {
+        "shop": "Mhachi Matter Exchange",
+        "npcs": [
+          1017107,
+          1019461
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5693",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Materia)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5693",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5693",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 200
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5693",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 4,
+      "value": 10,
+      "attr": "Perception",
+      "category": 2
+    },
+    "quests": [
+      67860,
+      67862,
+      68093,
+      68094,
+      68159,
+      68160,
+      68434,
+      68435,
+      68634
+    ],
+    "desynthedFrom": [
+      24990,
+      24887,
+      21178
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017107",
+      "obj": {
+        "i": 1017107,
+        "n": "Smacklix",
+        "l": 2082,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 2092,
+        "c": [
+          7.65,
+          4.84
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019461",
+      "obj": {
+        "i": 1019461,
+        "n": "Switchstix",
+        "l": 2403,
+        "s": 1,
+        "t": "Materia Provisioner",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          12.5,
+          11.38
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "16783",
+      "obj": {
+        "i": 16783,
+        "n": "Mhachi Demimatter",
+        "l": 1,
+        "c": 20404,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67860",
+      "obj": {
+        "i": 67860,
+        "n": "The Tools Make the Moogle",
+        "g": 54,
+        "l": "The Churning Mists",
+        "s": 5,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67862",
+      "obj": {
+        "i": 67862,
+        "n": "Piecing Together the Past",
+        "g": 54,
+        "l": "The Churning Mists",
+        "s": 7,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68093",
+      "obj": {
+        "i": 68093,
+        "n": "Where the Money Takes You",
+        "g": 172,
+        "l": "Idyllshire",
+        "s": 680,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68094",
+      "obj": {
+        "i": 68094,
+        "n": "A Miner Success",
+        "g": 172,
+        "l": "Idyllshire",
+        "s": 700,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68159",
+      "obj": {
+        "i": 68159,
+        "n": "The White Death",
+        "g": 173,
+        "l": "Idyllshire",
+        "s": 680,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68160",
+      "obj": {
+        "i": 68160,
+        "n": "Edgyth's Winning Streak",
+        "g": 173,
+        "l": "Idyllshire",
+        "s": 700,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68434",
+      "obj": {
+        "i": 68434,
+        "n": "Always a Bigger Fish",
+        "g": 174,
+        "l": "Limsa Lominsa",
+        "s": 680,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68435",
+      "obj": {
+        "i": 68435,
+        "n": "Farewell, and Thanks for the Fish",
+        "g": 174,
+        "l": "Limsa Lominsa",
+        "s": 700,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68634",
+      "obj": {
+        "i": 68634,
+        "n": "Big, Big Fish",
+        "g": 60,
+        "l": "The Azim Steppe",
+        "s": 3,
+        "f": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "24990",
+      "obj": {
+        "i": 24990,
+        "n": "Xenacanthus",
+        "l": 360,
+        "c": 29548,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24887",
+      "obj": {
+        "i": 24887,
+        "n": "Hermit's End",
+        "l": 340,
+        "c": 29545,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "21178",
+      "obj": {
+        "i": 21178,
+        "n": "Guppy",
+        "l": 300,
+        "c": 29444,
+        "t": 47
+      }
+    }
+  ]
+}

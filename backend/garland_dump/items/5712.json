@@ -1,0 +1,438 @@
+{
+  "item": {
+    "name": "Craftsman's Command Materia IV",
+    "id": 5712,
+    "patch": 1.0,
+    "patchCategory": 10,
+    "price": 5000,
+    "ilvl": 55,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 90,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20204,
+    "tradeShops": [
+      {
+        "shop": "DoH Materia Exchange",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5712",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14104",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Materia)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5712",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5712",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 25
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 3,
+      "value": 4,
+      "attr": "Control",
+      "category": 1
+    },
+    "quests": [
+      67057,
+      67102,
+      67103,
+      67104,
+      67407,
+      67492,
+      67536,
+      67537,
+      67541,
+      67542,
+      67546,
+      67547,
+      67577,
+      67578,
+      67582,
+      67583,
+      67604,
+      67605,
+      67609,
+      67610,
+      67614,
+      67615,
+      67858
+    ],
+    "voyages": [
+      {
+        "id": 16,
+        "type": 0
+      }
+    ],
+    "alla": {
+      "source": [
+        "VOYAGE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14104",
+      "obj": {
+        "i": 14104,
+        "n": "Goblin Cup",
+        "l": 1,
+        "c": 26106,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67057",
+      "obj": {
+        "i": 67057,
+        "n": "Your Gil's No Good Here",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 62,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67102",
+      "obj": {
+        "i": 67102,
+        "n": "Bring Your Own Ectoplasm",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 65,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67103",
+      "obj": {
+        "i": 67103,
+        "n": "In Case of Emergency",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 66,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67104",
+      "obj": {
+        "i": 67104,
+        "n": "We Fly High (Squawkin')",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 67,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67407",
+      "obj": {
+        "i": 67407,
+        "n": "Laying the First Brick",
+        "g": 120,
+        "l": "The Churning Mists",
+        "s": 5611
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67492",
+      "obj": {
+        "i": 67492,
+        "n": "Cityfriends",
+        "g": 121,
+        "l": "Idyllshire",
+        "s": 5823
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67536",
+      "obj": {
+        "i": 67536,
+        "n": "The Son Also Rises",
+        "g": 164,
+        "l": "Ishgard",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67537",
+      "obj": {
+        "i": 67537,
+        "n": "More Fierce than Fire",
+        "g": 164,
+        "l": "Ishgard",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67541",
+      "obj": {
+        "i": 67541,
+        "n": "Spinning the Truth",
+        "g": 169,
+        "l": "Ishgard",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67542",
+      "obj": {
+        "i": 67542,
+        "n": "Never Leave without a Good-bye",
+        "g": 169,
+        "l": "Ishgard",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67546",
+      "obj": {
+        "i": 67546,
+        "n": "Blade That Was Broken",
+        "g": 165,
+        "l": "Ishgard",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67547",
+      "obj": {
+        "i": 67547,
+        "n": "Integrity",
+        "g": 165,
+        "l": "Ishgard",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67577",
+      "obj": {
+        "i": 67577,
+        "n": "The Reforging of Blanstyr",
+        "g": 166,
+        "l": "Limsa Lominsa",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67578",
+      "obj": {
+        "i": 67578,
+        "n": "The Pride of Vymelli",
+        "g": 166,
+        "l": "Limsa Lominsa",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67582",
+      "obj": {
+        "i": 67582,
+        "n": "Love Meat Tender",
+        "g": 171,
+        "l": "Limsa Lominsa",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67583",
+      "obj": {
+        "i": 67583,
+        "n": "The Spirit of Hospitality",
+        "g": 171,
+        "l": "Limsa Lominsa",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67604",
+      "obj": {
+        "i": 67604,
+        "n": "Burden of Proof",
+        "g": 170,
+        "l": "Mor Dhona",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67605",
+      "obj": {
+        "i": 67605,
+        "n": "What Death Can Join Together",
+        "g": 170,
+        "l": "Mor Dhona",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67609",
+      "obj": {
+        "i": 67609,
+        "n": "A Masterclass",
+        "g": 167,
+        "l": "Ul'dah",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67610",
+      "obj": {
+        "i": 67610,
+        "n": "Two Hearts Beat as One",
+        "g": 167,
+        "l": "Ul'dah",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67614",
+      "obj": {
+        "i": 67614,
+        "n": "From the Hoplon to the Brume",
+        "g": 168,
+        "l": "Ishgard",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67615",
+      "obj": {
+        "i": 67615,
+        "n": "A Winter's Sale",
+        "g": 168,
+        "l": "Ishgard",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67858",
+      "obj": {
+        "i": 67858,
+        "n": "Trying Times",
+        "g": 54,
+        "l": "The Churning Mists",
+        "s": 3,
+        "f": 1
+      }
+    }
+  ]
+}

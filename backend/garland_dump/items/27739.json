@@ -1,0 +1,847 @@
+{
+  "item": {
+    "name": "Green Glider Leather",
+    "description": "A large piece of cured green glider skin.",
+    "id": 27739,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2838,
+    "ilvl": 395,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22011,
+    "craft": [
+      {
+        "id": 3841,
+        "job": 12,
+        "rlvl": 395,
+        "durability": 40,
+        "quality": 3040,
+        "progress": 610,
+        "lvl": 72,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27733,
+            "amount": 4
+          },
+          {
+            "id": 27817,
+            "amount": 1
+          },
+          {
+            "id": 11,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 124,
+          "hq": 144
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25791": 1,
+      "25798": 1,
+      "25799": 1,
+      "25804": 1,
+      "25807": 1,
+      "25808": 1,
+      "25809": 3,
+      "25810": 2,
+      "25813": 1,
+      "25815": 3,
+      "25816": 1,
+      "25819": 2,
+      "25820": 2,
+      "25821": 1,
+      "25822": 2,
+      "25824": 1,
+      "25825": 2,
+      "25826": 2,
+      "25827": 1,
+      "25828": 2,
+      "25831": 2,
+      "25832": 2,
+      "25833": 1,
+      "25834": 2,
+      "25836": 1,
+      "25837": 1,
+      "25838": 2,
+      "25839": 1,
+      "25840": 2,
+      "25842": 1,
+      "25843": 1,
+      "25844": 2,
+      "25845": 1,
+      "25846": 2,
+      "35765": 1,
+      "44880": 2,
+      "27241": 1,
+      "31042": 2,
+      "31057": 1,
+      "31072": 1,
+      "32255": 9,
+      "32256": 9,
+      "32257": 9,
+      "33245": 9,
+      "33246": 9,
+      "33247": 9
+    },
+    "leves": [
+      1421,
+      1422,
+      1423
+    ],
+    "desynthedFrom": [
+      26082
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Green Glider Skin",
+      "id": 27733,
+      "icon": 22004,
+      "category": 52,
+      "ilvl": 400,
+      "price": 2302,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027665
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27733",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        776
+      ]
+    },
+    {
+      "name": "Yellow Alumen",
+      "id": 27817,
+      "icon": 22657,
+      "category": 54,
+      "ilvl": 385,
+      "price": 630,
+      "ventures": [
+        800
+      ],
+      "nodes": [
+        591
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "591",
+      "obj": {
+        "i": 591,
+        "n": "Twitch",
+        "l": 70,
+        "t": 1,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "27733",
+      "obj": {
+        "i": 27733,
+        "n": "Green Glider Skin",
+        "l": 400,
+        "c": 22004,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "27817",
+      "obj": {
+        "i": 27817,
+        "n": "Yellow Alumen",
+        "l": 385,
+        "c": 22657,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "25791",
+      "obj": {
+        "i": 25791,
+        "n": "Applewood Spear",
+        "l": 395,
+        "c": 31982,
+        "t": 5,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25798",
+      "obj": {
+        "i": 25798,
+        "n": "Gliderskin Grimoire",
+        "l": 395,
+        "c": 33296,
+        "t": 10,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25799",
+      "obj": {
+        "i": 25799,
+        "n": "Gliderskin Codex",
+        "l": 395,
+        "c": 33295,
+        "t": 98,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25804",
+      "obj": {
+        "i": 25804,
+        "n": "Deepgold Chakrams",
+        "l": 395,
+        "c": 36221,
+        "t": 107,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25807",
+      "obj": {
+        "i": 25807,
+        "n": "Deepgold Mail of Fending",
+        "l": 395,
+        "c": 48192,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25808",
+      "obj": {
+        "i": 25808,
+        "n": "Deepgold Gloves of Fending",
+        "l": 395,
+        "c": 48793,
+        "t": 37,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25809",
+      "obj": {
+        "i": 25809,
+        "n": "Gliderskin Breeches of Fending",
+        "l": 395,
+        "c": 47595,
+        "t": 36,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25810",
+      "obj": {
+        "i": 25810,
+        "n": "Gliderskin Thighboots of Fending",
+        "l": 395,
+        "c": 49057,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25813",
+      "obj": {
+        "i": 25813,
+        "n": "Deepgold Surcoat of Maiming",
+        "l": 395,
+        "c": 48191,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25815",
+      "obj": {
+        "i": 25815,
+        "n": "Gliderskin Breeches of Maiming",
+        "l": 395,
+        "c": 47594,
+        "t": 36,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25816",
+      "obj": {
+        "i": 25816,
+        "n": "Deepgold Sollerets of Maiming",
+        "l": 395,
+        "c": 47206,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25819",
+      "obj": {
+        "i": 25819,
+        "n": "Iridescent Acton of Striking",
+        "l": 395,
+        "c": 43460,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25820",
+      "obj": {
+        "i": 25820,
+        "n": "Gliderskin Gloves of Striking",
+        "l": 395,
+        "c": 48787,
+        "t": 37,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25821",
+      "obj": {
+        "i": 25821,
+        "n": "Iridescent Bottoms of Striking",
+        "l": 395,
+        "c": 47587,
+        "t": 36,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25822",
+      "obj": {
+        "i": 25822,
+        "n": "Gliderskin Thighboots of Striking",
+        "l": 395,
+        "c": 49051,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25824",
+      "obj": {
+        "i": 25824,
+        "n": "Iridescent Hat of Aiming",
+        "l": 395,
+        "c": 41460,
+        "t": 34,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25825",
+      "obj": {
+        "i": 25825,
+        "n": "Iridescent Acton of Aiming",
+        "l": 395,
+        "c": 43462,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25826",
+      "obj": {
+        "i": 25826,
+        "n": "Gliderskin Gloves of Aiming",
+        "l": 395,
+        "c": 48788,
+        "t": 37,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25827",
+      "obj": {
+        "i": 25827,
+        "n": "Iridescent Bottoms of Aiming",
+        "l": 395,
+        "c": 47589,
+        "t": 36,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25828",
+      "obj": {
+        "i": 25828,
+        "n": "Gliderskin Boots of Aiming",
+        "l": 395,
+        "c": 49053,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25831",
+      "obj": {
+        "i": 25831,
+        "n": "Iridescent Acton of Scouting",
+        "l": 395,
+        "c": 43461,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25832",
+      "obj": {
+        "i": 25832,
+        "n": "Gliderskin Gloves of Scouting",
+        "l": 395,
+        "c": 48789,
+        "t": 37,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25833",
+      "obj": {
+        "i": 25833,
+        "n": "Iridescent Bottoms of Scouting",
+        "l": 395,
+        "c": 47588,
+        "t": 36,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25834",
+      "obj": {
+        "i": 25834,
+        "n": "Gliderskin Thighboots of Scouting",
+        "l": 395,
+        "c": 49052,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25836",
+      "obj": {
+        "i": 25836,
+        "n": "Iridescent Hat of Healing",
+        "l": 395,
+        "c": 41462,
+        "t": 34,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25837",
+      "obj": {
+        "i": 25837,
+        "n": "Iridescent Top of Healing",
+        "l": 395,
+        "c": 43891,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25838",
+      "obj": {
+        "i": 25838,
+        "n": "Gliderskin Gloves of Healing",
+        "l": 395,
+        "c": 44722,
+        "t": 37,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25839",
+      "obj": {
+        "i": 25839,
+        "n": "Iridescent Bottoms of Healing",
+        "l": 395,
+        "c": 47593,
+        "t": 36,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25840",
+      "obj": {
+        "i": 25840,
+        "n": "Gliderskin Boots of Healing",
+        "l": 395,
+        "c": 49056,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25842",
+      "obj": {
+        "i": 25842,
+        "n": "Iridescent Hat of Casting",
+        "l": 395,
+        "c": 41461,
+        "t": 34,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25843",
+      "obj": {
+        "i": 25843,
+        "n": "Iridescent Top of Casting",
+        "l": 395,
+        "c": 43890,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25844",
+      "obj": {
+        "i": 25844,
+        "n": "Gliderskin Gloves of Casting",
+        "l": 395,
+        "c": 44721,
+        "t": 37,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25845",
+      "obj": {
+        "i": 25845,
+        "n": "Iridescent Bottoms of Casting",
+        "l": 395,
+        "c": 47592,
+        "t": 36,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25846",
+      "obj": {
+        "i": 25846,
+        "n": "Gliderskin Boots of Casting",
+        "l": 395,
+        "c": 49055,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "35765",
+      "obj": {
+        "i": 35765,
+        "n": "Bluespirit Sickle",
+        "l": 403,
+        "c": 37234,
+        "t": 108,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "44880",
+      "obj": {
+        "i": 44880,
+        "n": "Patchwork Sofa",
+        "l": 690,
+        "c": 52815,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "27241",
+      "obj": {
+        "i": 27241,
+        "n": "Upholstery Repair Materials",
+        "l": 400,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "31042",
+      "obj": {
+        "i": 31042,
+        "n": "Rarefied Gliderskin Thighboots",
+        "l": 403,
+        "c": 49057,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31057",
+      "obj": {
+        "i": 31057,
+        "n": "Rarefied Iridescent Top",
+        "l": 403,
+        "c": 43890,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31072",
+      "obj": {
+        "i": 31072,
+        "n": "Rarefied Gliderskin Grimoire",
+        "l": 403,
+        "c": 33296,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "32255",
+      "obj": {
+        "i": 32255,
+        "n": "Small Florist's Walls",
+        "l": 1,
+        "c": 50840,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "32256",
+      "obj": {
+        "i": 32256,
+        "n": "Medium Florist's Walls",
+        "l": 1,
+        "c": 50841,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "32257",
+      "obj": {
+        "i": 32257,
+        "n": "Large Florist's Walls",
+        "l": 1,
+        "c": 50842,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "33245",
+      "obj": {
+        "i": 33245,
+        "n": "Small Forge's Walls",
+        "l": 1,
+        "c": 50843,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "33246",
+      "obj": {
+        "i": 33246,
+        "n": "Medium Forge's Walls",
+        "l": 1,
+        "c": 50844,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "33247",
+      "obj": {
+        "i": 33247,
+        "n": "Large Forge's Walls",
+        "l": 1,
+        "c": 50845,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1421",
+      "obj": {
+        "i": 1421,
+        "n": "Breeches of Trust",
+        "l": 72,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1422",
+      "obj": {
+        "i": 1422,
+        "n": "Glove Me Tender",
+        "l": 72,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1423",
+      "obj": {
+        "i": 1423,
+        "n": "A Slippery Slope",
+        "l": 72,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "26082",
+      "obj": {
+        "i": 26082,
+        "n": "Ravel Keeper's Headband of Casting",
+        "l": 406,
+        "c": 41776,
+        "t": 34
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "item": {
+    "name": "Cornmeal",
+    "description": "Coarsely milled millioncorn.",
+    "id": 4827,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 57,
+    "ilvl": 29,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25356,
+    "vendors": [
+      1000301
+    ],
+    "craft": [
+      {
+        "id": 971,
+        "job": 15,
+        "rlvl": 29,
+        "durability": 40,
+        "quality": 640,
+        "progress": 50,
+        "lvl": 29,
+        "materialQualityFactor": 0,
+        "yield": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 4821,
+            "amount": 3
+          },
+          {
+            "id": 2,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 46,
+          "hq": 66
+        }
+      }
+    ],
+    "ingredient_of": {
+      "4700": 1,
+      "12850": 1,
+      "41095": 2
+    },
+    "requiredByLeves": [
+      299
+    ],
+    "supply": {
+      "count": 1,
+      "xp": 65600,
+      "seals": 223
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Millioncorn",
+      "id": 4821,
+      "icon": 25352,
+      "category": 45,
+      "ilvl": 16,
+      "price": 26,
+      "ventures": [
+        242
+      ],
+      "nodes": [
+        40
+      ],
+      "seeds": [
+        7721
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "40",
+      "obj": {
+        "i": 40,
+        "n": "Drybone",
+        "l": 25,
+        "t": 3,
+        "z": 44
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000301",
+      "obj": {
+        "i": 1000301,
+        "n": "Littlejohn",
+        "l": 53,
+        "s": 1,
+        "t": "Whistling Miller Proprietor",
+        "c": [
+          "9.4",
+          "7.7"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4821",
+      "obj": {
+        "i": 4821,
+        "n": "Millioncorn",
+        "l": 16,
+        "c": 25352,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4700",
+      "obj": {
+        "i": 4700,
+        "n": "Cornbread",
+        "l": 30,
+        "c": 24005,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "12850",
+      "obj": {
+        "i": 12850,
+        "n": "Ishgardian Muffin",
+        "l": 130,
+        "c": 24074,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "41095",
+      "obj": {
+        "i": 41095,
+        "n": "Manderville's Adventurer Flakes",
+        "l": 560,
+        "c": 53466,
+        "t": 78
+      }
+    },
+    {
+      "type": "leve",
+      "id": "299",
+      "obj": {
+        "i": 299,
+        "n": "True Grits",
+        "l": 30,
+        "j": 16,
+        "p": 27
+      }
+    }
+  ]
+}

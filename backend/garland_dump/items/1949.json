@@ -1,0 +1,436 @@
+{
+  "item": {
+    "name": "Longarm's Composite Bow",
+    "jobCategories": "ARC BRD",
+    "id": 1949,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 15681,
+    "ilvl": 55,
+    "category": 4,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 118,
+    "rarity": 2,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "equip": 1,
+    "sockets": 3,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 317,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 50,
+    "models": [
+      "601-4-4-0",
+      "698-1-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 52,
+      "Magic Damage": 26,
+      "Delay": 3.2,
+      "Dexterity": 13,
+      "Vitality": 17,
+      "Determination": 22,
+      "Critical Hit": 16
+    },
+    "attr_hq": {
+      "Physical Damage": 58,
+      "Magic Damage": 29,
+      "Dexterity": 15,
+      "Vitality": 19,
+      "Determination": 25,
+      "Critical Hit": 18
+    },
+    "attr_max": {
+      "Strength": 15,
+      "Intelligence": 11,
+      "Mind": 11,
+      "Piety": 18,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 25,
+      "Direct Hit Rate": 25,
+      "Critical Hit": 25,
+      "Fire Resistance": 8,
+      "Ice Resistance": 8,
+      "Wind Resistance": 8,
+      "Earth Resistance": 8,
+      "Lightning Resistance": 8,
+      "Water Resistance": 8,
+      "Skill Speed": 25,
+      "Spell Speed": 25,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 126,
+      "Control": 72,
+      "Gathering": 132,
+      "Perception": 75
+    },
+    "icon": 32216,
+    "sharedModels": [
+      1908,
+      1914,
+      1923,
+      1925,
+      1931,
+      1940,
+      1942,
+      6274,
+      6743,
+      11144,
+      31509
+    ],
+    "craft": [
+      {
+        "id": 1529,
+        "job": 8,
+        "rlvl": 55,
+        "durability": 80,
+        "quality": 2200,
+        "progress": 210,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 255,
+        "quickSynthControl": 318,
+        "ingredients": [
+          {
+            "id": 5568,
+            "amount": 1
+          },
+          {
+            "id": 5378,
+            "amount": 1,
+            "quality": 550.0
+          },
+          {
+            "id": 10,
+            "amount": 3
+          },
+          {
+            "id": 9,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 225,
+          "hq": 245
+        }
+      }
+    ],
+    "usedInQuest": [
+      66661
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bloody Bow Rim",
+      "id": 5568,
+      "icon": 21003,
+      "category": 56,
+      "ilvl": 55,
+      "price": 5227,
+      "instances": [
+        10,
+        10
+      ],
+      "leves": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "name": "Spruce Lumber",
+      "id": 5378,
+      "icon": 22465,
+      "category": 50,
+      "ilvl": 55,
+      "price": 1045,
+      "craft": [
+        {
+          "id": 1526,
+          "job": 8,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5395,
+              "amount": 3
+            },
+            {
+              "id": 10,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6353,
+        6389,
+        6391,
+        9724,
+        5568,
+        4924
+      ],
+      "treasure": [
+        6692
+      ]
+    },
+    {
+      "name": "Spruce Log",
+      "id": 5395,
+      "icon": 22413,
+      "category": 50,
+      "ilvl": 55,
+      "price": 304,
+      "ventures": [
+        516
+      ],
+      "nodes": [
+        211
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "10",
+      "obj": {
+        "i": 10,
+        "n": "The Wanderer's Palace",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "item",
+      "id": "5395",
+      "obj": {
+        "i": 5395,
+        "n": "Spruce Log",
+        "l": 55,
+        "c": 22413,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "211",
+      "obj": {
+        "i": 211,
+        "n": "Providence Point",
+        "l": 50,
+        "t": 2,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "1908",
+      "obj": {
+        "i": 1908,
+        "n": "Ash Composite Bow",
+        "l": 28,
+        "c": 32215,
+        "t": 4,
+        "p": 3738
+      }
+    },
+    {
+      "type": "item",
+      "id": "1914",
+      "obj": {
+        "i": 1914,
+        "n": "Joukil's Guile",
+        "l": 30,
+        "c": 32223,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "1923",
+      "obj": {
+        "i": 1923,
+        "n": "Lominsan Composite Bow",
+        "l": 40,
+        "c": 32244,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "1925",
+      "obj": {
+        "i": 1925,
+        "n": "Oak Composite Bow",
+        "l": 40,
+        "c": 32214,
+        "t": 4,
+        "p": 7776
+      }
+    },
+    {
+      "type": "item",
+      "id": "1931",
+      "obj": {
+        "i": 1931,
+        "n": "Ul'dahn Composite Bow",
+        "l": 43,
+        "c": 32216,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "1940",
+      "obj": {
+        "i": 1940,
+        "n": "Alesone's Songbow",
+        "l": 52,
+        "c": 32229,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "1942",
+      "obj": {
+        "i": 1942,
+        "n": "Crab Bow",
+        "l": 49,
+        "c": 32217,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "6274",
+      "obj": {
+        "i": 6274,
+        "n": "Darklight Composite Bow",
+        "l": 55,
+        "c": 32229,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "6743",
+      "obj": {
+        "i": 6743,
+        "n": "Wolf Bow",
+        "l": 55,
+        "c": 32217,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "11144",
+      "obj": {
+        "i": 11144,
+        "n": "Expunger",
+        "l": 130,
+        "c": 32286,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "31509",
+      "obj": {
+        "i": 31509,
+        "n": "Crier's Composite Bow",
+        "l": 40,
+        "c": 32390,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "5568",
+      "obj": {
+        "i": 5568,
+        "n": "Bloody Bow Rim",
+        "l": 55,
+        "c": 21003,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "5378",
+      "obj": {
+        "i": 5378,
+        "n": "Spruce Lumber",
+        "l": 55,
+        "c": 22465,
+        "t": 50
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66661",
+      "obj": {
+        "i": 66661,
+        "n": "A Relic Reborn (Artemis Bow)",
+        "g": 179,
+        "l": "North Shroud",
+        "s": 7,
+        "f": 1
+      }
+    }
+  ]
+}

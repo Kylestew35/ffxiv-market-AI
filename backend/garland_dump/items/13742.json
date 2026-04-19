@@ -1,0 +1,929 @@
+{
+  "item": {
+    "name": "Steamed Staff",
+    "description": "Not actually a staff, but a dish made from steaming a freshwater fish known as a retribution staff─a long, thin wavekin believed to be the cause of storms.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 13742,
+    "patch": 3.1,
+    "patchCategory": 6,
+    "price": 1267,
+    "ilvl": 160,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 15,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 30
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 29
+        },
+        "Skill Speed": {
+          "rate": 8,
+          "limit": 18
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 36
+        },
+        "Skill Speed": {
+          "rate": 10,
+          "limit": 23
+        }
+      }
+    },
+    "icon": 24317,
+    "craft": [
+      {
+        "id": 31337,
+        "job": 15,
+        "rlvl": 160,
+        "durability": 70,
+        "quality": 2800,
+        "progress": 660,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 1,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "craftsmanshipReq": 620,
+        "quickSynthCraftsmanship": 718,
+        "unlockId": 12251,
+        "ingredients": [
+          {
+            "id": 13738,
+            "amount": 1
+          },
+          {
+            "id": 7602,
+            "amount": 1
+          },
+          {
+            "id": 12632,
+            "amount": 1
+          },
+          {
+            "id": 12643,
+            "amount": 1
+          },
+          {
+            "id": 12901,
+            "amount": 1
+          },
+          {
+            "id": 12936,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 387,
+          "hq": 407
+        }
+      }
+    ],
+    "quests": [
+      67767
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Retribution Staff",
+      "id": 13738,
+      "icon": 29302,
+      "category": 47,
+      "ilvl": 150,
+      "price": 1425,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13738",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13738",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fishingSpots": [
+        10017,
+        10018,
+        10019
+      ]
+    },
+    {
+      "name": "Star Anise",
+      "id": 7602,
+      "icon": 25024,
+      "category": 45,
+      "ilvl": 90,
+      "price": 427,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7602",
+                  "amount": 10
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7602",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7602",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7602",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        27,
+        28,
+        26
+      ],
+      "seeds": [
+        7748
+      ]
+    },
+    {
+      "name": "Abalathian Spring Water",
+      "id": 12632,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 142,
+      "price": 899,
+      "ventures": [
+        455
+      ],
+      "nodes": [
+        354
+      ]
+    },
+    {
+      "name": "Coriander",
+      "id": 12643,
+      "icon": 25036,
+      "category": 54,
+      "ilvl": 148,
+      "price": 703,
+      "ventures": [
+        476
+      ],
+      "nodes": [
+        300
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    },
+    {
+      "name": "Duskborne Aethersand",
+      "id": 12936,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 139,
+      "price": 880,
+      "reducedFrom": [
+        5214,
+        5218,
+        12968,
+        33148
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10017",
+      "obj": {
+        "i": 10017,
+        "n": "Diadem Grotto",
+        "l": 70,
+        "c": 1,
+        "z": 1647,
+        "x": 14,
+        "y": 34
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10018",
+      "obj": {
+        "i": 10018,
+        "n": "Southern Diadem Lake",
+        "l": 1,
+        "c": 1,
+        "z": 1647,
+        "x": 8,
+        "y": 30
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10019",
+      "obj": {
+        "i": 10019,
+        "n": "Northern Diadem Lake",
+        "l": 60,
+        "c": 1,
+        "z": 1647,
+        "x": 10,
+        "y": 9
+      }
+    },
+    {
+      "type": "instance",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Snowcloak",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Sastasha (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "26",
+      "obj": {
+        "i": 26,
+        "n": "The Sunken Temple of Qarn (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "354",
+      "obj": {
+        "i": 354,
+        "n": "Voor Sian Siran",
+        "l": 60,
+        "t": 0,
+        "z": 2100
+      }
+    },
+    {
+      "type": "node",
+      "id": "300",
+      "obj": {
+        "i": 300,
+        "n": "Twinpools",
+        "l": 60,
+        "t": 3,
+        "z": 2200,
+        "s": 1
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5214",
+      "obj": {
+        "i": 5214,
+        "n": "Fire Moraine",
+        "l": 139,
+        "c": 21456,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5218",
+      "obj": {
+        "i": 5218,
+        "n": "Lightning Moraine",
+        "l": 139,
+        "c": 21461,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12968",
+      "obj": {
+        "i": 12968,
+        "n": "Granular Clay",
+        "l": 139,
+        "c": 27407,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33148",
+      "obj": {
+        "i": 33148,
+        "n": "Pot Marjoram",
+        "l": 139,
+        "c": 25010,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12251",
+      "obj": {
+        "i": 12251,
+        "n": "Master Culinarian III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13738",
+      "obj": {
+        "i": 13738,
+        "n": "Retribution Staff",
+        "l": 150,
+        "c": 29302,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "7602",
+      "obj": {
+        "i": 7602,
+        "n": "Star Anise",
+        "l": 90,
+        "c": 25024,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12632",
+      "obj": {
+        "i": 12632,
+        "n": "Abalathian Spring Water",
+        "l": 142,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12643",
+      "obj": {
+        "i": 12643,
+        "n": "Coriander",
+        "l": 148,
+        "c": 25036,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "item",
+      "id": "12936",
+      "obj": {
+        "i": 12936,
+        "n": "Duskborne Aethersand",
+        "l": 139,
+        "c": 22613,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67767",
+      "obj": {
+        "i": 67767,
+        "n": "As It Once Was",
+        "g": 4,
+        "l": "Ishgard",
+        "s": 9
+      }
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "item": {
+    "name": "Salted Thavnairian Cod",
+    "description": "A whole shallows cod, broiled and sprinkled with salt to bring out its fishy flavor.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36056,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 545,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 61
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 66
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 37
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 76
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 82
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 46
+        }
+      }
+    },
+    "icon": 24315,
+    "craft": [
+      {
+        "id": 5271,
+        "job": 15,
+        "rlvl": 550,
+        "durability": 80,
+        "quality": 7000,
+        "progress": 3300,
+        "lvl": 88,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36536,
+            "amount": 1
+          },
+          {
+            "id": 36078,
+            "amount": 3,
+            "quality": 540.5405
+          },
+          {
+            "id": 27835,
+            "amount": 3
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 478,
+          "hq": 498
+        }
+      }
+    ],
+    "quests": [
+      69648,
+      69872,
+      70023
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Shallows Cod",
+      "id": 36536,
+      "icon": 29012,
+      "category": 47,
+      "ilvl": 547,
+      "price": 99999,
+      "ventures": [
+        955
+      ],
+      "nodes": [
+        894,
+        900
+      ]
+    },
+    {
+      "name": "Northern Sea Salt",
+      "id": 36078,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5283,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36084,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sharlayan Rock Salt",
+      "id": 36084,
+      "icon": 22688,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "leves": [
+        1638
+      ],
+      "ventures": [
+        895
+      ],
+      "nodes": [
+        815
+      ]
+    },
+    {
+      "name": "Lemonette",
+      "id": 27835,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 420,
+      "price": 630,
+      "ventures": [
+        858
+      ],
+      "nodes": [
+        632
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "894",
+      "obj": {
+        "i": 894,
+        "n": "Southern Great Runoff",
+        "l": 90,
+        "t": 5,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "900",
+      "obj": {
+        "i": 900,
+        "n": "Outer Akyaali",
+        "l": 90,
+        "t": 5,
+        "z": 3709,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "item",
+      "id": "36084",
+      "obj": {
+        "i": 36084,
+        "n": "Sharlayan Rock Salt",
+        "l": 520,
+        "c": 22688,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "815",
+      "obj": {
+        "i": 815,
+        "n": "The Aesthete's Tholos",
+        "l": 85,
+        "t": 0,
+        "z": 3708
+      }
+    },
+    {
+      "type": "node",
+      "id": "632",
+      "obj": {
+        "i": 632,
+        "n": "Sharptongue Drip",
+        "l": 80,
+        "t": 2,
+        "z": 2954,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36536",
+      "obj": {
+        "i": 36536,
+        "n": "Shallows Cod",
+        "l": 547,
+        "c": 29012,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36078",
+      "obj": {
+        "i": 36078,
+        "n": "Northern Sea Salt",
+        "l": 520,
+        "c": 25104,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27835",
+      "obj": {
+        "i": 27835,
+        "n": "Lemonette",
+        "l": 420,
+        "c": 25305,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69648",
+      "obj": {
+        "i": 69648,
+        "n": "Trail of Skulls",
+        "g": 221,
+        "l": "The Lochs",
+        "s": 241,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69872",
+      "obj": {
+        "i": 69872,
+        "n": "Harbinger of Breath",
+        "g": 141,
+        "l": "Labyrinthos",
+        "s": 8303
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70023",
+      "obj": {
+        "i": 70023,
+        "n": "The Hero in Labyrinthos",
+        "g": 141,
+        "l": "Labyrinthos",
+        "s": 9204
+      }
+    }
+  ]
+}

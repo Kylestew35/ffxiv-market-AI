@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Goldor Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 372",
+    "id": 40607,
+    "patch": 6.4,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tradeShops": [
+      {
+        "shop": "Exchange Allied Seals",
+        "npcs": [
+          1032254
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40607",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 300
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "In the clamoring halls of the Celestium arena did this arcane warrior clad in gold make his villainous debut. Later revealed to be yet another disguise employed by Martyn, the gilded sorcerer unleashed an assortment of spells amplified by a special device during his bout."
+      },
+      "ja": {
+        "description": "闘技場「ブルースカイ」に颯爽と現れた謎の黄金闘士。その正体は初代マスク・ザ・ブルーことマーティンその人であり、試合では多彩な魔法を特殊な装置で増幅した上で披露し、新たな敵役として輝きを放った。"
+      },
+      "de": {
+        "description": "Aus heiterem Himmel tauchte dieser güldene Krieger eines Tages in der himmlischen Arena auf. Gerüchten zufolge handelt es sich bei dem mysteriösen wandelnden Goldklumpen wohl in Wirklichkeit um den Blaumagier Martyn, besser bekannt unter dem Ringnamen „Blaubert Veilchenblau“.\r\nUnterstützt von allerhand Tricks und Apparaturen der Arena bewies er sich ein ums andere Mal als ein formidabler Rivale und ist nun in aller Munde."
+      },
+      "fr": {
+        "description": "Un mystérieux mage doré apparu dans l'arène du Ciel azur. Il s'agit en fait de Martyn, le Bleuet masqué original, jouant pour la première fois un rôle d'antagoniste. Celui-ci a fait usage d'un cristal spécial pour renforcer la multitude de sorts lancés pendant son combat de la Grande Mascarade."
+      },
+      "sellMgp": 500,
+      "plate": 87383,
+      "rarity": 3,
+      "top": 4,
+      "bottom": 8,
+      "left": 8,
+      "right": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032254",
+      "obj": {
+        "i": 1032254,
+        "n": "Maudlin Latool Ja",
+        "l": 41,
+        "s": 1,
+        "r": 1,
+        "a": 648,
+        "c": [
+          12.54,
+          13.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "item": {
+    "name": "Silver Decorative Egg",
+    "description": "What manner of surprise lies in wait within this decorative egg? There is only one way to find out!",
+    "id": 7062,
+    "patch": 2.2,
+    "patchCategory": 13,
+    "price": 19,
+    "ilvl": 1,
+    "category": 85,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21321,
+    "tradeShops": [
+      {
+        "shop": "Decorative Egg: Exchange Bronze for Silver",
+        "npcs": [
+          1007904,
+          1007905,
+          1007906
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7062",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7063",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Decorative Egg: Exchange Silver for Gold",
+        "npcs": [
+          1007904,
+          1007905,
+          1007906
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7061",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7062",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1007904",
+      "obj": {
+        "i": 1007904,
+        "n": "Dreamer",
+        "l": 53,
+        "s": 3,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.19,
+          9.39
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1007905",
+      "obj": {
+        "i": 1007905,
+        "n": "Dreamer",
+        "l": 28,
+        "s": 3,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.3,
+          13.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1007906",
+      "obj": {
+        "i": 1007906,
+        "n": "Dreamer",
+        "l": 40,
+        "s": 3,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.69,
+          9.16
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7063",
+      "obj": {
+        "i": 7063,
+        "n": "Bronze Decorative Egg",
+        "l": 1,
+        "c": 21322,
+        "t": 85
+      }
+    },
+    {
+      "type": "item",
+      "id": "7061",
+      "obj": {
+        "i": 7061,
+        "n": "Gold Decorative Egg",
+        "l": 1,
+        "c": 21320,
+        "t": 85
+      }
+    }
+  ]
+}

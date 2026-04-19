@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Starcrack Sand",
+    "description": "A metallic sand which simpleminded smallfolk believe contains pieces of the very comet Rhalgr tore from the heavens.",
+    "id": 20780,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21214,
+    "nodes": [
+      485,
+      505
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1020337,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              94,
+              117,
+              140
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              71,
+              86,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1020337,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "485",
+      "obj": {
+        "i": 485,
+        "n": "East End",
+        "l": 60,
+        "t": 0,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "node",
+      "id": "505",
+      "obj": {
+        "i": 505,
+        "n": "East End",
+        "l": 60,
+        "t": 3,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1020337",
+      "obj": {
+        "i": 1020337,
+        "n": "M'naago",
+        "l": 2403,
+        "q": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

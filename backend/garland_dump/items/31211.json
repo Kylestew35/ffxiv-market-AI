@@ -1,0 +1,239 @@
+{
+  "item": {
+    "name": "Grade 3 Skybuilders' Stone",
+    "description": "Despite its abundance in Coerthas, the skybuilders are quick to remind others that “stone like this doesn't grow on trees.” Factually accurate, yes. Logically sound, not so much.",
+    "id": 31211,
+    "patch": 5.31,
+    "patchCategory": 5,
+    "price": 900,
+    "ilvl": 290,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 31,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21251,
+    "craft": [
+      {
+        "id": 34402,
+        "job": 11,
+        "rlvl": 290,
+        "durability": 60,
+        "quality": 9900,
+        "progress": 1080,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31251,
+            "amount": 10
+          },
+          {
+            "id": 31250,
+            "amount": 10
+          },
+          {
+            "id": 31248,
+            "amount": 10
+          },
+          {
+            "id": 20008,
+            "amount": 1,
+            "quality": 270.37814
+          },
+          {
+            "id": 10,
+            "amount": 4
+          },
+          {
+            "id": 8,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 3000021,
+          "hq": 3000041
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 3 Skybuilders' Siltstone",
+      "id": 31251,
+      "icon": 23814,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Approved Grade 3 Skybuilders' Diadem Iron Sand",
+      "id": 31250,
+      "icon": 23894,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Approved Grade 3 Skybuilders' Alumen",
+      "id": 31248,
+      "icon": 23833,
+      "category": 54,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Slate Whetstone",
+      "id": 20008,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 260,
+      "price": 2745,
+      "craft": [
+        {
+          "id": 3649,
+          "job": 11,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 20007,
+              "amount": 3
+            },
+            {
+              "id": 10,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ],
+      "treasure": [
+        17835
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Slate",
+      "id": 20007,
+      "icon": 21455,
+      "category": 48,
+      "ilvl": 260,
+      "price": 514,
+      "ventures": [
+        661
+      ],
+      "nodes": [
+        489
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20007",
+      "obj": {
+        "i": 20007,
+        "n": "Slate",
+        "l": 260,
+        "c": 21455,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "489",
+      "obj": {
+        "i": 489,
+        "n": "Rustrock",
+        "l": 65,
+        "t": 1,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "31251",
+      "obj": {
+        "i": 31251,
+        "n": "Approved Grade 3 Skybuilders' Siltstone",
+        "l": 150,
+        "c": 23814,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "31250",
+      "obj": {
+        "i": 31250,
+        "n": "Approved Grade 3 Skybuilders' Diadem Iron Sand",
+        "l": 150,
+        "c": 23894,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "31248",
+      "obj": {
+        "i": 31248,
+        "n": "Approved Grade 3 Skybuilders' Alumen",
+        "l": 150,
+        "c": 23833,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "20008",
+      "obj": {
+        "i": 20008,
+        "n": "Slate Whetstone",
+        "l": 260,
+        "c": 21470,
+        "t": 48,
+        "p": 2745
+      }
+    }
+  ]
+}

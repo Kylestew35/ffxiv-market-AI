@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Vanu Whitebone Promissory Note",
+    "description": "A promissory note that can be exchanged for Vanu whitebones─tiny, bleached bones used as common currency amongst the many Vanu Vanu tribes.",
+    "id": 13632,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 2376,
+    "ilvl": 60,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26189,
+    "disposal": [
+      {
+        "amount": 1,
+        "item": 21074,
+        "shop": "Certificate Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ]
+      },
+      {
+        "amount": 1,
+        "item": 21074,
+        "shop": "Currency Exchange",
+        "npcs": [
+          1016093
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    }
+  ]
+}

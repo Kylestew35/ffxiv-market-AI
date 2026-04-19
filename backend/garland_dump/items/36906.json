@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Alkonost Whistle",
+    "description": "This whistle emits a shrill tone that summons your alkonost to your side.",
+    "mount": {
+      "name": "Alkonost",
+      "action": "Summon forth your alkonost, an imposing antlered avian native to northern Ilsabard.",
+      "description": "Captured in the Bozjan wilderness, this creature was passed around as a curiosity before eventually being released again. From the start, it seemed unperturbed in the presence of men, leading some to believe it was trained by an imperial beastmaster.",
+      "tooltip": "How goes the training<br>for your avian mount?<br>   - Luquelot",
+      "icon": 4226,
+      "guideIcon": 68226
+    },
+    "id": 36906,
+    "patch": 6.1,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36906",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37491",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "765-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "37491",
+      "obj": {
+        "i": 37491,
+        "n": "Resplendent Feather",
+        "l": 1,
+        "c": 21907,
+        "t": 61
+      }
+    }
+  ]
+}

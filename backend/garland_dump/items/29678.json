@@ -1,0 +1,132 @@
+{
+  "item": {
+    "name": "Dragonspine",
+    "description": "This spiked shell belies the soft and harmless form of the mollusk within─which itself belies the deranged lethality of said mollusk.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Though these mollusks may simply fancy dragon bone for its defensive properties, Coerthan folklore has it that their flesh arose from within it, and that they are themselves, in some sense, bone given new life. Indeed, the influence of lingering wyrm aether would explain their overall lethality...though not their predisposition toward cannibalism.",
+      "icon": 79107,
+      "spots": [
+        {
+          "spot": 113,
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 3300,
+          "baits": [
+            [
+              30136
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 29678,
+    "patch": 5.25,
+    "patchCategory": 7,
+    "price": 210,
+    "ilvl": 430,
+    "category": 47,
+    "dyecount": 0,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 29107,
+    "tradeCurrency": [
+      {
+        "shop": "Skysteel Prototype +1 Augmentation",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29644",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29633",
+                "amount": 1
+              },
+              {
+                "id": "29678",
+                "amount": 60
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fishingSpots": [
+      113
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29633",
+      "obj": {
+        "i": 29633,
+        "n": "Skysteel Fishing Rod +1",
+        "l": 455,
+        "c": 38239,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "29644",
+      "obj": {
+        "i": 29644,
+        "n": "Dragonsung Fishing Rod",
+        "l": 475,
+        "c": 38238,
+        "t": 32
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "113",
+      "obj": {
+        "i": 113,
+        "n": "Dragonspit",
+        "l": 60,
+        "c": 1,
+        "z": 2200,
+        "x": 8.71,
+        "y": 9.72
+      }
+    },
+    {
+      "type": "item",
+      "id": "30136",
+      "obj": {
+        "i": 30136,
+        "n": "Signature Skyball",
+        "l": 430,
+        "c": 27007,
+        "t": 33,
+        "p": 100
+      }
+    }
+  ]
+}

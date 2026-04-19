@@ -1,0 +1,386 @@
+{
+  "item": {
+    "name": "Lightning Ward Mega-Potion",
+    "description": "Everyone knows this elementally charged concoction significantly increases resistance to lightning-aspected damage. What few people know, however, is that after long periods of disuse, the liquid undergoes a natural alchemical transformation that grants it the same coloring properties as common dye.<br><br>Cannot be opened in instanced areas such as dungeons, PvP areas, or raids.",
+    "id": 4630,
+    "patch": 1.0,
+    "patchCategory": 4,
+    "price": 1275,
+    "ilvl": 70,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 20,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20674,
+    "craft": [
+      {
+        "id": 1575,
+        "job": 14,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 318,
+        "quickSynthControl": 374,
+        "ingredients": [
+          {
+            "id": 6152,
+            "amount": 1
+          },
+          {
+            "id": 5144,
+            "amount": 1
+          },
+          {
+            "id": 5546,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 1
+          },
+          {
+            "id": 18,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 112,
+          "hq": 132
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Volcanic Rock Salt",
+      "id": 6152,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6152",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        511
+      ],
+      "nodes": [
+        224
+      ]
+    },
+    {
+      "name": "Raw Spinel",
+      "id": 5144,
+      "icon": 21453,
+      "category": 48,
+      "ilvl": 40,
+      "price": 742,
+      "ventures": [
+        142
+      ],
+      "nodes": [
+        49
+      ]
+    },
+    {
+      "name": "Trillium Bulb",
+      "id": 5546,
+      "icon": 22623,
+      "category": 54,
+      "ilvl": 55,
+      "price": 348,
+      "ventures": [
+        520
+      ],
+      "nodes": [
+        218
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "224",
+      "obj": {
+        "i": 224,
+        "n": "Raincatcher Gully",
+        "l": 50,
+        "t": 1,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "49",
+      "obj": {
+        "i": 49,
+        "n": "Urth's Gift",
+        "l": 40,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "node",
+      "id": "218",
+      "obj": {
+        "i": 218,
+        "n": "The Honey Yard",
+        "l": 50,
+        "t": 3,
+        "z": 55,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          21
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "6152",
+      "obj": {
+        "i": 6152,
+        "n": "Volcanic Rock Salt",
+        "l": 70,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5144",
+      "obj": {
+        "i": 5144,
+        "n": "Raw Spinel",
+        "l": 40,
+        "c": 21453,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5546",
+      "obj": {
+        "i": 5546,
+        "n": "Trillium Bulb",
+        "l": 55,
+        "c": 22623,
+        "t": 54
+      }
+    }
+  ]
+}

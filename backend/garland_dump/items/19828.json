@@ -1,0 +1,243 @@
+{
+  "item": {
+    "name": "Charred Charr",
+    "description": "Heather charr sprinkled with salt and blackened over an open flame.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19828,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2098,
+    "ilvl": 265,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 24,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Determination": {
+          "rate": 8,
+          "limit": 34
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 35
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Determination": {
+          "rate": 10,
+          "limit": 43
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 44
+        }
+      }
+    },
+    "icon": 24301,
+    "vendors": [
+      1018986
+    ],
+    "craft": [
+      {
+        "id": 3570,
+        "job": 15,
+        "rlvl": 265,
+        "durability": 80,
+        "quality": 2880,
+        "progress": 680,
+        "lvl": 62,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 20050,
+            "amount": 1
+          },
+          {
+            "id": 19848,
+            "amount": 1,
+            "quality": 795.0
+          },
+          {
+            "id": 8,
+            "amount": 3
+          },
+          {
+            "id": 13,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 146,
+          "hq": 166
+        }
+      }
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 644280,
+      "seals": 713
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Heather Charr",
+      "id": 20050,
+      "icon": 29498,
+      "category": 47,
+      "ilvl": 215,
+      "price": 1000,
+      "ventures": [
+        730
+      ],
+      "fishingSpots": [
+        191,
+        193
+      ]
+    },
+    {
+      "name": "Algae Salt",
+      "id": 19848,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "craft": [
+        {
+          "id": 3586,
+          "job": 15,
+          "rlvl": 265,
+          "durability": 40,
+          "quality": 2304,
+          "progress": 340,
+          "lvl": 62,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19881,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gem Algae",
+      "id": 19881,
+      "icon": 25225,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "ventures": [
+        684
+      ],
+      "nodes": [
+        511
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "191",
+      "obj": {
+        "i": 191,
+        "n": "The Slow Wash",
+        "l": 61,
+        "c": 1,
+        "z": 2407,
+        "x": 23.62,
+        "y": 9.21
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "193",
+      "obj": {
+        "i": 193,
+        "n": "The Ephor",
+        "l": 70,
+        "c": 1,
+        "z": 2407,
+        "x": 32.03,
+        "y": 17.02
+      }
+    },
+    {
+      "type": "item",
+      "id": "19881",
+      "obj": {
+        "i": 19881,
+        "n": "Gem Algae",
+        "l": 265,
+        "c": 25225,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018986",
+      "obj": {
+        "i": 1018986,
+        "n": "Kurogai",
+        "l": 2404,
+        "s": 1,
+        "t": "Independent Culinarian",
+        "c": [
+          "12.2",
+          "12.7"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20050",
+      "obj": {
+        "i": 20050,
+        "n": "Heather Charr",
+        "l": 215,
+        "c": 29498,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "19848",
+      "obj": {
+        "i": 19848,
+        "n": "Algae Salt",
+        "l": 265,
+        "c": 25104,
+        "t": 45
+      }
+    }
+  ]
+}

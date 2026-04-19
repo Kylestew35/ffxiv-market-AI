@@ -1,0 +1,241 @@
+{
+  "item": {
+    "name": "Manor Music Stand",
+    "description": "A haunting music stand custom-made for Haukke Manor.",
+    "id": 7114,
+    "patch": 2.2,
+    "patchCategory": 9,
+    "price": 8811,
+    "ilvl": 30,
+    "category": 57,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 90,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 52512,
+    "craft": [
+      {
+        "id": 1994,
+        "job": 8,
+        "rlvl": 30,
+        "durability": 70,
+        "quality": 425,
+        "progress": 102,
+        "lvl": 30,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 7038,
+            "amount": 2
+          },
+          {
+            "id": 5371,
+            "amount": 4,
+            "quality": 34.054485
+          },
+          {
+            "id": 4,
+            "amount": 3
+          },
+          {
+            "id": 3,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 276,
+          "hq": 296
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "242"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Fine Wax",
+      "id": 7038,
+      "icon": 25051,
+      "category": 54,
+      "ilvl": 28,
+      "price": 279,
+      "instances": [
+        6,
+        6
+      ]
+    },
+    {
+      "name": "Walnut Lumber",
+      "id": 5371,
+      "icon": 22456,
+      "category": 50,
+      "ilvl": 25,
+      "price": 219,
+      "craft": [
+        {
+          "id": 1056,
+          "job": 8,
+          "rlvl": 25,
+          "durability": 40,
+          "quality": 528,
+          "progress": 44,
+          "lvl": 25,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5388,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6351,
+        6352,
+        6359,
+        35568
+      ],
+      "treasure": [
+        6688,
+        6689
+      ],
+      "vendors": [
+        1009205
+      ]
+    },
+    {
+      "name": "Walnut Log",
+      "id": 5388,
+      "icon": 22404,
+      "category": 50,
+      "ilvl": 25,
+      "price": 64,
+      "leves": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "ventures": [
+        236
+      ],
+      "nodes": [
+        24
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "6",
+      "obj": {
+        "i": 6,
+        "n": "Haukke Manor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 28,
+        "max_lvl": 31
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5388",
+      "obj": {
+        "i": 5388,
+        "n": "Walnut Log",
+        "l": 25,
+        "c": 22404,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 2,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "7038",
+      "obj": {
+        "i": 7038,
+        "n": "Fine Wax",
+        "l": 28,
+        "c": 25051,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5371",
+      "obj": {
+        "i": 5371,
+        "n": "Walnut Lumber",
+        "l": 25,
+        "c": 22456,
+        "t": 50,
+        "p": 219
+      }
+    }
+  ]
+}

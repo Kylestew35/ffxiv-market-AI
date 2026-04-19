@@ -1,0 +1,417 @@
+{
+  "item": {
+    "name": "Ukha",
+    "description": "A fish and vegetable stew popular in Garlemald. The perfect meal for a snowy night spent indoors.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36042,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 530,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Tenacity": {
+          "rate": 8,
+          "limit": 59
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 64
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Tenacity": {
+          "rate": 10,
+          "limit": 74
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 80
+        }
+      }
+    },
+    "icon": 24109,
+    "craft": [
+      {
+        "id": 5257,
+        "job": 15,
+        "rlvl": 525,
+        "durability": 80,
+        "quality": 6200,
+        "progress": 2600,
+        "lvl": 83,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36459,
+            "amount": 1
+          },
+          {
+            "id": 27822,
+            "amount": 1
+          },
+          {
+            "id": 27782,
+            "amount": 2
+          },
+          {
+            "id": 36078,
+            "amount": 1,
+            "quality": 658.22784
+          },
+          {
+            "id": 14143,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 369,
+          "hq": 389
+        }
+      }
+    ],
+    "quests": [
+      69770,
+      70037,
+      70041
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1801250,
+      "seals": 880
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Icepike",
+      "id": 36459,
+      "icon": 28514,
+      "category": 47,
+      "ilvl": 510,
+      "price": 99999,
+      "ventures": [
+        953
+      ],
+      "fishingSpots": [
+        270
+      ]
+    },
+    {
+      "name": "Russet Popoto",
+      "id": 27822,
+      "icon": 25204,
+      "category": 45,
+      "ilvl": 409,
+      "price": 630,
+      "ventures": [
+        831
+      ],
+      "nodes": [
+        630
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Northern Sea Salt",
+      "id": 36078,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5283,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36084,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sharlayan Rock Salt",
+      "id": 36084,
+      "icon": 22688,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "leves": [
+        1638
+      ],
+      "ventures": [
+        895
+      ],
+      "nodes": [
+        815
+      ]
+    },
+    {
+      "name": "Solstice Garlic",
+      "id": 14143,
+      "icon": 25006,
+      "category": 45,
+      "ilvl": 180,
+      "price": 1283,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14143",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14143",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "270",
+      "obj": {
+        "i": 270,
+        "n": "The Eblan Thaw",
+        "l": 83,
+        "c": 1,
+        "z": 3710,
+        "x": 11.09,
+        "y": 30.71
+      }
+    },
+    {
+      "type": "node",
+      "id": "630",
+      "obj": {
+        "i": 630,
+        "n": "The Dragging Tail",
+        "l": 80,
+        "t": 3,
+        "z": 2955,
+        "lt": "Unspoiled",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "36084",
+      "obj": {
+        "i": 36084,
+        "n": "Sharlayan Rock Salt",
+        "l": 520,
+        "c": 22688,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "815",
+      "obj": {
+        "i": 815,
+        "n": "The Aesthete's Tholos",
+        "l": 85,
+        "t": 0,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36459",
+      "obj": {
+        "i": 36459,
+        "n": "Icepike",
+        "l": 510,
+        "c": 28514,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27822",
+      "obj": {
+        "i": 27822,
+        "n": "Russet Popoto",
+        "l": 409,
+        "c": 25204,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36078",
+      "obj": {
+        "i": 36078,
+        "n": "Northern Sea Salt",
+        "l": 520,
+        "c": 25104,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "14143",
+      "obj": {
+        "i": 14143,
+        "n": "Solstice Garlic",
+        "l": 180,
+        "c": 25006,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69770",
+      "obj": {
+        "i": 69770,
+        "n": "Put Your Plasma Where Your Mouth Is",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1690
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70037",
+      "obj": {
+        "i": 70037,
+        "n": "Energy for All",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1580
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70041",
+      "obj": {
+        "i": 70041,
+        "n": "Mum Is the Word",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1748
+      }
+    }
+  ]
+}

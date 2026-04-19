@@ -1,0 +1,566 @@
+{
+  "item": {
+    "name": "Zoisite",
+    "description": "An indigo jewel.",
+    "id": 38931,
+    "patch": 6.3,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 620,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21286,
+    "ingredient_of": {
+      "38901": 3,
+      "38902": 3,
+      "38903": 3,
+      "38904": 3,
+      "38905": 3,
+      "38906": 3,
+      "38907": 3,
+      "38908": 3,
+      "38909": 3,
+      "38910": 3,
+      "38921": 2,
+      "38922": 2,
+      "38923": 2,
+      "38924": 2,
+      "38925": 2,
+      "38926": 2,
+      "38927": 2,
+      "38928": 2
+    },
+    "craft": [
+      {
+        "id": 35458,
+        "job": 11,
+        "rlvl": 620,
+        "durability": 35,
+        "quality": 8600,
+        "progress": 3696,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3280,
+        "craftsmanshipReq": 3700,
+        "unlockId": 37737,
+        "ingredients": [
+          {
+            "id": 38934,
+            "amount": 4
+          },
+          {
+            "id": 37284,
+            "amount": 1
+          },
+          {
+            "id": 38936,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 3
+          },
+          {
+            "id": 14,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 481,
+          "hq": 501
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raw Zoisite",
+      "id": 38934,
+      "icon": 21472,
+      "category": 48,
+      "ilvl": 600,
+      "price": 99999,
+      "ventures": [
+        981
+      ],
+      "nodes": [
+        338
+      ]
+    },
+    {
+      "name": "Immutable Solution",
+      "id": 37284,
+      "icon": 22667,
+      "category": 54,
+      "ilvl": 590,
+      "price": 99999,
+      "desynthedFrom": [
+        38183,
+        37173,
+        39007,
+        38976,
+        34838,
+        37191,
+        39002,
+        39007,
+        39011,
+        38206,
+        34847,
+        38964,
+        40263
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37284",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37284",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earthbreak Aethersand",
+      "id": 38936,
+      "icon": 21246,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "reducedFrom": [
+        38938,
+        38937,
+        38841,
+        38939
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "338",
+      "obj": {
+        "i": 338,
+        "n": "Tertium",
+        "l": 90,
+        "t": 1,
+        "z": 3710,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "38938",
+      "obj": {
+        "i": 38938,
+        "n": "Sophora Roots",
+        "l": 600,
+        "c": 25025,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38937",
+      "obj": {
+        "i": 38937,
+        "n": "Earthen Quartz",
+        "l": 600,
+        "c": 21458,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "38841",
+      "obj": {
+        "i": 38841,
+        "n": "Nosceasaur",
+        "l": 600,
+        "c": 28548,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38939",
+      "obj": {
+        "i": 38939,
+        "n": "Verdigris Guppy",
+        "l": 600,
+        "c": 28544,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38901",
+      "obj": {
+        "i": 38901,
+        "n": "Indagator's Claw Hammer",
+        "l": 620,
+        "c": 35068,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "38902",
+      "obj": {
+        "i": 38902,
+        "n": "Indagator's File",
+        "l": 620,
+        "c": 35165,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "38903",
+      "obj": {
+        "i": 38903,
+        "n": "Indagator's Pliers",
+        "l": 620,
+        "c": 35265,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "38904",
+      "obj": {
+        "i": 38904,
+        "n": "Indagator's Grinding Wheel",
+        "l": 620,
+        "c": 35365,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "38905",
+      "obj": {
+        "i": 38905,
+        "n": "Indagator's Awl",
+        "l": 620,
+        "c": 35460,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "38906",
+      "obj": {
+        "i": 38906,
+        "n": "Indagator's Spinning Wheel",
+        "l": 620,
+        "c": 35566,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "38907",
+      "obj": {
+        "i": 38907,
+        "n": "Indagator's Mortar",
+        "l": 620,
+        "c": 35665,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "38908",
+      "obj": {
+        "i": 38908,
+        "n": "Indagator's Culinary Knife",
+        "l": 620,
+        "c": 35765,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "38909",
+      "obj": {
+        "i": 38909,
+        "n": "Indagator's Sledgehammer",
+        "l": 620,
+        "c": 38065,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "38910",
+      "obj": {
+        "i": 38910,
+        "n": "Indagator's Garden Scythe",
+        "l": 620,
+        "c": 38165,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "38921",
+      "obj": {
+        "i": 38921,
+        "n": "Indagator's Earrings of Crafting",
+        "l": 620,
+        "c": 55505,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "38922",
+      "obj": {
+        "i": 38922,
+        "n": "Indagator's Necklace of Crafting",
+        "l": 620,
+        "c": 55064,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "38923",
+      "obj": {
+        "i": 38923,
+        "n": "Indagator's Bracelet of Crafting",
+        "l": 620,
+        "c": 55865,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "38924",
+      "obj": {
+        "i": 38924,
+        "n": "Indagator's Ring of Crafting",
+        "l": 620,
+        "c": 54716,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "38925",
+      "obj": {
+        "i": 38925,
+        "n": "Indagator's Earrings of Gathering",
+        "l": 620,
+        "c": 55504,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "38926",
+      "obj": {
+        "i": 38926,
+        "n": "Indagator's Necklace of Gathering",
+        "l": 620,
+        "c": 55063,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "38927",
+      "obj": {
+        "i": 38927,
+        "n": "Indagator's Bracelet of Gathering",
+        "l": 620,
+        "c": 55864,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "38928",
+      "obj": {
+        "i": 38928,
+        "n": "Indagator's Ring of Gathering",
+        "l": 620,
+        "c": 54715,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "37737",
+      "obj": {
+        "i": 37737,
+        "n": "Master Goldsmith X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "38934",
+      "obj": {
+        "i": 38934,
+        "n": "Raw Zoisite",
+        "l": 600,
+        "c": 21472,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "37284",
+      "obj": {
+        "i": 37284,
+        "n": "Immutable Solution",
+        "l": 590,
+        "c": 22667,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38936",
+      "obj": {
+        "i": 38936,
+        "n": "Earthbreak Aethersand",
+        "l": 600,
+        "c": 21246,
+        "t": 54
+      }
+    }
+  ]
+}

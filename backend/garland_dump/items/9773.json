@@ -1,0 +1,85 @@
+{
+  "item": {
+    "name": "Tonberry Card",
+    "description": "A common (★) card used in the game Triple Triad.<br>Card No. 2",
+    "id": 9773,
+    "patch": 2.51,
+    "patchCategory": 14,
+    "price": 19,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27662,
+    "instances": [
+      10,
+      30
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "Little is known about this inscrutable race of manlike creatures that inhabits the ruins of Nym─a culture that reached its peak during the Fifth Astral Era. Tonberries wear clothing and are adept in the use of complex tools, both of which would seem to suggest a civilized level of intelligence. Recently discovered texts from Nymian times suggest that the green denizens of the Wanderer's Palace are the carriers of a terrible pestilence."
+      },
+      "ja": {
+        "description": "第五星暦時代に栄えた「ニーム」文明の遺跡内に棲む謎多き民。人のように衣服を着用し、道具も器用に扱うことから知性は高いと思われる。ニーム時代の石板には、「病魔の運び手」などの不吉な記述が見られるという。"
+      },
+      "de": {
+        "description": "Es ist nur wenig bekannt über dieses rätselhafte Volk, das in einer Tempelruine aus der Zeit Nyms lebt, einer Kultur, die ihre Hochzeit während der Fünften Ära des Lichts hatte. Tomberrys tragen Kleidung und sind in der Lage, komplexe Werkzeuge zu benutzen, beides Merkmale für einen gewissen Zivilisiertheitsgrad. Kürzlich entdeckte Texte aus alten Zeiten weisen darauf hin, dass die grünen Bewohner des Palastes des Wanderers Träger einer schrecklichen Seuche sind."
+      },
+      "fr": {
+        "description": "On sait peu de choses sur ces créatures qui hantent les ruines de Nym, une cité qui a connu son apogée à la 5e ère astrale, mais leurs vêtements et leurs outils laissent supposer qu'elles sont intelligentes. De vieilles tablettes de pierre indiqueraient que les tomberrys sont porteurs d'une terrible maladie."
+      },
+      "sellMgp": 100,
+      "plate": 87002,
+      "rarity": 1,
+      "top": 2,
+      "bottom": 7,
+      "left": 2,
+      "right": 2,
+      "rewardFrom": [
+        1005249
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "10",
+      "obj": {
+        "i": 10,
+        "n": "The Wanderer's Palace",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30",
+      "obj": {
+        "i": 30,
+        "n": "The Wanderer's Palace (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005249",
+      "obj": {
+        "i": 1005249,
+        "n": "Memeroon",
+        "l": 34,
+        "q": 3,
+        "t": "Junkmonger"
+      }
+    }
+  ]
+}

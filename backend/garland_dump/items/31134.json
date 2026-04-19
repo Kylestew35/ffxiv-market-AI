@@ -1,0 +1,116 @@
+{
+  "item": {
+    "name": "Allagan Hunter",
+    "description": "Its aggressive temperament have ensured its place near the top of the food chain, although much of this aggression is directed at its own species. In a sense, the Allagan hunter is its own worst enemy.<br><br>Can only be caught when equipped with an augmented dragonsung fishing rod.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "An exotic fish best known for its glimmering gold scales, though they are often marred with the blood of their kin. Combative by nature, Allagan hunters are known to devour one another, and this cannibalistic behavior is said to be the source of their scales' resilience and lustrous sheen.",
+      "icon": 79462,
+      "spots": [
+        {
+          "spot": 140,
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "baits": [
+            [
+              30136
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 31134,
+    "patch": 5.35,
+    "patchCategory": 7,
+    "price": 210,
+    "ilvl": 460,
+    "category": 47,
+    "dyecount": 0,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 29462,
+    "tradeCurrency": [
+      {
+        "shop": "Oddly Specific Materials Exchange (Gathering)",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30340",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31134",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fishingSpots": [
+      140
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30340",
+      "obj": {
+        "i": 30340,
+        "n": "Highly Viscous Fisher's Gobbiegoo",
+        "l": 1,
+        "c": 26116,
+        "t": 61
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "140",
+      "obj": {
+        "i": 140,
+        "n": "Alpha Quadrant",
+        "l": 58,
+        "c": 6,
+        "z": 2101,
+        "x": 16.85,
+        "y": 12.04
+      }
+    },
+    {
+      "type": "item",
+      "id": "30136",
+      "obj": {
+        "i": 30136,
+        "n": "Signature Skyball",
+        "l": 430,
+        "c": 27007,
+        "t": 33,
+        "p": 100
+      }
+    }
+  ]
+}

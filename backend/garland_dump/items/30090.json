@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Little Leafman",
+    "description": "Definitely a leafman. The pixie said so.<br><br>Use item to acquire the little leafman minion.",
+    "minionrace": "Gadget",
+    "tooltip": "We're going to get\r\nalong like a leafman\r\non fire, I just know it!\r\n   - Uin Nee",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Bush Bash",
+    "specialactiondescription": "Increases ATK of all allies within range by 25.<br> <span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 30090,
+    "patch": 5.2,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59768,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027665
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30090",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 30,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield",
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 700,
+      "Skill Cost": 20,
+      "Attack": 15,
+      "Defense": 80,
+      "Speed": 1
+    },
+    "models": [
+      "8332-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

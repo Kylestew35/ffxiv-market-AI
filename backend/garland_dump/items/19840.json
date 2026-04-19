@@ -1,0 +1,99 @@
+{
+  "item": {
+    "name": "Tea Brick",
+    "description": "The fermenting of tea leaves is common practice in the Far East where tea is consumed multiple times a day. Fermentation is thought to enhance flavor while dulling the leaves' natural bitterness. Fermented leaves are pressed into bricks to save space when shipping.",
+    "id": 19840,
+    "patch": 4.05,
+    "patchCategory": 5,
+    "price": 567,
+    "ilvl": 320,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 26109,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19840",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19840",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "19810": 1,
+      "23187": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "19810",
+      "obj": {
+        "i": 19810,
+        "n": "Steppe Tea",
+        "l": 320,
+        "c": 24410,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "23187",
+      "obj": {
+        "i": 23187,
+        "n": "Matcha",
+        "l": 320,
+        "c": 24414,
+        "t": 46
+      }
+    }
+  ]
+}

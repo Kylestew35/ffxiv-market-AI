@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Augmented Minekeep's Workboots",
+    "jobCategories": "MIN",
+    "id": 15709,
+    "patch": 3.3,
+    "patchCategory": 2,
+    "price": 58806,
+    "ilvl": 200,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "slot": 8,
+    "elvl": 60,
+    "jobs": 17,
+    "models": [
+      "217-1-0-0"
+    ],
+    "attr": {
+      "Defense": 80,
+      "Magic Defense": 159,
+      "Perception": 92,
+      "Gathering": 8,
+      "Vitality": 16
+    },
+    "icon": 46470,
+    "sharedModels": [
+      10274
+    ],
+    "tradeShops": [
+      {
+        "shop": "Fieldcraft Keep Gear Augmentation",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15709",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10274",
+                "amount": 1
+              },
+              {
+                "id": "14105",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Fieldcraft Keep Gear (IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15709",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 60/IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15709",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10274",
+      "obj": {
+        "i": 10274,
+        "n": "Minekeep's Workboots",
+        "l": 180,
+        "c": 46470,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14105",
+      "obj": {
+        "i": 14105,
+        "n": "Goblin Dice",
+        "l": 1,
+        "c": 26253,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

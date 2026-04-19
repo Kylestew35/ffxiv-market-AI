@@ -1,0 +1,313 @@
+{
+  "item": {
+    "name": "Augmented Cryptlurker's Index",
+    "jobCategories": "ACN SMN",
+    "id": 32508,
+    "patch": 5.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 530,
+    "category": 10,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1778,
+    "slot": 13,
+    "elvl": 80,
+    "jobs": 69,
+    "models": [
+      "1701-91-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 105,
+      "Magic Damage": 105,
+      "Delay": 3.12,
+      "Intelligence": 213,
+      "Vitality": 202,
+      "Direct Hit Rate": 207,
+      "Determination": 145
+    },
+    "attr_max": {
+      "Strength": 213,
+      "Dexterity": 149,
+      "Vitality": 224,
+      "Mind": 149,
+      "Piety": 145,
+      "GP": 8,
+      "CP": 6,
+      "Tenacity": 207,
+      "Critical Hit": 207,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Determination": 207,
+      "Skill Speed": 207,
+      "Spell Speed": 207,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 1047,
+      "Control": 578,
+      "Gathering": 1085,
+      "Perception": 620
+    },
+    "icon": 33211,
+    "sharedModels": [
+      32428,
+      32429,
+      32509
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (IL 530 Weapons)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32508",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cryptlurker Gear Augmentation (DoM)",
+        "npcs": [
+          1027563
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32508",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32428",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cryptlurker Gear (IL 530)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32508",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Silver Chocobo Feather Exchange IV (Lv. 80 Gear)",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32508",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12995",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "32428",
+      "obj": {
+        "i": 32428,
+        "n": "Cryptlurker's Index",
+        "l": 520,
+        "c": 33211,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "32429",
+      "obj": {
+        "i": 32429,
+        "n": "Cryptlurker's Codex",
+        "l": 520,
+        "c": 33212,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "32509",
+      "obj": {
+        "i": 32509,
+        "n": "Augmented Cryptlurker's Codex",
+        "l": 530,
+        "c": 33212,
+        "t": 98
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027563",
+      "obj": {
+        "i": 1027563,
+        "n": "Shee-Tatch",
+        "l": 2952,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.34,
+          12.05
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12995",
+      "obj": {
+        "i": 12995,
+        "n": "Silver Chocobo Feather",
+        "l": 1,
+        "c": 21909,
+        "t": 61
+      }
+    }
+  ]
+}

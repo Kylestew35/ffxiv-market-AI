@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Construction Component Materials",
+    "description": "Materials required to craft a repurposed construction component.<br><br>※Only for use in moogle society quests.",
+    "id": 15752,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "15726": 1
+    },
+    "usedInQuest": [
+      67827
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15726",
+      "obj": {
+        "i": 15726,
+        "n": "Repurposed Construction Component",
+        "l": 55,
+        "c": 21005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67827",
+      "obj": {
+        "i": 67827,
+        "n": "Hasty Conclusions",
+        "g": 55,
+        "l": "The Churning Mists",
+        "s": 10,
+        "r": 1
+      }
+    }
+  ]
+}

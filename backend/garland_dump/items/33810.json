@@ -1,0 +1,58 @@
+{
+  "item": {
+    "name": "Field Notes on Dabog, Part II",
+    "description": "Further handwritten notes on the history and character of the IVth's hypertuned magitek soldier, Dabog aan Inivisch.<br><br>Use to add to your field record.",
+    "id": 33810,
+    "patch": 5.55,
+    "patchCategory": 5,
+    "price": 100,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 8,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26603,
+    "fates": [
+      1730,
+      1739
+    ],
+    "alla": {
+      "source": [
+        "FATE",
+        "FATE"
+      ]
+    },
+    "fieldnote": {
+      "id": 43,
+      "name": "Dabog aan Inivisch",
+      "description": "Race: Hrothgar\r\nAge: 34 (estimate)\r\nBirthplace: Bozja\r\n\r\n<If(Equal(IntegerParameter(1),0))><UIForeground>02</UIForeground><UIGlow>11</UIGlow>※A certain quest must be completed to view further information in this entry.<UIForeground>01</UIForeground><UIGlow>01</UIGlow>\r\n<Else/></If><If(Equal(IntegerParameter(1),1))>The following is an excerpt from the interrogation of one Sicinius mal Vellutus of the IVth Imperial Legion:\r\n\r\n'Tis true Lord Valens and the engineers of the VIIth Legion laid the foundation for my work, but let it be known it was the genius of Sicinius mal Vellutus that perfected the hypertuned soldier!\r\n\r\nTo speak in terms that you might understand, I devised a technique that allowed the extraction of memories from my dear test subject VIII, Dabog. Said memories could then be implanted into other Hrothgar captives, thereby allowing mass production of hypertuned soldiers. Brilliant, is it not? It was a breakthrough that would forever change the face of war as we knew it. Or rather, it should have...\r\n\r\nI am admittedly something of a perfectionist─it was not enough to simply <Emphasis>manufacture</Emphasis> an assortment of hypertuned soldiers. They had to be perfect. Uniform... Which is why I may have made more than a few aesthetic modifications to ensure they all resembled the original Dabog. I can hear Valens now. “Why even bother!? All those damned animals look alike.” And he certainly isn't wrong─they all do bear an uncanny resemblance to one another. Nevertheless, it was a detail I refused to overlook. And I could scarcely wait to see the looks upon your comrades' faces when my soldiers took to the field.\r\n\r\nAh, what a sight it was. The slackened jaws, the wide eyes of disbelief─a memory I shall treasure for all my days.\r\n\r\nIt is said the sign of true genius is innovation able to elicit shock and awe, even within the innovator themselves. After that crowning achievement, I've no doubt the genius─the spectacle─of my work will still be spoken of long after you and I are gone.\r\n\r\nPlease, do not frown so. Not everyone is made for greatness, and I have long since learned not to judge others for their mediocrity.\r\n\r\nNow, I assume your plans after this are to lock me up and throw away the key as it were, yes? Well, before you do, I intend to tell you of each and every one of my technological achievements, and I expect you to write down every word. Your descendants will thank you. Assuming, of course, they have the forethought to put my knowledge to good use. And spare me the drivel about your <Emphasis>new Bozja</Emphasis> being free from the horrors of war. Whether you like it or not, there will come a day when you must again lock blades with enemy forces. When you must seek out new advanced weaponry, train soldiers, and plan strategy. On such a day, the people will remember me. My <Emphasis>genius</Emphasis>!\r\n\r\nWait! Where are you going? You have yet to even scratch the surface of my brilliance!<Else/></If>",
+      "icon": 72600,
+      "image": 72545,
+      "rarity": 5
+    }
+  },
+  "partials": [
+    {
+      "type": "fate",
+      "id": "1730",
+      "obj": {
+        "i": 1730,
+        "n": "Supersoldier Rising",
+        "l": 80,
+        "t": "Bozjan NM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1739",
+      "obj": {
+        "i": 1739,
+        "n": "Hypertuned Havoc",
+        "l": 80,
+        "t": "Bozjan NM"
+      }
+    }
+  ]
+}

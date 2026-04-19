@@ -1,0 +1,957 @@
+{
+  "item": {
+    "name": "Arros Negre",
+    "description": "Though the squid ink makes for an unusual appearance, its contribution to this dish's flavor profile is undeniable─ it blends with several herbs and spices to complement the buttery mussels and hearty rice for an immensely satisfying culinary experience.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 28721,
+    "patch": 5.1,
+    "patchCategory": 6,
+    "price": 3785,
+    "ilvl": 460,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Perception": {
+          "rate": 6,
+          "limit": 74
+        },
+        "Gathering": {
+          "rate": 2,
+          "limit": 34
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Perception": {
+          "rate": 7,
+          "limit": 93
+        },
+        "Gathering": {
+          "rate": 3,
+          "limit": 42
+        }
+      }
+    },
+    "icon": 24032,
+    "craft": [
+      {
+        "id": 33532,
+        "job": 15,
+        "rlvl": 450,
+        "durability": 70,
+        "quality": 7900,
+        "progress": 2050,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24273,
+        "ingredients": [
+          {
+            "id": 28719,
+            "amount": 1
+          },
+          {
+            "id": 27840,
+            "amount": 1,
+            "quality": 941.0363
+          },
+          {
+            "id": 27830,
+            "amount": 1
+          },
+          {
+            "id": 4785,
+            "amount": 1
+          },
+          {
+            "id": 27811,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 422,
+          "hq": 442
+        }
+      }
+    ],
+    "quests": [
+      69385,
+      69425
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Sweetmeat Mussel",
+      "id": 28719,
+      "icon": 29196,
+      "category": 47,
+      "ilvl": 440,
+      "price": 660,
+      "ventures": [
+        863
+      ],
+      "fishingSpots": [
+        232
+      ]
+    },
+    {
+      "name": "Squid Ink",
+      "id": 27840,
+      "icon": 25060,
+      "category": 45,
+      "ilvl": 400,
+      "price": 2878,
+      "craft": [
+        {
+          "id": 3879,
+          "job": 15,
+          "rlvl": 400,
+          "durability": 40,
+          "quality": 3120,
+          "progress": 645,
+          "lvl": 73,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27457,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 136,
+            "hq": 156
+          }
+        }
+      ]
+    },
+    {
+      "name": "Spearhead Squid",
+      "id": 27457,
+      "icon": 29177,
+      "category": 47,
+      "ilvl": 395,
+      "price": 600,
+      "ventures": [
+        842
+      ],
+      "fishingSpots": [
+        213
+      ]
+    },
+    {
+      "name": "Bomba Rice",
+      "id": 27830,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 415,
+      "price": 210,
+      "leves": [
+        1475,
+        1476,
+        1477
+      ],
+      "ventures": [
+        835
+      ],
+      "nodes": [
+        625
+      ]
+    },
+    {
+      "name": "Paprika",
+      "id": 4785,
+      "icon": 25018,
+      "category": 45,
+      "ilvl": 15,
+      "price": 24,
+      "ventures": [
+        208
+      ],
+      "nodes": [
+        39
+      ],
+      "vendors": [
+        1003249,
+        1027992,
+        1027874,
+        1008837,
+        1008838,
+        1008839,
+        1008840,
+        1008841,
+        1008842,
+        1008843,
+        1008844,
+        1008845,
+        1008846,
+        1013117,
+        1013118,
+        1018662,
+        1018663,
+        1018664,
+        1018665,
+        1018666,
+        1018667,
+        1018668,
+        1018669,
+        1018670,
+        1018671,
+        1018672,
+        1018673,
+        1024548,
+        1024549,
+        1024550,
+        1024551,
+        1024552,
+        1024553,
+        1024554,
+        1024555,
+        1024556,
+        1024557,
+        1024558,
+        1024559,
+        1025039,
+        1025043,
+        1025717,
+        1026169,
+        1027015,
+        1045242,
+        1045256,
+        1056020,
+        1056024
+      ],
+      "seeds": [
+        7715
+      ]
+    },
+    {
+      "name": "Chiaroglow Aethersand",
+      "id": 27811,
+      "icon": 21235,
+      "category": 54,
+      "ilvl": 409,
+      "price": 599,
+      "reducedFrom": [
+        27805,
+        27808,
+        27542
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27811",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27811",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "232",
+      "obj": {
+        "i": 232,
+        "n": "Northwest Caliban Gorge",
+        "l": 79,
+        "c": 0,
+        "z": 2958,
+        "x": 11.91,
+        "y": 10.91
+      }
+    },
+    {
+      "type": "item",
+      "id": "27457",
+      "obj": {
+        "i": 27457,
+        "n": "Spearhead Squid",
+        "l": 395,
+        "c": 29177,
+        "t": 47
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "213",
+      "obj": {
+        "i": 213,
+        "n": "The Eastern Kholusian Coast",
+        "l": 72,
+        "c": 0,
+        "z": 2954,
+        "x": 35.23,
+        "y": 35.83
+      }
+    },
+    {
+      "type": "node",
+      "id": "625",
+      "obj": {
+        "i": 625,
+        "n": "Scree",
+        "l": 80,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "39",
+      "obj": {
+        "i": 39,
+        "n": "Quarterstone",
+        "l": 20,
+        "t": 3,
+        "z": 33
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003249",
+      "obj": {
+        "i": 1003249,
+        "n": "Jossy",
+        "l": 28,
+        "s": 1,
+        "t": "Guild Supplier",
+        "a": 709,
+        "c": [
+          9.99,
+          7.95
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027874",
+      "obj": {
+        "i": 1027874,
+        "n": "Material Supplier",
+        "l": 2955,
+        "s": 1,
+        "a": 3122,
+        "c": [
+          27.82,
+          17.68
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008837",
+      "obj": {
+        "i": 1008837,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008838",
+      "obj": {
+        "i": 1008838,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008839",
+      "obj": {
+        "i": 1008839,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008840",
+      "obj": {
+        "i": 1008840,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008841",
+      "obj": {
+        "i": 1008841,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008842",
+      "obj": {
+        "i": 1008842,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008843",
+      "obj": {
+        "i": 1008843,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008844",
+      "obj": {
+        "i": 1008844,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008845",
+      "obj": {
+        "i": 1008845,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008846",
+      "obj": {
+        "i": 1008846,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013117",
+      "obj": {
+        "i": 1013117,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013118",
+      "obj": {
+        "i": 1013118,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018662",
+      "obj": {
+        "i": 1018662,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018663",
+      "obj": {
+        "i": 1018663,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018664",
+      "obj": {
+        "i": 1018664,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018665",
+      "obj": {
+        "i": 1018665,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018666",
+      "obj": {
+        "i": 1018666,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018667",
+      "obj": {
+        "i": 1018667,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018668",
+      "obj": {
+        "i": 1018668,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018669",
+      "obj": {
+        "i": 1018669,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018670",
+      "obj": {
+        "i": 1018670,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018671",
+      "obj": {
+        "i": 1018671,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018672",
+      "obj": {
+        "i": 1018672,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018673",
+      "obj": {
+        "i": 1018673,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024548",
+      "obj": {
+        "i": 1024548,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024549",
+      "obj": {
+        "i": 1024549,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024550",
+      "obj": {
+        "i": 1024550,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024551",
+      "obj": {
+        "i": 1024551,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024552",
+      "obj": {
+        "i": 1024552,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024553",
+      "obj": {
+        "i": 1024553,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024554",
+      "obj": {
+        "i": 1024554,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024555",
+      "obj": {
+        "i": 1024555,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024556",
+      "obj": {
+        "i": 1024556,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024557",
+      "obj": {
+        "i": 1024557,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024558",
+      "obj": {
+        "i": 1024558,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024559",
+      "obj": {
+        "i": 1024559,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025039",
+      "obj": {
+        "i": 1025039,
+        "n": "Allagan Resupply Node",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025043",
+      "obj": {
+        "i": 1025043,
+        "n": "Ananta Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025717",
+      "obj": {
+        "i": 1025717,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026169",
+      "obj": {
+        "i": 1026169,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027015",
+      "obj": {
+        "i": 1027015,
+        "n": "Kojin Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045242",
+      "obj": {
+        "i": 1045242,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045256",
+      "obj": {
+        "i": 1045256,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056020",
+      "obj": {
+        "i": 1056020,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056024",
+      "obj": {
+        "i": 1056024,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27805",
+      "obj": {
+        "i": 27805,
+        "n": "Gale Rock",
+        "l": 409,
+        "c": 21473,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27808",
+      "obj": {
+        "i": 27808,
+        "n": "White Clay",
+        "l": 409,
+        "c": 22610,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27542",
+      "obj": {
+        "i": 27542,
+        "n": "Voeburt Bichir",
+        "l": 406,
+        "c": 28441,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24273",
+      "obj": {
+        "i": 24273,
+        "n": "Master Culinarian VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "28719",
+      "obj": {
+        "i": 28719,
+        "n": "Sweetmeat Mussel",
+        "l": 440,
+        "c": 29196,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27840",
+      "obj": {
+        "i": 27840,
+        "n": "Squid Ink",
+        "l": 400,
+        "c": 25060,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27830",
+      "obj": {
+        "i": 27830,
+        "n": "Bomba Rice",
+        "l": 415,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4785",
+      "obj": {
+        "i": 4785,
+        "n": "Paprika",
+        "l": 15,
+        "c": 25018,
+        "t": 45,
+        "p": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "27811",
+      "obj": {
+        "i": 27811,
+        "n": "Chiaroglow Aethersand",
+        "l": 409,
+        "c": 21235,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69385",
+      "obj": {
+        "i": 69385,
+        "n": "Work It Harder, Make It Better",
+        "g": 100,
+        "l": "Ishgard",
+        "s": 10002,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69425",
+      "obj": {
+        "i": 69425,
+        "n": "O Crafter, My Crafter",
+        "g": 100,
+        "l": "The Firmament",
+        "s": 1002,
+        "f": 1
+      }
+    }
+  ]
+}

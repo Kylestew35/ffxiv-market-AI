@@ -1,0 +1,167 @@
+{
+  "item": {
+    "name": "Korpokkur Kid",
+    "description": "For best results, keep moist at all times.<br><br>Use item to acquire the korpokkur kid minion.",
+    "minionrace": "Critter",
+    "tooltip": "Feels so soft and moist as\r\nfresh spring shower!\r\n   - Ranu Vali",
+    "minionskilltype": "Damage",
+    "specialactionname": "Seedbed",
+    "specialactiondescription": "Delivers an attack with a potency of 10 every second to all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 20s",
+    "id": 13283,
+    "patch": 3.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59566,
+    "instances": [
+      41
+    ],
+    "tradeShops": [
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13283",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 440,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 55,
+      "Speed": 3
+    },
+    "models": [
+      "8141-1-1"
+    ],
+    "treasure": [
+      23223,
+      23224,
+      36635,
+      41667
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Saint Mocianne's Arboretum",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 170,
+        "max_ilvl": 240
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "23223",
+      "obj": {
+        "i": 23223,
+        "n": "Silver-haloed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "23224",
+      "obj": {
+        "i": 23224,
+        "n": "Gold-haloed Sack",
+        "l": 1,
+        "c": 25991,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41667",
+      "obj": {
+        "i": 41667,
+        "n": "Sanctuary Materiel Container",
+        "l": 1,
+        "c": 21002,
+        "t": 61
+      }
+    }
+  ]
+}

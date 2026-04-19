@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Lynx of Abyssal Grief Flute",
+    "description": "Emitting a tone of irrepressible longing, this flute summons a lynx of abyssal grief to your side.",
+    "mount": {
+      "name": "Lynx Of Abyssal Grief",
+      "action": "Summon forth your lynx of abyssal grief, which could be what a certain dread voidsent born in the depths of the moon might look like as a large, winged feline.",
+      "description": "A phantom creation whose being brims with the Darkness that roiled in the depths of the Thirteenth's moon. The motes of Light it sheds calls to mind the yearning for home that drove the dread voidsent Zeromus, but the origins of this familiar are shrouded in abyssal grief.",
+      "tooltip": "I just...I just want to go home...<br>   - Drest",
+      "icon": 4272,
+      "guideIcon": 68272
+    },
+    "id": 41493,
+    "patch": 6.5,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20092,
+      20092
+    ],
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41493",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41053",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41493",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41053",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "716-1-7"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20092",
+      "obj": {
+        "i": 20092,
+        "n": "The Abyssal Fracture (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 640
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41053",
+      "obj": {
+        "i": 41053,
+        "n": "Voidvessel Totem",
+        "l": 1,
+        "c": 26646,
+        "t": 61
+      }
+    }
+  ]
+}

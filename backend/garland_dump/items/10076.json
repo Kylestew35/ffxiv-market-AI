@@ -1,0 +1,62 @@
+{
+  "item": {
+    "name": "Enkidu",
+    "description": "That green is not coming out, even with multiple washings.<br><br>Use item to acquire the Enkidu minion.",
+    "minionrace": "Critter",
+    "tooltip": "Enkidu, do you hear me!?\r\nENKIIIDUUUUUUUUUUUU!\r\n  - Gilgamesh",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Eerie Soundwave",
+    "specialactiondescription": "Removes all beneficial effects from all enemies within range.",
+    "id": 10076,
+    "patch": 2.5,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59521,
+    "instances": [
+      20030,
+      20030
+    ],
+    "cost": 20,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 20,
+      "Attack": 55,
+      "Defense": 45,
+      "Speed": 4
+    },
+    "models": [
+      "8104-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20030",
+      "obj": {
+        "i": 20030,
+        "n": "Battle in the Big Keep",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    }
+  ]
+}

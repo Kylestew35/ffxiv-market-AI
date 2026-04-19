@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Wind-up Zhloe",
+    "description": "Cannot thank you enough, but will certainly try.<br><br>Use item to acquire the wind-up Zhloe minion.",
+    "minionrace": "Poppet",
+    "tooltip": "But deep down, I knew that\r\nMummy and Daddy were\r\nnever coming back.\r\n   - T'kebbe",
+    "minionskilltype": "Restoration",
+    "specialactionname": "Fresh-baked Flatbread",
+    "specialactiondescription": "Restores 100 HP to all allies within range (150 if the ally is a <span class=\"highlight\">poppet</span>).",
+    "id": 23036,
+    "patch": 4.3,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59698,
+    "tradeShops": [
+      {
+        "shop": "Bronze Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23036",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26823",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 410,
+      "Skill Cost": 30,
+      "Attack": 20,
+      "Defense": 60,
+      "Speed": 2
+    },
+    "models": [
+      "8270-1-1"
+    ],
+    "treasure": [
+      36636
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26823",
+      "obj": {
+        "i": 26823,
+        "n": "Khloe's Bronze Certificate of Commendation",
+        "l": 1,
+        "c": 26186,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    }
+  ]
+}

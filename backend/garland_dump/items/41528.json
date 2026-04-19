@@ -1,0 +1,102 @@
+{
+  "item": {
+    "name": "Model A-1 Tactical Shoes",
+    "jobCategories": "All Classes",
+    "id": 41528,
+    "patch": 6.5,
+    "patchCategory": 3,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 8,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "834-1-0-0"
+    ],
+    "attr": {
+      "Defense": 8,
+      "Magic Defense": 14
+    },
+    "icon": 49625,
+    "sharedModels": [
+      41533
+    ],
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (Universal Gear) I",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41528",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "41533",
+      "obj": {
+        "i": 41533,
+        "n": "Model A-2 Tactical Shoes",
+        "l": 1,
+        "c": 49626,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

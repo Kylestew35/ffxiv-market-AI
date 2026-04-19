@@ -1,0 +1,638 @@
+{
+  "item": {
+    "name": "Manor Candelabra",
+    "description": "A haunting candelabra custom-made for Haukke Manor.",
+    "id": 6586,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 8811,
+    "ilvl": 30,
+    "category": 57,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "icon": 52425,
+    "craft": [
+      {
+        "id": 1812,
+        "job": 11,
+        "rlvl": 27,
+        "durability": 70,
+        "quality": 360,
+        "progress": 91,
+        "lvl": 27,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 5064,
+            "amount": 2,
+            "quality": 30.895523
+          },
+          {
+            "id": 5998,
+            "amount": 3
+          },
+          {
+            "id": 7038,
+            "amount": 1
+          },
+          {
+            "id": 4,
+            "amount": 3
+          },
+          {
+            "id": 2,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 240,
+          "hq": 260
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "82"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Silver Ingot",
+      "id": 5064,
+      "icon": 20810,
+      "category": 49,
+      "ilvl": 23,
+      "price": 176,
+      "craft": [
+        {
+          "id": 725,
+          "job": 11,
+          "rlvl": 23,
+          "durability": 40,
+          "quality": 480,
+          "progress": 39,
+          "lvl": 23,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5113,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        9530,
+        4462
+      ],
+      "treasure": [
+        6688,
+        6689
+      ]
+    },
+    {
+      "name": "Silver Ore",
+      "id": 5113,
+      "icon": 21211,
+      "category": 48,
+      "ilvl": 23,
+      "price": 52,
+      "voyages": [
+        {
+          "id": 16,
+          "type": 0
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5113",
+                  "amount": 8
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "ventures": [
+        108
+      ],
+      "nodes": [
+        47
+      ]
+    },
+    {
+      "name": "Tallow Candle",
+      "id": 5998,
+      "icon": 26102,
+      "category": 61,
+      "ilvl": 20,
+      "price": 225,
+      "desynthedFrom": [
+        21869,
+        44109
+      ],
+      "drops": [
+        29360000002754,
+        29370000002753,
+        27190000002596,
+        27180000002594,
+        27200000002595
+      ],
+      "vendors": [
+        1000236,
+        1001204,
+        1001966,
+        1011201,
+        1018984,
+        1019333,
+        1027992
+      ]
+    },
+    {
+      "name": "Fine Wax",
+      "id": 7038,
+      "icon": 25051,
+      "category": 54,
+      "ilvl": 28,
+      "price": 279,
+      "instances": [
+        6,
+        6
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5113",
+      "obj": {
+        "i": 5113,
+        "n": "Silver Ore",
+        "l": 23,
+        "c": 21211,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000236",
+      "obj": {
+        "i": 1000236,
+        "n": "O'rhoyod",
+        "l": 53,
+        "s": 1,
+        "t": "Tradecraft Supplier",
+        "a": 564,
+        "c": [
+          14.42,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001204",
+      "obj": {
+        "i": 1001204,
+        "n": "Engerrand",
+        "l": 29,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Supplier",
+        "a": 744,
+        "c": [
+          8.66,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001966",
+      "obj": {
+        "i": 1001966,
+        "n": "Fridurih",
+        "l": 41,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Merchant",
+        "a": 646,
+        "c": [
+          13.79,
+          9.57
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27180000002594",
+      "obj": {
+        "i": 27180000002594,
+        "n": "Champion Gladiator",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27200000002595",
+      "obj": {
+        "i": 27200000002595,
+        "n": "Champion Lancer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27190000002596",
+      "obj": {
+        "i": 27190000002596,
+        "n": "Champion Marauder",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29370000002753",
+      "obj": {
+        "i": 29370000002753,
+        "n": "Champion Conjurer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29360000002754",
+      "obj": {
+        "i": 29360000002754,
+        "n": "Champion Archer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "instance",
+      "id": "6",
+      "obj": {
+        "i": 6,
+        "n": "Haukke Manor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 28,
+        "max_lvl": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "5064",
+      "obj": {
+        "i": 5064,
+        "n": "Silver Ingot",
+        "l": 23,
+        "c": 20810,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "5998",
+      "obj": {
+        "i": 5998,
+        "n": "Tallow Candle",
+        "l": 20,
+        "c": 26102,
+        "t": 61,
+        "p": 225
+      }
+    },
+    {
+      "type": "item",
+      "id": "7038",
+      "obj": {
+        "i": 7038,
+        "n": "Fine Wax",
+        "l": 28,
+        "c": 25051,
+        "t": 54
+      }
+    }
+  ]
+}

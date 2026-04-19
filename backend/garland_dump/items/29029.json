@@ -1,0 +1,383 @@
+{
+  "item": {
+    "name": "Book of Iconoclasm",
+    "description": "A short apocryphal tome presumably created by Eden for recordkeeping purposes.<br><br>Copies of the same Eden's Verse apocrypha can be traded for special gear.",
+    "id": 29029,
+    "patch": 5.2,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26447,
+    "instances": [
+      30093,
+      30093
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Eden's Verse Apocrypha Exchange (DoW) I",
+        "npcs": [
+          1030123,
+          1030124
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29058",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29064",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29070",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Eden's Verse Apocrypha Exchange (DoW) II",
+        "npcs": [
+          1030123,
+          1030124
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29076",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29082",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Eden's Verse Apocrypha Exchange (DoM)",
+        "npcs": [
+          1030123,
+          1030124
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29088",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29094",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Edenchoir Gear (IL 500-505)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29058",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29064",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29070",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29082",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29076",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29094",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "29088",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29029",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30093",
+      "obj": {
+        "i": 30093,
+        "n": "Eden's Verse: Iconoclasm (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 480
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1030123",
+      "obj": {
+        "i": 1030123,
+        "n": "Ghul Gul",
+        "l": 2955,
+        "s": 18,
+        "t": "Eden Relic Exchange",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          26.72,
+          16.43
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1030124",
+      "obj": {
+        "i": 1030124,
+        "n": "Yhal Yal",
+        "l": 2952,
+        "s": 18,
+        "t": "Eden Relic Exchange",
+        "r": 1,
+        "a": 3270,
+        "c": [
+          10.07,
+          11.57
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29058",
+      "obj": {
+        "i": 29058,
+        "n": "Edenchoir Cuisses of Fending",
+        "l": 500,
+        "c": 47683,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29064",
+      "obj": {
+        "i": 29064,
+        "n": "Edenchoir Cuisses of Maiming",
+        "l": 500,
+        "c": 47685,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29070",
+      "obj": {
+        "i": 29070,
+        "n": "Edenchoir Trousers of Striking",
+        "l": 500,
+        "c": 47686,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29076",
+      "obj": {
+        "i": 29076,
+        "n": "Edenchoir Trousers of Aiming",
+        "l": 500,
+        "c": 47687,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29082",
+      "obj": {
+        "i": 29082,
+        "n": "Edenchoir Breeches of Scouting",
+        "l": 500,
+        "c": 47688,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29088",
+      "obj": {
+        "i": 29088,
+        "n": "Edenchoir Breeches of Healing",
+        "l": 500,
+        "c": 47684,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29094",
+      "obj": {
+        "i": 29094,
+        "n": "Edenchoir Breeches of Casting",
+        "l": 500,
+        "c": 47682,
+        "t": 36
+      }
+    }
+  ]
+}

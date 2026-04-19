@@ -1,0 +1,88 @@
+{
+  "item": {
+    "name": "Ballroom Etiquette - Pointed Misgivings",
+    "description": "An illustrated manual of how to make clear that you are keeping close watch over the whole of the banquet table, and will deliver swift retribution should anyone try to take more than the socially acceptable number of hors d'oeuvres. Use to learn the /guard emote.",
+    "id": 31402,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 26435,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "31402",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    }
+  ]
+}

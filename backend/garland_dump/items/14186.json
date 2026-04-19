@@ -1,0 +1,107 @@
+{
+  "item": {
+    "name": "Sewing Needle",
+    "description": "In the hands of a master weaver, this tiny needle carved from the horn of a beast can assist in the crafting of a dozen pairs of leggings in under a sennight.",
+    "id": 14186,
+    "patch": 3.2,
+    "patchCategory": 5,
+    "price": 712,
+    "ilvl": 180,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 35508,
+    "craft": [
+      {
+        "id": 31502,
+        "job": 11,
+        "rlvl": 180,
+        "durability": 70,
+        "quality": 2900,
+        "progress": 740,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 695,
+        "craftsmanshipReq": 718,
+        "quickSynthCraftsmanship": 810,
+        "unlockId": 14129,
+        "ingredients": [
+          {
+            "id": 14190,
+            "amount": 3
+          },
+          {
+            "id": 10,
+            "amount": 7
+          },
+          {
+            "id": 8,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 112,
+          "hq": 132
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Beastkin Horn",
+      "id": 14190,
+      "icon": 22205,
+      "category": 53,
+      "ilvl": 180,
+      "price": 712,
+      "ventures": [
+        630
+      ],
+      "nodes": [
+        352
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "352",
+      "obj": {
+        "i": 352,
+        "n": "Avalonia Fallen",
+        "l": 60,
+        "t": 0,
+        "z": 2000,
+        "s": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "14129",
+      "obj": {
+        "i": 14129,
+        "n": "Master Goldsmith IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "14190",
+      "obj": {
+        "i": 14190,
+        "n": "Beastkin Horn",
+        "l": 180,
+        "c": 22205,
+        "t": 53
+      }
+    }
+  ]
+}

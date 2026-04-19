@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Serpent Strongbox",
+    "description": "A stout strongbox issued by the Order of the Twin Adder.",
+    "id": 6557,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 12960,
+    "ilvl": 35,
+    "category": 77,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 120,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 52480,
+    "tradeShops": [
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6557",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 6700
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "132"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    }
+  ]
+}

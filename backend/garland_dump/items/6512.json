@@ -1,0 +1,236 @@
+{
+  "item": {
+    "name": "Amdapori Beacon",
+    "description": "A watch beacon crafted in the ancient Amdapori style. As seen within Amdapor Keep.",
+    "id": 6512,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 26136,
+    "ilvl": 50,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "icon": 52136,
+    "craft": [
+      {
+        "id": 1754,
+        "job": 11,
+        "rlvl": 50,
+        "durability": 80,
+        "quality": 1000,
+        "progress": 180,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 7037,
+            "amount": 4
+          },
+          {
+            "id": 5414,
+            "amount": 12
+          },
+          {
+            "id": 5526,
+            "amount": 8
+          },
+          {
+            "id": 4,
+            "amount": 6
+          },
+          {
+            "id": 2,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 614,
+          "hq": 634
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Amdapori Stone",
+      "id": 7037,
+      "icon": 21252,
+      "category": 48,
+      "ilvl": 50,
+      "price": 297,
+      "instances": [
+        14
+      ]
+    },
+    {
+      "name": "Rosewood Branch",
+      "id": 5414,
+      "icon": 22416,
+      "category": 50,
+      "ilvl": 45,
+      "price": 445,
+      "ventures": [
+        303
+      ],
+      "nodes": [
+        147
+      ]
+    },
+    {
+      "name": "Grenade Ash",
+      "id": 5526,
+      "icon": 21001,
+      "category": 54,
+      "ilvl": 40,
+      "price": 216,
+      "ventures": [
+        56,
+        146
+      ],
+      "drops": [
+        16180000001799,
+        20920000000270,
+        21380000001511,
+        3270000000270
+      ],
+      "nodes": [
+        20
+      ],
+      "vendors": [
+        1001015
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "14",
+      "obj": {
+        "i": 14,
+        "n": "Amdapor Keep",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "node",
+      "id": "147",
+      "obj": {
+        "i": 147,
+        "n": "The Bramble Patch",
+        "l": 50,
+        "t": 2,
+        "z": 55
+      }
+    },
+    {
+      "type": "node",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Bluefog",
+        "l": 40,
+        "t": 1,
+        "z": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001015",
+      "obj": {
+        "i": 1001015,
+        "n": "Z'ranmaia",
+        "l": 28,
+        "s": 1,
+        "t": "Herbalist",
+        "a": 718,
+        "c": [
+          11.35,
+          8.16
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "3270000000270",
+      "obj": {
+        "i": 3270000000270,
+        "n": "Grenade",
+        "l": "41 - 44",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20920000000270",
+      "obj": {
+        "i": 20920000000270,
+        "n": "Grenade",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "21380000001511",
+      "obj": {
+        "i": 21380000001511,
+        "n": "Bomb Baron",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16180000001799",
+      "obj": {
+        "i": 16180000001799,
+        "n": "Shrapnel",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "7037",
+      "obj": {
+        "i": 7037,
+        "n": "Amdapori Stone",
+        "l": 50,
+        "c": 21252,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5414",
+      "obj": {
+        "i": 5414,
+        "n": "Rosewood Branch",
+        "l": 45,
+        "c": 22416,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "5526",
+      "obj": {
+        "i": 5526,
+        "n": "Grenade Ash",
+        "l": 40,
+        "c": 21001,
+        "t": 54,
+        "p": 216
+      }
+    }
+  ]
+}

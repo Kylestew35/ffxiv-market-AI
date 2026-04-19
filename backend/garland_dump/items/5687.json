@@ -1,0 +1,308 @@
+{
+  "item": {
+    "name": "Gatherer's Guerdon Materia IV",
+    "id": 5687,
+    "patch": 1.0,
+    "patchCategory": 10,
+    "price": 5000,
+    "ilvl": 55,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 90,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20212,
+    "tradeShops": [
+      {
+        "shop": "DoL Materia Exchange",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5687",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14105",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Materia)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5687",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5687",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 25
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 3,
+      "value": 6,
+      "attr": "Gathering",
+      "category": 2
+    },
+    "quests": [
+      67056,
+      67058,
+      67102,
+      67104,
+      67397,
+      67485,
+      67587,
+      67588,
+      67619,
+      67620,
+      67624,
+      67625,
+      67857
+    ],
+    "voyages": [
+      {
+        "id": 15,
+        "type": 0
+      }
+    ],
+    "alla": {
+      "source": [
+        "VOYAGE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14105",
+      "obj": {
+        "i": 14105,
+        "n": "Goblin Dice",
+        "l": 1,
+        "c": 26253,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67056",
+      "obj": {
+        "i": 67056,
+        "n": "West for Fishing",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 61,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67058",
+      "obj": {
+        "i": 67058,
+        "n": "Mining for Compliments",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 63,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67102",
+      "obj": {
+        "i": 67102,
+        "n": "Bring Your Own Ectoplasm",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 65,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67104",
+      "obj": {
+        "i": 67104,
+        "n": "We Fly High (Squawkin')",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 67,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67397",
+      "obj": {
+        "i": 67397,
+        "n": "The Sins of Our Landlords",
+        "g": 120,
+        "l": "The Churning Mists",
+        "s": 5522
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67485",
+      "obj": {
+        "i": 67485,
+        "n": "The Golden Rule",
+        "g": 121,
+        "l": "Idyllshire",
+        "s": 5816
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67587",
+      "obj": {
+        "i": 67587,
+        "n": "Love for Harmony",
+        "g": 173,
+        "l": "Ishgard",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67588",
+      "obj": {
+        "i": 67588,
+        "n": "Seeds Know No Borders",
+        "g": 173,
+        "l": "Ishgard",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67619",
+      "obj": {
+        "i": 67619,
+        "n": "Digging Deeper",
+        "g": 172,
+        "l": "Ishgard",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67620",
+      "obj": {
+        "i": 67620,
+        "n": "The Hole Truth",
+        "g": 172,
+        "l": "Ishgard",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67624",
+      "obj": {
+        "i": 67624,
+        "n": "One Man's Fish Is Another Man's Poison",
+        "g": 174,
+        "l": "Ishgard",
+        "s": 580,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67625",
+      "obj": {
+        "i": 67625,
+        "n": "Carpe Diem",
+        "g": 174,
+        "l": "Ishgard",
+        "s": 600,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67857",
+      "obj": {
+        "i": 67857,
+        "n": "The Milk of Moogle Kindness",
+        "g": 54,
+        "l": "The Churning Mists",
+        "s": 2,
+        "f": 1
+      }
+    }
+  ]
+}

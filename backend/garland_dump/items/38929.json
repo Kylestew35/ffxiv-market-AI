@@ -1,0 +1,578 @@
+{
+  "item": {
+    "name": "Jhinga Biryani",
+    "description": "A mouthwatering dish of bomba rice seasoned with hearty spices and baked with Thavnairian prawns.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 38929,
+    "patch": 6.3,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 620,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "CP": {
+          "rate": 21,
+          "limit": 69
+        },
+        "Control": {
+          "rate": 4,
+          "limit": 72
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "CP": {
+          "rate": 26,
+          "limit": 86
+        },
+        "Control": {
+          "rate": 5,
+          "limit": 90
+        }
+      }
+    },
+    "icon": 24031,
+    "craft": [
+      {
+        "id": 35456,
+        "job": 15,
+        "rlvl": 620,
+        "durability": 70,
+        "quality": 12900,
+        "progress": 5720,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3280,
+        "craftsmanshipReq": 3700,
+        "unlockId": 37741,
+        "ingredients": [
+          {
+            "id": 38935,
+            "amount": 1
+          },
+          {
+            "id": 36079,
+            "amount": 2,
+            "quality": 820.9091
+          },
+          {
+            "id": 36078,
+            "amount": 1,
+            "quality": 813.0909
+          },
+          {
+            "id": 27830,
+            "amount": 2
+          },
+          {
+            "id": 36098,
+            "amount": 1
+          },
+          {
+            "id": 38936,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 635,
+          "hq": 655
+        }
+      }
+    ],
+    "quests": [
+      70504,
+      70511,
+      70518
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Jhinga",
+      "id": 38935,
+      "icon": 29145,
+      "category": 47,
+      "ilvl": 600,
+      "price": 99999,
+      "ventures": [
+        983
+      ],
+      "fishingSpots": [
+        262
+      ]
+    },
+    {
+      "name": "Perilla Oil",
+      "id": 36079,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5284,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36085,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thavnairian Perilla Leaf",
+      "id": 36085,
+      "icon": 25036,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        916
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Northern Sea Salt",
+      "id": 36078,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5283,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36084,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sharlayan Rock Salt",
+      "id": 36084,
+      "icon": 22688,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "leves": [
+        1638
+      ],
+      "ventures": [
+        895
+      ],
+      "nodes": [
+        815
+      ]
+    },
+    {
+      "name": "Bomba Rice",
+      "id": 27830,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 415,
+      "price": 210,
+      "leves": [
+        1475,
+        1476,
+        1477
+      ],
+      "ventures": [
+        835
+      ],
+      "nodes": [
+        625
+      ]
+    },
+    {
+      "name": "Thavnairian Paprika",
+      "id": 36098,
+      "icon": 25018,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "ventures": [
+        917
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Earthbreak Aethersand",
+      "id": 38936,
+      "icon": 21246,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "reducedFrom": [
+        38938,
+        38937,
+        38841,
+        38939
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "262",
+      "obj": {
+        "i": 262,
+        "n": "The Thavnairian Coast",
+        "l": 81,
+        "c": 0,
+        "z": 3709,
+        "x": 9.57,
+        "y": 33.39
+      }
+    },
+    {
+      "type": "item",
+      "id": "36085",
+      "obj": {
+        "i": 36085,
+        "n": "Thavnairian Perilla Leaf",
+        "l": 525,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "item",
+      "id": "36084",
+      "obj": {
+        "i": 36084,
+        "n": "Sharlayan Rock Salt",
+        "l": 520,
+        "c": 22688,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "815",
+      "obj": {
+        "i": 815,
+        "n": "The Aesthete's Tholos",
+        "l": 85,
+        "t": 0,
+        "z": 3708
+      }
+    },
+    {
+      "type": "node",
+      "id": "625",
+      "obj": {
+        "i": 625,
+        "n": "Scree",
+        "l": 80,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "38938",
+      "obj": {
+        "i": 38938,
+        "n": "Sophora Roots",
+        "l": 600,
+        "c": 25025,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38937",
+      "obj": {
+        "i": 38937,
+        "n": "Earthen Quartz",
+        "l": 600,
+        "c": 21458,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "38841",
+      "obj": {
+        "i": 38841,
+        "n": "Nosceasaur",
+        "l": 600,
+        "c": 28548,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38939",
+      "obj": {
+        "i": 38939,
+        "n": "Verdigris Guppy",
+        "l": 600,
+        "c": 28544,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "37741",
+      "obj": {
+        "i": 37741,
+        "n": "Master Culinarian X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "38935",
+      "obj": {
+        "i": 38935,
+        "n": "Jhinga",
+        "l": 600,
+        "c": 29145,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36079",
+      "obj": {
+        "i": 36079,
+        "n": "Perilla Oil",
+        "l": 525,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36078",
+      "obj": {
+        "i": 36078,
+        "n": "Northern Sea Salt",
+        "l": 520,
+        "c": 25104,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27830",
+      "obj": {
+        "i": 27830,
+        "n": "Bomba Rice",
+        "l": 415,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36098",
+      "obj": {
+        "i": 36098,
+        "n": "Thavnairian Paprika",
+        "l": 525,
+        "c": 25018,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "38936",
+      "obj": {
+        "i": 38936,
+        "n": "Earthbreak Aethersand",
+        "l": 600,
+        "c": 21246,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70504",
+      "obj": {
+        "i": 70504,
+        "n": "Your Friendly Neighborhood Metalworker",
+        "g": 209,
+        "l": "Tuliyollal",
+        "s": 110,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70511",
+      "obj": {
+        "i": 70511,
+        "n": "Pameka, the Scrivener",
+        "g": 210,
+        "l": "Tuliyollal",
+        "s": 210,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70518",
+      "obj": {
+        "i": 70518,
+        "n": "Blame It on My Juice",
+        "g": 211,
+        "l": "Tuliyollal",
+        "s": 310,
+        "f": 1
+      }
+    }
+  ]
+}

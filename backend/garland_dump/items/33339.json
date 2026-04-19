@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Diamond Weapon Card",
+    "description": "An epic (★★★★) card used in the game Triple Triad.<br>Card No. 307",
+    "id": 33339,
+    "patch": 5.5,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27665,
+    "instances": [
+      20075,
+      20076,
+      20075,
+      20076
+    ],
+    "tradeShops": [
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33339",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "The final entry in the VIIth Legion's Weapon series incorporated data collected by units that fought the Warrior of Light, and it was equipped with the newly developed Overmind system. Had the Garlean Empire succeeded in unleashing the Diamond Weapon's destructive capabilities upon Eorzea, the results would have been catastrophic."
+      },
+      "ja": {
+        "description": "第VII軍団が開発した試作型魔導兵器。ウェポン計画最初の機体にして究極系とも呼べる機体。3機のウェポンが収集したデータを反映したことに加え、オーバーマインドシステムと呼ばれる新機軸の制御システムを搭載している。"
+      },
+      "de": {
+        "description": "Die Diamant-Waffe war das letzte Modell aus dem geheimen Waffenprojekt der Garlear. Sie verfügte über Kampfdaten der anderen Waffen aus den Kämpfen gegen den Krieger des Lichts und war mit dem experimentellen Seelenüberlagerungsmodus ausgestattet. Wäre die Entwicklung abgeschlossen worden, hätte die Waffe Tod und Vernichtung über Eorzea gebracht."
+      },
+      "fr": {
+        "description": "Cette Arme est la plus puissante de toutes celles créées par la 7e légion. Non seulement ce nouveau modèle dispose de toutes les données de combat accumulées par les trois précédents, mais il inclut aussi un système de contrôle unique le rendant encore plus redoutable<Indent/>: le mode de superposition mentale."
+      },
+      "type": "Garlean",
+      "sellMgp": 800,
+      "plate": 87324,
+      "rarity": 4,
+      "top": 9,
+      "bottom": 7,
+      "left": 1,
+      "right": 8
+    },
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20075",
+      "obj": {
+        "i": 20075,
+        "n": "The Cloud Deck",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 495
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20076",
+      "obj": {
+        "i": 20076,
+        "n": "The Cloud Deck (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 510
+      }
+    },
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    }
+  ]
+}

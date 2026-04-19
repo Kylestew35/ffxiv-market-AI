@@ -1,0 +1,707 @@
+{
+  "item": {
+    "name": "Cloud Mica Whetstone",
+    "description": "A whetstone carved from cloud mica. Used for sharpening metal or stone blades.",
+    "id": 12561,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 2520,
+    "ilvl": 139,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21470,
+    "vendors": [
+      1017188
+    ],
+    "ingredient_of": {
+      "11928": 2,
+      "11944": 1,
+      "11952": 1,
+      "11893": 1,
+      "12546": 1,
+      "12547": 1,
+      "12548": 1,
+      "12550": 1,
+      "12644": 1,
+      "12706": 1,
+      "12707": 1,
+      "14069": 5,
+      "14070": 5,
+      "18046": 1,
+      "20394": 1,
+      "20396": 1,
+      "36887": 5,
+      "11894": 1,
+      "20428": 1,
+      "20432": 1,
+      "20436": 1,
+      "20440": 1,
+      "24333": 1,
+      "25035": 1,
+      "25051": 1,
+      "31202": 1,
+      "31203": 1,
+      "31931": 1,
+      "31932": 1
+    },
+    "craft": [
+      {
+        "id": 2541,
+        "job": 11,
+        "rlvl": 139,
+        "durability": 35,
+        "quality": 1936,
+        "progress": 210,
+        "lvl": 56,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12539,
+            "amount": 3
+          },
+          {
+            "id": 10,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 55,
+          "hq": 75
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Cloud Mica",
+      "id": 12539,
+      "icon": 21226,
+      "category": 48,
+      "ilvl": 142,
+      "price": 843,
+      "desynthedFrom": [
+        12787
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12539",
+                  "amount": 4
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021
+      ],
+      "ventures": [
+        456
+      ],
+      "nodes": [
+        355
+      ],
+      "vendors": [
+        1017172
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "355",
+      "obj": {
+        "i": 355,
+        "n": "Landlord Colony",
+        "l": 60,
+        "t": 1,
+        "z": 2002,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "11928",
+      "obj": {
+        "i": 11928,
+        "n": "Cloud Mica Grinding Wheel",
+        "l": 110,
+        "c": 35358,
+        "t": 19,
+        "p": 14636
+      }
+    },
+    {
+      "type": "item",
+      "id": "11944",
+      "obj": {
+        "i": 11944,
+        "n": "Titanium Culinary Knife",
+        "l": 110,
+        "c": 35758,
+        "t": 27,
+        "p": 13242
+      }
+    },
+    {
+      "type": "item",
+      "id": "11952",
+      "obj": {
+        "i": 11952,
+        "n": "Titanium Scythe",
+        "l": 110,
+        "c": 38158,
+        "t": 31,
+        "p": 13242
+      }
+    },
+    {
+      "type": "item",
+      "id": "11893",
+      "obj": {
+        "i": 11893,
+        "n": "Dragon Fang Needle",
+        "l": 120,
+        "c": 35518,
+        "t": 22,
+        "p": 12545
+      }
+    },
+    {
+      "type": "item",
+      "id": "12546",
+      "obj": {
+        "i": 12546,
+        "n": "Opal",
+        "l": 142,
+        "c": 21328,
+        "t": 48,
+        "p": 4704
+      }
+    },
+    {
+      "type": "item",
+      "id": "12547",
+      "obj": {
+        "i": 12547,
+        "n": "Citrine",
+        "l": 148,
+        "c": 21329,
+        "t": 48,
+        "p": 4956
+      }
+    },
+    {
+      "type": "item",
+      "id": "12548",
+      "obj": {
+        "i": 12548,
+        "n": "Chrysolite",
+        "l": 150,
+        "c": 21330,
+        "t": 48,
+        "p": 5040
+      }
+    },
+    {
+      "type": "item",
+      "id": "12550",
+      "obj": {
+        "i": 12550,
+        "n": "Carnelian",
+        "l": 145,
+        "c": 21325,
+        "t": 48,
+        "p": 4788
+      }
+    },
+    {
+      "type": "item",
+      "id": "12539",
+      "obj": {
+        "i": 12539,
+        "n": "Cloud Mica",
+        "l": 142,
+        "c": 21226,
+        "t": 48,
+        "p": 843
+      }
+    },
+    {
+      "type": "item",
+      "id": "12644",
+      "obj": {
+        "i": 12644,
+        "n": "Aurum Regis Cylinder",
+        "l": 148,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "12706",
+      "obj": {
+        "i": 12706,
+        "n": "Goblin Jig",
+        "l": 145,
+        "c": 27069,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "12707",
+      "obj": {
+        "i": 12707,
+        "n": "Bladed Steel Jig",
+        "l": 150,
+        "c": 27070,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "14069",
+      "obj": {
+        "i": 14069,
+        "n": "Alpine Flooring",
+        "l": 139,
+        "c": 51026,
+        "t": 74
+      }
+    },
+    {
+      "type": "item",
+      "id": "14070",
+      "obj": {
+        "i": 14070,
+        "n": "Alpine Inner Wall",
+        "l": 139,
+        "c": 51228,
+        "t": 73
+      }
+    },
+    {
+      "type": "item",
+      "id": "18046",
+      "obj": {
+        "i": 18046,
+        "n": "High Steel Tachi",
+        "l": 255,
+        "c": 36435,
+        "t": 96,
+        "p": 36352
+      }
+    },
+    {
+      "type": "item",
+      "id": "20394",
+      "obj": {
+        "i": 20394,
+        "n": "Titanium Tachi",
+        "l": 139,
+        "c": 36433,
+        "t": 96,
+        "p": 19814
+      }
+    },
+    {
+      "type": "item",
+      "id": "20396",
+      "obj": {
+        "i": 20396,
+        "n": "Adamantite Uchigatana",
+        "l": 145,
+        "c": 36429,
+        "t": 96,
+        "p": 20671
+      }
+    },
+    {
+      "type": "item",
+      "id": "36887",
+      "obj": {
+        "i": 36887,
+        "n": "Highland Interior Wall",
+        "l": 150,
+        "c": 51253,
+        "t": 73
+      }
+    },
+    {
+      "type": "item",
+      "id": "11894",
+      "obj": {
+        "i": 11894,
+        "n": "Griffin Talon Needle",
+        "l": 150,
+        "c": 35517,
+        "t": 22,
+        "p": 15681
+      }
+    },
+    {
+      "type": "item",
+      "id": "20428",
+      "obj": {
+        "i": 20428,
+        "n": "Endless Expanse Katana",
+        "l": 180,
+        "c": 36441,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "20432",
+      "obj": {
+        "i": 20432,
+        "n": "Dead Hive Katana",
+        "l": 180,
+        "c": 36416,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "20436",
+      "obj": {
+        "i": 20436,
+        "n": "Katana of the Round",
+        "l": 180,
+        "c": 36410,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "20440",
+      "obj": {
+        "i": 20440,
+        "n": "Katana of the Fiend",
+        "l": 180,
+        "c": 36453,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "24333",
+      "obj": {
+        "i": 24333,
+        "n": "Seeing Horde Katana",
+        "l": 180,
+        "c": 36401,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "25035",
+      "obj": {
+        "i": 25035,
+        "n": "Katana of the Goddess",
+        "l": 180,
+        "c": 36443,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "25051",
+      "obj": {
+        "i": 25051,
+        "n": "Katana of the Demon",
+        "l": 180,
+        "c": 36418,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "31202",
+      "obj": {
+        "i": 31202,
+        "n": "Grade 3 Skybuilders' Cookpot",
+        "l": 150,
+        "c": 52162,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31203",
+      "obj": {
+        "i": 31203,
+        "n": "Grade 3 Skybuilders' Embroidery Frame",
+        "l": 150,
+        "c": 35523,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31931",
+      "obj": {
+        "i": 31931,
+        "n": "Grade 4 Skybuilders' Cookpot",
+        "l": 150,
+        "c": 52162,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31932",
+      "obj": {
+        "i": 31932,
+        "n": "Grade 4 Skybuilders' Embroidery Frame",
+        "l": 150,
+        "c": 35522,
+        "t": 61
+      }
+    }
+  ]
+}

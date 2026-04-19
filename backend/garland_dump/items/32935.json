@@ -1,0 +1,665 @@
+{
+  "item": {
+    "name": "Duraluminum Ingot",
+    "description": "An ingot of smelted duraluminum.",
+    "id": 32935,
+    "patch": 5.4,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 510,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20802,
+    "ingredient_of": {
+      "31813": 1,
+      "31814": 2,
+      "31815": 2,
+      "31817": 2,
+      "31818": 2,
+      "31819": 2,
+      "31820": 2,
+      "31822": 2,
+      "31825": 2,
+      "31826": 2,
+      "31827": 2,
+      "31828": 2,
+      "31829": 2,
+      "31830": 1,
+      "31831": 2,
+      "31832": 2,
+      "31833": 2,
+      "31835": 2,
+      "31837": 2,
+      "31838": 2,
+      "31839": 2,
+      "31841": 2,
+      "31843": 1,
+      "31844": 2,
+      "31849": 1,
+      "31850": 2,
+      "31855": 1,
+      "31856": 2,
+      "31864": 2,
+      "31870": 2,
+      "33253": 2,
+      "33673": 2,
+      "36011": 2
+    },
+    "craft": [
+      {
+        "id": 34577,
+        "job": 9,
+        "rlvl": 510,
+        "durability": 35,
+        "quality": 7125,
+        "progress": 2340,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2540,
+        "craftsmanshipReq": 2620,
+        "quickSynthCraftsmanship": 2900,
+        "unlockId": 29485,
+        "ingredients": [
+          {
+            "id": 32951,
+            "amount": 4
+          },
+          {
+            "id": 32945,
+            "amount": 2
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 17,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 516,
+          "hq": 536
+        }
+      },
+      {
+        "id": 34578,
+        "job": 10,
+        "rlvl": 510,
+        "durability": 35,
+        "quality": 7125,
+        "progress": 2340,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2540,
+        "craftsmanshipReq": 2620,
+        "quickSynthCraftsmanship": 2900,
+        "unlockId": 29486,
+        "ingredients": [
+          {
+            "id": 32951,
+            "amount": 4
+          },
+          {
+            "id": 32945,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 3
+          },
+          {
+            "id": 17,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 516,
+          "hq": 536
+        }
+      }
+    ],
+    "desynthedFrom": [
+      31822,
+      31830
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Dolomite",
+      "id": 32951,
+      "icon": 21225,
+      "category": 48,
+      "ilvl": 510,
+      "price": 3154,
+      "ventures": [
+        889
+      ],
+      "nodes": [
+        760
+      ]
+    },
+    {
+      "name": "Aluminum Ore",
+      "id": 32945,
+      "icon": 21206,
+      "category": 48,
+      "ilvl": 510,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "32945",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "32945",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "760",
+      "obj": {
+        "i": 760,
+        "n": "The Husk",
+        "l": 80,
+        "t": 0,
+        "z": 2957,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "31813",
+      "obj": {
+        "i": 31813,
+        "n": "Exarchic Sword",
+        "l": 510,
+        "c": 30630,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "31814",
+      "obj": {
+        "i": 31814,
+        "n": "Exarchic Baghnakhs",
+        "l": 510,
+        "c": 31195,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "31815",
+      "obj": {
+        "i": 31815,
+        "n": "Exarchic Axe",
+        "l": 510,
+        "c": 31205,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "31817",
+      "obj": {
+        "i": 31817,
+        "n": "Exarchic Longbow",
+        "l": 510,
+        "c": 32394,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "31818",
+      "obj": {
+        "i": 31818,
+        "n": "Exarchic Daggers",
+        "l": 510,
+        "c": 33981,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "31819",
+      "obj": {
+        "i": 31819,
+        "n": "Exarchic Guillotine",
+        "l": 510,
+        "c": 34359,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "31820",
+      "obj": {
+        "i": 31820,
+        "n": "Exarchic Handgonne",
+        "l": 510,
+        "c": 34405,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "31822",
+      "obj": {
+        "i": 31822,
+        "n": "Exarchic Rod",
+        "l": 510,
+        "c": 33149,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "31825",
+      "obj": {
+        "i": 31825,
+        "n": "Exarchic Star Globe",
+        "l": 510,
+        "c": 34953,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "31826",
+      "obj": {
+        "i": 31826,
+        "n": "Exarchic Blade",
+        "l": 510,
+        "c": 36510,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "31827",
+      "obj": {
+        "i": 31827,
+        "n": "Exarchic Rapier",
+        "l": 510,
+        "c": 36809,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "31828",
+      "obj": {
+        "i": 31828,
+        "n": "Exarchic Gunblade",
+        "l": 510,
+        "c": 36051,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "31829",
+      "obj": {
+        "i": 31829,
+        "n": "Exarchic Glaives",
+        "l": 510,
+        "c": 36250,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "31830",
+      "obj": {
+        "i": 31830,
+        "n": "Exarchic Tower Shield",
+        "l": 510,
+        "c": 30220,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "31831",
+      "obj": {
+        "i": 31831,
+        "n": "Exarchic Circlet of Fending",
+        "l": 510,
+        "c": 40866,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31832",
+      "obj": {
+        "i": 31832,
+        "n": "Exarchic Coat of Fending",
+        "l": 510,
+        "c": 48219,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31833",
+      "obj": {
+        "i": 31833,
+        "n": "Exarchic Gauntlets of Fending",
+        "l": 510,
+        "c": 48843,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31835",
+      "obj": {
+        "i": 31835,
+        "n": "Exarchic Sabatons of Fending",
+        "l": 510,
+        "c": 47255,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "31837",
+      "obj": {
+        "i": 31837,
+        "n": "Exarchic Circlet of Maiming",
+        "l": 510,
+        "c": 40868,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31838",
+      "obj": {
+        "i": 31838,
+        "n": "Exarchic Mail of Maiming",
+        "l": 510,
+        "c": 48220,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31839",
+      "obj": {
+        "i": 31839,
+        "n": "Exarchic Gauntlets of Maiming",
+        "l": 510,
+        "c": 48844,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31841",
+      "obj": {
+        "i": 31841,
+        "n": "Exarchic Sabatons of Maiming",
+        "l": 510,
+        "c": 47256,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "31843",
+      "obj": {
+        "i": 31843,
+        "n": "Exarchic Hood of Striking",
+        "l": 510,
+        "c": 41804,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31844",
+      "obj": {
+        "i": 31844,
+        "n": "Exarchic Top of Striking",
+        "l": 510,
+        "c": 43547,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31849",
+      "obj": {
+        "i": 31849,
+        "n": "Exarchic Hood of Aiming",
+        "l": 510,
+        "c": 41805,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31850",
+      "obj": {
+        "i": 31850,
+        "n": "Exarchic Top of Aiming",
+        "l": 510,
+        "c": 43548,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31855",
+      "obj": {
+        "i": 31855,
+        "n": "Exarchic Hood of Scouting",
+        "l": 510,
+        "c": 41806,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31856",
+      "obj": {
+        "i": 31856,
+        "n": "Exarchic Top of Scouting",
+        "l": 510,
+        "c": 43549,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31864",
+      "obj": {
+        "i": 31864,
+        "n": "Exarchic Hose of Healing",
+        "l": 510,
+        "c": 47770,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31870",
+      "obj": {
+        "i": 31870,
+        "n": "Exarchic Hose of Casting",
+        "l": 510,
+        "c": 47768,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29485",
+      "obj": {
+        "i": 29485,
+        "n": "Master Blacksmith VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "32951",
+      "obj": {
+        "i": 32951,
+        "n": "Dolomite",
+        "l": 510,
+        "c": 21225,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "32945",
+      "obj": {
+        "i": 32945,
+        "n": "Aluminum Ore",
+        "l": 510,
+        "c": 21206,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "29486",
+      "obj": {
+        "i": 29486,
+        "n": "Master Armorer VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "33253",
+      "obj": {
+        "i": 33253,
+        "n": "Diamond Weapon Bust",
+        "l": 510,
+        "c": 53390,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "33673",
+      "obj": {
+        "i": 33673,
+        "n": "Diamond Barding",
+        "l": 1,
+        "c": 58746,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36011",
+      "obj": {
+        "i": 36011,
+        "n": "Barding of Eternal Darkness",
+        "l": 1,
+        "c": 58749,
+        "t": 63
+      }
+    }
+  ]
+}

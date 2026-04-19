@@ -1,0 +1,310 @@
+{
+  "item": {
+    "name": "Oriental Tea Set",
+    "description": "Bring a touch of the exotic to teatime with this collection of authentic Doman woodware.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Piety Bonus:</span> +4% (Max 28)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +4% (Max 27)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 13070,
+    "patch": 3.1,
+    "patchCategory": 9,
+    "price": 8640,
+    "ilvl": 139,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53073,
+    "craft": [
+      {
+        "id": 2827,
+        "job": 15,
+        "rlvl": 139,
+        "durability": 70,
+        "quality": 1210,
+        "progress": 420,
+        "lvl": 56,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 4846,
+            "amount": 1
+          },
+          {
+            "id": 4819,
+            "amount": 1
+          },
+          {
+            "id": 4776,
+            "amount": 1
+          },
+          {
+            "id": 12906,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 147,
+          "hq": 167
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "394"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Thanalan Tea Leaves",
+      "id": 4846,
+      "icon": 25020,
+      "category": 45,
+      "ilvl": 49,
+      "price": 229,
+      "ventures": [
+        304
+      ],
+      "nodes": [
+        149
+      ]
+    },
+    {
+      "name": "Sticky Rice",
+      "id": 4819,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 25,
+      "price": 73,
+      "ventures": [
+        241
+      ],
+      "nodes": [
+        41
+      ]
+    },
+    {
+      "name": "Malm Kelp",
+      "id": 4776,
+      "icon": 29063,
+      "category": 47,
+      "ilvl": 4,
+      "price": 5,
+      "fishingSpots": [
+        35,
+        36,
+        44
+      ]
+    },
+    {
+      "name": "Oriental Soy Sauce",
+      "id": 12906,
+      "icon": 27602,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12906",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12906",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "149",
+      "obj": {
+        "i": 149,
+        "n": "Sagolii Desert",
+        "l": 50,
+        "t": 3,
+        "z": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Oakwood",
+        "l": 25,
+        "t": 3,
+        "z": 34
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "35",
+      "obj": {
+        "i": 35,
+        "n": "Limsa Lominsa Lower Decks",
+        "l": 1,
+        "c": 0,
+        "z": 29,
+        "x": 7.69,
+        "y": 12.21
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "36",
+      "obj": {
+        "i": 36,
+        "n": "Limsa Lominsa Upper Decks",
+        "l": 1,
+        "c": 0,
+        "z": 28,
+        "x": 10.31,
+        "y": 11.33
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "44",
+      "obj": {
+        "i": 44,
+        "n": "Moraby Bay",
+        "l": 5,
+        "c": 0,
+        "z": 31,
+        "x": 26.91,
+        "y": 25.98
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "4846",
+      "obj": {
+        "i": 4846,
+        "n": "Thanalan Tea Leaves",
+        "l": 49,
+        "c": 25020,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4819",
+      "obj": {
+        "i": 4819,
+        "n": "Sticky Rice",
+        "l": 25,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4776",
+      "obj": {
+        "i": 4776,
+        "n": "Malm Kelp",
+        "l": 4,
+        "c": 29063,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12906",
+      "obj": {
+        "i": 12906,
+        "n": "Oriental Soy Sauce",
+        "l": 136,
+        "c": 27602,
+        "t": 45,
+        "p": 430
+      }
+    }
+  ]
+}

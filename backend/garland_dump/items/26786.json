@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Wind-up Ryne",
+    "description": "Not merely a palette swap.<br><br>Use item to acquire the wind-up Ryne minion.",
+    "minionrace": "Poppet",
+    "tooltip": "What about... Ryne?\r\n   - Thancred",
+    "minionskilltype": "Special",
+    "specialactionname": "Minfilia's Power",
+    "specialactiondescription": "Doubles the amount of HP restored to allies stationed in Gates.<br><span class=\"highlight-green\">Duration:</span> 20s",
+    "id": 26786,
+    "patch": 5.2,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59732,
+    "instances": [
+      30094,
+      30095,
+      30094,
+      30095
+    ],
+    "cost": 20,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 65,
+      "Defense": 50,
+      "Speed": 3
+    },
+    "models": [
+      "8300-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30094",
+      "obj": {
+        "i": 30094,
+        "n": "Eden's Verse: Refulgence",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 455
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30095",
+      "obj": {
+        "i": 30095,
+        "n": "Eden's Verse: Refulgence (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 480
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "item": {
+    "name": "Gravel Golem",
+    "description": "Only you stand between it and a hard place.<br><br>Use item to acquire the gravel golem minion.",
+    "minionrace": "Monster",
+    "tooltip": "Gummice pollums? I fear\r\nI'm not familiar with them.\r\n  - Yhom Epocan",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Gravelskin",
+    "specialactiondescription": "Increases action party DEF by 40.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 6183,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59419,
+    "craft": [
+      {
+        "id": 1469,
+        "job": 11,
+        "rlvl": 50,
+        "durability": 80,
+        "quality": 2000,
+        "progress": 90,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 5158,
+            "amount": 3
+          },
+          {
+            "id": 4,
+            "amount": 99
+          }
+        ],
+        "complexity": {
+          "nq": 658,
+          "hq": 678
+        }
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8015-1-1"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Astral Rock",
+      "id": 5158,
+      "icon": 21251,
+      "category": 48,
+      "ilvl": 55,
+      "price": 1197,
+      "treasure": [
+        6692
+      ],
+      "ventures": [
+        512
+      ],
+      "nodes": [
+        225
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "225",
+      "obj": {
+        "i": 225,
+        "n": "Dragonhead",
+        "l": 50,
+        "t": 1,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          21
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5158",
+      "obj": {
+        "i": 5158,
+        "n": "Astral Rock",
+        "l": 55,
+        "c": 21251,
+        "t": 48
+      }
+    }
+  ]
+}

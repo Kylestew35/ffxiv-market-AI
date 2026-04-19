@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Wind-up Ananta",
+    "description": "Why did it have to be a snake?<br><br>Use item to acquire the wind-up Ananta minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Someone bring the snake!\r\n   - Fordola rem Lupis",
+    "minionskilltype": "Restoration",
+    "specialactionname": "Snake Charmer",
+    "specialactiondescription": "Restores 200 HP to all allies within range (250 if the ally is a <span class=\"highlight\">poppet</span>).",
+    "id": 21913,
+    "patch": 4.2,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59677,
+    "tradeShops": [
+      {
+        "shop": "Ananta Dreamstaff Exchange",
+        "npcs": [
+          1024774
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21913",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21935",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 360,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 450,
+      "Skill Cost": 60,
+      "Attack": 30,
+      "Defense": 80,
+      "Speed": 2
+    },
+    "models": [
+      "8250-1-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024774",
+      "obj": {
+        "i": 1024774,
+        "n": "Madhura",
+        "l": 2406,
+        "s": 1,
+        "t": "Dreamstaff Exchange",
+        "r": 1,
+        "a": 2632,
+        "c": [
+          20.98,
+          26.25
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21935",
+      "obj": {
+        "i": 21935,
+        "n": "Ananta Dreamstaff",
+        "l": 1,
+        "c": 65061,
+        "t": 100
+      }
+    }
+  ]
+}

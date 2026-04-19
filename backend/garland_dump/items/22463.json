@@ -1,0 +1,85 @@
+{
+  "item": {
+    "name": "Holy Linen",
+    "description": "This length of true linen has been blessed by one or more religious figures of varying holiness.",
+    "id": 22463,
+    "patch": 4.2,
+    "patchCategory": 5,
+    "price": 3,
+    "ilvl": 1,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21615,
+    "ingredient_of": {
+      "21937": 2
+    },
+    "instances": [
+      55002,
+      55003
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      17835
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "21937",
+      "obj": {
+        "i": 21937,
+        "n": "Adventuring Sweater",
+        "l": 1,
+        "c": 42592,
+        "t": 35
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55002",
+      "obj": {
+        "i": 55002,
+        "n": "The Lost Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55003",
+      "obj": {
+        "i": 55003,
+        "n": "The Hidden Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "item": {
+    "name": "Pipira Pira",
+    "description": "A deadly freshwater fish which will tear away flesh with its razor-sharp teeth. Crossing the Whilom River barefoot is not recommended.<br><br>[Suitable for display in aquariums tier 2 and higher.]<br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "An exceptionally ravenous variety of pipira, the pipira pira have been known to bite clean through the ankles of chocobo herds fording rivers containing schools of the deadly wavekin.",
+      "icon": 79212,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 117,
+          "weather": [
+            "Clouds",
+            "Dust Storms",
+            "Fog"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 341,
+          "baits": [
+            [
+              12706
+            ]
+          ]
+        },
+        {
+          "spot": 118,
+          "weather": [
+            "Clouds",
+            "Dust Storms",
+            "Fog"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 341,
+          "baits": [
+            [
+              12706
+            ]
+          ]
+        },
+        {
+          "spot": 120,
+          "weather": [
+            "Clouds",
+            "Dust Storms",
+            "Fog"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 341,
+          "baits": [
+            [
+              12706
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12741,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1378,
+    "ilvl": 145,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29212,
+    "ingredient_of": {
+      "12856": 1
+    },
+    "fishingSpots": [
+      117,
+      118,
+      120
+    ],
+    "requiredByLeves": [
+      1228,
+      1231
+    ],
+    "desynthedTo": [
+      5825
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "12856",
+      "obj": {
+        "i": 12856,
+        "n": "Baked Pipira Pira",
+        "l": 145,
+        "c": 24311,
+        "t": 46
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "117",
+      "obj": {
+        "i": 117,
+        "n": "The Hundred Throes",
+        "l": 52,
+        "c": 1,
+        "z": 2000,
+        "x": 31.39,
+        "y": 10.1
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "118",
+      "obj": {
+        "i": 118,
+        "n": "Whilom River",
+        "l": 52,
+        "c": 1,
+        "z": 2000,
+        "x": 30.63,
+        "y": 14.82
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "120",
+      "obj": {
+        "i": 120,
+        "n": "The Iron Feast",
+        "l": 55,
+        "c": 1,
+        "z": 2000,
+        "x": 31.62,
+        "y": 6.06
+      }
+    },
+    {
+      "type": "item",
+      "id": "12706",
+      "obj": {
+        "i": 12706,
+        "n": "Goblin Jig",
+        "l": 145,
+        "c": 27069,
+        "t": 33
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1228",
+      "obj": {
+        "i": 1228,
+        "n": "Pipira Pirouette",
+        "l": 56,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1231",
+      "obj": {
+        "i": 1231,
+        "n": "Plus One or Two or Three (L)",
+        "l": 56,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "5825",
+      "obj": {
+        "i": 5825,
+        "n": "Allagan Silver Piece",
+        "l": 25,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

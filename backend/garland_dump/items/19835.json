@@ -1,0 +1,378 @@
+{
+  "item": {
+    "name": "Fish Stew",
+    "description": "A salty broth containing balls of finely ground fish paste. A common dish in Far Eastern coastal settlements.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19835,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2192,
+    "ilvl": 282,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Determination": {
+          "rate": 8,
+          "limit": 35
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 36
+        },
+        "Skill Speed": {
+          "rate": 8,
+          "limit": 21
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Determination": {
+          "rate": 10,
+          "limit": 44
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 45
+        },
+        "Skill Speed": {
+          "rate": 10,
+          "limit": 26
+        }
+      }
+    },
+    "icon": 24113,
+    "craft": [
+      {
+        "id": 3577,
+        "job": 15,
+        "rlvl": 282,
+        "durability": 80,
+        "quality": 3330,
+        "progress": 930,
+        "lvl": 67,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 20203,
+            "amount": 1
+          },
+          {
+            "id": 20171,
+            "amount": 1
+          },
+          {
+            "id": 19861,
+            "amount": 1
+          },
+          {
+            "id": 19859,
+            "amount": 1
+          },
+          {
+            "id": 19848,
+            "amount": 1,
+            "quality": 286.32382
+          },
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 5
+          },
+          {
+            "id": 13,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 204,
+          "hq": 224
+        }
+      }
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 680320,
+      "seals": 771
+    }
+  },
+  "ingredients": [
+    {
+      "name": "River Clam",
+      "id": 20203,
+      "icon": 29510,
+      "category": 47,
+      "ilvl": 245,
+      "price": 1000,
+      "nodes": [
+        476
+      ]
+    },
+    {
+      "name": "Corpse-eater",
+      "id": 20171,
+      "icon": 29142,
+      "category": 47,
+      "ilvl": 220,
+      "price": 1000,
+      "nodes": [
+        464,
+        530
+      ]
+    },
+    {
+      "name": "Mountain Popoto",
+      "id": 19861,
+      "icon": 25227,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "ventures": [
+        683
+      ],
+      "nodes": [
+        512
+      ]
+    },
+    {
+      "name": "Green Leek",
+      "id": 19859,
+      "icon": 25035,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        688
+      ],
+      "nodes": [
+        512
+      ]
+    },
+    {
+      "name": "Algae Salt",
+      "id": 19848,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "craft": [
+        {
+          "id": 3586,
+          "job": 15,
+          "rlvl": 265,
+          "durability": 40,
+          "quality": 2304,
+          "progress": 340,
+          "lvl": 62,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19881,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gem Algae",
+      "id": 19881,
+      "icon": 25225,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "ventures": [
+        684
+      ],
+      "nodes": [
+        511
+      ]
+    },
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "476",
+      "obj": {
+        "i": 476,
+        "n": "Azim Khaat Eastern Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2411
+      }
+    },
+    {
+      "type": "node",
+      "id": "464",
+      "obj": {
+        "i": 464,
+        "n": "Ruby Price Depths",
+        "l": 65,
+        "t": 5,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "530",
+      "obj": {
+        "i": 530,
+        "n": "Kobayashi Maru's Northern Wake",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "s": 1,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "19881",
+      "obj": {
+        "i": 19881,
+        "n": "Gem Algae",
+        "l": 265,
+        "c": 25225,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "20203",
+      "obj": {
+        "i": 20203,
+        "n": "River Clam",
+        "l": 245,
+        "c": 29510,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "20171",
+      "obj": {
+        "i": 20171,
+        "n": "Corpse-eater",
+        "l": 220,
+        "c": 29142,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "19861",
+      "obj": {
+        "i": 19861,
+        "n": "Mountain Popoto",
+        "l": 265,
+        "c": 25227,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19859",
+      "obj": {
+        "i": 19859,
+        "n": "Green Leek",
+        "l": 273,
+        "c": 25035,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19848",
+      "obj": {
+        "i": 19848,
+        "n": "Algae Salt",
+        "l": 265,
+        "c": 25104,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    }
+  ]
+}

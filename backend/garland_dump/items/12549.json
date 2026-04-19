@@ -1,0 +1,611 @@
+{
+  "item": {
+    "name": "Mormorion",
+    "description": "A smoky black jewel.",
+    "id": 12549,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 4536,
+    "ilvl": 133,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21331,
+    "vendors": [
+      1001977
+    ],
+    "ingredient_of": {
+      "10984": 1,
+      "11008": 1,
+      "11032": 1,
+      "11056": 1,
+      "11080": 1,
+      "18045": 3,
+      "19530": 1,
+      "10663": 3,
+      "10928": 1,
+      "10651": 1,
+      "23001": 1,
+      "31021": 1
+    },
+    "craft": [
+      {
+        "id": 2539,
+        "job": 11,
+        "rlvl": 133,
+        "durability": 40,
+        "quality": 1824,
+        "progress": 170,
+        "lvl": 54,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12559,
+            "amount": 3
+          },
+          {
+            "id": 5261,
+            "amount": 1
+          },
+          {
+            "id": 10,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 132,
+          "hq": 152
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raw Mormorion",
+      "id": 12559,
+      "icon": 21476,
+      "category": 48,
+      "ilvl": 133,
+      "price": 2896,
+      "ventures": [
+        450
+      ],
+      "nodes": [
+        285
+      ]
+    },
+    {
+      "name": "Aqueous Whetstone",
+      "id": 5261,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 70,
+      "price": 415,
+      "desynthedFrom": [
+        7705,
+        7712,
+        7939,
+        12830
+      ],
+      "treasure": [
+        6691,
+        8156,
+        6692
+      ],
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5261",
+                  "amount": 2
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "285",
+      "obj": {
+        "i": 285,
+        "n": "Gorgagne Holding",
+        "l": 55,
+        "t": 0,
+        "z": 2200
+      }
+    },
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "8156",
+      "obj": {
+        "i": 8156,
+        "n": "Unhidden Leather Map",
+        "l": 50,
+        "c": 25935,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001977",
+      "obj": {
+        "i": 1001977,
+        "n": "Sileas",
+        "l": 41,
+        "s": 2,
+        "t": "Jeweler",
+        "c": [
+          "10.0",
+          "12.5"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10984",
+      "obj": {
+        "i": 10984,
+        "n": "Mormorion Ring of Fending",
+        "l": 133,
+        "c": 54574,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "11008",
+      "obj": {
+        "i": 11008,
+        "n": "Mormorion Ring of Slaying",
+        "l": 133,
+        "c": 54574,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "11032",
+      "obj": {
+        "i": 11032,
+        "n": "Mormorion Ring of Aiming",
+        "l": 133,
+        "c": 54574,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "11056",
+      "obj": {
+        "i": 11056,
+        "n": "Mormorion Ring of Healing",
+        "l": 133,
+        "c": 54574,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "11080",
+      "obj": {
+        "i": 11080,
+        "n": "Mormorion Ring of Casting",
+        "l": 133,
+        "c": 54574,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "12559",
+      "obj": {
+        "i": 12559,
+        "n": "Raw Mormorion",
+        "l": 133,
+        "c": 21476,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5261",
+      "obj": {
+        "i": 5261,
+        "n": "Aqueous Whetstone",
+        "l": 70,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "18045",
+      "obj": {
+        "i": 18045,
+        "n": "Koppranickel Planisphere",
+        "l": 255,
+        "c": 34884,
+        "t": 89,
+        "p": 36352
+      }
+    },
+    {
+      "type": "item",
+      "id": "19530",
+      "obj": {
+        "i": 19530,
+        "n": "Durium Texture Hammer",
+        "l": 220,
+        "c": 35322,
+        "t": 18,
+        "p": 31363
+      }
+    },
+    {
+      "type": "item",
+      "id": "10663",
+      "obj": {
+        "i": 10663,
+        "n": "Aurum Regis Planisphere",
+        "l": 150,
+        "c": 34855,
+        "t": 89,
+        "p": 30175
+      }
+    },
+    {
+      "type": "item",
+      "id": "10928",
+      "obj": {
+        "i": 10928,
+        "n": "Aurum Regis Circlet of Casting",
+        "l": 180,
+        "c": 40702,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10651",
+      "obj": {
+        "i": 10651,
+        "n": "Noble Gold",
+        "l": 150,
+        "c": 33529,
+        "t": 10,
+        "p": 31838
+      }
+    },
+    {
+      "type": "item",
+      "id": "23001",
+      "obj": {
+        "i": 23001,
+        "n": "Quaintrelle's Ruffled Dress",
+        "l": 1,
+        "c": 42605,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31021",
+      "obj": {
+        "i": 31021,
+        "n": "Rarefied Koppranickel Planisphere",
+        "l": 265,
+        "c": 34884,
+        "t": 61
+      }
+    }
+  ]
+}

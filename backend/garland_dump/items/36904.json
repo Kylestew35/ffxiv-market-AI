@@ -1,0 +1,133 @@
+{
+  "item": {
+    "name": "Troll Horn",
+    "description": "When blown, this horn produces an untamed sound that calls your towering troll to your side.",
+    "mount": {
+      "name": "Troll",
+      "action": "Summon forth your troll mount, a gentle giant native to the northern seas.",
+      "description": "Contrary to their savage appearance, trolls are highly intelligent creatures. Sharlayan scholars once sought to teach them sign language, and on account of this specimen's friendly nature, it is believed that it was a subject in that experiment.",
+      "tooltip": "If I didn't know better, I could've <br>sworn that troll was talking to you...<br>   - Roegadyn Gleaner",
+      "icon": 4229,
+      "guideIcon": 68229
+    },
+    "id": 36904,
+    "patch": 6.1,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Gold Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36904",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22443",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36904",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "780-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22443",
+      "obj": {
+        "i": 22443,
+        "n": "Khloe's Gold Certificate of Commendation",
+        "l": 1,
+        "c": 26191,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    }
+  ]
+}

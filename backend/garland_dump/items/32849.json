@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Wind-up Gaia",
+    "description": "Those who think the hammer is just for show had best watch their toes.<br><br>Use item to acquire the wind-up Gaia minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Let me get this straight.\r\nYou came to talk to me about\r\n<Emphasis>biscuits</Emphasis>?\r\n   - Gaia",
+    "minionskilltype": "Dismantling",
+    "specialactionname": "Hellacious Hammer",
+    "specialactiondescription": "Reduces HP of closest enemy Gate by 60%. No effect if Gate is already inoperable.",
+    "id": 32849,
+    "patch": 5.4,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59798,
+    "instances": [
+      30103,
+      30104,
+      30103,
+      30104
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "aoe": 1,
+    "strengths": [
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 240,
+      "Skill Cost": 30,
+      "Attack": 55,
+      "Defense": 30,
+      "Speed": 1
+    },
+    "models": [
+      "8358-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30103",
+      "obj": {
+        "i": 30103,
+        "n": "Eden's Promise: Eternity",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 485
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30104",
+      "obj": {
+        "i": 30104,
+        "n": "Eden's Promise: Eternity (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 510
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Vanu Vanu Framer's Kit",
+    "description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for an allied sundrop dancer.<br>Includes Portrait Elements: Background, Accent<br>Includes Plate Elements: Base Plate, Top Border, Bottom Border, Accent",
+    "id": 41371,
+    "patch": 6.5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26625,
+    "tradeShops": [
+      {
+        "shop": "Vanu Whitebone Exchange",
+        "npcs": [
+          1016093
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41371",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21074",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    }
+  ]
+}

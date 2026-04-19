@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Wind-up Kojin",
+    "description": "Is it green? Is it blue? Or...is it neither?<br><br>Use item to acquire the wind-up Kojin minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Tsukumo is no ordinary\r\npuppet. He is of the divine!\r\n   - Kabuto",
+    "minionskilltype": "Restoration",
+    "specialactionname": "Treasure Trove",
+    "specialactiondescription": "Restores 100 HP to all allies within range (150 if the ally is a <span class=\"highlight\">poppet</span>).",
+    "id": 21056,
+    "patch": 4.1,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59666,
+    "tradeShops": [
+      {
+        "shop": "Kojin Sango Exchange",
+        "npcs": [
+          1024219
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21056",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21081",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield",
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 30,
+      "Attack": 40,
+      "Defense": 40,
+      "Speed": 3
+    },
+    "models": [
+      "8239-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024219",
+      "obj": {
+        "i": 1024219,
+        "n": "Shikitahe",
+        "l": 2409,
+        "s": 1,
+        "t": "Sango Exchange",
+        "r": 1,
+        "a": 2769,
+        "c": [
+          29.36,
+          16.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21081",
+      "obj": {
+        "i": 21081,
+        "n": "Kojin Sango",
+        "l": 1,
+        "c": 65058,
+        "t": 100
+      }
+    }
+  ]
+}

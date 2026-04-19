@@ -1,0 +1,63 @@
+{
+  "item": {
+    "name": "Ephemeral Necromancer",
+    "description": "If it could, it would summon forth an army of equally adorable undead.<br><br>Use item to acquire the ephemeral necromancer minion.",
+    "minionrace": "Poppet",
+    "tooltip": "If you go and die on me, I'll pay a \r\nnecromancer to raise you from the\r\ndead so I can kill you out of spite!\r\n   - Renda-Rae",
+    "minionskilltype": "Special",
+    "specialactionname": "Necromancy",
+    "specialactiondescription": "Instantly restores damaged ally Shield.",
+    "id": 30872,
+    "patch": 5.3,
+    "patchCategory": 11,
+    "price": 100,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59785,
+    "instances": [
+      75,
+      75
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 380,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8346-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "75",
+      "obj": {
+        "i": 75,
+        "n": "The Heroes' Gauntlet",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 460,
+        "max_ilvl": 500
+      }
+    }
+  ]
+}

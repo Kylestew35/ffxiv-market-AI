@@ -1,0 +1,981 @@
+{
+  "item": {
+    "name": "Cobalt Alloy Ingot",
+    "description": "An ingot of smelted cobalt alloy.",
+    "id": 29958,
+    "patch": 5.2,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 480,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20830,
+    "ingredient_of": {
+      "29404": 2,
+      "29405": 2,
+      "29406": 2,
+      "29407": 2,
+      "29409": 2,
+      "29410": 2,
+      "29411": 2,
+      "29413": 2,
+      "29416": 2,
+      "29417": 2,
+      "29418": 2,
+      "29419": 2,
+      "29420": 2,
+      "29421": 1,
+      "29423": 2,
+      "29424": 2,
+      "29426": 2,
+      "29429": 2,
+      "29430": 2,
+      "29432": 1,
+      "29436": 2,
+      "29442": 2,
+      "29448": 2,
+      "29450": 2,
+      "29454": 2,
+      "29460": 2,
+      "29462": 1,
+      "29469": 1,
+      "29470": 1,
+      "29471": 1,
+      "29472": 1,
+      "29473": 1,
+      "30440": 5,
+      "30441": 5,
+      "30442": 5,
+      "30443": 5,
+      "30444": 5,
+      "30446": 5,
+      "30447": 5,
+      "30448": 5,
+      "30449": 5,
+      "30450": 2,
+      "30451": 5,
+      "30452": 5,
+      "30453": 5,
+      "30454": 2,
+      "30455": 5,
+      "30457": 5,
+      "30458": 5,
+      "30459": 5,
+      "30460": 5,
+      "30465": 1,
+      "30470": 1,
+      "30678": 3,
+      "30381": 2
+    },
+    "craft": [
+      {
+        "id": 33896,
+        "job": 9,
+        "rlvl": 480,
+        "durability": 35,
+        "quality": 6375,
+        "progress": 2240,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29485,
+        "ingredients": [
+          {
+            "id": 29968,
+            "amount": 4
+          },
+          {
+            "id": 29969,
+            "amount": 2
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 17,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 456,
+          "hq": 476
+        }
+      },
+      {
+        "id": 33897,
+        "job": 10,
+        "rlvl": 480,
+        "durability": 35,
+        "quality": 6375,
+        "progress": 2240,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29486,
+        "ingredients": [
+          {
+            "id": 29968,
+            "amount": 4
+          },
+          {
+            "id": 29969,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 2
+          },
+          {
+            "id": 17,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 456,
+          "hq": 476
+        }
+      }
+    ],
+    "desynthedFrom": [
+      33507,
+      29429,
+      29266,
+      33531,
+      29279,
+      29423
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Fireheart Cobalt",
+      "id": 29968,
+      "icon": 21227,
+      "category": 48,
+      "ilvl": 480,
+      "price": 3154,
+      "ventures": [
+        864
+      ],
+      "nodes": [
+        681
+      ]
+    },
+    {
+      "name": "Dwarven Chromite",
+      "id": 29969,
+      "icon": 21205,
+      "category": 48,
+      "ilvl": 480,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29969",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29969",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "681",
+      "obj": {
+        "i": 681,
+        "n": "The Isle of Ken",
+        "l": 80,
+        "t": 0,
+        "z": 2953,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          2,
+          14
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29404",
+      "obj": {
+        "i": 29404,
+        "n": "Neo-Ishgardian Sword",
+        "l": 480,
+        "c": 30619,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "29405",
+      "obj": {
+        "i": 29405,
+        "n": "Neo-Ishgardian Claws",
+        "l": 480,
+        "c": 31183,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "29406",
+      "obj": {
+        "i": 29406,
+        "n": "Neo-Ishgardian Labrys",
+        "l": 480,
+        "c": 31592,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "29407",
+      "obj": {
+        "i": 29407,
+        "n": "Neo-Ishgardian Trident",
+        "l": 480,
+        "c": 31994,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "29409",
+      "obj": {
+        "i": 29409,
+        "n": "Neo-Ishgardian Daggers",
+        "l": 480,
+        "c": 33969,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "29410",
+      "obj": {
+        "i": 29410,
+        "n": "Neo-Ishgardian Greatsword",
+        "l": 480,
+        "c": 34348,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "29411",
+      "obj": {
+        "i": 29411,
+        "n": "Neo-Ishgardian Revolver",
+        "l": 480,
+        "c": 34472,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "29413",
+      "obj": {
+        "i": 29413,
+        "n": "Neo-Ishgardian Rod",
+        "l": 480,
+        "c": 33136,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "29416",
+      "obj": {
+        "i": 29416,
+        "n": "Neo-Ishgardian Planisphere",
+        "l": 480,
+        "c": 34942,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "29417",
+      "obj": {
+        "i": 29417,
+        "n": "Neo-Ishgardian Blade",
+        "l": 480,
+        "c": 36501,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "29418",
+      "obj": {
+        "i": 29418,
+        "n": "Neo-Ishgardian Foil",
+        "l": 480,
+        "c": 36800,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "29419",
+      "obj": {
+        "i": 29419,
+        "n": "Neo-Ishgardian Manatrigger",
+        "l": 480,
+        "c": 36040,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "29420",
+      "obj": {
+        "i": 29420,
+        "n": "Neo-Ishgardian Chakrams",
+        "l": 480,
+        "c": 36239,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "29421",
+      "obj": {
+        "i": 29421,
+        "n": "Neo-Ishgardian Shield",
+        "l": 480,
+        "c": 30208,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "29423",
+      "obj": {
+        "i": 29423,
+        "n": "Neo-Ishgardian Top of Fending",
+        "l": 480,
+        "c": 43511,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29424",
+      "obj": {
+        "i": 29424,
+        "n": "Neo-Ishgardian Gauntlets of Fending",
+        "l": 480,
+        "c": 48815,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29426",
+      "obj": {
+        "i": 29426,
+        "n": "Neo-Ishgardian Sollerets of Fending",
+        "l": 480,
+        "c": 49233,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29429",
+      "obj": {
+        "i": 29429,
+        "n": "Neo-Ishgardian Top of Maiming",
+        "l": 480,
+        "c": 43513,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29430",
+      "obj": {
+        "i": 29430,
+        "n": "Neo-Ishgardian Gloves of Maiming",
+        "l": 480,
+        "c": 48816,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29432",
+      "obj": {
+        "i": 29432,
+        "n": "Neo-Ishgardian Boots of Maiming",
+        "l": 480,
+        "c": 49235,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29436",
+      "obj": {
+        "i": 29436,
+        "n": "Neo-Ishgardian Gloves of Striking",
+        "l": 480,
+        "c": 48817,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29442",
+      "obj": {
+        "i": 29442,
+        "n": "Neo-Ishgardian Gloves of Aiming",
+        "l": 480,
+        "c": 48818,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29448",
+      "obj": {
+        "i": 29448,
+        "n": "Neo-Ishgardian Gloves of Scouting",
+        "l": 480,
+        "c": 44785,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29450",
+      "obj": {
+        "i": 29450,
+        "n": "Neo-Ishgardian Sollerets of Scouting",
+        "l": 480,
+        "c": 49238,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29454",
+      "obj": {
+        "i": 29454,
+        "n": "Neo-Ishgardian Gloves of Healing",
+        "l": 480,
+        "c": 44784,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29460",
+      "obj": {
+        "i": 29460,
+        "n": "Neo-Ishgardian Gloves of Casting",
+        "l": 480,
+        "c": 48814,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29462",
+      "obj": {
+        "i": 29462,
+        "n": "Neo-Ishgardian Boots of Casting",
+        "l": 480,
+        "c": 49232,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29469",
+      "obj": {
+        "i": 29469,
+        "n": "Neo-Ishgardian Choker of Fending",
+        "l": 480,
+        "c": 55021,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "29470",
+      "obj": {
+        "i": 29470,
+        "n": "Neo-Ishgardian Choker of Slaying",
+        "l": 480,
+        "c": 55021,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "29471",
+      "obj": {
+        "i": 29471,
+        "n": "Neo-Ishgardian Choker of Aiming",
+        "l": 480,
+        "c": 55021,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "29472",
+      "obj": {
+        "i": 29472,
+        "n": "Neo-Ishgardian Choker of Healing",
+        "l": 480,
+        "c": 55021,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "29473",
+      "obj": {
+        "i": 29473,
+        "n": "Neo-Ishgardian Choker of Casting",
+        "l": 480,
+        "c": 55021,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "29485",
+      "obj": {
+        "i": 29485,
+        "n": "Master Blacksmith VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29968",
+      "obj": {
+        "i": 29968,
+        "n": "Fireheart Cobalt",
+        "l": 480,
+        "c": 21227,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "29969",
+      "obj": {
+        "i": 29969,
+        "n": "Dwarven Chromite",
+        "l": 480,
+        "c": 21205,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "29486",
+      "obj": {
+        "i": 29486,
+        "n": "Master Armorer VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30440",
+      "obj": {
+        "i": 30440,
+        "n": "Aesthete's Saw",
+        "l": 490,
+        "c": 35039,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "30441",
+      "obj": {
+        "i": 30441,
+        "n": "Aesthete's Cross-pein Hammer",
+        "l": 490,
+        "c": 35138,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "30442",
+      "obj": {
+        "i": 30442,
+        "n": "Aesthete's Raising Hammer",
+        "l": 490,
+        "c": 35238,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "30443",
+      "obj": {
+        "i": 30443,
+        "n": "Aesthete's Mallet",
+        "l": 490,
+        "c": 35337,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "30444",
+      "obj": {
+        "i": 30444,
+        "n": "Aesthete's Round Knife",
+        "l": 490,
+        "c": 35438,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "30446",
+      "obj": {
+        "i": 30446,
+        "n": "Aesthete's Alembic",
+        "l": 490,
+        "c": 35637,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "30447",
+      "obj": {
+        "i": 30447,
+        "n": "Aesthete's Frypan",
+        "l": 490,
+        "c": 35740,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "30448",
+      "obj": {
+        "i": 30448,
+        "n": "Aesthete's Pickaxe",
+        "l": 490,
+        "c": 38040,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "30449",
+      "obj": {
+        "i": 30449,
+        "n": "Aesthete's Hatchet",
+        "l": 490,
+        "c": 38138,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "30450",
+      "obj": {
+        "i": 30450,
+        "n": "Aesthete's Fishing Rod",
+        "l": 490,
+        "c": 38241,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "30451",
+      "obj": {
+        "i": 30451,
+        "n": "Aesthete's Claw Hammer",
+        "l": 490,
+        "c": 35068,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "30452",
+      "obj": {
+        "i": 30452,
+        "n": "Aesthete's File",
+        "l": 490,
+        "c": 35165,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "30453",
+      "obj": {
+        "i": 30453,
+        "n": "Aesthete's Pliers",
+        "l": 490,
+        "c": 35265,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "30454",
+      "obj": {
+        "i": 30454,
+        "n": "Aesthete's Grinding Wheel",
+        "l": 490,
+        "c": 35365,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "30455",
+      "obj": {
+        "i": 30455,
+        "n": "Aesthete's Awl",
+        "l": 490,
+        "c": 35460,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "30457",
+      "obj": {
+        "i": 30457,
+        "n": "Aesthete's Mortar",
+        "l": 490,
+        "c": 35665,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "30458",
+      "obj": {
+        "i": 30458,
+        "n": "Aesthete's Culinary Knife",
+        "l": 490,
+        "c": 35765,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "30459",
+      "obj": {
+        "i": 30459,
+        "n": "Aesthete's Sledgehammer",
+        "l": 490,
+        "c": 38065,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "30460",
+      "obj": {
+        "i": 30460,
+        "n": "Aesthete's Scythe",
+        "l": 490,
+        "c": 38165,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "30465",
+      "obj": {
+        "i": 30465,
+        "n": "Aesthete's Boots of Crafting",
+        "l": 490,
+        "c": 49259,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "30470",
+      "obj": {
+        "i": 30470,
+        "n": "Aesthete's Boots of Gathering",
+        "l": 490,
+        "c": 49258,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "30678",
+      "obj": {
+        "i": 30678,
+        "n": "True Barding of Light",
+        "l": 1,
+        "c": 58734,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30381",
+      "obj": {
+        "i": 30381,
+        "n": "Trophy of Light",
+        "l": 480,
+        "c": 51440,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "33507",
+      "obj": {
+        "i": 33507,
+        "n": "Paglth'an Jacket of Maiming",
+        "l": 505,
+        "c": 42747,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29266",
+      "obj": {
+        "i": 29266,
+        "n": "Augmented Crystarium Culverin",
+        "l": 500,
+        "c": 34469,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "33531",
+      "obj": {
+        "i": 33531,
+        "n": "Paglth'an Chestwrap of Healing",
+        "l": 505,
+        "c": 42746,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29279",
+      "obj": {
+        "i": 29279,
+        "n": "Augmented Crystarium Gauntlets of Fending",
+        "l": 500,
+        "c": 48812,
+        "t": 37
+      }
+    }
+  ]
+}

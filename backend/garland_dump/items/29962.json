@@ -1,0 +1,859 @@
+{
+  "item": {
+    "name": "Megalania Leather",
+    "description": "A large piece of cured megalania skin.",
+    "id": 29962,
+    "patch": 5.2,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 480,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22023,
+    "ingredient_of": {
+      "29414": 2,
+      "29415": 2,
+      "29424": 1,
+      "29425": 2,
+      "29426": 1,
+      "29430": 1,
+      "29431": 2,
+      "29432": 2,
+      "29435": 2,
+      "29436": 1,
+      "29437": 2,
+      "29438": 2,
+      "29441": 2,
+      "29443": 2,
+      "29444": 2,
+      "29446": 1,
+      "29447": 2,
+      "29448": 1,
+      "29449": 2,
+      "29450": 1,
+      "29452": 1,
+      "29453": 2,
+      "29456": 2,
+      "29458": 1,
+      "29459": 2,
+      "29461": 2,
+      "29462": 2,
+      "30440": 2,
+      "30444": 2,
+      "30455": 2,
+      "30461": 1,
+      "30462": 2,
+      "30463": 4,
+      "30464": 2,
+      "30465": 4,
+      "30466": 1,
+      "30467": 5,
+      "30468": 4,
+      "30469": 2,
+      "30470": 4,
+      "30477": 1,
+      "30478": 1,
+      "30479": 1,
+      "30480": 1,
+      "30755": 1,
+      "30758": 2,
+      "30381": 1,
+      "32798": 3,
+      "32799": 3,
+      "32801": 3
+    },
+    "craft": [
+      {
+        "id": 33901,
+        "job": 12,
+        "rlvl": 480,
+        "durability": 35,
+        "quality": 6375,
+        "progress": 2240,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29488,
+        "ingredients": [
+          {
+            "id": 29977,
+            "amount": 2
+          },
+          {
+            "id": 29976,
+            "amount": 4
+          },
+          {
+            "id": 17,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 456,
+          "hq": 476
+        }
+      }
+    ],
+    "desynthedFrom": [
+      31800,
+      31802,
+      30467,
+      30685
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Megalania Skin",
+      "id": 29977,
+      "icon": 21821,
+      "category": 52,
+      "ilvl": 480,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29977",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29977",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashen Alumen",
+      "id": 29976,
+      "icon": 22604,
+      "category": 54,
+      "ilvl": 480,
+      "price": 3154,
+      "desynthedFrom": [
+        33241
+      ],
+      "ventures": [
+        866
+      ],
+      "nodes": [
+        713
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "713",
+      "obj": {
+        "i": 713,
+        "n": "Mount Biran Mines",
+        "l": 80,
+        "t": 1,
+        "z": 2955,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29414",
+      "obj": {
+        "i": 29414,
+        "n": "Neo-Ishgardian Grimoire",
+        "l": 480,
+        "c": 33320,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "29415",
+      "obj": {
+        "i": 29415,
+        "n": "Neo-Ishgardian Codex",
+        "l": 480,
+        "c": 33319,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "29424",
+      "obj": {
+        "i": 29424,
+        "n": "Neo-Ishgardian Gauntlets of Fending",
+        "l": 480,
+        "c": 48815,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29425",
+      "obj": {
+        "i": 29425,
+        "n": "Neo-Ishgardian Bottoms of Fending",
+        "l": 480,
+        "c": 47285,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29426",
+      "obj": {
+        "i": 29426,
+        "n": "Neo-Ishgardian Sollerets of Fending",
+        "l": 480,
+        "c": 49233,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29430",
+      "obj": {
+        "i": 29430,
+        "n": "Neo-Ishgardian Gloves of Maiming",
+        "l": 480,
+        "c": 48816,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29431",
+      "obj": {
+        "i": 29431,
+        "n": "Neo-Ishgardian Bottoms of Maiming",
+        "l": 480,
+        "c": 47287,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29432",
+      "obj": {
+        "i": 29432,
+        "n": "Neo-Ishgardian Boots of Maiming",
+        "l": 480,
+        "c": 49235,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29435",
+      "obj": {
+        "i": 29435,
+        "n": "Neo-Ishgardian Top of Striking",
+        "l": 480,
+        "c": 43514,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29436",
+      "obj": {
+        "i": 29436,
+        "n": "Neo-Ishgardian Gloves of Striking",
+        "l": 480,
+        "c": 48817,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29437",
+      "obj": {
+        "i": 29437,
+        "n": "Neo-Ishgardian Bottoms of Striking",
+        "l": 480,
+        "c": 47288,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29438",
+      "obj": {
+        "i": 29438,
+        "n": "Neo-Ishgardian Boots of Striking",
+        "l": 480,
+        "c": 49236,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29441",
+      "obj": {
+        "i": 29441,
+        "n": "Neo-Ishgardian Top of Aiming",
+        "l": 480,
+        "c": 43515,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29443",
+      "obj": {
+        "i": 29443,
+        "n": "Neo-Ishgardian Bottoms of Aiming",
+        "l": 480,
+        "c": 47289,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29444",
+      "obj": {
+        "i": 29444,
+        "n": "Neo-Ishgardian Boots of Aiming",
+        "l": 480,
+        "c": 49237,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29446",
+      "obj": {
+        "i": 29446,
+        "n": "Neo-Ishgardian Hat of Scouting",
+        "l": 480,
+        "c": 41499,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29447",
+      "obj": {
+        "i": 29447,
+        "n": "Neo-Ishgardian Top of Scouting",
+        "l": 480,
+        "c": 43516,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29448",
+      "obj": {
+        "i": 29448,
+        "n": "Neo-Ishgardian Gloves of Scouting",
+        "l": 480,
+        "c": 44785,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29449",
+      "obj": {
+        "i": 29449,
+        "n": "Neo-Ishgardian Bottoms of Scouting",
+        "l": 480,
+        "c": 47290,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29450",
+      "obj": {
+        "i": 29450,
+        "n": "Neo-Ishgardian Sollerets of Scouting",
+        "l": 480,
+        "c": 49238,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29452",
+      "obj": {
+        "i": 29452,
+        "n": "Neo-Ishgardian Cap of Healing",
+        "l": 480,
+        "c": 41495,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29453",
+      "obj": {
+        "i": 29453,
+        "n": "Neo-Ishgardian Top of Healing",
+        "l": 480,
+        "c": 43512,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29456",
+      "obj": {
+        "i": 29456,
+        "n": "Neo-Ishgardian Boots of Healing",
+        "l": 480,
+        "c": 49234,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29458",
+      "obj": {
+        "i": 29458,
+        "n": "Neo-Ishgardian Hat of Casting",
+        "l": 480,
+        "c": 41493,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29459",
+      "obj": {
+        "i": 29459,
+        "n": "Neo-Ishgardian Top of Casting",
+        "l": 480,
+        "c": 43510,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29461",
+      "obj": {
+        "i": 29461,
+        "n": "Neo-Ishgardian Bottoms of Casting",
+        "l": 480,
+        "c": 47283,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29462",
+      "obj": {
+        "i": 29462,
+        "n": "Neo-Ishgardian Boots of Casting",
+        "l": 480,
+        "c": 49232,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29488",
+      "obj": {
+        "i": 29488,
+        "n": "Master Leatherworker VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29977",
+      "obj": {
+        "i": 29977,
+        "n": "Megalania Skin",
+        "l": 480,
+        "c": 21821,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "29976",
+      "obj": {
+        "i": 29976,
+        "n": "Ashen Alumen",
+        "l": 480,
+        "c": 22604,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "30440",
+      "obj": {
+        "i": 30440,
+        "n": "Aesthete's Saw",
+        "l": 490,
+        "c": 35039,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "30444",
+      "obj": {
+        "i": 30444,
+        "n": "Aesthete's Round Knife",
+        "l": 490,
+        "c": 35438,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "30455",
+      "obj": {
+        "i": 30455,
+        "n": "Aesthete's Awl",
+        "l": 490,
+        "c": 35460,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "30461",
+      "obj": {
+        "i": 30461,
+        "n": "Aesthete's Cap of Crafting",
+        "l": 490,
+        "c": 41506,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "30462",
+      "obj": {
+        "i": 30462,
+        "n": "Aesthete's Doublet of Crafting",
+        "l": 490,
+        "c": 42699,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "30463",
+      "obj": {
+        "i": 30463,
+        "n": "Aesthete's Fingerless Gloves of Crafting",
+        "l": 490,
+        "c": 44801,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "30464",
+      "obj": {
+        "i": 30464,
+        "n": "Aesthete's Trousers of Crafting",
+        "l": 490,
+        "c": 47714,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "30465",
+      "obj": {
+        "i": 30465,
+        "n": "Aesthete's Boots of Crafting",
+        "l": 490,
+        "c": 49259,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "30466",
+      "obj": {
+        "i": 30466,
+        "n": "Aesthete's Hat of Gathering",
+        "l": 490,
+        "c": 41505,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "30467",
+      "obj": {
+        "i": 30467,
+        "n": "Aesthete's Doublet of Gathering",
+        "l": 490,
+        "c": 42698,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "30468",
+      "obj": {
+        "i": 30468,
+        "n": "Aesthete's Halfgloves of Gathering",
+        "l": 490,
+        "c": 44800,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "30469",
+      "obj": {
+        "i": 30469,
+        "n": "Aesthete's Trousers of Gathering",
+        "l": 490,
+        "c": 47713,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "30470",
+      "obj": {
+        "i": 30470,
+        "n": "Aesthete's Boots of Gathering",
+        "l": 490,
+        "c": 49258,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "30477",
+      "obj": {
+        "i": 30477,
+        "n": "Aesthete's Earrings of Gathering",
+        "l": 490,
+        "c": 55459,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "30478",
+      "obj": {
+        "i": 30478,
+        "n": "Aesthete's Necklace of Gathering",
+        "l": 490,
+        "c": 55024,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "30479",
+      "obj": {
+        "i": 30479,
+        "n": "Aesthete's Bracelet of Gathering",
+        "l": 490,
+        "c": 55827,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "30480",
+      "obj": {
+        "i": 30480,
+        "n": "Aesthete's Ring of Gathering",
+        "l": 490,
+        "c": 54676,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "30755",
+      "obj": {
+        "i": 30755,
+        "n": "Southern Seas Shirt",
+        "l": 1,
+        "c": 42705,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "30758",
+      "obj": {
+        "i": 30758,
+        "n": "Southern Seas Shoes",
+        "l": 1,
+        "c": 49282,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "30381",
+      "obj": {
+        "i": 30381,
+        "n": "Trophy of Light",
+        "l": 480,
+        "c": 51440,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "32798",
+      "obj": {
+        "i": 32798,
+        "n": "Calfskin Rider's Cap",
+        "l": 1,
+        "c": 41520,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "32799",
+      "obj": {
+        "i": 32799,
+        "n": "Calfskin Rider's Jacket",
+        "l": 1,
+        "c": 42718,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "32801",
+      "obj": {
+        "i": 32801,
+        "n": "Calfskin Rider's Bottoms",
+        "l": 1,
+        "c": 47782,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31800",
+      "obj": {
+        "i": 31800,
+        "n": "Landsaint's Gloves",
+        "l": 500,
+        "c": 44826,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31802",
+      "obj": {
+        "i": 31802,
+        "n": "Landsaint's Boots",
+        "l": 500,
+        "c": 49293,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "30685",
+      "obj": {
+        "i": 30685,
+        "n": "YoRHa Type-53 Coat of Maiming",
+        "l": 490,
+        "c": 43520,
+        "t": 35
+      }
+    }
+  ]
+}

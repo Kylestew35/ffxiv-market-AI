@@ -1,0 +1,667 @@
+{
+  "item": {
+    "name": "Oriental Breakfast",
+    "description": "The Domans break their fast with a simple, yet balanced meal consisting of rice and several small side dishes.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Skill Speed Bonus:</span> +4% (Max 28)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +4% (Max 26)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 12088,
+    "patch": 3.0,
+    "patchCategory": 9,
+    "price": 44032,
+    "ilvl": 139,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53063,
+    "craft": [
+      {
+        "id": 31218,
+        "job": 15,
+        "rlvl": 139,
+        "durability": 70,
+        "quality": 1210,
+        "progress": 420,
+        "lvl": 56,
+        "materialQualityFactor": 0,
+        "unlockId": 12251,
+        "ingredients": [
+          {
+            "id": 4949,
+            "amount": 3
+          },
+          {
+            "id": 12901,
+            "amount": 2
+          },
+          {
+            "id": 4819,
+            "amount": 3
+          },
+          {
+            "id": 4776,
+            "amount": 3
+          },
+          {
+            "id": 12907,
+            "amount": 1
+          },
+          {
+            "id": 4846,
+            "amount": 3
+          },
+          {
+            "id": 8,
+            "amount": 5
+          },
+          {
+            "id": 13,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 259,
+          "hq": 279
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "360"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bluebell Salmon",
+      "id": 4949,
+      "icon": 29282,
+      "category": 47,
+      "ilvl": 20,
+      "price": 54,
+      "ventures": [
+        322
+      ],
+      "fishingSpots": [
+        8,
+        18,
+        67
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    },
+    {
+      "name": "Sticky Rice",
+      "id": 4819,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 25,
+      "price": 73,
+      "ventures": [
+        241
+      ],
+      "nodes": [
+        41
+      ]
+    },
+    {
+      "name": "Malm Kelp",
+      "id": 4776,
+      "icon": 29063,
+      "category": 47,
+      "ilvl": 4,
+      "price": 5,
+      "fishingSpots": [
+        35,
+        36,
+        44
+      ]
+    },
+    {
+      "name": "Oriental Miso Paste",
+      "id": 12907,
+      "icon": 27605,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12907",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12907",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Thanalan Tea Leaves",
+      "id": 4846,
+      "icon": 25020,
+      "category": 45,
+      "ilvl": 49,
+      "price": 229,
+      "ventures": [
+        304
+      ],
+      "nodes": [
+        149
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "8",
+      "obj": {
+        "i": 8,
+        "n": "Springripple Brook",
+        "l": 15,
+        "c": 1,
+        "z": 55,
+        "x": 24.02,
+        "y": 25.3
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "18",
+      "obj": {
+        "i": 18,
+        "n": "Murmur Rills",
+        "l": 15,
+        "c": 1,
+        "z": 57,
+        "x": 26.38,
+        "y": 25.1
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "67",
+      "obj": {
+        "i": 67,
+        "n": "Fool Falls",
+        "l": 20,
+        "c": 1,
+        "z": 34,
+        "x": 9.05,
+        "y": 21.1
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Oakwood",
+        "l": 25,
+        "t": 3,
+        "z": 34
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "35",
+      "obj": {
+        "i": 35,
+        "n": "Limsa Lominsa Lower Decks",
+        "l": 1,
+        "c": 0,
+        "z": 29,
+        "x": 7.69,
+        "y": 12.21
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "36",
+      "obj": {
+        "i": 36,
+        "n": "Limsa Lominsa Upper Decks",
+        "l": 1,
+        "c": 0,
+        "z": 28,
+        "x": 10.31,
+        "y": 11.33
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "44",
+      "obj": {
+        "i": 44,
+        "n": "Moraby Bay",
+        "l": 5,
+        "c": 0,
+        "z": 31,
+        "x": 26.91,
+        "y": 25.98
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "149",
+      "obj": {
+        "i": 149,
+        "n": "Sagolii Desert",
+        "l": 50,
+        "t": 3,
+        "z": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12251",
+      "obj": {
+        "i": 12251,
+        "n": "Master Culinarian III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "4949",
+      "obj": {
+        "i": 4949,
+        "n": "Bluebell Salmon",
+        "l": 20,
+        "c": 29282,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "item",
+      "id": "4819",
+      "obj": {
+        "i": 4819,
+        "n": "Sticky Rice",
+        "l": 25,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4776",
+      "obj": {
+        "i": 4776,
+        "n": "Malm Kelp",
+        "l": 4,
+        "c": 29063,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12907",
+      "obj": {
+        "i": 12907,
+        "n": "Oriental Miso Paste",
+        "l": 136,
+        "c": 27605,
+        "t": 45,
+        "p": 430
+      }
+    },
+    {
+      "type": "item",
+      "id": "4846",
+      "obj": {
+        "i": 4846,
+        "n": "Thanalan Tea Leaves",
+        "l": 49,
+        "c": 25020,
+        "t": 45
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "item": {
+    "name": "Hailfinder",
+    "description": "A king among rime eaters, and lord of the skies near Greytail Falls.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "Similar to its smaller rime eater cousins, the hailfinder is also known for its appetite for glacier cores. So efficient is the creature at absorbing the extreme cold emitted by its prey, that research was conducted by the Heavens' Ward into determining if they might be used to counter Shiva's subzero sorceries during skirmishes with the primal.",
+      "icon": 79661,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 110,
+          "transition": [
+            "Snow",
+            "Blizzards"
+          ],
+          "weather": [
+            "Blizzards"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 478,
+          "baits": [
+            [
+              12708,
+              12724
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 16745,
+    "patch": 3.4,
+    "patchCategory": 7,
+    "price": 3333,
+    "ilvl": 230,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 82,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29661,
+    "fishingSpots": [
+      110
+    ],
+    "desynthedTo": [
+      5722,
+      5723,
+      5814,
+      5826
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "110",
+      "obj": {
+        "i": 110,
+        "n": "Greytail Falls",
+        "l": 51,
+        "c": 3,
+        "z": 2200,
+        "x": 35.56,
+        "y": 27.38
+      }
+    },
+    {
+      "type": "item",
+      "id": "12708",
+      "obj": {
+        "i": 12708,
+        "n": "Red Balloon",
+        "l": 130,
+        "c": 27025,
+        "t": 33,
+        "p": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "12724",
+      "obj": {
+        "i": 12724,
+        "n": "Glacier Core",
+        "l": 120,
+        "c": 29706,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "5722",
+      "obj": {
+        "i": 5722,
+        "n": "Quicktongue Materia IV",
+        "l": 70,
+        "c": 20228,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5723",
+      "obj": {
+        "i": 5723,
+        "n": "Quicktongue Materia V",
+        "l": 160,
+        "c": 20259,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5814",
+      "obj": {
+        "i": 5814,
+        "n": "Blue Pigment",
+        "l": 28,
+        "c": 21457,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5826",
+      "obj": {
+        "i": 5826,
+        "n": "Allagan Gold Piece",
+        "l": 35,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

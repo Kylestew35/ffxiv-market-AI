@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Flame Ceiling Fan & Lamp",
+    "description": "Issued by the Immortal Flames, this newfangled contraption provides both light and cooling. Relax in style while displaying your patriotic zeal.",
+    "id": 6471,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 13176,
+    "ilvl": 35,
+    "category": 75,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "icon": 51105,
+    "tradeShops": [
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6471",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 6800
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    }
+  ]
+}

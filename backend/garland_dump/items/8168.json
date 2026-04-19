@@ -1,0 +1,674 @@
+{
+  "item": {
+    "name": "Magicked Stable Broom",
+    "description": "Why entrust the sweeping of chocobo dung to a coinless pleb with a sick wife and two starving children when you can toss a bewitched broom into your personal stables and be done?",
+    "id": 8168,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 20000,
+    "ilvl": 70,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 42,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 59471,
+    "tradeShops": [
+      {
+        "shop": "Spend company credits (items)",
+        "npcs": [
+          1000165,
+          1002389,
+          1003925
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8168",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "fccredit",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "vendors": [
+      1008847,
+      1008848,
+      1008849,
+      1008850,
+      1008851,
+      1008852,
+      1008853,
+      1008854,
+      1008855,
+      1008856,
+      1013119,
+      1013120,
+      1018674,
+      1018675,
+      1018676,
+      1018677,
+      1018678,
+      1018679,
+      1018680,
+      1018681,
+      1018682,
+      1018683,
+      1018684,
+      1018685,
+      1024560,
+      1024561,
+      1024562,
+      1024563,
+      1024564,
+      1024565,
+      1024566,
+      1024567,
+      1024568,
+      1024569,
+      1024570,
+      1024571,
+      1025040,
+      1025044,
+      1025718,
+      1026170,
+      1027016,
+      1045243,
+      1045257,
+      1056021,
+      1056025
+    ],
+    "craft": [
+      {
+        "id": 2020,
+        "job": 8,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 125,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 30,
+        "quickSynth": 1,
+        "controlReq": 318,
+        "quickSynthControl": 374,
+        "ingredients": [
+          {
+            "id": 7776,
+            "amount": 1
+          },
+          {
+            "id": 5365,
+            "amount": 5
+          },
+          {
+            "id": 16,
+            "amount": 1
+          },
+          {
+            "id": 15,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 420,
+          "hq": 440
+        }
+      }
+    ],
+    "quests": [
+      67461
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Broombush",
+      "id": 7776,
+      "icon": 21653,
+      "category": 54,
+      "ilvl": 70,
+      "price": 332,
+      "seeds": [
+        7757
+      ]
+    },
+    {
+      "name": "Bamboo Stick",
+      "id": 5365,
+      "icon": 22451,
+      "category": 50,
+      "ilvl": 70,
+      "price": 1330,
+      "desynthedFrom": [
+        28983,
+        13095
+      ],
+      "ventures": [
+        534
+      ],
+      "nodes": [
+        232
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "232",
+      "obj": {
+        "i": 232,
+        "n": "Bronze Lake",
+        "l": 50,
+        "t": 2,
+        "z": 34,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          7
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000165",
+      "obj": {
+        "i": 1000165,
+        "n": "OIC Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.77,
+          11.1
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002389",
+      "obj": {
+        "i": 1002389,
+        "n": "OIC Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003925",
+      "obj": {
+        "i": 1003925,
+        "n": "OIC Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.29,
+          9.21
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "fccredit",
+      "obj": {
+        "i": "fccredit",
+        "n": "Company Credit",
+        "l": 1,
+        "c": "custom/fccredit",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008847",
+      "obj": {
+        "i": 1008847,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008848",
+      "obj": {
+        "i": 1008848,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008849",
+      "obj": {
+        "i": 1008849,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008850",
+      "obj": {
+        "i": 1008850,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008851",
+      "obj": {
+        "i": 1008851,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008852",
+      "obj": {
+        "i": 1008852,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008853",
+      "obj": {
+        "i": 1008853,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008854",
+      "obj": {
+        "i": 1008854,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008855",
+      "obj": {
+        "i": 1008855,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008856",
+      "obj": {
+        "i": 1008856,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013119",
+      "obj": {
+        "i": 1013119,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013120",
+      "obj": {
+        "i": 1013120,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018674",
+      "obj": {
+        "i": 1018674,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018675",
+      "obj": {
+        "i": 1018675,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018676",
+      "obj": {
+        "i": 1018676,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018677",
+      "obj": {
+        "i": 1018677,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018678",
+      "obj": {
+        "i": 1018678,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018679",
+      "obj": {
+        "i": 1018679,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018680",
+      "obj": {
+        "i": 1018680,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018681",
+      "obj": {
+        "i": 1018681,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018682",
+      "obj": {
+        "i": 1018682,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018683",
+      "obj": {
+        "i": 1018683,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018684",
+      "obj": {
+        "i": 1018684,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018685",
+      "obj": {
+        "i": 1018685,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024560",
+      "obj": {
+        "i": 1024560,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024561",
+      "obj": {
+        "i": 1024561,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024562",
+      "obj": {
+        "i": 1024562,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024563",
+      "obj": {
+        "i": 1024563,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024564",
+      "obj": {
+        "i": 1024564,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024565",
+      "obj": {
+        "i": 1024565,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024566",
+      "obj": {
+        "i": 1024566,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024567",
+      "obj": {
+        "i": 1024567,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024568",
+      "obj": {
+        "i": 1024568,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024569",
+      "obj": {
+        "i": 1024569,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024570",
+      "obj": {
+        "i": 1024570,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024571",
+      "obj": {
+        "i": 1024571,
+        "n": "Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025040",
+      "obj": {
+        "i": 1025040,
+        "n": "Allagan Commerce Node",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025044",
+      "obj": {
+        "i": 1025044,
+        "n": "Ananta Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025718",
+      "obj": {
+        "i": 1025718,
+        "n": "Namazu Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026170",
+      "obj": {
+        "i": 1026170,
+        "n": "Namazu Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027016",
+      "obj": {
+        "i": 1027016,
+        "n": "Kojin Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045243",
+      "obj": {
+        "i": 1045243,
+        "n": "Loporrit Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045257",
+      "obj": {
+        "i": 1045257,
+        "n": "Loporrit Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056021",
+      "obj": {
+        "i": 1056021,
+        "n": "Felyne Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056025",
+      "obj": {
+        "i": 1056025,
+        "n": "Felyne Junkmonger",
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "7776",
+      "obj": {
+        "i": 7776,
+        "n": "Broombush",
+        "l": 70,
+        "c": 21653,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5365",
+      "obj": {
+        "i": 5365,
+        "n": "Bamboo Stick",
+        "l": 70,
+        "c": 22451,
+        "t": 50
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67461",
+      "obj": {
+        "i": 67461,
+        "n": "Garbage Duty",
+        "g": 118,
+        "l": "The Dravanian Forelands",
+        "s": 5705
+      }
+    }
+  ]
+}

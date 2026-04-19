@@ -1,0 +1,155 @@
+{
+  "item": {
+    "name": "Lesser Panda",
+    "description": "Lesser only in size to normal pandas. And in life expectancy. And intelligence. And fluffiness. Well, perhaps not fluffiness.<br><br>Use item to acquire the lesser panda minion.",
+    "minionrace": "Critter",
+    "tooltip": "Stand up straight, maggot!\r\n   - Berkoeya",
+    "minionskilltype": "Dismantling",
+    "specialactionname": "Take a Stand",
+    "specialactiondescription": "Reduces HP of enemy Shield by 70%. No effect if Shield is already inoperable.",
+    "id": 12056,
+    "patch": 3.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59534,
+    "instances": [
+      39,
+      55001
+    ],
+    "tradeShops": [
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12056",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 405,
+      "Skill Cost": 30,
+      "Attack": 95,
+      "Defense": 50,
+      "Speed": 4
+    },
+    "models": [
+      "8111-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      16170,
+      36635
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "39",
+      "obj": {
+        "i": 39,
+        "n": "The Aery",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 55,
+        "max_lvl": 56,
+        "min_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

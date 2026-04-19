@@ -1,0 +1,70 @@
+{
+  "item": {
+    "name": "Orthos Potion",
+    "description": "Grants the effect of Rehabilitation (HP regeneration) to self.<br><br><span class=\"highlight-green\">Duration:</span> 30s<br>※Only available for use in Eureka Orthos.",
+    "id": 38944,
+    "patch": 6.35,
+    "patchCategory": 4,
+    "price": 2,
+    "ilvl": 1,
+    "category": 44,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20646,
+    "tradeShops": [
+      {
+        "shop": "DEEP_DUNGEON_TOKEN_SHOP",
+        "npcs": [
+          1044503
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38944",
+                "amount": 20
+              }
+            ],
+            "currency": [
+              {
+                "id": "38941",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1044503",
+      "obj": {
+        "i": 1044503,
+        "n": "Synthesis Node",
+        "l": 67,
+        "s": 3,
+        "r": 1,
+        "a": 420,
+        "c": [
+          34.95,
+          19.09
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38941",
+      "obj": {
+        "i": 38941,
+        "n": "Orthos Aetherpool Fragment",
+        "l": 1,
+        "c": 26637,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "item": {
+    "name": "Castaway Chocobo Chick",
+    "description": "Currently without a name. “Wilson” recommended.<br><br>Use item to acquire the castaway chocobo chick minion.<br><br>[Suitable for printing on small canvases.]",
+    "minionrace": "Critter",
+    "tooltip": "You can lead a chocobo to water...\r\n   - Redolent Rose",
+    "minionskilltype": "Damage",
+    "specialactionname": "Tidal Sploosh",
+    "specialactiondescription": "Delivers an attack with a potency of 100 to all enemies within range while reducing DEF by 40%.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "fish": {
+      "guide": "Though bred specially for traversing the five seas and beyond, this captivating cloudkin slipped away from his stables before his swimming lessons were complete, and as a result, can barely keep upright in water without the aid of his trusty life preserver.",
+      "icon": 79148,
+      "timeRestricted": 1,
+      "spots": [
+        {
+          "spot": 156,
+          "during": {
+            "start": 8,
+            "end": 16
+          },
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 636,
+          "baits": [
+            [
+              2585,
+              4869,
+              4904
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 20524,
+    "patch": 4.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 29148,
+    "cost": 25,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 580,
+      "Skill Cost": 20,
+      "Attack": 70,
+      "Defense": 25,
+      "Speed": 3
+    },
+    "models": [
+      "8207-1-1"
+    ],
+    "fishingSpots": [
+      156
+    ],
+    "treasure": [
+      23223,
+      36636,
+      41667
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "156",
+      "obj": {
+        "i": 156,
+        "n": "North Isle of Endless Summer",
+        "l": 50,
+        "c": 0,
+        "z": 32,
+        "x": 36.03,
+        "y": 26.62
+      }
+    },
+    {
+      "type": "item",
+      "id": "2585",
+      "obj": {
+        "i": 2585,
+        "n": "Lugworm",
+        "l": 1,
+        "c": 27004,
+        "t": 33,
+        "p": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "4869",
+      "obj": {
+        "i": 4869,
+        "n": "Merlthor Goby",
+        "l": 3,
+        "c": 29003,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "4904",
+      "obj": {
+        "i": 4904,
+        "n": "Wahoo",
+        "l": 43,
+        "c": 29025,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "23223",
+      "obj": {
+        "i": 23223,
+        "n": "Silver-haloed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41667",
+      "obj": {
+        "i": 41667,
+        "n": "Sanctuary Materiel Container",
+        "l": 1,
+        "c": 21002,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "item": {
+    "name": "Weathered Liberator",
+    "jobCategories": "LNC DRG",
+    "id": 7288,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 34214,
+    "ilvl": 100,
+    "category": 5,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 535,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 47,
+    "models": [
+      "501-17-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 31,
+      "Delay": 2.8,
+      "Strength": 37,
+      "Vitality": 38,
+      "Skill Speed": 40,
+      "Determination": 28
+    },
+    "icon": 31876,
+    "sharedModels": [
+      7354,
+      10609,
+      18036
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7354",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7288",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7354",
+      "obj": {
+        "i": 7354,
+        "n": "Liberator",
+        "l": 110,
+        "c": 31876,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "10609",
+      "obj": {
+        "i": 10609,
+        "n": "Adamantite Trident",
+        "l": 150,
+        "c": 31891,
+        "t": 5,
+        "p": 34214
+      }
+    },
+    {
+      "type": "item",
+      "id": "18036",
+      "obj": {
+        "i": 18036,
+        "n": "High Steel Trident",
+        "l": 255,
+        "c": 31933,
+        "t": 5,
+        "p": 36352
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

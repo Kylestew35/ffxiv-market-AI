@@ -1,0 +1,130 @@
+{
+  "leve": {
+    "name": "Travel by Turtle",
+    "description": "When divining the fortunes of travel, we release a turtle to swim in the palace pond. The shape it makes upon the water's surface tells us whether obstacles await upon the impending journey. You will find the leaf-like turtles we require in <span class=\"highlight\">Bopo'uihih</span>, where the Hanuhanu make their homes.<br><span class=\"highlight\">Requires: Fishing Tackle</span>",
+    "id": 1800,
+    "patch": 7.0,
+    "client": "Vollok Shoonsa Mage, Riwoll Ja",
+    "lvl": 92,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      23.63,
+      14.37
+    ],
+    "zoneid": 4506,
+    "areaid": 4506,
+    "xp": 5080188,
+    "gil": 2510,
+    "rewards": 807,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110196,
+    "requires": [
+      {
+        "item": 43692,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 90,
+      "hq": 105
+    }
+  },
+  "rewards": {
+    "id": 807,
+    "entries": [
+      {
+        "item": 43850,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Pleated Matamata",
+      "id": 43692,
+      "icon": 28572,
+      "category": 47,
+      "ilvl": 650,
+      "price": 99999,
+      "fishingSpots": [
+        300
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "300",
+      "obj": {
+        "i": 300,
+        "n": "Bopo'uihih",
+        "l": 92,
+        "c": 1,
+        "z": 4506,
+        "x": 10.65,
+        "y": 12.41
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1800",
+      "obj": {
+        "i": 1800,
+        "n": "Travel by Turtle",
+        "l": 92,
+        "j": 19,
+        "p": 4506
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43850",
+      "obj": {
+        "i": 43850,
+        "n": "Crimson Lugworm",
+        "l": 620,
+        "c": 27103,
+        "t": 33,
+        "p": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43692",
+      "obj": {
+        "i": 43692,
+        "n": "Pleated Matamata",
+        "l": 650,
+        "c": 28572,
+        "t": 47
+      }
+    }
+  ]
+}

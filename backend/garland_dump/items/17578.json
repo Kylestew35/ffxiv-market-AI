@@ -1,0 +1,116 @@
+{
+  "item": {
+    "name": "Captain Nemo",
+    "description": "A king among ammonites, and lord of the waters of Banepool.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "Named after a legendary inventor and sea captain who claimed to have traveled to the bottom of the Indigo Deep in a watertight galley hull, this overgrown ammonite uses aether-charged tentacles to deftly slice prey into pieces small enough to fit in its surprisingly tiny mouth.",
+      "icon": 79816,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 114,
+          "transition": [
+            "Snow"
+          ],
+          "weather": [
+            "Blizzards"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 490,
+          "baits": [
+            [
+              12711
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 17578,
+    "patch": 3.5,
+    "patchCategory": 7,
+    "price": 3000,
+    "ilvl": 240,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 86,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29816,
+    "fishingSpots": [
+      114
+    ],
+    "desynthedTo": [
+      5723,
+      5826,
+      5817
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "114",
+      "obj": {
+        "i": 114,
+        "n": "South Banepool",
+        "l": 53,
+        "c": 1,
+        "z": 2200,
+        "x": 21.78,
+        "y": 11.33
+      }
+    },
+    {
+      "type": "item",
+      "id": "12711",
+      "obj": {
+        "i": 12711,
+        "n": "Brute Leech",
+        "l": 180,
+        "c": 22635,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5723",
+      "obj": {
+        "i": 5723,
+        "n": "Quicktongue Materia V",
+        "l": 160,
+        "c": 20259,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5826",
+      "obj": {
+        "i": 5826,
+        "n": "Allagan Gold Piece",
+        "l": 35,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5817",
+      "obj": {
+        "i": 5817,
+        "n": "Grey Pigment",
+        "l": 28,
+        "c": 21463,
+        "t": 55
+      }
+    }
+  ]
+}

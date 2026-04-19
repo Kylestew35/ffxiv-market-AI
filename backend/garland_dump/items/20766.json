@@ -1,0 +1,108 @@
+{
+  "item": {
+    "name": "Starlight Stew Set",
+    "description": "A hearty meat and vegetable soup brewed by families across the realm every Starlight Celebration.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Determination Bonus:</span> +4% (Max 7)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +4% (Max 8)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 20766,
+    "patch": 4.1,
+    "patchCategory": 9,
+    "price": 239,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53184,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1024166,
+          1024167,
+          1024168
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20766",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21300",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "536"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024166",
+      "obj": {
+        "i": 1024166,
+        "n": "Starlight Celebrant",
+        "l": 53,
+        "s": 1,
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024167",
+      "obj": {
+        "i": 1024167,
+        "n": "Starlight Celebrant",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.01,
+          13.88
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024168",
+      "obj": {
+        "i": 1024168,
+        "n": "Starlight Celebrant",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.67,
+          9.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21300",
+      "obj": {
+        "i": 21300,
+        "n": "Starlight Box",
+        "l": 1,
+        "c": 26107,
+        "t": 85
+      }
+    }
+  ]
+}

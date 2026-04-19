@@ -1,0 +1,366 @@
+{
+  "item": {
+    "name": "Tiger's Eye",
+    "description": "A golden brown jewel consisting of many colored layers. When polished, it resembles the eye of a tiger─a legendary beast believed to be the ancestor of the coeurl.",
+    "id": 12542,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 4284,
+    "ilvl": 125,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21326,
+    "vendors": [
+      1001977
+    ],
+    "ingredient_of": {
+      "10643": 1,
+      "10970": 2,
+      "10994": 2,
+      "11018": 2,
+      "11042": 2,
+      "11066": 2,
+      "10671": 2,
+      "10621": 2,
+      "31016": 2,
+      "31019": 1
+    },
+    "craft": [
+      {
+        "id": 2532,
+        "job": 11,
+        "rlvl": 115,
+        "durability": 40,
+        "quality": 1656,
+        "progress": 110,
+        "lvl": 51,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12552,
+            "amount": 3
+          },
+          {
+            "id": 5262,
+            "amount": 1,
+            "quality": 79.80723
+          },
+          {
+            "id": 10,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 92,
+          "hq": 112
+        }
+      }
+    ],
+    "desynthedFrom": [
+      12752
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Raw Tiger's Eye",
+      "id": 12552,
+      "icon": 21474,
+      "category": 48,
+      "ilvl": 125,
+      "price": 2722,
+      "ventures": [
+        447
+      ],
+      "nodes": [
+        287
+      ]
+    },
+    {
+      "name": "Basilisk Whetstone",
+      "id": 5262,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "craft": [
+        {
+          "id": 826,
+          "job": 11,
+          "rlvl": 40,
+          "durability": 40,
+          "quality": 1120,
+          "progress": 69,
+          "lvl": 40,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5263,
+              "amount": 1
+            },
+            {
+              "id": 4,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basilisk Egg",
+      "id": 5263,
+      "icon": 21215,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "ventures": [
+        60,
+        156
+      ],
+      "drops": [
+        16170000001593,
+        1730000000304
+      ],
+      "nodes": [
+        189
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "287",
+      "obj": {
+        "i": 287,
+        "n": "The Smoldering Wastes",
+        "l": 55,
+        "t": 0,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "5263",
+      "obj": {
+        "i": 5263,
+        "n": "Basilisk Egg",
+        "l": 40,
+        "c": 21215,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "189",
+      "obj": {
+        "i": 189,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1730000000304",
+      "obj": {
+        "i": 1730000000304,
+        "n": "Basilisk",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16170000001593",
+      "obj": {
+        "i": 16170000001593,
+        "n": "Quicksand Basilisk",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001977",
+      "obj": {
+        "i": 1001977,
+        "n": "Sileas",
+        "l": 41,
+        "s": 2,
+        "t": "Jeweler",
+        "c": [
+          "10.0",
+          "12.5"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10643",
+      "obj": {
+        "i": 10643,
+        "n": "Hardsilver Pole",
+        "l": 139,
+        "c": 33050,
+        "t": 7,
+        "p": 28620
+      }
+    },
+    {
+      "type": "item",
+      "id": "10970",
+      "obj": {
+        "i": 10970,
+        "n": "Mythrite Bangle of Fending",
+        "l": 115,
+        "c": 55723,
+        "t": 42,
+        "p": 8925
+      }
+    },
+    {
+      "type": "item",
+      "id": "10994",
+      "obj": {
+        "i": 10994,
+        "n": "Mythrite Bangle of Slaying",
+        "l": 115,
+        "c": 55723,
+        "t": 42,
+        "p": 8925
+      }
+    },
+    {
+      "type": "item",
+      "id": "11018",
+      "obj": {
+        "i": 11018,
+        "n": "Mythrite Bangle of Aiming",
+        "l": 115,
+        "c": 55723,
+        "t": 42,
+        "p": 8925
+      }
+    },
+    {
+      "type": "item",
+      "id": "11042",
+      "obj": {
+        "i": 11042,
+        "n": "Mythrite Bangle of Healing",
+        "l": 115,
+        "c": 55723,
+        "t": 42,
+        "p": 8925
+      }
+    },
+    {
+      "type": "item",
+      "id": "11066",
+      "obj": {
+        "i": 11066,
+        "n": "Mythrite Bangle of Casting",
+        "l": 115,
+        "c": 55723,
+        "t": 42,
+        "p": 8925
+      }
+    },
+    {
+      "type": "item",
+      "id": "12552",
+      "obj": {
+        "i": 12552,
+        "n": "Raw Tiger's Eye",
+        "l": 125,
+        "c": 21474,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5262",
+      "obj": {
+        "i": 5262,
+        "n": "Basilisk Whetstone",
+        "l": 40,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10671",
+      "obj": {
+        "i": 10671,
+        "n": "Wyvernskin Mane of Fending",
+        "l": 125,
+        "c": 40214,
+        "t": 34,
+        "p": 12474
+      }
+    },
+    {
+      "type": "item",
+      "id": "10621",
+      "obj": {
+        "i": 10621,
+        "n": "Adamantite Main Gauches",
+        "l": 150,
+        "c": 33873,
+        "t": 84,
+        "p": 19958
+      }
+    },
+    {
+      "type": "item",
+      "id": "31016",
+      "obj": {
+        "i": 31016,
+        "n": "Rarefied Mythrite Bangle",
+        "l": 125,
+        "c": 55723,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31019",
+      "obj": {
+        "i": 31019,
+        "n": "Rarefied Hardsilver Pole",
+        "l": 145,
+        "c": 33050,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12752",
+      "obj": {
+        "i": 12752,
+        "n": "Tigerfish",
+        "l": 136,
+        "c": 29412,
+        "t": 47
+      }
+    }
+  ]
+}

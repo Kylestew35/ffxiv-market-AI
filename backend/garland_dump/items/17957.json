@@ -1,0 +1,466 @@
+{
+  "item": {
+    "name": "Stuffed Gagana",
+    "description": "A majestic gagana, gutted, tanned, and stuffed, so as not to wrinkle the noses of your houseguests.",
+    "id": 17957,
+    "patch": 4.0,
+    "patchCategory": 9,
+    "price": 92736,
+    "ilvl": 290,
+    "category": 57,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 90,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "icon": 52603,
+    "craft": [
+      {
+        "id": 3540,
+        "job": 12,
+        "rlvl": 290,
+        "durability": 80,
+        "quality": 1800,
+        "progress": 1080,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 19999,
+            "amount": 12
+          },
+          {
+            "id": 19910,
+            "amount": 4
+          },
+          {
+            "id": 19928,
+            "amount": 3,
+            "quality": 51.975685
+          },
+          {
+            "id": 11,
+            "amount": 6
+          },
+          {
+            "id": 10,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 331,
+          "hq": 351
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "507"
+    ],
+    "desynthedTo": [
+      19999,
+      19928,
+      19910
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Gagana Skin",
+      "id": 19999,
+      "icon": 21811,
+      "category": 52,
+      "ilvl": 255,
+      "price": 2019,
+      "desynthedFrom": [
+        17957
+      ],
+      "instances": [
+        50,
+        52,
+        53,
+        54,
+        55,
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "leves": [
+        1254
+      ],
+      "ventures": [
+        713
+      ],
+      "drops": [
+        65950000005692,
+        74370000005672
+      ]
+    },
+    {
+      "name": "Gyr Abanian Alumen",
+      "id": 19910,
+      "icon": 22644,
+      "category": 54,
+      "ilvl": 255,
+      "price": 504,
+      "desynthedFrom": [
+        17957
+      ],
+      "ventures": [
+        646
+      ],
+      "nodes": [
+        485
+      ]
+    },
+    {
+      "name": "Zelkova Lumber",
+      "id": 19928,
+      "icon": 22459,
+      "category": 50,
+      "ilvl": 285,
+      "price": 3264,
+      "craft": [
+        {
+          "id": 3612,
+          "job": 8,
+          "rlvl": 285,
+          "durability": 40,
+          "quality": 2736,
+          "progress": 490,
+          "lvl": 68,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19933,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 64,
+            "hq": 84
+          }
+        }
+      ],
+      "desynthedFrom": [
+        17957,
+        20718,
+        17960,
+        20711,
+        18865
+      ],
+      "leves": [
+        1247,
+        1248,
+        1249,
+        1250,
+        1252
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Zelkova Log",
+      "id": 19933,
+      "icon": 22409,
+      "category": 50,
+      "ilvl": 279,
+      "price": 546,
+      "leves": [
+        1251
+      ],
+      "ventures": [
+        678
+      ],
+      "drops": [
+        65880000005716
+      ],
+      "nodes": [
+        514
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "50",
+      "obj": {
+        "i": 50,
+        "n": "Shisui of the Violet Tides",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 63,
+        "max_lvl": 64,
+        "min_ilvl": 245
+      }
+    },
+    {
+      "type": "instance",
+      "id": "52",
+      "obj": {
+        "i": 52,
+        "n": "The Sirensong Sea",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 61,
+        "max_lvl": 62,
+        "min_ilvl": 240
+      }
+    },
+    {
+      "type": "instance",
+      "id": "53",
+      "obj": {
+        "i": 53,
+        "n": "Bardam's Mettle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 65,
+        "max_lvl": 66,
+        "min_ilvl": 250
+      }
+    },
+    {
+      "type": "instance",
+      "id": "54",
+      "obj": {
+        "i": 54,
+        "n": "Doma Castle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 67,
+        "max_lvl": 68,
+        "min_ilvl": 255
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55",
+      "obj": {
+        "i": 55,
+        "n": "Castrum Abania",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 69,
+        "max_lvl": 70,
+        "min_ilvl": 260,
+        "max_ilvl": 290
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "74370000005672",
+      "obj": {
+        "i": 74370000005672,
+        "n": "Lesser Gagana",
+        "l": "60",
+        "z": 2406
+      }
+    },
+    {
+      "type": "mob",
+      "id": "65950000005692",
+      "obj": {
+        "i": 65950000005692,
+        "n": "Gagana",
+        "l": "67",
+        "z": 2406
+      }
+    },
+    {
+      "type": "node",
+      "id": "485",
+      "obj": {
+        "i": 485,
+        "n": "East End",
+        "l": 60,
+        "t": 0,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19933",
+      "obj": {
+        "i": 19933,
+        "n": "Zelkova Log",
+        "l": 279,
+        "c": 22409,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "514",
+      "obj": {
+        "i": 514,
+        "n": "Abalathia's Skull",
+        "l": 70,
+        "t": 2,
+        "z": 2408
+      }
+    },
+    {
+      "type": "mob",
+      "id": "65880000005716",
+      "obj": {
+        "i": 65880000005716,
+        "n": "Kaluk",
+        "l": "69",
+        "z": 2408
+      }
+    },
+    {
+      "type": "item",
+      "id": "19999",
+      "obj": {
+        "i": 19999,
+        "n": "Gagana Skin",
+        "l": 255,
+        "c": 21811,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "19910",
+      "obj": {
+        "i": 19910,
+        "n": "Gyr Abanian Alumen",
+        "l": 255,
+        "c": 22644,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19928",
+      "obj": {
+        "i": 19928,
+        "n": "Zelkova Lumber",
+        "l": 285,
+        "c": 22459,
+        "t": 50,
+        "p": 3264
+      }
+    }
+  ]
+}

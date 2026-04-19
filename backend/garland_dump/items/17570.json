@@ -1,0 +1,87 @@
+{
+  "item": {
+    "name": "Cloud Mythril Ore",
+    "description": "Extended exposure to the extreme aetherial currents found on and near the Diadem have somehow altered the mythril contained in this piece of rock.",
+    "id": 17570,
+    "patch": 3.55,
+    "patchCategory": 5,
+    "price": 4791,
+    "ilvl": 220,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21208,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17570",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17570",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "17567": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "17567",
+      "obj": {
+        "i": 17567,
+        "n": "Cloud Mythril Ingot",
+        "l": 220,
+        "c": 20833,
+        "t": 49
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "item": {
+    "name": "Golden Spice",
+    "description": "With this spice added into the mix, a standard curry dish is transformed into a flavorful culinary masterpiece.",
+    "id": 35844,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 536,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25011,
+    "craft": [
+      {
+        "id": 34792,
+        "job": 14,
+        "rlvl": 535,
+        "durability": 80,
+        "quality": 4020,
+        "progress": 2250,
+        "lvl": 85,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 35843,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 8
+          },
+          {
+            "id": 12,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 100099,
+          "hq": 100119
+        }
+      },
+      {
+        "id": 34798,
+        "job": 15,
+        "rlvl": 535,
+        "durability": 80,
+        "quality": 4020,
+        "progress": 2250,
+        "lvl": 85,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 35843,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 100099,
+          "hq": 100119
+        }
+      }
+    ],
+    "usedInQuest": [
+      69686
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Golden Spice Ingredients",
+      "id": 35843,
+      "icon": 25977,
+      "category": 63,
+      "ilvl": 536,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "35843",
+      "obj": {
+        "i": 35843,
+        "n": "Golden Spice Ingredients",
+        "l": 536,
+        "c": 25977,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69686",
+      "obj": {
+        "i": 69686,
+        "n": "Long Live the Gourmet",
+        "g": 205,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    }
+  ]
+}

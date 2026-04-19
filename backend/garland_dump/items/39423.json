@@ -1,0 +1,637 @@
+{
+  "item": {
+    "name": "Simple Fountain",
+    "description": "A basic stone contraption from which water pours forth. May the sound of its splashing soothe unsettled souls.",
+    "id": 39423,
+    "patch": 6.3,
+    "patchCategory": 9,
+    "price": 99999,
+    "ilvl": 560,
+    "category": 76,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "icon": 52356,
+    "craft": [
+      {
+        "id": 5516,
+        "job": 11,
+        "rlvl": 560,
+        "durability": 80,
+        "quality": 7200,
+        "progress": 3500,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 39587,
+            "amount": 1
+          },
+          {
+            "id": 7010,
+            "amount": 5
+          },
+          {
+            "id": 7013,
+            "amount": 5,
+            "quality": 20.083681
+          },
+          {
+            "id": 36263,
+            "amount": 6
+          },
+          {
+            "id": 10,
+            "amount": 8
+          },
+          {
+            "id": 8,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 452,
+          "hq": 472
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "White Granite",
+      "id": 39587,
+      "icon": 21251,
+      "category": 48,
+      "ilvl": 1,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 87,
+          "type": 1
+        },
+        {
+          "id": 107,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Marble",
+      "id": 7010,
+      "icon": 21487,
+      "category": 48,
+      "ilvl": 50,
+      "price": 297,
+      "voyages": [
+        {
+          "id": 25,
+          "type": 1
+        }
+      ],
+      "desynthedFrom": [
+        13089,
+        21833,
+        15144,
+        6373,
+        38595
+      ],
+      "ventures": [
+        155
+      ],
+      "nodes": [
+        46
+      ]
+    },
+    {
+      "name": "Firebricks",
+      "id": 7013,
+      "icon": 21003,
+      "category": 48,
+      "ilvl": 20,
+      "price": 123,
+      "craft": [
+        {
+          "id": 1582,
+          "job": 14,
+          "rlvl": 18,
+          "durability": 40,
+          "quality": 360,
+          "progress": 33,
+          "lvl": 18,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5229,
+              "amount": 2
+            },
+            {
+              "id": 5513,
+              "amount": 1
+            },
+            {
+              "id": 7,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 31,
+            "hq": 51
+          }
+        }
+      ],
+      "desynthedFrom": [
+        33295,
+        6393,
+        6397
+      ]
+    },
+    {
+      "name": "Mudstone",
+      "id": 5229,
+      "icon": 21455,
+      "category": 48,
+      "ilvl": 19,
+      "price": 31,
+      "desynthedFrom": [
+        4950,
+        7706
+      ],
+      "ventures": [
+        100
+      ],
+      "drops": [
+        19980000001461,
+        28380000002522,
+        300000004108,
+        21570000001527,
+        300000000365,
+        14900000001691,
+        14910000001692,
+        14920000001693,
+        300000000131,
+        5790000000558,
+        300000000030,
+        22650000002188,
+        18930000001981,
+        16260000001601,
+        32520000003058,
+        17550000001569,
+        300000000280,
+        300000003621,
+        300000004286
+      ],
+      "nodes": [
+        166
+      ],
+      "vendors": [
+        1005633,
+        1005640,
+        1005647,
+        1019101,
+        1039487
+      ]
+    },
+    {
+      "name": "Potter's Clay",
+      "id": 5513,
+      "icon": 22634,
+      "category": 54,
+      "ilvl": 7,
+      "price": 9,
+      "desynthedFrom": [
+        13095
+      ],
+      "ventures": [
+        84
+      ],
+      "nodes": [
+        152
+      ],
+      "vendors": [
+        1004418
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "46",
+      "obj": {
+        "i": 46,
+        "n": "Bronze Lake",
+        "l": 45,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "5229",
+      "obj": {
+        "i": 5229,
+        "n": "Mudstone",
+        "l": 19,
+        "c": 21455,
+        "t": 48,
+        "p": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "5513",
+      "obj": {
+        "i": 5513,
+        "n": "Potter's Clay",
+        "l": 7,
+        "c": 22634,
+        "t": 54,
+        "p": 9
+      }
+    },
+    {
+      "type": "node",
+      "id": "166",
+      "obj": {
+        "i": 166,
+        "n": "Skull Valley",
+        "l": 20,
+        "t": 1,
+        "z": 33
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000000030",
+      "obj": {
+        "i": 300000000030,
+        "n": "Clay Golem",
+        "l": "28",
+        "z": 57
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000000131",
+      "obj": {
+        "i": 300000000131,
+        "n": "Crater Golem",
+        "l": "43",
+        "z": 54
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000000280",
+      "obj": {
+        "i": 300000000280,
+        "n": "Sandstone Golem",
+        "l": "29",
+        "z": 45
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000000365",
+      "obj": {
+        "i": 300000000365,
+        "n": "Basalt Golem",
+        "l": "34",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "5790000000558",
+      "obj": {
+        "i": 5790000000558,
+        "n": "Nunyunuwi",
+        "l": "33",
+        "z": 56
+      }
+    },
+    {
+      "type": "mob",
+      "id": "19980000001461",
+      "obj": {
+        "i": 19980000001461,
+        "n": "Dark Matter Golem",
+        "l": "50",
+        "z": 464
+      }
+    },
+    {
+      "type": "mob",
+      "id": "21570000001527",
+      "obj": {
+        "i": 21570000001527,
+        "n": "Number 128",
+        "l": "34",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17550000001569",
+      "obj": {
+        "i": 17550000001569,
+        "n": "Temple Guardian",
+        "l": "35",
+        "z": 50
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16260000001601",
+      "obj": {
+        "i": 16260000001601,
+        "n": "Arkose Golem",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "mob",
+      "id": "14900000001691",
+      "obj": {
+        "i": 14900000001691,
+        "n": "Stone Marionette",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "14910000001692",
+      "obj": {
+        "i": 14910000001692,
+        "n": "Marble Marionette",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "14920000001693",
+      "obj": {
+        "i": 14920000001693,
+        "n": "Megalith Marionette",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "18930000001981",
+      "obj": {
+        "i": 18930000001981,
+        "n": "Chert Golem",
+        "l": "43",
+        "z": 55
+      }
+    },
+    {
+      "type": "mob",
+      "id": "22650000002188",
+      "obj": {
+        "i": 22650000002188,
+        "n": "Pumice Golem",
+        "l": "28",
+        "z": 57
+      }
+    },
+    {
+      "type": "mob",
+      "id": "28380000002522",
+      "obj": {
+        "i": 28380000002522,
+        "n": "U'Ghamaro Golem",
+        "l": "49",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "32520000003058",
+      "obj": {
+        "i": 32520000003058,
+        "n": "Qarn Guardian",
+        "l": "50",
+        "z": 50
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000003621",
+      "obj": {
+        "i": 300000003621,
+        "n": "Limestone Golem",
+        "l": "55",
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000004108",
+      "obj": {
+        "i": 300000004108,
+        "n": "Gabbro Golem",
+        "l": "54",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000004286",
+      "obj": {
+        "i": 300000004286,
+        "n": "Wrothful Golem",
+        "l": "55",
+        "z": 2002
+      }
+    },
+    {
+      "type": "node",
+      "id": "152",
+      "obj": {
+        "i": 152,
+        "n": "Treespeak",
+        "l": 10,
+        "t": 0,
+        "z": 57
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004418",
+      "obj": {
+        "i": 1004418,
+        "n": "Esmenet",
+        "l": 698,
+        "s": 1,
+        "t": "Guild Supplier",
+        "c": [
+          "8.9",
+          "13.6"
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "39587",
+      "obj": {
+        "i": 39587,
+        "n": "White Granite",
+        "l": 1,
+        "c": 21251,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "7010",
+      "obj": {
+        "i": 7010,
+        "n": "Marble",
+        "l": 50,
+        "c": 21487,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "7013",
+      "obj": {
+        "i": 7013,
+        "n": "Firebricks",
+        "l": 20,
+        "c": 21003,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    }
+  ]
+}

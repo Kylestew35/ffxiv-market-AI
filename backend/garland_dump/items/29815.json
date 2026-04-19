@@ -1,0 +1,218 @@
+{
+  "item": {
+    "name": "Grade 2 Skybuilders' Tea",
+    "description": "Skybuilders have garnered a reputation for punctuating their work with frequent tea breaks. The number of cups drunk by a laborer over the course of a single day can easily reach double digits.",
+    "id": 29815,
+    "patch": 5.21,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 24408,
+    "craft": [
+      {
+        "id": 33736,
+        "job": 15,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 29854,
+            "amount": 5
+          },
+          {
+            "id": 29851,
+            "amount": 5
+          },
+          {
+            "id": 29852,
+            "amount": 5
+          },
+          {
+            "id": 4811,
+            "amount": 4
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 1500051,
+          "hq": 1500071
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 2 Skybuilders' Tea Leaves",
+      "id": 29854,
+      "icon": 23842,
+      "category": 45,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Approved Grade 2 Skybuilders' Mistletoe",
+      "id": 29851,
+      "icon": 23841,
+      "category": 54,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Approved Grade 2 Skybuilders' Beehive",
+      "id": 29852,
+      "icon": 23832,
+      "category": 54,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Sun Lemon",
+      "id": 4811,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 17,
+      "price": 28,
+      "tradeShops": [
+        {
+          "shop": "Rainbowtide Psashp Exchange",
+          "npcs": [
+            1008907
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "4811",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21077",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        213
+      ],
+      "nodes": [
+        34
+      ],
+      "vendors": [
+        1008907
+      ],
+      "seeds": [
+        7728
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "34",
+      "obj": {
+        "i": 34,
+        "n": "Cedarwood",
+        "l": 20,
+        "t": 2,
+        "z": 31
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "29854",
+      "obj": {
+        "i": 29854,
+        "n": "Approved Grade 2 Skybuilders' Tea Leaves",
+        "l": 150,
+        "c": 23842,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "29851",
+      "obj": {
+        "i": 29851,
+        "n": "Approved Grade 2 Skybuilders' Mistletoe",
+        "l": 150,
+        "c": 23841,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "29852",
+      "obj": {
+        "i": 29852,
+        "n": "Approved Grade 2 Skybuilders' Beehive",
+        "l": 150,
+        "c": 23832,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "4811",
+      "obj": {
+        "i": 4811,
+        "n": "Sun Lemon",
+        "l": 17,
+        "c": 25305,
+        "t": 45,
+        "p": 28
+      }
+    }
+  ]
+}

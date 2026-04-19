@@ -1,0 +1,173 @@
+{
+  "item": {
+    "name": "Voidvessel Tathlums",
+    "jobCategories": "DNC",
+    "id": 41049,
+    "patch": 6.5,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 655,
+    "category": 107,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1987,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 150,
+    "models": [
+      "2601-63-1-0",
+      "2651-63-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 130,
+      "Magic Damage": 65,
+      "Delay": 3.12,
+      "Dexterity": 399,
+      "Vitality": 442,
+      "Critical Hit": 300,
+      "Direct Hit Rate": 210
+    },
+    "attr_max": {
+      "Strength": 399,
+      "Intelligence": 279,
+      "Mind": 279,
+      "Piety": 210,
+      "GP": 9,
+      "CP": 7,
+      "Tenacity": 300,
+      "Direct Hit Rate": 300,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Determination": 300,
+      "Skill Speed": 300,
+      "Spell Speed": 300,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 1551,
+      "Control": 829,
+      "Gathering": 1591,
+      "Perception": 909
+    },
+    "icon": 36290,
+    "instances": [
+      20092,
+      20092
+    ],
+    "tradeShops": [
+      {
+        "shop": "Totem Gear (Zeromus)",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41049",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41053",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "The Thirteenth Gear (IL 615-655)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41049",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41053",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20092",
+      "obj": {
+        "i": 20092,
+        "n": "The Abyssal Fracture (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 640
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41053",
+      "obj": {
+        "i": 41053,
+        "n": "Voidvessel Totem",
+        "l": 1,
+        "c": 26646,
+        "t": 61
+      }
+    }
+  ]
+}

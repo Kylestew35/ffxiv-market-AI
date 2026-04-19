@@ -1,0 +1,433 @@
+{
+  "item": {
+    "name": "Leather Sofa",
+    "description": "This sofa is so luxurious that you will never want to get up─and nor will you be able to on those particularly warm days when your skin practically fuses to it.",
+    "id": 28639,
+    "patch": 5.1,
+    "patchCategory": 9,
+    "price": 22215,
+    "ilvl": 415,
+    "category": 57,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "icon": 52659,
+    "craft": [
+      {
+        "id": 4573,
+        "job": 12,
+        "rlvl": 415,
+        "durability": 80,
+        "quality": 2200,
+        "progress": 1640,
+        "lvl": 78,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 27742,
+            "amount": 5,
+            "quality": 85.80827
+          },
+          {
+            "id": 27692,
+            "amount": 5,
+            "quality": 84.56767
+          },
+          {
+            "id": 27797,
+            "amount": 3
+          },
+          {
+            "id": 11,
+            "amount": 7
+          },
+          {
+            "id": 10,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 928,
+          "hq": 948
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "899"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Sea Swallow Leather",
+      "id": 27742,
+      "icon": 22021,
+      "category": 52,
+      "ilvl": 415,
+      "price": 3075,
+      "craft": [
+        {
+          "id": 3844,
+          "job": 12,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27736,
+              "amount": 4
+            },
+            {
+              "id": 27817,
+              "amount": 1
+            },
+            {
+              "id": 11,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 130,
+            "hq": 150
+          }
+        }
+      ],
+      "desynthedFrom": [
+        29342,
+        29364
+      ],
+      "leves": [
+        1430,
+        1431,
+        1432
+      ]
+    },
+    {
+      "name": "Sea Swallow Skin",
+      "id": 27736,
+      "icon": 21805,
+      "category": 52,
+      "ilvl": 418,
+      "price": 2491,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027766
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27736",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        785
+      ]
+    },
+    {
+      "name": "Yellow Alumen",
+      "id": 27817,
+      "icon": 22657,
+      "category": 54,
+      "ilvl": 385,
+      "price": 630,
+      "ventures": [
+        800
+      ],
+      "nodes": [
+        591
+      ]
+    },
+    {
+      "name": "Sandteak Lumber",
+      "id": 27692,
+      "icon": 22453,
+      "category": 50,
+      "ilvl": 409,
+      "price": 2996,
+      "craft": [
+        {
+          "id": 3815,
+          "job": 8,
+          "rlvl": 409,
+          "durability": 40,
+          "quality": 3360,
+          "progress": 750,
+          "lvl": 76,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27686,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "desynthedFrom": [
+        32225,
+        33273,
+        33271
+      ],
+      "leves": [
+        1412,
+        1413,
+        1414
+      ]
+    },
+    {
+      "name": "Sandteak Log",
+      "id": 27686,
+      "icon": 22403,
+      "category": 50,
+      "ilvl": 409,
+      "price": 210,
+      "ventures": [
+        815
+      ],
+      "nodes": [
+        620
+      ]
+    },
+    {
+      "name": "Lorikeet Down",
+      "id": 27797,
+      "icon": 21655,
+      "category": 51,
+      "ilvl": 400,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027665
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27797",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        777
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27736",
+      "obj": {
+        "i": 27736,
+        "n": "Sea Swallow Skin",
+        "l": 418,
+        "c": 21805,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "27817",
+      "obj": {
+        "i": 27817,
+        "n": "Yellow Alumen",
+        "l": 385,
+        "c": 22657,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027766",
+      "obj": {
+        "i": 1027766,
+        "n": "Goushs Ooan",
+        "l": 2958,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3195,
+        "c": [
+          33.24,
+          18.02
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "591",
+      "obj": {
+        "i": 591,
+        "n": "Twitch",
+        "l": 70,
+        "t": 1,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "27686",
+      "obj": {
+        "i": 27686,
+        "n": "Sandteak Log",
+        "l": 409,
+        "c": 22403,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "620",
+      "obj": {
+        "i": 620,
+        "n": "Ladle",
+        "l": 80,
+        "t": 2,
+        "z": 2955
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27742",
+      "obj": {
+        "i": 27742,
+        "n": "Sea Swallow Leather",
+        "l": 415,
+        "c": 22021,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "27692",
+      "obj": {
+        "i": 27692,
+        "n": "Sandteak Lumber",
+        "l": 409,
+        "c": 22453,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27797",
+      "obj": {
+        "i": 27797,
+        "n": "Lorikeet Down",
+        "l": 400,
+        "c": 21655,
+        "t": 51
+      }
+    }
+  ]
+}

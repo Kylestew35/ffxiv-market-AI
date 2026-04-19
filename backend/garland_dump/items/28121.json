@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Shadow Gwiber Trumpet",
+    "description": "This horn-carved instrument emits an ethereal tone that beckons a dark-touched shadow gwiber from its refuge.",
+    "mount": {
+      "name": "Shadow Gwiber",
+      "action": "Summon forth your shadow gwiber, a draconic arcane entity.",
+      "description": "Answering to a horn imbued with the power of a sorcerer of eld, this draconic arcane entity is believed to have been created by Emet-Selch on a whim─an act that would have barely taxed his powers as an ancient.",
+      "tooltip": "Are you some kind of<br>lesser dragon, kupo?<br>   - Mogzin",
+      "icon": 4163,
+      "guideIcon": 68163
+    },
+    "id": 28121,
+    "patch": 5.1,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "instances": [
+      20067,
+      20067
+    ],
+    "tradeShops": [
+      {
+        "shop": "Glorious Gewgaws",
+        "npcs": [
+          1027565
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28121",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28708",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28121",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28708",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "555-2-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20067",
+      "obj": {
+        "i": 20067,
+        "n": "The Minstrel's Ballad: Hades's Elegy",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 450
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027565",
+      "obj": {
+        "i": 1027565,
+        "n": "Fathard",
+        "l": 2952,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 3275,
+        "c": [
+          10.18,
+          11.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28708",
+      "obj": {
+        "i": 28708,
+        "n": "Hades Totem",
+        "l": 1,
+        "c": 26587,
+        "t": 61
+      }
+    }
+  ]
+}

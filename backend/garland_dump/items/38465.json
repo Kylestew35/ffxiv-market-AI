@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Sil'dih Survey Framer's Kit",
+    "description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for a scavenger of Sil'dihn secrets.<br>Includes Portrait Elements: Background, Frame, Accent<br>Includes Plate Elements: Pattern, Portrait Frame",
+    "id": 38465,
+    "patch": 6.25,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26625,
+    "tradeShops": [
+      {
+        "shop": "Sil'dihn Silver Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38465",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38534",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38534",
+      "obj": {
+        "i": 38534,
+        "n": "Sil'dihn Silver",
+        "l": 1,
+        "c": "t/65098",
+        "t": 100
+      }
+    }
+  ]
+}

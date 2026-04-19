@@ -1,0 +1,511 @@
+{
+  "item": {
+    "name": "Mythrite Ore",
+    "description": "A decent-sized piece of rock containing the rare metal mythrite.",
+    "id": 12534,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 772,
+    "ilvl": 130,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21221,
+    "nodes": [
+      285
+    ],
+    "tradeShops": [
+      {
+        "shop": "Curious Crop Exchange",
+        "npcs": [
+          1005633,
+          1005640,
+          1005647,
+          1018091,
+          1018094,
+          1018097,
+          1019101,
+          1019111,
+          1039487,
+          1039493
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12534",
+                "amount": 4
+              }
+            ],
+            "currency": [
+              {
+                "id": "15857",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "12519": 4,
+      "27714": 1,
+      "14146": 2
+    },
+    "usedInQuest": [
+      67617
+    ],
+    "leves": [
+      974,
+      975,
+      976,
+      977,
+      978,
+      979,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1124,
+      1125,
+      1126,
+      1127,
+      1128,
+      1129
+    ],
+    "ventures": [
+      545
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "285",
+      "obj": {
+        "i": 285,
+        "n": "Gorgagne Holding",
+        "l": 55,
+        "t": 0,
+        "z": 2200
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12519",
+      "obj": {
+        "i": 12519,
+        "n": "Mythrite Ingot",
+        "l": 130,
+        "c": 20824,
+        "t": 49,
+        "p": 2652
+      }
+    },
+    {
+      "type": "item",
+      "id": "27714",
+      "obj": {
+        "i": 27714,
+        "n": "Dwarven Mythril Ingot",
+        "l": 415,
+        "c": 20811,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "14146",
+      "obj": {
+        "i": 14146,
+        "n": "High Mythrite Ingot",
+        "l": 210,
+        "c": 20824,
+        "t": 49
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67617",
+      "obj": {
+        "i": 67617,
+        "n": "Sellspade",
+        "g": 172,
+        "l": "Ishgard",
+        "s": 530,
+        "f": 1
+      }
+    },
+    {
+      "type": "leve",
+      "id": "974",
+      "obj": {
+        "i": 974,
+        "n": "It's All about Execution",
+        "l": 52,
+        "j": 10,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "975",
+      "obj": {
+        "i": 975,
+        "n": "Freight and Barrel",
+        "l": 52,
+        "j": 10,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "976",
+      "obj": {
+        "i": 976,
+        "n": "Cautionary Cutlery",
+        "l": 52,
+        "j": 10,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "977",
+      "obj": {
+        "i": 977,
+        "n": "Too Big to Miss (L)",
+        "l": 52,
+        "j": 10,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "978",
+      "obj": {
+        "i": 978,
+        "n": "Stepping on My Heart with Stilettos (L)",
+        "l": 52,
+        "j": 10,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "979",
+      "obj": {
+        "i": 979,
+        "n": "Saw, Shank, and Redemption (L)",
+        "l": 52,
+        "j": 10,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1004",
+      "obj": {
+        "i": 1004,
+        "n": "Let Faith Light the Way",
+        "l": 52,
+        "j": 11,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1005",
+      "obj": {
+        "i": 1005,
+        "n": "The Cut Alembical Cord",
+        "l": 52,
+        "j": 11,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1006",
+      "obj": {
+        "i": 1006,
+        "n": "Pan That Laid the Golden Egg",
+        "l": 52,
+        "j": 11,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1007",
+      "obj": {
+        "i": 1007,
+        "n": "Fifty Shields of Blades (L)",
+        "l": 52,
+        "j": 11,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1008",
+      "obj": {
+        "i": 1008,
+        "n": "Sheer Distill Power (L)",
+        "l": 52,
+        "j": 11,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1009",
+      "obj": {
+        "i": 1009,
+        "n": "Skillet with Fire (L)",
+        "l": 52,
+        "j": 11,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1124",
+      "obj": {
+        "i": 1124,
+        "n": "Sense of Entitlement",
+        "l": 52,
+        "j": 12,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1125",
+      "obj": {
+        "i": 1125,
+        "n": "High Above Me, She Sews Lovely",
+        "l": 52,
+        "j": 12,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1126",
+      "obj": {
+        "i": 1126,
+        "n": "Sky Is the Limit",
+        "l": 52,
+        "j": 12,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1127",
+      "obj": {
+        "i": 1127,
+        "n": "Charting the Trends (L)",
+        "l": 52,
+        "j": 12,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1128",
+      "obj": {
+        "i": 1128,
+        "n": "Old-school Spooling (L)",
+        "l": 52,
+        "j": 12,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1129",
+      "obj": {
+        "i": 1129,
+        "n": "Hulls of Broken Dreams (L)",
+        "l": 52,
+        "j": 12,
+        "p": 2300
+      }
+    }
+  ]
+}

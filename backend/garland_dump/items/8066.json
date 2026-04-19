@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Starboard Wing Component Materials",
+    "description": "Materials required to craft components for the wings positioned on the right side of an airship.<br><br>※Only for use in Ixal society quests.",
+    "id": 8066,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8105": 1
+    },
+    "usedInQuest": [
+      67034
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8105",
+      "obj": {
+        "i": 8105,
+        "n": "Starboard Wing Component",
+        "l": 1,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67034",
+      "obj": {
+        "i": 67034,
+        "n": "Reach for the Starboard",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 41,
+        "r": 1
+      }
+    }
+  ]
+}

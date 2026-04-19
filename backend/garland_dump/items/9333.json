@@ -1,0 +1,790 @@
+{
+  "item": {
+    "name": "Shark Fin Soup",
+    "description": "The massive fin of a megalodon, boiled in a rich Far Eastern broth until soft and gelatinous. While not included in the soup, the remainder of the sharkflesh is salted and dried until rock hard, then shaved into paper-thin slices which, when boiled in hot water, create a savory soup that is the base of countless other recipes.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 9333,
+    "patch": 2.4,
+    "patchCategory": 6,
+    "price": 748,
+    "ilvl": 90,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 9,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Craftsmanship": {
+          "rate": 10,
+          "limit": 49
+        },
+        "CP": {
+          "rate": 4,
+          "limit": 14
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Craftsmanship": {
+          "rate": 12,
+          "limit": 61
+        },
+        "CP": {
+          "rate": 5,
+          "limit": 18
+        }
+      }
+    },
+    "icon": 24115,
+    "craft": [
+      {
+        "id": 30828,
+        "job": 15,
+        "rlvl": 90,
+        "durability": 80,
+        "quality": 2750,
+        "progress": 420,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 374,
+        "craftsmanshipReq": 391,
+        "quickSynthCraftsmanship": 451,
+        "unlockId": 7785,
+        "ingredients": [
+          {
+            "id": 7602,
+            "amount": 1
+          },
+          {
+            "id": 4923,
+            "amount": 1
+          },
+          {
+            "id": 7593,
+            "amount": 1
+          },
+          {
+            "id": 4836,
+            "amount": 1
+          },
+          {
+            "id": 6152,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 265,
+          "hq": 285
+        }
+      }
+    ],
+    "quests": [
+      65590,
+      67525
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Star Anise",
+      "id": 7602,
+      "icon": 25024,
+      "category": 45,
+      "ilvl": 90,
+      "price": 427,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7602",
+                  "amount": 10
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7602",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7602",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7602",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        27,
+        28,
+        26
+      ],
+      "seeds": [
+        7748
+      ]
+    },
+    {
+      "name": "Megalodon",
+      "id": 4923,
+      "icon": 29024,
+      "category": 47,
+      "ilvl": 70,
+      "price": 665,
+      "fishingSpots": [
+        65,
+        108,
+        156
+      ]
+    },
+    {
+      "name": "La Noscean Leek",
+      "id": 7593,
+      "icon": 25216,
+      "category": 45,
+      "ilvl": 70,
+      "price": 443,
+      "ventures": [
+        573
+      ],
+      "nodes": [
+        234
+      ],
+      "seeds": [
+        7752
+      ]
+    },
+    {
+      "name": "Pearl Ginger",
+      "id": 4836,
+      "icon": 25012,
+      "category": 45,
+      "ilvl": 24,
+      "price": 48,
+      "ventures": [
+        238
+      ],
+      "nodes": [
+        40
+      ],
+      "seeds": [
+        7739
+      ]
+    },
+    {
+      "name": "Volcanic Rock Salt",
+      "id": 6152,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6152",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        511
+      ],
+      "nodes": [
+        224
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Snowcloak",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Sastasha (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "26",
+      "obj": {
+        "i": 26,
+        "n": "The Sunken Temple of Qarn (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "65",
+      "obj": {
+        "i": 65,
+        "n": "The Ship Graveyard",
+        "l": 45,
+        "c": 0,
+        "z": 33,
+        "x": 15.57,
+        "y": 36.07
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "108",
+      "obj": {
+        "i": 108,
+        "n": "Rhotano Sea (Privateer Sterncastle)",
+        "l": 50,
+        "c": 0,
+        "z": 32,
+        "x": 37.24,
+        "y": 24.02
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "156",
+      "obj": {
+        "i": 156,
+        "n": "North Isle of Endless Summer",
+        "l": 50,
+        "c": 0,
+        "z": 32,
+        "x": 36.03,
+        "y": 26.62
+      }
+    },
+    {
+      "type": "node",
+      "id": "234",
+      "obj": {
+        "i": 234,
+        "n": "Quarterstone",
+        "l": 50,
+        "t": 3,
+        "z": 33,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          8
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "40",
+      "obj": {
+        "i": 40,
+        "n": "Drybone",
+        "l": 25,
+        "t": 3,
+        "z": 44
+      }
+    },
+    {
+      "type": "node",
+      "id": "224",
+      "obj": {
+        "i": 224,
+        "n": "Raincatcher Gully",
+        "l": 50,
+        "t": 1,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "7785",
+      "obj": {
+        "i": 7785,
+        "n": "Master Culinarian I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "7602",
+      "obj": {
+        "i": 7602,
+        "n": "Star Anise",
+        "l": 90,
+        "c": 25024,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4923",
+      "obj": {
+        "i": 4923,
+        "n": "Megalodon",
+        "l": 70,
+        "c": 29024,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "7593",
+      "obj": {
+        "i": 7593,
+        "n": "La Noscean Leek",
+        "l": 70,
+        "c": 25216,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4836",
+      "obj": {
+        "i": 4836,
+        "n": "Pearl Ginger",
+        "l": 24,
+        "c": 25012,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "6152",
+      "obj": {
+        "i": 6152,
+        "n": "Volcanic Rock Salt",
+        "l": 70,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65590",
+      "obj": {
+        "i": 65590,
+        "n": "Coming to Terms",
+        "g": 2,
+        "l": "The Rising Stones",
+        "s": 60
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67525",
+      "obj": {
+        "i": 67525,
+        "n": "Recycling",
+        "g": 122,
+        "l": "Azys Lla",
+        "s": 5911
+      }
+    }
+  ]
+}

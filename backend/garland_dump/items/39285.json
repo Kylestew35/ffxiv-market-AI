@@ -1,0 +1,126 @@
+{
+  "item": {
+    "name": "Prestige Royal Crown",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 39285,
+    "patch": 6.3,
+    "patchCategory": 3,
+    "price": 2,
+    "ilvl": 1,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 3,
+    "elvl": 1,
+    "jobs": 64,
+    "models": [
+      "112-4-0-0"
+    ],
+    "attr": {
+      "Defense": 8,
+      "Magic Defense": 14
+    },
+    "icon": 56561,
+    "sharedModels": [
+      2954,
+      2955,
+      39260
+    ],
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (DoM Gear) II",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39285",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "2954",
+      "obj": {
+        "i": 2954,
+        "n": "Royal Crown",
+        "l": 80,
+        "c": 40144,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "2955",
+      "obj": {
+        "i": 2955,
+        "n": "Crown of Light",
+        "l": 80,
+        "c": 40655,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39260",
+      "obj": {
+        "i": 39260,
+        "n": "Prestige Crown of Light",
+        "l": 1,
+        "c": 56560,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

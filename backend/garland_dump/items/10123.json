@@ -1,0 +1,220 @@
+{
+  "item": {
+    "name": "Gigant Clam",
+    "description": "An especially large giant clam. Local fisher estimates put the age of this wavekin at over five score years.<br><br>[Suitable for printing on extra large canvases.]",
+    "fish": {
+      "guide": "After overhearing a drunk fisher claim to his equally drunk shipmate that one of the massive mollusks gnawed the leg (or was it head?) off his infant son, a newly instated Yellowjacket sergeant looking to impress his superiors took it upon himself to order his men to locate and destroy as many of the wavekin as possible, leaving the population decimated.",
+      "icon": 79047,
+      "timeRestricted": 1,
+      "spots": [
+        {
+          "spot": 51,
+          "during": {
+            "start": 23,
+            "end": 2
+          },
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 313,
+          "baits": [
+            [
+              2619
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 10123,
+    "patch": 2.5,
+    "patchCategory": 7,
+    "price": 760,
+    "ilvl": 80,
+    "category": 47,
+    "dyecount": 0,
+    "sell_price": 2,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29047,
+    "tradeCurrency": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10110",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10123",
+                "amount": 10
+              },
+              {
+                "id": "10122",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7575",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10123",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fishingSpots": [
+      51
+    ],
+    "desynthedTo": [
+      5194,
+      5825,
+      5817,
+      5267
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10122",
+      "obj": {
+        "i": 10122,
+        "n": "Glacier Crystal",
+        "l": 90,
+        "c": 20002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "10110",
+      "obj": {
+        "i": 10110,
+        "n": "Talan's Seal of Fishing Mastery",
+        "l": 1,
+        "c": 26177,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "7575",
+      "obj": {
+        "i": 7575,
+        "n": "Spinach Quiche",
+        "l": 70,
+        "c": 24252,
+        "t": 46
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "51",
+      "obj": {
+        "i": 51,
+        "n": "South Bloodshore",
+        "l": 25,
+        "c": 0,
+        "z": 32,
+        "x": 32.93,
+        "y": 34.47
+      }
+    },
+    {
+      "type": "item",
+      "id": "2619",
+      "obj": {
+        "i": 2619,
+        "n": "Heavy Steel Jig",
+        "l": 37,
+        "c": 27065,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5194",
+      "obj": {
+        "i": 5194,
+        "n": "Black Pearl",
+        "l": 48,
+        "c": 21274,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5825",
+      "obj": {
+        "i": 5825,
+        "n": "Allagan Silver Piece",
+        "l": 25,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5817",
+      "obj": {
+        "i": 5817,
+        "n": "Grey Pigment",
+        "l": 28,
+        "c": 21463,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5267",
+      "obj": {
+        "i": 5267,
+        "n": "Fine Sand",
+        "l": 2,
+        "c": 21464,
+        "t": 48
+      }
+    }
+  ]
+}

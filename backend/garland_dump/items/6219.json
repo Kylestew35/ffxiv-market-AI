@@ -1,0 +1,80 @@
+{
+  "item": {
+    "name": "ADS Frame",
+    "description": "A piece of darksteel framework retrieved from an Allagan automated defense system node.",
+    "id": 6219,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 1386,
+    "ilvl": 70,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20804,
+    "drops": [
+      20090000001459
+    ],
+    "ingredient_of": {
+      "6474": 1,
+      "6522": 1
+    },
+    "instances": [
+      30003
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "6474",
+      "obj": {
+        "i": 6474,
+        "n": "Illumination Module",
+        "l": 70,
+        "c": 51101,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "6522",
+      "obj": {
+        "i": 6522,
+        "n": "Seating Module",
+        "l": 70,
+        "c": 52446,
+        "t": 57
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20090000001459",
+      "obj": {
+        "i": 20090000001459,
+        "n": "ADS",
+        "l": "50",
+        "z": 465
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30003",
+      "obj": {
+        "i": 30003,
+        "n": "The Binding Coil of Bahamut - Turn 2",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 73
+      }
+    }
+  ]
+}

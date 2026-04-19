@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Lumini",
+    "description": "This floating ball of fleshy horror was modeled after an Ea who failed to regain full corporeality.<br><br>Use item to acquire the lumini minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Oh, what I would not give to\r\ndon proper fleshy raiments\r\nonce more before I pass\r\ninto the void!\r\n   - Envious Ea",
+    "minionskilltype": "Special",
+    "specialactionname": "Disassemble",
+    "specialactiondescription": "Doubles the amount of HP restored to allies stationed in Gates.<br><span class=\"highlight-green\">Duration:</span> 20s",
+    "id": 38445,
+    "patch": 6.25,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59857,
+    "tradeShops": [
+      {
+        "shop": "Omicron Omnitoken Exchange",
+        "npcs": [
+          1043418
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38445",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37854",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 0,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 50,
+      "Speed": 2
+    },
+    "models": [
+      "8415-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043418",
+      "obj": {
+        "i": 1043418,
+        "n": "N-0598",
+        "l": 3712,
+        "s": 4,
+        "t": "Vending Unit",
+        "r": 1,
+        "a": 4041,
+        "c": [
+          27.76,
+          24.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "37854",
+      "obj": {
+        "i": 37854,
+        "n": "Omicron Omnitoken",
+        "l": 1,
+        "c": "t/65095",
+        "t": 100
+      }
+    }
+  ]
+}

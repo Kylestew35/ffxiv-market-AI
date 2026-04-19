@@ -1,0 +1,88 @@
+{
+  "item": {
+    "name": "Augmented Hellhound Cane",
+    "jobCategories": "CNJ WHM",
+    "id": 40464,
+    "patch": 6.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 9,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 1,
+    "jobs": 53,
+    "models": [
+      "801-65-2-0"
+    ],
+    "attr": {
+      "Physical Damage": 9,
+      "Magic Damage": 9,
+      "Delay": 3.44
+    },
+    "icon": 32727,
+    "sharedModels": [
+      20990
+    ],
+    "tradeShops": [
+      {
+        "shop": "コメンデーションクリスタルの取引",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40464",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20990",
+                "amount": 1
+              },
+              {
+                "id": "40479",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "20990",
+      "obj": {
+        "i": 20990,
+        "n": "Hellhound Cane",
+        "l": 1,
+        "c": 32727,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "40479",
+      "obj": {
+        "i": 40479,
+        "n": "Commendation Crystal",
+        "l": 1,
+        "c": 26640,
+        "t": 61
+      }
+    }
+  ]
+}

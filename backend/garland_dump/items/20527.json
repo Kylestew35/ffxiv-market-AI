@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Tora-jiro",
+    "description": "His name suggests that this tiny tiger cub has an older brother. His parents deny everything.<br><br>Use item to acquire the Tora-jiro minion.",
+    "minionrace": "Critter",
+    "tooltip": "It has been too long\r\nsince I last dined on tiger.\r\n   - Masatsuchi",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Eye of the Tora",
+    "specialactiondescription": "Reduces movement speed of all enemies within range by 70%.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 20527,
+    "patch": 4.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59643,
+    "tradeShops": [
+      {
+        "shop": "Centurio Seal Exchange I",
+        "npcs": [
+          1019007,
+          1019454
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20527",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 800
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 440,
+      "Skill Cost": 30,
+      "Attack": 65,
+      "Defense": 40,
+      "Speed": 4
+    },
+    "models": [
+      "8213-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019007",
+      "obj": {
+        "i": 1019007,
+        "n": "Estrild",
+        "l": 2404,
+        "s": 1,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2906,
+        "c": [
+          10.4,
+          10.29
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019454",
+      "obj": {
+        "i": 1019454,
+        "n": "Leuekin",
+        "l": 2403,
+        "s": 1,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.09,
+          11.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

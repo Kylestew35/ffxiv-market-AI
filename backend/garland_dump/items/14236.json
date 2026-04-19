@@ -1,0 +1,97 @@
+{
+  "item": {
+    "name": "Pa-Paya Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Pa-Paya</span>. Use to add to your orchestrion list.",
+    "id": 14236,
+    "patch": 3.2,
+    "patchCategory": 16,
+    "price": 2,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 16,
+      "name": "Pa-Paya",
+      "description": "Seasonal event reward.",
+      "category": "Seasonal",
+      "order": 65535
+    },
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1016902,
+          1016903,
+          1016904
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14236",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14944",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016902",
+      "obj": {
+        "i": 1016902,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016903",
+      "obj": {
+        "i": 1016903,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016904",
+      "obj": {
+        "i": 1016904,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "14944",
+      "obj": {
+        "i": 14944,
+        "n": "Chipped Fortune Egg",
+        "l": 1,
+        "c": 21308,
+        "t": 85
+      }
+    }
+  ]
+}

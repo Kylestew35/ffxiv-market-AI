@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Elegant Bustle",
+    "description": "A bustle dress of Ishgardian design, featuring extra hoops and springs to prevent unsightly sagging.",
+    "id": 17918,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 270,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 42484,
+    "craft": [
+      {
+        "id": 32292,
+        "job": 13,
+        "rlvl": 270,
+        "durability": 80,
+        "quality": 1633,
+        "progress": 511,
+        "lvl": 63,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17917,
+            "amount": 1
+          },
+          {
+            "id": 12,
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 33,
+          "hq": 53
+        }
+      }
+    ],
+    "usedInQuest": [
+      67968
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bustle Materials",
+      "id": 17917,
+      "icon": 23001,
+      "category": 63,
+      "ilvl": 270,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17917",
+      "obj": {
+        "i": 17917,
+        "n": "Bustle Materials",
+        "l": 270,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67968",
+      "obj": {
+        "i": 67968,
+        "n": "The Butterfly Effect",
+        "g": 169,
+        "l": "Ul'dah",
+        "s": 630,
+        "f": 1
+      }
+    }
+  ]
+}

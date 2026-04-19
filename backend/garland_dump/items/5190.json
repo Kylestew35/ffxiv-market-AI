@@ -1,0 +1,605 @@
+{
+  "item": {
+    "name": "Topaz",
+    "description": "A yellow jewel.",
+    "id": 5190,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 3207,
+    "ilvl": 90,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21292,
+    "craft": [
+      {
+        "id": 30405,
+        "job": 11,
+        "rlvl": 90,
+        "durability": 80,
+        "quality": 2750,
+        "progress": 420,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 374,
+        "craftsmanshipReq": 391,
+        "quickSynthCraftsmanship": 451,
+        "unlockId": 7781,
+        "ingredients": [
+          {
+            "id": 7601,
+            "amount": 1
+          },
+          {
+            "id": 5149,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 2
+          },
+          {
+            "id": 14,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 235,
+          "hq": 255
+        }
+      }
+    ],
+    "ingredient_of": {
+      "8283": 2,
+      "8289": 1,
+      "8295": 2,
+      "8301": 1,
+      "9043": 1,
+      "9486": 1,
+      "9032": 2,
+      "9033": 2,
+      "9035": 1,
+      "23904": 6
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Emery",
+      "id": 7601,
+      "icon": 22648,
+      "category": 48,
+      "ilvl": 90,
+      "price": 534,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7601",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Miscellaneous Miscellany",
+          "npcs": [
+            1006972
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "10115",
+                  "amount": 3
+                },
+                {
+                  "id": "7601",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "10103",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7601",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7601",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7601",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        27,
+        28,
+        26,
+        32,
+        30,
+        29
+      ]
+    },
+    {
+      "name": "Raw Topaz",
+      "id": 5149,
+      "icon": 21453,
+      "category": 48,
+      "ilvl": 70,
+      "price": 1524,
+      "ventures": [
+        531
+      ],
+      "nodes": [
+        236
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Snowcloak",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Sastasha (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "26",
+      "obj": {
+        "i": 26,
+        "n": "The Sunken Temple of Qarn (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "32",
+      "obj": {
+        "i": 32,
+        "n": "The Keeper of the Lake",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30",
+      "obj": {
+        "i": 30,
+        "n": "The Wanderer's Palace (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "instance",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Amdapor Keep (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10103",
+      "obj": {
+        "i": 10103,
+        "n": "Fluorite Lens",
+        "l": 90,
+        "c": 22605,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10115",
+      "obj": {
+        "i": 10115,
+        "n": "Clear Fluorite",
+        "l": 90,
+        "c": 21275,
+        "t": 48
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "236",
+      "obj": {
+        "i": 236,
+        "n": "Raubahn's Push",
+        "l": 50,
+        "t": 0,
+        "z": 46,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7781",
+      "obj": {
+        "i": 7781,
+        "n": "Master Goldsmith I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "7601",
+      "obj": {
+        "i": 7601,
+        "n": "Emery",
+        "l": 90,
+        "c": 22648,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5149",
+      "obj": {
+        "i": 5149,
+        "n": "Raw Topaz",
+        "l": 70,
+        "c": 21453,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "8283",
+      "obj": {
+        "i": 8283,
+        "n": "Topaz Earrings",
+        "l": 90,
+        "c": 55300,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "8289",
+      "obj": {
+        "i": 8289,
+        "n": "Topaz Choker",
+        "l": 90,
+        "c": 54899,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "8295",
+      "obj": {
+        "i": 8295,
+        "n": "Topaz Bracelet",
+        "l": 90,
+        "c": 55704,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "8301",
+      "obj": {
+        "i": 8301,
+        "n": "Topaz Ring",
+        "l": 90,
+        "c": 54549,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "9043",
+      "obj": {
+        "i": 9043,
+        "n": "Arachne Shirt of Striking",
+        "l": 110,
+        "c": 42401,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "9486",
+      "obj": {
+        "i": 9486,
+        "n": "Arachne Shirt of Scouting",
+        "l": 110,
+        "c": 42405,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "9032",
+      "obj": {
+        "i": 9032,
+        "n": "Platinum Bangles of Fending",
+        "l": 110,
+        "c": 55710,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "9033",
+      "obj": {
+        "i": 9033,
+        "n": "Platinum Earrings of Fending",
+        "l": 110,
+        "c": 55312,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "9035",
+      "obj": {
+        "i": 9035,
+        "n": "Platinum Ring of Fending",
+        "l": 110,
+        "c": 54556,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "23904",
+      "obj": {
+        "i": 23904,
+        "n": "Coelacanth-class Bridge",
+        "l": 145,
+        "c": 27804,
+        "t": 104
+      }
+    }
+  ]
+}

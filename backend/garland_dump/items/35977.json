@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Brave New Urianger",
+    "description": "Despite its diminutive size, its arms are no less weapons than those of the man himself.<br><br>Use item to acquire the brave new Urianger minion.",
+    "minionrace": "Poppet",
+    "tooltip": "What thinkest thou...\r\nof mine appearance?\r\n   - Urianger",
+    "minionskilltype": "Restoration",
+    "specialactionname": "Sharlayan Astrology",
+    "specialactiondescription": "Restores 100 HP to all allies within range (150 if the ally is a <span class=\"highlight\">poppet</span>).",
+    "id": 35977,
+    "patch": 6.0,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59829,
+    "tradeShops": [
+      {
+        "shop": "Silver Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35977",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22444",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 435,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 65,
+      "Speed": 2
+    },
+    "models": [
+      "8388-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22444",
+      "obj": {
+        "i": 22444,
+        "n": "Khloe's Silver Certificate of Commendation",
+        "l": 1,
+        "c": 26190,
+        "t": 61
+      }
+    }
+  ]
+}

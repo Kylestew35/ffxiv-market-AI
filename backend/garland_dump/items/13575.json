@@ -1,0 +1,118 @@
+{
+  "item": {
+    "name": "Astral Nodule",
+    "description": "A crystalline amalgamation of astrally charged crystals.",
+    "id": 13575,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 3564,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26052,
+    "tradeShops": [
+      {
+        "shop": "Luminous Crystal Exchange",
+        "npcs": [
+          1016289
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13575",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13571",
+                "amount": 1
+              },
+              {
+                "id": "13570",
+                "amount": 1
+              },
+              {
+                "id": "13573",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      67748
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016289",
+      "obj": {
+        "i": 1016289,
+        "n": "Syndony",
+        "l": 67,
+        "s": 1,
+        "q": 1,
+        "t": "Zodiac Weapon Exchange",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.66,
+          5.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13571",
+      "obj": {
+        "i": 13571,
+        "n": "Luminous Fire Crystal",
+        "l": 1,
+        "c": 20021,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13570",
+      "obj": {
+        "i": 13570,
+        "n": "Luminous Wind Crystal",
+        "l": 1,
+        "c": 20023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13573",
+      "obj": {
+        "i": 13573,
+        "n": "Luminous Lightning Crystal",
+        "l": 1,
+        "c": 20025,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67748",
+      "obj": {
+        "i": 67748,
+        "n": "Soul without Life",
+        "g": 88,
+        "l": "Azys Lla",
+        "s": 2,
+        "r": 1,
+        "f": 1
+      }
+    }
+  ]
+}

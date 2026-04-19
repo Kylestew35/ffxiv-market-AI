@@ -1,0 +1,352 @@
+{
+  "item": {
+    "name": "Red Balloon",
+    "description": "A bright-red breed of balloon bug found floating at higher elevations than its duller cousins. Live bait for both skyfishing and cloudfishing. Up to nine hundred and ninety-nine red balloons can be stacked together.",
+    "jobCategories": "FSH",
+    "id": 12708,
+    "patch": 3.0,
+    "patchCategory": 2,
+    "price": 16,
+    "ilvl": 130,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 53,
+    "jobs": 19,
+    "icon": 27025,
+    "vendors": [
+      1011206,
+      1011947,
+      1027241,
+      1018987
+    ],
+    "tradeShops": [
+      {
+        "shop": "Sky Pirate Spoils (Steel)",
+        "npcs": [
+          1016261,
+          1016496,
+          1016498,
+          1016500,
+          1019106
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12708",
+                "amount": 99
+              }
+            ],
+            "currency": [
+              {
+                "id": "13631",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Bait/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12708",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12708",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67622
+    ],
+    "leves": [
+      1214,
+      1215,
+      1216,
+      1217,
+      1218,
+      1219
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011206",
+      "obj": {
+        "i": 1011206,
+        "n": "Evrardoux",
+        "l": 2301,
+        "s": 7,
+        "t": "Fieldcraft Supplier",
+        "a": 2317,
+        "c": [
+          6.51,
+          9.6
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011947",
+      "obj": {
+        "i": 1011947,
+        "n": "Peddler Of Wonders",
+        "l": 2100,
+        "s": 5,
+        "a": 2116,
+        "c": [
+          9.56,
+          33.08
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027241",
+      "obj": {
+        "i": 1027241,
+        "n": "Vernarth",
+        "l": 2951,
+        "s": 4,
+        "t": "Tool Supplier",
+        "a": 3254,
+        "c": [
+          9.33,
+          14.47
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13631",
+      "obj": {
+        "i": 13631,
+        "n": "Steel Sky Pirate Spoil",
+        "l": 1,
+        "c": 25951,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018987",
+      "obj": {
+        "i": 1018987,
+        "n": "Shichiho",
+        "l": 2404,
+        "s": 4,
+        "t": "Tool Supplier",
+        "c": [
+          "12.7",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67622",
+      "obj": {
+        "i": 67622,
+        "n": "The Icepick Challenge",
+        "g": 174,
+        "l": "Ishgard",
+        "s": 530,
+        "f": 1
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1214",
+      "obj": {
+        "i": 1214,
+        "n": "Loose Lips Heal (Broken) Hips",
+        "l": 52,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1215",
+      "obj": {
+        "i": 1215,
+        "n": "Fish Oils and Forgotten Spoils",
+        "l": 52,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1216",
+      "obj": {
+        "i": 1216,
+        "n": "Bounty of Sky, Bounty of Earth",
+        "l": 52,
+        "j": 19,
+        "p": 2100
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1217",
+      "obj": {
+        "i": 1217,
+        "n": "Prayer and Prejudice (L)",
+        "l": 52,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1218",
+      "obj": {
+        "i": 1218,
+        "n": "Valuing the Vintage (L)",
+        "l": 52,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1219",
+      "obj": {
+        "i": 1219,
+        "n": "Eating Like the Natives (L)",
+        "l": 52,
+        "j": 19,
+        "p": 2100
+      }
+    }
+  ]
+}

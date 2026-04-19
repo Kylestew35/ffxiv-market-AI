@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Sea Of Clouds Riding Map",
+    "description": "This highly detailed map of the Sea of Clouds, including everything from land elevation to the location of exposed rocks and roots, was originally drafted by chocobo couriers seeking to reduce delivery times.",
+    "id": 20590,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26193,
+    "tradeShops": [
+      {
+        "shop": "Exchange Centurio Seals",
+        "npcs": [
+          1012225
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20590",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 250
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012225",
+      "obj": {
+        "i": 1012225,
+        "n": "Ardolain",
+        "l": 2300,
+        "s": 2,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.05,
+          11.85
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Desert Sun Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Desert Sun</span>. Use to add to your orchestrion list.",
+    "id": 38632,
+    "patch": 6.25,
+    "patchCategory": 16,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 539,
+      "name": "Desert Sun",
+      "description": "Available for exchange in Old Sharlayan.",
+      "category": "Dungeons II",
+      "order": 27
+    },
+    "tradeShops": [
+      {
+        "shop": "Sil'dihn Silver Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38632",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38534",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38534",
+      "obj": {
+        "i": 38534,
+        "n": "Sil'dihn Silver",
+        "l": 1,
+        "c": "t/65098",
+        "t": 100
+      }
+    }
+  ]
+}

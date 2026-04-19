@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Regula van Hydrus Card",
+    "description": "A legendary (★★★★★) card used in the game Triple Triad.<br>Card No. 106",
+    "id": 13378,
+    "patch": 3.1,
+    "patchCategory": 14,
+    "price": 19,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27666,
+    "tripletriad": {
+      "en": {
+        "description": "“Come! Show me your power, champions of Eorzea!”"
+      },
+      "ja": {
+        "description": "「エオルゼアの英雄の実力……\r\n見極めさせてもらうぞ！」\r\n第VI軍団軍団長：レグラ・ヴァン・ヒュドルス"
+      },
+      "de": {
+        "description": "„Zeig mir doch mal, was <If(PlayerParameter(4))>eine Kriegerin des Lichts<Else/>einen Krieger des Lichts</If> so besonders macht!“"
+      },
+      "fr": {
+        "description": "“Approche, héro<If(PlayerParameter(4))>ïne<Else/>s</If> d'Éorzéa<Indent/>! Montre-moi de quoi tu es fait<If(PlayerParameter(4))>e<Else/></If><Indent/>!”"
+      },
+      "type": "Garlean",
+      "sellMgp": 1500,
+      "plate": 87119,
+      "rarity": 5,
+      "top": 8,
+      "bottom": 6,
+      "left": 8,
+      "right": 8,
+      "rewardFrom": [
+        1015021
+      ]
+    },
+    "treasure": [
+      17702
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1015021",
+      "obj": {
+        "i": 1015021,
+        "n": "Idle Imperial",
+        "l": 2101
+      }
+    },
+    {
+      "type": "item",
+      "id": "17702",
+      "obj": {
+        "i": 17702,
+        "n": "Imperial Triad Card",
+        "l": 1,
+        "c": 27661,
+        "t": 61
+      }
+    }
+  ]
+}

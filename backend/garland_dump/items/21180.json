@@ -1,0 +1,103 @@
+{
+  "item": {
+    "name": "Snailfish",
+    "description": "This unique saltwater fish has not a scale on its entire body.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "The unusual snailfish is covered in a supple, gelatinous skin rather than scales, allowing it to wriggle free from the jaws of would-be predators.",
+      "icon": 79136,
+      "spots": [
+        {
+          "node": 530,
+          "gig": [
+            "Normal Gig Head"
+          ],
+          "predator": [
+            {
+              "id": 21179,
+              "amount": 10
+            }
+          ],
+          "during": {
+            "start": 2,
+            "end": 12
+          },
+          "ff14anglerId": 741
+        }
+      ]
+    },
+    "id": 21180,
+    "patch": 4.1,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 300,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29136,
+    "nodes": [
+      530
+    ],
+    "ingredient_of": {
+      "21084": 1
+    },
+    "ventures": [
+      750
+    ],
+    "desynthedTo": [
+      5824,
+      5820
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "530",
+      "obj": {
+        "i": 530,
+        "n": "Kobayashi Maru's Northern Wake",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "s": 1,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "item",
+      "id": "21084",
+      "obj": {
+        "i": 21084,
+        "n": "Snailfish Oil",
+        "l": 320,
+        "c": 22671,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5820",
+      "obj": {
+        "i": 5820,
+        "n": "Purple Pigment",
+        "l": 28,
+        "c": 21461,
+        "t": 55
+      }
+    }
+  ]
+}

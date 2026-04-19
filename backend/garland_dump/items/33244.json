@@ -1,0 +1,132 @@
+{
+  "item": {
+    "name": "Lancetfish",
+    "description": "Those fishing the waters of the northwest Caliban Gorge are advised that, if they attempt to handle this bellicose wavekin, they should avoid the pointy bits. Many will attest, however, that as practically the entire fish fits that description, it is best to simply give it as wide a berth as possible.<br><br>[Suitable for display in aquariums tier 4 and higher.]<br>[Suitable for printing on extra large canvases.]",
+    "fish": {
+      "guide": "The lancetfish fills its own body and bones with water to control its buoyancy in the depths of the ocean, leading some to believe it is an incarnation of the deep-sea currents themselves.",
+      "icon": 78033,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 232,
+          "transition": [
+            "Fair Skies"
+          ],
+          "weather": [
+            "Clouds"
+          ],
+          "predator": [
+            {
+              "id": 33325,
+              "amount": 2
+            }
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2250,
+          "baits": [
+            [
+              27590
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33244,
+    "patch": 5.55,
+    "patchCategory": 7,
+    "price": 5000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28033,
+    "fishingSpots": [
+      232
+    ],
+    "desynthedTo": [
+      26729
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "232",
+      "obj": {
+        "i": 232,
+        "n": "Northwest Caliban Gorge",
+        "l": 79,
+        "c": 0,
+        "z": 2958,
+        "x": 11.91,
+        "y": 10.91
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27590",
+      "obj": {
+        "i": 27590,
+        "n": "Squid Strip",
+        "l": 430,
+        "c": 27041,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "27588",
+      "obj": {
+        "i": 27588,
+        "n": "Short Bill Minnow",
+        "l": 410,
+        "c": 27074,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "33325",
+      "obj": {
+        "i": 33325,
+        "n": "Mora Tecta",
+        "l": 490,
+        "c": 28035,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "26729",
+      "obj": {
+        "i": 26729,
+        "n": "Savage Aim Materia VIII",
+        "l": 420,
+        "c": 20279,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

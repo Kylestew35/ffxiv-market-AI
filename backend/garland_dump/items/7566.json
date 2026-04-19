@@ -1,0 +1,95 @@
+{
+  "item": {
+    "name": "Minute Mindflayer",
+    "description": "This mindflayer young delights folk with its cuteness even as it fills them with an inexplicable sense of dread.<br><br>Use item to acquire the minute mindflayer minion.",
+    "minionrace": "Monster",
+    "tooltip": "It has a grisly penchant\r\nfor sucking out the brains\r\nof men.\r\n  - Frandelont Raimdelle",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Kind Blast",
+    "specialactiondescription": "Reduces ATK of all enemies within range by 40%.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 7566,
+    "patch": 2.2,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59461,
+    "cost": 25,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 455,
+      "Skill Cost": 20,
+      "Attack": 75,
+      "Defense": 50,
+      "Speed": 2
+    },
+    "models": [
+      "8050-1-1"
+    ],
+    "instances": [
+      55001
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT",
+        "VENTURE",
+        "VENTURE"
+      ]
+    },
+    "treasure": [
+      16170,
+      36635
+    ],
+    "ventures": [
+      355,
+      368
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

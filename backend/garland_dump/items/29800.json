@@ -1,0 +1,378 @@
+{
+  "item": {
+    "name": "Grade 2 Skybuilders' Crate",
+    "description": "Despite much of the work in the Firmament involving taking supplies <span class=\"emphasis\">out of</span> boxes, the need occasionally arises to put them <span class=\"emphasis\">into</span> boxes instead. Suggestions that the skybuilders simply reuse the boxes they already have were immediately shot down, presumably by someone who stands to profit from the production of new containers.",
+    "id": 29800,
+    "patch": 5.21,
+    "patchCategory": 5,
+    "price": 450,
+    "ilvl": 40,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 52546,
+    "craft": [
+      {
+        "id": 33721,
+        "job": 8,
+        "rlvl": 40,
+        "durability": 60,
+        "quality": 3500,
+        "progress": 138,
+        "lvl": 40,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 29844,
+            "amount": 5
+          },
+          {
+            "id": 29848,
+            "amount": 5
+          },
+          {
+            "id": 5065,
+            "amount": 1,
+            "quality": 137.09677
+          },
+          {
+            "id": 4,
+            "amount": 4
+          },
+          {
+            "id": 3,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 1000041,
+          "hq": 1000061
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 2 Skybuilders' Maple Log",
+      "id": 29844,
+      "icon": 23827,
+      "category": 50,
+      "ilvl": 40,
+      "price": 90
+    },
+    {
+      "name": "Approved Grade 2 Skybuilders' Rock Salt",
+      "id": 29848,
+      "icon": 23870,
+      "category": 54,
+      "ilvl": 40,
+      "price": 90
+    },
+    {
+      "name": "Mythril Ingot",
+      "id": 5065,
+      "icon": 20811,
+      "category": 49,
+      "ilvl": 34,
+      "price": 514,
+      "craft": [
+        {
+          "id": 135,
+          "job": 9,
+          "rlvl": 38,
+          "durability": 40,
+          "quality": 1024,
+          "progress": 64,
+          "lvl": 38,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5114,
+              "amount": 3
+            },
+            {
+              "id": 2,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        },
+        {
+          "id": 260,
+          "job": 10,
+          "rlvl": 36,
+          "durability": 40,
+          "quality": 928,
+          "progress": 62,
+          "lvl": 36,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5114,
+              "amount": 3
+            },
+            {
+              "id": 3,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        },
+        {
+          "id": 786,
+          "job": 11,
+          "rlvl": 34,
+          "durability": 40,
+          "quality": 840,
+          "progress": 57,
+          "lvl": 34,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5114,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        31543,
+        2783,
+        4143,
+        1788,
+        31555,
+        31559,
+        10501,
+        9219
+      ],
+      "treasure": [
+        6688,
+        6689,
+        6690
+      ],
+      "tradeShops": [
+        {
+          "shop": "Steel Amalj'ok Exchange",
+          "npcs": [
+            1005554
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5065",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21076",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005554
+      ]
+    },
+    {
+      "name": "Mythril Ore",
+      "id": 5114,
+      "icon": 21208,
+      "category": 48,
+      "ilvl": 34,
+      "price": 154,
+      "leves": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488
+      ],
+      "ventures": [
+        138
+      ],
+      "nodes": [
+        177
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005554",
+      "obj": {
+        "i": 1005554,
+        "n": "Amalj'aa Vendor",
+        "l": 45,
+        "s": 2,
+        "r": 1,
+        "a": 482,
+        "c": [
+          23.28,
+          14.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21076",
+      "obj": {
+        "i": 21076,
+        "n": "Steel Amalj'ok",
+        "l": 1,
+        "c": 65050,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "5114",
+      "obj": {
+        "i": 5114,
+        "n": "Mythril Ore",
+        "l": 34,
+        "c": 21208,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6690",
+      "obj": {
+        "i": 6690,
+        "n": "Timeworn Toadskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "177",
+      "obj": {
+        "i": 177,
+        "n": "Sagolii Desert",
+        "l": 35,
+        "t": 0,
+        "z": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "29844",
+      "obj": {
+        "i": 29844,
+        "n": "Approved Grade 2 Skybuilders' Maple Log",
+        "l": 40,
+        "c": 23827,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "29848",
+      "obj": {
+        "i": 29848,
+        "n": "Approved Grade 2 Skybuilders' Rock Salt",
+        "l": 40,
+        "c": 23870,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5065",
+      "obj": {
+        "i": 5065,
+        "n": "Mythril Ingot",
+        "l": 34,
+        "c": 20811,
+        "t": 49,
+        "p": 514
+      }
+    }
+  ]
+}

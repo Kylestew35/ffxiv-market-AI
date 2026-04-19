@@ -1,0 +1,554 @@
+{
+  "item": {
+    "name": "Plump Worm",
+    "description": "A species of worm that grows fat on the nutrients swirling about in the currents of the Rhotano Sea. Effective for luring large fish.<br><br>※Only for use in Ocean Fishing.",
+    "jobCategories": "FSH",
+    "id": 29716,
+    "patch": 5.2,
+    "patchCategory": 2,
+    "price": 8,
+    "ilvl": 1,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 1,
+    "jobs": 19,
+    "icon": 27015,
+    "vendors": [
+      1005422,
+      1032822
+    ],
+    "desynthedFrom": [
+      29731,
+      32106,
+      29723,
+      29737,
+      29738,
+      28942,
+      29725,
+      29751,
+      29754,
+      29735,
+      29733,
+      29745,
+      29750,
+      29759,
+      29761,
+      29767,
+      29769,
+      29770,
+      29776,
+      29781,
+      29782,
+      29784,
+      29787,
+      32058,
+      32060,
+      32078,
+      32099,
+      32100,
+      32061,
+      32081,
+      32070,
+      32072,
+      32073,
+      32091,
+      32092,
+      32093,
+      32106,
+      32111,
+      32103
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005422",
+      "obj": {
+        "i": 1005422,
+        "n": "Merchant & Mender",
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032822",
+      "obj": {
+        "i": 1032822,
+        "n": "Merchant & Mender",
+        "l": 3477,
+        "s": 1,
+        "c": [
+          6.12,
+          6.14
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29731",
+      "obj": {
+        "i": 29731,
+        "n": "Crimson Monkfish",
+        "l": 1,
+        "c": 29049,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32106",
+      "obj": {
+        "i": 32106,
+        "n": "Smooth Jaguar",
+        "l": 1,
+        "c": 29159,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29723",
+      "obj": {
+        "i": 29723,
+        "n": "Leopard Eel",
+        "l": 1,
+        "c": 29126,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29737",
+      "obj": {
+        "i": 29737,
+        "n": "Megasquid",
+        "l": 1,
+        "c": 29027,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29738",
+      "obj": {
+        "i": 29738,
+        "n": "Oschon's Stone",
+        "l": 1,
+        "c": 29100,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "28942",
+      "obj": {
+        "i": 28942,
+        "n": "Tarnished Shark",
+        "l": 1,
+        "c": 29011,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29725",
+      "obj": {
+        "i": 29725,
+        "n": "Momora Mora",
+        "l": 1,
+        "c": 29021,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29751",
+      "obj": {
+        "i": 29751,
+        "n": "Quicksilver Blade",
+        "l": 1,
+        "c": 29759,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29754",
+      "obj": {
+        "i": 29754,
+        "n": "Fishmonger",
+        "l": 1,
+        "c": 29070,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29735",
+      "obj": {
+        "i": 29735,
+        "n": "Chrome Hammerhead",
+        "l": 1,
+        "c": 29026,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29733",
+      "obj": {
+        "i": 29733,
+        "n": "Ogre Eel",
+        "l": 1,
+        "c": 29045,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29745",
+      "obj": {
+        "i": 29745,
+        "n": "Little Leviathan",
+        "l": 1,
+        "c": 29147,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29750",
+      "obj": {
+        "i": 29750,
+        "n": "Ghost Shark",
+        "l": 1,
+        "c": 29065,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29759",
+      "obj": {
+        "i": 29759,
+        "n": "Shipwreck's Sail",
+        "l": 1,
+        "c": 29084,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29761",
+      "obj": {
+        "i": 29761,
+        "n": "Hi-aetherlouse",
+        "l": 1,
+        "c": 29089,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29767",
+      "obj": {
+        "i": 29767,
+        "n": "Sweeper",
+        "l": 1,
+        "c": 29085,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29769",
+      "obj": {
+        "i": 29769,
+        "n": "Deep-sea Eel",
+        "l": 1,
+        "c": 29088,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29770",
+      "obj": {
+        "i": 29770,
+        "n": "Executioner",
+        "l": 1,
+        "c": 29092,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29776",
+      "obj": {
+        "i": 29776,
+        "n": "Coccosteus",
+        "l": 1,
+        "c": 29093,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29781",
+      "obj": {
+        "i": 29781,
+        "n": "Gugrusaurus",
+        "l": 1,
+        "c": 29162,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29782",
+      "obj": {
+        "i": 29782,
+        "n": "Funnel Shark",
+        "l": 1,
+        "c": 29731,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29784",
+      "obj": {
+        "i": 29784,
+        "n": "Spectral Megalodon",
+        "l": 1,
+        "c": 28005,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29787",
+      "obj": {
+        "i": 29787,
+        "n": "Spectral Bass",
+        "l": 1,
+        "c": 28008,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32058",
+      "obj": {
+        "i": 32058,
+        "n": "Goobbue Ray",
+        "l": 1,
+        "c": 29130,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32060",
+      "obj": {
+        "i": 32060,
+        "n": "King Cobrafish",
+        "l": 1,
+        "c": 29710,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32078",
+      "obj": {
+        "i": 32078,
+        "n": "Blooded Wrasse",
+        "l": 1,
+        "c": 29174,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32099",
+      "obj": {
+        "i": 32099,
+        "n": "Godsbed",
+        "l": 1,
+        "c": 29047,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32100",
+      "obj": {
+        "i": 32100,
+        "n": "Lansquenet",
+        "l": 1,
+        "c": 29114,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32061",
+      "obj": {
+        "i": 32061,
+        "n": "Mamahi-mahi",
+        "l": 1,
+        "c": 29142,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32081",
+      "obj": {
+        "i": 32081,
+        "n": "Bloodfresh Tuna",
+        "l": 1,
+        "c": 29018,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32070",
+      "obj": {
+        "i": 32070,
+        "n": "Jetborne Manta",
+        "l": 1,
+        "c": 29663,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32072",
+      "obj": {
+        "i": 32072,
+        "n": "Callichthyid",
+        "l": 1,
+        "c": 28475,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32073",
+      "obj": {
+        "i": 32073,
+        "n": "Meandering Mora",
+        "l": 1,
+        "c": 28017,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32091",
+      "obj": {
+        "i": 32091,
+        "n": "Gory Tuna",
+        "l": 1,
+        "c": 29083,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32092",
+      "obj": {
+        "i": 32092,
+        "n": "Ticinepomis",
+        "l": 1,
+        "c": 29091,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32093",
+      "obj": {
+        "i": 32093,
+        "n": "Quartz Hammerhead",
+        "l": 1,
+        "c": 28026,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32111",
+      "obj": {
+        "i": 32111,
+        "n": "Panoptes",
+        "l": 1,
+        "c": 29340,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32103",
+      "obj": {
+        "i": 32103,
+        "n": "Spectresaur",
+        "l": 1,
+        "c": 28029,
+        "t": 47
+      }
+    }
+  ]
+}

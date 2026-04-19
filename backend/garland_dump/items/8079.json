@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Spare Tank Component Materials",
+    "description": "Materials required to craft components for an airship's spare fuel tanks.<br><br>※Only for use in Ixal society quests.",
+    "id": 8079,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8121": 1
+    },
+    "usedInQuest": [
+      67057
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8121",
+      "obj": {
+        "i": 8121,
+        "n": "Spare Tank Component",
+        "l": 1,
+        "c": 21003,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67057",
+      "obj": {
+        "i": 67057,
+        "n": "Your Gil's No Good Here",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 62,
+        "r": 1
+      }
+    }
+  ]
+}

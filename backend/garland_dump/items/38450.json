@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Pterosquirrel",
+    "description": "Despite its chubby appearance, this bright-eyed companion can glide a surprising distance.<br><br>Use item to acquire the pterosquirrel minion.",
+    "minionrace": "Critter",
+    "tooltip": "Seven hells, did those accursed\r\nsquirrels leave any part of me\r\nuntouched?\r\n   - Arold",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Patagium Glide",
+    "specialactiondescription": "Renders all allies within range immune to attacks by <span class=\"highlight\">monsters</span>.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 38450,
+    "patch": 6.2,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59862,
+    "tradeShops": [
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38450",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8419-1-1"
+    ],
+    "treasure": [
+      47104
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "47104",
+      "obj": {
+        "i": 47104,
+        "n": "Sack of Silvered Light",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    }
+  ]
+}

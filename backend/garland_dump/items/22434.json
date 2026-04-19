@@ -1,0 +1,524 @@
+{
+  "item": {
+    "name": "Oden",
+    "description": "A veritable hodgepodge of vegetables, meats, and seafood simmered in a light fish broth for literally days upon end.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 22434,
+    "patch": 4.2,
+    "patchCategory": 6,
+    "price": 2308,
+    "ilvl": 340,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 40
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 47
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 50
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 28
+        }
+      }
+    },
+    "icon": 24121,
+    "craft": [
+      {
+        "id": 32651,
+        "job": 15,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 5200,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22316,
+        "ingredients": [
+          {
+            "id": 21089,
+            "amount": 1
+          },
+          {
+            "id": 19861,
+            "amount": 1
+          },
+          {
+            "id": 19880,
+            "amount": 1
+          },
+          {
+            "id": 19855,
+            "amount": 1
+          },
+          {
+            "id": 19877,
+            "amount": 1
+          },
+          {
+            "id": 19845,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 286,
+          "hq": 306
+        }
+      }
+    ],
+    "quests": [
+      68622
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Secret Recipe Broth",
+      "id": 21089,
+      "icon": 25055,
+      "category": 45,
+      "ilvl": 320,
+      "price": 2186,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21089",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21089",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mountain Popoto",
+      "id": 19861,
+      "icon": 25227,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "ventures": [
+        683
+      ],
+      "nodes": [
+        512
+      ]
+    },
+    {
+      "name": "Ruby Tide Kelp",
+      "id": 19880,
+      "icon": 25217,
+      "category": 45,
+      "ilvl": 282,
+      "price": 548,
+      "ventures": [
+        699
+      ],
+      "nodes": [
+        529
+      ]
+    },
+    {
+      "name": "Daikon Radish",
+      "id": 19855,
+      "icon": 25215,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        694
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Gagana Egg",
+      "id": 19877,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 260,
+      "price": 514,
+      "instances": [
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "leves": [
+        1298,
+        1299,
+        1300
+      ],
+      "ventures": [
+        709
+      ],
+      "drops": [
+        65950000005692,
+        74370000005672
+      ]
+    },
+    {
+      "name": "Cooking Sake",
+      "id": 19845,
+      "icon": 25106,
+      "category": 45,
+      "ilvl": 270,
+      "price": 534,
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "529",
+      "obj": {
+        "i": 529,
+        "n": "Rasen Kaikyo",
+        "l": 70,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "74370000005672",
+      "obj": {
+        "i": 74370000005672,
+        "n": "Lesser Gagana",
+        "l": "60",
+        "z": 2406
+      }
+    },
+    {
+      "type": "mob",
+      "id": "65950000005692",
+      "obj": {
+        "i": 65950000005692,
+        "n": "Gagana",
+        "l": "67",
+        "z": 2406
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22316",
+      "obj": {
+        "i": 22316,
+        "n": "Master Culinarian VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21089",
+      "obj": {
+        "i": 21089,
+        "n": "Secret Recipe Broth",
+        "l": 320,
+        "c": 25055,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19861",
+      "obj": {
+        "i": 19861,
+        "n": "Mountain Popoto",
+        "l": 265,
+        "c": 25227,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19880",
+      "obj": {
+        "i": 19880,
+        "n": "Ruby Tide Kelp",
+        "l": 282,
+        "c": 25217,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19855",
+      "obj": {
+        "i": 19855,
+        "n": "Daikon Radish",
+        "l": 279,
+        "c": 25215,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19877",
+      "obj": {
+        "i": 19877,
+        "n": "Gagana Egg",
+        "l": 260,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19845",
+      "obj": {
+        "i": 19845,
+        "n": "Cooking Sake",
+        "l": 270,
+        "c": 25106,
+        "t": 45,
+        "p": 534
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68622",
+      "obj": {
+        "i": 68622,
+        "n": "Precious Reclamation",
+        "g": 98,
+        "l": "The Doman Enclave",
+        "s": 10,
+        "f": 1
+      }
+    }
+  ]
+}

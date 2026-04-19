@@ -1,0 +1,143 @@
+{
+  "item": {
+    "name": "Raimdellopterus",
+    "description": "The moogles of Moghome say that one can live his entire life without ever witnessing a raimdellopterus descend from the upper reaches of Tharl Oom Khash. They also say that some moogles spend a lot of their lives sleeping.<br><br>[Suitable for printing on extra large canvases.]",
+    "fish": {
+      "guide": "Also known as the “king of the wyverns,” the raimdellopterus was given its official name in honor of the bicentennial of Frandelont Raimdelle's masterwork, the Raimdelle Codex.",
+      "icon": 79733,
+      "weatherRestricted": 1,
+      "folklore": 12702,
+      "spots": [
+        {
+          "spot": 134,
+          "weather": [
+            "Gales"
+          ],
+          "predator": [
+            {
+              "id": 12805,
+              "amount": 5
+            }
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 505,
+          "baits": [
+            [
+              12712,
+              12805
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 17593,
+    "patch": 3.5,
+    "patchCategory": 7,
+    "price": 3000,
+    "ilvl": 250,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 90,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29733,
+    "fishingSpots": [
+      134
+    ],
+    "desynthedTo": [
+      16906,
+      5677,
+      5818
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "134",
+      "obj": {
+        "i": 134,
+        "n": "Tharl Oom Khash",
+        "l": 55,
+        "c": 4,
+        "z": 2002,
+        "x": 20.26,
+        "y": 6.39
+      }
+    },
+    {
+      "type": "item",
+      "id": "12702",
+      "obj": {
+        "i": 12702,
+        "n": "Tome of Ichthyological Folklore - Dravania",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12712",
+      "obj": {
+        "i": 12712,
+        "n": "Giant Crane Fly",
+        "l": 180,
+        "c": 27002,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "12805",
+      "obj": {
+        "i": 12805,
+        "n": "Rudderfish",
+        "l": 145,
+        "c": 29717,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "16906",
+      "obj": {
+        "i": 16906,
+        "n": "Wool Top",
+        "l": 1,
+        "c": 21606,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5677",
+      "obj": {
+        "i": 5677,
+        "n": "Savage Might Materia IV",
+        "l": 70,
+        "c": 20224,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5818",
+      "obj": {
+        "i": 5818,
+        "n": "Brown Pigment",
+        "l": 28,
+        "c": 21462,
+        "t": 55
+      }
+    }
+  ]
+}

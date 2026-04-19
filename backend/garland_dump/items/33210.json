@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Resplendent Carpenter's Final Material",
+    "description": "A resplendent golden pot filled with caustic grey slime.",
+    "id": 33210,
+    "patch": 5.5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 510,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26124,
+    "tradeCurrency": [
+      {
+        "shop": "Resplendent Tool Exchange",
+        "npcs": [
+          1027566
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33154",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33210",
+                "amount": 60
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027566",
+      "obj": {
+        "i": 1027566,
+        "n": "Limbeth",
+        "l": 2952,
+        "s": 1,
+        "t": "Resplendent Tool Exchange",
+        "r": 1,
+        "a": 3266,
+        "c": [
+          11.71,
+          10.93
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33154",
+      "obj": {
+        "i": 33154,
+        "n": "Resplendent Millfiend's Saw",
+        "l": 500,
+        "c": 35042,
+        "t": 12,
+        "p": 1000
+      }
+    }
+  ]
+}

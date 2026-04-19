@@ -1,0 +1,94 @@
+{
+  "item": {
+    "name": "Whisperfine Fleece",
+    "description": "Fine white wool sheared from a breed of sheep prized for the softness of its coat.",
+    "id": 24336,
+    "patch": 4.4,
+    "patchCategory": 5,
+    "price": 3,
+    "ilvl": 350,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21655,
+    "ingredient_of": {
+      "24004": 2,
+      "24005": 1,
+      "24006": 1
+    },
+    "instances": [
+      55002,
+      55004
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "24004",
+      "obj": {
+        "i": 24004,
+        "n": "Whisperfine Woolen Coat",
+        "l": 1,
+        "c": 43844,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "24005",
+      "obj": {
+        "i": 24005,
+        "n": "Whisperfine Woolen Shorts",
+        "l": 1,
+        "c": 47477,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "24006",
+      "obj": {
+        "i": 24006,
+        "n": "Whisperfine Woolen Boots",
+        "l": 1,
+        "c": 49192,
+        "t": 38
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55002",
+      "obj": {
+        "i": 55002,
+        "n": "The Lost Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55004",
+      "obj": {
+        "i": 55004,
+        "n": "The Shifting Altars of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    }
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "item": {
+    "name": "Grade 1 Intelligence Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to intelligence, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 27770,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2878,
+    "ilvl": 400,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 29,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22679,
+    "craft": [
+      {
+        "id": 3861,
+        "job": 14,
+        "rlvl": 400,
+        "durability": 40,
+        "quality": 3120,
+        "progress": 645,
+        "lvl": 73,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27968,
+            "amount": 1
+          },
+          {
+            "id": 27763,
+            "amount": 1
+          },
+          {
+            "id": 19914,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 82,
+          "hq": 102
+        }
+      }
+    ],
+    "ingredient_of": {
+      "26002": 1,
+      "26003": 2,
+      "26004": 1,
+      "26005": 2,
+      "26006": 1,
+      "26012": 1,
+      "26017": 1,
+      "26022": 1,
+      "26027": 1,
+      "26162": 1,
+      "26163": 2,
+      "26164": 1,
+      "26165": 2,
+      "26166": 1,
+      "26172": 1,
+      "26177": 1,
+      "26182": 1,
+      "26187": 1,
+      "26322": 1,
+      "26323": 2,
+      "26324": 1,
+      "26325": 2,
+      "26326": 1,
+      "26332": 1,
+      "26337": 1,
+      "26342": 1,
+      "26347": 1
+    },
+    "supply": {
+      "count": 3,
+      "xp": 831000,
+      "seals": 823
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Highland Spring Water",
+      "id": 27968,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        29986
+      ],
+      "leves": [
+        1482,
+        1483
+      ],
+      "ventures": [
+        791
+      ],
+      "nodes": [
+        592
+      ]
+    },
+    {
+      "name": "Hoptrap Leaf",
+      "id": 27763,
+      "icon": 25202,
+      "category": 54,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27763",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1487,
+        1489
+      ],
+      "ventures": [
+        773
+      ]
+    },
+    {
+      "name": "Chickweed",
+      "id": 19914,
+      "icon": 25008,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        704
+      ],
+      "nodes": [
+        519
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "592",
+      "obj": {
+        "i": 592,
+        "n": "The Bookman's Shelves",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "519",
+      "obj": {
+        "i": 519,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 3,
+        "z": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "27968",
+      "obj": {
+        "i": 27968,
+        "n": "Highland Spring Water",
+        "l": 400,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27763",
+      "obj": {
+        "i": 27763,
+        "n": "Hoptrap Leaf",
+        "l": 390,
+        "c": 25202,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19914",
+      "obj": {
+        "i": 19914,
+        "n": "Chickweed",
+        "l": 285,
+        "c": 25008,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26002",
+      "obj": {
+        "i": 26002,
+        "n": "Bluespirit Headgear of Casting",
+        "l": 403,
+        "c": 40536,
+        "t": 34,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "26003",
+      "obj": {
+        "i": 26003,
+        "n": "Atrociraptorskin Coat of Casting",
+        "l": 403,
+        "c": 43479,
+        "t": 35,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "26004",
+      "obj": {
+        "i": 26004,
+        "n": "Atrociraptorskin Bracers of Casting",
+        "l": 403,
+        "c": 48601,
+        "t": 37,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "26005",
+      "obj": {
+        "i": 26005,
+        "n": "Pixie Cotton Slops of Casting",
+        "l": 403,
+        "c": 47624,
+        "t": 36,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "26006",
+      "obj": {
+        "i": 26006,
+        "n": "Bluespirit Greaves of Casting",
+        "l": 403,
+        "c": 47211,
+        "t": 38,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "26012",
+      "obj": {
+        "i": 26012,
+        "n": "White Ash Earring of Casting",
+        "l": 403,
+        "c": 55444,
+        "t": 41,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26017",
+      "obj": {
+        "i": 26017,
+        "n": "Atrociraptorskin Necklace of Casting",
+        "l": 403,
+        "c": 55014,
+        "t": 40,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26022",
+      "obj": {
+        "i": 26022,
+        "n": "Atrociraptorskin Amulet of Casting",
+        "l": 403,
+        "c": 55814,
+        "t": 42,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26027",
+      "obj": {
+        "i": 26027,
+        "n": "Lazurite Ring of Casting",
+        "l": 403,
+        "c": 54662,
+        "t": 43,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26162",
+      "obj": {
+        "i": 26162,
+        "n": "Ovim Wool Muffed Met of Casting",
+        "l": 409,
+        "c": 40337,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26163",
+      "obj": {
+        "i": 26163,
+        "n": "Ovim Wool Tunic of Casting",
+        "l": 409,
+        "c": 43881,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26164",
+      "obj": {
+        "i": 26164,
+        "n": "Zonureskin Fingerless Gloves of Casting",
+        "l": 409,
+        "c": 48779,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26165",
+      "obj": {
+        "i": 26165,
+        "n": "Ovim Wool Bottoms of Casting",
+        "l": 409,
+        "c": 47574,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26166",
+      "obj": {
+        "i": 26166,
+        "n": "Zonureskin Sandals of Casting",
+        "l": 409,
+        "c": 49042,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26172",
+      "obj": {
+        "i": 26172,
+        "n": "Triplite Earrings of Casting",
+        "l": 409,
+        "c": 55430,
+        "t": 41,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26177",
+      "obj": {
+        "i": 26177,
+        "n": "Triplite Choker of Casting",
+        "l": 409,
+        "c": 55000,
+        "t": 40,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26182",
+      "obj": {
+        "i": 26182,
+        "n": "Triplite Bracelet of Casting",
+        "l": 409,
+        "c": 55800,
+        "t": 42,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26187",
+      "obj": {
+        "i": 26187,
+        "n": "Triplite Ring of Casting",
+        "l": 409,
+        "c": 54648,
+        "t": 43,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26322",
+      "obj": {
+        "i": 26322,
+        "n": "Dwarven Cotton Petasos of Casting",
+        "l": 415,
+        "c": 41465,
+        "t": 34,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26323",
+      "obj": {
+        "i": 26323,
+        "n": "Swallowskin Robe of Casting",
+        "l": 415,
+        "c": 43894,
+        "t": 35,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26324",
+      "obj": {
+        "i": 26324,
+        "n": "Swallowskin Gloves of Casting",
+        "l": 415,
+        "c": 44725,
+        "t": 37,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26325",
+      "obj": {
+        "i": 26325,
+        "n": "Dwarven Cotton Gaskins of Casting",
+        "l": 415,
+        "c": 47598,
+        "t": 36,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26326",
+      "obj": {
+        "i": 26326,
+        "n": "Swallowskin Shoes of Casting",
+        "l": 415,
+        "c": 49060,
+        "t": 38,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26332",
+      "obj": {
+        "i": 26332,
+        "n": "Petalite Earrings of Casting",
+        "l": 415,
+        "c": 55433,
+        "t": 41,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26337",
+      "obj": {
+        "i": 26337,
+        "n": "Petalite Choker of Casting",
+        "l": 415,
+        "c": 55003,
+        "t": 40,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26342",
+      "obj": {
+        "i": 26342,
+        "n": "Petalite Bracelet of Casting",
+        "l": 415,
+        "c": 55803,
+        "t": 42,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26347",
+      "obj": {
+        "i": 26347,
+        "n": "Petalite Ring of Casting",
+        "l": 415,
+        "c": 54651,
+        "t": 43,
+        "p": 18451
+      }
+    }
+  ]
+}

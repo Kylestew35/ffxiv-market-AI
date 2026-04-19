@@ -1,0 +1,293 @@
+{
+  "item": {
+    "name": "Hose of Happiness",
+    "jobCategories": "All Classes",
+    "id": 35870,
+    "patch": 6.05,
+    "patchCategory": 3,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 36,
+    "dyeable": 1,
+    "dyecount": 2,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "6130-1-0-0"
+    ],
+    "attr": {
+      "Defense": 9,
+      "Magic Defense": 16
+    },
+    "attr_hq": {
+      "Defense": 11,
+      "Magic Defense": 17
+    },
+    "icon": 47849,
+    "craft": [
+      {
+        "id": 34914,
+        "job": 12,
+        "rlvl": 570,
+        "durability": 80,
+        "quality": 7400,
+        "progress": 3700,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "unlockId": 35622,
+        "ingredients": [
+          {
+            "id": 36628,
+            "amount": 1
+          },
+          {
+            "id": 36251,
+            "amount": 3,
+            "quality": 1232.5795
+          },
+          {
+            "id": 17,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 535,
+          "hq": 555
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Cloth of Happiness",
+      "id": 36628,
+      "icon": 21610,
+      "category": 51,
+      "ilvl": 1,
+      "price": 99999,
+      "instances": [
+        55009
+      ]
+    },
+    {
+      "name": "Ophiotauros Leather",
+      "id": 36251,
+      "icon": 22008,
+      "category": 52,
+      "ilvl": 545,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5322,
+          "job": 12,
+          "rlvl": 550,
+          "durability": 40,
+          "quality": 7000,
+          "progress": 1650,
+          "lvl": 88,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36246,
+              "amount": 4
+            },
+            {
+              "id": 36241,
+              "amount": 1
+            },
+            {
+              "id": 11,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 136,
+            "hq": 156
+          }
+        }
+      ],
+      "desynthedFrom": [
+        34728,
+        37192,
+        38178,
+        37144,
+        38173,
+        38179,
+        34702,
+        37218,
+        35436,
+        37219,
+        34904,
+        34899,
+        34894,
+        34889,
+        34903,
+        34898,
+        34884,
+        37180,
+        38188
+      ],
+      "leves": [
+        1616,
+        1617
+      ]
+    },
+    {
+      "name": "Ophiotauros Hide",
+      "id": 36246,
+      "icon": 21820,
+      "category": 52,
+      "ilvl": 545,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36246",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        947
+      ]
+    },
+    {
+      "name": "Eblan Alumen",
+      "id": 36241,
+      "icon": 22616,
+      "category": 54,
+      "ilvl": 533,
+      "price": 99999,
+      "ventures": [
+        901
+      ],
+      "nodes": [
+        822
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55009",
+      "obj": {
+        "i": 55009,
+        "n": "The Excitatron 6000",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 90,
+        "max_ilvl": 635
+      }
+    },
+    {
+      "type": "item",
+      "id": "36246",
+      "obj": {
+        "i": 36246,
+        "n": "Ophiotauros Hide",
+        "l": 545,
+        "c": 21820,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "36241",
+      "obj": {
+        "i": 36241,
+        "n": "Eblan Alumen",
+        "l": 533,
+        "c": 22616,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "822",
+      "obj": {
+        "i": 822,
+        "n": "Monitoring Station G",
+        "l": 85,
+        "t": 1,
+        "z": 3710
+      }
+    },
+    {
+      "type": "item",
+      "id": "35622",
+      "obj": {
+        "i": 35622,
+        "n": "Master Leatherworker IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36628",
+      "obj": {
+        "i": 36628,
+        "n": "Cloth of Happiness",
+        "l": 1,
+        "c": 21610,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "36251",
+      "obj": {
+        "i": 36251,
+        "n": "Ophiotauros Leather",
+        "l": 545,
+        "c": 22008,
+        "t": 52
+      }
+    }
+  ]
+}

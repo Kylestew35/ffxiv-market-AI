@@ -1,0 +1,106 @@
+{
+  "item": {
+    "name": "Alchemical Abrasive",
+    "description": "This all-in-one abrasive, created by alchemists of the Great Work, can be used to both sand metals and polish them to a lustrous sheen─and with only minor risk of fire.",
+    "id": 36219,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21241,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36219",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36219",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "36187": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36187",
+      "obj": {
+        "i": 36187,
+        "n": "Rhodium Ingot",
+        "l": 580,
+        "c": 20815,
+        "t": 49
+      }
+    }
+  ]
+}

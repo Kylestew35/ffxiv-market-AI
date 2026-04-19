@@ -1,0 +1,116 @@
+{
+  "item": {
+    "name": "Deephaunt",
+    "description": "A king among darkdwellers, and lord of the waters of Woven Oath.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Found in the brackish waters which collect in the caverns of Woven Oath, these fish instinctively sink down to the deepest, darkest part of their stygian homes. Over the years, their eyes have devolved into blind orbs, this lack of vision causing them to swim a wandering, erratic course in the search for food.",
+      "icon": 78496,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 229,
+          "transition": [
+            "Clouds"
+          ],
+          "weather": [
+            "Fog"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2150,
+          "baits": [
+            [
+              27589
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33323,
+    "patch": 5.5,
+    "patchCategory": 7,
+    "price": 2000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28496,
+    "fishingSpots": [
+      229
+    ],
+    "desynthedTo": [
+      32949,
+      26728
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "229",
+      "obj": {
+        "i": 229,
+        "n": "Woven Oath",
+        "l": 80,
+        "c": 1,
+        "z": 2957,
+        "x": 7.81,
+        "y": 16.21
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27589",
+      "obj": {
+        "i": 27589,
+        "n": "Baitbugs",
+        "l": 430,
+        "c": 27040,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26728",
+      "obj": {
+        "i": 26728,
+        "n": "Heavens' Eye Materia VIII",
+        "l": 420,
+        "c": 20279,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Fruit Stall",
+    "description": "A two-tiered unit displaying assorted colorful fruit.",
+    "id": 24516,
+    "patch": 4.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53279,
+    "tradeShops": [
+      {
+        "shop": "Bait/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24516",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Music/Furnishings/Misc.)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24516",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "769"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

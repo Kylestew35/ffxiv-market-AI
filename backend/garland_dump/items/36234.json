@@ -1,0 +1,509 @@
+{
+  "item": {
+    "name": "Grade 6 Vitality Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to vitality, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 36234,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22680,
+    "ingredient_of": {
+      "35020": 1,
+      "35022": 2,
+      "35026": 2,
+      "35035": 2,
+      "35039": 1,
+      "35040": 2,
+      "35041": 2,
+      "35042": 2,
+      "35043": 2,
+      "35044": 2,
+      "35075": 1,
+      "35080": 1,
+      "35085": 1,
+      "35090": 1
+    },
+    "craft": [
+      {
+        "id": 34898,
+        "job": 14,
+        "rlvl": 580,
+        "durability": 35,
+        "quality": 7800,
+        "progress": 2925,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35624,
+        "ingredients": [
+          {
+            "id": 36217,
+            "amount": 1
+          },
+          {
+            "id": 36263,
+            "amount": 1
+          },
+          {
+            "id": 27783,
+            "amount": 1
+          },
+          {
+            "id": 36223,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 341,
+          "hq": 361
+        }
+      }
+    ],
+    "desynthedFrom": [
+      35085
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "VENTURE"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Double-edged Herb",
+      "id": 36217,
+      "icon": 25201,
+      "category": 54,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        972
+      ],
+      "nodes": [
+        858
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Lime Basil",
+      "id": 27783,
+      "icon": 25010,
+      "category": 54,
+      "ilvl": 415,
+      "price": 210,
+      "ventures": [
+        836
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "858",
+      "obj": {
+        "i": 858,
+        "n": "The Tube",
+        "l": 90,
+        "t": 3,
+        "z": 3712,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "35020",
+      "obj": {
+        "i": 35020,
+        "n": "Classical Longsword",
+        "l": 580,
+        "c": 30647,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "35022",
+      "obj": {
+        "i": 35022,
+        "n": "Classical Battleaxe",
+        "l": 580,
+        "c": 31221,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "35026",
+      "obj": {
+        "i": 35026,
+        "n": "Classical Greatsword",
+        "l": 580,
+        "c": 34375,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "35035",
+      "obj": {
+        "i": 35035,
+        "n": "Classical Gunblade",
+        "l": 580,
+        "c": 36067,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "35039",
+      "obj": {
+        "i": 35039,
+        "n": "Classical Shield",
+        "l": 580,
+        "c": 30236,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "35040",
+      "obj": {
+        "i": 35040,
+        "n": "Classical Hoplomachus's Headgear",
+        "l": 580,
+        "c": 41878,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35041",
+      "obj": {
+        "i": 35041,
+        "n": "Classical Hoplomachus's Lorica",
+        "l": 580,
+        "c": 42789,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35042",
+      "obj": {
+        "i": 35042,
+        "n": "Classical Hoplomachus's Manicae",
+        "l": 580,
+        "c": 44901,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35043",
+      "obj": {
+        "i": 35043,
+        "n": "Classical Hoplomachus's Loincloth",
+        "l": 580,
+        "c": 46045,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35044",
+      "obj": {
+        "i": 35044,
+        "n": "Classical Hoplomachus's Greaves",
+        "l": 580,
+        "c": 49375,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35075",
+      "obj": {
+        "i": 35075,
+        "n": "Classical Earrings of Fending",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35080",
+      "obj": {
+        "i": 35080,
+        "n": "Classical Choker of Fending",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35085",
+      "obj": {
+        "i": 35085,
+        "n": "Classical Wristband of Fending",
+        "l": 580,
+        "c": 55837,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35090",
+      "obj": {
+        "i": 35090,
+        "n": "Classical Ring of Fending",
+        "l": 580,
+        "c": 54688,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35624",
+      "obj": {
+        "i": 35624,
+        "n": "Master Alchemist IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36217",
+      "obj": {
+        "i": 36217,
+        "n": "Double-edged Herb",
+        "l": 580,
+        "c": 25201,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27783",
+      "obj": {
+        "i": 27783,
+        "n": "Lime Basil",
+        "l": 415,
+        "c": 25010,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    }
+  ]
+}

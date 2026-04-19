@@ -1,0 +1,310 @@
+{
+  "item": {
+    "name": "Rokkon Manuscript",
+    "description": "A thin tome recovered from Mount Rokkon. Though the Hingan script within is of an antiquated style that you could not hope to decipher, scholars would doubtless jump at the chance to acquire such a text.",
+    "id": 39886,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26455,
+    "tradeCurrency": [
+      {
+        "shop": "Rokkon Manuscript Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40653",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33930",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33931",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33932",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33933",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33934",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33941",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33942",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39886",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instances": [
+      37004
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "40653",
+      "obj": {
+        "i": 40653,
+        "n": "Oyoroi Display",
+        "l": 1,
+        "c": 53462,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "33930",
+      "obj": {
+        "i": 33930,
+        "n": "Piety Materia X",
+        "l": 560,
+        "c": 20286,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33931",
+      "obj": {
+        "i": 33931,
+        "n": "Heavens' Eye Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33932",
+      "obj": {
+        "i": 33932,
+        "n": "Savage Aim Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33933",
+      "obj": {
+        "i": 33933,
+        "n": "Savage Might Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33934",
+      "obj": {
+        "i": 33934,
+        "n": "Battledance Materia X",
+        "l": 560,
+        "c": 20286,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33941",
+      "obj": {
+        "i": 33941,
+        "n": "Quickarm Materia X",
+        "l": 560,
+        "c": 20287,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Skill Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33942",
+      "obj": {
+        "i": 33942,
+        "n": "Quicktongue Materia X",
+        "l": 560,
+        "c": 20287,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "instance",
+      "id": "37004",
+      "obj": {
+        "i": 37004,
+        "n": "Another Mount Rokkon (Savage)",
+        "c": 61846,
+        "t": "V&C Dungeon Finder",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "max_ilvl": 665
+      }
+    }
+  ]
+}

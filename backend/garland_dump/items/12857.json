@@ -1,0 +1,505 @@
+{
+  "item": {
+    "name": "Urchin Loaf",
+    "description": "Sea urchin corals mixed with mushrooms and herbs into a paste that is then placed back into the urchin shell and baked until hard.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 12857,
+    "patch": 3.0,
+    "patchCategory": 6,
+    "price": 1267,
+    "ilvl": 160,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 15,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 30
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 29
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 18
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 36
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 23
+        }
+      }
+    },
+    "icon": 24318,
+    "craft": [
+      {
+        "id": 31224,
+        "job": 15,
+        "rlvl": 160,
+        "durability": 70,
+        "quality": 2800,
+        "progress": 660,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "craftsmanshipReq": 620,
+        "quickSynthCraftsmanship": 718,
+        "unlockId": 12251,
+        "ingredients": [
+          {
+            "id": 12823,
+            "amount": 2
+          },
+          {
+            "id": 12720,
+            "amount": 1
+          },
+          {
+            "id": 12898,
+            "amount": 1
+          },
+          {
+            "id": 12894,
+            "amount": 1,
+            "quality": 168.43118
+          },
+          {
+            "id": 12872,
+            "amount": 1
+          },
+          {
+            "id": 12936,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 434,
+          "hq": 454
+        }
+      }
+    ],
+    "quests": [
+      67692
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Spring Urchin",
+      "id": 12823,
+      "icon": 29804,
+      "category": 47,
+      "ilvl": 180,
+      "price": 1710,
+      "fishingSpots": [
+        113
+      ]
+    },
+    {
+      "name": "Lake Urchin",
+      "id": 12720,
+      "icon": 29804,
+      "category": 47,
+      "ilvl": 125,
+      "price": 1188,
+      "fishingSpots": [
+        114,
+        115,
+        116
+      ]
+    },
+    {
+      "name": "Morel",
+      "id": 12898,
+      "icon": 25408,
+      "category": 45,
+      "ilvl": 148,
+      "price": 937,
+      "leves": [
+        1052,
+        1053,
+        1054,
+        1055,
+        1056,
+        1057
+      ],
+      "ventures": [
+        613
+      ],
+      "nodes": [
+        343
+      ]
+    },
+    {
+      "name": "Sour Cream",
+      "id": 12894,
+      "icon": 25056,
+      "category": 45,
+      "ilvl": 125,
+      "price": 396,
+      "craft": [
+        {
+          "id": 2820,
+          "job": 15,
+          "rlvl": 115,
+          "durability": 40,
+          "quality": 1656,
+          "progress": 110,
+          "lvl": 51,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 3
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 67,
+            "hq": 87
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Okeanis Egg",
+      "id": 12872,
+      "icon": 25253,
+      "category": 45,
+      "ilvl": 142,
+      "price": 1068,
+      "ventures": [
+        432
+      ],
+      "drops": [
+        40260000003610
+      ]
+    },
+    {
+      "name": "Duskborne Aethersand",
+      "id": 12936,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 139,
+      "price": 880,
+      "reducedFrom": [
+        5214,
+        5218,
+        12968,
+        33148
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "113",
+      "obj": {
+        "i": 113,
+        "n": "Dragonspit",
+        "l": 60,
+        "c": 1,
+        "z": 2200,
+        "x": 8.71,
+        "y": 9.72
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "114",
+      "obj": {
+        "i": 114,
+        "n": "South Banepool",
+        "l": 53,
+        "c": 1,
+        "z": 2200,
+        "x": 21.78,
+        "y": 11.33
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "115",
+      "obj": {
+        "i": 115,
+        "n": "Ashpool",
+        "l": 52,
+        "c": 1,
+        "z": 2200,
+        "x": 14.07,
+        "y": 15.71
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "116",
+      "obj": {
+        "i": 116,
+        "n": "West Banepool",
+        "l": 53,
+        "c": 1,
+        "z": 2200,
+        "x": 13.26,
+        "y": 8.84
+      }
+    },
+    {
+      "type": "node",
+      "id": "343",
+      "obj": {
+        "i": 343,
+        "n": "The Ruling Quarter",
+        "l": 60,
+        "t": 2,
+        "z": 2001,
+        "lt": "Unspoiled",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "mob",
+      "id": "40260000003610",
+      "obj": {
+        "i": 40260000003610,
+        "n": "Okeanis",
+        "l": "59",
+        "z": 2001
+      }
+    },
+    {
+      "type": "item",
+      "id": "5214",
+      "obj": {
+        "i": 5214,
+        "n": "Fire Moraine",
+        "l": 139,
+        "c": 21456,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5218",
+      "obj": {
+        "i": 5218,
+        "n": "Lightning Moraine",
+        "l": 139,
+        "c": 21461,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12968",
+      "obj": {
+        "i": 12968,
+        "n": "Granular Clay",
+        "l": 139,
+        "c": 27407,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33148",
+      "obj": {
+        "i": 33148,
+        "n": "Pot Marjoram",
+        "l": 139,
+        "c": 25010,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12251",
+      "obj": {
+        "i": 12251,
+        "n": "Master Culinarian III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12823",
+      "obj": {
+        "i": 12823,
+        "n": "Spring Urchin",
+        "l": 180,
+        "c": 29804,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12720",
+      "obj": {
+        "i": 12720,
+        "n": "Lake Urchin",
+        "l": 125,
+        "c": 29804,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12898",
+      "obj": {
+        "i": 12898,
+        "n": "Morel",
+        "l": 148,
+        "c": 25408,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12894",
+      "obj": {
+        "i": 12894,
+        "n": "Sour Cream",
+        "l": 125,
+        "c": 25056,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12872",
+      "obj": {
+        "i": 12872,
+        "n": "Okeanis Egg",
+        "l": 142,
+        "c": 25253,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12936",
+      "obj": {
+        "i": 12936,
+        "n": "Duskborne Aethersand",
+        "l": 139,
+        "c": 22613,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67692",
+      "obj": {
+        "i": 67692,
+        "n": "An Uncertain Future",
+        "g": 4,
+        "l": "Fortemps Manor",
+        "s": 1
+      }
+    }
+  ]
+}

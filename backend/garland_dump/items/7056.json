@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Starlight Barding",
+    "description": "A suit of chocobo armor as worn by those legendary birds said to carry gifts from the stars.",
+    "id": 7056,
+    "patch": 2.1,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 58565,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1005790,
+          1005792,
+          1005794
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7056",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7000",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005790",
+      "obj": {
+        "i": 1005790,
+        "n": "Starlight Supplier",
+        "s": 1,
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005792",
+      "obj": {
+        "i": 1005792,
+        "n": "Starlight Supplier",
+        "s": 1,
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005794",
+      "obj": {
+        "i": 1005794,
+        "n": "Starlight Supplier",
+        "s": 1,
+        "r": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "7000",
+      "obj": {
+        "i": 7000,
+        "n": "Eternal Ice",
+        "l": 1,
+        "c": 20015,
+        "t": 85
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "item": {
+    "name": "Tinker's Bell",
+    "description": "Said to be named for a pixie...unless you ask the pixies, who adamantly deny that any of their kind would ever have borne such a ludicrous name.<br><br>Use item to acquire the tinker's bell minion.",
+    "minionrace": "Gadget",
+    "tooltip": "How do you measure\r\nhalf a bell anyway?\r\n   - Mauto",
+    "minionskilltype": "Damage",
+    "specialactionname": "Enigmatic Note",
+    "specialactiondescription": "Delivers an attack with a potency of 30 to all enemies within range while reducing DEF by 30%.<br> <span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 26800,
+    "patch": 5.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59746,
+    "tradeShops": [
+      {
+        "shop": "Previous Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26800",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46179",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Glorious Gewgaws",
+        "npcs": [
+          1027565
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26800",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27972",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 120,
+    "aoe": 1,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 30,
+      "Attack": 20,
+      "Defense": 60,
+      "Speed": 3
+    },
+    "models": [
+      "8225-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "46179",
+      "obj": {
+        "i": 46179,
+        "n": "Irregular Tomestone of Revelation",
+        "l": 1,
+        "c": "t/26346",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027565",
+      "obj": {
+        "i": 1027565,
+        "n": "Fathard",
+        "l": 2952,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 3275,
+        "c": [
+          10.18,
+          11.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27972",
+      "obj": {
+        "i": 27972,
+        "n": "Archaeotania's Horn",
+        "l": 1,
+        "c": 22205,
+        "t": 53
+      }
+    }
+  ]
+}

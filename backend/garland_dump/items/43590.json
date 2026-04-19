@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Ty'aitya Whistle",
+    "description": "This whistle emits a sprightly tone that brings your ty'aitya gliding to your side.",
+    "mount": {
+      "name": "Ty'aitya",
+      "action": "Summon forth your ty'aitya. Though its kind is ordinarily only capable of gliding, no one has apparently told this fellow, who can fly indefinitely.",
+      "description": "Its name meaning “little voices at play” in Xbr'aal, this herbivorous beastkin is capable of gliding impressive distances owing to the skin that stretches between its wrists and ankles. Fiercely territorial, it is known to attack even large predators using the bladelike cartilage protruding from the side of its hands.",
+      "tooltip": "Have you ever seen a ty'aitya?<br>   - Ty'at Roh",
+      "icon": 4292,
+      "guideIcon": 68292
+    },
+    "id": 43590,
+    "patch": 7.0,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "tradeShops": [
+      {
+        "shop": "Bicolor Gemstone Vouchers",
+        "npcs": [
+          1036913
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43590",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43961",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "885-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1036913",
+      "obj": {
+        "i": 1036913,
+        "n": "Edelina",
+        "l": 67,
+        "s": 2,
+        "t": "Luxury Trader",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.19,
+          4.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "43961",
+      "obj": {
+        "i": 43961,
+        "n": "Turali Bicolor Gemstone Voucher",
+        "l": 1,
+        "c": 26183,
+        "t": 61
+      }
+    }
+  ]
+}

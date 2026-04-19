@@ -1,0 +1,371 @@
+{
+  "item": {
+    "name": "Linen Survival Shirt",
+    "jobCategories": "All Classes",
+    "id": 15929,
+    "patch": 3.3,
+    "patchCategory": 3,
+    "price": 8910,
+    "ilvl": 1,
+    "category": 35,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5594,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "6024-1-0-0"
+    ],
+    "attr": {
+      "Defense": 9,
+      "Magic Defense": 16
+    },
+    "attr_hq": {
+      "Defense": 11,
+      "Magic Defense": 17
+    },
+    "icon": 42524,
+    "sharedModels": [
+      15473
+    ],
+    "craft": [
+      {
+        "id": 2894,
+        "job": 13,
+        "rlvl": 35,
+        "durability": 80,
+        "quality": 1110,
+        "progress": 123,
+        "lvl": 35,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5327,
+            "amount": 3,
+            "quality": 112.36196
+          },
+          {
+            "id": 5336,
+            "amount": 2,
+            "quality": 108.957054
+          },
+          {
+            "id": 6,
+            "amount": 4
+          },
+          {
+            "id": 4,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 77,
+          "hq": 97
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Undyed Linen",
+      "id": 5327,
+      "icon": 21605,
+      "category": 51,
+      "ilvl": 33,
+      "price": 411,
+      "craft": [
+        {
+          "id": 590,
+          "job": 13,
+          "rlvl": 33,
+          "durability": 40,
+          "quality": 800,
+          "progress": 55,
+          "lvl": 33,
+          "materialQualityFactor": 50,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5336,
+              "amount": 2,
+              "quality": 200.0
+            },
+            {
+              "id": 6,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 32,
+            "hq": 52
+          }
+        }
+      ],
+      "desynthedFrom": [
+        9766
+      ],
+      "treasure": [
+        6688,
+        6689
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sylphic Goldleaf Exchange",
+          "npcs": [
+            1005569
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5327",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21075",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005569
+      ]
+    },
+    {
+      "name": "Linen Yarn",
+      "id": 5336,
+      "icon": 21659,
+      "category": 51,
+      "ilvl": 32,
+      "price": 186,
+      "craft": [
+        {
+          "id": 587,
+          "job": 13,
+          "rlvl": 32,
+          "durability": 40,
+          "quality": 760,
+          "progress": 55,
+          "lvl": 32,
+          "materialQualityFactor": 0,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5346,
+              "amount": 2
+            },
+            {
+              "id": 6,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 34,
+            "hq": 54
+          }
+        }
+      ],
+      "treasure": [
+        6688,
+        6689,
+        6691
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sylphic Goldleaf Exchange",
+          "npcs": [
+            1005569
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5336",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21075",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005569
+      ]
+    },
+    {
+      "name": "Flax",
+      "id": 5346,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 32,
+      "price": 83,
+      "leves": [
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428
+      ],
+      "ventures": [
+        266
+      ],
+      "nodes": [
+        29
+      ],
+      "seeds": [
+        7741
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "5336",
+      "obj": {
+        "i": 5336,
+        "n": "Linen Yarn",
+        "l": 32,
+        "c": 21659,
+        "t": 51,
+        "p": 186
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5346",
+      "obj": {
+        "i": 5346,
+        "n": "Flax",
+        "l": 32,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 3,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "15473",
+      "obj": {
+        "i": 15473,
+        "n": "Survival Shirt",
+        "l": 1,
+        "c": 42524,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "5327",
+      "obj": {
+        "i": 5327,
+        "n": "Undyed Linen",
+        "l": 33,
+        "c": 21605,
+        "t": 51,
+        "p": 411
+      }
+    }
+  ]
+}

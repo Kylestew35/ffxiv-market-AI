@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Bespoke Barter Item Materials",
+    "description": "Assorted materials necessary for creating a bespoke barter item pleasing to the Mord.<br><br>※Only for use in dwarf society quests.",
+    "id": 31170,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "31171": 1
+    },
+    "usedInQuest": [
+      69454
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31171",
+      "obj": {
+        "i": 31171,
+        "n": "Bespoke Barter Item",
+        "l": 290,
+        "c": 23001,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69454",
+      "obj": {
+        "i": 69454,
+        "n": "Sealing the Deal",
+        "g": 67,
+        "l": "Lakeland",
+        "s": 117,
+        "r": 1
+      }
+    }
+  ]
+}

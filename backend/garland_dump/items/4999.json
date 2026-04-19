@@ -1,0 +1,147 @@
+{
+  "item": {
+    "name": "Archerfish",
+    "description": "When feeding, the archerfish will lift its head ever so slightly above a lake's or river's surface and spit a stream of water up to a yalm to strike flies from low-lying branches into the water with remarkable accuracy.<br><br>[Suitable for display in aquariums tier 2 and higher.]<br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "When feeding, the archerfish will lift its head ever so slightly above a lake or river's surface and spit a stream of water up to a yalm to strike flies from low-lying branches into the water with remarkable accuracy.",
+      "icon": 79274,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 55,
+          "weather": [
+            "Clear Skies",
+            "Clouds",
+            "Fair Skies",
+            "Fog"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 125,
+          "baits": [
+            [
+              2618
+            ]
+          ]
+        },
+        {
+          "spot": 56,
+          "weather": [
+            "Clear Skies",
+            "Clouds",
+            "Fair Skies",
+            "Fog"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 125,
+          "baits": [
+            [
+              2618
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 4999,
+    "patch": 1.0,
+    "patchCategory": 7,
+    "price": 396,
+    "ilvl": 45,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29274,
+    "fishingSpots": [
+      55,
+      56
+    ],
+    "desynthedTo": [
+      5814,
+      5824,
+      2618,
+      5267
+    ],
+    "supply": {
+      "count": 1,
+      "xp": 195000,
+      "seals": 345
+    }
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "55",
+      "obj": {
+        "i": 55,
+        "n": "East Agelyss River",
+        "l": 40,
+        "c": 1,
+        "z": 32,
+        "x": 20.2,
+        "y": 25.96
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "56",
+      "obj": {
+        "i": 56,
+        "n": "Raincatcher Gully",
+        "l": 40,
+        "c": 1,
+        "z": 32,
+        "x": 20.48,
+        "y": 30.27
+      }
+    },
+    {
+      "type": "item",
+      "id": "2618",
+      "obj": {
+        "i": 2618,
+        "n": "Snurble Fly",
+        "l": 43,
+        "c": 27058,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5814",
+      "obj": {
+        "i": 5814,
+        "n": "Blue Pigment",
+        "l": 28,
+        "c": 21457,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5267",
+      "obj": {
+        "i": 5267,
+        "n": "Fine Sand",
+        "l": 2,
+        "c": 21464,
+        "t": 48
+      }
+    }
+  ]
+}

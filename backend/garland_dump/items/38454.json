@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Wind-up Erichthonios",
+    "description": "He'll get them all out. He must.<br><br>Use item to acquire the Erichthonios minion.",
+    "minionrace": "Poppet",
+    "tooltip": "I-I'll save them!\r\nI...must...\r\n   - Erichthonios",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Point Out",
+    "specialactiondescription": "Removes all beneficial effects from all enemies within range.",
+    "id": 38454,
+    "patch": 6.2,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59866,
+    "instances": [
+      30122,
+      30123,
+      30122
+    ],
+    "cost": 25,
+    "skill_angle": 120,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 520,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 55,
+      "Speed": 2
+    },
+    "models": [
+      "8423-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30122",
+      "obj": {
+        "i": 30122,
+        "n": "Abyssos: The Eighth Circle",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 585
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30123",
+      "obj": {
+        "i": 30123,
+        "n": "Abyssos: The Eighth Circle (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 610
+      }
+    }
+  ]
+}

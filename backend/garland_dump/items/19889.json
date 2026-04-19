@@ -1,0 +1,329 @@
+{
+  "item": {
+    "name": "Infusion of Intelligence",
+    "description": "This diluted brew temporarily increases intelligence, but for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 19889,
+    "patch": 4.0,
+    "patchCategory": 4,
+    "price": 11020,
+    "ilvl": 288,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 83,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Intelligence": {
+          "rate": 8,
+          "limit": 79
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Intelligence": {
+          "rate": 10,
+          "limit": 99
+        }
+      }
+    },
+    "icon": 20704,
+    "craft": [
+      {
+        "id": 3594,
+        "job": 14,
+        "rlvl": 290,
+        "durability": 80,
+        "quality": 3600,
+        "progress": 1080,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 19914,
+            "amount": 2
+          },
+          {
+            "id": 20013,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 257,
+          "hq": 277
+        }
+      }
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 730750,
+      "seals": 805
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    },
+    {
+      "name": "Chickweed",
+      "id": 19914,
+      "icon": 25008,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        704
+      ],
+      "nodes": [
+        519
+      ]
+    },
+    {
+      "name": "Dusklight Aethersand",
+      "id": 20013,
+      "icon": 21219,
+      "category": 54,
+      "ilvl": 279,
+      "price": 546,
+      "reducedFrom": [
+        20012,
+        33153,
+        20180
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "519",
+      "obj": {
+        "i": 519,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 3,
+        "z": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20012",
+      "obj": {
+        "i": 20012,
+        "n": "Doman Yellow",
+        "l": 279,
+        "c": 27407,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "33153",
+      "obj": {
+        "i": 33153,
+        "n": "Rhodolite",
+        "l": 300,
+        "c": 21474,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20180",
+      "obj": {
+        "i": 20180,
+        "n": "False Scad",
+        "l": 225,
+        "c": 29135,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19914",
+      "obj": {
+        "i": 19914,
+        "n": "Chickweed",
+        "l": 285,
+        "c": 25008,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "20013",
+      "obj": {
+        "i": 20013,
+        "n": "Dusklight Aethersand",
+        "l": 279,
+        "c": 21219,
+        "t": 54
+      }
+    }
+  ]
+}

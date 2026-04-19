@@ -1,0 +1,119 @@
+{
+  "item": {
+    "name": "Allagan Silk",
+    "description": "A spool of thick chimerical silk used by the Allagan Empire to craft mage robes.",
+    "id": 9365,
+    "patch": 2.4,
+    "patchCategory": 5,
+    "price": 712,
+    "ilvl": 90,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21657,
+    "instances": [
+      30002,
+      30003,
+      30005,
+      30006,
+      30003,
+      30005,
+      30006,
+      30002
+    ],
+    "ingredient_of": {
+      "9362": 1
+    },
+    "desynthedFrom": [
+      8776
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "INSTANCE",
+        "INSTANCE",
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30002",
+      "obj": {
+        "i": 30002,
+        "n": "The Binding Coil of Bahamut - Turn 1",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30003",
+      "obj": {
+        "i": 30003,
+        "n": "The Binding Coil of Bahamut - Turn 2",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 73
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30005",
+      "obj": {
+        "i": 30005,
+        "n": "The Binding Coil of Bahamut - Turn 4",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 77
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30006",
+      "obj": {
+        "i": 30006,
+        "n": "The Binding Coil of Bahamut - Turn 5",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 82
+      }
+    },
+    {
+      "type": "item",
+      "id": "9362",
+      "obj": {
+        "i": 9362,
+        "n": "Arachne Velveteen",
+        "l": 110,
+        "c": 21604,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "8776",
+      "obj": {
+        "i": 8776,
+        "n": "Blood Red Bonytongue",
+        "l": 80,
+        "c": 29379,
+        "t": 47
+      }
+    }
+  ]
+}

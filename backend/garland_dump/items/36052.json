@@ -1,0 +1,374 @@
+{
+  "item": {
+    "name": "Skyr",
+    "description": "A dairy dish created through a special Sharlayan fermentation process passed down for generations. <br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36052,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 539,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 60
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 65
+        },
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 36
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 75
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 81
+        },
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 45
+        }
+      }
+    },
+    "icon": 25056,
+    "craft": [
+      {
+        "id": 5267,
+        "job": 15,
+        "rlvl": 540,
+        "durability": 80,
+        "quality": 6800,
+        "progress": 3100,
+        "lvl": 86,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36080,
+            "amount": 2,
+            "quality": 501.8101
+          },
+          {
+            "id": 36255,
+            "amount": 2
+          },
+          {
+            "id": 36263,
+            "amount": 2
+          },
+          {
+            "id": 27836,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 366,
+          "hq": 386
+        }
+      }
+    ],
+    "quests": [
+      69833
+    ],
+    "requiredByLeves": [
+      1644
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Palm Sugar",
+      "id": 36080,
+      "icon": 25103,
+      "category": 45,
+      "ilvl": 530,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5285,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36086,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Palm Syrup",
+      "id": 36086,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 74,
+          "type": 1
+        },
+        {
+          "id": 88,
+          "type": 1
+        },
+        {
+          "id": 81,
+          "type": 1
+        },
+        {
+          "id": 96,
+          "type": 1
+        },
+        {
+          "id": 104,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        914
+      ],
+      "nodes": [
+        839
+      ]
+    },
+    {
+      "name": "Ovibos Milk",
+      "id": 36255,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36255",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        939
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "id": 27836,
+      "icon": 25016,
+      "category": 45,
+      "ilvl": 403,
+      "price": 630,
+      "ventures": [
+        827
+      ],
+      "nodes": [
+        629
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "36086",
+      "obj": {
+        "i": 36086,
+        "n": "Palm Syrup",
+        "l": 525,
+        "c": 22642,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "839",
+      "obj": {
+        "i": 839,
+        "n": "The Great Work",
+        "l": 85,
+        "t": 2,
+        "z": 3709
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "node",
+      "id": "629",
+      "obj": {
+        "i": 629,
+        "n": "Embrasure",
+        "l": 75,
+        "t": 3,
+        "z": 2953,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36080",
+      "obj": {
+        "i": 36080,
+        "n": "Palm Sugar",
+        "l": 530,
+        "c": 25103,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27836",
+      "obj": {
+        "i": 27836,
+        "n": "Peppermint",
+        "l": 403,
+        "c": 25016,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69833",
+      "obj": {
+        "i": 69833,
+        "n": "Take to the Skies",
+        "g": 145,
+        "l": "Elpis",
+        "s": 5110
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1644",
+      "obj": {
+        "i": 1644,
+        "n": "A Historical Flavor",
+        "l": 86,
+        "j": 16,
+        "p": 3706
+      }
+    }
+  ]
+}

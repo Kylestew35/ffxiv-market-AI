@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Ovim Fleece",
+    "description": "Long, lustrous hair shorn from an ovim.",
+    "id": 27756,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2397,
+    "ilvl": 409,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21616,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027998,
+          1027538,
+          1027892
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27756",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "27755": 4
+    },
+    "ventures": [
+      784
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027892",
+      "obj": {
+        "i": 1027892,
+        "n": "Halden",
+        "l": 2955,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3135,
+        "c": [
+          10.66,
+          17.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27755",
+      "obj": {
+        "i": 27755,
+        "n": "Ovim Wool Yarn",
+        "l": 409,
+        "c": 21660,
+        "t": 51
+      }
+    }
+  ]
+}

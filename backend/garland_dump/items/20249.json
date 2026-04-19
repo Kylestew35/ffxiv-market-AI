@@ -1,0 +1,69 @@
+{
+  "item": {
+    "name": "Grynewaht Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 179",
+    "id": 20249,
+    "patch": 4.0,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "instances": [
+      54
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "“It's like all my namedays have come at once!”"
+      },
+      "ja": {
+        "description": "「ブワッハッハッハッ！\r\nオラにも、ツキが回ってきたぞお！」\r\n第XII軍団：グリーンワート"
+      },
+      "de": {
+        "description": "„Jetzt seid ihr dran, ihr Würmer! Ich mach euch fertig!“"
+      },
+      "fr": {
+        "description": "“Cette fois justement, j'aurai ma vengeance<Indent/>! Et lorsque je t'aurai tué<If(PlayerParameter(4))>e<Else/></If>, mes supérieurs seront forcés de me rendre le rang qui m'est dû<Indent/>! Bouahaha<Indent/>!”"
+      },
+      "type": "Garlean",
+      "sellMgp": 500,
+      "plate": 87192,
+      "rarity": 3,
+      "top": 7,
+      "bottom": 7,
+      "left": 4,
+      "right": 4,
+      "rewardFrom": [
+        1023053
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "54",
+      "obj": {
+        "i": 54,
+        "n": "Doma Castle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 67,
+        "max_lvl": 68,
+        "min_ilvl": 255
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1023053",
+      "obj": {
+        "i": 1023053,
+        "n": "Imperial Deserter",
+        "l": 2408
+      }
+    }
+  ]
+}

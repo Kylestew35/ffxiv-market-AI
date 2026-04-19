@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Tropaios Scythe",
+    "jobCategories": "RPR",
+    "id": 36981,
+    "patch": 6.1,
+    "patchCategory": 0,
+    "price": 2,
+    "ilvl": 1,
+    "category": 108,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 1,
+    "jobs": 180,
+    "models": [
+      "2802-19-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 9,
+      "Magic Damage": 5,
+      "Delay": 3.2
+    },
+    "icon": 37239,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (DoW Weapons)",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36981",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 3000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

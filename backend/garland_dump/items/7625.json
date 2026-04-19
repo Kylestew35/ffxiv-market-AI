@@ -1,0 +1,139 @@
+{
+  "item": {
+    "name": "Grade 4 Glamour Prism (Woodworking)",
+    "description": "This crystalline prism captures the likeness of a piece of equipment and projects it onto another object of comparable form and function.<br><br>[Can be exchanged with Calamity salvagers for all-purpose glamour prisms.]",
+    "id": 7625,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 1000,
+    "ilvl": 50,
+    "category": 60,
+    "dyecount": 0,
+    "sell_price": 24,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26234,
+    "tradeCurrency": [
+      {
+        "shop": "Glamour Prism Collection",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006,
+          1006970,
+          1024586
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21800",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7625",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006970",
+      "obj": {
+        "i": 1006970,
+        "n": "Tataroga",
+        "l": 67,
+        "s": 3,
+        "t": "Purveyor of Prisms",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.22,
+          6.79
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024586",
+      "obj": {
+        "i": 1024586,
+        "n": "Goberin",
+        "l": 42,
+        "s": 3,
+        "q": 1,
+        "t": "Crafting Tome Vendor",
+        "r": 1,
+        "a": 728,
+        "c": [
+          12.21,
+          15.07
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21800",
+      "obj": {
+        "i": 21800,
+        "n": "Glamour Prism",
+        "l": 35,
+        "c": 26235,
+        "t": 60
+      }
+    }
+  ]
+}

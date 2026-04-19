@@ -1,0 +1,240 @@
+{
+  "item": {
+    "name": "Augmented Lost Allagan Battleaxe",
+    "jobCategories": "MRD WAR",
+    "id": 19283,
+    "patch": 4.05,
+    "patchCategory": 0,
+    "price": 103860,
+    "ilvl": 340,
+    "category": 3,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1551,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1430,
+    "slot": 13,
+    "elvl": 70,
+    "jobs": 44,
+    "models": [
+      "401-73-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 86,
+      "Magic Damage": 43,
+      "Delay": 3.36,
+      "Strength": 127,
+      "Vitality": 129,
+      "Determination": 126,
+      "Tenacity": 88
+    },
+    "attr_max": {
+      "Strength": 342,
+      "Dexterity": 342,
+      "Vitality": 347,
+      "Intelligence": 342,
+      "Mind": 342,
+      "Piety": 340,
+      "GP": 3,
+      "CP": 3,
+      "Tenacity": 340,
+      "Direct Hit Rate": 340,
+      "Critical Hit": 340,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 340,
+      "Skill Speed": 340,
+      "Spell Speed": 340,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 2036,
+      "Control": 820,
+      "Gathering": 1733,
+      "Perception": 495
+    },
+    "icon": 31546,
+    "sharedModels": [
+      19205
+    ],
+    "tradeShops": [
+      {
+        "shop": "Lost Allagan Gear Augmentation (DoW) I",
+        "npcs": [
+          1019453
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19283",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "19205",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lost Allagan Gear Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19283",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lost Allagan Gear (DoW, IL 340)",
+        "npcs": [
+          1019008,
+          1019455
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19283",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 140
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "19205",
+      "obj": {
+        "i": 19205,
+        "n": "Lost Allagan Battleaxe",
+        "l": 330,
+        "c": 31546,
+        "t": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019453",
+      "obj": {
+        "i": 1019453,
+        "n": "E'bolaff",
+        "l": 2403,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.72,
+          12.31
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019008",
+      "obj": {
+        "i": 1019008,
+        "n": "Satsuya",
+        "l": 2404,
+        "s": 5,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2906,
+        "c": [
+          10.47,
+          10.29
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019455",
+      "obj": {
+        "i": 1019455,
+        "n": "Billebaut",
+        "l": 2403,
+        "s": 5,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.11,
+          11.76
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

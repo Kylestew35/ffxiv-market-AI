@@ -1,0 +1,142 @@
+{
+  "item": {
+    "name": "Coral Pink Dye",
+    "description": "A labor-saving pink dye, used for coloring anything from cloth to metal.",
+    "id": 5741,
+    "patch": 2.2,
+    "patchCategory": 8,
+    "price": 334,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22805,
+    "instances": [
+      31
+    ],
+    "vendors": [
+      1008907
+    ],
+    "tradeShops": [
+      {
+        "shop": "Rainbowtide Psashp Exchange",
+        "npcs": [
+          1008907
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5741",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21077",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67094,
+      67343,
+      69153,
+      69764
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "31",
+      "obj": {
+        "i": 31,
+        "n": "The Great Gubal Library",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 59,
+        "max_lvl": 60,
+        "min_ilvl": 120,
+        "max_ilvl": 150
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67094",
+      "obj": {
+        "i": 67094,
+        "n": "Simply to Dye For",
+        "g": 115,
+        "l": "Mor Dhona",
+        "s": 10,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67343",
+      "obj": {
+        "i": 67343,
+        "n": "Something Worth Protecting",
+        "g": 118,
+        "l": "The Dravanian Forelands",
+        "s": 5310
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69153",
+      "obj": {
+        "i": 69153,
+        "n": "A Dirty Job",
+        "g": 8,
+        "l": "Amh Araeng",
+        "s": 760
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69764",
+      "obj": {
+        "i": 69764,
+        "n": "P.S. I Love You",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1630
+      }
+    }
+  ]
+}

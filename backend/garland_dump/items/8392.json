@@ -1,0 +1,124 @@
+{
+  "item": {
+    "name": "Augmented Gallant Surcoat",
+    "jobCategories": "PLD",
+    "id": 8392,
+    "patch": 2.3,
+    "patchCategory": 0,
+    "price": 30995,
+    "ilvl": 55,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 50,
+    "jobs": 20,
+    "models": [
+      "42-1-0-0"
+    ],
+    "attr": {
+      "Defense": 164,
+      "Magic Defense": 164,
+      "Strength": 15,
+      "Vitality": 18,
+      "Tenacity": 24,
+      "Determination": 17
+    },
+    "icon": 43091,
+    "sharedModels": [
+      3220,
+      6050
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Equipment (DoW)",
+        "npcs": [
+          1006987
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8392",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "3220",
+                "amount": 1
+              },
+              {
+                "id": "8043",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "3220",
+      "obj": {
+        "i": 3220,
+        "n": "Gallant Surcoat",
+        "l": 55,
+        "c": 43091,
+        "t": 35,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6050",
+      "obj": {
+        "i": 6050,
+        "n": "Valor Surcoat",
+        "l": 90,
+        "c": 48035,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006987",
+      "obj": {
+        "i": 1006987,
+        "n": "Kakalan",
+        "l": 67,
+        "s": 4,
+        "t": "Forge Sales",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.32,
+          5.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8043",
+      "obj": {
+        "i": 8043,
+        "n": "Gallant Armor Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    }
+  ]
+}

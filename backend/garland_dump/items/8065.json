@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Aerodynamo Component Materials",
+    "description": "Materials required to craft components for an airship's aerodynamo.<br><br>※Only for use in Ixal society quests.",
+    "id": 8065,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8104": 1
+    },
+    "usedInQuest": [
+      67054
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8104",
+      "obj": {
+        "i": 8104,
+        "n": "Aerodynamo Component",
+        "l": 1,
+        "c": 21005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67054",
+      "obj": {
+        "i": 67054,
+        "n": "A Long Way to the Top",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 35,
+        "r": 1
+      }
+    }
+  ]
+}

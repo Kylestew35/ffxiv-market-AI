@@ -1,0 +1,103 @@
+{
+  "item": {
+    "name": "Virtu Reaper's Poleyns",
+    "jobCategories": "RPR",
+    "id": 37076,
+    "patch": 6.1,
+    "patchCategory": 3,
+    "price": 2,
+    "ilvl": 1,
+    "category": 36,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 1,
+    "jobs": 180,
+    "models": [
+      "695-2-0-0"
+    ],
+    "attr": {
+      "Defense": 18,
+      "Magic Defense": 14
+    },
+    "icon": 47878,
+    "sharedModels": [
+      34040
+    ],
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (DoW Gear) I",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "37076",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "34040",
+      "obj": {
+        "i": 34040,
+        "n": "Reaper's Poleyns",
+        "l": 560,
+        "c": 46016,
+        "t": 36,
+        "p": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Sahagin Living Lamp",
+    "description": "Any Sahagin would feel at home by the gentle glow of this living lamp.",
+    "id": 7122,
+    "patch": 2.2,
+    "patchCategory": 9,
+    "price": 26136,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 52146,
+    "vendors": [
+      1008907
+    ],
+    "tradeShops": [
+      {
+        "shop": "Rainbowtide Psashp Exchange",
+        "npcs": [
+          1008907
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7122",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21077",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "desynthedFrom": [
+      8757
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "8757",
+      "obj": {
+        "i": 8757,
+        "n": "Seahag",
+        "l": 80,
+        "c": 29093,
+        "t": 47
+      }
+    }
+  ]
+}

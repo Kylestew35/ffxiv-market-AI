@@ -1,0 +1,59 @@
+{
+  "item": {
+    "name": "Wind-up Sylph",
+    "description": "If he could speak, it would be in the third person.<br><br>Use item to acquire the wind-up sylph minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Helping sylphs with their\r\nproblems is a jolly fine\r\nway to make friends.\r\n  - Path Companion",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Sylphic Incantation",
+    "specialactiondescription": "Reduces ATK of all enemies within range by 50%.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 6211,
+    "patch": 2.1,
+    "patchCategory": 11,
+    "price": 25000,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59449,
+    "vendors": [
+      1005569
+    ],
+    "cost": 15,
+    "skill_angle": 30,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 490,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 30,
+      "Speed": 4
+    },
+    "models": [
+      "8043-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    }
+  ]
+}

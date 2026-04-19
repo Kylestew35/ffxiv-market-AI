@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Angel Wings",
+    "description": "Perhaps a little <span class=\"emphasis\">too</span> realistic. It would be wise to look out for a newly wingless angel seeking revenge. Use to acquire a pair of angel wings.",
+    "id": 33041,
+    "patch": 5.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 58013,
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33041",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 500000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ornament": {
+      "name": "Angel Wings",
+      "id": 9,
+      "description": "Spread your angel wings.",
+      "icon": 8013,
+      "image": 67013
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

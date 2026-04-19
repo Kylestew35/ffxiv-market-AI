@@ -1,0 +1,129 @@
+{
+  "item": {
+    "name": "Listracanthus",
+    "description": "Those fortunate enough to have seen this primitive species of shark patrolling the waters near the Isle of Ken are invariably puzzled by its flowing mane, which seems to serve no practical purpose whatsoever.<br><br>[Suitable for printing on extra large canvases.]",
+    "fish": {
+      "guide": "A shark species of primal origin, the serpentine listracanthus glides smoothly through the water, the hair-thin scales upon its back swaying to and fro like an undulating mane. For years untold has it dwelled in the Source, and some consider it the ever-present consort of the Isle of Ken.",
+      "icon": 78497,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 206,
+          "transition": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "weather": [
+            "Fog"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2250,
+          "baits": [
+            [
+              27589,
+              28925
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33239,
+    "patch": 5.55,
+    "patchCategory": 7,
+    "price": 5000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28497,
+    "fishingSpots": [
+      206
+    ],
+    "desynthedTo": [
+      29961,
+      26728
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "206",
+      "obj": {
+        "i": 206,
+        "n": "The Isle of Ken",
+        "l": 75,
+        "c": 1,
+        "z": 2953,
+        "x": 9.21,
+        "y": 37.64
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27589",
+      "obj": {
+        "i": 27589,
+        "n": "Baitbugs",
+        "l": 430,
+        "c": 27040,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "28925",
+      "obj": {
+        "i": 28925,
+        "n": "The Jaws of Undeath",
+        "l": 460,
+        "c": 28475,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29961",
+      "obj": {
+        "i": 29961,
+        "n": "Duskcourt Cloth",
+        "l": 480,
+        "c": 21619,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "26728",
+      "obj": {
+        "i": 26728,
+        "n": "Heavens' Eye Materia VIII",
+        "l": 420,
+        "c": 20279,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

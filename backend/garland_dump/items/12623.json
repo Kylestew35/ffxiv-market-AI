@@ -1,0 +1,687 @@
+{
+  "item": {
+    "name": "Draconian Potion of Dexterity",
+    "description": "This intoxicating concoction brewed from an ancient dragon recipe temporarily increases dexterity.<br><br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 12623,
+    "patch": 3.0,
+    "patchCategory": 4,
+    "price": 2756,
+    "ilvl": 145,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 42,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Dexterity": {
+          "rate": 16,
+          "limit": 70
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Dexterity": {
+          "rate": 20,
+          "limit": 87
+        }
+      }
+    },
+    "icon": 20667,
+    "craft": [
+      {
+        "id": 31207,
+        "job": 14,
+        "rlvl": 145,
+        "durability": 70,
+        "quality": 2560,
+        "progress": 500,
+        "lvl": 58,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "unlockId": 12250,
+        "ingredients": [
+          {
+            "id": 12901,
+            "amount": 1
+          },
+          {
+            "id": 12630,
+            "amount": 2
+          },
+          {
+            "id": 12972,
+            "amount": 2
+          },
+          {
+            "id": 12638,
+            "amount": 2
+          },
+          {
+            "id": 12936,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 348,
+          "hq": 368
+        }
+      }
+    ],
+    "requiredByLeves": [
+      1078,
+      1081
+    ],
+    "treasure": [
+      12241,
+      12242,
+      12243
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "supply": {
+      "count": 3,
+      "xp": 612700,
+      "seals": 667
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    },
+    {
+      "name": "Dragon Blood",
+      "id": 12630,
+      "icon": 22601,
+      "category": 54,
+      "ilvl": 145,
+      "price": 918,
+      "desynthedFrom": [
+        12791,
+        12834
+      ],
+      "leves": [
+        1082,
+        1083,
+        1084,
+        1085,
+        1086,
+        1087
+      ],
+      "ventures": [
+        439
+      ],
+      "drops": [
+        39980000003486,
+        44690000003630,
+        40420000003617,
+        41420000003586
+      ]
+    },
+    {
+      "name": "Furymint",
+      "id": 12972,
+      "icon": 25016,
+      "category": 45,
+      "ilvl": 145,
+      "price": 689,
+      "nodes": [
+        327,
+        329
+      ]
+    },
+    {
+      "name": "Coneflower",
+      "id": 12638,
+      "icon": 25027,
+      "category": 54,
+      "ilvl": 139,
+      "price": 660,
+      "ventures": [
+        471
+      ],
+      "nodes": [
+        358
+      ]
+    },
+    {
+      "name": "Duskborne Aethersand",
+      "id": 12936,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 139,
+      "price": 880,
+      "reducedFrom": [
+        5214,
+        5218,
+        12968,
+        33148
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39980000003486",
+      "obj": {
+        "i": 39980000003486,
+        "n": "Ice Dragon",
+        "l": "56",
+        "z": 2200
+      }
+    },
+    {
+      "type": "mob",
+      "id": "41420000003586",
+      "obj": {
+        "i": 41420000003586,
+        "n": "Thunder Dragon",
+        "l": "57",
+        "z": 2000
+      }
+    },
+    {
+      "type": "mob",
+      "id": "40420000003617",
+      "obj": {
+        "i": 40420000003617,
+        "n": "Moss Dragon",
+        "l": "54",
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "44690000003630",
+      "obj": {
+        "i": 44690000003630,
+        "n": "Blood Dragon",
+        "l": "56",
+        "z": 2002
+      }
+    },
+    {
+      "type": "node",
+      "id": "327",
+      "obj": {
+        "i": 327,
+        "n": "Ok' Vundu Mok",
+        "l": 60,
+        "t": 3,
+        "z": 2100,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "329",
+      "obj": {
+        "i": 329,
+        "n": "Red Rim",
+        "l": 60,
+        "t": 3,
+        "z": 2200,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          0
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "358",
+      "obj": {
+        "i": 358,
+        "n": "Avalonia Fallen",
+        "l": 60,
+        "t": 3,
+        "z": 2000,
+        "s": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "5214",
+      "obj": {
+        "i": 5214,
+        "n": "Fire Moraine",
+        "l": 139,
+        "c": 21456,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5218",
+      "obj": {
+        "i": 5218,
+        "n": "Lightning Moraine",
+        "l": 139,
+        "c": 21461,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12968",
+      "obj": {
+        "i": 12968,
+        "n": "Granular Clay",
+        "l": 139,
+        "c": 27407,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33148",
+      "obj": {
+        "i": 33148,
+        "n": "Pot Marjoram",
+        "l": 139,
+        "c": 25010,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12250",
+      "obj": {
+        "i": 12250,
+        "n": "Master Alchemist III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "item",
+      "id": "12630",
+      "obj": {
+        "i": 12630,
+        "n": "Dragon Blood",
+        "l": 145,
+        "c": 22601,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12972",
+      "obj": {
+        "i": 12972,
+        "n": "Furymint",
+        "l": 145,
+        "c": 25016,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12638",
+      "obj": {
+        "i": 12638,
+        "n": "Coneflower",
+        "l": 139,
+        "c": 25027,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12936",
+      "obj": {
+        "i": 12936,
+        "n": "Duskborne Aethersand",
+        "l": 139,
+        "c": 22613,
+        "t": 54
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1078",
+      "obj": {
+        "i": 1078,
+        "n": "Rolling on Initiative",
+        "l": 56,
+        "j": 15,
+        "p": 2300
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1081",
+      "obj": {
+        "i": 1081,
+        "n": "Darkly Dreaming Dexterity (L)",
+        "l": 56,
+        "j": 15,
+        "p": 2300
+      }
+    },
+    {
+      "type": "item",
+      "id": "12241",
+      "obj": {
+        "i": 12241,
+        "n": "Timeworn Archaeoskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12242",
+      "obj": {
+        "i": 12242,
+        "n": "Timeworn Wyvernskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12243",
+      "obj": {
+        "i": 12243,
+        "n": "Timeworn Dragonskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    }
+  ]
+}

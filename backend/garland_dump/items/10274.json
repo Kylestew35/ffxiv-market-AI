@@ -1,0 +1,109 @@
+{
+  "item": {
+    "name": "Minekeep's Workboots",
+    "jobCategories": "MIN",
+    "id": 10274,
+    "patch": 3.05,
+    "patchCategory": 2,
+    "price": 52925,
+    "ilvl": 180,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "slot": 8,
+    "elvl": 60,
+    "jobs": 17,
+    "models": [
+      "217-1-0-0"
+    ],
+    "attr": {
+      "Defense": 77,
+      "Magic Defense": 153,
+      "Perception": 80,
+      "Gathering": 7,
+      "Vitality": 14
+    },
+    "icon": 46470,
+    "sharedModels": [
+      15709
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Fieldcraft Keep Gear Augmentation",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15709",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10274",
+                "amount": 1
+              },
+              {
+                "id": "14105",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15709",
+      "obj": {
+        "i": 15709,
+        "n": "Augmented Minekeep's Workboots",
+        "l": 200,
+        "c": 46470,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14105",
+      "obj": {
+        "i": 14105,
+        "n": "Goblin Dice",
+        "l": 1,
+        "c": 26253,
+        "t": 61
+      }
+    }
+  ]
+}

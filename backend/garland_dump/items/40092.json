@@ -1,0 +1,342 @@
+{
+  "item": {
+    "name": "Augmented Wrathgrinder",
+    "jobCategories": "MRD WAR",
+    "id": 40092,
+    "patch": 6.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 660,
+    "category": 3,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1995,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 44,
+    "models": [
+      "416-1-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 131,
+      "Magic Damage": 66,
+      "Delay": 3.36,
+      "Strength": 409,
+      "Vitality": 456,
+      "Critical Hit": 303,
+      "Skill Speed": 212
+    },
+    "attr_max": {
+      "Strength": 1105,
+      "Dexterity": 1105,
+      "Vitality": 1232,
+      "Intelligence": 1105,
+      "Mind": 1105,
+      "Piety": 818,
+      "GP": 4,
+      "CP": 4,
+      "Tenacity": 818,
+      "Direct Hit Rate": 818,
+      "Critical Hit": 818,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 818,
+      "Skill Speed": 818,
+      "Spell Speed": 818,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 5040,
+      "Control": 2021,
+      "Gathering": 4835,
+      "Perception": 1382
+    },
+    "icon": 31243,
+    "sharedModels": [
+      40017,
+      41681
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (IL 660 Weapons)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40092",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Credendum Gear Augmentation (DoW) I",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40092",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "40017",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Silver Chocobo Feather Exchange V (Lv. 90 Gear)",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40092",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12995",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Credendum Gear (IL 660)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40092",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Elevated Ester Augmentation",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41681",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "40092",
+                "amount": 1
+              },
+              {
+                "id": "41699",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "40017",
+      "obj": {
+        "i": 40017,
+        "n": "Wrathgrinder",
+        "l": 650,
+        "c": 31243,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "41681",
+      "obj": {
+        "i": 41681,
+        "n": "Exquisite Wrathgrinder",
+        "l": 665,
+        "c": 31243,
+        "t": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41699",
+      "obj": {
+        "i": 41699,
+        "n": "Elevated Ester",
+        "l": 1,
+        "c": 27606,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12995",
+      "obj": {
+        "i": 12995,
+        "n": "Silver Chocobo Feather",
+        "l": 1,
+        "c": 21909,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "item": {
+    "name": "Shishi-odoshi",
+    "description": "A fountain from the Far East originally used to scare away creatures and neighbors come to nibble on garden patches. <br><br>※Up to five may be placed in a single estate, regardless of type.",
+    "id": 14065,
+    "patch": 3.2,
+    "patchCategory": 9,
+    "price": 88387,
+    "ilvl": 180,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 52219,
+    "craft": [
+      {
+        "id": 31468,
+        "job": 8,
+        "rlvl": 180,
+        "durability": 70,
+        "quality": 1450,
+        "progress": 740,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "controlReq": 695,
+        "craftsmanshipReq": 718,
+        "unlockId": 14126,
+        "ingredients": [
+          {
+            "id": 5365,
+            "amount": 3
+          },
+          {
+            "id": 5231,
+            "amount": 10
+          },
+          {
+            "id": 7009,
+            "amount": 3,
+            "quality": 15.104167
+          },
+          {
+            "id": 5226,
+            "amount": 5
+          },
+          {
+            "id": 8022,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 638,
+          "hq": 658
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bamboo Stick",
+      "id": 5365,
+      "icon": 22451,
+      "category": 50,
+      "ilvl": 70,
+      "price": 1330,
+      "desynthedFrom": [
+        28983,
+        13095
+      ],
+      "ventures": [
+        534
+      ],
+      "nodes": [
+        232
+      ]
+    },
+    {
+      "name": "Siltstone",
+      "id": 5231,
+      "icon": 21453,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "voyages": [
+        {
+          "id": 25,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        128
+      ],
+      "nodes": [
+        176
+      ]
+    },
+    {
+      "name": "Cut Stone",
+      "id": 7009,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 30,
+      "price": 440,
+      "craft": [
+        {
+          "id": 1581,
+          "job": 11,
+          "rlvl": 30,
+          "durability": 40,
+          "quality": 680,
+          "progress": 51,
+          "lvl": 30,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 7008,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ],
+      "desynthedFrom": [
+        37374,
+        20718,
+        36866,
+        36868,
+        36870,
+        36871,
+        6379,
+        6390,
+        6397,
+        20701,
+        8012,
+        10346
+      ]
+    },
+    {
+      "name": "Granite",
+      "id": 7008,
+      "icon": 22615,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "desynthedFrom": [
+        20718,
+        37401,
+        6377,
+        6390,
+        20689,
+        8012,
+        12754
+      ],
+      "ventures": [
+        133
+      ],
+      "nodes": [
+        178
+      ]
+    },
+    {
+      "name": "Astral Moraine",
+      "id": 5226,
+      "icon": 21463,
+      "category": 48,
+      "ilvl": 160,
+      "price": 2090,
+      "ventures": [
+        600
+      ],
+      "nodes": [
+        321
+      ]
+    },
+    {
+      "name": "Young Water Lily",
+      "id": 8022,
+      "icon": 22632,
+      "category": 54,
+      "ilvl": 40,
+      "price": 216,
+      "ventures": [
+        399
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "232",
+      "obj": {
+        "i": 232,
+        "n": "Bronze Lake",
+        "l": 50,
+        "t": 2,
+        "z": 34,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          7
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "176",
+      "obj": {
+        "i": 176,
+        "n": "Oakwood",
+        "l": 30,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "7008",
+      "obj": {
+        "i": 7008,
+        "n": "Granite",
+        "l": 30,
+        "c": 22615,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "178",
+      "obj": {
+        "i": 178,
+        "n": "Sorrel Haven",
+        "l": 35,
+        "t": 0,
+        "z": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "321",
+      "obj": {
+        "i": 321,
+        "n": "Riversmeet",
+        "l": 60,
+        "t": 1,
+        "z": 2200,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14126",
+      "obj": {
+        "i": 14126,
+        "n": "Master Carpenter IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5365",
+      "obj": {
+        "i": 5365,
+        "n": "Bamboo Stick",
+        "l": 70,
+        "c": 22451,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "5231",
+      "obj": {
+        "i": 5231,
+        "n": "Siltstone",
+        "l": 30,
+        "c": 21453,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "7009",
+      "obj": {
+        "i": 7009,
+        "n": "Cut Stone",
+        "l": 30,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5226",
+      "obj": {
+        "i": 5226,
+        "n": "Astral Moraine",
+        "l": 160,
+        "c": 21463,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "8022",
+      "obj": {
+        "i": 8022,
+        "n": "Young Water Lily",
+        "l": 40,
+        "c": 22632,
+        "t": 54
+      }
+    }
+  ]
+}

@@ -1,0 +1,1063 @@
+{
+  "item": {
+    "name": "Zonure Leather",
+    "description": "A large piece of cured zonure skin.",
+    "id": 27741,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2996,
+    "ilvl": 409,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21836,
+    "craft": [
+      {
+        "id": 3843,
+        "job": 12,
+        "rlvl": 409,
+        "durability": 40,
+        "quality": 3360,
+        "progress": 750,
+        "lvl": 76,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27735,
+            "amount": 4
+          },
+          {
+            "id": 27817,
+            "amount": 1
+          },
+          {
+            "id": 11,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 130,
+          "hq": 150
+        }
+      }
+    ],
+    "ingredient_of": {
+      "26112": 1,
+      "26118": 2,
+      "26119": 2,
+      "26126": 1,
+      "26127": 3,
+      "26128": 2,
+      "26129": 1,
+      "26130": 2,
+      "26132": 1,
+      "26133": 3,
+      "26134": 2,
+      "26135": 1,
+      "26136": 2,
+      "26138": 1,
+      "26140": 2,
+      "26141": 1,
+      "26142": 2,
+      "26144": 1,
+      "26145": 1,
+      "26146": 2,
+      "26147": 1,
+      "26148": 2,
+      "26150": 1,
+      "26151": 2,
+      "26152": 2,
+      "26154": 2,
+      "26158": 2,
+      "26159": 1,
+      "26160": 2,
+      "26163": 1,
+      "26164": 2,
+      "26165": 1,
+      "26166": 2,
+      "27120": 1,
+      "27127": 1,
+      "27129": 1,
+      "27182": 2,
+      "27183": 1,
+      "27184": 1,
+      "27185": 2,
+      "27187": 2,
+      "27188": 1,
+      "27189": 1,
+      "27190": 2,
+      "28147": 1,
+      "28169": 4,
+      "35769": 1,
+      "44880": 2,
+      "26477": 1,
+      "26479": 1,
+      "29657": 1,
+      "30999": 1,
+      "31029": 1,
+      "31044": 2,
+      "31059": 1,
+      "28957": 9,
+      "28958": 9,
+      "28959": 9,
+      "30375": 9,
+      "30376": 9,
+      "30377": 9
+    },
+    "leves": [
+      1427,
+      1428,
+      1429
+    ],
+    "desynthedFrom": [
+      28216,
+      26248,
+      26387
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Zonure Skin",
+      "id": 27735,
+      "icon": 21825,
+      "category": 52,
+      "ilvl": 412,
+      "price": 2428,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027892
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27735",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        783
+      ]
+    },
+    {
+      "name": "Yellow Alumen",
+      "id": 27817,
+      "icon": 22657,
+      "category": 54,
+      "ilvl": 385,
+      "price": 630,
+      "ventures": [
+        800
+      ],
+      "nodes": [
+        591
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027892",
+      "obj": {
+        "i": 1027892,
+        "n": "Halden",
+        "l": 2955,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3135,
+        "c": [
+          10.66,
+          17.15
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "591",
+      "obj": {
+        "i": 591,
+        "n": "Twitch",
+        "l": 70,
+        "t": 1,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "27735",
+      "obj": {
+        "i": 27735,
+        "n": "Zonure Skin",
+        "l": 412,
+        "c": 21825,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "27817",
+      "obj": {
+        "i": 27817,
+        "n": "Yellow Alumen",
+        "l": 385,
+        "c": 22657,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26112",
+      "obj": {
+        "i": 26112,
+        "n": "Sandteak Longbow",
+        "l": 409,
+        "c": 32368,
+        "t": 4,
+        "p": 43149
+      }
+    },
+    {
+      "type": "item",
+      "id": "26118",
+      "obj": {
+        "i": 26118,
+        "n": "Zonureskin Grimoire",
+        "l": 409,
+        "c": 33292,
+        "t": 10,
+        "p": 43149
+      }
+    },
+    {
+      "type": "item",
+      "id": "26119",
+      "obj": {
+        "i": 26119,
+        "n": "Zonureskin Codex",
+        "l": 409,
+        "c": 33291,
+        "t": 98,
+        "p": 43149
+      }
+    },
+    {
+      "type": "item",
+      "id": "26126",
+      "obj": {
+        "i": 26126,
+        "n": "Titanbronze Headgear of Fending",
+        "l": 409,
+        "c": 40335,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26127",
+      "obj": {
+        "i": 26127,
+        "n": "Zonureskin Coat of Fending",
+        "l": 409,
+        "c": 43451,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26128",
+      "obj": {
+        "i": 26128,
+        "n": "Zonureskin Fingerless Gloves of Fending",
+        "l": 409,
+        "c": 48777,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26129",
+      "obj": {
+        "i": 26129,
+        "n": "Ovim Wool Bottoms of Fending",
+        "l": 409,
+        "c": 47572,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26130",
+      "obj": {
+        "i": 26130,
+        "n": "Zonureskin Caligae of Fending",
+        "l": 409,
+        "c": 49040,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26132",
+      "obj": {
+        "i": 26132,
+        "n": "Titanbronze Headgear of Maiming",
+        "l": 409,
+        "c": 40336,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26133",
+      "obj": {
+        "i": 26133,
+        "n": "Zonureskin Coat of Maiming",
+        "l": 409,
+        "c": 43452,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26134",
+      "obj": {
+        "i": 26134,
+        "n": "Zonureskin Fingerless Gloves of Maiming",
+        "l": 409,
+        "c": 48778,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26135",
+      "obj": {
+        "i": 26135,
+        "n": "Ovim Wool Bottoms of Maiming",
+        "l": 409,
+        "c": 47573,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26136",
+      "obj": {
+        "i": 26136,
+        "n": "Zonureskin Caligae of Maiming",
+        "l": 409,
+        "c": 49041,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26138",
+      "obj": {
+        "i": 26138,
+        "n": "Ovim Wool Ushanka of Striking",
+        "l": 409,
+        "c": 41453,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26140",
+      "obj": {
+        "i": 26140,
+        "n": "Zonureskin Fingerless Gloves of Striking",
+        "l": 409,
+        "c": 44715,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26141",
+      "obj": {
+        "i": 26141,
+        "n": "Ovim Wool Skirt of Striking",
+        "l": 409,
+        "c": 47578,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26142",
+      "obj": {
+        "i": 26142,
+        "n": "Zonureskin Caligae of Striking",
+        "l": 409,
+        "c": 49046,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26144",
+      "obj": {
+        "i": 26144,
+        "n": "Ovim Wool Ushanka of Aiming",
+        "l": 409,
+        "c": 41454,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26145",
+      "obj": {
+        "i": 26145,
+        "n": "Ovim Wool Tunic of Aiming",
+        "l": 409,
+        "c": 43882,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26146",
+      "obj": {
+        "i": 26146,
+        "n": "Zonureskin Fingerless Gloves of Aiming",
+        "l": 409,
+        "c": 48780,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26147",
+      "obj": {
+        "i": 26147,
+        "n": "Ovim Wool Bottoms of Aiming",
+        "l": 409,
+        "c": 47575,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26148",
+      "obj": {
+        "i": 26148,
+        "n": "Zonureskin Sandals of Aiming",
+        "l": 409,
+        "c": 49043,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26150",
+      "obj": {
+        "i": 26150,
+        "n": "Titanbronze Headband of Scouting",
+        "l": 409,
+        "c": 41763,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26151",
+      "obj": {
+        "i": 26151,
+        "n": "Ovim Wool Jacket of Scouting",
+        "l": 409,
+        "c": 43453,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26152",
+      "obj": {
+        "i": 26152,
+        "n": "Zonureskin Fingerless Gloves of Scouting",
+        "l": 409,
+        "c": 48781,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26154",
+      "obj": {
+        "i": 26154,
+        "n": "Zonureskin Caligae of Scouting",
+        "l": 409,
+        "c": 49044,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26158",
+      "obj": {
+        "i": 26158,
+        "n": "Zonureskin Fingerless Gloves of Healing",
+        "l": 409,
+        "c": 44714,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26159",
+      "obj": {
+        "i": 26159,
+        "n": "Ovim Wool Skirt of Healing",
+        "l": 409,
+        "c": 47577,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26160",
+      "obj": {
+        "i": 26160,
+        "n": "Zonureskin Caligae of Healing",
+        "l": 409,
+        "c": 49045,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26163",
+      "obj": {
+        "i": 26163,
+        "n": "Ovim Wool Tunic of Casting",
+        "l": 409,
+        "c": 43881,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26164",
+      "obj": {
+        "i": 26164,
+        "n": "Zonureskin Fingerless Gloves of Casting",
+        "l": 409,
+        "c": 48779,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26165",
+      "obj": {
+        "i": 26165,
+        "n": "Ovim Wool Bottoms of Casting",
+        "l": 409,
+        "c": 47574,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26166",
+      "obj": {
+        "i": 26166,
+        "n": "Zonureskin Sandals of Casting",
+        "l": 409,
+        "c": 49042,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "27120",
+      "obj": {
+        "i": 27120,
+        "n": "Titanbronze Lump Hammer",
+        "l": 400,
+        "c": 35132,
+        "t": 14,
+        "p": 43718
+      }
+    },
+    {
+      "type": "item",
+      "id": "27127",
+      "obj": {
+        "i": 27127,
+        "n": "Titanbronze Pickaxe",
+        "l": 400,
+        "c": 38035,
+        "t": 28,
+        "p": 43718
+      }
+    },
+    {
+      "type": "item",
+      "id": "27129",
+      "obj": {
+        "i": 27129,
+        "n": "Sandteak Fishing Rod",
+        "l": 400,
+        "c": 38235,
+        "t": 32,
+        "p": 43718
+      }
+    },
+    {
+      "type": "item",
+      "id": "27182",
+      "obj": {
+        "i": 27182,
+        "n": "Zonureskin Jacket of Crafting",
+        "l": 400,
+        "c": 42659,
+        "t": 35,
+        "p": 40075
+      }
+    },
+    {
+      "type": "item",
+      "id": "27183",
+      "obj": {
+        "i": 27183,
+        "n": "Zonureskin Gloves of Crafting",
+        "l": 400,
+        "c": 44727,
+        "t": 37,
+        "p": 24045
+      }
+    },
+    {
+      "type": "item",
+      "id": "27184",
+      "obj": {
+        "i": 27184,
+        "n": "Ovim Wool Gaskins of Crafting",
+        "l": 400,
+        "c": 47600,
+        "t": 36,
+        "p": 40075
+      }
+    },
+    {
+      "type": "item",
+      "id": "27185",
+      "obj": {
+        "i": 27185,
+        "n": "Zonureskin Shoes of Crafting",
+        "l": 400,
+        "c": 49062,
+        "t": 38,
+        "p": 24045
+      }
+    },
+    {
+      "type": "item",
+      "id": "27187",
+      "obj": {
+        "i": 27187,
+        "n": "Zonureskin Robe of Gathering",
+        "l": 400,
+        "c": 42658,
+        "t": 35,
+        "p": 40075
+      }
+    },
+    {
+      "type": "item",
+      "id": "27188",
+      "obj": {
+        "i": 27188,
+        "n": "Zonureskin Gloves of Gathering",
+        "l": 400,
+        "c": 44726,
+        "t": 37,
+        "p": 24045
+      }
+    },
+    {
+      "type": "item",
+      "id": "27189",
+      "obj": {
+        "i": 27189,
+        "n": "Ovim Wool Gaskins of Gathering",
+        "l": 400,
+        "c": 47599,
+        "t": 36,
+        "p": 40075
+      }
+    },
+    {
+      "type": "item",
+      "id": "27190",
+      "obj": {
+        "i": 27190,
+        "n": "Zonureskin Shoes of Gathering",
+        "l": 400,
+        "c": 49061,
+        "t": 38,
+        "p": 24045
+      }
+    },
+    {
+      "type": "item",
+      "id": "28147",
+      "obj": {
+        "i": 28147,
+        "n": "Tabletop Hat Stand",
+        "l": 415,
+        "c": 53334,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "28169",
+      "obj": {
+        "i": 28169,
+        "n": "Bookseller's Stall",
+        "l": 415,
+        "c": 52286,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "35769",
+      "obj": {
+        "i": 35769,
+        "n": "Dwarven Mythril War Scythe",
+        "l": 415,
+        "c": 37230,
+        "t": 108,
+        "p": 44283
+      }
+    },
+    {
+      "type": "item",
+      "id": "44880",
+      "obj": {
+        "i": 44880,
+        "n": "Patchwork Sofa",
+        "l": 690,
+        "c": 52815,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "26477",
+      "obj": {
+        "i": 26477,
+        "n": "Facet Coat of Healing",
+        "l": 450,
+        "c": 43880,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26479",
+      "obj": {
+        "i": 26479,
+        "n": "Facet Trousers of Healing",
+        "l": 450,
+        "c": 47562,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29657",
+      "obj": {
+        "i": 29657,
+        "n": "Oddly Specific Vellum",
+        "l": 430,
+        "c": 26180,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "30999",
+      "obj": {
+        "i": 30999,
+        "n": "Rarefied Titanbronze Pickaxe",
+        "l": 415,
+        "c": 38035,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31029",
+      "obj": {
+        "i": 31029,
+        "n": "Rarefied Titanbronze Headgear",
+        "l": 415,
+        "c": 40336,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31044",
+      "obj": {
+        "i": 31044,
+        "n": "Rarefied Zonureskin Fingerless Gloves",
+        "l": 415,
+        "c": 44715,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31059",
+      "obj": {
+        "i": 31059,
+        "n": "Rarefied Ovim Wool Tunic",
+        "l": 415,
+        "c": 43881,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "28957",
+      "obj": {
+        "i": 28957,
+        "n": "Half-timbered Cottage Walls",
+        "l": 1,
+        "c": 50834,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "28958",
+      "obj": {
+        "i": 28958,
+        "n": "Half-timbered House Walls",
+        "l": 1,
+        "c": 50835,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "28959",
+      "obj": {
+        "i": 28959,
+        "n": "Half-timbered Mansion Walls",
+        "l": 1,
+        "c": 50836,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "30375",
+      "obj": {
+        "i": 30375,
+        "n": "Small Smithy Walls",
+        "l": 1,
+        "c": 50837,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "30376",
+      "obj": {
+        "i": 30376,
+        "n": "Medium Smithy Walls",
+        "l": 1,
+        "c": 50838,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "30377",
+      "obj": {
+        "i": 30377,
+        "n": "Large Smithy Walls",
+        "l": 1,
+        "c": 50839,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1427",
+      "obj": {
+        "i": 1427,
+        "n": "Protecting the Nuts",
+        "l": 76,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1428",
+      "obj": {
+        "i": 1428,
+        "n": "If I Could Walk a Thousand Malms",
+        "l": 76,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1429",
+      "obj": {
+        "i": 1429,
+        "n": "Strike True",
+        "l": 76,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "28216",
+      "obj": {
+        "i": 28216,
+        "n": "Warg Jacket of Maiming",
+        "l": 445,
+        "c": 43497,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26248",
+      "obj": {
+        "i": 26248,
+        "n": "Nabaath Earrings of Fending",
+        "l": 412,
+        "c": 55437,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "26387",
+      "obj": {
+        "i": 26387,
+        "n": "The Forgiven's Breeches of Aiming",
+        "l": 418,
+        "c": 47582,
+        "t": 36
+      }
+    }
+  ]
+}

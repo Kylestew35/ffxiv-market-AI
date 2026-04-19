@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Cooling Device Component Materials",
+    "description": "Assorted materials necessary for creating a cooling device component.<br><br>※Only for use in dwarf society quests.",
+    "id": 31164,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "31165": 1
+    },
+    "usedInQuest": [
+      69450
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31165",
+      "obj": {
+        "i": 31165,
+        "n": "Cooling Device Component",
+        "l": 290,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69450",
+      "obj": {
+        "i": 69450,
+        "n": "Cooler Tanks Prevail",
+        "g": 67,
+        "l": "Lakeland",
+        "s": 113,
+        "r": 1
+      }
+    }
+  ]
+}

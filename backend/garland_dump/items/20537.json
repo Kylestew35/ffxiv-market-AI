@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Wind-up Namazu",
+    "description": "Half cat. Half fish. All fish.<br><br>Use item to acquire the wind-up Namazu minion.",
+    "minionrace": "Poppet",
+    "tooltip": "He's not heavy,\r\nbut gods, the smell...\r\n   - Lyse",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Catty Cunning",
+    "specialactiondescription": "Removes all beneficial effects from all enemies within range.",
+    "id": 20537,
+    "patch": 4.05,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59653,
+    "cost": 25,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 510,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 55,
+      "Speed": 3
+    },
+    "models": [
+      "8226-1-1"
+    ],
+    "instances": [
+      55002,
+      55003
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55002",
+      "obj": {
+        "i": 55002,
+        "n": "The Lost Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55003",
+      "obj": {
+        "i": 55003,
+        "n": "The Hidden Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "item": {
+    "name": "Cunning Craftsman's Syrup",
+    "description": "This thick medicinal concoction is believed to improve crafting efficiency.<br><br><span class=\"highlight-green\">Duration:</span> 15m",
+    "id": 27959,
+    "patch": 5.0,
+    "patchCategory": 4,
+    "price": 12144,
+    "ilvl": 412,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 190,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "CP": {
+          "rate": 5,
+          "limit": 13
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "CP": {
+          "rate": 6,
+          "limit": 16
+        }
+      }
+    },
+    "icon": 24411,
+    "craft": [
+      {
+        "id": 3875,
+        "job": 14,
+        "rlvl": 412,
+        "durability": 80,
+        "quality": 4300,
+        "progress": 1570,
+        "lvl": 77,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27782,
+            "amount": 1
+          },
+          {
+            "id": 27799,
+            "amount": 2
+          },
+          {
+            "id": 27785,
+            "amount": 2
+          },
+          {
+            "id": 19853,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 7
+          },
+          {
+            "id": 12,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 160,
+          "hq": 180
+        }
+      }
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1094250,
+      "seals": 846
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Cubus Flesh",
+      "id": 27799,
+      "icon": 25156,
+      "category": 54,
+      "ilvl": 418,
+      "price": 2491,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027766
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27799",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1628,
+        1629
+      ],
+      "ventures": [
+        786
+      ]
+    },
+    {
+      "name": "Light Gerbera",
+      "id": 27785,
+      "icon": 25008,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        838
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Kudzu Root",
+      "id": 19853,
+      "icon": 25005,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        691
+      ],
+      "nodes": [
+        509
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027766",
+      "obj": {
+        "i": 1027766,
+        "n": "Goushs Ooan",
+        "l": 2958,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3195,
+        "c": [
+          33.24,
+          18.02
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "509",
+      "obj": {
+        "i": 509,
+        "n": "Dimwold",
+        "l": 65,
+        "t": 3,
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27799",
+      "obj": {
+        "i": 27799,
+        "n": "Cubus Flesh",
+        "l": 418,
+        "c": 25156,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27785",
+      "obj": {
+        "i": 27785,
+        "n": "Light Gerbera",
+        "l": 418,
+        "c": 25008,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    }
+  ]
+}

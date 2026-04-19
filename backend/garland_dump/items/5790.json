@@ -1,0 +1,117 @@
+{
+  "item": {
+    "name": "Seafog Blue Dye",
+    "description": "A labor-saving blue dye, used for coloring anything from cloth to metal.",
+    "id": 5790,
+    "patch": 2.1,
+    "patchCategory": 8,
+    "price": 216,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22804,
+    "instances": [
+      33
+    ],
+    "vendors": [
+      1005554
+    ],
+    "tradeShops": [
+      {
+        "shop": "Steel Amalj'ok Exchange",
+        "npcs": [
+          1005554
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5790",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21076",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67450,
+      70443
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "33",
+      "obj": {
+        "i": 33,
+        "n": "Neverreap",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 145,
+        "max_ilvl": 210
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005554",
+      "obj": {
+        "i": 1005554,
+        "n": "Amalj'aa Vendor",
+        "l": 45,
+        "s": 2,
+        "r": 1,
+        "a": 482,
+        "c": [
+          23.28,
+          14.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21076",
+      "obj": {
+        "i": 21076,
+        "n": "Steel Amalj'ok",
+        "l": 1,
+        "c": 65050,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67450",
+      "obj": {
+        "i": 67450,
+        "n": "Ok' Zundu's Got Talent",
+        "g": 117,
+        "l": "The Sea of Clouds",
+        "s": 5713
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70443",
+      "obj": {
+        "i": 70443,
+        "n": "Mamook Speaks",
+        "g": 13,
+        "l": "Yak T'el",
+        "s": 480
+      }
+    }
+  ]
+}

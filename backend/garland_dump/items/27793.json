@@ -1,0 +1,462 @@
+{
+  "item": {
+    "name": "Grade 2 Vitality Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to vitality, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 27793,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 450,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22680,
+    "craft": [
+      {
+        "id": 33334,
+        "job": 14,
+        "rlvl": 450,
+        "durability": 35,
+        "quality": 6320,
+        "progress": 1640,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24272,
+        "ingredients": [
+          {
+            "id": 27796,
+            "amount": 2
+          },
+          {
+            "id": 27783,
+            "amount": 1
+          },
+          {
+            "id": 27813,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 711,
+          "hq": 731
+        }
+      }
+    ],
+    "ingredient_of": {
+      "26428": 2,
+      "26430": 3,
+      "26434": 3,
+      "26443": 3,
+      "26445": 1,
+      "26446": 2,
+      "26447": 2,
+      "26448": 2,
+      "26449": 2,
+      "26450": 2,
+      "26488": 1,
+      "26493": 1,
+      "26498": 1,
+      "26503": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Multifaceted Alchemic",
+      "id": 27796,
+      "icon": 22668,
+      "category": 54,
+      "ilvl": 450,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27796",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27796",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lime Basil",
+      "id": 27783,
+      "icon": 25010,
+      "category": 54,
+      "ilvl": 415,
+      "price": 210,
+      "ventures": [
+        836
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Agedeep Aethersand",
+      "id": 27813,
+      "icon": 21234,
+      "category": 54,
+      "ilvl": 420,
+      "price": 630,
+      "reducedFrom": [
+        27807
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27813",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27813",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27807",
+      "obj": {
+        "i": 27807,
+        "n": "Shade Quartz",
+        "l": 420,
+        "c": 21462,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "24272",
+      "obj": {
+        "i": 24272,
+        "n": "Master Alchemist VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27796",
+      "obj": {
+        "i": 27796,
+        "n": "Multifaceted Alchemic",
+        "l": 450,
+        "c": 22668,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27783",
+      "obj": {
+        "i": 27783,
+        "n": "Lime Basil",
+        "l": 415,
+        "c": 25010,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27813",
+      "obj": {
+        "i": 27813,
+        "n": "Agedeep Aethersand",
+        "l": 420,
+        "c": 21234,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26428",
+      "obj": {
+        "i": 26428,
+        "n": "Sinfender",
+        "l": 450,
+        "c": 30603,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "26430",
+      "obj": {
+        "i": 26430,
+        "n": "Alastor",
+        "l": 450,
+        "c": 31577,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "26434",
+      "obj": {
+        "i": 26434,
+        "n": "Gust Tongue",
+        "l": 450,
+        "c": 34333,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "26443",
+      "obj": {
+        "i": 26443,
+        "n": "Tutelary",
+        "l": 450,
+        "c": 36019,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "26445",
+      "obj": {
+        "i": 26445,
+        "n": "Dominus Shield",
+        "l": 450,
+        "c": 30193,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "26446",
+      "obj": {
+        "i": 26446,
+        "n": "Facet Circlet of Fending",
+        "l": 450,
+        "c": 40833,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26447",
+      "obj": {
+        "i": 26447,
+        "n": "Facet Mail of Fending",
+        "l": 450,
+        "c": 48189,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26448",
+      "obj": {
+        "i": 26448,
+        "n": "Facet Gauntlets of Fending",
+        "l": 450,
+        "c": 48773,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "26449",
+      "obj": {
+        "i": 26449,
+        "n": "Facet Chain Hose of Fending",
+        "l": 450,
+        "c": 47561,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26450",
+      "obj": {
+        "i": 26450,
+        "n": "Facet Sabatons of Fending",
+        "l": 450,
+        "c": 47200,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26488",
+      "obj": {
+        "i": 26488,
+        "n": "Facet Earrings of Fending",
+        "l": 450,
+        "c": 55447,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "26493",
+      "obj": {
+        "i": 26493,
+        "n": "Facet Choker of Fending",
+        "l": 450,
+        "c": 55017,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "26498",
+      "obj": {
+        "i": 26498,
+        "n": "Facet Bracelet of Fending",
+        "l": 450,
+        "c": 55817,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "26503",
+      "obj": {
+        "i": 26503,
+        "n": "Facet Ring of Fending",
+        "l": 450,
+        "c": 54665,
+        "t": 43
+      }
+    }
+  ]
+}

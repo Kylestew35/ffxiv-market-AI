@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Manasail",
+    "description": "A flying fish found in the skies near Tharl Oom Khash in the Churning Mists.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "Manasails achieve flight by spreading their elastic fins like sails of a ship to gather wind-aspected aether from the clouds. Most spend their lives atop thermals rising high above floating islets of Abalathia and Dravania, and are rarely seen by even the denizens of those skyey regions.",
+      "icon": 79704,
+      "weatherRestricted": 1,
+      "timeRestricted": 1,
+      "spots": [
+        {
+          "spot": 134,
+          "during": {
+            "start": 10,
+            "end": 14
+          },
+          "weather": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 384,
+          "baits": [
+            [
+              28634,
+              12753
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12784,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1349,
+    "ilvl": 139,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 29704,
+    "fishingSpots": [
+      134
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "134",
+      "obj": {
+        "i": 134,
+        "n": "Tharl Oom Khash",
+        "l": 55,
+        "c": 4,
+        "z": 2002,
+        "x": 20.26,
+        "y": 6.39
+      }
+    },
+    {
+      "type": "item",
+      "id": "28634",
+      "obj": {
+        "i": 28634,
+        "n": "Metal Spinner",
+        "l": 136,
+        "c": 27062,
+        "t": 33,
+        "p": 1200
+      }
+    },
+    {
+      "type": "item",
+      "id": "12753",
+      "obj": {
+        "i": 12753,
+        "n": "Sky Faerie",
+        "l": 130,
+        "c": 29716,
+        "t": 47
+      }
+    }
+  ]
+}

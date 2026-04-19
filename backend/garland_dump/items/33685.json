@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Diamond Gwiber Trumpet",
+    "description": "This horn-carved instrument emits an ethereal tone that beckons a gwiber clad in diamantine scale from its refuge.",
+    "mount": {
+      "name": "Diamond Gwiber",
+      "action": "Summon forth your diamond gwiber, a draconic arcane entity.",
+      "description": "Believed to have been absorbed into the Diamond Weapon, this plate-clad being answers the call of a horn imbued with the power of an unknown primal, the summoner of whom is believed to have been a member of the Corvosi resistance.",
+      "tooltip": "Everyone here is stubborn<br>as a diamond ingot!<br>   - Glagg",
+      "icon": 4209,
+      "guideIcon": 68209
+    },
+    "id": 33685,
+    "patch": 5.5,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "instances": [
+      20076,
+      20076
+    ],
+    "tradeShops": [
+      {
+        "shop": "Bombastic Bric-a-brac",
+        "npcs": [
+          1033259
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33685",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33480",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33685",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33480",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "555-6-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20076",
+      "obj": {
+        "i": 20076,
+        "n": "The Cloud Deck (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 510
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033259",
+      "obj": {
+        "i": 1033259,
+        "n": "C'intana",
+        "l": 67,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.8,
+          6.67
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33480",
+      "obj": {
+        "i": 33480,
+        "n": "Diamond Totem",
+        "l": 1,
+        "c": 26614,
+        "t": 61
+      }
+    }
+  ]
+}

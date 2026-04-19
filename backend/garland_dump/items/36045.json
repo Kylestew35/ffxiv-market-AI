@@ -1,0 +1,398 @@
+{
+  "item": {
+    "name": "Glory Be Soup",
+    "description": "This stew, consisting of lentils and chestnuts boiled in red wine, derives its name from Garlean soldiers singing the praises of Emperor Solus, who shared a warm meal with them after a round of military exercises one chilly night.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36045,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 533,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 59
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 64
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 74
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 80
+        }
+      }
+    },
+    "icon": 24106,
+    "craft": [
+      {
+        "id": 5260,
+        "job": 15,
+        "rlvl": 530,
+        "durability": 80,
+        "quality": 6600,
+        "progress": 2900,
+        "lvl": 84,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36092,
+            "amount": 2
+          },
+          {
+            "id": 4805,
+            "amount": 1
+          },
+          {
+            "id": 36079,
+            "amount": 1,
+            "quality": 723.382
+          },
+          {
+            "id": 27827,
+            "amount": 1
+          },
+          {
+            "id": 27836,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 242,
+          "hq": 262
+        }
+      }
+    ],
+    "quests": [
+      69774,
+      70032,
+      70055
+    ],
+    "requiredByLeves": [
+      1642
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1987000,
+      "seals": 886
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Eblan Lentils",
+      "id": 36092,
+      "icon": 25355,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "ventures": [
+        919
+      ],
+      "nodes": [
+        843
+      ]
+    },
+    {
+      "name": "Gridanian Chestnut",
+      "id": 4805,
+      "icon": 25302,
+      "category": 45,
+      "ilvl": 16,
+      "price": 26,
+      "ventures": [
+        566
+      ],
+      "nodes": [
+        17
+      ]
+    },
+    {
+      "name": "Perilla Oil",
+      "id": 36079,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5284,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36085,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thavnairian Perilla Leaf",
+      "id": 36085,
+      "icon": 25036,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        916
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Night Pepper",
+      "id": 27827,
+      "icon": 25007,
+      "category": 45,
+      "ilvl": 385,
+      "price": 630,
+      "leves": [
+        1472,
+        1473,
+        1474
+      ],
+      "ventures": [
+        818
+      ],
+      "nodes": [
+        611
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "id": 27836,
+      "icon": 25016,
+      "category": 45,
+      "ilvl": 403,
+      "price": 630,
+      "ventures": [
+        827
+      ],
+      "nodes": [
+        629
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "node",
+      "id": "17",
+      "obj": {
+        "i": 17,
+        "n": "Bentbranch",
+        "l": 15,
+        "t": 2,
+        "z": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36085",
+      "obj": {
+        "i": 36085,
+        "n": "Thavnairian Perilla Leaf",
+        "l": 525,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "611",
+      "obj": {
+        "i": 611,
+        "n": "Snitch",
+        "l": 70,
+        "t": 3,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "node",
+      "id": "629",
+      "obj": {
+        "i": 629,
+        "n": "Embrasure",
+        "l": 75,
+        "t": 3,
+        "z": 2953,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36092",
+      "obj": {
+        "i": 36092,
+        "n": "Eblan Lentils",
+        "l": 533,
+        "c": 25355,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4805",
+      "obj": {
+        "i": 4805,
+        "n": "Gridanian Chestnut",
+        "l": 16,
+        "c": 25302,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36079",
+      "obj": {
+        "i": 36079,
+        "n": "Perilla Oil",
+        "l": 525,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27827",
+      "obj": {
+        "i": 27827,
+        "n": "Night Pepper",
+        "l": 385,
+        "c": 25007,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27836",
+      "obj": {
+        "i": 27836,
+        "n": "Peppermint",
+        "l": 403,
+        "c": 25016,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69774",
+      "obj": {
+        "i": 69774,
+        "n": "A Place of Greater Safety",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1730
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70032",
+      "obj": {
+        "i": 70032,
+        "n": "Societal Alchemy",
+        "g": 142,
+        "l": "Thavnair",
+        "s": 2133,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70055",
+      "obj": {
+        "i": 70055,
+        "n": "Dream a Little Dream",
+        "g": 144,
+        "l": "Mare Lamentorum",
+        "s": 1954,
+        "f": 1
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1642",
+      "obj": {
+        "i": 1642,
+        "n": "Imperial Palate",
+        "l": 84,
+        "j": 16,
+        "p": 3706
+      }
+    }
+  ]
+}

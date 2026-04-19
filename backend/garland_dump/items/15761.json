@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Austere Offering Materials",
+    "description": "Materials required to craft an offering to the dragons in exchange for their aid.<br><br>※Only for use in moogle society quests.",
+    "id": 15761,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "15735": 1
+    },
+    "usedInQuest": [
+      67839
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15735",
+      "obj": {
+        "i": 15735,
+        "n": "Austere Offering",
+        "l": 55,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67839",
+      "obj": {
+        "i": 67839,
+        "n": "The Negotiator",
+        "g": 55,
+        "l": "The Churning Mists",
+        "s": 22,
+        "r": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "item": {
+    "name": "Skybuilders' Broom",
+    "description": "As the saying goes, “A new broom sweeps clean,” though the person wielding said broom is also due at least some of the credit for any increase in cleanliness that may result.",
+    "id": 28746,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 26594,
+    "craft": [
+      {
+        "id": 33594,
+        "job": 13,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 28776,
+            "amount": 6
+          },
+          {
+            "id": 28775,
+            "amount": 6
+          },
+          {
+            "id": 12595,
+            "amount": 2,
+            "quality": 212.6641
+          },
+          {
+            "id": 12,
+            "amount": 4
+          },
+          {
+            "id": 10,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 296,
+          "hq": 316
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Skybuilders' Straw",
+      "id": 28776,
+      "icon": 21653,
+      "category": 51,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        663
+      ]
+    },
+    {
+      "name": "Skybuilders' Camphorwood Log",
+      "id": 28775,
+      "icon": 22405,
+      "category": 50,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        662
+      ]
+    },
+    {
+      "name": "Ramie Thread",
+      "id": 12595,
+      "icon": 21659,
+      "category": 51,
+      "ilvl": 136,
+      "price": 1998,
+      "craft": [
+        {
+          "id": 2757,
+          "job": 13,
+          "rlvl": 133,
+          "durability": 40,
+          "quality": 1824,
+          "progress": 170,
+          "lvl": 54,
+          "materialQualityFactor": 0,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12598,
+              "amount": 3
+            },
+            {
+              "id": 5346,
+              "amount": 2
+            },
+            {
+              "id": 12,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        11216,
+        15165
+      ],
+      "treasure": [
+        12241
+      ],
+      "leves": [
+        1100,
+        1101,
+        1102,
+        1103,
+        1104,
+        1105
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Stalk of Ramie",
+      "id": 12598,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 136,
+      "price": 484,
+      "ventures": [
+        467
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Flax",
+      "id": 5346,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 32,
+      "price": 83,
+      "leves": [
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428
+      ],
+      "ventures": [
+        266
+      ],
+      "nodes": [
+        29
+      ],
+      "seeds": [
+        7741
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "663",
+      "obj": {
+        "i": 663,
+        "n": "Avalonia Fallen",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "662",
+      "obj": {
+        "i": 662,
+        "n": "Gron Rhei",
+        "l": 60,
+        "t": 2,
+        "z": 2002
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12598",
+      "obj": {
+        "i": 12598,
+        "n": "Stalk of Ramie",
+        "l": 136,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5346",
+      "obj": {
+        "i": 5346,
+        "n": "Flax",
+        "l": 32,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "12241",
+      "obj": {
+        "i": 12241,
+        "n": "Timeworn Archaeoskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 3,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "28776",
+      "obj": {
+        "i": 28776,
+        "n": "Skybuilders' Straw",
+        "l": 150,
+        "c": 21653,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "28775",
+      "obj": {
+        "i": 28775,
+        "n": "Skybuilders' Camphorwood Log",
+        "l": 150,
+        "c": 22405,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "12595",
+      "obj": {
+        "i": 12595,
+        "n": "Ramie Thread",
+        "l": 136,
+        "c": 21659,
+        "t": 51,
+        "p": 1998
+      }
+    }
+  ]
+}

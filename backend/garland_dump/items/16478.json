@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Alexandrian Metal Buckler",
+    "jobCategories": "GLA PLD",
+    "id": 16478,
+    "patch": 3.4,
+    "patchCategory": 0,
+    "price": 49005,
+    "ilvl": 275,
+    "category": 11,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 515,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1300,
+    "slot": 2,
+    "elvl": 60,
+    "jobs": 38,
+    "models": [
+      "104-1-1-0"
+    ],
+    "attr": {
+      "Block Strength": 450,
+      "Block Rate": 450,
+      "Strength": 29,
+      "Vitality": 29,
+      "Determination": 28,
+      "Tenacity": 20
+    },
+    "icon": 30143,
+    "instances": [
+      30046
+    ],
+    "tradeShops": [
+      {
+        "shop": "Alexandrian Manifesto Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16478",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16556",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Alexandrian Gear (IL 270-275)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16465",
+                "amount": 1
+              },
+              {
+                "id": "16478",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16556",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "desynthedTo": [
+      16705
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30046",
+      "obj": {
+        "i": 30046,
+        "n": "Alexander - The Soul of the Creator (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 255
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "16556",
+      "obj": {
+        "i": 16556,
+        "n": "Alexandrian Manifesto - Page 4",
+        "l": 1,
+        "c": 26429,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "16465",
+      "obj": {
+        "i": 16465,
+        "n": "Alexandrian Metal Blade",
+        "l": 275,
+        "c": 30549,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "16705",
+      "obj": {
+        "i": 16705,
+        "n": "Heavy Metal Ingot",
+        "l": 250,
+        "c": 20830,
+        "t": 49
+      }
+    }
+  ]
+}

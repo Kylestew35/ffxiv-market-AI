@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Raven Coal",
+    "description": "Once the dense coal has been ground into powder and mixed with water, it can be used as a substitute for ink. Be sure to keep it away from white clothing, as the stains are a bugger to get out.",
+    "id": 28199,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 180,
+    "ilvl": 290,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21452,
+    "nodes": [
+      649,
+      650
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1031801,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              94,
+              117,
+              140
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              71,
+              86,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1031801,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "649",
+      "obj": {
+        "i": 649,
+        "n": "Stonegazer",
+        "l": 70,
+        "t": 2,
+        "z": 2954,
+        "s": 1
+      }
+    },
+    {
+      "type": "node",
+      "id": "650",
+      "obj": {
+        "i": 650,
+        "n": "Shadow Fault",
+        "l": 70,
+        "t": 1,
+        "z": 2954,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031801",
+      "obj": {
+        "i": 1031801,
+        "n": "Kai-Shirr",
+        "l": 2952,
+        "q": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

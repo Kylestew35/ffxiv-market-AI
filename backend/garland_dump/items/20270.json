@@ -1,0 +1,82 @@
+{
+  "item": {
+    "name": "Nagxian Silk",
+    "description": "A light, billowy silk woven using traditional methods of the Nagxian people.",
+    "id": 20270,
+    "patch": 4.05,
+    "patchCategory": 5,
+    "price": 2226,
+    "ilvl": 300,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21608,
+    "ingredient_of": {
+      "20476": 3,
+      "20477": 2
+    },
+    "instances": [
+      55002,
+      55003
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "20476",
+      "obj": {
+        "i": 20476,
+        "n": "Ao Dai",
+        "l": 1,
+        "c": 42564,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "20477",
+      "obj": {
+        "i": 20477,
+        "n": "Quan",
+        "l": 1,
+        "c": 45977,
+        "t": 36
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55002",
+      "obj": {
+        "i": 55002,
+        "n": "The Lost Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55003",
+      "obj": {
+        "i": 55003,
+        "n": "The Hidden Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    }
+  ]
+}

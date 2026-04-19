@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Eyewear Materials",
+    "description": "All the materials necessary to craft a pair of spectacles. (Crystals not included.)",
+    "id": 17903,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 276,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20810,
+    "ingredient_of": {
+      "17904": 1
+    },
+    "usedInQuest": [
+      68137
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "17904",
+      "obj": {
+        "i": 17904,
+        "n": "Precision Spectacles",
+        "l": 276,
+        "c": 40953,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68137",
+      "obj": {
+        "i": 68137,
+        "n": "Blindsided",
+        "g": 167,
+        "l": "Rhalgr's Reach",
+        "s": 650,
+        "f": 1
+      }
+    }
+  ]
+}

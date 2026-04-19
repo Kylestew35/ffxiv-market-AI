@@ -1,0 +1,415 @@
+{
+  "item": {
+    "name": "Sykon Salad",
+    "description": "The sykon serves as the star of this fruit-filled dish, complex and nutritious.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36064,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 560,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 66
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 68
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 40
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 82
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 85
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 50
+        }
+      }
+    },
+    "icon": 24151,
+    "craft": [
+      {
+        "id": 5279,
+        "job": 15,
+        "rlvl": 560,
+        "durability": 80,
+        "quality": 7200,
+        "progress": 3500,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36096,
+            "amount": 2
+          },
+          {
+            "id": 36088,
+            "amount": 1
+          },
+          {
+            "id": 36091,
+            "amount": 1
+          },
+          {
+            "id": 36098,
+            "amount": 1
+          },
+          {
+            "id": 27825,
+            "amount": 1
+          },
+          {
+            "id": 36097,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 148,
+          "hq": 168
+        }
+      }
+    ],
+    "quests": [
+      69862,
+      69892,
+      70064
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 3319500,
+      "seals": 920
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Sykon",
+      "id": 36096,
+      "icon": 25318,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 75,
+          "type": 1
+        },
+        {
+          "id": 84,
+          "type": 1
+        },
+        {
+          "id": 93,
+          "type": 1
+        },
+        {
+          "id": 98,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        926
+      ],
+      "nodes": [
+        844
+      ]
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "id": 36088,
+      "icon": 25219,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "ventures": [
+        912
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Cucumber",
+      "id": 36091,
+      "icon": 25212,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "leves": [
+        1642,
+        1643
+      ],
+      "ventures": [
+        918
+      ],
+      "nodes": [
+        843
+      ]
+    },
+    {
+      "name": "Thavnairian Paprika",
+      "id": 36098,
+      "icon": 25018,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "ventures": [
+        917
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Blood Tomato",
+      "id": 27825,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1466,
+        1467,
+        1468
+      ],
+      "ventures": [
+        819
+      ],
+      "nodes": [
+        617
+      ]
+    },
+    {
+      "name": "Alien Onion",
+      "id": 36097,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 545,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 75,
+          "type": 1
+        },
+        {
+          "id": 84,
+          "type": 1
+        },
+        {
+          "id": 93,
+          "type": 1
+        },
+        {
+          "id": 98,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1646,
+        1647
+      ],
+      "ventures": [
+        932
+      ],
+      "nodes": [
+        848
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "844",
+      "obj": {
+        "i": 844,
+        "n": "Southerly Zephyrneus",
+        "l": 90,
+        "t": 2,
+        "z": 3713
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "848",
+      "obj": {
+        "i": 848,
+        "n": "Reah Tahra",
+        "l": 90,
+        "t": 3,
+        "z": 3712
+      }
+    },
+    {
+      "type": "item",
+      "id": "36096",
+      "obj": {
+        "i": 36096,
+        "n": "Sykon",
+        "l": 539,
+        "c": 25318,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36088",
+      "obj": {
+        "i": 36088,
+        "n": "Iceberg Lettuce",
+        "l": 520,
+        "c": 25219,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36091",
+      "obj": {
+        "i": 36091,
+        "n": "Cucumber",
+        "l": 533,
+        "c": 25212,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36098",
+      "obj": {
+        "i": 36098,
+        "n": "Thavnairian Paprika",
+        "l": 525,
+        "c": 25018,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27825",
+      "obj": {
+        "i": 27825,
+        "n": "Blood Tomato",
+        "l": 390,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36097",
+      "obj": {
+        "i": 36097,
+        "n": "Alien Onion",
+        "l": 545,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69862",
+      "obj": {
+        "i": 69862,
+        "n": "Seeing Red",
+        "g": 141,
+        "l": "Labyrinthos",
+        "s": 8101
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69892",
+      "obj": {
+        "i": 69892,
+        "n": "Work Woes",
+        "g": 146,
+        "l": "Ultima Thule",
+        "s": 10120
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70064",
+      "obj": {
+        "i": 70064,
+        "n": "Friends for the Road",
+        "g": 12,
+        "l": "Thavnair",
+        "s": 621
+      }
+    }
+  ]
+}

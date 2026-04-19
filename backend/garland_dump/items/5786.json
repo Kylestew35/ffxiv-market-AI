@@ -1,0 +1,136 @@
+{
+  "item": {
+    "name": "Turquoise Green Dye",
+    "description": "A labor-saving green dye, used for coloring anything from cloth to metal.",
+    "id": 5786,
+    "patch": 2.1,
+    "patchCategory": 8,
+    "price": 334,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22810,
+    "instances": [
+      31
+    ],
+    "vendors": [
+      1005569
+    ],
+    "tradeShops": [
+      {
+        "shop": "Sylphic Goldleaf Exchange",
+        "npcs": [
+          1005569
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5786",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21075",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66296,
+      66318
+    ],
+    "desynthedFrom": [
+      21178
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "31",
+      "obj": {
+        "i": 31,
+        "n": "The Great Gubal Library",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 59,
+        "max_lvl": 60,
+        "min_ilvl": 120,
+        "max_ilvl": 150
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66296",
+      "obj": {
+        "i": 66296,
+        "n": "Blast from the Past",
+        "g": 113,
+        "l": "Southern Thanalan",
+        "s": 250
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66318",
+      "obj": {
+        "i": 66318,
+        "n": "Big Trouble in Little Ala Mhigo",
+        "g": 1,
+        "l": "Southern Thanalan",
+        "s": 147
+      }
+    },
+    {
+      "type": "item",
+      "id": "21178",
+      "obj": {
+        "i": 21178,
+        "n": "Guppy",
+        "l": 300,
+        "c": 29444,
+        "t": 47
+      }
+    }
+  ]
+}

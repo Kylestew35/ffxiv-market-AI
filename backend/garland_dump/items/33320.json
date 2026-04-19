@@ -1,0 +1,130 @@
+{
+  "item": {
+    "name": "Nabaath Saw",
+    "description": "A king among desert saws, and lord of the sands of the Nabaath Severance.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "Eschewing griffins and dragons and other typical icons of might, the Nabaath Areng military based its insignia on the ferocious Nabaath saw. Sneering foes soon learned to respect that symbol, sometimes at the business end of a weapon crafted from said wavekin's lethal dorsal fins.",
+      "icon": 79623,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 217,
+          "transition": [
+            "Clear Skies",
+            "Fair Skies",
+            "Heat Waves"
+          ],
+          "weather": [
+            "Heat Waves"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2150,
+          "baits": [
+            [
+              27586,
+              27464
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33320,
+    "patch": 5.5,
+    "patchCategory": 7,
+    "price": 2000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29623,
+    "fishingSpots": [
+      217
+    ],
+    "desynthedTo": [
+      32949,
+      26731
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "217",
+      "obj": {
+        "i": 217,
+        "n": "The Nabaath Severance",
+        "l": 72,
+        "c": 2,
+        "z": 2955,
+        "x": 31.03,
+        "y": 31.63
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27586",
+      "obj": {
+        "i": 27586,
+        "n": "Jerked Ovim",
+        "l": 400,
+        "c": 27039,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "27464",
+      "obj": {
+        "i": 27464,
+        "n": "Desert Saw",
+        "l": 415,
+        "c": 29618,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26731",
+      "obj": {
+        "i": 26731,
+        "n": "Battledance Materia VIII",
+        "l": 420,
+        "c": 20278,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

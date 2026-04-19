@@ -1,0 +1,309 @@
+{
+  "item": {
+    "name": "Panaloaf Yeast",
+    "description": "This special yeast should greatly improve the powdery texture of panaloaf.",
+    "id": 35597,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 530,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 27614,
+    "craft": [
+      {
+        "id": 34789,
+        "job": 14,
+        "rlvl": 525,
+        "durability": 80,
+        "quality": 3720,
+        "progress": 1950,
+        "lvl": 83,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 36080,
+            "amount": 4,
+            "quality": 311.4692
+          },
+          {
+            "id": 36264,
+            "amount": 1
+          },
+          {
+            "id": 36258,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 8
+          },
+          {
+            "id": 12,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 512,
+          "hq": 532
+        }
+      },
+      {
+        "id": 34795,
+        "job": 15,
+        "rlvl": 525,
+        "durability": 80,
+        "quality": 3720,
+        "progress": 1950,
+        "lvl": 83,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 36080,
+            "amount": 4,
+            "quality": 311.4692
+          },
+          {
+            "id": 36264,
+            "amount": 1
+          },
+          {
+            "id": 36258,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 512,
+          "hq": 532
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Palm Sugar",
+      "id": 36080,
+      "icon": 25103,
+      "category": 45,
+      "ilvl": 530,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5285,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36086,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Palm Syrup",
+      "id": 36086,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 74,
+          "type": 1
+        },
+        {
+          "id": 88,
+          "type": 1
+        },
+        {
+          "id": 81,
+          "type": 1
+        },
+        {
+          "id": 96,
+          "type": 1
+        },
+        {
+          "id": 104,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        914
+      ],
+      "nodes": [
+        839
+      ]
+    },
+    {
+      "name": "Amra",
+      "id": 36264,
+      "icon": 25325,
+      "category": 45,
+      "ilvl": 515,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36264",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        935
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "36086",
+      "obj": {
+        "i": 36086,
+        "n": "Palm Syrup",
+        "l": 525,
+        "c": 22642,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "839",
+      "obj": {
+        "i": 839,
+        "n": "The Great Work",
+        "l": 85,
+        "t": 2,
+        "z": 3709
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36080",
+      "obj": {
+        "i": 36080,
+        "n": "Palm Sugar",
+        "l": 530,
+        "c": 25103,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36264",
+      "obj": {
+        "i": 36264,
+        "n": "Amra",
+        "l": 515,
+        "c": 25325,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    }
+  ]
+}

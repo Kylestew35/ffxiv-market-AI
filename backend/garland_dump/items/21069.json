@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Maelstrom Aetheryte Ticket",
+    "description": "A voucher redeemable by Maelstrom enlistees for instant teleportation to Maelstrom Command.",
+    "id": 21069,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 3333,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "sell_price": 100,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26518,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21069",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 2000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    }
+  ]
+}

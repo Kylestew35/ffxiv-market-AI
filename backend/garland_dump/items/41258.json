@@ -1,0 +1,322 @@
+{
+  "item": {
+    "name": "Connoisseur's Targe",
+    "description": "A piece crafted to satisfy the discerning eye of an avid collector. The patterns carved into it are so painstakingly detailed, it may be more suited to a gallery than a battlefield.",
+    "id": 41258,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 642,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 1,
+    "icon": 30008,
+    "craft": [
+      {
+        "id": 35687,
+        "job": 12,
+        "rlvl": 642,
+        "durability": 60,
+        "quality": 15368,
+        "progress": 6600,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 41250,
+            "amount": 1
+          },
+          {
+            "id": 36190,
+            "amount": 1
+          },
+          {
+            "id": 36165,
+            "amount": 1
+          },
+          {
+            "id": 17,
+            "amount": 4
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 317,
+          "hq": 337
+        }
+      }
+    ],
+    "masterpiece": {
+      "rating": [
+        750,
+        1125,
+        1500
+      ],
+      "amount": 1,
+      "stars": 4,
+      "lvl": [
+        90,
+        90
+      ],
+      "xp": [
+        3757674,
+        4129458,
+        4501242
+      ],
+      "reward": 33913,
+      "rewardAmount": [
+        11,
+        12,
+        13
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Select Chalicotherium Leather",
+      "id": 41250,
+      "icon": 22007,
+      "category": 52,
+      "ilvl": 642,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Crafters' Scrip Exchange",
+          "npcs": [
+            1045069
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "41250",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Horse Chestnut Log",
+      "id": 36190,
+      "icon": 22401,
+      "category": 50,
+      "ilvl": 515,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 77,
+          "type": 1
+        },
+        {
+          "id": 85,
+          "type": 1
+        },
+        {
+          "id": 87,
+          "type": 1
+        },
+        {
+          "id": 97,
+          "type": 1
+        },
+        {
+          "id": 106,
+          "type": 1
+        }
+      ],
+      "treasure": [
+        36611,
+        39591,
+        36612
+      ],
+      "leves": [
+        1568
+      ],
+      "ventures": [
+        909
+      ],
+      "nodes": [
+        837
+      ]
+    },
+    {
+      "name": "Manganese Ore",
+      "id": 36165,
+      "icon": 21203,
+      "category": 48,
+      "ilvl": 539,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 80,
+          "type": 1
+        },
+        {
+          "id": 82,
+          "type": 1
+        },
+        {
+          "id": 90,
+          "type": 1
+        },
+        {
+          "id": 100,
+          "type": 1
+        },
+        {
+          "id": 105,
+          "type": 1
+        },
+        {
+          "id": 103,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1584
+      ],
+      "ventures": [
+        903
+      ],
+      "nodes": [
+        823
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1045069",
+      "obj": {
+        "i": 1045069,
+        "n": "Quinnana",
+        "l": 2951,
+        "s": 3,
+        "t": "Splendorous Tool Exchange",
+        "r": 1,
+        "a": 3252,
+        "c": [
+          10.44,
+          7.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "837",
+      "obj": {
+        "i": 837,
+        "n": "The Phreatic Conduit",
+        "l": 85,
+        "t": 2,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "36611",
+      "obj": {
+        "i": 36611,
+        "n": "Timeworn Saigaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "39591",
+      "obj": {
+        "i": 39591,
+        "n": "Timeworn Ophiotauroskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36612",
+      "obj": {
+        "i": 36612,
+        "n": "Timeworn Kumbhiraskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "823",
+      "obj": {
+        "i": 823,
+        "n": "The Hungering Gardens",
+        "l": 90,
+        "t": 0,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "41250",
+      "obj": {
+        "i": 41250,
+        "n": "Select Chalicotherium Leather",
+        "l": 642,
+        "c": 22007,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "36190",
+      "obj": {
+        "i": 36190,
+        "n": "Horse Chestnut Log",
+        "l": 515,
+        "c": 22401,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "36165",
+      "obj": {
+        "i": 36165,
+        "n": "Manganese Ore",
+        "l": 539,
+        "c": 21203,
+        "t": 48
+      }
+    }
+  ]
+}

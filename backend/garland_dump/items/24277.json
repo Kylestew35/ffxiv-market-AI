@@ -1,0 +1,412 @@
+{
+  "item": {
+    "name": "Imam Bayildi",
+    "description": "Miniature Doman eggplants stuffed to bursting with juicy marinated vegetables─and enough peppers to knock a trained Fist of Rhalgr monk out cold.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 24277,
+    "patch": 4.4,
+    "patchCategory": 6,
+    "price": 2368,
+    "ilvl": 370,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 42
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 23
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 48
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 52
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 29
+        }
+      }
+    },
+    "icon": 24162,
+    "craft": [
+      {
+        "id": 33170,
+        "job": 15,
+        "rlvl": 380,
+        "durability": 70,
+        "quality": 6100,
+        "progress": 1500,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1600,
+        "craftsmanshipReq": 1650,
+        "quickSynthCraftsmanship": 2000,
+        "unlockId": 22316,
+        "ingredients": [
+          {
+            "id": 19854,
+            "amount": 3
+          },
+          {
+            "id": 19858,
+            "amount": 2
+          },
+          {
+            "id": 6148,
+            "amount": 2
+          },
+          {
+            "id": 12878,
+            "amount": 1
+          },
+          {
+            "id": 4784,
+            "amount": 1
+          },
+          {
+            "id": 21301,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 294,
+          "hq": 314
+        }
+      }
+    ],
+    "quests": [
+      68679,
+      68716
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Doman Eggplant",
+      "id": 19854,
+      "icon": 25205,
+      "category": 45,
+      "ilvl": 288,
+      "price": 551,
+      "ventures": [
+        706
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Gyr Abanian Carrot",
+      "id": 19858,
+      "icon": 25207,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        695
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Dzemael Tomato",
+      "id": 6148,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 70,
+      "price": 443,
+      "ventures": [
+        568
+      ],
+      "nodes": [
+        220
+      ],
+      "seeds": [
+        7724
+      ]
+    },
+    {
+      "name": "Cyclops Onion",
+      "id": 12878,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        548
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Highland Parsley",
+      "id": 4784,
+      "icon": 25211,
+      "category": 45,
+      "ilvl": 14,
+      "price": 21,
+      "ventures": [
+        206
+      ],
+      "nodes": [
+        31
+      ]
+    },
+    {
+      "name": "Crimson Pepper",
+      "id": 21301,
+      "icon": 25919,
+      "category": 45,
+      "ilvl": 320,
+      "price": 93,
+      "desynthedFrom": [
+        24885
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21301",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21301",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "220",
+      "obj": {
+        "i": 220,
+        "n": "Raincatcher Gully",
+        "l": 50,
+        "t": 3,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          13
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "31",
+      "obj": {
+        "i": 31,
+        "n": "Moraby Bay",
+        "l": 15,
+        "t": 3,
+        "z": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "22316",
+      "obj": {
+        "i": 22316,
+        "n": "Master Culinarian VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19854",
+      "obj": {
+        "i": 19854,
+        "n": "Doman Eggplant",
+        "l": 288,
+        "c": 25205,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19858",
+      "obj": {
+        "i": 19858,
+        "n": "Gyr Abanian Carrot",
+        "l": 279,
+        "c": 25207,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "6148",
+      "obj": {
+        "i": 6148,
+        "n": "Dzemael Tomato",
+        "l": 70,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12878",
+      "obj": {
+        "i": 12878,
+        "n": "Cyclops Onion",
+        "l": 130,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4784",
+      "obj": {
+        "i": 4784,
+        "n": "Highland Parsley",
+        "l": 14,
+        "c": 25211,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "21301",
+      "obj": {
+        "i": 21301,
+        "n": "Crimson Pepper",
+        "l": 320,
+        "c": 25919,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68679",
+      "obj": {
+        "i": 68679,
+        "n": "Sisterly Act",
+        "g": 7,
+        "l": "The Rising Stones",
+        "s": 27
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68716",
+      "obj": {
+        "i": 68716,
+        "n": "A Defector's Tidings",
+        "g": 7,
+        "l": "The Dravanian Hinterlands",
+        "s": 35
+      }
+    }
+  ]
+}

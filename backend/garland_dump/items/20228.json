@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Ichthyosaur",
+    "description": "Let not its dolphin-like appearance fool you. The ichthyosaur is a ravenous scalekin that feeds on squid, fish, and the occasional man overboard.<br><br>[Suitable for display in aquariums tier 3 and higher.]<br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "Researchers spent decades attempting to mark the spot where this scalekin fell on the ancestral scale between fish and dolphin only to recently find that it had never actually gone extinct.",
+      "icon": 79478,
+      "spots": [
+        {
+          "node": 473,
+          "gig": [
+            "Large Gig Head"
+          ],
+          "ff14anglerId": 722
+        },
+        {
+          "node": 481,
+          "gig": [
+            "Large Gig Head"
+          ],
+          "ff14anglerId": 722
+        }
+      ]
+    },
+    "id": 20228,
+    "patch": 4.0,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 290,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29478,
+    "nodes": [
+      473,
+      481
+    ],
+    "desynthedTo": [
+      5682,
+      5824,
+      5814
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "473",
+      "obj": {
+        "i": 473,
+        "n": "The Sunken Junk",
+        "l": 70,
+        "t": 5,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "481",
+      "obj": {
+        "i": 481,
+        "n": "The Sunken Junk's South Side",
+        "l": 70,
+        "t": 5,
+        "z": 2410,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "item",
+      "id": "5682",
+      "obj": {
+        "i": 5682,
+        "n": "Battledance Materia IV",
+        "l": 70,
+        "c": 20216,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5814",
+      "obj": {
+        "i": 5814,
+        "n": "Blue Pigment",
+        "l": 28,
+        "c": 21457,
+        "t": 55
+      }
+    }
+  ]
+}

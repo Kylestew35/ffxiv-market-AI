@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Wind-up Sahagin",
+    "description": "He's got a trident and he's not afraid to use it.<br><br>Use item to acquire the wind-up Sahagin minion.",
+    "minionrace": "Poppet",
+    "tooltip": "A Sssahagin does not flail\r\nand sssplash about so─\r\nhe rolls with the waves.\r\n  - Clutchfather Novv",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Pshhh",
+    "specialactiondescription": "Removes all beneficial effects from all enemies within range.",
+    "id": 7557,
+    "patch": 2.2,
+    "patchCategory": 11,
+    "price": 25000,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59464,
+    "vendors": [
+      1008907
+    ],
+    "tradeShops": [
+      {
+        "shop": "Previous Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7557",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46179",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 120,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 435,
+      "Skill Cost": 20,
+      "Attack": 45,
+      "Defense": 40,
+      "Speed": 4
+    },
+    "models": [
+      "8055-1-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "46179",
+      "obj": {
+        "i": 46179,
+        "n": "Irregular Tomestone of Revelation",
+        "l": 1,
+        "c": "t/26346",
+        "t": 63
+      }
+    }
+  ]
+}

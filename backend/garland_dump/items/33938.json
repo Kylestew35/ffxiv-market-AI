@@ -1,0 +1,346 @@
+{
+  "item": {
+    "name": "Craftsman's Competence Materia X",
+    "description": "Cannot be melded onto a piece of equipment past the first advanced materia melding slot.",
+    "id": 33938,
+    "patch": 6.0,
+    "patchCategory": 10,
+    "price": 99999,
+    "ilvl": 560,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 197,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20290,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1037053,
+          1037310
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33938",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36028",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33938",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37550",
+                "amount": 3500
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33938",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37549",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Materia)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33938",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 250
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Loporrit Carat Exchange",
+        "npcs": [
+          1044404
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33938",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38952",
+                "amount": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33938",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 250
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33938",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36028",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 9,
+      "value": 27,
+      "attr": "Craftsmanship",
+      "category": 1
+    },
+    "quests": [
+      69674,
+      69681,
+      69688
+    ],
+    "desynthedFrom": [
+      37846,
+      38835
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      41667
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037053",
+      "obj": {
+        "i": 1037053,
+        "n": "Auacyn",
+        "l": 3706,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 3815,
+        "c": [
+          12.77,
+          10.13
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037310",
+      "obj": {
+        "i": 1037310,
+        "n": "Khuzhal",
+        "l": 3707,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 3873,
+        "c": [
+          11.43,
+          8.63
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36028",
+      "obj": {
+        "i": 36028,
+        "n": "Cracked Anthocrystal",
+        "l": 1,
+        "c": 20049,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "37550",
+      "obj": {
+        "i": 37550,
+        "n": "Islander's Cowrie",
+        "l": 1,
+        "c": "t/65097",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1044404",
+      "obj": {
+        "i": 1044404,
+        "n": "Coiningway",
+        "l": 3711,
+        "s": 4,
+        "t": "Dreaming Vendor",
+        "r": 1,
+        "a": 4290,
+        "c": [
+          17.43,
+          15.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38952",
+      "obj": {
+        "i": 38952,
+        "n": "Loporrit Carat",
+        "l": 1,
+        "c": "t/65100",
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "37549",
+      "obj": {
+        "i": 37549,
+        "n": "Seafarer's Cowrie",
+        "l": 1,
+        "c": "t/65096",
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69674",
+      "obj": {
+        "i": 69674,
+        "n": "Wayback Machine",
+        "g": 203,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69681",
+      "obj": {
+        "i": 69681,
+        "n": "The Promised Star",
+        "g": 204,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69688",
+      "obj": {
+        "i": 69688,
+        "n": "Sharlayan Cuisine",
+        "g": 205,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "item",
+      "id": "37846",
+      "obj": {
+        "i": 37846,
+        "n": "Swampsucker Bowfin",
+        "l": 600,
+        "c": 28543,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38835",
+      "obj": {
+        "i": 38835,
+        "n": "Cosmic Haze",
+        "l": 600,
+        "c": 29778,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "41667",
+      "obj": {
+        "i": 41667,
+        "n": "Sanctuary Materiel Container",
+        "l": 1,
+        "c": 21002,
+        "t": 61
+      }
+    }
+  ]
+}

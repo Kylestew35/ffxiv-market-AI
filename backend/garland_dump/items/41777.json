@@ -1,0 +1,380 @@
+{
+  "item": {
+    "name": "Gatherer's Grasp Materia XII",
+    "description": "Cannot be melded onto a piece of equipment past the first advanced materia melding slot.",
+    "id": 41777,
+    "patch": 7.0,
+    "patchCategory": 10,
+    "price": 99999,
+    "ilvl": 690,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 197,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20296,
+    "tradeShops": [
+      {
+        "shop": "Orange Scrip Exchange (Materia)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41777",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41785",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41777",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43945",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shop",
+        "npcs": [
+          1048381,
+          1049090
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41777",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43945",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mamool Ja Nanook Exchange",
+        "npcs": [
+          1052563
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41777",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "48084",
+                "amount": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cosmocredit Exchange (Materials/Materia/Items)",
+        "npcs": [
+          1052588,
+          1052600,
+          1052607,
+          1052608,
+          1052640,
+          1052650
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41777",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "45690",
+                "amount": 900
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 11,
+      "value": 11,
+      "attr": "GP",
+      "category": 2
+    },
+    "desynthedFrom": [
+      44341,
+      47990,
+      46191
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43945",
+      "obj": {
+        "i": 43945,
+        "n": "Cracked Novacrystal",
+        "l": 1,
+        "c": 21489,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048381",
+      "obj": {
+        "i": 1048381,
+        "n": "Shemapi",
+        "l": 4504,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 4537,
+        "c": [
+          13.48,
+          12.59
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1049090",
+      "obj": {
+        "i": 1049090,
+        "n": "Zale",
+        "l": 4503,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 4647,
+        "c": [
+          7.53,
+          12.38
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052563",
+      "obj": {
+        "i": 1052563,
+        "n": "Veerul Ja",
+        "l": 4507,
+        "s": 4,
+        "t": "Gok Golma Vendor",
+        "r": 1,
+        "a": 4756,
+        "c": [
+          33.4,
+          36.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "48084",
+      "obj": {
+        "i": 48084,
+        "n": "Mamool Ja Nanook",
+        "l": 1,
+        "c": "t/65116",
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052588",
+      "obj": {
+        "i": 1052588,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5225,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052600",
+      "obj": {
+        "i": 1052600,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052607",
+      "obj": {
+        "i": 1052607,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052608",
+      "obj": {
+        "i": 1052608,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5225,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052640",
+      "obj": {
+        "i": 1052640,
+        "n": "Mesouaidonque",
+        "l": 5301,
+        "s": 3,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5316,
+        "c": [
+          28.67,
+          13.48
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052650",
+      "obj": {
+        "i": 1052650,
+        "n": "Mesouaidonque",
+        "l": 5406,
+        "s": 3,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5420,
+        "c": [
+          17.45,
+          24.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "45690",
+      "obj": {
+        "i": 45690,
+        "n": "Cosmocredit",
+        "l": 1,
+        "c": "t/65112",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "44341",
+      "obj": {
+        "i": 44341,
+        "n": "Cazuela Crab",
+        "l": 700,
+        "c": 28662,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "47990",
+      "obj": {
+        "i": 47990,
+        "n": "Riverlong Candiru",
+        "l": 730,
+        "c": 28669,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "46191",
+      "obj": {
+        "i": 46191,
+        "n": "Iron Shadowtongue",
+        "l": 730,
+        "c": 28734,
+        "t": 47
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Ixali Oaknot Promissory Note",
+    "description": "A promissory note that can be exchanged for Ixali oaknots─carved pieces of oak used as currency by the Ixal.",
+    "id": 8222,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 1350,
+    "ilvl": 40,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26186,
+    "disposal": [
+      {
+        "amount": 1,
+        "item": 21073,
+        "shop": "Certificate Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ]
+      },
+      {
+        "amount": 1,
+        "item": 21073,
+        "shop": "Currency Exchange",
+        "npcs": [
+          1009205
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    }
+  ]
+}

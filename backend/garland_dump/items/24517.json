@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Vegetable Stall",
+    "description": "A large shelf packed with artfully displayed vegetables.",
+    "id": 24517,
+    "patch": 4.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53282,
+    "tradeShops": [
+      {
+        "shop": "Bait/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24517",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Music/Furnishings/Misc.)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24517",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "770"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

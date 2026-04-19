@@ -1,0 +1,61 @@
+{
+  "item": {
+    "name": "Mischief Maker",
+    "description": "Should only make mischief and not do you one, if the name is to be believed...<br><br>Use item to acquire the mischief maker minion.",
+    "minionrace": "Monster",
+    "tooltip": "I did not realize there was\r\nanother clown in town!\r\n   - Papa Gruff",
+    "minionskilltype": "Trap",
+    "specialactionname": "False Smile",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 260 to all enemies within range.<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 43583,
+    "patch": 7.0,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59921,
+    "cost": 10,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 25,
+      "Attack": 15,
+      "Defense": 40,
+      "Speed": 1
+    },
+    "models": [
+      "8476-1-1"
+    ],
+    "instances": [
+      99
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "99",
+      "obj": {
+        "i": 99,
+        "n": "The Strayborough Deadwalk",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 100,
+        "max_lvl": 100,
+        "min_ilvl": 670,
+        "max_ilvl": 730
+      }
+    }
+  ]
+}

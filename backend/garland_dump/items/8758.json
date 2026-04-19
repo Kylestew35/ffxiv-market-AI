@@ -1,0 +1,88 @@
+{
+  "item": {
+    "name": "Ignus Horn",
+    "description": "A king among ignus snails.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "A staple of the Amalj'aa diet, ignus snails rarely grow larger than a few ilms in length before being collected and thrown into a steaming pot of Trader vetch and scrubgrass. When allowed to thrive, however, they can achieve unthinkable sizes.",
+      "icon": 79390,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 25,
+          "transition": [
+            "Gloom"
+          ],
+          "weather": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 294,
+          "baits": [
+            [
+              2603
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 8758,
+    "patch": 2.4,
+    "patchCategory": 7,
+    "price": 950,
+    "ilvl": 80,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 29,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29390,
+    "fishingSpots": [
+      25
+    ],
+    "desynthedTo": [
+      5826
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Deep Tangle",
+        "l": 45,
+        "c": 1,
+        "z": 67,
+        "x": 12.91,
+        "y": 11.57
+      }
+    },
+    {
+      "type": "item",
+      "id": "2603",
+      "obj": {
+        "i": 2603,
+        "n": "Glowworm",
+        "l": 45,
+        "c": 27021,
+        "t": 33,
+        "p": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "5826",
+      "obj": {
+        "i": 5826,
+        "n": "Allagan Gold Piece",
+        "l": 35,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

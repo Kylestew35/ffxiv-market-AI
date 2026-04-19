@@ -1,0 +1,187 @@
+{
+  "item": {
+    "name": "Redolent Log",
+    "description": "An unforgettably pleasant-smelling log obtained in the Black Shroud.",
+    "id": 8031,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 801,
+    "ilvl": 75,
+    "category": 50,
+    "dyecount": 0,
+    "sell_price": 12,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22415,
+    "nodes": [
+      245
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Supra Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8041",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8031",
+                "amount": 30
+              },
+              {
+                "id": "8150",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10109",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8031",
+                "amount": 30
+              },
+              {
+                "id": "10121",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6141",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8031",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "245",
+      "obj": {
+        "i": 245,
+        "n": "Greentear",
+        "l": 50,
+        "t": 2,
+        "z": 54,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          6
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8150",
+      "obj": {
+        "i": 8150,
+        "n": "Fieldcraft Demimateria III",
+        "l": 70,
+        "c": 20243,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8041",
+      "obj": {
+        "i": 8041,
+        "n": "Talan's Seal of Botany",
+        "l": 1,
+        "c": 26176,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10121",
+      "obj": {
+        "i": 10121,
+        "n": "Bamboo Paper",
+        "l": 90,
+        "c": 21005,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "10109",
+      "obj": {
+        "i": 10109,
+        "n": "Talan's Seal of Botany Mastery",
+        "l": 1,
+        "c": 26177,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6141",
+      "obj": {
+        "i": 6141,
+        "n": "Cordial",
+        "l": 25,
+        "c": 20622,
+        "t": 44
+      }
+    }
+  ]
+}

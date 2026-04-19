@@ -1,0 +1,187 @@
+{
+  "item": {
+    "name": "Sirius",
+    "jobCategories": "AST",
+    "id": 10583,
+    "patch": 3.0,
+    "patchCategory": 0,
+    "price": 33192,
+    "ilvl": 110,
+    "category": 89,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 589,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 633,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 99,
+    "models": [
+      "2101-10-2-0",
+      "2199-1-12-0"
+    ],
+    "attr": {
+      "Physical Damage": 63,
+      "Magic Damage": 63,
+      "Delay": 3.2,
+      "Mind": 42,
+      "Vitality": 39,
+      "Spell Speed": 44,
+      "Piety": 31,
+      "Direct Hit Rate": 9
+    },
+    "icon": 34820,
+    "sharedModels": [
+      10582,
+      18045
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gerolt's Masterworks Repair (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10583",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10582",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gerolt's Masterworks",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10583",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gerolt's Masterworks (IL 110)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10583",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10582",
+      "obj": {
+        "i": 10582,
+        "n": "Weathered Sirius",
+        "l": 100,
+        "c": 34820,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "18045",
+      "obj": {
+        "i": 18045,
+        "n": "Koppranickel Planisphere",
+        "l": 255,
+        "c": 34884,
+        "t": 89,
+        "p": 36352
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    }
+  ]
+}

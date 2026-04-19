@@ -1,0 +1,80 @@
+{
+  "item": {
+    "name": "ADS Illuminant",
+    "description": "A glowing orb retrieved from an Allagan automated defense system node.",
+    "id": 6220,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 914,
+    "ilvl": 70,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21266,
+    "drops": [
+      20210000001482
+    ],
+    "ingredient_of": {
+      "6474": 1,
+      "8784": 1
+    },
+    "instances": [
+      30006
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "6474",
+      "obj": {
+        "i": 6474,
+        "n": "Illumination Module",
+        "l": 70,
+        "c": 51101,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "8784",
+      "obj": {
+        "i": 8784,
+        "n": "Head of the Dreadwyrm",
+        "l": 110,
+        "c": 52534,
+        "t": 57
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20210000001482",
+      "obj": {
+        "i": 20210000001482,
+        "n": "Twintania",
+        "l": "50",
+        "z": 468
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30006",
+      "obj": {
+        "i": 30006,
+        "n": "The Binding Coil of Bahamut - Turn 5",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 82
+      }
+    }
+  ]
+}

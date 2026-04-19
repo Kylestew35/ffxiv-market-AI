@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Valentione Lobster Platter",
+    "description": "A sumptuous plate of boiled and buttered lobster. Comes complete with a heart-shaped pizza. For reasons.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Determination Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 24496,
+    "patch": 4.5,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53292,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027168
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24496",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "24894",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "748"
+    ],
+    "quests": [
+      68741
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027168",
+      "obj": {
+        "i": 1027168,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "24894",
+      "obj": {
+        "i": 24894,
+        "n": "Expired Valentione's Day Chocolate MMXIX",
+        "l": 1,
+        "c": 24063,
+        "t": 85
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68741",
+      "obj": {
+        "i": 68741,
+        "n": "A Many-splendored Thing",
+        "g": 238,
+        "l": "Gridania",
+        "s": 170,
+        "f": 1
+      }
+    }
+  ]
+}

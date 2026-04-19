@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Indomitable Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Indomitable</span>. Use to add to your orchestrion list.",
+    "id": 21284,
+    "patch": 4.1,
+    "patchCategory": 16,
+    "price": 2,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 179,
+      "name": "Indomitable",
+      "description": "Available for Kojin sango exchange in Tamamizu.",
+      "category": "Locales I",
+      "order": 65
+    },
+    "tradeShops": [
+      {
+        "shop": "Kojin Sango Exchange",
+        "npcs": [
+          1024219
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21284",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21081",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024219",
+      "obj": {
+        "i": 1024219,
+        "n": "Shikitahe",
+        "l": 2409,
+        "s": 1,
+        "t": "Sango Exchange",
+        "r": 1,
+        "a": 2769,
+        "c": [
+          29.36,
+          16.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21081",
+      "obj": {
+        "i": 21081,
+        "n": "Kojin Sango",
+        "l": 1,
+        "c": 65058,
+        "t": 100
+      }
+    }
+  ]
+}

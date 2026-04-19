@@ -1,0 +1,603 @@
+{
+  "item": {
+    "name": "Master Blacksmith VII",
+    "description": "This esoteric tome─the seventh in an equally esoteric series─contains advanced smithing recipes that can only be learned by esoterically skilled blacksmiths.",
+    "id": 24267,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26160,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Master Recipes I)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24267",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Master Recipes I",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24267",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocks": [
+      27716,
+      26428,
+      26429,
+      26430,
+      26433,
+      26434,
+      26435,
+      26441,
+      26443,
+      26444,
+      28461,
+      28462,
+      28463,
+      28464,
+      28465,
+      28469,
+      28470,
+      28509,
+      28510,
+      28511,
+      28513,
+      28515,
+      28516,
+      28517,
+      28518,
+      36134,
+      33888,
+      33889,
+      33890,
+      33892,
+      33893,
+      33894,
+      33900,
+      33902,
+      33903,
+      38542,
+      38543,
+      38546,
+      38547,
+      38548,
+      38554,
+      38556,
+      38557,
+      38573
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27716",
+      "obj": {
+        "i": 27716,
+        "n": "Tungsten Steel Ingot",
+        "l": 450,
+        "c": 20804,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "26428",
+      "obj": {
+        "i": 26428,
+        "n": "Sinfender",
+        "l": 450,
+        "c": 30603,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "26429",
+      "obj": {
+        "i": 26429,
+        "n": "Burattinaios",
+        "l": 450,
+        "c": 31168,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "26430",
+      "obj": {
+        "i": 26430,
+        "n": "Alastor",
+        "l": 450,
+        "c": 31577,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "26433",
+      "obj": {
+        "i": 26433,
+        "n": "Silktones",
+        "l": 450,
+        "c": 33954,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "26434",
+      "obj": {
+        "i": 26434,
+        "n": "Gust Tongue",
+        "l": 450,
+        "c": 34333,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "26435",
+      "obj": {
+        "i": 26435,
+        "n": "Murderer",
+        "l": 450,
+        "c": 34453,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "26441",
+      "obj": {
+        "i": 26441,
+        "n": "Sankhara",
+        "l": 450,
+        "c": 36486,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "26443",
+      "obj": {
+        "i": 26443,
+        "n": "Tutelary",
+        "l": 450,
+        "c": 36019,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "26444",
+      "obj": {
+        "i": 26444,
+        "n": "Barathrum",
+        "l": 450,
+        "c": 36219,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "28461",
+      "obj": {
+        "i": 28461,
+        "n": "Facet Saw",
+        "l": 460,
+        "c": 35035,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "28462",
+      "obj": {
+        "i": 28462,
+        "n": "Facet Cross-pein Hammer",
+        "l": 460,
+        "c": 35134,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "28463",
+      "obj": {
+        "i": 28463,
+        "n": "Facet Raising Hammer",
+        "l": 460,
+        "c": 35234,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "28464",
+      "obj": {
+        "i": 28464,
+        "n": "Facet Mallet",
+        "l": 460,
+        "c": 35333,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "28465",
+      "obj": {
+        "i": 28465,
+        "n": "Facet Round Knife",
+        "l": 460,
+        "c": 35434,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "28469",
+      "obj": {
+        "i": 28469,
+        "n": "Facet Pickaxe",
+        "l": 460,
+        "c": 38036,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "28470",
+      "obj": {
+        "i": 28470,
+        "n": "Facet Hatchet",
+        "l": 460,
+        "c": 38134,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "28509",
+      "obj": {
+        "i": 28509,
+        "n": "Facet Claw Hammer",
+        "l": 460,
+        "c": 35065,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "28510",
+      "obj": {
+        "i": 28510,
+        "n": "Facet File",
+        "l": 460,
+        "c": 35162,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "28511",
+      "obj": {
+        "i": 28511,
+        "n": "Facet Pliers",
+        "l": 460,
+        "c": 35262,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "28513",
+      "obj": {
+        "i": 28513,
+        "n": "Facet Awl",
+        "l": 460,
+        "c": 35454,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "28515",
+      "obj": {
+        "i": 28515,
+        "n": "Facet Mortar",
+        "l": 460,
+        "c": 35662,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "28516",
+      "obj": {
+        "i": 28516,
+        "n": "Facet Culinary Knife",
+        "l": 460,
+        "c": 35762,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "28517",
+      "obj": {
+        "i": 28517,
+        "n": "Facet Sledgehammer",
+        "l": 460,
+        "c": 38062,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "28518",
+      "obj": {
+        "i": 28518,
+        "n": "Facet Scythe",
+        "l": 460,
+        "c": 38162,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "36134",
+      "obj": {
+        "i": 36134,
+        "n": "Paladin's Augmented Hades Arms",
+        "l": 1,
+        "c": 26634,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33888",
+      "obj": {
+        "i": 33888,
+        "n": "Augmented Zelos",
+        "l": 430,
+        "c": 31181,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "33889",
+      "obj": {
+        "i": 33889,
+        "n": "Augmented Thumosis",
+        "l": 430,
+        "c": 31590,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "33890",
+      "obj": {
+        "i": 33890,
+        "n": "Augmented Menis",
+        "l": 430,
+        "c": 31992,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "33892",
+      "obj": {
+        "i": 33892,
+        "n": "Augmented Phthonos",
+        "l": 430,
+        "c": 33967,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "33893",
+      "obj": {
+        "i": 33893,
+        "n": "Augmented Eleos",
+        "l": 430,
+        "c": 34346,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "33894",
+      "obj": {
+        "i": 33894,
+        "n": "Augmented Ekplexis",
+        "l": 430,
+        "c": 34466,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "33900",
+      "obj": {
+        "i": 33900,
+        "n": "Augmented Aischune",
+        "l": 430,
+        "c": 36499,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "33902",
+      "obj": {
+        "i": 33902,
+        "n": "Augmented Odune",
+        "l": 430,
+        "c": 36038,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "33903",
+      "obj": {
+        "i": 33903,
+        "n": "Augmented Zelotupia",
+        "l": 430,
+        "c": 36237,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "38542",
+      "obj": {
+        "i": 38542,
+        "n": "The Fae's Crown Claws",
+        "l": 430,
+        "c": 31166,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "38543",
+      "obj": {
+        "i": 38543,
+        "n": "The Fae's Crown Axe",
+        "l": 430,
+        "c": 31575,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "38546",
+      "obj": {
+        "i": 38546,
+        "n": "The Fae's Crown Cleavers",
+        "l": 430,
+        "c": 33952,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "38547",
+      "obj": {
+        "i": 38547,
+        "n": "The Fae's Crown Guillotine",
+        "l": 430,
+        "c": 34331,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "38548",
+      "obj": {
+        "i": 38548,
+        "n": "The Fae's Crown Handgonne",
+        "l": 430,
+        "c": 34451,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "38554",
+      "obj": {
+        "i": 38554,
+        "n": "The Fae's Crown Katana",
+        "l": 430,
+        "c": 36484,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "38556",
+      "obj": {
+        "i": 38556,
+        "n": "The Fae's Crown Manatrigger",
+        "l": 430,
+        "c": 36017,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "38557",
+      "obj": {
+        "i": 38557,
+        "n": "The Fae's Crown Tathlums",
+        "l": 430,
+        "c": 36217,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "38573",
+      "obj": {
+        "i": 38573,
+        "n": "The Fae's Crown Paladin Arms",
+        "l": 1,
+        "c": 26634,
+        "t": 61
+      }
+    }
+  ]
+}

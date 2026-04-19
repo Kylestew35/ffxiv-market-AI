@@ -1,0 +1,173 @@
+{
+  "item": {
+    "name": "Augmented Millkeep's Apron",
+    "jobCategories": "CRP",
+    "id": 15666,
+    "patch": 3.3,
+    "patchCategory": 1,
+    "price": 98010,
+    "ilvl": 200,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 60,
+    "jobs": 9,
+    "models": [
+      "209-1-0-0"
+    ],
+    "attr": {
+      "Defense": 107,
+      "Magic Defense": 214,
+      "Craftsmanship": 270,
+      "Control": 101,
+      "CP": 4
+    },
+    "icon": 42426,
+    "sharedModels": [
+      10231,
+      13014
+    ],
+    "tradeShops": [
+      {
+        "shop": "Tradecraft Keep Gear Augmentation",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15666",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10231",
+                "amount": 1
+              },
+              {
+                "id": "14104",
+                "amount": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Tradecraft Keep Gear (IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15666",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 225
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 60/IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15666",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 225
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10231",
+      "obj": {
+        "i": 10231,
+        "n": "Millkeep's Apron",
+        "l": 180,
+        "c": 42426,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13014",
+      "obj": {
+        "i": 13014,
+        "n": "Millmaster's Apron",
+        "l": 170,
+        "c": 42426,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14104",
+      "obj": {
+        "i": 14104,
+        "n": "Goblin Cup",
+        "l": 1,
+        "c": 26106,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    }
+  ]
+}

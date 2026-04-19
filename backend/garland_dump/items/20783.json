@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Peaks Pigment",
+    "description": "Extracted from natural sources in the Gyr Abanian highlands, this clay-based substance can be dried and ground, then prepared with water and oil to create a colorful dye.",
+    "id": 20783,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 180,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21457,
+    "nodes": [
+      531,
+      532
+    ],
+    "satisfaction": [
+      {
+        "level": 4,
+        "npc": 1020337,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          180,
+          180,
+          180
+        ],
+        "gil": [
+          1010,
+          1260,
+          1510
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              124,
+              147,
+              170
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              86,
+              101,
+              115
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1020337,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "531",
+      "obj": {
+        "i": 531,
+        "n": "Sleeping Stones",
+        "l": 60,
+        "t": 0,
+        "z": 2407,
+        "s": 1
+      }
+    },
+    {
+      "type": "node",
+      "id": "532",
+      "obj": {
+        "i": 532,
+        "n": "The Last Forest",
+        "l": 60,
+        "t": 3,
+        "z": 2407,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1020337",
+      "obj": {
+        "i": 1020337,
+        "n": "M'naago",
+        "l": 2403,
+        "q": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

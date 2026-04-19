@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Lakshmi Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 178",
+    "id": 20248,
+    "patch": 4.0,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "instances": [
+      20048,
+      20049,
+      20049,
+      20048
+    ],
+    "tradeShops": [
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20248",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "The Lady of Bliss, worshipped by the Ananta. Venerated for her dominion over fertility and beauty, Ananta mythology holds that she bestowed a sliver of her gifts upon her serpentine children. Envisioned as a kind and benevolent deity, she enfolds her believers in an embrace of dreamlike comfort."
+      },
+      "ja": {
+        "description": "アナンタ族が呼び降ろした美の神。美に加え、豊穣と癒しの力を持つとされ、神話によればアナンタ族にも、その力の一部を分け与えたとされる。心優しき存在であり、「魅惑の抱擁」によって信徒たちの心を癒やす。"
+      },
+      "de": {
+        "description": "Lakshmi wird von den Ananta angerufen, und die Göttin der Schönheit belohnt ihre Verehrerinnen damit, dass sie ihre Heilkräfte mit ihnen teilt und ihnen ihre Lockende Umarmung zu<SoftHyphen/>teil<SoftHyphen/>werden lässt."
+      },
+      "fr": {
+        "description": "Une déesse invoquée par les Anantas, qui lui prêtent beauté, fertilité et un grand pouvoir d'apaisement, dont elles auraient elles-mêmes en partie hérité. C'est une divinité remplie de bonté qui calme ses adorateurs en les embrassant de son <Emphasis>étreinte séduisante</Emphasis>."
+      },
+      "type": "Primal",
+      "sellMgp": 500,
+      "plate": 87191,
+      "rarity": 3,
+      "top": 3,
+      "bottom": 7,
+      "left": 5,
+      "right": 7
+    },
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20048",
+      "obj": {
+        "i": 20048,
+        "n": "Emanation",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 67,
+        "max_lvl": 68
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20049",
+      "obj": {
+        "i": 20049,
+        "n": "Emanation (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    }
+  ]
+}

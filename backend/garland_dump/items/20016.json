@@ -1,0 +1,946 @@
+{
+  "item": {
+    "name": "Everborn Aethersand",
+    "description": "The elementally aspected remnants of highly concentrated aetherially reduced mineral matter.",
+    "id": 20016,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 556,
+    "ilvl": 300,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22649,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20016",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20016",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "18969": 2,
+      "18970": 3,
+      "18971": 3,
+      "18972": 3,
+      "18973": 3,
+      "18974": 3,
+      "18975": 3,
+      "18976": 3,
+      "18977": 3,
+      "18978": 3,
+      "18979": 3,
+      "18980": 3,
+      "18981": 3,
+      "18982": 3,
+      "18983": 3,
+      "18984": 1,
+      "18987": 2,
+      "18993": 2,
+      "18999": 2,
+      "19005": 2,
+      "19011": 2,
+      "19017": 2,
+      "19023": 2,
+      "19037": 1,
+      "19038": 1,
+      "19039": 1,
+      "19040": 1,
+      "19041": 1,
+      "19042": 1,
+      "19043": 1,
+      "19044": 1,
+      "19045": 1,
+      "19046": 1,
+      "19601": 1,
+      "19606": 1,
+      "19608": 1,
+      "19610": 1,
+      "21084": 1,
+      "21695": 2,
+      "21696": 3,
+      "21697": 3,
+      "21698": 3,
+      "21699": 3,
+      "21700": 3,
+      "21701": 3,
+      "21702": 3,
+      "21703": 3,
+      "21704": 3,
+      "21705": 3,
+      "21706": 3,
+      "21707": 3,
+      "21708": 3,
+      "21709": 3,
+      "21710": 1,
+      "21713": 2,
+      "21719": 2,
+      "21725": 2,
+      "21731": 2,
+      "21737": 2,
+      "21743": 2,
+      "21749": 2,
+      "21763": 1,
+      "21764": 1,
+      "21765": 1,
+      "21766": 1,
+      "21767": 1,
+      "21768": 1,
+      "21769": 1,
+      "21770": 1,
+      "21771": 1,
+      "21772": 1
+    },
+    "reducedFrom": [
+      19937
+    ],
+    "alla": {
+      "source": [
+        "REDUCTION"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "18969",
+      "obj": {
+        "i": 18969,
+        "n": "Chromite Sword",
+        "l": 320,
+        "c": 30568,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "18970",
+      "obj": {
+        "i": 18970,
+        "n": "Chromite Knuckles",
+        "l": 320,
+        "c": 31134,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "18971",
+      "obj": {
+        "i": 18971,
+        "n": "Chromite Axe",
+        "l": 320,
+        "c": 31540,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "18972",
+      "obj": {
+        "i": 18972,
+        "n": "Chromite Spear",
+        "l": 320,
+        "c": 31941,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "18973",
+      "obj": {
+        "i": 18973,
+        "n": "Torreya Longbow",
+        "l": 320,
+        "c": 32331,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "18974",
+      "obj": {
+        "i": 18974,
+        "n": "Chromite Daggers",
+        "l": 320,
+        "c": 33920,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "18975",
+      "obj": {
+        "i": 18975,
+        "n": "Chromite Greatsword",
+        "l": 320,
+        "c": 34292,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "18976",
+      "obj": {
+        "i": 18976,
+        "n": "Chromite Arquebus",
+        "l": 320,
+        "c": 34692,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "18977",
+      "obj": {
+        "i": 18977,
+        "n": "Torreya Cane",
+        "l": 320,
+        "c": 32715,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "18978",
+      "obj": {
+        "i": 18978,
+        "n": "Palladium Staff",
+        "l": 320,
+        "c": 33083,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "18979",
+      "obj": {
+        "i": 18979,
+        "n": "Grimoire of the True Griffin",
+        "l": 320,
+        "c": 33586,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "18980",
+      "obj": {
+        "i": 18980,
+        "n": "Codex of the True Griffin",
+        "l": 320,
+        "c": 33587,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "18981",
+      "obj": {
+        "i": 18981,
+        "n": "Palladium Orrery",
+        "l": 320,
+        "c": 34891,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "18982",
+      "obj": {
+        "i": 18982,
+        "n": "Chromite Uchigatana",
+        "l": 320,
+        "c": 36407,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "18983",
+      "obj": {
+        "i": 18983,
+        "n": "Palladium Rapier",
+        "l": 320,
+        "c": 36715,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "18984",
+      "obj": {
+        "i": 18984,
+        "n": "Chromite Shield",
+        "l": 320,
+        "c": 30161,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "18987",
+      "obj": {
+        "i": 18987,
+        "n": "Chromite Gauntlets of Fending",
+        "l": 320,
+        "c": 48654,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "18993",
+      "obj": {
+        "i": 18993,
+        "n": "Chromite Gauntlets of Maiming",
+        "l": 320,
+        "c": 48655,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "18999",
+      "obj": {
+        "i": 18999,
+        "n": "True Griffin Bracers of Striking",
+        "l": 320,
+        "c": 48656,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19005",
+      "obj": {
+        "i": 19005,
+        "n": "True Griffin Bracers of Aiming",
+        "l": 320,
+        "c": 44563,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19011",
+      "obj": {
+        "i": 19011,
+        "n": "True Griffin Bracers of Scouting",
+        "l": 320,
+        "c": 48657,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19017",
+      "obj": {
+        "i": 19017,
+        "n": "True Griffin Gloves of Healing",
+        "l": 320,
+        "c": 44562,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19023",
+      "obj": {
+        "i": 19023,
+        "n": "True Griffin Gloves of Casting",
+        "l": 320,
+        "c": 44561,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19037",
+      "obj": {
+        "i": 19037,
+        "n": "Torreya Bracelet of Fending",
+        "l": 320,
+        "c": 55781,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "19038",
+      "obj": {
+        "i": 19038,
+        "n": "Torreya Bracelet of Slaying",
+        "l": 320,
+        "c": 55781,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "19039",
+      "obj": {
+        "i": 19039,
+        "n": "Torreya Bracelet of Aiming",
+        "l": 320,
+        "c": 55781,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "19040",
+      "obj": {
+        "i": 19040,
+        "n": "Torreya Bracelet of Healing",
+        "l": 320,
+        "c": 55781,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "19041",
+      "obj": {
+        "i": 19041,
+        "n": "Torreya Bracelet of Casting",
+        "l": 320,
+        "c": 55781,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "19042",
+      "obj": {
+        "i": 19042,
+        "n": "Palladium Band of Fending",
+        "l": 320,
+        "c": 54630,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "19043",
+      "obj": {
+        "i": 19043,
+        "n": "Palladium Band of Slaying",
+        "l": 320,
+        "c": 54630,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "19044",
+      "obj": {
+        "i": 19044,
+        "n": "Palladium Band of Aiming",
+        "l": 320,
+        "c": 54630,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "19045",
+      "obj": {
+        "i": 19045,
+        "n": "Palladium Band of Healing",
+        "l": 320,
+        "c": 54630,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "19046",
+      "obj": {
+        "i": 19046,
+        "n": "Palladium Band of Casting",
+        "l": 320,
+        "c": 54630,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "19601",
+      "obj": {
+        "i": 19601,
+        "n": "Ala Mhigan Saw",
+        "l": 325,
+        "c": 35024,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "19606",
+      "obj": {
+        "i": 19606,
+        "n": "Ala Mhigan Needle",
+        "l": 325,
+        "c": 35525,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "19608",
+      "obj": {
+        "i": 19608,
+        "n": "Ala Mhigan Frypan",
+        "l": 325,
+        "c": 35727,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "19610",
+      "obj": {
+        "i": 19610,
+        "n": "Ala Mhigan Hatchet",
+        "l": 325,
+        "c": 38125,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "21084",
+      "obj": {
+        "i": 21084,
+        "n": "Snailfish Oil",
+        "l": 320,
+        "c": 22671,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "21695",
+      "obj": {
+        "i": 21695,
+        "n": "Nightsteel Sword",
+        "l": 350,
+        "c": 30581,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "21696",
+      "obj": {
+        "i": 21696,
+        "n": "Nightsteel Claws",
+        "l": 350,
+        "c": 31147,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "21697",
+      "obj": {
+        "i": 21697,
+        "n": "Nightsteel Battleaxe",
+        "l": 350,
+        "c": 31555,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "21698",
+      "obj": {
+        "i": 21698,
+        "n": "Black Willow Spear",
+        "l": 350,
+        "c": 31955,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "21699",
+      "obj": {
+        "i": 21699,
+        "n": "Black Willow Greatbow",
+        "l": 350,
+        "c": 32346,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "21700",
+      "obj": {
+        "i": 21700,
+        "n": "Nightsteel Daggers",
+        "l": 350,
+        "c": 33933,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "21701",
+      "obj": {
+        "i": 21701,
+        "n": "Nightsteel Greatsword",
+        "l": 350,
+        "c": 34309,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "21702",
+      "obj": {
+        "i": 21702,
+        "n": "Nightsteel Blunderbuss",
+        "l": 350,
+        "c": 34432,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "21703",
+      "obj": {
+        "i": 21703,
+        "n": "Black Willow Cane",
+        "l": 350,
+        "c": 32730,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "21704",
+      "obj": {
+        "i": 21704,
+        "n": "Silvergrace Rod",
+        "l": 350,
+        "c": 33098,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "21705",
+      "obj": {
+        "i": 21705,
+        "n": "Silvergrace Grimoire",
+        "l": 350,
+        "c": 33248,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "21706",
+      "obj": {
+        "i": 21706,
+        "n": "Silvergrace Codex",
+        "l": 350,
+        "c": 33247,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "21707",
+      "obj": {
+        "i": 21707,
+        "n": "Silvergrace Planisphere",
+        "l": 350,
+        "c": 34906,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "21708",
+      "obj": {
+        "i": 21708,
+        "n": "Nightsteel Katana",
+        "l": 350,
+        "c": 36463,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "21709",
+      "obj": {
+        "i": 21709,
+        "n": "Silvergrace Rapier",
+        "l": 350,
+        "c": 36764,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "21710",
+      "obj": {
+        "i": 21710,
+        "n": "Nightsteel Shield",
+        "l": 350,
+        "c": 30174,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "21713",
+      "obj": {
+        "i": 21713,
+        "n": "Nightsteel Gauntlets of Fending",
+        "l": 350,
+        "c": 48699,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21719",
+      "obj": {
+        "i": 21719,
+        "n": "Nightsteel Gauntlets of Maiming",
+        "l": 350,
+        "c": 48700,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21725",
+      "obj": {
+        "i": 21725,
+        "n": "True Linen Halfgloves of Striking",
+        "l": 350,
+        "c": 44619,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21731",
+      "obj": {
+        "i": 21731,
+        "n": "Slothskin Gloves of Aiming",
+        "l": 350,
+        "c": 44620,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21737",
+      "obj": {
+        "i": 21737,
+        "n": "Slothskin Gloves of Scouting",
+        "l": 350,
+        "c": 44621,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21743",
+      "obj": {
+        "i": 21743,
+        "n": "True Linen Gloves of Healing",
+        "l": 350,
+        "c": 44618,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21749",
+      "obj": {
+        "i": 21749,
+        "n": "True Linen Gloves of Casting",
+        "l": 350,
+        "c": 44617,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21763",
+      "obj": {
+        "i": 21763,
+        "n": "Black Willow Armillae of Fending",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21764",
+      "obj": {
+        "i": 21764,
+        "n": "Black Willow Armillae of Slaying",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21765",
+      "obj": {
+        "i": 21765,
+        "n": "Black Willow Armillae of Aiming",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21766",
+      "obj": {
+        "i": 21766,
+        "n": "Black Willow Armillae of Healing",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21767",
+      "obj": {
+        "i": 21767,
+        "n": "Black Willow Armillae of Casting",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21768",
+      "obj": {
+        "i": 21768,
+        "n": "Silvergrace Ring of Fending",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "21769",
+      "obj": {
+        "i": 21769,
+        "n": "Silvergrace Ring of Slaying",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "21770",
+      "obj": {
+        "i": 21770,
+        "n": "Silvergrace Ring of Aiming",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "21771",
+      "obj": {
+        "i": 21771,
+        "n": "Silvergrace Ring of Healing",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "21772",
+      "obj": {
+        "i": 21772,
+        "n": "Silvergrace Ring of Casting",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "19937",
+      "obj": {
+        "i": 19937,
+        "n": "Torreya Branch",
+        "l": 300,
+        "c": 22416,
+        "t": 50
+      }
+    }
+  ]
+}

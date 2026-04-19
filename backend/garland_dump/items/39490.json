@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Phaethon Horn",
+    "description": "Hot to the touch, this horn emits a furious sound that summons forth Phaethon.",
+    "mount": {
+      "name": "Phaethon",
+      "action": "Summon forth fiery Phaethon, a legendary beast of Corvosi myth.",
+      "description": "According to Corvosi myth, simply being near this fiery steed is akin to bathing in hot coals, and it is only through the ingenuity of alchemy that one can ride it unscathed. A nigh-identical being, created to draw a carriage in the heavens, is said to have existed in the world unsundered, but it is uncertain what manner of connection, if any, exists between the two beasts.",
+      "tooltip": "BURN! BURN! ALL IS BURN!<br>   - Gogmagolem",
+      "icon": 4250,
+      "guideIcon": 68250
+    },
+    "id": 39490,
+    "patch": 6.3,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39490",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39592",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "436-1-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "39592",
+      "obj": {
+        "i": 39592,
+        "n": "Burning Horn",
+        "l": 1,
+        "c": 22204,
+        "t": 61
+      }
+    }
+  ]
+}

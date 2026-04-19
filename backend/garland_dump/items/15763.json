@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Water Filter Component Materials",
+    "description": "Materials required to craft a component for a fountain's water filter.<br><br>※Only for use in moogle society quests.",
+    "id": 15763,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "15737": 1
+    },
+    "usedInQuest": [
+      67841
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15737",
+      "obj": {
+        "i": 15737,
+        "n": "Water Filter Component",
+        "l": 55,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67841",
+      "obj": {
+        "i": 67841,
+        "n": "Built to Last",
+        "g": 55,
+        "l": "The Churning Mists",
+        "s": 24,
+        "r": 1
+      }
+    }
+  ]
+}

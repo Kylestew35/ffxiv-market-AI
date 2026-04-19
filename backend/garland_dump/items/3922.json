@@ -1,0 +1,973 @@
+{
+  "item": {
+    "name": "Militia Caligae",
+    "jobCategories": "Disciple of War",
+    "id": 3922,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 10454,
+    "ilvl": 55,
+    "category": 38,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 65,
+    "rarity": 2,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 317,
+    "slot": 8,
+    "elvl": 50,
+    "jobs": 30,
+    "models": [
+      "8-109-0-0"
+    ],
+    "attr": {
+      "Defense": 110,
+      "Magic Defense": 110,
+      "Strength": 8,
+      "Dexterity": 8,
+      "Vitality": 10,
+      "Direct Hit Rate": 13,
+      "Critical Hit": 11
+    },
+    "attr_hq": {
+      "Defense": 122,
+      "Magic Defense": 122,
+      "Strength": 9,
+      "Dexterity": 9,
+      "Vitality": 11,
+      "Direct Hit Rate": 15
+    },
+    "attr_max": {
+      "Intelligence": 9,
+      "Mind": 7,
+      "Piety": 11,
+      "GP": 8,
+      "CP": 5,
+      "Tenacity": 15,
+      "Critical Hit": 15,
+      "Fire Resistance": 5,
+      "Ice Resistance": 5,
+      "Wind Resistance": 5,
+      "Earth Resistance": 5,
+      "Lightning Resistance": 5,
+      "Water Resistance": 5,
+      "Determination": 15,
+      "Skill Speed": 15,
+      "Spell Speed": 15,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 7,
+      "Control": 43,
+      "Gathering": 4,
+      "Perception": 41
+    },
+    "icon": 46851,
+    "sharedModels": [
+      3772,
+      3847,
+      3861,
+      3887,
+      6729,
+      13695,
+      13702,
+      31436
+    ],
+    "craft": [
+      {
+        "id": 1314,
+        "job": 12,
+        "rlvl": 55,
+        "durability": 80,
+        "quality": 2200,
+        "progress": 210,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 255,
+        "quickSynthControl": 318,
+        "ingredients": [
+          {
+            "id": 5288,
+            "amount": 1,
+            "quality": 403.33334
+          },
+          {
+            "id": 5095,
+            "amount": 1,
+            "quality": 403.33334
+          },
+          {
+            "id": 5322,
+            "amount": 1
+          },
+          {
+            "id": 11,
+            "amount": 3
+          },
+          {
+            "id": 10,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 218,
+          "hq": 238
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Hippogryph Leather",
+      "id": 5288,
+      "icon": 22021,
+      "category": 52,
+      "ilvl": 55,
+      "price": 980,
+      "craft": [
+        {
+          "id": 1305,
+          "job": 12,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5316,
+              "amount": 1
+            },
+            {
+              "id": 5525,
+              "amount": 1
+            },
+            {
+              "id": 11,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 109,
+            "hq": 129
+          }
+        }
+      ],
+      "desynthedFrom": [
+        8252,
+        7496,
+        7502,
+        7508,
+        5569,
+        8250
+      ]
+    },
+    {
+      "name": "Hippogryph Skin",
+      "id": 5316,
+      "icon": 21805,
+      "category": 52,
+      "ilvl": 55,
+      "price": 479,
+      "treasure": [
+        5316
+      ],
+      "instances": [
+        10,
+        10
+      ],
+      "drops": [
+        17400000001688,
+        23400000002276,
+        28270000002669,
+        17980000001444,
+        6450000000789
+      ]
+    },
+    {
+      "name": "Black Alumen",
+      "id": 5525,
+      "icon": 22604,
+      "category": 54,
+      "ilvl": 37,
+      "price": 189,
+      "ventures": [
+        145
+      ],
+      "nodes": [
+        49
+      ]
+    },
+    {
+      "name": "Darksteel Rivets",
+      "id": 5095,
+      "icon": 21003,
+      "category": 49,
+      "ilvl": 55,
+      "price": 1176,
+      "craft": [
+        {
+          "id": 1208,
+          "job": 9,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 50,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5061,
+              "amount": 1,
+              "quality": 880.0
+            },
+            {
+              "id": 8,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 108,
+            "hq": 128
+          }
+        },
+        {
+          "id": 1256,
+          "job": 10,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 50,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5061,
+              "amount": 1,
+              "quality": 880.0
+            },
+            {
+              "id": 9,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 108,
+            "hq": 128
+          }
+        }
+      ],
+      "desynthedFrom": [
+        15144,
+        23883,
+        10090
+      ]
+    },
+    {
+      "name": "Darksteel Nugget",
+      "id": 5061,
+      "icon": 20808,
+      "category": 49,
+      "ilvl": 55,
+      "price": 1089,
+      "craft": [
+        {
+          "id": 1207,
+          "job": 9,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5121,
+              "amount": 3
+            },
+            {
+              "id": 8,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        },
+        {
+          "id": 1254,
+          "job": 10,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5121,
+              "amount": 3
+            },
+            {
+              "id": 9,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        11090,
+        10506,
+        20356,
+        9227,
+        1880,
+        1741,
+        10444,
+        1811,
+        1671,
+        10469,
+        5565,
+        11097,
+        6499,
+        2869,
+        11105
+      ],
+      "treasure": [
+        6692
+      ]
+    },
+    {
+      "name": "Darksteel Ore",
+      "id": 5121,
+      "icon": 21205,
+      "category": 48,
+      "ilvl": 55,
+      "price": 326,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5121",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        510
+      ],
+      "nodes": [
+        222
+      ]
+    },
+    {
+      "name": "Raptor Sinew",
+      "id": 5322,
+      "icon": 21005,
+      "category": 52,
+      "ilvl": 40,
+      "price": 337,
+      "desynthedFrom": [
+        7508,
+        7496,
+        7502
+      ],
+      "treasure": [
+        6691
+      ],
+      "ventures": [
+        57
+      ],
+      "drops": [
+        27760000002659,
+        20000000412,
+        20000000411,
+        24370000002375,
+        530000000130,
+        20000000002
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5316",
+      "obj": {
+        "i": 5316,
+        "n": "Hippogryph Skin",
+        "l": 55,
+        "c": 21805,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5525",
+      "obj": {
+        "i": 5525,
+        "n": "Black Alumen",
+        "l": 37,
+        "c": 22604,
+        "t": 54
+      }
+    },
+    {
+      "type": "instance",
+      "id": "10",
+      "obj": {
+        "i": 10,
+        "n": "The Wanderer's Palace",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "mob",
+      "id": "6450000000789",
+      "obj": {
+        "i": 6450000000789,
+        "n": "Hippogryph",
+        "l": "46",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17980000001444",
+      "obj": {
+        "i": 17980000001444,
+        "n": "Gwyllgi",
+        "l": "46",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17400000001688",
+      "obj": {
+        "i": 17400000001688,
+        "n": "Recluse Hippogryph",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "23400000002276",
+      "obj": {
+        "i": 23400000002276,
+        "n": "Pit Hippogryph",
+        "l": "50",
+        "z": 48
+      }
+    },
+    {
+      "type": "mob",
+      "id": "28270000002669",
+      "obj": {
+        "i": 28270000002669,
+        "n": "Crossing Hippocerf",
+        "l": "50",
+        "z": 386
+      }
+    },
+    {
+      "type": "node",
+      "id": "49",
+      "obj": {
+        "i": 49,
+        "n": "Urth's Gift",
+        "l": 40,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "5061",
+      "obj": {
+        "i": 5061,
+        "n": "Darksteel Nugget",
+        "l": 55,
+        "c": 20808,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "5121",
+      "obj": {
+        "i": 5121,
+        "n": "Darksteel Ore",
+        "l": 55,
+        "c": 21205,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "222",
+      "obj": {
+        "i": 222,
+        "n": "Dragonhead",
+        "l": 50,
+        "t": 0,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20000000002",
+      "obj": {
+        "i": 20000000002,
+        "n": "Ruins Runner",
+        "l": "50",
+        "z": 404
+      }
+    },
+    {
+      "type": "mob",
+      "id": "530000000130",
+      "obj": {
+        "i": 530000000130,
+        "n": "Lindwurm",
+        "l": "28 - 33",
+        "z": 54
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20000000411",
+      "obj": {
+        "i": 20000000411,
+        "n": "Grass Raptor",
+        "l": "32",
+        "z": 32
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20000000412",
+      "obj": {
+        "i": 20000000412,
+        "n": "Velociraptor",
+        "l": "34",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "24370000002375",
+      "obj": {
+        "i": 24370000002375,
+        "n": "Territorial Raptor",
+        "l": "36",
+        "z": 34
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27760000002659",
+      "obj": {
+        "i": 27760000002659,
+        "n": "Eoraptor",
+        "l": "50",
+        "z": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "3772",
+      "obj": {
+        "i": 3772,
+        "n": "Hard Leather Caligae",
+        "l": 12,
+        "c": 49811,
+        "t": 38,
+        "p": 430
+      }
+    },
+    {
+      "type": "item",
+      "id": "3847",
+      "obj": {
+        "i": 3847,
+        "n": "Steel-plated Caligae",
+        "l": 37,
+        "c": 49823,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "3861",
+      "obj": {
+        "i": 3861,
+        "n": "Mythril-plated Caligae",
+        "l": 42,
+        "c": 49824,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "3887",
+      "obj": {
+        "i": 3887,
+        "n": "Cobalt-plated Caligae",
+        "l": 47,
+        "c": 49825,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "6729",
+      "obj": {
+        "i": 6729,
+        "n": "War Caligae",
+        "l": 60,
+        "c": 46897,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13695",
+      "obj": {
+        "i": 13695,
+        "n": "Scion Thief's Armored Caligae",
+        "l": 1,
+        "c": 47033,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13702",
+      "obj": {
+        "i": 13702,
+        "n": "Scion Chronocler's Caligae",
+        "l": 1,
+        "c": 46571,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "31436",
+      "obj": {
+        "i": 31436,
+        "n": "Doctore's Caligae",
+        "l": 22,
+        "c": 49901,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "5288",
+      "obj": {
+        "i": 5288,
+        "n": "Hippogryph Leather",
+        "l": 55,
+        "c": 22021,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5095",
+      "obj": {
+        "i": 5095,
+        "n": "Darksteel Rivets",
+        "l": 55,
+        "c": 21003,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "5322",
+      "obj": {
+        "i": 5322,
+        "n": "Raptor Sinew",
+        "l": 40,
+        "c": 21005,
+        "t": 52
+      }
+    }
+  ]
+}

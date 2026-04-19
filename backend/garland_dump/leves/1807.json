@@ -1,0 +1,145 @@
+{
+  "leve": {
+    "name": "Hungry Hungry Whalaqee",
+    "description": "My magicks allow me to summon phantasms of fish I consume in their entirety. Needless to say, I have partaken of many a piscatory dish, but not always in pursuit of acquiring arcane prowess─sometimes, I'm simply hungry. A species replete with rejuvenating energies is known to meander the depths of <span class=\"highlight\">northern Lake Toari</span>. Perhaps you could fetch enough to satisfy my appetite.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1807,
+    "patch": 7.0,
+    "client": "Whalaqee Mage, Pashenine",
+    "lvl": 98,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      18.11,
+      13.43
+    ],
+    "zoneid": 4508,
+    "areaid": 4508,
+    "xp": 7606049,
+    "gil": 2660,
+    "rewards": 810,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110202,
+    "requires": [
+      {
+        "item": 43843,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 810,
+    "entries": [
+      {
+        "item": 21072,
+        "rate": 0.5
+      },
+      {
+        "item": 43850,
+        "rate": 0.25,
+        "amount": 3
+      },
+      {
+        "item": 43852,
+        "rate": 0.25,
+        "amount": 3
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Warmouth",
+      "id": 43843,
+      "icon": 28657,
+      "category": 47,
+      "ilvl": 680,
+      "price": 99999,
+      "nodes": [
+        1011
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "1011",
+      "obj": {
+        "i": 1011,
+        "n": "Northern Lake Toari",
+        "l": 100,
+        "t": 5,
+        "z": 4508
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1807",
+      "obj": {
+        "i": 1807,
+        "n": "Hungry Hungry Whalaqee",
+        "l": 98,
+        "j": 19,
+        "p": 4508
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43850",
+      "obj": {
+        "i": 43850,
+        "n": "Crimson Lugworm",
+        "l": 620,
+        "c": 27103,
+        "t": 33,
+        "p": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "43852",
+      "obj": {
+        "i": 43852,
+        "n": "Honeybee",
+        "l": 655,
+        "c": 27105,
+        "t": 33,
+        "p": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43843",
+      "obj": {
+        "i": 43843,
+        "n": "Warmouth",
+        "l": 680,
+        "c": 28657,
+        "t": 47
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "item": {
+    "name": "Black Coeurl",
+    "description": "Beware, for if one should cross your path, you will experience seven years of...AWWWWWW.<br><br>Use item to acquire the black coeurl minion.",
+    "minionrace": "Critter",
+    "tooltip": "Look what the\r\ncoeurl dragged in.\r\n  - Momodi",
+    "minionskilltype": "Dismantling",
+    "specialactionname": "Tiny Claw",
+    "specialactiondescription": "Delivers 5% damage to the nearest enemy Arcana Stone.",
+    "id": 6181,
+    "patch": 2.51,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59514,
+    "tradeShops": [
+      {
+        "shop": "Purchase Minions (MGP)",
+        "npcs": [
+          1011595
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6181",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 20000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6181",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 20000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 380,
+      "Skill Cost": 30,
+      "Attack": 60,
+      "Defense": 40,
+      "Speed": 4
+    },
+    "models": [
+      "8013-1-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011595",
+      "obj": {
+        "i": 1011595,
+        "n": "Minion Trader",
+        "l": 1484,
+        "s": 2,
+        "r": 1,
+        "a": 1663,
+        "c": [
+          7.77,
+          7.02
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    }
+  ]
+}

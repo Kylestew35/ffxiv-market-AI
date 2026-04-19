@@ -1,0 +1,106 @@
+{
+  "item": {
+    "name": "Aluminum Ore",
+    "description": "A sizable piece of rock containing traces of the metal aluminum.",
+    "id": 32945,
+    "patch": 5.4,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 510,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21206,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32945",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32945",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "32935": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "32935",
+      "obj": {
+        "i": 32935,
+        "n": "Duraluminum Ingot",
+        "l": 510,
+        "c": 20802,
+        "t": 49
+      }
+    }
+  ]
+}

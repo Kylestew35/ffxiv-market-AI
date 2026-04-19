@@ -1,0 +1,414 @@
+{
+  "item": {
+    "name": "Silver Rings",
+    "description": "Tiny loops of silver wire.",
+    "id": 5088,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 241,
+    "ilvl": 24,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20911,
+    "craft": [
+      {
+        "id": 727,
+        "job": 11,
+        "rlvl": 24,
+        "durability": 40,
+        "quality": 504,
+        "progress": 42,
+        "lvl": 24,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5064,
+            "amount": 1,
+            "quality": 252.0
+          },
+          {
+            "id": 4,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 62,
+          "hq": 82
+        }
+      }
+    ],
+    "ingredient_of": {
+      "4103": 2,
+      "4105": 2
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Silver Ingot",
+      "id": 5064,
+      "icon": 20810,
+      "category": 49,
+      "ilvl": 23,
+      "price": 176,
+      "craft": [
+        {
+          "id": 725,
+          "job": 11,
+          "rlvl": 23,
+          "durability": 40,
+          "quality": 480,
+          "progress": 39,
+          "lvl": 23,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5113,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        9530,
+        4462
+      ],
+      "treasure": [
+        6688,
+        6689
+      ]
+    },
+    {
+      "name": "Silver Ore",
+      "id": 5113,
+      "icon": 21211,
+      "category": 48,
+      "ilvl": 23,
+      "price": 52,
+      "voyages": [
+        {
+          "id": 16,
+          "type": 0
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5113",
+                  "amount": 8
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "ventures": [
+        108
+      ],
+      "nodes": [
+        47
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5113",
+      "obj": {
+        "i": 5113,
+        "n": "Silver Ore",
+        "l": 23,
+        "c": 21211,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5064",
+      "obj": {
+        "i": 5064,
+        "n": "Silver Ingot",
+        "l": 23,
+        "c": 20810,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "4103",
+      "obj": {
+        "i": 4103,
+        "n": "Silver Wristlets",
+        "l": 26,
+        "c": 55603,
+        "t": 42,
+        "p": 1695
+      }
+    },
+    {
+      "type": "item",
+      "id": "4105",
+      "obj": {
+        "i": 4105,
+        "n": "Silver Wristlets of Crafting",
+        "l": 26,
+        "c": 55603,
+        "t": 42,
+        "p": 1695
+      }
+    }
+  ]
+}

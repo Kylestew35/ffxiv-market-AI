@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Blunderous Framer's Kit",
+    "description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for a true-blue Blunderville competitor.<br>Includes Portrait Elements: Background, Frame, Accent<br>Includes Plate Elements: Base Plate, Backing, Top Border",
+    "id": 41378,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26625,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1046441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41378",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41629",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1046441",
+      "obj": {
+        "i": 1046441,
+        "n": "MGF Trader",
+        "l": 4468,
+        "s": 1,
+        "t": "Prize Claim",
+        "r": 1,
+        "c": [
+          3.85,
+          3.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41629",
+      "obj": {
+        "i": 41629,
+        "n": "MGF",
+        "l": 1,
+        "c": "t/65106",
+        "t": 100
+      }
+    }
+  ]
+}

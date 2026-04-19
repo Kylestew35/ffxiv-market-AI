@@ -1,0 +1,569 @@
+{
+  "item": {
+    "name": "Saffron Cloth",
+    "description": "Finely woven cloth dyed a vibrant orange with gardenia fruit, rather than the expensive spice after which the color was named.",
+    "id": 32937,
+    "patch": 5.4,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 510,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21623,
+    "ingredient_of": {
+      "31834": 2,
+      "31835": 1,
+      "31840": 2,
+      "31841": 1,
+      "31843": 2,
+      "31844": 2,
+      "31845": 1,
+      "31846": 2,
+      "31849": 2,
+      "31850": 2,
+      "31851": 1,
+      "31852": 2,
+      "31855": 2,
+      "31856": 2,
+      "31857": 1,
+      "31858": 2,
+      "31861": 1,
+      "31862": 2,
+      "31863": 2,
+      "31865": 2,
+      "31867": 1,
+      "31869": 1,
+      "33655": 3,
+      "33656": 1,
+      "33657": 3,
+      "33659": 3,
+      "33660": 4,
+      "33661": 3,
+      "36011": 1,
+      "36012": 2
+    },
+    "craft": [
+      {
+        "id": 34580,
+        "job": 13,
+        "rlvl": 510,
+        "durability": 35,
+        "quality": 7125,
+        "progress": 2340,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2540,
+        "craftsmanshipReq": 2620,
+        "quickSynthCraftsmanship": 2900,
+        "unlockId": 29489,
+        "ingredients": [
+          {
+            "id": 32953,
+            "amount": 4
+          },
+          {
+            "id": 32947,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 516,
+          "hq": 536
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raindrop Cotton Boll",
+      "id": 32953,
+      "icon": 25040,
+      "category": 51,
+      "ilvl": 510,
+      "price": 3154,
+      "ventures": [
+        891
+      ],
+      "nodes": [
+        763
+      ]
+    },
+    {
+      "name": "Gardenia Fruit",
+      "id": 32947,
+      "icon": 25318,
+      "category": 54,
+      "ilvl": 510,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "32947",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "32947",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "763",
+      "obj": {
+        "i": 763,
+        "n": "The Isle of Consorts",
+        "l": 80,
+        "t": 3,
+        "z": 2957,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "31834",
+      "obj": {
+        "i": 31834,
+        "n": "Exarchic Hose of Fending",
+        "l": 510,
+        "c": 47769,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31835",
+      "obj": {
+        "i": 31835,
+        "n": "Exarchic Sabatons of Fending",
+        "l": 510,
+        "c": 47255,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "31840",
+      "obj": {
+        "i": 31840,
+        "n": "Exarchic Hose of Maiming",
+        "l": 510,
+        "c": 47771,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31841",
+      "obj": {
+        "i": 31841,
+        "n": "Exarchic Sabatons of Maiming",
+        "l": 510,
+        "c": 47256,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "31843",
+      "obj": {
+        "i": 31843,
+        "n": "Exarchic Hood of Striking",
+        "l": 510,
+        "c": 41804,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31844",
+      "obj": {
+        "i": 31844,
+        "n": "Exarchic Top of Striking",
+        "l": 510,
+        "c": 43547,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31845",
+      "obj": {
+        "i": 31845,
+        "n": "Exarchic Armguards of Striking",
+        "l": 510,
+        "c": 48845,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31846",
+      "obj": {
+        "i": 31846,
+        "n": "Exarchic Bottoms of Striking",
+        "l": 510,
+        "c": 47772,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31849",
+      "obj": {
+        "i": 31849,
+        "n": "Exarchic Hood of Aiming",
+        "l": 510,
+        "c": 41805,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31850",
+      "obj": {
+        "i": 31850,
+        "n": "Exarchic Top of Aiming",
+        "l": 510,
+        "c": 43548,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31851",
+      "obj": {
+        "i": 31851,
+        "n": "Exarchic Armguards of Aiming",
+        "l": 510,
+        "c": 48846,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31852",
+      "obj": {
+        "i": 31852,
+        "n": "Exarchic Bottoms of Aiming",
+        "l": 510,
+        "c": 47773,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31855",
+      "obj": {
+        "i": 31855,
+        "n": "Exarchic Hood of Scouting",
+        "l": 510,
+        "c": 41806,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31856",
+      "obj": {
+        "i": 31856,
+        "n": "Exarchic Top of Scouting",
+        "l": 510,
+        "c": 43549,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31857",
+      "obj": {
+        "i": 31857,
+        "n": "Exarchic Armguards of Scouting",
+        "l": 510,
+        "c": 48847,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31858",
+      "obj": {
+        "i": 31858,
+        "n": "Exarchic Bottoms of Scouting",
+        "l": 510,
+        "c": 47774,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31861",
+      "obj": {
+        "i": 31861,
+        "n": "Exarchic Circlet of Healing",
+        "l": 510,
+        "c": 40867,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31862",
+      "obj": {
+        "i": 31862,
+        "n": "Exarchic Coat of Healing",
+        "l": 510,
+        "c": 43929,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31863",
+      "obj": {
+        "i": 31863,
+        "n": "Exarchic Gloves of Healing",
+        "l": 510,
+        "c": 44829,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31865",
+      "obj": {
+        "i": 31865,
+        "n": "Exarchic Shoes of Healing",
+        "l": 510,
+        "c": 49298,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "31867",
+      "obj": {
+        "i": 31867,
+        "n": "Exarchic Hat of Casting",
+        "l": 510,
+        "c": 41516,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31869",
+      "obj": {
+        "i": 31869,
+        "n": "Exarchic Gloves of Casting",
+        "l": 510,
+        "c": 44828,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29489",
+      "obj": {
+        "i": 29489,
+        "n": "Master Weaver VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "32953",
+      "obj": {
+        "i": 32953,
+        "n": "Raindrop Cotton Boll",
+        "l": 510,
+        "c": 25040,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "32947",
+      "obj": {
+        "i": 32947,
+        "n": "Gardenia Fruit",
+        "l": 510,
+        "c": 25318,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33655",
+      "obj": {
+        "i": 33655,
+        "n": "Frontier Hat",
+        "l": 1,
+        "c": 41826,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "33656",
+      "obj": {
+        "i": 33656,
+        "n": "Frontier Jacket",
+        "l": 1,
+        "c": 42739,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "33657",
+      "obj": {
+        "i": 33657,
+        "n": "Frontier Trousers",
+        "l": 1,
+        "c": 47802,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "33659",
+      "obj": {
+        "i": 33659,
+        "n": "Frontier Ribbon",
+        "l": 1,
+        "c": 41825,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "33660",
+      "obj": {
+        "i": 33660,
+        "n": "Frontier Dress",
+        "l": 1,
+        "c": 42738,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "33661",
+      "obj": {
+        "i": 33661,
+        "n": "Frontier Dress Gloves",
+        "l": 1,
+        "c": 44852,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "36011",
+      "obj": {
+        "i": 36011,
+        "n": "Barding of Eternal Darkness",
+        "l": 1,
+        "c": 58749,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36012",
+      "obj": {
+        "i": 36012,
+        "n": "Barding of Divine Light",
+        "l": 1,
+        "c": 58752,
+        "t": 63
+      }
+    }
+  ]
+}

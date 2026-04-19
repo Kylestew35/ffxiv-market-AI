@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Restaurant-grade Supply Materials",
+    "description": "Raw materials for certain supplies included in Dickon's list.<br><br>※Only for use in Loporrit society quests.",
+    "id": 38846,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "38847": 1
+    },
+    "usedInQuest": [
+      70219
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "38847",
+      "obj": {
+        "i": 38847,
+        "n": "Restaurant-grade Supplies",
+        "l": 430,
+        "c": 21012,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70219",
+      "obj": {
+        "i": 70219,
+        "n": "Too Few Cooks",
+        "g": 72,
+        "l": "Mare Lamentorum",
+        "s": 3,
+        "f": 1
+      }
+    }
+  ]
+}

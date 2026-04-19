@@ -1,0 +1,70 @@
+{
+  "item": {
+    "name": "Grade 3 Feed - Special Stamina Blend",
+    "description": "A secret blend of cereals and leafy greens believed to significantly improve a race chocobo's stamina.",
+    "id": 9629,
+    "patch": 2.51,
+    "patchCategory": 5,
+    "price": 12000,
+    "ilvl": 90,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 2,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27560,
+    "tradeShops": [
+      {
+        "shop": "Race Items",
+        "npcs": [
+          1010488
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9629",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 1345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010488",
+      "obj": {
+        "i": 1010488,
+        "n": "Tack & Feed Trader",
+        "l": 1484,
+        "s": 4,
+        "r": 1,
+        "a": 1501,
+        "c": [
+          5.97,
+          4.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

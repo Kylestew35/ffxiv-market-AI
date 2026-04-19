@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Aetherial Sealant",
+    "description": "A compound whose primary ingredient, aetherial siltstone, was said to have been used to fashion crystal foci in ancient Bozja.",
+    "id": 32960,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22671,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Special Arms)",
+        "npcs": [
+          1008119,
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32960",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

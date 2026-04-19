@@ -1,0 +1,98 @@
+{
+  "item": {
+    "name": "Unbowed Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Unbowed</span>. Use to add to your orchestrion list.",
+    "id": 36367,
+    "patch": 6.0,
+    "patchCategory": 16,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 495,
+      "name": "Unbowed",
+      "description": "Available for exchange in Old Sharlayan and Radz-at-Han.",
+      "category": "Locales II",
+      "order": 33
+    },
+    "tradeShops": [
+      {
+        "shop": "Sacks of Nuts Exchange",
+        "npcs": [
+          1037059,
+          1037312
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36367",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 300
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037059",
+      "obj": {
+        "i": 1037059,
+        "n": "J'lakshai",
+        "l": 3706,
+        "s": 5,
+        "q": 3,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          11.96,
+          13.3
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037312",
+      "obj": {
+        "i": 1037312,
+        "n": "Wilmetta",
+        "l": 3707,
+        "s": 5,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3874,
+        "c": [
+          10.53,
+          7.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

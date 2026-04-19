@@ -1,0 +1,166 @@
+{
+  "item": {
+    "name": "Lavender Oil",
+    "description": "Lavender-infused cooking oil.",
+    "id": 4858,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 12,
+    "ilvl": 15,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25452,
+    "craft": [
+      {
+        "id": 938,
+        "job": 15,
+        "rlvl": 16,
+        "durability": 40,
+        "quality": 312,
+        "progress": 31,
+        "lvl": 16,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5539,
+            "amount": 4
+          },
+          {
+            "id": 2,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 40,
+          "hq": 60
+        }
+      }
+    ],
+    "ingredient_of": {
+      "4691": 1,
+      "4677": 1,
+      "6593": 1,
+      "8798": 8,
+      "9737": 4
+    },
+    "requiredByLeves": [
+      282
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Lavender",
+      "id": 5539,
+      "icon": 25002,
+      "category": 54,
+      "ilvl": 11,
+      "price": 12,
+      "ventures": [
+        192
+      ],
+      "nodes": [
+        21
+      ],
+      "seeds": [
+        7736
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Bentbranch",
+        "l": 15,
+        "t": 3,
+        "z": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5539",
+      "obj": {
+        "i": 5539,
+        "n": "Lavender",
+        "l": 11,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "4691",
+      "obj": {
+        "i": 4691,
+        "n": "Forest Miq'abob",
+        "l": 30,
+        "c": 24201,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4677",
+      "obj": {
+        "i": 4677,
+        "n": "Ratatouille",
+        "l": 37,
+        "c": 24108,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "6593",
+      "obj": {
+        "i": 6593,
+        "n": "Oasis Bathtub",
+        "l": 50,
+        "c": 52445,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "8798",
+      "obj": {
+        "i": 8798,
+        "n": "Incensory",
+        "l": 90,
+        "c": 53045,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "9737",
+      "obj": {
+        "i": 9737,
+        "n": "Order of Nald'thal Lectern",
+        "l": 110,
+        "c": 51641,
+        "t": 77
+      }
+    },
+    {
+      "type": "leve",
+      "id": "282",
+      "obj": {
+        "i": 282,
+        "n": "Sweet Smell of Success",
+        "l": 15,
+        "j": 16,
+        "p": 223
+      }
+    }
+  ]
+}

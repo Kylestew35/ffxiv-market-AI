@@ -1,0 +1,471 @@
+{
+  "item": {
+    "name": "Grilled Platinum Bream",
+    "description": "A single platinum bream, seasoned simply with rock salt and grilled to a golden brown to seal in all the juices.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27859,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3453,
+    "ilvl": 400,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 27,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 41
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 46
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 51
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 57
+        }
+      }
+    },
+    "icon": 24301,
+    "craft": [
+      {
+        "id": 3889,
+        "job": 15,
+        "rlvl": 400,
+        "durability": 80,
+        "quality": 3900,
+        "progress": 1290,
+        "lvl": 73,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27525,
+            "amount": 3
+          },
+          {
+            "id": 12901,
+            "amount": 3
+          },
+          {
+            "id": 8,
+            "amount": 6
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 157,
+          "hq": 177
+        }
+      }
+    ],
+    "quests": [
+      68966,
+      68971,
+      68986,
+      68995
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 831000,
+      "seals": 823
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Platinum Bream",
+      "id": 27525,
+      "icon": 28428,
+      "category": 47,
+      "ilvl": 395,
+      "price": 240,
+      "fishingSpots": [
+        206
+      ],
+      "nodes": [
+        636,
+        645
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "636",
+      "obj": {
+        "i": 636,
+        "n": "The Isle of Ken",
+        "l": 75,
+        "t": 5,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "645",
+      "obj": {
+        "i": 645,
+        "n": "Eastern Isle of Ken",
+        "l": 75,
+        "t": 5,
+        "z": 2953,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "206",
+      "obj": {
+        "i": 206,
+        "n": "The Isle of Ken",
+        "l": 75,
+        "c": 1,
+        "z": 2953,
+        "x": 9.21,
+        "y": 37.64
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27525",
+      "obj": {
+        "i": 27525,
+        "n": "Platinum Bream",
+        "l": 395,
+        "c": 28428,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68966",
+      "obj": {
+        "i": 68966,
+        "n": "The Key Ingredient",
+        "g": 136,
+        "l": "Il Mheg",
+        "s": 3201
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68971",
+      "obj": {
+        "i": 68971,
+        "n": "Lofty Goals",
+        "g": 133,
+        "l": "Lakeland",
+        "s": 4001
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68986",
+      "obj": {
+        "i": 68986,
+        "n": "Oh, Snap",
+        "g": 137,
+        "l": "The Rak'tika Greatwood",
+        "s": 4160
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68995",
+      "obj": {
+        "i": 68995,
+        "n": "Her True Calling",
+        "g": 133,
+        "l": "Lakeland",
+        "s": 4060
+      }
+    }
+  ]
+}

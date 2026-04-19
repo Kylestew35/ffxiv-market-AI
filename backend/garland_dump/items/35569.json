@@ -1,0 +1,341 @@
+{
+  "item": {
+    "name": "Fluffy Pancakes",
+    "description": "A two-tiered treat served with butter, powdered sugar, and a side of maple syrup.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Determination Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 35569,
+    "patch": 6.0,
+    "patchCategory": 9,
+    "price": 99999,
+    "ilvl": 540,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53422,
+    "craft": [
+      {
+        "id": 5369,
+        "job": 15,
+        "rlvl": 540,
+        "durability": 80,
+        "quality": 6800,
+        "progress": 3100,
+        "lvl": 86,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 27842,
+            "amount": 1,
+            "quality": 484.85492
+          },
+          {
+            "id": 27841,
+            "amount": 2,
+            "quality": 484.85492
+          },
+          {
+            "id": 36095,
+            "amount": 1
+          },
+          {
+            "id": 36256,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 394,
+          "hq": 414
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1086"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Golden Honey",
+      "id": 27842,
+      "icon": 25102,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3881,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27834,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "leves": [
+        1469,
+        1470,
+        1471
+      ]
+    },
+    {
+      "name": "Gianthive Chip",
+      "id": 27834,
+      "icon": 22611,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "ventures": [
+        813
+      ],
+      "nodes": [
+        615
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Elder Nutmeg Seeds",
+      "id": 36095,
+      "icon": 25021,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "ventures": [
+        928
+      ],
+      "nodes": [
+        844
+      ]
+    },
+    {
+      "name": "Egg of Elpis",
+      "id": 36256,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36256",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1644,
+        1645
+      ],
+      "ventures": [
+        945
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27834",
+      "obj": {
+        "i": 27834,
+        "n": "Gianthive Chip",
+        "l": 406,
+        "c": 22611,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "615",
+      "obj": {
+        "i": 615,
+        "n": "Woven Oath",
+        "l": 75,
+        "t": 2,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "844",
+      "obj": {
+        "i": 844,
+        "n": "Southerly Zephyrneus",
+        "l": 90,
+        "t": 2,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27842",
+      "obj": {
+        "i": 27842,
+        "n": "Golden Honey",
+        "l": 403,
+        "c": 25102,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36095",
+      "obj": {
+        "i": 36095,
+        "n": "Elder Nutmeg Seeds",
+        "l": 539,
+        "c": 25021,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36256",
+      "obj": {
+        "i": 36256,
+        "n": "Egg of Elpis",
+        "l": 539,
+        "c": 25251,
+        "t": 45
+      }
+    }
+  ]
+}

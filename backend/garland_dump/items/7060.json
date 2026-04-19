@@ -1,0 +1,211 @@
+{
+  "item": {
+    "name": "Durability Draught",
+    "description": "This concoction reduces the rate at which your equipment undergoes wear.<br><br><span class=\"highlight-green\">Duration:</span> 180m",
+    "id": 7060,
+    "patch": 2.2,
+    "patchCategory": 4,
+    "price": 792,
+    "ilvl": 45,
+    "category": 44,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Reduced Durability Loss": 30
+      }
+    },
+    "icon": 20644,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7060",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7060",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 1000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7060",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      65960,
+      66897,
+      67262
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65960",
+      "obj": {
+        "i": 65960,
+        "n": "The Least among Us",
+        "g": 2,
+        "l": "South Shroud",
+        "s": 96
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66897",
+      "obj": {
+        "i": 66897,
+        "n": "Lord of the Whorl",
+        "g": 2,
+        "l": "Lower La Noscea",
+        "s": 36
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67262",
+      "obj": {
+        "i": 67262,
+        "n": "Remembering Ishgard",
+        "g": 116,
+        "l": "Ishgard",
+        "s": 5001
+      }
+    }
+  ]
+}

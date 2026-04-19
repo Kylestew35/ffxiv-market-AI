@@ -1,0 +1,45 @@
+{
+  "item": {
+    "name": "Starlight Bear Horn",
+    "description": "A decorated horn used to summon a bear specially trained for the Starlight Celebration.",
+    "mount": {
+      "name": "Starlight Bear",
+      "action": "Summon forth your Starlight bear, and delight the younglings to no end.",
+      "description": "Unlike his wild cousins, <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> the bear can be relied upon to delight folk rather than tear them apart. Raised from a cub by Celebrant Baenfaeld, he has mastered the art of Starburst-lobbing, a skill that proved useful in hunting down thieving treants.",
+      "tooltip": "I never knew bears<br>could be so adorable!<br>   - Festival-goer",
+      "icon": 4102,
+      "guideIcon": 68102
+    },
+    "id": 21050,
+    "patch": 4.1,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "models": [
+      "176-6-1"
+    ],
+    "quests": [
+      68546
+    ]
+  },
+  "partials": [
+    {
+      "type": "quest",
+      "id": "68546",
+      "obj": {
+        "i": 68546,
+        "n": "Starlight Stakeout",
+        "g": 247,
+        "l": "Central Shroud",
+        "s": 148
+      }
+    }
+  ]
+}

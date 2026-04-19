@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Alnairan Salmon",
+    "description": "A migratory fish that is sometimes found wandering the coasts of Alnair.<br><br>※Not included in the fish guide.",
+    "id": 35849,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 560,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 29282,
+    "usedInQuest": [
+      69700
+    ],
+    "fish": {
+      "spots": [
+        {
+          "spot": 266,
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "note": "31+ seconds (Lv. 85 quest)",
+          "baits": [
+            [
+              36589
+            ],
+            [
+              29717
+            ]
+          ]
+        }
+      ]
+    },
+    "fishingSpots": [
+      266
+    ]
+  },
+  "partials": [
+    {
+      "type": "quest",
+      "id": "69700",
+      "obj": {
+        "i": 69700,
+        "n": "The Wandering Whale",
+        "g": 207,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "266",
+      "obj": {
+        "i": 266,
+        "n": "Ksiroda",
+        "l": 85,
+        "c": 1,
+        "z": 3709,
+        "x": 30.59,
+        "y": 21.38
+      }
+    },
+    {
+      "type": "item",
+      "id": "36589",
+      "obj": {
+        "i": 36589,
+        "n": "Leech",
+        "l": 510,
+        "c": 27045,
+        "t": 33,
+        "p": 70
+      }
+    },
+    {
+      "type": "item",
+      "id": "29717",
+      "obj": {
+        "i": 29717,
+        "n": "Versatile Lure",
+        "l": 1,
+        "c": 27051,
+        "t": 33,
+        "p": 300
+      }
+    }
+  ]
+}

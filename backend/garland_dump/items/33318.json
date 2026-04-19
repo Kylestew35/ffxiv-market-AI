@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Steel Razor",
+    "description": "A king among razorfish, and lord of the waters off the western Kholusian coast.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Cutting vertically through the ocean like the blade it so resembles, this steel-hued wavekin can─once its stiffened husk has been dried and sharpened─be put to actual use as a surprisingly effective razor.",
+      "icon": 78037,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 211,
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2150,
+          "baits": [
+            [
+              27583
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33318,
+    "patch": 5.5,
+    "patchCategory": 7,
+    "price": 2000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28037,
+    "fishingSpots": [
+      211
+    ],
+    "desynthedTo": [
+      32949,
+      26729
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "211",
+      "obj": {
+        "i": 211,
+        "n": "The Western Kholusian Coast",
+        "l": 72,
+        "c": 0,
+        "z": 2954,
+        "x": 8.41,
+        "y": 35.23
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27583",
+      "obj": {
+        "i": 27583,
+        "n": "Moyebi Shrimp",
+        "l": 330,
+        "c": 27037,
+        "t": 33,
+        "p": 64
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26729",
+      "obj": {
+        "i": 26729,
+        "n": "Savage Aim Materia VIII",
+        "l": 420,
+        "c": 20279,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

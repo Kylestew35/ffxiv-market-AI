@@ -1,0 +1,853 @@
+{
+  "item": {
+    "name": "Vintage Guisarme",
+    "jobCategories": "LNC DRG",
+    "id": 1871,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 14850,
+    "ilvl": 50,
+    "category": 5,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 107,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "equip": 1,
+    "sockets": 3,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 47,
+    "jobs": 47,
+    "models": [
+      "501-6-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 51,
+      "Magic Damage": 26,
+      "Delay": 2.96,
+      "Strength": 12,
+      "Vitality": 15,
+      "Direct Hit Rate": 22
+    },
+    "attr_hq": {
+      "Physical Damage": 57,
+      "Magic Damage": 29,
+      "Strength": 13,
+      "Vitality": 17,
+      "Direct Hit Rate": 24
+    },
+    "attr_max": {
+      "Dexterity": 12,
+      "Intelligence": 12,
+      "Mind": 12,
+      "Piety": 21,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 24,
+      "Critical Hit": 24,
+      "Fire Resistance": 6,
+      "Ice Resistance": 6,
+      "Wind Resistance": 6,
+      "Earth Resistance": 6,
+      "Lightning Resistance": 6,
+      "Water Resistance": 6,
+      "Determination": 24,
+      "Skill Speed": 24,
+      "Spell Speed": 24,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 111,
+      "Control": 63,
+      "Gathering": 116,
+      "Perception": 66
+    },
+    "icon": 31817,
+    "sharedModels": [
+      1833,
+      1840,
+      1853,
+      1861,
+      1869,
+      1872,
+      6742,
+      31423
+    ],
+    "craft": [
+      {
+        "id": 1523,
+        "job": 8,
+        "rlvl": 45,
+        "durability": 80,
+        "quality": 1700,
+        "progress": 158,
+        "lvl": 45,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 1840,
+            "amount": 1
+          },
+          {
+            "id": 5367,
+            "amount": 1,
+            "quality": 115.254234
+          },
+          {
+            "id": 5260,
+            "amount": 1,
+            "quality": 216.1017
+          },
+          {
+            "id": 5505,
+            "amount": 1,
+            "quality": 216.1017
+          },
+          {
+            "id": 9,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 104,
+          "hq": 124
+        }
+      }
+    ],
+    "downgrades": [
+      1867,
+      1864
+    ],
+    "upgrades": [
+      10604,
+      23926
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Crooked Guisarme",
+      "id": 1840,
+      "icon": 31822,
+      "category": 5,
+      "ilvl": 42,
+      "price": 4398,
+      "desynthedFrom": [
+        7928
+      ],
+      "leves": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        656,
+        657,
+        658,
+        659,
+        660,
+        661
+      ],
+      "vendors": [
+        1003267,
+        1003270
+      ]
+    },
+    {
+      "name": "Elm Lumber",
+      "id": 5367,
+      "icon": 22457,
+      "category": 50,
+      "ilvl": 16,
+      "price": 78,
+      "craft": [
+        {
+          "id": 1037,
+          "job": 8,
+          "rlvl": 16,
+          "durability": 40,
+          "quality": 312,
+          "progress": 31,
+          "lvl": 16,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5385,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 34,
+            "hq": 54
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6348,
+        6357,
+        6365,
+        9531,
+        6383,
+        31426
+      ],
+      "vendors": [
+        1005633,
+        1005640,
+        1005647,
+        1019101,
+        1039487,
+        1009205
+      ]
+    },
+    {
+      "name": "Elm Log",
+      "id": 5385,
+      "icon": 22405,
+      "category": 50,
+      "ilvl": 16,
+      "price": 22,
+      "leves": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "ventures": [
+        190
+      ],
+      "nodes": [
+        17
+      ]
+    },
+    {
+      "name": "Siltstone Whetstone",
+      "id": 5260,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "craft": [
+        {
+          "id": 763,
+          "job": 11,
+          "rlvl": 30,
+          "durability": 40,
+          "quality": 680,
+          "progress": 51,
+          "lvl": 30,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5231,
+              "amount": 2
+            },
+            {
+              "id": 4,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "treasure": [
+        6688
+      ]
+    },
+    {
+      "name": "Siltstone",
+      "id": 5231,
+      "icon": 21453,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "voyages": [
+        {
+          "id": 25,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        128
+      ],
+      "nodes": [
+        176
+      ]
+    },
+    {
+      "name": "Horn Glue",
+      "id": 5505,
+      "icon": 22607,
+      "category": 54,
+      "ilvl": 30,
+      "price": 344,
+      "craft": [
+        {
+          "id": 1150,
+          "job": 14,
+          "rlvl": 30,
+          "durability": 40,
+          "quality": 680,
+          "progress": 51,
+          "lvl": 30,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5436,
+              "amount": 2
+            },
+            {
+              "id": 7,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 38,
+            "hq": 58
+          }
+        }
+      ],
+      "treasure": [
+        6688
+      ]
+    },
+    {
+      "name": "Aldgoat Horn",
+      "id": 5436,
+      "icon": 22206,
+      "category": 53,
+      "ilvl": 25,
+      "price": 238,
+      "treasure": [
+        6688
+      ],
+      "tradeShops": [
+        {
+          "shop": "Titan Cobaltpiece Exchange",
+          "npcs": [
+            1008909
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5436",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21078",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        32
+      ],
+      "drops": [
+        12810000000879,
+        1940000000274,
+        1930000000273,
+        1940000002050,
+        1930000002049,
+        12830000000881,
+        12820000000880
+      ],
+      "vendors": [
+        1008909
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1003267",
+      "obj": {
+        "i": 1003267,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "q": 1,
+        "a": 231,
+        "c": [
+          14.9,
+          24.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003270",
+      "obj": {
+        "i": 1003270,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "c": [
+          "26.1",
+          "26.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5385",
+      "obj": {
+        "i": 5385,
+        "n": "Elm Log",
+        "l": 16,
+        "c": 22405,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "17",
+      "obj": {
+        "i": 17,
+        "n": "Bentbranch",
+        "l": 15,
+        "t": 2,
+        "z": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5231",
+      "obj": {
+        "i": 5231,
+        "n": "Siltstone",
+        "l": 30,
+        "c": 21453,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "176",
+      "obj": {
+        "i": 176,
+        "n": "Oakwood",
+        "l": 30,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "5436",
+      "obj": {
+        "i": 5436,
+        "n": "Aldgoat Horn",
+        "l": 25,
+        "c": 22206,
+        "t": 53,
+        "p": 238
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1930000000273",
+      "obj": {
+        "i": 1930000000273,
+        "n": "Myotragus Billy",
+        "l": "16 - 18",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1940000000274",
+      "obj": {
+        "i": 1940000000274,
+        "n": "Myotragus Nanny",
+        "l": "16 - 18",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12810000000879",
+      "obj": {
+        "i": 12810000000879,
+        "n": "Elder Longhorn",
+        "l": "17",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12820000000880",
+      "obj": {
+        "i": 12820000000880,
+        "n": "Longhorn Billygoat",
+        "l": "16",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12830000000881",
+      "obj": {
+        "i": 12830000000881,
+        "n": "Longhorn Nannygoat",
+        "l": "14 - 16",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1930000002049",
+      "obj": {
+        "i": 1930000002049,
+        "n": "Mourning Billy",
+        "l": "35",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1940000002050",
+      "obj": {
+        "i": 1940000002050,
+        "n": "Mourning Nanny",
+        "l": "35",
+        "z": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "1833",
+      "obj": {
+        "i": 1833,
+        "n": "Iron Guisarme",
+        "l": 23,
+        "c": 31817,
+        "t": 5,
+        "p": 2112
+      }
+    },
+    {
+      "type": "item",
+      "id": "1840",
+      "obj": {
+        "i": 1840,
+        "n": "Crooked Guisarme",
+        "l": 42,
+        "c": 31822,
+        "t": 5,
+        "p": 4398
+      }
+    },
+    {
+      "type": "item",
+      "id": "1853",
+      "obj": {
+        "i": 1853,
+        "n": "Lominsan Guisarme",
+        "l": 40,
+        "c": 31848,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "1861",
+      "obj": {
+        "i": 1861,
+        "n": "Ul'dahn Guisarme",
+        "l": 43,
+        "c": 31833,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "1869",
+      "obj": {
+        "i": 1869,
+        "n": "Canopus Guisarme",
+        "l": 49,
+        "c": 31821,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "1872",
+      "obj": {
+        "i": 1872,
+        "n": "Hart Guisarme",
+        "l": 49,
+        "c": 31830,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "6742",
+      "obj": {
+        "i": 6742,
+        "n": "Wolf Guisarme",
+        "l": 55,
+        "c": 31830,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "31423",
+      "obj": {
+        "i": 31423,
+        "n": "Plundered Guisarme",
+        "l": 17,
+        "c": 31601,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "5367",
+      "obj": {
+        "i": 5367,
+        "n": "Elm Lumber",
+        "l": 16,
+        "c": 22457,
+        "t": 50,
+        "p": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "5260",
+      "obj": {
+        "i": 5260,
+        "n": "Siltstone Whetstone",
+        "l": 30,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5505",
+      "obj": {
+        "i": 5505,
+        "n": "Horn Glue",
+        "l": 30,
+        "c": 22607,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "1867",
+      "obj": {
+        "i": 1867,
+        "n": "Cobalt Trident",
+        "l": 46,
+        "c": 31829,
+        "t": 5,
+        "p": 9866
+      }
+    },
+    {
+      "type": "item",
+      "id": "1864",
+      "obj": {
+        "i": 1864,
+        "n": "Serpent Sergeant's Spear",
+        "l": 46,
+        "c": 31837,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "10604",
+      "obj": {
+        "i": 10604,
+        "n": "Mythrite Trident",
+        "l": 115,
+        "c": 31889,
+        "t": 5,
+        "p": 21494
+      }
+    },
+    {
+      "type": "item",
+      "id": "23926",
+      "obj": {
+        "i": 23926,
+        "n": "Serpent Captain's Spear",
+        "l": 130,
+        "c": 31968,
+        "t": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Ritual Component Materials",
+    "description": "Various materials necessary to craft components for ritual implements.<br><br>※Only for use in Namazu society quests.",
+    "id": 22700,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 145,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "22726": 1
+    },
+    "usedInQuest": [
+      68641
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22726",
+      "obj": {
+        "i": 22726,
+        "n": "Ritual Implement Components",
+        "l": 145,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68641",
+      "obj": {
+        "i": 68641,
+        "n": "Unidentified Festive Objects",
+        "g": 61,
+        "l": "The Azim Steppe",
+        "s": 3,
+        "r": 1
+      }
+    }
+  ]
+}

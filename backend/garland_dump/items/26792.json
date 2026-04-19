@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Micro Gigantender",
+    "description": "Is it small or is it big? You be the judge.<br><br>Use item to acquire the micro gigantender minion.",
+    "minionrace": "Monster",
+    "tooltip": "In another three hundred years,\r\nI'll be bigger and stronger\r\nthan you will ever be!\r\n   - Ohl Deeh",
+    "minionskilltype": "Dismantling",
+    "specialactionname": "1000 Flowers",
+    "specialactiondescription": "Delivers 8% damage to the nearest enemy Arcana Stone.",
+    "id": 26792,
+    "patch": 5.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59738,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027892
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26792",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 0,
+    "strengths": [
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 565,
+      "Skill Cost": 40,
+      "Attack": 60,
+      "Defense": 40,
+      "Speed": 1
+    },
+    "models": [
+      "8302-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027892",
+      "obj": {
+        "i": 1027892,
+        "n": "Halden",
+        "l": 2955,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3135,
+        "c": [
+          10.66,
+          17.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

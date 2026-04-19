@@ -1,0 +1,991 @@
+{
+  "item": {
+    "name": "Twinsilk",
+    "description": "Though exhibiting a similar luster as normal silk, twinsilk is far more durable and resistant to discoloring.",
+    "id": 19987,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 4556,
+    "ilvl": 285,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21608,
+    "vendors": [
+      1022232
+    ],
+    "ingredient_of": {
+      "18674": 1,
+      "18676": 3,
+      "18680": 1,
+      "18682": 1,
+      "18685": 2,
+      "18686": 1,
+      "18688": 1,
+      "18691": 2,
+      "18692": 2,
+      "18694": 2,
+      "18697": 2,
+      "18698": 1,
+      "18700": 1,
+      "18703": 2,
+      "18704": 1,
+      "18706": 3,
+      "18707": 1,
+      "18709": 2,
+      "18710": 2,
+      "18712": 2,
+      "19652": 1,
+      "19653": 2,
+      "19654": 1,
+      "19655": 2,
+      "19656": 1,
+      "19657": 1,
+      "19658": 1,
+      "19659": 1,
+      "19660": 2,
+      "20745": 2,
+      "27162": 1,
+      "27167": 1,
+      "28976": 3,
+      "39424": 7,
+      "17961": 2,
+      "20560": 2,
+      "19717": 2,
+      "19718": 2,
+      "19719": 2,
+      "19721": 2,
+      "19722": 2,
+      "19723": 2,
+      "19724": 2,
+      "19726": 2,
+      "21065": 1,
+      "20539": 2,
+      "21712": 1,
+      "21731": 1,
+      "21737": 1,
+      "21920": 1,
+      "22536": 3,
+      "22545": 1,
+      "23030": 1,
+      "21915": 1,
+      "22998": 1,
+      "23989": 1,
+      "24634": 1,
+      "31055": 2,
+      "22533": 15,
+      "22534": 45,
+      "22535": 75
+    },
+    "craft": [
+      {
+        "id": 3642,
+        "job": 13,
+        "rlvl": 285,
+        "durability": 40,
+        "quality": 2736,
+        "progress": 490,
+        "lvl": 68,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19988,
+            "amount": 3,
+            "quality": 456.0
+          },
+          {
+            "id": 12,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 43,
+          "hq": 63
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Twinthread",
+      "id": 19988,
+      "icon": 21657,
+      "category": 51,
+      "ilvl": 285,
+      "price": 2516,
+      "craft": [
+        {
+          "id": 3643,
+          "job": 13,
+          "rlvl": 285,
+          "durability": 40,
+          "quality": 2736,
+          "progress": 490,
+          "lvl": 68,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19989,
+              "amount": 4
+            },
+            {
+              "id": 5491,
+              "amount": 1
+            },
+            {
+              "id": 12,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        19019,
+        20843,
+        19754,
+        25759,
+        21823
+      ],
+      "leves": [
+        1337,
+        1338,
+        1339,
+        1340,
+        1341,
+        1342
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Twincoon",
+      "id": 19989,
+      "icon": 21661,
+      "category": 51,
+      "ilvl": 285,
+      "price": 2198,
+      "ventures": [
+        707,
+        726
+      ],
+      "drops": [
+        66660000005713
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Effervescent Water",
+      "id": 5491,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 11,
+      "price": 16,
+      "ventures": [
+        105
+      ],
+      "nodes": [
+        47
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19989",
+      "obj": {
+        "i": 19989,
+        "n": "Twincoon",
+        "l": 285,
+        "c": 21661,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5491",
+      "obj": {
+        "i": 5491,
+        "n": "Effervescent Water",
+        "l": 11,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66660000005713",
+      "obj": {
+        "i": 66660000005713,
+        "n": "Highland Eruca",
+        "l": "68",
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "18674",
+      "obj": {
+        "i": 18674,
+        "n": "Gazelleskin Coat of Fending",
+        "l": 285,
+        "c": 43370,
+        "t": 35,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18676",
+      "obj": {
+        "i": 18676,
+        "n": "Twinsilk Slops of Fending",
+        "l": 285,
+        "c": 47335,
+        "t": 36,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18680",
+      "obj": {
+        "i": 18680,
+        "n": "Gazelleskin Corselet of Maiming",
+        "l": 285,
+        "c": 43372,
+        "t": 35,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18682",
+      "obj": {
+        "i": 18682,
+        "n": "Gazelleskin Brais of Maiming",
+        "l": 285,
+        "c": 47337,
+        "t": 36,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18685",
+      "obj": {
+        "i": 18685,
+        "n": "Twinsilk Hood of Striking",
+        "l": 285,
+        "c": 40770,
+        "t": 34,
+        "p": 21760
+      }
+    },
+    {
+      "type": "item",
+      "id": "18686",
+      "obj": {
+        "i": 18686,
+        "n": "Gazelleskin Corselet of Striking",
+        "l": 285,
+        "c": 43373,
+        "t": 35,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18688",
+      "obj": {
+        "i": 18688,
+        "n": "Gazelleskin Brais of Striking",
+        "l": 285,
+        "c": 47338,
+        "t": 36,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18691",
+      "obj": {
+        "i": 18691,
+        "n": "Twinsilk Turban of Aiming",
+        "l": 285,
+        "c": 40772,
+        "t": 34,
+        "p": 21760
+      }
+    },
+    {
+      "type": "item",
+      "id": "18692",
+      "obj": {
+        "i": 18692,
+        "n": "Twinsilk Robe of Aiming",
+        "l": 285,
+        "c": 43369,
+        "t": 35,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18694",
+      "obj": {
+        "i": 18694,
+        "n": "Twinsilk Slops of Aiming",
+        "l": 285,
+        "c": 47334,
+        "t": 36,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18697",
+      "obj": {
+        "i": 18697,
+        "n": "Twinsilk Turban of Scouting",
+        "l": 285,
+        "c": 40773,
+        "t": 34,
+        "p": 21760
+      }
+    },
+    {
+      "type": "item",
+      "id": "18698",
+      "obj": {
+        "i": 18698,
+        "n": "Gazelleskin Corselet of Scouting",
+        "l": 285,
+        "c": 43374,
+        "t": 35,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18700",
+      "obj": {
+        "i": 18700,
+        "n": "Gazelleskin Brais of Scouting",
+        "l": 285,
+        "c": 47339,
+        "t": 36,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18703",
+      "obj": {
+        "i": 18703,
+        "n": "Twinsilk Hood of Healing",
+        "l": 285,
+        "c": 41715,
+        "t": 34,
+        "p": 21760
+      }
+    },
+    {
+      "type": "item",
+      "id": "18704",
+      "obj": {
+        "i": 18704,
+        "n": "Gazelleskin Coat of Healing",
+        "l": 285,
+        "c": 43371,
+        "t": 35,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18706",
+      "obj": {
+        "i": 18706,
+        "n": "Twinsilk Slops of Healing",
+        "l": 285,
+        "c": 47336,
+        "t": 36,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18707",
+      "obj": {
+        "i": 18707,
+        "n": "Gazelleskin Boots of Healing",
+        "l": 285,
+        "c": 46777,
+        "t": 38,
+        "p": 21760
+      }
+    },
+    {
+      "type": "item",
+      "id": "18709",
+      "obj": {
+        "i": 18709,
+        "n": "Twinsilk Hood of Casting",
+        "l": 285,
+        "c": 41714,
+        "t": 34,
+        "p": 21760
+      }
+    },
+    {
+      "type": "item",
+      "id": "18710",
+      "obj": {
+        "i": 18710,
+        "n": "Twinsilk Coat of Casting",
+        "l": 285,
+        "c": 43368,
+        "t": 35,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "18712",
+      "obj": {
+        "i": 18712,
+        "n": "Twinsilk Slops of Casting",
+        "l": 285,
+        "c": 47333,
+        "t": 36,
+        "p": 36267
+      }
+    },
+    {
+      "type": "item",
+      "id": "19652",
+      "obj": {
+        "i": 19652,
+        "n": "Serge Knit Cap",
+        "l": 290,
+        "c": 41376,
+        "t": 34,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "19653",
+      "obj": {
+        "i": 19653,
+        "n": "Twinsilk Suspenders",
+        "l": 290,
+        "c": 43805,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "19654",
+      "obj": {
+        "i": 19654,
+        "n": "Gazelleskin Gloves of Crafting",
+        "l": 290,
+        "c": 44378,
+        "t": 37,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "19655",
+      "obj": {
+        "i": 19655,
+        "n": "Cropped Twinsilk Slops",
+        "l": 290,
+        "c": 47329,
+        "t": 36,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "19656",
+      "obj": {
+        "i": 19656,
+        "n": "Gazelleskin Shoes",
+        "l": 290,
+        "c": 46773,
+        "t": 38,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "19657",
+      "obj": {
+        "i": 19657,
+        "n": "Serge Hood",
+        "l": 290,
+        "c": 41378,
+        "t": 34,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "19658",
+      "obj": {
+        "i": 19658,
+        "n": "Serge Poncho",
+        "l": 290,
+        "c": 42573,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "19659",
+      "obj": {
+        "i": 19659,
+        "n": "Serge Work Gloves",
+        "l": 290,
+        "c": 44098,
+        "t": 37,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "19660",
+      "obj": {
+        "i": 19660,
+        "n": "Twinsilk Slops of Gathering",
+        "l": 290,
+        "c": 47330,
+        "t": 36,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "19988",
+      "obj": {
+        "i": 19988,
+        "n": "Twinthread",
+        "l": 285,
+        "c": 21657,
+        "t": 51,
+        "p": 2516
+      }
+    },
+    {
+      "type": "item",
+      "id": "20745",
+      "obj": {
+        "i": 20745,
+        "n": "Kimono Hanger",
+        "l": 260,
+        "c": 53183,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "27162",
+      "obj": {
+        "i": 27162,
+        "n": "Brightlinen Doublet Vest of Crafting",
+        "l": 330,
+        "c": 42654,
+        "t": 35,
+        "p": 36950
+      }
+    },
+    {
+      "type": "item",
+      "id": "27167",
+      "obj": {
+        "i": 27167,
+        "n": "Brightlinen Coat of Gathering",
+        "l": 330,
+        "c": 42652,
+        "t": 35,
+        "p": 36950
+      }
+    },
+    {
+      "type": "item",
+      "id": "28976",
+      "obj": {
+        "i": 28976,
+        "n": "Folded Futon",
+        "l": 430,
+        "c": 53348,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "39424",
+      "obj": {
+        "i": 39424,
+        "n": "Jinrikisha",
+        "l": 560,
+        "c": 52355,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "17961",
+      "obj": {
+        "i": 17961,
+        "n": "Lakshmi Miniature",
+        "l": 300,
+        "c": 53148,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "20560",
+      "obj": {
+        "i": 20560,
+        "n": "Blissful Barding",
+        "l": 1,
+        "c": 58668,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19717",
+      "obj": {
+        "i": 19717,
+        "n": "Ala Mhigan Turban of Crafting",
+        "l": 320,
+        "c": 41740,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "19718",
+      "obj": {
+        "i": 19718,
+        "n": "Ala Mhigan Doublet of Crafting",
+        "l": 320,
+        "c": 42620,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "19719",
+      "obj": {
+        "i": 19719,
+        "n": "Ala Mhigan Gloves of Crafting",
+        "l": 320,
+        "c": 44657,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19721",
+      "obj": {
+        "i": 19721,
+        "n": "Ala Mhigan Shoes of Crafting",
+        "l": 320,
+        "c": 49190,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "19722",
+      "obj": {
+        "i": 19722,
+        "n": "Ala Mhigan Turban of Gathering",
+        "l": 320,
+        "c": 41739,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "19723",
+      "obj": {
+        "i": 19723,
+        "n": "Ala Mhigan Coat of Gathering",
+        "l": 320,
+        "c": 42619,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "19724",
+      "obj": {
+        "i": 19724,
+        "n": "Ala Mhigan Gloves of Gathering",
+        "l": 320,
+        "c": 44656,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19726",
+      "obj": {
+        "i": 19726,
+        "n": "Ala Mhigan Shoes of Gathering",
+        "l": 320,
+        "c": 49189,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "21065",
+      "obj": {
+        "i": 21065,
+        "n": "Wind-up Shinryu",
+        "l": 1,
+        "c": 59675,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "20539",
+      "obj": {
+        "i": 20539,
+        "n": "Wind-up Chimera",
+        "l": 1,
+        "c": 59655,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "21712",
+      "obj": {
+        "i": 21712,
+        "n": "Nightsteel Armor of Fending",
+        "l": 350,
+        "c": 48165,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21731",
+      "obj": {
+        "i": 21731,
+        "n": "Slothskin Gloves of Aiming",
+        "l": 350,
+        "c": 44620,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21737",
+      "obj": {
+        "i": 21737,
+        "n": "Slothskin Gloves of Scouting",
+        "l": 350,
+        "c": 44621,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21920",
+      "obj": {
+        "i": 21920,
+        "n": "Byakko Cub",
+        "l": 1,
+        "c": 59684,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "22536",
+      "obj": {
+        "i": 22536,
+        "n": "Merry Mog Bed",
+        "l": 1,
+        "c": 52640,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "22545",
+      "obj": {
+        "i": 22545,
+        "n": "Stuffed Tsukuyomi",
+        "l": 1,
+        "c": 53227,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "23030",
+      "obj": {
+        "i": 23030,
+        "n": "Wind-up Sadu",
+        "l": 1,
+        "c": 59696,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "21915",
+      "obj": {
+        "i": 21915,
+        "n": "Wind-up Magnai",
+        "l": 1,
+        "c": 59682,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "22998",
+      "obj": {
+        "i": 22998,
+        "n": "Boulevardier's Ruffled Shirt",
+        "l": 1,
+        "c": 42606,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "23989",
+      "obj": {
+        "i": 23989,
+        "n": "Scarlet Peacock",
+        "l": 1,
+        "c": 59703,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "24634",
+      "obj": {
+        "i": 24634,
+        "n": "Seitei",
+        "l": 1,
+        "c": 59727,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "31055",
+      "obj": {
+        "i": 31055,
+        "n": "Rarefied Twinsilk Apron",
+        "l": 290,
+        "c": 54096,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "22533",
+      "obj": {
+        "i": 22533,
+        "n": "Odder Otter Cottage Walls",
+        "l": 1,
+        "c": 50828,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "22534",
+      "obj": {
+        "i": 22534,
+        "n": "Odder Otter House Walls",
+        "l": 1,
+        "c": 50829,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "22535",
+      "obj": {
+        "i": 22535,
+        "n": "Odder Otter Mansion Walls",
+        "l": 1,
+        "c": 50830,
+        "t": 66
+      }
+    }
+  ]
+}

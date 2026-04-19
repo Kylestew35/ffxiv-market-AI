@@ -1,0 +1,275 @@
+{
+  "item": {
+    "name": "Oddly Specific Oil",
+    "description": "While the instructions relating to the oil itself were not particularly specific, the bottle must be made from glass expertly crafted in the light of a full moon and blessed by forest spirits. Luckily, those conditions cannot be easily verified, and can therefore be ignored.",
+    "id": 31108,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 460,
+    "category": 54,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 1,
+    "icon": 25452,
+    "craft": [
+      {
+        "id": 34366,
+        "job": 15,
+        "rlvl": 460,
+        "durability": 70,
+        "quality": 8100,
+        "progress": 1909,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31124,
+            "amount": 1
+          },
+          {
+            "id": 27820,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 221,
+          "hq": 241
+        }
+      }
+    ],
+    "masterpiece": {
+      "rating": [
+        360,
+        540,
+        720
+      ],
+      "amount": 1,
+      "stars": 2,
+      "lvl": [
+        80,
+        80
+      ],
+      "xp": [
+        1575896,
+        1731688,
+        1893472
+      ],
+      "reward": 33914,
+      "rewardAmount": [
+        26,
+        33,
+        53
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Oddly Specific Aloe",
+      "id": 31124,
+      "icon": 25213,
+      "category": 45,
+      "ilvl": 485,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+          "npcs": [
+            1031680,
+            1031691
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31124",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28063",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31124",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Skysteel Prototype Augmentation)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31124",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frantoio",
+      "id": 27820,
+      "icon": 25307,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1463,
+        1464,
+        1465
+      ],
+      "ventures": [
+        808
+      ],
+      "nodes": [
+        612
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "612",
+      "obj": {
+        "i": 612,
+        "n": "The Chiliad",
+        "l": 75,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "31124",
+      "obj": {
+        "i": 31124,
+        "n": "Oddly Specific Aloe",
+        "l": 485,
+        "c": 25213,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27820",
+      "obj": {
+        "i": 27820,
+        "n": "Frantoio",
+        "l": 390,
+        "c": 25307,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

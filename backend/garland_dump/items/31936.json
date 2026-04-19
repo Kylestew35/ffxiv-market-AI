@@ -1,0 +1,228 @@
+{
+  "item": {
+    "name": "Grade 4 Skybuilders' Tea",
+    "description": "Contains so much sugar that some claim the smell alone is enough to make one's teeth fall out.",
+    "id": 31936,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 24408,
+    "craft": [
+      {
+        "id": 34456,
+        "job": 15,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31972,
+            "amount": 5
+          },
+          {
+            "id": 31975,
+            "amount": 5
+          },
+          {
+            "id": 31978,
+            "amount": 5
+          },
+          {
+            "id": 4811,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 1256,
+          "hq": 1276
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 4 Skybuilders' Mistletoe",
+      "id": 31972,
+      "icon": 23841,
+      "category": 54,
+      "ilvl": 150,
+      "price": 150,
+      "desynthedFrom": [
+        32915,
+        32913
+      ]
+    },
+    {
+      "name": "Approved Grade 4 Skybuilders' Tea Leaves",
+      "id": 31975,
+      "icon": 23842,
+      "category": 45,
+      "ilvl": 150,
+      "price": 150,
+      "desynthedFrom": [
+        32913
+      ]
+    },
+    {
+      "name": "Approved Grade 4 Skybuilders' Spring Water",
+      "id": 31978,
+      "icon": 23869,
+      "category": 54,
+      "ilvl": 150,
+      "price": 150,
+      "desynthedFrom": [
+        32912,
+        32914
+      ]
+    },
+    {
+      "name": "Sun Lemon",
+      "id": 4811,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 17,
+      "price": 28,
+      "tradeShops": [
+        {
+          "shop": "Rainbowtide Psashp Exchange",
+          "npcs": [
+            1008907
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "4811",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21077",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        213
+      ],
+      "nodes": [
+        34
+      ],
+      "vendors": [
+        1008907
+      ],
+      "seeds": [
+        7728
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "34",
+      "obj": {
+        "i": 34,
+        "n": "Cedarwood",
+        "l": 20,
+        "t": 2,
+        "z": 31
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "31972",
+      "obj": {
+        "i": 31972,
+        "n": "Approved Grade 4 Skybuilders' Mistletoe",
+        "l": 150,
+        "c": 23841,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "31975",
+      "obj": {
+        "i": 31975,
+        "n": "Approved Grade 4 Skybuilders' Tea Leaves",
+        "l": 150,
+        "c": 23842,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "31978",
+      "obj": {
+        "i": 31978,
+        "n": "Approved Grade 4 Skybuilders' Spring Water",
+        "l": 150,
+        "c": 23869,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "4811",
+      "obj": {
+        "i": 4811,
+        "n": "Sun Lemon",
+        "l": 17,
+        "c": 25305,
+        "t": 45,
+        "p": 28
+      }
+    }
+  ]
+}

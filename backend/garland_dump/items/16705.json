@@ -1,0 +1,1577 @@
+{
+  "item": {
+    "name": "Heavy Metal Ingot",
+    "description": "An ingot of smelted wolfram alloy.",
+    "id": 16705,
+    "patch": 3.4,
+    "patchCategory": 5,
+    "price": 4950,
+    "ilvl": 250,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 9,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20830,
+    "ingredient_of": {
+      "16627": 2,
+      "16628": 3,
+      "16629": 3,
+      "16630": 2,
+      "16632": 3,
+      "16633": 4,
+      "16634": 3,
+      "16639": 1,
+      "16640": 2,
+      "16641": 2,
+      "16642": 2,
+      "16643": 2,
+      "16645": 2,
+      "16647": 2,
+      "16648": 2,
+      "16649": 2,
+      "16651": 2,
+      "15965": 3,
+      "17013": 3,
+      "17522": 3
+    },
+    "craft": [
+      {
+        "id": 32037,
+        "job": 9,
+        "rlvl": 250,
+        "durability": 70,
+        "quality": 3800,
+        "progress": 1000,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 955,
+        "craftsmanshipReq": 995,
+        "quickSynthCraftsmanship": 1100,
+        "unlockId": 14127,
+        "ingredients": [
+          {
+            "id": 16724,
+            "amount": 3
+          },
+          {
+            "id": 16727,
+            "amount": 2
+          },
+          {
+            "id": 7607,
+            "amount": 2,
+            "quality": 119.58042
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 17,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 652,
+          "hq": 672
+        }
+      },
+      {
+        "id": 32038,
+        "job": 10,
+        "rlvl": 250,
+        "durability": 70,
+        "quality": 3800,
+        "progress": 1000,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 955,
+        "craftsmanshipReq": 995,
+        "quickSynthCraftsmanship": 1100,
+        "unlockId": 14128,
+        "ingredients": [
+          {
+            "id": 16724,
+            "amount": 3
+          },
+          {
+            "id": 16727,
+            "amount": 2
+          },
+          {
+            "id": 7607,
+            "amount": 2,
+            "quality": 119.58042
+          },
+          {
+            "id": 15,
+            "amount": 3
+          },
+          {
+            "id": 17,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 652,
+          "hq": 672
+        }
+      }
+    ],
+    "desynthedFrom": [
+      17583,
+      15965,
+      16467,
+      16478,
+      16469,
+      20452,
+      14595,
+      14575,
+      14576
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Tungstite",
+      "id": 16724,
+      "icon": 21209,
+      "category": 48,
+      "ilvl": 250,
+      "price": 1485,
+      "ventures": [
+        643
+      ],
+      "nodes": [
+        289
+      ]
+    },
+    {
+      "name": "Titanium Carbide",
+      "id": 16727,
+      "icon": 21001,
+      "category": 49,
+      "ilvl": 250,
+      "price": 4950,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1012228
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "16727",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Sky Pirate Spoils (Brass)",
+          "npcs": [
+            1016261,
+            1016496,
+            1016498,
+            1016500,
+            1019106
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "16727",
+                  "amount": 2
+                }
+              ],
+              "currency": [
+                {
+                  "id": "13630",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "16727",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wolfram Ingot",
+      "id": 7607,
+      "icon": 20801,
+      "category": 49,
+      "ilvl": 90,
+      "price": 1782,
+      "craft": [
+        {
+          "id": 30291,
+          "job": 9,
+          "rlvl": 90,
+          "durability": 80,
+          "quality": 2750,
+          "progress": 420,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "controlReq": 374,
+          "craftsmanshipReq": 391,
+          "quickSynthCraftsmanship": 451,
+          "unlockId": 7779,
+          "ingredients": [
+            {
+              "id": 7597,
+              "amount": 1
+            },
+            {
+              "id": 7588,
+              "amount": 1
+            },
+            {
+              "id": 5116,
+              "amount": 1
+            },
+            {
+              "id": 14,
+              "amount": 2
+            },
+            {
+              "id": 17,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 241,
+            "hq": 261
+          }
+        }
+      ],
+      "desynthedFrom": [
+        15149,
+        15150,
+        8349
+      ]
+    },
+    {
+      "name": "Scheelite",
+      "id": 7597,
+      "icon": 21208,
+      "category": 48,
+      "ilvl": 90,
+      "price": 534,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7597",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Miscellaneous Miscellany",
+          "npcs": [
+            1006972
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "10113",
+                  "amount": 3
+                },
+                {
+                  "id": "7597",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "10101",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "id": "10114",
+                  "amount": 3
+                },
+                {
+                  "id": "7597",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "10102",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7597",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7597",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7597",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        27,
+        28,
+        26,
+        32,
+        30,
+        29
+      ]
+    },
+    {
+      "name": "Ferberite",
+      "id": 7588,
+      "icon": 21203,
+      "category": 48,
+      "ilvl": 70,
+      "price": 415,
+      "voyages": [
+        {
+          "id": 0,
+          "type": 0
+        },
+        {
+          "id": 6,
+          "type": 0
+        },
+        {
+          "id": 12,
+          "type": 0
+        },
+        {
+          "id": 18,
+          "type": 0
+        },
+        {
+          "id": 23,
+          "type": 0
+        }
+      ],
+      "desynthedFrom": [
+        7687
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7588",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        514
+      ],
+      "nodes": [
+        236
+      ]
+    },
+    {
+      "name": "Cobalt Ore",
+      "id": 5116,
+      "icon": 21216,
+      "category": 48,
+      "ilvl": 43,
+      "price": 228,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5116",
+                  "amount": 6
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "ventures": [
+        157
+      ],
+      "nodes": [
+        189
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "289",
+      "obj": {
+        "i": 289,
+        "n": "Twinpools",
+        "l": 60,
+        "t": 0,
+        "z": 2200,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          2,
+          14
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13630",
+      "obj": {
+        "i": 13630,
+        "n": "Brass Sky Pirate Spoil",
+        "l": 1,
+        "c": 25950,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "7779",
+      "obj": {
+        "i": 7779,
+        "n": "Master Blacksmith I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "7597",
+      "obj": {
+        "i": 7597,
+        "n": "Scheelite",
+        "l": 90,
+        "c": 21208,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "7588",
+      "obj": {
+        "i": 7588,
+        "n": "Ferberite",
+        "l": 70,
+        "c": 21203,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5116",
+      "obj": {
+        "i": 5116,
+        "n": "Cobalt Ore",
+        "l": 43,
+        "c": 21216,
+        "t": 48
+      }
+    },
+    {
+      "type": "instance",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Snowcloak",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Sastasha (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "26",
+      "obj": {
+        "i": 26,
+        "n": "The Sunken Temple of Qarn (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "32",
+      "obj": {
+        "i": 32,
+        "n": "The Keeper of the Lake",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30",
+      "obj": {
+        "i": 30,
+        "n": "The Wanderer's Palace (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "instance",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Amdapor Keep (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10101",
+      "obj": {
+        "i": 10101,
+        "n": "Mummer's Daggers",
+        "l": 90,
+        "c": 30361,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10113",
+      "obj": {
+        "i": 10113,
+        "n": "Composite Whetstone",
+        "l": 90,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10102",
+      "obj": {
+        "i": 10102,
+        "n": "Lapdog Collar Bell",
+        "l": 90,
+        "c": 26104,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10114",
+      "obj": {
+        "i": 10114,
+        "n": "Heat-resistant Plaster",
+        "l": 90,
+        "c": 27605,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "236",
+      "obj": {
+        "i": 236,
+        "n": "Raubahn's Push",
+        "l": 50,
+        "t": 0,
+        "z": 46,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "189",
+      "obj": {
+        "i": 189,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "16627",
+      "obj": {
+        "i": 16627,
+        "n": "Heavy Metal Longsword",
+        "l": 250,
+        "c": 30538,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "16628",
+      "obj": {
+        "i": 16628,
+        "n": "Heavy Metal Claws",
+        "l": 250,
+        "c": 31105,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "16629",
+      "obj": {
+        "i": 16629,
+        "n": "Heavy Metal War Axe",
+        "l": 250,
+        "c": 31510,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "16630",
+      "obj": {
+        "i": 16630,
+        "n": "Heavy Metal Lance",
+        "l": 250,
+        "c": 31909,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "16632",
+      "obj": {
+        "i": 16632,
+        "n": "Heavy Metal Daggers",
+        "l": 250,
+        "c": 33892,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "16633",
+      "obj": {
+        "i": 16633,
+        "n": "Heavy Metal Greatsword",
+        "l": 250,
+        "c": 34266,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "16634",
+      "obj": {
+        "i": 16634,
+        "n": "Heavy Metal Culverin",
+        "l": 250,
+        "c": 34666,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "16639",
+      "obj": {
+        "i": 16639,
+        "n": "Scintillant Planisphere",
+        "l": 250,
+        "c": 34865,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "16640",
+      "obj": {
+        "i": 16640,
+        "n": "Heavy Metal Kite Shield",
+        "l": 250,
+        "c": 30132,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "16641",
+      "obj": {
+        "i": 16641,
+        "n": "Heavy Metal Coif of Fending",
+        "l": 250,
+        "c": 40239,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16642",
+      "obj": {
+        "i": 16642,
+        "n": "Heavy Metal Cuirass of Fending",
+        "l": 250,
+        "c": 48109,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "16643",
+      "obj": {
+        "i": 16643,
+        "n": "Heavy Metal Gauntlets of Fending",
+        "l": 250,
+        "c": 48558,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "16645",
+      "obj": {
+        "i": 16645,
+        "n": "Heavy Metal Sabatons of Fending",
+        "l": 250,
+        "c": 47058,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "16647",
+      "obj": {
+        "i": 16647,
+        "n": "Heavy Metal Coif of Maiming",
+        "l": 250,
+        "c": 40240,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16648",
+      "obj": {
+        "i": 16648,
+        "n": "Heavy Metal Cuirass of Maiming",
+        "l": 250,
+        "c": 48110,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "16649",
+      "obj": {
+        "i": 16649,
+        "n": "Heavy Metal Gauntlets of Maiming",
+        "l": 250,
+        "c": 48559,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "16651",
+      "obj": {
+        "i": 16651,
+        "n": "Heavy Metal Sabatons of Maiming",
+        "l": 250,
+        "c": 47059,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14127",
+      "obj": {
+        "i": 14127,
+        "n": "Master Blacksmith IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "16724",
+      "obj": {
+        "i": 16724,
+        "n": "Tungstite",
+        "l": 250,
+        "c": 21209,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "16727",
+      "obj": {
+        "i": 16727,
+        "n": "Titanium Carbide",
+        "l": 250,
+        "c": 21001,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "7607",
+      "obj": {
+        "i": 7607,
+        "n": "Wolfram Ingot",
+        "l": 90,
+        "c": 20801,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "14128",
+      "obj": {
+        "i": 14128,
+        "n": "Master Armorer IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "15965",
+      "obj": {
+        "i": 15965,
+        "n": "Alexander Miniature",
+        "l": 250,
+        "c": 53114,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "17013",
+      "obj": {
+        "i": 17013,
+        "n": "Zurvan Miniature",
+        "l": 250,
+        "c": 53124,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "17522",
+      "obj": {
+        "i": 17522,
+        "n": "Zurvanite Barding",
+        "l": 1,
+        "c": 58659,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "17583",
+      "obj": {
+        "i": 17583,
+        "n": "Riddle",
+        "l": 240,
+        "c": 29864,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "16467",
+      "obj": {
+        "i": 16467,
+        "n": "Alexandrian Metal Axe",
+        "l": 275,
+        "c": 31521,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "16478",
+      "obj": {
+        "i": 16478,
+        "n": "Alexandrian Metal Buckler",
+        "l": 275,
+        "c": 30143,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "16469",
+      "obj": {
+        "i": 16469,
+        "n": "Alexandrian Metal Bow",
+        "l": 275,
+        "c": 32316,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "20452",
+      "obj": {
+        "i": 20452,
+        "n": "Alexandrian Metal Katana",
+        "l": 275,
+        "c": 36452,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "14595",
+      "obj": {
+        "i": 14595,
+        "n": "Midan Coat of Fending",
+        "l": 240,
+        "c": 43288,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14575",
+      "obj": {
+        "i": 14575,
+        "n": "Midan Metal Knuckles",
+        "l": 245,
+        "c": 31109,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "14576",
+      "obj": {
+        "i": 14576,
+        "n": "Midan Metal Axe",
+        "l": 245,
+        "c": 31513,
+        "t": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "item": {
+    "name": "Armor Fish",
+    "description": "A massive glowing freshwater fish found living in the Thaliak River.<br><br>[Suitable for display in aquariums tier 1 and higher.]<br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Many graduates of new Sharlayan's universities look back on their education with great fondness, reminiscing of days past with tales of studying for exams into the small hours, their rooms lit with naught but the faint glow emitted by armor fish caught in the Thaliak River.",
+      "icon": 79435,
+      "weatherRestricted": 1,
+      "folklore": 12702,
+      "spots": [
+        {
+          "spot": 127,
+          "weather": [
+            "Clear Skies"
+          ],
+          "predator": [
+            {
+              "id": 12757,
+              "amount": 6
+            }
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 502,
+          "baits": [
+            [
+              12705,
+              12757
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 17590,
+    "patch": 3.5,
+    "patchCategory": 7,
+    "price": 3000,
+    "ilvl": 250,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 90,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29435,
+    "fishingSpots": [
+      127
+    ],
+    "desynthedTo": [
+      15645,
+      15649,
+      5827,
+      5816
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "127",
+      "obj": {
+        "i": 127,
+        "n": "Upper Thaliak River",
+        "l": 58,
+        "c": 1,
+        "z": 2001,
+        "x": 22.96,
+        "y": 36.36
+      }
+    },
+    {
+      "type": "item",
+      "id": "12702",
+      "obj": {
+        "i": 12702,
+        "n": "Tome of Ichthyological Folklore - Dravania",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12705",
+      "obj": {
+        "i": 12705,
+        "n": "Purse Web Spider",
+        "l": 136,
+        "c": 22619,
+        "t": 33,
+        "p": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "12757",
+      "obj": {
+        "i": 12757,
+        "n": "Hedgemole Cricket",
+        "l": 130,
+        "c": 29801,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "15645",
+      "obj": {
+        "i": 15645,
+        "n": "Luminous Fiber",
+        "l": 220,
+        "c": 20909,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "15649",
+      "obj": {
+        "i": 15649,
+        "n": "Glass Fiber",
+        "l": 180,
+        "c": 20905,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5827",
+      "obj": {
+        "i": 5827,
+        "n": "Allagan Platinum Piece",
+        "l": 45,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5816",
+      "obj": {
+        "i": 5816,
+        "n": "Yellow Pigment",
+        "l": 28,
+        "c": 21458,
+        "t": 55
+      }
+    }
+  ]
+}

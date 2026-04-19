@@ -1,0 +1,156 @@
+{
+  "item": {
+    "name": "Blissful Kamuy Fife",
+    "description": "The sweet song of this stout flute is said to summon a kamuy blessed by Lakshmi herself.",
+    "mount": {
+      "name": "Blissful Kamuy",
+      "action": "Summon forth your blissful kamuy, blessed wolf who shall not be bound by such corporeal laws as gravity or aerodynamics.",
+      "description": "Believe it or not, this monstrous canine did not always glow, only achieving its heavenly effulgence upon receiving the blessing of Lakshmi after being offered to the Lady of Bliss by her loyal Ananta dreamers.",
+      "tooltip": "This is no lone<br>coywolf you'll be facing.<br>   - Hetzkin",
+      "icon": 4087,
+      "guideIcon": 68087
+    },
+    "id": 20549,
+    "patch": 4.0,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20049,
+      20049
+    ],
+    "tradeShops": [
+      {
+        "shop": "Wondrous Sundries",
+        "npcs": [
+          1019451
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20549",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "19110",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20549",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "19110",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20549",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "414-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20049",
+      "obj": {
+        "i": 20049,
+        "n": "Emanation (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019451",
+      "obj": {
+        "i": 1019451,
+        "n": "Eschina",
+        "l": 2403,
+        "s": 10,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.9,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19110",
+      "obj": {
+        "i": 19110,
+        "n": "Bliss Totem",
+        "l": 1,
+        "c": 26511,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    }
+  ]
+}

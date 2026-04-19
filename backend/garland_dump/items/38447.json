@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Clockwork Cerulean Chaser",
+    "description": "Painted a stylish shade of blue, this miniature machina is a scale replica of the full-size model deployed in military training exercises.<br><br>Use item to acquire the clockwork cerulean chaser minion.",
+    "minionrace": "Poppet",
+    "tooltip": "It's the support of fans such\r\nas yourself that make this\r\nsuch a worthwhile hobby.\r\n   - Warmachina Fanatic",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Transform",
+    "specialactiondescription": "Increases action party movement speed by 30%. <br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 38447,
+    "patch": 6.2,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59859,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (Other)",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38447",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 30,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 550,
+      "Skill Cost": 30,
+      "Attack": 70,
+      "Defense": 60,
+      "Speed": 3
+    },
+    "models": [
+      "8416-1-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "item": {
+    "name": "Approved Ishgardian Lunch",
+    "description": "Tasty and wholesome, this lunch set is said to be a favorite among skybuilders.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Control Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 33272,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 430,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 15,
+    "icon": 53407,
+    "craft": [
+      {
+        "id": 4706,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 27830,
+            "amount": 2
+          },
+          {
+            "id": 27828,
+            "amount": 1
+          },
+          {
+            "id": 27851,
+            "amount": 2
+          },
+          {
+            "id": 27825,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 172,
+          "hq": 192
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1046"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bomba Rice",
+      "id": 27830,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 415,
+      "price": 210,
+      "leves": [
+        1475,
+        1476,
+        1477
+      ],
+      "ventures": [
+        835
+      ],
+      "nodes": [
+        625
+      ]
+    },
+    {
+      "name": "Mist Spinach",
+      "id": 27828,
+      "icon": 25206,
+      "category": 45,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        839
+      ],
+      "nodes": [
+        631
+      ]
+    },
+    {
+      "name": "Lorikeet Egg",
+      "id": 27851,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 400,
+      "price": 2302,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027665
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27851",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        778
+      ]
+    },
+    {
+      "name": "Blood Tomato",
+      "id": 27825,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1466,
+        1467,
+        1468
+      ],
+      "ventures": [
+        819
+      ],
+      "nodes": [
+        617
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "625",
+      "obj": {
+        "i": 625,
+        "n": "Scree",
+        "l": 80,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "631",
+      "obj": {
+        "i": 631,
+        "n": "Bowrest",
+        "l": 80,
+        "t": 3,
+        "z": 2957,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "item",
+      "id": "27830",
+      "obj": {
+        "i": 27830,
+        "n": "Bomba Rice",
+        "l": 415,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27828",
+      "obj": {
+        "i": 27828,
+        "n": "Mist Spinach",
+        "l": 415,
+        "c": 25206,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27851",
+      "obj": {
+        "i": 27851,
+        "n": "Lorikeet Egg",
+        "l": 400,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27825",
+      "obj": {
+        "i": 27825,
+        "n": "Blood Tomato",
+        "l": 390,
+        "c": 25209,
+        "t": 45
+      }
+    }
+  ]
+}

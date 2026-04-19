@@ -1,0 +1,144 @@
+{
+  "item": {
+    "name": "Gordian Breeches of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 11552,
+    "patch": 3.05,
+    "patchCategory": 0,
+    "price": 102910,
+    "ilvl": 210,
+    "category": 36,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1081,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1170,
+    "slot": 7,
+    "elvl": 60,
+    "jobs": 59,
+    "models": [
+      "280-1-0-0"
+    ],
+    "attr": {
+      "Defense": 330,
+      "Magic Defense": 330,
+      "Strength": 76,
+      "Vitality": 75,
+      "Critical Hit": 81,
+      "Direct Hit Rate": 57
+    },
+    "icon": 45543,
+    "instances": [
+      30027
+    ],
+    "sharedModels": [
+      11476
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Manifesto Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11552",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12683",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gordian Gear (IL 210)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11552",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12683",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30027",
+      "obj": {
+        "i": 30027,
+        "n": "Alexander - The Arm of the Father (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 200
+      }
+    },
+    {
+      "type": "item",
+      "id": "11476",
+      "obj": {
+        "i": 11476,
+        "n": "Prototype Gordian Breeches of Fending",
+        "l": 190,
+        "c": 45543,
+        "t": 36
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12683",
+      "obj": {
+        "i": 12683,
+        "n": "Gordian Manifesto - Page 3",
+        "l": 1,
+        "c": 26156,
+        "t": 61
+      }
+    }
+  ]
+}

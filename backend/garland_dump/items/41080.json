@@ -1,0 +1,335 @@
+{
+  "item": {
+    "name": "Aloalo Manuscript",
+    "description": "This esoteric tome discovered on Aloalo Island is a trove of historical knowledge─to those who can decipher it.",
+    "id": 41080,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26456,
+    "tradeCurrency": [
+      {
+        "shop": "Aloalo Manuscript Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41431",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "41699",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33930",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33931",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33932",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33933",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33934",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33941",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33942",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41080",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instances": [
+      37006
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41431",
+      "obj": {
+        "i": 41431,
+        "n": "Forgotten Figure",
+        "l": 1,
+        "c": 52790,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "41699",
+      "obj": {
+        "i": 41699,
+        "n": "Elevated Ester",
+        "l": 1,
+        "c": 27606,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33930",
+      "obj": {
+        "i": 33930,
+        "n": "Piety Materia X",
+        "l": 560,
+        "c": 20286,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33931",
+      "obj": {
+        "i": 33931,
+        "n": "Heavens' Eye Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33932",
+      "obj": {
+        "i": 33932,
+        "n": "Savage Aim Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33933",
+      "obj": {
+        "i": 33933,
+        "n": "Savage Might Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33934",
+      "obj": {
+        "i": 33934,
+        "n": "Battledance Materia X",
+        "l": 560,
+        "c": 20286,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33941",
+      "obj": {
+        "i": 33941,
+        "n": "Quickarm Materia X",
+        "l": 560,
+        "c": 20287,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Skill Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33942",
+      "obj": {
+        "i": 33942,
+        "n": "Quicktongue Materia X",
+        "l": 560,
+        "c": 20287,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "instance",
+      "id": "37006",
+      "obj": {
+        "i": 37006,
+        "n": "Another Aloalo Island (Savage)",
+        "c": 61846,
+        "t": "V&C Dungeon Finder",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "max_ilvl": 665
+      }
+    }
+  ]
+}

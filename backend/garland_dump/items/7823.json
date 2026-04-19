@@ -1,0 +1,177 @@
+{
+  "item": {
+    "name": "Tidal Wave Buckler",
+    "jobCategories": "CNJ WHM",
+    "id": 7823,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 26136,
+    "ilvl": 100,
+    "category": 11,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 179,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 2,
+    "elvl": 50,
+    "jobs": 53,
+    "models": [
+      "101-26-4-0"
+    ],
+    "attr": {
+      "Block Strength": 114,
+      "Block Rate": 114,
+      "Mind": 11,
+      "Vitality": 10,
+      "Piety": 11,
+      "Spell Speed": 8,
+      "Direct Hit Rate": 2
+    },
+    "icon": 30099,
+    "instances": [
+      20018
+    ],
+    "sharedModels": [
+      6702,
+      6703,
+      7822
+    ],
+    "tradeShops": [
+      {
+        "shop": "Primal Gear",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7823",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6703",
+                "amount": 1
+              },
+              {
+                "id": "7850",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal Gear (IL 100-115)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7823",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6703",
+                "amount": 1
+              },
+              {
+                "id": "7850",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20018",
+      "obj": {
+        "i": 20018,
+        "n": "The Whorleater (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "item",
+      "id": "6702",
+      "obj": {
+        "i": 6702,
+        "n": "Wave Shield",
+        "l": 95,
+        "c": 30100,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "6703",
+      "obj": {
+        "i": 6703,
+        "n": "Wave Buckler",
+        "l": 95,
+        "c": 30099,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "7822",
+      "obj": {
+        "i": 7822,
+        "n": "Tidal Wave Shield",
+        "l": 100,
+        "c": 30100,
+        "t": 11
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7850",
+      "obj": {
+        "i": 7850,
+        "n": "Mirror of the Whorl",
+        "l": 1,
+        "c": 26105,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "item": {
+    "name": "Kuromaru",
+    "description": "Because the only thing that's better than a dog is a <span class=\"emphasis\">ninja</span> dog.<br><br>Use item to acquire the Kuromaru minion.",
+    "minionrace": "Critter",
+    "tooltip": "Nothing short of death will cause\r\na shinobi to forsake his mission.\r\n   - Oboro",
+    "minionskilltype": "Damage",
+    "specialactionname": "Dogged Devotion",
+    "specialactiondescription": "Delivers an attack with a potency of 60 to all enemies within range while reducing movement speed by 70%.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 40378,
+    "patch": 6.4,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59890,
+    "cost": 20,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 30,
+      "Attack": 45,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8240-1-2"
+    ],
+    "instances": [
+      36002
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "36002",
+      "obj": {
+        "i": 36002,
+        "n": "Mount Rokkon",
+        "c": 61846,
+        "t": "V&C Dungeon Finder",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 605,
+        "max_ilvl": 665
+      }
+    }
+  ]
+}

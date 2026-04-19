@@ -1,0 +1,515 @@
+{
+  "item": {
+    "name": "Scale Glue",
+    "description": "An adhesive substance created by boiling down the hard scales of peistes and dragons.",
+    "id": 5508,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 4248,
+    "ilvl": 148,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22607,
+    "vendors": [
+      1017188
+    ],
+    "ingredient_of": {
+      "11949": 1,
+      "10609": 1,
+      "10591": 1,
+      "10603": 1,
+      "10621": 1,
+      "10627": 1,
+      "11878": 1,
+      "11890": 1,
+      "11906": 1,
+      "11950": 1,
+      "14045": 1,
+      "14717": 1,
+      "14722": 1,
+      "14742": 1,
+      "15950": 3,
+      "15951": 9,
+      "15952": 15,
+      "17004": 3,
+      "17005": 9,
+      "17006": 15,
+      "19767": 9,
+      "19768": 27,
+      "19769": 45
+    },
+    "craft": [
+      {
+        "id": 2761,
+        "job": 14,
+        "rlvl": 148,
+        "durability": 35,
+        "quality": 2104,
+        "progress": 270,
+        "lvl": 59,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12627,
+            "amount": 3
+          },
+          {
+            "id": 5449,
+            "amount": 2
+          },
+          {
+            "id": 5448,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 166,
+          "hq": 186
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Dragon Scale",
+      "id": 12627,
+      "icon": 22262,
+      "category": 53,
+      "ilvl": 145,
+      "price": 1607,
+      "desynthedFrom": [
+        20116
+      ],
+      "ventures": [
+        438
+      ],
+      "drops": [
+        39980000003486,
+        44690000003630,
+        40420000003617,
+        41420000003586
+      ]
+    },
+    {
+      "name": "Drake Scales",
+      "id": 5449,
+      "icon": 22251,
+      "category": 53,
+      "ilvl": 139,
+      "price": 1541,
+      "ventures": [
+        429
+      ],
+      "drops": [
+        1900000003622,
+        1900000004285
+      ]
+    },
+    {
+      "name": "Biast Scales",
+      "id": 5448,
+      "icon": 22252,
+      "category": 53,
+      "ilvl": 136,
+      "price": 1507,
+      "ventures": [
+        430
+      ],
+      "drops": [
+        1910000003627
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "mob",
+      "id": "39980000003486",
+      "obj": {
+        "i": 39980000003486,
+        "n": "Ice Dragon",
+        "l": "56",
+        "z": 2200
+      }
+    },
+    {
+      "type": "mob",
+      "id": "41420000003586",
+      "obj": {
+        "i": 41420000003586,
+        "n": "Thunder Dragon",
+        "l": "57",
+        "z": 2000
+      }
+    },
+    {
+      "type": "mob",
+      "id": "40420000003617",
+      "obj": {
+        "i": 40420000003617,
+        "n": "Moss Dragon",
+        "l": "54",
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "44690000003630",
+      "obj": {
+        "i": 44690000003630,
+        "n": "Blood Dragon",
+        "l": "56",
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1900000003622",
+      "obj": {
+        "i": 1900000003622,
+        "n": "Mists Drake",
+        "l": "55",
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1900000004285",
+      "obj": {
+        "i": 1900000004285,
+        "n": "Wrothful Drake",
+        "l": "55",
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1910000003627",
+      "obj": {
+        "i": 1910000003627,
+        "n": "Mists Biast",
+        "l": "55",
+        "z": 2002
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "11949",
+      "obj": {
+        "i": 11949,
+        "n": "Adamantite Sledgehammer",
+        "l": 140,
+        "c": 38057,
+        "t": 29,
+        "p": 16410
+      }
+    },
+    {
+      "type": "item",
+      "id": "12627",
+      "obj": {
+        "i": 12627,
+        "n": "Dragon Scale",
+        "l": 145,
+        "c": 22262,
+        "t": 53
+      }
+    },
+    {
+      "type": "item",
+      "id": "5449",
+      "obj": {
+        "i": 5449,
+        "n": "Drake Scales",
+        "l": 139,
+        "c": 22251,
+        "t": 53
+      }
+    },
+    {
+      "type": "item",
+      "id": "5448",
+      "obj": {
+        "i": 5448,
+        "n": "Biast Scales",
+        "l": 136,
+        "c": 22252,
+        "t": 53
+      }
+    },
+    {
+      "type": "item",
+      "id": "10609",
+      "obj": {
+        "i": 10609,
+        "n": "Adamantite Trident",
+        "l": 150,
+        "c": 31891,
+        "t": 5,
+        "p": 34214
+      }
+    },
+    {
+      "type": "item",
+      "id": "10591",
+      "obj": {
+        "i": 10591,
+        "n": "Adamantite Winglet",
+        "l": 150,
+        "c": 30533,
+        "t": 2,
+        "p": 25185
+      }
+    },
+    {
+      "type": "item",
+      "id": "10603",
+      "obj": {
+        "i": 10603,
+        "n": "Adamantite Headsman's Axe",
+        "l": 150,
+        "c": 31505,
+        "t": 3,
+        "p": 37065
+      }
+    },
+    {
+      "type": "item",
+      "id": "10621",
+      "obj": {
+        "i": 10621,
+        "n": "Adamantite Main Gauches",
+        "l": 150,
+        "c": 33873,
+        "t": 84,
+        "p": 19958
+      }
+    },
+    {
+      "type": "item",
+      "id": "10627",
+      "obj": {
+        "i": 10627,
+        "n": "Adamantite Greatsword",
+        "l": 150,
+        "c": 34223,
+        "t": 87,
+        "p": 33561
+      }
+    },
+    {
+      "type": "item",
+      "id": "11878",
+      "obj": {
+        "i": 11878,
+        "n": "Adamantite Cross-pein Hammer",
+        "l": 150,
+        "c": 35116,
+        "t": 14,
+        "p": 22334
+      }
+    },
+    {
+      "type": "item",
+      "id": "11890",
+      "obj": {
+        "i": 11890,
+        "n": "Aurum Regis Creasing Knife",
+        "l": 150,
+        "c": 35417,
+        "t": 20,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "11906",
+      "obj": {
+        "i": 11906,
+        "n": "Adamantite Dolabra",
+        "l": 150,
+        "c": 38018,
+        "t": 28,
+        "p": 22334
+      }
+    },
+    {
+      "type": "item",
+      "id": "11950",
+      "obj": {
+        "i": 11950,
+        "n": "Weighted Adamantite Sledgehammer",
+        "l": 170,
+        "c": 38055,
+        "t": 29,
+        "p": 24908
+      }
+    },
+    {
+      "type": "item",
+      "id": "14045",
+      "obj": {
+        "i": 14045,
+        "n": "Orchestrion",
+        "l": 210,
+        "c": 52587,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "14717",
+      "obj": {
+        "i": 14717,
+        "n": "Eikon Leather Headgear of Maiming",
+        "l": 220,
+        "c": 40478,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "14722",
+      "obj": {
+        "i": 14722,
+        "n": "Eikon Leather Headgear of Striking",
+        "l": 220,
+        "c": 40479,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "14742",
+      "obj": {
+        "i": 14742,
+        "n": "Eikon Leather Headgear of Casting",
+        "l": 220,
+        "c": 41315,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "15950",
+      "obj": {
+        "i": 15950,
+        "n": "Chocobo Cottage Walls",
+        "l": 180,
+        "c": 50816,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "15951",
+      "obj": {
+        "i": 15951,
+        "n": "Chocobo House Walls",
+        "l": 180,
+        "c": 50817,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "15952",
+      "obj": {
+        "i": 15952,
+        "n": "Chocobo Mansion Walls",
+        "l": 180,
+        "c": 50818,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "17004",
+      "obj": {
+        "i": 17004,
+        "n": "Paissa Cottage Walls",
+        "l": 180,
+        "c": 50819,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "17005",
+      "obj": {
+        "i": 17005,
+        "n": "Paissa House Walls",
+        "l": 180,
+        "c": 50820,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "17006",
+      "obj": {
+        "i": 17006,
+        "n": "Paissa Mansion Walls",
+        "l": 180,
+        "c": 50821,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19767",
+      "obj": {
+        "i": 19767,
+        "n": "Carbuncle Cottage Walls",
+        "l": 1,
+        "c": 50822,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19768",
+      "obj": {
+        "i": 19768,
+        "n": "Carbuncle House Walls",
+        "l": 1,
+        "c": 50823,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19769",
+      "obj": {
+        "i": 19769,
+        "n": "Carbuncle Mansion Walls",
+        "l": 1,
+        "c": 50824,
+        "t": 66
+      }
+    }
+  ]
+}

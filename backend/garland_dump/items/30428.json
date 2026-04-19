@@ -1,0 +1,70 @@
+{
+  "item": {
+    "name": "Water Bomb Stand",
+    "description": "Bring home this hallmark of the Moonfire Faire and pelt passersby with aquatic surprises from the comfort of your very own front garden!",
+    "id": 30428,
+    "patch": 5.3,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52297,
+    "tradeShops": [
+      {
+        "shop": "Exchange Faire Voucher",
+        "npcs": [
+          1034215
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30428",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31577",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034215",
+      "obj": {
+        "i": 1034215,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "r": 1,
+        "a": 169,
+        "c": [
+          34.83,
+          25.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31577",
+      "obj": {
+        "i": 31577,
+        "n": "Faire Voucher MMXX",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "leve": {
+    "name": "Catch My Metaphor",
+    "description": "<span class=\"highlight\">Karvarhur the First</span> is supposedly where the first Yok Huy was born, and thus it is a sacred locale. The story of their origin also makes mention of a giant fish that serves as a guide for souls. Though it may merely be metaphorical, I would nevertheless determine its species if possible. Deep beneath the water's surface surely lurks something ancient, and I would have you bring it to me.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1803,
+    "patch": 7.0,
+    "client": "Wing of Reflection Archaeology Specialist, Yoani",
+    "lvl": 94,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      17.17,
+      15.03
+    ],
+    "zoneid": 4505,
+    "areaid": 4505,
+    "xp": 5803754,
+    "gil": 2560,
+    "rewards": 808,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110199,
+    "requires": [
+      {
+        "item": 43808,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 808,
+    "entries": [
+      {
+        "item": 43851,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Karvarichthys",
+      "id": 43808,
+      "icon": 28636,
+      "category": 47,
+      "ilvl": 660,
+      "price": 99999,
+      "nodes": [
+        1005
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "1005",
+      "obj": {
+        "i": 1005,
+        "n": "Karvarhur the First",
+        "l": 95,
+        "t": 5,
+        "z": 4505
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1803",
+      "obj": {
+        "i": 1803,
+        "n": "Catch My Metaphor",
+        "l": 94,
+        "j": 19,
+        "p": 4505
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43851",
+      "obj": {
+        "i": 43851,
+        "n": "Silkmoth Pupa",
+        "l": 645,
+        "c": 27104,
+        "t": 33,
+        "p": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43808",
+      "obj": {
+        "i": 43808,
+        "n": "Karvarichthys",
+        "l": 660,
+        "c": 28636,
+        "t": 47
+      }
+    }
+  ]
+}

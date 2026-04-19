@@ -1,0 +1,716 @@
+{
+  "item": {
+    "name": "Ethereal Silk",
+    "description": "This sheen of this oft-sought, rarely found silk is at once both foreign and familiar.",
+    "id": 27760,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 450,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21620,
+    "craft": [
+      {
+        "id": 33331,
+        "job": 13,
+        "rlvl": 450,
+        "durability": 35,
+        "quality": 6320,
+        "progress": 1640,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24271,
+        "ingredients": [
+          {
+            "id": 27761,
+            "amount": 4
+          },
+          {
+            "id": 27762,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 456,
+          "hq": 476
+        }
+      }
+    ],
+    "ingredient_of": {
+      "26447": 1,
+      "26449": 1,
+      "26450": 1,
+      "26455": 2,
+      "26456": 1,
+      "26459": 2,
+      "26461": 2,
+      "26464": 2,
+      "26465": 2,
+      "26466": 2,
+      "26467": 2,
+      "26470": 2,
+      "26471": 2,
+      "26473": 2,
+      "26476": 2,
+      "26477": 3,
+      "26478": 2,
+      "26479": 2,
+      "26482": 2,
+      "26483": 2,
+      "26485": 2,
+      "28472": 2,
+      "28473": 3,
+      "28475": 3,
+      "28478": 3,
+      "28479": 2,
+      "28480": 3,
+      "28588": 2,
+      "28590": 2,
+      "30055": 2,
+      "30056": 2,
+      "33895": 2,
+      "33900": 1,
+      "38554": 1
+    },
+    "desynthedFrom": [
+      31798,
+      25575,
+      29359,
+      33540,
+      25602,
+      32593,
+      26456,
+      30649
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Ethereal Cocoon",
+      "id": 27761,
+      "icon": 21661,
+      "category": 51,
+      "ilvl": 450,
+      "price": 630,
+      "ventures": [
+        860
+      ],
+      "nodes": [
+        634
+      ]
+    },
+    {
+      "name": "Multifaceted Cotton Cloth",
+      "id": 27762,
+      "icon": 21601,
+      "category": 51,
+      "ilvl": 450,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27762",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27762",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "634",
+      "obj": {
+        "i": 634,
+        "n": "Inviolate Witness",
+        "l": 80,
+        "t": 3,
+        "z": 2953,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "24271",
+      "obj": {
+        "i": 24271,
+        "n": "Master Weaver VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27761",
+      "obj": {
+        "i": 27761,
+        "n": "Ethereal Cocoon",
+        "l": 450,
+        "c": 21661,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "27762",
+      "obj": {
+        "i": 27762,
+        "n": "Multifaceted Cotton Cloth",
+        "l": 450,
+        "c": 21601,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "26447",
+      "obj": {
+        "i": 26447,
+        "n": "Facet Mail of Fending",
+        "l": 450,
+        "c": 48189,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26449",
+      "obj": {
+        "i": 26449,
+        "n": "Facet Chain Hose of Fending",
+        "l": 450,
+        "c": 47561,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26450",
+      "obj": {
+        "i": 26450,
+        "n": "Facet Sabatons of Fending",
+        "l": 450,
+        "c": 47200,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26455",
+      "obj": {
+        "i": 26455,
+        "n": "Facet Bottoms of Maiming",
+        "l": 450,
+        "c": 47563,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26456",
+      "obj": {
+        "i": 26456,
+        "n": "Facet Sabatons of Maiming",
+        "l": 450,
+        "c": 47201,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26459",
+      "obj": {
+        "i": 26459,
+        "n": "Facet Cyclas of Striking",
+        "l": 450,
+        "c": 43448,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26461",
+      "obj": {
+        "i": 26461,
+        "n": "Facet Gaskins of Striking",
+        "l": 450,
+        "c": 47564,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26464",
+      "obj": {
+        "i": 26464,
+        "n": "Facet Turban of Aiming",
+        "l": 450,
+        "c": 41759,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26465",
+      "obj": {
+        "i": 26465,
+        "n": "Facet Tabard of Aiming",
+        "l": 450,
+        "c": 43449,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26466",
+      "obj": {
+        "i": 26466,
+        "n": "Facet Halfgloves of Aiming",
+        "l": 450,
+        "c": 44708,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "26467",
+      "obj": {
+        "i": 26467,
+        "n": "Facet Brais of Aiming",
+        "l": 450,
+        "c": 47565,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26470",
+      "obj": {
+        "i": 26470,
+        "n": "Facet Turban of Scouting",
+        "l": 450,
+        "c": 41452,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26471",
+      "obj": {
+        "i": 26471,
+        "n": "Facet Dolman of Scouting",
+        "l": 450,
+        "c": 43450,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26473",
+      "obj": {
+        "i": 26473,
+        "n": "Facet Bottoms of Scouting",
+        "l": 450,
+        "c": 47566,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26476",
+      "obj": {
+        "i": 26476,
+        "n": "Facet Hat of Healing",
+        "l": 450,
+        "c": 41451,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26477",
+      "obj": {
+        "i": 26477,
+        "n": "Facet Coat of Healing",
+        "l": 450,
+        "c": 43880,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26478",
+      "obj": {
+        "i": 26478,
+        "n": "Facet Dress Gloves of Healing",
+        "l": 450,
+        "c": 44707,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "26479",
+      "obj": {
+        "i": 26479,
+        "n": "Facet Trousers of Healing",
+        "l": 450,
+        "c": 47562,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26482",
+      "obj": {
+        "i": 26482,
+        "n": "Facet Hat of Casting",
+        "l": 450,
+        "c": 41450,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26483",
+      "obj": {
+        "i": 26483,
+        "n": "Facet Coat of Casting",
+        "l": 450,
+        "c": 43879,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26485",
+      "obj": {
+        "i": 26485,
+        "n": "Facet Bottoms of Casting",
+        "l": 450,
+        "c": 47560,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28472",
+      "obj": {
+        "i": 28472,
+        "n": "Facet Hat of Crafting",
+        "l": 460,
+        "c": 41479,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28473",
+      "obj": {
+        "i": 28473,
+        "n": "Facet Coat of Crafting",
+        "l": 460,
+        "c": 43908,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28475",
+      "obj": {
+        "i": 28475,
+        "n": "Facet Trousers of Crafting",
+        "l": 460,
+        "c": 47653,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28478",
+      "obj": {
+        "i": 28478,
+        "n": "Facet Coat of Gathering",
+        "l": 460,
+        "c": 43907,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28479",
+      "obj": {
+        "i": 28479,
+        "n": "Facet Fingerless Gloves of Gathering",
+        "l": 460,
+        "c": 44757,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28480",
+      "obj": {
+        "i": 28480,
+        "n": "Facet Bottoms of Gathering",
+        "l": 460,
+        "c": 47652,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28588",
+      "obj": {
+        "i": 28588,
+        "n": "Urban Coat",
+        "l": 1,
+        "c": 42685,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28590",
+      "obj": {
+        "i": 28590,
+        "n": "Rebel Coat",
+        "l": 1,
+        "c": 42686,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "30055",
+      "obj": {
+        "i": 30055,
+        "n": "Dalmascan Draped Top",
+        "l": 1,
+        "c": 42693,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "30056",
+      "obj": {
+        "i": 30056,
+        "n": "Dalmascan Draped Bottoms",
+        "l": 1,
+        "c": 47697,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "33895",
+      "obj": {
+        "i": 33895,
+        "n": "Augmented Kelesis",
+        "l": 430,
+        "c": 32764,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "33900",
+      "obj": {
+        "i": 33900,
+        "n": "Augmented Aischune",
+        "l": 430,
+        "c": 36499,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "38554",
+      "obj": {
+        "i": 38554,
+        "n": "The Fae's Crown Katana",
+        "l": 430,
+        "c": 36484,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "31798",
+      "obj": {
+        "i": 31798,
+        "n": "Landsaint's Bandana",
+        "l": 500,
+        "c": 41514,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "25575",
+      "obj": {
+        "i": 25575,
+        "n": "Augmented Deepshadow Breeches of Maiming",
+        "l": 470,
+        "c": 47635,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29359",
+      "obj": {
+        "i": 29359,
+        "n": "Anamnesis Gloves of Aiming",
+        "l": 455,
+        "c": 44772,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "33540",
+      "obj": {
+        "i": 33540,
+        "n": "Paglth'an Sandals of Casting",
+        "l": 505,
+        "c": 49330,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "25602",
+      "obj": {
+        "i": 25602,
+        "n": "Augmented Deepshadow Hood of Casting",
+        "l": 470,
+        "c": 40540,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "32593",
+      "obj": {
+        "i": 32593,
+        "n": "Heirloom Gaskins of Striking",
+        "l": 485,
+        "c": 47763,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "30649",
+      "obj": {
+        "i": 30649,
+        "n": "Shadowless Bottoms of Healing",
+        "l": 475,
+        "c": 47734,
+        "t": 36
+      }
+    }
+  ]
+}

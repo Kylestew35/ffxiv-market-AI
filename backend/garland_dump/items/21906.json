@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Magitek Death Claw Identification Key",
+    "description": "A thin, rectangular piece of what appears to be cermet. Placing it near your magitek death claw will magically bring the machine to life.",
+    "mount": {
+      "name": "Magitek Death Claw",
+      "action": "Call into battle your magitek death claw, an imperial warmachina based on ancient Allagan technology.",
+      "description": "Ancient Allagan weaponry known as an “iron claw” is believed to be the inspiration for this deadly example of imperial ingenuity. While most of the death claws deployed in battle are used for logistical purposes, this particular model has been customized by stationarii units for enemy capture.",
+      "tooltip": "Only so many of us find<br>machina pretty, my dear.<br>   - Mide",
+      "icon": 4111,
+      "guideIcon": 68111
+    },
+    "id": 21906,
+    "patch": 4.2,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21906",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "450-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "item": {
+    "name": "Prototype Gordian Crown of Casting",
+    "jobCategories": "THM ACN BLM SMN RDM BLU PCT",
+    "id": 11454,
+    "patch": 3.01,
+    "patchCategory": 0,
+    "price": 55865,
+    "ilvl": 190,
+    "category": 34,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 587,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1093,
+    "slot": 3,
+    "elvl": 60,
+    "jobs": 63,
+    "models": [
+      "283-2-0-0"
+    ],
+    "attr": {
+      "Defense": 95,
+      "Magic Defense": 166,
+      "Intelligence": 44,
+      "Vitality": 39,
+      "Direct Hit Rate": 49,
+      "Critical Hit": 34
+    },
+    "icon": 40680,
+    "sharedModels": [
+      11453,
+      11529,
+      11530
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Part Exchange (DoM)",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11454",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12674",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prototype Gordian Gear (IL 190)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11454",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12674",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "11453",
+      "obj": {
+        "i": 11453,
+        "n": "Prototype Gordian Crown of Healing",
+        "l": 190,
+        "c": 40679,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "11529",
+      "obj": {
+        "i": 11529,
+        "n": "Gordian Crown of Healing",
+        "l": 210,
+        "c": 40679,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "11530",
+      "obj": {
+        "i": 11530,
+        "n": "Gordian Crown of Casting",
+        "l": 210,
+        "c": 40680,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12674",
+      "obj": {
+        "i": 12674,
+        "n": "Tarnished Gordian Lens",
+        "l": 1,
+        "c": 22624,
+        "t": 61
+      }
+    }
+  ]
+}

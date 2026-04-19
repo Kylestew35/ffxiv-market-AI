@@ -1,0 +1,596 @@
+{
+  "item": {
+    "name": "Armor Hanger",
+    "description": "Originally designed for ceremonial purposes for those of the Elezen persuasion, the attachments on the side of the helm allow it to be worn without bending the ears out of shape.",
+    "id": 33292,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 430,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "icon": 53393,
+    "craft": [
+      {
+        "id": 4725,
+        "job": 10,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 33872,
+            "amount": 1
+          },
+          {
+            "id": 27714,
+            "amount": 2,
+            "quality": 535.6341
+          },
+          {
+            "id": 7009,
+            "amount": 2,
+            "quality": 38.72054
+          },
+          {
+            "id": 9,
+            "amount": 7
+          },
+          {
+            "id": 11,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 471,
+          "hq": 491
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1049"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Rusted Suit of Armor",
+      "id": 33872,
+      "icon": 43065,
+      "category": 49,
+      "ilvl": 1,
+      "price": 115,
+      "voyages": [
+        {
+          "id": 66,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Dwarven Mythril Ingot",
+      "id": 27714,
+      "icon": 20811,
+      "category": 49,
+      "ilvl": 415,
+      "price": 3075,
+      "craft": [
+        {
+          "id": 3821,
+          "job": 9,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27703,
+              "amount": 4
+            },
+            {
+              "id": 12534,
+              "amount": 1
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 88,
+            "hq": 108
+          }
+        },
+        {
+          "id": 3826,
+          "job": 10,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27703,
+              "amount": 4
+            },
+            {
+              "id": 12534,
+              "amount": 1
+            },
+            {
+              "id": 9,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 88,
+            "hq": 108
+          }
+        }
+      ],
+      "desynthedFrom": [
+        32244,
+        28973,
+        29343,
+        25598,
+        29349,
+        30618
+      ],
+      "leves": [
+        1445,
+        1446,
+        1447,
+        1460,
+        1461,
+        1462
+      ]
+    },
+    {
+      "name": "Dimythrite Ore",
+      "id": 27703,
+      "icon": 21208,
+      "category": 48,
+      "ilvl": 420,
+      "price": 630,
+      "voyages": [
+        {
+          "id": 58,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        799
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Mythrite Ore",
+      "id": 12534,
+      "icon": 21221,
+      "category": 48,
+      "ilvl": 130,
+      "price": 772,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12534",
+                  "amount": 4
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        1004,
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1124,
+        1125,
+        1126,
+        1127,
+        1128,
+        1129
+      ],
+      "ventures": [
+        545
+      ],
+      "nodes": [
+        285
+      ]
+    },
+    {
+      "name": "Cut Stone",
+      "id": 7009,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 30,
+      "price": 440,
+      "craft": [
+        {
+          "id": 1581,
+          "job": 11,
+          "rlvl": 30,
+          "durability": 40,
+          "quality": 680,
+          "progress": 51,
+          "lvl": 30,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 7008,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ],
+      "desynthedFrom": [
+        37374,
+        20718,
+        36866,
+        36868,
+        36870,
+        36871,
+        6379,
+        6390,
+        6397,
+        20701,
+        8012,
+        10346
+      ]
+    },
+    {
+      "name": "Granite",
+      "id": 7008,
+      "icon": 22615,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "desynthedFrom": [
+        20718,
+        37401,
+        6377,
+        6390,
+        20689,
+        8012,
+        12754
+      ],
+      "ventures": [
+        133
+      ],
+      "nodes": [
+        178
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27703",
+      "obj": {
+        "i": 27703,
+        "n": "Dimythrite Ore",
+        "l": 420,
+        "c": 21208,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12534",
+      "obj": {
+        "i": 12534,
+        "n": "Mythrite Ore",
+        "l": 130,
+        "c": 21221,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "285",
+      "obj": {
+        "i": 285,
+        "n": "Gorgagne Holding",
+        "l": 55,
+        "t": 0,
+        "z": 2200
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "7008",
+      "obj": {
+        "i": 7008,
+        "n": "Granite",
+        "l": 30,
+        "c": 22615,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "178",
+      "obj": {
+        "i": 178,
+        "n": "Sorrel Haven",
+        "l": 35,
+        "t": 0,
+        "z": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33872",
+      "obj": {
+        "i": 33872,
+        "n": "Rusted Suit of Armor",
+        "l": 1,
+        "c": 43065,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "27714",
+      "obj": {
+        "i": 27714,
+        "n": "Dwarven Mythril Ingot",
+        "l": 415,
+        "c": 20811,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "7009",
+      "obj": {
+        "i": 7009,
+        "n": "Cut Stone",
+        "l": 30,
+        "c": 21470,
+        "t": 48
+      }
+    }
+  ]
+}

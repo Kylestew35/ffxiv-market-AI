@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Namazu Effigy",
+    "description": "A towering and distinctly peculiar Namazu sculpture.",
+    "id": 22584,
+    "patch": 4.3,
+    "patchCategory": 9,
+    "price": 29620,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "sell_price": 57,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52258,
+    "tradeShops": [
+      {
+        "shop": "Namazu Koban Exchange",
+        "npcs": [
+          1025604
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22584",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22525",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025604",
+      "obj": {
+        "i": 1025604,
+        "n": "Gyosho",
+        "l": 2411,
+        "s": 8,
+        "t": "Festival Vendor",
+        "r": 1,
+        "a": 2850,
+        "c": [
+          5.84,
+          23.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22525",
+      "obj": {
+        "i": 22525,
+        "n": "Namazu Koban",
+        "l": 1,
+        "c": 65064,
+        "t": 100
+      }
+    }
+  ]
+}

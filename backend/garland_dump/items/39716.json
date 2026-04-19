@@ -1,0 +1,154 @@
+{
+  "item": {
+    "name": "Alche-mist",
+    "description": "Though to the layman's eye “alche-mist” appears to be little more than fancy purified water, the alchemically inclined folk of Thavnair insist that naught else will do.",
+    "id": 39716,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22689,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39716",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39716",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "39727": 1,
+      "39728": 1,
+      "39729": 1,
+      "39730": 1,
+      "39731": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39727",
+      "obj": {
+        "i": 39727,
+        "n": "Grade 8 Tincture of Strength",
+        "l": 640,
+        "c": 20710,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "39728",
+      "obj": {
+        "i": 39728,
+        "n": "Grade 8 Tincture of Dexterity",
+        "l": 640,
+        "c": 20709,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "39729",
+      "obj": {
+        "i": 39729,
+        "n": "Grade 8 Tincture of Vitality",
+        "l": 640,
+        "c": 20707,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "39730",
+      "obj": {
+        "i": 39730,
+        "n": "Grade 8 Tincture of Intelligence",
+        "l": 640,
+        "c": 20706,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "39731",
+      "obj": {
+        "i": 39731,
+        "n": "Grade 8 Tincture of Mind",
+        "l": 640,
+        "c": 20708,
+        "t": 44
+      }
+    }
+  ]
+}

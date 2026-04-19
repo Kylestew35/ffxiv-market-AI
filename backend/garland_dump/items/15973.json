@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Pumpkin Stew",
+    "description": "An All Saints' Wake culinary tradition, this rich, buttery soup is oft served in a hollowed-out pumpkin.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">CP Bonus:</span> +9% (Max 23)<br>  <span class=\"highlight-green\">GP Bonus:</span> +5% (Max 22)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +2<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 15973,
+    "patch": 3.4,
+    "patchCategory": 9,
+    "price": 6408,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "sell_price": 150,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53122,
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1017844
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15973",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16778",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "465"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017844",
+      "obj": {
+        "i": 1017844,
+        "n": "Alluring Peddler",
+        "l": 53,
+        "s": 1,
+        "t": "Continental Circus Vendor",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.31,
+          9.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "16778",
+      "obj": {
+        "i": 16778,
+        "n": "Stale Pumpkin Cookie MMXVI",
+        "l": 1,
+        "c": 24067,
+        "t": 85
+      }
+    }
+  ]
+}

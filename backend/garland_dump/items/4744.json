@@ -1,0 +1,171 @@
+{
+  "item": {
+    "name": "Sweet Rice Cake",
+    "description": "This three-layered rice cake has been molded into a diamond shape. The coloring used in the layers has medicinal properties.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 4744,
+    "patch": 1.0,
+    "patchCategory": 6,
+    "price": 23,
+    "ilvl": 14,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Vitality": {
+          "rate": 8,
+          "limit": 2
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Vitality": {
+          "rate": 10,
+          "limit": 3
+        }
+      }
+    },
+    "icon": 24066,
+    "vendors": [
+      1005896,
+      1005898,
+      1005900
+    ],
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event",
+        "npcs": [
+          1017613,
+          1017614,
+          1017615
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4744",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "4851",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005896",
+      "obj": {
+        "i": 1005896,
+        "n": "Little Lady",
+        "l": 53,
+        "s": 1,
+        "t": "Festival Supplier",
+        "a": 580,
+        "c": [
+          10.26,
+          9.27
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005898",
+      "obj": {
+        "i": 1005898,
+        "n": "Little Lady",
+        "l": 28,
+        "s": 1,
+        "t": "Festival Supplier",
+        "a": 737,
+        "c": [
+          11.3,
+          13.91
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005900",
+      "obj": {
+        "i": 1005900,
+        "n": "Little Lady",
+        "l": 40,
+        "s": 1,
+        "t": "Festival Supplier",
+        "a": 640,
+        "c": [
+          10.7,
+          9.16
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017613",
+      "obj": {
+        "i": 1017613,
+        "n": "Recompense Officer",
+        "l": 53,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017614",
+      "obj": {
+        "i": 1017614,
+        "n": "Recompense Officer",
+        "l": 28,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "11.2",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017615",
+      "obj": {
+        "i": 1017615,
+        "n": "Recompense Officer",
+        "l": 41,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4851",
+      "obj": {
+        "i": 4851,
+        "n": "Powdered Sugar",
+        "l": 5,
+        "c": 25108,
+        "t": 45
+      }
+    }
+  ]
+}

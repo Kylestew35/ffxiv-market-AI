@@ -1,0 +1,535 @@
+{
+  "item": {
+    "name": "Grade 8 Intelligence Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to intelligence, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 39725,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22679,
+    "ingredient_of": {
+      "39639": 2,
+      "39640": 2,
+      "39644": 2,
+      "39680": 2,
+      "39681": 2,
+      "39682": 2,
+      "39683": 2,
+      "39684": 2,
+      "39689": 1,
+      "39694": 1,
+      "39699": 1,
+      "39704": 1
+    },
+    "craft": [
+      {
+        "id": 35583,
+        "job": 14,
+        "rlvl": 640,
+        "durability": 35,
+        "quality": 9090,
+        "progress": 4488,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3660,
+        "craftsmanshipReq": 3950,
+        "unlockId": 37740,
+        "ingredients": [
+          {
+            "id": 39710,
+            "amount": 1
+          },
+          {
+            "id": 37284,
+            "amount": 1
+          },
+          {
+            "id": 27780,
+            "amount": 1
+          },
+          {
+            "id": 38936,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 415,
+          "hq": 435
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Lovingbloom",
+      "id": 39710,
+      "icon": 25413,
+      "category": 54,
+      "ilvl": 640,
+      "price": 99999,
+      "ventures": [
+        1048
+      ],
+      "nodes": [
+        936
+      ]
+    },
+    {
+      "name": "Immutable Solution",
+      "id": 37284,
+      "icon": 22667,
+      "category": 54,
+      "ilvl": 590,
+      "price": 99999,
+      "desynthedFrom": [
+        38183,
+        37173,
+        39007,
+        38976,
+        34838,
+        37191,
+        39002,
+        39007,
+        39011,
+        38206,
+        34847,
+        38964,
+        40263
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37284",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37284",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fernleaf Lavender",
+      "id": 27780,
+      "icon": 25002,
+      "category": 54,
+      "ilvl": 412,
+      "price": 210,
+      "ventures": [
+        833
+      ],
+      "nodes": [
+        623
+      ]
+    },
+    {
+      "name": "Earthbreak Aethersand",
+      "id": 38936,
+      "icon": 21246,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "reducedFrom": [
+        38938,
+        38937,
+        38841,
+        38939
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "936",
+      "obj": {
+        "i": 936,
+        "n": "Lovingway's Darlings",
+        "l": 90,
+        "t": 3,
+        "z": 3711,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "623",
+      "obj": {
+        "i": 623,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "38938",
+      "obj": {
+        "i": 38938,
+        "n": "Sophora Roots",
+        "l": 600,
+        "c": 25025,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38937",
+      "obj": {
+        "i": 38937,
+        "n": "Earthen Quartz",
+        "l": 600,
+        "c": 21458,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "38841",
+      "obj": {
+        "i": 38841,
+        "n": "Nosceasaur",
+        "l": 600,
+        "c": 28548,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38939",
+      "obj": {
+        "i": 38939,
+        "n": "Verdigris Guppy",
+        "l": 600,
+        "c": 28544,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "39639",
+      "obj": {
+        "i": 39639,
+        "n": "Diadochos Rod",
+        "l": 640,
+        "c": 32876,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "39640",
+      "obj": {
+        "i": 39640,
+        "n": "Diadochos Index",
+        "l": 640,
+        "c": 33386,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "39644",
+      "obj": {
+        "i": 39644,
+        "n": "Diadochos Smallsword",
+        "l": 640,
+        "c": 36844,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "39680",
+      "obj": {
+        "i": 39680,
+        "n": "Diadochos Beret of Casting",
+        "l": 640,
+        "c": 56585,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39681",
+      "obj": {
+        "i": 39681,
+        "n": "Diadochos Coat of Casting",
+        "l": 640,
+        "c": 42966,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39682",
+      "obj": {
+        "i": 39682,
+        "n": "Diadochos Armlets of Casting",
+        "l": 640,
+        "c": 56098,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39683",
+      "obj": {
+        "i": 39683,
+        "n": "Diadochos Bottoms of Casting",
+        "l": 640,
+        "c": 47996,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39684",
+      "obj": {
+        "i": 39684,
+        "n": "Diadochos Boots of Casting",
+        "l": 640,
+        "c": 49588,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39689",
+      "obj": {
+        "i": 39689,
+        "n": "Diadochos Earring of Casting",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39694",
+      "obj": {
+        "i": 39694,
+        "n": "Diadochos Choker of Casting",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39699",
+      "obj": {
+        "i": 39699,
+        "n": "Diadochos Wristband of Casting",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39704",
+      "obj": {
+        "i": 39704,
+        "n": "Diadochos Ring of Casting",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "37740",
+      "obj": {
+        "i": 37740,
+        "n": "Master Alchemist X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39710",
+      "obj": {
+        "i": 39710,
+        "n": "Lovingbloom",
+        "l": 640,
+        "c": 25413,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "37284",
+      "obj": {
+        "i": 37284,
+        "n": "Immutable Solution",
+        "l": 590,
+        "c": 22667,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27780",
+      "obj": {
+        "i": 27780,
+        "n": "Fernleaf Lavender",
+        "l": 412,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38936",
+      "obj": {
+        "i": 38936,
+        "n": "Earthbreak Aethersand",
+        "l": 600,
+        "c": 21246,
+        "t": 54
+      }
+    }
+  ]
+}

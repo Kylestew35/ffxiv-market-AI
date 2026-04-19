@@ -1,0 +1,74 @@
+{
+  "item": {
+    "name": "Automaton Digger",
+    "description": "An ingenious mining automaton created by the kobolds.",
+    "id": 7126,
+    "patch": 2.2,
+    "patchCategory": 9,
+    "price": 26136,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 52153,
+    "vendors": [
+      1008909
+    ],
+    "tradeShops": [
+      {
+        "shop": "Titan Cobaltpiece Exchange",
+        "npcs": [
+          1008909
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7126",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21078",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "item": {
+    "name": "Fledgling Chocobo Registration G1-M",
+    "description": "Official registration for a grade 1 male chocobo. Submit to a Chocobo Square representative to register the bird for chocobo racing.",
+    "id": 9561,
+    "patch": 2.51,
+    "patchCategory": 5,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 27651,
+    "vendors": [
+      1011585
+    ],
+    "quests": [
+      65972
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011585",
+      "obj": {
+        "i": 1011585,
+        "n": "Feathertrader",
+        "l": 54,
+        "s": 1,
+        "c": [
+          "20.4",
+          "22.8"
+        ]
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65972",
+      "obj": {
+        "i": 65972,
+        "n": "So You Want to Be a Jockey",
+        "g": 113,
+        "l": "Chocobo Square",
+        "s": 141,
+        "f": 1
+      }
+    }
+  ]
+}

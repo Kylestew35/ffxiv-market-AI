@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Immortal Flames Aetheryte Ticket",
+    "description": "A voucher redeemable by Immortal Flames enlistees for instant teleportation to the Hall of Flames.",
+    "id": 21071,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 3333,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "sell_price": 100,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26520,
+    "tradeShops": [
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21071",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 2000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    }
+  ]
+}

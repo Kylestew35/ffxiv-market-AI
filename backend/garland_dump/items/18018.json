@@ -1,0 +1,757 @@
+{
+  "item": {
+    "name": "Heavens' Eye Materia VI",
+    "description": "Cannot be melded onto a piece of equipment past the first advanced materia melding slot.",
+    "id": 18018,
+    "patch": 4.0,
+    "patchCategory": 10,
+    "price": 7000,
+    "ilvl": 290,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 126,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20267,
+    "drops": [
+      84180000007069,
+      84200000007071,
+      84190000002642,
+      84160000007067,
+      75820000006034,
+      75810000006033,
+      70550000006123,
+      70540000006124,
+      81290000006904,
+      81280000006905,
+      81300000006906,
+      84480000007004,
+      84520000007008,
+      84510000007009,
+      84560000007013,
+      84530000007010,
+      84540000007011,
+      84550000007012,
+      84570000007014,
+      68100000006082,
+      68120000006084
+    ],
+    "instances": [
+      64
+    ],
+    "tradeShops": [
+      {
+        "shop": "Mhachi Matter Exchange",
+        "npcs": [
+          1017107,
+          1019461
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "18018",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "18030",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "18018",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Centurio Seal Exchange I",
+        "npcs": [
+          1019007,
+          1019454
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "18018",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Exchange artifacts",
+        "npcs": [
+          1025848
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "18018",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23164",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia I",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "18018",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "18018",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "18030",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 5,
+      "value": 16,
+      "attr": "Direct Hit Rate",
+      "category": 0
+    },
+    "desynthedFrom": [
+      24886,
+      23060,
+      23058,
+      24890,
+      24215,
+      24891,
+      24993,
+      27507,
+      20100,
+      24211,
+      20227
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "VOYAGE"
+      ]
+    },
+    "treasure": [
+      22508,
+      23142,
+      24141,
+      24848
+    ],
+    "voyages": [
+      {
+        "id": 34,
+        "type": 1
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017107",
+      "obj": {
+        "i": 1017107,
+        "n": "Smacklix",
+        "l": 2082,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 2092,
+        "c": [
+          7.65,
+          4.84
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019461",
+      "obj": {
+        "i": 1019461,
+        "n": "Switchstix",
+        "l": 2403,
+        "s": 1,
+        "t": "Materia Provisioner",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          12.5,
+          11.38
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "18030",
+      "obj": {
+        "i": 18030,
+        "n": "Cracked Cluster",
+        "l": 1,
+        "c": 20020,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019007",
+      "obj": {
+        "i": 1019007,
+        "n": "Estrild",
+        "l": 2404,
+        "s": 1,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2906,
+        "c": [
+          10.4,
+          10.29
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019454",
+      "obj": {
+        "i": 1019454,
+        "n": "Leuekin",
+        "l": 2403,
+        "s": 1,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.09,
+          11.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025848",
+      "obj": {
+        "i": 1025848,
+        "n": "Confederate Custodian",
+        "l": 2409,
+        "s": 2,
+        "r": 1,
+        "a": 2775,
+        "c": [
+          21.29,
+          9.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23164",
+      "obj": {
+        "i": 23164,
+        "n": "Empyrean Potsherd",
+        "l": 1,
+        "c": 26537,
+        "t": 61
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84190000002642",
+      "obj": {
+        "i": 84190000002642,
+        "n": "Proto-chimera",
+        "l": "70",
+        "z": 2148
+      }
+    },
+    {
+      "type": "mob",
+      "id": "75810000006033",
+      "obj": {
+        "i": 75810000006033,
+        "n": "12th Legion Hexadrone",
+        "l": "70",
+        "z": 2691
+      }
+    },
+    {
+      "type": "mob",
+      "id": "75820000006034",
+      "obj": {
+        "i": 75820000006034,
+        "n": "12th Legion Slasher",
+        "l": "70",
+        "z": 2691
+      }
+    },
+    {
+      "type": "mob",
+      "id": "68100000006082",
+      "obj": {
+        "i": 68100000006082,
+        "n": "Karasu Tengu",
+        "l": "70",
+        "z": 2298
+      }
+    },
+    {
+      "type": "mob",
+      "id": "68120000006084",
+      "obj": {
+        "i": 68120000006084,
+        "n": "Harakiri Hanya",
+        "l": "70",
+        "z": 2298
+      }
+    },
+    {
+      "type": "mob",
+      "id": "70550000006123",
+      "obj": {
+        "i": 70550000006123,
+        "n": "The Way Of The Fist",
+        "l": "70",
+        "z": 2707
+      }
+    },
+    {
+      "type": "mob",
+      "id": "70540000006124",
+      "obj": {
+        "i": 70540000006124,
+        "n": "The Way Of The Lance",
+        "l": "70",
+        "z": 2707
+      }
+    },
+    {
+      "type": "mob",
+      "id": "81290000006904",
+      "obj": {
+        "i": 81290000006904,
+        "n": "Accursed Idol",
+        "l": "70",
+        "z": 2367
+      }
+    },
+    {
+      "type": "mob",
+      "id": "81280000006905",
+      "obj": {
+        "i": 81280000006905,
+        "n": "Lightless Homunculus",
+        "l": "70",
+        "z": 2367
+      }
+    },
+    {
+      "type": "mob",
+      "id": "81300000006906",
+      "obj": {
+        "i": 81300000006906,
+        "n": "Rotting Royal",
+        "l": "70",
+        "z": 2367
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84480000007004",
+      "obj": {
+        "i": 84480000007004,
+        "n": "Hellish Yumemi",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84520000007008",
+      "obj": {
+        "i": 84520000007008,
+        "n": "Reisen Apa",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84510000007009",
+      "obj": {
+        "i": 84510000007009,
+        "n": "Reisen Tatsunoko",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84530000007010",
+      "obj": {
+        "i": 84530000007010,
+        "n": "Shikigami Of The Spring",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84540000007011",
+      "obj": {
+        "i": 84540000007011,
+        "n": "Right Hand Of The Spring",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84550000007012",
+      "obj": {
+        "i": 84550000007012,
+        "n": "Left Hand Of The Spring",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84560000007013",
+      "obj": {
+        "i": 84560000007013,
+        "n": "Stillwind Nue",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84570000007014",
+      "obj": {
+        "i": 84570000007014,
+        "n": "Boltstorm Nue",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84160000007067",
+      "obj": {
+        "i": 84160000007067,
+        "n": "Rinkhals",
+        "l": "70",
+        "z": 2148
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84180000007069",
+      "obj": {
+        "i": 84180000007069,
+        "n": "Biomanufactured Brobinyak",
+        "l": "70",
+        "z": 2148
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84200000007071",
+      "obj": {
+        "i": 84200000007071,
+        "n": "Biomanufactured Minotaur",
+        "l": "70",
+        "z": 2148
+      }
+    },
+    {
+      "type": "item",
+      "id": "24886",
+      "obj": {
+        "i": 24886,
+        "n": "Glarramundi",
+        "l": 340,
+        "c": 29544,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "23060",
+      "obj": {
+        "i": 23060,
+        "n": "Bondsplitter",
+        "l": 320,
+        "c": 29526,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "23058",
+      "obj": {
+        "i": 23058,
+        "n": "Sapphire Fan",
+        "l": 320,
+        "c": 29524,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24890",
+      "obj": {
+        "i": 24890,
+        "n": "The Unraveled Bow",
+        "l": 340,
+        "c": 29355,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24215",
+      "obj": {
+        "i": 24215,
+        "n": "Argonautica",
+        "l": 340,
+        "c": 29160,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24891",
+      "obj": {
+        "i": 24891,
+        "n": "Nhaama's Treasure",
+        "l": 340,
+        "c": 29318,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24993",
+      "obj": {
+        "i": 24993,
+        "n": "The Ruby Dragon",
+        "l": 380,
+        "c": 29164,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27507",
+      "obj": {
+        "i": 27507,
+        "n": "Yeti Crab",
+        "l": 420,
+        "c": 29187,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "20100",
+      "obj": {
+        "i": 20100,
+        "n": "Swordfish",
+        "l": 290,
+        "c": 29022,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24211",
+      "obj": {
+        "i": 24211,
+        "n": "Hemon",
+        "l": 340,
+        "c": 29538,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "20227",
+      "obj": {
+        "i": 20227,
+        "n": "Thousandfang",
+        "l": 290,
+        "c": 29116,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "22508",
+      "obj": {
+        "i": 22508,
+        "n": "Anemos Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "23142",
+      "obj": {
+        "i": 23142,
+        "n": "Pagos Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "24141",
+      "obj": {
+        "i": 24141,
+        "n": "Pyros Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "24848",
+      "obj": {
+        "i": 24848,
+        "n": "Hydatos Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    }
+  ]
+}

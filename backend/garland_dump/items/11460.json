@@ -1,0 +1,151 @@
+{
+  "item": {
+    "name": "Prototype Gordian Gown of Healing",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 11460,
+    "patch": 3.01,
+    "patchCategory": 0,
+    "price": 93109,
+    "ilvl": 190,
+    "category": 35,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 978,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1093,
+    "slot": 4,
+    "elvl": 60,
+    "jobs": 64,
+    "models": [
+      "283-1-0-0"
+    ],
+    "attr": {
+      "Defense": 127,
+      "Magic Defense": 223,
+      "Mind": 70,
+      "Vitality": 61,
+      "Piety": 78,
+      "Spell Speed": 55
+    },
+    "icon": 43663,
+    "sharedModels": [
+      11461,
+      11536,
+      11537
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Part Exchange (DoM)",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11460",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12675",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prototype Gordian Gear (IL 190)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11460",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12675",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "11461",
+      "obj": {
+        "i": 11461,
+        "n": "Prototype Gordian Gown of Casting",
+        "l": 190,
+        "c": 43664,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "11536",
+      "obj": {
+        "i": 11536,
+        "n": "Gordian Gown of Healing",
+        "l": 210,
+        "c": 43663,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "11537",
+      "obj": {
+        "i": 11537,
+        "n": "Gordian Gown of Casting",
+        "l": 210,
+        "c": 43664,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12675",
+      "obj": {
+        "i": 12675,
+        "n": "Tarnished Gordian Shaft",
+        "l": 1,
+        "c": 23101,
+        "t": 61
+      }
+    }
+  ]
+}

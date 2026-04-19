@@ -1,0 +1,290 @@
+{
+  "item": {
+    "name": "Wind Silk",
+    "description": "This silk is exposed to aetherial turbulence in order to strengthen its aspect to wind.",
+    "id": 13744,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 2661,
+    "ilvl": 160,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21608,
+    "tradeShops": [
+      {
+        "shop": "Sky Pirate Spoils (Steel)",
+        "npcs": [
+          1016261,
+          1016496,
+          1016498,
+          1016500,
+          1019106
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13744",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13631",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13744",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13744",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 75
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "13266": 2,
+      "13267": 1,
+      "13270": 2,
+      "14939": 1,
+      "14940": 2,
+      "14942": 2
+    },
+    "voyages": [
+      {
+        "id": 12,
+        "type": 0
+      },
+      {
+        "id": 15,
+        "type": 0
+      },
+      {
+        "id": 16,
+        "type": 0
+      },
+      {
+        "id": 20,
+        "type": 0
+      }
+    ],
+    "alla": {
+      "source": [
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13631",
+      "obj": {
+        "i": 13631,
+        "n": "Steel Sky Pirate Spoil",
+        "l": 1,
+        "c": 25951,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "13266",
+      "obj": {
+        "i": 13266,
+        "n": "High House Justaucorps",
+        "l": 1,
+        "c": 42483,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13267",
+      "obj": {
+        "i": 13267,
+        "n": "High House Breeches",
+        "l": 1,
+        "c": 45721,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13270",
+      "obj": {
+        "i": 13270,
+        "n": "High House Bustle",
+        "l": 1,
+        "c": 42484,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14939",
+      "obj": {
+        "i": 14939,
+        "n": "Wind Silk Wedge Cap",
+        "l": 1,
+        "c": 41319,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "14940",
+      "obj": {
+        "i": 14940,
+        "n": "Wind Silk Coatee",
+        "l": 1,
+        "c": 43714,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14942",
+      "obj": {
+        "i": 14942,
+        "n": "Wind Silk Bottoms",
+        "l": 1,
+        "c": 45778,
+        "t": 36
+      }
+    }
+  ]
+}

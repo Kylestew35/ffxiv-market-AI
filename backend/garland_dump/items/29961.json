@@ -1,0 +1,813 @@
+{
+  "item": {
+    "name": "Duskcourt Cloth",
+    "description": "Finely woven cloth with that distinctive duskbloom hue that says, “wealthier than you.”",
+    "id": 29961,
+    "patch": 5.2,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 480,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21619,
+    "ingredient_of": {
+      "29422": 2,
+      "29423": 2,
+      "29425": 2,
+      "29428": 2,
+      "29429": 2,
+      "29431": 2,
+      "29434": 2,
+      "29435": 2,
+      "29437": 2,
+      "29440": 2,
+      "29441": 2,
+      "29442": 1,
+      "29443": 2,
+      "29446": 2,
+      "29447": 2,
+      "29449": 2,
+      "29452": 2,
+      "29453": 2,
+      "29454": 1,
+      "29455": 2,
+      "29458": 2,
+      "29459": 2,
+      "29460": 1,
+      "29461": 2,
+      "30445": 2,
+      "30461": 4,
+      "30462": 5,
+      "30463": 1,
+      "30464": 5,
+      "30466": 4,
+      "30468": 1,
+      "30469": 5,
+      "30472": 1,
+      "30473": 1,
+      "30474": 1,
+      "30475": 1,
+      "30755": 2,
+      "30756": 3,
+      "30757": 3,
+      "32800": 3,
+      "32802": 3
+    },
+    "craft": [
+      {
+        "id": 33900,
+        "job": 13,
+        "rlvl": 480,
+        "durability": 35,
+        "quality": 6375,
+        "progress": 2240,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29489,
+        "ingredients": [
+          {
+            "id": 29974,
+            "amount": 4
+          },
+          {
+            "id": 29975,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 456,
+          "hq": 476
+        }
+      }
+    ],
+    "desynthedFrom": [
+      31793,
+      31794,
+      31801,
+      33520,
+      33239,
+      30466,
+      32593,
+      29290,
+      29302
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Duskblooms",
+      "id": 29974,
+      "icon": 25022,
+      "category": 51,
+      "ilvl": 480,
+      "price": 3154,
+      "ventures": [
+        868
+      ],
+      "nodes": [
+        714
+      ]
+    },
+    {
+      "name": "Caprice Fleece",
+      "id": 29975,
+      "icon": 21655,
+      "category": 51,
+      "ilvl": 480,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29975",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29975",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "714",
+      "obj": {
+        "i": 714,
+        "n": "The Nabaath Severance",
+        "l": 80,
+        "t": 3,
+        "z": 2955,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29422",
+      "obj": {
+        "i": 29422,
+        "n": "Neo-Ishgardian Cap of Fending",
+        "l": 480,
+        "c": 41494,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29423",
+      "obj": {
+        "i": 29423,
+        "n": "Neo-Ishgardian Top of Fending",
+        "l": 480,
+        "c": 43511,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29425",
+      "obj": {
+        "i": 29425,
+        "n": "Neo-Ishgardian Bottoms of Fending",
+        "l": 480,
+        "c": 47285,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29428",
+      "obj": {
+        "i": 29428,
+        "n": "Neo-Ishgardian Cap of Maiming",
+        "l": 480,
+        "c": 41496,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29429",
+      "obj": {
+        "i": 29429,
+        "n": "Neo-Ishgardian Top of Maiming",
+        "l": 480,
+        "c": 43513,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29431",
+      "obj": {
+        "i": 29431,
+        "n": "Neo-Ishgardian Bottoms of Maiming",
+        "l": 480,
+        "c": 47287,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29434",
+      "obj": {
+        "i": 29434,
+        "n": "Neo-Ishgardian Hat of Striking",
+        "l": 480,
+        "c": 41497,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29435",
+      "obj": {
+        "i": 29435,
+        "n": "Neo-Ishgardian Top of Striking",
+        "l": 480,
+        "c": 43514,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29437",
+      "obj": {
+        "i": 29437,
+        "n": "Neo-Ishgardian Bottoms of Striking",
+        "l": 480,
+        "c": 47288,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29440",
+      "obj": {
+        "i": 29440,
+        "n": "Neo-Ishgardian Cap of Aiming",
+        "l": 480,
+        "c": 41498,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29441",
+      "obj": {
+        "i": 29441,
+        "n": "Neo-Ishgardian Top of Aiming",
+        "l": 480,
+        "c": 43515,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29442",
+      "obj": {
+        "i": 29442,
+        "n": "Neo-Ishgardian Gloves of Aiming",
+        "l": 480,
+        "c": 48818,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29443",
+      "obj": {
+        "i": 29443,
+        "n": "Neo-Ishgardian Bottoms of Aiming",
+        "l": 480,
+        "c": 47289,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29446",
+      "obj": {
+        "i": 29446,
+        "n": "Neo-Ishgardian Hat of Scouting",
+        "l": 480,
+        "c": 41499,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29447",
+      "obj": {
+        "i": 29447,
+        "n": "Neo-Ishgardian Top of Scouting",
+        "l": 480,
+        "c": 43516,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29449",
+      "obj": {
+        "i": 29449,
+        "n": "Neo-Ishgardian Bottoms of Scouting",
+        "l": 480,
+        "c": 47290,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29452",
+      "obj": {
+        "i": 29452,
+        "n": "Neo-Ishgardian Cap of Healing",
+        "l": 480,
+        "c": 41495,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29453",
+      "obj": {
+        "i": 29453,
+        "n": "Neo-Ishgardian Top of Healing",
+        "l": 480,
+        "c": 43512,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29454",
+      "obj": {
+        "i": 29454,
+        "n": "Neo-Ishgardian Gloves of Healing",
+        "l": 480,
+        "c": 44784,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29455",
+      "obj": {
+        "i": 29455,
+        "n": "Neo-Ishgardian Bottoms of Healing",
+        "l": 480,
+        "c": 47286,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29458",
+      "obj": {
+        "i": 29458,
+        "n": "Neo-Ishgardian Hat of Casting",
+        "l": 480,
+        "c": 41493,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29459",
+      "obj": {
+        "i": 29459,
+        "n": "Neo-Ishgardian Top of Casting",
+        "l": 480,
+        "c": 43510,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29460",
+      "obj": {
+        "i": 29460,
+        "n": "Neo-Ishgardian Gloves of Casting",
+        "l": 480,
+        "c": 48814,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29461",
+      "obj": {
+        "i": 29461,
+        "n": "Neo-Ishgardian Bottoms of Casting",
+        "l": 480,
+        "c": 47283,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29489",
+      "obj": {
+        "i": 29489,
+        "n": "Master Weaver VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29974",
+      "obj": {
+        "i": 29974,
+        "n": "Duskblooms",
+        "l": 480,
+        "c": 25022,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "29975",
+      "obj": {
+        "i": 29975,
+        "n": "Caprice Fleece",
+        "l": 480,
+        "c": 21655,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "30445",
+      "obj": {
+        "i": 30445,
+        "n": "Aesthete's Needle",
+        "l": 490,
+        "c": 35538,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "30461",
+      "obj": {
+        "i": 30461,
+        "n": "Aesthete's Cap of Crafting",
+        "l": 490,
+        "c": 41506,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "30462",
+      "obj": {
+        "i": 30462,
+        "n": "Aesthete's Doublet of Crafting",
+        "l": 490,
+        "c": 42699,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "30463",
+      "obj": {
+        "i": 30463,
+        "n": "Aesthete's Fingerless Gloves of Crafting",
+        "l": 490,
+        "c": 44801,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "30464",
+      "obj": {
+        "i": 30464,
+        "n": "Aesthete's Trousers of Crafting",
+        "l": 490,
+        "c": 47714,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "30466",
+      "obj": {
+        "i": 30466,
+        "n": "Aesthete's Hat of Gathering",
+        "l": 490,
+        "c": 41505,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "30468",
+      "obj": {
+        "i": 30468,
+        "n": "Aesthete's Halfgloves of Gathering",
+        "l": 490,
+        "c": 44800,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "30469",
+      "obj": {
+        "i": 30469,
+        "n": "Aesthete's Trousers of Gathering",
+        "l": 490,
+        "c": 47713,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "30472",
+      "obj": {
+        "i": 30472,
+        "n": "Aesthete's Ear Cuffs of Crafting",
+        "l": 490,
+        "c": 55460,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "30473",
+      "obj": {
+        "i": 30473,
+        "n": "Aesthete's Choker of Crafting",
+        "l": 490,
+        "c": 55025,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "30474",
+      "obj": {
+        "i": 30474,
+        "n": "Aesthete's Bracelets of Crafting",
+        "l": 490,
+        "c": 55828,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "30475",
+      "obj": {
+        "i": 30475,
+        "n": "Aesthete's Ring of Crafting",
+        "l": 490,
+        "c": 54677,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "30755",
+      "obj": {
+        "i": 30755,
+        "n": "Southern Seas Shirt",
+        "l": 1,
+        "c": 42705,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "30756",
+      "obj": {
+        "i": 30756,
+        "n": "Southern Seas Trousers",
+        "l": 1,
+        "c": 47740,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "30757",
+      "obj": {
+        "i": 30757,
+        "n": "Southern Seas Skirt",
+        "l": 1,
+        "c": 47741,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "32800",
+      "obj": {
+        "i": 32800,
+        "n": "Calfskin Rider's Gloves",
+        "l": 1,
+        "c": 44834,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "32802",
+      "obj": {
+        "i": 32802,
+        "n": "Calfskin Rider's Shoes",
+        "l": 1,
+        "c": 49305,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "31793",
+      "obj": {
+        "i": 31793,
+        "n": "Handsaint's Beret",
+        "l": 500,
+        "c": 41515,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31794",
+      "obj": {
+        "i": 31794,
+        "n": "Handsaint's Jacket",
+        "l": 500,
+        "c": 43927,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31801",
+      "obj": {
+        "i": 31801,
+        "n": "Landsaint's Breeches",
+        "l": 500,
+        "c": 47766,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "33520",
+      "obj": {
+        "i": 33520,
+        "n": "Paglth'an Fingerwraps of Aiming",
+        "l": 505,
+        "c": 44859,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "33239",
+      "obj": {
+        "i": 33239,
+        "n": "Listracanthus",
+        "l": 490,
+        "c": 28497,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32593",
+      "obj": {
+        "i": 32593,
+        "n": "Heirloom Gaskins of Striking",
+        "l": 485,
+        "c": 47763,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29290",
+      "obj": {
+        "i": 29290,
+        "n": "Augmented Crystarium Coat of Striking",
+        "l": 500,
+        "c": 43918,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29302",
+      "obj": {
+        "i": 29302,
+        "n": "Augmented Crystarium Coat of Scouting",
+        "l": 500,
+        "c": 43509,
+        "t": 35
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "item": {
+    "name": "Alexandrite",
+    "description": "A variety of dark matter that possesses light-altering properties.",
+    "id": 7883,
+    "patch": 2.28,
+    "patchCategory": 5,
+    "price": 3920,
+    "ilvl": 1,
+    "category": 60,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21290,
+    "tradeShops": [
+      {
+        "shop": "Allied Seals (Other)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7883",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      67206
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67206",
+      "obj": {
+        "i": 67206,
+        "n": "Kettle to the Mettle",
+        "g": 112,
+        "l": "North Shroud",
+        "s": 500,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "item": {
+    "name": "Gatherer's Grasp Materia VI",
+    "description": "Cannot be melded onto a piece of equipment past the first advanced materia melding slot.",
+    "id": 18024,
+    "patch": 4.0,
+    "patchCategory": 10,
+    "price": 7000,
+    "ilvl": 290,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 126,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20266,
+    "tradeShops": [
+      {
+        "shop": "Mhachi Matter Exchange",
+        "npcs": [
+          1017107,
+          1019461
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "18024",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "18031",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Materia)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "18024",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "18024",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 200
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "18024",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "18031",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 5,
+      "value": 8,
+      "attr": "GP",
+      "category": 2
+    },
+    "quests": [
+      68635,
+      68637
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017107",
+      "obj": {
+        "i": 1017107,
+        "n": "Smacklix",
+        "l": 2082,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 2092,
+        "c": [
+          7.65,
+          4.84
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019461",
+      "obj": {
+        "i": 1019461,
+        "n": "Switchstix",
+        "l": 2403,
+        "s": 1,
+        "t": "Materia Provisioner",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          12.5,
+          11.38
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "18031",
+      "obj": {
+        "i": 18031,
+        "n": "Cracked Crystal",
+        "l": 1,
+        "c": 20019,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68635",
+      "obj": {
+        "i": 68635,
+        "n": "Waiting for Gyodo",
+        "g": 60,
+        "l": "The Azim Steppe",
+        "s": 4,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68637",
+      "obj": {
+        "i": 68637,
+        "n": "Into the Fire",
+        "g": 60,
+        "l": "The Azim Steppe",
+        "s": 6,
+        "f": 1
+      }
+    }
+  ]
+}

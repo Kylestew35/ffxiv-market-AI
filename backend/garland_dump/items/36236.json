@@ -1,0 +1,498 @@
+{
+  "item": {
+    "name": "Grade 6 Mind Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to mind, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 36236,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22681,
+    "ingredient_of": {
+      "35028": 2,
+      "35031": 2,
+      "35032": 2,
+      "35037": 2,
+      "35065": 2,
+      "35066": 2,
+      "35067": 2,
+      "35068": 2,
+      "35069": 2,
+      "35078": 1,
+      "35083": 1,
+      "35088": 1,
+      "35093": 1
+    },
+    "craft": [
+      {
+        "id": 34900,
+        "job": 14,
+        "rlvl": 580,
+        "durability": 35,
+        "quality": 7800,
+        "progress": 2925,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35624,
+        "ingredients": [
+          {
+            "id": 36217,
+            "amount": 1
+          },
+          {
+            "id": 36263,
+            "amount": 1
+          },
+          {
+            "id": 27784,
+            "amount": 1
+          },
+          {
+            "id": 36223,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 341,
+          "hq": 361
+        }
+      }
+    ],
+    "desynthedFrom": [
+      35037,
+      35032
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Double-edged Herb",
+      "id": 36217,
+      "icon": 25201,
+      "category": 54,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        972
+      ],
+      "nodes": [
+        858
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Tiger Lily",
+      "id": 27784,
+      "icon": 25022,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        837
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "858",
+      "obj": {
+        "i": 858,
+        "n": "The Tube",
+        "l": 90,
+        "t": 3,
+        "z": 3712,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "35028",
+      "obj": {
+        "i": 35028,
+        "n": "Classical Cane",
+        "l": 580,
+        "c": 32794,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "35031",
+      "obj": {
+        "i": 35031,
+        "n": "Classical Codex",
+        "l": 580,
+        "c": 33347,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "35032",
+      "obj": {
+        "i": 35032,
+        "n": "Classical Torquetum",
+        "l": 580,
+        "c": 34969,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "35037",
+      "obj": {
+        "i": 35037,
+        "n": "Classical Milpreves",
+        "l": 580,
+        "c": 37017,
+        "t": 109
+      }
+    },
+    {
+      "type": "item",
+      "id": "35065",
+      "obj": {
+        "i": 35065,
+        "n": "Classical Medicus's Laurel Wreath",
+        "l": 580,
+        "c": 41879,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35066",
+      "obj": {
+        "i": 35066,
+        "n": "Classical Medicus's Chiton",
+        "l": 580,
+        "c": 42790,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35067",
+      "obj": {
+        "i": 35067,
+        "n": "Classical Medicus's Wrist Torque",
+        "l": 580,
+        "c": 44902,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35068",
+      "obj": {
+        "i": 35068,
+        "n": "Classical Medicus's Loincloth",
+        "l": 580,
+        "c": 46046,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35069",
+      "obj": {
+        "i": 35069,
+        "n": "Classical Medicus's Caligae",
+        "l": 580,
+        "c": 49376,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35078",
+      "obj": {
+        "i": 35078,
+        "n": "Classical Earrings of Healing",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35083",
+      "obj": {
+        "i": 35083,
+        "n": "Classical Choker of Healing",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35088",
+      "obj": {
+        "i": 35088,
+        "n": "Classical Wristband of Healing",
+        "l": 580,
+        "c": 55837,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35093",
+      "obj": {
+        "i": 35093,
+        "n": "Classical Ring of Healing",
+        "l": 580,
+        "c": 54688,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "35624",
+      "obj": {
+        "i": 35624,
+        "n": "Master Alchemist IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36217",
+      "obj": {
+        "i": 36217,
+        "n": "Double-edged Herb",
+        "l": 580,
+        "c": 25201,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27784",
+      "obj": {
+        "i": 27784,
+        "n": "Tiger Lily",
+        "l": 418,
+        "c": 25022,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    }
+  ]
+}

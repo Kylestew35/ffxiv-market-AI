@@ -1,0 +1,436 @@
+{
+  "leve": {
+    "name": "Fast-forwarding Flora",
+    "description": "To better support the health of our nation's leaders, we regularly incorporate the knowledge of foreign practices in our research. Our latest endeavor requires a suitable growth reagent to confirm the effects of our medicinal flora. Would you be able to provide such a thing? ",
+    "id": 1748,
+    "patch": 7.0,
+    "client": "Sunperch Apothecary, Pananyihe",
+    "lvl": 90,
+    "jobCategory": 15,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 1440660,
+    "gil": 2530,
+    "rewards": 865,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44049,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 240,
+      "hq": 255
+    }
+  },
+  "rewards": {
+    "id": 865,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 36
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 36
+      },
+      {
+        "item": 43979,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 43
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 43
+      },
+      {
+        "item": 44068,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Growth Formula Lambda",
+      "id": 44049,
+      "icon": 22655,
+      "category": 54,
+      "ilvl": 650,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5658,
+          "job": 14,
+          "rlvl": 650,
+          "durability": 40,
+          "quality": 8200,
+          "progress": 2000,
+          "lvl": 91,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 43979,
+              "amount": 4
+            },
+            {
+              "id": 44068,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 118,
+            "hq": 138
+          }
+        }
+      ],
+      "desynthedFrom": [
+        44109
+      ],
+      "treasure": [
+        43556
+      ]
+    },
+    {
+      "name": "Royal Maple Sap",
+      "id": 43979,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 656,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 116,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1748,
+        1749
+      ],
+      "ventures": [
+        1005
+      ],
+      "nodes": [
+        986
+      ]
+    },
+    {
+      "name": "Poison Frog Secretions",
+      "id": 44068,
+      "icon": 25452,
+      "category": 54,
+      "ilvl": 650,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "44068",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1748,
+        1749
+      ],
+      "ventures": [
+        1031
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "986",
+      "obj": {
+        "i": 986,
+        "n": "Uyuyub'",
+        "l": 95,
+        "t": 2,
+        "z": 4506
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43979",
+      "obj": {
+        "i": 43979,
+        "n": "Royal Maple Sap",
+        "l": 656,
+        "c": 22642,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "44068",
+      "obj": {
+        "i": 44068,
+        "n": "Poison Frog Secretions",
+        "l": 650,
+        "c": 25452,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "41829",
+      "obj": {
+        "i": 41829,
+        "n": "Twintop Table",
+        "l": 690,
+        "c": 51736,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "41137",
+      "obj": {
+        "i": 41137,
+        "n": "Il Mheg Arbor",
+        "l": 690,
+        "c": 52396,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "41832",
+      "obj": {
+        "i": 41832,
+        "n": "Stargazing Deck",
+        "l": 690,
+        "c": 52393,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "44109",
+      "obj": {
+        "i": 44109,
+        "n": "Wisteria Ceiling Lamp",
+        "l": 690,
+        "c": 51152,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "44879",
+      "obj": {
+        "i": 44879,
+        "n": "Botanical Loft",
+        "l": 690,
+        "c": 51576,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "44885",
+      "obj": {
+        "i": 44885,
+        "n": "Grassy Rug",
+        "l": 690,
+        "c": 52041,
+        "t": 80
+      }
+    },
+    {
+      "type": "item",
+      "id": "48101",
+      "obj": {
+        "i": 48101,
+        "n": "Gardener's Gate",
+        "l": 690,
+        "c": 53711,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "46109",
+      "obj": {
+        "i": 46109,
+        "n": "Lattice Planter Partition",
+        "l": 690,
+        "c": 52840,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "49856",
+      "obj": {
+        "i": 49856,
+        "n": "Lakeland Planter",
+        "l": 690,
+        "c": 53545,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "49857",
+      "obj": {
+        "i": 49857,
+        "n": "Eulmore Planter",
+        "l": 690,
+        "c": 53546,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "49858",
+      "obj": {
+        "i": 49858,
+        "n": "Il Mheg Planter",
+        "l": 690,
+        "c": 53547,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "49859",
+      "obj": {
+        "i": 49859,
+        "n": "Minishroom Lamp",
+        "l": 690,
+        "c": 53548,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "46123",
+      "obj": {
+        "i": 46123,
+        "n": "Frozen Garden Pond",
+        "l": 690,
+        "c": 53727,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "41810",
+      "obj": {
+        "i": 41810,
+        "n": "Country Cottage Wall",
+        "l": 1,
+        "c": 50855,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41811",
+      "obj": {
+        "i": 41811,
+        "n": "Country House Wall",
+        "l": 1,
+        "c": 50856,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41812",
+      "obj": {
+        "i": 41812,
+        "n": "Country Mansion Wall",
+        "l": 1,
+        "c": 50857,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1748",
+      "obj": {
+        "i": 1748,
+        "n": "Fast-forwarding Flora",
+        "l": 90,
+        "j": 15,
+        "p": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43556",
+      "obj": {
+        "i": 43556,
+        "n": "Timeworn Loboskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "44049",
+      "obj": {
+        "i": 44049,
+        "n": "Growth Formula Lambda",
+        "l": 650,
+        "c": 22655,
+        "t": 54
+      }
+    }
+  ]
+}

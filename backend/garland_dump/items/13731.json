@@ -1,0 +1,131 @@
+{
+  "item": {
+    "name": "Sunsail",
+    "description": "A flying fish found in the skies near the Landlord Colony.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "During the daylight hours these cousins of the manasail sleep clinging to the undersides of the many islets comprising the Sea of Clouds. When the sun begins to set and the skies bleed orange and red, the sunsails simultaneously take to the cooling skies to feed.",
+      "icon": 79726,
+      "weatherRestricted": 1,
+      "timeRestricted": 1,
+      "folklore": 12702,
+      "spots": [
+        {
+          "spot": 132,
+          "during": {
+            "start": 15,
+            "end": 17
+          },
+          "weather": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 442,
+          "baits": [
+            [
+              12712
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 13731,
+    "patch": 3.1,
+    "patchCategory": 7,
+    "price": 1710,
+    "ilvl": 180,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29726,
+    "fishingSpots": [
+      132
+    ],
+    "desynthedTo": [
+      5682,
+      5826,
+      5816
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "132",
+      "obj": {
+        "i": 132,
+        "n": "Landlord Colony",
+        "l": 54,
+        "c": 4,
+        "z": 2002,
+        "x": 29.7,
+        "y": 25.36
+      }
+    },
+    {
+      "type": "item",
+      "id": "12702",
+      "obj": {
+        "i": 12702,
+        "n": "Tome of Ichthyological Folklore - Dravania",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12712",
+      "obj": {
+        "i": 12712,
+        "n": "Giant Crane Fly",
+        "l": 180,
+        "c": 27002,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5682",
+      "obj": {
+        "i": 5682,
+        "n": "Battledance Materia IV",
+        "l": 70,
+        "c": 20216,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5826",
+      "obj": {
+        "i": 5826,
+        "n": "Allagan Gold Piece",
+        "l": 35,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5816",
+      "obj": {
+        "i": 5816,
+        "n": "Yellow Pigment",
+        "l": 28,
+        "c": 21458,
+        "t": 55
+      }
+    }
+  ]
+}

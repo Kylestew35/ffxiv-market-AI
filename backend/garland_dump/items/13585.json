@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Precision Gordian Spring",
+    "description": "An expertly crafted spring discovered in Alexander's Gordias sector.",
+    "id": 13585,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 15000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20911,
+    "instances": [
+      30023,
+      30023
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Precision Gordian Part Exchange",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13585",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30023",
+      "obj": {
+        "i": 30023,
+        "n": "Alexander - The Arm of the Father",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 170
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13586",
+      "obj": {
+        "i": 13586,
+        "n": "Unidentifiable Ore",
+        "l": 1,
+        "c": 21478,
+        "t": 61
+      }
+    }
+  ]
+}

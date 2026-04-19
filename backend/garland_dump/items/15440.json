@@ -1,0 +1,75 @@
+{
+  "item": {
+    "name": "Calamari",
+    "description": "Use item to acquire the calamari minion.<br><br>(Or is it a trap!?)",
+    "minionrace": "Monster",
+    "tooltip": "RELEASE THE KRAKEN!\r\n   - Captain Madison",
+    "minionskilltype": "Damage",
+    "specialactionname": "Jet Spray",
+    "specialactiondescription": "Delivers an attack with a potency of 90 and knocks back all enemies within range.",
+    "id": 15440,
+    "patch": 3.3,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59602,
+    "instances": [
+      45
+    ],
+    "cost": 25,
+    "skill_angle": 30,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 20,
+      "Attack": 65,
+      "Defense": 60,
+      "Speed": 2
+    },
+    "models": [
+      "8179-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "45",
+      "obj": {
+        "i": 45,
+        "n": "Hullbreaker Isle (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 200
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

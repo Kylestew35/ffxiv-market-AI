@@ -1,0 +1,644 @@
+{
+  "item": {
+    "name": "Spirits of Salt",
+    "description": "A potent acid with myriad applications.",
+    "id": 7618,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 1191,
+    "ilvl": 70,
+    "category": 54,
+    "dyecount": 0,
+    "sell_price": 18,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22612,
+    "tradeCurrency": [
+      {
+        "shop": "Artisan Tools (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7529",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7618",
+                "amount": 5,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Artisan Gear (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7521",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7618",
+                "amount": 2,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10053",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7618",
+                "amount": 2,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10047",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7618",
+                "amount": 2,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10048",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7618",
+                "amount": 2,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10145",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7618",
+                "amount": 2,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4720",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7618",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 30303,
+        "job": 14,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "controlReq": 318,
+        "craftsmanshipReq": 347,
+        "unlockId": 7784,
+        "ingredients": [
+          {
+            "id": 6152,
+            "amount": 2
+          },
+          {
+            "id": 5490,
+            "amount": 1
+          },
+          {
+            "id": 7,
+            "amount": 11
+          },
+          {
+            "id": 6,
+            "amount": 10
+          }
+        ],
+        "complexity": {
+          "nq": 177,
+          "hq": 197
+        }
+      }
+    ],
+    "ingredient_of": {
+      "8038": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Volcanic Rock Salt",
+      "id": 6152,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6152",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        511
+      ],
+      "nodes": [
+        224
+      ]
+    },
+    {
+      "name": "Vitriol",
+      "id": 5490,
+      "icon": 22612,
+      "category": 54,
+      "ilvl": 40,
+      "price": 216,
+      "desynthedFrom": [
+        9535
+      ],
+      "treasure": [
+        6691
+      ],
+      "tradeShops": [
+        {
+          "shop": "Titan Cobaltpiece Exchange",
+          "npcs": [
+            1008909
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5490",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21078",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1008909
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "224",
+      "obj": {
+        "i": 224,
+        "n": "Raincatcher Gully",
+        "l": 50,
+        "t": 1,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7529",
+      "obj": {
+        "i": 7529,
+        "n": "Artisan's Alembic",
+        "l": 70,
+        "c": 35611,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "7521",
+      "obj": {
+        "i": 7521,
+        "n": "Artisan's Spectacles",
+        "l": 70,
+        "c": 40925,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10053",
+      "obj": {
+        "i": 10053,
+        "n": "Artisan's Gown",
+        "l": 70,
+        "c": 42413,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10047",
+      "obj": {
+        "i": 10047,
+        "n": "Artisan's Fingerstalls",
+        "l": 70,
+        "c": 44298,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10048",
+      "obj": {
+        "i": 10048,
+        "n": "Artisan's Chausses",
+        "l": 70,
+        "c": 45522,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "10145",
+      "obj": {
+        "i": 10145,
+        "n": "Artisan's Pattens",
+        "l": 70,
+        "c": 46440,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "4720",
+      "obj": {
+        "i": 4720,
+        "n": "Fish Soup",
+        "l": 43,
+        "c": 24105,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "7784",
+      "obj": {
+        "i": 7784,
+        "n": "Master Alchemist I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "6152",
+      "obj": {
+        "i": 6152,
+        "n": "Volcanic Rock Salt",
+        "l": 70,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5490",
+      "obj": {
+        "i": 5490,
+        "n": "Vitriol",
+        "l": 40,
+        "c": 22612,
+        "t": 54,
+        "p": 216
+      }
+    },
+    {
+      "type": "item",
+      "id": "8038",
+      "obj": {
+        "i": 8038,
+        "n": "Concentrated Spirits of Salt",
+        "l": 75,
+        "c": 22612,
+        "t": 54
+      }
+    }
+  ]
+}

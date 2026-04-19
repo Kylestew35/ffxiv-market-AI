@@ -1,0 +1,154 @@
+{
+  "item": {
+    "name": "Aquamaton",
+    "description": "Those hoping to catch their dinner in Seagazer Shoals are in for a shock if they reel in one of these strange, dwarven contraptions. Apparently, they fetch a high price at market, assuming one can find a buyer.<br><br>[Suitable for display in aquariums tier 2 and higher.]<br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "This metallic, mechanical marvel was forged by the dwarves as a means to excavate underwater resources. The moment it entered the ocean, however, it jetted away into the depths like an excited pup, never to return...",
+      "icon": 78038,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 212,
+          "predator": [
+            {
+              "id": 33319,
+              "amount": 1
+            },
+            {
+              "id": 27452,
+              "amount": 5
+            }
+          ],
+          "weather": [
+            "Gales"
+          ],
+          "transition": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2250,
+          "baits": [
+            [
+              27588
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33240,
+    "patch": 5.55,
+    "patchCategory": 7,
+    "price": 5000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28038,
+    "fishingSpots": [
+      212
+    ],
+    "desynthedTo": [
+      31320
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "212",
+      "obj": {
+        "i": 212,
+        "n": "Seagazer Shoals",
+        "l": 75,
+        "c": 0,
+        "z": 2954,
+        "x": 16.82,
+        "y": 35.83
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27588",
+      "obj": {
+        "i": 27588,
+        "n": "Short Bill Minnow",
+        "l": 410,
+        "c": 27074,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "27590",
+      "obj": {
+        "i": 27590,
+        "n": "Squid Strip",
+        "l": 430,
+        "c": 27041,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "33319",
+      "obj": {
+        "i": 33319,
+        "n": "Shadeshifter",
+        "l": 490,
+        "c": 28036,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27583",
+      "obj": {
+        "i": 27583,
+        "n": "Moyebi Shrimp",
+        "l": 330,
+        "c": 27037,
+        "t": 33,
+        "p": 64
+      }
+    },
+    {
+      "type": "item",
+      "id": "27452",
+      "obj": {
+        "i": 27452,
+        "n": "Shapeshifter",
+        "l": 403,
+        "c": 29172,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "31320",
+      "obj": {
+        "i": 31320,
+        "n": "Slithersand",
+        "l": 490,
+        "c": 22691,
+        "t": 54
+      }
+    }
+  ]
+}

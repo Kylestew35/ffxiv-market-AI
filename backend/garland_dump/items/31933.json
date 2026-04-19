@@ -1,0 +1,320 @@
+{
+  "item": {
+    "name": "Grade 4 Skybuilders' Leather Sack",
+    "description": "The leather of this sack once held the flesh, bones, and organs of a large beast, but has now been granted the opportunity to store a much wider and more interesting range of objects. Unless, that is, it is purchased by a butcher, in which case the contents may end up being largely the same as its previous incarnation.",
+    "id": 31933,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "craft": [
+      {
+        "id": 34453,
+        "job": 12,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31975,
+            "amount": 5
+          },
+          {
+            "id": 31973,
+            "amount": 5
+          },
+          {
+            "id": 31978,
+            "amount": 5
+          },
+          {
+            "id": 12595,
+            "amount": 2,
+            "quality": 174.71848
+          },
+          {
+            "id": 11,
+            "amount": 4
+          },
+          {
+            "id": 10,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 1256,
+          "hq": 1276
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 4 Skybuilders' Tea Leaves",
+      "id": 31975,
+      "icon": 23842,
+      "category": 45,
+      "ilvl": 150,
+      "price": 150,
+      "desynthedFrom": [
+        32913
+      ]
+    },
+    {
+      "name": "Approved Grade 4 Skybuilders' Toad",
+      "id": 31973,
+      "icon": 23947,
+      "category": 54,
+      "ilvl": 150,
+      "price": 150,
+      "desynthedFrom": [
+        32915,
+        32913
+      ]
+    },
+    {
+      "name": "Approved Grade 4 Skybuilders' Spring Water",
+      "id": 31978,
+      "icon": 23869,
+      "category": 54,
+      "ilvl": 150,
+      "price": 150,
+      "desynthedFrom": [
+        32912,
+        32914
+      ]
+    },
+    {
+      "name": "Ramie Thread",
+      "id": 12595,
+      "icon": 21659,
+      "category": 51,
+      "ilvl": 136,
+      "price": 1998,
+      "craft": [
+        {
+          "id": 2757,
+          "job": 13,
+          "rlvl": 133,
+          "durability": 40,
+          "quality": 1824,
+          "progress": 170,
+          "lvl": 54,
+          "materialQualityFactor": 0,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12598,
+              "amount": 3
+            },
+            {
+              "id": 5346,
+              "amount": 2
+            },
+            {
+              "id": 12,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        11216,
+        15165
+      ],
+      "treasure": [
+        12241
+      ],
+      "leves": [
+        1100,
+        1101,
+        1102,
+        1103,
+        1104,
+        1105
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Stalk of Ramie",
+      "id": 12598,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 136,
+      "price": 484,
+      "ventures": [
+        467
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Flax",
+      "id": 5346,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 32,
+      "price": 83,
+      "leves": [
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428
+      ],
+      "ventures": [
+        266
+      ],
+      "nodes": [
+        29
+      ],
+      "seeds": [
+        7741
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12598",
+      "obj": {
+        "i": 12598,
+        "n": "Stalk of Ramie",
+        "l": 136,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5346",
+      "obj": {
+        "i": 5346,
+        "n": "Flax",
+        "l": 32,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "12241",
+      "obj": {
+        "i": 12241,
+        "n": "Timeworn Archaeoskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 3,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "31975",
+      "obj": {
+        "i": 31975,
+        "n": "Approved Grade 4 Skybuilders' Tea Leaves",
+        "l": 150,
+        "c": 23842,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "31973",
+      "obj": {
+        "i": 31973,
+        "n": "Approved Grade 4 Skybuilders' Toad",
+        "l": 150,
+        "c": 23947,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "31978",
+      "obj": {
+        "i": 31978,
+        "n": "Approved Grade 4 Skybuilders' Spring Water",
+        "l": 150,
+        "c": 23869,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12595",
+      "obj": {
+        "i": 12595,
+        "n": "Ramie Thread",
+        "l": 136,
+        "c": 21659,
+        "t": 51,
+        "p": 1998
+      }
+    }
+  ]
+}

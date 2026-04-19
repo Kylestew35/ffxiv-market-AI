@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Gathering Tool Component Materials",
+    "description": "Materials required to craft components for gathering tools.<br><br>※Only for use in moogle society quests.",
+    "id": 15756,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "15730": 1
+    },
+    "usedInQuest": [
+      67832
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15730",
+      "obj": {
+        "i": 15730,
+        "n": "Gathering Tool Component",
+        "l": 55,
+        "c": 21005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67832",
+      "obj": {
+        "i": 67832,
+        "n": "Work That Mallow",
+        "g": 55,
+        "l": "The Churning Mists",
+        "s": 15,
+        "r": 1
+      }
+    }
+  ]
+}

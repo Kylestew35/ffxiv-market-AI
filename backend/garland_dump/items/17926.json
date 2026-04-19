@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Intellectuary",
+    "description": "A sweetened tonic believed to improve cognition.",
+    "id": 17926,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 270,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20668,
+    "craft": [
+      {
+        "id": 32296,
+        "job": 14,
+        "rlvl": 270,
+        "durability": 80,
+        "quality": 1633,
+        "progress": 511,
+        "lvl": 63,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17925,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 2
+          },
+          {
+            "id": 12,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 100027,
+          "hq": 100047
+        }
+      }
+    ],
+    "usedInQuest": [
+      67973
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Electuary Ingredients",
+      "id": 17925,
+      "icon": 25105,
+      "category": 63,
+      "ilvl": 270,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17925",
+      "obj": {
+        "i": 17925,
+        "n": "Electuary Ingredients",
+        "l": 270,
+        "c": 25105,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67973",
+      "obj": {
+        "i": 67973,
+        "n": "The Forbidden Blade",
+        "g": 170,
+        "l": "Ul'dah",
+        "s": 630,
+        "f": 1
+      }
+    }
+  ]
+}

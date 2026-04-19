@@ -1,0 +1,399 @@
+{
+  "item": {
+    "name": "Baguette",
+    "description": "This rustic loaf of bread exudes the appetizing aroma of upland wheat.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27860,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3501,
+    "ilvl": 403,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 28,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Tenacity": {
+          "rate": 8,
+          "limit": 42
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 46
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Tenacity": {
+          "rate": 10,
+          "limit": 52
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 57
+        }
+      }
+    },
+    "icon": 24030,
+    "vendors": [
+      1027240
+    ],
+    "craft": [
+      {
+        "id": 3890,
+        "job": 15,
+        "rlvl": 403,
+        "durability": 80,
+        "quality": 4000,
+        "progress": 1360,
+        "lvl": 74,
+        "materialQualityFactor": 75,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27841,
+            "amount": 2,
+            "quality": 527.02704
+          },
+          {
+            "id": 27968,
+            "amount": 3
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 294,
+          "hq": 314
+        }
+      }
+    ],
+    "ingredient_of": {
+      "33259": 4
+    },
+    "quests": [
+      68878,
+      68951,
+      68966,
+      68986,
+      68995,
+      69017,
+      69195
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 883000,
+      "seals": 828
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Highland Spring Water",
+      "id": 27968,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        29986
+      ],
+      "leves": [
+        1482,
+        1483
+      ],
+      "ventures": [
+        791
+      ],
+      "nodes": [
+        592
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "592",
+      "obj": {
+        "i": 592,
+        "n": "The Bookman's Shelves",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027240",
+      "obj": {
+        "i": 1027240,
+        "n": "Hanji-Fae",
+        "l": 2951,
+        "s": 1,
+        "t": "Culinarian",
+        "a": 3371,
+        "c": [
+          9.56,
+          14.74
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27968",
+      "obj": {
+        "i": 27968,
+        "n": "Highland Spring Water",
+        "l": 400,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33259",
+      "obj": {
+        "i": 33259,
+        "n": "Grocery Counter Cart",
+        "l": 430,
+        "c": 51699,
+        "t": 57
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68878",
+      "obj": {
+        "i": 68878,
+        "n": "Out of the Wood",
+        "g": 8,
+        "l": "The Rak'tika Greatwood",
+        "s": 640
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68951",
+      "obj": {
+        "i": 68951,
+        "n": "A Leafman and a Hero",
+        "g": 136,
+        "l": "Il Mheg",
+        "s": 3070
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68966",
+      "obj": {
+        "i": 68966,
+        "n": "The Key Ingredient",
+        "g": 136,
+        "l": "Il Mheg",
+        "s": 3201
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68986",
+      "obj": {
+        "i": 68986,
+        "n": "Oh, Snap",
+        "g": 137,
+        "l": "The Rak'tika Greatwood",
+        "s": 4160
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68995",
+      "obj": {
+        "i": 68995,
+        "n": "Her True Calling",
+        "g": 133,
+        "l": "Lakeland",
+        "s": 4060
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69017",
+      "obj": {
+        "i": 69017,
+        "n": "Hearts as One",
+        "g": 137,
+        "l": "The Rak'tika Greatwood",
+        "s": 5240,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69195",
+      "obj": {
+        "i": 69195,
+        "n": "Snakes in the Grass",
+        "g": 137,
+        "l": "The Rak'tika Greatwood",
+        "s": 4260,
+        "f": 1
+      }
+    }
+  ]
+}

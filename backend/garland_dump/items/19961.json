@@ -1,0 +1,106 @@
+{
+  "item": {
+    "name": "Bone Charcoal",
+    "description": "Not actually created from bones, this hot-burning fuel is the result of baking coal in an airless furnace at an extremely high temperature.",
+    "id": 19961,
+    "patch": 4.05,
+    "patchCategory": 5,
+    "price": 2268,
+    "ilvl": 320,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 39,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21462,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1019450
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19961",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19961",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "19949": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019450",
+      "obj": {
+        "i": 1019450,
+        "n": "Enna",
+        "l": 2403,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.95,
+          11.63
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19949",
+      "obj": {
+        "i": 19949,
+        "n": "Chromite Ingot",
+        "l": 320,
+        "c": 20804,
+        "t": 49
+      }
+    }
+  ]
+}

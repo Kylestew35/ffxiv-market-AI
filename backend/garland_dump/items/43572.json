@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Honeysuckler",
+    "description": "Doesn't have a taste for blood...yet.<br><br>Use item to acquire the honeysuckler minion.",
+    "minionrace": "Monster",
+    "tooltip": "Suck the life out of my\r\nprecious trees, will you!?\r\n   - Gabineaux",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Slurp",
+    "specialactiondescription": "Removes all beneficial effects from all enemies within range.",
+    "id": 43572,
+    "patch": 7.05,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59910,
+    "cost": 25,
+    "skill_angle": 120,
+    "strengths": [
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 730,
+      "Skill Cost": 20,
+      "Attack": 20,
+      "Defense": 45,
+      "Speed": 1
+    },
+    "models": [
+      "8465-1-1"
+    ],
+    "instances": [
+      55013,
+      55012
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55013",
+      "obj": {
+        "i": 55013,
+        "n": "Vault Oneiron",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 100,
+        "max_ilvl": 765
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55012",
+      "obj": {
+        "i": 55012,
+        "n": "Cenote Ja Ja Gural",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 100,
+        "max_ilvl": 765
+      }
+    }
+  ]
+}

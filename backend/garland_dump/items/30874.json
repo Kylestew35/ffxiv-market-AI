@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Sand Fox",
+    "description": "Will perform tricks for a lick of birch syrup.<br><br>Use item to acquire the sand fox minion.",
+    "minionrace": "Critter",
+    "tooltip": "You can't smoke out\r\na fox with hot air.\r\n   - Bran",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Burrow",
+    "specialactiondescription": "Disarms deployed enemy traps.",
+    "id": 30874,
+    "patch": 5.3,
+    "patchCategory": 11,
+    "price": 100,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59787,
+    "tradeShops": [
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30874",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 490,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8348-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    }
+  ]
+}

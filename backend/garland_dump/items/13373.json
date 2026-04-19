@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Julyan Manderville Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 101",
+    "id": 13373,
+    "patch": 3.1,
+    "patchCategory": 14,
+    "price": 19,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tradeShops": [
+      {
+        "shop": "Triple Triad Cards",
+        "npcs": [
+          1010478,
+          1016294,
+          1016296
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13373",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 14400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "“Bloody brilliant! Aye, I'd take you over my muscle-headed half-wit of a husband any day!”"
+      },
+      "ja": {
+        "description": "「いつも息子と仲良くしてくれて、ありがとうね！\r\nアタシは、ヒルディちゃんの母親のジュリアンよ！」\r\nジュリアン・マンダヴィル"
+      },
+      "de": {
+        "description": "„Fröhliche Runde? Fröhlich kannst du haben! Mein Sohn liegt am Boden und ringt mit dem Tod.“"
+      },
+      "fr": {
+        "description": "“Oh, joli travail<Indent/>! Je vois que mon fils sait s'entourer d'amis efficaces<Indent/>!”"
+      },
+      "sellMgp": 500,
+      "plate": 87114,
+      "rarity": 3,
+      "top": 6,
+      "bottom": 5,
+      "left": 7,
+      "right": 6
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010478",
+      "obj": {
+        "i": 1010478,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 1487,
+        "c": [
+          4.14,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016294",
+      "obj": {
+        "i": 1016294,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.02,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016296",
+      "obj": {
+        "i": 1016296,
+        "n": "Triple Triad Trader",
+        "l": 1665,
+        "s": 1,
+        "r": 1,
+        "c": [
+          3.56,
+          3.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

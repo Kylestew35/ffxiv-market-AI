@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Lalinator 5.H0",
+    "description": "It doesn't feel pity, or remorse, or fear. And it absolutely will not stop, ever, until you have been lali-ho'd.<br><br>Use item to acquire the Lalinator 5.H0 minion.",
+    "minionrace": "Poppet",
+    "tooltip": "A “lali-ho” gets a\r\n“lali-ho,” you hear?\r\n   - Giott",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Lali-ho",
+    "specialactiondescription": "Binds all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 30867,
+    "patch": 5.3,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59780,
+    "tradeShops": [
+      {
+        "shop": "Hammered Frogments Exchange",
+        "npcs": [
+          1033714
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30867",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28188",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 30,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 30,
+      "Attack": 20,
+      "Defense": 50,
+      "Speed": 2
+    },
+    "models": [
+      "8341-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "28188",
+      "obj": {
+        "i": 28188,
+        "n": "Hammered Frogment",
+        "l": 1,
+        "c": 65080,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033714",
+      "obj": {
+        "i": 1033714,
+        "n": "Mizutt",
+        "l": 2953,
+        "s": 4,
+        "t": "Watts's Anvil Vendor",
+        "r": 1,
+        "a": 3574,
+        "c": [
+          9.5,
+          13.12
+        ]
+      }
+    }
+  ]
+}

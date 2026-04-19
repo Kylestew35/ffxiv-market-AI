@@ -1,0 +1,104 @@
+{
+  "item": {
+    "name": "Flame Captain's Bow",
+    "jobCategories": "ARC BRD",
+    "id": 23931,
+    "patch": 4.4,
+    "patchCategory": 0,
+    "price": 46332,
+    "ilvl": 130,
+    "category": 4,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 522,
+    "rarity": 2,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 748,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 50,
+    "models": [
+      "601-17-1-0",
+      "698-10-1-0"
+    ],
+    "special": {
+      "bonusId": 4,
+      "seriesId": 3,
+      "attr": [
+        {
+          "name": "Critical Hit",
+          "value": 36,
+          "index": 0
+        }
+      ]
+    },
+    "attr": {
+      "Physical Damage": 65,
+      "Magic Damage": 33,
+      "Delay": 3.04,
+      "Dexterity": 54,
+      "Vitality": 58,
+      "Direct Hit Rate": 51
+    },
+    "icon": 32358,
+    "tradeShops": [
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23931",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 35000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    }
+  ]
+}

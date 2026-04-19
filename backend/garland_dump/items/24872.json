@@ -1,0 +1,96 @@
+{
+  "item": {
+    "name": "Prometheus Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 229",
+    "id": 24872,
+    "patch": 4.5,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "instances": [
+      64,
+      64
+    ],
+    "tradeShops": [
+      {
+        "shop": "Previous Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24872",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46179",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "A magitek weapon developed by the Garlean military, Prometheus was originally designed for breaking down fortifications as a siege engine. Its excavation capabilities, however, saw the warmachina employed in the Ghimlyt Dark for digging trenches and blunting the advance of enemy troops."
+      },
+      "ja": {
+        "description": "ガレマール帝国軍が開発した魔導兵器。本来は城壁を破壊するための攻城兵器として設計されたものだが、その採掘能力を活かして、ギムリトダークでは塹壕の構築作業や敵兵の迎撃任務にも用いられていた。"
+      },
+      "de": {
+        "description": "Magitek-Kampfmaschine der Armee des Garleischen Kaiserreichs. Ursprünglich als Belagerungswaffe konzipiert, wurde Prometheus auch in der Ghimlyt-Finsternis bei der Erschaffung von Grabenanlagen und zur Grenzverteidigung eingesetzt."
+      },
+      "fr": {
+        "description": "Une arme magitek développée par l'empire de Garlemald. Conçue à l'origine comme une arme d'assaut devant détruire les remparts, ses capacités de forage lui permirent d'être également utilisée dans les Ténèbres de Ghimlyt pour creuser des tranchées et participer à des opérations offensives."
+      },
+      "type": "Garlean",
+      "sellMgp": 500,
+      "plate": 87244,
+      "rarity": 3,
+      "top": 6,
+      "bottom": 8,
+      "left": 3,
+      "right": 5
+    },
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "item",
+      "id": "46179",
+      "obj": {
+        "i": 46179,
+        "n": "Irregular Tomestone of Revelation",
+        "l": 1,
+        "c": "t/26346",
+        "t": 63
+      }
+    }
+  ]
+}

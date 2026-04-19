@@ -1,0 +1,639 @@
+{
+  "item": {
+    "name": "Master Alchemist I",
+    "description": "This esoteric tome contains advanced alchemy recipes that can only be learned by highly skilled alchemists.",
+    "id": 7784,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 3000,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26002,
+    "tradeShops": [
+      {
+        "shop": "Master Crafting Tomes",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7784",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "5474",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocks": [
+      1666,
+      1736,
+      1806,
+      1875,
+      1945,
+      2048,
+      2136,
+      2193,
+      2194,
+      7807,
+      7618,
+      8043,
+      8044,
+      8045,
+      8046,
+      8047,
+      8048,
+      8049,
+      8050,
+      8051,
+      8038,
+      9225,
+      9256,
+      9515,
+      10106,
+      9373,
+      10373,
+      10406,
+      10468,
+      10530,
+      12914,
+      12915,
+      12916,
+      12917,
+      12918,
+      12919,
+      14244,
+      14247,
+      14250,
+      14251,
+      14252,
+      14253,
+      6141,
+      15819,
+      15820,
+      15821,
+      15823
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5474",
+      "obj": {
+        "i": 5474,
+        "n": "Growth Formula Delta Concentrate",
+        "l": 70,
+        "c": 22606,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "1666",
+      "obj": {
+        "i": 1666,
+        "n": "Giantsgall Longsword",
+        "l": 70,
+        "c": 30448,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "1736",
+      "obj": {
+        "i": 1736,
+        "n": "Giantsgall Claws",
+        "l": 70,
+        "c": 31036,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "1806",
+      "obj": {
+        "i": 1806,
+        "n": "Giantsgall War Axe",
+        "l": 70,
+        "c": 31442,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "1875",
+      "obj": {
+        "i": 1875,
+        "n": "Giantsgall Trident",
+        "l": 70,
+        "c": 31844,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "1945",
+      "obj": {
+        "i": 1945,
+        "n": "Giantsgall Longbow",
+        "l": 70,
+        "c": 32240,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "2048",
+      "obj": {
+        "i": 2048,
+        "n": "Giantsgall Cane",
+        "l": 70,
+        "c": 32628,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "2136",
+      "obj": {
+        "i": 2136,
+        "n": "Giantsgall Longstaff",
+        "l": 70,
+        "c": 33014,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2193",
+      "obj": {
+        "i": 2193,
+        "n": "Cantamina Thavnaria",
+        "l": 70,
+        "c": 33439,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "2194",
+      "obj": {
+        "i": 2194,
+        "n": "Medica Thavnaria",
+        "l": 70,
+        "c": 33440,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "7807",
+      "obj": {
+        "i": 7807,
+        "n": "Terminus Putty",
+        "l": 90,
+        "c": 22607,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "7618",
+      "obj": {
+        "i": 7618,
+        "n": "Spirits of Salt",
+        "l": 70,
+        "c": 22612,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "8043",
+      "obj": {
+        "i": 8043,
+        "n": "Gallant Armor Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8044",
+      "obj": {
+        "i": 8044,
+        "n": "Temple Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8045",
+      "obj": {
+        "i": 8045,
+        "n": "Fighter's Armor Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8046",
+      "obj": {
+        "i": 8046,
+        "n": "Drachen Armor Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8047",
+      "obj": {
+        "i": 8047,
+        "n": "Choral Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8048",
+      "obj": {
+        "i": 8048,
+        "n": "Wizard's Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8049",
+      "obj": {
+        "i": 8049,
+        "n": "Healer's Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8050",
+      "obj": {
+        "i": 8050,
+        "n": "Evoker's Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8051",
+      "obj": {
+        "i": 8051,
+        "n": "Scholar's Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8038",
+      "obj": {
+        "i": 8038,
+        "n": "Concentrated Spirits of Salt",
+        "l": 75,
+        "c": 22612,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "9225",
+      "obj": {
+        "i": 9225,
+        "n": "Giantsgall Cleavers",
+        "l": 70,
+        "c": 33845,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "9256",
+      "obj": {
+        "i": 9256,
+        "n": "Ninja Garb Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "9515",
+      "obj": {
+        "i": 9515,
+        "n": "Perfect Pounce",
+        "l": 90,
+        "c": 22649,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "10106",
+      "obj": {
+        "i": 10106,
+        "n": "Enchanted Quicksilver",
+        "l": 90,
+        "c": 22612,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "9373",
+      "obj": {
+        "i": 9373,
+        "n": "Enchanted Platinum Ink",
+        "l": 90,
+        "c": 25922,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "10373",
+      "obj": {
+        "i": 10373,
+        "n": "Magitek Repair Materials",
+        "l": 70,
+        "c": 21003,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10406",
+      "obj": {
+        "i": 10406,
+        "n": "Giantsgall Guillotine",
+        "l": 70,
+        "c": 34234,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "10468",
+      "obj": {
+        "i": 10468,
+        "n": "Giantsgall Knifelock",
+        "l": 70,
+        "c": 34634,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10530",
+      "obj": {
+        "i": 10530,
+        "n": "Giantsgall Star Globe",
+        "l": 70,
+        "c": 34804,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "12914",
+      "obj": {
+        "i": 12914,
+        "n": "Deep-red Enchanted Ink",
+        "l": 120,
+        "c": 25920,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12915",
+      "obj": {
+        "i": 12915,
+        "n": "Superior Deep-red Enchanted Ink",
+        "l": 160,
+        "c": 25920,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12916",
+      "obj": {
+        "i": 12916,
+        "n": "Deep-green Enchanted Ink",
+        "l": 120,
+        "c": 25921,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12917",
+      "obj": {
+        "i": 12917,
+        "n": "Superior Deep-green Enchanted Ink",
+        "l": 160,
+        "c": 25921,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12918",
+      "obj": {
+        "i": 12918,
+        "n": "Deep-blue Enchanted Ink",
+        "l": 120,
+        "c": 25923,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12919",
+      "obj": {
+        "i": 12919,
+        "n": "Superior Deep-blue Enchanted Ink",
+        "l": 160,
+        "c": 25923,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14244",
+      "obj": {
+        "i": 14244,
+        "n": "A Light in the Storm Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "14247",
+      "obj": {
+        "i": 14247,
+        "n": "The Scars of Battle Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "14250",
+      "obj": {
+        "i": 14250,
+        "n": "The Maker's Ruin Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "14251",
+      "obj": {
+        "i": 14251,
+        "n": "Primal Judgment Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "14252",
+      "obj": {
+        "i": 14252,
+        "n": "Fallen Angel Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "14253",
+      "obj": {
+        "i": 14253,
+        "n": "Under the Weight Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "6141",
+      "obj": {
+        "i": 6141,
+        "n": "Cordial",
+        "l": 25,
+        "c": 20622,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "15819",
+      "obj": {
+        "i": 15819,
+        "n": "Wreck to the Seaman Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "15820",
+      "obj": {
+        "i": 15820,
+        "n": "Through the Maelstrom Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "15821",
+      "obj": {
+        "i": 15821,
+        "n": "Good King Moggle Mog XII Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "15823",
+      "obj": {
+        "i": 15823,
+        "n": "Battle on the Big Bridge Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    }
+  ]
+}

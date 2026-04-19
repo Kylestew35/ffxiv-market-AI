@@ -1,0 +1,594 @@
+{
+  "item": {
+    "name": "Hawk's Eye Sand",
+    "description": "Conversion of the mineral hawk's eye via an alchemical process is the only way to create this incomparably fine sand.",
+    "id": 23183,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2885,
+    "ilvl": 340,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 49,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21229,
+    "craft": [
+      {
+        "id": 33018,
+        "job": 14,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 5200,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22315,
+        "ingredients": [
+          {
+            "id": 23178,
+            "amount": 1
+          },
+          {
+            "id": 23179,
+            "amount": 3
+          },
+          {
+            "id": 23182,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 417,
+          "hq": 437
+        }
+      }
+    ],
+    "ingredient_of": {
+      "22884": 3,
+      "22885": 3,
+      "22886": 3,
+      "22887": 3,
+      "22888": 3,
+      "22889": 3,
+      "22890": 3,
+      "22891": 3,
+      "22892": 3,
+      "22893": 3,
+      "22894": 3,
+      "22895": 3,
+      "22896": 3,
+      "22897": 3,
+      "22898": 3,
+      "22899": 3,
+      "22900": 3,
+      "22901": 3,
+      "22902": 3,
+      "22903": 3,
+      "22904": 3,
+      "22916": 1,
+      "22917": 1,
+      "22918": 1,
+      "22919": 1,
+      "22921": 1,
+      "22922": 1,
+      "22923": 1,
+      "22924": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Stormsap",
+      "id": 23178,
+      "icon": 22675,
+      "category": 54,
+      "ilvl": 340,
+      "price": 2308,
+      "desynthedFrom": [
+        23069,
+        24995,
+        24205,
+        23206,
+        24994,
+        23203
+      ],
+      "tradeShops": [
+        {
+          "shop": "Namazu Koban Exchange",
+          "npcs": [
+            1025604
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "23178",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22525",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hawk's Eye",
+      "id": 23179,
+      "icon": 21228,
+      "category": 48,
+      "ilvl": 340,
+      "price": 6000,
+      "ventures": [
+        756
+      ],
+      "nodes": [
+        535
+      ]
+    },
+    {
+      "name": "Duskglow Aethersand",
+      "id": 23182,
+      "icon": 21006,
+      "category": 54,
+      "ilvl": 340,
+      "price": 2308,
+      "reducedFrom": [
+        23220,
+        23221
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025604",
+      "obj": {
+        "i": 1025604,
+        "n": "Gyosho",
+        "l": 2411,
+        "s": 8,
+        "t": "Festival Vendor",
+        "r": 1,
+        "a": 2850,
+        "c": [
+          5.84,
+          23.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22525",
+      "obj": {
+        "i": 22525,
+        "n": "Namazu Koban",
+        "l": 1,
+        "c": 65064,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "535",
+      "obj": {
+        "i": 535,
+        "n": "East Othard Coastline",
+        "l": 70,
+        "t": 0,
+        "z": 2409,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23220",
+      "obj": {
+        "i": 23220,
+        "n": "Yanxian Soil",
+        "l": 340,
+        "c": 21466,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "23221",
+      "obj": {
+        "i": 23221,
+        "n": "Yanxian Verbena",
+        "l": 340,
+        "c": 25009,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "22315",
+      "obj": {
+        "i": 22315,
+        "n": "Master Alchemist VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "23178",
+      "obj": {
+        "i": 23178,
+        "n": "Stormsap",
+        "l": 340,
+        "c": 22675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "23179",
+      "obj": {
+        "i": 23179,
+        "n": "Hawk's Eye",
+        "l": 340,
+        "c": 21228,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "23182",
+      "obj": {
+        "i": 23182,
+        "n": "Duskglow Aethersand",
+        "l": 340,
+        "c": 21006,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "22884",
+      "obj": {
+        "i": 22884,
+        "n": "Nightsteel Saw",
+        "l": 345,
+        "c": 35028,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "22885",
+      "obj": {
+        "i": 22885,
+        "n": "Nightsteel Cross-pein Hammer",
+        "l": 345,
+        "c": 35127,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "22886",
+      "obj": {
+        "i": 22886,
+        "n": "Nightsteel Raising Hammer",
+        "l": 345,
+        "c": 35227,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "22887",
+      "obj": {
+        "i": 22887,
+        "n": "Nightsteel Lapidary Hammer",
+        "l": 345,
+        "c": 35326,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "22888",
+      "obj": {
+        "i": 22888,
+        "n": "Nightsteel Round Knife",
+        "l": 345,
+        "c": 35427,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "22889",
+      "obj": {
+        "i": 22889,
+        "n": "Silvergrace Needle",
+        "l": 345,
+        "c": 35527,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "22890",
+      "obj": {
+        "i": 22890,
+        "n": "Nightsteel Alembic",
+        "l": 345,
+        "c": 35626,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "22891",
+      "obj": {
+        "i": 22891,
+        "n": "Nightsteel Frypan",
+        "l": 345,
+        "c": 35729,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "22892",
+      "obj": {
+        "i": 22892,
+        "n": "Nightsteel Pickaxe",
+        "l": 345,
+        "c": 38029,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "22893",
+      "obj": {
+        "i": 22893,
+        "n": "Nightsteel Hatchet",
+        "l": 345,
+        "c": 38127,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "22894",
+      "obj": {
+        "i": 22894,
+        "n": "Black Willow Fishing Rod",
+        "l": 345,
+        "c": 38230,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "22895",
+      "obj": {
+        "i": 22895,
+        "n": "Nightsteel Claw Hammer",
+        "l": 325,
+        "c": 35068,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "22896",
+      "obj": {
+        "i": 22896,
+        "n": "Nightsteel File",
+        "l": 325,
+        "c": 35165,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "22897",
+      "obj": {
+        "i": 22897,
+        "n": "Nightsteel Pliers",
+        "l": 325,
+        "c": 35265,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "22898",
+      "obj": {
+        "i": 22898,
+        "n": "Silvergrace Grinding Wheel",
+        "l": 325,
+        "c": 35365,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "22899",
+      "obj": {
+        "i": 22899,
+        "n": "Nightsteel Awl",
+        "l": 325,
+        "c": 35460,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "22900",
+      "obj": {
+        "i": 22900,
+        "n": "Black Willow Spinning Wheel",
+        "l": 325,
+        "c": 35566,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "22901",
+      "obj": {
+        "i": 22901,
+        "n": "Nightsteel Mortar",
+        "l": 325,
+        "c": 35665,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "22902",
+      "obj": {
+        "i": 22902,
+        "n": "Nightsteel Culinary Knife",
+        "l": 325,
+        "c": 35765,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "22903",
+      "obj": {
+        "i": 22903,
+        "n": "Nightsteel Sledgehammer",
+        "l": 325,
+        "c": 38065,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "22904",
+      "obj": {
+        "i": 22904,
+        "n": "Nightsteel Scythe",
+        "l": 325,
+        "c": 38165,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "22916",
+      "obj": {
+        "i": 22916,
+        "n": "Silvergrace Earrings of Crafting",
+        "l": 340,
+        "c": 55421,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "22917",
+      "obj": {
+        "i": 22917,
+        "n": "Black Willow Necklace of Crafting",
+        "l": 340,
+        "c": 54914,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "22918",
+      "obj": {
+        "i": 22918,
+        "n": "Black Willow Armillae of Crafting",
+        "l": 340,
+        "c": 55719,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "22919",
+      "obj": {
+        "i": 22919,
+        "n": "Black Willow Ring of Crafting",
+        "l": 340,
+        "c": 54572,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "22921",
+      "obj": {
+        "i": 22921,
+        "n": "Silvergrace Earrings of Gathering",
+        "l": 340,
+        "c": 55421,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "22922",
+      "obj": {
+        "i": 22922,
+        "n": "Slothskin Necklace of Gathering",
+        "l": 340,
+        "c": 54917,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "22923",
+      "obj": {
+        "i": 22923,
+        "n": "Slothskin Armillae of Gathering",
+        "l": 340,
+        "c": 55722,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "22924",
+      "obj": {
+        "i": 22924,
+        "n": "Slothskin Ring of Gathering",
+        "l": 340,
+        "c": 54569,
+        "t": 43
+      }
+    }
+  ]
+}

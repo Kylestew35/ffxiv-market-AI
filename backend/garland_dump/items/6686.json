@@ -1,0 +1,74 @@
+{
+  "item": {
+    "name": "Amalj'aa Supply Carriage",
+    "description": "A heavily armored carriage used by the Amalj'aa to transport supplies.",
+    "id": 6686,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 26136,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 52122,
+    "vendors": [
+      1005554
+    ],
+    "tradeShops": [
+      {
+        "shop": "Steel Amalj'ok Exchange",
+        "npcs": [
+          1005554
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6686",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21076",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005554",
+      "obj": {
+        "i": 1005554,
+        "n": "Amalj'aa Vendor",
+        "l": 45,
+        "s": 2,
+        "r": 1,
+        "a": 482,
+        "c": [
+          23.28,
+          14.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21076",
+      "obj": {
+        "i": 21076,
+        "n": "Steel Amalj'ok",
+        "l": 1,
+        "c": 65050,
+        "t": 100
+      }
+    }
+  ]
+}

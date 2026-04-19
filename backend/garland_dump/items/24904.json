@@ -1,0 +1,100 @@
+{
+  "item": {
+    "name": "Aetherially Conductive Plate",
+    "description": "A thin piece of metal that assists in dampening fluctuations in the aetherial current. Used in the creation of aetherytes.",
+    "id": 24904,
+    "patch": 4.55,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 49,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20968,
+    "tradeCurrency": [
+      {
+        "shop": "Shop",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24907",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "24904",
+                "amount": 1
+              },
+              {
+                "id": "24905",
+                "amount": 1
+              },
+              {
+                "id": "24906",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fates": [
+      1425
+    ],
+    "alla": {
+      "source": [
+        "FATE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "24905",
+      "obj": {
+        "i": 24905,
+        "n": "Hydatos Cluster",
+        "l": 1,
+        "c": 20014,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "24906",
+      "obj": {
+        "i": 24906,
+        "n": "Sharlayan Aether Oil",
+        "l": 1,
+        "c": 22636,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "24907",
+      "obj": {
+        "i": 24907,
+        "n": "Aetheric Stabilizer",
+        "l": 1,
+        "c": 26542,
+        "t": 61
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1425",
+      "obj": {
+        "i": 1425,
+        "n": "Drink Me",
+        "l": 50,
+        "t": "EurekaNM"
+      }
+    }
+  ]
+}

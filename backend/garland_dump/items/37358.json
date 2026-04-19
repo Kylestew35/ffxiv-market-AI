@@ -1,0 +1,247 @@
+{
+  "item": {
+    "name": "Sweetfish Skewers",
+    "description": "Lightly salted and roasted to perfection, these sweetfish skewers make for a simple-yet-sublime snack.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Critical Hit Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 37358,
+    "patch": 6.15,
+    "patchCategory": 9,
+    "price": 99999,
+    "ilvl": 560,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53430,
+    "tradeShops": [
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "37358",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 5445,
+        "job": 15,
+        "rlvl": 560,
+        "durability": 80,
+        "quality": 7200,
+        "progress": 3500,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 12780,
+            "amount": 3
+          },
+          {
+            "id": 36078,
+            "amount": 3,
+            "quality": 951.2195
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 442,
+          "hq": 462
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1116"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Sweetfish",
+      "id": 12780,
+      "icon": 29395,
+      "category": 47,
+      "ilvl": 136,
+      "price": 1292,
+      "ventures": [
+        504
+      ],
+      "fishingSpots": [
+        125,
+        127,
+        128
+      ]
+    },
+    {
+      "name": "Northern Sea Salt",
+      "id": 36078,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5283,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36084,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sharlayan Rock Salt",
+      "id": 36084,
+      "icon": 22688,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "leves": [
+        1638
+      ],
+      "ventures": [
+        895
+      ],
+      "nodes": [
+        815
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "125",
+      "obj": {
+        "i": 125,
+        "n": "Thaliak River",
+        "l": 57,
+        "c": 1,
+        "z": 2001,
+        "x": 23.17,
+        "y": 23.55
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "127",
+      "obj": {
+        "i": 127,
+        "n": "Upper Thaliak River",
+        "l": 58,
+        "c": 1,
+        "z": 2001,
+        "x": 22.96,
+        "y": 36.36
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "128",
+      "obj": {
+        "i": 128,
+        "n": "Middle Thaliak River",
+        "l": 60,
+        "c": 1,
+        "z": 2001,
+        "x": 20.62,
+        "y": 25.02
+      }
+    },
+    {
+      "type": "item",
+      "id": "36084",
+      "obj": {
+        "i": 36084,
+        "n": "Sharlayan Rock Salt",
+        "l": 520,
+        "c": 22688,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "815",
+      "obj": {
+        "i": 815,
+        "n": "The Aesthete's Tholos",
+        "l": 85,
+        "t": 0,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12780",
+      "obj": {
+        "i": 12780,
+        "n": "Sweetfish",
+        "l": 136,
+        "c": 29395,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36078",
+      "obj": {
+        "i": 36078,
+        "n": "Northern Sea Salt",
+        "l": 520,
+        "c": 25104,
+        "t": 45
+      }
+    }
+  ]
+}

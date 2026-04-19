@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Brewery Materials",
+    "description": "These raw materials represent the first stage of a rather lengthy and complicated process by which the production of ale somehow expedites the completion of a series of war machines. Rather than stopping to consider the many, many flaws in this plan, you would be better off blindly obeying orders, or so your dwarven companions have conditioned you to believe.<br><br>※Only for use in dwarf society quests.",
+    "id": 31138,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "31139": 1
+    },
+    "usedInQuest": [
+      69433
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31139",
+      "obj": {
+        "i": 31139,
+        "n": "Brewery Supplies",
+        "l": 290,
+        "c": 21012,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69433",
+      "obj": {
+        "i": 69433,
+        "n": "A Piss-up in a Brewery",
+        "g": 66,
+        "l": "Lakeland",
+        "s": 2,
+        "f": 1
+      }
+    }
+  ]
+}

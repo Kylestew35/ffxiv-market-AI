@@ -1,0 +1,119 @@
+{
+  "item": {
+    "name": "Forgotten Fragment of Contention",
+    "description": "A single, unidentified memory of the lost.<br><br>Resistance rank required for appraisal: 15<br>Potential memories contained: Pure Essence of the Duelist, Lost Rend Armor",
+    "id": 32831,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20044,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32831",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    },
+    "loot": [
+      32170,
+      32175
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "32170",
+      "obj": {
+        "i": 32170,
+        "n": "Pure Essence of the Duelist",
+        "l": 1,
+        "c": "t/64729",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "32175",
+      "obj": {
+        "i": 32175,
+        "n": "Lost Rend Armor",
+        "l": 1,
+        "c": "t/64736",
+        "t": 63
+      }
+    }
+  ]
+}

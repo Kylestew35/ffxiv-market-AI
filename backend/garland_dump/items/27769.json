@@ -1,0 +1,610 @@
+{
+  "item": {
+    "name": "Grade 1 Vitality Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to vitality, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 27769,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2878,
+    "ilvl": 400,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 29,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22680,
+    "craft": [
+      {
+        "id": 3860,
+        "job": 14,
+        "rlvl": 400,
+        "durability": 40,
+        "quality": 3120,
+        "progress": 645,
+        "lvl": 73,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27968,
+            "amount": 1
+          },
+          {
+            "id": 27763,
+            "amount": 1
+          },
+          {
+            "id": 19913,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 82,
+          "hq": 102
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25966": 1,
+      "25967": 2,
+      "25968": 1,
+      "25969": 2,
+      "25970": 1,
+      "26008": 1,
+      "26013": 1,
+      "26018": 1,
+      "26023": 1,
+      "26126": 1,
+      "26127": 2,
+      "26128": 1,
+      "26129": 2,
+      "26130": 1,
+      "26168": 1,
+      "26173": 1,
+      "26178": 1,
+      "26183": 1,
+      "26286": 1,
+      "26287": 2,
+      "26288": 1,
+      "26289": 2,
+      "26290": 1,
+      "26328": 1,
+      "26333": 1,
+      "26338": 1,
+      "26343": 1
+    },
+    "supply": {
+      "count": 3,
+      "xp": 831000,
+      "seals": 823
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Highland Spring Water",
+      "id": 27968,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        29986
+      ],
+      "leves": [
+        1482,
+        1483
+      ],
+      "ventures": [
+        791
+      ],
+      "nodes": [
+        592
+      ]
+    },
+    {
+      "name": "Hoptrap Leaf",
+      "id": 27763,
+      "icon": 25202,
+      "category": 54,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27763",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1487,
+        1489
+      ],
+      "ventures": [
+        773
+      ]
+    },
+    {
+      "name": "Nagxian Cudweed",
+      "id": 19913,
+      "icon": 25028,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        703
+      ],
+      "nodes": [
+        517
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "592",
+      "obj": {
+        "i": 592,
+        "n": "The Bookman's Shelves",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "27968",
+      "obj": {
+        "i": 27968,
+        "n": "Highland Spring Water",
+        "l": 400,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27763",
+      "obj": {
+        "i": 27763,
+        "n": "Hoptrap Leaf",
+        "l": 390,
+        "c": 25202,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19913",
+      "obj": {
+        "i": 19913,
+        "n": "Nagxian Cudweed",
+        "l": 285,
+        "c": 25028,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "25966",
+      "obj": {
+        "i": 25966,
+        "n": "Bluespirit Helm of Fending",
+        "l": 403,
+        "c": 40329,
+        "t": 34,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25967",
+      "obj": {
+        "i": 25967,
+        "n": "Bluespirit Cuirass of Fending",
+        "l": 403,
+        "c": 48180,
+        "t": 35,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "25968",
+      "obj": {
+        "i": 25968,
+        "n": "Bluespirit Gauntlets of Fending",
+        "l": 403,
+        "c": 48761,
+        "t": 37,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25969",
+      "obj": {
+        "i": 25969,
+        "n": "Atrociraptorskin Breeches of Fending",
+        "l": 403,
+        "c": 47535,
+        "t": 36,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "25970",
+      "obj": {
+        "i": 25970,
+        "n": "Bluespirit Sabatons of Fending",
+        "l": 403,
+        "c": 47185,
+        "t": 38,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "26008",
+      "obj": {
+        "i": 26008,
+        "n": "White Ash Earring of Fending",
+        "l": 403,
+        "c": 55444,
+        "t": 41,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26013",
+      "obj": {
+        "i": 26013,
+        "n": "Atrociraptorskin Necklace of Fending",
+        "l": 403,
+        "c": 55014,
+        "t": 40,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26018",
+      "obj": {
+        "i": 26018,
+        "n": "Atrociraptorskin Amulet of Fending",
+        "l": 403,
+        "c": 55814,
+        "t": 42,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26023",
+      "obj": {
+        "i": 26023,
+        "n": "Lazurite Ring of Fending",
+        "l": 403,
+        "c": 54662,
+        "t": 43,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26126",
+      "obj": {
+        "i": 26126,
+        "n": "Titanbronze Headgear of Fending",
+        "l": 409,
+        "c": 40335,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26127",
+      "obj": {
+        "i": 26127,
+        "n": "Zonureskin Coat of Fending",
+        "l": 409,
+        "c": 43451,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26128",
+      "obj": {
+        "i": 26128,
+        "n": "Zonureskin Fingerless Gloves of Fending",
+        "l": 409,
+        "c": 48777,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26129",
+      "obj": {
+        "i": 26129,
+        "n": "Ovim Wool Bottoms of Fending",
+        "l": 409,
+        "c": 47572,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26130",
+      "obj": {
+        "i": 26130,
+        "n": "Zonureskin Caligae of Fending",
+        "l": 409,
+        "c": 49040,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26168",
+      "obj": {
+        "i": 26168,
+        "n": "Triplite Earrings of Fending",
+        "l": 409,
+        "c": 55430,
+        "t": 41,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26173",
+      "obj": {
+        "i": 26173,
+        "n": "Triplite Choker of Fending",
+        "l": 409,
+        "c": 55000,
+        "t": 40,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26178",
+      "obj": {
+        "i": 26178,
+        "n": "Triplite Bracelet of Fending",
+        "l": 409,
+        "c": 55800,
+        "t": 42,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26183",
+      "obj": {
+        "i": 26183,
+        "n": "Triplite Ring of Fending",
+        "l": 409,
+        "c": 54648,
+        "t": 43,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26286",
+      "obj": {
+        "i": 26286,
+        "n": "Dwarven Mythril Helm of Fending",
+        "l": 415,
+        "c": 40344,
+        "t": 34,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26287",
+      "obj": {
+        "i": 26287,
+        "n": "Dwarven Mythril Chainmail of Fending",
+        "l": 415,
+        "c": 43465,
+        "t": 35,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26288",
+      "obj": {
+        "i": 26288,
+        "n": "Swallowskin Gloves of Fending",
+        "l": 415,
+        "c": 44728,
+        "t": 37,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26289",
+      "obj": {
+        "i": 26289,
+        "n": "Dwarven Cotton Gaskins of Fending",
+        "l": 415,
+        "c": 47601,
+        "t": 36,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26290",
+      "obj": {
+        "i": 26290,
+        "n": "Dwarven Mythril Shoes of Fending",
+        "l": 415,
+        "c": 49063,
+        "t": 38,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26328",
+      "obj": {
+        "i": 26328,
+        "n": "Petalite Earrings of Fending",
+        "l": 415,
+        "c": 55433,
+        "t": 41,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26333",
+      "obj": {
+        "i": 26333,
+        "n": "Petalite Choker of Fending",
+        "l": 415,
+        "c": 55003,
+        "t": 40,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26338",
+      "obj": {
+        "i": 26338,
+        "n": "Petalite Bracelet of Fending",
+        "l": 415,
+        "c": 55803,
+        "t": 42,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26343",
+      "obj": {
+        "i": 26343,
+        "n": "Petalite Ring of Fending",
+        "l": 415,
+        "c": 54651,
+        "t": 43,
+        "p": 18451
+      }
+    }
+  ]
+}

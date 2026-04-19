@@ -1,0 +1,105 @@
+{
+  "item": {
+    "name": "Sil'dihn Throne",
+    "description": "Intricately adorned, this enchanted throne once seated the rulers of Sil'dih.",
+    "mount": {
+      "name": "Sil'dihn Throne",
+      "action": "Summon forth your Sil'dihn throne. Once seating the rulers of Sil'dih, it now serves as your personal mode of transport.",
+      "description": "Discovered in a sector of the Sil'dihn Subterrane, this magnificent throne is believed to have been a spare. It moves in response to its master's will, but whether it does so via the spirits of Sil'dihns long dead or simple magicks is unknown.",
+      "tooltip": "H-How could you mistake me for<br>that overstuffed throne-warmer!?<br>   - Moghan",
+      "icon": 4243,
+      "guideIcon": 68243
+    },
+    "id": 38461,
+    "patch": 6.25,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26121,
+    "tradeShops": [
+      {
+        "shop": "Sil'dihn Silver Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38461",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38534",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "809-1-1"
+    ],
+    "instances": [
+      37001
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38534",
+      "obj": {
+        "i": 38534,
+        "n": "Sil'dihn Silver",
+        "l": 1,
+        "c": "t/65098",
+        "t": 100
+      }
+    },
+    {
+      "type": "instance",
+      "id": "37001",
+      "obj": {
+        "i": 37001,
+        "n": "Another Sil'dihn Subterrane",
+        "c": 61846,
+        "t": "V&C Dungeon Finder",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 610,
+        "max_ilvl": 635
+      }
+    }
+  ]
+}

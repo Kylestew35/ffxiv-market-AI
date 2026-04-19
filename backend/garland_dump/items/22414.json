@@ -1,0 +1,106 @@
+{
+  "item": {
+    "name": "Thavnairian Cotton",
+    "description": "A traditional Near Eastern weave that keeps its wearer cool while protecting her from the harsh rays of the sun.",
+    "id": 22414,
+    "patch": 4.2,
+    "patchCategory": 5,
+    "price": 2328,
+    "ilvl": 350,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21601,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1019450
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22414",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22414",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "22493": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019450",
+      "obj": {
+        "i": 1019450,
+        "n": "Enna",
+        "l": 2403,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.95,
+          11.63
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "22493",
+      "obj": {
+        "i": 22493,
+        "n": "True Linen",
+        "l": 350,
+        "c": 21609,
+        "t": 51
+      }
+    }
+  ]
+}

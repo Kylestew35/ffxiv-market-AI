@@ -1,0 +1,656 @@
+{
+  "item": {
+    "name": "Sinking Minnow",
+    "description": "A heavy plug lure made to resemble a minnow. Effective in attracting fish from both surface and floor.",
+    "jobCategories": "FSH",
+    "id": 2617,
+    "patch": 1.0,
+    "patchCategory": 2,
+    "price": 408,
+    "ilvl": 34,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 34,
+    "jobs": 19,
+    "icon": 27055,
+    "ingredient_of": {
+      "2930": 1
+    },
+    "craft": [
+      {
+        "id": 1443,
+        "job": 11,
+        "rlvl": 34,
+        "durability": 80,
+        "quality": 1050,
+        "progress": 115,
+        "lvl": 34,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5064,
+            "amount": 1,
+            "quality": 215.625
+          },
+          {
+            "id": 5373,
+            "amount": 1,
+            "quality": 309.375
+          },
+          {
+            "id": 4,
+            "amount": 4
+          },
+          {
+            "id": 2,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 97,
+          "hq": 117
+        }
+      }
+    ],
+    "leves": [
+      778,
+      779,
+      780,
+      781,
+      782,
+      783,
+      784,
+      785
+    ],
+    "desynthedFrom": [
+      4981
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Silver Ingot",
+      "id": 5064,
+      "icon": 20810,
+      "category": 49,
+      "ilvl": 23,
+      "price": 176,
+      "craft": [
+        {
+          "id": 725,
+          "job": 11,
+          "rlvl": 23,
+          "durability": 40,
+          "quality": 480,
+          "progress": 39,
+          "lvl": 23,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5113,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        9530,
+        4462
+      ],
+      "treasure": [
+        6688,
+        6689
+      ]
+    },
+    {
+      "name": "Silver Ore",
+      "id": 5113,
+      "icon": 21211,
+      "category": 48,
+      "ilvl": 23,
+      "price": 52,
+      "voyages": [
+        {
+          "id": 16,
+          "type": 0
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5113",
+                  "amount": 8
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "ventures": [
+        108
+      ],
+      "nodes": [
+        47
+      ]
+    },
+    {
+      "name": "Oak Lumber",
+      "id": 5373,
+      "icon": 22455,
+      "category": 50,
+      "ilvl": 33,
+      "price": 470,
+      "craft": [
+        {
+          "id": 1069,
+          "job": 8,
+          "rlvl": 32,
+          "durability": 40,
+          "quality": 760,
+          "progress": 55,
+          "lvl": 32,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5390,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6350,
+        6377
+      ],
+      "treasure": [
+        6688,
+        6689
+      ],
+      "vendors": [
+        1009205
+      ]
+    },
+    {
+      "name": "Oak Log",
+      "id": 5390,
+      "icon": 22401,
+      "category": 50,
+      "ilvl": 32,
+      "price": 130,
+      "leves": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "ventures": [
+        269
+      ],
+      "nodes": [
+        28
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5113",
+      "obj": {
+        "i": 5113,
+        "n": "Silver Ore",
+        "l": 23,
+        "c": 21211,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5390",
+      "obj": {
+        "i": 5390,
+        "n": "Oak Log",
+        "l": 32,
+        "c": 22401,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 2,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "2930",
+      "obj": {
+        "i": 2930,
+        "n": "Hamlet Puller's Hat",
+        "l": 55,
+        "c": 41137,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "5064",
+      "obj": {
+        "i": 5064,
+        "n": "Silver Ingot",
+        "l": 23,
+        "c": 20810,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "5373",
+      "obj": {
+        "i": 5373,
+        "n": "Oak Lumber",
+        "l": 33,
+        "c": 22455,
+        "t": 50,
+        "p": 470
+      }
+    },
+    {
+      "type": "leve",
+      "id": "778",
+      "obj": {
+        "i": 778,
+        "n": "A Recipe for Disaster",
+        "l": 30,
+        "j": 19,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "779",
+      "obj": {
+        "i": 779,
+        "n": "Just Call Me Late for Dinner",
+        "l": 30,
+        "j": 19,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "780",
+      "obj": {
+        "i": 780,
+        "n": "Kitchen Nightmares No More",
+        "l": 30,
+        "j": 19,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "781",
+      "obj": {
+        "i": 781,
+        "n": "The Blue Period",
+        "l": 30,
+        "j": 19,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "782",
+      "obj": {
+        "i": 782,
+        "n": "The Perks of Politics",
+        "l": 35,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "783",
+      "obj": {
+        "i": 783,
+        "n": "Hands off Our Fish",
+        "l": 35,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "784",
+      "obj": {
+        "i": 784,
+        "n": "Fry Me a River",
+        "l": 35,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "785",
+      "obj": {
+        "i": 785,
+        "n": "Gathering Light",
+        "l": 35,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "4981",
+      "obj": {
+        "i": 4981,
+        "n": "Giant Bass",
+        "l": 37,
+        "c": 29268,
+        "t": 47
+      }
+    }
+  ]
+}

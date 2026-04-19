@@ -1,0 +1,118 @@
+{
+  "item": {
+    "name": "Recordkiller",
+    "description": "A queen among silver kittens, and lady of the waters of south Mjrl's Regret.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "The Viis tell stories of ravenous catfish that lurk just below the surface of shallow lakes, lying in wait until a creature is foolish enough to slake its thirst. For all their wisdom, many a Qitari would fall prey to this trick, and get dragged into the depths along with their accumulated knowledge. That the Viis named this wavekin thusly may indicate which of those losses they viewed to be more egregious. ",
+      "icon": 78485,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 228,
+          "transition": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "weather": [
+            "Fog"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 1900,
+          "ff14anglerId": 3306,
+          "baits": [
+            [
+              27589
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 30437,
+    "patch": 5.3,
+    "patchCategory": 7,
+    "price": 533,
+    "ilvl": 460,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28485,
+    "fishingSpots": [
+      228
+    ],
+    "desynthedTo": [
+      29979,
+      26738
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "228",
+      "obj": {
+        "i": 228,
+        "n": "South Mjrl's Regret",
+        "l": 70,
+        "c": 1,
+        "z": 2957,
+        "x": 24.02,
+        "y": 31.63
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27589",
+      "obj": {
+        "i": 27589,
+        "n": "Baitbugs",
+        "l": 430,
+        "c": 27040,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "29979",
+      "obj": {
+        "i": 29979,
+        "n": "Dried Hi-Ether",
+        "l": 480,
+        "c": 22613,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26738",
+      "obj": {
+        "i": 26738,
+        "n": "Quickarm Materia VIII",
+        "l": 420,
+        "c": 20280,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Skill Speed",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Chimpanzee",
+    "description": "This adorable critter will make you love every ape that you see, from chimpan-a to chimpan-z.<br><br>Use item to acquire the chimpanzee minion.",
+    "minionrace": "Critter",
+    "tooltip": "May the fortune of the\r\nmonkey attend you!\r\n   - Saru Bugyo",
+    "minionskilltype": "Damage",
+    "specialactionname": "Munch",
+    "specialactiondescription": "Triggers an enemy trap as if it were your own. If the trap deals physical damage, then potency is increased by 150%.",
+    "id": 40374,
+    "patch": 6.4,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59883,
+    "tradeShops": [
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40374",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 350,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 55,
+      "Speed": 3
+    },
+    "models": [
+      "8440-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    }
+  ]
+}

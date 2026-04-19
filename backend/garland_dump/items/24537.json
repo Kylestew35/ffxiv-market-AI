@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Big One Festival Float",
+    "description": "Though this towering vehicle is meant for use in parades celebrating the Big One, a modern Namazu, rather than said venerable ancestor, is depicted atop it. Is this a means of increasing its appeal among the common Namazu, or simply the result of Gyoshin's brethren refusing to allow him to melt down any more koban to make large golden fish statues? Those who do not purchase <span class=\"emphasis\">A Meditation on the Metaphysics of Merrymaking</span> may never know.",
+    "id": 24537,
+    "patch": 4.56,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52267,
+    "tradeShops": [
+      {
+        "shop": "Namazu Koban Exchange",
+        "npcs": [
+          1025604
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24537",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22525",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025604",
+      "obj": {
+        "i": 1025604,
+        "n": "Gyosho",
+        "l": 2411,
+        "s": 8,
+        "t": "Festival Vendor",
+        "r": 1,
+        "a": 2850,
+        "c": [
+          5.84,
+          23.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22525",
+      "obj": {
+        "i": 22525,
+        "n": "Namazu Koban",
+        "l": 1,
+        "c": 65064,
+        "t": 100
+      }
+    }
+  ]
+}

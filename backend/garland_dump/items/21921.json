@@ -1,0 +1,127 @@
+{
+  "item": {
+    "name": "Aurelia Polyp",
+    "description": "Lighter than air─er...water.<br><br>Use item to acquire the aurelia polyp minion.",
+    "minionrace": "Critter",
+    "tooltip": "Tonight we will feast on the\r\njellyfish while my jealous fish\r\nof a brother drinks in his tears!\r\n   - Nortmoen",
+    "minionskilltype": "Damage",
+    "specialactionname": "Irritating Tendrils",
+    "specialactiondescription": "Delivers 10 points of damage every second to all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 20s",
+    "id": 21921,
+    "patch": 4.2,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59683,
+    "ingredient_of": {
+      "22574": 1
+    },
+    "cost": 15,
+    "skill_angle": 120,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 510,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 30,
+      "Speed": 2
+    },
+    "models": [
+      "8256-1-1"
+    ],
+    "treasure": [
+      31357,
+      33797,
+      36636
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE"
+      ]
+    },
+    "voyages": [
+      {
+        "id": 5,
+        "type": 1
+      },
+      {
+        "id": 7,
+        "type": 1
+      },
+      {
+        "id": 50,
+        "type": 1
+      },
+      {
+        "id": 55,
+        "type": 1
+      },
+      {
+        "id": 82,
+        "type": 1
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22574",
+      "obj": {
+        "i": 22574,
+        "n": "Jellyfish Lamp",
+        "l": 1,
+        "c": 53230,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "31357",
+      "obj": {
+        "i": 31357,
+        "n": "Southern Front Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33797",
+      "obj": {
+        "i": 33797,
+        "n": "Zadnor Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "item": {
+    "name": "Firm Tofu",
+    "description": "A traditional source of protein in the Far East, tofu is made from curdled soy bean extract.",
+    "id": 19842,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 540,
+    "ilvl": 273,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25059,
+    "ingredient_of": {
+      "17969": 1,
+      "19829": 1,
+      "19833": 1,
+      "19834": 1,
+      "22445": 1
+    },
+    "craft": [
+      {
+        "id": 3582,
+        "job": 15,
+        "rlvl": 273,
+        "durability": 40,
+        "quality": 2448,
+        "progress": 390,
+        "lvl": 64,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19862,
+            "amount": 3
+          },
+          {
+            "id": 19847,
+            "amount": 1
+          },
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 2,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 81,
+          "hq": 101
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Soybeans",
+      "id": 19862,
+      "icon": 25228,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        689
+      ],
+      "nodes": [
+        510
+      ]
+    },
+    {
+      "name": "Nigari",
+      "id": 19847,
+      "icon": 22606,
+      "category": 54,
+      "ilvl": 260,
+      "price": 514,
+      "leves": [
+        1313,
+        1315,
+        1478
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "510",
+      "obj": {
+        "i": 510,
+        "n": "East Othard Coastline",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "17969",
+      "obj": {
+        "i": 17969,
+        "n": "Oriental Udon Lunch",
+        "l": 273,
+        "c": 53157,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "19829",
+      "obj": {
+        "i": 19829,
+        "n": "Miso Dengaku",
+        "l": 288,
+        "c": 24161,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "19833",
+      "obj": {
+        "i": 19833,
+        "n": "Crab Croquette",
+        "l": 273,
+        "c": 24308,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "19834",
+      "obj": {
+        "i": 19834,
+        "n": "Miso Soup with Tofu",
+        "l": 273,
+        "c": 24120,
+        "t": 46,
+        "p": 2162
+      }
+    },
+    {
+      "type": "item",
+      "id": "19862",
+      "obj": {
+        "i": 19862,
+        "n": "Soybeans",
+        "l": 273,
+        "c": 25228,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19847",
+      "obj": {
+        "i": 19847,
+        "n": "Nigari",
+        "l": 260,
+        "c": 22606,
+        "t": 54,
+        "p": 514
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "22445",
+      "obj": {
+        "i": 22445,
+        "n": "Tofu Pancakes",
+        "l": 340,
+        "c": 24072,
+        "t": 46
+      }
+    }
+  ]
+}

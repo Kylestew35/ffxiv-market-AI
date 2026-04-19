@@ -1,0 +1,94 @@
+{
+  "item": {
+    "name": "The Behelmeted Serpent of Ronka",
+    "description": "Tremble, child of man, for a creature of purest divinity wiggleth before thee in all of its behelmeted glory.<br><br>Use item to acquire the Behelmeted Serpent of Ronka minion.",
+    "minionrace": "Critter",
+    "tooltip": "Scree! Scree!\r\n   - The Behelmeted Serpent of Ronka",
+    "minionskilltype": "Dismantling",
+    "specialactionname": "Lost Curse",
+    "specialactiondescription": "Delivers 10% damage to the nearest enemy Arcana Stone.",
+    "id": 30091,
+    "patch": 5.2,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59769,
+    "tradeShops": [
+      {
+        "shop": "Qitari Compliment Exchange",
+        "npcs": [
+          1032661
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30091",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28187",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 470,
+      "Skill Cost": 50,
+      "Attack": 60,
+      "Defense": 10,
+      "Speed": 3
+    },
+    "models": [
+      "8333-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032661",
+      "obj": {
+        "i": 1032661,
+        "n": "Yuqurl Manl",
+        "l": 2957,
+        "s": 4,
+        "t": "Qitari Vendor",
+        "r": 1,
+        "a": 3472,
+        "c": [
+          37.37,
+          17.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28187",
+      "obj": {
+        "i": 28187,
+        "n": "Qitari Compliment",
+        "l": 1,
+        "c": 65077,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Beyond Redemption Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Beyond Redemption</span>. Use to add to your orchestrion list.",
+    "id": 25070,
+    "patch": 4.5,
+    "patchCategory": 16,
+    "price": 2,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 291,
+      "name": "Beyond Redemption",
+      "description": "Available for exchange in Old Gridania.",
+      "category": "Raids I",
+      "order": 16
+    },
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "25070",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

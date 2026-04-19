@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Korpokkur Kolossus Horn",
+    "description": "A nondescript horn that emits a harrowing drone which, for reasons unknown, summons an overgrown korpokkur known playfully as the “kolossus.”",
+    "mount": {
+      "name": "Korpokkur Kolossus",
+      "action": "Summon forth your korpokkur kolossus, a veritable colossus among its kind.",
+      "description": "In search of an ideal home, this korpokkur journeyed long malms before finally coming to a stop at the Gold Saucer. The trek across the scorching Sagolii had reduced it to a withered husk, but when next it drank, it experienced what could only be described as an epic rebound.",
+      "tooltip": "What have you been<br>feeding this thing?<br>   - Forward Maiden",
+      "icon": 4108,
+      "guideIcon": 68108
+    },
+    "id": 21054,
+    "patch": 4.1,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21054",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 750000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "437-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

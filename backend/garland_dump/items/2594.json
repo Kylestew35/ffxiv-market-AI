@@ -1,0 +1,442 @@
+{
+  "item": {
+    "name": "Butterworm",
+    "description": "If allowed to pupate, this bright-yellow larva will transform into a hideous moth which can devour an entire tunic in a single turn of the sun. Live bait for freshwater fishing.",
+    "jobCategories": "FSH",
+    "id": 2594,
+    "patch": 1.0,
+    "patchCategory": 2,
+    "price": 5,
+    "ilvl": 20,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 20,
+    "jobs": 19,
+    "icon": 27019,
+    "vendors": [
+      1004425,
+      1005635,
+      1005642,
+      1005649,
+      1019103,
+      1039489,
+      1000218,
+      1001973,
+      1003254,
+      1011206,
+      1000222,
+      1000579,
+      1000597,
+      1003267,
+      1003270,
+      1004428,
+      1004038,
+      1032910,
+      1033940,
+      1035541,
+      1027241,
+      1018987
+    ],
+    "quests": [
+      66966
+    ],
+    "leves": [
+      766,
+      767,
+      768,
+      769
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1004425",
+      "obj": {
+        "i": 1004425,
+        "n": "Junkmonger",
+        "l": 44,
+        "s": 1,
+        "c": [
+          "13.8",
+          "23.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005635",
+      "obj": {
+        "i": 1005635,
+        "n": "Junkmonger",
+        "l": 425,
+        "s": 1,
+        "a": 1120,
+        "c": [
+          10.75,
+          11.7
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005642",
+      "obj": {
+        "i": 1005642,
+        "n": "Junkmonger",
+        "l": 427,
+        "s": 1,
+        "a": 1115,
+        "c": [
+          10.91,
+          8.92
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005649",
+      "obj": {
+        "i": 1005649,
+        "n": "Junkmonger",
+        "l": 426,
+        "s": 1,
+        "a": 1146,
+        "c": [
+          11.77,
+          8.43
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019103",
+      "obj": {
+        "i": 1019103,
+        "n": "Junkmonger",
+        "l": 2412,
+        "s": 1,
+        "c": [
+          "10.1",
+          "12.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039489",
+      "obj": {
+        "i": 1039489,
+        "n": "Junkmonger",
+        "l": 4139,
+        "s": 1,
+        "a": 4142,
+        "c": [
+          10.22,
+          10.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000218",
+      "obj": {
+        "i": 1000218,
+        "n": "Admiranda",
+        "l": 53,
+        "s": 11,
+        "q": 1,
+        "t": "Tool Supplier",
+        "a": 565,
+        "c": [
+          14.55,
+          10.09
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001973",
+      "obj": {
+        "i": 1001973,
+        "n": "Yoyobasa",
+        "l": 41,
+        "s": 11,
+        "t": "Fieldcraft Merchant",
+        "c": [
+          "14.2",
+          "11.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003254",
+      "obj": {
+        "i": 1003254,
+        "n": "Syneyhil",
+        "l": 29,
+        "s": 11,
+        "q": 1,
+        "t": "Fieldcraft Supplier",
+        "a": 745,
+        "c": [
+          6.31,
+          11.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011206",
+      "obj": {
+        "i": 1011206,
+        "n": "Evrardoux",
+        "l": 2301,
+        "s": 7,
+        "t": "Fieldcraft Supplier",
+        "a": 2317,
+        "c": [
+          6.51,
+          9.6
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000222",
+      "obj": {
+        "i": 1000222,
+        "n": "Merchant & Mender",
+        "l": 55,
+        "s": 5,
+        "c": [
+          "17.2",
+          "27.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000579",
+      "obj": {
+        "i": 1000579,
+        "n": "Encampment Clothier & Tailor",
+        "l": 55,
+        "s": 5,
+        "c": [
+          "21.8",
+          "25.8"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000597",
+      "obj": {
+        "i": 1000597,
+        "n": "Arms Supplier & Mender",
+        "l": 56,
+        "s": 5,
+        "c": [
+          "18.2",
+          "19.9"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003267",
+      "obj": {
+        "i": 1003267,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "q": 1,
+        "a": 231,
+        "c": [
+          14.9,
+          24.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003270",
+      "obj": {
+        "i": 1003270,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "c": [
+          "26.1",
+          "26.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004428",
+      "obj": {
+        "i": 1004428,
+        "n": "Merchant & Mender",
+        "l": 44,
+        "s": 5,
+        "c": [
+          "10.8",
+          "16.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004038",
+      "obj": {
+        "i": 1004038,
+        "n": "Merchant & Mender",
+        "l": 42,
+        "s": 3,
+        "c": [
+          "12.1",
+          "13.8"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032910",
+      "obj": {
+        "i": 1032910,
+        "n": "Merchant & Mender",
+        "l": 1647,
+        "s": 1,
+        "a": 2255,
+        "c": [
+          8.69,
+          18.77
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033940",
+      "obj": {
+        "i": 1033940,
+        "n": "Merchant & Mender",
+        "l": 1647,
+        "s": 1,
+        "a": 2255,
+        "c": [
+          8.69,
+          18.77
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1035541",
+      "obj": {
+        "i": 1035541,
+        "n": "Merchant & Mender",
+        "l": 1647,
+        "s": 1,
+        "a": 2255,
+        "c": [
+          8.69,
+          18.77
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027241",
+      "obj": {
+        "i": 1027241,
+        "n": "Vernarth",
+        "l": 2951,
+        "s": 4,
+        "t": "Tool Supplier",
+        "a": 3254,
+        "c": [
+          9.33,
+          14.47
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018987",
+      "obj": {
+        "i": 1018987,
+        "n": "Shichiho",
+        "l": 2404,
+        "s": 4,
+        "t": "Tool Supplier",
+        "c": [
+          "12.7",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66966",
+      "obj": {
+        "i": 66966,
+        "n": "The Beast of Brewer's Beacon",
+        "g": 111,
+        "l": "Limsa Lominsa",
+        "s": 510
+      }
+    },
+    {
+      "type": "leve",
+      "id": "766",
+      "obj": {
+        "i": 766,
+        "n": "My Own Private Shell",
+        "l": 15,
+        "j": 19,
+        "p": 33
+      }
+    },
+    {
+      "type": "leve",
+      "id": "767",
+      "obj": {
+        "i": 767,
+        "n": "The Deepest Cut",
+        "l": 15,
+        "j": 19,
+        "p": 33
+      }
+    },
+    {
+      "type": "leve",
+      "id": "768",
+      "obj": {
+        "i": 768,
+        "n": "The Moral of the Coral",
+        "l": 15,
+        "j": 19,
+        "p": 33
+      }
+    },
+    {
+      "type": "leve",
+      "id": "769",
+      "obj": {
+        "i": 769,
+        "n": "Crab Life by the Horns",
+        "l": 15,
+        "j": 19,
+        "p": 33
+      }
+    }
+  ]
+}

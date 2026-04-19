@@ -1,0 +1,52 @@
+{
+  "item": {
+    "name": "Raw Fermenting Supplies",
+    "description": "Unsorted and unprocessed fruit, yeast, and other materials necessary for fermenting alcohol.",
+    "id": 24578,
+    "patch": 4.5,
+    "patchCategory": 5,
+    "price": 125,
+    "ilvl": 279,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25978,
+    "vendors": [
+      1017188
+    ],
+    "ingredient_of": {
+      "24573": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "24573",
+      "obj": {
+        "i": 24573,
+        "n": "Juice Fermenting Supplies",
+        "l": 279,
+        "c": 23001,
+        "t": 61,
+        "p": 250
+      }
+    }
+  ]
+}

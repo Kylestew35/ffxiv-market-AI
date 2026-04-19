@@ -1,0 +1,734 @@
+{
+  "item": {
+    "name": "Quickarm Materia V",
+    "id": 5718,
+    "patch": 3.0,
+    "patchCategory": 10,
+    "price": 6000,
+    "ilvl": 160,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 108,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20259,
+    "drops": [
+      84130000007064,
+      75780000006030,
+      75800000006032,
+      70510000006127,
+      70470000006132,
+      70480000006131,
+      70490000006130,
+      81260000006902,
+      81250000006901,
+      84500000007006,
+      84460000007007,
+      83870000007074,
+      84490000007003,
+      68070000006079,
+      68050000006077
+    ],
+    "instances": [
+      64
+    ],
+    "tradeShops": [
+      {
+        "shop": "Mhachi Matter Exchange",
+        "npcs": [
+          1017107,
+          1019461
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5718",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15110",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gelmorran Potsherd Exchange",
+        "npcs": [
+          1017338
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5718",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15422",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Exchange artifacts",
+        "npcs": [
+          1025848
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5718",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23164",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia I",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5718",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15110",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 4,
+      "value": 6,
+      "attr": "Skill Speed",
+      "category": 0
+    },
+    "quests": [
+      67988,
+      68003,
+      68019,
+      68044,
+      68067,
+      68072,
+      68166,
+      68226,
+      68329,
+      68401
+    ],
+    "desynthedFrom": [
+      17580,
+      24205,
+      24213,
+      24892,
+      15629,
+      15638,
+      16743,
+      24893,
+      20236,
+      27526
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      16170,
+      16171,
+      22508,
+      23142,
+      24141,
+      24848
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017107",
+      "obj": {
+        "i": 1017107,
+        "n": "Smacklix",
+        "l": 2082,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 2092,
+        "c": [
+          7.65,
+          4.84
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019461",
+      "obj": {
+        "i": 1019461,
+        "n": "Switchstix",
+        "l": 2403,
+        "s": 1,
+        "t": "Materia Provisioner",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          12.5,
+          11.38
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15110",
+      "obj": {
+        "i": 15110,
+        "n": "Mhachi Matter",
+        "l": 1,
+        "c": 20402,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017338",
+      "obj": {
+        "i": 1017338,
+        "n": "E-Una-Kotor",
+        "l": 56,
+        "s": 2,
+        "r": 1,
+        "a": 129,
+        "c": [
+          25.12,
+          20.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15422",
+      "obj": {
+        "i": 15422,
+        "n": "Gelmorran Potsherd",
+        "l": 230,
+        "c": 25975,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025848",
+      "obj": {
+        "i": 1025848,
+        "n": "Confederate Custodian",
+        "l": 2409,
+        "s": 2,
+        "r": 1,
+        "a": 2775,
+        "c": [
+          21.29,
+          9.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23164",
+      "obj": {
+        "i": 23164,
+        "n": "Empyrean Potsherd",
+        "l": 1,
+        "c": 26537,
+        "t": 61
+      }
+    },
+    {
+      "type": "mob",
+      "id": "75780000006030",
+      "obj": {
+        "i": 75780000006030,
+        "n": "12th Legion Canis Pugnax",
+        "l": "70",
+        "z": 2691
+      }
+    },
+    {
+      "type": "mob",
+      "id": "75800000006032",
+      "obj": {
+        "i": 75800000006032,
+        "n": "12th Legion Rearguard",
+        "l": "70",
+        "z": 2691
+      }
+    },
+    {
+      "type": "mob",
+      "id": "68050000006077",
+      "obj": {
+        "i": 68050000006077,
+        "n": "Joi Summoner",
+        "l": "70",
+        "z": 2298
+      }
+    },
+    {
+      "type": "mob",
+      "id": "68070000006079",
+      "obj": {
+        "i": 68070000006079,
+        "n": "Karakuri Onmitsu",
+        "l": "70",
+        "z": 2298
+      }
+    },
+    {
+      "type": "mob",
+      "id": "70510000006127",
+      "obj": {
+        "i": 70510000006127,
+        "n": "Gyr Abanian Zu",
+        "l": "70",
+        "z": 2707
+      }
+    },
+    {
+      "type": "mob",
+      "id": "70490000006130",
+      "obj": {
+        "i": 70490000006130,
+        "n": "Dancing Bear",
+        "l": "70",
+        "z": 2707
+      }
+    },
+    {
+      "type": "mob",
+      "id": "70480000006131",
+      "obj": {
+        "i": 70480000006131,
+        "n": "Singha Cub",
+        "l": "70",
+        "z": 2707
+      }
+    },
+    {
+      "type": "mob",
+      "id": "70470000006132",
+      "obj": {
+        "i": 70470000006132,
+        "n": "Singha",
+        "l": "70",
+        "z": 2707
+      }
+    },
+    {
+      "type": "mob",
+      "id": "81250000006901",
+      "obj": {
+        "i": 81250000006901,
+        "n": "Urolith Sentinel",
+        "l": "70",
+        "z": 2367
+      }
+    },
+    {
+      "type": "mob",
+      "id": "81260000006902",
+      "obj": {
+        "i": 81260000006902,
+        "n": "Stone Phoebad",
+        "l": "70",
+        "z": 2367
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84490000007003",
+      "obj": {
+        "i": 84490000007003,
+        "n": "Hellish Naked Yumemi",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84500000007006",
+      "obj": {
+        "i": 84500000007006,
+        "n": "Sea Scorpion",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84460000007007",
+      "obj": {
+        "i": 84460000007007,
+        "n": "Uwabami",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "mob",
+      "id": "84130000007064",
+      "obj": {
+        "i": 84130000007064,
+        "n": "Prototype Empusa",
+        "l": "70",
+        "z": 2148
+      }
+    },
+    {
+      "type": "mob",
+      "id": "83870000007074",
+      "obj": {
+        "i": 83870000007074,
+        "n": "Kaja Of The Seven Flames",
+        "l": "70",
+        "z": 2762
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67988",
+      "obj": {
+        "i": 67988,
+        "n": "Signed, Sealed, to Be Delivered",
+        "g": 6,
+        "l": "The Fringes",
+        "s": 70
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68003",
+      "obj": {
+        "i": 68003,
+        "n": "Lies, Damn Lies, and Pirates",
+        "g": 6,
+        "l": "The Fringes",
+        "s": 220
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68019",
+      "obj": {
+        "i": 68019,
+        "n": "Of Kojin and Kami",
+        "g": 6,
+        "l": "The Ruby Sea",
+        "s": 380
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68044",
+      "obj": {
+        "i": 68044,
+        "n": "The Children of Azim",
+        "g": 6,
+        "l": "The Azim Steppe",
+        "s": 660
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68067",
+      "obj": {
+        "i": 68067,
+        "n": "The Lure of the Dream",
+        "g": 6,
+        "l": "The Fringes",
+        "s": 910
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68072",
+      "obj": {
+        "i": 68072,
+        "n": "Hells Open",
+        "g": 6,
+        "l": "The Peaks",
+        "s": 960
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68166",
+      "obj": {
+        "i": 68166,
+        "n": "Here There Be Xaela",
+        "g": 6,
+        "l": "Yanxia",
+        "s": 570
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68226",
+      "obj": {
+        "i": 68226,
+        "n": "Family Affairs",
+        "g": 128,
+        "l": "The Ruby Sea",
+        "s": 2180
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68329",
+      "obj": {
+        "i": 68329,
+        "n": "The Power of the Fist",
+        "g": 130,
+        "l": "The Azim Steppe",
+        "s": 6150
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68401",
+      "obj": {
+        "i": 68401,
+        "n": "A Parting Gift",
+        "g": 125,
+        "l": "The Peaks",
+        "s": 9090
+      }
+    },
+    {
+      "type": "item",
+      "id": "17580",
+      "obj": {
+        "i": 17580,
+        "n": "Ceti",
+        "l": 240,
+        "c": 29611,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24205",
+      "obj": {
+        "i": 24205,
+        "n": "Watcher Catfish",
+        "l": 340,
+        "c": 29533,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24213",
+      "obj": {
+        "i": 24213,
+        "n": "Princess Killifish",
+        "l": 340,
+        "c": 29540,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24892",
+      "obj": {
+        "i": 24892,
+        "n": "Garden Skipper",
+        "l": 340,
+        "c": 29547,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "15629",
+      "obj": {
+        "i": 15629,
+        "n": "Scaleripper",
+        "l": 210,
+        "c": 29426,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "15638",
+      "obj": {
+        "i": 15638,
+        "n": "Aphotic Pirarucu",
+        "l": 210,
+        "c": 29430,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "16743",
+      "obj": {
+        "i": 16743,
+        "n": "Basking Shark",
+        "l": 240,
+        "c": 29731,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24893",
+      "obj": {
+        "i": 24893,
+        "n": "Banderole",
+        "l": 340,
+        "c": 29377,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "20236",
+      "obj": {
+        "i": 20236,
+        "n": "Mercenary Crab",
+        "l": 290,
+        "c": 29911,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27526",
+      "obj": {
+        "i": 27526,
+        "n": "Wardenfish",
+        "l": 400,
+        "c": 29096,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "16171",
+      "obj": {
+        "i": 16171,
+        "n": "Iron-trimmed Sack",
+        "l": 1,
+        "c": 25991,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "22508",
+      "obj": {
+        "i": 22508,
+        "n": "Anemos Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "23142",
+      "obj": {
+        "i": 23142,
+        "n": "Pagos Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "24141",
+      "obj": {
+        "i": 24141,
+        "n": "Pyros Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "24848",
+      "obj": {
+        "i": 24848,
+        "n": "Hydatos Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    }
+  ]
+}

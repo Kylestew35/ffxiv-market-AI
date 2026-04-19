@@ -1,0 +1,947 @@
+{
+  "item": {
+    "name": "Smilodon Leather",
+    "description": "A large piece of cured smilodon skin.",
+    "id": 27738,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2799,
+    "ilvl": 390,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22013,
+    "craft": [
+      {
+        "id": 3840,
+        "job": 12,
+        "rlvl": 390,
+        "durability": 40,
+        "quality": 3010,
+        "progress": 597,
+        "lvl": 71,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27732,
+            "amount": 4
+          },
+          {
+            "id": 27817,
+            "amount": 1
+          },
+          {
+            "id": 11,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 124,
+          "hq": 144
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25631": 1,
+      "25638": 1,
+      "25639": 1,
+      "25644": 1,
+      "25649": 3,
+      "25653": 1,
+      "25654": 2,
+      "25655": 3,
+      "25656": 2,
+      "25658": 1,
+      "25659": 1,
+      "25662": 2,
+      "25664": 1,
+      "25665": 1,
+      "25668": 2,
+      "25671": 1,
+      "25672": 2,
+      "25673": 1,
+      "25674": 2,
+      "25676": 1,
+      "25677": 1,
+      "25678": 2,
+      "25679": 1,
+      "25680": 2,
+      "25682": 1,
+      "25683": 1,
+      "25684": 2,
+      "25685": 1,
+      "25686": 2,
+      "27078": 1,
+      "27085": 1,
+      "27087": 1,
+      "27162": 1,
+      "27163": 2,
+      "27164": 1,
+      "27165": 2,
+      "27167": 1,
+      "27168": 2,
+      "27169": 1,
+      "27170": 2,
+      "27207": 2,
+      "27208": 2,
+      "27209": 2,
+      "27210": 1,
+      "35763": 1,
+      "27942": 1,
+      "30981": 1,
+      "31041": 2,
+      "31056": 1,
+      "28172": 9,
+      "28173": 9,
+      "28174": 9
+    },
+    "requiredByLeves": [
+      1418
+    ],
+    "leves": [
+      1419,
+      1420
+    ],
+    "desynthedFrom": [
+      25742,
+      25750
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Smilodon Skin",
+      "id": 27732,
+      "icon": 21834,
+      "category": 52,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27732",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1418
+      ],
+      "ventures": [
+        772
+      ]
+    },
+    {
+      "name": "Yellow Alumen",
+      "id": 27817,
+      "icon": 22657,
+      "category": 54,
+      "ilvl": 385,
+      "price": 630,
+      "ventures": [
+        800
+      ],
+      "nodes": [
+        591
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "591",
+      "obj": {
+        "i": 591,
+        "n": "Twitch",
+        "l": 70,
+        "t": 1,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "27732",
+      "obj": {
+        "i": 27732,
+        "n": "Smilodon Skin",
+        "l": 390,
+        "c": 21834,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "27817",
+      "obj": {
+        "i": 27817,
+        "n": "Yellow Alumen",
+        "l": 385,
+        "c": 22657,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "25631",
+      "obj": {
+        "i": 25631,
+        "n": "White Oak Partisan",
+        "l": 385,
+        "c": 31989,
+        "t": 5,
+        "p": 39744
+      }
+    },
+    {
+      "type": "item",
+      "id": "25638",
+      "obj": {
+        "i": 25638,
+        "n": "Smilodonskin Grimoire",
+        "l": 385,
+        "c": 33310,
+        "t": 10,
+        "p": 39744
+      }
+    },
+    {
+      "type": "item",
+      "id": "25639",
+      "obj": {
+        "i": 25639,
+        "n": "Smilodonskin Codex",
+        "l": 385,
+        "c": 33309,
+        "t": 98,
+        "p": 39744
+      }
+    },
+    {
+      "type": "item",
+      "id": "25644",
+      "obj": {
+        "i": 25644,
+        "n": "Deepgold War Quoits",
+        "l": 385,
+        "c": 36233,
+        "t": 107,
+        "p": 39744
+      }
+    },
+    {
+      "type": "item",
+      "id": "25649",
+      "obj": {
+        "i": 25649,
+        "n": "Smilodonskin Trousers of Fending",
+        "l": 385,
+        "c": 47608,
+        "t": 36,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25653",
+      "obj": {
+        "i": 25653,
+        "n": "Brightlinen Tabard of Maiming",
+        "l": 385,
+        "c": 43445,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25654",
+      "obj": {
+        "i": 25654,
+        "n": "Smilodonskin Gloves of Maiming",
+        "l": 385,
+        "c": 44699,
+        "t": 37,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25655",
+      "obj": {
+        "i": 25655,
+        "n": "Smilodonskin Trousers of Maiming",
+        "l": 385,
+        "c": 47543,
+        "t": 36,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25656",
+      "obj": {
+        "i": 25656,
+        "n": "Smilodonskin Leggings of Maiming",
+        "l": 385,
+        "c": 47190,
+        "t": 38,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25658",
+      "obj": {
+        "i": 25658,
+        "n": "Brightlinen Hood of Striking",
+        "l": 385,
+        "c": 41756,
+        "t": 34,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25659",
+      "obj": {
+        "i": 25659,
+        "n": "Brightlinen Himation of Striking",
+        "l": 385,
+        "c": 43872,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25662",
+      "obj": {
+        "i": 25662,
+        "n": "Smilodonskin Open-toed Boots of Striking",
+        "l": 385,
+        "c": 49023,
+        "t": 38,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25664",
+      "obj": {
+        "i": 25664,
+        "n": "Brightlinen Hood of Aiming",
+        "l": 385,
+        "c": 41757,
+        "t": 34,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25665",
+      "obj": {
+        "i": 25665,
+        "n": "Brightlinen Himation of Aiming",
+        "l": 385,
+        "c": 43873,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25668",
+      "obj": {
+        "i": 25668,
+        "n": "Smilodonskin Open-toed Boots of Aiming",
+        "l": 385,
+        "c": 49024,
+        "t": 38,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25671",
+      "obj": {
+        "i": 25671,
+        "n": "Brightlinen Gambison of Scouting",
+        "l": 385,
+        "c": 43463,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25672",
+      "obj": {
+        "i": 25672,
+        "n": "Smilodonskin Gloves of Scouting",
+        "l": 385,
+        "c": 48791,
+        "t": 37,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25673",
+      "obj": {
+        "i": 25673,
+        "n": "Brightlinen Hose of Scouting",
+        "l": 385,
+        "c": 47591,
+        "t": 36,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25674",
+      "obj": {
+        "i": 25674,
+        "n": "Smilodonskin Boots of Scouting",
+        "l": 385,
+        "c": 49054,
+        "t": 38,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25676",
+      "obj": {
+        "i": 25676,
+        "n": "Brightlinen Cap of Healing",
+        "l": 385,
+        "c": 40535,
+        "t": 34,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25677",
+      "obj": {
+        "i": 25677,
+        "n": "Brightlinen Cyclas of Healing",
+        "l": 385,
+        "c": 43470,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25678",
+      "obj": {
+        "i": 25678,
+        "n": "Smilodonskin Armguards of Healing",
+        "l": 385,
+        "c": 48798,
+        "t": 37,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25679",
+      "obj": {
+        "i": 25679,
+        "n": "Brightlinen Hose of Healing",
+        "l": 385,
+        "c": 47610,
+        "t": 36,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25680",
+      "obj": {
+        "i": 25680,
+        "n": "Smilodonskin Boots of Healing",
+        "l": 385,
+        "c": 49074,
+        "t": 38,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25682",
+      "obj": {
+        "i": 25682,
+        "n": "Brightlinen Cap of Casting",
+        "l": 385,
+        "c": 40534,
+        "t": 34,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25683",
+      "obj": {
+        "i": 25683,
+        "n": "Brightlinen Cyclas of Casting",
+        "l": 385,
+        "c": 43469,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25684",
+      "obj": {
+        "i": 25684,
+        "n": "Smilodonskin Armguards of Casting",
+        "l": 385,
+        "c": 48797,
+        "t": 37,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "25685",
+      "obj": {
+        "i": 25685,
+        "n": "Brightlinen Hose of Casting",
+        "l": 385,
+        "c": 47609,
+        "t": 36,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25686",
+      "obj": {
+        "i": 25686,
+        "n": "Smilodonskin Boots of Casting",
+        "l": 385,
+        "c": 49073,
+        "t": 38,
+        "p": 21859
+      }
+    },
+    {
+      "type": "item",
+      "id": "27078",
+      "obj": {
+        "i": 27078,
+        "n": "Deepgold Cross-pein Hammer",
+        "l": 330,
+        "c": 35130,
+        "t": 14,
+        "p": 40309
+      }
+    },
+    {
+      "type": "item",
+      "id": "27085",
+      "obj": {
+        "i": 27085,
+        "n": "Deepgold Pickaxe",
+        "l": 330,
+        "c": 38034,
+        "t": 28,
+        "p": 40309
+      }
+    },
+    {
+      "type": "item",
+      "id": "27087",
+      "obj": {
+        "i": 27087,
+        "n": "White Oak Fishing Rod",
+        "l": 330,
+        "c": 38233,
+        "t": 32,
+        "p": 40309
+      }
+    },
+    {
+      "type": "item",
+      "id": "27162",
+      "obj": {
+        "i": 27162,
+        "n": "Brightlinen Doublet Vest of Crafting",
+        "l": 330,
+        "c": 42654,
+        "t": 35,
+        "p": 36950
+      }
+    },
+    {
+      "type": "item",
+      "id": "27163",
+      "obj": {
+        "i": 27163,
+        "n": "Smilodonskin Gloves of Crafting",
+        "l": 330,
+        "c": 44711,
+        "t": 37,
+        "p": 22170
+      }
+    },
+    {
+      "type": "item",
+      "id": "27164",
+      "obj": {
+        "i": 27164,
+        "n": "Brightlinen Bottoms of Crafting",
+        "l": 330,
+        "c": 47569,
+        "t": 36,
+        "p": 36950
+      }
+    },
+    {
+      "type": "item",
+      "id": "27165",
+      "obj": {
+        "i": 27165,
+        "n": "Smilodonskin Shoes of Crafting",
+        "l": 330,
+        "c": 49037,
+        "t": 38,
+        "p": 22170
+      }
+    },
+    {
+      "type": "item",
+      "id": "27167",
+      "obj": {
+        "i": 27167,
+        "n": "Brightlinen Coat of Gathering",
+        "l": 330,
+        "c": 42652,
+        "t": 35,
+        "p": 36950
+      }
+    },
+    {
+      "type": "item",
+      "id": "27168",
+      "obj": {
+        "i": 27168,
+        "n": "Smilodonskin Gloves of Gathering",
+        "l": 330,
+        "c": 44709,
+        "t": 37,
+        "p": 22170
+      }
+    },
+    {
+      "type": "item",
+      "id": "27169",
+      "obj": {
+        "i": 27169,
+        "n": "Brightlinen Bottoms of Gathering",
+        "l": 330,
+        "c": 47567,
+        "t": 36,
+        "p": 36950
+      }
+    },
+    {
+      "type": "item",
+      "id": "27170",
+      "obj": {
+        "i": 27170,
+        "n": "Smilodonskin Shoes of Gathering",
+        "l": 330,
+        "c": 49035,
+        "t": 38,
+        "p": 22170
+      }
+    },
+    {
+      "type": "item",
+      "id": "27207",
+      "obj": {
+        "i": 27207,
+        "n": "Smilodonskin Earrings",
+        "l": 330,
+        "c": 55436,
+        "t": 41,
+        "p": 16795
+      }
+    },
+    {
+      "type": "item",
+      "id": "27208",
+      "obj": {
+        "i": 27208,
+        "n": "Smilodonskin Choker",
+        "l": 330,
+        "c": 55006,
+        "t": 40,
+        "p": 16795
+      }
+    },
+    {
+      "type": "item",
+      "id": "27209",
+      "obj": {
+        "i": 27209,
+        "n": "Smilodonskin Wristband",
+        "l": 330,
+        "c": 55806,
+        "t": 42,
+        "p": 16795
+      }
+    },
+    {
+      "type": "item",
+      "id": "27210",
+      "obj": {
+        "i": 27210,
+        "n": "Smilodonskin Ring",
+        "l": 330,
+        "c": 54654,
+        "t": 43,
+        "p": 16795
+      }
+    },
+    {
+      "type": "item",
+      "id": "35763",
+      "obj": {
+        "i": 35763,
+        "n": "Deepgold Sickle",
+        "l": 395,
+        "c": 37212,
+        "t": 108,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "27942",
+      "obj": {
+        "i": 27942,
+        "n": "Cropped Summer Indigo Slops",
+        "l": 1,
+        "c": 47280,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "30981",
+      "obj": {
+        "i": 30981,
+        "n": "Rarefied White Oak Partisan",
+        "l": 395,
+        "c": 31989,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31041",
+      "obj": {
+        "i": 31041,
+        "n": "Rarefied Smilodonskin Trousers",
+        "l": 395,
+        "c": 47608,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31056",
+      "obj": {
+        "i": 31056,
+        "n": "Rarefied Brightlinen Himation",
+        "l": 395,
+        "c": 43872,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "28172",
+      "obj": {
+        "i": 28172,
+        "n": "Trader's Cottage Walls",
+        "l": 1,
+        "c": 50831,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "28173",
+      "obj": {
+        "i": 28173,
+        "n": "Trader's House Walls",
+        "l": 1,
+        "c": 50832,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "28174",
+      "obj": {
+        "i": 28174,
+        "n": "Trader's Mansion Walls",
+        "l": 1,
+        "c": 50833,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1418",
+      "obj": {
+        "i": 1418,
+        "n": "Ware and Chair",
+        "l": 70,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1419",
+      "obj": {
+        "i": 1419,
+        "n": "Girding for Glory",
+        "l": 70,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1420",
+      "obj": {
+        "i": 1420,
+        "n": "Band Substances",
+        "l": 70,
+        "j": 13,
+        "p": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "25742",
+      "obj": {
+        "i": 25742,
+        "n": "Lakeland Thighboots of Striking",
+        "l": 390,
+        "c": 49080,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "25750",
+      "obj": {
+        "i": 25750,
+        "n": "Lakeland Blinder of Scouting",
+        "l": 390,
+        "c": 40981,
+        "t": 34
+      }
+    }
+  ]
+}

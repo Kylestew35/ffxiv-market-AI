@@ -1,0 +1,118 @@
+{
+  "item": {
+    "name": "Euphotic Pirarucu",
+    "description": "A biologically engineered fish found in Azys Lla's Delta Quadrant.<br><br>[Suitable for display in aquariums tier 4 and higher.]<br>[Suitable for printing on extra large canvases.]",
+    "fish": {
+      "guide": "A variety of pirarucu specially bred by the Allagans for mass consumption. Characteristics include a natural tendency to remain near the water's surface (to allow for quick retrieval), heightened reproductivity, rapid maturation, nutrient-rich flesh, and an easily removable skeleton (for efficient deboning).",
+      "icon": 79224,
+      "weatherRestricted": 1,
+      "timeRestricted": 1,
+      "spots": [
+        {
+          "spot": 143,
+          "during": {
+            "start": 18,
+            "end": 2
+          },
+          "weather": [
+            "Clouds"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 403,
+          "baits": [
+            [
+              12711
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12803,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1378,
+    "ilvl": 180,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29224,
+    "fishingSpots": [
+      143
+    ],
+    "desynthedTo": [
+      5717,
+      5826,
+      5819
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "143",
+      "obj": {
+        "i": 143,
+        "n": "Delta Quadrant",
+        "l": 59,
+        "c": 1,
+        "z": 2101,
+        "x": 12.08,
+        "y": 31.81
+      }
+    },
+    {
+      "type": "item",
+      "id": "12711",
+      "obj": {
+        "i": 12711,
+        "n": "Brute Leech",
+        "l": 180,
+        "c": 22635,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5717",
+      "obj": {
+        "i": 5717,
+        "n": "Quickarm Materia IV",
+        "l": 70,
+        "c": 20228,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Skill Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5826",
+      "obj": {
+        "i": 5826,
+        "n": "Allagan Gold Piece",
+        "l": 35,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5819",
+      "obj": {
+        "i": 5819,
+        "n": "Green Pigment",
+        "l": 28,
+        "c": 21459,
+        "t": 55
+      }
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "item": {
+    "name": "Augmented Radiant's Bayonet",
+    "jobCategories": "GNB",
+    "id": 35185,
+    "patch": 6.05,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 600,
+    "category": 106,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1895,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 149,
+    "models": [
+      "2501-47-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 119,
+      "Magic Damage": 60,
+      "Delay": 2.8,
+      "Strength": 296,
+      "Vitality": 310,
+      "Determination": 266,
+      "Critical Hit": 186
+    },
+    "attr_max": {
+      "Strength": 799,
+      "Dexterity": 799,
+      "Vitality": 837,
+      "Intelligence": 799,
+      "Mind": 799,
+      "Piety": 718,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 718,
+      "Direct Hit Rate": 718,
+      "Critical Hit": 718,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 718,
+      "Skill Speed": 718,
+      "Spell Speed": 718,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 4323,
+      "Control": 1723,
+      "Gathering": 4079,
+      "Perception": 1166
+    },
+    "icon": 36059,
+    "sharedModels": [
+      35110
+    ],
+    "tradeShops": [
+      {
+        "shop": "Radiant's Gear Augmentation (DoW) I",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35185",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35110",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Radiant's Gear (DoW, IL 600)",
+        "npcs": [
+          1037059,
+          1037312
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35185",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 140
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "35110",
+      "obj": {
+        "i": 35110,
+        "n": "Radiant's Bayonet",
+        "l": 590,
+        "c": 36059,
+        "t": 106
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037059",
+      "obj": {
+        "i": 1037059,
+        "n": "J'lakshai",
+        "l": 3706,
+        "s": 5,
+        "q": 3,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          11.96,
+          13.3
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037312",
+      "obj": {
+        "i": 1037312,
+        "n": "Wilmetta",
+        "l": 3707,
+        "s": 5,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3874,
+        "c": [
+          10.53,
+          7.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

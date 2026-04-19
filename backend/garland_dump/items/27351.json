@@ -1,0 +1,188 @@
+{
+  "item": {
+    "name": "Shire Bayonet",
+    "jobCategories": "GNB",
+    "id": 27351,
+    "patch": 5.0,
+    "patchCategory": 0,
+    "price": 138996,
+    "ilvl": 260,
+    "category": 106,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 1390,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1270,
+    "slot": 13,
+    "elvl": 60,
+    "jobs": 149,
+    "models": [
+      "2501-5-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 78,
+      "Magic Damage": 39,
+      "Delay": 2.8,
+      "Strength": 95,
+      "Vitality": 98,
+      "Skill Speed": 94,
+      "Determination": 66
+    },
+    "attr_max": {
+      "Strength": 256,
+      "Dexterity": 256,
+      "Vitality": 264,
+      "Intelligence": 256,
+      "Mind": 256,
+      "Piety": 253,
+      "GP": 2,
+      "CP": 2,
+      "Tenacity": 253,
+      "Direct Hit Rate": 253,
+      "Critical Hit": 253,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 253,
+      "Skill Speed": 253,
+      "Spell Speed": 253,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 1406,
+      "Control": 565,
+      "Gathering": 1161,
+      "Perception": 332
+    },
+    "icon": 36023,
+    "sharedModels": [
+      27353,
+      34245
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Shire Gear Augmentation (DoW) I.",
+        "npcs": [
+          1013747
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27353",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27351",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shire Gear Augmentation (IL 270 DoW)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27353",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27351",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "27353",
+      "obj": {
+        "i": 27353,
+        "n": "Augmented Shire Bayonet",
+        "l": 270,
+        "c": 36023,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "34245",
+      "obj": {
+        "i": 34245,
+        "n": "High Durium Bayonet",
+        "l": 525,
+        "c": 36063,
+        "t": 106,
+        "p": 46551
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013747",
+      "obj": {
+        "i": 1013747,
+        "n": "Seika",
+        "l": 2082,
+        "s": 22,
+        "t": "Gear Improvement",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.74,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

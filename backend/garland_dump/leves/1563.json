@@ -1,0 +1,163 @@
+{
+  "leve": {
+    "name": "Magic Mushrooms",
+    "description": "Some say the mushrooms that grow on paradise crabs absorb aether from their host. If this holds true for corrupted aether as well, there may yet be hope in treating my dear friend.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1563,
+    "patch": 5.0,
+    "client": "Hortorium Researcher, Edendreda",
+    "lvl": 76,
+    "jobCategory": 19,
+    "levemete": 1027849,
+    "coords": [
+      21.95,
+      30.39
+    ],
+    "zoneid": 2956,
+    "areaid": 2956,
+    "xp": 2091086,
+    "gil": 2070,
+    "rewards": 730,
+    "plate": 80067,
+    "frame": 80005,
+    "areaicon": 110182,
+    "requires": [
+      {
+        "item": 27555,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 730,
+    "entries": [
+      {
+        "item": 27585,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Paradise Crab",
+      "id": 27555,
+      "icon": 28450,
+      "category": 47,
+      "ilvl": 409,
+      "price": 270,
+      "nodes": [
+        641,
+        646
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "641",
+      "obj": {
+        "i": 641,
+        "n": "Thysm Lran",
+        "l": 80,
+        "t": 5,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "646",
+      "obj": {
+        "i": 646,
+        "n": "East Longmirror Lake",
+        "l": 80,
+        "t": 5,
+        "z": 2956,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1563",
+      "obj": {
+        "i": 1563,
+        "n": "Magic Mushrooms",
+        "l": 76,
+        "j": 19,
+        "p": 2956
+      }
+    },
+    {
+      "type": "item",
+      "id": "5817",
+      "obj": {
+        "i": 5817,
+        "n": "Grey Pigment",
+        "l": 28,
+        "c": 21463,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "28062",
+      "obj": {
+        "i": 28062,
+        "n": "Nightworld Bronze Piece",
+        "l": 385,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027849",
+      "obj": {
+        "i": 1027849,
+        "n": "Shue-Hann",
+        "l": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "27585",
+      "obj": {
+        "i": 27585,
+        "n": "Marble Nymph",
+        "l": 360,
+        "c": 27038,
+        "t": 33,
+        "p": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27555",
+      "obj": {
+        "i": 27555,
+        "n": "Paradise Crab",
+        "l": 409,
+        "c": 28450,
+        "t": 47
+      }
+    }
+  ]
+}

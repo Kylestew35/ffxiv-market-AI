@@ -1,0 +1,87 @@
+{
+  "item": {
+    "name": "Kiss of the Morning Meadow",
+    "description": "When taken internally, this blend of rare forest herbs stimulates the mind, allowing for immediate recovery of MP. Conjurers serving alongside Gridania's Wood Wailers and the Gods' Quiver often use the potion in the field during battle when there is not enough time to recover naturally.",
+    "id": 4562,
+    "patch": 1.0,
+    "patchCategory": 4,
+    "price": 990,
+    "ilvl": 50,
+    "category": 44,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "attr": {
+      "action": {
+        "MP": {
+          "rate": 10,
+          "limit": 1000
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "MP": {
+          "rate": 30,
+          "limit": 550
+        }
+      }
+    },
+    "icon": 20625,
+    "tradeShops": [
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4562",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 2850
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    }
+  ]
+}

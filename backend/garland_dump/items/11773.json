@@ -1,0 +1,200 @@
+{
+  "item": {
+    "name": "Seraph Cane",
+    "jobCategories": "WHM",
+    "id": 11773,
+    "patch": 3.05,
+    "patchCategory": 0,
+    "price": 112266,
+    "ilvl": 210,
+    "category": 9,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "sell_price": 1123,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1170,
+    "slot": 13,
+    "elvl": 60,
+    "jobs": 25,
+    "models": [
+      "801-18-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 73,
+      "Magic Damage": 73,
+      "Delay": 3.44,
+      "Mind": 78,
+      "Vitality": 69,
+      "Critical Hit": 84,
+      "Piety": 59
+    },
+    "icon": 32668,
+    "sharedModels": [
+      10292,
+      13605,
+      13619,
+      13784
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Gear Repair (WHM)",
+        "npcs": [
+          1013747
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11773",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10292",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Artifact Gear Exchange (DoM, IL 210)",
+        "npcs": [
+          1012158
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11773",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 140
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10292",
+      "obj": {
+        "i": 10292,
+        "n": "Antiquated Seraph Cane",
+        "l": 200,
+        "c": 32668,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "13605",
+      "obj": {
+        "i": 13605,
+        "n": "Seraph Cane Awoken",
+        "l": 200,
+        "c": 32668,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "13619",
+      "obj": {
+        "i": 13619,
+        "n": "Animated Seraph Cane",
+        "l": 170,
+        "c": 32668,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "13784",
+      "obj": {
+        "i": 13784,
+        "n": "Seraph Cane Awoken Replica",
+        "l": 1,
+        "c": 32668,
+        "t": 9,
+        "p": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013747",
+      "obj": {
+        "i": 1013747,
+        "n": "Seika",
+        "l": 2082,
+        "s": 22,
+        "t": "Gear Improvement",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.74,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012158",
+      "obj": {
+        "i": 1012158,
+        "n": "Yolaine",
+        "l": 2300,
+        "s": 5,
+        "t": "Centurio Seal Exchange",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.06,
+          11.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

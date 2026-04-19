@@ -1,0 +1,106 @@
+{
+  "item": {
+    "name": "Multifaceted Abrasive",
+    "description": "This all-in-one abrasive, created in a collaborative effort by the Mean's various facets, can be used to both sand metals and polish them to a lustrous sheen.",
+    "id": 27718,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 2523,
+    "ilvl": 450,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21001,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27718",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27718",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "27716": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27716",
+      "obj": {
+        "i": 27716,
+        "n": "Tungsten Steel Ingot",
+        "l": 450,
+        "c": 20804,
+        "t": 49
+      }
+    }
+  ]
+}

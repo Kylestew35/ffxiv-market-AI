@@ -1,0 +1,95 @@
+{
+  "item": {
+    "name": "Pleasant Dot Parasol",
+    "description": "Should the weather prove so inclement, the skies so heavy with rain, that one is forced to rely upon a parasol, can it truly be called pleasant? (Yes. Just look at the name.) Use to acquire a pleasant dot parasol.",
+    "id": 33037,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 1000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 58009,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33037",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 25
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ornament": {
+      "name": "Pleasant Dot Parasol",
+      "id": 11,
+      "description": "Open a pleasant dot parasol.",
+      "icon": 8009,
+      "image": 67009
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    }
+  ]
+}

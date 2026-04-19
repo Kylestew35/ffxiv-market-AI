@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Piece of Mind Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Piece of Mind</span>. Use to add to your orchestrion list.",
+    "id": 17621,
+    "patch": 3.5,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 118,
+      "name": "Piece of Mind",
+      "description": "Available for black copper gil exchange at Loth ast Vath.",
+      "category": "Locales I",
+      "order": 42
+    },
+    "tradeShops": [
+      {
+        "shop": "Black Copper Gil Exchange",
+        "npcs": [
+          1016804
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17621",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21079",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    }
+  ]
+}

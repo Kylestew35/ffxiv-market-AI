@@ -1,0 +1,60 @@
+{
+  "item": {
+    "name": "A Fierce Air Forceth Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">A Fierce Air Forceth</span>. Use to add to your orchestrion list.",
+    "id": 28890,
+    "patch": 5.15,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 346,
+      "name": "A Fierce Air Forceth",
+      "description": "Available for exchange in the Wolves' Den.",
+      "category": "Others",
+      "order": 9
+    },
+    "tradeShops": [
+      {
+        "shop": "Miscellaneous",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28890",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "25",
+                "amount": 10000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "Wolf Mark",
+        "l": 55,
+        "c": 65014,
+        "t": 63
+      }
+    }
+  ]
+}

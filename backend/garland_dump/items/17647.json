@@ -1,0 +1,99 @@
+{
+  "item": {
+    "name": "Teardrops in the Rain Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Teardrops in the Rain</span>. Use to add to your orchestrion list.",
+    "id": 17647,
+    "patch": 3.5,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 144,
+      "name": "Teardrops in the Rain",
+      "description": "Available for Allagan tomestone exchange in Idyllshire and with other exchange vendors.",
+      "category": "Raids I",
+      "order": 19
+    },
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17647",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 375
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17647",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 375
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

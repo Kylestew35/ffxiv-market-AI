@@ -1,0 +1,919 @@
+{
+  "item": {
+    "name": "Ruby Cotton Cloth",
+    "description": "Several yalms of undyed ruby cotton cloth wrapped around a short wooden distaff.",
+    "id": 19977,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 4154,
+    "ilvl": 265,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21602,
+    "vendors": [
+      1022232
+    ],
+    "tradeShops": [
+      {
+        "shop": "Kojin Sango Exchange",
+        "npcs": [
+          1024219
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19977",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21081",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "18208": 2,
+      "18212": 2,
+      "18214": 2,
+      "18217": 2,
+      "18218": 2,
+      "18219": 1,
+      "18220": 2,
+      "18221": 1,
+      "18224": 3,
+      "18226": 3,
+      "18227": 1,
+      "18229": 2,
+      "18230": 2,
+      "18231": 1,
+      "18232": 2,
+      "18236": 3,
+      "18238": 3,
+      "18241": 2,
+      "18242": 3,
+      "18243": 2,
+      "18244": 3,
+      "18245": 1,
+      "18349": 1,
+      "18350": 1,
+      "18392": 1,
+      "18398": 1,
+      "19518": 1,
+      "19537": 1,
+      "19542": 1,
+      "19622": 2,
+      "19623": 3,
+      "19625": 3,
+      "19626": 1,
+      "19627": 1,
+      "19628": 1,
+      "19630": 1,
+      "19635": 1,
+      "19640": 1,
+      "17959": 1,
+      "20745": 1,
+      "24502": 1,
+      "46118": 2,
+      "22543": 2,
+      "23786": 1,
+      "23788": 1,
+      "23792": 1,
+      "23794": 1,
+      "23818": 1,
+      "23824": 1,
+      "24592": 1,
+      "31037": 1,
+      "31052": 2
+    },
+    "craft": [
+      {
+        "id": 3636,
+        "job": 13,
+        "rlvl": 265,
+        "durability": 40,
+        "quality": 2304,
+        "progress": 340,
+        "lvl": 62,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19978,
+            "amount": 3,
+            "quality": 384.0
+          },
+          {
+            "id": 12,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 37,
+          "hq": 57
+        }
+      }
+    ],
+    "requiredByLeves": [
+      1332
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Ruby Cotton Yarn",
+      "id": 19978,
+      "icon": 21656,
+      "category": 51,
+      "ilvl": 265,
+      "price": 2294,
+      "craft": [
+        {
+          "id": 3637,
+          "job": 13,
+          "rlvl": 265,
+          "durability": 40,
+          "quality": 2304,
+          "progress": 340,
+          "lvl": 62,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19979,
+              "amount": 4
+            },
+            {
+              "id": 12,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        18446,
+        16516,
+        16498,
+        16492
+      ],
+      "treasure": [
+        17835
+      ],
+      "leves": [
+        1328,
+        1329,
+        1330,
+        1331,
+        1332,
+        1333
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Ruby Cotton Boll",
+      "id": 19979,
+      "icon": 21652,
+      "category": 51,
+      "ilvl": 265,
+      "price": 2098,
+      "leves": [
+        1301,
+        1302,
+        1303
+      ],
+      "ventures": [
+        686
+      ],
+      "nodes": [
+        511
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19979",
+      "obj": {
+        "i": 19979,
+        "n": "Ruby Cotton Boll",
+        "l": 265,
+        "c": 21652,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024219",
+      "obj": {
+        "i": 1024219,
+        "n": "Shikitahe",
+        "l": 2409,
+        "s": 1,
+        "t": "Sango Exchange",
+        "r": 1,
+        "a": 2769,
+        "c": [
+          29.36,
+          16.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21081",
+      "obj": {
+        "i": 21081,
+        "n": "Kojin Sango",
+        "l": 1,
+        "c": 65058,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "18208",
+      "obj": {
+        "i": 18208,
+        "n": "Gyuki Leather Trousers of Fending",
+        "l": 265,
+        "c": 47323,
+        "t": 36,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18212",
+      "obj": {
+        "i": 18212,
+        "n": "High Steel Mail of Maiming",
+        "l": 265,
+        "c": 43365,
+        "t": 35,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18214",
+      "obj": {
+        "i": 18214,
+        "n": "Gyuki Leather Trousers of Maiming",
+        "l": 265,
+        "c": 47325,
+        "t": 36,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18217",
+      "obj": {
+        "i": 18217,
+        "n": "Ruby Cotton Bandana of Striking",
+        "l": 265,
+        "c": 41709,
+        "t": 34,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18218",
+      "obj": {
+        "i": 18218,
+        "n": "Ruby Cotton Gilet of Striking",
+        "l": 265,
+        "c": 42568,
+        "t": 35,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18219",
+      "obj": {
+        "i": 18219,
+        "n": "Gyuki Leather Halfgloves of Striking",
+        "l": 265,
+        "c": 44583,
+        "t": 37,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18220",
+      "obj": {
+        "i": 18220,
+        "n": "Ruby Cotton Gaskins of Striking",
+        "l": 265,
+        "c": 47327,
+        "t": 36,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18221",
+      "obj": {
+        "i": 18221,
+        "n": "Gyuki Leather Highboots of Striking",
+        "l": 265,
+        "c": 46769,
+        "t": 38,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18224",
+      "obj": {
+        "i": 18224,
+        "n": "Ruby Cotton Gambison",
+        "l": 265,
+        "c": 42567,
+        "t": 35,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18226",
+      "obj": {
+        "i": 18226,
+        "n": "Ruby Cotton Sarouel",
+        "l": 265,
+        "c": 47326,
+        "t": 36,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18227",
+      "obj": {
+        "i": 18227,
+        "n": "Gyuki Leather Boots of Aiming",
+        "l": 265,
+        "c": 46768,
+        "t": 38,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18229",
+      "obj": {
+        "i": 18229,
+        "n": "Ruby Cotton Bandana of Scouting",
+        "l": 265,
+        "c": 41710,
+        "t": 34,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18230",
+      "obj": {
+        "i": 18230,
+        "n": "Ruby Cotton Gilet of Scouting",
+        "l": 265,
+        "c": 42569,
+        "t": 35,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18231",
+      "obj": {
+        "i": 18231,
+        "n": "Gyuki Leather Halfgloves of Scouting",
+        "l": 265,
+        "c": 44584,
+        "t": 37,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18232",
+      "obj": {
+        "i": 18232,
+        "n": "Ruby Cotton Gaskins of Scouting",
+        "l": 265,
+        "c": 47328,
+        "t": 36,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18236",
+      "obj": {
+        "i": 18236,
+        "n": "Ruby Cotton Chasuble",
+        "l": 265,
+        "c": 43804,
+        "t": 35,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18238",
+      "obj": {
+        "i": 18238,
+        "n": "Ruby Cotton Smalls",
+        "l": 265,
+        "c": 47324,
+        "t": 36,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18241",
+      "obj": {
+        "i": 18241,
+        "n": "Ruby Cotton Hat of Casting",
+        "l": 265,
+        "c": 41375,
+        "t": 34,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18242",
+      "obj": {
+        "i": 18242,
+        "n": "Ruby Cotton Robe of Casting",
+        "l": 265,
+        "c": 43803,
+        "t": 35,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18243",
+      "obj": {
+        "i": 18243,
+        "n": "Ruby Cotton Fingerless Gloves of Casting",
+        "l": 265,
+        "c": 44580,
+        "t": 37,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18244",
+      "obj": {
+        "i": 18244,
+        "n": "Ruby Cotton Longkilt",
+        "l": 265,
+        "c": 47322,
+        "t": 36,
+        "p": 34630
+      }
+    },
+    {
+      "type": "item",
+      "id": "18245",
+      "obj": {
+        "i": 18245,
+        "n": "Gyuki Leather Pattens",
+        "l": 265,
+        "c": 46766,
+        "t": 38,
+        "p": 20778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18349",
+      "obj": {
+        "i": 18349,
+        "n": "Pine Composite Bow",
+        "l": 273,
+        "c": 32328,
+        "t": 4,
+        "p": 38916
+      }
+    },
+    {
+      "type": "item",
+      "id": "18350",
+      "obj": {
+        "i": 18350,
+        "n": "Doman Iron Daggers",
+        "l": 273,
+        "c": 33916,
+        "t": 84,
+        "p": 38916
+      }
+    },
+    {
+      "type": "item",
+      "id": "18392",
+      "obj": {
+        "i": 18392,
+        "n": "Kudzu Robe of Healing",
+        "l": 273,
+        "c": 43809,
+        "t": 35,
+        "p": 35673
+      }
+    },
+    {
+      "type": "item",
+      "id": "18398",
+      "obj": {
+        "i": 18398,
+        "n": "Kudzu Robe of Casting",
+        "l": 273,
+        "c": 43808,
+        "t": 35,
+        "p": 35673
+      }
+    },
+    {
+      "type": "item",
+      "id": "19518",
+      "obj": {
+        "i": 19518,
+        "n": "High Steel File",
+        "l": 200,
+        "c": 35160,
+        "t": 15,
+        "p": 28512
+      }
+    },
+    {
+      "type": "item",
+      "id": "19537",
+      "obj": {
+        "i": 19537,
+        "n": "Pine Fishing Rod",
+        "l": 220,
+        "c": 38226,
+        "t": 32,
+        "p": 31363
+      }
+    },
+    {
+      "type": "item",
+      "id": "19542",
+      "obj": {
+        "i": 19542,
+        "n": "Doman Iron Awl",
+        "l": 230,
+        "c": 35452,
+        "t": 21,
+        "p": 32788
+      }
+    },
+    {
+      "type": "item",
+      "id": "19622",
+      "obj": {
+        "i": 19622,
+        "n": "Ruby Cotton Cap",
+        "l": 200,
+        "c": 41718,
+        "t": 34,
+        "p": 15681
+      }
+    },
+    {
+      "type": "item",
+      "id": "19623",
+      "obj": {
+        "i": 19623,
+        "n": "Ruby Cotton Coatee",
+        "l": 200,
+        "c": 43810,
+        "t": 35,
+        "p": 26136
+      }
+    },
+    {
+      "type": "item",
+      "id": "19625",
+      "obj": {
+        "i": 19625,
+        "n": "Ruby Cotton Bottoms",
+        "l": 200,
+        "c": 45976,
+        "t": 36,
+        "p": 26136
+      }
+    },
+    {
+      "type": "item",
+      "id": "19626",
+      "obj": {
+        "i": 19626,
+        "n": "Gyuki Leather Shoes",
+        "l": 200,
+        "c": 46758,
+        "t": 38,
+        "p": 15681
+      }
+    },
+    {
+      "type": "item",
+      "id": "19627",
+      "obj": {
+        "i": 19627,
+        "n": "Gyuki Leather Hat",
+        "l": 200,
+        "c": 41379,
+        "t": 34,
+        "p": 15681
+      }
+    },
+    {
+      "type": "item",
+      "id": "19628",
+      "obj": {
+        "i": 19628,
+        "n": "Gyuki Leather Jacket",
+        "l": 200,
+        "c": 42575,
+        "t": 35,
+        "p": 26136
+      }
+    },
+    {
+      "type": "item",
+      "id": "19630",
+      "obj": {
+        "i": 19630,
+        "n": "Gyuki Leather Chaps",
+        "l": 200,
+        "c": 47344,
+        "t": 36,
+        "p": 26136
+      }
+    },
+    {
+      "type": "item",
+      "id": "19635",
+      "obj": {
+        "i": 19635,
+        "n": "Kudzu Culottes of Crafting",
+        "l": 220,
+        "c": 45973,
+        "t": 36,
+        "p": 28749
+      }
+    },
+    {
+      "type": "item",
+      "id": "19640",
+      "obj": {
+        "i": 19640,
+        "n": "Kudzu Culottes of Gathering",
+        "l": 220,
+        "c": 45972,
+        "t": 36,
+        "p": 28749
+      }
+    },
+    {
+      "type": "item",
+      "id": "17959",
+      "obj": {
+        "i": 17959,
+        "n": "Oriental Dressing Case",
+        "l": 276,
+        "c": 53147,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "19978",
+      "obj": {
+        "i": 19978,
+        "n": "Ruby Cotton Yarn",
+        "l": 265,
+        "c": 21656,
+        "t": 51,
+        "p": 2294
+      }
+    },
+    {
+      "type": "item",
+      "id": "20745",
+      "obj": {
+        "i": 20745,
+        "n": "Kimono Hanger",
+        "l": 260,
+        "c": 53183,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "24502",
+      "obj": {
+        "i": 24502,
+        "n": "Bag of Booty",
+        "l": 273,
+        "c": 53273,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "46118",
+      "obj": {
+        "i": 46118,
+        "n": "Far Eastern Odder Otter Seater",
+        "l": 690,
+        "c": 53533,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "22543",
+      "obj": {
+        "i": 22543,
+        "n": "Sewing Baskets",
+        "l": 1,
+        "c": 53218,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "23786",
+      "obj": {
+        "i": 23786,
+        "n": "Rakshasa Kote of Fending",
+        "l": 380,
+        "c": 48732,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "23788",
+      "obj": {
+        "i": 23788,
+        "n": "Rakshasa Sune-ate of Fending",
+        "l": 380,
+        "c": 47168,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "23792",
+      "obj": {
+        "i": 23792,
+        "n": "Rakshasa Kote of Maiming",
+        "l": 380,
+        "c": 48733,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "23794",
+      "obj": {
+        "i": 23794,
+        "n": "Rakshasa Sune-ate of Maiming",
+        "l": 380,
+        "c": 47169,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "23818",
+      "obj": {
+        "i": 23818,
+        "n": "Rakshasa Zori of Healing",
+        "l": 380,
+        "c": 49873,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "23824",
+      "obj": {
+        "i": 23824,
+        "n": "Rakshasa Zori of Casting",
+        "l": 380,
+        "c": 49872,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "24592",
+      "obj": {
+        "i": 24592,
+        "n": "Raincoat",
+        "l": 1,
+        "c": 43859,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31037",
+      "obj": {
+        "i": 31037,
+        "n": "Rarefied Gyuki Leather Jacket",
+        "l": 273,
+        "c": 42575,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31052",
+      "obj": {
+        "i": 31052,
+        "n": "Rarefied Ruby Cotton Gilet",
+        "l": 273,
+        "c": 42569,
+        "t": 61
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1332",
+      "obj": {
+        "i": 1332,
+        "n": "Skills on Display",
+        "l": 62,
+        "j": 14,
+        "p": 2404
+      }
+    }
+  ]
+}

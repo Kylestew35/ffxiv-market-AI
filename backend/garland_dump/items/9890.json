@@ -1,0 +1,70 @@
+{
+  "item": {
+    "name": "Chocobo Training Manual - Level Head IV",
+    "description": "A comprehensive manual detailing chocobo training methods developed by experts across the realm. Use to teach your race chocobo the trait <span class=\"highlight-yellow\">Level Head IV</span>.<br><br><span class=\"highlight-green\">Ability Effect:</span> Increases chances of resisting Frenzied status to 90%.",
+    "id": 9890,
+    "patch": 2.51,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26154,
+    "tradeShops": [
+      {
+        "shop": "Chocobo Training Manuals I",
+        "npcs": [
+          1010488
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9890",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 1610
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010488",
+      "obj": {
+        "i": 1010488,
+        "n": "Tack & Feed Trader",
+        "l": 1484,
+        "s": 4,
+        "r": 1,
+        "a": 1501,
+        "c": [
+          5.97,
+          4.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

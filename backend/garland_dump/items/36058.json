@@ -1,0 +1,1508 @@
+{
+  "item": {
+    "name": "The Noodles of Elpis",
+    "description": "A creamy, cheesy pasta dish topped off with a decadent bird of Elpis egg.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36058,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 545,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 61
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 66
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 37
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 76
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 82
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 46
+        }
+      }
+    },
+    "icon": 24019,
+    "craft": [
+      {
+        "id": 5273,
+        "job": 15,
+        "rlvl": 550,
+        "durability": 80,
+        "quality": 7000,
+        "progress": 3300,
+        "lvl": 88,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12908,
+            "amount": 1,
+            "quality": 190.09584
+          },
+          {
+            "id": 36254,
+            "amount": 1
+          },
+          {
+            "id": 36256,
+            "amount": 1
+          },
+          {
+            "id": 36081,
+            "amount": 1,
+            "quality": 745.008
+          },
+          {
+            "id": 27827,
+            "amount": 2
+          },
+          {
+            "id": 4852,
+            "amount": 1,
+            "quality": 8.386581
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 638,
+          "hq": 658
+        }
+      }
+    ],
+    "quests": [
+      69846
+    ],
+    "requiredByLeves": [
+      1646
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Vermicelli",
+      "id": 12908,
+      "icon": 25058,
+      "category": 45,
+      "ilvl": 136,
+      "price": 861,
+      "craft": [
+        {
+          "id": 2823,
+          "job": 15,
+          "rlvl": 139,
+          "durability": 35,
+          "quality": 1936,
+          "progress": 210,
+          "lvl": 56,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12881,
+              "amount": 3,
+              "quality": 192.73055
+            },
+            {
+              "id": 12631,
+              "amount": 1
+            },
+            {
+              "id": 12901,
+              "amount": 1
+            },
+            {
+              "id": 2,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 315,
+            "hq": 335
+          }
+        }
+      ]
+    },
+    {
+      "name": "Highland Flour",
+      "id": 12881,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 133,
+      "price": 842,
+      "craft": [
+        {
+          "id": 2817,
+          "job": 15,
+          "rlvl": 125,
+          "durability": 40,
+          "quality": 1712,
+          "progress": 130,
+          "lvl": 52,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12880,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Highland Wheat",
+      "id": 12880,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        466
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Dravanian Spring Water",
+      "id": 12631,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 130,
+      "price": 823,
+      "desynthedFrom": [
+        21928,
+        20263,
+        23102,
+        12750,
+        17545
+      ],
+      "ventures": [
+        449
+      ],
+      "nodes": [
+        287
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    },
+    {
+      "name": "Yakow Chuck",
+      "id": 36254,
+      "icon": 25159,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36254",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1639
+      ],
+      "ventures": [
+        940
+      ]
+    },
+    {
+      "name": "Egg of Elpis",
+      "id": 36256,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36256",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1644,
+        1645
+      ],
+      "ventures": [
+        945
+      ]
+    },
+    {
+      "name": "Garlean Cheese",
+      "id": 36081,
+      "icon": 24458,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5286,
+          "job": 15,
+          "rlvl": 530,
+          "durability": 40,
+          "quality": 6600,
+          "progress": 1450,
+          "lvl": 84,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36255,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 148,
+            "hq": 168
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ovibos Milk",
+      "id": 36255,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36255",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        939
+      ]
+    },
+    {
+      "name": "Night Pepper",
+      "id": 27827,
+      "icon": 25007,
+      "category": 45,
+      "ilvl": 385,
+      "price": 630,
+      "leves": [
+        1472,
+        1473,
+        1474
+      ],
+      "ventures": [
+        818
+      ],
+      "nodes": [
+        611
+      ]
+    },
+    {
+      "name": "Sweet Cream",
+      "id": 4852,
+      "icon": 25056,
+      "category": 45,
+      "ilvl": 6,
+      "price": 4,
+      "craft": [
+        {
+          "id": 912,
+          "job": 15,
+          "rlvl": 6,
+          "durability": 40,
+          "quality": 136,
+          "progress": 18,
+          "lvl": 6,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 4753,
+              "amount": 1
+            },
+            {
+              "id": 2,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 21,
+            "hq": 41
+          }
+        }
+      ]
+    },
+    {
+      "name": "Buffalo Milk",
+      "id": 4753,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 3,
+      "price": 4,
+      "vendors": [
+        1003249,
+        1000236,
+        1001204,
+        1001966,
+        1004423,
+        1011201,
+        1018984,
+        1019333,
+        1027992,
+        1008837,
+        1008838,
+        1008839,
+        1008840,
+        1008841,
+        1008842,
+        1008843,
+        1008844,
+        1008845,
+        1008846,
+        1013117,
+        1013118,
+        1018662,
+        1018663,
+        1018664,
+        1018665,
+        1018666,
+        1018667,
+        1018668,
+        1018669,
+        1018670,
+        1018671,
+        1018672,
+        1018673,
+        1024548,
+        1024549,
+        1024550,
+        1024551,
+        1024552,
+        1024553,
+        1024554,
+        1024555,
+        1024556,
+        1024557,
+        1024558,
+        1024559,
+        1025039,
+        1025043,
+        1025717,
+        1026169,
+        1027015,
+        1045242,
+        1045256,
+        1056020,
+        1056024
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "12881",
+      "obj": {
+        "i": 12881,
+        "n": "Highland Flour",
+        "l": 133,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12631",
+      "obj": {
+        "i": 12631,
+        "n": "Dravanian Spring Water",
+        "l": 130,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "item",
+      "id": "12880",
+      "obj": {
+        "i": 12880,
+        "n": "Highland Wheat",
+        "l": 130,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "287",
+      "obj": {
+        "i": 287,
+        "n": "The Smoldering Wastes",
+        "l": 55,
+        "t": 0,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "611",
+      "obj": {
+        "i": 611,
+        "n": "Snitch",
+        "l": 70,
+        "t": 3,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "4753",
+      "obj": {
+        "i": 4753,
+        "n": "Buffalo Milk",
+        "l": 3,
+        "c": 24453,
+        "t": 45,
+        "p": 4
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003249",
+      "obj": {
+        "i": 1003249,
+        "n": "Jossy",
+        "l": 28,
+        "s": 1,
+        "t": "Guild Supplier",
+        "a": 709,
+        "c": [
+          9.99,
+          7.95
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000236",
+      "obj": {
+        "i": 1000236,
+        "n": "O'rhoyod",
+        "l": 53,
+        "s": 1,
+        "t": "Tradecraft Supplier",
+        "a": 564,
+        "c": [
+          14.42,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001204",
+      "obj": {
+        "i": 1001204,
+        "n": "Engerrand",
+        "l": 29,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Supplier",
+        "a": 744,
+        "c": [
+          8.66,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001966",
+      "obj": {
+        "i": 1001966,
+        "n": "Fridurih",
+        "l": 41,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Merchant",
+        "a": 646,
+        "c": [
+          13.79,
+          9.57
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004423",
+      "obj": {
+        "i": 1004423,
+        "n": "Alehouse Wench",
+        "l": 43,
+        "s": 1,
+        "c": [
+          "19.5",
+          "20.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017646",
+      "obj": {
+        "i": 1017646,
+        "n": "The Iceman",
+        "l": 32,
+        "s": 1,
+        "t": "Moonfire Faire Vendor",
+        "a": 206,
+        "c": [
+          31.64,
+          29.18
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008837",
+      "obj": {
+        "i": 1008837,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008838",
+      "obj": {
+        "i": 1008838,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008839",
+      "obj": {
+        "i": 1008839,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008840",
+      "obj": {
+        "i": 1008840,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008841",
+      "obj": {
+        "i": 1008841,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008842",
+      "obj": {
+        "i": 1008842,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008843",
+      "obj": {
+        "i": 1008843,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008844",
+      "obj": {
+        "i": 1008844,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008845",
+      "obj": {
+        "i": 1008845,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008846",
+      "obj": {
+        "i": 1008846,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013117",
+      "obj": {
+        "i": 1013117,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013118",
+      "obj": {
+        "i": 1013118,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018662",
+      "obj": {
+        "i": 1018662,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018663",
+      "obj": {
+        "i": 1018663,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018664",
+      "obj": {
+        "i": 1018664,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018665",
+      "obj": {
+        "i": 1018665,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018666",
+      "obj": {
+        "i": 1018666,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018667",
+      "obj": {
+        "i": 1018667,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018668",
+      "obj": {
+        "i": 1018668,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018669",
+      "obj": {
+        "i": 1018669,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018670",
+      "obj": {
+        "i": 1018670,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018671",
+      "obj": {
+        "i": 1018671,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018672",
+      "obj": {
+        "i": 1018672,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018673",
+      "obj": {
+        "i": 1018673,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024548",
+      "obj": {
+        "i": 1024548,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024549",
+      "obj": {
+        "i": 1024549,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024550",
+      "obj": {
+        "i": 1024550,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024551",
+      "obj": {
+        "i": 1024551,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024552",
+      "obj": {
+        "i": 1024552,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024553",
+      "obj": {
+        "i": 1024553,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024554",
+      "obj": {
+        "i": 1024554,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024555",
+      "obj": {
+        "i": 1024555,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024556",
+      "obj": {
+        "i": 1024556,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024557",
+      "obj": {
+        "i": 1024557,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024558",
+      "obj": {
+        "i": 1024558,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024559",
+      "obj": {
+        "i": 1024559,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025039",
+      "obj": {
+        "i": 1025039,
+        "n": "Allagan Resupply Node",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025043",
+      "obj": {
+        "i": 1025043,
+        "n": "Ananta Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025717",
+      "obj": {
+        "i": 1025717,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026169",
+      "obj": {
+        "i": 1026169,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027015",
+      "obj": {
+        "i": 1027015,
+        "n": "Kojin Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045242",
+      "obj": {
+        "i": 1045242,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045256",
+      "obj": {
+        "i": 1045256,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056020",
+      "obj": {
+        "i": 1056020,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056024",
+      "obj": {
+        "i": 1056024,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "12908",
+      "obj": {
+        "i": 12908,
+        "n": "Vermicelli",
+        "l": 136,
+        "c": 25058,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36254",
+      "obj": {
+        "i": 36254,
+        "n": "Yakow Chuck",
+        "l": 520,
+        "c": 25159,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36256",
+      "obj": {
+        "i": 36256,
+        "n": "Egg of Elpis",
+        "l": 539,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36081",
+      "obj": {
+        "i": 36081,
+        "n": "Garlean Cheese",
+        "l": 533,
+        "c": 24458,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27827",
+      "obj": {
+        "i": 27827,
+        "n": "Night Pepper",
+        "l": 385,
+        "c": 25007,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4852",
+      "obj": {
+        "i": 4852,
+        "n": "Sweet Cream",
+        "l": 6,
+        "c": 25056,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69846",
+      "obj": {
+        "i": 69846,
+        "n": "Very Familiar Carrots",
+        "g": 145,
+        "l": "Elpis",
+        "s": 6140
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1646",
+      "obj": {
+        "i": 1646,
+        "n": "Blast from the Pasta",
+        "l": 88,
+        "j": 16,
+        "p": 3706
+      }
+    }
+  ]
+}

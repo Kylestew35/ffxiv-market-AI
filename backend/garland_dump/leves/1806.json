@@ -1,0 +1,147 @@
+{
+  "leve": {
+    "name": "Fish Tacos",
+    "description": "Our tacos are delicious no matter their filling, but fish makes for an exquisite flavor indeed. The whitefish that fries up fluffiest can be caught in <span class=\"highlight\">northwest Yyasulani</span>, which is a little far to travel every day, but not too far for a dedicated fisher like you, yes?<br><span class=\"highlight\">Requires: Fishing Tackle</span>",
+    "id": 1806,
+    "patch": 7.0,
+    "client": "Owner of Aunt Tii's Tacos, Tiisol Ja",
+    "lvl": 98,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      24.98,
+      -12.9
+    ],
+    "zoneid": 4509,
+    "areaid": 4509,
+    "xp": 7606049,
+    "gil": 2660,
+    "rewards": 810,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110195,
+    "requires": [
+      {
+        "item": 43769,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 90,
+      "hq": 105
+    }
+  },
+  "rewards": {
+    "id": 810,
+    "entries": [
+      {
+        "item": 21072,
+        "rate": 0.5
+      },
+      {
+        "item": 43850,
+        "rate": 0.25,
+        "amount": 3
+      },
+      {
+        "item": 43852,
+        "rate": 0.25,
+        "amount": 3
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Moon Croppie",
+      "id": 43769,
+      "icon": 28618,
+      "category": 47,
+      "ilvl": 680,
+      "price": 99999,
+      "fishingSpots": [
+        324
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "324",
+      "obj": {
+        "i": 324,
+        "n": "The Driftdowns",
+        "l": 97,
+        "c": 1,
+        "z": 4509,
+        "x": 13.11,
+        "y": 17.38
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1806",
+      "obj": {
+        "i": 1806,
+        "n": "Fish Tacos",
+        "l": 98,
+        "j": 19,
+        "p": 4509
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43850",
+      "obj": {
+        "i": 43850,
+        "n": "Crimson Lugworm",
+        "l": 620,
+        "c": 27103,
+        "t": 33,
+        "p": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "43852",
+      "obj": {
+        "i": 43852,
+        "n": "Honeybee",
+        "l": 655,
+        "c": 27105,
+        "t": 33,
+        "p": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43769",
+      "obj": {
+        "i": 43769,
+        "n": "Moon Croppie",
+        "l": 680,
+        "c": 28618,
+        "t": 47
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "item": {
+    "name": "Horde Shield",
+    "jobCategories": "GLA PLD",
+    "id": 15316,
+    "patch": 3.3,
+    "patchCategory": 0,
+    "price": 41877,
+    "ilvl": 235,
+    "category": 11,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 419,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "sockets": 1,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1220,
+    "slot": 2,
+    "elvl": 60,
+    "jobs": 38,
+    "models": [
+      "101-55-1-0"
+    ],
+    "attr": {
+      "Block Strength": 400,
+      "Block Rate": 400,
+      "Strength": 25,
+      "Vitality": 25,
+      "Tenacity": 25,
+      "Critical Hit": 18
+    },
+    "attr_max": {
+      "Strength": 67,
+      "Dexterity": 67,
+      "Vitality": 68,
+      "Intelligence": 67,
+      "Mind": 67,
+      "Piety": 68,
+      "GP": 2,
+      "CP": 2,
+      "Tenacity": 68,
+      "Direct Hit Rate": 68,
+      "Critical Hit": 68,
+      "Fire Resistance": 20,
+      "Ice Resistance": 20,
+      "Wind Resistance": 20,
+      "Earth Resistance": 20,
+      "Lightning Resistance": 20,
+      "Water Resistance": 20,
+      "Determination": 68,
+      "Skill Speed": 68,
+      "Spell Speed": 68,
+      "Craftsmanship": 1310,
+      "Control": 527,
+      "Gathering": 642,
+      "Perception": 562
+    },
+    "icon": 30139,
+    "instances": [
+      20040
+    ],
+    "sharedModels": [
+      24335
+    ],
+    "tradeShops": [
+      {
+        "shop": "Primal Gear II",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15316",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15421",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal Gear (IL 175-265)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15303",
+                "amount": 1
+              },
+              {
+                "id": "15316",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15421",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "desynthedTo": [
+      15653
+    ],
+    "treasure": [
+      38492,
+      36144
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20040",
+      "obj": {
+        "i": 20040,
+        "n": "The Minstrel's Ballad: Nidhogg's Rage",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 220
+      }
+    },
+    {
+      "type": "item",
+      "id": "24335",
+      "obj": {
+        "i": 24335,
+        "n": "Seeing Horde Shield",
+        "l": 180,
+        "c": 30139,
+        "t": 11
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1015578",
+      "obj": {
+        "i": 1015578,
+        "n": "Bertana",
+        "l": 2082,
+        "s": 6,
+        "t": "Primal Gear Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.86,
+          5.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15421",
+      "obj": {
+        "i": 15421,
+        "n": "Horde Totem",
+        "l": 1,
+        "c": 21002,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "15303",
+      "obj": {
+        "i": 15303,
+        "n": "Horde Blade",
+        "l": 235,
+        "c": 30546,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "15653",
+      "obj": {
+        "i": 15653,
+        "n": "Nidhogg's Scale",
+        "l": 220,
+        "c": 22262,
+        "t": 53
+      }
+    },
+    {
+      "type": "item",
+      "id": "38492",
+      "obj": {
+        "i": 38492,
+        "n": "Paladin's Horde Arms (IL 235)",
+        "l": 1,
+        "c": 26634,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36144",
+      "obj": {
+        "i": 36144,
+        "n": "Horde Weapon Coffer (IL 235)",
+        "l": 1,
+        "c": 26557,
+        "t": 61
+      }
+    }
+  ]
+}

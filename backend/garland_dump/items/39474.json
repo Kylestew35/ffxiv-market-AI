@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Corgi",
+    "description": "Fluffy, full of beans, and fit for a queen.<br><br>Use item to acquire the corgi minion.",
+    "minionrace": "Critter",
+    "tooltip": "As if I would trail along\r\nbehind you...like some\r\nsniveling lapdog...\r\n   - Nero tol Scaeva",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Sit!",
+    "specialactiondescription": "Reduces DEF of all enemies within range by 50%.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 39474,
+    "patch": 6.3,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59867,
+    "tradeShops": [
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39474",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 30,
+    "skill_angle": 30,
+    "strengths": [
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 600,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 50,
+      "Speed": 3
+    },
+    "models": [
+      "8424-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    }
+  ]
+}

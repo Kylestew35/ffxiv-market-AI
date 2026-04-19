@@ -1,0 +1,638 @@
+{
+  "item": {
+    "name": "Amynodon Leather",
+    "description": "A large piece of cured amynodon hide.",
+    "id": 36252,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22009,
+    "ingredient_of": {
+      "35030": 3,
+      "35031": 3,
+      "35043": 2,
+      "35044": 1,
+      "35048": 2,
+      "35049": 2,
+      "35053": 2,
+      "35054": 2,
+      "35056": 3,
+      "35058": 2,
+      "35059": 2,
+      "35060": 1,
+      "35062": 1,
+      "35063": 2,
+      "35064": 1,
+      "35068": 2,
+      "35069": 2,
+      "35070": 1,
+      "35072": 2,
+      "35073": 2,
+      "35074": 2,
+      "35080": 1,
+      "35081": 1,
+      "35082": 1,
+      "35083": 1,
+      "35084": 1,
+      "36710": 2,
+      "36712": 2,
+      "36715": 2,
+      "36716": 3,
+      "36717": 2,
+      "36849": 1,
+      "38440": 1
+    },
+    "craft": [
+      {
+        "id": 34895,
+        "job": 12,
+        "rlvl": 580,
+        "durability": 35,
+        "quality": 7800,
+        "progress": 2925,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35622,
+        "ingredients": [
+          {
+            "id": 36222,
+            "amount": 2
+          },
+          {
+            "id": 36216,
+            "amount": 4
+          },
+          {
+            "id": 17,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 516,
+          "hq": 536
+        }
+      }
+    ],
+    "desynthedFrom": [
+      38976,
+      35064,
+      35138
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Amynodon Hide",
+      "id": 36222,
+      "icon": 21811,
+      "category": 52,
+      "ilvl": 580,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36222",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36222",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rime Dolomite",
+      "id": 36216,
+      "icon": 21225,
+      "category": 48,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        966
+      ],
+      "nodes": [
+        834
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "834",
+      "obj": {
+        "i": 834,
+        "n": "Juturna Platform G",
+        "l": 90,
+        "t": 0,
+        "z": 3710,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35030",
+      "obj": {
+        "i": 35030,
+        "n": "Classical Index",
+        "l": 580,
+        "c": 33348,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "35031",
+      "obj": {
+        "i": 35031,
+        "n": "Classical Codex",
+        "l": 580,
+        "c": 33347,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "35043",
+      "obj": {
+        "i": 35043,
+        "n": "Classical Hoplomachus's Loincloth",
+        "l": 580,
+        "c": 46045,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35044",
+      "obj": {
+        "i": 35044,
+        "n": "Classical Hoplomachus's Greaves",
+        "l": 580,
+        "c": 49375,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35048",
+      "obj": {
+        "i": 35048,
+        "n": "Classical Eques's Loincloth",
+        "l": 580,
+        "c": 46047,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35049",
+      "obj": {
+        "i": 35049,
+        "n": "Classical Eques's Caligae",
+        "l": 580,
+        "c": 49377,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35053",
+      "obj": {
+        "i": 35053,
+        "n": "Classical Secutor's Loincloth",
+        "l": 580,
+        "c": 46048,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35054",
+      "obj": {
+        "i": 35054,
+        "n": "Classical Secutor's Caligae",
+        "l": 580,
+        "c": 49379,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35056",
+      "obj": {
+        "i": 35056,
+        "n": "Classical Sagittarius's Chiton",
+        "l": 580,
+        "c": 42792,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35058",
+      "obj": {
+        "i": 35058,
+        "n": "Classical Sagittarius's Loincloth",
+        "l": 580,
+        "c": 46049,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35059",
+      "obj": {
+        "i": 35059,
+        "n": "Classical Sagittarius's Caligae",
+        "l": 580,
+        "c": 49378,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35060",
+      "obj": {
+        "i": 35060,
+        "n": "Classical Dimachaerius's Mask",
+        "l": 580,
+        "c": 41882,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35062",
+      "obj": {
+        "i": 35062,
+        "n": "Classical Dimachaerius's Manicae",
+        "l": 580,
+        "c": 44904,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35063",
+      "obj": {
+        "i": 35063,
+        "n": "Classical Dimachaerius's Loincloth",
+        "l": 580,
+        "c": 46050,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35064",
+      "obj": {
+        "i": 35064,
+        "n": "Classical Dimachaerius's Caligae",
+        "l": 580,
+        "c": 49380,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35068",
+      "obj": {
+        "i": 35068,
+        "n": "Classical Medicus's Loincloth",
+        "l": 580,
+        "c": 46046,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35069",
+      "obj": {
+        "i": 35069,
+        "n": "Classical Medicus's Caligae",
+        "l": 580,
+        "c": 49376,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35070",
+      "obj": {
+        "i": 35070,
+        "n": "Classical Signifer's Horns",
+        "l": 580,
+        "c": 41877,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35072",
+      "obj": {
+        "i": 35072,
+        "n": "Classical Signifer's Fingerless Gloves",
+        "l": 580,
+        "c": 44900,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35073",
+      "obj": {
+        "i": 35073,
+        "n": "Classical Signifer's Culottes",
+        "l": 580,
+        "c": 46044,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35074",
+      "obj": {
+        "i": 35074,
+        "n": "Classical Signifer's Caligae",
+        "l": 580,
+        "c": 49374,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35080",
+      "obj": {
+        "i": 35080,
+        "n": "Classical Choker of Fending",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35081",
+      "obj": {
+        "i": 35081,
+        "n": "Classical Choker of Slaying",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35082",
+      "obj": {
+        "i": 35082,
+        "n": "Classical Choker of Aiming",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35083",
+      "obj": {
+        "i": 35083,
+        "n": "Classical Choker of Healing",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35084",
+      "obj": {
+        "i": 35084,
+        "n": "Classical Choker of Casting",
+        "l": 580,
+        "c": 55035,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "35622",
+      "obj": {
+        "i": 35622,
+        "n": "Master Leatherworker IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36222",
+      "obj": {
+        "i": 36222,
+        "n": "Amynodon Hide",
+        "l": 580,
+        "c": 21811,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "36216",
+      "obj": {
+        "i": 36216,
+        "n": "Rime Dolomite",
+        "l": 580,
+        "c": 21225,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36710",
+      "obj": {
+        "i": 36710,
+        "n": "Pactmaker's Halfgloves of Crafting",
+        "l": 590,
+        "c": 56008,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "36712",
+      "obj": {
+        "i": 36712,
+        "n": "Pactmaker's Pumps of Crafting",
+        "l": 590,
+        "c": 49491,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "36715",
+      "obj": {
+        "i": 36715,
+        "n": "Pactmaker's Gloves of Gathering",
+        "l": 590,
+        "c": 56009,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "36716",
+      "obj": {
+        "i": 36716,
+        "n": "Pactmaker's Breeches of Gathering",
+        "l": 590,
+        "c": 47894,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "36717",
+      "obj": {
+        "i": 36717,
+        "n": "Pactmaker's Boots of Gathering",
+        "l": 590,
+        "c": 49492,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "36849",
+      "obj": {
+        "i": 36849,
+        "n": "Bluefeather Barding",
+        "l": 1,
+        "c": 58761,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "38440",
+      "obj": {
+        "i": 38440,
+        "n": "Windswept Barding",
+        "l": 1,
+        "c": 58770,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "38976",
+      "obj": {
+        "i": 38976,
+        "n": "Manalis Greaves of Aiming",
+        "l": 605,
+        "c": 49561,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35138",
+      "obj": {
+        "i": 35138,
+        "n": "Radiant's Hose of Scouting",
+        "l": 590,
+        "c": 46083,
+        "t": 36
+      }
+    }
+  ]
+}

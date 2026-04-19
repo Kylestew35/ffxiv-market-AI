@@ -1,0 +1,383 @@
+{
+  "item": {
+    "name": "Asphodelos Mythos III",
+    "description": "A record of truths and somewhat exaggerated stories surrounding the creatures kept in Asphodelos.<br><br>Copies of the same <span class=\"emphasis\">Asphodelos Mythos</span> volumes can be traded for special gear.",
+    "id": 35825,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26452,
+    "instances": [
+      30110,
+      30110
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Asphodelos Mythos Exchange (DoW) I",
+        "npcs": [
+          1037303,
+          1039555
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35268",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35273",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35278",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Asphodelos Mythos Exchange (DoW) II",
+        "npcs": [
+          1037303,
+          1039555
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35283",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35288",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Asphodelos Mythos Exchange (DoM)",
+        "npcs": [
+          1037303,
+          1039555
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35293",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35298",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Asphodelos Gear (IL 600-605)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35268",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35273",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35278",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35288",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35283",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35298",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "35293",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35825",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30110",
+      "obj": {
+        "i": 30110,
+        "n": "Asphodelos: The Third Circle (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 580
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037303",
+      "obj": {
+        "i": 1037303,
+        "n": "Djole",
+        "l": 3707,
+        "s": 18,
+        "t": "Pandæmonium Relic Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.34,
+          9.72
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039555",
+      "obj": {
+        "i": 1039555,
+        "n": "Mylenie",
+        "l": 3708,
+        "s": 18,
+        "t": "Pandæmonium Relic Exchange",
+        "r": 1,
+        "a": 3852,
+        "c": [
+          8.38,
+          27.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35268",
+      "obj": {
+        "i": 35268,
+        "n": "Asphodelos Skirt of Fending",
+        "l": 600,
+        "c": 46088,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35273",
+      "obj": {
+        "i": 35273,
+        "n": "Asphodelos Breeches of Maiming",
+        "l": 600,
+        "c": 46089,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35278",
+      "obj": {
+        "i": 35278,
+        "n": "Asphodelos Breeches of Striking",
+        "l": 600,
+        "c": 46090,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35283",
+      "obj": {
+        "i": 35283,
+        "n": "Asphodelos Hose of Aiming",
+        "l": 600,
+        "c": 46091,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35288",
+      "obj": {
+        "i": 35288,
+        "n": "Asphodelos Hose of Scouting",
+        "l": 600,
+        "c": 46092,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35293",
+      "obj": {
+        "i": 35293,
+        "n": "Asphodelos Trousers of Healing",
+        "l": 600,
+        "c": 46087,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35298",
+      "obj": {
+        "i": 35298,
+        "n": "Asphodelos Trousers of Casting",
+        "l": 600,
+        "c": 46086,
+        "t": 36
+      }
+    }
+  ]
+}

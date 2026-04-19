@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Queen's Rest",
+    "description": "A monument fashioned in the likeness of the holy blade Save the Queen, as sealed in its binding stone.",
+    "id": 33254,
+    "patch": 5.55,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "sell_price": 30,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53389,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33254",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1026"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    }
+  ]
+}

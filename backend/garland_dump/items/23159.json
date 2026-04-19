@@ -1,0 +1,52 @@
+{
+  "item": {
+    "name": "Raw Harpoon Materials",
+    "description": "Assorted materials needed to create the various components of a harpoon.",
+    "id": 23159,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 125,
+    "ilvl": 265,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25978,
+    "vendors": [
+      1019175
+    ],
+    "ingredient_of": {
+      "23154": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019175",
+      "obj": {
+        "i": 1019175,
+        "n": "Blue Merchant",
+        "l": 2409,
+        "s": 7,
+        "c": [
+          "27.9",
+          "17.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23154",
+      "obj": {
+        "i": 23154,
+        "n": "Harpoon Components",
+        "l": 265,
+        "c": 21003,
+        "t": 61,
+        "p": 250
+      }
+    }
+  ]
+}

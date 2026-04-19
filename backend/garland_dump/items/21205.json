@@ -1,0 +1,85 @@
+{
+  "item": {
+    "name": "Hannish Wool",
+    "description": "An improved variety of Thavnairian wool conceived by the Radz–at–Han Weavers' Guild.",
+    "id": 21205,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 12,
+    "ilvl": 1,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21608,
+    "ingredient_of": {
+      "21204": 3
+    },
+    "instances": [
+      55002,
+      55003
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      23224
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "21204",
+      "obj": {
+        "i": 21204,
+        "n": "Hannish Wool Autumn Shirt",
+        "l": 1,
+        "c": 42583,
+        "t": 35
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55002",
+      "obj": {
+        "i": 55002,
+        "n": "The Lost Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55003",
+      "obj": {
+        "i": 55003,
+        "n": "The Hidden Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "item",
+      "id": "23224",
+      "obj": {
+        "i": 23224,
+        "n": "Gold-haloed Sack",
+        "l": 1,
+        "c": 25991,
+        "t": 61
+      }
+    }
+  ]
+}

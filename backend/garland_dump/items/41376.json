@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Aloalo Island Framer's Kit",
+    "description": "Tools for enhancing a portrait. Use to unlock embellishments fit for an explorer of Aloalo Island.<br>Includes Portrait Elements: Background, Frame, Accent<br>Includes Plate Elements: Pattern, Portrait Frame",
+    "id": 41376,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26625,
+    "tradeShops": [
+      {
+        "shop": "Aloalo Coin Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41376",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41079",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41079",
+      "obj": {
+        "i": 41079,
+        "n": "Aloalo Coin",
+        "l": 1,
+        "c": "t/65105",
+        "t": 100
+      }
+    }
+  ]
+}

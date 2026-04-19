@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Wind-up Kefka",
+    "description": "Just can't believe it? Believe it!<br><br>Use item to acquire the wind-up Kefka minion.",
+    "minionrace": "Monster",
+    "tooltip": "Now, if you'll excuse me,\r\nI have an appointment\r\nwith Kefka!\r\n   - Locke Cole",
+    "minionskilltype": "Special",
+    "specialactionname": "Forsaken",
+    "specialactiondescription": "Reduces minion summoning recast time by 50%.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 21912,
+    "patch": 4.2,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59681,
+    "instances": [
+      30062,
+      30066,
+      30062,
+      30066
+    ],
+    "cost": 30,
+    "skill_angle": 0,
+    "strengths": [
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 600,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 70,
+      "Speed": 1
+    },
+    "models": [
+      "8254-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30062",
+      "obj": {
+        "i": 30062,
+        "n": "Sigmascape V4.0",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 325
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30066",
+      "obj": {
+        "i": 30066,
+        "n": "Sigmascape V4.0 (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 350
+      }
+    }
+  ]
+}

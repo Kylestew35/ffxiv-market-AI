@@ -1,0 +1,198 @@
+{
+  "item": {
+    "name": "Skybuilders' Tea",
+    "description": "As is tradition with tea brewed for builders, it contains enough sugar to make the spoon stand on end.",
+    "id": 28748,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 24408,
+    "craft": [
+      {
+        "id": 33596,
+        "job": 15,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 28779,
+            "amount": 6
+          },
+          {
+            "id": 28780,
+            "amount": 6
+          },
+          {
+            "id": 12888,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 296,
+          "hq": 316
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Skybuilders' Tea Leaves",
+      "id": 28779,
+      "icon": 25020,
+      "category": 45,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        664
+      ]
+    },
+    {
+      "name": "Skybuilders' Dravanian Spring Water",
+      "id": 28780,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        669
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "664",
+      "obj": {
+        "i": 664,
+        "n": "The Rosehouse",
+        "l": 55,
+        "t": 3,
+        "z": 2100
+      }
+    },
+    {
+      "type": "node",
+      "id": "669",
+      "obj": {
+        "i": 669,
+        "n": "The Hundred Throes",
+        "l": 55,
+        "t": 0,
+        "z": 2000
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "28779",
+      "obj": {
+        "i": 28779,
+        "n": "Skybuilders' Tea Leaves",
+        "l": 150,
+        "c": 25020,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "28780",
+      "obj": {
+        "i": 28780,
+        "n": "Skybuilders' Dravanian Spring Water",
+        "l": 150,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    }
+  ]
+}

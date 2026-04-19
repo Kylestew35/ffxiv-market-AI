@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Wind-up Sun",
+    "description": "With this minion, the sun will never go down on you. /poke to adjust elevation.<br><br>Use item to acquire the wind-up sun minion.",
+    "minionrace": "Gadget",
+    "tooltip": "We find the pages of our\r\nmemories are blank, as if\r\nbleached by the sun.\r\n  - Kan-E-Senna",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Sunbathe",
+    "specialactiondescription": "Increases action party DEF by 40.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 7560,
+    "patch": 2.2,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59465,
+    "tradeShops": [
+      {
+        "shop": "Gimme an Elixir",
+        "npcs": [
+          1006998
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7560",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "4559",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 440,
+      "Skill Cost": 20,
+      "Attack": 35,
+      "Defense": 50,
+      "Speed": 3
+    },
+    "models": [
+      "8057-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006998",
+      "obj": {
+        "i": 1006998,
+        "n": "Magic Pot",
+        "l": 33,
+        "s": 1,
+        "r": 1,
+        "a": 173,
+        "c": [
+          12.08,
+          36.84
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4559",
+      "obj": {
+        "i": 4559,
+        "n": "Elixir",
+        "l": 50,
+        "c": 20624,
+        "t": 44
+      }
+    }
+  ]
+}

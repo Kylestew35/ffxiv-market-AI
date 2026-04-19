@@ -1,0 +1,170 @@
+{
+  "item": {
+    "name": "Orthos Partisan",
+    "jobCategories": "LNC DRG",
+    "id": 39187,
+    "patch": 6.35,
+    "patchCategory": 0,
+    "price": 2,
+    "ilvl": 620,
+    "category": 5,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 2,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 47,
+    "models": [
+      "501-120-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 123,
+      "Magic Damage": 62,
+      "Delay": 2.8,
+      "Strength": 330,
+      "Vitality": 353,
+      "Critical Hit": 277,
+      "Determination": 194
+    },
+    "attr_max": {
+      "Dexterity": 297,
+      "Intelligence": 297,
+      "Mind": 297,
+      "Piety": 250,
+      "GP": 9,
+      "CP": 7,
+      "Tenacity": 277,
+      "Direct Hit Rate": 277,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Determination": 277,
+      "Skill Speed": 277,
+      "Spell Speed": 277,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 1421,
+      "Control": 750,
+      "Gathering": 1444,
+      "Perception": 825
+    },
+    "icon": 31637,
+    "sharedModels": [
+      39207
+    ],
+    "tradeShops": [
+      {
+        "shop": "DEEP_DUNGEON_WEAPON_SHOP",
+        "npcs": [
+          1044503
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39187",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38943",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "DEEP_DUNGEON_WEAPON_SHOP",
+        "npcs": [
+          1044503
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39207",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39187",
+                "amount": 1
+              },
+              {
+                "id": "38943",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "39207",
+      "obj": {
+        "i": 39207,
+        "n": "Enaretos Partisan",
+        "l": 625,
+        "c": 31638,
+        "t": 5
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1044503",
+      "obj": {
+        "i": 1044503,
+        "n": "Synthesis Node",
+        "l": 67,
+        "s": 3,
+        "r": 1,
+        "a": 420,
+        "c": [
+          34.95,
+          19.09
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38943",
+      "obj": {
+        "i": 38943,
+        "n": "Orthos Aetherpool Grip",
+        "l": 1,
+        "c": 26535,
+        "t": 61
+      }
+    }
+  ]
+}

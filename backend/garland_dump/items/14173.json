@@ -1,0 +1,557 @@
+{
+  "item": {
+    "name": "Grade 3 Vitality Dissolvent",
+    "description": "When applied to items such as battle gear, this alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to vitality, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 14173,
+    "patch": 3.4,
+    "patchCategory": 5,
+    "price": 3575,
+    "ilvl": 210,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 21,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20672,
+    "craft": [
+      {
+        "id": 31492,
+        "job": 14,
+        "rlvl": 250,
+        "durability": 70,
+        "quality": 3800,
+        "progress": 1000,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 955,
+        "craftsmanshipReq": 995,
+        "quickSynthCraftsmanship": 1100,
+        "unlockId": 14132,
+        "ingredients": [
+          {
+            "id": 16732,
+            "amount": 2
+          },
+          {
+            "id": 16726,
+            "amount": 3
+          },
+          {
+            "id": 12577,
+            "amount": 1
+          },
+          {
+            "id": 12636,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 546,
+          "hq": 566
+        }
+      }
+    ],
+    "ingredient_of": {
+      "16641": 2,
+      "16642": 3,
+      "16643": 2,
+      "16644": 3,
+      "16645": 2,
+      "16683": 1,
+      "16688": 1,
+      "16693": 1,
+      "16698": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Goblinol",
+      "id": 16732,
+      "icon": 22660,
+      "category": 54,
+      "ilvl": 250,
+      "price": 4257,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1012228
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "16732",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Sky Pirate Spoils (Brass)",
+          "npcs": [
+            1016261,
+            1016496,
+            1016498,
+            1016500,
+            1019106
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "16732",
+                  "amount": 2
+                }
+              ],
+              "currency": [
+                {
+                  "id": "13630",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "16732",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zeolite Ore",
+      "id": 16726,
+      "icon": 21210,
+      "category": 48,
+      "ilvl": 250,
+      "price": 1485,
+      "ventures": [
+        645
+      ],
+      "nodes": [
+        290
+      ]
+    },
+    {
+      "name": "Griffin Talon",
+      "id": 12577,
+      "icon": 22302,
+      "category": 53,
+      "ilvl": 148,
+      "price": 1640,
+      "ventures": [
+        442
+      ],
+      "drops": [
+        48830000004404,
+        40480000003526
+      ]
+    },
+    {
+      "name": "Wyvern Wing",
+      "id": 12636,
+      "icon": 21957,
+      "category": 54,
+      "ilvl": 130,
+      "price": 823,
+      "desynthedFrom": [
+        12769
+      ],
+      "leves": [
+        1070,
+        1071,
+        1072,
+        1073,
+        1074,
+        1075
+      ],
+      "ventures": [
+        426
+      ],
+      "drops": [
+        7320000004054,
+        46310000003628,
+        7320000003576
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13630",
+      "obj": {
+        "i": 13630,
+        "n": "Brass Sky Pirate Spoil",
+        "l": 1,
+        "c": 25950,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "290",
+      "obj": {
+        "i": 290,
+        "n": "The Ruling Quarter",
+        "l": 60,
+        "t": 1,
+        "z": 2001,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "40480000003526",
+      "obj": {
+        "i": 40480000003526,
+        "n": "Griffin",
+        "l": "59",
+        "z": 2100
+      }
+    },
+    {
+      "type": "mob",
+      "id": "48830000004404",
+      "obj": {
+        "i": 48830000004404,
+        "n": "Akhekhu",
+        "l": "59",
+        "z": 2100
+      }
+    },
+    {
+      "type": "mob",
+      "id": "7320000003576",
+      "obj": {
+        "i": 7320000003576,
+        "n": "Dravanian Wyvern",
+        "l": "53",
+        "z": 2000
+      }
+    },
+    {
+      "type": "mob",
+      "id": "46310000003628",
+      "obj": {
+        "i": 46310000003628,
+        "n": "Elder Wyvern",
+        "l": "55",
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "7320000004054",
+      "obj": {
+        "i": 7320000004054,
+        "n": "Vengeful Wyvern",
+        "l": "56",
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "14132",
+      "obj": {
+        "i": 14132,
+        "n": "Master Alchemist IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "16732",
+      "obj": {
+        "i": 16732,
+        "n": "Goblinol",
+        "l": 250,
+        "c": 22660,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "16726",
+      "obj": {
+        "i": 16726,
+        "n": "Zeolite Ore",
+        "l": 250,
+        "c": 21210,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12577",
+      "obj": {
+        "i": 12577,
+        "n": "Griffin Talon",
+        "l": 148,
+        "c": 22302,
+        "t": 53
+      }
+    },
+    {
+      "type": "item",
+      "id": "12636",
+      "obj": {
+        "i": 12636,
+        "n": "Wyvern Wing",
+        "l": 130,
+        "c": 21957,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "16641",
+      "obj": {
+        "i": 16641,
+        "n": "Heavy Metal Coif of Fending",
+        "l": 250,
+        "c": 40239,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16642",
+      "obj": {
+        "i": 16642,
+        "n": "Heavy Metal Cuirass of Fending",
+        "l": 250,
+        "c": 48109,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "16643",
+      "obj": {
+        "i": 16643,
+        "n": "Heavy Metal Gauntlets of Fending",
+        "l": 250,
+        "c": 48558,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "16644",
+      "obj": {
+        "i": 16644,
+        "n": "Hemiskin Brais of Fending",
+        "l": 250,
+        "c": 45816,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "16645",
+      "obj": {
+        "i": 16645,
+        "n": "Heavy Metal Sabatons of Fending",
+        "l": 250,
+        "c": 47058,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "16683",
+      "obj": {
+        "i": 16683,
+        "n": "Scintillant Earring of Fending",
+        "l": 250,
+        "c": 55376,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "16688",
+      "obj": {
+        "i": 16688,
+        "n": "Teak Choker of Fending",
+        "l": 250,
+        "c": 54952,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "16693",
+      "obj": {
+        "i": 16693,
+        "n": "Teak Bracelet of Fending",
+        "l": 250,
+        "c": 55753,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "16698",
+      "obj": {
+        "i": 16698,
+        "n": "Scintillant Ring of Fending",
+        "l": 250,
+        "c": 54603,
+        "t": 43
+      }
+    }
+  ]
+}

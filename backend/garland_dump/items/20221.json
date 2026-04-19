@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Dusk Herald",
+    "description": "The dusk herald is a fair-sized fish commonly found in the One River.<br><br>[Suitable for display in aquariums tier 2 and higher.]<br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "Looming larger than her dawn relative, the dusk herald benights the waters with silver-blue scales of twilight in devout service to Nhaama.",
+      "icon": 79501,
+      "spots": [
+        {
+          "node": 475,
+          "gig": [
+            "Normal Gig Head"
+          ],
+          "ff14anglerId": 715
+        },
+        {
+          "node": 482,
+          "gig": [
+            "Normal Gig Head"
+          ],
+          "ff14anglerId": 715
+        }
+      ]
+    },
+    "id": 20221,
+    "patch": 4.0,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 275,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29501,
+    "nodes": [
+      475,
+      482
+    ],
+    "desynthedTo": [
+      5824,
+      5814,
+      5677
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "475",
+      "obj": {
+        "i": 475,
+        "n": "Azim Khaat Western Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2411
+      }
+    },
+    {
+      "type": "node",
+      "id": "482",
+      "obj": {
+        "i": 482,
+        "n": "Azim Khaat Southern Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2411,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5814",
+      "obj": {
+        "i": 5814,
+        "n": "Blue Pigment",
+        "l": 28,
+        "c": 21457,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5677",
+      "obj": {
+        "i": 5677,
+        "n": "Savage Might Materia IV",
+        "l": 70,
+        "c": 20224,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

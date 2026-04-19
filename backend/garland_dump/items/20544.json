@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Wind-up Khloe",
+    "description": "Because there is nothing wrong with a fully automated mechanical reconstruction of a young girl of three and ten summers.<br><br>Use item to acquire the wind-up Khloe minion.",
+    "minionrace": "Poppet",
+    "tooltip": "This will make Khloe's\r\nbest friend so happy!\r\n   - Khloe Aliapoh",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Wondrous Tale",
+    "specialactiondescription": "Grants 10 action points to all allies within range who do not have similar actions.",
+    "id": 20544,
+    "patch": 4.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59660,
+    "tradeShops": [
+      {
+        "shop": "Bronze Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20544",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26823",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 520,
+      "Skill Cost": 20,
+      "Attack": 25,
+      "Defense": 40,
+      "Speed": 3
+    },
+    "models": [
+      "8233-1-1"
+    ],
+    "treasure": [
+      36636
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26823",
+      "obj": {
+        "i": 26823,
+        "n": "Khloe's Bronze Certificate of Commendation",
+        "l": 1,
+        "c": 26186,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    }
+  ]
+}

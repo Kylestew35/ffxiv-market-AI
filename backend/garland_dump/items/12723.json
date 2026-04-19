@@ -1,0 +1,195 @@
+{
+  "item": {
+    "name": "Starflower",
+    "description": "A flower-like mollusk found floating about the Sea of Clouds.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Another of the Sea of Clouds' strange creatures, the starflower uses the thin blue membrane covering its body as both a sail and parachute, allowing for extended periods of wingless flight.",
+      "icon": 79715,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 137,
+          "weather": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 323,
+          "baits": [
+            [
+              12708
+            ]
+          ]
+        },
+        {
+          "spot": 139,
+          "weather": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 323,
+          "baits": [
+            [
+              12708
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12723,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1140,
+    "ilvl": 120,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29715,
+    "vendors": [
+      1016093
+    ],
+    "tradeShops": [
+      {
+        "shop": "Vanu Whitebone Exchange",
+        "npcs": [
+          1016093
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12723",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21074",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fishingSpots": [
+      137,
+      139
+    ],
+    "desynthedTo": [
+      5814,
+      5527,
+      5825
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "137",
+      "obj": {
+        "i": 137,
+        "n": "Cloudtop",
+        "l": 53,
+        "c": 4,
+        "z": 2100,
+        "x": 15.08,
+        "y": 38.59
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "139",
+      "obj": {
+        "i": 139,
+        "n": "Mok Oogl Island",
+        "l": 56,
+        "c": 4,
+        "z": 2100,
+        "x": 15.33,
+        "y": 5.64
+      }
+    },
+    {
+      "type": "item",
+      "id": "12708",
+      "obj": {
+        "i": 12708,
+        "n": "Red Balloon",
+        "l": 130,
+        "c": 27025,
+        "t": 33,
+        "p": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "5814",
+      "obj": {
+        "i": 5814,
+        "n": "Blue Pigment",
+        "l": 28,
+        "c": 21457,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5527",
+      "obj": {
+        "i": 5527,
+        "n": "Brimstone",
+        "l": 28,
+        "c": 22613,
+        "t": 54,
+        "p": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "5825",
+      "obj": {
+        "i": 5825,
+        "n": "Allagan Silver Piece",
+        "l": 25,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

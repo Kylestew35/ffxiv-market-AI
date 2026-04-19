@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Tropaios Spear",
+    "jobCategories": "DRG",
+    "id": 36966,
+    "patch": 6.1,
+    "patchCategory": 0,
+    "price": 2,
+    "ilvl": 1,
+    "category": 5,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 1,
+    "jobs": 23,
+    "models": [
+      "501-112-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 9,
+      "Magic Damage": 5,
+      "Delay": 2.8
+    },
+    "icon": 31628,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (DoW Weapons)",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36966",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 3000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

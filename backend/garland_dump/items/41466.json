@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Statice's Wings",
+    "description": "For those who have indulged their mischievous side and now long for something <span class=\"emphasis\">stronger</span>. Use to acquire a pair of Statice's wings.",
+    "id": 41466,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 58034,
+    "tradeShops": [
+      {
+        "shop": "Aloalo Potsherd Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41466",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41078",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ornament": {
+      "name": "Statice's Wings",
+      "id": 36,
+      "description": "Spread trickery, deceit, and a graceful pair of fae wings.",
+      "icon": 8034,
+      "image": 67034
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41078",
+      "obj": {
+        "i": 41078,
+        "n": "Aloalo Potsherd",
+        "l": 1,
+        "c": 26648,
+        "t": 61
+      }
+    }
+  ]
+}

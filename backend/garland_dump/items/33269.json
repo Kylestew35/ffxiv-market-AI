@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Mushroom Lamp",
+    "description": "Grown from a ball of moss, this luminescent mushroom gives off a gentle light.",
+    "id": 33269,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 90,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53400,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027665
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33269",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "875"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "item": {
+    "name": "Piennolo Tomato",
+    "description": "A juicy, thick-skinned tomato brimming with essential minerals.",
+    "id": 38274,
+    "patch": 6.2,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 610,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25209,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38274",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38274",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "38267": 1,
+      "38268": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "38267",
+      "obj": {
+        "i": 38267,
+        "n": "Piennolo Tomato Salad",
+        "l": 610,
+        "c": 24166,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "38268",
+      "obj": {
+        "i": 38268,
+        "n": "Garlean Pizza",
+        "l": 610,
+        "c": 24034,
+        "t": 46
+      }
+    }
+  ]
+}

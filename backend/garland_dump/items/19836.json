@@ -1,0 +1,554 @@
+{
+  "item": {
+    "name": "Pork Stew",
+    "description": "This Far Eastern take on a campsite mainstay features thinly sliced pork belly and various root vegetables in a piping hot miso-based soup.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19836,
+    "patch": 4.05,
+    "patchCategory": 6,
+    "price": 2268,
+    "ilvl": 320,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Tenacity": {
+          "rate": 8,
+          "limit": 37
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Tenacity": {
+          "rate": 10,
+          "limit": 46
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 48
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 28
+        }
+      }
+    },
+    "icon": 24120,
+    "craft": [
+      {
+        "id": 32419,
+        "job": 15,
+        "rlvl": 320,
+        "durability": 70,
+        "quality": 4800,
+        "progress": 1200,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1220,
+        "craftsmanshipReq": 1320,
+        "quickSynthCraftsmanship": 1500,
+        "unlockId": 17876,
+        "ingredients": [
+          {
+            "id": 19876,
+            "amount": 1
+          },
+          {
+            "id": 4864,
+            "amount": 1
+          },
+          {
+            "id": 12907,
+            "amount": 1
+          },
+          {
+            "id": 19855,
+            "amount": 1
+          },
+          {
+            "id": 19858,
+            "amount": 1
+          },
+          {
+            "id": 20013,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 382,
+          "hq": 402
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Koshu Pork",
+      "id": 19876,
+      "icon": 24362,
+      "category": 45,
+      "ilvl": 320,
+      "price": 567,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "19876",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "19876",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fish Stock",
+      "id": 4864,
+      "icon": 25055,
+      "category": 45,
+      "ilvl": 9,
+      "price": 86,
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Oriental Miso Paste",
+      "id": 12907,
+      "icon": 27605,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12907",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12907",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Daikon Radish",
+      "id": 19855,
+      "icon": 25215,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        694
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Gyr Abanian Carrot",
+      "id": 19858,
+      "icon": 25207,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        695
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Dusklight Aethersand",
+      "id": 20013,
+      "icon": 21219,
+      "category": 54,
+      "ilvl": 279,
+      "price": 546,
+      "reducedFrom": [
+        20012,
+        33153,
+        20180
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017613",
+      "obj": {
+        "i": 1017613,
+        "n": "Recompense Officer",
+        "l": 53,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017614",
+      "obj": {
+        "i": 1017614,
+        "n": "Recompense Officer",
+        "l": 28,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "11.2",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017615",
+      "obj": {
+        "i": 1017615,
+        "n": "Recompense Officer",
+        "l": 41,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4680",
+      "obj": {
+        "i": 4680,
+        "n": "Zoni",
+        "l": 9,
+        "c": 24113,
+        "t": 46,
+        "p": 16
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20012",
+      "obj": {
+        "i": 20012,
+        "n": "Doman Yellow",
+        "l": 279,
+        "c": 27407,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "33153",
+      "obj": {
+        "i": 33153,
+        "n": "Rhodolite",
+        "l": 300,
+        "c": 21474,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20180",
+      "obj": {
+        "i": 20180,
+        "n": "False Scad",
+        "l": 225,
+        "c": 29135,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "17876",
+      "obj": {
+        "i": 17876,
+        "n": "Master Culinarian V",
+        "l": 1,
+        "c": 26158,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19876",
+      "obj": {
+        "i": 19876,
+        "n": "Koshu Pork",
+        "l": 320,
+        "c": 24362,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4864",
+      "obj": {
+        "i": 4864,
+        "n": "Fish Stock",
+        "l": 9,
+        "c": 25055,
+        "t": 45,
+        "p": 86
+      }
+    },
+    {
+      "type": "item",
+      "id": "12907",
+      "obj": {
+        "i": 12907,
+        "n": "Oriental Miso Paste",
+        "l": 136,
+        "c": 27605,
+        "t": 45,
+        "p": 430
+      }
+    },
+    {
+      "type": "item",
+      "id": "19855",
+      "obj": {
+        "i": 19855,
+        "n": "Daikon Radish",
+        "l": 279,
+        "c": 25215,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19858",
+      "obj": {
+        "i": 19858,
+        "n": "Gyr Abanian Carrot",
+        "l": 279,
+        "c": 25207,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "20013",
+      "obj": {
+        "i": 20013,
+        "n": "Dusklight Aethersand",
+        "l": 279,
+        "c": 21219,
+        "t": 54
+      }
+    }
+  ]
+}

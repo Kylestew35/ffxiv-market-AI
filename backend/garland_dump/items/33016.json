@@ -1,0 +1,108 @@
+{
+  "item": {
+    "name": "Trinity Seeker Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 298",
+    "id": 33016,
+    "patch": 5.41,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33016",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "An amalgamation of three members of Gunnhildr's Blades─Aggie the Ironfist, Velibor the Baleful, and Blaz the Merciful. Originally enthralled at the behest of Misija, these once-proud comrades of the Verdant Path are now all but unrecognizable, their bodies twisted and fused into an unspeakable abomination."
+      },
+      "ja": {
+        "description": "闘神セイブ・ザ・クイーンのテンパードと化した「グンヒルドの剣」たちの成れの果て。元は翠の一門に属する熱拳のアギー、豪剣のヴェリボル、鋭刃のブラズの3名であったものと思われるが、今や肉体が変異・融合してしまっている。"
+      },
+      "de": {
+        "description": "Eine monströse Chimäre, geformt aus drei einst stolzen Kriegern der Königinnenwache: Braz der Dolch, Velibor Edelklinge und Aggie Feuerfaust, die allerdings kaum noch zu erkennen sind."
+      },
+      "fr": {
+        "description": "Cette créature est née de la fusion entre trois nouvelles lames de Gunnhildr subjuguées par la divinité guerrière Garde-la-Reine. Les trois disciples de la Voie verdoyante, Blaz la lame rédemptrice, Velibor le sabre singulier et Aggie les poings de feu, forment désormais une seule entité, à l'apparence monstrueuse et difforme."
+      },
+      "sellMgp": 500,
+      "plate": 87307,
+      "rarity": 3,
+      "top": 6,
+      "bottom": 8,
+      "left": 7,
+      "right": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    }
+  ]
+}

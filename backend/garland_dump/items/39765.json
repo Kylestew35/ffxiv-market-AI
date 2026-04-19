@@ -1,0 +1,98 @@
+{
+  "item": {
+    "name": "Select Dark Chestnut Lumber",
+    "description": "A length of processed dark chestnut lumber, selected for its quality by a Boutique of Splendors procurer.",
+    "id": 39765,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 620,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 40,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22469,
+    "tradeShops": [
+      {
+        "shop": "Crafters' Scrip Exchange",
+        "npcs": [
+          1045069
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39765",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "39773": 1,
+      "39781": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1045069",
+      "obj": {
+        "i": 1045069,
+        "n": "Quinnana",
+        "l": 2951,
+        "s": 3,
+        "t": "Splendorous Tool Exchange",
+        "r": 1,
+        "a": 3252,
+        "c": [
+          10.44,
+          7.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "39773",
+      "obj": {
+        "i": 39773,
+        "n": "Connoisseur's Picture Frame",
+        "l": 620,
+        "c": 51350,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "39781",
+      "obj": {
+        "i": 39781,
+        "n": "Connoisseur's Bookshelf",
+        "l": 625,
+        "c": 52417,
+        "t": 61
+      }
+    }
+  ]
+}

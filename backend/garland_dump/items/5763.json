@@ -1,0 +1,88 @@
+{
+  "item": {
+    "name": "Ul Brown Dye",
+    "description": "A labor-saving brown dye, used for coloring anything from cloth to metal.",
+    "id": 5763,
+    "patch": 2.2,
+    "patchCategory": 8,
+    "price": 216,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22806,
+    "vendors": [
+      1008909
+    ],
+    "tradeShops": [
+      {
+        "shop": "Titan Cobaltpiece Exchange",
+        "npcs": [
+          1008909
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5763",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21078",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67389
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67389",
+      "obj": {
+        "i": 67389,
+        "n": "A Rocky Start",
+        "g": 120,
+        "l": "The Churning Mists",
+        "s": 5519
+      }
+    }
+  ]
+}

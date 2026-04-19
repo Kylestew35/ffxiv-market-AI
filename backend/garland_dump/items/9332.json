@@ -1,0 +1,837 @@
+{
+  "item": {
+    "name": "Flint Caviar",
+    "description": "Salted eggs of the rare emperor fish. Often referred to as black diamonds, the eggs are a delicacy that can only be afforded by the wealthiest of connoisseurs.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 9332,
+    "patch": 2.4,
+    "patchCategory": 6,
+    "price": 871,
+    "ilvl": 110,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 26
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 22
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 14
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 33
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 28
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 17
+        }
+      }
+    },
+    "icon": 24259,
+    "craft": [
+      {
+        "id": 30866,
+        "job": 15,
+        "rlvl": 110,
+        "durability": 80,
+        "quality": 2900,
+        "progress": 480,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 407,
+        "craftsmanshipReq": 451,
+        "quickSynthCraftsmanship": 620,
+        "unlockId": 9343,
+        "ingredients": [
+          {
+            "id": 9366,
+            "amount": 1
+          },
+          {
+            "id": 5025,
+            "amount": 1
+          },
+          {
+            "id": 6153,
+            "amount": 1
+          },
+          {
+            "id": 6152,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 363,
+          "hq": 383
+        }
+      }
+    ],
+    "quests": [
+      67113,
+      67517
+    ],
+    "desynthedFrom": [
+      20215
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Borax",
+      "id": 9366,
+      "icon": 21206,
+      "category": 54,
+      "ilvl": 110,
+      "price": 2395,
+      "desynthedFrom": [
+        8770
+      ],
+      "tradeShops": [
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9366",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9366",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9366",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emperor Fish",
+      "id": 5025,
+      "icon": 29225,
+      "category": 47,
+      "ilvl": 55,
+      "price": 522,
+      "fishingSpots": [
+        28
+      ]
+    },
+    {
+      "name": "Filtered Water",
+      "id": 6153,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 20
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "name": "Volcanic Rock Salt",
+      "id": 6152,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6152",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        511
+      ],
+      "nodes": [
+        224
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "The Nail",
+        "l": 40,
+        "c": 1,
+        "z": 63,
+        "x": 15.63,
+        "y": 21.4
+      }
+    },
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "224",
+      "obj": {
+        "i": 224,
+        "n": "Raincatcher Gully",
+        "l": 50,
+        "t": 1,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "9343",
+      "obj": {
+        "i": 9343,
+        "n": "Master Culinarian II",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "9366",
+      "obj": {
+        "i": 9366,
+        "n": "Borax",
+        "l": 110,
+        "c": 21206,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5025",
+      "obj": {
+        "i": 5025,
+        "n": "Emperor Fish",
+        "l": 55,
+        "c": 29225,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "6153",
+      "obj": {
+        "i": 6153,
+        "n": "Filtered Water",
+        "l": 70,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "6152",
+      "obj": {
+        "i": 6152,
+        "n": "Volcanic Rock Salt",
+        "l": 70,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67113",
+      "obj": {
+        "i": 67113,
+        "n": "Duel Personalities",
+        "g": 93,
+        "l": "Limsa Lominsa",
+        "s": 13
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67517",
+      "obj": {
+        "i": 67517,
+        "n": "General Protection Fault",
+        "g": 122,
+        "l": "Azys Lla",
+        "s": 5903
+      }
+    },
+    {
+      "type": "item",
+      "id": "20215",
+      "obj": {
+        "i": 20215,
+        "n": "White Sturgeon",
+        "l": 260,
+        "c": 29913,
+        "t": 47
+      }
+    }
+  ]
+}

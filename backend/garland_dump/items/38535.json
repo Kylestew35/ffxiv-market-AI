@@ -1,0 +1,335 @@
+{
+  "item": {
+    "name": "Sil'dihn Manuscript",
+    "description": "A miraculously undampened record concerning the Sil'dihn sultanate. Surely someone collects these...",
+    "id": 38535,
+    "patch": 6.25,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26454,
+    "tradeCurrency": [
+      {
+        "shop": "Sil'dihn Manuscript Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38691",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "38603",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33930",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33931",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33932",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33933",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33934",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33941",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "33942",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38535",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instances": [
+      37002
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38691",
+      "obj": {
+        "i": 38691,
+        "n": "Silkie Earring",
+        "l": 1,
+        "c": 55503,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "38603",
+      "obj": {
+        "i": 38603,
+        "n": "Sil'dihn Banner",
+        "l": 1,
+        "c": 51476,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "33930",
+      "obj": {
+        "i": 33930,
+        "n": "Piety Materia X",
+        "l": 560,
+        "c": 20286,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33931",
+      "obj": {
+        "i": 33931,
+        "n": "Heavens' Eye Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33932",
+      "obj": {
+        "i": 33932,
+        "n": "Savage Aim Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33933",
+      "obj": {
+        "i": 33933,
+        "n": "Savage Might Materia X",
+        "l": 560,
+        "c": 20289,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33934",
+      "obj": {
+        "i": 33934,
+        "n": "Battledance Materia X",
+        "l": 560,
+        "c": 20286,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33941",
+      "obj": {
+        "i": 33941,
+        "n": "Quickarm Materia X",
+        "l": 560,
+        "c": 20287,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Skill Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "33942",
+      "obj": {
+        "i": 33942,
+        "n": "Quicktongue Materia X",
+        "l": 560,
+        "c": 20287,
+        "t": 58,
+        "materia": {
+          "tier": 9,
+          "value": 36,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "instance",
+      "id": "37002",
+      "obj": {
+        "i": 37002,
+        "n": "Another Sil'dihn Subterrane (Savage)",
+        "c": 61846,
+        "t": "V&C Dungeon Finder",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "max_ilvl": 635
+      }
+    }
+  ]
+}

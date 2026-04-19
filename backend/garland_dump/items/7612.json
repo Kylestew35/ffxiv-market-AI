@@ -1,0 +1,645 @@
+{
+  "item": {
+    "name": "Spruce Plywood",
+    "description": "A thin but sturdy construction material made by pressing together layers of wood, designed to achieve uniform strength.",
+    "id": 7612,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 1330,
+    "ilvl": 70,
+    "category": 50,
+    "dyecount": 0,
+    "sell_price": 20,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22513,
+    "tradeCurrency": [
+      {
+        "shop": "Artisan Tools (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7523",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7612",
+                "amount": 2,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Artisan Gear (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7521",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7612",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10053",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7612",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10047",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7612",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10048",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7612",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10145",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7612",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4720",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7612",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 30297,
+        "job": 8,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "controlReq": 318,
+        "craftsmanshipReq": 347,
+        "unlockId": 7778,
+        "ingredients": [
+          {
+            "id": 5378,
+            "amount": 1,
+            "quality": 597.8261
+          },
+          {
+            "id": 5505,
+            "amount": 2,
+            "quality": 326.08694
+          },
+          {
+            "id": 4,
+            "amount": 11
+          },
+          {
+            "id": 3,
+            "amount": 10
+          }
+        ],
+        "complexity": {
+          "nq": 292,
+          "hq": 312
+        }
+      }
+    ],
+    "ingredient_of": {
+      "8032": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Spruce Lumber",
+      "id": 5378,
+      "icon": 22465,
+      "category": 50,
+      "ilvl": 55,
+      "price": 1045,
+      "craft": [
+        {
+          "id": 1526,
+          "job": 8,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5395,
+              "amount": 3
+            },
+            {
+              "id": 10,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6353,
+        6389,
+        6391,
+        9724,
+        5568,
+        4924
+      ],
+      "treasure": [
+        6692
+      ]
+    },
+    {
+      "name": "Spruce Log",
+      "id": 5395,
+      "icon": 22413,
+      "category": 50,
+      "ilvl": 55,
+      "price": 304,
+      "ventures": [
+        516
+      ],
+      "nodes": [
+        211
+      ]
+    },
+    {
+      "name": "Horn Glue",
+      "id": 5505,
+      "icon": 22607,
+      "category": 54,
+      "ilvl": 30,
+      "price": 344,
+      "craft": [
+        {
+          "id": 1150,
+          "job": 14,
+          "rlvl": 30,
+          "durability": 40,
+          "quality": 680,
+          "progress": 51,
+          "lvl": 30,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5436,
+              "amount": 2
+            },
+            {
+              "id": 7,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 38,
+            "hq": 58
+          }
+        }
+      ],
+      "treasure": [
+        6688
+      ]
+    },
+    {
+      "name": "Aldgoat Horn",
+      "id": 5436,
+      "icon": 22206,
+      "category": 53,
+      "ilvl": 25,
+      "price": 238,
+      "treasure": [
+        6688
+      ],
+      "tradeShops": [
+        {
+          "shop": "Titan Cobaltpiece Exchange",
+          "npcs": [
+            1008909
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5436",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21078",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        32
+      ],
+      "drops": [
+        12810000000879,
+        1940000000274,
+        1930000000273,
+        1940000002050,
+        1930000002049,
+        12830000000881,
+        12820000000880
+      ],
+      "vendors": [
+        1008909
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5395",
+      "obj": {
+        "i": 5395,
+        "n": "Spruce Log",
+        "l": 55,
+        "c": 22413,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "211",
+      "obj": {
+        "i": 211,
+        "n": "Providence Point",
+        "l": 50,
+        "t": 2,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5436",
+      "obj": {
+        "i": 5436,
+        "n": "Aldgoat Horn",
+        "l": 25,
+        "c": 22206,
+        "t": 53,
+        "p": 238
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1930000000273",
+      "obj": {
+        "i": 1930000000273,
+        "n": "Myotragus Billy",
+        "l": "16 - 18",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1940000000274",
+      "obj": {
+        "i": 1940000000274,
+        "n": "Myotragus Nanny",
+        "l": "16 - 18",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12810000000879",
+      "obj": {
+        "i": 12810000000879,
+        "n": "Elder Longhorn",
+        "l": "17",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12820000000880",
+      "obj": {
+        "i": 12820000000880,
+        "n": "Longhorn Billygoat",
+        "l": "16",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12830000000881",
+      "obj": {
+        "i": 12830000000881,
+        "n": "Longhorn Nannygoat",
+        "l": "14 - 16",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1930000002049",
+      "obj": {
+        "i": 1930000002049,
+        "n": "Mourning Billy",
+        "l": "35",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1940000002050",
+      "obj": {
+        "i": 1940000002050,
+        "n": "Mourning Nanny",
+        "l": "35",
+        "z": 44
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7523",
+      "obj": {
+        "i": 7523,
+        "n": "Artisan's Chocobotail Saw",
+        "l": 70,
+        "c": 35013,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "7521",
+      "obj": {
+        "i": 7521,
+        "n": "Artisan's Spectacles",
+        "l": 70,
+        "c": 40925,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10053",
+      "obj": {
+        "i": 10053,
+        "n": "Artisan's Gown",
+        "l": 70,
+        "c": 42413,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10047",
+      "obj": {
+        "i": 10047,
+        "n": "Artisan's Fingerstalls",
+        "l": 70,
+        "c": 44298,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10048",
+      "obj": {
+        "i": 10048,
+        "n": "Artisan's Chausses",
+        "l": 70,
+        "c": 45522,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "10145",
+      "obj": {
+        "i": 10145,
+        "n": "Artisan's Pattens",
+        "l": 70,
+        "c": 46440,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "4720",
+      "obj": {
+        "i": 4720,
+        "n": "Fish Soup",
+        "l": 43,
+        "c": 24105,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "7778",
+      "obj": {
+        "i": 7778,
+        "n": "Master Carpenter I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5378",
+      "obj": {
+        "i": 5378,
+        "n": "Spruce Lumber",
+        "l": 55,
+        "c": 22465,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "5505",
+      "obj": {
+        "i": 5505,
+        "n": "Horn Glue",
+        "l": 30,
+        "c": 22607,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "8032",
+      "obj": {
+        "i": 8032,
+        "n": "Reinforced Spruce Plywood",
+        "l": 75,
+        "c": 22513,
+        "t": 50
+      }
+    }
+  ]
+}

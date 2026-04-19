@@ -1,0 +1,95 @@
+{
+  "item": {
+    "name": "Dream Pickle",
+    "description": "Lucky are the Isari fishermen who can catch and sell this creature.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "A variety of albino sea pickle exclusively found in the Ruby Sea. Those in possession of one are said to be so blessed with incredible fortune that a merchant from Kugane once offered as much as Isari earns in a year to get their hands on this wavekin─a deal which the village gladly accepted.",
+      "icon": 78070,
+      "spots": [
+        {
+          "node": 891,
+          "shadow": "S",
+          "speed": "Slow"
+        },
+        {
+          "node": 899,
+          "shadow": "S",
+          "speed": "Very Slow"
+        }
+      ]
+    },
+    "id": 36555,
+    "patch": 6.0,
+    "patchCategory": 7,
+    "price": 99999,
+    "ilvl": 520,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28070,
+    "nodes": [
+      891,
+      899
+    ],
+    "requiredByLeves": [
+      1683
+    ],
+    "ventures": [
+      958
+    ],
+    "desynthedTo": [
+      5823
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "891",
+      "obj": {
+        "i": 891,
+        "n": "Isari Slope",
+        "l": 85,
+        "t": 5,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "899",
+      "obj": {
+        "i": 899,
+        "n": "Northwestern Onokoro",
+        "l": 85,
+        "t": 5,
+        "z": 2409,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1683",
+      "obj": {
+        "i": 1683,
+        "n": "What Would You Do for a Pickle",
+        "l": 84,
+        "j": 19,
+        "p": 2409
+      }
+    },
+    {
+      "type": "item",
+      "id": "5823",
+      "obj": {
+        "i": 5823,
+        "n": "Allagan Tin Piece",
+        "l": 5,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "item": {
+    "name": "Turali Bicolor Gemstone Voucher",
+    "description": "Proof that you have delivered many a bicolor gemstone.<br><br>Copies of the same bicolor gemstone voucher can be traded with Edelina in Mor Dhona for special items.",
+    "id": 43961,
+    "patch": 7.0,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 26183,
+    "tradeCurrency": [
+      {
+        "shop": "Bicolor Gemstone Vouchers",
+        "npcs": [
+          1036913
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43590",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43961",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43961",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1036913",
+      "obj": {
+        "i": 1036913,
+        "n": "Edelina",
+        "l": 67,
+        "s": 2,
+        "t": "Luxury Trader",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.19,
+          4.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "43590",
+      "obj": {
+        "i": 43590,
+        "n": "Ty'aitya Whistle",
+        "l": 1,
+        "c": 26039,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

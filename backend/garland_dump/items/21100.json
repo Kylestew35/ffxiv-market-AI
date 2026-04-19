@@ -1,0 +1,52 @@
+{
+  "item": {
+    "name": "Resistance Materiel Component Materials",
+    "description": "Various materials necessary to craft Ala Mhigan Resistance materiel components.",
+    "id": 21100,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 200,
+    "ilvl": 270,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25977,
+    "vendors": [
+      1022232
+    ],
+    "ingredient_of": {
+      "21095": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21095",
+      "obj": {
+        "i": 21095,
+        "n": "Resistance Materiel Component",
+        "l": 270,
+        "c": 21003,
+        "t": 61,
+        "p": 400
+      }
+    }
+  ]
+}

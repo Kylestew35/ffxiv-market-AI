@@ -1,0 +1,140 @@
+{
+  "item": {
+    "name": "Weathered Book of Diamonds",
+    "jobCategories": "SCH",
+    "id": 7293,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 31838,
+    "ilvl": 100,
+    "category": 98,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 535,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 29,
+    "models": [
+      "1717-2-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 62,
+      "Delay": 3.12,
+      "Mind": 37,
+      "Vitality": 34,
+      "Spell Speed": 40,
+      "Piety": 28,
+      "Direct Hit Rate": 8
+    },
+    "icon": 33477,
+    "sharedModels": [
+      7359,
+      10657,
+      18044
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7359",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7293",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7359",
+      "obj": {
+        "i": 7359,
+        "n": "Book of Diamonds",
+        "l": 110,
+        "c": 33477,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "10657",
+      "obj": {
+        "i": 10657,
+        "n": "Noble's Codex",
+        "l": 150,
+        "c": 33530,
+        "t": 98,
+        "p": 31838
+      }
+    },
+    {
+      "type": "item",
+      "id": "18044",
+      "obj": {
+        "i": 18044,
+        "n": "Koppranickel Codex",
+        "l": 255,
+        "c": 33234,
+        "t": 98,
+        "p": 36352
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

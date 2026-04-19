@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Catfish Lure Component Materials",
+    "description": "Various materials necessary to craft catfish lure components.<br><br>※Only for use in Namazu society quests.",
+    "id": 22704,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 148,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "22730": 1
+    },
+    "usedInQuest": [
+      68645
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22730",
+      "obj": {
+        "i": 22730,
+        "n": "Catfish Lure Components",
+        "l": 148,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68645",
+      "obj": {
+        "i": 68645,
+        "n": "Catching Catfish",
+        "g": 61,
+        "l": "The Azim Steppe",
+        "s": 7,
+        "r": 1
+      }
+    }
+  ]
+}

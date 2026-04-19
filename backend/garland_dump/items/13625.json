@@ -1,0 +1,124 @@
+{
+  "item": {
+    "name": "Clan Mark Log",
+    "description": "A list of elite marks slain by the log's owner...before the owner himself vanished without a trace following an embarrassing defeat at the hands of a ladybug.",
+    "id": 13625,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26169,
+    "tradeShops": [
+      {
+        "shop": "Exchange Centurio Seals (Advanced)",
+        "npcs": [
+          1012225
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13625",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Uncanny Knickknacks",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13288",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13625",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012225",
+      "obj": {
+        "i": 1012225,
+        "n": "Ardolain",
+        "l": 2300,
+        "s": 2,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.05,
+          11.85
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1015578",
+      "obj": {
+        "i": 1015578,
+        "n": "Bertana",
+        "l": 2082,
+        "s": 6,
+        "t": "Primal Gear Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.86,
+          5.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13288",
+      "obj": {
+        "i": 13288,
+        "n": "Wyvern Horn",
+        "l": 1,
+        "c": 26038,
+        "t": 63
+      }
+    }
+  ]
+}

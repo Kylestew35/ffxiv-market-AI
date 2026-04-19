@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Cornerstone of the New World - Astera Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Cornerstone of the New World - Astera</span>. Use to add to your orchestrion list.",
+    "id": 22603,
+    "patch": 4.36,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 237,
+      "name": "Cornerstone of the New World - Astera",
+      "description": "Available for exchange in Kugane.",
+      "category": "Others",
+      "order": 27
+    },
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1025722
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22603",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22599",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025722",
+      "obj": {
+        "i": 1025722,
+        "n": "Smithy",
+        "l": 2404,
+        "s": 1,
+        "r": 1,
+        "a": 728,
+        "c": [
+          9.77,
+          8.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22599",
+      "obj": {
+        "i": 22599,
+        "n": "Rathalos Scale",
+        "l": 1,
+        "c": 22217,
+        "t": 53
+      }
+    }
+  ]
+}

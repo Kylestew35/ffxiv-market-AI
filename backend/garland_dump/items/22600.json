@@ -1,0 +1,104 @@
+{
+  "item": {
+    "name": "Rathalos Whistle",
+    "description": "The resonant tone of this whistle carries far enough to summon your Rathalos from his distant homeland.",
+    "mount": {
+      "name": "Rathalos",
+      "action": "Summon forth your mighty Rathalos─a wyvern far, far from home.",
+      "description": "Many a brave hunter has attempted to topple this flame-belching beast from his fiery throne atop the forest, yet only a few can claim to have conquered the King of the Skies.",
+      "tooltip": "The wyverns are scary.<br>Is there no safe place?<br>   - Wandering Gnath ",
+      "icon": 4125,
+      "guideIcon": 68125
+    },
+    "id": 22600,
+    "patch": 4.36,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20054,
+      20054
+    ],
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1025722
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22600",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23383",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "497-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20054",
+      "obj": {
+        "i": 20054,
+        "n": "The Great Hunt (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 350
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025722",
+      "obj": {
+        "i": 1025722,
+        "n": "Smithy",
+        "l": 2404,
+        "s": 1,
+        "r": 1,
+        "a": 728,
+        "c": [
+          9.77,
+          8.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23383",
+      "obj": {
+        "i": 23383,
+        "n": "Rathalos Scale+",
+        "l": 1,
+        "c": 22218,
+        "t": 53
+      }
+    }
+  ]
+}

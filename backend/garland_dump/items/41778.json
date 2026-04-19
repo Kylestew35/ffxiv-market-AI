@@ -1,0 +1,354 @@
+{
+  "item": {
+    "name": "Craftsman's Competence Materia XII",
+    "description": "Cannot be melded onto a piece of equipment past the first advanced materia melding slot.",
+    "id": 41778,
+    "patch": 7.0,
+    "patchCategory": 10,
+    "price": 99999,
+    "ilvl": 690,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 197,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20300,
+    "tradeShops": [
+      {
+        "shop": "Orange Scrip Exchange (Materia)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41784",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43945",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shop",
+        "npcs": [
+          1048381,
+          1049090
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43945",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Yok Huy Ward Exchange",
+        "npcs": [
+          1054637
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46178",
+                "amount": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cosmocredit Exchange (Materials/Materia/Items)",
+        "npcs": [
+          1052588,
+          1052600,
+          1052607,
+          1052608,
+          1052640,
+          1052650
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "45690",
+                "amount": 900
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 11,
+      "value": 33,
+      "attr": "Craftsmanship",
+      "category": 1
+    },
+    "desynthedFrom": [
+      46192
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "41784",
+      "obj": {
+        "i": 41784,
+        "n": "Orange Crafters' Scrip",
+        "l": 1,
+        "c": "t/65110",
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43945",
+      "obj": {
+        "i": 43945,
+        "n": "Cracked Novacrystal",
+        "l": 1,
+        "c": 21489,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048381",
+      "obj": {
+        "i": 1048381,
+        "n": "Shemapi",
+        "l": 4504,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 4537,
+        "c": [
+          13.48,
+          12.59
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1049090",
+      "obj": {
+        "i": 1049090,
+        "n": "Zale",
+        "l": 4503,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 4647,
+        "c": [
+          7.53,
+          12.38
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1054637",
+      "obj": {
+        "i": 1054637,
+        "n": "Rarkorgor",
+        "l": 4505,
+        "s": 4,
+        "t": "Ward Exchange",
+        "r": 1,
+        "a": 4961,
+        "c": [
+          31.24,
+          37.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "46178",
+      "obj": {
+        "i": 46178,
+        "n": "Yok Huy Ward",
+        "l": 1,
+        "c": "t/65132",
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052588",
+      "obj": {
+        "i": 1052588,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5225,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052600",
+      "obj": {
+        "i": 1052600,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052607",
+      "obj": {
+        "i": 1052607,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052608",
+      "obj": {
+        "i": 1052608,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5225,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052640",
+      "obj": {
+        "i": 1052640,
+        "n": "Mesouaidonque",
+        "l": 5301,
+        "s": 3,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5316,
+        "c": [
+          28.67,
+          13.48
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052650",
+      "obj": {
+        "i": 1052650,
+        "n": "Mesouaidonque",
+        "l": 5406,
+        "s": 3,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5420,
+        "c": [
+          17.45,
+          24.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "45690",
+      "obj": {
+        "i": 45690,
+        "n": "Cosmocredit",
+        "l": 1,
+        "c": "t/65112",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "46192",
+      "obj": {
+        "i": 46192,
+        "n": "Lotl-in-waiting",
+        "l": 730,
+        "c": 28722,
+        "t": 47
+      }
+    }
+  ]
+}

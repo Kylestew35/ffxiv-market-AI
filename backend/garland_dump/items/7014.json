@@ -1,0 +1,754 @@
+{
+  "item": {
+    "name": "Clinker Bricks",
+    "description": "Partially vitrified bricks favored for their superior hardness and durability.",
+    "id": 7014,
+    "patch": 2.1,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 40,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21003,
+    "craft": [
+      {
+        "id": 1583,
+        "job": 14,
+        "rlvl": 39,
+        "durability": 40,
+        "quality": 1072,
+        "progress": 68,
+        "lvl": 39,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5526,
+            "amount": 1
+          },
+          {
+            "id": 5231,
+            "amount": 2
+          },
+          {
+            "id": 5513,
+            "amount": 1
+          },
+          {
+            "id": 7,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 62,
+          "hq": 82
+        }
+      }
+    ],
+    "ingredient_of": {
+      "6363": 10,
+      "6372": 10,
+      "6373": 10,
+      "6391": 10,
+      "6399": 10,
+      "6400": 15,
+      "6634": 2,
+      "7131": 5,
+      "8833": 6,
+      "9770": 3,
+      "13071": 4,
+      "13072": 2,
+      "32251": 5,
+      "32249": 5,
+      "33276": 5,
+      "33295": 6,
+      "33299": 8,
+      "44873": 4,
+      "22530": 5,
+      "10361": 30,
+      "10362": 90,
+      "10363": 165,
+      "10364": 30,
+      "10365": 90,
+      "10366": 165,
+      "10367": 30,
+      "10368": 90,
+      "10369": 165,
+      "10370": 30,
+      "10371": 90,
+      "10372": 165,
+      "13092": 15,
+      "13093": 45,
+      "13094": 75,
+      "15950": 9,
+      "15951": 27,
+      "15952": 45,
+      "17004": 9,
+      "17005": 27,
+      "17006": 45
+    },
+    "desynthedFrom": [
+      32251,
+      33295
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Grenade Ash",
+      "id": 5526,
+      "icon": 21001,
+      "category": 54,
+      "ilvl": 40,
+      "price": 216,
+      "ventures": [
+        56,
+        146
+      ],
+      "drops": [
+        16180000001799,
+        20920000000270,
+        21380000001511,
+        3270000000270
+      ],
+      "nodes": [
+        20
+      ],
+      "vendors": [
+        1001015
+      ]
+    },
+    {
+      "name": "Siltstone",
+      "id": 5231,
+      "icon": 21453,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "voyages": [
+        {
+          "id": 25,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        128
+      ],
+      "nodes": [
+        176
+      ]
+    },
+    {
+      "name": "Potter's Clay",
+      "id": 5513,
+      "icon": 22634,
+      "category": 54,
+      "ilvl": 7,
+      "price": 9,
+      "desynthedFrom": [
+        13095
+      ],
+      "ventures": [
+        84
+      ],
+      "nodes": [
+        152
+      ],
+      "vendors": [
+        1004418
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Bluefog",
+        "l": 40,
+        "t": 1,
+        "z": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001015",
+      "obj": {
+        "i": 1001015,
+        "n": "Z'ranmaia",
+        "l": 28,
+        "s": 1,
+        "t": "Herbalist",
+        "a": 718,
+        "c": [
+          11.35,
+          8.16
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "3270000000270",
+      "obj": {
+        "i": 3270000000270,
+        "n": "Grenade",
+        "l": "41 - 44",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20920000000270",
+      "obj": {
+        "i": 20920000000270,
+        "n": "Grenade",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "21380000001511",
+      "obj": {
+        "i": 21380000001511,
+        "n": "Bomb Baron",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16180000001799",
+      "obj": {
+        "i": 16180000001799,
+        "n": "Shrapnel",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "node",
+      "id": "176",
+      "obj": {
+        "i": 176,
+        "n": "Oakwood",
+        "l": 30,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "node",
+      "id": "152",
+      "obj": {
+        "i": 152,
+        "n": "Treespeak",
+        "l": 10,
+        "t": 0,
+        "z": 57
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004418",
+      "obj": {
+        "i": 1004418,
+        "n": "Esmenet",
+        "l": 698,
+        "s": 1,
+        "t": "Guild Supplier",
+        "c": [
+          "8.9",
+          "13.6"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5526",
+      "obj": {
+        "i": 5526,
+        "n": "Grenade Ash",
+        "l": 40,
+        "c": 21001,
+        "t": 54,
+        "p": 216
+      }
+    },
+    {
+      "type": "item",
+      "id": "5231",
+      "obj": {
+        "i": 5231,
+        "n": "Siltstone",
+        "l": 30,
+        "c": 21453,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5513",
+      "obj": {
+        "i": 5513,
+        "n": "Potter's Clay",
+        "l": 7,
+        "c": 22634,
+        "t": 54,
+        "p": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "6363",
+      "obj": {
+        "i": 6363,
+        "n": "Glade Mansion Roof (Composite)",
+        "l": 50,
+        "c": 50405,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "6372",
+      "obj": {
+        "i": 6372,
+        "n": "Oasis Mansion Roof (Composite)",
+        "l": 50,
+        "c": 50408,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "6373",
+      "obj": {
+        "i": 6373,
+        "n": "Oasis Mansion Roof (Stone)",
+        "l": 50,
+        "c": 50409,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "6391",
+      "obj": {
+        "i": 6391,
+        "n": "Glade Mansion Wall (Stone)",
+        "l": 50,
+        "c": 50206,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6399",
+      "obj": {
+        "i": 6399,
+        "n": "Oasis Mansion Wall (Composite)",
+        "l": 50,
+        "c": 50208,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6400",
+      "obj": {
+        "i": 6400,
+        "n": "Oasis Mansion Wall (Stone)",
+        "l": 50,
+        "c": 50209,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6634",
+      "obj": {
+        "i": 6634,
+        "n": "Manor Fireplace",
+        "l": 45,
+        "c": 52487,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "7131",
+      "obj": {
+        "i": 7131,
+        "n": "Country Interior Wall",
+        "l": 50,
+        "c": 51209,
+        "t": 73,
+        "p": 5000
+      }
+    },
+    {
+      "type": "item",
+      "id": "8833",
+      "obj": {
+        "i": 8833,
+        "n": "Checkered Flooring",
+        "l": 50,
+        "c": 51017,
+        "t": 74
+      }
+    },
+    {
+      "type": "item",
+      "id": "9770",
+      "obj": {
+        "i": 9770,
+        "n": "Oasis Cobble Flooring",
+        "l": 40,
+        "c": 51022,
+        "t": 74
+      }
+    },
+    {
+      "type": "item",
+      "id": "13071",
+      "obj": {
+        "i": 13071,
+        "n": "Manor Oven",
+        "l": 70,
+        "c": 52576,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "13072",
+      "obj": {
+        "i": 13072,
+        "n": "Manor Counter",
+        "l": 70,
+        "c": 51651,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "32251",
+      "obj": {
+        "i": 32251,
+        "n": "Fruitful Fountain",
+        "l": 430,
+        "c": 52307,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "32249",
+      "obj": {
+        "i": 32249,
+        "n": "Brick Paving",
+        "l": 430,
+        "c": 52310,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "33276",
+      "obj": {
+        "i": 33276,
+        "n": "Red Brick Counter",
+        "l": 430,
+        "c": 51695,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "33295",
+      "obj": {
+        "i": 33295,
+        "n": "Glade Gazebo",
+        "l": 430,
+        "c": 52314,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "33299",
+      "obj": {
+        "i": 33299,
+        "n": "Forging Bench",
+        "l": 430,
+        "c": 52318,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "44873",
+      "obj": {
+        "i": 44873,
+        "n": "Wood-fired Range",
+        "l": 690,
+        "c": 52821,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "22530",
+      "obj": {
+        "i": 22530,
+        "n": "Solid-brick Interior Wall",
+        "l": 1,
+        "c": 51240,
+        "t": 73
+      }
+    },
+    {
+      "type": "item",
+      "id": "10361",
+      "obj": {
+        "i": 10361,
+        "n": "Small Merchant's Walls",
+        "l": 115,
+        "c": 50801,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10362",
+      "obj": {
+        "i": 10362,
+        "n": "Medium Merchant's Walls",
+        "l": 115,
+        "c": 50802,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10363",
+      "obj": {
+        "i": 10363,
+        "n": "Large Merchant's Walls",
+        "l": 115,
+        "c": 50803,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10364",
+      "obj": {
+        "i": 10364,
+        "n": "Small Eatery Walls",
+        "l": 130,
+        "c": 50804,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10365",
+      "obj": {
+        "i": 10365,
+        "n": "Medium Eatery Walls",
+        "l": 130,
+        "c": 50805,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10366",
+      "obj": {
+        "i": 10366,
+        "n": "Large Eatery Walls",
+        "l": 130,
+        "c": 50806,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10367",
+      "obj": {
+        "i": 10367,
+        "n": "Small Outfitter's Walls",
+        "l": 136,
+        "c": 50807,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10368",
+      "obj": {
+        "i": 10368,
+        "n": "Medium Outfitter's Walls",
+        "l": 136,
+        "c": 50808,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10369",
+      "obj": {
+        "i": 10369,
+        "n": "Large Outfitter's Walls",
+        "l": 136,
+        "c": 50809,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10370",
+      "obj": {
+        "i": 10370,
+        "n": "Small Arms Supplier's Walls",
+        "l": 142,
+        "c": 50810,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10371",
+      "obj": {
+        "i": 10371,
+        "n": "Medium Arms Supplier's Walls",
+        "l": 142,
+        "c": 50811,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10372",
+      "obj": {
+        "i": 10372,
+        "n": "Large Arms Supplier's Walls",
+        "l": 142,
+        "c": 50812,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "13092",
+      "obj": {
+        "i": 13092,
+        "n": "Microscopically Small Mogwalls",
+        "l": 160,
+        "c": 50813,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "13093",
+      "obj": {
+        "i": 13093,
+        "n": "Middlingly Medium Mogwalls",
+        "l": 160,
+        "c": 50814,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "13094",
+      "obj": {
+        "i": 13094,
+        "n": "Monstrously Large Mogwalls",
+        "l": 160,
+        "c": 50815,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "15950",
+      "obj": {
+        "i": 15950,
+        "n": "Chocobo Cottage Walls",
+        "l": 180,
+        "c": 50816,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "15951",
+      "obj": {
+        "i": 15951,
+        "n": "Chocobo House Walls",
+        "l": 180,
+        "c": 50817,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "15952",
+      "obj": {
+        "i": 15952,
+        "n": "Chocobo Mansion Walls",
+        "l": 180,
+        "c": 50818,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "17004",
+      "obj": {
+        "i": 17004,
+        "n": "Paissa Cottage Walls",
+        "l": 180,
+        "c": 50819,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "17005",
+      "obj": {
+        "i": 17005,
+        "n": "Paissa House Walls",
+        "l": 180,
+        "c": 50820,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "17006",
+      "obj": {
+        "i": 17006,
+        "n": "Paissa Mansion Walls",
+        "l": 180,
+        "c": 50821,
+        "t": 66
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "item": {
+    "name": "Dammroen Herring",
+    "description": "A queen among cherry herring, and the lady of the waters of the Spoiled One.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Near the Church at Dammroen Field grow flowering trees, slender and graceful, and from their fallen fruit hatched these beautiful fish. Or so the tale goes. True or not, most agree that a school of Dammroen herring fry resemble nothing so much as a swirling cloud of delicate fruit blossoms.",
+      "icon": 78493,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 223,
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2150,
+          "baits": [
+            [
+              27589
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33321,
+    "patch": 5.5,
+    "patchCategory": 7,
+    "price": 2000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28493,
+    "fishingSpots": [
+      223
+    ],
+    "desynthedTo": [
+      32949,
+      26732
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "223",
+      "obj": {
+        "i": 223,
+        "n": "The Spoiled One",
+        "l": 74,
+        "c": 1,
+        "z": 2956,
+        "x": 28.93,
+        "y": 13.51
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27589",
+      "obj": {
+        "i": 27589,
+        "n": "Baitbugs",
+        "l": 430,
+        "c": 27040,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26732",
+      "obj": {
+        "i": 26732,
+        "n": "Gatherer's Guerdon Materia VIII",
+        "l": 430,
+        "c": 20277,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 20,
+          "attr": "Gathering",
+          "category": 2
+        }
+      }
+    }
+  ]
+}

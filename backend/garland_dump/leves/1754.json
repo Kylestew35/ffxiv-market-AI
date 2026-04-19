@@ -1,0 +1,330 @@
+{
+  "leve": {
+    "name": "All-night Crafting",
+    "description": "Some of the divinatory rituals performed at the palace require the production of arcane instruments in considerable quantities. The artisans tasked with their creation often work through the night, and so I would like to offer them support in the way of an alchemical potable.",
+    "id": 1754,
+    "patch": 7.0,
+    "client": "Sunperch Apothecary, Pananyihe",
+    "lvl": 96,
+    "jobCategory": 15,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 2268950,
+    "gil": 5140,
+    "rewards": 871,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44169,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 642,
+      "hq": 702
+    }
+  },
+  "rewards": {
+    "id": 871,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 89
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 89
+      },
+      {
+        "item": 44043,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 110
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 110
+      },
+      {
+        "item": 44071,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Cunning Craftsman's Tisane",
+      "id": 44169,
+      "icon": 20712,
+      "category": 44,
+      "ilvl": 675,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5669,
+          "job": 14,
+          "rlvl": 675,
+          "durability": 80,
+          "quality": 10600,
+          "progress": 5700,
+          "lvl": 97,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 44034,
+              "amount": 2
+            },
+            {
+              "id": 44071,
+              "amount": 2
+            },
+            {
+              "id": 44043,
+              "amount": 2
+            },
+            {
+              "id": 27836,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            },
+            {
+              "id": 12,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 214,
+            "hq": 234
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak T'el Spring Water",
+      "id": 44034,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 670,
+      "price": 99999,
+      "leves": [
+        1753
+      ],
+      "ventures": [
+        992
+      ],
+      "nodes": [
+        979
+      ]
+    },
+    {
+      "name": "Tumbleclaw Weeds",
+      "id": 44071,
+      "icon": 21689,
+      "category": 54,
+      "ilvl": 665,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "44071",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1754,
+        1755
+      ],
+      "ventures": [
+        1039
+      ]
+    },
+    {
+      "name": "Pearl Grass",
+      "id": 44043,
+      "icon": 25015,
+      "category": 54,
+      "ilvl": 670,
+      "price": 99999,
+      "leves": [
+        1754,
+        1755
+      ],
+      "ventures": [
+        1023
+      ],
+      "nodes": [
+        1001
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "id": 27836,
+      "icon": 25016,
+      "category": 45,
+      "ilvl": 403,
+      "price": 630,
+      "ventures": [
+        827
+      ],
+      "nodes": [
+        629
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "979",
+      "obj": {
+        "i": 979,
+        "n": "The Ut'ohmu Horizon",
+        "l": 100,
+        "t": 0,
+        "z": 4507
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "1001",
+      "obj": {
+        "i": 1001,
+        "n": "Iq Rrax Tsoly",
+        "l": 100,
+        "t": 3,
+        "z": 4507
+      }
+    },
+    {
+      "type": "node",
+      "id": "629",
+      "obj": {
+        "i": 629,
+        "n": "Embrasure",
+        "l": 75,
+        "t": 3,
+        "z": 2953,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "44034",
+      "obj": {
+        "i": 44034,
+        "n": "Yak T'el Spring Water",
+        "l": 670,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "44071",
+      "obj": {
+        "i": 44071,
+        "n": "Tumbleclaw Weeds",
+        "l": 665,
+        "c": 21689,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "44043",
+      "obj": {
+        "i": 44043,
+        "n": "Pearl Grass",
+        "l": 670,
+        "c": 25015,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27836",
+      "obj": {
+        "i": 27836,
+        "n": "Peppermint",
+        "l": 403,
+        "c": 25016,
+        "t": 45
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1754",
+      "obj": {
+        "i": 1754,
+        "n": "All-night Crafting",
+        "l": 96,
+        "j": 15,
+        "p": 4504
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "44169",
+      "obj": {
+        "i": 44169,
+        "n": "Cunning Craftsman's Tisane",
+        "l": 675,
+        "c": 20712,
+        "t": 44
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "item": {
+    "name": "Ufiti Horn",
+    "description": "A horn that emits a primal sound that summons forth your hulking ufiti.",
+    "mount": {
+      "name": "Ufiti",
+      "action": "Summon forth your ufiti. May carry you to high ground for your own safety.",
+      "description": "Having survived a cull of its kind by bloodthirsty adventurers on its native Diadem, this ufiti mastered the art of riding the winds, that it might set forth on a journey to find a worthy leader. Despite its brawn, it possesses a surprisingly delicate touch─and just as well it does.",
+      "tooltip": "The strong are drawn to strength.<br>   - Ywain",
+      "icon": 4168,
+      "guideIcon": 68168
+    },
+    "id": 28917,
+    "patch": 5.1,
+    "patchCategory": 17,
+    "price": 50000,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28917",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 8400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "438-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "item": {
+    "name": "Valfruit Seeds",
+    "description": "Seeds suitable for cultivating valfruits─a favorite amongst chocobos, and known to lighten the green hues of their feathers.",
+    "id": 8177,
+    "patch": 2.35,
+    "patchCategory": 12,
+    "price": 198,
+    "ilvl": 1,
+    "category": 82,
+    "dyecount": 0,
+    "sell_price": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27453,
+    "grow": [
+      8160
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allied Seals (Other)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8177",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8160",
+      "obj": {
+        "i": 8160,
+        "n": "Valfruit",
+        "l": 45,
+        "c": 25310,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "item": {
+    "name": "Augmented Ironworks Leg Guards of Aiming",
+    "jobCategories": "ARC BRD MCH DNC",
+    "id": 8906,
+    "patch": 2.4,
+    "patchCategory": 0,
+    "price": 28416,
+    "ilvl": 130,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 383,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 748,
+    "slot": 8,
+    "elvl": 50,
+    "jobs": 66,
+    "models": [
+      "189-1-0-0"
+    ],
+    "attr": {
+      "Defense": 77,
+      "Magic Defense": 77,
+      "Dexterity": 33,
+      "Vitality": 35,
+      "Critical Hit": 31,
+      "Direct Hit Rate": 22
+    },
+    "icon": 46966,
+    "sharedModels": [
+      8612,
+      9471,
+      9477
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW)",
+        "npcs": [
+          1008119
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8906",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Ironworks Gear Augmentation (DoW)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8906",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8612",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Ironworks Gear (IL 130)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8906",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8612",
+      "obj": {
+        "i": 8612,
+        "n": "Ironworks Leg Guards of Aiming",
+        "l": 120,
+        "c": 46966,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "9471",
+      "obj": {
+        "i": 9471,
+        "n": "Ironworks Leg Guards of Scouting",
+        "l": 120,
+        "c": 46971,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "9477",
+      "obj": {
+        "i": 9477,
+        "n": "Augmented Ironworks Leg Guards of Scouting",
+        "l": 130,
+        "c": 46971,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Basket of Steamed Buns",
+    "description": "Meat buns so fresh that they have yet to be removed from the steaming basket.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Determination Bonus:</span> +4% (Max 7)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +4% (Max 8)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +2<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 22567,
+    "patch": 4.3,
+    "patchCategory": 9,
+    "price": 86480,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "sell_price": 150,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53234,
+    "tradeShops": [
+      {
+        "shop": "Namazu Koban Exchange",
+        "npcs": [
+          1025604
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22567",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22525",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "694"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025604",
+      "obj": {
+        "i": 1025604,
+        "n": "Gyosho",
+        "l": 2411,
+        "s": 8,
+        "t": "Festival Vendor",
+        "r": 1,
+        "a": 2850,
+        "c": [
+          5.84,
+          23.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22525",
+      "obj": {
+        "i": 22525,
+        "n": "Namazu Koban",
+        "l": 1,
+        "c": 65064,
+        "t": 100
+      }
+    }
+  ]
+}

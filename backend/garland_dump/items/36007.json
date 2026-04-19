@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Level Checker Identification Key",
+    "description": "A thin, rectangular piece of what appears to be cermet. Placing it near your level checker will bring it blipping and blooping to life.",
+    "mount": {
+      "name": "Level Checker",
+      "action": "Summon forth your level checker, a mysterious machine that can determine your strength...and apparently also shrink and carry you inside it.",
+      "description": "When this mysterious machine first determined your strength, the result was “level 90.” By what method it came up with its figure, and whether it is even accurate, none can possibly say.",
+      "tooltip": "You've really taken it<br>to another level with this!<br>   - Kai-Shirr",
+      "icon": 4221,
+      "guideIcon": 68221
+    },
+    "id": 36007,
+    "patch": 6.0,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36007",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36633",
+                "amount": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "736-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36633",
+      "obj": {
+        "i": 36633,
+        "n": "Chi Bolt",
+        "l": 1,
+        "c": 21016,
+        "t": 61
+      }
+    }
+  ]
+}

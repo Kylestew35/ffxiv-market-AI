@@ -1,0 +1,370 @@
+{
+  "item": {
+    "name": "Fish Glue",
+    "description": "An adhesive substance created by boiling down various parts of fish and other wavekin.",
+    "id": 5504,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 38,
+    "ilvl": 10,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22607,
+    "ingredient_of": {
+      "2536": 1,
+      "2537": 1,
+      "1699": 1,
+      "2539": 1,
+      "1776": 1,
+      "2540": 1,
+      "1639": 1,
+      "1711": 1,
+      "4097": 1,
+      "4099": 1,
+      "4108": 1,
+      "4106": 1,
+      "1850": 1
+    },
+    "craft": [
+      {
+        "id": 1114,
+        "job": 14,
+        "rlvl": 10,
+        "durability": 40,
+        "quality": 200,
+        "progress": 22,
+        "lvl": 10,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 4876,
+            "amount": 2
+          },
+          {
+            "id": 7,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 26,
+          "hq": 46
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Coral Butterfly",
+      "id": 4876,
+      "icon": 29016,
+      "category": 47,
+      "ilvl": 9,
+      "price": 18,
+      "tradeShops": [
+        {
+          "shop": "Titan Cobaltpiece Exchange",
+          "npcs": [
+            1008909
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "4876",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21078",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        315
+      ],
+      "fishingSpots": [
+        35,
+        36,
+        37,
+        51
+      ],
+      "vendors": [
+        1004418,
+        1008909
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1004418",
+      "obj": {
+        "i": 1004418,
+        "n": "Esmenet",
+        "l": 698,
+        "s": 1,
+        "t": "Guild Supplier",
+        "c": [
+          "8.9",
+          "13.6"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "35",
+      "obj": {
+        "i": 35,
+        "n": "Limsa Lominsa Lower Decks",
+        "l": 1,
+        "c": 0,
+        "z": 29,
+        "x": 7.69,
+        "y": 12.21
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "36",
+      "obj": {
+        "i": 36,
+        "n": "Limsa Lominsa Upper Decks",
+        "l": 1,
+        "c": 0,
+        "z": 28,
+        "x": 10.31,
+        "y": 11.33
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "37",
+      "obj": {
+        "i": 37,
+        "n": "Zephyr Drift",
+        "l": 1,
+        "c": 0,
+        "z": 30,
+        "x": 18.7,
+        "y": 22.0
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "51",
+      "obj": {
+        "i": 51,
+        "n": "South Bloodshore",
+        "l": 25,
+        "c": 0,
+        "z": 32,
+        "x": 32.93,
+        "y": 34.47
+      }
+    },
+    {
+      "type": "item",
+      "id": "2536",
+      "obj": {
+        "i": 2536,
+        "n": "Initiate's Sledgehammer",
+        "l": 19,
+        "c": 38052,
+        "t": 29,
+        "p": 615
+      }
+    },
+    {
+      "type": "item",
+      "id": "2537",
+      "obj": {
+        "i": 2537,
+        "n": "Iron Sledgehammer",
+        "l": 22,
+        "c": 38052,
+        "t": 29,
+        "p": 905
+      }
+    },
+    {
+      "type": "item",
+      "id": "1699",
+      "obj": {
+        "i": 1699,
+        "n": "Steel Claws",
+        "l": 29,
+        "c": 31019,
+        "t": 1,
+        "p": 3586
+      }
+    },
+    {
+      "type": "item",
+      "id": "2539",
+      "obj": {
+        "i": 2539,
+        "n": "Steel Sledgehammer",
+        "l": 30,
+        "c": 38053,
+        "t": 29,
+        "p": 2370
+      }
+    },
+    {
+      "type": "item",
+      "id": "1776",
+      "obj": {
+        "i": 1776,
+        "n": "Steel Bardiche",
+        "l": 31,
+        "c": 31425,
+        "t": 3,
+        "p": 5097
+      }
+    },
+    {
+      "type": "item",
+      "id": "2540",
+      "obj": {
+        "i": 2540,
+        "n": "Wrapped Steel Sledgehammer",
+        "l": 33,
+        "c": 38053,
+        "t": 29,
+        "p": 2900
+      }
+    },
+    {
+      "type": "item",
+      "id": "1639",
+      "obj": {
+        "i": 1639,
+        "n": "Steel Longsword",
+        "l": 36,
+        "c": 30435,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "1711",
+      "obj": {
+        "i": 1711,
+        "n": "Mythril Claws",
+        "l": 38,
+        "c": 31020,
+        "t": 1,
+        "p": 6140
+      }
+    },
+    {
+      "type": "item",
+      "id": "4097",
+      "obj": {
+        "i": 4097,
+        "n": "Hard Leather Wristbands",
+        "l": 17,
+        "c": 55641,
+        "t": 42,
+        "p": 512
+      }
+    },
+    {
+      "type": "item",
+      "id": "4099",
+      "obj": {
+        "i": 4099,
+        "n": "Hard Leather Wristbands of Gathering",
+        "l": 17,
+        "c": 55641,
+        "t": 42,
+        "p": 512
+      }
+    },
+    {
+      "type": "item",
+      "id": "4108",
+      "obj": {
+        "i": 4108,
+        "n": "Goatskin Wristbands of Gathering",
+        "l": 27,
+        "c": 55640,
+        "t": 42,
+        "p": 1673
+      }
+    },
+    {
+      "type": "item",
+      "id": "4106",
+      "obj": {
+        "i": 4106,
+        "n": "Goatskin Wristbands",
+        "l": 27,
+        "c": 55640,
+        "t": 42,
+        "p": 1673
+      }
+    },
+    {
+      "type": "item",
+      "id": "1850",
+      "obj": {
+        "i": 1850,
+        "n": "Yarzonshell Harpoon",
+        "l": 37,
+        "c": 31813,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "4876",
+      "obj": {
+        "i": 4876,
+        "n": "Coral Butterfly",
+        "l": 9,
+        "c": 29016,
+        "t": 47,
+        "p": 18
+      }
+    }
+  ]
+}

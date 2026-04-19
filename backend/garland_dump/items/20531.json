@@ -1,0 +1,101 @@
+{
+  "item": {
+    "name": "Road Sparrow",
+    "description": "This house sparrow's home is on the road. Sparrow.<br><br>Use item to acquire the road sparrow minion.",
+    "minionrace": "Critter",
+    "tooltip": "We will need wine...and\r\nsparrow-stuffed pheasant.\r\n   - Jannequinard",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Hit the Road",
+    "specialactiondescription": "Reduces DEF of all enemies within range by 50%.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 20531,
+    "patch": 4.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59647,
+    "instances": [
+      53
+    ],
+    "cost": 10,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 450,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 35,
+      "Speed": 2
+    },
+    "models": [
+      "8217-1-1"
+    ],
+    "treasure": [
+      23223,
+      36636,
+      41667
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "53",
+      "obj": {
+        "i": 53,
+        "n": "Bardam's Mettle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 65,
+        "max_lvl": 66,
+        "min_ilvl": 250
+      }
+    },
+    {
+      "type": "item",
+      "id": "23223",
+      "obj": {
+        "i": 23223,
+        "n": "Silver-haloed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41667",
+      "obj": {
+        "i": 41667,
+        "n": "Sanctuary Materiel Container",
+        "l": 1,
+        "c": 21002,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "item": {
+    "name": "Cloth-softening Powder",
+    "description": "Gives even brand-new clothes that worn-in feeling.",
+    "id": 30135,
+    "patch": 5.2,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22210,
+    "ingredient_of": {
+      "30055": 3,
+      "30056": 2,
+      "30057": 1
+    },
+    "instances": [
+      55006,
+      55008
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      26745
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "30055",
+      "obj": {
+        "i": 30055,
+        "n": "Dalmascan Draped Top",
+        "l": 1,
+        "c": 42693,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "30056",
+      "obj": {
+        "i": 30056,
+        "n": "Dalmascan Draped Bottoms",
+        "l": 1,
+        "c": 47697,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "30057",
+      "obj": {
+        "i": 30057,
+        "n": "Dalmascan Leather Shoes",
+        "l": 1,
+        "c": 49239,
+        "t": 38
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55006",
+      "obj": {
+        "i": 55006,
+        "n": "The Dungeons of Lyhe Ghiah",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 80,
+        "max_ilvl": 505
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55008",
+      "obj": {
+        "i": 55008,
+        "n": "The Shifting Oubliettes of Lyhe Ghiah",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 80,
+        "max_ilvl": 505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26745",
+      "obj": {
+        "i": 26745,
+        "n": "Timeworn Zonureskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    }
+  ]
+}

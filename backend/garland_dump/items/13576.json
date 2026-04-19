@@ -1,0 +1,118 @@
+{
+  "item": {
+    "name": "Umbral Nodule",
+    "description": "A crystalline amalgamation of umbrally charged crystals.",
+    "id": 13576,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 3564,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26053,
+    "tradeShops": [
+      {
+        "shop": "Luminous Crystal Exchange",
+        "npcs": [
+          1016289
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13576",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13569",
+                "amount": 1
+              },
+              {
+                "id": "13572",
+                "amount": 1
+              },
+              {
+                "id": "13574",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      67748
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016289",
+      "obj": {
+        "i": 1016289,
+        "n": "Syndony",
+        "l": 67,
+        "s": 1,
+        "q": 1,
+        "t": "Zodiac Weapon Exchange",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.66,
+          5.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13569",
+      "obj": {
+        "i": 13569,
+        "n": "Luminous Ice Crystal",
+        "l": 1,
+        "c": 20022,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13572",
+      "obj": {
+        "i": 13572,
+        "n": "Luminous Earth Crystal",
+        "l": 1,
+        "c": 20024,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13574",
+      "obj": {
+        "i": 13574,
+        "n": "Luminous Water Crystal",
+        "l": 1,
+        "c": 20026,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67748",
+      "obj": {
+        "i": 67748,
+        "n": "Soul without Life",
+        "g": 88,
+        "l": "Azys Lla",
+        "s": 2,
+        "r": 1,
+        "f": 1
+      }
+    }
+  ]
+}

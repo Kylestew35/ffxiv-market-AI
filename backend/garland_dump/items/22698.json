@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Effigy Component Materials",
+    "description": "Various materials necessary to craft components for the Namazu effigy.<br><br>※Only for use in Namazu society quests.",
+    "id": 22698,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "22724": 1
+    },
+    "usedInQuest": [
+      68637
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22724",
+      "obj": {
+        "i": 22724,
+        "n": "Effigy Components",
+        "l": 150,
+        "c": 21012,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68637",
+      "obj": {
+        "i": 68637,
+        "n": "Into the Fire",
+        "g": 60,
+        "l": "The Azim Steppe",
+        "s": 6,
+        "f": 1
+      }
+    }
+  ]
+}

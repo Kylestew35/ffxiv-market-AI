@@ -1,0 +1,776 @@
+{
+  "item": {
+    "name": "Silver Brocade",
+    "description": "A luxurious fabric woven from silver thread, featuring raised patterns.",
+    "id": 7617,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 1164,
+    "ilvl": 70,
+    "category": 51,
+    "dyecount": 0,
+    "sell_price": 18,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21608,
+    "tradeCurrency": [
+      {
+        "shop": "Artisan Tools (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7528",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7617",
+                "amount": 2,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Artisan Gear (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7521",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7617",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10053",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7617",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10047",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7617",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10048",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7617",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10145",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7617",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4720",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7617",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 30302,
+        "job": 13,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "controlReq": 318,
+        "craftsmanshipReq": 347,
+        "unlockId": 7783,
+        "ingredients": [
+          {
+            "id": 5338,
+            "amount": 2,
+            "quality": 516.9173
+          },
+          {
+            "id": 5064,
+            "amount": 1,
+            "quality": 216.16542
+          },
+          {
+            "id": 6,
+            "amount": 11
+          },
+          {
+            "id": 4,
+            "amount": 10
+          }
+        ],
+        "complexity": {
+          "nq": 316,
+          "hq": 336
+        }
+      }
+    ],
+    "ingredient_of": {
+      "8037": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Silk Thread",
+      "id": 5338,
+      "icon": 21657,
+      "category": 51,
+      "ilvl": 55,
+      "price": 435,
+      "craft": [
+        {
+          "id": 1386,
+          "job": 13,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5350,
+              "amount": 2
+            },
+            {
+              "id": 5491,
+              "amount": 1
+            },
+            {
+              "id": 12,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 70,
+            "hq": 90
+          }
+        }
+      ],
+      "desynthedFrom": [
+        2864,
+        7502,
+        7496,
+        7508,
+        8249
+      ]
+    },
+    {
+      "name": "Silkworm Cocoon",
+      "id": 5350,
+      "icon": 21661,
+      "category": 51,
+      "ilvl": 55,
+      "price": 522,
+      "ventures": [
+        518,
+        381
+      ],
+      "nodes": [
+        216
+      ]
+    },
+    {
+      "name": "Effervescent Water",
+      "id": 5491,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 11,
+      "price": 16,
+      "ventures": [
+        105
+      ],
+      "nodes": [
+        47
+      ]
+    },
+    {
+      "name": "Silver Ingot",
+      "id": 5064,
+      "icon": 20810,
+      "category": 49,
+      "ilvl": 23,
+      "price": 176,
+      "craft": [
+        {
+          "id": 725,
+          "job": 11,
+          "rlvl": 23,
+          "durability": 40,
+          "quality": 480,
+          "progress": 39,
+          "lvl": 23,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5113,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        9530,
+        4462
+      ],
+      "treasure": [
+        6688,
+        6689
+      ]
+    },
+    {
+      "name": "Silver Ore",
+      "id": 5113,
+      "icon": 21211,
+      "category": 48,
+      "ilvl": 23,
+      "price": 52,
+      "voyages": [
+        {
+          "id": 16,
+          "type": 0
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5113",
+                  "amount": 8
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "ventures": [
+        108
+      ],
+      "nodes": [
+        47
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5350",
+      "obj": {
+        "i": 5350,
+        "n": "Silkworm Cocoon",
+        "l": 55,
+        "c": 21661,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5491",
+      "obj": {
+        "i": 5491,
+        "n": "Effervescent Water",
+        "l": 11,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "216",
+      "obj": {
+        "i": 216,
+        "n": "Nine Ivies",
+        "l": 50,
+        "t": 3,
+        "z": 55,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "5113",
+      "obj": {
+        "i": 5113,
+        "n": "Silver Ore",
+        "l": 23,
+        "c": 21211,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7528",
+      "obj": {
+        "i": 7528,
+        "n": "Artisan's Needle",
+        "l": 70,
+        "c": 35512,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "7521",
+      "obj": {
+        "i": 7521,
+        "n": "Artisan's Spectacles",
+        "l": 70,
+        "c": 40925,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10053",
+      "obj": {
+        "i": 10053,
+        "n": "Artisan's Gown",
+        "l": 70,
+        "c": 42413,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10047",
+      "obj": {
+        "i": 10047,
+        "n": "Artisan's Fingerstalls",
+        "l": 70,
+        "c": 44298,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10048",
+      "obj": {
+        "i": 10048,
+        "n": "Artisan's Chausses",
+        "l": 70,
+        "c": 45522,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "10145",
+      "obj": {
+        "i": 10145,
+        "n": "Artisan's Pattens",
+        "l": 70,
+        "c": 46440,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "4720",
+      "obj": {
+        "i": 4720,
+        "n": "Fish Soup",
+        "l": 43,
+        "c": 24105,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "7783",
+      "obj": {
+        "i": 7783,
+        "n": "Master Weaver I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5338",
+      "obj": {
+        "i": 5338,
+        "n": "Silk Thread",
+        "l": 55,
+        "c": 21657,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5064",
+      "obj": {
+        "i": 5064,
+        "n": "Silver Ingot",
+        "l": 23,
+        "c": 20810,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "8037",
+      "obj": {
+        "i": 8037,
+        "n": "Intricate Silver Brocade",
+        "l": 75,
+        "c": 21608,
+        "t": 51
+      }
+    }
+  ]
+}

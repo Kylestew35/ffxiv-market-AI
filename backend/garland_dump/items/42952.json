@@ -1,0 +1,247 @@
+{
+  "item": {
+    "name": "Quetzalli Cane",
+    "jobCategories": "CNJ WHM",
+    "id": 42952,
+    "patch": 7.05,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 720,
+    "category": 9,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 2059,
+    "slot": 13,
+    "elvl": 100,
+    "jobs": 53,
+    "models": [
+      "808-32-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 143,
+      "Magic Damage": 143,
+      "Delay": 3.44,
+      "Mind": 580,
+      "Vitality": 546,
+      "Critical Hit": 380,
+      "Determination": 266
+    },
+    "attr_max": {
+      "Strength": 406,
+      "Dexterity": 580,
+      "Vitality": 607,
+      "Intelligence": 406,
+      "Piety": 266,
+      "GP": 10,
+      "CP": 8,
+      "Tenacity": 380,
+      "Direct Hit Rate": 380,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Determination": 380,
+      "Skill Speed": 380,
+      "Spell Speed": 380,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 1911,
+      "Control": 990,
+      "Gathering": 1864,
+      "Perception": 1065
+    },
+    "icon": 32472,
+    "sharedModels": [
+      43029
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Heliometry (IL 720 Weapons)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "42952",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "48",
+                "amount": 500
+              },
+              {
+                "id": "43548",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Quetzalli Gear Exchange (DoM, IL 720)",
+        "npcs": [
+          1048387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "42952",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 140
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Quetzalli Gear Augmentation (DoM)",
+        "npcs": [
+          1049078
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43029",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "42952",
+                "amount": 1
+              },
+              {
+                "id": "43553",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "43029",
+      "obj": {
+        "i": 43029,
+        "n": "Augmented Quetzalli Cane",
+        "l": 730,
+        "c": 32472,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Allagan Tomestone of Mathematics",
+        "l": 1,
+        "c": "t/65122",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "43548",
+      "obj": {
+        "i": 43548,
+        "n": "Universal Tomestone",
+        "l": 1,
+        "c": 26652,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1049078",
+      "obj": {
+        "i": 1049078,
+        "n": "Theone",
+        "l": 4503,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 4647,
+        "c": [
+          8.54,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "43553",
+      "obj": {
+        "i": 43553,
+        "n": "Surgelight Solvent",
+        "l": 1,
+        "c": 27637,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048387",
+      "obj": {
+        "i": 1048387,
+        "n": "Ryubool Ja",
+        "l": 4504,
+        "s": 5,
+        "t": "Dawn Hunt Vendor",
+        "r": 1,
+        "a": 4537,
+        "c": [
+          13.97,
+          13.49
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "item": {
+    "name": "Saintly Barding",
+    "description": "A suit of chocobo armor designed to spread festive cheer.",
+    "id": 28617,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 58725,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1031939,
+          1031940,
+          1031941
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28617",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28649",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031939",
+      "obj": {
+        "i": 1031939,
+        "n": "Starlight Supplier",
+        "l": 53,
+        "s": 1,
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031940",
+      "obj": {
+        "i": 1031940,
+        "n": "Starlight Supplier",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.01,
+          13.88
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031941",
+      "obj": {
+        "i": 1031941,
+        "n": "Starlight Supplier",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.67,
+          9.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28649",
+      "obj": {
+        "i": 28649,
+        "n": "Certificate of Good Cheer",
+        "l": 1,
+        "c": 26172,
+        "t": 85
+      }
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "item": {
+    "name": "Gloam Coif",
+    "jobCategories": "PGL ROG MNK NIN SAM VPR",
+    "id": 7310,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 16465,
+    "ilvl": 110,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 324,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5598,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 633,
+    "slot": 3,
+    "elvl": 50,
+    "jobs": 102,
+    "models": [
+      "151-3-0-0"
+    ],
+    "attr": {
+      "Defense": 75,
+      "Magic Defense": 75,
+      "Strength": 26,
+      "Dexterity": 26,
+      "Vitality": 26,
+      "Critical Hit": 27,
+      "Skill Speed": 19
+    },
+    "icon": 40429,
+    "sharedModels": [
+      7244,
+      7254,
+      7320,
+      10759,
+      10801,
+      10843
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gerolt's Masterworks Repair (DoW)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7310",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7244",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allied Seals (DoW)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7310",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66995
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7244",
+      "obj": {
+        "i": 7244,
+        "n": "Weathered Gloam Coif",
+        "l": 100,
+        "c": 40429,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "7254",
+      "obj": {
+        "i": 7254,
+        "n": "Weathered Auroral Coif",
+        "l": 100,
+        "c": 40430,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "7320",
+      "obj": {
+        "i": 7320,
+        "n": "Auroral Coif",
+        "l": 110,
+        "c": 40430,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10759",
+      "obj": {
+        "i": 10759,
+        "n": "Chimerical Felt Coif of Striking",
+        "l": 150,
+        "c": 40465,
+        "t": 34,
+        "p": 14968
+      }
+    },
+    {
+      "type": "item",
+      "id": "10801",
+      "obj": {
+        "i": 10801,
+        "n": "Chimerical Felt Coif of Aiming",
+        "l": 150,
+        "c": 40467,
+        "t": 34,
+        "p": 14968
+      }
+    },
+    {
+      "type": "item",
+      "id": "10843",
+      "obj": {
+        "i": 10843,
+        "n": "Chimerical Felt Coif of Scouting",
+        "l": 150,
+        "c": 40466,
+        "t": 34,
+        "p": 14968
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66995",
+      "obj": {
+        "i": 66995,
+        "n": "When the Cold Sets In",
+        "g": 2,
+        "l": "Coerthas Central Highlands",
+        "s": 56
+      }
+    }
+  ]
+}

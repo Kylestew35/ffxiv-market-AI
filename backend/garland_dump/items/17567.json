@@ -1,0 +1,552 @@
+{
+  "item": {
+    "name": "Cloud Mythril Ingot",
+    "description": "An ingot of smelted cloud mythril.",
+    "id": 17567,
+    "patch": 3.55,
+    "patchCategory": 5,
+    "price": 4356,
+    "ilvl": 220,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20833,
+    "ingredient_of": {
+      "17306": 2,
+      "17307": 1,
+      "17308": 1,
+      "17310": 1,
+      "17311": 2,
+      "17312": 1,
+      "17313": 1,
+      "17315": 1,
+      "17316": 2,
+      "17320": 1,
+      "17321": 2,
+      "17325": 1,
+      "17326": 2,
+      "17327": 1,
+      "17328": 1,
+      "17330": 1,
+      "17331": 2,
+      "17332": 1,
+      "17333": 1,
+      "17335": 1,
+      "17336": 2,
+      "17340": 1
+    },
+    "craft": [
+      {
+        "id": 32187,
+        "job": 9,
+        "rlvl": 220,
+        "durability": 70,
+        "quality": 3390,
+        "progress": 900,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 835,
+        "craftsmanshipReq": 870,
+        "quickSynthCraftsmanship": 995,
+        "unlockId": 14127,
+        "ingredients": [
+          {
+            "id": 17570,
+            "amount": 2
+          },
+          {
+            "id": 14955,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 17,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 396,
+          "hq": 416
+        }
+      },
+      {
+        "id": 32188,
+        "job": 10,
+        "rlvl": 220,
+        "durability": 70,
+        "quality": 3390,
+        "progress": 900,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 835,
+        "craftsmanshipReq": 870,
+        "quickSynthCraftsmanship": 995,
+        "unlockId": 14128,
+        "ingredients": [
+          {
+            "id": 17570,
+            "amount": 2
+          },
+          {
+            "id": 14955,
+            "amount": 1
+          },
+          {
+            "id": 15,
+            "amount": 3
+          },
+          {
+            "id": 17,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 396,
+          "hq": 416
+        }
+      },
+      {
+        "id": 32189,
+        "job": 11,
+        "rlvl": 220,
+        "durability": 70,
+        "quality": 3390,
+        "progress": 900,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 835,
+        "craftsmanshipReq": 870,
+        "quickSynthCraftsmanship": 995,
+        "unlockId": 14129,
+        "ingredients": [
+          {
+            "id": 17570,
+            "amount": 2
+          },
+          {
+            "id": 14955,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 3
+          },
+          {
+            "id": 14,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 396,
+          "hq": 416
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Cloud Mythril Ore",
+      "id": 17570,
+      "icon": 21208,
+      "category": 48,
+      "ilvl": 220,
+      "price": 4791,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "17570",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "17570",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lumythrite Sand",
+      "id": 14955,
+      "icon": 21218,
+      "category": 48,
+      "ilvl": 180,
+      "price": 1069,
+      "desynthedFrom": [
+        14215
+      ],
+      "ventures": [
+        628
+      ],
+      "nodes": [
+        355
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "355",
+      "obj": {
+        "i": 355,
+        "n": "Landlord Colony",
+        "l": 60,
+        "t": 1,
+        "z": 2002,
+        "s": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "17306",
+      "obj": {
+        "i": 17306,
+        "n": "Sky Rat Mask of Fending",
+        "l": 255,
+        "c": 40493,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17307",
+      "obj": {
+        "i": 17307,
+        "n": "Sky Rat Harness of Fending",
+        "l": 255,
+        "c": 43316,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17308",
+      "obj": {
+        "i": 17308,
+        "n": "Sky Rat Hook of Fending",
+        "l": 255,
+        "c": 48573,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17310",
+      "obj": {
+        "i": 17310,
+        "n": "Sky Rat Hookboots of Fending",
+        "l": 255,
+        "c": 47070,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17311",
+      "obj": {
+        "i": 17311,
+        "n": "Sky Rat Mask of Maiming",
+        "l": 255,
+        "c": 40495,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17312",
+      "obj": {
+        "i": 17312,
+        "n": "Sky Rat Harness of Maiming",
+        "l": 255,
+        "c": 43318,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17313",
+      "obj": {
+        "i": 17313,
+        "n": "Sky Rat Hook of Maiming",
+        "l": 255,
+        "c": 48575,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17315",
+      "obj": {
+        "i": 17315,
+        "n": "Sky Rat Hookboots of Maiming",
+        "l": 255,
+        "c": 47072,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17316",
+      "obj": {
+        "i": 17316,
+        "n": "Sky Rat Mask of Striking",
+        "l": 255,
+        "c": 40496,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17320",
+      "obj": {
+        "i": 17320,
+        "n": "Sky Rat Ironclad Boots of Striking",
+        "l": 255,
+        "c": 47073,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17321",
+      "obj": {
+        "i": 17321,
+        "n": "Sky Rat Mask of Aiming",
+        "l": 255,
+        "c": 40497,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17325",
+      "obj": {
+        "i": 17325,
+        "n": "Sky Rat Ironclad Boots of Aiming",
+        "l": 255,
+        "c": 47074,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17326",
+      "obj": {
+        "i": 17326,
+        "n": "Sky Rat Mask of Scouting",
+        "l": 255,
+        "c": 40498,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17327",
+      "obj": {
+        "i": 17327,
+        "n": "Sky Rat Harness of Scouting",
+        "l": 255,
+        "c": 43321,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17328",
+      "obj": {
+        "i": 17328,
+        "n": "Sky Rat Hook of Scouting",
+        "l": 255,
+        "c": 48578,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17330",
+      "obj": {
+        "i": 17330,
+        "n": "Sky Rat Hookboots of Scouting",
+        "l": 255,
+        "c": 47075,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17331",
+      "obj": {
+        "i": 17331,
+        "n": "Sky Rat Mask of Healing",
+        "l": 255,
+        "c": 40494,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17332",
+      "obj": {
+        "i": 17332,
+        "n": "Sky Rat Harness of Healing",
+        "l": 255,
+        "c": 43317,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17333",
+      "obj": {
+        "i": 17333,
+        "n": "Sky Rat Hook of Healing",
+        "l": 255,
+        "c": 48574,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17335",
+      "obj": {
+        "i": 17335,
+        "n": "Sky Rat Hookboots of Healing",
+        "l": 255,
+        "c": 47071,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17336",
+      "obj": {
+        "i": 17336,
+        "n": "Sky Rat Mask of Casting",
+        "l": 255,
+        "c": 40492,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17340",
+      "obj": {
+        "i": 17340,
+        "n": "Sky Rat Ironclad Boots of Casting",
+        "l": 255,
+        "c": 47069,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14127",
+      "obj": {
+        "i": 14127,
+        "n": "Master Blacksmith IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "17570",
+      "obj": {
+        "i": 17570,
+        "n": "Cloud Mythril Ore",
+        "l": 220,
+        "c": 21208,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "14955",
+      "obj": {
+        "i": 14955,
+        "n": "Lumythrite Sand",
+        "l": 180,
+        "c": 21218,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "14128",
+      "obj": {
+        "i": 14128,
+        "n": "Master Armorer IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "14129",
+      "obj": {
+        "i": 14129,
+        "n": "Master Goldsmith IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    }
+  ]
+}

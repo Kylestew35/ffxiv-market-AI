@@ -1,0 +1,368 @@
+{
+  "item": {
+    "name": "Crimson Cider",
+    "description": "Official beverage of both the Ala Mhigan Resistance and the Doman Liberation Front, or so cider brewers would have you believe.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 22436,
+    "patch": 4.2,
+    "patchCategory": 6,
+    "price": 2308,
+    "ilvl": 340,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 40
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 47
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 50
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 28
+        }
+      }
+    },
+    "icon": 24405,
+    "craft": [
+      {
+        "id": 32653,
+        "job": 15,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 5200,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22316,
+        "ingredients": [
+          {
+            "id": 21301,
+            "amount": 1
+          },
+          {
+            "id": 19857,
+            "amount": 1
+          },
+          {
+            "id": 19864,
+            "amount": 1
+          },
+          {
+            "id": 19853,
+            "amount": 1
+          },
+          {
+            "id": 19851,
+            "amount": 3
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 264,
+          "hq": 284
+        }
+      }
+    ],
+    "quests": [
+      68622
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Crimson Pepper",
+      "id": 21301,
+      "icon": 25919,
+      "category": 45,
+      "ilvl": 320,
+      "price": 93,
+      "desynthedFrom": [
+        24885
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21301",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21301",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jhammel Ginger",
+      "id": 19857,
+      "icon": 25012,
+      "category": 45,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        700
+      ],
+      "nodes": [
+        526
+      ]
+    },
+    {
+      "name": "Cumin Seeds",
+      "id": 19864,
+      "icon": 25354,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1304,
+        1305,
+        1306
+      ],
+      "ventures": [
+        692
+      ],
+      "nodes": [
+        510
+      ]
+    },
+    {
+      "name": "Kudzu Root",
+      "id": 19853,
+      "icon": 25005,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        691
+      ],
+      "nodes": [
+        509
+      ]
+    },
+    {
+      "name": "Loquat",
+      "id": 19851,
+      "icon": 25317,
+      "category": 45,
+      "ilvl": 260,
+      "price": 514,
+      "ventures": [
+        668
+      ],
+      "nodes": [
+        506
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "526",
+      "obj": {
+        "i": 526,
+        "n": "Abalathia's Skull",
+        "l": 70,
+        "t": 3,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "510",
+      "obj": {
+        "i": 510,
+        "n": "East Othard Coastline",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "509",
+      "obj": {
+        "i": 509,
+        "n": "Dimwold",
+        "l": 65,
+        "t": 3,
+        "z": 2406
+      }
+    },
+    {
+      "type": "node",
+      "id": "506",
+      "obj": {
+        "i": 506,
+        "n": "East End",
+        "l": 65,
+        "t": 2,
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "22316",
+      "obj": {
+        "i": 22316,
+        "n": "Master Culinarian VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21301",
+      "obj": {
+        "i": 21301,
+        "n": "Crimson Pepper",
+        "l": 320,
+        "c": 25919,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19857",
+      "obj": {
+        "i": 19857,
+        "n": "Jhammel Ginger",
+        "l": 285,
+        "c": 25012,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19864",
+      "obj": {
+        "i": 19864,
+        "n": "Cumin Seeds",
+        "l": 276,
+        "c": 25354,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19851",
+      "obj": {
+        "i": 19851,
+        "n": "Loquat",
+        "l": 260,
+        "c": 25317,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68622",
+      "obj": {
+        "i": 68622,
+        "n": "Precious Reclamation",
+        "g": 98,
+        "l": "The Doman Enclave",
+        "s": 10,
+        "f": 1
+      }
+    }
+  ]
+}

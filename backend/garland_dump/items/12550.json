@@ -1,0 +1,689 @@
+{
+  "item": {
+    "name": "Carnelian",
+    "description": "A translucent red jewel. Its relative softness makes it easy to carve, and it has been used by royalty throughout history for signet rings.",
+    "id": 12550,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 4788,
+    "ilvl": 145,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21325,
+    "vendors": [
+      1001977
+    ],
+    "ingredient_of": {
+      "10661": 1,
+      "10891": 1,
+      "18198": 1,
+      "18361": 1,
+      "18367": 1,
+      "18671": 1,
+      "19642": 1,
+      "19643": 1,
+      "10645": 2,
+      "11959": 1,
+      "16635": 1,
+      "16683": 1,
+      "16684": 1,
+      "16685": 1,
+      "16686": 1,
+      "16687": 1,
+      "15967": 2,
+      "15968": 2
+    },
+    "craft": [
+      {
+        "id": 2540,
+        "job": 11,
+        "rlvl": 142,
+        "durability": 35,
+        "quality": 1992,
+        "progress": 230,
+        "lvl": 57,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12560,
+            "amount": 3
+          },
+          {
+            "id": 12561,
+            "amount": 1,
+            "quality": 241.19164
+          },
+          {
+            "id": 10,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 63,
+          "hq": 83
+        }
+      }
+    ],
+    "desynthedFrom": [
+      16635
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Raw Carnelian",
+      "id": 12560,
+      "icon": 21471,
+      "category": 48,
+      "ilvl": 145,
+      "price": 3158,
+      "ventures": [
+        457
+      ],
+      "nodes": [
+        352
+      ]
+    },
+    {
+      "name": "Cloud Mica Whetstone",
+      "id": 12561,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 139,
+      "price": 2520,
+      "craft": [
+        {
+          "id": 2541,
+          "job": 11,
+          "rlvl": 139,
+          "durability": 35,
+          "quality": 1936,
+          "progress": 210,
+          "lvl": 56,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12539,
+              "amount": 3
+            },
+            {
+              "id": 10,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 55,
+            "hq": 75
+          }
+        }
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Cloud Mica",
+      "id": 12539,
+      "icon": 21226,
+      "category": 48,
+      "ilvl": 142,
+      "price": 843,
+      "desynthedFrom": [
+        12787
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12539",
+                  "amount": 4
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021
+      ],
+      "ventures": [
+        456
+      ],
+      "nodes": [
+        355
+      ],
+      "vendors": [
+        1017172
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "352",
+      "obj": {
+        "i": 352,
+        "n": "Avalonia Fallen",
+        "l": 60,
+        "t": 0,
+        "z": 2000,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12539",
+      "obj": {
+        "i": 12539,
+        "n": "Cloud Mica",
+        "l": 142,
+        "c": 21226,
+        "t": 48,
+        "p": 843
+      }
+    },
+    {
+      "type": "node",
+      "id": "355",
+      "obj": {
+        "i": 355,
+        "n": "Landlord Colony",
+        "l": 60,
+        "t": 1,
+        "z": 2002,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001977",
+      "obj": {
+        "i": 1001977,
+        "n": "Sileas",
+        "l": 41,
+        "s": 2,
+        "t": "Jeweler",
+        "c": [
+          "10.0",
+          "12.5"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10661",
+      "obj": {
+        "i": 10661,
+        "n": "Hardsilver Planisphere",
+        "l": 139,
+        "c": 34860,
+        "t": 89,
+        "p": 27960
+      }
+    },
+    {
+      "type": "item",
+      "id": "12560",
+      "obj": {
+        "i": 12560,
+        "n": "Raw Carnelian",
+        "l": 145,
+        "c": 21471,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12561",
+      "obj": {
+        "i": 12561,
+        "n": "Cloud Mica Whetstone",
+        "l": 139,
+        "c": 21470,
+        "t": 48,
+        "p": 2520
+      }
+    },
+    {
+      "type": "item",
+      "id": "10891",
+      "obj": {
+        "i": 10891,
+        "n": "Chimerical Felt Alb of Healing",
+        "l": 145,
+        "c": 43692,
+        "t": 35,
+        "p": 17915
+      }
+    },
+    {
+      "type": "item",
+      "id": "18198",
+      "obj": {
+        "i": 18198,
+        "n": "Koppranickel Pole",
+        "l": 265,
+        "c": 33091,
+        "t": 7,
+        "p": 37778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18361",
+      "obj": {
+        "i": 18361,
+        "n": "Durium Hairpin of Fending",
+        "l": 273,
+        "c": 40776,
+        "t": 34,
+        "p": 21403
+      }
+    },
+    {
+      "type": "item",
+      "id": "18367",
+      "obj": {
+        "i": 18367,
+        "n": "Durium Hairpin of Maiming",
+        "l": 273,
+        "c": 40777,
+        "t": 34,
+        "p": 21403
+      }
+    },
+    {
+      "type": "item",
+      "id": "18671",
+      "obj": {
+        "i": 18671,
+        "n": "Palladium Tuck",
+        "l": 285,
+        "c": 36708,
+        "t": 97,
+        "p": 39564
+      }
+    },
+    {
+      "type": "item",
+      "id": "19642",
+      "obj": {
+        "i": 19642,
+        "n": "Serge Turban of Crafting",
+        "l": 260,
+        "c": 41393,
+        "t": 34,
+        "p": 20386
+      }
+    },
+    {
+      "type": "item",
+      "id": "19643",
+      "obj": {
+        "i": 19643,
+        "n": "Marid Leather Bolero of Crafting",
+        "l": 260,
+        "c": 42566,
+        "t": 35,
+        "p": 33976
+      }
+    },
+    {
+      "type": "item",
+      "id": "10645",
+      "obj": {
+        "i": 10645,
+        "n": "Aurum Regis Staff",
+        "l": 150,
+        "c": 33039,
+        "t": 7,
+        "p": 30888
+      }
+    },
+    {
+      "type": "item",
+      "id": "11959",
+      "obj": {
+        "i": 11959,
+        "n": "Chimerical Felt Turban of Crafting",
+        "l": 150,
+        "c": 41276,
+        "t": 34,
+        "p": 14968
+      }
+    },
+    {
+      "type": "item",
+      "id": "16635",
+      "obj": {
+        "i": 16635,
+        "n": "Teak Cane",
+        "l": 250,
+        "c": 32685,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "16683",
+      "obj": {
+        "i": 16683,
+        "n": "Scintillant Earring of Fending",
+        "l": 250,
+        "c": 55376,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "16684",
+      "obj": {
+        "i": 16684,
+        "n": "Scintillant Earring of Slaying",
+        "l": 250,
+        "c": 55376,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "16685",
+      "obj": {
+        "i": 16685,
+        "n": "Scintillant Earring of Aiming",
+        "l": 250,
+        "c": 55376,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "16686",
+      "obj": {
+        "i": 16686,
+        "n": "Scintillant Earring of Healing",
+        "l": 250,
+        "c": 55376,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "16687",
+      "obj": {
+        "i": 16687,
+        "n": "Scintillant Earring of Casting",
+        "l": 250,
+        "c": 55376,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "15967",
+      "obj": {
+        "i": 15967,
+        "n": "Stuffed Calca",
+        "l": 180,
+        "c": 53115,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15968",
+      "obj": {
+        "i": 15968,
+        "n": "Stuffed Brina",
+        "l": 180,
+        "c": 53116,
+        "t": 78
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "item": {
+    "name": "Allagan Rod",
+    "jobCategories": "THM BLM",
+    "id": 14892,
+    "patch": 3.2,
+    "patchCategory": 0,
+    "price": 50787,
+    "ilvl": 95,
+    "category": 7,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 534,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 547,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 55,
+    "models": [
+      "1001-51-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 62,
+      "Delay": 3.28,
+      "Intelligence": 34,
+      "Vitality": 32,
+      "Direct Hit Rate": 39,
+      "Spell Speed": 27
+    },
+    "icon": 33058,
+    "instances": [
+      30006,
+      30006
+    ],
+    "sharedModels": [
+      15097
+    ],
+    "tradeShops": [
+      {
+        "shop": "Single-handed Arm Exchange",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14892",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "2105",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Two-handed Arm Exchange",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "2105",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14892",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      35874
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30006",
+      "obj": {
+        "i": 30006,
+        "n": "The Binding Coil of Bahamut - Turn 5",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 82
+      }
+    },
+    {
+      "type": "item",
+      "id": "15097",
+      "obj": {
+        "i": 15097,
+        "n": "Replica Allagan Rod",
+        "l": 50,
+        "c": 33058,
+        "t": 7
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "2105",
+      "obj": {
+        "i": 2105,
+        "n": "Allagan Scepter",
+        "l": 95,
+        "c": 32848,
+        "t": 6
+      }
+    },
+    {
+      "type": "item",
+      "id": "35874",
+      "obj": {
+        "i": 35874,
+        "n": "Allagan Weapon Coffer (IL 95)",
+        "l": 1,
+        "c": 26557,
+        "t": 61
+      }
+    }
+  ]
+}

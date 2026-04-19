@@ -1,0 +1,131 @@
+{
+  "item": {
+    "name": "Water Imp",
+    "description": "Legend states these strange creatures can only survive on land as long as the plate atop their heads remains wet.<br><br>Use item to acquire the water imp minion.",
+    "minionrace": "Critter",
+    "tooltip": "Not <Emphasis>more</Emphasis> imps!\r\nThey'll have all our honey!\r\n  - Befuddled Beekeeper",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Waterline",
+    "specialactiondescription": "Reduces ATK of all enemies within range by 40%.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 9351,
+    "patch": 2.51,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59511,
+    "tradeShops": [
+      {
+        "shop": "Purchase Minions (MGP)",
+        "npcs": [
+          1011595
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9351",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 10000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9351",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 10000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 120,
+    "aoe": 1,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 60,
+      "Defense": 30,
+      "Speed": 2
+    },
+    "models": [
+      "8102-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011595",
+      "obj": {
+        "i": 1011595,
+        "n": "Minion Trader",
+        "l": 1484,
+        "s": 2,
+        "r": 1,
+        "a": 1663,
+        "c": [
+          7.77,
+          7.02
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    }
+  ]
+}

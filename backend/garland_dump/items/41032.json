@@ -1,0 +1,100 @@
+{
+  "item": {
+    "name": "Cosmic Crystallite",
+    "description": "This extremely rare form of crystal-based achondrite is infused with aether from its journey through the cosmos. Theoretically, its energies can be extracted in the form of a highly refined liquid essence.",
+    "id": 41032,
+    "patch": 6.55,
+    "patchCategory": 5,
+    "price": 1000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21228,
+    "tradeShops": [
+      {
+        "shop": "Manderville Weapon Materials Exchange",
+        "npcs": [
+          1043892
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41032",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      70342,
+      70343
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043892",
+      "obj": {
+        "i": 1043892,
+        "n": "Jubrunnah",
+        "l": 3707,
+        "s": 1,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3875,
+        "c": [
+          12.22,
+          10.99
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70342",
+      "obj": {
+        "i": 70342,
+        "n": "Resonating with Perfection",
+        "g": 85,
+        "l": "Radz-at-Han",
+        "s": 401,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70343",
+      "obj": {
+        "i": 70343,
+        "n": "Positively Mandervillous",
+        "g": 85,
+        "l": "Radz-at-Han",
+        "s": 451,
+        "r": 1,
+        "f": 1
+      }
+    }
+  ]
+}

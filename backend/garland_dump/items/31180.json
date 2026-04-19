@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Automaton Repair Component Materials",
+    "description": "Assorted materials necessary for creating an automaton repair component.<br><br>※Only for use in dwarf society quests.",
+    "id": 31180,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "31181": 1
+    },
+    "usedInQuest": [
+      69463
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31181",
+      "obj": {
+        "i": 31181,
+        "n": "Automaton Repair Component",
+        "l": 290,
+        "c": 21003,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69463",
+      "obj": {
+        "i": 69463,
+        "n": "Remote Repairs",
+        "g": 67,
+        "l": "Lakeland",
+        "s": 126,
+        "r": 1
+      }
+    }
+  ]
+}

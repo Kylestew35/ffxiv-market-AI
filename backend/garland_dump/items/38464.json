@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Lynx of Imperious Wind Flute",
+    "description": "Emitting a turbulent and oppressive tone, this flute summons a lynx of imperious wind to your side.",
+    "mount": {
+      "name": "Lynx Of Imperious Wind",
+      "action": "Summon forth your lynx of imperious wind, which could be what a certain tempestuous archfiend might look like as a large, winged feline.",
+      "description": "A phantom creation whose elemental aspect is tipped strongly towards astral wind. Its blustery wings call to mind the caprice of Barbariccia, archfiend of wind, but the origins of this familiar are shrouded in unrelenting storms.",
+      "tooltip": "Motes against the tempest.<br>In vain do they struggle...<br>   - Sonu Vanu",
+      "icon": 4242,
+      "guideIcon": 68242
+    },
+    "id": 38464,
+    "patch": 6.2,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20085,
+      20085
+    ],
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38464",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38374",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38464",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38374",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "716-1-4"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20085",
+      "obj": {
+        "i": 20085,
+        "n": "Storm's Crown (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 600
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38374",
+      "obj": {
+        "i": 38374,
+        "n": "Windswept Archfiend Totem",
+        "l": 1,
+        "c": 26629,
+        "t": 61
+      }
+    }
+  ]
+}

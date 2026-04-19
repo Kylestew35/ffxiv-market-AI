@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Minion of Light",
+    "description": "“When Darkness veils the world, three Minions of Light shall come.”<br>─Unknown prophet<br><br>Use item to acquire a Minion of Light.",
+    "minionrace": "Poppet",
+    "tooltip": "Next you'll be telling me\r\nyou're one of the Warriors\r\nof Light.\r\n  - Mother Miounne",
+    "minionskilltype": "",
+    "specialactionname": "None",
+    "id": 6987,
+    "patch": 2.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59458,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6987",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [],
+    "attr": {
+      "HP": 100,
+      "Skill Cost": 20,
+      "Attack": 100,
+      "Defense": 100,
+      "Speed": 3
+    },
+    "models": [
+      "0-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

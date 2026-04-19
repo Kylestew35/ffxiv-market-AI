@@ -1,0 +1,386 @@
+{
+  "item": {
+    "name": "Skybuilders' Cooking Pot",
+    "description": "In times of war, this metallic item of cookware can double as a makeshift helmet, provided the wearer has an unnaturally large head.",
+    "id": 28743,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 35701,
+    "craft": [
+      {
+        "id": 33591,
+        "job": 10,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 28777,
+            "amount": 6
+          },
+          {
+            "id": 28778,
+            "amount": 6
+          },
+          {
+            "id": 12581,
+            "amount": 1,
+            "quality": 227.6033
+          },
+          {
+            "id": 9,
+            "amount": 4
+          },
+          {
+            "id": 11,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 291,
+          "hq": 311
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Skybuilders' Hardsilver Ore",
+      "id": 28777,
+      "icon": 21223,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        665
+      ]
+    },
+    {
+      "name": "Skybuilders' Mythrite Sand",
+      "id": 28778,
+      "icon": 21218,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        666
+      ]
+    },
+    {
+      "name": "Dark Chestnut Lumber",
+      "id": 12581,
+      "icon": 22469,
+      "category": 50,
+      "ilvl": 136,
+      "price": 2592,
+      "craft": [
+        {
+          "id": 2240,
+          "job": 8,
+          "rlvl": 133,
+          "durability": 40,
+          "quality": 1824,
+          "progress": 170,
+          "lvl": 54,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12578,
+              "amount": 5
+            },
+            {
+              "id": 10,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 64,
+            "hq": 84
+          }
+        }
+      ],
+      "desynthedFrom": [
+        20684,
+        36892,
+        36866,
+        36869
+      ],
+      "treasure": [
+        12241
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sky Pirate Spoils (Steel)",
+          "npcs": [
+            1016261,
+            1016496,
+            1016498,
+            1016500,
+            1019106
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12581",
+                  "amount": 6
+                }
+              ],
+              "currency": [
+                {
+                  "id": "13631",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        926,
+        927,
+        928,
+        929,
+        930,
+        931
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Dark Chestnut Log",
+      "id": 12578,
+      "icon": 22420,
+      "category": 50,
+      "ilvl": 136,
+      "price": 753,
+      "leves": [
+        920,
+        921,
+        922,
+        923,
+        924,
+        925
+      ],
+      "ventures": [
+        468
+      ],
+      "nodes": [
+        295
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "665",
+      "obj": {
+        "i": 665,
+        "n": "The Answering Quarter",
+        "l": 60,
+        "t": 0,
+        "z": 2001
+      }
+    },
+    {
+      "type": "node",
+      "id": "666",
+      "obj": {
+        "i": 666,
+        "n": "Riversmeet",
+        "l": 55,
+        "t": 1,
+        "z": 2200
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13631",
+      "obj": {
+        "i": 13631,
+        "n": "Steel Sky Pirate Spoil",
+        "l": 1,
+        "c": 25951,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12578",
+      "obj": {
+        "i": 12578,
+        "n": "Dark Chestnut Log",
+        "l": 136,
+        "c": 22420,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "12241",
+      "obj": {
+        "i": 12241,
+        "n": "Timeworn Archaeoskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "295",
+      "obj": {
+        "i": 295,
+        "n": "The Smoldering Wastes",
+        "l": 55,
+        "t": 2,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "28777",
+      "obj": {
+        "i": 28777,
+        "n": "Skybuilders' Hardsilver Ore",
+        "l": 150,
+        "c": 21223,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "28778",
+      "obj": {
+        "i": 28778,
+        "n": "Skybuilders' Mythrite Sand",
+        "l": 150,
+        "c": 21218,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12581",
+      "obj": {
+        "i": 12581,
+        "n": "Dark Chestnut Lumber",
+        "l": 136,
+        "c": 22469,
+        "t": 50,
+        "p": 2592
+      }
+    }
+  ]
+}

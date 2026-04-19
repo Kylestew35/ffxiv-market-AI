@@ -1,0 +1,82 @@
+{
+  "item": {
+    "name": "Regalia Type-G Title",
+    "description": "A deed certifying your ownership of a brand-new vehicle, embossed with the Regalia crest as a symbol of authenticity.",
+    "mount": {
+      "name": "Regalia Type-G",
+      "action": "Summon forth your Regalia Type-G, ceruleum-powered magitek transportation vehicle crafted by Garlond Ironworks.",
+      "description": "To hear Cid tell it, equal parts elbow grease and gumption were all that was required to see the Type-G (for “Garlond”) fully operational...when, in all truth, the otherworldly carriage most likely required an amazing amount of reverse engineering to recreate.",
+      "tooltip": "Do they truly believe it makes them<br>look more imposing? Or are they<br>merely compensating for something?<br>   - Lalai",
+      "icon": 4138,
+      "guideIcon": 68138
+    },
+    "id": 24624,
+    "patch": 4.56,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26059,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1028254
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24624",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 200000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "457-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1028254",
+      "obj": {
+        "i": 1028254,
+        "n": "Ironworks Vendor",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1485,
+        "c": [
+          5.28,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

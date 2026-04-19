@@ -1,0 +1,676 @@
+{
+  "item": {
+    "name": "Rhea Cloth",
+    "description": "Cloth woven from the plant rhea. Due to the complexity of the spinning process, there are very few clothcrafters in the world who can produce this weave, making it extremely rare. Most known samples are in the possession of Far Eastern royalty.",
+    "id": 19990,
+    "patch": 4.05,
+    "patchCategory": 5,
+    "price": 2268,
+    "ilvl": 320,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21622,
+    "ingredient_of": {
+      "18998": 1,
+      "19000": 3,
+      "19004": 3,
+      "19010": 1,
+      "19012": 3,
+      "19015": 1,
+      "19016": 3,
+      "19018": 3,
+      "19022": 3,
+      "19024": 3,
+      "19717": 1,
+      "19720": 1,
+      "19722": 1,
+      "19725": 1,
+      "20754": 1,
+      "21867": 2,
+      "21941": 1,
+      "22543": 2,
+      "30819": 2,
+      "30823": 2,
+      "30850": 2
+    },
+    "craft": [
+      {
+        "id": 32429,
+        "job": 13,
+        "rlvl": 320,
+        "durability": 70,
+        "quality": 4800,
+        "progress": 1200,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1220,
+        "craftsmanshipReq": 1320,
+        "quickSynthCraftsmanship": 1500,
+        "unlockId": 17874,
+        "ingredients": [
+          {
+            "id": 19991,
+            "amount": 4
+          },
+          {
+            "id": 19975,
+            "amount": 1,
+            "quality": 292.1241
+          },
+          {
+            "id": 19992,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 461,
+          "hq": 481
+        }
+      }
+    ],
+    "desynthedFrom": [
+      23745,
+      21654,
+      22785,
+      21639,
+      21672,
+      21453
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Rhea",
+      "id": 19991,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 300,
+      "price": 556,
+      "ventures": [
+        747
+      ],
+      "nodes": [
+        528
+      ]
+    },
+    {
+      "name": "Bloodhempen Yarn",
+      "id": 19975,
+      "icon": 21658,
+      "category": 51,
+      "ilvl": 255,
+      "price": 2257,
+      "craft": [
+        {
+          "id": 3635,
+          "job": 13,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19976,
+              "amount": 4
+            },
+            {
+              "id": 12,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        16510,
+        18160
+      ],
+      "treasure": [
+        17835
+      ],
+      "leves": [
+        1328,
+        1329,
+        1330
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Bloodhemp",
+      "id": 19976,
+      "icon": 21654,
+      "category": 51,
+      "ilvl": 255,
+      "price": 504,
+      "ventures": [
+        681
+      ],
+      "nodes": [
+        505
+      ]
+    },
+    {
+      "name": "Doman Weave",
+      "id": 19992,
+      "icon": 21605,
+      "category": 51,
+      "ilvl": 320,
+      "price": 2835,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1019450
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "19992",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "19992",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "528",
+      "obj": {
+        "i": 528,
+        "n": "Onsal Hakair",
+        "l": 70,
+        "t": 3,
+        "z": 2411,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19976",
+      "obj": {
+        "i": 19976,
+        "n": "Bloodhemp",
+        "l": 255,
+        "c": 21654,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "505",
+      "obj": {
+        "i": 505,
+        "n": "East End",
+        "l": 60,
+        "t": 3,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019450",
+      "obj": {
+        "i": 1019450,
+        "n": "Enna",
+        "l": 2403,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.95,
+          11.63
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "18998",
+      "obj": {
+        "i": 18998,
+        "n": "True Griffin Chestpiece of Striking",
+        "l": 320,
+        "c": 43347,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "19000",
+      "obj": {
+        "i": 19000,
+        "n": "Indigo Ramie Sarouel of Striking",
+        "l": 320,
+        "c": 45989,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "19004",
+      "obj": {
+        "i": 19004,
+        "n": "Indigo Ramie Tabard of Aiming",
+        "l": 320,
+        "c": 43349,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "19010",
+      "obj": {
+        "i": 19010,
+        "n": "True Griffin Chestpiece of Scouting",
+        "l": 320,
+        "c": 43348,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "19012",
+      "obj": {
+        "i": 19012,
+        "n": "Indigo Ramie Sarouel of Scouting",
+        "l": 320,
+        "c": 45990,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "19015",
+      "obj": {
+        "i": 19015,
+        "n": "True Griffin Hat of Healing",
+        "l": 320,
+        "c": 40752,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "19016",
+      "obj": {
+        "i": 19016,
+        "n": "Indigo Ramie Robe of Healing",
+        "l": 320,
+        "c": 43796,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "19018",
+      "obj": {
+        "i": 19018,
+        "n": "Indigo Ramie Skirt of Healing",
+        "l": 320,
+        "c": 45988,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "19022",
+      "obj": {
+        "i": 19022,
+        "n": "Indigo Ramie Robe of Casting",
+        "l": 320,
+        "c": 43795,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "19024",
+      "obj": {
+        "i": 19024,
+        "n": "Indigo Ramie Skirt of Casting",
+        "l": 320,
+        "c": 45987,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17874",
+      "obj": {
+        "i": 17874,
+        "n": "Master Weaver V",
+        "l": 1,
+        "c": 26158,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19991",
+      "obj": {
+        "i": 19991,
+        "n": "Rhea",
+        "l": 300,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "19975",
+      "obj": {
+        "i": 19975,
+        "n": "Bloodhempen Yarn",
+        "l": 255,
+        "c": 21658,
+        "t": 51,
+        "p": 2257
+      }
+    },
+    {
+      "type": "item",
+      "id": "19992",
+      "obj": {
+        "i": 19992,
+        "n": "Doman Weave",
+        "l": 320,
+        "c": 21605,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "19717",
+      "obj": {
+        "i": 19717,
+        "n": "Ala Mhigan Turban of Crafting",
+        "l": 320,
+        "c": 41740,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "19720",
+      "obj": {
+        "i": 19720,
+        "n": "Ala Mhigan Bottoms of Crafting",
+        "l": 320,
+        "c": 47475,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "19722",
+      "obj": {
+        "i": 19722,
+        "n": "Ala Mhigan Turban of Gathering",
+        "l": 320,
+        "c": 41739,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "19725",
+      "obj": {
+        "i": 19725,
+        "n": "Ala Mhigan Bottoms of Gathering",
+        "l": 320,
+        "c": 47474,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "20754",
+      "obj": {
+        "i": 20754,
+        "n": "Shinryu's Wing",
+        "l": 320,
+        "c": 51358,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "21867",
+      "obj": {
+        "i": 21867,
+        "n": "House Borel Interior Wall",
+        "l": 320,
+        "c": 51239,
+        "t": 73
+      }
+    },
+    {
+      "type": "item",
+      "id": "21941",
+      "obj": {
+        "i": 21941,
+        "n": "Ala Mhigan Gown",
+        "l": 1,
+        "c": 42596,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "22543",
+      "obj": {
+        "i": 22543,
+        "n": "Sewing Baskets",
+        "l": 1,
+        "c": 53218,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "30819",
+      "obj": {
+        "i": 30819,
+        "n": "Tsukuyomi's Moonlit Cane",
+        "l": 290,
+        "c": 32736,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "30823",
+      "obj": {
+        "i": 30823,
+        "n": "Tsukuyomi's Moonlit Ephemeris",
+        "l": 290,
+        "c": 34912,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "30850",
+      "obj": {
+        "i": 30850,
+        "n": "Seiryu's Sanctified Revolver",
+        "l": 290,
+        "c": 34448,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "23745",
+      "obj": {
+        "i": 23745,
+        "n": "Royal Volunteer's Trousers of Casting",
+        "l": 355,
+        "c": 47446,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21654",
+      "obj": {
+        "i": 21654,
+        "n": "Farlander Bottoms of Aiming",
+        "l": 325,
+        "c": 47385,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "22785",
+      "obj": {
+        "i": 22785,
+        "n": "Bonewicca Whisperer's Jacket",
+        "l": 345,
+        "c": 43824,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21639",
+      "obj": {
+        "i": 21639,
+        "n": "Farlander Hood of Maiming",
+        "l": 325,
+        "c": 41720,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "21672",
+      "obj": {
+        "i": 21672,
+        "n": "Farlander Bottoms of Casting",
+        "l": 325,
+        "c": 47380,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21453",
+      "obj": {
+        "i": 21453,
+        "n": "Dai-ryumyaku Kote of Casting",
+        "l": 370,
+        "c": 48706,
+        "t": 37
+      }
+    }
+  ]
+}

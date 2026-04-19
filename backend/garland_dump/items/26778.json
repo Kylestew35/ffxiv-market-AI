@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Fae Gwiber Trumpet",
+    "description": "This horn-carved instrument emits an ethereal tone that beckons an elusive fae gwiber from its hiding place.",
+    "mount": {
+      "name": "Fae Gwiber",
+      "action": "Summon forth your fae gwiber, a draconic arcane entity.",
+      "description": "Desiring to recreate the fantastical beast known as the dragon, a sorcerer from ages past fashioned a horn imbued with Titania's power. The creature which answers the sound is aglow with fae magicks.",
+      "tooltip": "Come to hear about<br>dragon legends, yes, yes?<br>   - Gyodo",
+      "icon": 4148,
+      "guideIcon": 68148
+    },
+    "id": 26778,
+    "patch": 5.0,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "instances": [
+      20063,
+      20063
+    ],
+    "tradeShops": [
+      {
+        "shop": "Glorious Gewgaws",
+        "npcs": [
+          1027565
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27391",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27391",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "555-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20063",
+      "obj": {
+        "i": 20063,
+        "n": "The Dancing Plague (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 430
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027565",
+      "obj": {
+        "i": 1027565,
+        "n": "Fathard",
+        "l": 2952,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 3275,
+        "c": [
+          10.18,
+          11.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27391",
+      "obj": {
+        "i": 27391,
+        "n": "King Totem",
+        "l": 1,
+        "c": 26555,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "item": {
+    "name": "Ballroom Etiquette - Excessive Petticoats",
+    "description": "An illustrated manual of how to cool oneself with at least some semblance of dignity after a rousing circuit of the dance floor. Use to learn the /sweat emote.",
+    "id": 23365,
+    "patch": 4.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26435,
+    "tradeShops": [
+      {
+        "shop": "Exchange artifacts",
+        "npcs": [
+          1025848
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23365",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23164",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Previous Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23365",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46179",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23365",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025848",
+      "obj": {
+        "i": 1025848,
+        "n": "Confederate Custodian",
+        "l": 2409,
+        "s": 2,
+        "r": 1,
+        "a": 2775,
+        "c": [
+          21.29,
+          9.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23164",
+      "obj": {
+        "i": 23164,
+        "n": "Empyrean Potsherd",
+        "l": 1,
+        "c": 26537,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "46179",
+      "obj": {
+        "i": 46179,
+        "n": "Irregular Tomestone of Revelation",
+        "l": 1,
+        "c": "t/26346",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    }
+  ]
+}

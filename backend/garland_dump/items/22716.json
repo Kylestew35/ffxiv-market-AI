@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Land Diving Gear Materials",
+    "description": "Materials required to craft a harness and rope required for land diving.<br><br>※Only for use in Namazu society quests.",
+    "id": 22716,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "22742": 1
+    },
+    "usedInQuest": [
+      68661
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22742",
+      "obj": {
+        "i": 22742,
+        "n": "Land Diving Gear",
+        "l": 150,
+        "c": 21003,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68661",
+      "obj": {
+        "i": 68661,
+        "n": "Taking the Plunge",
+        "g": 61,
+        "l": "The Azim Steppe",
+        "s": 27,
+        "r": 1
+      }
+    }
+  ]
+}

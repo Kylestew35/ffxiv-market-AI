@@ -1,0 +1,417 @@
+{
+  "item": {
+    "name": "Blood Bouillabaisse",
+    "description": "A rich stew of sweet shellfish steeped with spices in a thick tomato-based broth.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27876,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3737,
+    "ilvl": 418,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "CP": {
+          "rate": 21,
+          "limit": 53
+        },
+        "Control": {
+          "rate": 4,
+          "limit": 51
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "CP": {
+          "rate": 26,
+          "limit": 66
+        },
+        "Control": {
+          "rate": 5,
+          "limit": 64
+        }
+      }
+    },
+    "icon": 24111,
+    "vendors": [
+      1027240
+    ],
+    "craft": [
+      {
+        "id": 3906,
+        "job": 15,
+        "rlvl": 418,
+        "durability": 80,
+        "quality": 4500,
+        "progress": 1710,
+        "lvl": 79,
+        "materialQualityFactor": 75,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27825,
+            "amount": 2
+          },
+          {
+            "id": 27838,
+            "amount": 1,
+            "quality": 508.00848
+          },
+          {
+            "id": 27451,
+            "amount": 1
+          },
+          {
+            "id": 27513,
+            "amount": 2
+          },
+          {
+            "id": 12878,
+            "amount": 1
+          },
+          {
+            "id": 4843,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 254,
+          "hq": 274
+        }
+      }
+    ],
+    "quests": [
+      69266
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1314000,
+      "seals": 857
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Blood Tomato",
+      "id": 27825,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1466,
+        1467,
+        1468
+      ],
+      "ventures": [
+        819
+      ],
+      "nodes": [
+        617
+      ]
+    },
+    {
+      "name": "Frantoio Oil",
+      "id": 27838,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 390,
+      "price": 2799,
+      "craft": [
+        {
+          "id": 3877,
+          "job": 15,
+          "rlvl": 390,
+          "durability": 40,
+          "quality": 3010,
+          "progress": 597,
+          "lvl": 71,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27820,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frantoio",
+      "id": 27820,
+      "icon": 25307,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1463,
+        1464,
+        1465
+      ],
+      "ventures": [
+        808
+      ],
+      "nodes": [
+        612
+      ]
+    },
+    {
+      "name": "Rose Shrimp",
+      "id": 27451,
+      "icon": 29008,
+      "category": 47,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        849
+      ],
+      "fishingSpots": [
+        211
+      ]
+    },
+    {
+      "name": "Sweetflesh Oyster",
+      "id": 27513,
+      "icon": 29097,
+      "category": 47,
+      "ilvl": 418,
+      "price": 630,
+      "ventures": [
+        850
+      ],
+      "fishingSpots": [
+        236
+      ]
+    },
+    {
+      "name": "Cyclops Onion",
+      "id": 12878,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        548
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Desert Saffron",
+      "id": 4843,
+      "icon": 25022,
+      "category": 45,
+      "ilvl": 40,
+      "price": 162,
+      "ventures": [
+        282
+      ],
+      "nodes": [
+        133
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "item",
+      "id": "27820",
+      "obj": {
+        "i": 27820,
+        "n": "Frantoio",
+        "l": 390,
+        "c": 25307,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "612",
+      "obj": {
+        "i": 612,
+        "n": "The Chiliad",
+        "l": 75,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "211",
+      "obj": {
+        "i": 211,
+        "n": "The Western Kholusian Coast",
+        "l": 72,
+        "c": 0,
+        "z": 2954,
+        "x": 8.41,
+        "y": 35.23
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "236",
+      "obj": {
+        "i": 236,
+        "n": "The Norvrandt Slope",
+        "l": 80,
+        "c": 0,
+        "z": 2958,
+        "x": 29.03,
+        "y": 14.91
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "133",
+      "obj": {
+        "i": 133,
+        "n": "Broken Water",
+        "l": 35,
+        "t": 3,
+        "z": 45
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027240",
+      "obj": {
+        "i": 1027240,
+        "n": "Hanji-Fae",
+        "l": 2951,
+        "s": 1,
+        "t": "Culinarian",
+        "a": 3371,
+        "c": [
+          9.56,
+          14.74
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27825",
+      "obj": {
+        "i": 27825,
+        "n": "Blood Tomato",
+        "l": 390,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27838",
+      "obj": {
+        "i": 27838,
+        "n": "Frantoio Oil",
+        "l": 390,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27451",
+      "obj": {
+        "i": 27451,
+        "n": "Rose Shrimp",
+        "l": 415,
+        "c": 29008,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27513",
+      "obj": {
+        "i": 27513,
+        "n": "Sweetflesh Oyster",
+        "l": 418,
+        "c": 29097,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12878",
+      "obj": {
+        "i": 12878,
+        "n": "Cyclops Onion",
+        "l": 130,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4843",
+      "obj": {
+        "i": 4843,
+        "n": "Desert Saffron",
+        "l": 40,
+        "c": 25022,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69266",
+      "obj": {
+        "i": 69266,
+        "n": "Commercially Flyable",
+        "g": 132,
+        "l": "Eulmore",
+        "s": 8002,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "item": {
+    "name": "Master Weaver X",
+    "description": "This esoteric tome─the tenth in an increasingly lengthy series─contains advanced clothcraft recipes that can only be learned by dedicated weavers.",
+    "id": 37739,
+    "patch": 6.2,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26157,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Master Recipes II)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "37739",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Master Recipes II",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "37739",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocks": [
+      37765,
+      37770,
+      37773,
+      37775,
+      37778,
+      37780,
+      37783,
+      37785,
+      37788,
+      37790,
+      37793,
+      37795,
+      37834,
+      37699,
+      38912,
+      38914,
+      38917,
+      38919,
+      38927,
+      39308,
+      39309,
+      39311,
+      39313,
+      39314,
+      39315,
+      39470,
+      39242,
+      39650,
+      39655,
+      39661,
+      39663,
+      39665,
+      39671,
+      39673,
+      39675,
+      39676,
+      39677,
+      39678,
+      39680,
+      39681,
+      39682,
+      39683,
+      39720,
+      39914,
+      40404,
+      40405,
+      40406,
+      40408,
+      40409,
+      40410,
+      40412,
+      40413,
+      40414,
+      40380,
+      41421,
+      41592,
+      41593,
+      41595,
+      44246,
+      44247,
+      44249
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "37765",
+      "obj": {
+        "i": 37765,
+        "n": "Rinascita Poleyns of Fending",
+        "l": 610,
+        "c": 47930,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37770",
+      "obj": {
+        "i": 37770,
+        "n": "Rinascita Poleyns of Maiming",
+        "l": 610,
+        "c": 47933,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37773",
+      "obj": {
+        "i": 37773,
+        "n": "Rinascita Jacket of Striking",
+        "l": 610,
+        "c": 42903,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37775",
+      "obj": {
+        "i": 37775,
+        "n": "Rinascita Poleyns of Striking",
+        "l": 610,
+        "c": 47934,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37778",
+      "obj": {
+        "i": 37778,
+        "n": "Rinascita Jacket of Aiming",
+        "l": 610,
+        "c": 42904,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37780",
+      "obj": {
+        "i": 37780,
+        "n": "Rinascita Poleyns of Aiming",
+        "l": 610,
+        "c": 47935,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37783",
+      "obj": {
+        "i": 37783,
+        "n": "Rinascita Jacket of Scouting",
+        "l": 610,
+        "c": 42902,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37785",
+      "obj": {
+        "i": 37785,
+        "n": "Rinascita Poleyns of Scouting",
+        "l": 610,
+        "c": 47936,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37788",
+      "obj": {
+        "i": 37788,
+        "n": "Rinascita Coat of Healing",
+        "l": 610,
+        "c": 42901,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37790",
+      "obj": {
+        "i": 37790,
+        "n": "Rinascita Poleyns of Healing",
+        "l": 610,
+        "c": 47932,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37793",
+      "obj": {
+        "i": 37793,
+        "n": "Rinascita Coat of Casting",
+        "l": 610,
+        "c": 42898,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37795",
+      "obj": {
+        "i": 37795,
+        "n": "Rinascita Poleyns of Casting",
+        "l": 610,
+        "c": 47931,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37834",
+      "obj": {
+        "i": 37834,
+        "n": "Bayberry Cloth",
+        "l": 610,
+        "c": 21684,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "37699",
+      "obj": {
+        "i": 37699,
+        "n": "Water Otter Fountain Lumber",
+        "l": 610,
+        "c": 22468,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "38912",
+      "obj": {
+        "i": 38912,
+        "n": "Indagator's Coat of Crafting",
+        "l": 620,
+        "c": 42927,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38914",
+      "obj": {
+        "i": 38914,
+        "n": "Indagator's Trousers of Crafting",
+        "l": 620,
+        "c": 47958,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38917",
+      "obj": {
+        "i": 38917,
+        "n": "Indagator's Doublet Vest of Gathering",
+        "l": 620,
+        "c": 42926,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38919",
+      "obj": {
+        "i": 38919,
+        "n": "Indagator's Bottoms of Gathering",
+        "l": 620,
+        "c": 47957,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38927",
+      "obj": {
+        "i": 38927,
+        "n": "Indagator's Bracelet of Gathering",
+        "l": 620,
+        "c": 55864,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39308",
+      "obj": {
+        "i": 39308,
+        "n": "Salon Server's Hat",
+        "l": 1,
+        "c": 56547,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39309",
+      "obj": {
+        "i": 39309,
+        "n": "Salon Server's Vest",
+        "l": 1,
+        "c": 42929,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39311",
+      "obj": {
+        "i": 39311,
+        "n": "Salon Server's Bottoms",
+        "l": 1,
+        "c": 47960,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39313",
+      "obj": {
+        "i": 39313,
+        "n": "Salon Server's Dress Vest",
+        "l": 1,
+        "c": 42928,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39314",
+      "obj": {
+        "i": 39314,
+        "n": "Salon Server's Dress Gloves",
+        "l": 1,
+        "c": 56067,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39315",
+      "obj": {
+        "i": 39315,
+        "n": "Salon Server's Skirt",
+        "l": 1,
+        "c": 47959,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39470",
+      "obj": {
+        "i": 39470,
+        "n": "Flamecloaked Barding",
+        "l": 1,
+        "c": 58773,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39242",
+      "obj": {
+        "i": 39242,
+        "n": "Smaller Water Otter Fountain Lumber",
+        "l": 620,
+        "c": 22469,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "39650",
+      "obj": {
+        "i": 39650,
+        "n": "Diadochos Headband of Fending",
+        "l": 640,
+        "c": 56581,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39655",
+      "obj": {
+        "i": 39655,
+        "n": "Diadochos Headband of Maiming",
+        "l": 640,
+        "c": 56582,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39661",
+      "obj": {
+        "i": 39661,
+        "n": "Diadochos Jacket of Striking",
+        "l": 640,
+        "c": 42967,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39663",
+      "obj": {
+        "i": 39663,
+        "n": "Diadochos Bottoms of Striking",
+        "l": 640,
+        "c": 47997,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39665",
+      "obj": {
+        "i": 39665,
+        "n": "Diadochos Headband of Aiming",
+        "l": 640,
+        "c": 56583,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39671",
+      "obj": {
+        "i": 39671,
+        "n": "Diadochos Jacket of Scouting",
+        "l": 640,
+        "c": 42968,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39673",
+      "obj": {
+        "i": 39673,
+        "n": "Diadochos Bottoms of Scouting",
+        "l": 640,
+        "c": 47998,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39675",
+      "obj": {
+        "i": 39675,
+        "n": "Diadochos Beret of Healing",
+        "l": 640,
+        "c": 56584,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39676",
+      "obj": {
+        "i": 39676,
+        "n": "Diadochos Coat of Healing",
+        "l": 640,
+        "c": 42965,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39677",
+      "obj": {
+        "i": 39677,
+        "n": "Diadochos Armlets of Healing",
+        "l": 640,
+        "c": 56097,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39678",
+      "obj": {
+        "i": 39678,
+        "n": "Diadochos Bottoms of Healing",
+        "l": 640,
+        "c": 47995,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39680",
+      "obj": {
+        "i": 39680,
+        "n": "Diadochos Beret of Casting",
+        "l": 640,
+        "c": 56585,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39681",
+      "obj": {
+        "i": 39681,
+        "n": "Diadochos Coat of Casting",
+        "l": 640,
+        "c": 42966,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39682",
+      "obj": {
+        "i": 39682,
+        "n": "Diadochos Armlets of Casting",
+        "l": 640,
+        "c": 56098,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39683",
+      "obj": {
+        "i": 39683,
+        "n": "Diadochos Bottoms of Casting",
+        "l": 640,
+        "c": 47996,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39720",
+      "obj": {
+        "i": 39720,
+        "n": "Garnet Cotton",
+        "l": 640,
+        "c": 21615,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "39914",
+      "obj": {
+        "i": 39914,
+        "n": "Uncharted Course Lumber",
+        "l": 620,
+        "c": 22454,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "40404",
+      "obj": {
+        "i": 40404,
+        "n": "Plain Pajama Eye Mask",
+        "l": 1,
+        "c": 56591,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "40405",
+      "obj": {
+        "i": 40405,
+        "n": "Plain Pajama Shirt",
+        "l": 1,
+        "c": 42972,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "40406",
+      "obj": {
+        "i": 40406,
+        "n": "Plain Pajama Bottoms",
+        "l": 1,
+        "c": 57500,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "40408",
+      "obj": {
+        "i": 40408,
+        "n": "Cactuar Pajama Eye Mask",
+        "l": 1,
+        "c": 56592,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "40409",
+      "obj": {
+        "i": 40409,
+        "n": "Cactuar Pajama Shirt",
+        "l": 1,
+        "c": 42973,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "40410",
+      "obj": {
+        "i": 40410,
+        "n": "Cactuar Pajama Bottoms",
+        "l": 1,
+        "c": 57501,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "40412",
+      "obj": {
+        "i": 40412,
+        "n": "Chocobo Pajama Eye Mask",
+        "l": 1,
+        "c": 56593,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "40413",
+      "obj": {
+        "i": 40413,
+        "n": "Chocobo Pajama Shirt",
+        "l": 1,
+        "c": 42974,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "40414",
+      "obj": {
+        "i": 40414,
+        "n": "Chocobo Pajama Bottoms",
+        "l": 1,
+        "c": 57502,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "40380",
+      "obj": {
+        "i": 40380,
+        "n": "Wind-up Barbariccia",
+        "l": 1,
+        "c": 59888,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "41421",
+      "obj": {
+        "i": 41421,
+        "n": "Aetherial Arbor Lumber",
+        "l": 620,
+        "c": 22471,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41592",
+      "obj": {
+        "i": 41592,
+        "n": "Martial Artist's Vest",
+        "l": 1,
+        "c": 57013,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "41593",
+      "obj": {
+        "i": 41593,
+        "n": "Martial Artist's Slops",
+        "l": 1,
+        "c": 57539,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "41595",
+      "obj": {
+        "i": 41595,
+        "n": "Martial Artist's Sleeveless Vest",
+        "l": 1,
+        "c": 57014,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "44246",
+      "obj": {
+        "i": 44246,
+        "n": "Turali Trader's Shirt",
+        "l": 1,
+        "c": 57115,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "44247",
+      "obj": {
+        "i": 44247,
+        "n": "Turali Trader's Culottes",
+        "l": 1,
+        "c": 57643,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "44249",
+      "obj": {
+        "i": 44249,
+        "n": "Turali Traveler's Shirt",
+        "l": 1,
+        "c": 57116,
+        "t": 35
+      }
+    }
+  ]
+}

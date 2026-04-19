@@ -1,0 +1,198 @@
+{
+  "item": {
+    "name": "Whiteloom",
+    "description": "A mushroom/loom-like flying fish native to the Sea of Clouds.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "There is debate over whether this denizen of the Sea of Clouds is called a whiteloom or a whiteroom. Proponents of the former point to the spinning and weaving motions the creature makes when airborne. Proponents of the latter claim that one only need gaze upon the creature's fungus-like shape to realize that they have the right of it.",
+      "icon": 79719,
+      "spots": [
+        {
+          "spot": 138,
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 335,
+          "baits": [
+            [
+              12708
+            ]
+          ]
+        },
+        {
+          "spot": 10021,
+          "hookset": "Precision Hookset",
+          "ff14anglerId": 335,
+          "baits": [
+            [
+              12708
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12735,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1235,
+    "ilvl": 130,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29719,
+    "vendors": [
+      1016093
+    ],
+    "tradeShops": [
+      {
+        "shop": "Vanu Whitebone Exchange",
+        "npcs": [
+          1016093
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12735",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21074",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fishingSpots": [
+      138,
+      153,
+      10021
+    ],
+    "desynthedTo": [
+      8144,
+      5825,
+      12899
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "138",
+      "obj": {
+        "i": 138,
+        "n": "The Blue Window",
+        "l": 56,
+        "c": 4,
+        "z": 2100,
+        "x": 7.66,
+        "y": 11.54
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "153",
+      "obj": {
+        "i": 153,
+        "n": "Calm Cloudtop",
+        "l": 60,
+        "c": 4,
+        "z": 1647,
+        "x": 28,
+        "y": 33
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10021",
+      "obj": {
+        "i": 10021,
+        "n": "Calm Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 28,
+        "y": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "12708",
+      "obj": {
+        "i": 12708,
+        "n": "Red Balloon",
+        "l": 130,
+        "c": 27025,
+        "t": 33,
+        "p": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "8144",
+      "obj": {
+        "i": 8144,
+        "n": "Clear Demimateria III",
+        "l": 50,
+        "c": 20239,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "5825",
+      "obj": {
+        "i": 5825,
+        "n": "Allagan Silver Piece",
+        "l": 25,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12899",
+      "obj": {
+        "i": 12899,
+        "n": "Porcini",
+        "l": 120,
+        "c": 25401,
+        "t": 45
+      }
+    }
+  ]
+}

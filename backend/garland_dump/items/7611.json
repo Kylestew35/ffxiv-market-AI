@@ -1,0 +1,149 @@
+{
+  "item": {
+    "name": "Fragrant Log",
+    "description": "A pleasant-smelling log obtained in the Black Shroud.",
+    "id": 7611,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 388,
+    "ilvl": 70,
+    "category": 50,
+    "dyecount": 0,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22415,
+    "nodes": [
+      242
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Forager Gear",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7532",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7611",
+                "amount": 20
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "7522",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7611",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6141",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7611",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "242",
+      "obj": {
+        "i": 242,
+        "n": "Upper Paths",
+        "l": 50,
+        "t": 2,
+        "z": 56,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7532",
+      "obj": {
+        "i": 7532,
+        "n": "Forager's Hatchet",
+        "l": 70,
+        "c": 38112,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "7522",
+      "obj": {
+        "i": 7522,
+        "n": "Forager's Hat",
+        "l": 70,
+        "c": 41194,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "6141",
+      "obj": {
+        "i": 6141,
+        "n": "Cordial",
+        "l": 25,
+        "c": 20622,
+        "t": 44
+      }
+    }
+  ]
+}

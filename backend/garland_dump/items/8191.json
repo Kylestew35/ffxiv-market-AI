@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Wind-up Gilgamesh",
+    "description": "Several arms appear to be missing, but that does not seem to otherwise hinder basic functionality.<br><br>Use item to acquire the wind-up Gilgamesh minion.",
+    "minionrace": "Poppet",
+    "tooltip": "For Gilgamesh... It is\r\nembiggening time!\r\n  - Gilgamesh",
+    "minionskilltype": "Damage",
+    "specialactionname": "Bitter End",
+    "specialactiondescription": "Delivers an attack with a potency of 300 to all enemies within range. The action party is immediately withdrawn from the playing field after execution.",
+    "id": 8191,
+    "patch": 2.3,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59476,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8191",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 485,
+      "Skill Cost": 30,
+      "Attack": 40,
+      "Defense": 55,
+      "Speed": 4
+    },
+    "models": [
+      "8079-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "item": {
+    "name": "Loaghtan Cordon Bleu",
+    "description": "Lean loaghtan chops sliced horizontally, stuffed with a thick slice of cheese, breaded, and fried to a golden brown.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 16714,
+    "patch": 3.4,
+    "patchCategory": 6,
+    "price": 2178,
+    "ilvl": 250,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 23,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Skill Speed": {
+          "rate": 8,
+          "limit": 34
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 34
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 20
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Skill Speed": {
+          "rate": 10,
+          "limit": 42
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 43
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 25
+        }
+      }
+    },
+    "icon": 24363,
+    "craft": [
+      {
+        "id": 32049,
+        "job": 15,
+        "rlvl": 250,
+        "durability": 70,
+        "quality": 3800,
+        "progress": 1000,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 955,
+        "craftsmanshipReq": 995,
+        "quickSynthCraftsmanship": 1100,
+        "unlockId": 14133,
+        "ingredients": [
+          {
+            "id": 14145,
+            "amount": 1
+          },
+          {
+            "id": 9371,
+            "amount": 1
+          },
+          {
+            "id": 16735,
+            "amount": 1
+          },
+          {
+            "id": 12881,
+            "amount": 1,
+            "quality": 254.7379
+          },
+          {
+            "id": 14144,
+            "amount": 1
+          },
+          {
+            "id": 12901,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 737,
+          "hq": 757
+        }
+      }
+    ],
+    "quests": [
+      67884
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Loaghtan Fillet",
+      "id": 14145,
+      "icon": 25159,
+      "category": 45,
+      "ilvl": 180,
+      "price": 1140,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14145",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14145",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smoked Bacon",
+      "id": 9371,
+      "icon": 24362,
+      "category": 45,
+      "ilvl": 110,
+      "price": 696,
+      "tradeShops": [
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9371",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9371",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9371",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stone Cheese",
+      "id": 16735,
+      "icon": 24458,
+      "category": 45,
+      "ilvl": 250,
+      "price": 1287,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "16735",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "16735",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 8
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Highland Flour",
+      "id": 12881,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 133,
+      "price": 842,
+      "craft": [
+        {
+          "id": 2817,
+          "job": 15,
+          "rlvl": 125,
+          "durability": 40,
+          "quality": 1712,
+          "progress": 130,
+          "lvl": 52,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12880,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Highland Wheat",
+      "id": 12880,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        466
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Mature Olive Oil",
+      "id": 14144,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 180,
+      "price": 285,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14144",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14144",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12880",
+      "obj": {
+        "i": 12880,
+        "n": "Highland Wheat",
+        "l": 130,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14133",
+      "obj": {
+        "i": 14133,
+        "n": "Master Culinarian IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "14145",
+      "obj": {
+        "i": 14145,
+        "n": "Loaghtan Fillet",
+        "l": 180,
+        "c": 25159,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "9371",
+      "obj": {
+        "i": 9371,
+        "n": "Smoked Bacon",
+        "l": 110,
+        "c": 24362,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "16735",
+      "obj": {
+        "i": 16735,
+        "n": "Stone Cheese",
+        "l": 250,
+        "c": 24458,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12881",
+      "obj": {
+        "i": 12881,
+        "n": "Highland Flour",
+        "l": 133,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "14144",
+      "obj": {
+        "i": 14144,
+        "n": "Mature Olive Oil",
+        "l": 180,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67884",
+      "obj": {
+        "i": 67884,
+        "n": "Honorable Heroes",
+        "g": 5,
+        "l": "Southern Thanalan",
+        "s": 8
+      }
+    }
+  ]
+}

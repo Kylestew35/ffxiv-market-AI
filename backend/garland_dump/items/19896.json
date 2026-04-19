@@ -1,0 +1,505 @@
+{
+  "item": {
+    "name": "Grade 2 Reisui of Strength",
+    "description": "When applied to items such as battle gear, this Far Eastern potation will, similarly to Eorzean dissolvents, dissolve away minute amounts of aether aspected to elements detrimental to strength, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 19896,
+    "patch": 4.05,
+    "patchCategory": 5,
+    "price": 11340,
+    "ilvl": 320,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 28,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20644,
+    "ingredient_of": {
+      "18970": 3,
+      "18972": 3,
+      "18982": 3,
+      "18991": 1,
+      "18992": 2,
+      "18993": 1,
+      "18994": 2,
+      "18995": 1,
+      "18997": 1,
+      "18998": 2,
+      "18999": 1,
+      "19000": 2,
+      "19001": 1,
+      "19028": 1,
+      "19033": 1,
+      "19038": 1,
+      "19043": 1
+    },
+    "craft": [
+      {
+        "id": 32420,
+        "job": 14,
+        "rlvl": 320,
+        "durability": 70,
+        "quality": 4800,
+        "progress": 1200,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1220,
+        "craftsmanshipReq": 1320,
+        "quickSynthCraftsmanship": 1500,
+        "unlockId": 17875,
+        "ingredients": [
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 19918,
+            "amount": 2
+          },
+          {
+            "id": 19911,
+            "amount": 2
+          },
+          {
+            "id": 20014,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 311,
+          "hq": 331
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Hallowed Basil",
+      "id": 19918,
+      "icon": 25010,
+      "category": 54,
+      "ilvl": 300,
+      "price": 556,
+      "ventures": [
+        708
+      ],
+      "nodes": [
+        524
+      ]
+    },
+    {
+      "name": "Yanxian Parsley",
+      "id": 19911,
+      "icon": 25016,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        701
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Dawnlight Aethersand",
+      "id": 20014,
+      "icon": 22210,
+      "category": 54,
+      "ilvl": 290,
+      "price": 552,
+      "reducedFrom": [
+        20009,
+        20181
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20014",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20014",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "524",
+      "obj": {
+        "i": 524,
+        "n": "Rustrock",
+        "l": 70,
+        "t": 3,
+        "z": 2407,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20009",
+      "obj": {
+        "i": 20009,
+        "n": "Schorl",
+        "l": 279,
+        "c": 21476,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20181",
+      "obj": {
+        "i": 20181,
+        "n": "Snow Crab",
+        "l": 225,
+        "c": 29110,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "18970",
+      "obj": {
+        "i": 18970,
+        "n": "Chromite Knuckles",
+        "l": 320,
+        "c": 31134,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "18972",
+      "obj": {
+        "i": 18972,
+        "n": "Chromite Spear",
+        "l": 320,
+        "c": 31941,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "18982",
+      "obj": {
+        "i": 18982,
+        "n": "Chromite Uchigatana",
+        "l": 320,
+        "c": 36407,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "18991",
+      "obj": {
+        "i": 18991,
+        "n": "Palladium Circlet of Maiming",
+        "l": 320,
+        "c": 41700,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "18992",
+      "obj": {
+        "i": 18992,
+        "n": "Chromite Mail of Maiming",
+        "l": 320,
+        "c": 43346,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "18993",
+      "obj": {
+        "i": 18993,
+        "n": "Chromite Gauntlets of Maiming",
+        "l": 320,
+        "c": 48655,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "18994",
+      "obj": {
+        "i": 18994,
+        "n": "True Griffin Breeches of Maiming",
+        "l": 320,
+        "c": 45985,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "18995",
+      "obj": {
+        "i": 18995,
+        "n": "Chromite Greaves of Maiming",
+        "l": 320,
+        "c": 47112,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "18997",
+      "obj": {
+        "i": 18997,
+        "n": "Palladium Circlet of Striking",
+        "l": 320,
+        "c": 41701,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "18998",
+      "obj": {
+        "i": 18998,
+        "n": "True Griffin Chestpiece of Striking",
+        "l": 320,
+        "c": 43347,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "18999",
+      "obj": {
+        "i": 18999,
+        "n": "True Griffin Bracers of Striking",
+        "l": 320,
+        "c": 48656,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "19000",
+      "obj": {
+        "i": 19000,
+        "n": "Indigo Ramie Sarouel of Striking",
+        "l": 320,
+        "c": 45989,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "19001",
+      "obj": {
+        "i": 19001,
+        "n": "True Griffin Caligae of Striking",
+        "l": 320,
+        "c": 49850,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "19028",
+      "obj": {
+        "i": 19028,
+        "n": "Palladium Earring of Slaying",
+        "l": 320,
+        "c": 55407,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "19033",
+      "obj": {
+        "i": 19033,
+        "n": "Torreya Choker of Slaying",
+        "l": 320,
+        "c": 54977,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "19038",
+      "obj": {
+        "i": 19038,
+        "n": "Torreya Bracelet of Slaying",
+        "l": 320,
+        "c": 55781,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "19043",
+      "obj": {
+        "i": 19043,
+        "n": "Palladium Band of Slaying",
+        "l": 320,
+        "c": 54630,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "17875",
+      "obj": {
+        "i": 17875,
+        "n": "Master Alchemist V",
+        "l": 1,
+        "c": 26158,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19918",
+      "obj": {
+        "i": 19918,
+        "n": "Hallowed Basil",
+        "l": 300,
+        "c": 25010,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19911",
+      "obj": {
+        "i": 19911,
+        "n": "Yanxian Parsley",
+        "l": 285,
+        "c": 25016,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "20014",
+      "obj": {
+        "i": 20014,
+        "n": "Dawnlight Aethersand",
+        "l": 290,
+        "c": 22210,
+        "t": 54
+      }
+    }
+  ]
+}

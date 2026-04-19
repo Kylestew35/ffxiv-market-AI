@@ -1,0 +1,108 @@
+{
+  "item": {
+    "name": "Starlight Donuts",
+    "description": "Festive treats for those who prefer to express their Starlight spirit through eating until they lose consciousness.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Piety Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +4% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +2<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 23871,
+    "patch": 4.4,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53255,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1026635,
+          1026636,
+          1026637
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23871",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "24284",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "721"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1026635",
+      "obj": {
+        "i": 1026635,
+        "n": "Starlight Celebrant",
+        "l": 53,
+        "s": 1,
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026636",
+      "obj": {
+        "i": 1026636,
+        "n": "Starlight Celebrant",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.01,
+          13.88
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026637",
+      "obj": {
+        "i": 1026637,
+        "n": "Starlight Celebrant",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.67,
+          9.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "24284",
+      "obj": {
+        "i": 24284,
+        "n": "Certificate of Good Cheer MMXVIII",
+        "l": 1,
+        "c": 26172,
+        "t": 85
+      }
+    }
+  ]
+}

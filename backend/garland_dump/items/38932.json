@@ -1,0 +1,602 @@
+{
+  "item": {
+    "name": "Craftsman's Alkahest",
+    "description": "When applied to items such as crafting and gathering gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to detrimental elements, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 38932,
+    "patch": 6.3,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 620,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22690,
+    "ingredient_of": {
+      "38890": 3,
+      "38891": 3,
+      "38892": 3,
+      "38893": 3,
+      "38894": 3,
+      "38895": 3,
+      "38896": 3,
+      "38897": 3,
+      "38898": 3,
+      "38899": 3,
+      "38900": 3,
+      "38911": 3,
+      "38912": 4,
+      "38913": 3,
+      "38914": 4,
+      "38915": 3,
+      "38916": 3,
+      "38917": 4,
+      "38918": 3,
+      "38919": 4,
+      "38920": 3
+    },
+    "craft": [
+      {
+        "id": 35459,
+        "job": 14,
+        "rlvl": 620,
+        "durability": 35,
+        "quality": 8600,
+        "progress": 3696,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3280,
+        "craftsmanshipReq": 3700,
+        "unlockId": 37740,
+        "ingredients": [
+          {
+            "id": 38933,
+            "amount": 4
+          },
+          {
+            "id": 37284,
+            "amount": 1
+          },
+          {
+            "id": 38936,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 481,
+          "hq": 501
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Mornveil Tree Bark",
+      "id": 38933,
+      "icon": 22418,
+      "category": 50,
+      "ilvl": 600,
+      "price": 99999,
+      "ventures": [
+        982
+      ],
+      "nodes": [
+        695
+      ]
+    },
+    {
+      "name": "Immutable Solution",
+      "id": 37284,
+      "icon": 22667,
+      "category": 54,
+      "ilvl": 590,
+      "price": 99999,
+      "desynthedFrom": [
+        38183,
+        37173,
+        39007,
+        38976,
+        34838,
+        37191,
+        39002,
+        39007,
+        39011,
+        38206,
+        34847,
+        38964,
+        40263
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37284",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37284",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earthbreak Aethersand",
+      "id": 38936,
+      "icon": 21246,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "reducedFrom": [
+        38938,
+        38937,
+        38841,
+        38939
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38936",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "695",
+      "obj": {
+        "i": 695,
+        "n": "Mornveil Forest",
+        "l": 90,
+        "t": 2,
+        "z": 3708,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "38938",
+      "obj": {
+        "i": 38938,
+        "n": "Sophora Roots",
+        "l": 600,
+        "c": 25025,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38937",
+      "obj": {
+        "i": 38937,
+        "n": "Earthen Quartz",
+        "l": 600,
+        "c": 21458,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "38841",
+      "obj": {
+        "i": 38841,
+        "n": "Nosceasaur",
+        "l": 600,
+        "c": 28548,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38939",
+      "obj": {
+        "i": 38939,
+        "n": "Verdigris Guppy",
+        "l": 600,
+        "c": 28544,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "38890",
+      "obj": {
+        "i": 38890,
+        "n": "Indagator's Saw",
+        "l": 620,
+        "c": 39001,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "38891",
+      "obj": {
+        "i": 38891,
+        "n": "Indagator's Cross-pein Hammer",
+        "l": 620,
+        "c": 39100,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "38892",
+      "obj": {
+        "i": 38892,
+        "n": "Indagator's Raising Hammer",
+        "l": 620,
+        "c": 39200,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "38893",
+      "obj": {
+        "i": 38893,
+        "n": "Indagator's Lapidary Hammer",
+        "l": 620,
+        "c": 35349,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "38894",
+      "obj": {
+        "i": 38894,
+        "n": "Indagator's Knife",
+        "l": 620,
+        "c": 39400,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "38895",
+      "obj": {
+        "i": 38895,
+        "n": "Indagator's Needle",
+        "l": 620,
+        "c": 39500,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "38896",
+      "obj": {
+        "i": 38896,
+        "n": "Indagator's Alembic",
+        "l": 620,
+        "c": 35649,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "38897",
+      "obj": {
+        "i": 38897,
+        "n": "Indagator's Frypan",
+        "l": 620,
+        "c": 39702,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "38898",
+      "obj": {
+        "i": 38898,
+        "n": "Indagator's Pickaxe",
+        "l": 620,
+        "c": 38302,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "38899",
+      "obj": {
+        "i": 38899,
+        "n": "Indagator's Hatchet",
+        "l": 620,
+        "c": 38400,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "38900",
+      "obj": {
+        "i": 38900,
+        "n": "Indagator's Fishing Rod",
+        "l": 620,
+        "c": 38503,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "38911",
+      "obj": {
+        "i": 38911,
+        "n": "Indagator's Goggles of Crafting",
+        "l": 620,
+        "c": 56546,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "38912",
+      "obj": {
+        "i": 38912,
+        "n": "Indagator's Coat of Crafting",
+        "l": 620,
+        "c": 42927,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38913",
+      "obj": {
+        "i": 38913,
+        "n": "Indagator's Gloves of Crafting",
+        "l": 620,
+        "c": 56066,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "38914",
+      "obj": {
+        "i": 38914,
+        "n": "Indagator's Trousers of Crafting",
+        "l": 620,
+        "c": 47958,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38915",
+      "obj": {
+        "i": 38915,
+        "n": "Indagator's Boots of Crafting",
+        "l": 620,
+        "c": 49553,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "38916",
+      "obj": {
+        "i": 38916,
+        "n": "Indagator's Helmet of Gathering",
+        "l": 620,
+        "c": 56545,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "38917",
+      "obj": {
+        "i": 38917,
+        "n": "Indagator's Doublet Vest of Gathering",
+        "l": 620,
+        "c": 42926,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38918",
+      "obj": {
+        "i": 38918,
+        "n": "Indagator's Armguards of Gathering",
+        "l": 620,
+        "c": 56065,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "38919",
+      "obj": {
+        "i": 38919,
+        "n": "Indagator's Bottoms of Gathering",
+        "l": 620,
+        "c": 47957,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38920",
+      "obj": {
+        "i": 38920,
+        "n": "Indagator's Shoes of Gathering",
+        "l": 620,
+        "c": 49552,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "37740",
+      "obj": {
+        "i": 37740,
+        "n": "Master Alchemist X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "38933",
+      "obj": {
+        "i": 38933,
+        "n": "Mornveil Tree Bark",
+        "l": 600,
+        "c": 22418,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "37284",
+      "obj": {
+        "i": 37284,
+        "n": "Immutable Solution",
+        "l": 590,
+        "c": 22667,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38936",
+      "obj": {
+        "i": 38936,
+        "n": "Earthbreak Aethersand",
+        "l": 600,
+        "c": 21246,
+        "t": 54
+      }
+    }
+  ]
+}

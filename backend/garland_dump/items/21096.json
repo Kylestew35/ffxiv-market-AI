@@ -1,0 +1,52 @@
+{
+  "item": {
+    "name": "Gyr Abanian Souvenir Component Materials",
+    "description": "Various materials necessary to craft Gyr Abanian souvenir components.",
+    "id": 21096,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 100,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22623,
+    "vendors": [
+      1022232
+    ],
+    "ingredient_of": {
+      "21091": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21091",
+      "obj": {
+        "i": 21091,
+        "n": "Gyr Abanian Souvenir Component",
+        "l": 150,
+        "c": 21005,
+        "t": 61,
+        "p": 200
+      }
+    }
+  ]
+}

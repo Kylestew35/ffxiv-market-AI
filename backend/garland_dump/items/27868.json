@@ -1,0 +1,604 @@
+{
+  "item": {
+    "name": "Mushroom Skewer",
+    "description": "The creamtop mushrooms take center stage in this simple yet filling dish, though the blood tomatoes and ramhorn zucchinis perform admirably in supporting roles.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27868,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3595,
+    "ilvl": 409,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 29,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 42
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 46
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 26
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 53
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 58
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 32
+        }
+      }
+    },
+    "icon": 24201,
+    "vendors": [
+      1031305
+    ],
+    "craft": [
+      {
+        "id": 3898,
+        "job": 15,
+        "rlvl": 409,
+        "durability": 80,
+        "quality": 4200,
+        "progress": 1500,
+        "lvl": 76,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27821,
+            "amount": 1
+          },
+          {
+            "id": 27829,
+            "amount": 2
+          },
+          {
+            "id": 27825,
+            "amount": 1
+          },
+          {
+            "id": 4792,
+            "amount": 1
+          },
+          {
+            "id": 12901,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 123,
+          "hq": 143
+        }
+      }
+    ],
+    "quests": [
+      68997,
+      69041,
+      69065,
+      69166
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1016500,
+      "seals": 840
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Amber Cloves",
+      "id": 27821,
+      "icon": 25023,
+      "category": 45,
+      "ilvl": 409,
+      "price": 630,
+      "leves": [
+        1472,
+        1473,
+        1474
+      ],
+      "ventures": [
+        814
+      ],
+      "nodes": [
+        620
+      ]
+    },
+    {
+      "name": "Creamtop Mushroom",
+      "id": 27829,
+      "icon": 25402,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "desynthedFrom": [
+        35564
+      ],
+      "ventures": [
+        829
+      ],
+      "nodes": [
+        619
+      ]
+    },
+    {
+      "name": "Blood Tomato",
+      "id": 27825,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1466,
+        1467,
+        1468
+      ],
+      "ventures": [
+        819
+      ],
+      "nodes": [
+        617
+      ]
+    },
+    {
+      "name": "Ramhorn Zucchini",
+      "id": 4792,
+      "icon": 25212,
+      "category": 45,
+      "ilvl": 37,
+      "price": 189,
+      "ventures": [
+        289
+      ],
+      "nodes": [
+        141
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "620",
+      "obj": {
+        "i": 620,
+        "n": "Ladle",
+        "l": 80,
+        "t": 2,
+        "z": 2955
+      }
+    },
+    {
+      "type": "node",
+      "id": "619",
+      "obj": {
+        "i": 619,
+        "n": "The Deliberating Doll",
+        "l": 75,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "141",
+      "obj": {
+        "i": 141,
+        "n": "Raincatcher Gully",
+        "l": 40,
+        "t": 3,
+        "z": 32
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031305",
+      "obj": {
+        "i": 1031305,
+        "n": "Viis Culinarian",
+        "l": 2957,
+        "s": 1,
+        "a": 3179,
+        "c": [
+          28.24,
+          18.54
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27821",
+      "obj": {
+        "i": 27821,
+        "n": "Amber Cloves",
+        "l": 409,
+        "c": 25023,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27829",
+      "obj": {
+        "i": 27829,
+        "n": "Creamtop Mushroom",
+        "l": 406,
+        "c": 25402,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27825",
+      "obj": {
+        "i": 27825,
+        "n": "Blood Tomato",
+        "l": 390,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4792",
+      "obj": {
+        "i": 4792,
+        "n": "Ramhorn Zucchini",
+        "l": 37,
+        "c": 25212,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68997",
+      "obj": {
+        "i": 68997,
+        "n": "A Recipe for Trouble",
+        "g": 137,
+        "l": "The Rak'tika Greatwood",
+        "s": 5010
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69041",
+      "obj": {
+        "i": 69041,
+        "n": "Worm in the Ointment",
+        "g": 135,
+        "l": "Amh Araeng",
+        "s": 6190
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69065",
+      "obj": {
+        "i": 69065,
+        "n": "An Axle to Grind",
+        "g": 135,
+        "l": "Amh Araeng",
+        "s": 7070
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69166",
+      "obj": {
+        "i": 69166,
+        "n": "Return to Eulmore",
+        "g": 8,
+        "l": "The Crystarium",
+        "s": 820
+      }
+    }
+  ]
+}

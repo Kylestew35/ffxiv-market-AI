@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Keepers of the Lock Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Keepers of the Lock</span>. Use to add to your orchestrion list.",
+    "id": 22478,
+    "patch": 4.2,
+    "patchCategory": 16,
+    "price": 2,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 207,
+      "name": "Keepers of the Lock",
+      "description": "Available for Ananta dreamstaff exchange in Castellum Velodyna.",
+      "category": "Locales I",
+      "order": 66
+    },
+    "tradeShops": [
+      {
+        "shop": "Ananta Dreamstaff Exchange",
+        "npcs": [
+          1024774
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22478",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21935",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024774",
+      "obj": {
+        "i": 1024774,
+        "n": "Madhura",
+        "l": 2406,
+        "s": 1,
+        "t": "Dreamstaff Exchange",
+        "r": 1,
+        "a": 2632,
+        "c": [
+          20.98,
+          26.25
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21935",
+      "obj": {
+        "i": 21935,
+        "n": "Ananta Dreamstaff",
+        "l": 1,
+        "c": 65061,
+        "t": 100
+      }
+    }
+  ]
+}

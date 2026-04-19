@@ -1,0 +1,289 @@
+{
+  "item": {
+    "name": "Connoisseur's Shishi-odoshi",
+    "description": "A piece crafted to satisfy the discerning eye of an avid collector. Eulmoran elites would pay unthinkable sums of coin for this relic of lands long lost.",
+    "id": 41262,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 643,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 1,
+    "icon": 52219,
+    "craft": [
+      {
+        "id": 35691,
+        "job": 8,
+        "rlvl": 643,
+        "durability": 60,
+        "quality": 16308,
+        "progress": 7040,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 41246,
+            "amount": 1
+          },
+          {
+            "id": 36263,
+            "amount": 1
+          },
+          {
+            "id": 5231,
+            "amount": 1
+          },
+          {
+            "id": 7008,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 4
+          },
+          {
+            "id": 15,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 323,
+          "hq": 343
+        }
+      }
+    ],
+    "masterpiece": {
+      "rating": [
+        800,
+        1200,
+        1600
+      ],
+      "amount": 1,
+      "stars": 4,
+      "lvl": [
+        90,
+        90
+      ],
+      "xp": [
+        10117836,
+        11126964,
+        12136092
+      ],
+      "reward": 33913,
+      "rewardAmount": [
+        11,
+        12,
+        13
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Select Bamboo Stick",
+      "id": 41246,
+      "icon": 22451,
+      "category": 50,
+      "ilvl": 642,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Crafters' Scrip Exchange",
+          "npcs": [
+            1045069
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "41246",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Siltstone",
+      "id": 5231,
+      "icon": 21453,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "voyages": [
+        {
+          "id": 25,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        128
+      ],
+      "nodes": [
+        176
+      ]
+    },
+    {
+      "name": "Granite",
+      "id": 7008,
+      "icon": 22615,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "desynthedFrom": [
+        20718,
+        37401,
+        6377,
+        6390,
+        20689,
+        8012,
+        12754
+      ],
+      "ventures": [
+        133
+      ],
+      "nodes": [
+        178
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1045069",
+      "obj": {
+        "i": 1045069,
+        "n": "Quinnana",
+        "l": 2951,
+        "s": 3,
+        "t": "Splendorous Tool Exchange",
+        "r": 1,
+        "a": 3252,
+        "c": [
+          10.44,
+          7.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "node",
+      "id": "176",
+      "obj": {
+        "i": 176,
+        "n": "Oakwood",
+        "l": 30,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "node",
+      "id": "178",
+      "obj": {
+        "i": 178,
+        "n": "Sorrel Haven",
+        "l": 35,
+        "t": 0,
+        "z": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "41246",
+      "obj": {
+        "i": 41246,
+        "n": "Select Bamboo Stick",
+        "l": 642,
+        "c": 22451,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5231",
+      "obj": {
+        "i": 5231,
+        "n": "Siltstone",
+        "l": 30,
+        "c": 21453,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "7008",
+      "obj": {
+        "i": 7008,
+        "n": "Granite",
+        "l": 30,
+        "c": 22615,
+        "t": 48
+      }
+    }
+  ]
+}

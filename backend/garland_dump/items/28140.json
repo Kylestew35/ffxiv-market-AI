@@ -1,0 +1,94 @@
+{
+  "item": {
+    "name": "Imposing Ishgardian Shelf",
+    "description": "An exceedingly large frame that is so heavy it must be placed on the floor, rather than mounted on a wall. It features a striking image of Ishgard, so true to life that you can almost feel an icy chill exuding from the painting.",
+    "id": 28140,
+    "patch": 5.1,
+    "patchCategory": 9,
+    "price": 4000,
+    "ilvl": 1,
+    "category": 77,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 120,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 51683,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips (Gear/Furnishings)",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28140",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 900
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "852"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

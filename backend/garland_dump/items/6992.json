@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Laurel Goobbue Horn",
+    "description": "This polished horn emits a deep, bellowing tone that creates subtle vibrations in the land that carry for malms. While undetectable by most, goobbues can sense these mini tremblors which they often mistake for mating calls. Use to summon your laurel goobbue.",
+    "mount": {
+      "name": "Laurel Goobbue",
+      "action": "Summon your laurel goobbue, towering friend to the sylphs.",
+      "description": "After having the moss and flowers growing upon his head pulled up and tossed aside like common weeds by a band of sylvan ne'er-do-wells, this quiet-mannered goobbue was taken in and cared for by the sylphs of Little Solace whose elders crafted for him a magnificent laurel with which to hide his scars.",
+      "tooltip": "Naught is as exhilarating<br>as a romp through the<br>forest on goobbueback.<br>  - Unknown",
+      "icon": 4010,
+      "guideIcon": 68010
+    },
+    "id": 6992,
+    "patch": 2.1,
+    "patchCategory": 17,
+    "price": 120000,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "vendors": [
+      1005569
+    ],
+    "tradeShops": [
+      {
+        "shop": "Previous Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6992",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46179",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "54-3-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "46179",
+      "obj": {
+        "i": 46179,
+        "n": "Irregular Tomestone of Revelation",
+        "l": 1,
+        "c": "t/26346",
+        "t": 63
+      }
+    }
+  ]
+}

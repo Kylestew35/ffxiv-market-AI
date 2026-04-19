@@ -1,0 +1,395 @@
+{
+  "item": {
+    "name": "Tarnished Alexandrian Lens",
+    "description": "A uniquely crafted lens discovered in Alexander's main sector.<br><br>Two lenses can be traded for special headgear.",
+    "id": 16546,
+    "patch": 3.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22662,
+    "instances": [
+      30040,
+      30041,
+      30039,
+      30040,
+      30039,
+      30041
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Alexandrian Part Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16403",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16409",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16415",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Alexandrian Part Exchange (DoW) II",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16421",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16427",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Alexandrian Part Exchange (DoM)",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16433",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16439",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prototype Alexandrian Gear (IL 250)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16403",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16409",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16415",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16427",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16421",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16439",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "16433",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16546",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30040",
+      "obj": {
+        "i": 30040,
+        "n": "Alexander - The Breath of the Creator",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 230
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30041",
+      "obj": {
+        "i": 30041,
+        "n": "Alexander - The Heart of the Creator",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 230
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30039",
+      "obj": {
+        "i": 30039,
+        "n": "Alexander - The Eyes of the Creator",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 230
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "16403",
+      "obj": {
+        "i": 16403,
+        "n": "Prototype Alexandrian Visor of Fending",
+        "l": 250,
+        "c": 40485,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16409",
+      "obj": {
+        "i": 16409,
+        "n": "Prototype Alexandrian Visor of Maiming",
+        "l": 250,
+        "c": 40487,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16415",
+      "obj": {
+        "i": 16415,
+        "n": "Prototype Alexandrian Mask of Striking",
+        "l": 250,
+        "c": 40489,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16421",
+      "obj": {
+        "i": 16421,
+        "n": "Prototype Alexandrian Circlet of Aiming",
+        "l": 250,
+        "c": 40730,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16427",
+      "obj": {
+        "i": 16427,
+        "n": "Prototype Alexandrian Mask of Scouting",
+        "l": 250,
+        "c": 40491,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16433",
+      "obj": {
+        "i": 16433,
+        "n": "Prototype Alexandrian Hood of Healing",
+        "l": 250,
+        "c": 41662,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16439",
+      "obj": {
+        "i": 16439,
+        "n": "Prototype Alexandrian Hood of Casting",
+        "l": 250,
+        "c": 41664,
+        "t": 34
+      }
+    }
+  ]
+}

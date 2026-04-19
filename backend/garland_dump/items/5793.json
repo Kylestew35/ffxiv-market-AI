@@ -1,0 +1,100 @@
+{
+  "item": {
+    "name": "Corpse Blue Dye",
+    "description": "A labor-saving blue dye, used for coloring anything from cloth to metal.",
+    "id": 5793,
+    "patch": 2.2,
+    "patchCategory": 8,
+    "price": 216,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22804,
+    "vendors": [
+      1008907
+    ],
+    "tradeShops": [
+      {
+        "shop": "Rainbowtide Psashp Exchange",
+        "npcs": [
+          1008907
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5793",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21077",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67450,
+      70427
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67450",
+      "obj": {
+        "i": 67450,
+        "n": "Ok' Zundu's Got Talent",
+        "g": 117,
+        "l": "The Sea of Clouds",
+        "s": 5713
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70427",
+      "obj": {
+        "i": 70427,
+        "n": "The High Luminary",
+        "g": 13,
+        "l": "Urqopacha",
+        "s": 320
+      }
+    }
+  ]
+}

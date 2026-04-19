@@ -1,0 +1,964 @@
+{
+  "item": {
+    "name": "Giantsgall Knifelock",
+    "jobCategories": "MCH",
+    "id": 10468,
+    "patch": 3.0,
+    "patchCategory": 0,
+    "price": 18018,
+    "ilvl": 70,
+    "category": 88,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 2,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 403,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 96,
+    "models": [
+      "2001-25-2-0",
+      "2099-1-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 53,
+      "Magic Damage": 27,
+      "Delay": 2.64,
+      "Dexterity": 20,
+      "Vitality": 22,
+      "Skill Speed": 26,
+      "Critical Hit": 18
+    },
+    "attr_hq": {
+      "Physical Damage": 59,
+      "Magic Damage": 30,
+      "Dexterity": 22,
+      "Vitality": 24,
+      "Skill Speed": 29,
+      "Critical Hit": 20
+    },
+    "attr_max": {
+      "Strength": 22,
+      "Intelligence": 15,
+      "Mind": 15,
+      "Piety": 20,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 29,
+      "Direct Hit Rate": 29,
+      "Critical Hit": 29,
+      "Fire Resistance": 13,
+      "Ice Resistance": 13,
+      "Wind Resistance": 13,
+      "Earth Resistance": 13,
+      "Lightning Resistance": 13,
+      "Water Resistance": 13,
+      "Determination": 29,
+      "Spell Speed": 29,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 164,
+      "Control": 92,
+      "Gathering": 168,
+      "Perception": 96
+    },
+    "icon": 34634,
+    "sharedModels": [
+      10473,
+      10478,
+      10509
+    ],
+    "craft": [
+      {
+        "id": 31195,
+        "job": 14,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 318,
+        "quickSynthControl": 374,
+        "unlockId": 7784,
+        "ingredients": [
+          {
+            "id": 12910,
+            "amount": 1
+          },
+          {
+            "id": 7620,
+            "amount": 9,
+            "quality": 110.4798
+          },
+          {
+            "id": 5125,
+            "amount": 2
+          },
+          {
+            "id": 12611,
+            "amount": 1,
+            "quality": 50.50505
+          },
+          {
+            "id": 19,
+            "amount": 1
+          },
+          {
+            "id": 18,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 887,
+          "hq": 907
+        }
+      }
+    ],
+    "desynthedTo": [
+      12910
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Mossy Stone Cannon",
+      "id": 12910,
+      "icon": 21005,
+      "category": 56,
+      "ilvl": 70,
+      "price": 6652,
+      "desynthedFrom": [
+        10468
+      ],
+      "ventures": [
+        380,
+        354,
+        396
+      ]
+    },
+    {
+      "name": "Diluted Vitriol",
+      "id": 7620,
+      "icon": 22612,
+      "category": 54,
+      "ilvl": 70,
+      "price": 1191,
+      "craft": [
+        {
+          "id": 1944,
+          "job": 14,
+          "rlvl": 70,
+          "durability": 40,
+          "quality": 2000,
+          "progress": 125,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 2,
+          "yield": 9,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 347,
+          "quickSynthCraftsmanship": 391,
+          "ingredients": [
+            {
+              "id": 6153,
+              "amount": 9
+            },
+            {
+              "id": 5490,
+              "amount": 6
+            },
+            {
+              "id": 19,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 1015,
+            "hq": 1035
+          }
+        }
+      ],
+      "desynthedFrom": [
+        1666
+      ]
+    },
+    {
+      "name": "Filtered Water",
+      "id": 6153,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 20
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "name": "Vitriol",
+      "id": 5490,
+      "icon": 22612,
+      "category": 54,
+      "ilvl": 40,
+      "price": 216,
+      "desynthedFrom": [
+        9535
+      ],
+      "treasure": [
+        6691
+      ],
+      "tradeShops": [
+        {
+          "shop": "Titan Cobaltpiece Exchange",
+          "npcs": [
+            1008909
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5490",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21078",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1008909
+      ]
+    },
+    {
+      "name": "Wyvern Obsidian",
+      "id": 5125,
+      "icon": 21467,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "ventures": [
+        118
+      ],
+      "nodes": [
+        168
+      ]
+    },
+    {
+      "name": "Black Firesand",
+      "id": 12611,
+      "icon": 22604,
+      "category": 54,
+      "ilvl": 32,
+      "price": 400,
+      "craft": [
+        {
+          "id": 2784,
+          "job": 14,
+          "rlvl": 32,
+          "durability": 40,
+          "quality": 760,
+          "progress": 55,
+          "lvl": 32,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5521,
+              "amount": 3
+            },
+            {
+              "id": 5527,
+              "amount": 3
+            },
+            {
+              "id": 5390,
+              "amount": 1
+            },
+            {
+              "id": 7,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 67,
+            "hq": 87
+          }
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Black Copper Gil Exchange",
+          "npcs": [
+            1016804
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12611",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21079",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1016804
+      ]
+    },
+    {
+      "name": "Saltpeter",
+      "id": 5521,
+      "icon": 22615,
+      "category": 54,
+      "ilvl": 30,
+      "price": 128,
+      "ventures": [
+        500
+      ],
+      "nodes": [
+        168
+      ]
+    },
+    {
+      "name": "Brimstone",
+      "id": 5527,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 28,
+      "price": 103,
+      "desynthedFrom": [
+        9535,
+        12723,
+        12835
+      ],
+      "tradeShops": [
+        {
+          "shop": "Black Copper Gil Exchange",
+          "npcs": [
+            1016804
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5527",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21079",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        126
+      ],
+      "nodes": [
+        176
+      ],
+      "vendors": [
+        1016804
+      ]
+    },
+    {
+      "name": "Oak Log",
+      "id": 5390,
+      "icon": 22401,
+      "category": 50,
+      "ilvl": 32,
+      "price": 130,
+      "leves": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "ventures": [
+        269
+      ],
+      "nodes": [
+        28
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "6153",
+      "obj": {
+        "i": 6153,
+        "n": "Filtered Water",
+        "l": 70,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5490",
+      "obj": {
+        "i": 5490,
+        "n": "Vitriol",
+        "l": 40,
+        "c": 22612,
+        "t": 54,
+        "p": 216
+      }
+    },
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "168",
+      "obj": {
+        "i": 168,
+        "n": "Wellwick Wood",
+        "l": 30,
+        "t": 0,
+        "z": 44
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "5521",
+      "obj": {
+        "i": 5521,
+        "n": "Saltpeter",
+        "l": 30,
+        "c": 22615,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5527",
+      "obj": {
+        "i": 5527,
+        "n": "Brimstone",
+        "l": 28,
+        "c": 22613,
+        "t": 54,
+        "p": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "5390",
+      "obj": {
+        "i": 5390,
+        "n": "Oak Log",
+        "l": 32,
+        "c": 22401,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "176",
+      "obj": {
+        "i": 176,
+        "n": "Oakwood",
+        "l": 30,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "node",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 2,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "10473",
+      "obj": {
+        "i": 10473,
+        "n": "Tremor Culverin",
+        "l": 95,
+        "c": 34633,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10478",
+      "obj": {
+        "i": 10478,
+        "n": "Direwolf Culverin",
+        "l": 90,
+        "c": 34634,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10509",
+      "obj": {
+        "i": 10509,
+        "n": "Culverin of Crags",
+        "l": 80,
+        "c": 34633,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "7784",
+      "obj": {
+        "i": 7784,
+        "n": "Master Alchemist I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12910",
+      "obj": {
+        "i": 12910,
+        "n": "Mossy Stone Cannon",
+        "l": 70,
+        "c": 21005,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "7620",
+      "obj": {
+        "i": 7620,
+        "n": "Diluted Vitriol",
+        "l": 70,
+        "c": 22612,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5125",
+      "obj": {
+        "i": 5125,
+        "n": "Wyvern Obsidian",
+        "l": 30,
+        "c": 21467,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12611",
+      "obj": {
+        "i": 12611,
+        "n": "Black Firesand",
+        "l": 32,
+        "c": 22604,
+        "t": 54,
+        "p": 400
+      }
+    }
+  ]
+}

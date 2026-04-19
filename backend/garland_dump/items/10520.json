@@ -1,0 +1,140 @@
+{
+  "item": {
+    "name": "Weathered Quick Silver",
+    "jobCategories": "MCH",
+    "id": 10520,
+    "patch": 3.0,
+    "patchCategory": 0,
+    "price": 30888,
+    "ilvl": 100,
+    "category": 88,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 535,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 96,
+    "models": [
+      "2001-14-1-0",
+      "2099-1-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 31,
+      "Delay": 2.64,
+      "Dexterity": 37,
+      "Vitality": 38,
+      "Determination": 40,
+      "Critical Hit": 28
+    },
+    "icon": 34621,
+    "sharedModels": [
+      10521,
+      10633,
+      18040
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10521",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10520",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10521",
+      "obj": {
+        "i": 10521,
+        "n": "Quick Silver",
+        "l": 110,
+        "c": 34621,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10633",
+      "obj": {
+        "i": 10633,
+        "n": "Adamantite-barreled Culverin",
+        "l": 150,
+        "c": 34622,
+        "t": 88,
+        "p": 30888
+      }
+    },
+    {
+      "type": "item",
+      "id": "18040",
+      "obj": {
+        "i": 18040,
+        "n": "High Steel Culverin",
+        "l": 255,
+        "c": 34686,
+        "t": 88,
+        "p": 36352
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

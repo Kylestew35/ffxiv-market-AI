@@ -1,0 +1,187 @@
+{
+  "item": {
+    "name": "Abyssos Orrery",
+    "jobCategories": "AST",
+    "id": 38093,
+    "patch": 6.2,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 635,
+    "category": 89,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1861,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1954,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 99,
+    "models": [
+      "2128-1-1-0",
+      "2199-1-170-0"
+    ],
+    "attr": {
+      "Physical Damage": 126,
+      "Magic Damage": 126,
+      "Delay": 3.2,
+      "Mind": 358,
+      "Vitality": 350,
+      "Critical Hit": 287,
+      "Determination": 201
+    },
+    "attr_max": {
+      "Strength": 250,
+      "Dexterity": 358,
+      "Vitality": 389,
+      "Intelligence": 250,
+      "Piety": 201,
+      "GP": 9,
+      "CP": 7,
+      "Tenacity": 287,
+      "Direct Hit Rate": 287,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Determination": 287,
+      "Skill Speed": 287,
+      "Spell Speed": 287,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 1463,
+      "Control": 780,
+      "Gathering": 1507,
+      "Perception": 861
+    },
+    "icon": 34978,
+    "instances": [
+      30123
+    ],
+    "tradeShops": [
+      {
+        "shop": "Abyssos Mythos Exchange (DoM)",
+        "npcs": [
+          1037303,
+          1039555
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38093",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38384",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Abyssos Gear (IL 630-635)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38093",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38384",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30123",
+      "obj": {
+        "i": 30123,
+        "n": "Abyssos: The Eighth Circle (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 610
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037303",
+      "obj": {
+        "i": 1037303,
+        "n": "Djole",
+        "l": 3707,
+        "s": 18,
+        "t": "Pandæmonium Relic Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.34,
+          9.72
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039555",
+      "obj": {
+        "i": 1039555,
+        "n": "Mylenie",
+        "l": 3708,
+        "s": 18,
+        "t": "Pandæmonium Relic Exchange",
+        "r": 1,
+        "a": 3852,
+        "c": [
+          8.38,
+          27.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38384",
+      "obj": {
+        "i": 38384,
+        "n": "Abyssos Mythos IV",
+        "l": 1,
+        "c": 26453,
+        "t": 61
+      }
+    }
+  ]
+}

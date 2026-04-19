@@ -1,0 +1,133 @@
+{
+  "item": {
+    "name": "Thinker's Coral",
+    "description": "Freshwater coral far too pretentious to thrive anywhere but the Thaliak.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "In light of its origin, perhaps it is unsurprising that this coral is thought to be imbued with Thaliak's wisdom. Many even believe that giving a chunk of it a good lick will grant the taster a flash of inspiration─a practice that is both highly frowned upon and widely perpetuated in scholarly circles.",
+      "icon": 79061,
+      "spots": [
+        {
+          "spot": 125,
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 3299,
+          "baits": [
+            [
+              30136
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 29673,
+    "patch": 5.25,
+    "patchCategory": 7,
+    "price": 210,
+    "ilvl": 430,
+    "category": 47,
+    "dyecount": 0,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 29061,
+    "tradeCurrency": [
+      {
+        "shop": "Skysteel Prototype Augmentation",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29633",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29622",
+                "amount": 1
+              },
+              {
+                "id": "29673",
+                "amount": 40
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fishingSpots": [
+      125
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29622",
+      "obj": {
+        "i": 29622,
+        "n": "Skysteel Fishing Rod",
+        "l": 440,
+        "c": 38239,
+        "t": 32,
+        "p": 80000
+      }
+    },
+    {
+      "type": "item",
+      "id": "29633",
+      "obj": {
+        "i": 29633,
+        "n": "Skysteel Fishing Rod +1",
+        "l": 455,
+        "c": 38239,
+        "t": 32
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "125",
+      "obj": {
+        "i": 125,
+        "n": "Thaliak River",
+        "l": 57,
+        "c": 1,
+        "z": 2001,
+        "x": 23.17,
+        "y": 23.55
+      }
+    },
+    {
+      "type": "item",
+      "id": "30136",
+      "obj": {
+        "i": 30136,
+        "n": "Signature Skyball",
+        "l": 430,
+        "c": 27007,
+        "t": 33,
+        "p": 100
+      }
+    }
+  ]
+}

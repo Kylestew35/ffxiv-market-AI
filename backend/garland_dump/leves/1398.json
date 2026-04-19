@@ -1,0 +1,150 @@
+{
+  "leve": {
+    "name": "Step by Steppe",
+    "description": "Needless to say, the Honorable Consul of<br>Radz–at–Han stationed in Kugane is an accomplished alchemist, and as such on occasion requires reagents with which to experiment and practice his craft. His present endeavor calls for a wavekin indigenous to the Azim Steppe, which a fortunate fisher will have the honor of rendering to us.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1398,
+    "patch": 4.0,
+    "client": "Thavnairian Consulate Clerk, Bharifhal Dzak",
+    "lvl": 66,
+    "jobCategory": 19,
+    "levemete": 1018999,
+    "coords": [
+      32.53,
+      14.66
+    ],
+    "zoneid": 2411,
+    "areaid": 2411,
+    "xp": 1334289,
+    "gil": 1620,
+    "rewards": 601,
+    "plate": 80057,
+    "frame": 80005,
+    "areaicon": 110175,
+    "requires": [
+      {
+        "item": 20193,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 601,
+    "entries": [
+      {
+        "item": 21072,
+        "rate": 0.4
+      },
+      {
+        "item": 20615,
+        "rate": 0.3,
+        "amount": 3
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Redfin",
+      "id": 20193,
+      "icon": 29450,
+      "category": 47,
+      "ilvl": 230,
+      "price": 1000,
+      "nodes": [
+        476
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "476",
+      "obj": {
+        "i": 476,
+        "n": "Azim Khaat Eastern Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2411
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1398",
+      "obj": {
+        "i": 1398,
+        "n": "Step by Steppe",
+        "l": 66,
+        "j": 19,
+        "p": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5815",
+      "obj": {
+        "i": 5815,
+        "n": "Red Pigment",
+        "l": 28,
+        "c": 21456,
+        "t": 55
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018999",
+      "obj": {
+        "i": 1018999,
+        "n": "Geimrael",
+        "l": 2404
+      }
+    },
+    {
+      "type": "item",
+      "id": "20615",
+      "obj": {
+        "i": 20615,
+        "n": "Midge Larva",
+        "l": 225,
+        "c": 27033,
+        "t": 33,
+        "p": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20193",
+      "obj": {
+        "i": 20193,
+        "n": "Redfin",
+        "l": 230,
+        "c": 29450,
+        "t": 47
+      }
+    }
+  ]
+}

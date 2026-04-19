@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Stuffed Porxie",
+    "description": "Although porxies are generally created from animated clay, and are akin to porcelain, this stuffed version is somehow far more rigid.",
+    "id": 28156,
+    "patch": 5.1,
+    "patchCategory": 9,
+    "price": 6000,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "sell_price": 60,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53330,
+    "tradeShops": [
+      {
+        "shop": "Fae Fancies",
+        "npcs": [
+          1031810
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28156",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28186",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "869"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031810",
+      "obj": {
+        "i": 1031810,
+        "n": "Jul Oul",
+        "l": 2956,
+        "s": 1,
+        "t": "Fancy Exchange",
+        "r": 1,
+        "a": 2238,
+        "c": [
+          12.5,
+          32.98
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28186",
+      "obj": {
+        "i": 28186,
+        "n": "Fae Fancy",
+        "l": 1,
+        "c": 65074,
+        "t": 100
+      }
+    }
+  ]
+}

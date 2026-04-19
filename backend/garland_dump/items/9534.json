@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Aged Grimoire",
+    "description": "An antiquated grimoire of unknown origin.",
+    "id": 9534,
+    "patch": 2.45,
+    "patchCategory": 5,
+    "price": 3000,
+    "ilvl": 55,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 12,
+    "icon": 26162,
+    "vendors": [
+      1004421
+    ],
+    "desynthedTo": [
+      9526,
+      5276,
+      5275
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1004421",
+      "obj": {
+        "i": 1004421,
+        "n": "Merchant & Mender",
+        "l": 42,
+        "s": 5,
+        "c": [
+          "15.1",
+          "29.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "9526",
+      "obj": {
+        "i": 9526,
+        "n": "Aged Vellum",
+        "l": 55,
+        "c": 26151,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5276",
+      "obj": {
+        "i": 5276,
+        "n": "Hard Leather",
+        "l": 8,
+        "c": 22005,
+        "t": 52,
+        "p": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "5275",
+      "obj": {
+        "i": 5275,
+        "n": "Leather",
+        "l": 1,
+        "c": 22020,
+        "t": 52,
+        "p": 8
+      }
+    }
+  ]
+}

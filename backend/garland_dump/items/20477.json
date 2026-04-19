@@ -1,0 +1,334 @@
+{
+  "item": {
+    "name": "Quan",
+    "jobCategories": "All Classes",
+    "id": 20477,
+    "patch": 4.05,
+    "patchCategory": 3,
+    "price": 2,
+    "ilvl": 1,
+    "category": 36,
+    "dyeable": 1,
+    "dyecount": 2,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "6043-1-0-0"
+    ],
+    "attr": {
+      "Defense": 9,
+      "Magic Defense": 16
+    },
+    "attr_hq": {
+      "Defense": 11,
+      "Magic Defense": 17
+    },
+    "icon": 45977,
+    "craft": [
+      {
+        "id": 32335,
+        "job": 13,
+        "rlvl": 300,
+        "durability": 70,
+        "quality": 4200,
+        "progress": 1140,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1080,
+        "craftsmanshipReq": 1100,
+        "quickSynthCraftsmanship": 1320,
+        "unlockId": 14131,
+        "ingredients": [
+          {
+            "id": 20270,
+            "amount": 2
+          },
+          {
+            "id": 19988,
+            "amount": 1,
+            "quality": 676.2712
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 315,
+          "hq": 335
+        }
+      }
+    ],
+    "treasure": [
+      23224
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Nagxian Silk",
+      "id": 20270,
+      "icon": 21608,
+      "category": 51,
+      "ilvl": 300,
+      "price": 2226,
+      "instances": [
+        55002,
+        55003
+      ]
+    },
+    {
+      "name": "Twinthread",
+      "id": 19988,
+      "icon": 21657,
+      "category": 51,
+      "ilvl": 285,
+      "price": 2516,
+      "craft": [
+        {
+          "id": 3643,
+          "job": 13,
+          "rlvl": 285,
+          "durability": 40,
+          "quality": 2736,
+          "progress": 490,
+          "lvl": 68,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19989,
+              "amount": 4
+            },
+            {
+              "id": 5491,
+              "amount": 1
+            },
+            {
+              "id": 12,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        19019,
+        20843,
+        19754,
+        25759,
+        21823
+      ],
+      "leves": [
+        1337,
+        1338,
+        1339,
+        1340,
+        1341,
+        1342
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Twincoon",
+      "id": 19989,
+      "icon": 21661,
+      "category": 51,
+      "ilvl": 285,
+      "price": 2198,
+      "ventures": [
+        707,
+        726
+      ],
+      "drops": [
+        66660000005713
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Effervescent Water",
+      "id": 5491,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 11,
+      "price": 16,
+      "ventures": [
+        105
+      ],
+      "nodes": [
+        47
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55002",
+      "obj": {
+        "i": 55002,
+        "n": "The Lost Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55003",
+      "obj": {
+        "i": 55003,
+        "n": "The Hidden Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19989",
+      "obj": {
+        "i": 19989,
+        "n": "Twincoon",
+        "l": 285,
+        "c": 21661,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "5491",
+      "obj": {
+        "i": 5491,
+        "n": "Effervescent Water",
+        "l": 11,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66660000005713",
+      "obj": {
+        "i": 66660000005713,
+        "n": "Highland Eruca",
+        "l": "68",
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "14131",
+      "obj": {
+        "i": 14131,
+        "n": "Master Weaver IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "20270",
+      "obj": {
+        "i": 20270,
+        "n": "Nagxian Silk",
+        "l": 300,
+        "c": 21608,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "19988",
+      "obj": {
+        "i": 19988,
+        "n": "Twinthread",
+        "l": 285,
+        "c": 21657,
+        "t": 51,
+        "p": 2516
+      }
+    },
+    {
+      "type": "item",
+      "id": "23224",
+      "obj": {
+        "i": 23224,
+        "n": "Gold-haloed Sack",
+        "l": 1,
+        "c": 25991,
+        "t": 61
+      }
+    }
+  ]
+}

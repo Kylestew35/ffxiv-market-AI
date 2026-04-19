@@ -1,0 +1,70 @@
+{
+  "item": {
+    "name": "Lethe Water",
+    "description": "A strong-smelling tonic made by distilling the leaves of a variety of ginger found only in the Far East. While used mainly as a cure for bad breath, one of its side effects is memory loss, prompting chocobo trainers to employ the potable when wishing to unteach an ability or trait.",
+    "id": 9899,
+    "patch": 2.51,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27608,
+    "tradeShops": [
+      {
+        "shop": "Race Items",
+        "npcs": [
+          1010488
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9899",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010488",
+      "obj": {
+        "i": 1010488,
+        "n": "Tack & Feed Trader",
+        "l": 1484,
+        "s": 4,
+        "r": 1,
+        "a": 1501,
+        "c": [
+          5.97,
+          4.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

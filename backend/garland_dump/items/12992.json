@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Twintania Neurolink Key",
+    "description": "A square of hardened resin-like material that, when tapped, summons Twintania, an ancient wyvern enslaved by the Allagans several thousand summers past.",
+    "mount": {
+      "name": "Twintania",
+      "action": "Summon forth Twintania, an ancient wyvern who secretly dreams of freedom...and devouring you.",
+      "description": "Bound to eternal thralldom via an Allagan neurolink, this ancient wyvern from the southern continent of Meracydia will remain a loyal servant as long as you possess its identification key.",
+      "tooltip": "There are wyverns.<br>Wyverns everywhere.<br>   - Vath Drone",
+      "icon": 4043,
+      "guideIcon": 68043
+    },
+    "id": 12992,
+    "patch": 3.0,
+    "patchCategory": 17,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Gold Chocobo Feather Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12992",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12994",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "60-2-4"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12994",
+      "obj": {
+        "i": 12994,
+        "n": "Gold Chocobo Feather",
+        "l": 1,
+        "c": 21901,
+        "t": 61
+      }
+    }
+  ]
+}

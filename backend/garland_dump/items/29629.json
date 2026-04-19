@@ -1,0 +1,189 @@
+{
+  "item": {
+    "name": "Skysteel Alembic +1",
+    "description": "Skysteel prototype. ",
+    "jobCategories": "ALC",
+    "id": 29629,
+    "patch": 5.25,
+    "patchCategory": 1,
+    "price": 2,
+    "ilvl": 455,
+    "category": 24,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "slot": 1,
+    "elvl": 80,
+    "jobs": 15,
+    "models": [
+      "5601-2-2-0",
+      "5681-1-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 49,
+      "Magic Damage": 29,
+      "Delay": 2.8,
+      "Craftsmanship": 726,
+      "Control": 395
+    },
+    "icon": 35635,
+    "sharedModels": [
+      2473,
+      2474,
+      29618
+    ],
+    "tradeShops": [
+      {
+        "shop": "Skysteel Prototype Augmentation",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29629",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29618",
+                "amount": 1
+              },
+              {
+                "id": "29651",
+                "amount": 20,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Skysteel Prototype +1 Augmentation",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29640",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29629",
+                "amount": 1
+              },
+              {
+                "id": "29659",
+                "amount": 30,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "2473",
+      "obj": {
+        "i": 2473,
+        "n": "Conical Alembic",
+        "l": 28,
+        "c": 35605,
+        "t": 24,
+        "p": 2232
+      }
+    },
+    {
+      "type": "item",
+      "id": "2474",
+      "obj": {
+        "i": 2474,
+        "n": "Steel Alembic",
+        "l": 31,
+        "c": 35605,
+        "t": 24,
+        "p": 3044
+      }
+    },
+    {
+      "type": "item",
+      "id": "29618",
+      "obj": {
+        "i": 29618,
+        "n": "Skysteel Alembic",
+        "l": 440,
+        "c": 35635,
+        "t": 24,
+        "p": 80000
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29651",
+      "obj": {
+        "i": 29651,
+        "n": "Oddly Specific Synthetic Resin",
+        "l": 430,
+        "c": 22677,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "29659",
+      "obj": {
+        "i": 29659,
+        "n": "Oddly Specific Glass",
+        "l": 430,
+        "c": 22651,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "29640",
+      "obj": {
+        "i": 29640,
+        "n": "Dragonsung Alembic",
+        "l": 475,
+        "c": 35634,
+        "t": 24
+      }
+    }
+  ]
+}

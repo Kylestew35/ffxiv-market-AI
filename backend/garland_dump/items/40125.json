@@ -1,0 +1,209 @@
+{
+  "item": {
+    "name": "Augmented Credendum Hat of Aiming",
+    "jobCategories": "ARC BRD MCH DNC",
+    "id": 40125,
+    "patch": 6.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 660,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 975,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1995,
+    "slot": 3,
+    "elvl": 90,
+    "jobs": 66,
+    "models": [
+      "820-1-0-0"
+    ],
+    "attr": {
+      "Defense": 491,
+      "Magic Defense": 491,
+      "Dexterity": 248,
+      "Vitality": 277,
+      "Skill Speed": 184,
+      "Critical Hit": 129
+    },
+    "attr_max": {
+      "Strength": 248,
+      "Intelligence": 174,
+      "Mind": 174,
+      "Piety": 129,
+      "GP": 9,
+      "CP": 11,
+      "Tenacity": 184,
+      "Defense": 624,
+      "Direct Hit Rate": 184,
+      "Critical Hit": 184,
+      "Fire Resistance": 16,
+      "Ice Resistance": 16,
+      "Wind Resistance": 16,
+      "Earth Resistance": 16,
+      "Lightning Resistance": 16,
+      "Water Resistance": 16,
+      "Determination": 184,
+      "Spell Speed": 184,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 90,
+      "Control": 505,
+      "Gathering": 92,
+      "Perception": 921
+    },
+    "icon": 56576,
+    "sharedModels": [
+      40050
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW, IL 660)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40125",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Credendum Gear Augmentation (DoW) II",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40125",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "40050",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Credendum Gear (IL 660)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40125",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "40050",
+      "obj": {
+        "i": 40050,
+        "n": "Credendum Hat of Aiming",
+        "l": 650,
+        "c": 56576,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+{
+  "item": {
+    "name": "Black Pepper",
+    "description": "An aromatic spice used in cooking as well as pickling.",
+    "id": 4830,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 13,
+    "ilvl": 12,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25007,
+    "seeds": [
+      7737
+    ],
+    "nodes": [
+      25
+    ],
+    "vendors": [
+      1003249,
+      1008907,
+      1008837,
+      1008838,
+      1008839,
+      1008840,
+      1008841,
+      1008842,
+      1008843,
+      1008844,
+      1008845,
+      1008846,
+      1013117,
+      1013118,
+      1018662,
+      1018663,
+      1018664,
+      1018665,
+      1018666,
+      1018667,
+      1018668,
+      1018669,
+      1018670,
+      1018671,
+      1018672,
+      1018673,
+      1024548,
+      1024549,
+      1024550,
+      1024551,
+      1024552,
+      1024553,
+      1024554,
+      1024555,
+      1024556,
+      1024557,
+      1024558,
+      1024559,
+      1025039,
+      1025043,
+      1025717,
+      1026169,
+      1027015,
+      1045242,
+      1045256,
+      1056020,
+      1056024
+    ],
+    "tradeShops": [
+      {
+        "shop": "Rainbowtide Psashp Exchange",
+        "npcs": [
+          1008907
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4830",
+                "amount": 3
+              }
+            ],
+            "currency": [
+              {
+                "id": "21077",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "4641": 1,
+      "4708": 1,
+      "4674": 1,
+      "4710": 1,
+      "4711": 1,
+      "4676": 1,
+      "4691": 1,
+      "4645": 1,
+      "4687": 1,
+      "4646": 1,
+      "4647": 1,
+      "4678": 1,
+      "4679": 1,
+      "9727": 1,
+      "12890": 1,
+      "19817": 1,
+      "19819": 1,
+      "9334": 1,
+      "9335": 1,
+      "9516": 1,
+      "16711": 1,
+      "29501": 1,
+      "29502": 1,
+      "31082": 1
+    },
+    "ventures": [
+      203
+    ],
+    "supply": {
+      "count": 10,
+      "xp": 11300,
+      "seals": 108
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7737",
+      "obj": {
+        "i": 7737,
+        "n": "Black Pepper Seeds",
+        "l": 14,
+        "c": 27451,
+        "t": 82
+      }
+    },
+    {
+      "type": "node",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Clutch",
+        "l": 15,
+        "t": 3,
+        "z": 43
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003249",
+      "obj": {
+        "i": 1003249,
+        "n": "Jossy",
+        "l": 28,
+        "s": 1,
+        "t": "Guild Supplier",
+        "a": 709,
+        "c": [
+          9.99,
+          7.95
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008837",
+      "obj": {
+        "i": 1008837,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008838",
+      "obj": {
+        "i": 1008838,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008839",
+      "obj": {
+        "i": 1008839,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008840",
+      "obj": {
+        "i": 1008840,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008841",
+      "obj": {
+        "i": 1008841,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008842",
+      "obj": {
+        "i": 1008842,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008843",
+      "obj": {
+        "i": 1008843,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008844",
+      "obj": {
+        "i": 1008844,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008845",
+      "obj": {
+        "i": 1008845,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008846",
+      "obj": {
+        "i": 1008846,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013117",
+      "obj": {
+        "i": 1013117,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013118",
+      "obj": {
+        "i": 1013118,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018662",
+      "obj": {
+        "i": 1018662,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018663",
+      "obj": {
+        "i": 1018663,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018664",
+      "obj": {
+        "i": 1018664,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018665",
+      "obj": {
+        "i": 1018665,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018666",
+      "obj": {
+        "i": 1018666,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018667",
+      "obj": {
+        "i": 1018667,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018668",
+      "obj": {
+        "i": 1018668,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018669",
+      "obj": {
+        "i": 1018669,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018670",
+      "obj": {
+        "i": 1018670,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018671",
+      "obj": {
+        "i": 1018671,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018672",
+      "obj": {
+        "i": 1018672,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018673",
+      "obj": {
+        "i": 1018673,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024548",
+      "obj": {
+        "i": 1024548,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024549",
+      "obj": {
+        "i": 1024549,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024550",
+      "obj": {
+        "i": 1024550,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024551",
+      "obj": {
+        "i": 1024551,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024552",
+      "obj": {
+        "i": 1024552,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024553",
+      "obj": {
+        "i": 1024553,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024554",
+      "obj": {
+        "i": 1024554,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024555",
+      "obj": {
+        "i": 1024555,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024556",
+      "obj": {
+        "i": 1024556,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024557",
+      "obj": {
+        "i": 1024557,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024558",
+      "obj": {
+        "i": 1024558,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024559",
+      "obj": {
+        "i": 1024559,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025039",
+      "obj": {
+        "i": 1025039,
+        "n": "Allagan Resupply Node",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025043",
+      "obj": {
+        "i": 1025043,
+        "n": "Ananta Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025717",
+      "obj": {
+        "i": 1025717,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026169",
+      "obj": {
+        "i": 1026169,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027015",
+      "obj": {
+        "i": 1027015,
+        "n": "Kojin Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045242",
+      "obj": {
+        "i": 1045242,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045256",
+      "obj": {
+        "i": 1045256,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056020",
+      "obj": {
+        "i": 1056020,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056024",
+      "obj": {
+        "i": 1056024,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "4641",
+      "obj": {
+        "i": 4641,
+        "n": "Mole Loaf",
+        "l": 12,
+        "c": 24356,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4708",
+      "obj": {
+        "i": 4708,
+        "n": "Rabbit Pie",
+        "l": 10,
+        "c": 24354,
+        "t": 46,
+        "p": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "4674",
+      "obj": {
+        "i": 4674,
+        "n": "Lentils and Chestnuts",
+        "l": 16,
+        "c": 24106,
+        "t": 46,
+        "p": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "4710",
+      "obj": {
+        "i": 4710,
+        "n": "Shepherd's Pie",
+        "l": 22,
+        "c": 24357,
+        "t": 46,
+        "p": 67
+      }
+    },
+    {
+      "type": "item",
+      "id": "4711",
+      "obj": {
+        "i": 4711,
+        "n": "Eel Pie",
+        "l": 25,
+        "c": 24305,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4676",
+      "obj": {
+        "i": 4676,
+        "n": "Orobon Stew",
+        "l": 28,
+        "c": 24109,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4691",
+      "obj": {
+        "i": 4691,
+        "n": "Forest Miq'abob",
+        "l": 30,
+        "c": 24201,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4645",
+      "obj": {
+        "i": 4645,
+        "n": "Smoked Raptor",
+        "l": 31,
+        "c": 24358,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4687",
+      "obj": {
+        "i": 4687,
+        "n": "Stuffed Artichoke",
+        "l": 39,
+        "c": 24159,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4646",
+      "obj": {
+        "i": 4646,
+        "n": "Jerked Beef",
+        "l": 41,
+        "c": 24353,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4647",
+      "obj": {
+        "i": 4647,
+        "n": "Eft Steak",
+        "l": 50,
+        "c": 24352,
+        "t": 46,
+        "p": 435
+      }
+    },
+    {
+      "type": "item",
+      "id": "4678",
+      "obj": {
+        "i": 4678,
+        "n": "Beef Stew",
+        "l": 50,
+        "c": 24110,
+        "t": 46,
+        "p": 415
+      }
+    },
+    {
+      "type": "item",
+      "id": "4679",
+      "obj": {
+        "i": 4679,
+        "n": "Dzemael Gratin",
+        "l": 55,
+        "c": 24112,
+        "t": 46,
+        "p": 457
+      }
+    },
+    {
+      "type": "item",
+      "id": "9727",
+      "obj": {
+        "i": 9727,
+        "n": "Riviera Supper",
+        "l": 25,
+        "c": 53059,
+        "t": 78,
+        "p": 7000
+      }
+    },
+    {
+      "type": "item",
+      "id": "12890",
+      "obj": {
+        "i": 12890,
+        "n": "Hollandaise Sauce",
+        "l": 139,
+        "c": 25109,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19817",
+      "obj": {
+        "i": 19817,
+        "n": "Shorlog",
+        "l": 276,
+        "c": 24351,
+        "t": 46,
+        "p": 2180
+      }
+    },
+    {
+      "type": "item",
+      "id": "19819",
+      "obj": {
+        "i": 19819,
+        "n": "Jerked Jhammel",
+        "l": 288,
+        "c": 24353,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "9334",
+      "obj": {
+        "i": 9334,
+        "n": "Haddock Dip",
+        "l": 90,
+        "c": 24258,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "9335",
+      "obj": {
+        "i": 9335,
+        "n": "Bacon Broth",
+        "l": 110,
+        "c": 24103,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "9516",
+      "obj": {
+        "i": 9516,
+        "n": "Tailor-made Eel Pie",
+        "l": 90,
+        "c": 24305,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "16711",
+      "obj": {
+        "i": 16711,
+        "n": "Spaghetti Carbonara",
+        "l": 250,
+        "c": 24019,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "29501",
+      "obj": {
+        "i": 29501,
+        "n": "Sausage and Sauerkraut",
+        "l": 480,
+        "c": 24367,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "29502",
+      "obj": {
+        "i": 29502,
+        "n": "Stuffed Highland Cabbage",
+        "l": 480,
+        "c": 24206,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "31082",
+      "obj": {
+        "i": 31082,
+        "n": "Rarefied Shorlog",
+        "l": 273,
+        "c": 24351,
+        "t": 61
+      }
+    }
+  ]
+}

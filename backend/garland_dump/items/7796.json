@@ -1,0 +1,157 @@
+{
+  "item": {
+    "name": "Venture Promissory Note",
+    "description": "A promissory note that can be exchanged for ventures─a currency minted and issued by the Adventurers' Guild for use as remuneration in retainer ventures.",
+    "id": 7796,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 225,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26188,
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1016902,
+          1016903,
+          1016904
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7796",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14944",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "disposal": [
+      {
+        "amount": 1,
+        "item": 21072,
+        "shop": "Certificate Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016902",
+      "obj": {
+        "i": 1016902,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016903",
+      "obj": {
+        "i": 1016903,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016904",
+      "obj": {
+        "i": 1016904,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "14944",
+      "obj": {
+        "i": 14944,
+        "n": "Chipped Fortune Egg",
+        "l": 1,
+        "c": 21308,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    }
+  ]
+}

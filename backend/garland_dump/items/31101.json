@@ -1,0 +1,259 @@
+{
+  "item": {
+    "name": "Oddly Specific Cedar Lumber",
+    "description": "Must be cut within twenty paces of a lark's call, beneath a double rainbow.",
+    "id": 31101,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 460,
+    "category": 50,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 1,
+    "icon": 22467,
+    "craft": [
+      {
+        "id": 34359,
+        "job": 8,
+        "rlvl": 460,
+        "durability": 70,
+        "quality": 8100,
+        "progress": 1909,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31117,
+            "amount": 1
+          },
+          {
+            "id": 27687,
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "amount": 7
+          },
+          {
+            "id": 9,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 221,
+          "hq": 241
+        }
+      }
+    ],
+    "masterpiece": {
+      "rating": [
+        360,
+        540,
+        720
+      ],
+      "amount": 1,
+      "stars": 2,
+      "lvl": [
+        80,
+        80
+      ],
+      "xp": [
+        599200,
+        719040,
+        898800
+      ],
+      "reward": 33913,
+      "rewardAmount": [
+        5,
+        10,
+        15
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Oddly Specific Cedar Log",
+      "id": 31117,
+      "icon": 22415,
+      "category": 50,
+      "ilvl": 485,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+          "npcs": [
+            1031680,
+            1031691
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31117",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28063",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31117",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Skysteel Prototype Augmentation)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31117",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lignum Vitae Log",
+      "id": 27687,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        817
+      ],
+      "nodes": [
+        621
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "621",
+      "obj": {
+        "i": 621,
+        "n": "Hare Among Giants",
+        "l": 80,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "31117",
+      "obj": {
+        "i": 31117,
+        "n": "Oddly Specific Cedar Log",
+        "l": 485,
+        "c": 22415,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27687",
+      "obj": {
+        "i": 27687,
+        "n": "Lignum Vitae Log",
+        "l": 415,
+        "c": 22402,
+        "t": 50
+      }
+    }
+  ]
+}

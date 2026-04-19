@@ -1,0 +1,173 @@
+{
+  "item": {
+    "name": "Orthos Greatsword",
+    "jobCategories": "DRK",
+    "id": 39190,
+    "patch": 6.35,
+    "patchCategory": 0,
+    "price": 2,
+    "ilvl": 620,
+    "category": 87,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 2,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 98,
+    "models": [
+      "1501-121-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 123,
+      "Magic Damage": 62,
+      "Delay": 2.96,
+      "Strength": 330,
+      "Vitality": 353,
+      "Critical Hit": 277,
+      "Determination": 194
+    },
+    "attr_max": {
+      "Strength": 890,
+      "Dexterity": 890,
+      "Vitality": 953,
+      "Intelligence": 890,
+      "Mind": 890,
+      "Piety": 749,
+      "GP": 4,
+      "CP": 4,
+      "Tenacity": 749,
+      "Direct Hit Rate": 749,
+      "Critical Hit": 749,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 749,
+      "Skill Speed": 749,
+      "Spell Speed": 749,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 4547,
+      "Control": 1800,
+      "Gathering": 4331,
+      "Perception": 1238
+    },
+    "icon": 34389,
+    "sharedModels": [
+      39210
+    ],
+    "tradeShops": [
+      {
+        "shop": "DEEP_DUNGEON_WEAPON_SHOP",
+        "npcs": [
+          1044503
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39190",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38943",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "DEEP_DUNGEON_WEAPON_SHOP",
+        "npcs": [
+          1044503
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39210",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39190",
+                "amount": 1
+              },
+              {
+                "id": "38943",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "39210",
+      "obj": {
+        "i": 39210,
+        "n": "Enaretos Greatsword",
+        "l": 625,
+        "c": 34390,
+        "t": 87
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1044503",
+      "obj": {
+        "i": 1044503,
+        "n": "Synthesis Node",
+        "l": 67,
+        "s": 3,
+        "r": 1,
+        "a": 420,
+        "c": [
+          34.95,
+          19.09
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38943",
+      "obj": {
+        "i": 38943,
+        "n": "Orthos Aetherpool Grip",
+        "l": 1,
+        "c": 26535,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Dance Pole",
+    "description": "Even seasoned adventurers may find that sensually swiveling upon this pole proves a challenge to their balance and brawn alike. ",
+    "id": 35572,
+    "patch": 6.05,
+    "patchCategory": 9,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 57,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52728,
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Music/Furnishings)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35572",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 2000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1089"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "item": {
+    "name": "Squid Ink",
+    "description": "This sticky, stygian liquid─decidedly an acquired taste─was harvested from a spearhead squid.",
+    "id": 27840,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2878,
+    "ilvl": 400,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25060,
+    "craft": [
+      {
+        "id": 3879,
+        "job": 15,
+        "rlvl": 400,
+        "durability": 40,
+        "quality": 3120,
+        "progress": 645,
+        "lvl": 73,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27457,
+            "amount": 5
+          },
+          {
+            "id": 8,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 136,
+          "hq": 156
+        }
+      }
+    ],
+    "ingredient_of": {
+      "27857": 2,
+      "27873": 1,
+      "28721": 1,
+      "31087": 2
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Spearhead Squid",
+      "id": 27457,
+      "icon": 29177,
+      "category": 47,
+      "ilvl": 395,
+      "price": 600,
+      "ventures": [
+        842
+      ],
+      "fishingSpots": [
+        213
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "213",
+      "obj": {
+        "i": 213,
+        "n": "The Eastern Kholusian Coast",
+        "l": 72,
+        "c": 0,
+        "z": 2954,
+        "x": 35.23,
+        "y": 35.83
+      }
+    },
+    {
+      "type": "item",
+      "id": "27457",
+      "obj": {
+        "i": 27457,
+        "n": "Spearhead Squid",
+        "l": 395,
+        "c": 29177,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27857",
+      "obj": {
+        "i": 27857,
+        "n": "Spaghetti al Nero",
+        "l": 400,
+        "c": 24027,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "27873",
+      "obj": {
+        "i": 27873,
+        "n": "Risotto al Nero",
+        "l": 415,
+        "c": 24028,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "28721",
+      "obj": {
+        "i": 28721,
+        "n": "Arros Negre",
+        "l": 460,
+        "c": 24032,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "31087",
+      "obj": {
+        "i": 31087,
+        "n": "Rarefied Spaghetti al Nero",
+        "l": 403,
+        "c": 24027,
+        "t": 61
+      }
+    }
+  ]
+}

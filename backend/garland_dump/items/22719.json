@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Korrigan Doll Materials",
+    "description": "Materials required to craft a doll resembling a korrigan.<br><br>※Only for use in Namazu society quests.",
+    "id": 22719,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "22745": 1
+    },
+    "usedInQuest": [
+      68665
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22745",
+      "obj": {
+        "i": 22745,
+        "n": "Korrigan Doll",
+        "l": 150,
+        "c": 21003,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68665",
+      "obj": {
+        "i": 68665,
+        "n": "The Deadliest Sport",
+        "g": 61,
+        "l": "The Azim Steppe",
+        "s": 28,
+        "r": 1
+      }
+    }
+  ]
+}

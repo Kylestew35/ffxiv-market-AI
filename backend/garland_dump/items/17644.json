@@ -1,0 +1,99 @@
+{
+  "item": {
+    "name": "Moebius Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Moebius</span>. Use to add to your orchestrion list.",
+    "id": 17644,
+    "patch": 3.5,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 141,
+      "name": "Moebius",
+      "description": "Available for Alexandrian gear exchange in Idyllshire and with other exchange vendors.",
+      "category": "Raids I",
+      "order": 29
+    },
+    "tradeShops": [
+      {
+        "shop": "Uncanny Knickknacks",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17644",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16545",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17644",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16545",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1015578",
+      "obj": {
+        "i": 1015578,
+        "n": "Bertana",
+        "l": 2082,
+        "s": 6,
+        "t": "Primal Gear Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.86,
+          5.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "16545",
+      "obj": {
+        "i": 16545,
+        "n": "Alexandrian Gear",
+        "l": 1,
+        "c": 25995,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "item": {
+    "name": "Eikon Mythrite",
+    "description": "Mythrite blessed by a primal.",
+    "id": 14147,
+    "patch": 3.2,
+    "patchCategory": 5,
+    "price": 4158,
+    "ilvl": 210,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20818,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14147",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Sky Pirate Spoils (Brass)",
+        "npcs": [
+          1016261,
+          1016496,
+          1016498,
+          1016500,
+          1019106
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14147",
+                "amount": 4
+              }
+            ],
+            "currency": [
+              {
+                "id": "13630",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14147",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "14146": 2
+    },
+    "desynthedFrom": [
+      11425,
+      13239,
+      11441
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13630",
+      "obj": {
+        "i": 13630,
+        "n": "Brass Sky Pirate Spoil",
+        "l": 1,
+        "c": 25950,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "14146",
+      "obj": {
+        "i": 14146,
+        "n": "High Mythrite Ingot",
+        "l": 210,
+        "c": 20824,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "11425",
+      "obj": {
+        "i": 11425,
+        "n": "Expanse Machetes",
+        "l": 175,
+        "c": 33880,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "13239",
+      "obj": {
+        "i": 13239,
+        "n": "Axe of the Heavens",
+        "l": 205,
+        "c": 31507,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "11441",
+      "obj": {
+        "i": 11441,
+        "n": "Hive Musketoon",
+        "l": 190,
+        "c": 34638,
+        "t": 88
+      }
+    }
+  ]
+}

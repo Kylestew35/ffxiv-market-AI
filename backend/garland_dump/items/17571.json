@@ -1,0 +1,87 @@
+{
+  "item": {
+    "name": "Stormcloud Cotton Boll",
+    "description": "Extended exposure to the extreme aetherial currents found on and near the Diadem have somehow altered the fibers of this otherwise ordinary cloud cotton.",
+    "id": 17571,
+    "patch": 3.55,
+    "patchCategory": 5,
+    "price": 784,
+    "ilvl": 220,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21652,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17571",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17571",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "17568": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "17568",
+      "obj": {
+        "i": 17568,
+        "n": "Stormcloud Cotton Cloth",
+        "l": 220,
+        "c": 21611,
+        "t": 51
+      }
+    }
+  ]
+}

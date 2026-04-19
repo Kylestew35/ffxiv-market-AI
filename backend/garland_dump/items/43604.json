@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Wild Ride Barding",
+    "description": "A bright suit of chocobo armor for the adventurous and fashionable.",
+    "id": 43604,
+    "patch": 7.0,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 58800,
+    "tradeShops": [
+      {
+        "shop": "Sacks of Nuts Exchange",
+        "npcs": [
+          1048387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43604",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 640
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1048387",
+      "obj": {
+        "i": 1048387,
+        "n": "Ryubool Ja",
+        "l": 4504,
+        "s": 5,
+        "t": "Dawn Hunt Vendor",
+        "r": 1,
+        "a": 4537,
+        "c": [
+          13.97,
+          13.49
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

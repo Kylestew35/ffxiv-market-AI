@@ -1,0 +1,389 @@
+{
+  "item": {
+    "name": "Archon Loaf",
+    "description": "Baked with either fish or vegetable flour, this fluffy loaf of rye bread is─from a nutritional standpoint─wholesome indeed.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36036,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 3829,
+    "ilvl": 520,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Skill Speed": {
+          "rate": 8,
+          "limit": 58
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 62
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Skill Speed": {
+          "rate": 10,
+          "limit": 72
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 77
+        }
+      }
+    },
+    "icon": 24037,
+    "vendors": [
+      1037054,
+      1041054
+    ],
+    "craft": [
+      {
+        "id": 5251,
+        "job": 15,
+        "rlvl": 517,
+        "durability": 80,
+        "quality": 5200,
+        "progress": 2000,
+        "lvl": 81,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36077,
+            "amount": 1,
+            "quality": 611.7647
+          },
+          {
+            "id": 36386,
+            "amount": 1
+          },
+          {
+            "id": 27828,
+            "amount": 1
+          },
+          {
+            "id": 27818,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 254,
+          "hq": 274
+        }
+      }
+    ],
+    "quests": [
+      69734,
+      69915,
+      70019
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Dark Rye Flour",
+      "id": 36077,
+      "icon": 25356,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5282,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36083,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dark Rye",
+      "id": 36083,
+      "icon": 25359,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 79,
+          "type": 1
+        },
+        {
+          "id": 91,
+          "type": 1
+        },
+        {
+          "id": 99,
+          "type": 1
+        },
+        {
+          "id": 107,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1639
+      ],
+      "ventures": [
+        911
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Northern Herring",
+      "id": 36386,
+      "icon": 29010,
+      "category": 47,
+      "ilvl": 495,
+      "price": 99999,
+      "ventures": [
+        951
+      ],
+      "fishingSpots": [
+        252
+      ]
+    },
+    {
+      "name": "Mist Spinach",
+      "id": 27828,
+      "icon": 25206,
+      "category": 45,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        839
+      ],
+      "nodes": [
+        631
+      ]
+    },
+    {
+      "name": "Purple Carrot",
+      "id": 27818,
+      "icon": 25230,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "desynthedFrom": [
+        27517
+      ],
+      "ventures": [
+        821
+      ],
+      "nodes": [
+        616
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "36083",
+      "obj": {
+        "i": 36083,
+        "n": "Dark Rye",
+        "l": 520,
+        "c": 25359,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "252",
+      "obj": {
+        "i": 252,
+        "n": "Scholar's Harbor",
+        "l": 80,
+        "c": 0,
+        "z": 3706,
+        "x": 11.75,
+        "y": 16.19
+      }
+    },
+    {
+      "type": "node",
+      "id": "631",
+      "obj": {
+        "i": 631,
+        "n": "Bowrest",
+        "l": 80,
+        "t": 3,
+        "z": 2957,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "616",
+      "obj": {
+        "i": 616,
+        "n": "The Forest of the Lost Shepherd",
+        "l": 75,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037054",
+      "obj": {
+        "i": 1037054,
+        "n": "Synnove",
+        "l": 3706,
+        "s": 1,
+        "t": "Apothecary",
+        "a": 3815,
+        "c": [
+          12.83,
+          10.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1041054",
+      "obj": {
+        "i": 1041054,
+        "n": "Unskynwyb",
+        "l": 3706,
+        "s": 1,
+        "t": "Merchant & Mender",
+        "a": 3801,
+        "c": [
+          4.91,
+          9.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36077",
+      "obj": {
+        "i": 36077,
+        "n": "Dark Rye Flour",
+        "l": 520,
+        "c": 25356,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36386",
+      "obj": {
+        "i": 36386,
+        "n": "Northern Herring",
+        "l": 495,
+        "c": 29010,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27828",
+      "obj": {
+        "i": 27828,
+        "n": "Mist Spinach",
+        "l": 415,
+        "c": 25206,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27818",
+      "obj": {
+        "i": 27818,
+        "n": "Purple Carrot",
+        "l": 390,
+        "c": 25230,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69734",
+      "obj": {
+        "i": 69734,
+        "n": "Tikka Hike",
+        "g": 140,
+        "l": "Thavnair",
+        "s": 1220
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69915",
+      "obj": {
+        "i": 69915,
+        "n": "The Color of Joy",
+        "g": 11,
+        "l": "Radz-at-Han",
+        "s": 533
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70019",
+      "obj": {
+        "i": 70019,
+        "n": "Dream Big",
+        "g": 141,
+        "l": "Labyrinthos",
+        "s": 1194
+      }
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "leve": {
+    "name": "For Tired Minds",
+    "description": "Day in and day out, our leaders deliberate over the future of this nation, and it is evident their minds grow weary from the effort. As the palace apothecary, I wish to do my part to support them alongside my colleagues, and so I would like to commission a concoction that enhances mental acuity.",
+    "id": 1751,
+    "patch": 7.0,
+    "client": "Sunperch Apothecary, Pananyihe",
+    "lvl": 92,
+    "jobCategory": 15,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 1665250,
+    "gil": 2535,
+    "rewards": 866,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44047,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 900,
+      "hq": 1080
+    }
+  },
+  "rewards": {
+    "id": 866,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 44039,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 44069,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Grade 1 Gemsap of Intelligence",
+      "id": 44047,
+      "icon": 22679,
+      "category": 54,
+      "ilvl": 656,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5656,
+          "job": 14,
+          "rlvl": 656,
+          "durability": 40,
+          "quality": 9000,
+          "progress": 2250,
+          "lvl": 93,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36263,
+              "amount": 2
+            },
+            {
+              "id": 44069,
+              "amount": 1
+            },
+            {
+              "id": 27780,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 100,
+            "hq": 120
+          }
+        }
+      ],
+      "treasure": [
+        43556
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Lesser Apollyon Shell",
+      "id": 44069,
+      "icon": 22257,
+      "category": 54,
+      "ilvl": 653,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "44069",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1751
+      ],
+      "ventures": [
+        1032
+      ]
+    },
+    {
+      "name": "Fernleaf Lavender",
+      "id": 27780,
+      "icon": 25002,
+      "category": 54,
+      "ilvl": 412,
+      "price": 210,
+      "ventures": [
+        833
+      ],
+      "nodes": [
+        623
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "623",
+      "obj": {
+        "i": 623,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "44069",
+      "obj": {
+        "i": 44069,
+        "n": "Lesser Apollyon Shell",
+        "l": 653,
+        "c": 22257,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27780",
+      "obj": {
+        "i": 27780,
+        "n": "Fernleaf Lavender",
+        "l": 412,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "42196",
+      "obj": {
+        "i": 42196,
+        "n": "Br'aaxskin Headband of Casting",
+        "l": 663,
+        "c": 56741,
+        "t": 34,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42197",
+      "obj": {
+        "i": 42197,
+        "n": "Sarcenet Chestwrap of Casting",
+        "l": 663,
+        "c": 57134,
+        "t": 35,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42198",
+      "obj": {
+        "i": 42198,
+        "n": "Pink Beryl Halfgloves of Casting",
+        "l": 663,
+        "c": 56257,
+        "t": 37,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42199",
+      "obj": {
+        "i": 42199,
+        "n": "Sarcenet Slops of Casting",
+        "l": 663,
+        "c": 57661,
+        "t": 36,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42200",
+      "obj": {
+        "i": 42200,
+        "n": "Br'aaxskin Sandals of Casting",
+        "l": 663,
+        "c": 49754,
+        "t": 38,
+        "p": 28524
+      }
+    },
+    {
+      "type": "item",
+      "id": "42205",
+      "obj": {
+        "i": 42205,
+        "n": "Pink Beryl Earrings of Casting",
+        "l": 663,
+        "c": 55529,
+        "t": 41,
+        "p": 21609
+      }
+    },
+    {
+      "type": "item",
+      "id": "42210",
+      "obj": {
+        "i": 42210,
+        "n": "Dark Mahogany Necklace of Casting",
+        "l": 663,
+        "c": 55081,
+        "t": 40,
+        "p": 21609
+      }
+    },
+    {
+      "type": "item",
+      "id": "42215",
+      "obj": {
+        "i": 42215,
+        "n": "Pink Beryl Bracelet of Casting",
+        "l": 663,
+        "c": 55880,
+        "t": 42,
+        "p": 21609
+      }
+    },
+    {
+      "type": "item",
+      "id": "42220",
+      "obj": {
+        "i": 42220,
+        "n": "Pink Beryl Ring of Casting",
+        "l": 663,
+        "c": 54731,
+        "t": 43,
+        "p": 21609
+      }
+    },
+    {
+      "type": "item",
+      "id": "42350",
+      "obj": {
+        "i": 42350,
+        "n": "Titanium Gold Helm of Casting",
+        "l": 669,
+        "c": 56732,
+        "t": 34,
+        "p": 28554
+      }
+    },
+    {
+      "type": "item",
+      "id": "42351",
+      "obj": {
+        "i": 42351,
+        "n": "Gomphotherium Thornvest of Casting",
+        "l": 669,
+        "c": 57119,
+        "t": 35,
+        "p": 47590
+      }
+    },
+    {
+      "type": "item",
+      "id": "42352",
+      "obj": {
+        "i": 42352,
+        "n": "Rroneek Serge Halfgloves of Casting",
+        "l": 669,
+        "c": 56241,
+        "t": 37,
+        "p": 28554
+      }
+    },
+    {
+      "type": "item",
+      "id": "42353",
+      "obj": {
+        "i": 42353,
+        "n": "Gomphotherium Brais of Casting",
+        "l": 669,
+        "c": 57646,
+        "t": 36,
+        "p": 47590
+      }
+    },
+    {
+      "type": "item",
+      "id": "42354",
+      "obj": {
+        "i": 42354,
+        "n": "Gomphotherium Boots of Casting",
+        "l": 669,
+        "c": 49739,
+        "t": 38,
+        "p": 28554
+      }
+    },
+    {
+      "type": "item",
+      "id": "42359",
+      "obj": {
+        "i": 42359,
+        "n": "White Gold Earrings of Casting",
+        "l": 669,
+        "c": 55537,
+        "t": 41,
+        "p": 21632
+      }
+    },
+    {
+      "type": "item",
+      "id": "42364",
+      "obj": {
+        "i": 42364,
+        "n": "White Gold Choker of Casting",
+        "l": 669,
+        "c": 55089,
+        "t": 40,
+        "p": 21632
+      }
+    },
+    {
+      "type": "item",
+      "id": "42369",
+      "obj": {
+        "i": 42369,
+        "n": "White Gold Amulet of Casting",
+        "l": 669,
+        "c": 55888,
+        "t": 42,
+        "p": 21632
+      }
+    },
+    {
+      "type": "item",
+      "id": "42374",
+      "obj": {
+        "i": 42374,
+        "n": "White Gold Ring of Casting",
+        "l": 669,
+        "c": 54739,
+        "t": 43,
+        "p": 21632
+      }
+    },
+    {
+      "type": "item",
+      "id": "42504",
+      "obj": {
+        "i": 42504,
+        "n": "Black Star Mask of Casting",
+        "l": 675,
+        "c": 56681,
+        "t": 34,
+        "p": 28584
+      }
+    },
+    {
+      "type": "item",
+      "id": "42505",
+      "obj": {
+        "i": 42505,
+        "n": "Thunderyards Silk Coat of Casting",
+        "l": 675,
+        "c": 57064,
+        "t": 35,
+        "p": 47639
+      }
+    },
+    {
+      "type": "item",
+      "id": "42506",
+      "obj": {
+        "i": 42506,
+        "n": "Thunderyards Silk Gloves of Casting",
+        "l": 675,
+        "c": 56189,
+        "t": 37,
+        "p": 28584
+      }
+    },
+    {
+      "type": "item",
+      "id": "42507",
+      "obj": {
+        "i": 42507,
+        "n": "Thunderyards Silk Trousers of Casting",
+        "l": 675,
+        "c": 57592,
+        "t": 36,
+        "p": 47639
+      }
+    },
+    {
+      "type": "item",
+      "id": "42508",
+      "obj": {
+        "i": 42508,
+        "n": "Gargantuaskin Shoes of Casting",
+        "l": 675,
+        "c": 49685,
+        "t": 38,
+        "p": 28584
+      }
+    },
+    {
+      "type": "item",
+      "id": "42513",
+      "obj": {
+        "i": 42513,
+        "n": "Black Star Ear Cuff of Casting",
+        "l": 675,
+        "c": 55531,
+        "t": 41,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42518",
+      "obj": {
+        "i": 42518,
+        "n": "Black Star Choker of Casting",
+        "l": 675,
+        "c": 55083,
+        "t": 40,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42523",
+      "obj": {
+        "i": 42523,
+        "n": "Black Star Bracelet of Casting",
+        "l": 675,
+        "c": 55882,
+        "t": 42,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42528",
+      "obj": {
+        "i": 42528,
+        "n": "Black Star Ring of Casting",
+        "l": 675,
+        "c": 54733,
+        "t": 43,
+        "p": 21654
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1751",
+      "obj": {
+        "i": 1751,
+        "n": "For Tired Minds",
+        "l": 92,
+        "j": 15,
+        "p": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43556",
+      "obj": {
+        "i": 43556,
+        "n": "Timeworn Loboskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "44039",
+      "obj": {
+        "i": 44039,
+        "n": "Wind Parsley",
+        "l": 685,
+        "c": 25211,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "44047",
+      "obj": {
+        "i": 44047,
+        "n": "Grade 1 Gemsap of Intelligence",
+        "l": 656,
+        "c": 22679,
+        "t": 54
+      }
+    }
+  ]
+}

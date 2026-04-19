@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Striped Ray Conch",
+    "description": "A massive conch shell that, when blown, summons a striped ray to your side.",
+    "mount": {
+      "name": "Striped Ray",
+      "action": "Summon forth your striped ray, a majestic creature native to the Ruby Sea.",
+      "description": "Raised and trained by the Kojin, this striped ray has the same mellow temperament as its original masters. Its flat body works in like fashion to the aether-imbued wings of an airship, allowing it to catch water- and wind-aspected aether to glide through both sea and sky with ease.",
+      "tooltip": "I advise you to<br>stand back when he<br>regurgitates everything.<br>   - Zukin",
+      "icon": 4103,
+      "guideIcon": 68103
+    },
+    "id": 21048,
+    "patch": 4.1,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Kojin Sango Exchange",
+        "npcs": [
+          1024219
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21048",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21081",
+                "amount": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "296-2-4"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024219",
+      "obj": {
+        "i": 1024219,
+        "n": "Shikitahe",
+        "l": 2409,
+        "s": 1,
+        "t": "Sango Exchange",
+        "r": 1,
+        "a": 2769,
+        "c": [
+          29.36,
+          16.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21081",
+      "obj": {
+        "i": 21081,
+        "n": "Kojin Sango",
+        "l": 1,
+        "c": 65058,
+        "t": 100
+      }
+    }
+  ]
+}

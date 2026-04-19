@@ -1,0 +1,128 @@
+{
+  "leve": {
+    "name": "Full Moon Frogs",
+    "description": "A number of traditional ceremonies are carried out in the palace, some of which specifically honor our nation's leaders. When we pray for their health during the full moon, the voices of arcane practitioners must be joined with those of singing frogs. Should you travel to the land of the giants and dive into <span class=\"highlight\">Karvarhur the First</span>, you should find creatures suitable for our purposes.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1799,
+    "patch": 7.0,
+    "client": "Vollok Shoonsa Mage, Riwoll Ja",
+    "lvl": 90,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      17.17,
+      15.03
+    ],
+    "zoneid": 4505,
+    "areaid": 4505,
+    "xp": 4395018,
+    "gil": 2460,
+    "rewards": 806,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110199,
+    "requires": [
+      {
+        "item": 43804,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 806,
+    "entries": [
+      {
+        "item": 43849,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Yok Huy Toad",
+      "id": 43804,
+      "icon": 28634,
+      "category": 47,
+      "ilvl": 645,
+      "price": 99999,
+      "nodes": [
+        1005
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "1005",
+      "obj": {
+        "i": 1005,
+        "n": "Karvarhur the First",
+        "l": 95,
+        "t": 5,
+        "z": 4505
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1799",
+      "obj": {
+        "i": 1799,
+        "n": "Full Moon Frogs",
+        "l": 90,
+        "j": 19,
+        "p": 4505
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43849",
+      "obj": {
+        "i": 43849,
+        "n": "Golden Stonefly Nymph",
+        "l": 620,
+        "c": 27102,
+        "t": 33,
+        "p": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43804",
+      "obj": {
+        "i": 43804,
+        "n": "Yok Huy Toad",
+        "l": 645,
+        "c": 28634,
+        "t": 47
+      }
+    }
+  ]
+}

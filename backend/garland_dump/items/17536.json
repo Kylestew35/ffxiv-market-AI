@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Wind-up Moon",
+    "description": "/poke to adjust elevation. /point to inform others of its location. /blowkiss to get strange looks from passersby.<br><br>Use item to acquire the wind-up moon minion.",
+    "minionrace": "Gadget",
+    "tooltip": "I am but the moon\r\nwhich reflects his radiance.\r\n   - Lebrassoir",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Moonlight",
+    "specialactiondescription": "Increases ATK of all allies within range by 20 (40 if the ally is a <span class=\"highlight\">gadget</span>).<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 17536,
+    "patch": 3.5,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59637,
+    "tradeShops": [
+      {
+        "shop": "Gimme an Elixir",
+        "npcs": [
+          1006998
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17536",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "4560",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 30,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 20,
+      "Attack": 75,
+      "Defense": 65,
+      "Speed": 2
+    },
+    "models": [
+      "8057-1-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006998",
+      "obj": {
+        "i": 1006998,
+        "n": "Magic Pot",
+        "l": 33,
+        "s": 1,
+        "r": 1,
+        "a": 173,
+        "c": [
+          12.08,
+          36.84
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4560",
+      "obj": {
+        "i": 4560,
+        "n": "Hi-Elixir",
+        "l": 70,
+        "c": 20625,
+        "t": 44
+      }
+    }
+  ]
+}

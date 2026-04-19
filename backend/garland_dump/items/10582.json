@@ -1,0 +1,128 @@
+{
+  "item": {
+    "name": "Weathered Sirius",
+    "jobCategories": "AST",
+    "id": 10582,
+    "patch": 3.0,
+    "patchCategory": 0,
+    "price": 30175,
+    "ilvl": 100,
+    "category": 89,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 535,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 99,
+    "models": [
+      "2101-10-1-0",
+      "2199-1-12-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 62,
+      "Delay": 3.2,
+      "Mind": 37,
+      "Vitality": 34,
+      "Spell Speed": 40,
+      "Piety": 28,
+      "Direct Hit Rate": 8
+    },
+    "icon": 34820,
+    "sharedModels": [
+      10583,
+      18045
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10583",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10582",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10583",
+      "obj": {
+        "i": 10583,
+        "n": "Sirius",
+        "l": 110,
+        "c": 34820,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "18045",
+      "obj": {
+        "i": 18045,
+        "n": "Koppranickel Planisphere",
+        "l": 255,
+        "c": 34884,
+        "t": 89,
+        "p": 36352
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

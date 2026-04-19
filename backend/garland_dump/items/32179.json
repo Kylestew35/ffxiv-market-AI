@@ -1,0 +1,74 @@
+{
+  "item": {
+    "name": "Bozjan Silver Coin",
+    "description": "A faintly lustrous coin minted in Bozja before it became subject to imperial rule.",
+    "id": 32179,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26326,
+    "tradeCurrency": [
+      {
+        "shop": "Law's Order Gear Exchange",
+        "npcs": [
+          1035607
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32180",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32179",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1035607",
+      "obj": {
+        "i": 1035607,
+        "n": "Resistance Supplier",
+        "l": 3478,
+        "s": 2,
+        "r": 1,
+        "c": [
+          5.76,
+          5.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "32180",
+      "obj": {
+        "i": 32180,
+        "n": "Bozjan Gold Coin",
+        "l": 1,
+        "c": 26325,
+        "t": 61
+      }
+    }
+  ]
+}

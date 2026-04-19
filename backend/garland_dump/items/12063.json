@@ -1,0 +1,94 @@
+{
+  "item": {
+    "name": "Behemoth Heir",
+    "description": "Currently forty-seventh in line to the behemoth throne.<br><br>Use item to acquire the behemoth heir minion.",
+    "minionrace": "Monster",
+    "tooltip": "Yer mistress fights\r\nlike a bloody behemoth\r\nten times her size!\r\n   - Wounded Chocobo Hunter",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Princely Roar",
+    "specialactiondescription": "Increases action party ATK by 40.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 12063,
+    "patch": 3.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59541,
+    "tradeShops": [
+      {
+        "shop": "Exchange Centurio Seals",
+        "npcs": [
+          1012225
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12063",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 55,
+      "Speed": 2
+    },
+    "models": [
+      "8004-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012225",
+      "obj": {
+        "i": 1012225,
+        "n": "Ardolain",
+        "l": 2300,
+        "s": 2,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.05,
+          11.85
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

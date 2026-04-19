@@ -1,0 +1,75 @@
+{
+  "item": {
+    "name": "Dwarven Floor Lamp",
+    "description": "A low-lying lamp designed for use in narrow, enclosed spaces─but usable anywhere mineshaft ambience is desired.",
+    "id": 30412,
+    "patch": 5.3,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53367,
+    "tradeShops": [
+      {
+        "shop": "Hammered Frogments Exchange",
+        "npcs": [
+          1033714
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30412",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28188",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "982"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "28188",
+      "obj": {
+        "i": 28188,
+        "n": "Hammered Frogment",
+        "l": 1,
+        "c": 65080,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033714",
+      "obj": {
+        "i": 1033714,
+        "n": "Mizutt",
+        "l": 2953,
+        "s": 4,
+        "t": "Watts's Anvil Vendor",
+        "r": 1,
+        "a": 3574,
+        "c": [
+          9.5,
+          13.12
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "item": {
+    "name": "Connoisseur's Leather Jacket",
+    "description": "A piece crafted to satisfy the discerning eye of an avid collector. Despite its antique appearance, the leather is durable enough to withstand all manner of inclement weather.",
+    "id": 41266,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 643,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 1,
+    "icon": 42575,
+    "craft": [
+      {
+        "id": 35695,
+        "job": 12,
+        "rlvl": 643,
+        "durability": 60,
+        "quality": 16308,
+        "progress": 7040,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 41250,
+            "amount": 1
+          },
+          {
+            "id": 19979,
+            "amount": 1
+          },
+          {
+            "id": 36203,
+            "amount": 1
+          },
+          {
+            "id": 36206,
+            "amount": 1
+          },
+          {
+            "id": 17,
+            "amount": 4
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 335,
+          "hq": 355
+        }
+      }
+    ],
+    "masterpiece": {
+      "rating": [
+        800,
+        1200,
+        1600
+      ],
+      "amount": 1,
+      "stars": 4,
+      "lvl": [
+        90,
+        90
+      ],
+      "xp": [
+        2230704,
+        2443152,
+        2668878
+      ],
+      "reward": 33913,
+      "rewardAmount": [
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Select Chalicotherium Leather",
+      "id": 41250,
+      "icon": 22007,
+      "category": 52,
+      "ilvl": 642,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Crafters' Scrip Exchange",
+          "npcs": [
+            1045069
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "41250",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 35
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ruby Cotton Boll",
+      "id": 19979,
+      "icon": 21652,
+      "category": 51,
+      "ilvl": 265,
+      "price": 2098,
+      "leves": [
+        1301,
+        1302,
+        1303
+      ],
+      "ventures": [
+        686
+      ],
+      "nodes": [
+        511
+      ]
+    },
+    {
+      "name": "Almasty Fur",
+      "id": 36203,
+      "icon": 21655,
+      "category": 51,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36203",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        55009
+      ],
+      "ventures": [
+        937
+      ]
+    },
+    {
+      "name": "AR-Caean Cotton Boll",
+      "id": 36206,
+      "icon": 25032,
+      "category": 51,
+      "ilvl": 545,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 79,
+          "type": 1
+        },
+        {
+          "id": 91,
+          "type": 1
+        },
+        {
+          "id": 99,
+          "type": 1
+        },
+        {
+          "id": 107,
+          "type": 1
+        }
+      ],
+      "desynthedFrom": [
+        37355
+      ],
+      "ventures": [
+        931
+      ],
+      "nodes": [
+        848
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1045069",
+      "obj": {
+        "i": 1045069,
+        "n": "Quinnana",
+        "l": 2951,
+        "s": 3,
+        "t": "Splendorous Tool Exchange",
+        "r": 1,
+        "a": 3252,
+        "c": [
+          10.44,
+          7.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55009",
+      "obj": {
+        "i": 55009,
+        "n": "The Excitatron 6000",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 90,
+        "max_ilvl": 635
+      }
+    },
+    {
+      "type": "node",
+      "id": "848",
+      "obj": {
+        "i": 848,
+        "n": "Reah Tahra",
+        "l": 90,
+        "t": 3,
+        "z": 3712
+      }
+    },
+    {
+      "type": "item",
+      "id": "41250",
+      "obj": {
+        "i": 41250,
+        "n": "Select Chalicotherium Leather",
+        "l": 642,
+        "c": 22007,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "19979",
+      "obj": {
+        "i": 19979,
+        "n": "Ruby Cotton Boll",
+        "l": 265,
+        "c": 21652,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "36203",
+      "obj": {
+        "i": 36203,
+        "n": "Almasty Fur",
+        "l": 525,
+        "c": 21655,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "36206",
+      "obj": {
+        "i": 36206,
+        "n": "AR-Caean Cotton Boll",
+        "l": 545,
+        "c": 25032,
+        "t": 51
+      }
+    }
+  ]
+}

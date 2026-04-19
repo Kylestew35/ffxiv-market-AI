@@ -1,0 +1,531 @@
+{
+  "item": {
+    "name": "Skybuilders' Brazier",
+    "description": "Not only can this be used for the cooking of various dishes, it also works wonders in the prevention of frostbite, as many residents of the Brume will attest.",
+    "id": 28760,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 430,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 52136,
+    "craft": [
+      {
+        "id": 33608,
+        "job": 11,
+        "rlvl": 430,
+        "durability": 60,
+        "quality": 11960,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 28792,
+            "amount": 8
+          },
+          {
+            "id": 28796,
+            "amount": 8
+          },
+          {
+            "id": 28798,
+            "amount": 8
+          },
+          {
+            "id": 27710,
+            "amount": 1,
+            "quality": 224.74493
+          },
+          {
+            "id": 10,
+            "amount": 4
+          },
+          {
+            "id": 8,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 606,
+          "hq": 626
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Skybuilders' Truegold Ore",
+      "id": 28792,
+      "icon": 21212,
+      "category": 48,
+      "ilvl": 430,
+      "price": 210,
+      "nodes": [
+        678
+      ]
+    },
+    {
+      "name": "Skybuilders' Truegold Sand",
+      "id": 28796,
+      "icon": 21214,
+      "category": 48,
+      "ilvl": 430,
+      "price": 210,
+      "nodes": [
+        679
+      ]
+    },
+    {
+      "name": "Skybuilders' Resin",
+      "id": 28798,
+      "icon": 22638,
+      "category": 54,
+      "ilvl": 430,
+      "price": 210,
+      "nodes": [
+        674
+      ]
+    },
+    {
+      "name": "Manasilver Nugget",
+      "id": 27710,
+      "icon": 20829,
+      "category": 49,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3829,
+          "job": 11,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27699,
+              "amount": 4
+            },
+            {
+              "id": 5113,
+              "amount": 1
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        28148,
+        28973,
+        26106,
+        27114
+      ],
+      "leves": [
+        1515,
+        1516
+      ]
+    },
+    {
+      "name": "Manasilver Sand",
+      "id": 27699,
+      "icon": 21219,
+      "category": 48,
+      "ilvl": 406,
+      "price": 210,
+      "voyages": [
+        {
+          "id": 54,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1514
+      ],
+      "ventures": [
+        804
+      ],
+      "nodes": [
+        595
+      ]
+    },
+    {
+      "name": "Silver Ore",
+      "id": 5113,
+      "icon": 21211,
+      "category": 48,
+      "ilvl": 23,
+      "price": 52,
+      "voyages": [
+        {
+          "id": 16,
+          "type": 0
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5113",
+                  "amount": 8
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        472,
+        473,
+        474,
+        475,
+        476
+      ],
+      "ventures": [
+        108
+      ],
+      "nodes": [
+        47
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "678",
+      "obj": {
+        "i": 678,
+        "n": "Good Jenanna's Grace",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "679",
+      "obj": {
+        "i": 679,
+        "n": "The Duergar Mountains",
+        "l": 80,
+        "t": 1,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "674",
+      "obj": {
+        "i": 674,
+        "n": "Bowrest",
+        "l": 80,
+        "t": 2,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "27699",
+      "obj": {
+        "i": 27699,
+        "n": "Manasilver Sand",
+        "l": 406,
+        "c": 21219,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5113",
+      "obj": {
+        "i": 5113,
+        "n": "Silver Ore",
+        "l": 23,
+        "c": 21211,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "595",
+      "obj": {
+        "i": 595,
+        "n": "Lozatl's Conquest",
+        "l": 75,
+        "t": 1,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "28792",
+      "obj": {
+        "i": 28792,
+        "n": "Skybuilders' Truegold Ore",
+        "l": 430,
+        "c": 21212,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "28796",
+      "obj": {
+        "i": 28796,
+        "n": "Skybuilders' Truegold Sand",
+        "l": 430,
+        "c": 21214,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "28798",
+      "obj": {
+        "i": 28798,
+        "n": "Skybuilders' Resin",
+        "l": 430,
+        "c": 22638,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27710",
+      "obj": {
+        "i": 27710,
+        "n": "Manasilver Nugget",
+        "l": 403,
+        "c": 20829,
+        "t": 49
+      }
+    }
+  ]
+}

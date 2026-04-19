@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Larboard Hull Component Materials",
+    "description": "Materials required to craft components which will compose the left half of an airship's hull.<br><br>※Only for use in Ixal society quests.",
+    "id": 8055,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8094": 1
+    },
+    "usedInQuest": [
+      67033
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8094",
+      "obj": {
+        "i": 8094,
+        "n": "Larboard Hull Component",
+        "l": 1,
+        "c": 21005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67033",
+      "obj": {
+        "i": 67033,
+        "n": "Blow, Ye Winds",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 14,
+        "r": 1
+      }
+    }
+  ]
+}

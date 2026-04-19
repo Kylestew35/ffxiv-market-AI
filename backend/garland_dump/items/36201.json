@@ -1,0 +1,516 @@
+{
+  "item": {
+    "name": "Mempisang Lumber",
+    "description": "Processed mempisang lumber.",
+    "id": 36201,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22457,
+    "ingredient_of": {
+      "35021": 2,
+      "35023": 3,
+      "35024": 3,
+      "35025": 2,
+      "35026": 2,
+      "35028": 3,
+      "35029": 3,
+      "35030": 2,
+      "35031": 2,
+      "35033": 2,
+      "35036": 2,
+      "35038": 2,
+      "35039": 1,
+      "35069": 1,
+      "35074": 1,
+      "35085": 2,
+      "35086": 2,
+      "35087": 2,
+      "35088": 2,
+      "35089": 2,
+      "36697": 3,
+      "36701": 3,
+      "36703": 3,
+      "48183": 2,
+      "48184": 3
+    },
+    "craft": [
+      {
+        "id": 34893,
+        "job": 8,
+        "rlvl": 580,
+        "durability": 35,
+        "quality": 7800,
+        "progress": 2925,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35618,
+        "ingredients": [
+          {
+            "id": 36195,
+            "amount": 4
+          },
+          {
+            "id": 36220,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 3
+          },
+          {
+            "id": 15,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 516,
+          "hq": 536
+        }
+      }
+    ],
+    "desynthedFrom": [
+      35021
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Mempisang Log",
+      "id": 36195,
+      "icon": 22405,
+      "category": 50,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        970
+      ],
+      "nodes": [
+        856
+      ]
+    },
+    {
+      "name": "Thavnairian Horsetail",
+      "id": 36220,
+      "icon": 26592,
+      "category": 54,
+      "ilvl": 580,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36220",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36220",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "856",
+      "obj": {
+        "i": 856,
+        "n": "Lethe",
+        "l": 90,
+        "t": 2,
+        "z": 3713,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "35021",
+      "obj": {
+        "i": 35021,
+        "n": "Classical Tonfa",
+        "l": 580,
+        "c": 30812,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "35023",
+      "obj": {
+        "i": 35023,
+        "n": "Classical Spear",
+        "l": 580,
+        "c": 31623,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "35024",
+      "obj": {
+        "i": 35024,
+        "n": "Classical Cavalry Bow",
+        "l": 580,
+        "c": 32012,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "35025",
+      "obj": {
+        "i": 35025,
+        "n": "Classical Daggers",
+        "l": 580,
+        "c": 33997,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "35026",
+      "obj": {
+        "i": 35026,
+        "n": "Classical Greatsword",
+        "l": 580,
+        "c": 34375,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "35028",
+      "obj": {
+        "i": 35028,
+        "n": "Classical Cane",
+        "l": 580,
+        "c": 32794,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "35029",
+      "obj": {
+        "i": 35029,
+        "n": "Classical Longpole",
+        "l": 580,
+        "c": 33165,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "35030",
+      "obj": {
+        "i": 35030,
+        "n": "Classical Index",
+        "l": 580,
+        "c": 33348,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "35031",
+      "obj": {
+        "i": 35031,
+        "n": "Classical Codex",
+        "l": 580,
+        "c": 33347,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "35033",
+      "obj": {
+        "i": 35033,
+        "n": "Classical Samurai Blade",
+        "l": 580,
+        "c": 36526,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "35036",
+      "obj": {
+        "i": 35036,
+        "n": "Classical Chakrams",
+        "l": 580,
+        "c": 36266,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "35038",
+      "obj": {
+        "i": 35038,
+        "n": "Classical War Scythe",
+        "l": 580,
+        "c": 37218,
+        "t": 108
+      }
+    },
+    {
+      "type": "item",
+      "id": "35039",
+      "obj": {
+        "i": 35039,
+        "n": "Classical Shield",
+        "l": 580,
+        "c": 30236,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "35069",
+      "obj": {
+        "i": 35069,
+        "n": "Classical Medicus's Caligae",
+        "l": 580,
+        "c": 49376,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35074",
+      "obj": {
+        "i": 35074,
+        "n": "Classical Signifer's Caligae",
+        "l": 580,
+        "c": 49374,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "35085",
+      "obj": {
+        "i": 35085,
+        "n": "Classical Wristband of Fending",
+        "l": 580,
+        "c": 55837,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35086",
+      "obj": {
+        "i": 35086,
+        "n": "Classical Wristband of Slaying",
+        "l": 580,
+        "c": 55837,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35087",
+      "obj": {
+        "i": 35087,
+        "n": "Classical Wristband of Aiming",
+        "l": 580,
+        "c": 55837,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35088",
+      "obj": {
+        "i": 35088,
+        "n": "Classical Wristband of Healing",
+        "l": 580,
+        "c": 55837,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35089",
+      "obj": {
+        "i": 35089,
+        "n": "Classical Wristband of Casting",
+        "l": 580,
+        "c": 55837,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "35618",
+      "obj": {
+        "i": 35618,
+        "n": "Master Carpenter IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36195",
+      "obj": {
+        "i": 36195,
+        "n": "Mempisang Log",
+        "l": 580,
+        "c": 22405,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "36220",
+      "obj": {
+        "i": 36220,
+        "n": "Thavnairian Horsetail",
+        "l": 580,
+        "c": 26592,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36697",
+      "obj": {
+        "i": 36697,
+        "n": "Pactmaker's Fishing Rod",
+        "l": 590,
+        "c": 38500,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "36701",
+      "obj": {
+        "i": 36701,
+        "n": "Pactmaker's Grinding Wheel",
+        "l": 590,
+        "c": 35363,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "36703",
+      "obj": {
+        "i": 36703,
+        "n": "Pactmaker's Spinning Wheel",
+        "l": 590,
+        "c": 35564,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "48183",
+      "obj": {
+        "i": 48183,
+        "n": "Grimoire of Sanctifying Light",
+        "l": 560,
+        "c": 33326,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "48184",
+      "obj": {
+        "i": 48184,
+        "n": "Codex of Sanctifying Light",
+        "l": 560,
+        "c": 33325,
+        "t": 98
+      }
+    }
+  ]
+}

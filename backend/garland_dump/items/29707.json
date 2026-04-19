@@ -1,0 +1,110 @@
+{
+  "item": {
+    "name": "Lizbeth Card",
+    "description": "An uncommon (★★) card used in the game Triple Triad.<br>Card No. 278",
+    "id": 29707,
+    "patch": 5.21,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27663,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29707",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "“If you're interested in kupo nuts, I'm afraid I cannot assist. But if you're interested in the Kupo of Fortune, you've come to the right place, kupo!”"
+      },
+      "ja": {
+        "description": "「クポの実ないよ！\r\nクポフォーチュンならあるよ！」\r\nクポフォーチュン受付人：リズベス"
+      },
+      "de": {
+        "description": "„Bei mir gibt's zwar keine Kupo-Nüsse, dafür aber das Glücks-Kupo! Wird dir das Glück heute hold sein?“"
+      },
+      "fr": {
+        "description": "“Si c'est des noix de kupo que vous cherchez, je crains de ne pas pouvoir vous aider, mais si vous voulez jouer au Kupo de la fortune, vous avez frappé à la bonne porte<Indent/>!”"
+      },
+      "sellMgp": 300,
+      "plate": 87286,
+      "rarity": 2,
+      "top": 5,
+      "bottom": 6,
+      "left": 4,
+      "right": 5
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

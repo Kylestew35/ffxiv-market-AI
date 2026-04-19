@@ -1,0 +1,537 @@
+{
+  "item": {
+    "name": "Broad Bean Curry",
+    "description": "Broad beans stewed with fragrant spices, served with a side of steamed rice.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 31906,
+    "patch": 5.4,
+    "patchCategory": 6,
+    "price": 1000,
+    "ilvl": 510,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Tenacity": {
+          "rate": 8,
+          "limit": 56
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 59
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 34
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Tenacity": {
+          "rate": 10,
+          "limit": 70
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 74
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 43
+        }
+      }
+    },
+    "icon": 24035,
+    "craft": [
+      {
+        "id": 34574,
+        "job": 15,
+        "rlvl": 510,
+        "durability": 70,
+        "quality": 9500,
+        "progress": 3600,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2540,
+        "craftsmanshipReq": 2620,
+        "quickSynthCraftsmanship": 2900,
+        "unlockId": 29491,
+        "ingredients": [
+          {
+            "id": 31912,
+            "amount": 2
+          },
+          {
+            "id": 27841,
+            "amount": 2,
+            "quality": 532.3276
+          },
+          {
+            "id": 27833,
+            "amount": 1
+          },
+          {
+            "id": 27830,
+            "amount": 2
+          },
+          {
+            "id": 27782,
+            "amount": 1
+          },
+          {
+            "id": 12895,
+            "amount": 1,
+            "quality": 171.71858
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 703,
+          "hq": 723
+        }
+      }
+    ],
+    "quests": [
+      69597
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Cardamom",
+      "id": 31912,
+      "icon": 25021,
+      "category": 45,
+      "ilvl": 510,
+      "price": 140,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31912",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31912",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Broad Beans",
+      "id": 27833,
+      "icon": 25353,
+      "category": 45,
+      "ilvl": 395,
+      "price": 630,
+      "ventures": [
+        823
+      ],
+      "nodes": [
+        628
+      ]
+    },
+    {
+      "name": "Bomba Rice",
+      "id": 27830,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 415,
+      "price": 210,
+      "leves": [
+        1475,
+        1476,
+        1477
+      ],
+      "ventures": [
+        835
+      ],
+      "nodes": [
+        625
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Fermented Butter",
+      "id": 12895,
+      "icon": 25052,
+      "category": 45,
+      "ilvl": 130,
+      "price": 205,
+      "craft": [
+        {
+          "id": 2821,
+          "job": 15,
+          "rlvl": 130,
+          "durability": 40,
+          "quality": 1768,
+          "progress": 150,
+          "lvl": 53,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 77,
+            "hq": 97
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "628",
+      "obj": {
+        "i": 628,
+        "n": "Phisor Lran",
+        "l": 75,
+        "t": 3,
+        "z": 2956,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "625",
+      "obj": {
+        "i": 625,
+        "n": "Scree",
+        "l": 80,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "29491",
+      "obj": {
+        "i": 29491,
+        "n": "Master Culinarian VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "31912",
+      "obj": {
+        "i": 31912,
+        "n": "Cardamom",
+        "l": 510,
+        "c": 25021,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27833",
+      "obj": {
+        "i": 27833,
+        "n": "Broad Beans",
+        "l": 395,
+        "c": 25353,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27830",
+      "obj": {
+        "i": 27830,
+        "n": "Bomba Rice",
+        "l": 415,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12895",
+      "obj": {
+        "i": 12895,
+        "n": "Fermented Butter",
+        "l": 130,
+        "c": 25052,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69597",
+      "obj": {
+        "i": 69597,
+        "n": "For Vengeance",
+        "g": 10,
+        "l": "Azys Lla",
+        "s": 460
+      }
+    }
+  ]
+}

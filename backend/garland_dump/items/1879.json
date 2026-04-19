@@ -1,0 +1,351 @@
+{
+  "item": {
+    "name": "Champion's Lance",
+    "jobCategories": "LNC DRG",
+    "id": 1879,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 15681,
+    "ilvl": 55,
+    "category": 5,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 118,
+    "rarity": 2,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "equip": 1,
+    "sockets": 3,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 317,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 47,
+    "models": [
+      "501-2-3-0"
+    ],
+    "attr": {
+      "Physical Damage": 52,
+      "Magic Damage": 26,
+      "Delay": 2.96,
+      "Strength": 13,
+      "Vitality": 17,
+      "Skill Speed": 22,
+      "Critical Hit": 16
+    },
+    "attr_hq": {
+      "Physical Damage": 58,
+      "Magic Damage": 29,
+      "Strength": 15,
+      "Vitality": 19,
+      "Skill Speed": 25,
+      "Critical Hit": 18
+    },
+    "attr_max": {
+      "Dexterity": 14,
+      "Intelligence": 14,
+      "Mind": 14,
+      "Piety": 23,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 25,
+      "Direct Hit Rate": 25,
+      "Critical Hit": 25,
+      "Fire Resistance": 8,
+      "Ice Resistance": 8,
+      "Wind Resistance": 8,
+      "Earth Resistance": 8,
+      "Lightning Resistance": 8,
+      "Water Resistance": 8,
+      "Determination": 25,
+      "Spell Speed": 25,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 126,
+      "Control": 72,
+      "Gathering": 132,
+      "Perception": 75
+    },
+    "icon": 31820,
+    "sharedModels": [
+      1827,
+      1855,
+      1860,
+      31471
+    ],
+    "craft": [
+      {
+        "id": 1530,
+        "job": 8,
+        "rlvl": 55,
+        "durability": 80,
+        "quality": 2200,
+        "progress": 210,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 255,
+        "quickSynthControl": 318,
+        "ingredients": [
+          {
+            "id": 5565,
+            "amount": 1
+          },
+          {
+            "id": 5378,
+            "amount": 1,
+            "quality": 550.0
+          },
+          {
+            "id": 10,
+            "amount": 3
+          },
+          {
+            "id": 9,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 225,
+          "hq": 245
+        }
+      }
+    ],
+    "usedInQuest": [
+      66658
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bloody Lance Head",
+      "id": 5565,
+      "icon": 23103,
+      "category": 56,
+      "ilvl": 55,
+      "price": 5227,
+      "instances": [
+        10,
+        10
+      ],
+      "leves": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "name": "Spruce Lumber",
+      "id": 5378,
+      "icon": 22465,
+      "category": 50,
+      "ilvl": 55,
+      "price": 1045,
+      "craft": [
+        {
+          "id": 1526,
+          "job": 8,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5395,
+              "amount": 3
+            },
+            {
+              "id": 10,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6353,
+        6389,
+        6391,
+        9724,
+        5568,
+        4924
+      ],
+      "treasure": [
+        6692
+      ]
+    },
+    {
+      "name": "Spruce Log",
+      "id": 5395,
+      "icon": 22413,
+      "category": 50,
+      "ilvl": 55,
+      "price": 304,
+      "ventures": [
+        516
+      ],
+      "nodes": [
+        211
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "10",
+      "obj": {
+        "i": 10,
+        "n": "The Wanderer's Palace",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "item",
+      "id": "5395",
+      "obj": {
+        "i": 5395,
+        "n": "Spruce Log",
+        "l": 55,
+        "c": 22413,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "211",
+      "obj": {
+        "i": 211,
+        "n": "Providence Point",
+        "l": 50,
+        "t": 2,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "1827",
+      "obj": {
+        "i": 1827,
+        "n": "Iron Lance",
+        "l": 20,
+        "c": 31803,
+        "t": 5,
+        "p": 1296
+      }
+    },
+    {
+      "type": "item",
+      "id": "1855",
+      "obj": {
+        "i": 1855,
+        "n": "Mythril Lance",
+        "l": 40,
+        "c": 31826,
+        "t": 5,
+        "p": 7776
+      }
+    },
+    {
+      "type": "item",
+      "id": "1860",
+      "obj": {
+        "i": 1860,
+        "n": "Lominsan Lance",
+        "l": 43,
+        "c": 31805,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "31471",
+      "obj": {
+        "i": 31471,
+        "n": "Longstop Lance",
+        "l": 34,
+        "c": 31602,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "5565",
+      "obj": {
+        "i": 5565,
+        "n": "Bloody Lance Head",
+        "l": 55,
+        "c": 23103,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "5378",
+      "obj": {
+        "i": 5378,
+        "n": "Spruce Lumber",
+        "l": 55,
+        "c": 22465,
+        "t": 50
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66658",
+      "obj": {
+        "i": 66658,
+        "n": "A Relic Reborn (Gae Bolg)",
+        "g": 178,
+        "l": "North Shroud",
+        "s": 7,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "item": {
+    "name": "Philosopher's Sandwich",
+    "description": "Perfectly nutritionally balanced, this handheld dish is a busy Sharlayan researcher's best friend.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36055,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 545,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 61
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 66
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 37
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 76
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 82
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 46
+        }
+      }
+    },
+    "icon": 24038,
+    "craft": [
+      {
+        "id": 5270,
+        "job": 15,
+        "rlvl": 550,
+        "durability": 80,
+        "quality": 7000,
+        "progress": 3300,
+        "lvl": 88,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36077,
+            "amount": 1,
+            "quality": 495.6427
+          },
+          {
+            "id": 36088,
+            "amount": 2
+          },
+          {
+            "id": 36386,
+            "amount": 1
+          },
+          {
+            "id": 36256,
+            "amount": 1
+          },
+          {
+            "id": 36097,
+            "amount": 1
+          },
+          {
+            "id": 36091,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 266,
+          "hq": 286
+        }
+      }
+    ],
+    "ingredient_of": {
+      "35984": 3
+    },
+    "quests": [
+      69855,
+      70978
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 2614750,
+      "seals": 909
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Dark Rye Flour",
+      "id": 36077,
+      "icon": 25356,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5282,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36083,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dark Rye",
+      "id": 36083,
+      "icon": 25359,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 79,
+          "type": 1
+        },
+        {
+          "id": 91,
+          "type": 1
+        },
+        {
+          "id": 99,
+          "type": 1
+        },
+        {
+          "id": 107,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1639
+      ],
+      "ventures": [
+        911
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "id": 36088,
+      "icon": 25219,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "ventures": [
+        912
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Northern Herring",
+      "id": 36386,
+      "icon": 29010,
+      "category": 47,
+      "ilvl": 495,
+      "price": 99999,
+      "ventures": [
+        951
+      ],
+      "fishingSpots": [
+        252
+      ]
+    },
+    {
+      "name": "Egg of Elpis",
+      "id": 36256,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36256",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1644,
+        1645
+      ],
+      "ventures": [
+        945
+      ]
+    },
+    {
+      "name": "Alien Onion",
+      "id": 36097,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 545,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 75,
+          "type": 1
+        },
+        {
+          "id": 84,
+          "type": 1
+        },
+        {
+          "id": 93,
+          "type": 1
+        },
+        {
+          "id": 98,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1646,
+        1647
+      ],
+      "ventures": [
+        932
+      ],
+      "nodes": [
+        848
+      ]
+    },
+    {
+      "name": "Cucumber",
+      "id": 36091,
+      "icon": 25212,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "leves": [
+        1642,
+        1643
+      ],
+      "ventures": [
+        918
+      ],
+      "nodes": [
+        843
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "36083",
+      "obj": {
+        "i": 36083,
+        "n": "Dark Rye",
+        "l": 520,
+        "c": 25359,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "252",
+      "obj": {
+        "i": 252,
+        "n": "Scholar's Harbor",
+        "l": 80,
+        "c": 0,
+        "z": 3706,
+        "x": 11.75,
+        "y": 16.19
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "848",
+      "obj": {
+        "i": 848,
+        "n": "Reah Tahra",
+        "l": 90,
+        "t": 3,
+        "z": 3712
+      }
+    },
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "item",
+      "id": "36077",
+      "obj": {
+        "i": 36077,
+        "n": "Dark Rye Flour",
+        "l": 520,
+        "c": 25356,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36088",
+      "obj": {
+        "i": 36088,
+        "n": "Iceberg Lettuce",
+        "l": 520,
+        "c": 25219,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36386",
+      "obj": {
+        "i": 36386,
+        "n": "Northern Herring",
+        "l": 495,
+        "c": 29010,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36256",
+      "obj": {
+        "i": 36256,
+        "n": "Egg of Elpis",
+        "l": 539,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36097",
+      "obj": {
+        "i": 36097,
+        "n": "Alien Onion",
+        "l": 545,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36091",
+      "obj": {
+        "i": 36091,
+        "n": "Cucumber",
+        "l": 533,
+        "c": 25212,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "35984",
+      "obj": {
+        "i": 35984,
+        "n": "Adventure Basket",
+        "l": 1,
+        "c": 59836,
+        "t": 81
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69855",
+      "obj": {
+        "i": 69855,
+        "n": "Sandwiches and Pretzels",
+        "g": 139,
+        "l": "Old Sharlayan",
+        "s": 7130
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70978",
+      "obj": {
+        "i": 70978,
+        "n": "Starting a New Chapter",
+        "g": 107,
+        "l": "Old Sharlayan",
+        "s": 410
+      }
+    }
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "item": {
+    "name": "Pliable Glass Fiber",
+    "description": "This thinly spun glass is remarkably resistant to breakage, even when handled by a particularly clumsy craftsman.",
+    "id": 28715,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 450,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 50,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21663,
+    "ingredient_of": {
+      "28472": 3,
+      "28473": 4,
+      "28474": 3,
+      "28475": 4,
+      "28476": 3,
+      "28477": 3,
+      "28478": 4,
+      "28479": 3,
+      "28480": 4,
+      "28481": 3,
+      "39552": 2,
+      "39553": 2,
+      "39557": 2,
+      "39558": 2,
+      "39559": 2,
+      "39560": 2,
+      "39561": 2,
+      "39562": 2,
+      "39565": 2,
+      "41603": 2,
+      "41604": 2,
+      "41608": 2,
+      "41609": 2,
+      "41610": 2,
+      "41611": 2,
+      "41612": 2,
+      "41615": 2,
+      "44977": 2,
+      "44979": 2,
+      "44980": 2,
+      "44983": 2,
+      "44986": 2,
+      "44987": 2,
+      "44992": 2
+    },
+    "craft": [
+      {
+        "id": 33530,
+        "job": 14,
+        "rlvl": 450,
+        "durability": 35,
+        "quality": 6320,
+        "progress": 1640,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24272,
+        "ingredients": [
+          {
+            "id": 28716,
+            "amount": 3
+          },
+          {
+            "id": 28718,
+            "amount": 1
+          },
+          {
+            "id": 27812,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 397,
+          "hq": 417
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Sandalwood Sap",
+      "id": 28716,
+      "icon": 22638,
+      "category": 54,
+      "ilvl": 450,
+      "price": 630,
+      "ventures": [
+        862
+      ],
+      "nodes": [
+        633
+      ]
+    },
+    {
+      "name": "Sublime Solution",
+      "id": 28718,
+      "icon": 22669,
+      "category": 54,
+      "ilvl": 450,
+      "price": 2523,
+      "desynthedFrom": [
+        29382,
+        26916,
+        26915,
+        29399,
+        29367,
+        26923,
+        32628,
+        26929,
+        32592,
+        28252,
+        26928,
+        33508
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28718",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28718",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scuroglow Aethersand",
+      "id": 27812,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 409,
+      "price": 599,
+      "reducedFrom": [
+        27809,
+        27806,
+        27543
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27812",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27812",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "633",
+      "obj": {
+        "i": 633,
+        "n": "Mjrl's Regret",
+        "l": 80,
+        "t": 2,
+        "z": 2957,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          2,
+          14
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27809",
+      "obj": {
+        "i": 27809,
+        "n": "Sweet Marjoram",
+        "l": 409,
+        "c": 25015,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27806",
+      "obj": {
+        "i": 27806,
+        "n": "Solarite",
+        "l": 409,
+        "c": 21467,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27543",
+      "obj": {
+        "i": 27543,
+        "n": "Poecilia",
+        "l": 406,
+        "c": 28442,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "28472",
+      "obj": {
+        "i": 28472,
+        "n": "Facet Hat of Crafting",
+        "l": 460,
+        "c": 41479,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28473",
+      "obj": {
+        "i": 28473,
+        "n": "Facet Coat of Crafting",
+        "l": 460,
+        "c": 43908,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28474",
+      "obj": {
+        "i": 28474,
+        "n": "Facet Gloves of Crafting",
+        "l": 460,
+        "c": 44758,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28475",
+      "obj": {
+        "i": 28475,
+        "n": "Facet Trousers of Crafting",
+        "l": 460,
+        "c": 47653,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28476",
+      "obj": {
+        "i": 28476,
+        "n": "Facet Boots of Crafting",
+        "l": 460,
+        "c": 49098,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28477",
+      "obj": {
+        "i": 28477,
+        "n": "Facet Cap of Gathering",
+        "l": 460,
+        "c": 41478,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28478",
+      "obj": {
+        "i": 28478,
+        "n": "Facet Coat of Gathering",
+        "l": 460,
+        "c": 43907,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28479",
+      "obj": {
+        "i": 28479,
+        "n": "Facet Fingerless Gloves of Gathering",
+        "l": 460,
+        "c": 44757,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28480",
+      "obj": {
+        "i": 28480,
+        "n": "Facet Bottoms of Gathering",
+        "l": 460,
+        "c": 47652,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28481",
+      "obj": {
+        "i": 28481,
+        "n": "Facet Boots of Gathering",
+        "l": 460,
+        "c": 49097,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "24272",
+      "obj": {
+        "i": 24272,
+        "n": "Master Alchemist VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "28716",
+      "obj": {
+        "i": 28716,
+        "n": "Sandalwood Sap",
+        "l": 450,
+        "c": 22638,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "28718",
+      "obj": {
+        "i": 28718,
+        "n": "Sublime Solution",
+        "l": 450,
+        "c": 22669,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27812",
+      "obj": {
+        "i": 27812,
+        "n": "Scuroglow Aethersand",
+        "l": 409,
+        "c": 21233,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "39552",
+      "obj": {
+        "i": 39552,
+        "n": "Rubellux Partisan",
+        "l": 430,
+        "c": 31998,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "39553",
+      "obj": {
+        "i": 39553,
+        "n": "Rubellux Bow",
+        "l": 430,
+        "c": 32384,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "39557",
+      "obj": {
+        "i": 39557,
+        "n": "Rubellux Cane",
+        "l": 430,
+        "c": 32766,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "39558",
+      "obj": {
+        "i": 39558,
+        "n": "Rubellux Rod",
+        "l": 430,
+        "c": 33138,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "39559",
+      "obj": {
+        "i": 39559,
+        "n": "Rubellux Index",
+        "l": 430,
+        "c": 33202,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "39560",
+      "obj": {
+        "i": 39560,
+        "n": "Rubellux Codex",
+        "l": 430,
+        "c": 33201,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "39561",
+      "obj": {
+        "i": 39561,
+        "n": "Rubellux Astrometer",
+        "l": 430,
+        "c": 34943,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "39562",
+      "obj": {
+        "i": 39562,
+        "n": "Rubellux Samurai Blade",
+        "l": 430,
+        "c": 36504,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "39565",
+      "obj": {
+        "i": 39565,
+        "n": "Rubellux Chakrams",
+        "l": 430,
+        "c": 36241,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "41603",
+      "obj": {
+        "i": 41603,
+        "n": "Smaragdine Partisan",
+        "l": 430,
+        "c": 31609,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "41604",
+      "obj": {
+        "i": 41604,
+        "n": "Smaragdine Longbow",
+        "l": 430,
+        "c": 32396,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "41608",
+      "obj": {
+        "i": 41608,
+        "n": "Smaragdine Cane",
+        "l": 430,
+        "c": 32780,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "41609",
+      "obj": {
+        "i": 41609,
+        "n": "Smaragdine Rod",
+        "l": 430,
+        "c": 33151,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "41610",
+      "obj": {
+        "i": 41610,
+        "n": "Smaragdine Index",
+        "l": 430,
+        "c": 33219,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "41611",
+      "obj": {
+        "i": 41611,
+        "n": "Smaragdine Codex",
+        "l": 430,
+        "c": 33220,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "41612",
+      "obj": {
+        "i": 41612,
+        "n": "Smaragdine Torquetum",
+        "l": 430,
+        "c": 34955,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "41615",
+      "obj": {
+        "i": 41615,
+        "n": "Smaragdine Sawback",
+        "l": 430,
+        "c": 36053,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "44977",
+      "obj": {
+        "i": 44977,
+        "n": "Adamant Knuckles",
+        "l": 430,
+        "c": 31199,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "44979",
+      "obj": {
+        "i": 44979,
+        "n": "Adamant Partisan",
+        "l": 430,
+        "c": 31611,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "44980",
+      "obj": {
+        "i": 44980,
+        "n": "Adamant Longbow",
+        "l": 430,
+        "c": 32398,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "44983",
+      "obj": {
+        "i": 44983,
+        "n": "Adamant Pistol",
+        "l": 430,
+        "c": 34409,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "44986",
+      "obj": {
+        "i": 44986,
+        "n": "Adamant Index",
+        "l": 430,
+        "c": 33224,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "44987",
+      "obj": {
+        "i": 44987,
+        "n": "Adamant Codex",
+        "l": 430,
+        "c": 33223,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "44992",
+      "obj": {
+        "i": 44992,
+        "n": "Adamant Chakrams",
+        "l": 430,
+        "c": 36254,
+        "t": 107
+      }
+    }
+  ]
+}

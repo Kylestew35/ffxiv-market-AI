@@ -1,0 +1,682 @@
+{
+  "item": {
+    "name": "Marron Glace",
+    "description": "Chestnuts peeled and soaked in honey for several moons until the entire fruit is permeated with sweetness.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 12847,
+    "patch": 3.0,
+    "patchCategory": 6,
+    "price": 996,
+    "ilvl": 148,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 14,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 30
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 28
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 18
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 37
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 35
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 22
+        }
+      }
+    },
+    "icon": 24076,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12847",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 700
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12847",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 700
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12847",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 700
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 2798,
+        "job": 15,
+        "rlvl": 148,
+        "durability": 70,
+        "quality": 2630,
+        "progress": 540,
+        "lvl": 59,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12893,
+            "amount": 3
+          },
+          {
+            "id": 12892,
+            "amount": 1,
+            "quality": 310.89456
+          },
+          {
+            "id": 6151,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 5
+          },
+          {
+            "id": 13,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 259,
+          "hq": 279
+        }
+      }
+    ],
+    "quests": [
+      67521
+    ],
+    "usedInQuest": [
+      67583
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Dark Chestnut",
+      "id": 12893,
+      "icon": 25302,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "ventures": [
+        549
+      ],
+      "nodes": [
+        295
+      ]
+    },
+    {
+      "name": "Birch Syrup",
+      "id": 12892,
+      "icon": 25105,
+      "category": 45,
+      "ilvl": 148,
+      "price": 468,
+      "craft": [
+        {
+          "id": 2819,
+          "job": 15,
+          "rlvl": 148,
+          "durability": 35,
+          "quality": 2104,
+          "progress": 270,
+          "lvl": 59,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12891,
+              "amount": 3
+            },
+            {
+              "id": 2,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 73,
+            "hq": 93
+          }
+        }
+      ]
+    },
+    {
+      "name": "Birch Sap",
+      "id": 12891,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 148,
+      "price": 468,
+      "tradeShops": [
+        {
+          "shop": "Vanu Whitebone Exchange",
+          "npcs": [
+            1016093
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12891",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21074",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        478
+      ],
+      "nodes": [
+        356
+      ],
+      "vendors": [
+        1016093
+      ]
+    },
+    {
+      "name": "Cooking Sherry",
+      "id": 6151,
+      "icon": 25057,
+      "category": 45,
+      "ilvl": 70,
+      "price": 221,
+      "desynthedFrom": [
+        9536
+      ],
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6151",
+                  "amount": 20
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6151",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6151",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6151",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "295",
+      "obj": {
+        "i": 295,
+        "n": "The Smoldering Wastes",
+        "l": 55,
+        "t": 2,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "12891",
+      "obj": {
+        "i": 12891,
+        "n": "Birch Sap",
+        "l": 148,
+        "c": 22642,
+        "t": 45,
+        "p": 468
+      }
+    },
+    {
+      "type": "node",
+      "id": "356",
+      "obj": {
+        "i": 356,
+        "n": "Voor Sian Siran",
+        "l": 60,
+        "t": 2,
+        "z": 2100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12893",
+      "obj": {
+        "i": 12893,
+        "n": "Dark Chestnut",
+        "l": 136,
+        "c": 25302,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12892",
+      "obj": {
+        "i": 12892,
+        "n": "Birch Syrup",
+        "l": 148,
+        "c": 25105,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "6151",
+      "obj": {
+        "i": 6151,
+        "n": "Cooking Sherry",
+        "l": 70,
+        "c": 25057,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67521",
+      "obj": {
+        "i": 67521,
+        "n": "Good Hunting",
+        "g": 122,
+        "l": "Azys Lla",
+        "s": 5907
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67583",
+      "obj": {
+        "i": 67583,
+        "n": "The Spirit of Hospitality",
+        "g": 171,
+        "l": "Limsa Lominsa",
+        "s": 600,
+        "f": 1
+      }
+    }
+  ]
+}

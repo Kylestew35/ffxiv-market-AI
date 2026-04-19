@@ -1,0 +1,180 @@
+{
+  "item": {
+    "name": "Camphor",
+    "description": "The waxy, crystallized remnants of a liquid drawn from steamed bits of camphorwood.",
+    "id": 14161,
+    "patch": 3.2,
+    "patchCategory": 5,
+    "price": 1330,
+    "ilvl": 210,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 20,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22610,
+    "ingredient_of": {
+      "14155": 3,
+      "16708": 3,
+      "17569": 1,
+      "22530": 3
+    },
+    "craft": [
+      {
+        "id": 31489,
+        "job": 14,
+        "rlvl": 180,
+        "durability": 70,
+        "quality": 2900,
+        "progress": 740,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 695,
+        "craftsmanshipReq": 718,
+        "quickSynthCraftsmanship": 850,
+        "unlockId": 14132,
+        "ingredients": [
+          {
+            "id": 14160,
+            "amount": 5
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 155,
+          "hq": 175
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Camphorwood Branch",
+      "id": 14160,
+      "icon": 22416,
+      "category": 50,
+      "ilvl": 210,
+      "price": 2245,
+      "ventures": [
+        626
+      ],
+      "nodes": [
+        391
+      ],
+      "vendors": [
+        1017172
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "391",
+      "obj": {
+        "i": 391,
+        "n": "Eil Tohm",
+        "l": 60,
+        "t": 2,
+        "z": 2002,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14155",
+      "obj": {
+        "i": 14155,
+        "n": "Eikon Leather",
+        "l": 210,
+        "c": 22005,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "14132",
+      "obj": {
+        "i": 14132,
+        "n": "Master Alchemist IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "14160",
+      "obj": {
+        "i": 14160,
+        "n": "Camphorwood Branch",
+        "l": 210,
+        "c": 22416,
+        "t": 50,
+        "p": 2245
+      }
+    },
+    {
+      "type": "item",
+      "id": "16708",
+      "obj": {
+        "i": 16708,
+        "n": "Hemicyon Leather",
+        "l": 250,
+        "c": 22008,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "17569",
+      "obj": {
+        "i": 17569,
+        "n": "Peteinosaur Leather",
+        "l": 220,
+        "c": 22016,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "22530",
+      "obj": {
+        "i": 22530,
+        "n": "Solid-brick Interior Wall",
+        "l": 1,
+        "c": 51240,
+        "t": 73
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Disposal Unit Component Materials",
+    "description": "Materials required to craft components for an airship's emergency disposal unit.<br><br>※Only for use in Ixal society quests.",
+    "id": 8075,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8115": 1
+    },
+    "usedInQuest": [
+      67048
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8115",
+      "obj": {
+        "i": 8115,
+        "n": "Disposal Unit Component",
+        "l": 1,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67048",
+      "obj": {
+        "i": 67048,
+        "n": "Leave Nothing to Waste",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 54,
+        "r": 1
+      }
+    }
+  ]
+}

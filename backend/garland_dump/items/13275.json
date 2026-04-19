@@ -1,0 +1,159 @@
+{
+  "item": {
+    "name": "Paissa Brat",
+    "description": "The eyes of a newborn paissa are said to see only the truth. The truth and food.<br><br>Use item to acquire the paissa brat minion.",
+    "minionrace": "Monster",
+    "tooltip": "Even cowardly paissa\r\ncannot hide forever!\r\n   - Gundu Warrior",
+    "minionskilltype": "Special",
+    "specialactionname": "Infinity",
+    "specialactiondescription": "Renders ally Gates, Shield, and Search Eye impervious to damage.<br><span class=\"highlight-green\">Duration:</span> 20s",
+    "id": 13275,
+    "patch": 3.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59558,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13275",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 800
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 620,
+      "Skill Cost": 20,
+      "Attack": 55,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8131-1-1"
+    ],
+    "instances": [
+      55001
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      12243,
+      16170
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "12243",
+      "obj": {
+        "i": 12243,
+        "n": "Timeworn Dragonskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    }
+  ]
+}

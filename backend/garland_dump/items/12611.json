@@ -1,0 +1,729 @@
+{
+  "item": {
+    "name": "Black Firesand",
+    "description": "A higher concentration of saltpeter makes this flammable powder slightly more explosive than normal firesand.",
+    "id": 12611,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 400,
+    "ilvl": 32,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22604,
+    "vendors": [
+      1016804
+    ],
+    "tradeShops": [
+      {
+        "shop": "Black Copper Gil Exchange",
+        "npcs": [
+          1016804
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12611",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21079",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "10463": 1,
+      "10464": 1,
+      "10465": 1,
+      "10466": 1,
+      "10467": 1,
+      "10469": 1,
+      "10628": 1,
+      "10629": 1,
+      "10630": 1,
+      "10631": 1,
+      "10632": 1,
+      "18040": 1,
+      "18196": 1,
+      "18352": 1,
+      "18508": 1,
+      "18664": 1,
+      "10470": 1,
+      "10471": 1,
+      "10472": 1,
+      "10473": 1,
+      "10474": 1,
+      "10633": 1,
+      "10468": 1,
+      "13801": 1,
+      "13846": 1,
+      "15563": 1,
+      "15577": 1,
+      "16634": 1,
+      "15591": 1,
+      "15605": 1,
+      "17611": 1,
+      "18976": 1,
+      "21702": 1,
+      "23775": 1,
+      "24327": 1,
+      "25029": 1,
+      "25045": 1
+    },
+    "craft": [
+      {
+        "id": 2784,
+        "job": 14,
+        "rlvl": 32,
+        "durability": 40,
+        "quality": 760,
+        "progress": 55,
+        "lvl": 32,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5521,
+            "amount": 3
+          },
+          {
+            "id": 5527,
+            "amount": 3
+          },
+          {
+            "id": 5390,
+            "amount": 1
+          },
+          {
+            "id": 7,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 67,
+          "hq": 87
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Saltpeter",
+      "id": 5521,
+      "icon": 22615,
+      "category": 54,
+      "ilvl": 30,
+      "price": 128,
+      "ventures": [
+        500
+      ],
+      "nodes": [
+        168
+      ]
+    },
+    {
+      "name": "Brimstone",
+      "id": 5527,
+      "icon": 22613,
+      "category": 54,
+      "ilvl": 28,
+      "price": 103,
+      "desynthedFrom": [
+        9535,
+        12723,
+        12835
+      ],
+      "tradeShops": [
+        {
+          "shop": "Black Copper Gil Exchange",
+          "npcs": [
+            1016804
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5527",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21079",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        126
+      ],
+      "nodes": [
+        176
+      ],
+      "vendors": [
+        1016804
+      ]
+    },
+    {
+      "name": "Oak Log",
+      "id": 5390,
+      "icon": 22401,
+      "category": 50,
+      "ilvl": 32,
+      "price": 130,
+      "leves": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "ventures": [
+        269
+      ],
+      "nodes": [
+        28
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "168",
+      "obj": {
+        "i": 168,
+        "n": "Wellwick Wood",
+        "l": 30,
+        "t": 0,
+        "z": 44
+      }
+    },
+    {
+      "type": "node",
+      "id": "176",
+      "obj": {
+        "i": 176,
+        "n": "Oakwood",
+        "l": 30,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 2,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "10463",
+      "obj": {
+        "i": 10463,
+        "n": "Steel-barreled Musketoon",
+        "l": 34,
+        "c": 34644,
+        "t": 88,
+        "p": 5350
+      }
+    },
+    {
+      "type": "item",
+      "id": "10464",
+      "obj": {
+        "i": 10464,
+        "n": "Mythril-barreled Carbine",
+        "l": 38,
+        "c": 34610,
+        "t": 88,
+        "p": 6437
+      }
+    },
+    {
+      "type": "item",
+      "id": "10465",
+      "obj": {
+        "i": 10465,
+        "n": "Mythril-barreled Musketoon",
+        "l": 41,
+        "c": 34646,
+        "t": 88,
+        "p": 7316
+      }
+    },
+    {
+      "type": "item",
+      "id": "10466",
+      "obj": {
+        "i": 10466,
+        "n": "Cobalt-barreled Carbine",
+        "l": 45,
+        "c": 34608,
+        "t": 88,
+        "p": 8580
+      }
+    },
+    {
+      "type": "item",
+      "id": "10467",
+      "obj": {
+        "i": 10467,
+        "n": "Cobalt-barreled Musketoon",
+        "l": 48,
+        "c": 34648,
+        "t": 88,
+        "p": 9588
+      }
+    },
+    {
+      "type": "item",
+      "id": "10469",
+      "obj": {
+        "i": 10469,
+        "n": "Darksteel-barreled Blunderbuss",
+        "l": 70,
+        "c": 34653,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10628",
+      "obj": {
+        "i": 10628,
+        "n": "Mythrite-barreled Arquebus",
+        "l": 115,
+        "c": 34616,
+        "t": 88,
+        "p": 23680
+      }
+    },
+    {
+      "type": "item",
+      "id": "10629",
+      "obj": {
+        "i": 10629,
+        "n": "Mythrite-barreled Musketoon",
+        "l": 125,
+        "c": 34642,
+        "t": 88,
+        "p": 25740
+      }
+    },
+    {
+      "type": "item",
+      "id": "10630",
+      "obj": {
+        "i": 10630,
+        "n": "Titanium-barreled Arquebus",
+        "l": 133,
+        "c": 34617,
+        "t": 88,
+        "p": 27383
+      }
+    },
+    {
+      "type": "item",
+      "id": "10631",
+      "obj": {
+        "i": 10631,
+        "n": "Titanium-barreled Snaphance",
+        "l": 139,
+        "c": 34654,
+        "t": 88,
+        "p": 28620
+      }
+    },
+    {
+      "type": "item",
+      "id": "10632",
+      "obj": {
+        "i": 10632,
+        "n": "Adamantite Revolver",
+        "l": 145,
+        "c": 34636,
+        "t": 88,
+        "p": 29858
+      }
+    },
+    {
+      "type": "item",
+      "id": "5521",
+      "obj": {
+        "i": 5521,
+        "n": "Saltpeter",
+        "l": 30,
+        "c": 22615,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5527",
+      "obj": {
+        "i": 5527,
+        "n": "Brimstone",
+        "l": 28,
+        "c": 22613,
+        "t": 54,
+        "p": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "5390",
+      "obj": {
+        "i": 5390,
+        "n": "Oak Log",
+        "l": 32,
+        "c": 22401,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "18040",
+      "obj": {
+        "i": 18040,
+        "n": "High Steel Culverin",
+        "l": 255,
+        "c": 34686,
+        "t": 88,
+        "p": 36352
+      }
+    },
+    {
+      "type": "item",
+      "id": "18196",
+      "obj": {
+        "i": 18196,
+        "n": "High Steel-barreled Snaphance",
+        "l": 265,
+        "c": 34699,
+        "t": 88,
+        "p": 37778
+      }
+    },
+    {
+      "type": "item",
+      "id": "18352",
+      "obj": {
+        "i": 18352,
+        "n": "Doman Iron Culverin",
+        "l": 273,
+        "c": 34689,
+        "t": 88,
+        "p": 38916
+      }
+    },
+    {
+      "type": "item",
+      "id": "18508",
+      "obj": {
+        "i": 18508,
+        "n": "Doman Steel-barreled Musketoon",
+        "l": 279,
+        "c": 34687,
+        "t": 88,
+        "p": 39348
+      }
+    },
+    {
+      "type": "item",
+      "id": "18664",
+      "obj": {
+        "i": 18664,
+        "n": "Molybdenum Rimfire",
+        "l": 285,
+        "c": 34691,
+        "t": 88,
+        "p": 39564
+      }
+    },
+    {
+      "type": "item",
+      "id": "10470",
+      "obj": {
+        "i": 10470,
+        "n": "Inferno Musketoon",
+        "l": 95,
+        "c": 34623,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10471",
+      "obj": {
+        "i": 10471,
+        "n": "Abandon of the Vortex",
+        "l": 95,
+        "c": 34643,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10472",
+      "obj": {
+        "i": 10472,
+        "n": "Menacing Moggle Mog Gun",
+        "l": 95,
+        "c": 34657,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10473",
+      "obj": {
+        "i": 10473,
+        "n": "Tremor Culverin",
+        "l": 95,
+        "c": 34633,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10474",
+      "obj": {
+        "i": 10474,
+        "n": "Wootz Revolver",
+        "l": 110,
+        "c": 34629,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "10633",
+      "obj": {
+        "i": 10633,
+        "n": "Adamantite-barreled Culverin",
+        "l": 150,
+        "c": 34622,
+        "t": 88,
+        "p": 30888
+      }
+    },
+    {
+      "type": "item",
+      "id": "10468",
+      "obj": {
+        "i": 10468,
+        "n": "Giantsgall Knifelock",
+        "l": 70,
+        "c": 34634,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "13801",
+      "obj": {
+        "i": 13801,
+        "n": "Replica Allagan Pistol",
+        "l": 50,
+        "c": 34626,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "13846",
+      "obj": {
+        "i": 13846,
+        "n": "Replica High Allagan Pistol",
+        "l": 50,
+        "c": 34627,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "15563",
+      "obj": {
+        "i": 15563,
+        "n": "Mighty Thundershower",
+        "l": 110,
+        "c": 34631,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "15577",
+      "obj": {
+        "i": 15577,
+        "n": "Endless Expanse Handgonne",
+        "l": 180,
+        "c": 34656,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "16634",
+      "obj": {
+        "i": 16634,
+        "n": "Heavy Metal Culverin",
+        "l": 250,
+        "c": 34666,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "15591",
+      "obj": {
+        "i": 15591,
+        "n": "Dead Hive Musketoon",
+        "l": 180,
+        "c": 34638,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "15605",
+      "obj": {
+        "i": 15605,
+        "n": "Fire of the Round",
+        "l": 180,
+        "c": 34663,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "17611",
+      "obj": {
+        "i": 17611,
+        "n": "Fire of the Fiend",
+        "l": 180,
+        "c": 34669,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "18976",
+      "obj": {
+        "i": 18976,
+        "n": "Chromite Arquebus",
+        "l": 320,
+        "c": 34692,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "21702",
+      "obj": {
+        "i": 21702,
+        "n": "Nightsteel Blunderbuss",
+        "l": 350,
+        "c": 34432,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "23775",
+      "obj": {
+        "i": 23775,
+        "n": "Rakshasa Revolver",
+        "l": 380,
+        "c": 34443,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "24327",
+      "obj": {
+        "i": 24327,
+        "n": "Seeing Horde Handgonne",
+        "l": 180,
+        "c": 34674,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "25029",
+      "obj": {
+        "i": 25029,
+        "n": "Fire of the Goddess",
+        "l": 180,
+        "c": 34667,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "25045",
+      "obj": {
+        "i": 25045,
+        "n": "Fire of the Demon",
+        "l": 180,
+        "c": 34682,
+        "t": 88
+      }
+    }
+  ]
+}

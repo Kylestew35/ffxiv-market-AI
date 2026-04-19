@@ -1,0 +1,101 @@
+{
+  "item": {
+    "name": "Big Shell Whistle",
+    "description": "This whistle emits a shrill tone that is said to summon a big shell, and presumably some sort of creature inside said shell.",
+    "mount": {
+      "name": "Big Shell",
+      "action": "Summon forth your big shell mount, which is ironically rather small. Still quite big for a crab, though.",
+      "description": "Raised by a Qiqirn culinary connoisseur, this carefree crustacean formed a bond of friendship with its keeper, and in so doing, escaped the cookpot. Though it may not be the most obvious choice for a mount, its smooth, round shell makes it one of the more comfortable.",
+      "tooltip": "Big shells are so named for<br>the bigness of their shells,<br>which they wear most bigly.<br>Clever, yes?<br>   - Qiqirn Naturalist",
+      "icon": 4190,
+      "guideIcon": 68190
+    },
+    "id": 32841,
+    "patch": 5.41,
+    "patchCategory": 17,
+    "price": 33334,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32841",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 8400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "694-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Tropaios Rod",
+    "jobCategories": "BLM",
+    "id": 36972,
+    "patch": 6.1,
+    "patchCategory": 0,
+    "price": 2,
+    "ilvl": 1,
+    "category": 7,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 1,
+    "jobs": 26,
+    "models": [
+      "1027-1-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 9,
+      "Magic Damage": 9,
+      "Delay": 3.28
+    },
+    "icon": 33170,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (DoM Weapons)",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36972",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 3000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

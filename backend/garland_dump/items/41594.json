@@ -1,0 +1,381 @@
+{
+  "item": {
+    "name": "Martial Artist's Pumps",
+    "jobCategories": "All Classes",
+    "id": 41594,
+    "patch": 6.5,
+    "patchCategory": 3,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 38,
+    "dyeable": 1,
+    "dyecount": 2,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 8,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "6188-1-0-0"
+    ],
+    "attr": {
+      "Defense": 7,
+      "Magic Defense": 13
+    },
+    "attr_hq": {
+      "Defense": 8,
+      "Magic Defense": 14
+    },
+    "icon": 49633,
+    "craft": [
+      {
+        "id": 35709,
+        "job": 12,
+        "rlvl": 640,
+        "durability": 70,
+        "quality": 9000,
+        "progress": 4400,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "hq": 1,
+        "unlockId": 37738,
+        "ingredients": [
+          {
+            "id": 41653,
+            "amount": 1
+          },
+          {
+            "id": 39721,
+            "amount": 2,
+            "quality": 1574.631
+          },
+          {
+            "id": 36262,
+            "amount": 1
+          },
+          {
+            "id": 17,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 1393,
+          "hq": 1413
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Athletikos Cloth",
+      "id": 41653,
+      "icon": 23154,
+      "category": 51,
+      "ilvl": 1,
+      "price": 99999,
+      "instances": [
+        55011
+      ]
+    },
+    {
+      "name": "Deinosuchus Leather",
+      "id": 39721,
+      "icon": 21831,
+      "category": 52,
+      "ilvl": 640,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 35579,
+          "job": 12,
+          "rlvl": 640,
+          "durability": 35,
+          "quality": 9090,
+          "progress": 4488,
+          "lvl": 90,
+          "materialQualityFactor": 0,
+          "stars": 4,
+          "hq": 1,
+          "quickSynth": 1,
+          "controlReq": 3660,
+          "craftsmanshipReq": 3950,
+          "unlockId": 37738,
+          "ingredients": [
+            {
+              "id": 39709,
+              "amount": 5
+            },
+            {
+              "id": 39715,
+              "amount": 2
+            },
+            {
+              "id": 17,
+              "amount": 3
+            },
+            {
+              "id": 16,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 540,
+            "hq": 560
+          }
+        }
+      ]
+    },
+    {
+      "name": "Field Mustard",
+      "id": 39709,
+      "icon": 22696,
+      "category": 54,
+      "ilvl": 640,
+      "price": 99999,
+      "ventures": [
+        1047
+      ],
+      "nodes": [
+        935
+      ]
+    },
+    {
+      "name": "Deinosuchus Skin",
+      "id": 39715,
+      "icon": 21828,
+      "category": 52,
+      "ilvl": 640,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39715",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39715",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dynamis Crystal",
+      "id": 36262,
+      "icon": 20047,
+      "category": 48,
+      "ilvl": 548,
+      "price": 99999,
+      "desynthedFrom": [
+        35436,
+        35392
+      ],
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36262",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        949
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55011",
+      "obj": {
+        "i": 55011,
+        "n": "The Shifting Gymnasion Agonon",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 90,
+        "max_ilvl": 635
+      }
+    },
+    {
+      "type": "item",
+      "id": "37738",
+      "obj": {
+        "i": 37738,
+        "n": "Master Leatherworker X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39709",
+      "obj": {
+        "i": 39709,
+        "n": "Field Mustard",
+        "l": 640,
+        "c": 22696,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "39715",
+      "obj": {
+        "i": 39715,
+        "n": "Deinosuchus Skin",
+        "l": 640,
+        "c": 21828,
+        "t": 52
+      }
+    },
+    {
+      "type": "node",
+      "id": "935",
+      "obj": {
+        "i": 935,
+        "n": "Regio Urbanissima",
+        "l": 90,
+        "t": 3,
+        "z": 3710,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41653",
+      "obj": {
+        "i": 41653,
+        "n": "Athletikos Cloth",
+        "l": 1,
+        "c": 23154,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "39721",
+      "obj": {
+        "i": 39721,
+        "n": "Deinosuchus Leather",
+        "l": 640,
+        "c": 21831,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "36262",
+      "obj": {
+        "i": 36262,
+        "n": "Dynamis Crystal",
+        "l": 548,
+        "c": 20047,
+        "t": 48
+      }
+    }
+  ]
+}

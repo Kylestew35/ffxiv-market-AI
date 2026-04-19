@@ -1,0 +1,780 @@
+{
+  "item": {
+    "name": "Green Tea Set",
+    "description": "Far more bitter than its black counterpart, green tea is by far the beverage of choice in Far Eastern Doma. To offset the sharpness of its flavor, it is oft accompanied by something sweet, such as sticky rice cakes.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">VIT Bonus:</span> +4% (Max 13)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +2<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 9738,
+    "patch": 2.51,
+    "patchCategory": 9,
+    "price": 17424,
+    "ilvl": 55,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53058,
+    "craft": [
+      {
+        "id": 2181,
+        "job": 15,
+        "rlvl": 55,
+        "durability": 80,
+        "quality": 1100,
+        "progress": 210,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 1,
+        "craftsmanshipReq": 275,
+        "ingredients": [
+          {
+            "id": 4846,
+            "amount": 2
+          },
+          {
+            "id": 4819,
+            "amount": 1
+          },
+          {
+            "id": 4818,
+            "amount": 1
+          },
+          {
+            "id": 4840,
+            "amount": 1
+          },
+          {
+            "id": 5365,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 3
+          },
+          {
+            "id": 13,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 99,
+          "hq": 119
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "358"
+    ],
+    "quests": [
+      68559
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Thanalan Tea Leaves",
+      "id": 4846,
+      "icon": 25020,
+      "category": 45,
+      "ilvl": 49,
+      "price": 229,
+      "ventures": [
+        304
+      ],
+      "nodes": [
+        149
+      ]
+    },
+    {
+      "name": "Sticky Rice",
+      "id": 4819,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 25,
+      "price": 73,
+      "ventures": [
+        241
+      ],
+      "nodes": [
+        41
+      ]
+    },
+    {
+      "name": "Buffalo Beans",
+      "id": 4818,
+      "icon": 25353,
+      "category": 45,
+      "ilvl": 8,
+      "price": 11,
+      "ventures": [
+        560
+      ],
+      "nodes": [
+        19
+      ],
+      "vendors": [
+        1003249,
+        1027992,
+        1027874,
+        1008837,
+        1008838,
+        1008839,
+        1008840,
+        1008841,
+        1008842,
+        1008843,
+        1008844,
+        1008845,
+        1008846,
+        1013117,
+        1013118,
+        1018662,
+        1018663,
+        1018664,
+        1018665,
+        1018666,
+        1018667,
+        1018668,
+        1018669,
+        1018670,
+        1018671,
+        1018672,
+        1018673,
+        1024548,
+        1024549,
+        1024550,
+        1024551,
+        1024552,
+        1024553,
+        1024554,
+        1024555,
+        1024556,
+        1024557,
+        1024558,
+        1024559,
+        1025039,
+        1025043,
+        1025717,
+        1026169,
+        1027015,
+        1045242,
+        1045256,
+        1056020,
+        1056024
+      ]
+    },
+    {
+      "name": "Mugwort",
+      "id": 4840,
+      "icon": 25020,
+      "category": 45,
+      "ilvl": 38,
+      "price": 148,
+      "ventures": [
+        287
+      ],
+      "nodes": [
+        141
+      ]
+    },
+    {
+      "name": "Bamboo Stick",
+      "id": 5365,
+      "icon": 22451,
+      "category": 50,
+      "ilvl": 70,
+      "price": 1330,
+      "desynthedFrom": [
+        28983,
+        13095
+      ],
+      "ventures": [
+        534
+      ],
+      "nodes": [
+        232
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "149",
+      "obj": {
+        "i": 149,
+        "n": "Sagolii Desert",
+        "l": 50,
+        "t": 3,
+        "z": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Oakwood",
+        "l": 25,
+        "t": 3,
+        "z": 34
+      }
+    },
+    {
+      "type": "node",
+      "id": "19",
+      "obj": {
+        "i": 19,
+        "n": "Bentbranch",
+        "l": 15,
+        "t": 3,
+        "z": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003249",
+      "obj": {
+        "i": 1003249,
+        "n": "Jossy",
+        "l": 28,
+        "s": 1,
+        "t": "Guild Supplier",
+        "a": 709,
+        "c": [
+          9.99,
+          7.95
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027874",
+      "obj": {
+        "i": 1027874,
+        "n": "Material Supplier",
+        "l": 2955,
+        "s": 1,
+        "a": 3122,
+        "c": [
+          27.82,
+          17.68
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008837",
+      "obj": {
+        "i": 1008837,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008838",
+      "obj": {
+        "i": 1008838,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008839",
+      "obj": {
+        "i": 1008839,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008840",
+      "obj": {
+        "i": 1008840,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008841",
+      "obj": {
+        "i": 1008841,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008842",
+      "obj": {
+        "i": 1008842,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008843",
+      "obj": {
+        "i": 1008843,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008844",
+      "obj": {
+        "i": 1008844,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008845",
+      "obj": {
+        "i": 1008845,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008846",
+      "obj": {
+        "i": 1008846,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013117",
+      "obj": {
+        "i": 1013117,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013118",
+      "obj": {
+        "i": 1013118,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018662",
+      "obj": {
+        "i": 1018662,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018663",
+      "obj": {
+        "i": 1018663,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018664",
+      "obj": {
+        "i": 1018664,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018665",
+      "obj": {
+        "i": 1018665,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018666",
+      "obj": {
+        "i": 1018666,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018667",
+      "obj": {
+        "i": 1018667,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018668",
+      "obj": {
+        "i": 1018668,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018669",
+      "obj": {
+        "i": 1018669,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018670",
+      "obj": {
+        "i": 1018670,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018671",
+      "obj": {
+        "i": 1018671,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018672",
+      "obj": {
+        "i": 1018672,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018673",
+      "obj": {
+        "i": 1018673,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024548",
+      "obj": {
+        "i": 1024548,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024549",
+      "obj": {
+        "i": 1024549,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024550",
+      "obj": {
+        "i": 1024550,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024551",
+      "obj": {
+        "i": 1024551,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024552",
+      "obj": {
+        "i": 1024552,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024553",
+      "obj": {
+        "i": 1024553,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024554",
+      "obj": {
+        "i": 1024554,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024555",
+      "obj": {
+        "i": 1024555,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024556",
+      "obj": {
+        "i": 1024556,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024557",
+      "obj": {
+        "i": 1024557,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024558",
+      "obj": {
+        "i": 1024558,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024559",
+      "obj": {
+        "i": 1024559,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025039",
+      "obj": {
+        "i": 1025039,
+        "n": "Allagan Resupply Node",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025043",
+      "obj": {
+        "i": 1025043,
+        "n": "Ananta Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025717",
+      "obj": {
+        "i": 1025717,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026169",
+      "obj": {
+        "i": 1026169,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027015",
+      "obj": {
+        "i": 1027015,
+        "n": "Kojin Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045242",
+      "obj": {
+        "i": 1045242,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045256",
+      "obj": {
+        "i": 1045256,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056020",
+      "obj": {
+        "i": 1056020,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056024",
+      "obj": {
+        "i": 1056024,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "node",
+      "id": "141",
+      "obj": {
+        "i": 141,
+        "n": "Raincatcher Gully",
+        "l": 40,
+        "t": 3,
+        "z": 32
+      }
+    },
+    {
+      "type": "node",
+      "id": "232",
+      "obj": {
+        "i": 232,
+        "n": "Bronze Lake",
+        "l": 50,
+        "t": 2,
+        "z": 34,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4846",
+      "obj": {
+        "i": 4846,
+        "n": "Thanalan Tea Leaves",
+        "l": 49,
+        "c": 25020,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4819",
+      "obj": {
+        "i": 4819,
+        "n": "Sticky Rice",
+        "l": 25,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4818",
+      "obj": {
+        "i": 4818,
+        "n": "Buffalo Beans",
+        "l": 8,
+        "c": 25353,
+        "t": 45,
+        "p": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "4840",
+      "obj": {
+        "i": 4840,
+        "n": "Mugwort",
+        "l": 38,
+        "c": 25020,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "5365",
+      "obj": {
+        "i": 5365,
+        "n": "Bamboo Stick",
+        "l": 70,
+        "c": 22451,
+        "t": 50
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68559",
+      "obj": {
+        "i": 68559,
+        "n": "The Sword in the Store",
+        "g": 7,
+        "l": "Kugane",
+        "s": 13
+      }
+    }
+  ]
+}

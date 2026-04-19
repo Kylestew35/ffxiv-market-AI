@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Coin Manufacturing Component Materials",
+    "description": "Materials for a component used in the manufacture of Loporrit carats, Coiningway's monetary invention.<br><br>※Only for use in Loporrit society quests.",
+    "id": 38856,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "38857": 1
+    },
+    "usedInQuest": [
+      70225
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "38857",
+      "obj": {
+        "i": 38857,
+        "n": "Coin Manufacturing Component",
+        "l": 430,
+        "c": 21003,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70225",
+      "obj": {
+        "i": 70225,
+        "n": "Money Makes the Moon Go Round",
+        "g": 73,
+        "l": "Mare Lamentorum",
+        "s": 103,
+        "r": 1
+      }
+    }
+  ]
+}

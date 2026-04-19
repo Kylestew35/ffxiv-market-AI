@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Weathered Evenstar Tights",
+    "jobCategories": "THM ACN BLM SMN RDM BLU PCT",
+    "id": 7277,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 17820,
+    "ilvl": 100,
+    "category": 36,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 491,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 7,
+    "elvl": 50,
+    "jobs": 63,
+    "models": [
+      "150-1-0-0"
+    ],
+    "attr": {
+      "Defense": 72,
+      "Magic Defense": 126,
+      "Intelligence": 36,
+      "Vitality": 33,
+      "Determination": 39,
+      "Direct Hit Rate": 27
+    },
+    "icon": 45431,
+    "sharedModels": [
+      7343,
+      10955
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (DoM)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7343",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7277",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7343",
+      "obj": {
+        "i": 7343,
+        "n": "Evenstar Tights",
+        "l": 110,
+        "c": 45431,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "10955",
+      "obj": {
+        "i": 10955,
+        "n": "Serpentskin Tights of Casting",
+        "l": 150,
+        "c": 45681,
+        "t": 36,
+        "p": 17820
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

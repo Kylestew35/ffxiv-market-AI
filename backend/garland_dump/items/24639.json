@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Wind-up Weapon",
+    "description": "Somewhat buggy.<br><br>Use item to acquire the wind-up weapon minion.",
+    "minionrace": "Monster",
+    "tooltip": "Be on your guard─\r\nhe's known to be armed!\r\n   - Brass Blade",
+    "minionskilltype": "Trap",
+    "specialactionname": "Short-range Sensory Jammer",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 260 to all enemies within range.<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 24639,
+    "patch": 4.5,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59721,
+    "instances": [
+      64,
+      64
+    ],
+    "cost": 20,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 30,
+      "Attack": 40,
+      "Defense": 65,
+      "Speed": 2
+    },
+    "models": [
+      "8291-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      31357,
+      33797
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "item",
+      "id": "31357",
+      "obj": {
+        "i": 31357,
+        "n": "Southern Front Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33797",
+      "obj": {
+        "i": 33797,
+        "n": "Zadnor Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    }
+  ]
+}

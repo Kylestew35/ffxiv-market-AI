@@ -1,0 +1,137 @@
+{
+  "item": {
+    "name": "Chocobo Card",
+    "description": "A common (★) card used in the game Triple Triad.<br>Card No. 13",
+    "id": 9784,
+    "patch": 2.51,
+    "patchCategory": 14,
+    "price": 19,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27662,
+    "tradeShops": [
+      {
+        "shop": "Triple Triad Cards",
+        "npcs": [
+          1010478,
+          1016294,
+          1016296
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9784",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "The domestication of chocobos in Eorzea appears to date back to prehistory, with ancient paintings recently discovered near Ishgard showing tribesfolk using the flightless yellow cloudkin to till the earth, transport grain, and carry warriors into battle. While the overwhelming majority of chocobos seen in Eorzea today are of Coerthan stock, it is rumored that wild breeds of the species─including those which have retained the capacity for flight─still thrive throughout forests nestled in the vastly unexplored valleys of Abalathia's Spine."
+      },
+      "ja": {
+        "description": "逞しい脚で大地を駆ける陸生の大型鳥。エオルゼアでは、古来より駄獣や輓獣、騎乗用途に用いられてきた。クルザスが一大生産地として知られるほか、アバラシア山脈の秘境「チョコボの森」には野生種も多いという。"
+      },
+      "de": {
+        "description": "Die Domestizierung der Chocobos in Eorzea geht vermeintlich auf prähistorische Zeiten zurück. Es existiert altes Bildmaterial, das Stammesangehörige dabei zeigt, wie sie die flugunfähigen Vögel dazu einsetzen, den Boden zu beackern und Krieger in den Kampf zu tragen. Auch wenn die große Mehrzahl von Chocobos in Eorzea von coerthischer Herkunft ist, wird gemunkelt, dass wilde Exemplare der Spezies - inklusive derer, die noch die Fähigkeit zu fliegen besitzen - in den unerforschten Wäldern von Abalathias Rückgrat leben."
+      },
+      "fr": {
+        "description": "Ces grands oiseaux terrestres sont connus pour leur vélocité et sont utilisés comme bêtes de somme ou montures par les Éorzéens depuis les temps anciens. Le Coerthas est réputé être la principale région productrice de ces animaux, mais il existerait une forêt des chocobos dans les montagnes d'Abalathia, où vivrait un important troupeau de spécimens sauvages."
+      },
+      "sellMgp": 100,
+      "plate": 87013,
+      "rarity": 1,
+      "top": 3,
+      "bottom": 2,
+      "left": 1,
+      "right": 7,
+      "rewardFrom": [
+        1011059
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010478",
+      "obj": {
+        "i": 1010478,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 1487,
+        "c": [
+          4.14,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016294",
+      "obj": {
+        "i": 1016294,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.02,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016296",
+      "obj": {
+        "i": 1016296,
+        "n": "Triple Triad Trader",
+        "l": 1665,
+        "s": 1,
+        "r": 1,
+        "c": [
+          3.56,
+          3.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011059",
+      "obj": {
+        "i": 1011059,
+        "n": "Guhtwint Of The Three Diamonds",
+        "l": 1484
+      }
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+{
+  "item": {
+    "name": "Composite Whetstone",
+    "description": "A heavy whetstone that appears to be man-made, rather than carved from naturally occurring rock.",
+    "id": 10113,
+    "patch": 2.5,
+    "patchCategory": 5,
+    "price": 4500,
+    "ilvl": 90,
+    "category": 48,
+    "dyecount": 0,
+    "sell_price": 360,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21470,
+    "tradeCurrency": [
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10113",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Miscellaneous Miscellany",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10113",
+                "amount": 3
+              },
+              {
+                "id": "7597",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10101",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allied Seals (Other)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10113",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10113",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10113",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10113",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "10101": 3
+    },
+    "leves": [
+      195,
+      196,
+      197,
+      198,
+      199,
+      200
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10146",
+      "obj": {
+        "i": 10146,
+        "n": "Better Crowned Pie",
+        "l": 110,
+        "c": 24057,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "10101",
+      "obj": {
+        "i": 10101,
+        "n": "Mummer's Daggers",
+        "l": 90,
+        "c": 30361,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "7597",
+      "obj": {
+        "i": 7597,
+        "n": "Scheelite",
+        "l": 90,
+        "c": 21208,
+        "t": 48
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "195",
+      "obj": {
+        "i": 195,
+        "n": "I'd Rather Be Digging",
+        "l": 45,
+        "j": 10,
+        "p": 416
+      }
+    },
+    {
+      "type": "leve",
+      "id": "196",
+      "obj": {
+        "i": 196,
+        "n": "No Refunds, Only Exchanges",
+        "l": 45,
+        "j": 10,
+        "p": 27
+      }
+    },
+    {
+      "type": "leve",
+      "id": "197",
+      "obj": {
+        "i": 197,
+        "n": "You Stay on That Side",
+        "l": 45,
+        "j": 10,
+        "p": 27
+      }
+    },
+    {
+      "type": "leve",
+      "id": "198",
+      "obj": {
+        "i": 198,
+        "n": "Pop That Top",
+        "l": 45,
+        "j": 10,
+        "p": 416
+      }
+    },
+    {
+      "type": "leve",
+      "id": "199",
+      "obj": {
+        "i": 199,
+        "n": "Talon Terrors",
+        "l": 45,
+        "j": 10,
+        "p": 416
+      }
+    },
+    {
+      "type": "leve",
+      "id": "200",
+      "obj": {
+        "i": 200,
+        "n": "I Maul Right",
+        "l": 45,
+        "j": 10,
+        "p": 416
+      }
+    }
+  ]
+}

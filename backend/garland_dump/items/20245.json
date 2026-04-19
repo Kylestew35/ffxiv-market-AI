@@ -1,0 +1,97 @@
+{
+  "item": {
+    "name": "Mammoth Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 175",
+    "id": 20245,
+    "patch": 4.0,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tripletriad": {
+      "en": {
+        "description": "These lumbering, herbivorous beastkin inhabit chilly plains and snowy mountainsides, protected from the elements by thick matted hides. Ordinarily placid in temperament, mammoths are known to become aggressive if startled, thrashing about with their long, curved tusks. Even the largest of predators will give these creatures a wide berth, preferring to avoid the risk of injury or death."
+      },
+      "ja": {
+        "description": "寒冷地や冷涼な山間部などに棲息する大型草食動物。基本的には温厚だが、不用意に近づくと興奮状態に陥り、大きな牙を振り回して暴れ始める。そのため、大型肉食獣も、滅多なことでは狩りの対象としないようだ。"
+      },
+      "de": {
+        "description": "Diese gigantischen Pflanzenfresser sind für gewöhnlich in kalten Bergregionen anzutreffen. Sie sind sanftmütig, doch einmal gereizt geraten sie in eine wilde Rage und greifen mit ihren gewaltigen Stoßzähnen an. Jäger, die ein Mammut erlegen, können sich über Fleischvorräte für mehrere Wochen freuen."
+      },
+      "fr": {
+        "description": "Un gigantesque herbivore qui peuple les terres froides et les régions montagneuses gelées. C'est une créature douce, mais qui peut être prise de panique si elle est approchée sans précaution. Elle peut alors provoquer des blessures graves en attaquant avec ses larges défenses. C'est d'ailleurs pour cette raison que les grands carnivores le prennent rarement pour cible."
+      },
+      "sellMgp": 500,
+      "plate": 87188,
+      "rarity": 3,
+      "top": 6,
+      "bottom": 8,
+      "left": 3,
+      "right": 3,
+      "rewardFrom": [
+        1019387,
+        1019421,
+        1019323
+      ]
+    },
+    "fates": [
+      1267
+    ],
+    "alla": {
+      "source": [
+        "FATE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019387",
+      "obj": {
+        "i": 1019387,
+        "n": "Nigen",
+        "l": 2411,
+        "q": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019421",
+      "obj": {
+        "i": 1019421,
+        "n": "Ogodei",
+        "l": 2411,
+        "q": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019323",
+      "obj": {
+        "i": 1019323,
+        "n": "Munglig",
+        "l": 2411
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1267",
+      "obj": {
+        "i": 1267,
+        "n": "Wham, Bam, Thank You, Mammoth",
+        "l": 65,
+        "t": "Notorious Monster",
+        "z": 2411,
+        "c": [
+          30,
+          23
+        ]
+      }
+    }
+  ]
+}

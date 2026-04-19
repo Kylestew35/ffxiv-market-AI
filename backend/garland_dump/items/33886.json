@@ -1,0 +1,75 @@
+{
+  "item": {
+    "name": "Bozjan Mythril Coin",
+    "description": "A radiant coin minted in Bozja before it became subject to imperial rule.",
+    "id": 33886,
+    "patch": 5.55,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26330,
+    "tradeCurrency": [
+      {
+        "shop": "Blade's Gear Exchange",
+        "npcs": [
+          1036896
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33796",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33886",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1036896",
+      "obj": {
+        "i": 1036896,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.94,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33796",
+      "obj": {
+        "i": 33796,
+        "n": "Bozjan Platinum Coin",
+        "l": 1,
+        "c": 26329,
+        "t": 61
+      }
+    }
+  ]
+}

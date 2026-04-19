@@ -1,0 +1,524 @@
+{
+  "item": {
+    "name": "Beef Stroganoff",
+    "description": "Choice cuts of meat are simmered in a savory sauce to create this Garlean specialty, the ideal supplement to one's squat regime.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36068,
+    "patch": 6.05,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Skill Speed": {
+          "rate": 8,
+          "limit": 72
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 74
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 43
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Skill Speed": {
+          "rate": 10,
+          "limit": 90
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 93
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 54
+        }
+      }
+    },
+    "icon": 24369,
+    "craft": [
+      {
+        "id": 34876,
+        "job": 15,
+        "rlvl": 580,
+        "durability": 70,
+        "quality": 10920,
+        "progress": 3900,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35625,
+        "ingredients": [
+          {
+            "id": 36099,
+            "amount": 1
+          },
+          {
+            "id": 36214,
+            "amount": 1
+          },
+          {
+            "id": 36079,
+            "amount": 2,
+            "quality": 755.53503
+          },
+          {
+            "id": 36255,
+            "amount": 1
+          },
+          {
+            "id": 36089,
+            "amount": 1
+          },
+          {
+            "id": 36088,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 547,
+          "hq": 567
+        }
+      }
+    ],
+    "quests": [
+      70129
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Butterbeef",
+      "id": 36099,
+      "icon": 25152,
+      "category": 45,
+      "ilvl": 580,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36099",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36099",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Potent Spice",
+      "id": 36214,
+      "icon": 25024,
+      "category": 45,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        969
+      ],
+      "nodes": [
+        856,
+        857,
+        858
+      ]
+    },
+    {
+      "name": "Perilla Oil",
+      "id": 36079,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5284,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36085,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thavnairian Perilla Leaf",
+      "id": 36085,
+      "icon": 25036,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        916
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Ovibos Milk",
+      "id": 36255,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36255",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        939
+      ]
+    },
+    {
+      "name": "Giant Popoto",
+      "id": 36089,
+      "icon": 25221,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 75,
+          "type": 1
+        },
+        {
+          "id": 84,
+          "type": 1
+        },
+        {
+          "id": 93,
+          "type": 1
+        },
+        {
+          "id": 98,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        927
+      ],
+      "nodes": [
+        846
+      ]
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "id": 36088,
+      "icon": 25219,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "ventures": [
+        912
+      ],
+      "nodes": [
+        838
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "856",
+      "obj": {
+        "i": 856,
+        "n": "Lethe",
+        "l": 90,
+        "t": 2,
+        "z": 3713,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "857",
+      "obj": {
+        "i": 857,
+        "n": "The Shroud of the Samgha",
+        "l": 90,
+        "t": 3,
+        "z": 3709,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "858",
+      "obj": {
+        "i": 858,
+        "n": "The Tube",
+        "l": 90,
+        "t": 3,
+        "z": 3712,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36085",
+      "obj": {
+        "i": 36085,
+        "n": "Thavnairian Perilla Leaf",
+        "l": 525,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "846",
+      "obj": {
+        "i": 846,
+        "n": "Anagnorisis",
+        "l": 90,
+        "t": 3,
+        "z": 3713
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "35625",
+      "obj": {
+        "i": 35625,
+        "n": "Master Culinarian IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36099",
+      "obj": {
+        "i": 36099,
+        "n": "Butterbeef",
+        "l": 580,
+        "c": 25152,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36214",
+      "obj": {
+        "i": 36214,
+        "n": "Potent Spice",
+        "l": 580,
+        "c": 25024,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36079",
+      "obj": {
+        "i": 36079,
+        "n": "Perilla Oil",
+        "l": 525,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36089",
+      "obj": {
+        "i": 36089,
+        "n": "Giant Popoto",
+        "l": 539,
+        "c": 25221,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36088",
+      "obj": {
+        "i": 36088,
+        "n": "Iceberg Lettuce",
+        "l": 520,
+        "c": 25219,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70129",
+      "obj": {
+        "i": 70129,
+        "n": "Shadowed Remnants",
+        "g": 12,
+        "l": "Hydromantic Terraces",
+        "s": 630
+      }
+    }
+  ]
+}

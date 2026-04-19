@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Fox Kit",
+    "description": "His devotion toward you will prove fair and balanced.<br><br>Use item to acquire the fox kit minion.",
+    "minionrace": "Critter",
+    "tooltip": "The hungry fox starves\r\nstaring at the bull's testicles.\r\n   - Cirina",
+    "minionskilltype": "Restoration",
+    "specialactionname": "Crazy",
+    "specialactiondescription": "Restores 100 HP to all allies within range (150 if the ally is a <span class=\"highlight\">critter</span>).",
+    "id": 20526,
+    "patch": 4.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59642,
+    "tradeShops": [
+      {
+        "shop": "Wondrous Sundries",
+        "npcs": [
+          1019451
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20526",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20521",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 30,
+      "Attack": 65,
+      "Defense": 50,
+      "Speed": 3
+    },
+    "models": [
+      "8212-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019451",
+      "obj": {
+        "i": 1019451,
+        "n": "Eschina",
+        "l": 2403,
+        "s": 10,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.9,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20521",
+      "obj": {
+        "i": 20521,
+        "n": "Sassho-seki Fragment",
+        "l": 1,
+        "c": 21203,
+        "t": 48
+      }
+    }
+  ]
+}

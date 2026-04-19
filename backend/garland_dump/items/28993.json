@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Stuffed Rabbit",
+    "description": "This rabbit looks as if he walked straight out of a storybook, and is prepared to keep on walking. (Please contact authorities immediately in the event that the toy actually demonstrates ambulatory capabilities.)",
+    "id": 28993,
+    "patch": 5.2,
+    "patchCategory": 9,
+    "price": 450,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53350,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1032644
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28993",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29983",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "937"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032644",
+      "obj": {
+        "i": 1032644,
+        "n": "Dreamer",
+        "l": 53,
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.3,
+          9.23
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29983",
+      "obj": {
+        "i": 29983,
+        "n": "Bejeweled Egg",
+        "l": 1,
+        "c": 21309,
+        "t": 85
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Amber Draught Chocobo Whistle",
+    "description": "A small hand-carved whistle that emits a unique, high-pitched tone discernible only by a rare amber draught chocobo trained from capture to recognize and respond to the sound. Use to summon your personal amber draught chocobo.",
+    "mount": {
+      "name": "Amber Draught Chocobo",
+      "action": "Summon forth your amber draught chocobo, a rare breed large and strong enough to bear two riders.",
+      "description": "To Ishgardians, red represents true love and loyalty. To this wild chocobo from the Dravanian forelands, it meant capture at the hands of hunters who easily found a red chocobo sticking out like a sore thumb in the midst of all his yellow brethren.",
+      "tooltip": "What about my forty<br>acres and a chocobo?<br>   - Imme",
+      "icon": 4044,
+      "guideIcon": 68044
+    },
+    "id": 12993,
+    "patch": 3.0,
+    "patchCategory": 17,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26012,
+    "tradeShops": [
+      {
+        "shop": "Gold Chocobo Feather Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12993",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12994",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "1-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12994",
+      "obj": {
+        "i": 12994,
+        "n": "Gold Chocobo Feather",
+        "l": 1,
+        "c": 21901,
+        "t": 61
+      }
+    }
+  ]
+}

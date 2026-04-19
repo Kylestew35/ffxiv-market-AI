@@ -1,0 +1,586 @@
+{
+  "item": {
+    "name": "Ovim Meatballs",
+    "description": "Savory, round chunks of minced ovim meat accented with a lingonberry sauce that's sweet yet tart.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 29497,
+    "patch": 5.2,
+    "patchCategory": 6,
+    "price": 3785,
+    "ilvl": 480,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 53
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 54
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 32
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 66
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 68
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 40
+        }
+      }
+    },
+    "icon": 24368,
+    "craft": [
+      {
+        "id": 33886,
+        "job": 15,
+        "rlvl": 480,
+        "durability": 70,
+        "quality": 8500,
+        "progress": 2800,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29491,
+        "ingredients": [
+          {
+            "id": 29507,
+            "amount": 2
+          },
+          {
+            "id": 27838,
+            "amount": 1,
+            "quality": 488.36182
+          },
+          {
+            "id": 27822,
+            "amount": 2
+          },
+          {
+            "id": 27852,
+            "amount": 2
+          },
+          {
+            "id": 12888,
+            "amount": 1
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 549,
+          "hq": 569
+        }
+      }
+    ],
+    "quests": [
+      69316,
+      69544
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Lingonberry",
+      "id": 29507,
+      "icon": 25310,
+      "category": 45,
+      "ilvl": 480,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29507",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29507",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frantoio Oil",
+      "id": 27838,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 390,
+      "price": 2799,
+      "craft": [
+        {
+          "id": 3877,
+          "job": 15,
+          "rlvl": 390,
+          "durability": 40,
+          "quality": 3010,
+          "progress": 597,
+          "lvl": 71,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27820,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frantoio",
+      "id": 27820,
+      "icon": 25307,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1463,
+        1464,
+        1465
+      ],
+      "ventures": [
+        808
+      ],
+      "nodes": [
+        612
+      ]
+    },
+    {
+      "name": "Russet Popoto",
+      "id": 27822,
+      "icon": 25204,
+      "category": 45,
+      "ilvl": 409,
+      "price": 630,
+      "ventures": [
+        831
+      ],
+      "nodes": [
+        630
+      ]
+    },
+    {
+      "name": "Ovim Meat",
+      "id": 27852,
+      "icon": 25152,
+      "category": 45,
+      "ilvl": 409,
+      "price": 2397,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027892
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27852",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        782
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27820",
+      "obj": {
+        "i": 27820,
+        "n": "Frantoio",
+        "l": 390,
+        "c": 25307,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "612",
+      "obj": {
+        "i": 612,
+        "n": "The Chiliad",
+        "l": 75,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "630",
+      "obj": {
+        "i": 630,
+        "n": "The Dragging Tail",
+        "l": 80,
+        "t": 3,
+        "z": 2955,
+        "lt": "Unspoiled",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027892",
+      "obj": {
+        "i": 1027892,
+        "n": "Halden",
+        "l": 2955,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3135,
+        "c": [
+          10.66,
+          17.15
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29491",
+      "obj": {
+        "i": 29491,
+        "n": "Master Culinarian VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29507",
+      "obj": {
+        "i": 29507,
+        "n": "Lingonberry",
+        "l": 480,
+        "c": 25310,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27838",
+      "obj": {
+        "i": 27838,
+        "n": "Frantoio Oil",
+        "l": 390,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27822",
+      "obj": {
+        "i": 27822,
+        "n": "Russet Popoto",
+        "l": 409,
+        "c": 25204,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27852",
+      "obj": {
+        "i": 27852,
+        "n": "Ovim Meat",
+        "l": 409,
+        "c": 25152,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69316",
+      "obj": {
+        "i": 69316,
+        "n": "The Journey Continues",
+        "g": 9,
+        "l": "Eulmore",
+        "s": 300
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69544",
+      "obj": {
+        "i": 69544,
+        "n": "The Wisdom of Allag",
+        "g": 10,
+        "l": "Azys Lla",
+        "s": 340
+      }
+    }
+  ]
+}

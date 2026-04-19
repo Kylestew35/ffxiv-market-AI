@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Sands of Blood Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Sands of Blood</span>. Use to add to your orchestrion list.",
+    "id": 28882,
+    "patch": 5.1,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 338,
+      "name": "Sands of Blood",
+      "description": "Available for exchange in Amh Araeng.",
+      "category": "Locales II",
+      "order": 14
+    },
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027892
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28882",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 350
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027892",
+      "obj": {
+        "i": 1027892,
+        "n": "Halden",
+        "l": 2955,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3135,
+        "c": [
+          10.66,
+          17.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "item": {
+    "name": "Competent Craftsman's Draught",
+    "description": "This concoction is believed to improve crafting efficiency.<br><br><span class=\"highlight-green\">Duration:</span> 15m",
+    "id": 36114,
+    "patch": 6.0,
+    "patchCategory": 4,
+    "price": 11828,
+    "ilvl": 527,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 197,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Craftsmanship": {
+          "rate": 2,
+          "limit": 40
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Craftsmanship": {
+          "rate": 3,
+          "limit": 50
+        }
+      }
+    },
+    "icon": 20716,
+    "craft": [
+      {
+        "id": 5293,
+        "job": 14,
+        "rlvl": 535,
+        "durability": 80,
+        "quality": 6700,
+        "progress": 3000,
+        "lvl": 85,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27782,
+            "amount": 2
+          },
+          {
+            "id": 36258,
+            "amount": 2
+          },
+          {
+            "id": 27779,
+            "amount": 2
+          },
+          {
+            "id": 19853,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 8
+          },
+          {
+            "id": 12,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 172,
+          "hq": 192
+        }
+      }
+    ],
+    "requiredByLeves": [
+      1633
+    ],
+    "treasure": [
+      36611
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    },
+    "supply": {
+      "count": 3,
+      "xp": 2071750,
+      "seals": 892
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    },
+    {
+      "name": "Sweet Alyssum",
+      "id": 27779,
+      "icon": 22627,
+      "category": 54,
+      "ilvl": 409,
+      "price": 210,
+      "ventures": [
+        832
+      ],
+      "nodes": [
+        623
+      ]
+    },
+    {
+      "name": "Kudzu Root",
+      "id": 19853,
+      "icon": 25005,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        691
+      ],
+      "nodes": [
+        509
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "623",
+      "obj": {
+        "i": 623,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "509",
+      "obj": {
+        "i": 509,
+        "n": "Dimwold",
+        "l": 65,
+        "t": 3,
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27779",
+      "obj": {
+        "i": 27779,
+        "n": "Sweet Alyssum",
+        "l": 409,
+        "c": 22627,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1633",
+      "obj": {
+        "i": 1633,
+        "n": "Liquid Competence",
+        "l": 84,
+        "j": 15,
+        "p": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36611",
+      "obj": {
+        "i": 36611,
+        "n": "Timeworn Saigaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    }
+  ]
+}

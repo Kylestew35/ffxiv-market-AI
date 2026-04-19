@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Stuffed Ananta",
+    "description": "Those without a deathly fear of snakes claim this plush doll to be one of the most beautiful ever crafted. Most ophidiophobes, however, would beg to differ.",
+    "id": 21840,
+    "patch": 4.2,
+    "patchCategory": 9,
+    "price": 292,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53201,
+    "tradeShops": [
+      {
+        "shop": "Ananta Dreamstaff Exchange",
+        "npcs": [
+          1024774
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21840",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21935",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "634"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024774",
+      "obj": {
+        "i": 1024774,
+        "n": "Madhura",
+        "l": 2406,
+        "s": 1,
+        "t": "Dreamstaff Exchange",
+        "r": 1,
+        "a": 2632,
+        "c": [
+          20.98,
+          26.25
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21935",
+      "obj": {
+        "i": 21935,
+        "n": "Ananta Dreamstaff",
+        "l": 1,
+        "c": 65061,
+        "t": 100
+      }
+    }
+  ]
+}

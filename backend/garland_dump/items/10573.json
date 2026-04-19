@@ -1,0 +1,138 @@
+{
+  "item": {
+    "name": "Tidal Wave Torquetum",
+    "jobCategories": "AST",
+    "id": 10573,
+    "patch": 3.0,
+    "patchCategory": 0,
+    "price": 30175,
+    "ilvl": 100,
+    "category": 89,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 535,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 99,
+    "models": [
+      "2101-28-2-0",
+      "2199-1-23-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 62,
+      "Delay": 3.2,
+      "Mind": 37,
+      "Vitality": 34,
+      "Critical Hit": 40,
+      "Piety": 28,
+      "Direct Hit Rate": 8
+    },
+    "icon": 34845,
+    "sharedModels": [
+      10572
+    ],
+    "tradeShops": [
+      {
+        "shop": "Primal Gear",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10573",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10572",
+                "amount": 1
+              },
+              {
+                "id": "7850",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal Gear (IL 100-115)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10573",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10572",
+                "amount": 1
+              },
+              {
+                "id": "7850",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10572",
+      "obj": {
+        "i": 10572,
+        "n": "Wave Torquetum",
+        "l": 95,
+        "c": 34845,
+        "t": 89
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7850",
+      "obj": {
+        "i": 7850,
+        "n": "Mirror of the Whorl",
+        "l": 1,
+        "c": 26105,
+        "t": 63
+      }
+    }
+  ]
+}

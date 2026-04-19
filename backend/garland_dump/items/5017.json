@@ -1,0 +1,90 @@
+{
+  "item": {
+    "name": "Sundisc",
+    "description": "This freshwater fish has a bright-yellow sun-like pattern across its body, giving rise to the name “sundisc.”<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "This freshwater fish has a bright-yellow sun-like pattern across its body, from which it takes its name. Revered as holy by the Amalj'aa, it is forbidden amongst the beast tribe to even lay eyes upon one, let alone catch, gut, and roast one over an open flame.",
+      "icon": 79262,
+      "weatherRestricted": 1,
+      "timeRestricted": 1,
+      "spots": [
+        {
+          "spot": 82,
+          "during": {
+            "start": 10,
+            "end": 15
+          },
+          "weather": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 158,
+          "baits": [
+            [
+              2607
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 5017,
+    "patch": 1.0,
+    "patchCategory": 7,
+    "price": 522,
+    "ilvl": 55,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29262,
+    "fishingSpots": [
+      82
+    ],
+    "desynthedTo": [
+      5825
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "82",
+      "obj": {
+        "i": 82,
+        "n": "The Burning Wall",
+        "l": 40,
+        "c": 1,
+        "z": 44,
+        "x": 29.15,
+        "y": 24.7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2607",
+      "obj": {
+        "i": 2607,
+        "n": "Caddisfly Larva",
+        "l": 50,
+        "c": 27013,
+        "t": 33,
+        "p": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "5825",
+      "obj": {
+        "i": 5825,
+        "n": "Allagan Silver Piece",
+        "l": 25,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

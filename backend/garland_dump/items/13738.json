@@ -1,0 +1,175 @@
+{
+  "item": {
+    "name": "Retribution Staff",
+    "description": "A large freshwater fish native to the Diadem.",
+    "id": 13738,
+    "patch": 3.1,
+    "patchCategory": 7,
+    "price": 1425,
+    "ilvl": 150,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29302,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13738",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13738",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "13742": 1
+    },
+    "fish": {
+      "spots": [
+        {
+          "spot": 10017,
+          "ff14anglerId": 448,
+          "baits": [
+            [
+              12705
+            ]
+          ]
+        },
+        {
+          "spot": 10018,
+          "ff14anglerId": 448,
+          "baits": [
+            [
+              12705
+            ]
+          ]
+        },
+        {
+          "spot": 10019,
+          "ff14anglerId": 448,
+          "baits": [
+            [
+              12705
+            ]
+          ]
+        }
+      ]
+    },
+    "fishingSpots": [
+      10017,
+      10018,
+      10019
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "13742",
+      "obj": {
+        "i": 13742,
+        "n": "Steamed Staff",
+        "l": 160,
+        "c": 24317,
+        "t": 46
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10017",
+      "obj": {
+        "i": 10017,
+        "n": "Diadem Grotto",
+        "l": 70,
+        "c": 1,
+        "z": 1647,
+        "x": 14,
+        "y": 34
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10018",
+      "obj": {
+        "i": 10018,
+        "n": "Southern Diadem Lake",
+        "l": 1,
+        "c": 1,
+        "z": 1647,
+        "x": 8,
+        "y": 30
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10019",
+      "obj": {
+        "i": 10019,
+        "n": "Northern Diadem Lake",
+        "l": 60,
+        "c": 1,
+        "z": 1647,
+        "x": 10,
+        "y": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "12705",
+      "obj": {
+        "i": 12705,
+        "n": "Purse Web Spider",
+        "l": 136,
+        "c": 22619,
+        "t": 33,
+        "p": 13
+      }
+    }
+  ]
+}

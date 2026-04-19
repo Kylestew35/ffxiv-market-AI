@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Vath Framer's Kit",
+    "description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for an allied member of the Vath Adventurers' Guild.<br>Includes Portrait Elements: Background, Accent<br>Includes Plate Elements: Base Plate, Top Border, Bottom Border, Accent",
+    "id": 41372,
+    "patch": 6.5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26625,
+    "tradeShops": [
+      {
+        "shop": "Black Copper Gil Exchange",
+        "npcs": [
+          1016804
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41372",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21079",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    }
+  ]
+}

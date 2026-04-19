@@ -1,0 +1,118 @@
+{
+  "item": {
+    "name": "Gold Hammer",
+    "description": "A king among golden lobsters, and lord of the waters of Saint Fathric's Temple.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "After surviving countless duels to the death against other, bigger lobsters, this wavekin emerged victorious atop a mountain of severed claws, only to finally end up on your fishing hook. Its claws snap open and closed, recounting their brutal struggles, but to you it only conjures up the image of a goldsmith delicately taking measures for her next project.",
+      "icon": 78484,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 224,
+          "transition": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "weather": [
+            "Clear Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 1900,
+          "ff14anglerId": 3305,
+          "baits": [
+            [
+              27589
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 30436,
+    "patch": 5.3,
+    "patchCategory": 7,
+    "price": 533,
+    "ilvl": 460,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28484,
+    "fishingSpots": [
+      224
+    ],
+    "desynthedTo": [
+      26737,
+      29979
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "224",
+      "obj": {
+        "i": 224,
+        "n": "Saint Fathric's Temple",
+        "l": 74,
+        "c": 1,
+        "z": 2956,
+        "x": 34.93,
+        "y": 26.32
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27589",
+      "obj": {
+        "i": 27589,
+        "n": "Baitbugs",
+        "l": 430,
+        "c": 27040,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "26737",
+      "obj": {
+        "i": 26737,
+        "n": "Craftsman's Command Materia VIII",
+        "l": 430,
+        "c": 20276,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 13,
+          "attr": "Control",
+          "category": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "29979",
+      "obj": {
+        "i": 29979,
+        "n": "Dried Hi-Ether",
+        "l": 480,
+        "c": 22613,
+        "t": 54
+      }
+    }
+  ]
+}

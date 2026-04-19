@@ -1,0 +1,226 @@
+{
+  "item": {
+    "name": "Noct Gauntlets",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 7296,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 30579,
+    "ilvl": 110,
+    "category": 37,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 324,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 633,
+    "slot": 5,
+    "elvl": 50,
+    "jobs": 59,
+    "models": [
+      "149-1-0-0"
+    ],
+    "attr": {
+      "Defense": 136,
+      "Magic Defense": 136,
+      "Strength": 26,
+      "Vitality": 26,
+      "Direct Hit Rate": 27,
+      "Skill Speed": 19
+    },
+    "icon": 44255,
+    "sharedModels": [
+      7230,
+      10689
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gerolt's Masterworks Repair (DoW)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7296",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7230",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allied Seals (DoW)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7296",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      65588
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7230",
+      "obj": {
+        "i": 7230,
+        "n": "Weathered Noct Gauntlets",
+        "l": 100,
+        "c": 44255,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10689",
+      "obj": {
+        "i": 10689,
+        "n": "Heavy Adamantite Gauntlets of Fending",
+        "l": 150,
+        "c": 44379,
+        "t": 37,
+        "p": 27799
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65588",
+      "obj": {
+        "i": 65588,
+        "n": "Traitor in the Midst",
+        "g": 2,
+        "l": "The Rising Stones",
+        "s": 58
+      }
+    }
+  ]
+}

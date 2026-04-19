@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Rubicante Card",
+    "description": "An epic (★★★★) card used in the game Triple Triad.<br>Card No. 359",
+    "id": 39375,
+    "patch": 6.3,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27665,
+    "instances": [
+      20086,
+      20087,
+      20086,
+      20087
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "The archfiend of fire, and one of Golbez's circle of four. This intimidating warrior would pursue his goals with zealous abandon, conjuring hellish flames from the ashes of his own suffering in a bid to vanquish his foes."
+      },
+      "ja": {
+        "description": "ゴルベーザ四天王の一角たる火の大妖異。威風堂々たる武人の佇まいと、目的のため身を焦がすことも厭わぬ狂熱の精神を併せ持つ。冒険者と対峙した際には、自身の心に潜む煉獄を具現し、その炎を引き出して戦ったという。"
+      },
+      "de": {
+        "description": "Der Elementarfürst des Feuers und einer der vier Handlanger von Golbez. Dieser Krieger war durch nichts einzuschüchtern und kommandierte höllische Flammen, geboren aus seinem eigenen Leid."
+      },
+      "fr": {
+        "description": "L'un des quatre généraux de Golbez, aussi appelé le “maître du feu”. Ce guerrier redoutable n'hésiterait pas à se sacrifier pour accomplir son objectif. Lors de son combat contre <If(PlayerParameter(4))>une aventurière<Else/>un aventurier</If>, il a invoqué de puissantes flammes sommeillant dans son propre cœur."
+      },
+      "sellMgp": 800,
+      "plate": 87376,
+      "rarity": 4,
+      "top": 7,
+      "bottom": 6,
+      "left": 7,
+      "right": 8
+    },
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20086",
+      "obj": {
+        "i": 20086,
+        "n": "Mount Ordeals",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 595
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20087",
+      "obj": {
+        "i": 20087,
+        "n": "Mount Ordeals (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 610
+      }
+    }
+  ]
+}

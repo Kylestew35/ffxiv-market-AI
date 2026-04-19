@@ -1,0 +1,155 @@
+{
+  "leve": {
+    "name": "Crabs for the Crabby",
+    "description": "Here at the Physis Technon, the development of new medicines is one of our main purposes. Of course, each ailment is different, but we pride ourselves in discerning how best to treat them. A diluted solution of poison taken from the crabs dwelling in <span class=\"highlight\">northern Onokoro, near the Coral Banquet</span>, has proven effective in relieving the anxiety which accompanies long periods of convalescence. We are running low of the poison and would welcome a resupply.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1679,
+    "patch": 6.0,
+    "client": "Physis Technon Sage, Towering Sky",
+    "lvl": 80,
+    "jobCategory": 19,
+    "levemete": 1037265,
+    "coords": [
+      20.14,
+      10.71
+    ],
+    "zoneid": 2409,
+    "areaid": 2409,
+    "xp": 2459716,
+    "gil": 2210,
+    "rewards": 737,
+    "plate": 80057,
+    "frame": 80005,
+    "areaicon": 110171,
+    "requires": [
+      {
+        "item": 36551,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 162,
+      "hq": 207
+    }
+  },
+  "rewards": {
+    "id": 737,
+    "entries": [
+      {
+        "item": 36588,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Ruby-spotted Crab",
+      "id": 36551,
+      "icon": 28068,
+      "category": 47,
+      "ilvl": 495,
+      "price": 99999,
+      "ventures": [
+        956
+      ],
+      "nodes": [
+        890,
+        899
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "890",
+      "obj": {
+        "i": 890,
+        "n": "Northern Onokoro",
+        "l": 85,
+        "t": 5,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "899",
+      "obj": {
+        "i": 899,
+        "n": "Northwestern Onokoro",
+        "l": 85,
+        "t": 5,
+        "z": 2409,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1679",
+      "obj": {
+        "i": 1679,
+        "n": "Crabs for the Crabby",
+        "l": 80,
+        "j": 19,
+        "p": 2409
+      }
+    },
+    {
+      "type": "item",
+      "id": "5823",
+      "obj": {
+        "i": 5823,
+        "n": "Allagan Tin Piece",
+        "l": 5,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037265",
+      "obj": {
+        "i": 1037265,
+        "n": "Wurtwyb",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36588",
+      "obj": {
+        "i": 36588,
+        "n": "Gold Salmon Roe",
+        "l": 490,
+        "c": 27044,
+        "t": 33,
+        "p": 69
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36551",
+      "obj": {
+        "i": 36551,
+        "n": "Ruby-spotted Crab",
+        "l": 495,
+        "c": 28068,
+        "t": 47
+      }
+    }
+  ]
+}

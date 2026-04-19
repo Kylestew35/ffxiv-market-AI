@@ -1,0 +1,448 @@
+{
+  "item": {
+    "name": "Commanding Craftsman's Tea",
+    "description": "This infusion brewed from the powdered horn of a powerful beastkin is believed to improve crafting efficiency.<br><br><span class=\"highlight-green\">Duration:</span> 15m",
+    "id": 19883,
+    "patch": 4.0,
+    "patchCategory": 4,
+    "price": 10900,
+    "ilvl": 276,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 164,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Control": {
+          "rate": 2,
+          "limit": 20
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Control": {
+          "rate": 3,
+          "limit": 25
+        }
+      }
+    },
+    "icon": 24412,
+    "craft": [
+      {
+        "id": 3588,
+        "job": 14,
+        "rlvl": 276,
+        "durability": 80,
+        "quality": 3150,
+        "progress": 830,
+        "lvl": 65,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 19921,
+            "amount": 1
+          },
+          {
+            "id": 19870,
+            "amount": 2
+          },
+          {
+            "id": 19864,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 4
+          },
+          {
+            "id": 12,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 100,
+          "hq": 120
+        }
+      }
+    ],
+    "requiredByLeves": [
+      1320
+    ],
+    "treasure": [
+      17835
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    },
+    "supply": {
+      "count": 3,
+      "xp": 660240,
+      "seals": 748
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Dzo Horn",
+      "id": 19921,
+      "icon": 22211,
+      "category": 53,
+      "ilvl": 273,
+      "price": 540,
+      "treasure": [
+        17835
+      ],
+      "instances": [
+        50,
+        52,
+        53,
+        54,
+        55,
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "ventures": [
+        717
+      ],
+      "drops": [
+        66320000005773
+      ]
+    },
+    {
+      "name": "Persimmon Leaf",
+      "id": 19870,
+      "icon": 25010,
+      "category": 54,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        675
+      ],
+      "nodes": [
+        513
+      ]
+    },
+    {
+      "name": "Cumin Seeds",
+      "id": 19864,
+      "icon": 25354,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1304,
+        1305,
+        1306
+      ],
+      "ventures": [
+        692
+      ],
+      "nodes": [
+        510
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "instance",
+      "id": "50",
+      "obj": {
+        "i": 50,
+        "n": "Shisui of the Violet Tides",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 63,
+        "max_lvl": 64,
+        "min_ilvl": 245
+      }
+    },
+    {
+      "type": "instance",
+      "id": "52",
+      "obj": {
+        "i": 52,
+        "n": "The Sirensong Sea",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 61,
+        "max_lvl": 62,
+        "min_ilvl": 240
+      }
+    },
+    {
+      "type": "instance",
+      "id": "53",
+      "obj": {
+        "i": 53,
+        "n": "Bardam's Mettle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 65,
+        "max_lvl": 66,
+        "min_ilvl": 250
+      }
+    },
+    {
+      "type": "instance",
+      "id": "54",
+      "obj": {
+        "i": 54,
+        "n": "Doma Castle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 67,
+        "max_lvl": 68,
+        "min_ilvl": 255
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55",
+      "obj": {
+        "i": 55,
+        "n": "Castrum Abania",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 69,
+        "max_lvl": 70,
+        "min_ilvl": 260,
+        "max_ilvl": 290
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66320000005773",
+      "obj": {
+        "i": 66320000005773,
+        "n": "Steppe Dzo",
+        "l": "65",
+        "z": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "513",
+      "obj": {
+        "i": 513,
+        "n": "Dimwold",
+        "l": 70,
+        "t": 2,
+        "z": 2406
+      }
+    },
+    {
+      "type": "node",
+      "id": "510",
+      "obj": {
+        "i": 510,
+        "n": "East Othard Coastline",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19921",
+      "obj": {
+        "i": 19921,
+        "n": "Dzo Horn",
+        "l": 273,
+        "c": 22211,
+        "t": 53
+      }
+    },
+    {
+      "type": "item",
+      "id": "19870",
+      "obj": {
+        "i": 19870,
+        "n": "Persimmon Leaf",
+        "l": 279,
+        "c": 25010,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19864",
+      "obj": {
+        "i": 19864,
+        "n": "Cumin Seeds",
+        "l": 276,
+        "c": 25354,
+        "t": 45
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1320",
+      "obj": {
+        "i": 1320,
+        "n": "Rumor Has It",
+        "l": 64,
+        "j": 15,
+        "p": 2404
+      }
+    }
+  ]
+}

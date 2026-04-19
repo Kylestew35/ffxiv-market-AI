@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Hyper Rainbow Z Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Hyper Rainbow Z</span>. Use to add to your orchestrion list.",
+    "id": 17844,
+    "patch": 4.05,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 148,
+      "name": "Hyper Rainbow Z",
+      "description": "Seasonal event reward.",
+      "category": "Seasonal",
+      "order": 65535
+    },
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1023794
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17844",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20304",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1023794",
+      "obj": {
+        "i": 1023794,
+        "n": "Wunthyll",
+        "l": 32,
+        "s": 1,
+        "t": "Moonfire Faire Vendor",
+        "r": 1,
+        "a": 229,
+        "c": [
+          36.88,
+          31.14
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20304",
+      "obj": {
+        "i": 20304,
+        "n": "Faire Voucher MMXVII",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    }
+  ]
+}

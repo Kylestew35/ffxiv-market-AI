@@ -1,0 +1,353 @@
+{
+  "item": {
+    "name": "Grade 5 Tincture of Vitality",
+    "description": "This diluted brew temporarily increases vitality for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 36106,
+    "patch": 6.0,
+    "patchCategory": 4,
+    "price": 3167,
+    "ilvl": 560,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 95,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Vitality": {
+          "rate": 8,
+          "limit": 136
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Vitality": {
+          "rate": 10,
+          "limit": 171
+        }
+      }
+    },
+    "icon": 20707,
+    "craft": [
+      {
+        "id": 5290,
+        "job": 14,
+        "rlvl": 555,
+        "durability": 80,
+        "quality": 7100,
+        "progress": 3400,
+        "lvl": 89,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36263,
+            "amount": 2
+          },
+          {
+            "id": 36261,
+            "amount": 2
+          },
+          {
+            "id": 27783,
+            "amount": 2
+          },
+          {
+            "id": 36223,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 8
+          },
+          {
+            "id": 12,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 396,
+          "hq": 416
+        }
+      }
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 2709500,
+      "seals": 915
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Berkanan Sap",
+      "id": 36261,
+      "icon": 22675,
+      "category": 54,
+      "ilvl": 545,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1636,
+        1637
+      ],
+      "ventures": [
+        948
+      ]
+    },
+    {
+      "name": "Lime Basil",
+      "id": 27783,
+      "icon": 25010,
+      "category": 54,
+      "ilvl": 415,
+      "price": 210,
+      "ventures": [
+        836
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36261",
+      "obj": {
+        "i": 36261,
+        "n": "Berkanan Sap",
+        "l": 545,
+        "c": 22675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27783",
+      "obj": {
+        "i": 27783,
+        "n": "Lime Basil",
+        "l": 415,
+        "c": 25010,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    }
+  ]
+}

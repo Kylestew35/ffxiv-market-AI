@@ -1,0 +1,696 @@
+{
+  "item": {
+    "name": "Chrysolite",
+    "description": "A green jewel.",
+    "id": 12548,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 5040,
+    "ilvl": 150,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21330,
+    "vendors": [
+      1001977
+    ],
+    "craft": [
+      {
+        "id": 2538,
+        "job": 11,
+        "rlvl": 150,
+        "durability": 35,
+        "quality": 2160,
+        "progress": 290,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12558,
+            "amount": 3
+          },
+          {
+            "id": 12561,
+            "amount": 1,
+            "quality": 254.87267
+          },
+          {
+            "id": 10,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 69,
+          "hq": 89
+        }
+      }
+    ],
+    "ingredient_of": {
+      "10975": 2,
+      "10981": 3,
+      "10987": 1,
+      "10999": 2,
+      "11005": 3,
+      "11011": 1,
+      "11023": 2,
+      "11029": 3,
+      "11035": 1,
+      "11047": 2,
+      "11053": 3,
+      "11059": 1,
+      "11071": 2,
+      "11077": 3,
+      "11083": 1,
+      "10388": 2,
+      "10387": 1,
+      "10651": 1,
+      "10657": 1,
+      "9466": 2
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Raw Chrysolite",
+      "id": 12558,
+      "icon": 21473,
+      "category": 48,
+      "ilvl": 150,
+      "price": 3267,
+      "ventures": [
+        460
+      ],
+      "nodes": [
+        353
+      ]
+    },
+    {
+      "name": "Cloud Mica Whetstone",
+      "id": 12561,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 139,
+      "price": 2520,
+      "craft": [
+        {
+          "id": 2541,
+          "job": 11,
+          "rlvl": 139,
+          "durability": 35,
+          "quality": 1936,
+          "progress": 210,
+          "lvl": 56,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12539,
+              "amount": 3
+            },
+            {
+              "id": 10,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 55,
+            "hq": 75
+          }
+        }
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Cloud Mica",
+      "id": 12539,
+      "icon": 21226,
+      "category": 48,
+      "ilvl": 142,
+      "price": 843,
+      "desynthedFrom": [
+        12787
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12539",
+                  "amount": 4
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021
+      ],
+      "ventures": [
+        456
+      ],
+      "nodes": [
+        355
+      ],
+      "vendors": [
+        1017172
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "353",
+      "obj": {
+        "i": 353,
+        "n": "The Makers' Quarter",
+        "l": 60,
+        "t": 0,
+        "z": 2001
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12539",
+      "obj": {
+        "i": 12539,
+        "n": "Cloud Mica",
+        "l": 142,
+        "c": 21226,
+        "t": 48,
+        "p": 843
+      }
+    },
+    {
+      "type": "node",
+      "id": "355",
+      "obj": {
+        "i": 355,
+        "n": "Landlord Colony",
+        "l": 60,
+        "t": 1,
+        "z": 2002,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001977",
+      "obj": {
+        "i": 1001977,
+        "n": "Sileas",
+        "l": 41,
+        "s": 2,
+        "t": "Jeweler",
+        "c": [
+          "10.0",
+          "12.5"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12558",
+      "obj": {
+        "i": 12558,
+        "n": "Raw Chrysolite",
+        "l": 150,
+        "c": 21473,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12561",
+      "obj": {
+        "i": 12561,
+        "n": "Cloud Mica Whetstone",
+        "l": 139,
+        "c": 21470,
+        "t": 48,
+        "p": 2520
+      }
+    },
+    {
+      "type": "item",
+      "id": "10975",
+      "obj": {
+        "i": 10975,
+        "n": "Chrysolite Bracelet of Fending",
+        "l": 150,
+        "c": 55733,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "10981",
+      "obj": {
+        "i": 10981,
+        "n": "Chrysolite Earrings of Fending",
+        "l": 150,
+        "c": 55339,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "10987",
+      "obj": {
+        "i": 10987,
+        "n": "Chrysolite Ring of Fending",
+        "l": 150,
+        "c": 54583,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "10999",
+      "obj": {
+        "i": 10999,
+        "n": "Chrysolite Bracelet of Slaying",
+        "l": 150,
+        "c": 55733,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11005",
+      "obj": {
+        "i": 11005,
+        "n": "Chrysolite Earrings of Slaying",
+        "l": 150,
+        "c": 55339,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "11011",
+      "obj": {
+        "i": 11011,
+        "n": "Chrysolite Ring of Slaying",
+        "l": 150,
+        "c": 54583,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "11023",
+      "obj": {
+        "i": 11023,
+        "n": "Chrysolite Bracelet of Aiming",
+        "l": 150,
+        "c": 55733,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11029",
+      "obj": {
+        "i": 11029,
+        "n": "Chrysolite Earrings of Aiming",
+        "l": 150,
+        "c": 55339,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "11035",
+      "obj": {
+        "i": 11035,
+        "n": "Chrysolite Ring of Aiming",
+        "l": 150,
+        "c": 54583,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "11047",
+      "obj": {
+        "i": 11047,
+        "n": "Chrysolite Bracelet of Healing",
+        "l": 150,
+        "c": 55733,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11053",
+      "obj": {
+        "i": 11053,
+        "n": "Chrysolite Earrings of Healing",
+        "l": 150,
+        "c": 55339,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "11059",
+      "obj": {
+        "i": 11059,
+        "n": "Chrysolite Ring of Healing",
+        "l": 150,
+        "c": 54583,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "11071",
+      "obj": {
+        "i": 11071,
+        "n": "Chrysolite Bracelet of Casting",
+        "l": 150,
+        "c": 55733,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11077",
+      "obj": {
+        "i": 11077,
+        "n": "Chrysolite Earrings of Casting",
+        "l": 150,
+        "c": 55339,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "11083",
+      "obj": {
+        "i": 11083,
+        "n": "Chrysolite Ring of Casting",
+        "l": 150,
+        "c": 54583,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "10388",
+      "obj": {
+        "i": 10388,
+        "n": "Thavnairian Bolero",
+        "l": 1,
+        "c": 42440,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10387",
+      "obj": {
+        "i": 10387,
+        "n": "Thavnairian Turban",
+        "l": 1,
+        "c": 41243,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10651",
+      "obj": {
+        "i": 10651,
+        "n": "Noble Gold",
+        "l": 150,
+        "c": 33529,
+        "t": 10,
+        "p": 31838
+      }
+    },
+    {
+      "type": "item",
+      "id": "10657",
+      "obj": {
+        "i": 10657,
+        "n": "Noble's Codex",
+        "l": 150,
+        "c": 33530,
+        "t": 98,
+        "p": 31838
+      }
+    },
+    {
+      "type": "item",
+      "id": "9466",
+      "obj": {
+        "i": 9466,
+        "n": "Level 6 Aetherial Wheel Stand",
+        "l": 1,
+        "c": 52562,
+        "t": 57
+      }
+    }
+  ]
+}

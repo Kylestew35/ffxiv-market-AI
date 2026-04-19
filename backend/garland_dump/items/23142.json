@@ -1,0 +1,786 @@
+{
+  "item": {
+    "name": "Pagos Lockbox",
+    "description": "A firmly sealed box discovered deep in the Pagos wilds. Only a skilled picker of locks might grant you access to the treasure within.",
+    "id": 23142,
+    "patch": 4.36,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25997,
+    "fates": [
+      1367,
+      1351,
+      1369,
+      1353,
+      1354,
+      1355,
+      1366,
+      1357,
+      1356,
+      1352,
+      1360,
+      1358,
+      1361,
+      1368,
+      1362,
+      1359,
+      1363,
+      1365,
+      1364
+    ],
+    "alla": {
+      "source": [
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE",
+        "FATE"
+      ]
+    },
+    "loot": [
+      5827,
+      5889,
+      8142,
+      8143,
+      8144,
+      5673,
+      5678,
+      5668,
+      5718,
+      5723,
+      5683,
+      5633,
+      18030,
+      18019,
+      18020,
+      18018,
+      18028,
+      18029,
+      18021,
+      18011,
+      23345,
+      23346,
+      23028,
+      23350,
+      23356,
+      23359,
+      23355,
+      23358,
+      23352,
+      23353,
+      23357,
+      23354,
+      23351,
+      23377,
+      23378,
+      23348,
+      23347
+    ]
+  },
+  "partials": [
+    {
+      "type": "fate",
+      "id": "1367",
+      "obj": {
+        "i": 1367,
+        "n": "Down the Rabbit Hole",
+        "l": 20,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1351",
+      "obj": {
+        "i": 1351,
+        "n": "Eternity",
+        "l": 20,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1369",
+      "obj": {
+        "i": 1369,
+        "n": "Cairn Blight 451",
+        "l": 21,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1353",
+      "obj": {
+        "i": 1353,
+        "n": "Ash the Magic Dragon",
+        "l": 22,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1354",
+      "obj": {
+        "i": 1354,
+        "n": "Conqueror Worm",
+        "l": 23,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1355",
+      "obj": {
+        "i": 1355,
+        "n": "Melting Point",
+        "l": 24,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1366",
+      "obj": {
+        "i": 1366,
+        "n": "The Wobbler in Darkness",
+        "l": 25,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1357",
+      "obj": {
+        "i": 1357,
+        "n": "Does It Have to Be a Snowman",
+        "l": 26,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1356",
+      "obj": {
+        "i": 1356,
+        "n": "Disorder in the Court",
+        "l": 27,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1352",
+      "obj": {
+        "i": 1352,
+        "n": "Cows for Concern",
+        "l": 28,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1360",
+      "obj": {
+        "i": 1360,
+        "n": "Morte Arthro",
+        "l": 29,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1358",
+      "obj": {
+        "i": 1358,
+        "n": "Brothers",
+        "l": 30,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1361",
+      "obj": {
+        "i": 1361,
+        "n": "Apocalypse Cow",
+        "l": 31,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1368",
+      "obj": {
+        "i": 1368,
+        "n": "Curiouser and Curiouser",
+        "l": 31,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1362",
+      "obj": {
+        "i": 1362,
+        "n": "Third Impact",
+        "l": 32,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1359",
+      "obj": {
+        "i": 1359,
+        "n": "Eye of Horus",
+        "l": 33,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1363",
+      "obj": {
+        "i": 1363,
+        "n": "Eye Scream for Ice Cream",
+        "l": 34,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1365",
+      "obj": {
+        "i": 1365,
+        "n": "Cassie and the Copycats",
+        "l": 35,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1364",
+      "obj": {
+        "i": 1364,
+        "n": "Louhi on Ice",
+        "l": 35,
+        "t": "EurekaNM"
+      }
+    },
+    {
+      "type": "item",
+      "id": "5827",
+      "obj": {
+        "i": 5827,
+        "n": "Allagan Platinum Piece",
+        "l": 45,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5889",
+      "obj": {
+        "i": 5889,
+        "n": "Cherry Confetti",
+        "l": 1,
+        "c": 22641,
+        "t": 85,
+        "p": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "8142",
+      "obj": {
+        "i": 8142,
+        "n": "Clear Demimateria I",
+        "l": 10,
+        "c": 20237,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8143",
+      "obj": {
+        "i": 8143,
+        "n": "Clear Demimateria II",
+        "l": 30,
+        "c": 20238,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8144",
+      "obj": {
+        "i": 8144,
+        "n": "Clear Demimateria III",
+        "l": 50,
+        "c": 20239,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "5673",
+      "obj": {
+        "i": 5673,
+        "n": "Savage Aim Materia V",
+        "l": 160,
+        "c": 20258,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5678",
+      "obj": {
+        "i": 5678,
+        "n": "Savage Might Materia V",
+        "l": 160,
+        "c": 20258,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5668",
+      "obj": {
+        "i": 5668,
+        "n": "Heavens' Eye Materia V",
+        "l": 160,
+        "c": 20258,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5718",
+      "obj": {
+        "i": 5718,
+        "n": "Quickarm Materia V",
+        "l": 160,
+        "c": 20259,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Skill Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5723",
+      "obj": {
+        "i": 5723,
+        "n": "Quicktongue Materia V",
+        "l": 160,
+        "c": 20259,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5683",
+      "obj": {
+        "i": 5683,
+        "n": "Battledance Materia V",
+        "l": 160,
+        "c": 20256,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5633",
+      "obj": {
+        "i": 5633,
+        "n": "Piety Materia V",
+        "l": 160,
+        "c": 20256,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "18030",
+      "obj": {
+        "i": 18030,
+        "n": "Cracked Cluster",
+        "l": 1,
+        "c": 20020,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "18019",
+      "obj": {
+        "i": 18019,
+        "n": "Savage Aim Materia VI",
+        "l": 290,
+        "c": 20267,
+        "t": 58,
+        "materia": {
+          "tier": 5,
+          "value": 16,
+          "attr": "Critical Hit",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "18020",
+      "obj": {
+        "i": 18020,
+        "n": "Savage Might Materia VI",
+        "l": 290,
+        "c": 20267,
+        "t": 58,
+        "materia": {
+          "tier": 5,
+          "value": 16,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "18018",
+      "obj": {
+        "i": 18018,
+        "n": "Heavens' Eye Materia VI",
+        "l": 290,
+        "c": 20267,
+        "t": 58,
+        "materia": {
+          "tier": 5,
+          "value": 16,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "18028",
+      "obj": {
+        "i": 18028,
+        "n": "Quickarm Materia VI",
+        "l": 290,
+        "c": 20265,
+        "t": 58,
+        "materia": {
+          "tier": 5,
+          "value": 16,
+          "attr": "Skill Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "18029",
+      "obj": {
+        "i": 18029,
+        "n": "Quicktongue Materia VI",
+        "l": 290,
+        "c": 20265,
+        "t": 58,
+        "materia": {
+          "tier": 5,
+          "value": 16,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "18021",
+      "obj": {
+        "i": 18021,
+        "n": "Battledance Materia VI",
+        "l": 290,
+        "c": 20262,
+        "t": 58,
+        "materia": {
+          "tier": 5,
+          "value": 16,
+          "attr": "Tenacity",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "18011",
+      "obj": {
+        "i": 18011,
+        "n": "Piety Materia VI",
+        "l": 290,
+        "c": 20262,
+        "t": 58,
+        "materia": {
+          "tier": 5,
+          "value": 16,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "23345",
+      "obj": {
+        "i": 23345,
+        "n": "Lizard Tail",
+        "l": 150,
+        "c": 22635,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "23346",
+      "obj": {
+        "i": 23346,
+        "n": "Reishi Mushroom",
+        "l": 150,
+        "c": 25401,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "23028",
+      "obj": {
+        "i": 23028,
+        "n": "Wind-up Tarutaru",
+        "l": 1,
+        "c": 59691,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "23350",
+      "obj": {
+        "i": 23350,
+        "n": "Pagos Bandana",
+        "l": 1,
+        "c": 41729,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23356",
+      "obj": {
+        "i": 23356,
+        "n": "Pagos Bolero",
+        "l": 1,
+        "c": 42453,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "23359",
+      "obj": {
+        "i": 23359,
+        "n": "Pagos Boots",
+        "l": 1,
+        "c": 46510,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "23355",
+      "obj": {
+        "i": 23355,
+        "n": "Pagos Circlet",
+        "l": 1,
+        "c": 40698,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23358",
+      "obj": {
+        "i": 23358,
+        "n": "Pagos Culottes",
+        "l": 1,
+        "c": 45642,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "23352",
+      "obj": {
+        "i": 23352,
+        "n": "Pagos Field Dressing",
+        "l": 1,
+        "c": 44638,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "23353",
+      "obj": {
+        "i": 23353,
+        "n": "Pagos Gaskins",
+        "l": 1,
+        "c": 47438,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "23357",
+      "obj": {
+        "i": 23357,
+        "n": "Pagos Gloves",
+        "l": 1,
+        "c": 44361,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "23354",
+      "obj": {
+        "i": 23354,
+        "n": "Pagos Sandals",
+        "l": 1,
+        "c": 49172,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "23351",
+      "obj": {
+        "i": 23351,
+        "n": "Pagos Shirt",
+        "l": 1,
+        "c": 42609,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "23377",
+      "obj": {
+        "i": 23377,
+        "n": "Boutique Batiste",
+        "l": 1,
+        "c": 21617,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "23378",
+      "obj": {
+        "i": 23378,
+        "n": "Boutique Boarded Leather",
+        "l": 1,
+        "c": 22035,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "23348",
+      "obj": {
+        "i": 23348,
+        "n": "Pagos Sage",
+        "l": 150,
+        "c": 25009,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "23347",
+      "obj": {
+        "i": 23347,
+        "n": "Pagos Spring Water",
+        "l": 150,
+        "c": 22614,
+        "t": 54
+      }
+    }
+  ]
+}

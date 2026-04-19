@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Sleipnir Barding",
+    "description": "A suit of pitch-black chocobo armor designed to resemble that worn by the legendary steed of the elder primal Odin.",
+    "id": 6030,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 58538,
+    "tradeShops": [
+      {
+        "shop": "Uncanny Knickknacks",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6030",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6164",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "6164",
+      "obj": {
+        "i": 6164,
+        "n": "Odin's Mantle",
+        "l": 50,
+        "c": 21002,
+        "t": 51
+      }
+    }
+  ]
+}

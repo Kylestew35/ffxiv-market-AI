@@ -1,0 +1,230 @@
+{
+  "item": {
+    "name": "Prytwen",
+    "jobCategories": "PLD",
+    "id": 11778,
+    "patch": 3.05,
+    "patchCategory": 0,
+    "price": 37422,
+    "ilvl": 210,
+    "category": 11,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "sell_price": 375,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1170,
+    "slot": 2,
+    "elvl": 60,
+    "jobs": 20,
+    "models": [
+      "101-29-1-0"
+    ],
+    "attr": {
+      "Block Strength": 400,
+      "Block Rate": 400,
+      "Strength": 22,
+      "Vitality": 22,
+      "Skill Speed": 24,
+      "Critical Hit": 17
+    },
+    "icon": 30117,
+    "sharedModels": [
+      10286,
+      13610,
+      13624,
+      13789
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Gear Repair (PLD)",
+        "npcs": [
+          1013747
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11765",
+                "amount": 1
+              },
+              {
+                "id": "11778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10285",
+                "amount": 1
+              },
+              {
+                "id": "10286",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Artifact Gear Exchange (DoW, IL 210) I",
+        "npcs": [
+          1012158
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 40
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10286",
+      "obj": {
+        "i": 10286,
+        "n": "Antiquated Prytwen",
+        "l": 200,
+        "c": 30117,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "13610",
+      "obj": {
+        "i": 13610,
+        "n": "Prytwen Awoken",
+        "l": 200,
+        "c": 30117,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "13624",
+      "obj": {
+        "i": 13624,
+        "n": "Animated Prytwen",
+        "l": 170,
+        "c": 30117,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "13789",
+      "obj": {
+        "i": 13789,
+        "n": "Prytwen Awoken Replica",
+        "l": 1,
+        "c": 30117,
+        "t": 11,
+        "p": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013747",
+      "obj": {
+        "i": 1013747,
+        "n": "Seika",
+        "l": 2082,
+        "s": 22,
+        "t": "Gear Improvement",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.74,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10285",
+      "obj": {
+        "i": 10285,
+        "n": "Antiquated Hauteclaire",
+        "l": 200,
+        "c": 30520,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "11765",
+      "obj": {
+        "i": 11765,
+        "n": "Hauteclaire",
+        "l": 210,
+        "c": 30520,
+        "t": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012158",
+      "obj": {
+        "i": 1012158,
+        "n": "Yolaine",
+        "l": 2300,
+        "s": 5,
+        "t": "Centurio Seal Exchange",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.06,
+          11.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

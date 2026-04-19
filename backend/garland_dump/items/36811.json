@@ -1,0 +1,165 @@
+{
+  "item": {
+    "name": "Fortune Egg",
+    "description": "A plain white Archon egg believed to bring its bearer good luck for as long as it remains uncracked.",
+    "id": 36811,
+    "patch": 6.1,
+    "patchCategory": 13,
+    "price": 2,
+    "ilvl": 1,
+    "category": 85,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21308,
+    "tradeCurrency": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1042869
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36916",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36811",
+                "amount": 9
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "37387",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36811",
+                "amount": 3
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "37388",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36811",
+                "amount": 3
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "22411",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "36811",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fates": [
+      1856
+    ],
+    "alla": {
+      "source": [
+        "FATE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1042869",
+      "obj": {
+        "i": 1042869,
+        "n": "Dreamer",
+        "l": 53,
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.3,
+          9.23
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36916",
+      "obj": {
+        "i": 36916,
+        "n": "Ballroom Etiquette - An Egg a Day",
+        "l": 1,
+        "c": 26435,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "37387",
+      "obj": {
+        "i": 37387,
+        "n": "Eggsemplary Basket",
+        "l": 1,
+        "c": 53425,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "37388",
+      "obj": {
+        "i": 37388,
+        "n": "Hatching-tide Mobile",
+        "l": 1,
+        "c": 51461,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "22411",
+      "obj": {
+        "i": 22411,
+        "n": "Magicked Prism (Hatching-tide)",
+        "l": 1,
+        "c": 22633,
+        "t": 85,
+        "p": 19
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1856",
+      "obj": {
+        "i": 1856,
+        "n": "Happiness Is a Warm Bunny",
+        "l": 15,
+        "t": "Festival"
+      }
+    }
+  ]
+}

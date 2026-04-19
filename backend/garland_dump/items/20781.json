@@ -1,0 +1,158 @@
+{
+  "item": {
+    "name": "Shishu Koban",
+    "description": "This oblong gold coin once saw heavy circulation throughout Hingashi and the eastern provinces of Othard.",
+    "id": 20781,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 26285,
+    "nodes": [
+      533,
+      534
+    ],
+    "satisfaction": [
+      {
+        "level": 2,
+        "npc": 1020337,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          80,
+          80,
+          80
+        ],
+        "gil": [
+          780,
+          980,
+          1170
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              104,
+              127,
+              150
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              76,
+              91,
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1020337,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "533",
+      "obj": {
+        "i": 533,
+        "n": "The Turquoise Trench",
+        "l": 60,
+        "t": 0,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "534",
+      "obj": {
+        "i": 534,
+        "n": "The Isle of Bekko",
+        "l": 60,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1020337",
+      "obj": {
+        "i": 1020337,
+        "n": "M'naago",
+        "l": 2403,
+        "q": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

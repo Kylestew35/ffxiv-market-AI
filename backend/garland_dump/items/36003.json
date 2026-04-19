@@ -1,0 +1,133 @@
+{
+  "item": {
+    "name": "Calydontis Horn",
+    "description": "When blown, this horn produces a feral sound that summons forth Calydontis, scourge of the forest.",
+    "mount": {
+      "name": "Calydontis",
+      "action": "Summon forth Calydontis. He's wild but he's yours.",
+      "description": "Once a dreaded presence in its forest domain, this lord among wild boars met its match in a band of dauntless adventurers. Having thus learned to bow before the strong, it found a master in you.",
+      "tooltip": "When I'm skilled enough<br>to fell a wild boar on my own,<br>I'll allow myself to indulge...<br>   - Isarmoix",
+      "icon": 4219,
+      "guideIcon": 68219
+    },
+    "id": 36003,
+    "patch": 6.0,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Gold Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36003",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22443",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36003",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "735-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22443",
+      "obj": {
+        "i": 22443,
+        "n": "Khloe's Gold Certificate of Commendation",
+        "l": 1,
+        "c": 26191,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    }
+  ]
+}

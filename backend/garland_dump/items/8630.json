@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Ironworks Gloves of Casting",
+    "jobCategories": "THM ACN BLM SMN RDM BLU PCT",
+    "id": 8630,
+    "patch": 2.4,
+    "patchCategory": 0,
+    "price": 19958,
+    "ilvl": 120,
+    "category": 37,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 353,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 690,
+    "slot": 5,
+    "elvl": 50,
+    "jobs": 63,
+    "models": [
+      "191-1-0-0"
+    ],
+    "attr": {
+      "Defense": 55,
+      "Magic Defense": 97,
+      "Intelligence": 29,
+      "Vitality": 27,
+      "Direct Hit Rate": 29,
+      "Determination": 20
+    },
+    "icon": 44283,
+    "sharedModels": [
+      8924
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Ironworks Gear Augmentation (DoM)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8924",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8630",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8924",
+      "obj": {
+        "i": 8924,
+        "n": "Augmented Ironworks Gloves of Casting",
+        "l": 130,
+        "c": 44283,
+        "t": 37
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

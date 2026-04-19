@@ -1,0 +1,391 @@
+{
+  "item": {
+    "name": "Replica Sky Pirate's Gaskins of Maiming",
+    "jobCategories": "All Classes",
+    "id": 28816,
+    "patch": 5.1,
+    "patchCategory": 3,
+    "price": 37,
+    "ilvl": 1,
+    "category": 36,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "331-2-0-0"
+    ],
+    "attr": {
+      "Defense": 9,
+      "Magic Defense": 16
+    },
+    "attr_hq": {
+      "Defense": 11,
+      "Magic Defense": 17
+    },
+    "icon": 45707,
+    "sharedModels": [
+      13643,
+      13649,
+      18148,
+      28811
+    ],
+    "craft": [
+      {
+        "id": 33621,
+        "job": 13,
+        "rlvl": 255,
+        "durability": 80,
+        "quality": 2790,
+        "progress": 630,
+        "lvl": 61,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 28908,
+            "amount": 2
+          },
+          {
+            "id": 28907,
+            "amount": 1
+          },
+          {
+            "id": 19975,
+            "amount": 2,
+            "quality": 275.75583
+          },
+          {
+            "id": 12,
+            "amount": 3
+          },
+          {
+            "id": 10,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 395,
+          "hq": 415
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Skysteel Cloth",
+      "id": 28908,
+      "icon": 21619,
+      "category": 51,
+      "ilvl": 260,
+      "price": 3,
+      "tradeShops": [
+        {
+          "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+          "npcs": [
+            1031680,
+            1031691
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28908",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28063",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skysteel Leather",
+      "id": 28907,
+      "icon": 22016,
+      "category": 52,
+      "ilvl": 260,
+      "price": 3,
+      "tradeShops": [
+        {
+          "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+          "npcs": [
+            1031680,
+            1031691
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28907",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28063",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bloodhempen Yarn",
+      "id": 19975,
+      "icon": 21658,
+      "category": 51,
+      "ilvl": 255,
+      "price": 2257,
+      "craft": [
+        {
+          "id": 3635,
+          "job": 13,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19976,
+              "amount": 4
+            },
+            {
+              "id": 12,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "desynthedFrom": [
+        16510,
+        18160
+      ],
+      "treasure": [
+        17835
+      ],
+      "leves": [
+        1328,
+        1329,
+        1330
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Bloodhemp",
+      "id": 19976,
+      "icon": 21654,
+      "category": 51,
+      "ilvl": 255,
+      "price": 504,
+      "ventures": [
+        681
+      ],
+      "nodes": [
+        505
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19976",
+      "obj": {
+        "i": 19976,
+        "n": "Bloodhemp",
+        "l": 255,
+        "c": 21654,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "505",
+      "obj": {
+        "i": 505,
+        "n": "East End",
+        "l": 60,
+        "t": 3,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "13643",
+      "obj": {
+        "i": 13643,
+        "n": "Sky Pirate's Gaskins of Fending",
+        "l": 185,
+        "c": 45706,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13649",
+      "obj": {
+        "i": 13649,
+        "n": "Sky Pirate's Gaskins of Maiming",
+        "l": 185,
+        "c": 45707,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "18148",
+      "obj": {
+        "i": 18148,
+        "n": "Ghost Barque Gaskins of Aiming",
+        "l": 260,
+        "c": 47300,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28811",
+      "obj": {
+        "i": 28811,
+        "n": "Replica Sky Pirate's Gaskins of Fending",
+        "l": 1,
+        "c": 45706,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28908",
+      "obj": {
+        "i": 28908,
+        "n": "Skysteel Cloth",
+        "l": 260,
+        "c": 21619,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "28907",
+      "obj": {
+        "i": 28907,
+        "n": "Skysteel Leather",
+        "l": 260,
+        "c": 22016,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "19975",
+      "obj": {
+        "i": 19975,
+        "n": "Bloodhempen Yarn",
+        "l": 255,
+        "c": 21658,
+        "t": 51,
+        "p": 2257
+      }
+    }
+  ]
+}

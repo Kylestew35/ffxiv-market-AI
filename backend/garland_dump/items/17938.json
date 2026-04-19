@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Nigiri-zushi",
+    "description": "One of many types of sushi, nigiri-zushi is called such because chefs use their hands to grip (nigiri) and form small balls of vinegared rice onto which are placed various items such as vegetables or fish.",
+    "id": 17938,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 285,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 53155,
+    "craft": [
+      {
+        "id": 32302,
+        "job": 15,
+        "rlvl": 285,
+        "durability": 80,
+        "quality": 1881,
+        "progress": 686,
+        "lvl": 68,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17937,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 100027,
+          "hq": 100047
+        }
+      }
+    ],
+    "usedInQuest": [
+      68143
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Sushi Ingredients",
+      "id": 17937,
+      "icon": 26109,
+      "category": 63,
+      "ilvl": 285,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17937",
+      "obj": {
+        "i": 17937,
+        "n": "Sushi Ingredients",
+        "l": 285,
+        "c": 26109,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68143",
+      "obj": {
+        "i": 68143,
+        "n": "Teach a Man to Make Fish",
+        "g": 171,
+        "l": "Mor Dhona",
+        "s": 680,
+        "f": 1
+      }
+    }
+  ]
+}

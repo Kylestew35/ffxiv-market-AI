@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Ring Materials",
+    "description": "All the materials necessary to forge a silver ring. (Crystals not included.)",
+    "id": 17901,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 270,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21276,
+    "ingredient_of": {
+      "17902": 1
+    },
+    "usedInQuest": [
+      68136
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "17902",
+      "obj": {
+        "i": 17902,
+        "n": "Sample Silver Ring",
+        "l": 270,
+        "c": 54408,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68136",
+      "obj": {
+        "i": 68136,
+        "n": "Gemworks in Progress",
+        "g": 167,
+        "l": "Ul'dah",
+        "s": 630,
+        "f": 1
+      }
+    }
+  ]
+}

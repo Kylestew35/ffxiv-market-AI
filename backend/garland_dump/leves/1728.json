@@ -1,0 +1,1338 @@
+{
+  "leve": {
+    "name": "Tenets of Tanning",
+    "description": "I may have just opened up shop, but I'm no stranger to the tenets of leatherworkin'. The skin we use is a precious gift from the livin' creature it came from, and as a proud Hhetsarro, it's my duty to honor its sacrifice. Which is to say, I'd appreciate help with my tannin', so long as whoever does it fully understands the responsibility.",
+    "id": 1728,
+    "patch": 7.0,
+    "client": "Wild Crafts Owner, Mittahwo",
+    "lvl": 90,
+    "jobCategory": 13,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 1440660,
+    "gil": 2530,
+    "rewards": 850,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44058,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 330,
+      "hq": 465
+    }
+  },
+  "rewards": {
+    "id": 850,
+    "entries": [
+      {
+        "item": 11,
+        "rate": 0.23,
+        "amount": 36
+      },
+      {
+        "item": 10,
+        "rate": 0.23,
+        "amount": 36
+      },
+      {
+        "item": 44053,
+        "rate": 0.23
+      },
+      {
+        "item": 11,
+        "rate": 0.1,
+        "amount": 43
+      },
+      {
+        "item": 10,
+        "rate": 0.1,
+        "amount": 43
+      },
+      {
+        "item": 44053,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Silver Lobo Leather",
+      "id": 44058,
+      "icon": 22021,
+      "category": 52,
+      "ilvl": 650,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5643,
+          "job": 12,
+          "rlvl": 650,
+          "durability": 40,
+          "quality": 8200,
+          "progress": 2000,
+          "lvl": 91,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 44053,
+              "amount": 4
+            },
+            {
+              "id": 36241,
+              "amount": 1
+            },
+            {
+              "id": 11,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 136,
+            "hq": 156
+          }
+        }
+      ],
+      "treasure": [
+        43556
+      ],
+      "leves": [
+        1729
+      ]
+    },
+    {
+      "name": "Silver Lobo Hide",
+      "id": 44053,
+      "icon": 21805,
+      "category": 52,
+      "ilvl": 650,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 120,
+          "type": 1
+        },
+        {
+          "id": 132,
+          "type": 1
+        }
+      ],
+      "treasure": [
+        43556
+      ],
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "44053",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1728
+      ],
+      "ventures": [
+        1026
+      ]
+    },
+    {
+      "name": "Eblan Alumen",
+      "id": 36241,
+      "icon": 22616,
+      "category": 54,
+      "ilvl": 533,
+      "price": 99999,
+      "ventures": [
+        901
+      ],
+      "nodes": [
+        822
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43556",
+      "obj": {
+        "i": 43556,
+        "n": "Timeworn Loboskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "822",
+      "obj": {
+        "i": 822,
+        "n": "Monitoring Station G",
+        "l": 85,
+        "t": 1,
+        "z": 3710
+      }
+    },
+    {
+      "type": "item",
+      "id": "44053",
+      "obj": {
+        "i": 44053,
+        "n": "Silver Lobo Hide",
+        "l": 650,
+        "c": 21805,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "36241",
+      "obj": {
+        "i": 36241,
+        "n": "Eblan Alumen",
+        "l": 533,
+        "c": 22616,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "41836",
+      "obj": {
+        "i": 41836,
+        "n": "Mountain Chromite Kilij",
+        "l": 645,
+        "c": 30676,
+        "t": 2,
+        "p": 34464
+      }
+    },
+    {
+      "type": "item",
+      "id": "41838",
+      "obj": {
+        "i": 41838,
+        "n": "Mountain Chromite Battleaxe",
+        "l": 645,
+        "c": 31250,
+        "t": 3,
+        "p": 51696
+      }
+    },
+    {
+      "type": "item",
+      "id": "41839",
+      "obj": {
+        "i": 41839,
+        "n": "Lar Glaive",
+        "l": 645,
+        "c": 31652,
+        "t": 5,
+        "p": 51696
+      }
+    },
+    {
+      "type": "item",
+      "id": "41843",
+      "obj": {
+        "i": 41843,
+        "n": "Loboskin Grimoire",
+        "l": 645,
+        "c": 37803,
+        "t": 10,
+        "p": 51696
+      }
+    },
+    {
+      "type": "item",
+      "id": "41844",
+      "obj": {
+        "i": 41844,
+        "n": "Loboskin Codex",
+        "l": 645,
+        "c": 37802,
+        "t": 98,
+        "p": 51696
+      }
+    },
+    {
+      "type": "item",
+      "id": "41846",
+      "obj": {
+        "i": 41846,
+        "n": "Mountain Chromite Guillotine",
+        "l": 645,
+        "c": 34006,
+        "t": 87,
+        "p": 51696
+      }
+    },
+    {
+      "type": "item",
+      "id": "41856",
+      "obj": {
+        "i": 41856,
+        "n": "Ginseng Angle Brush",
+        "l": 645,
+        "c": 37642,
+        "t": 111,
+        "p": 51696
+      }
+    },
+    {
+      "type": "item",
+      "id": "41858",
+      "obj": {
+        "i": 41858,
+        "n": "Lar Headgear of Fending",
+        "l": 645,
+        "c": 56697,
+        "t": 34,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41859",
+      "obj": {
+        "i": 41859,
+        "n": "Loboskin Coat of Fending",
+        "l": 645,
+        "c": 57086,
+        "t": 35,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41860",
+      "obj": {
+        "i": 41860,
+        "n": "Loboskin Fingerless Gloves of Fending",
+        "l": 645,
+        "c": 56211,
+        "t": 37,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41861",
+      "obj": {
+        "i": 41861,
+        "n": "Snow Cotton Bottoms of Fending",
+        "l": 645,
+        "c": 57614,
+        "t": 36,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41862",
+      "obj": {
+        "i": 41862,
+        "n": "Loboskin Caligae of Fending",
+        "l": 645,
+        "c": 49707,
+        "t": 38,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41863",
+      "obj": {
+        "i": 41863,
+        "n": "Lar Headgear of Maiming",
+        "l": 645,
+        "c": 56698,
+        "t": 34,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41864",
+      "obj": {
+        "i": 41864,
+        "n": "Loboskin Coat of Maiming",
+        "l": 645,
+        "c": 57087,
+        "t": 35,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41865",
+      "obj": {
+        "i": 41865,
+        "n": "Loboskin Fingerless Gloves of Maiming",
+        "l": 645,
+        "c": 56212,
+        "t": 37,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41866",
+      "obj": {
+        "i": 41866,
+        "n": "Snow Cotton Bottoms of Maiming",
+        "l": 645,
+        "c": 57615,
+        "t": 36,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41867",
+      "obj": {
+        "i": 41867,
+        "n": "Loboskin Caligae of Maiming",
+        "l": 645,
+        "c": 49708,
+        "t": 38,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41868",
+      "obj": {
+        "i": 41868,
+        "n": "Snow Cotton Headband of Striking",
+        "l": 645,
+        "c": 56701,
+        "t": 34,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41869",
+      "obj": {
+        "i": 41869,
+        "n": "Snow Cotton Jacket of Striking",
+        "l": 645,
+        "c": 57090,
+        "t": 35,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41870",
+      "obj": {
+        "i": 41870,
+        "n": "Loboskin Fingerless Gloves of Striking",
+        "l": 645,
+        "c": 56215,
+        "t": 37,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41871",
+      "obj": {
+        "i": 41871,
+        "n": "Snow Cotton Bottoms of Striking",
+        "l": 645,
+        "c": 57618,
+        "t": 36,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41872",
+      "obj": {
+        "i": 41872,
+        "n": "Loboskin Caligae of Striking",
+        "l": 645,
+        "c": 49711,
+        "t": 38,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41873",
+      "obj": {
+        "i": 41873,
+        "n": "Snow Cotton Ushanka of Aiming",
+        "l": 645,
+        "c": 56702,
+        "t": 34,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41874",
+      "obj": {
+        "i": 41874,
+        "n": "Snow Cotton Coat of Aiming",
+        "l": 645,
+        "c": 57091,
+        "t": 35,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41875",
+      "obj": {
+        "i": 41875,
+        "n": "Loboskin Fingerless Gloves of Aiming",
+        "l": 645,
+        "c": 56216,
+        "t": 37,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41876",
+      "obj": {
+        "i": 41876,
+        "n": "Snow Cotton Skirt of Aiming",
+        "l": 645,
+        "c": 57619,
+        "t": 36,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41877",
+      "obj": {
+        "i": 41877,
+        "n": "Loboskin Caligae of Aiming",
+        "l": 645,
+        "c": 49712,
+        "t": 38,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41878",
+      "obj": {
+        "i": 41878,
+        "n": "Snow Cotton Ushanka of Scouting",
+        "l": 645,
+        "c": 56703,
+        "t": 34,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41879",
+      "obj": {
+        "i": 41879,
+        "n": "Snow Cotton Tunic of Scouting",
+        "l": 645,
+        "c": 57089,
+        "t": 35,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41880",
+      "obj": {
+        "i": 41880,
+        "n": "Loboskin Fingerless Gloves of Scouting",
+        "l": 645,
+        "c": 56214,
+        "t": 37,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41881",
+      "obj": {
+        "i": 41881,
+        "n": "Snow Cotton Bottoms of Scouting",
+        "l": 645,
+        "c": 57617,
+        "t": 36,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41882",
+      "obj": {
+        "i": 41882,
+        "n": "Loboskin Sandals of Scouting",
+        "l": 645,
+        "c": 49710,
+        "t": 38,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41883",
+      "obj": {
+        "i": 41883,
+        "n": "Snow Cotton Muffed Met of Healing",
+        "l": 645,
+        "c": 56700,
+        "t": 34,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41884",
+      "obj": {
+        "i": 41884,
+        "n": "Snow Cotton Tunic of Healing",
+        "l": 645,
+        "c": 57088,
+        "t": 35,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41885",
+      "obj": {
+        "i": 41885,
+        "n": "Loboskin Fingerless Gloves of Healing",
+        "l": 645,
+        "c": 56213,
+        "t": 37,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41886",
+      "obj": {
+        "i": 41886,
+        "n": "Snow Cotton Bottoms of Healing",
+        "l": 645,
+        "c": 57616,
+        "t": 36,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41887",
+      "obj": {
+        "i": 41887,
+        "n": "Loboskin Sandals of Healing",
+        "l": 645,
+        "c": 49709,
+        "t": 38,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41888",
+      "obj": {
+        "i": 41888,
+        "n": "Snow Cotton Muffed Met of Casting",
+        "l": 645,
+        "c": 56699,
+        "t": 34,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41889",
+      "obj": {
+        "i": 41889,
+        "n": "Snow Cotton Coat of Casting",
+        "l": 645,
+        "c": 57092,
+        "t": 35,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41890",
+      "obj": {
+        "i": 41890,
+        "n": "Loboskin Fingerless Gloves of Casting",
+        "l": 645,
+        "c": 56217,
+        "t": 37,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41891",
+      "obj": {
+        "i": 41891,
+        "n": "Snow Cotton Skirt of Casting",
+        "l": 645,
+        "c": 57620,
+        "t": 36,
+        "p": 47388
+      }
+    },
+    {
+      "type": "item",
+      "id": "41892",
+      "obj": {
+        "i": 41892,
+        "n": "Loboskin Caligae of Casting",
+        "l": 645,
+        "c": 49713,
+        "t": 38,
+        "p": 28433
+      }
+    },
+    {
+      "type": "item",
+      "id": "41898",
+      "obj": {
+        "i": 41898,
+        "n": "Loboskin Necklace of Fending",
+        "l": 645,
+        "c": 55084,
+        "t": 40,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41899",
+      "obj": {
+        "i": 41899,
+        "n": "Loboskin Necklace of Slaying",
+        "l": 645,
+        "c": 55084,
+        "t": 40,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41900",
+      "obj": {
+        "i": 41900,
+        "n": "Loboskin Necklace of Aiming",
+        "l": 645,
+        "c": 55084,
+        "t": 40,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41901",
+      "obj": {
+        "i": 41901,
+        "n": "Loboskin Necklace of Healing",
+        "l": 645,
+        "c": 55084,
+        "t": 40,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41902",
+      "obj": {
+        "i": 41902,
+        "n": "Loboskin Necklace of Casting",
+        "l": 645,
+        "c": 55084,
+        "t": 40,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41903",
+      "obj": {
+        "i": 41903,
+        "n": "Loboskin Amulet of Fending",
+        "l": 645,
+        "c": 55883,
+        "t": 42,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41904",
+      "obj": {
+        "i": 41904,
+        "n": "Loboskin Amulet of Slaying",
+        "l": 645,
+        "c": 55883,
+        "t": 42,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41905",
+      "obj": {
+        "i": 41905,
+        "n": "Loboskin Amulet of Aiming",
+        "l": 645,
+        "c": 55883,
+        "t": 42,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41906",
+      "obj": {
+        "i": 41906,
+        "n": "Loboskin Amulet of Healing",
+        "l": 645,
+        "c": 55883,
+        "t": 42,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "41907",
+      "obj": {
+        "i": 41907,
+        "n": "Loboskin Amulet of Casting",
+        "l": 645,
+        "c": 55883,
+        "t": 42,
+        "p": 21540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42015",
+      "obj": {
+        "i": 42015,
+        "n": "Mountain Linen Hose of Fending",
+        "l": 655,
+        "c": 57652,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42020",
+      "obj": {
+        "i": 42020,
+        "n": "Mountain Linen Hose of Maiming",
+        "l": 655,
+        "c": 57653,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42023",
+      "obj": {
+        "i": 42023,
+        "n": "Mountain Linen Top of Striking",
+        "l": 655,
+        "c": 57130,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42025",
+      "obj": {
+        "i": 42025,
+        "n": "Crocodileskin Breeches of Striking",
+        "l": 655,
+        "c": 57657,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42028",
+      "obj": {
+        "i": 42028,
+        "n": "Mountain Linen Cloak of Aiming",
+        "l": 655,
+        "c": 57129,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42029",
+      "obj": {
+        "i": 42029,
+        "n": "Crocodileskin Armguards of Aiming",
+        "l": 655,
+        "c": 56251,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42030",
+      "obj": {
+        "i": 42030,
+        "n": "Mountain Linen Longkilt of Aiming",
+        "l": 655,
+        "c": 57656,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42031",
+      "obj": {
+        "i": 42031,
+        "n": "Crocodileskin Thighboots of Aiming",
+        "l": 655,
+        "c": 49749,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42033",
+      "obj": {
+        "i": 42033,
+        "n": "Mountain Linen Top of Scouting",
+        "l": 655,
+        "c": 57131,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42035",
+      "obj": {
+        "i": 42035,
+        "n": "Crocodileskin Breeches of Scouting",
+        "l": 655,
+        "c": 57658,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42038",
+      "obj": {
+        "i": 42038,
+        "n": "Mountain Linen Cloak of Healing",
+        "l": 655,
+        "c": 57128,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42039",
+      "obj": {
+        "i": 42039,
+        "n": "Crocodileskin Armguards of Healing",
+        "l": 655,
+        "c": 56250,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42040",
+      "obj": {
+        "i": 42040,
+        "n": "Mountain Linen Longkilt of Healing",
+        "l": 655,
+        "c": 57655,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42041",
+      "obj": {
+        "i": 42041,
+        "n": "Crocodileskin Thighboots of Healing",
+        "l": 655,
+        "c": 49748,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42043",
+      "obj": {
+        "i": 42043,
+        "n": "Mountain Linen Cloak of Casting",
+        "l": 655,
+        "c": 57127,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42044",
+      "obj": {
+        "i": 42044,
+        "n": "Crocodileskin Armguards of Casting",
+        "l": 655,
+        "c": 56249,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42045",
+      "obj": {
+        "i": 42045,
+        "n": "Mountain Linen Longkilt of Casting",
+        "l": 655,
+        "c": 57654,
+        "t": 36,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42046",
+      "obj": {
+        "i": 42046,
+        "n": "Crocodileskin Thighboots of Casting",
+        "l": 655,
+        "c": 49747,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "43208",
+      "obj": {
+        "i": 43208,
+        "n": "Mountain Chromite Pickaxe",
+        "l": 610,
+        "c": 38311,
+        "t": 28,
+        "p": 51380
+      }
+    },
+    {
+      "type": "item",
+      "id": "43209",
+      "obj": {
+        "i": 43209,
+        "n": "Mountain Chromite Hatchet",
+        "l": 610,
+        "c": 38409,
+        "t": 30,
+        "p": 51380
+      }
+    },
+    {
+      "type": "item",
+      "id": "43284",
+      "obj": {
+        "i": 43284,
+        "n": "Snow Cotton Beret",
+        "l": 610,
+        "c": 56688,
+        "t": 34,
+        "p": 28259
+      }
+    },
+    {
+      "type": "item",
+      "id": "43285",
+      "obj": {
+        "i": 43285,
+        "n": "Snow Cotton Jacket",
+        "l": 610,
+        "c": 57070,
+        "t": 35,
+        "p": 47098
+      }
+    },
+    {
+      "type": "item",
+      "id": "43286",
+      "obj": {
+        "i": 43286,
+        "n": "Loboskin Fingerless Gloves",
+        "l": 610,
+        "c": 56195,
+        "t": 37,
+        "p": 28259
+      }
+    },
+    {
+      "type": "item",
+      "id": "43287",
+      "obj": {
+        "i": 43287,
+        "n": "Snow Cotton Trousers",
+        "l": 610,
+        "c": 57598,
+        "t": 36,
+        "p": 47098
+      }
+    },
+    {
+      "type": "item",
+      "id": "43288",
+      "obj": {
+        "i": 43288,
+        "n": "Loboskin Shoes",
+        "l": 610,
+        "c": 49691,
+        "t": 38,
+        "p": 28259
+      }
+    },
+    {
+      "type": "item",
+      "id": "43289",
+      "obj": {
+        "i": 43289,
+        "n": "Snow Cotton Bandana",
+        "l": 610,
+        "c": 56687,
+        "t": 34,
+        "p": 28259
+      }
+    },
+    {
+      "type": "item",
+      "id": "43290",
+      "obj": {
+        "i": 43290,
+        "n": "Loboskin Coat",
+        "l": 610,
+        "c": 57069,
+        "t": 35,
+        "p": 47098
+      }
+    },
+    {
+      "type": "item",
+      "id": "43291",
+      "obj": {
+        "i": 43291,
+        "n": "Loboskin Gloves",
+        "l": 610,
+        "c": 56194,
+        "t": 37,
+        "p": 28259
+      }
+    },
+    {
+      "type": "item",
+      "id": "43292",
+      "obj": {
+        "i": 43292,
+        "n": "Snow Cotton Breeches",
+        "l": 610,
+        "c": 57597,
+        "t": 36,
+        "p": 47098
+      }
+    },
+    {
+      "type": "item",
+      "id": "43293",
+      "obj": {
+        "i": 43293,
+        "n": "Loboskin Boots",
+        "l": 610,
+        "c": 49690,
+        "t": 38,
+        "p": 28259
+      }
+    },
+    {
+      "type": "item",
+      "id": "43324",
+      "obj": {
+        "i": 43324,
+        "n": "Lar Ear Cuffs",
+        "l": 610,
+        "c": 55524,
+        "t": 41,
+        "p": 21408
+      }
+    },
+    {
+      "type": "item",
+      "id": "43325",
+      "obj": {
+        "i": 43325,
+        "n": "Lar Choker",
+        "l": 610,
+        "c": 55076,
+        "t": 40,
+        "p": 21408
+      }
+    },
+    {
+      "type": "item",
+      "id": "43326",
+      "obj": {
+        "i": 43326,
+        "n": "Lar Bracelets",
+        "l": 610,
+        "c": 55875,
+        "t": 42,
+        "p": 21408
+      }
+    },
+    {
+      "type": "item",
+      "id": "43327",
+      "obj": {
+        "i": 43327,
+        "n": "Lar Ring",
+        "l": 610,
+        "c": 54726,
+        "t": 43,
+        "p": 21408
+      }
+    },
+    {
+      "type": "item",
+      "id": "44209",
+      "obj": {
+        "i": 44209,
+        "n": "Rarefied Loboskin Fingerless Gloves",
+        "l": 650,
+        "c": 56195,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44215",
+      "obj": {
+        "i": 44215,
+        "n": "Rarefied Snow Cotton Beret",
+        "l": 650,
+        "c": 56688,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44221",
+      "obj": {
+        "i": 44221,
+        "n": "Rarefied Loboskin Grimoire",
+        "l": 650,
+        "c": 37803,
+        "t": 61
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1728",
+      "obj": {
+        "i": 1728,
+        "n": "Tenets of Tanning",
+        "l": 90,
+        "j": 13,
+        "p": 4504
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1729",
+      "obj": {
+        "i": 1729,
+        "n": "The Perfect Accessory",
+        "l": 90,
+        "j": 13,
+        "p": 4504
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "44058",
+      "obj": {
+        "i": 44058,
+        "n": "Silver Lobo Leather",
+        "l": 650,
+        "c": 22021,
+        "t": 52
+      }
+    }
+  ]
+}

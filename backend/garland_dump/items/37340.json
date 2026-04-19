@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Thal Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 337",
+    "id": 37340,
+    "patch": 6.1,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tradeShops": [
+      {
+        "shop": "Triple Triad Cards",
+        "npcs": [
+          1010478,
+          1016294,
+          1016296
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "37340",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 24800
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "Thal is but one aspect of the Traders who govern the underworld and commercial affairs. According to the teachings of the Order of Nald'thal, Nald presides over the world of the living, and Thal, the halls of the dead─and indeed, the twins' seamless transformations in Aglaia are strikingly reminiscent of the cycle of death and rebirth presented in the Order's liturgies."
+      },
+      "ja": {
+        "description": "地底と商売を司る男神。ナル・ザル教団の教えでは、ナル神は生者の世界を、ザル神は死者の世界を見守るという。神域において二柱の神が入れ替わりながら躍動するその姿は、同教団の「輪廻転生」の観念を想起させる。"
+      },
+      "de": {
+        "description": "Thal ist eines der zwei Gesichter der Gottheit des Handels und der Unterwelt und Schutzgott Ul'dahs. Sein Element ist das Feuer. In der Erzählung des Nald'thal-Ordens herrscht Nald über die Welt der Lebenden und Thal ist der Wächter über das Totenreich. Diese göttliche Dualität, der Wechsel zwischen Leben und Tod in Form der Reinkarnation, spielt in der Gedankenwelt des Nald'thal-Ordens eine wichtige Rolle."
+      },
+      "fr": {
+        "description": "Dieu du commerce et gardien des enfers, il est le protecteur de la cité d'Ul'dah et il commande l'élément feu. Selon le culte de Nald'thal, Nald protège le monde des vivants et son jumeau Thal celui des morts. Ces deux déités incarnent ainsi le cycle de la réincarnation."
+      },
+      "sellMgp": 500,
+      "plate": 87353,
+      "rarity": 3,
+      "top": 6,
+      "bottom": 8,
+      "left": 1,
+      "right": 7
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010478",
+      "obj": {
+        "i": 1010478,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 1487,
+        "c": [
+          4.14,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016294",
+      "obj": {
+        "i": 1016294,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.02,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016296",
+      "obj": {
+        "i": 1016296,
+        "n": "Triple Triad Trader",
+        "l": 1665,
+        "s": 1,
+        "r": 1,
+        "c": [
+          3.56,
+          3.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

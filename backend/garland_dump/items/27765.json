@@ -1,0 +1,448 @@
+{
+  "item": {
+    "name": "Growth Formula Iota",
+    "description": "This alchemically formulated potation accelerates the growth of foliage.",
+    "id": 27765,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2799,
+    "ilvl": 390,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22663,
+    "craft": [
+      {
+        "id": 3855,
+        "job": 14,
+        "rlvl": 390,
+        "durability": 40,
+        "quality": 3010,
+        "progress": 597,
+        "lvl": 71,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27763,
+            "amount": 2
+          },
+          {
+            "id": 27764,
+            "amount": 2
+          },
+          {
+            "id": 12891,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 123,
+          "hq": 143
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25636": 1,
+      "25637": 1,
+      "25796": 1,
+      "25797": 1,
+      "25956": 1,
+      "37402": 7,
+      "30982": 1,
+      "28172": 9,
+      "28173": 9,
+      "28174": 9
+    },
+    "supply": {
+      "count": 1,
+      "xp": 754500,
+      "seals": 811
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Hoptrap Leaf",
+      "id": 27763,
+      "icon": 25202,
+      "category": 54,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27763",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1487,
+        1489
+      ],
+      "ventures": [
+        773
+      ]
+    },
+    {
+      "name": "Silkmoth Scales",
+      "id": 27764,
+      "icon": 22210,
+      "category": 54,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27764",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1478
+      ],
+      "ventures": [
+        774
+      ]
+    },
+    {
+      "name": "Birch Sap",
+      "id": 12891,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 148,
+      "price": 468,
+      "tradeShops": [
+        {
+          "shop": "Vanu Whitebone Exchange",
+          "npcs": [
+            1016093
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12891",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21074",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        478
+      ],
+      "nodes": [
+        356
+      ],
+      "vendors": [
+        1016093
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "356",
+      "obj": {
+        "i": 356,
+        "n": "Voor Sian Siran",
+        "l": 60,
+        "t": 2,
+        "z": 2100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27763",
+      "obj": {
+        "i": 27763,
+        "n": "Hoptrap Leaf",
+        "l": 390,
+        "c": 25202,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27764",
+      "obj": {
+        "i": 27764,
+        "n": "Silkmoth Scales",
+        "l": 390,
+        "c": 22210,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12891",
+      "obj": {
+        "i": 12891,
+        "n": "Birch Sap",
+        "l": 148,
+        "c": 22642,
+        "t": 45,
+        "p": 468
+      }
+    },
+    {
+      "type": "item",
+      "id": "25636",
+      "obj": {
+        "i": 25636,
+        "n": "White Oak Cane",
+        "l": 385,
+        "c": 32761,
+        "t": 9,
+        "p": 39744
+      }
+    },
+    {
+      "type": "item",
+      "id": "25637",
+      "obj": {
+        "i": 25637,
+        "n": "White Oak Rod",
+        "l": 385,
+        "c": 33131,
+        "t": 7,
+        "p": 39744
+      }
+    },
+    {
+      "type": "item",
+      "id": "25796",
+      "obj": {
+        "i": 25796,
+        "n": "Applewood Cane",
+        "l": 395,
+        "c": 32754,
+        "t": 9,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25797",
+      "obj": {
+        "i": 25797,
+        "n": "Applewood Staff",
+        "l": 395,
+        "c": 33124,
+        "t": 7,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25956",
+      "obj": {
+        "i": 25956,
+        "n": "Bluespirit Cane",
+        "l": 403,
+        "c": 32762,
+        "t": 9,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "37402",
+      "obj": {
+        "i": 37402,
+        "n": "Planter Set",
+        "l": 560,
+        "c": 52337,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "30982",
+      "obj": {
+        "i": 30982,
+        "n": "Rarefied Applewood Staff",
+        "l": 403,
+        "c": 33124,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "28172",
+      "obj": {
+        "i": 28172,
+        "n": "Trader's Cottage Walls",
+        "l": 1,
+        "c": 50831,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "28173",
+      "obj": {
+        "i": 28173,
+        "n": "Trader's House Walls",
+        "l": 1,
+        "c": 50832,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "28174",
+      "obj": {
+        "i": 28174,
+        "n": "Trader's Mansion Walls",
+        "l": 1,
+        "c": 50833,
+        "t": 66
+      }
+    }
+  ]
+}

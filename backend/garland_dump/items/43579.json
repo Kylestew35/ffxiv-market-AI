@@ -1,0 +1,62 @@
+{
+  "item": {
+    "name": "Tankardtender",
+    "description": "Rather more manageable than a barrel.<br><br>Use item to acquire the tankardtender minion.",
+    "minionrace": "Monster",
+    "tooltip": "If it ain't worth a tankard o' mead,\r\nI don't give two shites!\r\n   - Gerolt",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Hot Needles",
+    "specialactiondescription": "Increases DEF of all allies within range by 10 (30 if the ally is a <span class=\"highlight\">monster</span>).<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 43579,
+    "patch": 7.0,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59917,
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 520,
+      "Skill Cost": 20,
+      "Attack": 20,
+      "Defense": 50,
+      "Speed": 2
+    },
+    "models": [
+      "8472-1-1"
+    ],
+    "instances": [
+      98
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "98",
+      "obj": {
+        "i": 98,
+        "n": "Tender Valley",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 100,
+        "max_lvl": 100,
+        "min_ilvl": 670,
+        "max_ilvl": 730
+      }
+    }
+  ]
+}

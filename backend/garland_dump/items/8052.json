@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Bladder Component Materials",
+    "description": "Materials required to craft components for an airship's bladder envelope.<br><br>※Only for use in Ixal society quests.",
+    "id": 8052,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8091": 1
+    },
+    "usedInQuest": [
+      67030
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8091",
+      "obj": {
+        "i": 8091,
+        "n": "Bladder Component",
+        "l": 1,
+        "c": 21005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67030",
+      "obj": {
+        "i": 67030,
+        "n": "Trust, but Verify",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 11,
+        "r": 1
+      }
+    }
+  ]
+}

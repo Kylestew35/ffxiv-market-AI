@@ -1,0 +1,129 @@
+{
+  "item": {
+    "name": "Amberjack",
+    "description": "This large saltwater predator can be found in the waters off both the eastern and western coasts of Hingashi.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "Despite being the largest fish in its family, this exceptional hunter is remarkably fast, and sure to go quickly when served for supper as well.",
+      "icon": 79140,
+      "spots": [
+        {
+          "node": 472,
+          "gig": [
+            "Large Gig Head"
+          ],
+          "ff14anglerId": 693
+        }
+      ]
+    },
+    "id": 20199,
+    "patch": 4.0,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 245,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29140,
+    "nodes": [
+      472
+    ],
+    "tradeShops": [
+      {
+        "shop": "Kojin Sango Exchange",
+        "npcs": [
+          1024219
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20199",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21081",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "19823": 1
+    },
+    "desynthedTo": [
+      5824
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "472",
+      "obj": {
+        "i": 472,
+        "n": "The Kobayashi Maru",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024219",
+      "obj": {
+        "i": 1024219,
+        "n": "Shikitahe",
+        "l": 2409,
+        "s": 1,
+        "t": "Sango Exchange",
+        "r": 1,
+        "a": 2769,
+        "c": [
+          29.36,
+          16.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21081",
+      "obj": {
+        "i": 21081,
+        "n": "Kojin Sango",
+        "l": 1,
+        "c": 65058,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "19823",
+      "obj": {
+        "i": 19823,
+        "n": "Boiled Amberjack Head",
+        "l": 285,
+        "c": 24321,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

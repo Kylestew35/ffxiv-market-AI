@@ -1,0 +1,413 @@
+{
+  "item": {
+    "name": "Blessed Fletchings",
+    "description": "Arrow fletchings crafted from the large, rigid feathers of an eagle and then blessed by an anointed Halonic priest.",
+    "id": 13594,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 6336,
+    "ilvl": 160,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 13,
+    "icon": 27268,
+    "ingredient_of": {
+      "13593": 1
+    },
+    "craft": [
+      {
+        "id": 31299,
+        "job": 13,
+        "rlvl": 160,
+        "durability": 70,
+        "quality": 2800,
+        "progress": 660,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "controlReq": 589,
+        "unlockId": 12249,
+        "ingredients": [
+          {
+            "id": 13752,
+            "amount": 2
+          },
+          {
+            "id": 5358,
+            "amount": 1
+          },
+          {
+            "id": 12937,
+            "amount": 1
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 580,
+          "hq": 600
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Royal Mistletoe",
+      "id": 13752,
+      "icon": 25001,
+      "category": 54,
+      "ilvl": 150,
+      "price": 712,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13752",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13752",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eagle Feather",
+      "id": 5358,
+      "icon": 21909,
+      "category": 51,
+      "ilvl": 27,
+      "price": 139,
+      "treasure": [
+        6691
+      ],
+      "tradeShops": [
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5358",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5358",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5358",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dawnborne Aethersand",
+      "id": 12937,
+      "icon": 22648,
+      "category": 54,
+      "ilvl": 150,
+      "price": 950,
+      "reducedFrom": [
+        12966,
+        12967,
+        12969,
+        33149
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12966",
+      "obj": {
+        "i": 12966,
+        "n": "Bright Fire Rock",
+        "l": 145,
+        "c": 21471,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12967",
+      "obj": {
+        "i": 12967,
+        "n": "Bright Lightning Rock",
+        "l": 145,
+        "c": 21475,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12969",
+      "obj": {
+        "i": 12969,
+        "n": "Peat Moss",
+        "l": 145,
+        "c": 27401,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33149",
+      "obj": {
+        "i": 33149,
+        "n": "Water Mint",
+        "l": 145,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "13593",
+      "obj": {
+        "i": 13593,
+        "n": "Dispelling Arrow",
+        "l": 160,
+        "c": 27209,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "12249",
+      "obj": {
+        "i": 12249,
+        "n": "Master Weaver III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13752",
+      "obj": {
+        "i": 13752,
+        "n": "Royal Mistletoe",
+        "l": 150,
+        "c": 25001,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5358",
+      "obj": {
+        "i": 5358,
+        "n": "Eagle Feather",
+        "l": 27,
+        "c": 21909,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "12937",
+      "obj": {
+        "i": 12937,
+        "n": "Dawnborne Aethersand",
+        "l": 150,
+        "c": 22648,
+        "t": 54
+      }
+    }
+  ]
+}

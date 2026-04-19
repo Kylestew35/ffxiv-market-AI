@@ -1,0 +1,223 @@
+{
+  "item": {
+    "name": "Skybuilders' Charcoal",
+    "description": "The recipients of the other items in your inventory would probably prefer that you refrained from carrying loose pieces of charcoal about your person.",
+    "id": 28747,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 26589,
+    "craft": [
+      {
+        "id": 33595,
+        "job": 14,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 28776,
+            "amount": 6
+          },
+          {
+            "id": 28775,
+            "amount": 6
+          },
+          {
+            "id": 5517,
+            "amount": 1,
+            "quality": 44.38356
+          },
+          {
+            "id": 13,
+            "amount": 4
+          },
+          {
+            "id": 12,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 344,
+          "hq": 364
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Skybuilders' Straw",
+      "id": 28776,
+      "icon": 21653,
+      "category": 51,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        663
+      ]
+    },
+    {
+      "name": "Skybuilders' Camphorwood Log",
+      "id": 28775,
+      "icon": 22405,
+      "category": 50,
+      "ilvl": 150,
+      "price": 150,
+      "nodes": [
+        662
+      ]
+    },
+    {
+      "name": "Lanolin",
+      "id": 5517,
+      "icon": 22609,
+      "category": 54,
+      "ilvl": 25,
+      "price": 73,
+      "craft": [
+        {
+          "id": 1169,
+          "job": 14,
+          "rlvl": 40,
+          "durability": 40,
+          "quality": 1120,
+          "progress": 69,
+          "lvl": 40,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5308,
+              "amount": 1
+            },
+            {
+              "id": 7,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 58,
+            "hq": 78
+          }
+        }
+      ]
+    },
+    {
+      "name": "Karakul Skin",
+      "id": 5308,
+      "icon": 21820,
+      "category": 52,
+      "ilvl": 40,
+      "price": 297,
+      "ventures": [
+        55
+      ],
+      "drops": [
+        7190000000795,
+        17800000001427
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "663",
+      "obj": {
+        "i": 663,
+        "n": "Avalonia Fallen",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "662",
+      "obj": {
+        "i": 662,
+        "n": "Gron Rhei",
+        "l": 60,
+        "t": 2,
+        "z": 2002
+      }
+    },
+    {
+      "type": "item",
+      "id": "5308",
+      "obj": {
+        "i": 5308,
+        "n": "Karakul Skin",
+        "l": 40,
+        "c": 21820,
+        "t": 52
+      }
+    },
+    {
+      "type": "mob",
+      "id": "7190000000795",
+      "obj": {
+        "i": 7190000000795,
+        "n": "Ornery Karakul",
+        "l": "35 - 39",
+        "z": 63
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17800000001427",
+      "obj": {
+        "i": 17800000001427,
+        "n": "Downy Dunstan",
+        "l": "36",
+        "z": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "28776",
+      "obj": {
+        "i": 28776,
+        "n": "Skybuilders' Straw",
+        "l": 150,
+        "c": 21653,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "28775",
+      "obj": {
+        "i": 28775,
+        "n": "Skybuilders' Camphorwood Log",
+        "l": 150,
+        "c": 22405,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "5517",
+      "obj": {
+        "i": 5517,
+        "n": "Lanolin",
+        "l": 25,
+        "c": 22609,
+        "t": 54
+      }
+    }
+  ]
+}

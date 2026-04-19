@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Cloudfish Tackle Materials",
+    "description": "Materials required to craft a lure for unsuspecting cloudfish.<br><br>※Only for use in moogle society quests.",
+    "id": 15768,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "15742": 1
+    },
+    "usedInQuest": [
+      67850
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15742",
+      "obj": {
+        "i": 15742,
+        "n": "Cloudfish Lure",
+        "l": 55,
+        "c": 21003,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67850",
+      "obj": {
+        "i": 67850,
+        "n": "A Fish for His Favors",
+        "g": 55,
+        "l": "The Churning Mists",
+        "s": 33,
+        "r": 1
+      }
+    }
+  ]
+}

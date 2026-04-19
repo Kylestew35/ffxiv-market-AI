@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Sample Silver Ring",
+    "description": "A silver ring set with a single brilliant lapis lazuli recovered from the crown of Nanamo Ul Namo's mother.",
+    "id": 17902,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 270,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 54408,
+    "craft": [
+      {
+        "id": 32284,
+        "job": 11,
+        "rlvl": 270,
+        "durability": 80,
+        "quality": 1633,
+        "progress": 511,
+        "lvl": 63,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17901,
+            "amount": 1
+          },
+          {
+            "id": 10,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 33,
+          "hq": 53
+        }
+      }
+    ],
+    "usedInQuest": [
+      68136
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Ring Materials",
+      "id": 17901,
+      "icon": 21276,
+      "category": 63,
+      "ilvl": 270,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17901",
+      "obj": {
+        "i": 17901,
+        "n": "Ring Materials",
+        "l": 270,
+        "c": 21276,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68136",
+      "obj": {
+        "i": 68136,
+        "n": "Gemworks in Progress",
+        "g": 167,
+        "l": "Ul'dah",
+        "s": 630,
+        "f": 1
+      }
+    }
+  ]
+}

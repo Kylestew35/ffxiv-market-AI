@@ -1,0 +1,353 @@
+{
+  "leve": {
+    "name": "Practical Command",
+    "description": "The entrance examinations are upon me. The fine arts department tests a prospective student's practical skill as well as theoretical knowledge, and the quality of my artwork will sway the final evaluation. I must take command of my fate! I beg of you, a tonic to soothe my nerves!",
+    "id": 1635,
+    "patch": 6.0,
+    "client": "Aspiring Studium Pupil, Benger",
+    "lvl": 86,
+    "jobCategory": 15,
+    "levemete": 1037264,
+    "areaid": 3706,
+    "xp": 1248870,
+    "gil": 5000,
+    "rewards": 798,
+    "plate": 80033,
+    "frame": 80005,
+    "areaicon": 110135,
+    "requires": [
+      {
+        "item": 36115,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 450,
+      "hq": 465
+    }
+  },
+  "rewards": {
+    "id": 798,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 89
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 89
+      },
+      {
+        "item": 36263,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 110
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 110
+      },
+      {
+        "item": 36260,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Commanding Craftsman's Draught",
+      "id": 36115,
+      "icon": 20713,
+      "category": 44,
+      "ilvl": 540,
+      "price": 12144,
+      "craft": [
+        {
+          "id": 5294,
+          "job": 14,
+          "rlvl": 545,
+          "durability": 80,
+          "quality": 6900,
+          "progress": 3200,
+          "lvl": 87,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36263,
+              "amount": 2
+            },
+            {
+              "id": 36260,
+              "amount": 2
+            },
+            {
+              "id": 27783,
+              "amount": 2
+            },
+            {
+              "id": 19853,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            },
+            {
+              "id": 12,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 178,
+            "hq": 198
+          }
+        }
+      ],
+      "treasure": [
+        36612,
+        39591
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Petalouda Scales",
+      "id": 36260,
+      "icon": 22210,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36260",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        946
+      ]
+    },
+    {
+      "name": "Lime Basil",
+      "id": 27783,
+      "icon": 25010,
+      "category": 54,
+      "ilvl": 415,
+      "price": 210,
+      "ventures": [
+        836
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Kudzu Root",
+      "id": 19853,
+      "icon": 25005,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        691
+      ],
+      "nodes": [
+        509
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "509",
+      "obj": {
+        "i": 509,
+        "n": "Dimwold",
+        "l": 65,
+        "t": 3,
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36260",
+      "obj": {
+        "i": 36260,
+        "n": "Petalouda Scales",
+        "l": 539,
+        "c": 22210,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27783",
+      "obj": {
+        "i": 27783,
+        "n": "Lime Basil",
+        "l": 415,
+        "c": 25010,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1635",
+      "obj": {
+        "i": 1635,
+        "n": "Practical Command",
+        "l": 86,
+        "j": 15,
+        "p": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36612",
+      "obj": {
+        "i": 36612,
+        "n": "Timeworn Kumbhiraskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "39591",
+      "obj": {
+        "i": 39591,
+        "n": "Timeworn Ophiotauroskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037264",
+      "obj": {
+        "i": 1037264,
+        "n": "Ahldiyrn",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36115",
+      "obj": {
+        "i": 36115,
+        "n": "Commanding Craftsman's Draught",
+        "l": 540,
+        "c": 20713,
+        "t": 44
+      }
+    }
+  ]
+}

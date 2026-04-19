@@ -1,0 +1,1356 @@
+{
+  "leve": {
+    "name": "Ruthenium Supremium",
+    "description": "My brother and I run a joint business dealing in weapons of all shapes and sizes. His tent in Bayside Bevy caters to general clientele, while my tent in Wachumeqimeqi handles custom orders. Business is good, but I'm running low on ruthenium. Think you could hammer down some ore for me?",
+    "id": 1700,
+    "patch": 7.0,
+    "client": "Hammerin' Bros. Co-owner, Bol Ty'ukuk",
+    "lvl": 92,
+    "jobCategory": 10,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 1665250,
+    "gil": 2535,
+    "rewards": 829,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 43998,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 240,
+      "hq": 255
+    }
+  },
+  "rewards": {
+    "id": 829,
+    "entries": [
+      {
+        "item": 8,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 11,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 43993,
+        "rate": 0.23
+      },
+      {
+        "item": 8,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 11,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 43993,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Ruthenium Ingot",
+      "id": 43998,
+      "icon": 20830,
+      "category": 49,
+      "ilvl": 653,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5629,
+          "job": 9,
+          "rlvl": 653,
+          "durability": 40,
+          "quality": 8600,
+          "progress": 2125,
+          "lvl": 92,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 43993,
+              "amount": 5
+            },
+            {
+              "id": 36163,
+              "amount": 1
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        },
+        {
+          "id": 5634,
+          "job": 10,
+          "rlvl": 653,
+          "durability": 40,
+          "quality": 8600,
+          "progress": 2125,
+          "lvl": 92,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 43993,
+              "amount": 5
+            },
+            {
+              "id": 36163,
+              "amount": 1
+            },
+            {
+              "id": 9,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ],
+      "desynthedFrom": [
+        44109,
+        42265,
+        42088
+      ],
+      "leves": [
+        1701,
+        1710,
+        1711
+      ]
+    },
+    {
+      "name": "Ruthenium Ore",
+      "id": 43993,
+      "icon": 21213,
+      "category": 48,
+      "ilvl": 653,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 117,
+          "type": 1
+        },
+        {
+          "id": 126,
+          "type": 1
+        },
+        {
+          "id": 109,
+          "type": 1
+        }
+      ],
+      "treasure": [
+        43556
+      ],
+      "leves": [
+        1700
+      ],
+      "ventures": [
+        989
+      ],
+      "nodes": [
+        978
+      ]
+    },
+    {
+      "name": "High Durium Ore",
+      "id": 36163,
+      "icon": 21221,
+      "category": 48,
+      "ilvl": 525,
+      "price": 99999,
+      "desynthedFrom": [
+        39430
+      ],
+      "treasure": [
+        36612
+      ],
+      "instances": [
+        55009
+      ],
+      "ventures": [
+        898
+      ],
+      "nodes": [
+        818
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "978",
+      "obj": {
+        "i": 978,
+        "n": "Pyariyoanaan Plain",
+        "l": 95,
+        "t": 0,
+        "z": 4508
+      }
+    },
+    {
+      "type": "item",
+      "id": "43556",
+      "obj": {
+        "i": 43556,
+        "n": "Timeworn Loboskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "818",
+      "obj": {
+        "i": 818,
+        "n": "Akyaali",
+        "l": 85,
+        "t": 0,
+        "z": 3709
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55009",
+      "obj": {
+        "i": 55009,
+        "n": "The Excitatron 6000",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 90,
+        "max_ilvl": 635
+      }
+    },
+    {
+      "type": "item",
+      "id": "36612",
+      "obj": {
+        "i": 36612,
+        "n": "Timeworn Kumbhiraskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "43993",
+      "obj": {
+        "i": 43993,
+        "n": "Ruthenium Ore",
+        "l": 653,
+        "c": 21213,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36163",
+      "obj": {
+        "i": 36163,
+        "n": "High Durium Ore",
+        "l": 525,
+        "c": 21221,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "41990",
+      "obj": {
+        "i": 41990,
+        "n": "Ruthenium Scimitar",
+        "l": 655,
+        "c": 30679,
+        "t": 2,
+        "p": 34524
+      }
+    },
+    {
+      "type": "item",
+      "id": "41991",
+      "obj": {
+        "i": 41991,
+        "n": "Ruthenium Tonfas",
+        "l": 655,
+        "c": 30844,
+        "t": 1,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41992",
+      "obj": {
+        "i": 41992,
+        "n": "Ruthenium War Axe",
+        "l": 655,
+        "c": 31253,
+        "t": 3,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41999",
+      "obj": {
+        "i": 41999,
+        "n": "Ruthenium Knives",
+        "l": 655,
+        "c": 33630,
+        "t": 84,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42000",
+      "obj": {
+        "i": 42000,
+        "n": "Ruthenium Greatsword",
+        "l": 655,
+        "c": 34009,
+        "t": 87,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42001",
+      "obj": {
+        "i": 42001,
+        "n": "Ruthenium-barreled Musketoon",
+        "l": 655,
+        "c": 34502,
+        "t": 88,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42002",
+      "obj": {
+        "i": 42002,
+        "n": "Ruthenium Torquetum",
+        "l": 655,
+        "c": 34701,
+        "t": 89,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42003",
+      "obj": {
+        "i": 42003,
+        "n": "Ruthenium Blade",
+        "l": 655,
+        "c": 36556,
+        "t": 96,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42004",
+      "obj": {
+        "i": 42004,
+        "n": "Ruthenium Tuck",
+        "l": 655,
+        "c": 36856,
+        "t": 97,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42005",
+      "obj": {
+        "i": 42005,
+        "n": "Ruthenium Gunblade",
+        "l": 655,
+        "c": 36099,
+        "t": 106,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42006",
+      "obj": {
+        "i": 42006,
+        "n": "Ruthenium Folding Fans",
+        "l": 655,
+        "c": 36297,
+        "t": 107,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42007",
+      "obj": {
+        "i": 42007,
+        "n": "Ruthenium War Scythe",
+        "l": 655,
+        "c": 37267,
+        "t": 108,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42009",
+      "obj": {
+        "i": 42009,
+        "n": "Ruthenium Twinfangs",
+        "l": 655,
+        "c": 37417,
+        "t": 110,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42011",
+      "obj": {
+        "i": 42011,
+        "n": "Ruthenium Kite Shield",
+        "l": 655,
+        "c": 30268,
+        "t": 11,
+        "p": 17262
+      }
+    },
+    {
+      "type": "item",
+      "id": "42012",
+      "obj": {
+        "i": 42012,
+        "n": "Ihuykanite Circlet of Fending",
+        "l": 655,
+        "c": 56734,
+        "t": 34,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42013",
+      "obj": {
+        "i": 42013,
+        "n": "Ruthenium Lorica of Fending",
+        "l": 655,
+        "c": 57125,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42014",
+      "obj": {
+        "i": 42014,
+        "n": "Ruthenium Vambraces of Fending",
+        "l": 655,
+        "c": 56247,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42016",
+      "obj": {
+        "i": 42016,
+        "n": "Ruthenium Sabatons of Fending",
+        "l": 655,
+        "c": 49745,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42017",
+      "obj": {
+        "i": 42017,
+        "n": "Ihuykanite Circlet of Maiming",
+        "l": 655,
+        "c": 56735,
+        "t": 34,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42018",
+      "obj": {
+        "i": 42018,
+        "n": "Ruthenium Lorica of Maiming",
+        "l": 655,
+        "c": 57126,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42019",
+      "obj": {
+        "i": 42019,
+        "n": "Ruthenium Vambraces of Maiming",
+        "l": 655,
+        "c": 56248,
+        "t": 37,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42021",
+      "obj": {
+        "i": 42021,
+        "n": "Ruthenium Sabatons of Maiming",
+        "l": 655,
+        "c": 49746,
+        "t": 38,
+        "p": 28483
+      }
+    },
+    {
+      "type": "item",
+      "id": "42023",
+      "obj": {
+        "i": 42023,
+        "n": "Mountain Linen Top of Striking",
+        "l": 655,
+        "c": 57130,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42033",
+      "obj": {
+        "i": 42033,
+        "n": "Mountain Linen Top of Scouting",
+        "l": 655,
+        "c": 57131,
+        "t": 35,
+        "p": 47471
+      }
+    },
+    {
+      "type": "item",
+      "id": "42047",
+      "obj": {
+        "i": 42047,
+        "n": "Ihuykanite Earring of Fending",
+        "l": 655,
+        "c": 55530,
+        "t": 41,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42048",
+      "obj": {
+        "i": 42048,
+        "n": "Ihuykanite Earring of Slaying",
+        "l": 655,
+        "c": 55530,
+        "t": 41,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42049",
+      "obj": {
+        "i": 42049,
+        "n": "Ihuykanite Earring of Aiming",
+        "l": 655,
+        "c": 55530,
+        "t": 41,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42050",
+      "obj": {
+        "i": 42050,
+        "n": "Ihuykanite Earring of Healing",
+        "l": 655,
+        "c": 55530,
+        "t": 41,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42051",
+      "obj": {
+        "i": 42051,
+        "n": "Ihuykanite Earring of Casting",
+        "l": 655,
+        "c": 55530,
+        "t": 41,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42052",
+      "obj": {
+        "i": 42052,
+        "n": "Ihuykanite Choker of Fending",
+        "l": 655,
+        "c": 55082,
+        "t": 40,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42053",
+      "obj": {
+        "i": 42053,
+        "n": "Ihuykanite Choker of Slaying",
+        "l": 655,
+        "c": 55082,
+        "t": 40,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42054",
+      "obj": {
+        "i": 42054,
+        "n": "Ihuykanite Choker of Aiming",
+        "l": 655,
+        "c": 55082,
+        "t": 40,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42055",
+      "obj": {
+        "i": 42055,
+        "n": "Ihuykanite Choker of Healing",
+        "l": 655,
+        "c": 55082,
+        "t": 40,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42056",
+      "obj": {
+        "i": 42056,
+        "n": "Ihuykanite Choker of Casting",
+        "l": 655,
+        "c": 55082,
+        "t": 40,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42057",
+      "obj": {
+        "i": 42057,
+        "n": "Ihuykanite Bracelet of Fending",
+        "l": 655,
+        "c": 55881,
+        "t": 42,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42058",
+      "obj": {
+        "i": 42058,
+        "n": "Ihuykanite Bracelet of Slaying",
+        "l": 655,
+        "c": 55881,
+        "t": 42,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42059",
+      "obj": {
+        "i": 42059,
+        "n": "Ihuykanite Bracelet of Aiming",
+        "l": 655,
+        "c": 55881,
+        "t": 42,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42060",
+      "obj": {
+        "i": 42060,
+        "n": "Ihuykanite Bracelet of Healing",
+        "l": 655,
+        "c": 55881,
+        "t": 42,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42061",
+      "obj": {
+        "i": 42061,
+        "n": "Ihuykanite Bracelet of Casting",
+        "l": 655,
+        "c": 55881,
+        "t": 42,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42062",
+      "obj": {
+        "i": 42062,
+        "n": "Ihuykanite Ring of Fending",
+        "l": 655,
+        "c": 54732,
+        "t": 43,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42063",
+      "obj": {
+        "i": 42063,
+        "n": "Ihuykanite Ring of Slaying",
+        "l": 655,
+        "c": 54732,
+        "t": 43,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42064",
+      "obj": {
+        "i": 42064,
+        "n": "Ihuykanite Ring of Aiming",
+        "l": 655,
+        "c": 54732,
+        "t": 43,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42065",
+      "obj": {
+        "i": 42065,
+        "n": "Ihuykanite Ring of Healing",
+        "l": 655,
+        "c": 54732,
+        "t": 43,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42066",
+      "obj": {
+        "i": 42066,
+        "n": "Ihuykanite Ring of Casting",
+        "l": 655,
+        "c": 54732,
+        "t": 43,
+        "p": 21578
+      }
+    },
+    {
+      "type": "item",
+      "id": "42145",
+      "obj": {
+        "i": 42145,
+        "n": "Cobalt Tungsten Knuckles",
+        "l": 663,
+        "c": 30846,
+        "t": 1,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42147",
+      "obj": {
+        "i": 42147,
+        "n": "Dark Mahogany Spear",
+        "l": 663,
+        "c": 31657,
+        "t": 5,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42148",
+      "obj": {
+        "i": 42148,
+        "n": "Dark Mahogany Longbow",
+        "l": 663,
+        "c": 32045,
+        "t": 4,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42153",
+      "obj": {
+        "i": 42153,
+        "n": "Cobalt Tungsten Khukuri",
+        "l": 663,
+        "c": 33632,
+        "t": 84,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42154",
+      "obj": {
+        "i": 42154,
+        "n": "Cobalt Tungsten Guillotine",
+        "l": 663,
+        "c": 34011,
+        "t": 87,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42155",
+      "obj": {
+        "i": 42155,
+        "n": "Cobalt Tungsten Handgonne",
+        "l": 663,
+        "c": 34504,
+        "t": 88,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42156",
+      "obj": {
+        "i": 42156,
+        "n": "Cobalt Tungsten Planisphere",
+        "l": 663,
+        "c": 34704,
+        "t": 89,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42157",
+      "obj": {
+        "i": 42157,
+        "n": "Cobalt Tungsten Blade",
+        "l": 663,
+        "c": 36558,
+        "t": 96,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42158",
+      "obj": {
+        "i": 42158,
+        "n": "Cobalt Tungsten Tuck",
+        "l": 663,
+        "c": 36859,
+        "t": 97,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42159",
+      "obj": {
+        "i": 42159,
+        "n": "Cobalt Tungsten Sawback",
+        "l": 663,
+        "c": 36102,
+        "t": 106,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42160",
+      "obj": {
+        "i": 42160,
+        "n": "Cobalt Tungsten Glaives",
+        "l": 663,
+        "c": 36299,
+        "t": 107,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42161",
+      "obj": {
+        "i": 42161,
+        "n": "Cobalt Tungsten War Scythe",
+        "l": 663,
+        "c": 37269,
+        "t": 108,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42162",
+      "obj": {
+        "i": 42162,
+        "n": "Cobalt Tungsten Pendulums",
+        "l": 663,
+        "c": 37069,
+        "t": 109,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42163",
+      "obj": {
+        "i": 42163,
+        "n": "Cobalt Tungsten Diamondbacks",
+        "l": 663,
+        "c": 37423,
+        "t": 110,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "42165",
+      "obj": {
+        "i": 42165,
+        "n": "Cobalt Tungsten Kite Shield",
+        "l": 663,
+        "c": 30270,
+        "t": 11,
+        "p": 17288
+      }
+    },
+    {
+      "type": "item",
+      "id": "42167",
+      "obj": {
+        "i": 42167,
+        "n": "Cobalt Tungsten Vest of Fending",
+        "l": 663,
+        "c": 57132,
+        "t": 35,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "42172",
+      "obj": {
+        "i": 42172,
+        "n": "Cobalt Tungsten Vest of Maiming",
+        "l": 663,
+        "c": 57133,
+        "t": 35,
+        "p": 47540
+      }
+    },
+    {
+      "type": "item",
+      "id": "43222",
+      "obj": {
+        "i": 43222,
+        "n": "Cobalt Tungsten Cross-pein Hammer",
+        "l": 650,
+        "c": 39105,
+        "t": 14,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43224",
+      "obj": {
+        "i": 43224,
+        "n": "Cobalt Tungsten Lapidary Hammer",
+        "l": 650,
+        "c": 39305,
+        "t": 18,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43225",
+      "obj": {
+        "i": 43225,
+        "n": "Cobalt Tungsten Creasing Knife",
+        "l": 650,
+        "c": 39406,
+        "t": 20,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43228",
+      "obj": {
+        "i": 43228,
+        "n": "Cobalt Tungsten Chocobo Frypan",
+        "l": 650,
+        "c": 39707,
+        "t": 26,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43229",
+      "obj": {
+        "i": 43229,
+        "n": "Cobalt Tungsten Pickaxe",
+        "l": 650,
+        "c": 38307,
+        "t": 28,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43230",
+      "obj": {
+        "i": 43230,
+        "n": "Cobalt Tungsten Hatchet",
+        "l": 650,
+        "c": 38405,
+        "t": 30,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43232",
+      "obj": {
+        "i": 43232,
+        "n": "Cobalt Tungsten Claw Hammer",
+        "l": 650,
+        "c": 35065,
+        "t": 13,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43234",
+      "obj": {
+        "i": 43234,
+        "n": "Cobalt Tungsten Pliers",
+        "l": 650,
+        "c": 35262,
+        "t": 17,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43237",
+      "obj": {
+        "i": 43237,
+        "n": "Dark Mahogany Spinning Wheel",
+        "l": 650,
+        "c": 35563,
+        "t": 23,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43238",
+      "obj": {
+        "i": 43238,
+        "n": "Cobalt Tungsten Mortar",
+        "l": 650,
+        "c": 35662,
+        "t": 25,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43241",
+      "obj": {
+        "i": 43241,
+        "n": "Cobalt Tungsten Garden Scythe",
+        "l": 650,
+        "c": 38162,
+        "t": 31,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "43295",
+      "obj": {
+        "i": 43295,
+        "n": "Sarcenet Work Shirt of Crafting",
+        "l": 650,
+        "c": 57111,
+        "t": 35,
+        "p": 47431
+      }
+    },
+    {
+      "type": "item",
+      "id": "43300",
+      "obj": {
+        "i": 43300,
+        "n": "Sarcenet Jacket of Gathering",
+        "l": 650,
+        "c": 57110,
+        "t": 35,
+        "p": 47431
+      }
+    },
+    {
+      "type": "item",
+      "id": "44109",
+      "obj": {
+        "i": 44109,
+        "n": "Wisteria Ceiling Lamp",
+        "l": 690,
+        "c": 51152,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "43888",
+      "obj": {
+        "i": 43888,
+        "n": "Tortilla Press",
+        "l": 656,
+        "c": 26523,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "44192",
+      "obj": {
+        "i": 44192,
+        "n": "Rarefied Ruthenium War Axe",
+        "l": 656,
+        "c": 31253,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44198",
+      "obj": {
+        "i": 44198,
+        "n": "Rarefied Ruthenium Sabatons",
+        "l": 656,
+        "c": 49745,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44204",
+      "obj": {
+        "i": 44204,
+        "n": "Rarefied Ihuykanite Circlet",
+        "l": 656,
+        "c": 56734,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44216",
+      "obj": {
+        "i": 44216,
+        "n": "Rarefied Mountain Linen Top",
+        "l": 656,
+        "c": 57130,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41810",
+      "obj": {
+        "i": 41810,
+        "n": "Country Cottage Wall",
+        "l": 1,
+        "c": 50855,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41811",
+      "obj": {
+        "i": 41811,
+        "n": "Country House Wall",
+        "l": 1,
+        "c": 50856,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41812",
+      "obj": {
+        "i": 41812,
+        "n": "Country Mansion Wall",
+        "l": 1,
+        "c": 50857,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1700",
+      "obj": {
+        "i": 1700,
+        "n": "Ruthenium Supremium",
+        "l": 92,
+        "j": 10,
+        "p": 4504
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1701",
+      "obj": {
+        "i": 1701,
+        "n": "Axes to the Maxes",
+        "l": 92,
+        "j": 10,
+        "p": 4504
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1710",
+      "obj": {
+        "i": 1710,
+        "n": "Brace for More Vambraces",
+        "l": 92,
+        "j": 11,
+        "p": 4504
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1711",
+      "obj": {
+        "i": 1711,
+        "n": "Forgiveness for My Shins",
+        "l": 92,
+        "j": 11,
+        "p": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "42265",
+      "obj": {
+        "i": 42265,
+        "n": "Skydeep Armguards of Scouting",
+        "l": 666,
+        "c": 56266,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "42088",
+      "obj": {
+        "i": 42088,
+        "n": "Zormor Round Shield",
+        "l": 660,
+        "c": 30271,
+        "t": 11
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43998",
+      "obj": {
+        "i": 43998,
+        "n": "Ruthenium Ingot",
+        "l": 653,
+        "c": 20830,
+        "t": 49
+      }
+    }
+  ]
+}

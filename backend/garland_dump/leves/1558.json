@@ -1,0 +1,155 @@
+{
+  "leve": {
+    "name": "Aetherquake",
+    "description": "It seems that fish are sensitive to changes in the environment's aetheric levels. In fact, legend has it finned eggplants from the Isle of Ken, using this innate ability, can detect earthquakes before they happen. I simply must have specimens for my research.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1558,
+    "patch": 5.0,
+    "client": "Hortorium Researcher, Edendreda",
+    "lvl": 72,
+    "jobCategory": 19,
+    "levemete": 1027849,
+    "coords": [
+      9.63,
+      18.89
+    ],
+    "zoneid": 2953,
+    "areaid": 2953,
+    "xp": 972926,
+    "gil": 683,
+    "rewards": 733,
+    "plate": 80068,
+    "frame": 80005,
+    "areaicon": 110180,
+    "repeats": 2,
+    "requires": [
+      {
+        "item": 27527,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 733,
+    "entries": [
+      {
+        "item": 27584,
+        "rate": 0.5
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Finned Eggplant",
+      "id": 27527,
+      "icon": 28429,
+      "category": 47,
+      "ilvl": 395,
+      "price": 240,
+      "fishingSpots": [
+        206
+      ],
+      "nodes": [
+        636
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "636",
+      "obj": {
+        "i": 636,
+        "n": "The Isle of Ken",
+        "l": 75,
+        "t": 5,
+        "z": 2953
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "206",
+      "obj": {
+        "i": 206,
+        "n": "The Isle of Ken",
+        "l": 75,
+        "c": 1,
+        "z": 2953,
+        "x": 9.21,
+        "y": 37.64
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1558",
+      "obj": {
+        "i": 1558,
+        "n": "Aetherquake",
+        "l": 72,
+        "j": 19,
+        "p": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "28062",
+      "obj": {
+        "i": 28062,
+        "n": "Nightworld Bronze Piece",
+        "l": 385,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027849",
+      "obj": {
+        "i": 1027849,
+        "n": "Shue-Hann",
+        "l": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "27584",
+      "obj": {
+        "i": 27584,
+        "n": "Desert Dessert Frog",
+        "l": 320,
+        "c": 27073,
+        "t": 33,
+        "p": 1920
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27527",
+      "obj": {
+        "i": 27527,
+        "n": "Finned Eggplant",
+        "l": 395,
+        "c": 28429,
+        "t": 47
+      }
+    }
+  ]
+}

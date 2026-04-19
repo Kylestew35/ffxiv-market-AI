@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Managarm Horn",
+    "description": "A twisted horn whose eerie bellow renders the deadly moon hound, Managarm, meek as a newborn whelp.",
+    "mount": {
+      "name": "Managarm",
+      "action": "Summon forth Managarm, a legendary hound said to dwell in the hidden depths of Abalathia's Spine.",
+      "description": "Some say that Managarm is merely a myth. Others believe it to be an extinct beast. Both are wrong, as you well know. According to Abalathian legend, this fearsome hound roams the celestial sphere in pursuit of the moon, whose light it relishes─or so it may appear to those who witness it soaring the skies, spawning spectral flames.",
+      "tooltip": "I should have been<br>the one to feed your<br>dark hound with light!<br>   - From an Ancient Epic",
+      "icon": 4067,
+      "guideIcon": 68067
+    },
+    "id": 15934,
+    "patch": 4.1,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Gold Chocobo Feather Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15934",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12994",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "364-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12994",
+      "obj": {
+        "i": 12994,
+        "n": "Gold Chocobo Feather",
+        "l": 1,
+        "c": 21901,
+        "t": 61
+      }
+    }
+  ]
+}

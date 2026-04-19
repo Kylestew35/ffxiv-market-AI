@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Black Chocobo Chick",
+    "description": "Rumors about her being able to fly are completely unfounded...or <span class=\"emphasis\">are</span> they?<br><br>Use item to acquire the black chocobo chick minion.",
+    "minionrace": "Critter",
+    "tooltip": "There is no finer feel\r\nthan that of a chocobo\r\nbetween your legs.\r\n  - L'dhakya",
+    "minionskilltype": "Trap",
+    "specialactionname": "Choco Trap",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 260 to all enemies within range.<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 6215,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59448,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6215",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 450,
+      "Skill Cost": 25,
+      "Attack": 55,
+      "Defense": 75,
+      "Speed": 2
+    },
+    "models": [
+      "8002-1-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

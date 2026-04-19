@@ -1,0 +1,929 @@
+{
+  "item": {
+    "name": "Glade Pendant Lamp",
+    "description": "A pendant lamp designed to complement glade residences.",
+    "id": 6464,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 3000,
+    "ilvl": 19,
+    "category": 75,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 51113,
+    "vendors": [
+      1005634,
+      1005641,
+      1005648,
+      1018091,
+      1018094,
+      1018097,
+      1019102,
+      1019111,
+      1039488,
+      1039493,
+      1016176,
+      1016177,
+      1016178,
+      1016179,
+      1016180,
+      1016181,
+      1016182,
+      1016183,
+      1016184,
+      1016185,
+      1016186,
+      1016187,
+      1025027,
+      1025028,
+      1025029,
+      1025030,
+      1025031,
+      1025032,
+      1025033,
+      1025034,
+      1025035,
+      1025036,
+      1025037,
+      1025038,
+      1025042,
+      1025046,
+      1025720,
+      1026172,
+      1027018,
+      1045245,
+      1045259,
+      1056023,
+      1056027
+    ],
+    "craft": [
+      {
+        "id": 1714,
+        "job": 8,
+        "rlvl": 19,
+        "durability": 70,
+        "quality": 240,
+        "progress": 68,
+        "lvl": 19,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 5367,
+            "amount": 4,
+            "quality": 18.461538
+          },
+          {
+            "id": 5999,
+            "amount": 8
+          },
+          {
+            "id": 4,
+            "amount": 1
+          },
+          {
+            "id": 3,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 82,
+          "hq": 102
+        }
+      }
+    ],
+    "ingredient_of": {
+      "28162": 1,
+      "28163": 1,
+      "28164": 1,
+      "28165": 1,
+      "28166": 1,
+      "28167": 1,
+      "28168": 1,
+      "28169": 1,
+      "28170": 1,
+      "28171": 1,
+      "30388": 1,
+      "41145": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Elm Lumber",
+      "id": 5367,
+      "icon": 22457,
+      "category": 50,
+      "ilvl": 16,
+      "price": 78,
+      "craft": [
+        {
+          "id": 1037,
+          "job": 8,
+          "rlvl": 16,
+          "durability": 40,
+          "quality": 312,
+          "progress": 31,
+          "lvl": 16,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5385,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 34,
+            "hq": 54
+          }
+        }
+      ],
+      "desynthedFrom": [
+        6348,
+        6357,
+        6365,
+        9531,
+        6383,
+        31426
+      ],
+      "vendors": [
+        1005633,
+        1005640,
+        1005647,
+        1019101,
+        1039487,
+        1009205
+      ]
+    },
+    {
+      "name": "Elm Log",
+      "id": 5385,
+      "icon": 22405,
+      "category": 50,
+      "ilvl": 16,
+      "price": 22,
+      "leves": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "ventures": [
+        190
+      ],
+      "nodes": [
+        17
+      ]
+    },
+    {
+      "name": "Beeswax Candle",
+      "id": 5999,
+      "icon": 26101,
+      "category": 61,
+      "ilvl": 5,
+      "price": 45,
+      "vendors": [
+        1005633,
+        1005640,
+        1005647,
+        1019101,
+        1039487
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5385",
+      "obj": {
+        "i": 5385,
+        "n": "Elm Log",
+        "l": 16,
+        "c": 22405,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "17",
+      "obj": {
+        "i": 17,
+        "n": "Bentbranch",
+        "l": 15,
+        "t": 2,
+        "z": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005634",
+      "obj": {
+        "i": 1005634,
+        "n": "Housing Merchant",
+        "l": 425,
+        "s": 9,
+        "a": 1120,
+        "c": [
+          10.87,
+          11.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005641",
+      "obj": {
+        "i": 1005641,
+        "n": "Housing Merchant",
+        "l": 427,
+        "s": 9,
+        "a": 1146,
+        "c": [
+          11.47,
+          9.5
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005648",
+      "obj": {
+        "i": 1005648,
+        "n": "Housing Merchant",
+        "l": 426,
+        "s": 9,
+        "a": 1146,
+        "c": [
+          11.79,
+          8.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019102",
+      "obj": {
+        "i": 1019102,
+        "n": "Housing Merchant",
+        "l": 2412,
+        "s": 9,
+        "c": [
+          "10.0",
+          "11.9"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039488",
+      "obj": {
+        "i": 1039488,
+        "n": "Housing Merchant",
+        "l": 4139,
+        "s": 9,
+        "a": 1146,
+        "c": [
+          10.23,
+          11.98
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016176",
+      "obj": {
+        "i": 1016176,
+        "n": "Estate Manservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016177",
+      "obj": {
+        "i": 1016177,
+        "n": "Estate Maidservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016178",
+      "obj": {
+        "i": 1016178,
+        "n": "Estate Manservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016179",
+      "obj": {
+        "i": 1016179,
+        "n": "Estate Maidservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016180",
+      "obj": {
+        "i": 1016180,
+        "n": "Estate Manservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016181",
+      "obj": {
+        "i": 1016181,
+        "n": "Estate Maidservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016182",
+      "obj": {
+        "i": 1016182,
+        "n": "Estate Manservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016183",
+      "obj": {
+        "i": 1016183,
+        "n": "Estate Maidservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016184",
+      "obj": {
+        "i": 1016184,
+        "n": "Estate Manservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016185",
+      "obj": {
+        "i": 1016185,
+        "n": "Estate Maidservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016186",
+      "obj": {
+        "i": 1016186,
+        "n": "Estate Manservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016187",
+      "obj": {
+        "i": 1016187,
+        "n": "Estate Maidservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025027",
+      "obj": {
+        "i": 1025027,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025028",
+      "obj": {
+        "i": 1025028,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025029",
+      "obj": {
+        "i": 1025029,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025030",
+      "obj": {
+        "i": 1025030,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025031",
+      "obj": {
+        "i": 1025031,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025032",
+      "obj": {
+        "i": 1025032,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025033",
+      "obj": {
+        "i": 1025033,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025034",
+      "obj": {
+        "i": 1025034,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025035",
+      "obj": {
+        "i": 1025035,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025036",
+      "obj": {
+        "i": 1025036,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025037",
+      "obj": {
+        "i": 1025037,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025038",
+      "obj": {
+        "i": 1025038,
+        "n": "Hokonin",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025042",
+      "obj": {
+        "i": 1025042,
+        "n": "Allagan Housekeeping Node",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025046",
+      "obj": {
+        "i": 1025046,
+        "n": "Ananta Maidservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025720",
+      "obj": {
+        "i": 1025720,
+        "n": "Namazu Manservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026172",
+      "obj": {
+        "i": 1026172,
+        "n": "Namazu Manservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027018",
+      "obj": {
+        "i": 1027018,
+        "n": "Kojin Shellservant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045245",
+      "obj": {
+        "i": 1045245,
+        "n": "Loporrit Servingway",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045259",
+      "obj": {
+        "i": 1045259,
+        "n": "Loporrit Servingway",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056023",
+      "obj": {
+        "i": 1056023,
+        "n": "Felyne Servant",
+        "s": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056027",
+      "obj": {
+        "i": 1056027,
+        "n": "Felyne Servant",
+        "s": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "5367",
+      "obj": {
+        "i": 5367,
+        "n": "Elm Lumber",
+        "l": 16,
+        "c": 22457,
+        "t": 50,
+        "p": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "5999",
+      "obj": {
+        "i": 5999,
+        "n": "Beeswax Candle",
+        "l": 5,
+        "c": 26101,
+        "t": 61,
+        "p": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "28162",
+      "obj": {
+        "i": 28162,
+        "n": "Armorer's Stall",
+        "l": 415,
+        "c": 52285,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28163",
+      "obj": {
+        "i": 28163,
+        "n": "Weaponsmith's Stall",
+        "l": 415,
+        "c": 52284,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28164",
+      "obj": {
+        "i": 28164,
+        "n": "Jeweler's Stall",
+        "l": 415,
+        "c": 52281,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28165",
+      "obj": {
+        "i": 28165,
+        "n": "Florist's Stall",
+        "l": 415,
+        "c": 52280,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28166",
+      "obj": {
+        "i": 28166,
+        "n": "Baker's Stall",
+        "l": 415,
+        "c": 52278,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28167",
+      "obj": {
+        "i": 28167,
+        "n": "Fruiterer's Stall",
+        "l": 415,
+        "c": 52279,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28168",
+      "obj": {
+        "i": 28168,
+        "n": "Greengrocer's Stall",
+        "l": 415,
+        "c": 52289,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28169",
+      "obj": {
+        "i": 28169,
+        "n": "Bookseller's Stall",
+        "l": 415,
+        "c": 52286,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28170",
+      "obj": {
+        "i": 28170,
+        "n": "Enchanter's Stall",
+        "l": 415,
+        "c": 52287,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "28171",
+      "obj": {
+        "i": 28171,
+        "n": "Butcher's Stall",
+        "l": 415,
+        "c": 52282,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "30388",
+      "obj": {
+        "i": 30388,
+        "n": "Nomad's Tent",
+        "l": 430,
+        "c": 52294,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "41145",
+      "obj": {
+        "i": 41145,
+        "n": "Labyrinthos Grape Lamppost",
+        "l": 560,
+        "c": 52387,
+        "t": 76
+      }
+    }
+  ]
+}

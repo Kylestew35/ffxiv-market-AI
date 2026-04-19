@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Stonemasonry Supplies Materials",
+    "description": "Materials required to craft stonemasonry supplies.<br><br>※Only for use in moogle society quests.",
+    "id": 15759,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "15733": 1
+    },
+    "usedInQuest": [
+      67836
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15733",
+      "obj": {
+        "i": 15733,
+        "n": "Stonemasonry Supplies",
+        "l": 55,
+        "c": 21005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67836",
+      "obj": {
+        "i": 67836,
+        "n": "Stumbling Blocks",
+        "g": 55,
+        "l": "The Churning Mists",
+        "s": 19,
+        "r": 1
+      }
+    }
+  ]
+}

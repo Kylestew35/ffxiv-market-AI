@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Wind-up Athena",
+    "description": "To follow you everywhere─<span class=\"emphasis\">that</span> is her wish.<br><br>Use item to acquire the wind-up Athena minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Athena must be the sole\r\nfocus of your attention.\r\n   - Lahabrea",
+    "minionskilltype": "Trap",
+    "specialactionname": "Lure",
+    "specialactiondescription": "Sets a trap that, when triggered, reduces the movement speed of all enemies within range by 70%.<br><span class=\"highlight-green\">Duration:</span> 20s<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 40379,
+    "patch": 6.4,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59887,
+    "instances": [
+      30132,
+      30133,
+      30133,
+      30132
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 30,
+      "Attack": 85,
+      "Defense": 60,
+      "Speed": 3
+    },
+    "models": [
+      "8444-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30132",
+      "obj": {
+        "i": 30132,
+        "n": "Anabaseios: The Twelfth Circle",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 615
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30133",
+      "obj": {
+        "i": 30133,
+        "n": "Anabaseios: The Twelfth Circle (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 640
+      }
+    }
+  ]
+}

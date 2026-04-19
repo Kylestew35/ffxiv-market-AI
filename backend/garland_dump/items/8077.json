@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Steering Mechanism Component Materials",
+    "description": "Materials required to craft components for an airship's internal steering mechanism.<br><br>※Only for use in Ixal society quests.",
+    "id": 8077,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8118": 1
+    },
+    "usedInQuest": [
+      67055
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8118",
+      "obj": {
+        "i": 8118,
+        "n": "Steering Mechanism Component",
+        "l": 1,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67055",
+      "obj": {
+        "i": 67055,
+        "n": "Never Steer You Wrong",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 56,
+        "r": 1
+      }
+    }
+  ]
+}

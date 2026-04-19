@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Storm Chocobo Issuance",
+    "description": "Present this deed to the Maelstrom company stables to receive your own chocobo.",
+    "id": 6017,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26191,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6017",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      66237
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66237",
+      "obj": {
+        "i": 66237,
+        "n": "My Little Chocobo (Maelstrom)",
+        "g": 111,
+        "l": "Limsa Lominsa",
+        "s": 200,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Wind-up Cheerleader",
+    "description": "Oh, I think that you've found yourself a cheerleader.<br><br>Use item to acquire the wind-up cheerleader minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Oh, do cheer up. Better to die\r\nonce than live ever in shame.\r\n   - Hunt Billmaster",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Rallying Cheer",
+    "specialactiondescription": "Increases ATK of all allies within range by 25.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 15442,
+    "patch": 3.3,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59604,
+    "tradeShops": [
+      {
+        "shop": "Miscellaneous",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15442",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "25",
+                "amount": 15000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 440,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 40,
+      "Speed": 1
+    },
+    "models": [
+      "8178-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "Wolf Mark",
+        "l": 55,
+        "c": 65014,
+        "t": 63
+      }
+    }
+  ]
+}

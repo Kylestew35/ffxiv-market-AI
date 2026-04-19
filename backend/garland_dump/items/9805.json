@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Gerolt Card",
+    "description": "An uncommon (★★) card used in the game Triple Triad.<br>Card No. 34",
+    "id": 9805,
+    "patch": 2.51,
+    "patchCategory": 14,
+    "price": 19,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27663,
+    "tripletriad": {
+      "en": {
+        "description": "“Jus' let me make one thing clear: it might be as I'm repairin' kettles to pay for yesterday's mead, but I still got me pride as a master weaponsmith. Ye'll get no less than the finest out of me forge.”"
+      },
+      "ja": {
+        "description": "「チッ、いいか？\r\n今じゃ、酒場のヤカンを作っちゃいるが……\r\n腐ってもオレは一流の武具職人だ」\r\n放浪の武具職人：ゲロルト・ブラックソーン"
+      },
+      "de": {
+        "description": "„Also gut, <If(PlayerParameter(4))>Abenteurerin<Else/>Abenteurer</If>, dann spitz mal die Lauscher: Auch wenn ich wie der letzte Penner von einem Grobschmied Kessel hämmere, so steckt in mir immer noch irgendwo ein Handwerksmeister ...“"
+      },
+      "fr": {
+        "description": "“Que le grand cric me croque<Indent/>! Même dans mes rêves les plus alcoolisés j'aurais jamais pu imaginer qu'tu puisses mettre la main sur une relique d'arme antique<Indent/>!<Indent/>... Bon, va falloir que j'prépare mes outils alors. Pfff, quelle galère...”"
+      },
+      "sellMgp": 300,
+      "plate": 87034,
+      "rarity": 2,
+      "top": 1,
+      "bottom": 3,
+      "left": 7,
+      "right": 7,
+      "rewardFrom": [
+        1006209,
+        1001304
+      ]
+    },
+    "treasure": [
+      10130
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006209",
+      "obj": {
+        "i": 1006209,
+        "n": "Helmhart",
+        "l": 44,
+        "q": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001304",
+      "obj": {
+        "i": 1001304,
+        "n": "Rowena",
+        "l": 67,
+        "q": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "10130",
+      "obj": {
+        "i": 10130,
+        "n": "Gold Triad Card",
+        "l": 1,
+        "c": 27661,
+        "t": 61
+      }
+    }
+  ]
+}

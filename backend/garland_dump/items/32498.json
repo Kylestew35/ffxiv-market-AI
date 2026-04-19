@@ -1,0 +1,329 @@
+{
+  "item": {
+    "name": "Augmented Cryptlurker's Sword",
+    "jobCategories": "GLA PLD",
+    "id": 32498,
+    "patch": 5.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 530,
+    "category": 2,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1182,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1778,
+    "slot": 1,
+    "elvl": 80,
+    "jobs": 38,
+    "models": [
+      "201-131-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 105,
+      "Magic Damage": 53,
+      "Delay": 2.24,
+      "Strength": 152,
+      "Vitality": 160,
+      "Tenacity": 148,
+      "Critical Hit": 104
+    },
+    "attr_max": {
+      "Strength": 410,
+      "Dexterity": 410,
+      "Vitality": 433,
+      "Intelligence": 410,
+      "Mind": 410,
+      "Piety": 400,
+      "GP": 3,
+      "CP": 3,
+      "Tenacity": 400,
+      "Direct Hit Rate": 400,
+      "Critical Hit": 400,
+      "Fire Resistance": 51,
+      "Ice Resistance": 51,
+      "Wind Resistance": 51,
+      "Earth Resistance": 51,
+      "Lightning Resistance": 51,
+      "Water Resistance": 51,
+      "Determination": 400,
+      "Skill Speed": 400,
+      "Spell Speed": 400,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 3349,
+      "Control": 1387,
+      "Gathering": 3255,
+      "Perception": 930
+    },
+    "icon": 30628,
+    "sharedModels": [
+      32418
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (IL 530 Weapons)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32498",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 430
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cryptlurker Gear Augmentation (DoW) I",
+        "npcs": [
+          1027563
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32498",
+                "amount": 1
+              },
+              {
+                "id": "32515",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32418",
+                "amount": 1
+              },
+              {
+                "id": "32435",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cryptlurker Gear (IL 530)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32498",
+                "amount": 1
+              },
+              {
+                "id": "32515",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Silver Chocobo Feather Exchange IV (Lv. 80 Gear)",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32498",
+                "amount": 1
+              },
+              {
+                "id": "32515",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12995",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "32418",
+      "obj": {
+        "i": 32418,
+        "n": "Cryptlurker's Sword",
+        "l": 520,
+        "c": 30628,
+        "t": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027563",
+      "obj": {
+        "i": 1027563,
+        "n": "Shee-Tatch",
+        "l": 2952,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.34,
+          12.05
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "32435",
+      "obj": {
+        "i": 32435,
+        "n": "Cryptlurker's Kite Shield",
+        "l": 520,
+        "c": 30218,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "32515",
+      "obj": {
+        "i": 32515,
+        "n": "Augmented Cryptlurker's Kite Shield",
+        "l": 530,
+        "c": 30218,
+        "t": 11
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12995",
+      "obj": {
+        "i": 12995,
+        "n": "Silver Chocobo Feather",
+        "l": 1,
+        "c": 21909,
+        "t": 61
+      }
+    }
+  ]
+}

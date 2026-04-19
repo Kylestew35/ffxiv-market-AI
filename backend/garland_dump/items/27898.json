@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Fierce and Free Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Fierce and Free</span>. Use to add to your orchestrion list.",
+    "id": 27898,
+    "patch": 5.0,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 310,
+      "name": "Fierce and Free",
+      "description": "Available for exchange in Il Mheg.",
+      "category": "Locales II",
+      "order": 7
+    },
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027665
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27898",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 350
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

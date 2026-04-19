@@ -1,0 +1,590 @@
+{
+  "item": {
+    "name": "Eblan Danburite",
+    "description": "A transparent jewel sourced from the Eblan Rime.",
+    "id": 37280,
+    "patch": 6.1,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 590,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21287,
+    "ingredient_of": {
+      "36687": 3,
+      "36688": 3,
+      "36689": 3,
+      "36690": 3,
+      "36691": 3,
+      "36692": 3,
+      "36693": 3,
+      "36694": 3,
+      "36695": 3,
+      "36696": 3,
+      "36697": 3,
+      "36698": 3,
+      "36699": 3,
+      "36700": 3,
+      "36701": 3,
+      "36702": 3,
+      "36703": 3,
+      "36704": 3,
+      "36705": 3,
+      "36706": 3,
+      "36707": 3
+    },
+    "craft": [
+      {
+        "id": 35018,
+        "job": 11,
+        "rlvl": 590,
+        "durability": 35,
+        "quality": 8400,
+        "progress": 3010,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3130,
+        "craftsmanshipReq": 3240,
+        "unlockId": 35621,
+        "ingredients": [
+          {
+            "id": 37279,
+            "amount": 4
+          },
+          {
+            "id": 37284,
+            "amount": 1
+          },
+          {
+            "id": 36223,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 3
+          },
+          {
+            "id": 14,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 481,
+          "hq": 501
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raw Eblan Danburite",
+      "id": 37279,
+      "icon": 21477,
+      "category": 48,
+      "ilvl": 590,
+      "price": 99999,
+      "ventures": [
+        973
+      ],
+      "nodes": [
+        834
+      ]
+    },
+    {
+      "name": "Immutable Solution",
+      "id": 37284,
+      "icon": 22667,
+      "category": 54,
+      "ilvl": 590,
+      "price": 99999,
+      "desynthedFrom": [
+        38183,
+        37173,
+        39007,
+        38976,
+        34838,
+        37191,
+        39002,
+        39007,
+        39011,
+        38206,
+        34847,
+        38964,
+        40263
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37284",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37284",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "834",
+      "obj": {
+        "i": 834,
+        "n": "Juturna Platform G",
+        "l": 90,
+        "t": 0,
+        "z": 3710,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36687",
+      "obj": {
+        "i": 36687,
+        "n": "Pactmaker's Halfheart Saw",
+        "l": 590,
+        "c": 35048,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "36688",
+      "obj": {
+        "i": 36688,
+        "n": "Pactmaker's Cross-pein Hammer",
+        "l": 590,
+        "c": 35147,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "36689",
+      "obj": {
+        "i": 36689,
+        "n": "Pactmaker's Raising Hammer",
+        "l": 590,
+        "c": 35247,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "36690",
+      "obj": {
+        "i": 36690,
+        "n": "Pactmaker's Lapidary Hammer",
+        "l": 590,
+        "c": 35346,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "36691",
+      "obj": {
+        "i": 36691,
+        "n": "Pactmaker's Creasing Knife",
+        "l": 590,
+        "c": 35447,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "36692",
+      "obj": {
+        "i": 36692,
+        "n": "Pactmaker's Needle",
+        "l": 590,
+        "c": 35547,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "36693",
+      "obj": {
+        "i": 36693,
+        "n": "Pactmaker's Alembic",
+        "l": 590,
+        "c": 35646,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "36694",
+      "obj": {
+        "i": 36694,
+        "n": "Pactmaker's Arkasodara Frypan",
+        "l": 590,
+        "c": 35749,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "36695",
+      "obj": {
+        "i": 36695,
+        "n": "Pactmaker's Pickaxe",
+        "l": 590,
+        "c": 38049,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "36696",
+      "obj": {
+        "i": 36696,
+        "n": "Pactmaker's Hatchet",
+        "l": 590,
+        "c": 38147,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "36697",
+      "obj": {
+        "i": 36697,
+        "n": "Pactmaker's Fishing Rod",
+        "l": 590,
+        "c": 38500,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "36698",
+      "obj": {
+        "i": 36698,
+        "n": "Pactmaker's Claw Hammer",
+        "l": 590,
+        "c": 35066,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "36699",
+      "obj": {
+        "i": 36699,
+        "n": "Pactmaker's File",
+        "l": 590,
+        "c": 35163,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "36700",
+      "obj": {
+        "i": 36700,
+        "n": "Pactmaker's Pliers",
+        "l": 590,
+        "c": 35263,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "36701",
+      "obj": {
+        "i": 36701,
+        "n": "Pactmaker's Grinding Wheel",
+        "l": 590,
+        "c": 35363,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "36702",
+      "obj": {
+        "i": 36702,
+        "n": "Pactmaker's Awl",
+        "l": 590,
+        "c": 35455,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "36703",
+      "obj": {
+        "i": 36703,
+        "n": "Pactmaker's Spinning Wheel",
+        "l": 590,
+        "c": 35564,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "36704",
+      "obj": {
+        "i": 36704,
+        "n": "Pactmaker's Mortar",
+        "l": 590,
+        "c": 35663,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "36705",
+      "obj": {
+        "i": 36705,
+        "n": "Pactmaker's Culinary Knife",
+        "l": 590,
+        "c": 35763,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "36706",
+      "obj": {
+        "i": 36706,
+        "n": "Pactmaker's Sledgehammer",
+        "l": 590,
+        "c": 38063,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "36707",
+      "obj": {
+        "i": 36707,
+        "n": "Pactmaker's Garden Scythe",
+        "l": 590,
+        "c": 38163,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "35621",
+      "obj": {
+        "i": 35621,
+        "n": "Master Goldsmith IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "37279",
+      "obj": {
+        "i": 37279,
+        "n": "Raw Eblan Danburite",
+        "l": 590,
+        "c": 21477,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "37284",
+      "obj": {
+        "i": 37284,
+        "n": "Immutable Solution",
+        "l": 590,
+        "c": 22667,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "No Greater Sorrow Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">No Greater Sorrow</span>. Use to add to your orchestrion list.",
+    "id": 30265,
+    "patch": 5.2,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 380,
+      "name": "No Greater Sorrow",
+      "description": "Available for exchange in Eulmore.",
+      "category": "Locales II",
+      "order": 22
+    },
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027538
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30265",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 350
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

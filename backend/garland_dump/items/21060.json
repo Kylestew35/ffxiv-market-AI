@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Wind-up Matanga",
+    "description": "This is not Matanga. Matanga is graceful.<br><br>Use item to acquire the wind-up Matanga minion.",
+    "minionrace": "Monster",
+    "tooltip": "To think you beat\r\na Matanga with\r\njust your fists.\r\n   - Impressed Dotharl",
+    "minionskilltype": "Damage",
+    "specialactionname": "Rear Naked Smash",
+    "specialactiondescription": "Delivers an attack with a potency of 230 to all enemies within range.",
+    "id": 21060,
+    "patch": 4.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59669,
+    "cost": 25,
+    "skill_angle": 30,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 600,
+      "Skill Cost": 20,
+      "Attack": 80,
+      "Defense": 20,
+      "Speed": 2
+    },
+    "models": [
+      "8242-1-1"
+    ],
+    "instances": [
+      55003
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      36636
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55003",
+      "obj": {
+        "i": 55003,
+        "n": "The Hidden Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    }
+  ]
+}

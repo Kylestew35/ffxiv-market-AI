@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Hatching-tide Confections",
+    "description": "A delightful set of bite-sized morsels of baked chocolate fashioned to resemble spriggans.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Determination Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 33255,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53404,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1036535
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33255",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33331",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1027"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1036535",
+      "obj": {
+        "i": 1036535,
+        "n": "Dreamer",
+        "l": 53,
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.3,
+          9.23
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33331",
+      "obj": {
+        "i": 33331,
+        "n": "Special Archon Egg",
+        "l": 1,
+        "c": 21310,
+        "t": 85
+      }
+    }
+  ]
+}

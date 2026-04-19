@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Starboard Wing Control Component Materials",
+    "description": "Materials required to craft components for the gears which allow control of the wings positioned on the right side of an airship.<br><br>※Only for use in Ixal society quests.",
+    "id": 8068,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8107": 1
+    },
+    "usedInQuest": [
+      67036
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8107",
+      "obj": {
+        "i": 8107,
+        "n": "Starboard Wing Control Component",
+        "l": 1,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67036",
+      "obj": {
+        "i": 67036,
+        "n": "Right-wing Aeronautics",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 43,
+        "r": 1
+      }
+    }
+  ]
+}

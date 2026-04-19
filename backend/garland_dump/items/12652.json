@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Gobwalker Shielding",
+    "description": "Protective metal plating used in the fabrication of a magitek gobwalker G-VII.",
+    "id": 12652,
+    "patch": 3.01,
+    "patchCategory": 5,
+    "price": 15206,
+    "ilvl": 160,
+    "category": 56,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 47,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20961,
+    "instances": [
+      30024,
+      30028,
+      30024,
+      30028
+    ],
+    "ingredient_of": {
+      "12062": 3
+    },
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30024",
+      "obj": {
+        "i": 30024,
+        "n": "Alexander - The Burden of the Father",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 170
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30028",
+      "obj": {
+        "i": 30028,
+        "n": "Alexander - The Burden of the Father (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 205
+      }
+    },
+    {
+      "type": "item",
+      "id": "12062",
+      "obj": {
+        "i": 12062,
+        "n": "Steam-powered Gobwalker G-VII",
+        "l": 1,
+        "c": 59540,
+        "t": 81
+      }
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "item": {
+    "name": "Oddly Specific Glass",
+    "description": "This pane is “see-through, but not <span class=\"emphasis\">too</span> see-through,” precisely as ordered.",
+    "id": 29659,
+    "patch": 5.25,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 430,
+    "category": 54,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22651,
+    "tradeCurrency": [
+      {
+        "shop": "Skysteel Prototype +1 Augmentation",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29640",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29629",
+                "amount": 1
+              },
+              {
+                "id": "29659",
+                "amount": 30,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 33775,
+        "job": 14,
+        "rlvl": 450,
+        "durability": 70,
+        "quality": 7900,
+        "progress": 1845,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 29667,
+            "amount": 1
+          },
+          {
+            "id": 27777,
+            "amount": 1,
+            "quality": 1902.8857
+          },
+          {
+            "id": 13,
+            "amount": 7
+          },
+          {
+            "id": 12,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 291,
+          "hq": 311
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Oddly Specific Quartz",
+      "id": 29667,
+      "icon": 21460,
+      "category": 48,
+      "ilvl": 440,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29667",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Skysteel Prototype Augmentation)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29667",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Refined Natron",
+      "id": 27777,
+      "icon": 22616,
+      "category": 54,
+      "ilvl": 409,
+      "price": 2996,
+      "craft": [
+        {
+          "id": 3865,
+          "job": 14,
+          "rlvl": 409,
+          "durability": 40,
+          "quality": 3360,
+          "progress": 750,
+          "lvl": 76,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27776,
+              "amount": 1
+            },
+            {
+              "id": 19907,
+              "amount": 1
+            },
+            {
+              "id": 13,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Extra Effervescent Water",
+      "id": 27776,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 409,
+      "price": 630,
+      "ventures": [
+        794
+      ],
+      "nodes": [
+        596
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27776",
+      "obj": {
+        "i": 27776,
+        "n": "Extra Effervescent Water",
+        "l": 409,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "596",
+      "obj": {
+        "i": 596,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 0,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29629",
+      "obj": {
+        "i": 29629,
+        "n": "Skysteel Alembic +1",
+        "l": 455,
+        "c": 35635,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "29640",
+      "obj": {
+        "i": 29640,
+        "n": "Dragonsung Alembic",
+        "l": 475,
+        "c": 35634,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "29667",
+      "obj": {
+        "i": 29667,
+        "n": "Oddly Specific Quartz",
+        "l": 440,
+        "c": 21460,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27777",
+      "obj": {
+        "i": 27777,
+        "n": "Refined Natron",
+        "l": 409,
+        "c": 22616,
+        "t": 54
+      }
+    }
+  ]
+}

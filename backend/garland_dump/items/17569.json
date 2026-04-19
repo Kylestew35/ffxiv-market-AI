@@ -1,0 +1,612 @@
+{
+  "item": {
+    "name": "Peteinosaur Leather",
+    "description": "A large piece of cured peteinosaur skin.",
+    "id": 17569,
+    "patch": 3.55,
+    "patchCategory": 5,
+    "price": 3920,
+    "ilvl": 220,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22016,
+    "ingredient_of": {
+      "17307": 2,
+      "17308": 1,
+      "17309": 1,
+      "17310": 1,
+      "17312": 2,
+      "17313": 1,
+      "17314": 1,
+      "17315": 1,
+      "17317": 2,
+      "17318": 1,
+      "17319": 1,
+      "17320": 1,
+      "17322": 2,
+      "17323": 1,
+      "17324": 1,
+      "17325": 1,
+      "17327": 2,
+      "17328": 1,
+      "17329": 1,
+      "17330": 1,
+      "17332": 2,
+      "17333": 1,
+      "17334": 1,
+      "17335": 1,
+      "17337": 2,
+      "17338": 1,
+      "17339": 1,
+      "17340": 1
+    },
+    "craft": [
+      {
+        "id": 32191,
+        "job": 12,
+        "rlvl": 220,
+        "durability": 70,
+        "quality": 3390,
+        "progress": 900,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 835,
+        "craftsmanshipReq": 870,
+        "quickSynthCraftsmanship": 995,
+        "unlockId": 14130,
+        "ingredients": [
+          {
+            "id": 17594,
+            "amount": 1
+          },
+          {
+            "id": 14161,
+            "amount": 1,
+            "quality": 827.7907
+          },
+          {
+            "id": 17,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 430,
+          "hq": 450
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Peteinosaur",
+      "id": 17594,
+      "icon": 29729,
+      "category": 47,
+      "ilvl": 220,
+      "price": 3000,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "17594",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 40
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "17594",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 40
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Camphor",
+      "id": 14161,
+      "icon": 22610,
+      "category": 54,
+      "ilvl": 210,
+      "price": 1330,
+      "craft": [
+        {
+          "id": 31489,
+          "job": 14,
+          "rlvl": 180,
+          "durability": 70,
+          "quality": 2900,
+          "progress": 740,
+          "lvl": 60,
+          "materialQualityFactor": 0,
+          "stars": 2,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "controlReq": 695,
+          "craftsmanshipReq": 718,
+          "quickSynthCraftsmanship": 850,
+          "unlockId": 14132,
+          "ingredients": [
+            {
+              "id": 14160,
+              "amount": 5
+            },
+            {
+              "id": 19,
+              "amount": 2
+            },
+            {
+              "id": 18,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 155,
+            "hq": 175
+          }
+        }
+      ]
+    },
+    {
+      "name": "Camphorwood Branch",
+      "id": 14160,
+      "icon": 22416,
+      "category": 50,
+      "ilvl": 210,
+      "price": 2245,
+      "ventures": [
+        626
+      ],
+      "nodes": [
+        391
+      ],
+      "vendors": [
+        1017172
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "14132",
+      "obj": {
+        "i": 14132,
+        "n": "Master Alchemist IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "14160",
+      "obj": {
+        "i": 14160,
+        "n": "Camphorwood Branch",
+        "l": 210,
+        "c": 22416,
+        "t": 50,
+        "p": 2245
+      }
+    },
+    {
+      "type": "node",
+      "id": "391",
+      "obj": {
+        "i": 391,
+        "n": "Eil Tohm",
+        "l": 60,
+        "t": 2,
+        "z": 2002,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "17307",
+      "obj": {
+        "i": 17307,
+        "n": "Sky Rat Harness of Fending",
+        "l": 255,
+        "c": 43316,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17308",
+      "obj": {
+        "i": 17308,
+        "n": "Sky Rat Hook of Fending",
+        "l": 255,
+        "c": 48573,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17309",
+      "obj": {
+        "i": 17309,
+        "n": "Sky Rat Breeches of Fending",
+        "l": 255,
+        "c": 45866,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17310",
+      "obj": {
+        "i": 17310,
+        "n": "Sky Rat Hookboots of Fending",
+        "l": 255,
+        "c": 47070,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17312",
+      "obj": {
+        "i": 17312,
+        "n": "Sky Rat Harness of Maiming",
+        "l": 255,
+        "c": 43318,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17313",
+      "obj": {
+        "i": 17313,
+        "n": "Sky Rat Hook of Maiming",
+        "l": 255,
+        "c": 48575,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17314",
+      "obj": {
+        "i": 17314,
+        "n": "Sky Rat Breeches of Maiming",
+        "l": 255,
+        "c": 45868,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17315",
+      "obj": {
+        "i": 17315,
+        "n": "Sky Rat Hookboots of Maiming",
+        "l": 255,
+        "c": 47072,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17317",
+      "obj": {
+        "i": 17317,
+        "n": "Sky Rat Harness of Striking",
+        "l": 255,
+        "c": 43319,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17318",
+      "obj": {
+        "i": 17318,
+        "n": "Sky Rat Fingerless Gloves of Striking",
+        "l": 255,
+        "c": 48576,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17319",
+      "obj": {
+        "i": 17319,
+        "n": "Sky Rat Breeches of Striking",
+        "l": 255,
+        "c": 45869,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17320",
+      "obj": {
+        "i": 17320,
+        "n": "Sky Rat Ironclad Boots of Striking",
+        "l": 255,
+        "c": 47073,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17322",
+      "obj": {
+        "i": 17322,
+        "n": "Sky Rat Harness of Aiming",
+        "l": 255,
+        "c": 43320,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17323",
+      "obj": {
+        "i": 17323,
+        "n": "Sky Rat Fingerless Gloves of Aiming",
+        "l": 255,
+        "c": 48577,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17324",
+      "obj": {
+        "i": 17324,
+        "n": "Sky Rat Breeches of Aiming",
+        "l": 255,
+        "c": 45870,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17325",
+      "obj": {
+        "i": 17325,
+        "n": "Sky Rat Ironclad Boots of Aiming",
+        "l": 255,
+        "c": 47074,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17327",
+      "obj": {
+        "i": 17327,
+        "n": "Sky Rat Harness of Scouting",
+        "l": 255,
+        "c": 43321,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17328",
+      "obj": {
+        "i": 17328,
+        "n": "Sky Rat Hook of Scouting",
+        "l": 255,
+        "c": 48578,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17329",
+      "obj": {
+        "i": 17329,
+        "n": "Sky Rat Breeches of Scouting",
+        "l": 255,
+        "c": 45871,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17330",
+      "obj": {
+        "i": 17330,
+        "n": "Sky Rat Hookboots of Scouting",
+        "l": 255,
+        "c": 47075,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17332",
+      "obj": {
+        "i": 17332,
+        "n": "Sky Rat Harness of Healing",
+        "l": 255,
+        "c": 43317,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17333",
+      "obj": {
+        "i": 17333,
+        "n": "Sky Rat Hook of Healing",
+        "l": 255,
+        "c": 48574,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17334",
+      "obj": {
+        "i": 17334,
+        "n": "Sky Rat Breeches of Healing",
+        "l": 255,
+        "c": 45867,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17335",
+      "obj": {
+        "i": 17335,
+        "n": "Sky Rat Hookboots of Healing",
+        "l": 255,
+        "c": 47071,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17337",
+      "obj": {
+        "i": 17337,
+        "n": "Sky Rat Harness of Casting",
+        "l": 255,
+        "c": 43315,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17338",
+      "obj": {
+        "i": 17338,
+        "n": "Sky Rat Fingerless Gloves of Casting",
+        "l": 255,
+        "c": 48572,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17339",
+      "obj": {
+        "i": 17339,
+        "n": "Sky Rat Breeches of Casting",
+        "l": 255,
+        "c": 45865,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17340",
+      "obj": {
+        "i": 17340,
+        "n": "Sky Rat Ironclad Boots of Casting",
+        "l": 255,
+        "c": 47069,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14130",
+      "obj": {
+        "i": 14130,
+        "n": "Master Leatherworker IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "17594",
+      "obj": {
+        "i": 17594,
+        "n": "Peteinosaur",
+        "l": 220,
+        "c": 29729,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "14161",
+      "obj": {
+        "i": 14161,
+        "n": "Camphor",
+        "l": 210,
+        "c": 22610,
+        "t": 54
+      }
+    }
+  ]
+}

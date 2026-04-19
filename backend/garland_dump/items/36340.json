@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Fallen Angel Wings",
+    "description": "The perfect solution for anyone seeking a pair of edgier angel wings. Use to acquire a pair of fallen angel wings.",
+    "id": 36340,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 58017,
+    "tradeShops": [
+      {
+        "shop": "Bicolor Gemstone Vouchers",
+        "npcs": [
+          1036913
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36340",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35833",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ornament": {
+      "name": "Fallen Angel Wings",
+      "id": 17,
+      "description": "Spread angel wings blacker than your heart (or so you will doubtless say).",
+      "icon": 8017,
+      "image": 67017
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1036913",
+      "obj": {
+        "i": 1036913,
+        "n": "Edelina",
+        "l": 67,
+        "s": 2,
+        "t": "Luxury Trader",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.19,
+          4.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35833",
+      "obj": {
+        "i": 35833,
+        "n": "Bicolor Gemstone Voucher",
+        "l": 1,
+        "c": 25906,
+        "t": 61
+      }
+    }
+  ]
+}

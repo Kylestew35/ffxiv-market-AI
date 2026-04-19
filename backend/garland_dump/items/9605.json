@@ -1,0 +1,70 @@
+{
+  "item": {
+    "name": "Covering Permission G9-M",
+    "description": "Official documentation permitting the one-time use of a grade 9 male chocobo for breeding purposes.",
+    "id": 9605,
+    "patch": 2.51,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 27656,
+    "tradeShops": [
+      {
+        "shop": "Race Items",
+        "npcs": [
+          1010488
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9605",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 2950
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010488",
+      "obj": {
+        "i": 1010488,
+        "n": "Tack & Feed Trader",
+        "l": 1484,
+        "s": 4,
+        "r": 1,
+        "a": 1501,
+        "c": [
+          5.97,
+          4.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

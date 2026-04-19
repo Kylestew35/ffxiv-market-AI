@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Gogo's Theme Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Gogo's Theme</span>. Use to add to your orchestrion list.",
+    "id": 33111,
+    "patch": 5.41,
+    "patchCategory": 16,
+    "price": 2,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 412,
+      "name": "Gogo's Theme",
+      "description": "Available for exchange in Ul'dah.",
+      "category": "Others",
+      "order": 30
+    },
+    "tradeShops": [
+      {
+        "shop": "Exchange Allied Seals",
+        "npcs": [
+          1032254
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33111",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032254",
+      "obj": {
+        "i": 1032254,
+        "n": "Maudlin Latool Ja",
+        "l": 41,
+        "s": 1,
+        "r": 1,
+        "a": 648,
+        "c": [
+          12.54,
+          13.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

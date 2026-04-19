@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Lominsan Hara-ate",
+    "description": "A breastplate that combines Hingan design with Lominsan craftsmanship, bringing east and west together at last.",
+    "id": 17900,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 290,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26108,
+    "craft": [
+      {
+        "id": 32283,
+        "job": 10,
+        "rlvl": 290,
+        "durability": 80,
+        "quality": 1980,
+        "progress": 756,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17899,
+            "amount": 1
+          },
+          {
+            "id": 9,
+            "amount": 2
+          },
+          {
+            "id": 11,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 33,
+          "hq": 53
+        }
+      }
+    ],
+    "usedInQuest": [
+      68134
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Hara-ate Materials",
+      "id": 17899,
+      "icon": 20804,
+      "category": 63,
+      "ilvl": 290,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17899",
+      "obj": {
+        "i": 17899,
+        "n": "Hara-ate Materials",
+        "l": 290,
+        "c": 20804,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68134",
+      "obj": {
+        "i": 68134,
+        "n": "A Confluence of Style",
+        "g": 166,
+        "l": "Kugane",
+        "s": 700,
+        "f": 1
+      }
+    }
+  ]
+}

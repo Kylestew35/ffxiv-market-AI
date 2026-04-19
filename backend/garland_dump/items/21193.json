@@ -1,0 +1,102 @@
+{
+  "item": {
+    "name": "Salt & Pepper Seal",
+    "description": "What a seal, what a mighty good seal.<br><br>Use item to acquire the salt & pepper seal minion.",
+    "minionrace": "Critter",
+    "tooltip": "Love makes for the\r\nbest seasoning.\r\n   - Gildon",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Puppy-seal Eyes",
+    "specialactiondescription": "Reduces action points of all enemies within range by 70% of the maximum value.",
+    "id": 21193,
+    "patch": 4.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59672,
+    "instances": [
+      58
+    ],
+    "cost": 20,
+    "skill_angle": 30,
+    "strengths": [
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 50,
+      "Speed": 1
+    },
+    "models": [
+      "8245-1-1"
+    ],
+    "treasure": [
+      31357,
+      33797,
+      36636
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "item",
+      "id": "31357",
+      "obj": {
+        "i": 31357,
+        "n": "Southern Front Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33797",
+      "obj": {
+        "i": 33797,
+        "n": "Zadnor Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    }
+  ]
+}

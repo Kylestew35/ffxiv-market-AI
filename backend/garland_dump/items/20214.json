@@ -1,0 +1,107 @@
+{
+  "item": {
+    "name": "Salt Cellar",
+    "description": "An ashen-shelled snail found throughout Loch Seld. Cooking the gastropods in their shells with garlic and herbs is the preferred method of consumption.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "While a few are to be found in Loch Seld, one is far more likely to come across this swirly shell atop the tables of Ala Mhigo, where the cellar's abode is routinely repurposed into a salt shaker.",
+      "icon": 79902,
+      "spots": [
+        {
+          "node": 477,
+          "gig": [
+            "Small Gig Head"
+          ],
+          "ff14anglerId": 708
+        },
+        {
+          "node": 483,
+          "gig": [
+            "Small Gig Head"
+          ],
+          "ff14anglerId": 708
+        }
+      ]
+    },
+    "id": 20214,
+    "patch": 4.0,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 260,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29902,
+    "nodes": [
+      477,
+      483
+    ],
+    "desynthedTo": [
+      5824,
+      5817,
+      5518
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "477",
+      "obj": {
+        "i": 477,
+        "n": "Loch Seld Northwestern Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2408
+      }
+    },
+    {
+      "type": "node",
+      "id": "483",
+      "obj": {
+        "i": 483,
+        "n": "Loch Seld Deep Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2408,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5817",
+      "obj": {
+        "i": 5817,
+        "n": "Grey Pigment",
+        "l": 28,
+        "c": 21463,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5518",
+      "obj": {
+        "i": 5518,
+        "n": "Rock Salt",
+        "l": 1,
+        "c": 22617,
+        "t": 54,
+        "p": 3
+      }
+    }
+  ]
+}

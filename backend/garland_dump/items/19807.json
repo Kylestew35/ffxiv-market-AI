@@ -1,0 +1,1020 @@
+{
+  "item": {
+    "name": "Doman Tea",
+    "description": "An after-supper beverage naturally sweetened with dried persimmons. Widely popular in the Far East.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19807,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2198,
+    "ilvl": 285,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 35
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 37
+        },
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 21
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 44
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 46
+        },
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 26
+        }
+      }
+    },
+    "icon": 24412,
+    "craft": [
+      {
+        "id": 3551,
+        "job": 15,
+        "rlvl": 285,
+        "durability": 80,
+        "quality": 3420,
+        "progress": 980,
+        "lvl": 68,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19869,
+            "amount": 1
+          },
+          {
+            "id": 4828,
+            "amount": 1
+          },
+          {
+            "id": 19857,
+            "amount": 1
+          },
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 19844,
+            "amount": 1,
+            "quality": 417.93195
+          },
+          {
+            "id": 8,
+            "amount": 5
+          },
+          {
+            "id": 13,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 193,
+          "hq": 213
+        }
+      }
+    ],
+    "quests": [
+      68503
+    ],
+    "requiredByLeves": [
+      1310
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 695100,
+      "seals": 782
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Persimmon",
+      "id": 19869,
+      "icon": 25321,
+      "category": 45,
+      "ilvl": 282,
+      "price": 548,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        676
+      ],
+      "nodes": [
+        513
+      ]
+    },
+    {
+      "name": "Cinnamon",
+      "id": 4828,
+      "icon": 25019,
+      "category": 45,
+      "ilvl": 4,
+      "price": 4,
+      "tradeShops": [
+        {
+          "shop": "Rainbowtide Psashp Exchange",
+          "npcs": [
+            1008907
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "4828",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21077",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        171
+      ],
+      "nodes": [
+        13
+      ],
+      "vendors": [
+        1003249,
+        1000236,
+        1001204,
+        1001966,
+        1011201,
+        1008907,
+        1018984,
+        1019333,
+        1027992,
+        1008837,
+        1008838,
+        1008839,
+        1008840,
+        1008841,
+        1008842,
+        1008843,
+        1008844,
+        1008845,
+        1008846,
+        1013117,
+        1013118,
+        1018662,
+        1018663,
+        1018664,
+        1018665,
+        1018666,
+        1018667,
+        1018668,
+        1018669,
+        1018670,
+        1018671,
+        1018672,
+        1018673,
+        1024548,
+        1024549,
+        1024550,
+        1024551,
+        1024552,
+        1024553,
+        1024554,
+        1024555,
+        1024556,
+        1024557,
+        1024558,
+        1024559,
+        1025039,
+        1025043,
+        1025717,
+        1026169,
+        1027015,
+        1045242,
+        1045256,
+        1056020,
+        1056024
+      ]
+    },
+    {
+      "name": "Jhammel Ginger",
+      "id": 19857,
+      "icon": 25012,
+      "category": 45,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        700
+      ],
+      "nodes": [
+        526
+      ]
+    },
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Beet Sugar",
+      "id": 19844,
+      "icon": 25103,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "craft": [
+        {
+          "id": 3584,
+          "job": 15,
+          "rlvl": 273,
+          "durability": 40,
+          "quality": 2448,
+          "progress": 390,
+          "lvl": 64,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19856,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sugar Beet",
+      "id": 19856,
+      "icon": 25223,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        687
+      ],
+      "nodes": [
+        512
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "513",
+      "obj": {
+        "i": 513,
+        "n": "Dimwold",
+        "l": 70,
+        "t": 2,
+        "z": 2406
+      }
+    },
+    {
+      "type": "node",
+      "id": "13",
+      "obj": {
+        "i": 13,
+        "n": "Treespeak",
+        "l": 5,
+        "t": 2,
+        "z": 57
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003249",
+      "obj": {
+        "i": 1003249,
+        "n": "Jossy",
+        "l": 28,
+        "s": 1,
+        "t": "Guild Supplier",
+        "a": 709,
+        "c": [
+          9.99,
+          7.95
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000236",
+      "obj": {
+        "i": 1000236,
+        "n": "O'rhoyod",
+        "l": 53,
+        "s": 1,
+        "t": "Tradecraft Supplier",
+        "a": 564,
+        "c": [
+          14.42,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001204",
+      "obj": {
+        "i": 1001204,
+        "n": "Engerrand",
+        "l": 29,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Supplier",
+        "a": 744,
+        "c": [
+          8.66,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001966",
+      "obj": {
+        "i": 1001966,
+        "n": "Fridurih",
+        "l": 41,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Merchant",
+        "a": 646,
+        "c": [
+          13.79,
+          9.57
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008837",
+      "obj": {
+        "i": 1008837,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008838",
+      "obj": {
+        "i": 1008838,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008839",
+      "obj": {
+        "i": 1008839,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008840",
+      "obj": {
+        "i": 1008840,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008841",
+      "obj": {
+        "i": 1008841,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008842",
+      "obj": {
+        "i": 1008842,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008843",
+      "obj": {
+        "i": 1008843,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008844",
+      "obj": {
+        "i": 1008844,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008845",
+      "obj": {
+        "i": 1008845,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008846",
+      "obj": {
+        "i": 1008846,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013117",
+      "obj": {
+        "i": 1013117,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013118",
+      "obj": {
+        "i": 1013118,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018662",
+      "obj": {
+        "i": 1018662,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018663",
+      "obj": {
+        "i": 1018663,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018664",
+      "obj": {
+        "i": 1018664,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018665",
+      "obj": {
+        "i": 1018665,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018666",
+      "obj": {
+        "i": 1018666,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018667",
+      "obj": {
+        "i": 1018667,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018668",
+      "obj": {
+        "i": 1018668,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018669",
+      "obj": {
+        "i": 1018669,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018670",
+      "obj": {
+        "i": 1018670,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018671",
+      "obj": {
+        "i": 1018671,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018672",
+      "obj": {
+        "i": 1018672,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018673",
+      "obj": {
+        "i": 1018673,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024548",
+      "obj": {
+        "i": 1024548,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024549",
+      "obj": {
+        "i": 1024549,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024550",
+      "obj": {
+        "i": 1024550,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024551",
+      "obj": {
+        "i": 1024551,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024552",
+      "obj": {
+        "i": 1024552,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024553",
+      "obj": {
+        "i": 1024553,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024554",
+      "obj": {
+        "i": 1024554,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024555",
+      "obj": {
+        "i": 1024555,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024556",
+      "obj": {
+        "i": 1024556,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024557",
+      "obj": {
+        "i": 1024557,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024558",
+      "obj": {
+        "i": 1024558,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024559",
+      "obj": {
+        "i": 1024559,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025039",
+      "obj": {
+        "i": 1025039,
+        "n": "Allagan Resupply Node",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025043",
+      "obj": {
+        "i": 1025043,
+        "n": "Ananta Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025717",
+      "obj": {
+        "i": 1025717,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026169",
+      "obj": {
+        "i": 1026169,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027015",
+      "obj": {
+        "i": 1027015,
+        "n": "Kojin Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045242",
+      "obj": {
+        "i": 1045242,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045256",
+      "obj": {
+        "i": 1045256,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056020",
+      "obj": {
+        "i": 1056020,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056024",
+      "obj": {
+        "i": 1056024,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "node",
+      "id": "526",
+      "obj": {
+        "i": 526,
+        "n": "Abalathia's Skull",
+        "l": 70,
+        "t": 3,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "19856",
+      "obj": {
+        "i": 19856,
+        "n": "Sugar Beet",
+        "l": 273,
+        "c": 25223,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "19869",
+      "obj": {
+        "i": 19869,
+        "n": "Persimmon",
+        "l": 282,
+        "c": 25321,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4828",
+      "obj": {
+        "i": 4828,
+        "n": "Cinnamon",
+        "l": 4,
+        "c": 25019,
+        "t": 45,
+        "p": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "19857",
+      "obj": {
+        "i": 19857,
+        "n": "Jhammel Ginger",
+        "l": 285,
+        "c": 25012,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19844",
+      "obj": {
+        "i": 19844,
+        "n": "Beet Sugar",
+        "l": 273,
+        "c": 25103,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68503",
+      "obj": {
+        "i": 68503,
+        "n": "A Sultana's Strings",
+        "g": 7,
+        "l": "The Lochs",
+        "s": 6
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1310",
+      "obj": {
+        "i": 1310,
+        "n": "Fits to a Tea",
+        "l": 68,
+        "j": 16,
+        "p": 2404
+      }
+    }
+  ]
+}

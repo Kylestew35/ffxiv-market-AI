@@ -1,0 +1,467 @@
+{
+  "item": {
+    "name": "Grade 3 Skybuilders' Embroidery Frame",
+    "description": "Though there is little discernible difference between the grade 2 and grade 3 embroidery frames, the name alone strongly implies that this version is infinitely superior. ",
+    "id": 31203,
+    "patch": 5.31,
+    "patchCategory": 5,
+    "price": 750,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 16,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 35523,
+    "craft": [
+      {
+        "id": 34394,
+        "job": 11,
+        "rlvl": 150,
+        "durability": 60,
+        "quality": 6480,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31245,
+            "amount": 5
+          },
+          {
+            "id": 31247,
+            "amount": 5
+          },
+          {
+            "id": 31250,
+            "amount": 5
+          },
+          {
+            "id": 12561,
+            "amount": 1,
+            "quality": 188.51402
+          },
+          {
+            "id": 10,
+            "amount": 4
+          },
+          {
+            "id": 8,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 1500036,
+          "hq": 1500056
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 3 Skybuilders' Vine",
+      "id": 31245,
+      "icon": 23821,
+      "category": 51,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Approved Grade 3 Skybuilders' Diadem Iron Ore",
+      "id": 31247,
+      "icon": 23897,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Approved Grade 3 Skybuilders' Diadem Iron Sand",
+      "id": 31250,
+      "icon": 23894,
+      "category": 48,
+      "ilvl": 150,
+      "price": 150
+    },
+    {
+      "name": "Cloud Mica Whetstone",
+      "id": 12561,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 139,
+      "price": 2520,
+      "craft": [
+        {
+          "id": 2541,
+          "job": 11,
+          "rlvl": 139,
+          "durability": 35,
+          "quality": 1936,
+          "progress": 210,
+          "lvl": 56,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12539,
+              "amount": 3
+            },
+            {
+              "id": 10,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 55,
+            "hq": 75
+          }
+        }
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Cloud Mica",
+      "id": 12539,
+      "icon": 21226,
+      "category": 48,
+      "ilvl": 142,
+      "price": 843,
+      "desynthedFrom": [
+        12787
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12539",
+                  "amount": 4
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        986,
+        987,
+        988,
+        989,
+        990,
+        991,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021
+      ],
+      "ventures": [
+        456
+      ],
+      "nodes": [
+        355
+      ],
+      "vendors": [
+        1017172
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12539",
+      "obj": {
+        "i": 12539,
+        "n": "Cloud Mica",
+        "l": 142,
+        "c": 21226,
+        "t": 48,
+        "p": 843
+      }
+    },
+    {
+      "type": "node",
+      "id": "355",
+      "obj": {
+        "i": 355,
+        "n": "Landlord Colony",
+        "l": 60,
+        "t": 1,
+        "z": 2002,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "31245",
+      "obj": {
+        "i": 31245,
+        "n": "Approved Grade 3 Skybuilders' Vine",
+        "l": 150,
+        "c": 23821,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "31247",
+      "obj": {
+        "i": 31247,
+        "n": "Approved Grade 3 Skybuilders' Diadem Iron Ore",
+        "l": 150,
+        "c": 23897,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "31250",
+      "obj": {
+        "i": 31250,
+        "n": "Approved Grade 3 Skybuilders' Diadem Iron Sand",
+        "l": 150,
+        "c": 23894,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12561",
+      "obj": {
+        "i": 12561,
+        "n": "Cloud Mica Whetstone",
+        "l": 139,
+        "c": 21470,
+        "t": 48,
+        "p": 2520
+      }
+    }
+  ]
+}

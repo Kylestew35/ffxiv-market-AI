@@ -1,0 +1,131 @@
+{
+  "item": {
+    "name": "Gordian Axe",
+    "jobCategories": "MRD WAR",
+    "id": 11512,
+    "patch": 3.05,
+    "patchCategory": 0,
+    "price": 112266,
+    "ilvl": 210,
+    "category": 3,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1179,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1170,
+    "slot": 13,
+    "elvl": 60,
+    "jobs": 44,
+    "models": [
+      "401-47-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 73,
+      "Magic Damage": 37,
+      "Delay": 3.44,
+      "Strength": 78,
+      "Vitality": 77,
+      "Skill Speed": 84,
+      "Determination": 59
+    },
+    "icon": 31500,
+    "instances": [
+      30028
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Manifesto Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11512",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12684",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gordian Gear (IL 210)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11512",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12684",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30028",
+      "obj": {
+        "i": 30028,
+        "n": "Alexander - The Burden of the Father (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 205
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12684",
+      "obj": {
+        "i": 12684,
+        "n": "Gordian Manifesto - Page 4",
+        "l": 1,
+        "c": 26160,
+        "t": 61
+      }
+    }
+  ]
+}

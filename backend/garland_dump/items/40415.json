@@ -1,0 +1,397 @@
+{
+  "item": {
+    "name": "Chocobo Pajama Slippers",
+    "jobCategories": "All Classes",
+    "id": 40415,
+    "patch": 6.4,
+    "patchCategory": 3,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 38,
+    "dyeable": 1,
+    "dyecount": 2,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 8,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "6169-3-0-0"
+    ],
+    "attr": {
+      "Defense": 7,
+      "Magic Defense": 13
+    },
+    "attr_hq": {
+      "Defense": 8,
+      "Magic Defense": 14
+    },
+    "icon": 49596,
+    "sharedModels": [
+      40407,
+      40411
+    ],
+    "craft": [
+      {
+        "id": 35640,
+        "job": 12,
+        "rlvl": 610,
+        "durability": 70,
+        "quality": 8200,
+        "progress": 4400,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "hq": 1,
+        "unlockId": 37738,
+        "ingredients": [
+          {
+            "id": 40700,
+            "amount": 1
+          },
+          {
+            "id": 37832,
+            "amount": 2,
+            "quality": 1999.2007
+          },
+          {
+            "id": 5359,
+            "amount": 1
+          },
+          {
+            "id": 17,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 506,
+          "hq": 526
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Malake Karpasos",
+      "id": 40700,
+      "icon": 21608,
+      "category": 51,
+      "ilvl": 1,
+      "price": 99999,
+      "treasure": [
+        39591,
+        36612
+      ]
+    },
+    {
+      "name": "Titanoboa Leather",
+      "id": 37832,
+      "icon": 21833,
+      "category": 52,
+      "ilvl": 610,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 35103,
+          "job": 12,
+          "rlvl": 610,
+          "durability": 35,
+          "quality": 8200,
+          "progress": 3696,
+          "lvl": 90,
+          "materialQualityFactor": 0,
+          "stars": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "controlReq": 3280,
+          "craftsmanshipReq": 3700,
+          "unlockId": 37738,
+          "ingredients": [
+            {
+              "id": 37827,
+              "amount": 2
+            },
+            {
+              "id": 37819,
+              "amount": 5
+            },
+            {
+              "id": 17,
+              "amount": 3
+            },
+            {
+              "id": 16,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 540,
+            "hq": 560
+          }
+        }
+      ],
+      "desynthedFrom": [
+        38043
+      ]
+    },
+    {
+      "name": "Titanoboa Skin",
+      "id": 37827,
+      "icon": 21830,
+      "category": 52,
+      "ilvl": 600,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37827",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37827",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Haritaki",
+      "id": 37819,
+      "icon": 25017,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "ventures": [
+        979
+      ],
+      "nodes": [
+        627
+      ]
+    },
+    {
+      "name": "Chocobo Feather",
+      "id": 5359,
+      "icon": 21901,
+      "category": 51,
+      "ilvl": 30,
+      "price": 192,
+      "ventures": [
+        262
+      ],
+      "nodes": [
+        27
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "39591",
+      "obj": {
+        "i": 39591,
+        "n": "Timeworn Ophiotauroskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36612",
+      "obj": {
+        "i": 36612,
+        "n": "Timeworn Kumbhiraskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "37738",
+      "obj": {
+        "i": 37738,
+        "n": "Master Leatherworker X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "37827",
+      "obj": {
+        "i": 37827,
+        "n": "Titanoboa Skin",
+        "l": 600,
+        "c": 21830,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "37819",
+      "obj": {
+        "i": 37819,
+        "n": "Haritaki",
+        "l": 600,
+        "c": 25017,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "627",
+      "obj": {
+        "i": 627,
+        "n": "The Shroud of the Samgha",
+        "l": 90,
+        "t": 2,
+        "z": 3709,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Silent Arbor",
+        "l": 30,
+        "t": 2,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "40407",
+      "obj": {
+        "i": 40407,
+        "n": "Plain Pajama Slippers",
+        "l": 1,
+        "c": 49594,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "40411",
+      "obj": {
+        "i": 40411,
+        "n": "Cactuar Pajama Slippers",
+        "l": 1,
+        "c": 49595,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "40700",
+      "obj": {
+        "i": 40700,
+        "n": "Malake Karpasos",
+        "l": 1,
+        "c": 21608,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "37832",
+      "obj": {
+        "i": 37832,
+        "n": "Titanoboa Leather",
+        "l": 610,
+        "c": 21833,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5359",
+      "obj": {
+        "i": 5359,
+        "n": "Chocobo Feather",
+        "l": 30,
+        "c": 21901,
+        "t": 51
+      }
+    }
+  ]
+}

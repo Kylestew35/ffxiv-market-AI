@@ -1,0 +1,291 @@
+{
+  "item": {
+    "name": "Grade 3 Infusion of Dexterity",
+    "description": "This diluted brew temporarily increases dexterity, but for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 24262,
+    "patch": 4.4,
+    "patchCategory": 4,
+    "price": 11640,
+    "ilvl": 350,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 83,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Dexterity": {
+          "rate": 8,
+          "limit": 89
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Dexterity": {
+          "rate": 10,
+          "limit": 111
+        }
+      }
+    },
+    "icon": 20702,
+    "craft": [
+      {
+        "id": 33163,
+        "job": 14,
+        "rlvl": 380,
+        "durability": 70,
+        "quality": 6100,
+        "progress": 1500,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1600,
+        "craftsmanshipReq": 1650,
+        "quickSynthCraftsmanship": 2000,
+        "unlockId": 22315,
+        "ingredients": [
+          {
+            "id": 24255,
+            "amount": 1
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 19912,
+            "amount": 2
+          },
+          {
+            "id": 23182,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 325,
+          "hq": 345
+        }
+      }
+    ],
+    "quests": [
+      68967
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Azim Spring Water",
+      "id": 24255,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 320,
+      "price": 333,
+      "ventures": [
+        758
+      ],
+      "nodes": [
+        536
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    },
+    {
+      "name": "Alyssum",
+      "id": 19912,
+      "icon": 22627,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        702
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Duskglow Aethersand",
+      "id": 23182,
+      "icon": 21006,
+      "category": 54,
+      "ilvl": 340,
+      "price": 2308,
+      "reducedFrom": [
+        23220,
+        23221
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "536",
+      "obj": {
+        "i": 536,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 0,
+        "z": 2411,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "23220",
+      "obj": {
+        "i": 23220,
+        "n": "Yanxian Soil",
+        "l": 340,
+        "c": 21466,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "23221",
+      "obj": {
+        "i": 23221,
+        "n": "Yanxian Verbena",
+        "l": 340,
+        "c": 25009,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "22315",
+      "obj": {
+        "i": 22315,
+        "n": "Master Alchemist VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "24255",
+      "obj": {
+        "i": 24255,
+        "n": "Azim Spring Water",
+        "l": 320,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19912",
+      "obj": {
+        "i": 19912,
+        "n": "Alyssum",
+        "l": 285,
+        "c": 22627,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "23182",
+      "obj": {
+        "i": 23182,
+        "n": "Duskglow Aethersand",
+        "l": 340,
+        "c": 21006,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68967",
+      "obj": {
+        "i": 68967,
+        "n": "A New Favorite",
+        "g": 136,
+        "l": "Il Mheg",
+        "s": 3210
+      }
+    }
+  ]
+}

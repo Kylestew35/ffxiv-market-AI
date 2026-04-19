@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Potent Dissolvent",
+    "description": "Dissolvent so potent it will eat through almost anything.",
+    "id": 17932,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 290,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20642,
+    "craft": [
+      {
+        "id": 32299,
+        "job": 14,
+        "rlvl": 290,
+        "durability": 80,
+        "quality": 1980,
+        "progress": 756,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17931,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 2
+          },
+          {
+            "id": 12,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 100027,
+          "hq": 100047
+        }
+      }
+    ],
+    "usedInQuest": [
+      67976
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Dissolvent Ingredients",
+      "id": 17931,
+      "icon": 21662,
+      "category": 63,
+      "ilvl": 290,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17931",
+      "obj": {
+        "i": 17931,
+        "n": "Dissolvent Ingredients",
+        "l": 290,
+        "c": 21662,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67976",
+      "obj": {
+        "i": 67976,
+        "n": "A Love Beyond Lifetimes",
+        "g": 170,
+        "l": "Ul'dah",
+        "s": 700,
+        "f": 1
+      }
+    }
+  ]
+}

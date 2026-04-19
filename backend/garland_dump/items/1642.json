@@ -1,0 +1,410 @@
+{
+  "item": {
+    "name": "Goblin Scimitar",
+    "jobCategories": "GLA PLD",
+    "id": 1642,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 7920,
+    "ilvl": 45,
+    "category": 2,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "slot": 1,
+    "elvl": 42,
+    "jobs": 38,
+    "models": [
+      "201-47-2-0"
+    ],
+    "attr": {
+      "Physical Damage": 45,
+      "Magic Damage": 22,
+      "Delay": 2.08,
+      "Strength": 7,
+      "Vitality": 9,
+      "Tenacity": 13
+    },
+    "attr_hq": {
+      "Physical Damage": 50,
+      "Magic Damage": 25,
+      "Strength": 8,
+      "Vitality": 10,
+      "Tenacity": 14
+    },
+    "attr_max": {
+      "Strength": 22,
+      "Dexterity": 22,
+      "Vitality": 28,
+      "Intelligence": 22,
+      "Mind": 22,
+      "Piety": 36,
+      "GP": 1,
+      "CP": 1,
+      "Tenacity": 36,
+      "Direct Hit Rate": 36,
+      "Critical Hit": 36,
+      "Fire Resistance": 10,
+      "Ice Resistance": 10,
+      "Wind Resistance": 10,
+      "Earth Resistance": 10,
+      "Lightning Resistance": 10,
+      "Water Resistance": 10,
+      "Determination": 36,
+      "Skill Speed": 36,
+      "Spell Speed": 36,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 327,
+      "Control": 140,
+      "Gathering": 320,
+      "Perception": 92
+    },
+    "icon": 30426,
+    "sharedModels": [
+      1613,
+      1617,
+      1636,
+      1670
+    ],
+    "craft": [
+      {
+        "id": 1191,
+        "job": 9,
+        "rlvl": 42,
+        "durability": 80,
+        "quality": 1520,
+        "progress": 144,
+        "lvl": 42,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 1613,
+            "amount": 1
+          },
+          {
+            "id": 5260,
+            "amount": 1,
+            "quality": 340.2985
+          },
+          {
+            "id": 8,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 61,
+          "hq": 81
+        }
+      }
+    ],
+    "downgrades": [
+      1648,
+      1645,
+      1643
+    ],
+    "upgrades": [
+      1649
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Blunt Goblin Scimitar",
+      "id": 1613,
+      "icon": 30425,
+      "category": 2,
+      "ilvl": 37,
+      "price": 2273,
+      "instances": [
+        11
+      ],
+      "leves": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655
+      ],
+      "vendors": [
+        1003267,
+        1003270
+      ]
+    },
+    {
+      "name": "Siltstone Whetstone",
+      "id": 5260,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "craft": [
+        {
+          "id": 763,
+          "job": 11,
+          "rlvl": 30,
+          "durability": 40,
+          "quality": 680,
+          "progress": 51,
+          "lvl": 30,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5231,
+              "amount": 2
+            },
+            {
+              "id": 4,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 40,
+            "hq": 60
+          }
+        }
+      ],
+      "treasure": [
+        6688
+      ]
+    },
+    {
+      "name": "Siltstone",
+      "id": 5231,
+      "icon": 21453,
+      "category": 48,
+      "ilvl": 30,
+      "price": 120,
+      "voyages": [
+        {
+          "id": 25,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        128
+      ],
+      "nodes": [
+        176
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "11",
+      "obj": {
+        "i": 11,
+        "n": "The Stone Vigil",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 41,
+        "max_lvl": 43
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003267",
+      "obj": {
+        "i": 1003267,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "q": 1,
+        "a": 231,
+        "c": [
+          14.9,
+          24.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003270",
+      "obj": {
+        "i": 1003270,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "c": [
+          "26.1",
+          "26.4"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5231",
+      "obj": {
+        "i": 5231,
+        "n": "Siltstone",
+        "l": 30,
+        "c": 21453,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "176",
+      "obj": {
+        "i": 176,
+        "n": "Oakwood",
+        "l": 30,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "1613",
+      "obj": {
+        "i": 1613,
+        "n": "Blunt Goblin Scimitar",
+        "l": 37,
+        "c": 30425,
+        "t": 2,
+        "p": 2273
+      }
+    },
+    {
+      "type": "item",
+      "id": "1617",
+      "obj": {
+        "i": 1617,
+        "n": "Doctore's Scimitar",
+        "l": 22,
+        "c": 30466,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "1636",
+      "obj": {
+        "i": 1636,
+        "n": "Blunt Aeolian Scimitar",
+        "l": 45,
+        "c": 30425,
+        "t": 2,
+        "p": 3168
+      }
+    },
+    {
+      "type": "item",
+      "id": "1670",
+      "obj": {
+        "i": 1670,
+        "n": "Aeolian Scimitar",
+        "l": 55,
+        "c": 30427,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "5260",
+      "obj": {
+        "i": 5260,
+        "n": "Siltstone Whetstone",
+        "l": 30,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "1648",
+      "obj": {
+        "i": 1648,
+        "n": "Vintage Viking Sword",
+        "l": 41,
+        "c": 30496,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "1645",
+      "obj": {
+        "i": 1645,
+        "n": "Gridanian Macuahuitl",
+        "l": 40,
+        "c": 30452,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "1643",
+      "obj": {
+        "i": 1643,
+        "n": "Mythril Broadsword",
+        "l": 38,
+        "c": 30500,
+        "t": 2,
+        "p": 4159
+      }
+    },
+    {
+      "type": "item",
+      "id": "1649",
+      "obj": {
+        "i": 1649,
+        "n": "Goblin Longsword",
+        "l": 48,
+        "c": 30429,
+        "t": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,674 @@
+{
+  "item": {
+    "name": "Melon Pie",
+    "description": "The flaky crust serves as a perfect complement to the thundermelon's sweet-yet-electrifying flesh.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 38261,
+    "patch": 6.2,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 610,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 78
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 94
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 46
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 97
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 118
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 58
+        }
+      }
+    },
+    "icon": 24083,
+    "craft": [
+      {
+        "id": 35117,
+        "job": 15,
+        "rlvl": 610,
+        "durability": 70,
+        "quality": 12628,
+        "progress": 5060,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3280,
+        "craftsmanshipReq": 3700,
+        "unlockId": 37741,
+        "ingredients": [
+          {
+            "id": 38271,
+            "amount": 1
+          },
+          {
+            "id": 36077,
+            "amount": 2,
+            "quality": 995.2349
+          },
+          {
+            "id": 12895,
+            "amount": 1,
+            "quality": 248.80873
+          },
+          {
+            "id": 36256,
+            "amount": 1
+          },
+          {
+            "id": 27835,
+            "amount": 1
+          },
+          {
+            "id": 36223,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 727,
+          "hq": 747
+        }
+      }
+    ],
+    "quests": [
+      70208,
+      70271
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Thundermelon",
+      "id": 38271,
+      "icon": 25326,
+      "category": 45,
+      "ilvl": 610,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38271",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38271",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dark Rye Flour",
+      "id": 36077,
+      "icon": 25356,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5282,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36083,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dark Rye",
+      "id": 36083,
+      "icon": 25359,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 79,
+          "type": 1
+        },
+        {
+          "id": 91,
+          "type": 1
+        },
+        {
+          "id": 99,
+          "type": 1
+        },
+        {
+          "id": 107,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1639
+      ],
+      "ventures": [
+        911
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Fermented Butter",
+      "id": 12895,
+      "icon": 25052,
+      "category": 45,
+      "ilvl": 130,
+      "price": 205,
+      "craft": [
+        {
+          "id": 2821,
+          "job": 15,
+          "rlvl": 130,
+          "durability": 40,
+          "quality": 1768,
+          "progress": 150,
+          "lvl": 53,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 77,
+            "hq": 97
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Egg of Elpis",
+      "id": 36256,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36256",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1644,
+        1645
+      ],
+      "ventures": [
+        945
+      ]
+    },
+    {
+      "name": "Lemonette",
+      "id": 27835,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 420,
+      "price": 630,
+      "ventures": [
+        858
+      ],
+      "nodes": [
+        632
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36083",
+      "obj": {
+        "i": 36083,
+        "n": "Dark Rye",
+        "l": 520,
+        "c": 25359,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "632",
+      "obj": {
+        "i": 632,
+        "n": "Sharptongue Drip",
+        "l": 80,
+        "t": 2,
+        "z": 2954,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "37741",
+      "obj": {
+        "i": 37741,
+        "n": "Master Culinarian X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "38271",
+      "obj": {
+        "i": 38271,
+        "n": "Thundermelon",
+        "l": 610,
+        "c": 25326,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36077",
+      "obj": {
+        "i": 36077,
+        "n": "Dark Rye Flour",
+        "l": 520,
+        "c": 25356,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12895",
+      "obj": {
+        "i": 12895,
+        "n": "Fermented Butter",
+        "l": 130,
+        "c": 25052,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36256",
+      "obj": {
+        "i": 36256,
+        "n": "Egg of Elpis",
+        "l": 539,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27835",
+      "obj": {
+        "i": 27835,
+        "n": "Lemonette",
+        "l": 420,
+        "c": 25305,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70208",
+      "obj": {
+        "i": 70208,
+        "n": "Kindled Spirit",
+        "g": 12,
+        "l": "Garlemald",
+        "s": 640
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70271",
+      "obj": {
+        "i": 70271,
+        "n": "Currying Flavor",
+        "g": 12,
+        "l": "Radz-at-Han",
+        "s": 647
+      }
+    }
+  ]
+}

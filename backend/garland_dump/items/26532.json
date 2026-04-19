@@ -1,0 +1,736 @@
+{
+  "item": {
+    "name": "Pure Titanium Plate",
+    "description": "A thin, tiny plate of the purest titanium.",
+    "id": 26532,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 300,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 38,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20961,
+    "craft": [
+      {
+        "id": 33493,
+        "job": 9,
+        "rlvl": 300,
+        "durability": 70,
+        "quality": 4200,
+        "progress": 1140,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "unlockId": 14127,
+        "ingredients": [
+          {
+            "id": 26531,
+            "amount": 3,
+            "quality": 411.7647
+          },
+          {
+            "id": 5530,
+            "amount": 9
+          },
+          {
+            "id": 8,
+            "amount": 6
+          },
+          {
+            "id": 11,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 1402,
+          "hq": 1422
+        }
+      },
+      {
+        "id": 33494,
+        "job": 10,
+        "rlvl": 300,
+        "durability": 70,
+        "quality": 4200,
+        "progress": 1140,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "unlockId": 14128,
+        "ingredients": [
+          {
+            "id": 26531,
+            "amount": 3,
+            "quality": 411.7647
+          },
+          {
+            "id": 5530,
+            "amount": 9
+          },
+          {
+            "id": 9,
+            "amount": 6
+          },
+          {
+            "id": 11,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 1402,
+          "hq": 1422
+        }
+      }
+    ],
+    "ingredient_of": {
+      "24350": 9,
+      "24351": 9,
+      "24348": 9,
+      "24349": 9,
+      "24354": 9,
+      "24355": 9,
+      "24352": 9,
+      "24353": 9,
+      "24358": 9,
+      "24359": 9,
+      "24356": 9,
+      "24357": 9,
+      "24362": 9,
+      "24363": 9,
+      "24360": 9,
+      "24361": 9,
+      "24366": 9,
+      "24367": 9,
+      "24364": 9,
+      "24365": 9
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Pure Titanium Ore",
+      "id": 26531,
+      "icon": 21222,
+      "category": 48,
+      "ilvl": 300,
+      "price": 2523,
+      "voyages": [
+        {
+          "id": 56,
+          "type": 1
+        },
+        {
+          "id": 63,
+          "type": 1
+        },
+        {
+          "id": 66,
+          "type": 1
+        },
+        {
+          "id": 32,
+          "type": 1
+        },
+        {
+          "id": 34,
+          "type": 1
+        },
+        {
+          "id": 40,
+          "type": 1
+        },
+        {
+          "id": 43,
+          "type": 1
+        },
+        {
+          "id": 44,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Coke",
+      "id": 5530,
+      "icon": 21462,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "treasure": [
+        6691
+      ],
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5530",
+                  "amount": 2
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5530",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5530",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5530",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "14127",
+      "obj": {
+        "i": 14127,
+        "n": "Master Blacksmith IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "26531",
+      "obj": {
+        "i": 26531,
+        "n": "Pure Titanium Ore",
+        "l": 300,
+        "c": 21222,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5530",
+      "obj": {
+        "i": 5530,
+        "n": "Coke",
+        "l": 70,
+        "c": 21462,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14128",
+      "obj": {
+        "i": 14128,
+        "n": "Master Armorer IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "24350",
+      "obj": {
+        "i": 24350,
+        "n": "Modified Shark-class Pressure Hull",
+        "l": 180,
+        "c": 27847,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "24351",
+      "obj": {
+        "i": 24351,
+        "n": "Modified Shark-class Stern",
+        "l": 180,
+        "c": 27827,
+        "t": 102
+      }
+    },
+    {
+      "type": "item",
+      "id": "24348",
+      "obj": {
+        "i": 24348,
+        "n": "Modified Shark-class Bow",
+        "l": 180,
+        "c": 27787,
+        "t": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "24349",
+      "obj": {
+        "i": 24349,
+        "n": "Modified Shark-class Bridge",
+        "l": 180,
+        "c": 27807,
+        "t": 104
+      }
+    },
+    {
+      "type": "item",
+      "id": "24354",
+      "obj": {
+        "i": 24354,
+        "n": "Modified Unkiu-class Pressure Hull",
+        "l": 180,
+        "c": 27846,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "24355",
+      "obj": {
+        "i": 24355,
+        "n": "Modified Unkiu-class Stern",
+        "l": 180,
+        "c": 27826,
+        "t": 102
+      }
+    },
+    {
+      "type": "item",
+      "id": "24352",
+      "obj": {
+        "i": 24352,
+        "n": "Modified Unkiu-class Bow",
+        "l": 180,
+        "c": 27786,
+        "t": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "24353",
+      "obj": {
+        "i": 24353,
+        "n": "Modified Unkiu-class Bridge",
+        "l": 180,
+        "c": 27806,
+        "t": 104
+      }
+    },
+    {
+      "type": "item",
+      "id": "24358",
+      "obj": {
+        "i": 24358,
+        "n": "Modified Whale-class Pressure Hull",
+        "l": 180,
+        "c": 27848,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "24359",
+      "obj": {
+        "i": 24359,
+        "n": "Modified Whale-class Stern",
+        "l": 180,
+        "c": 27828,
+        "t": 102
+      }
+    },
+    {
+      "type": "item",
+      "id": "24356",
+      "obj": {
+        "i": 24356,
+        "n": "Modified Whale-class Bow",
+        "l": 180,
+        "c": 27788,
+        "t": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "24357",
+      "obj": {
+        "i": 24357,
+        "n": "Modified Whale-class Bridge",
+        "l": 180,
+        "c": 27808,
+        "t": 104
+      }
+    },
+    {
+      "type": "item",
+      "id": "24362",
+      "obj": {
+        "i": 24362,
+        "n": "Modified Coelacanth-class Pressure Hull",
+        "l": 180,
+        "c": 27849,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "24363",
+      "obj": {
+        "i": 24363,
+        "n": "Modified Coelacanth-class Stern",
+        "l": 180,
+        "c": 27829,
+        "t": 102
+      }
+    },
+    {
+      "type": "item",
+      "id": "24360",
+      "obj": {
+        "i": 24360,
+        "n": "Modified Coelacanth-class Bow",
+        "l": 180,
+        "c": 27789,
+        "t": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "24361",
+      "obj": {
+        "i": 24361,
+        "n": "Modified Coelacanth-class Bridge",
+        "l": 180,
+        "c": 27809,
+        "t": 104
+      }
+    },
+    {
+      "type": "item",
+      "id": "24366",
+      "obj": {
+        "i": 24366,
+        "n": "Modified Syldra-class Pressure Hull",
+        "l": 180,
+        "c": 27850,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "24367",
+      "obj": {
+        "i": 24367,
+        "n": "Modified Syldra-class Stern",
+        "l": 180,
+        "c": 27830,
+        "t": 102
+      }
+    },
+    {
+      "type": "item",
+      "id": "24364",
+      "obj": {
+        "i": 24364,
+        "n": "Modified Syldra-class Bow",
+        "l": 180,
+        "c": 27790,
+        "t": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "24365",
+      "obj": {
+        "i": 24365,
+        "n": "Modified Syldra-class Bridge",
+        "l": 180,
+        "c": 27810,
+        "t": 104
+      }
+    }
+  ]
+}

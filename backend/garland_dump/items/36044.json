@@ -1,0 +1,370 @@
+{
+  "item": {
+    "name": "Wine-dark Soup",
+    "description": "A creamy variety of beet soup─though no self-respecting Sharlayan would ever utilize such vulgar nomenclature. <span class=\"emphasis\">Ever.</span><br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36044,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 533,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 59
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 64
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 74
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 80
+        }
+      }
+    },
+    "icon": 24123,
+    "craft": [
+      {
+        "id": 5259,
+        "job": 15,
+        "rlvl": 530,
+        "durability": 80,
+        "quality": 6600,
+        "progress": 2900,
+        "lvl": 84,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36093,
+            "amount": 2
+          },
+          {
+            "id": 27822,
+            "amount": 1
+          },
+          {
+            "id": 36255,
+            "amount": 1
+          },
+          {
+            "id": 36081,
+            "amount": 1,
+            "quality": 599.0804
+          },
+          {
+            "id": 27836,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 326,
+          "hq": 346
+        }
+      }
+    ],
+    "quests": [
+      69792,
+      70032,
+      70055
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1987000,
+      "seals": 886
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Beet",
+      "id": 36093,
+      "icon": 25231,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "leves": [
+        1642,
+        1643
+      ],
+      "ventures": [
+        922
+      ],
+      "nodes": [
+        843
+      ]
+    },
+    {
+      "name": "Russet Popoto",
+      "id": 27822,
+      "icon": 25204,
+      "category": 45,
+      "ilvl": 409,
+      "price": 630,
+      "ventures": [
+        831
+      ],
+      "nodes": [
+        630
+      ]
+    },
+    {
+      "name": "Ovibos Milk",
+      "id": 36255,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36255",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        939
+      ]
+    },
+    {
+      "name": "Garlean Cheese",
+      "id": 36081,
+      "icon": 24458,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5286,
+          "job": 15,
+          "rlvl": 530,
+          "durability": 40,
+          "quality": 6600,
+          "progress": 1450,
+          "lvl": 84,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36255,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 148,
+            "hq": 168
+          }
+        }
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "id": 27836,
+      "icon": 25016,
+      "category": 45,
+      "ilvl": 403,
+      "price": 630,
+      "ventures": [
+        827
+      ],
+      "nodes": [
+        629
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "node",
+      "id": "630",
+      "obj": {
+        "i": 630,
+        "n": "The Dragging Tail",
+        "l": 80,
+        "t": 3,
+        "z": 2955,
+        "lt": "Unspoiled",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "629",
+      "obj": {
+        "i": 629,
+        "n": "Embrasure",
+        "l": 75,
+        "t": 3,
+        "z": 2953,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36093",
+      "obj": {
+        "i": 36093,
+        "n": "Beet",
+        "l": 533,
+        "c": 25231,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27822",
+      "obj": {
+        "i": 27822,
+        "n": "Russet Popoto",
+        "l": 409,
+        "c": 25204,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36081",
+      "obj": {
+        "i": 36081,
+        "n": "Garlean Cheese",
+        "l": 533,
+        "c": 24458,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27836",
+      "obj": {
+        "i": 27836,
+        "n": "Peppermint",
+        "l": 403,
+        "c": 25016,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69792",
+      "obj": {
+        "i": 69792,
+        "n": "The Guardian's Shield",
+        "g": 142,
+        "l": "Thavnair",
+        "s": 2001
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70032",
+      "obj": {
+        "i": 70032,
+        "n": "Societal Alchemy",
+        "g": 142,
+        "l": "Thavnair",
+        "s": 2133,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70055",
+      "obj": {
+        "i": 70055,
+        "n": "Dream a Little Dream",
+        "g": 144,
+        "l": "Mare Lamentorum",
+        "s": 1954,
+        "f": 1
+      }
+    }
+  ]
+}

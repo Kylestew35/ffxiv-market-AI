@@ -1,0 +1,630 @@
+{
+  "item": {
+    "name": "Tako-yaki",
+    "description": "Bite-sized balls of fried pastry each containing a solitary chunk of tender octopus in their gooey, molten centers.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 22432,
+    "patch": 4.2,
+    "patchCategory": 6,
+    "price": 2308,
+    "ilvl": 340,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Determination": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 40
+        },
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Determination": {
+          "rate": 10,
+          "limit": 47
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 50
+        },
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 28
+        }
+      }
+    },
+    "icon": 24325,
+    "craft": [
+      {
+        "id": 32649,
+        "job": 15,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 5200,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22316,
+        "ingredients": [
+          {
+            "id": 19841,
+            "amount": 2,
+            "quality": 299.59332
+          },
+          {
+            "id": 22393,
+            "amount": 1
+          },
+          {
+            "id": 21089,
+            "amount": 1
+          },
+          {
+            "id": 19859,
+            "amount": 1
+          },
+          {
+            "id": 19877,
+            "amount": 2
+          },
+          {
+            "id": 19846,
+            "amount": 1,
+            "quality": 317.21646
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 557,
+          "hq": 577
+        }
+      }
+    ],
+    "quests": [
+      68562
+    ],
+    "usedInQuest": [
+      68727
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Gyr Abanian Flour",
+      "id": 19841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 255,
+      "price": 504,
+      "craft": [
+        {
+          "id": 3581,
+          "job": 15,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19868,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gyr Abanian Wheat",
+      "id": 19868,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 255,
+      "price": 504,
+      "leves": [
+        1298,
+        1299,
+        1300
+      ],
+      "ventures": [
+        680
+      ],
+      "nodes": [
+        505
+      ]
+    },
+    {
+      "name": "Usuginu Octopus",
+      "id": 22393,
+      "icon": 29153,
+      "category": 47,
+      "ilvl": 320,
+      "price": 320,
+      "ventures": [
+        755
+      ],
+      "fishingSpots": [
+        160
+      ]
+    },
+    {
+      "name": "Secret Recipe Broth",
+      "id": 21089,
+      "icon": 25055,
+      "category": 45,
+      "ilvl": 320,
+      "price": 2186,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21089",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21089",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Green Leek",
+      "id": 19859,
+      "icon": 25035,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        688
+      ],
+      "nodes": [
+        512
+      ]
+    },
+    {
+      "name": "Gagana Egg",
+      "id": 19877,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 260,
+      "price": 514,
+      "instances": [
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "leves": [
+        1298,
+        1299,
+        1300
+      ],
+      "ventures": [
+        709
+      ],
+      "drops": [
+        65950000005692,
+        74370000005672
+      ]
+    },
+    {
+      "name": "Cottonseed Oil",
+      "id": 19846,
+      "icon": 25452,
+      "category": 45,
+      "ilvl": 270,
+      "price": 534,
+      "craft": [
+        {
+          "id": 3585,
+          "job": 15,
+          "rlvl": 270,
+          "durability": 40,
+          "quality": 2376,
+          "progress": 365,
+          "lvl": 63,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19979,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ruby Cotton Boll",
+      "id": 19979,
+      "icon": 21652,
+      "category": 51,
+      "ilvl": 265,
+      "price": 2098,
+      "leves": [
+        1301,
+        1302,
+        1303
+      ],
+      "ventures": [
+        686
+      ],
+      "nodes": [
+        511
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "19868",
+      "obj": {
+        "i": 19868,
+        "n": "Gyr Abanian Wheat",
+        "l": 255,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "505",
+      "obj": {
+        "i": 505,
+        "n": "East End",
+        "l": 60,
+        "t": 3,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "160",
+      "obj": {
+        "i": 160,
+        "n": "The Isle of Bekko",
+        "l": 65,
+        "c": 0,
+        "z": 2409,
+        "x": 34.63,
+        "y": 20.22
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "74370000005672",
+      "obj": {
+        "i": 74370000005672,
+        "n": "Lesser Gagana",
+        "l": "60",
+        "z": 2406
+      }
+    },
+    {
+      "type": "mob",
+      "id": "65950000005692",
+      "obj": {
+        "i": 65950000005692,
+        "n": "Gagana",
+        "l": "67",
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "19979",
+      "obj": {
+        "i": 19979,
+        "n": "Ruby Cotton Boll",
+        "l": 265,
+        "c": 21652,
+        "t": 51
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "item",
+      "id": "22316",
+      "obj": {
+        "i": 22316,
+        "n": "Master Culinarian VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19841",
+      "obj": {
+        "i": 19841,
+        "n": "Gyr Abanian Flour",
+        "l": 255,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "22393",
+      "obj": {
+        "i": 22393,
+        "n": "Usuginu Octopus",
+        "l": 320,
+        "c": 29153,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "21089",
+      "obj": {
+        "i": 21089,
+        "n": "Secret Recipe Broth",
+        "l": 320,
+        "c": 25055,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19859",
+      "obj": {
+        "i": 19859,
+        "n": "Green Leek",
+        "l": 273,
+        "c": 25035,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19877",
+      "obj": {
+        "i": 19877,
+        "n": "Gagana Egg",
+        "l": 260,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19846",
+      "obj": {
+        "i": 19846,
+        "n": "Cottonseed Oil",
+        "l": 270,
+        "c": 25452,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68562",
+      "obj": {
+        "i": 68562,
+        "n": "Storm on the Horizon",
+        "g": 7,
+        "l": "Yanxia",
+        "s": 16
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68727",
+      "obj": {
+        "i": 68727,
+        "n": "Wok on By",
+        "g": 24,
+        "l": "Kugane",
+        "s": 999
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "item": {
+    "name": "Toad Suit",
+    "description": "Cannot equip gear to hands, legs, and feet.",
+    "jobCategories": "All Classes",
+    "id": 27937,
+    "patch": 5.0,
+    "patchCategory": 3,
+    "price": 2,
+    "ilvl": 1,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5594,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 16,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "6089-1-0-0"
+    ],
+    "attr": {
+      "Defense": 37,
+      "Magic Defense": 64
+    },
+    "icon": 43581,
+    "tradeShops": [
+      {
+        "shop": "Glorious Gewgaws",
+        "npcs": [
+          1027565
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27937",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27972",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027565",
+      "obj": {
+        "i": 1027565,
+        "n": "Fathard",
+        "l": 2952,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 3275,
+        "c": [
+          10.18,
+          11.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27972",
+      "obj": {
+        "i": 27972,
+        "n": "Archaeotania's Horn",
+        "l": 1,
+        "c": 22205,
+        "t": 53
+      }
+    }
+  ]
+}

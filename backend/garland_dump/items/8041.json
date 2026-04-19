@@ -1,0 +1,152 @@
+{
+  "item": {
+    "name": "Talan's Seal of Botany",
+    "description": "A document bearing master crafter Talan's personal seal. Can be presented in exchange for select botanist's equipment.",
+    "id": 8041,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 2970,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26176,
+    "tradeCurrency": [
+      {
+        "shop": "Supra Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8445",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "2558",
+                "amount": 1
+              },
+              {
+                "id": "8155",
+                "amount": 1
+              },
+              {
+                "id": "8041",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Supra Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8041",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8031",
+                "amount": 30
+              },
+              {
+                "id": "8150",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "2558",
+      "obj": {
+        "i": 2558,
+        "n": "Rauni",
+        "l": 55,
+        "c": 38111,
+        "t": 30,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "8155",
+      "obj": {
+        "i": 8155,
+        "n": "Mastercraft Demimateria",
+        "l": 70,
+        "c": 21285,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8445",
+      "obj": {
+        "i": 8445,
+        "n": "Rauni Supra",
+        "l": 75,
+        "c": 38113,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "8031",
+      "obj": {
+        "i": 8031,
+        "n": "Redolent Log",
+        "l": 75,
+        "c": 22415,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "8150",
+      "obj": {
+        "i": 8150,
+        "n": "Fieldcraft Demimateria III",
+        "l": 70,
+        "c": 20243,
+        "t": 83
+      }
+    }
+  ]
+}

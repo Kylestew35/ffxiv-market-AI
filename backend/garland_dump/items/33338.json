@@ -1,0 +1,150 @@
+{
+  "item": {
+    "name": "G-Warrior Card",
+    "description": "An epic (★★★★) card used in the game Triple Triad.<br>Card No. 306",
+    "id": 33338,
+    "patch": 5.5,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27665,
+    "tradeShops": [
+      {
+        "shop": "Bombastic Bric-a-brac",
+        "npcs": [
+          1033259
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33338",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29001",
+                "amount": 1
+              },
+              {
+                "id": "32132",
+                "amount": 1
+              },
+              {
+                "id": "33480",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33338",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29001",
+                "amount": 1
+              },
+              {
+                "id": "32132",
+                "amount": 1
+              },
+              {
+                "id": "33480",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "Originally created by the Allagans as a prototype for the Ultima Weapon, this warmachina was known as the Ultima Warrior before being restored and extensively modified by Garlond Ironworks. It was later called into action in the battle with the Sapphire Weapon, where its vast range of armaments were the deciding factor in overcoming its far larger opponent. Rumors suggesting the “G” stands for “gun” remain unverified, especially considering its weapon of choice is an aethersaber."
+      },
+      "ja": {
+        "description": "アラグ帝国が「究極兵器開発計画」の一環として開発した対蛮神兵器「アルテマウォリアー」をベースに、ガーロンド・アイアンワークス社が改修を加えた機体。ウェルリト強襲作戦において、解放者が搭乗、サファイアウェポンを撃破した。"
+      },
+      "de": {
+        "description": "Diese Kriegsmaschine wurde ursprünglich von den Allagern als Prototyp der Ultima-Waffe entwickelt und Ultima-Krieger genannt. Mitarbeiter der Gar<SoftHyphen/>lond-Me<SoftHyphen/>tall<SoftHyphen/>wer<SoftHyphen/>ke fanden das Relikt, restaurierten es und gaben ihm seinen neuen Namen. Kurz darauf kam der G-Krieger beim Kampf gegen die Saphir-Waffe zum Einsatz."
+      },
+      "fr": {
+        "description": "L'Ultima-guerrier était une machine de guerre anti-Primordiaux, conçue par l'empire d'Allag dans le cadre de son programme de recherche et de développement d'armes ultimes. Des milliers d'années plus tard, les Forges de Garlond l'ont remodelé afin que <If(PlayerParameter(4))>la Guerrière<Else/>le Guerrier</If> de la Lumière puisse en prendre le contrôle et affronter l'Arme Saphir... à armes égales<Indent/>!"
+      },
+      "sellMgp": 800,
+      "plate": 87323,
+      "rarity": 4,
+      "top": 9,
+      "bottom": 7,
+      "left": 8,
+      "right": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033259",
+      "obj": {
+        "i": 1033259,
+        "n": "C'intana",
+        "l": 67,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.8,
+          6.67
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29001",
+      "obj": {
+        "i": 29001,
+        "n": "Ruby Totem",
+        "l": 1,
+        "c": 26601,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "32132",
+      "obj": {
+        "i": 32132,
+        "n": "Emerald Totem",
+        "l": 1,
+        "c": 26611,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33480",
+      "obj": {
+        "i": 33480,
+        "n": "Diamond Totem",
+        "l": 1,
+        "c": 26614,
+        "t": 61
+      }
+    }
+  ]
+}

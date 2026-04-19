@@ -1,0 +1,56 @@
+{
+  "item": {
+    "name": "Enchanted Elm Lumber",
+    "description": "A cutting of wizened elm, processed into smooth lumber by magic.",
+    "id": 27977,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 3,
+    "ilvl": 1,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22469,
+    "ingredient_of": {
+      "26782": 3
+    },
+    "instances": [
+      55006
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "VENTURE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "26782",
+      "obj": {
+        "i": 26782,
+        "n": "Magicked Bed",
+        "l": 1,
+        "c": 52463,
+        "t": 63
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55006",
+      "obj": {
+        "i": 55006,
+        "n": "The Dungeons of Lyhe Ghiah",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 80,
+        "max_ilvl": 505
+      }
+    }
+  ]
+}

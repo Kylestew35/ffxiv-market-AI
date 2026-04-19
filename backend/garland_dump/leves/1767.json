@@ -1,0 +1,601 @@
+{
+  "leve": {
+    "name": "Ocean Explosion",
+    "description": "Of all our offerings, I'm most proud of my acqua pazza─a dish bursting with the bounties of the ocean. It sells well, I'm pleased to say, but I simply don't have time to personally prepare each dish. You seem to handle yourself well enough in a kitchen, so can I ask you to take a few plates off my hands?",
+    "id": 1767,
+    "patch": 7.0,
+    "client": "Owner of Xbalyav Ty'e, Br'uk Evu",
+    "lvl": 98,
+    "jobCategory": 16,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 3206200,
+    "gil": 5180,
+    "rewards": 879,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44076,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 1170,
+      "hq": 1230
+    }
+  },
+  "rewards": {
+    "id": 879,
+    "entries": [
+      {
+        "item": 8,
+        "rate": 0.23,
+        "amount": 40
+      },
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 40
+      },
+      {
+        "item": 43984,
+        "rate": 0.23
+      },
+      {
+        "item": 8,
+        "rate": 0.1,
+        "amount": 48
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 48
+      },
+      {
+        "item": 43985,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Acqua Pazza",
+      "id": 44076,
+      "icon": 24335,
+      "category": 46,
+      "ilvl": 680,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5615,
+          "job": 15,
+          "rlvl": 680,
+          "durability": 80,
+          "quality": 11000,
+          "progress": 6000,
+          "lvl": 98,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 43972,
+              "amount": 1,
+              "quality": 1158.0823
+            },
+            {
+              "id": 43793,
+              "amount": 1
+            },
+            {
+              "id": 4891,
+              "amount": 1
+            },
+            {
+              "id": 44039,
+              "amount": 1
+            },
+            {
+              "id": 43978,
+              "amount": 1
+            },
+            {
+              "id": 27838,
+              "amount": 1,
+              "quality": 694.84937
+            },
+            {
+              "id": 8,
+              "amount": 8
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 390,
+            "hq": 410
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cooking Mezcal",
+      "id": 43972,
+      "icon": 25057,
+      "category": 45,
+      "ilvl": 650,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5586,
+          "job": 15,
+          "rlvl": 650,
+          "durability": 40,
+          "quality": 8200,
+          "progress": 2000,
+          "lvl": 91,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 44067,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 148,
+            "hq": 168
+          }
+        }
+      ]
+    },
+    {
+      "name": "Megamaguey Pineapple",
+      "id": 44067,
+      "icon": 25332,
+      "category": 45,
+      "ilvl": 650,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "44067",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1758
+      ],
+      "ventures": [
+        1028
+      ]
+    },
+    {
+      "name": "Devotion Clam",
+      "id": 43793,
+      "icon": 29307,
+      "category": 47,
+      "ilvl": 685,
+      "price": 99999,
+      "ventures": [
+        1095
+      ],
+      "fishingSpots": [
+        332
+      ]
+    },
+    {
+      "name": "Bianaq Bream",
+      "id": 4891,
+      "icon": 29009,
+      "category": 47,
+      "ilvl": 27,
+      "price": 139,
+      "ventures": [
+        329
+      ],
+      "fishingSpots": [
+        51,
+        52,
+        104
+      ]
+    },
+    {
+      "name": "Wind Parsley",
+      "id": 44039,
+      "icon": 25211,
+      "category": 54,
+      "ilvl": 685,
+      "price": 99999,
+      "leves": [
+        1751
+      ],
+      "ventures": [
+        1022
+      ],
+      "nodes": [
+        1004
+      ]
+    },
+    {
+      "name": "Ut'ohmu Tomato",
+      "id": 43978,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 650,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 108,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1758,
+        1759
+      ],
+      "ventures": [
+        1000
+      ],
+      "nodes": [
+        997
+      ]
+    },
+    {
+      "name": "Frantoio Oil",
+      "id": 27838,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 390,
+      "price": 2799,
+      "craft": [
+        {
+          "id": 3877,
+          "job": 15,
+          "rlvl": 390,
+          "durability": 40,
+          "quality": 3010,
+          "progress": 597,
+          "lvl": 71,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27820,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frantoio",
+      "id": 27820,
+      "icon": 25307,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1463,
+        1464,
+        1465
+      ],
+      "ventures": [
+        808
+      ],
+      "nodes": [
+        612
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "44067",
+      "obj": {
+        "i": 44067,
+        "n": "Megamaguey Pineapple",
+        "l": 650,
+        "c": 25332,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "332",
+      "obj": {
+        "i": 332,
+        "n": "Canal Town North",
+        "l": 100,
+        "c": 0,
+        "z": 4510,
+        "x": 9.51,
+        "y": 28.15
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "51",
+      "obj": {
+        "i": 51,
+        "n": "South Bloodshore",
+        "l": 25,
+        "c": 0,
+        "z": 32,
+        "x": 32.93,
+        "y": 34.47
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "52",
+      "obj": {
+        "i": 52,
+        "n": "Costa del Sol",
+        "l": 30,
+        "c": 0,
+        "z": 32,
+        "x": 32.89,
+        "y": 29.31
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "104",
+      "obj": {
+        "i": 104,
+        "n": "Mist",
+        "l": 30,
+        "c": 0,
+        "z": 425,
+        "x": 11.01,
+        "y": 11.01
+      }
+    },
+    {
+      "type": "node",
+      "id": "1004",
+      "obj": {
+        "i": 1004,
+        "n": "Blooms of Discovery",
+        "l": 100,
+        "t": 3,
+        "z": 4510
+      }
+    },
+    {
+      "type": "node",
+      "id": "997",
+      "obj": {
+        "i": 997,
+        "n": "The Ut'ohmu Horizon",
+        "l": 95,
+        "t": 3,
+        "z": 4507
+      }
+    },
+    {
+      "type": "item",
+      "id": "27820",
+      "obj": {
+        "i": 27820,
+        "n": "Frantoio",
+        "l": 390,
+        "c": 25307,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "612",
+      "obj": {
+        "i": 612,
+        "n": "The Chiliad",
+        "l": 75,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "43972",
+      "obj": {
+        "i": 43972,
+        "n": "Cooking Mezcal",
+        "l": 650,
+        "c": 25057,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "43793",
+      "obj": {
+        "i": 43793,
+        "n": "Devotion Clam",
+        "l": 685,
+        "c": 29307,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "4891",
+      "obj": {
+        "i": 4891,
+        "n": "Bianaq Bream",
+        "l": 27,
+        "c": 29009,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "44039",
+      "obj": {
+        "i": 44039,
+        "n": "Wind Parsley",
+        "l": 685,
+        "c": 25211,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "43978",
+      "obj": {
+        "i": 43978,
+        "n": "Ut'ohmu Tomato",
+        "l": 650,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27838",
+      "obj": {
+        "i": 27838,
+        "n": "Frantoio Oil",
+        "l": 390,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70358",
+      "obj": {
+        "i": 70358,
+        "n": "Awakened, Not Stirred",
+        "g": 226,
+        "l": "Ishgard",
+        "s": 141,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70478",
+      "obj": {
+        "i": 70478,
+        "n": "The Protector and the Destroyer",
+        "g": 13,
+        "l": "Heritage Found",
+        "s": 830
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70780",
+      "obj": {
+        "i": 70780,
+        "n": "A Royal Invitation",
+        "g": 14,
+        "l": "Tuliyollal",
+        "s": 101
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1767",
+      "obj": {
+        "i": 1767,
+        "n": "Ocean Explosion",
+        "l": 98,
+        "j": 16,
+        "p": 4504
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43984",
+      "obj": {
+        "i": 43984,
+        "n": "Bell Pepper",
+        "l": 680,
+        "c": 25044,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "43985",
+      "obj": {
+        "i": 43985,
+        "n": "Yyasulani Garlic",
+        "l": 680,
+        "c": 25006,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "44076",
+      "obj": {
+        "i": 44076,
+        "n": "Acqua Pazza",
+        "l": 680,
+        "c": 24335,
+        "t": 46
+      }
+    }
+  ]
+}

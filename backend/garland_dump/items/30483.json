@@ -1,0 +1,645 @@
+{
+  "item": {
+    "name": "Brashgold Plate",
+    "description": "A sheet of highly durable brashgold plate.",
+    "id": 30483,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 233,
+    "ilvl": 490,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20963,
+    "ingredient_of": {
+      "30440": 3,
+      "30441": 3,
+      "30442": 3,
+      "30443": 3,
+      "30444": 3,
+      "30445": 3,
+      "30446": 3,
+      "30447": 3,
+      "30448": 3,
+      "30449": 3,
+      "30450": 3,
+      "30451": 3,
+      "30452": 3,
+      "30453": 3,
+      "30454": 3,
+      "30455": 3,
+      "30456": 3,
+      "30457": 3,
+      "30458": 3,
+      "30459": 3,
+      "30460": 3,
+      "30472": 2,
+      "30473": 2,
+      "30474": 2,
+      "30475": 2,
+      "32206": 2,
+      "32823": 2
+    },
+    "craft": [
+      {
+        "id": 33951,
+        "job": 10,
+        "rlvl": 480,
+        "durability": 35,
+        "quality": 6375,
+        "progress": 2240,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29486,
+        "ingredients": [
+          {
+            "id": 30486,
+            "amount": 3
+          },
+          {
+            "id": 28718,
+            "amount": 1
+          },
+          {
+            "id": 30590,
+            "amount": 1
+          },
+          {
+            "id": 15,
+            "amount": 2
+          },
+          {
+            "id": 17,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 362,
+          "hq": 382
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Brashgold Ore",
+      "id": 30486,
+      "icon": 21227,
+      "category": 48,
+      "ilvl": 490,
+      "price": 233,
+      "ventures": [
+        870
+      ],
+      "nodes": [
+        681
+      ]
+    },
+    {
+      "name": "Sublime Solution",
+      "id": 28718,
+      "icon": 22669,
+      "category": 54,
+      "ilvl": 450,
+      "price": 2523,
+      "desynthedFrom": [
+        29382,
+        26916,
+        26915,
+        29399,
+        29367,
+        26923,
+        32628,
+        26929,
+        32592,
+        28252,
+        26928,
+        33508
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28718",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28718",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Levinstrike Aethersand",
+      "id": 30590,
+      "icon": 21238,
+      "category": 54,
+      "ilvl": 490,
+      "price": 1000,
+      "reducedFrom": [
+        30592,
+        30591,
+        30593
+      ],
+      "desynthedFrom": [
+        32049
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "30590",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "30590",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "681",
+      "obj": {
+        "i": 681,
+        "n": "The Isle of Ken",
+        "l": 80,
+        "t": 0,
+        "z": 2953,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          2,
+          14
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "30592",
+      "obj": {
+        "i": 30592,
+        "n": "Levin Mint",
+        "l": 460,
+        "c": 25039,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "30591",
+      "obj": {
+        "i": 30591,
+        "n": "Thunder Rock",
+        "l": 460,
+        "c": 21482,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "30593",
+      "obj": {
+        "i": 30593,
+        "n": "Fuchsia Bloom",
+        "l": 460,
+        "c": 28479,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "30440",
+      "obj": {
+        "i": 30440,
+        "n": "Aesthete's Saw",
+        "l": 490,
+        "c": 35039,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "30441",
+      "obj": {
+        "i": 30441,
+        "n": "Aesthete's Cross-pein Hammer",
+        "l": 490,
+        "c": 35138,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "30442",
+      "obj": {
+        "i": 30442,
+        "n": "Aesthete's Raising Hammer",
+        "l": 490,
+        "c": 35238,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "30443",
+      "obj": {
+        "i": 30443,
+        "n": "Aesthete's Mallet",
+        "l": 490,
+        "c": 35337,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "30444",
+      "obj": {
+        "i": 30444,
+        "n": "Aesthete's Round Knife",
+        "l": 490,
+        "c": 35438,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "30445",
+      "obj": {
+        "i": 30445,
+        "n": "Aesthete's Needle",
+        "l": 490,
+        "c": 35538,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "30446",
+      "obj": {
+        "i": 30446,
+        "n": "Aesthete's Alembic",
+        "l": 490,
+        "c": 35637,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "30447",
+      "obj": {
+        "i": 30447,
+        "n": "Aesthete's Frypan",
+        "l": 490,
+        "c": 35740,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "30448",
+      "obj": {
+        "i": 30448,
+        "n": "Aesthete's Pickaxe",
+        "l": 490,
+        "c": 38040,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "30449",
+      "obj": {
+        "i": 30449,
+        "n": "Aesthete's Hatchet",
+        "l": 490,
+        "c": 38138,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "30450",
+      "obj": {
+        "i": 30450,
+        "n": "Aesthete's Fishing Rod",
+        "l": 490,
+        "c": 38241,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "30451",
+      "obj": {
+        "i": 30451,
+        "n": "Aesthete's Claw Hammer",
+        "l": 490,
+        "c": 35068,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "30452",
+      "obj": {
+        "i": 30452,
+        "n": "Aesthete's File",
+        "l": 490,
+        "c": 35165,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "30453",
+      "obj": {
+        "i": 30453,
+        "n": "Aesthete's Pliers",
+        "l": 490,
+        "c": 35265,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "30454",
+      "obj": {
+        "i": 30454,
+        "n": "Aesthete's Grinding Wheel",
+        "l": 490,
+        "c": 35365,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "30455",
+      "obj": {
+        "i": 30455,
+        "n": "Aesthete's Awl",
+        "l": 490,
+        "c": 35460,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "30456",
+      "obj": {
+        "i": 30456,
+        "n": "Aesthete's Spinning Wheel",
+        "l": 490,
+        "c": 35566,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "30457",
+      "obj": {
+        "i": 30457,
+        "n": "Aesthete's Mortar",
+        "l": 490,
+        "c": 35665,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "30458",
+      "obj": {
+        "i": 30458,
+        "n": "Aesthete's Culinary Knife",
+        "l": 490,
+        "c": 35765,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "30459",
+      "obj": {
+        "i": 30459,
+        "n": "Aesthete's Sledgehammer",
+        "l": 490,
+        "c": 38065,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "30460",
+      "obj": {
+        "i": 30460,
+        "n": "Aesthete's Scythe",
+        "l": 490,
+        "c": 38165,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "30472",
+      "obj": {
+        "i": 30472,
+        "n": "Aesthete's Ear Cuffs of Crafting",
+        "l": 490,
+        "c": 55460,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "30473",
+      "obj": {
+        "i": 30473,
+        "n": "Aesthete's Choker of Crafting",
+        "l": 490,
+        "c": 55025,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "30474",
+      "obj": {
+        "i": 30474,
+        "n": "Aesthete's Bracelets of Crafting",
+        "l": 490,
+        "c": 55828,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "30475",
+      "obj": {
+        "i": 30475,
+        "n": "Aesthete's Ring of Crafting",
+        "l": 490,
+        "c": 54677,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "29486",
+      "obj": {
+        "i": 29486,
+        "n": "Master Armorer VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30486",
+      "obj": {
+        "i": 30486,
+        "n": "Brashgold Ore",
+        "l": 490,
+        "c": 21227,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "28718",
+      "obj": {
+        "i": 28718,
+        "n": "Sublime Solution",
+        "l": 450,
+        "c": 22669,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "30590",
+      "obj": {
+        "i": 30590,
+        "n": "Levinstrike Aethersand",
+        "l": 490,
+        "c": 21238,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "32206",
+      "obj": {
+        "i": 32206,
+        "n": "Emerald Weapon Bust",
+        "l": 510,
+        "c": 53384,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "32823",
+      "obj": {
+        "i": 32823,
+        "n": "Emerald Barding",
+        "l": 1,
+        "c": 58737,
+        "t": 63
+      }
+    }
+  ]
+}

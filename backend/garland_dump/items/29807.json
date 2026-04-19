@@ -1,0 +1,727 @@
+{
+  "item": {
+    "name": "Grade 2 Skybuilders' Bread",
+    "description": "While it is true that man cannot live on bread alone, a little bit here and there certainly does not go amiss.",
+    "id": 29807,
+    "patch": 5.21,
+    "patchCategory": 5,
+    "price": 450,
+    "ilvl": 40,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 24003,
+    "craft": [
+      {
+        "id": 33728,
+        "job": 15,
+        "rlvl": 40,
+        "durability": 60,
+        "quality": 3500,
+        "progress": 138,
+        "lvl": 40,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 29845,
+            "amount": 5
+          },
+          {
+            "id": 29848,
+            "amount": 5
+          },
+          {
+            "id": 4826,
+            "amount": 3,
+            "quality": 29.097387
+          },
+          {
+            "id": 2,
+            "amount": 4
+          },
+          {
+            "id": 7,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 1000051,
+          "hq": 1000071
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 2 Skybuilders' Maple Sap",
+      "id": 29845,
+      "icon": 23835,
+      "category": 54,
+      "ilvl": 40,
+      "price": 90
+    },
+    {
+      "name": "Approved Grade 2 Skybuilders' Rock Salt",
+      "id": 29848,
+      "icon": 23870,
+      "category": 54,
+      "ilvl": 40,
+      "price": 90
+    },
+    {
+      "name": "Sunset Wheat Flour",
+      "id": 4826,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 7,
+      "price": 4,
+      "craft": [
+        {
+          "id": 915,
+          "job": 15,
+          "rlvl": 7,
+          "durability": 40,
+          "quality": 152,
+          "progress": 18,
+          "lvl": 7,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 4824,
+              "amount": 4
+            },
+            {
+              "id": 2,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 36,
+            "hq": 56
+          }
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Rainbowtide Psashp Exchange",
+          "npcs": [
+            1008907
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "4826",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21077",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1000301,
+        1008907
+      ]
+    },
+    {
+      "name": "Sunset Wheat",
+      "id": 4824,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 4,
+      "price": 5,
+      "ventures": [
+        188
+      ],
+      "nodes": [
+        30
+      ],
+      "vendors": [
+        1003249,
+        1008837,
+        1008838,
+        1008839,
+        1008840,
+        1008841,
+        1008842,
+        1008843,
+        1008844,
+        1008845,
+        1008846,
+        1013117,
+        1013118,
+        1018662,
+        1018663,
+        1018664,
+        1018665,
+        1018666,
+        1018667,
+        1018668,
+        1018669,
+        1018670,
+        1018671,
+        1018672,
+        1018673,
+        1024548,
+        1024549,
+        1024550,
+        1024551,
+        1024552,
+        1024553,
+        1024554,
+        1024555,
+        1024556,
+        1024557,
+        1024558,
+        1024559,
+        1025039,
+        1025043,
+        1025717,
+        1026169,
+        1027015,
+        1045242,
+        1045256,
+        1056020,
+        1056024
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1000301",
+      "obj": {
+        "i": 1000301,
+        "n": "Littlejohn",
+        "l": 53,
+        "s": 1,
+        "t": "Whistling Miller Proprietor",
+        "c": [
+          "9.4",
+          "7.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "4824",
+      "obj": {
+        "i": 4824,
+        "n": "Sunset Wheat",
+        "l": 4,
+        "c": 25357,
+        "t": 45,
+        "p": 5
+      }
+    },
+    {
+      "type": "node",
+      "id": "30",
+      "obj": {
+        "i": 30,
+        "n": "Summerford",
+        "l": 15,
+        "t": 3,
+        "z": 30
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003249",
+      "obj": {
+        "i": 1003249,
+        "n": "Jossy",
+        "l": 28,
+        "s": 1,
+        "t": "Guild Supplier",
+        "a": 709,
+        "c": [
+          9.99,
+          7.95
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008837",
+      "obj": {
+        "i": 1008837,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008838",
+      "obj": {
+        "i": 1008838,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008839",
+      "obj": {
+        "i": 1008839,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008840",
+      "obj": {
+        "i": 1008840,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008841",
+      "obj": {
+        "i": 1008841,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008842",
+      "obj": {
+        "i": 1008842,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008843",
+      "obj": {
+        "i": 1008843,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008844",
+      "obj": {
+        "i": 1008844,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008845",
+      "obj": {
+        "i": 1008845,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008846",
+      "obj": {
+        "i": 1008846,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013117",
+      "obj": {
+        "i": 1013117,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013118",
+      "obj": {
+        "i": 1013118,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018662",
+      "obj": {
+        "i": 1018662,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018663",
+      "obj": {
+        "i": 1018663,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018664",
+      "obj": {
+        "i": 1018664,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018665",
+      "obj": {
+        "i": 1018665,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018666",
+      "obj": {
+        "i": 1018666,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018667",
+      "obj": {
+        "i": 1018667,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018668",
+      "obj": {
+        "i": 1018668,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018669",
+      "obj": {
+        "i": 1018669,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018670",
+      "obj": {
+        "i": 1018670,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018671",
+      "obj": {
+        "i": 1018671,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018672",
+      "obj": {
+        "i": 1018672,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018673",
+      "obj": {
+        "i": 1018673,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024548",
+      "obj": {
+        "i": 1024548,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024549",
+      "obj": {
+        "i": 1024549,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024550",
+      "obj": {
+        "i": 1024550,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024551",
+      "obj": {
+        "i": 1024551,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024552",
+      "obj": {
+        "i": 1024552,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024553",
+      "obj": {
+        "i": 1024553,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024554",
+      "obj": {
+        "i": 1024554,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024555",
+      "obj": {
+        "i": 1024555,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024556",
+      "obj": {
+        "i": 1024556,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024557",
+      "obj": {
+        "i": 1024557,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024558",
+      "obj": {
+        "i": 1024558,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024559",
+      "obj": {
+        "i": 1024559,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025039",
+      "obj": {
+        "i": 1025039,
+        "n": "Allagan Resupply Node",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025043",
+      "obj": {
+        "i": 1025043,
+        "n": "Ananta Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025717",
+      "obj": {
+        "i": 1025717,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026169",
+      "obj": {
+        "i": 1026169,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027015",
+      "obj": {
+        "i": 1027015,
+        "n": "Kojin Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045242",
+      "obj": {
+        "i": 1045242,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045256",
+      "obj": {
+        "i": 1045256,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056020",
+      "obj": {
+        "i": 1056020,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056024",
+      "obj": {
+        "i": 1056024,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "29845",
+      "obj": {
+        "i": 29845,
+        "n": "Approved Grade 2 Skybuilders' Maple Sap",
+        "l": 40,
+        "c": 23835,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "29848",
+      "obj": {
+        "i": 29848,
+        "n": "Approved Grade 2 Skybuilders' Rock Salt",
+        "l": 40,
+        "c": 23870,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "4826",
+      "obj": {
+        "i": 4826,
+        "n": "Sunset Wheat Flour",
+        "l": 7,
+        "c": 25351,
+        "t": 45,
+        "p": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "item": {
+    "name": "Black Horn Staff",
+    "jobCategories": "THM BLM",
+    "id": 2130,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 8252,
+    "ilvl": 44,
+    "category": 7,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 86,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 44,
+    "jobs": 55,
+    "models": [
+      "1001-1-7-0"
+    ],
+    "attr": {
+      "Physical Damage": 44,
+      "Magic Damage": 44,
+      "Delay": 3.2,
+      "Intelligence": 10,
+      "Vitality": 12,
+      "Determination": 16
+    },
+    "attr_hq": {
+      "Physical Damage": 49,
+      "Magic Damage": 49,
+      "Intelligence": 11,
+      "Vitality": 13,
+      "Determination": 18
+    },
+    "attr_max": {
+      "Strength": 11,
+      "Dexterity": 8,
+      "Vitality": 14,
+      "Mind": 8,
+      "Piety": 13,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 18,
+      "Direct Hit Rate": 18,
+      "Critical Hit": 18,
+      "Fire Resistance": 5,
+      "Ice Resistance": 5,
+      "Wind Resistance": 5,
+      "Earth Resistance": 5,
+      "Lightning Resistance": 5,
+      "Water Resistance": 5,
+      "Skill Speed": 18,
+      "Spell Speed": 18,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 100,
+      "Control": 57,
+      "Gathering": 105,
+      "Perception": 60
+    },
+    "icon": 33023,
+    "sharedModels": [
+      2106,
+      2107,
+      2108,
+      2109,
+      2111,
+      2113,
+      2114,
+      2115,
+      2116,
+      2117,
+      2118,
+      2120,
+      2121,
+      2123,
+      2125,
+      2127,
+      2129,
+      2132,
+      2133,
+      6276,
+      6745,
+      10640,
+      31427
+    ],
+    "vendors": [
+      1006898,
+      1006952,
+      1005180,
+      1005181,
+      1004598,
+      1004160,
+      1000217,
+      1001205,
+      1001970,
+      1011203
+    ],
+    "craft": [
+      {
+        "id": 1458,
+        "job": 11,
+        "rlvl": 44,
+        "durability": 80,
+        "quality": 1640,
+        "progress": 156,
+        "lvl": 44,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5200,
+            "amount": 1,
+            "quality": 158.24562
+          },
+          {
+            "id": 5439,
+            "amount": 2
+          },
+          {
+            "id": 4,
+            "amount": 5
+          },
+          {
+            "id": 2,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 110,
+          "hq": 130
+        }
+      }
+    ],
+    "supply": {
+      "count": 1,
+      "xp": 187000,
+      "seals": 338
+    },
+    "downgrades": [
+      2125,
+      2129
+    ],
+    "upgrades": [
+      2133,
+      10640,
+      23944
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Eye of Wind",
+      "id": 5200,
+      "icon": 21254,
+      "category": 48,
+      "ilvl": 22,
+      "price": 100,
+      "craft": [
+        {
+          "id": 723,
+          "job": 11,
+          "rlvl": 23,
+          "durability": 40,
+          "quality": 480,
+          "progress": 39,
+          "lvl": 23,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5154,
+              "amount": 1
+            },
+            {
+              "id": 4,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 28,
+            "hq": 48
+          }
+        }
+      ]
+    },
+    {
+      "name": "Wind Rock",
+      "id": 5154,
+      "icon": 21451,
+      "category": 48,
+      "ilvl": 22,
+      "price": 168,
+      "ventures": [
+        106
+      ],
+      "nodes": [
+        48
+      ]
+    },
+    {
+      "name": "Ogre Horn",
+      "id": 5439,
+      "icon": 22205,
+      "category": 53,
+      "ilvl": 46,
+      "price": 890,
+      "ventures": [
+        68,
+        159
+      ],
+      "drops": [
+        23740000002339,
+        19220000002017,
+        44540000003493,
+        33590000003031,
+        21970000002061,
+        6470000002874,
+        6470000000793,
+        17960000001442
+      ],
+      "nodes": [
+        189
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5154",
+      "obj": {
+        "i": 5154,
+        "n": "Wind Rock",
+        "l": 22,
+        "c": 21451,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 1,
+        "z": 56
+      }
+    },
+    {
+      "type": "node",
+      "id": "189",
+      "obj": {
+        "i": 189,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "6470000000793",
+      "obj": {
+        "i": 6470000000793,
+        "n": "Hapalit",
+        "l": "48",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17960000001442",
+      "obj": {
+        "i": 17960000001442,
+        "n": "Porus",
+        "l": "48",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "19220000002017",
+      "obj": {
+        "i": 19220000002017,
+        "n": "Bolthorn",
+        "l": "45",
+        "z": 63
+      }
+    },
+    {
+      "type": "mob",
+      "id": "21970000002061",
+      "obj": {
+        "i": 21970000002061,
+        "n": "Elder Hapalit",
+        "l": "45",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "23740000002339",
+      "obj": {
+        "i": 23740000002339,
+        "n": "Manor Warden",
+        "l": "50",
+        "z": 59
+      }
+    },
+    {
+      "type": "mob",
+      "id": "6470000002874",
+      "obj": {
+        "i": 6470000002874,
+        "n": "Scabrous Hapalit",
+        "l": "50",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "33590000003031",
+      "obj": {
+        "i": 33590000003031,
+        "n": "Hrimthurs",
+        "l": "50",
+        "z": 404
+      }
+    },
+    {
+      "type": "mob",
+      "id": "44540000003493",
+      "obj": {
+        "i": 44540000003493,
+        "n": "Vindthurs",
+        "l": "56",
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "2106",
+      "obj": {
+        "i": 2106,
+        "n": "Bone Staff",
+        "l": 5,
+        "c": 33001,
+        "t": 7,
+        "p": 234
+      }
+    },
+    {
+      "type": "item",
+      "id": "2107",
+      "obj": {
+        "i": 2107,
+        "n": "Ramhorn Staff",
+        "l": 9,
+        "c": 33001,
+        "t": 7,
+        "p": 410
+      }
+    },
+    {
+      "type": "item",
+      "id": "2108",
+      "obj": {
+        "i": 2108,
+        "n": "Decorated Bone Staff",
+        "l": 12,
+        "c": 33002,
+        "t": 7,
+        "p": 582
+      }
+    },
+    {
+      "type": "item",
+      "id": "2109",
+      "obj": {
+        "i": 2109,
+        "n": "Toothed Ramhorn Staff",
+        "l": 17,
+        "c": 33002,
+        "t": 7,
+        "p": 925
+      }
+    },
+    {
+      "type": "item",
+      "id": "2111",
+      "obj": {
+        "i": 2111,
+        "n": "Staghorn Staff",
+        "l": 20,
+        "c": 33003,
+        "t": 7,
+        "p": 1170
+      }
+    },
+    {
+      "type": "item",
+      "id": "2113",
+      "obj": {
+        "i": 2113,
+        "n": "Serpent Private's Staff",
+        "l": 23,
+        "c": 33022,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2114",
+      "obj": {
+        "i": 2114,
+        "n": "Storm Private's Staff",
+        "l": 23,
+        "c": 33022,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2115",
+      "obj": {
+        "i": 2115,
+        "n": "Flame Private's Staff",
+        "l": 23,
+        "c": 33022,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2116",
+      "obj": {
+        "i": 2116,
+        "n": "Sanguine Horn Staff",
+        "l": 23,
+        "c": 33003,
+        "t": 7,
+        "p": 1830
+      }
+    },
+    {
+      "type": "item",
+      "id": "2117",
+      "obj": {
+        "i": 2117,
+        "n": "Taurus Staff",
+        "l": 26,
+        "c": 33005,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2118",
+      "obj": {
+        "i": 2118,
+        "n": "Toothed Staghorn Staff",
+        "l": 26,
+        "c": 33003,
+        "t": 7,
+        "p": 2688
+      }
+    },
+    {
+      "type": "item",
+      "id": "2120",
+      "obj": {
+        "i": 2120,
+        "n": "Tenfinger Tallstaff",
+        "l": 30,
+        "c": 33015,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2121",
+      "obj": {
+        "i": 2121,
+        "n": "Goathorn Staff",
+        "l": 31,
+        "c": 33020,
+        "t": 7,
+        "p": 4602
+      }
+    },
+    {
+      "type": "item",
+      "id": "2123",
+      "obj": {
+        "i": 2123,
+        "n": "Toothed Goathorn Staff",
+        "l": 34,
+        "c": 33006,
+        "t": 7,
+        "p": 5350
+      }
+    },
+    {
+      "type": "item",
+      "id": "2125",
+      "obj": {
+        "i": 2125,
+        "n": "Horn Staff",
+        "l": 39,
+        "c": 33003,
+        "t": 7,
+        "p": 6723
+      }
+    },
+    {
+      "type": "item",
+      "id": "2127",
+      "obj": {
+        "i": 2127,
+        "n": "Lominsan Staff",
+        "l": 40,
+        "c": 33005,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2129",
+      "obj": {
+        "i": 2129,
+        "n": "Gridanian Staff",
+        "l": 43,
+        "c": 33008,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2132",
+      "obj": {
+        "i": 2132,
+        "n": "Aubriest's Whisper",
+        "l": 52,
+        "c": 33009,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2133",
+      "obj": {
+        "i": 2133,
+        "n": "Ivory Staff",
+        "l": 49,
+        "c": 33006,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "6276",
+      "obj": {
+        "i": 6276,
+        "n": "Darklight Staff",
+        "l": 55,
+        "c": 33009,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "6745",
+      "obj": {
+        "i": 6745,
+        "n": "Wolf Staff",
+        "l": 55,
+        "c": 33006,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "10640",
+      "obj": {
+        "i": 10640,
+        "n": "Yeti Staff",
+        "l": 115,
+        "c": 33033,
+        "t": 7,
+        "p": 23680
+      }
+    },
+    {
+      "type": "item",
+      "id": "31427",
+      "obj": {
+        "i": 31427,
+        "n": "Plundered Staff",
+        "l": 17,
+        "c": 33143,
+        "t": 7
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006898",
+      "obj": {
+        "i": 1006898,
+        "n": "Merchant & Mender",
+        "l": 67,
+        "s": 5,
+        "c": [
+          "30.0",
+          "12.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006952",
+      "obj": {
+        "i": 1006952,
+        "n": "Independent Merchant",
+        "l": 67,
+        "s": 5,
+        "c": [
+          "21.8",
+          "6.9"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005180",
+      "obj": {
+        "i": 1005180,
+        "n": "Merchant & Mender",
+        "l": 33,
+        "s": 5,
+        "a": 226,
+        "c": [
+          21.89,
+          20.22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005181",
+      "obj": {
+        "i": 1005181,
+        "n": "Merchant & Mender",
+        "l": 33,
+        "s": 5,
+        "a": 227,
+        "c": [
+          19.68,
+          23.18
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004598",
+      "obj": {
+        "i": 1004598,
+        "n": "Merchant & Mender",
+        "l": 46,
+        "s": 5,
+        "c": [
+          "21.4",
+          "22.1"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004160",
+      "obj": {
+        "i": 1004160,
+        "n": "Merchant & Mender",
+        "l": 46,
+        "s": 5,
+        "c": [
+          "20.8",
+          "30.9"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000217",
+      "obj": {
+        "i": 1000217,
+        "n": "Geraint",
+        "l": 53,
+        "s": 10,
+        "t": "Battlecraft Supplier",
+        "c": [
+          "14.6",
+          "9.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001205",
+      "obj": {
+        "i": 1001205,
+        "n": "Faezghim",
+        "l": 29,
+        "s": 10,
+        "t": "Battlecraft Supplier",
+        "a": 745,
+        "c": [
+          6.52,
+          11.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001970",
+      "obj": {
+        "i": 1001970,
+        "n": "Jealous Juggernaut",
+        "l": 41,
+        "s": 10,
+        "t": "Independent Arms Merchant",
+        "a": 647,
+        "c": [
+          13.95,
+          11.06
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011203",
+      "obj": {
+        "i": 1011203,
+        "n": "Elbert",
+        "l": 2301,
+        "s": 16,
+        "t": "Weaponsmith",
+        "a": 2317,
+        "c": [
+          6.96,
+          10.0
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5200",
+      "obj": {
+        "i": 5200,
+        "n": "Eye of Wind",
+        "l": 22,
+        "c": 21254,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5439",
+      "obj": {
+        "i": 5439,
+        "n": "Ogre Horn",
+        "l": 46,
+        "c": 22205,
+        "t": 53
+      }
+    },
+    {
+      "type": "item",
+      "id": "23944",
+      "obj": {
+        "i": 23944,
+        "n": "Serpent Captain's Rod",
+        "l": 130,
+        "c": 33111,
+        "t": 7
+      }
+    }
+  ]
+}

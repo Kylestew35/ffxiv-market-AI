@@ -1,0 +1,901 @@
+{
+  "item": {
+    "name": "Softsilver Ingot",
+    "description": "An ingot of smelted softsilver.",
+    "id": 39718,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20803,
+    "ingredient_of": {
+      "39630": 3,
+      "39631": 4,
+      "39632": 4,
+      "39633": 2,
+      "39634": 2,
+      "39635": 4,
+      "39636": 3,
+      "39637": 3,
+      "39638": 3,
+      "39639": 3,
+      "39640": 3,
+      "39641": 3,
+      "39642": 3,
+      "39643": 3,
+      "39644": 3,
+      "39645": 4,
+      "39646": 4,
+      "39647": 3,
+      "39648": 4,
+      "39649": 1,
+      "39651": 1,
+      "39652": 1,
+      "39653": 3,
+      "39654": 1,
+      "39656": 1,
+      "39657": 1,
+      "39658": 3,
+      "39659": 1,
+      "39662": 1,
+      "39666": 1,
+      "39667": 1,
+      "39668": 3,
+      "39669": 1,
+      "39672": 1,
+      "39685": 1,
+      "39686": 1,
+      "39687": 1,
+      "39688": 1,
+      "39689": 1,
+      "39690": 1,
+      "39691": 1,
+      "39692": 1,
+      "39693": 1,
+      "39694": 1,
+      "39695": 1,
+      "39696": 1,
+      "39697": 1,
+      "39698": 1,
+      "39699": 1,
+      "41592": 1,
+      "41595": 1,
+      "41086": 3,
+      "43603": 2
+    },
+    "craft": [
+      {
+        "id": 35575,
+        "job": 9,
+        "rlvl": 640,
+        "durability": 35,
+        "quality": 9090,
+        "progress": 4488,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3660,
+        "craftsmanshipReq": 3950,
+        "unlockId": 37735,
+        "ingredients": [
+          {
+            "id": 39706,
+            "amount": 5
+          },
+          {
+            "id": 39712,
+            "amount": 2
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 17,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 540,
+          "hq": 560
+        }
+      },
+      {
+        "id": 35576,
+        "job": 10,
+        "rlvl": 640,
+        "durability": 35,
+        "quality": 9090,
+        "progress": 4488,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3660,
+        "craftsmanshipReq": 3950,
+        "unlockId": 37736,
+        "ingredients": [
+          {
+            "id": 39706,
+            "amount": 5
+          },
+          {
+            "id": 39712,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 3
+          },
+          {
+            "id": 17,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 540,
+          "hq": 560
+        }
+      }
+    ],
+    "desynthedFrom": [
+      39634
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Softsilver Ore",
+      "id": 39706,
+      "icon": 21227,
+      "category": 48,
+      "ilvl": 640,
+      "price": 99999,
+      "ventures": [
+        1044
+      ],
+      "nodes": [
+        933
+      ]
+    },
+    {
+      "name": "Thavnairian Flux",
+      "id": 39712,
+      "icon": 22654,
+      "category": 54,
+      "ilvl": 640,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39712",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39712",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "933",
+      "obj": {
+        "i": 933,
+        "n": "Ostrakon Deka-okto",
+        "l": 90,
+        "t": 0,
+        "z": 3712,
+        "s": 4,
+        "lt": "Legendary",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39630",
+      "obj": {
+        "i": 39630,
+        "n": "Diadochos Sword",
+        "l": 640,
+        "c": 30667,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "39631",
+      "obj": {
+        "i": 39631,
+        "n": "Diadochos Knuckles",
+        "l": 640,
+        "c": 30831,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "39632",
+      "obj": {
+        "i": 39632,
+        "n": "Diadochos War Axe",
+        "l": 640,
+        "c": 31241,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "39633",
+      "obj": {
+        "i": 39633,
+        "n": "Diadochos Spear",
+        "l": 640,
+        "c": 31643,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "39634",
+      "obj": {
+        "i": 39634,
+        "n": "Diadochos Compound Bow",
+        "l": 640,
+        "c": 32031,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "39635",
+      "obj": {
+        "i": 39635,
+        "n": "Diadochos Main Gauches",
+        "l": 640,
+        "c": 33617,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "39636",
+      "obj": {
+        "i": 39636,
+        "n": "Diadochos Greatsword",
+        "l": 640,
+        "c": 34395,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "39637",
+      "obj": {
+        "i": 39637,
+        "n": "Diadochos Revolver",
+        "l": 640,
+        "c": 34490,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "39638",
+      "obj": {
+        "i": 39638,
+        "n": "Diadochos Cane",
+        "l": 640,
+        "c": 32461,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "39639",
+      "obj": {
+        "i": 39639,
+        "n": "Diadochos Rod",
+        "l": 640,
+        "c": 32876,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "39640",
+      "obj": {
+        "i": 39640,
+        "n": "Diadochos Index",
+        "l": 640,
+        "c": 33386,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "39641",
+      "obj": {
+        "i": 39641,
+        "n": "Diadochos Codex",
+        "l": 640,
+        "c": 33385,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "39642",
+      "obj": {
+        "i": 39642,
+        "n": "Diadochos Planisphere",
+        "l": 640,
+        "c": 34988,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "39643",
+      "obj": {
+        "i": 39643,
+        "n": "Diadochos Blade",
+        "l": 640,
+        "c": 36545,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "39644",
+      "obj": {
+        "i": 39644,
+        "n": "Diadochos Smallsword",
+        "l": 640,
+        "c": 36844,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "39645",
+      "obj": {
+        "i": 39645,
+        "n": "Diadochos Gunblade",
+        "l": 640,
+        "c": 36087,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "39646",
+      "obj": {
+        "i": 39646,
+        "n": "Diadochos Chakrams",
+        "l": 640,
+        "c": 36286,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "39647",
+      "obj": {
+        "i": 39647,
+        "n": "Diadochos Wings",
+        "l": 640,
+        "c": 37053,
+        "t": 109
+      }
+    },
+    {
+      "type": "item",
+      "id": "39648",
+      "obj": {
+        "i": 39648,
+        "n": "Diadochos Zaghnal",
+        "l": 640,
+        "c": 37256,
+        "t": 108
+      }
+    },
+    {
+      "type": "item",
+      "id": "39649",
+      "obj": {
+        "i": 39649,
+        "n": "Diadochos Shield",
+        "l": 640,
+        "c": 30256,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "39651",
+      "obj": {
+        "i": 39651,
+        "n": "Diadochos Jacket of Fending",
+        "l": 640,
+        "c": 42962,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39652",
+      "obj": {
+        "i": 39652,
+        "n": "Diadochos Halfgloves of Fending",
+        "l": 640,
+        "c": 56094,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39653",
+      "obj": {
+        "i": 39653,
+        "n": "Diadochos Poleyns of Fending",
+        "l": 640,
+        "c": 47992,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39654",
+      "obj": {
+        "i": 39654,
+        "n": "Diadochos Boots of Fending",
+        "l": 640,
+        "c": 49584,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39656",
+      "obj": {
+        "i": 39656,
+        "n": "Diadochos Jacket of Maiming",
+        "l": 640,
+        "c": 42963,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39657",
+      "obj": {
+        "i": 39657,
+        "n": "Diadochos Halfgloves of Maiming",
+        "l": 640,
+        "c": 56095,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39658",
+      "obj": {
+        "i": 39658,
+        "n": "Diadochos Poleyns of Maiming",
+        "l": 640,
+        "c": 47993,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39659",
+      "obj": {
+        "i": 39659,
+        "n": "Diadochos Boots of Maiming",
+        "l": 640,
+        "c": 49585,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39662",
+      "obj": {
+        "i": 39662,
+        "n": "Diadochos Gloves of Striking",
+        "l": 640,
+        "c": 56099,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39666",
+      "obj": {
+        "i": 39666,
+        "n": "Diadochos Jacket of Aiming",
+        "l": 640,
+        "c": 42964,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39667",
+      "obj": {
+        "i": 39667,
+        "n": "Diadochos Halfgloves of Aiming",
+        "l": 640,
+        "c": 56096,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39668",
+      "obj": {
+        "i": 39668,
+        "n": "Diadochos Poleyns of Aiming",
+        "l": 640,
+        "c": 47994,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39669",
+      "obj": {
+        "i": 39669,
+        "n": "Diadochos Boots of Aiming",
+        "l": 640,
+        "c": 49586,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39672",
+      "obj": {
+        "i": 39672,
+        "n": "Diadochos Gloves of Scouting",
+        "l": 640,
+        "c": 56100,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39685",
+      "obj": {
+        "i": 39685,
+        "n": "Diadochos Earring of Fending",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39686",
+      "obj": {
+        "i": 39686,
+        "n": "Diadochos Earring of Slaying",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39687",
+      "obj": {
+        "i": 39687,
+        "n": "Diadochos Earring of Aiming",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39688",
+      "obj": {
+        "i": 39688,
+        "n": "Diadochos Earring of Healing",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39689",
+      "obj": {
+        "i": 39689,
+        "n": "Diadochos Earring of Casting",
+        "l": 640,
+        "c": 55516,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "39690",
+      "obj": {
+        "i": 39690,
+        "n": "Diadochos Choker of Fending",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39691",
+      "obj": {
+        "i": 39691,
+        "n": "Diadochos Choker of Slaying",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39692",
+      "obj": {
+        "i": 39692,
+        "n": "Diadochos Choker of Aiming",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39693",
+      "obj": {
+        "i": 39693,
+        "n": "Diadochos Choker of Healing",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39694",
+      "obj": {
+        "i": 39694,
+        "n": "Diadochos Choker of Casting",
+        "l": 640,
+        "c": 55072,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "39695",
+      "obj": {
+        "i": 39695,
+        "n": "Diadochos Wristband of Fending",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39696",
+      "obj": {
+        "i": 39696,
+        "n": "Diadochos Wristband of Slaying",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39697",
+      "obj": {
+        "i": 39697,
+        "n": "Diadochos Wristband of Aiming",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39698",
+      "obj": {
+        "i": 39698,
+        "n": "Diadochos Wristband of Healing",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39699",
+      "obj": {
+        "i": 39699,
+        "n": "Diadochos Wristband of Casting",
+        "l": 640,
+        "c": 55872,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "37735",
+      "obj": {
+        "i": 37735,
+        "n": "Master Blacksmith X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39706",
+      "obj": {
+        "i": 39706,
+        "n": "Softsilver Ore",
+        "l": 640,
+        "c": 21227,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "39712",
+      "obj": {
+        "i": 39712,
+        "n": "Thavnairian Flux",
+        "l": 640,
+        "c": 22654,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "37736",
+      "obj": {
+        "i": 37736,
+        "n": "Master Armorer X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "41592",
+      "obj": {
+        "i": 41592,
+        "n": "Martial Artist's Vest",
+        "l": 1,
+        "c": 57013,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "41595",
+      "obj": {
+        "i": 41595,
+        "n": "Martial Artist's Sleeveless Vest",
+        "l": 1,
+        "c": 57014,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "41086",
+      "obj": {
+        "i": 41086,
+        "n": "Abyssal Wings Display",
+        "l": 610,
+        "c": 53476,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "43603",
+      "obj": {
+        "i": 43603,
+        "n": "Electrope Barding",
+        "l": 1,
+        "c": 58797,
+        "t": 63
+      }
+    }
+  ]
+}

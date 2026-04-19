@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Tavern Supplies",
+    "description": "Everything required to make a tavern worthy of the most discerning lush.<br><br>※Only for use in dwarf society quests.",
+    "id": 31166,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "31167": 1
+    },
+    "usedInQuest": [
+      69451
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31167",
+      "obj": {
+        "i": 31167,
+        "n": "Tavern Materials",
+        "l": 290,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69451",
+      "obj": {
+        "i": 69451,
+        "n": "What's in a Locket",
+        "g": 67,
+        "l": "Lakeland",
+        "s": 114,
+        "r": 1
+      }
+    }
+  ]
+}

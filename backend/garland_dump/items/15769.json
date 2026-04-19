@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Ishgardian Cuisine Miscellany Materials",
+    "description": "Materials required to craft the finishing touches of an Ishgardian meal.<br><br>※Only for use in moogle society quests.",
+    "id": 15769,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "15743": 1
+    },
+    "usedInQuest": [
+      67852
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15743",
+      "obj": {
+        "i": 15743,
+        "n": "Ishgardian Cuisine Miscellany",
+        "l": 55,
+        "c": 21003,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67852",
+      "obj": {
+        "i": 67852,
+        "n": "An Ishgardian Treat",
+        "g": 55,
+        "l": "The Churning Mists",
+        "s": 35,
+        "r": 1
+      }
+    }
+  ]
+}

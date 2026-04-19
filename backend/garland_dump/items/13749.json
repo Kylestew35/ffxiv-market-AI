@@ -1,0 +1,746 @@
+{
+  "item": {
+    "name": "Pterodactyl Leather",
+    "description": "A large piece of cured pterodactyl skin.",
+    "id": 13749,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 2851,
+    "ilvl": 160,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22010,
+    "ingredient_of": {
+      "13643": 1,
+      "13644": 2,
+      "13649": 1,
+      "13650": 2,
+      "13652": 1,
+      "13653": 2,
+      "13654": 2,
+      "13655": 1,
+      "13656": 2,
+      "13658": 2,
+      "13660": 2,
+      "13662": 2,
+      "13664": 1,
+      "13665": 2,
+      "13666": 2,
+      "13667": 1,
+      "13668": 2,
+      "13670": 1,
+      "13671": 1,
+      "13672": 2,
+      "13674": 2,
+      "13676": 1,
+      "13677": 1,
+      "13678": 2,
+      "13680": 2,
+      "13769": 2,
+      "13770": 1,
+      "14941": 1,
+      "14942": 1,
+      "15510": 1,
+      "15511": 2,
+      "15512": 1,
+      "15513": 1,
+      "15514": 1,
+      "15521": 1,
+      "15523": 1,
+      "15524": 1,
+      "17467": 1,
+      "17469": 2,
+      "22550": 3,
+      "22551": 2
+    },
+    "craft": [
+      {
+        "id": 31340,
+        "job": 12,
+        "rlvl": 160,
+        "durability": 35,
+        "quality": 2800,
+        "progress": 330,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 1,
+        "hq": 1,
+        "quickSynth": 1,
+        "craftsmanshipReq": 620,
+        "quickSynthCraftsmanship": 718,
+        "unlockId": 12248,
+        "ingredients": [
+          {
+            "id": 13733,
+            "amount": 1
+          },
+          {
+            "id": 12578,
+            "amount": 1
+          },
+          {
+            "id": 17,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 136,
+          "hq": 156
+        }
+      }
+    ],
+    "desynthedFrom": [
+      12786
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Pterodactyl",
+      "id": 13733,
+      "icon": 29724,
+      "category": 47,
+      "ilvl": 150,
+      "price": 1425,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13733",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13733",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fishingSpots": [
+        10021,
+        10022,
+        10020
+      ]
+    },
+    {
+      "name": "Dark Chestnut Log",
+      "id": 12578,
+      "icon": 22420,
+      "category": 50,
+      "ilvl": 136,
+      "price": 753,
+      "leves": [
+        920,
+        921,
+        922,
+        923,
+        924,
+        925
+      ],
+      "ventures": [
+        468
+      ],
+      "nodes": [
+        295
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10021",
+      "obj": {
+        "i": 10021,
+        "n": "Calm Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 28,
+        "y": 33
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10022",
+      "obj": {
+        "i": 10022,
+        "n": "Swirling Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 13,
+        "y": 24
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10020",
+      "obj": {
+        "i": 10020,
+        "n": "Blustery Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 31,
+        "y": 11
+      }
+    },
+    {
+      "type": "node",
+      "id": "295",
+      "obj": {
+        "i": 295,
+        "n": "The Smoldering Wastes",
+        "l": 55,
+        "t": 2,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "13643",
+      "obj": {
+        "i": 13643,
+        "n": "Sky Pirate's Gaskins of Fending",
+        "l": 185,
+        "c": 45706,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13644",
+      "obj": {
+        "i": 13644,
+        "n": "Sky Pirate's Boots of Fending",
+        "l": 185,
+        "c": 47030,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13649",
+      "obj": {
+        "i": 13649,
+        "n": "Sky Pirate's Gaskins of Maiming",
+        "l": 185,
+        "c": 45707,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13650",
+      "obj": {
+        "i": 13650,
+        "n": "Sky Pirate's Boots of Maiming",
+        "l": 185,
+        "c": 47031,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13652",
+      "obj": {
+        "i": 13652,
+        "n": "Sky Pirate's Mask of Striking",
+        "l": 185,
+        "c": 40951,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13653",
+      "obj": {
+        "i": 13653,
+        "n": "Sky Pirate's Jacket of Striking",
+        "l": 185,
+        "c": 42480,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13654",
+      "obj": {
+        "i": 13654,
+        "n": "Sky Pirate's Gloves of Striking",
+        "l": 185,
+        "c": 44402,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13655",
+      "obj": {
+        "i": 13655,
+        "n": "Sky Pirate's Trousers of Striking",
+        "l": 185,
+        "c": 45708,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13656",
+      "obj": {
+        "i": 13656,
+        "n": "Sky Pirate's Boots of Striking",
+        "l": 185,
+        "c": 46553,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13658",
+      "obj": {
+        "i": 13658,
+        "n": "Sky Pirate's Beret of Aiming",
+        "l": 185,
+        "c": 41280,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13660",
+      "obj": {
+        "i": 13660,
+        "n": "Sky Pirate's Gloves of Aiming",
+        "l": 185,
+        "c": 44404,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13662",
+      "obj": {
+        "i": 13662,
+        "n": "Sky Pirate's Boots of Aiming",
+        "l": 185,
+        "c": 46555,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13664",
+      "obj": {
+        "i": 13664,
+        "n": "Sky Pirate's Mask of Scouting",
+        "l": 185,
+        "c": 40952,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13665",
+      "obj": {
+        "i": 13665,
+        "n": "Sky Pirate's Jacket of Scouting",
+        "l": 185,
+        "c": 42481,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13666",
+      "obj": {
+        "i": 13666,
+        "n": "Sky Pirate's Gloves of Scouting",
+        "l": 185,
+        "c": 44403,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13667",
+      "obj": {
+        "i": 13667,
+        "n": "Sky Pirate's Trousers of Scouting",
+        "l": 185,
+        "c": 45709,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13668",
+      "obj": {
+        "i": 13668,
+        "n": "Sky Pirate's Boots of Scouting",
+        "l": 185,
+        "c": 46554,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13670",
+      "obj": {
+        "i": 13670,
+        "n": "Sky Pirate's Cap of Healing",
+        "l": 185,
+        "c": 41281,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13671",
+      "obj": {
+        "i": 13671,
+        "n": "Sky Pirate's Coat of Healing",
+        "l": 185,
+        "c": 43697,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13672",
+      "obj": {
+        "i": 13672,
+        "n": "Sky Pirate's Gloves of Healing",
+        "l": 185,
+        "c": 44405,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13674",
+      "obj": {
+        "i": 13674,
+        "n": "Sky Pirate's Shoes of Healing",
+        "l": 185,
+        "c": 46556,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13676",
+      "obj": {
+        "i": 13676,
+        "n": "Sky Pirate's Cap of Casting",
+        "l": 185,
+        "c": 41282,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13677",
+      "obj": {
+        "i": 13677,
+        "n": "Sky Pirate's Coat of Casting",
+        "l": 185,
+        "c": 43698,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13678",
+      "obj": {
+        "i": 13678,
+        "n": "Sky Pirate's Gloves of Casting",
+        "l": 185,
+        "c": 44406,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13680",
+      "obj": {
+        "i": 13680,
+        "n": "Sky Pirate's Shoes of Casting",
+        "l": 185,
+        "c": 46557,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "12248",
+      "obj": {
+        "i": 12248,
+        "n": "Master Leatherworker III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13733",
+      "obj": {
+        "i": 13733,
+        "n": "Pterodactyl",
+        "l": 150,
+        "c": 29724,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12578",
+      "obj": {
+        "i": 12578,
+        "n": "Dark Chestnut Log",
+        "l": 136,
+        "c": 22420,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "13769",
+      "obj": {
+        "i": 13769,
+        "n": "Falconer's Bottoms",
+        "l": 1,
+        "c": 45722,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13770",
+      "obj": {
+        "i": 13770,
+        "n": "Falconer's Boots",
+        "l": 1,
+        "c": 46568,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14941",
+      "obj": {
+        "i": 14941,
+        "n": "Dinosaur Leather Gloves",
+        "l": 1,
+        "c": 44445,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "14942",
+      "obj": {
+        "i": 14942,
+        "n": "Wind Silk Bottoms",
+        "l": 1,
+        "c": 45778,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "15510",
+      "obj": {
+        "i": 15510,
+        "n": "Carbonweave Cap of Gathering",
+        "l": 170,
+        "c": 41323,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "15511",
+      "obj": {
+        "i": 15511,
+        "n": "Carbonweave Vest of Gathering",
+        "l": 170,
+        "c": 42514,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "15512",
+      "obj": {
+        "i": 15512,
+        "n": "Carbonweave Gloves of Gathering",
+        "l": 170,
+        "c": 44450,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "15513",
+      "obj": {
+        "i": 15513,
+        "n": "Carbonweave Slops of Gathering",
+        "l": 170,
+        "c": 45783,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "15514",
+      "obj": {
+        "i": 15514,
+        "n": "Carbonweave Boots of Gathering",
+        "l": 170,
+        "c": 46612,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "15521",
+      "obj": {
+        "i": 15521,
+        "n": "Carbonweave Apron of Crafting",
+        "l": 170,
+        "c": 42512,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "15523",
+      "obj": {
+        "i": 15523,
+        "n": "Carbonweave Breeches of Crafting",
+        "l": 170,
+        "c": 45781,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "15524",
+      "obj": {
+        "i": 15524,
+        "n": "Carbonweave Boots of Crafting",
+        "l": 170,
+        "c": 46610,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17467",
+      "obj": {
+        "i": 17467,
+        "n": "Flannel Suspenders",
+        "l": 1,
+        "c": 43752,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17469",
+      "obj": {
+        "i": 17469,
+        "n": "Pteroskin Shoes",
+        "l": 1,
+        "c": 46676,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "22550",
+      "obj": {
+        "i": 22550,
+        "n": "Leather Bags",
+        "l": 1,
+        "c": 53222,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "22551",
+      "obj": {
+        "i": 22551,
+        "n": "Cozy Leather Shoes",
+        "l": 1,
+        "c": 53223,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "12786",
+      "obj": {
+        "i": 12786,
+        "n": "Magma Louse",
+        "l": 142,
+        "c": 29856,
+        "t": 47
+      }
+    }
+  ]
+}

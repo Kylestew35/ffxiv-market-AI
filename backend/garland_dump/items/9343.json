@@ -1,0 +1,123 @@
+{
+  "item": {
+    "name": "Master Culinarian II",
+    "description": "This esoteric tome─the second in an equally esoteric series─contains advanced cooking recipes that can only be learned by highly skilled culinarians.",
+    "id": 9343,
+    "patch": 2.4,
+    "patchCategory": 5,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26155,
+    "tradeShops": [
+      {
+        "shop": "Master Crafting Tomes",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9343",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8039",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocks": [
+      9330,
+      9331,
+      9332,
+      9335
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8039",
+      "obj": {
+        "i": 8039,
+        "n": "Rich Tomato Relish",
+        "l": 75,
+        "c": 25101,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "9330",
+      "obj": {
+        "i": 9330,
+        "n": "Triple Cream Coffee",
+        "l": 110,
+        "c": 24407,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "9331",
+      "obj": {
+        "i": 9331,
+        "n": "Bacon Bread",
+        "l": 110,
+        "c": 24012,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "9332",
+      "obj": {
+        "i": 9332,
+        "n": "Flint Caviar",
+        "l": 110,
+        "c": 24259,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "9335",
+      "obj": {
+        "i": 9335,
+        "n": "Bacon Broth",
+        "l": 110,
+        "c": 24103,
+        "t": 46
+      }
+    }
+  ]
+}

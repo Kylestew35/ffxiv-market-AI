@@ -1,0 +1,200 @@
+{
+  "item": {
+    "name": "Dust Bunny",
+    "description": "Despite the striking similarities, spriggans are not related to rabbits. But they have been known to eat them.<br><br>Use item to acquire the dust bunny minion.",
+    "minionrace": "Critter",
+    "tooltip": "Between the four of us,\r\nsurely we can outsmart\r\na few rogue spriggans.\r\n  - Augustiniel",
+    "minionskilltype": "Damage",
+    "specialactionname": "Romp",
+    "specialactiondescription": "Delivers an attack with a potency of 90 to all enemies within range.",
+    "id": 6189,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59424,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1008119
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6189",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1016902,
+          1016903,
+          1016904
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6189",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14944",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6189",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 340,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 30,
+      "Speed": 4
+    },
+    "models": [
+      "8021-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016902",
+      "obj": {
+        "i": 1016902,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016903",
+      "obj": {
+        "i": 1016903,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016904",
+      "obj": {
+        "i": 1016904,
+        "n": "Dreamer",
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "14944",
+      "obj": {
+        "i": 14944,
+        "n": "Chipped Fortune Egg",
+        "l": 1,
+        "c": 21308,
+        "t": 85
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

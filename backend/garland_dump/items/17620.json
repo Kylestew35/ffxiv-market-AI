@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Flibbertigibbet Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Flibbertigibbet</span>. Use to add to your orchestrion list.",
+    "id": 17620,
+    "patch": 3.5,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 117,
+      "name": "Flibbertigibbet",
+      "description": "Available for sylphic goldleaf exchange in Little Solace.",
+      "category": "Locales I",
+      "order": 21
+    },
+    "tradeShops": [
+      {
+        "shop": "Sylphic Goldleaf Exchange",
+        "npcs": [
+          1005569
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17620",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21075",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    }
+  ]
+}

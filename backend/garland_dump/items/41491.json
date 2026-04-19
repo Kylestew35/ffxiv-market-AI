@@ -1,0 +1,82 @@
+{
+  "item": {
+    "name": "Rhiyes Identification Key",
+    "description": "A thin, rectangular piece of what appears to be cermet. Placing it near your Rhiyes will magically bring the machine to life.",
+    "mount": {
+      "name": "Rhiyes",
+      "action": "Summon forth your Rhiyes, a vibrantly hued mechanical rhinoceros that can't say no to terrorizing the Beans of Blunderville.",
+      "description": "Created to serve as an obstacle in Blunderville, this mechanical rhinoceros has employed its ample weight and power to thwart the progress of many a hapless Bean. Fortunately for you, however, this example was programmed to shuttle you around rather than send you flying.",
+      "tooltip": "There they go again, charging off<br>before we have a chance to discuss<br>our plan of action!<br>   - Shigure",
+      "icon": 4270,
+      "guideIcon": 68270
+    },
+    "id": 41491,
+    "patch": 6.51,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1046441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41491",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41629",
+                "amount": 410
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "864-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1046441",
+      "obj": {
+        "i": 1046441,
+        "n": "MGF Trader",
+        "l": 4468,
+        "s": 1,
+        "t": "Prize Claim",
+        "r": 1,
+        "c": [
+          3.85,
+          3.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41629",
+      "obj": {
+        "i": 41629,
+        "n": "MGF",
+        "l": 1,
+        "c": "t/65106",
+        "t": 100
+      }
+    }
+  ]
+}

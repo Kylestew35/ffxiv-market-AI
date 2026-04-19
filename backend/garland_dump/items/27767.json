@@ -1,0 +1,805 @@
+{
+  "item": {
+    "name": "Grade 1 Strength Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to strength, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 27767,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2878,
+    "ilvl": 400,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 29,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22683,
+    "craft": [
+      {
+        "id": 3858,
+        "job": 14,
+        "rlvl": 400,
+        "durability": 40,
+        "quality": 3120,
+        "progress": 645,
+        "lvl": 73,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27968,
+            "amount": 1
+          },
+          {
+            "id": 27763,
+            "amount": 1
+          },
+          {
+            "id": 19911,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 82,
+          "hq": 102
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25972": 1,
+      "25973": 2,
+      "25974": 1,
+      "25975": 2,
+      "25976": 1,
+      "25978": 1,
+      "25979": 2,
+      "25980": 1,
+      "25981": 2,
+      "25982": 1,
+      "26009": 1,
+      "26014": 1,
+      "26019": 1,
+      "26024": 1,
+      "26132": 1,
+      "26133": 2,
+      "26134": 1,
+      "26135": 2,
+      "26136": 1,
+      "26138": 1,
+      "26139": 2,
+      "26140": 1,
+      "26141": 2,
+      "26142": 1,
+      "26169": 1,
+      "26174": 1,
+      "26179": 1,
+      "26184": 1,
+      "26292": 1,
+      "26293": 2,
+      "26294": 1,
+      "26295": 2,
+      "26296": 1,
+      "26298": 1,
+      "26299": 2,
+      "26300": 1,
+      "26301": 2,
+      "26302": 1,
+      "26329": 1,
+      "26334": 1,
+      "26339": 1,
+      "26344": 1
+    },
+    "supply": {
+      "count": 3,
+      "xp": 831000,
+      "seals": 823
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Highland Spring Water",
+      "id": 27968,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        29986
+      ],
+      "leves": [
+        1482,
+        1483
+      ],
+      "ventures": [
+        791
+      ],
+      "nodes": [
+        592
+      ]
+    },
+    {
+      "name": "Hoptrap Leaf",
+      "id": 27763,
+      "icon": 25202,
+      "category": 54,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27763",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1487,
+        1489
+      ],
+      "ventures": [
+        773
+      ]
+    },
+    {
+      "name": "Yanxian Parsley",
+      "id": 19911,
+      "icon": 25016,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        701
+      ],
+      "nodes": [
+        517
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "592",
+      "obj": {
+        "i": 592,
+        "n": "The Bookman's Shelves",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "27968",
+      "obj": {
+        "i": 27968,
+        "n": "Highland Spring Water",
+        "l": 400,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27763",
+      "obj": {
+        "i": 27763,
+        "n": "Hoptrap Leaf",
+        "l": 390,
+        "c": 25202,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19911",
+      "obj": {
+        "i": 19911,
+        "n": "Yanxian Parsley",
+        "l": 285,
+        "c": 25016,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "25972",
+      "obj": {
+        "i": 25972,
+        "n": "Bluespirit Helm of Maiming",
+        "l": 403,
+        "c": 40330,
+        "t": 34,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25973",
+      "obj": {
+        "i": 25973,
+        "n": "Bluespirit Cuirass of Maiming",
+        "l": 403,
+        "c": 48181,
+        "t": 35,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "25974",
+      "obj": {
+        "i": 25974,
+        "n": "Bluespirit Gauntlets of Maiming",
+        "l": 403,
+        "c": 48762,
+        "t": 37,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25975",
+      "obj": {
+        "i": 25975,
+        "n": "Atrociraptorskin Breeches of Maiming",
+        "l": 403,
+        "c": 47536,
+        "t": 36,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "25976",
+      "obj": {
+        "i": 25976,
+        "n": "Bluespirit Sabatons of Maiming",
+        "l": 403,
+        "c": 47186,
+        "t": 38,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25978",
+      "obj": {
+        "i": 25978,
+        "n": "Pixie Cotton Hat of Striking",
+        "l": 403,
+        "c": 41444,
+        "t": 34,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25979",
+      "obj": {
+        "i": 25979,
+        "n": "Pixie Cotton Acton of Striking",
+        "l": 403,
+        "c": 43444,
+        "t": 35,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "25980",
+      "obj": {
+        "i": 25980,
+        "n": "Pixie Cotton Sleeves of Striking",
+        "l": 403,
+        "c": 48763,
+        "t": 37,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "25981",
+      "obj": {
+        "i": 25981,
+        "n": "Pixie Cotton Culottes of Striking",
+        "l": 403,
+        "c": 47539,
+        "t": 36,
+        "p": 38511
+      }
+    },
+    {
+      "type": "item",
+      "id": "25982",
+      "obj": {
+        "i": 25982,
+        "n": "Atrociraptorskin Thighboots of Striking",
+        "l": 403,
+        "c": 49022,
+        "t": 38,
+        "p": 23106
+      }
+    },
+    {
+      "type": "item",
+      "id": "26009",
+      "obj": {
+        "i": 26009,
+        "n": "White Ash Earring of Slaying",
+        "l": 403,
+        "c": 55444,
+        "t": 41,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26014",
+      "obj": {
+        "i": 26014,
+        "n": "Atrociraptorskin Necklace of Slaying",
+        "l": 403,
+        "c": 55014,
+        "t": 40,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26019",
+      "obj": {
+        "i": 26019,
+        "n": "Atrociraptorskin Amulet of Slaying",
+        "l": 403,
+        "c": 55814,
+        "t": 42,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26024",
+      "obj": {
+        "i": 26024,
+        "n": "Lazurite Ring of Slaying",
+        "l": 403,
+        "c": 54662,
+        "t": 43,
+        "p": 17505
+      }
+    },
+    {
+      "type": "item",
+      "id": "26132",
+      "obj": {
+        "i": 26132,
+        "n": "Titanbronze Headgear of Maiming",
+        "l": 409,
+        "c": 40336,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26133",
+      "obj": {
+        "i": 26133,
+        "n": "Zonureskin Coat of Maiming",
+        "l": 409,
+        "c": 43452,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26134",
+      "obj": {
+        "i": 26134,
+        "n": "Zonureskin Fingerless Gloves of Maiming",
+        "l": 409,
+        "c": 48778,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26135",
+      "obj": {
+        "i": 26135,
+        "n": "Ovim Wool Bottoms of Maiming",
+        "l": 409,
+        "c": 47573,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26136",
+      "obj": {
+        "i": 26136,
+        "n": "Zonureskin Caligae of Maiming",
+        "l": 409,
+        "c": 49041,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26138",
+      "obj": {
+        "i": 26138,
+        "n": "Ovim Wool Ushanka of Striking",
+        "l": 409,
+        "c": 41453,
+        "t": 34,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26139",
+      "obj": {
+        "i": 26139,
+        "n": "Ovim Wool Coat of Striking",
+        "l": 409,
+        "c": 43884,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26140",
+      "obj": {
+        "i": 26140,
+        "n": "Zonureskin Fingerless Gloves of Striking",
+        "l": 409,
+        "c": 44715,
+        "t": 37,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26141",
+      "obj": {
+        "i": 26141,
+        "n": "Ovim Wool Skirt of Striking",
+        "l": 409,
+        "c": 47578,
+        "t": 36,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26142",
+      "obj": {
+        "i": 26142,
+        "n": "Zonureskin Caligae of Striking",
+        "l": 409,
+        "c": 49046,
+        "t": 38,
+        "p": 23732
+      }
+    },
+    {
+      "type": "item",
+      "id": "26169",
+      "obj": {
+        "i": 26169,
+        "n": "Triplite Earrings of Slaying",
+        "l": 409,
+        "c": 55430,
+        "t": 41,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26174",
+      "obj": {
+        "i": 26174,
+        "n": "Triplite Choker of Slaying",
+        "l": 409,
+        "c": 55000,
+        "t": 40,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26179",
+      "obj": {
+        "i": 26179,
+        "n": "Triplite Bracelet of Slaying",
+        "l": 409,
+        "c": 55800,
+        "t": 42,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26184",
+      "obj": {
+        "i": 26184,
+        "n": "Triplite Ring of Slaying",
+        "l": 409,
+        "c": 54648,
+        "t": 43,
+        "p": 17979
+      }
+    },
+    {
+      "type": "item",
+      "id": "26292",
+      "obj": {
+        "i": 26292,
+        "n": "Dwarven Mythril Helm of Maiming",
+        "l": 415,
+        "c": 40345,
+        "t": 34,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26293",
+      "obj": {
+        "i": 26293,
+        "n": "Dwarven Mythril Chainmail of Maiming",
+        "l": 415,
+        "c": 43466,
+        "t": 35,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26294",
+      "obj": {
+        "i": 26294,
+        "n": "Swallowskin Gloves of Maiming",
+        "l": 415,
+        "c": 44730,
+        "t": 37,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26295",
+      "obj": {
+        "i": 26295,
+        "n": "Dwarven Cotton Gaskins of Maiming",
+        "l": 415,
+        "c": 47603,
+        "t": 36,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26296",
+      "obj": {
+        "i": 26296,
+        "n": "Dwarven Mythril Shoes of Maiming",
+        "l": 415,
+        "c": 49065,
+        "t": 38,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26298",
+      "obj": {
+        "i": 26298,
+        "n": "Dwarven Mythril Helm of Striking",
+        "l": 415,
+        "c": 40346,
+        "t": 34,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26299",
+      "obj": {
+        "i": 26299,
+        "n": "Dwarven Mythril Chainmail of Striking",
+        "l": 415,
+        "c": 43467,
+        "t": 35,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26300",
+      "obj": {
+        "i": 26300,
+        "n": "Swallowskin Gloves of Striking",
+        "l": 415,
+        "c": 44731,
+        "t": 37,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26301",
+      "obj": {
+        "i": 26301,
+        "n": "Dwarven Cotton Gaskins of Striking",
+        "l": 415,
+        "c": 47604,
+        "t": 36,
+        "p": 40593
+      }
+    },
+    {
+      "type": "item",
+      "id": "26302",
+      "obj": {
+        "i": 26302,
+        "n": "Swallowskin Shoes of Striking",
+        "l": 415,
+        "c": 49066,
+        "t": 38,
+        "p": 24355
+      }
+    },
+    {
+      "type": "item",
+      "id": "26329",
+      "obj": {
+        "i": 26329,
+        "n": "Petalite Earrings of Slaying",
+        "l": 415,
+        "c": 55433,
+        "t": 41,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26334",
+      "obj": {
+        "i": 26334,
+        "n": "Petalite Choker of Slaying",
+        "l": 415,
+        "c": 55003,
+        "t": 40,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26339",
+      "obj": {
+        "i": 26339,
+        "n": "Petalite Bracelet of Slaying",
+        "l": 415,
+        "c": 55803,
+        "t": 42,
+        "p": 18451
+      }
+    },
+    {
+      "type": "item",
+      "id": "26344",
+      "obj": {
+        "i": 26344,
+        "n": "Petalite Ring of Slaying",
+        "l": 415,
+        "c": 54651,
+        "t": 43,
+        "p": 18451
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Flame Hatchling",
+    "description": "Not more than a fortnight out of the shell, but his blood already runs Immortal Flames black.<br><br>Use item to acquire the flame hatchling minion.",
+    "minionrace": "Critter",
+    "tooltip": "Chocobo dander can\r\nbe a mite ripe.\r\n  - Chocobokeep",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Flame Cry",
+    "specialactiondescription": "Reduces action points of all enemies within range by 50% of the maximum value.",
+    "id": 6172,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59411,
+    "tradeShops": [
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6172",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 20000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 120,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 320,
+      "Skill Cost": 20,
+      "Attack": 45,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8002-4-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    }
+  ]
+}

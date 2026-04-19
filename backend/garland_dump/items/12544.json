@@ -1,0 +1,908 @@
+{
+  "item": {
+    "name": "Star Ruby",
+    "description": "A red jewel that has been shaped and polished instead of faceted, creating the illusion of a six-pointed star within the stone.",
+    "id": 12544,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 4620,
+    "ilvl": 139,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21269,
+    "vendors": [
+      1001977
+    ],
+    "ingredient_of": {
+      "11884": 1,
+      "10972": 2,
+      "10996": 2,
+      "11020": 2,
+      "11044": 2,
+      "11068": 2,
+      "10650": 2,
+      "18038": 2,
+      "18041": 2,
+      "18042": 1,
+      "18044": 1,
+      "18073": 1,
+      "19632": 1,
+      "19633": 1,
+      "19634": 2,
+      "17953": 4,
+      "25659": 1,
+      "25683": 1,
+      "25843": 1,
+      "25948": 1,
+      "25949": 1,
+      "25950": 1,
+      "25951": 1,
+      "25952": 1,
+      "25953": 1,
+      "25954": 1,
+      "25955": 1,
+      "25956": 1,
+      "25957": 1,
+      "25958": 1,
+      "25959": 1,
+      "25960": 1,
+      "25961": 1,
+      "25962": 1,
+      "25963": 1,
+      "25964": 1,
+      "25965": 1,
+      "26145": 1,
+      "26157": 1,
+      "12087": 5,
+      "12109": 1,
+      "10767": 2,
+      "12998": 2,
+      "14080": 2,
+      "21833": 2,
+      "24868": 3,
+      "30998": 1,
+      "31023": 2,
+      "31056": 1,
+      "31057": 1,
+      "19767": 9,
+      "19768": 27,
+      "19769": 45
+    },
+    "craft": [
+      {
+        "id": 2534,
+        "job": 11,
+        "rlvl": 136,
+        "durability": 35,
+        "quality": 1880,
+        "progress": 190,
+        "lvl": 55,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12554,
+            "amount": 3
+          },
+          {
+            "id": 5262,
+            "amount": 1,
+            "quality": 83.92857
+          },
+          {
+            "id": 10,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 98,
+          "hq": 118
+        }
+      }
+    ],
+    "desynthedFrom": [
+      21833
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "VOYAGE",
+        "VOYAGE"
+      ]
+    },
+    "voyages": [
+      {
+        "id": 10,
+        "type": 1
+      },
+      {
+        "id": 15,
+        "type": 1
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raw Star Ruby",
+      "id": 12554,
+      "icon": 21471,
+      "category": 48,
+      "ilvl": 136,
+      "price": 2961,
+      "ventures": [
+        452
+      ],
+      "nodes": [
+        286
+      ]
+    },
+    {
+      "name": "Basilisk Whetstone",
+      "id": 5262,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "craft": [
+        {
+          "id": 826,
+          "job": 11,
+          "rlvl": 40,
+          "durability": 40,
+          "quality": 1120,
+          "progress": 69,
+          "lvl": 40,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5263,
+              "amount": 1
+            },
+            {
+              "id": 4,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basilisk Egg",
+      "id": 5263,
+      "icon": 21215,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "ventures": [
+        60,
+        156
+      ],
+      "drops": [
+        16170000001593,
+        1730000000304
+      ],
+      "nodes": [
+        189
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "286",
+      "obj": {
+        "i": 286,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 0,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "5263",
+      "obj": {
+        "i": 5263,
+        "n": "Basilisk Egg",
+        "l": 40,
+        "c": 21215,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "189",
+      "obj": {
+        "i": 189,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1730000000304",
+      "obj": {
+        "i": 1730000000304,
+        "n": "Basilisk",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16170000001593",
+      "obj": {
+        "i": 16170000001593,
+        "n": "Quicksand Basilisk",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001977",
+      "obj": {
+        "i": 1001977,
+        "n": "Sileas",
+        "l": 41,
+        "s": 2,
+        "t": "Jeweler",
+        "c": [
+          "10.0",
+          "12.5"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "11884",
+      "obj": {
+        "i": 11884,
+        "n": "Hardsilver Texture Hammer",
+        "l": 100,
+        "c": 35316,
+        "t": 18,
+        "p": 14889
+      }
+    },
+    {
+      "type": "item",
+      "id": "10972",
+      "obj": {
+        "i": 10972,
+        "n": "Hardsilver Bangle of Fending",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "10996",
+      "obj": {
+        "i": 10996,
+        "n": "Hardsilver Bangle of Slaying",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11020",
+      "obj": {
+        "i": 11020,
+        "n": "Hardsilver Bangle of Aiming",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11044",
+      "obj": {
+        "i": 11044,
+        "n": "Hardsilver Bangle of Healing",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11068",
+      "obj": {
+        "i": 11068,
+        "n": "Hardsilver Bangle of Casting",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "12554",
+      "obj": {
+        "i": 12554,
+        "n": "Raw Star Ruby",
+        "l": 136,
+        "c": 21471,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5262",
+      "obj": {
+        "i": 5262,
+        "n": "Basilisk Whetstone",
+        "l": 40,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10650",
+      "obj": {
+        "i": 10650,
+        "n": "Book of Aurum Regis",
+        "l": 145,
+        "c": 33521,
+        "t": 10,
+        "p": 30777
+      }
+    },
+    {
+      "type": "item",
+      "id": "18038",
+      "obj": {
+        "i": 18038,
+        "n": "High Steel Main Gauches",
+        "l": 255,
+        "c": 33911,
+        "t": 84,
+        "p": 36352
+      }
+    },
+    {
+      "type": "item",
+      "id": "18041",
+      "obj": {
+        "i": 18041,
+        "n": "Beech Rod",
+        "l": 255,
+        "c": 32707,
+        "t": 9,
+        "p": 36352
+      }
+    },
+    {
+      "type": "item",
+      "id": "18042",
+      "obj": {
+        "i": 18042,
+        "n": "Koppranickel Staff",
+        "l": 255,
+        "c": 33076,
+        "t": 7,
+        "p": 36352
+      }
+    },
+    {
+      "type": "item",
+      "id": "18044",
+      "obj": {
+        "i": 18044,
+        "n": "Koppranickel Codex",
+        "l": 255,
+        "c": 33234,
+        "t": 98,
+        "p": 36352
+      }
+    },
+    {
+      "type": "item",
+      "id": "18073",
+      "obj": {
+        "i": 18073,
+        "n": "Koppranickel Turban of Scouting",
+        "l": 255,
+        "c": 41713,
+        "t": 34,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "19632",
+      "obj": {
+        "i": 19632,
+        "n": "Kudzu Cap of Crafting",
+        "l": 220,
+        "c": 41389,
+        "t": 34,
+        "p": 17249
+      }
+    },
+    {
+      "type": "item",
+      "id": "19633",
+      "obj": {
+        "i": 19633,
+        "n": "Kudzu Robe of Crafting",
+        "l": 220,
+        "c": 43812,
+        "t": 35,
+        "p": 28749
+      }
+    },
+    {
+      "type": "item",
+      "id": "19634",
+      "obj": {
+        "i": 19634,
+        "n": "Durium Chaplets",
+        "l": 220,
+        "c": 48275,
+        "t": 37,
+        "p": 17249
+      }
+    },
+    {
+      "type": "item",
+      "id": "17953",
+      "obj": {
+        "i": 17953,
+        "n": "Carbuncle Bed",
+        "l": 139,
+        "c": 52601,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "25659",
+      "obj": {
+        "i": 25659,
+        "n": "Brightlinen Himation of Striking",
+        "l": 385,
+        "c": 43872,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25683",
+      "obj": {
+        "i": 25683,
+        "n": "Brightlinen Cyclas of Casting",
+        "l": 385,
+        "c": 43469,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25843",
+      "obj": {
+        "i": 25843,
+        "n": "Iridescent Top of Casting",
+        "l": 395,
+        "c": 43890,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "25948",
+      "obj": {
+        "i": 25948,
+        "n": "Bluespirit Sword",
+        "l": 403,
+        "c": 30614,
+        "t": 2,
+        "p": 28008
+      }
+    },
+    {
+      "type": "item",
+      "id": "25949",
+      "obj": {
+        "i": 25949,
+        "n": "Bluespirit Baghnakhs",
+        "l": 403,
+        "c": 31179,
+        "t": 1,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25950",
+      "obj": {
+        "i": 25950,
+        "n": "Bluespirit Axe",
+        "l": 403,
+        "c": 31588,
+        "t": 3,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25951",
+      "obj": {
+        "i": 25951,
+        "n": "Bluespirit Spear",
+        "l": 403,
+        "c": 31990,
+        "t": 5,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25952",
+      "obj": {
+        "i": 25952,
+        "n": "Bluespirit Longbow",
+        "l": 403,
+        "c": 32378,
+        "t": 4,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25953",
+      "obj": {
+        "i": 25953,
+        "n": "Bluespirit Daggers",
+        "l": 403,
+        "c": 33965,
+        "t": 84,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25954",
+      "obj": {
+        "i": 25954,
+        "n": "Bluespirit Guillotine",
+        "l": 403,
+        "c": 34344,
+        "t": 87,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25955",
+      "obj": {
+        "i": 25955,
+        "n": "Bluespirit Handgonne",
+        "l": 403,
+        "c": 34464,
+        "t": 88,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25956",
+      "obj": {
+        "i": 25956,
+        "n": "Bluespirit Cane",
+        "l": 403,
+        "c": 32762,
+        "t": 9,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25957",
+      "obj": {
+        "i": 25957,
+        "n": "Bluespirit Rod",
+        "l": 403,
+        "c": 33132,
+        "t": 7,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25958",
+      "obj": {
+        "i": 25958,
+        "n": "Bluespirit Grimoire",
+        "l": 403,
+        "c": 33312,
+        "t": 10,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25959",
+      "obj": {
+        "i": 25959,
+        "n": "Bluespirit Codex",
+        "l": 403,
+        "c": 33311,
+        "t": 98,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25960",
+      "obj": {
+        "i": 25960,
+        "n": "Bluespirit Star Globe",
+        "l": 403,
+        "c": 34938,
+        "t": 89,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25961",
+      "obj": {
+        "i": 25961,
+        "n": "Bluespirit Uchigatana",
+        "l": 403,
+        "c": 36497,
+        "t": 96,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25962",
+      "obj": {
+        "i": 25962,
+        "n": "Bluespirit Rapier",
+        "l": 403,
+        "c": 36796,
+        "t": 97,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25963",
+      "obj": {
+        "i": 25963,
+        "n": "Bluespirit Gunblade",
+        "l": 403,
+        "c": 36037,
+        "t": 106,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25964",
+      "obj": {
+        "i": 25964,
+        "n": "Bluespirit Glaives",
+        "l": 403,
+        "c": 36235,
+        "t": 107,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "25965",
+      "obj": {
+        "i": 25965,
+        "n": "Bluespirit Tower Shield",
+        "l": 403,
+        "c": 30204,
+        "t": 11,
+        "p": 14004
+      }
+    },
+    {
+      "type": "item",
+      "id": "26145",
+      "obj": {
+        "i": 26145,
+        "n": "Ovim Wool Tunic of Aiming",
+        "l": 409,
+        "c": 43882,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26157",
+      "obj": {
+        "i": 26157,
+        "n": "Ovim Wool Coat of Healing",
+        "l": 409,
+        "c": 43883,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "12087",
+      "obj": {
+        "i": 12087,
+        "n": "Stuffed Carbuncle",
+        "l": 160,
+        "c": 52564,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "12109",
+      "obj": {
+        "i": 12109,
+        "n": "Star Ruby Music Box",
+        "l": 150,
+        "c": 53069,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "10767",
+      "obj": {
+        "i": 10767,
+        "n": "Griffin Leather Coat of Striking",
+        "l": 180,
+        "c": 42462,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "12998",
+      "obj": {
+        "i": 12998,
+        "n": "Chivalric Coat of Striking",
+        "l": 160,
+        "c": 42462,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14080",
+      "obj": {
+        "i": 14080,
+        "n": "Sephirotic Barding",
+        "l": 1,
+        "c": 58626,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21833",
+      "obj": {
+        "i": 21833,
+        "n": "Carbuncle Bathtub",
+        "l": 320,
+        "c": 52629,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "24868",
+      "obj": {
+        "i": 24868,
+        "n": "Carbuncle Chandelier",
+        "l": 320,
+        "c": 51135,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "30998",
+      "obj": {
+        "i": 30998,
+        "n": "Rarefied Bluespirit Gunblade",
+        "l": 409,
+        "c": 36037,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31023",
+      "obj": {
+        "i": 31023,
+        "n": "Rarefied Durium Chaplets",
+        "l": 279,
+        "c": 48275,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31056",
+      "obj": {
+        "i": 31056,
+        "n": "Rarefied Brightlinen Himation",
+        "l": 395,
+        "c": 43872,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31057",
+      "obj": {
+        "i": 31057,
+        "n": "Rarefied Iridescent Top",
+        "l": 403,
+        "c": 43890,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "19767",
+      "obj": {
+        "i": 19767,
+        "n": "Carbuncle Cottage Walls",
+        "l": 1,
+        "c": 50822,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19768",
+      "obj": {
+        "i": 19768,
+        "n": "Carbuncle House Walls",
+        "l": 1,
+        "c": 50823,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "19769",
+      "obj": {
+        "i": 19769,
+        "n": "Carbuncle Mansion Walls",
+        "l": 1,
+        "c": 50824,
+        "t": 66
+      }
+    }
+  ]
+}

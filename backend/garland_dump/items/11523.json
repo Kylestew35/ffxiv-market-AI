@@ -1,0 +1,146 @@
+{
+  "item": {
+    "name": "Gordian Shield",
+    "jobCategories": "GLA PLD",
+    "id": 11523,
+    "patch": 3.05,
+    "patchCategory": 0,
+    "price": 37422,
+    "ilvl": 210,
+    "category": 11,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 393,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1170,
+    "slot": 2,
+    "elvl": 60,
+    "jobs": 38,
+    "models": [
+      "101-41-1-0"
+    ],
+    "attr": {
+      "Block Strength": 400,
+      "Block Rate": 400,
+      "Strength": 22,
+      "Vitality": 22,
+      "Tenacity": 24,
+      "Skill Speed": 17
+    },
+    "icon": 30126,
+    "instances": [
+      30028
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Manifesto Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11523",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12684",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gordian Gear (IL 210)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11510",
+                "amount": 1
+              },
+              {
+                "id": "11523",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12684",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30028",
+      "obj": {
+        "i": 30028,
+        "n": "Alexander - The Burden of the Father (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 205
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12684",
+      "obj": {
+        "i": 12684,
+        "n": "Gordian Manifesto - Page 4",
+        "l": 1,
+        "c": 26160,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "11510",
+      "obj": {
+        "i": 11510,
+        "n": "Gordian Blade",
+        "l": 210,
+        "c": 30530,
+        "t": 2
+      }
+    }
+  ]
+}

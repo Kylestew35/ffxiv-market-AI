@@ -1,0 +1,74 @@
+{
+  "item": {
+    "name": "Empyrean Shrine",
+    "description": "Small shrines such as this are said to mark the boundaries between our world and the heavens.",
+    "id": 22566,
+    "patch": 4.35,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53210,
+    "tradeShops": [
+      {
+        "shop": "Exchange artifacts",
+        "npcs": [
+          1025848
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22566",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23177",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "693"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025848",
+      "obj": {
+        "i": 1025848,
+        "n": "Confederate Custodian",
+        "l": 2409,
+        "s": 2,
+        "r": 1,
+        "a": 2775,
+        "c": [
+          21.29,
+          9.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23177",
+      "obj": {
+        "i": 23177,
+        "n": "Empyrean Reliquary",
+        "l": 1,
+        "c": 26286,
+        "t": 61
+      }
+    }
+  ]
+}

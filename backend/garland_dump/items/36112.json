@@ -1,0 +1,508 @@
+{
+  "item": {
+    "name": "Grade 6 Tincture of Intelligence",
+    "description": "This diluted brew temporarily increases intelligence for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 36112,
+    "patch": 6.05,
+    "patchCategory": 4,
+    "price": 3167,
+    "ilvl": 580,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 95,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Intelligence": {
+          "rate": 8,
+          "limit": 151
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Intelligence": {
+          "rate": 10,
+          "limit": 189
+        }
+      }
+    },
+    "icon": 20706,
+    "craft": [
+      {
+        "id": 34888,
+        "job": 14,
+        "rlvl": 580,
+        "durability": 70,
+        "quality": 10920,
+        "progress": 3900,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35624,
+        "ingredients": [
+          {
+            "id": 36215,
+            "amount": 1
+          },
+          {
+            "id": 36230,
+            "amount": 1,
+            "quality": 1772.5592
+          },
+          {
+            "id": 36223,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 429,
+          "hq": 449
+        }
+      }
+    ],
+    "quests": [
+      70116
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Stonehard Water",
+      "id": 36215,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        965
+      ],
+      "nodes": [
+        834,
+        835,
+        836
+      ]
+    },
+    {
+      "name": "Grade 5 Intelligence Alkahest",
+      "id": 36230,
+      "icon": 22679,
+      "category": 54,
+      "ilvl": 548,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5331,
+          "job": 14,
+          "rlvl": 525,
+          "durability": 40,
+          "quality": 6200,
+          "progress": 1300,
+          "lvl": 83,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27782,
+              "amount": 2
+            },
+            {
+              "id": 36258,
+              "amount": 1
+            },
+            {
+              "id": 27780,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 100,
+            "hq": 120
+          }
+        }
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    },
+    {
+      "name": "Fernleaf Lavender",
+      "id": 27780,
+      "icon": 25002,
+      "category": 54,
+      "ilvl": 412,
+      "price": 210,
+      "ventures": [
+        833
+      ],
+      "nodes": [
+        623
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "834",
+      "obj": {
+        "i": 834,
+        "n": "Juturna Platform G",
+        "l": 90,
+        "t": 0,
+        "z": 3710,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "835",
+      "obj": {
+        "i": 835,
+        "n": "Kydonia Knolls",
+        "l": 90,
+        "t": 1,
+        "z": 3711,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          2,
+          14
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "836",
+      "obj": {
+        "i": 836,
+        "n": "Ktisis Hyperboreia",
+        "l": 90,
+        "t": 1,
+        "z": 3713,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27780",
+      "obj": {
+        "i": 27780,
+        "n": "Fernleaf Lavender",
+        "l": 412,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "623",
+      "obj": {
+        "i": 623,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "35624",
+      "obj": {
+        "i": 35624,
+        "n": "Master Alchemist IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36215",
+      "obj": {
+        "i": 36215,
+        "n": "Stonehard Water",
+        "l": 580,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36230",
+      "obj": {
+        "i": 36230,
+        "n": "Grade 5 Intelligence Alkahest",
+        "l": 548,
+        "c": 22679,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70116",
+      "obj": {
+        "i": 70116,
+        "n": "Frozen Hope",
+        "g": 225,
+        "l": "Garlemald",
+        "s": 2
+      }
+    }
+  ]
+}

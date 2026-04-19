@@ -1,0 +1,122 @@
+{
+  "item": {
+    "name": "Cashmere Attire Coffer",
+    "description": "A banded chest containing a complete set of cashmere attire.<br><br>Required level: 1. IL: 1.",
+    "id": 33143,
+    "patch": 5.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26509,
+    "tradeShops": [
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33143",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 250
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "loot": [
+      16599,
+      16600,
+      16910,
+      16601
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "16599",
+      "obj": {
+        "i": 16599,
+        "n": "Cashmere Hood",
+        "l": 1,
+        "c": 41340,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16600",
+      "obj": {
+        "i": 16600,
+        "n": "Cashmere Poncho",
+        "l": 1,
+        "c": 42533,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "16910",
+      "obj": {
+        "i": 16910,
+        "n": "Cashmere Slops",
+        "l": 1,
+        "c": 45846,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "16601",
+      "obj": {
+        "i": 16601,
+        "n": "Fur-lined Saurian Boots",
+        "l": 1,
+        "c": 46663,
+        "t": 38
+      }
+    }
+  ]
+}

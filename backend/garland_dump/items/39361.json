@@ -1,0 +1,107 @@
+{
+  "item": {
+    "name": "False Monarchy Gauntlets",
+    "jobCategories": "All Classes",
+    "id": 39361,
+    "patch": 6.3,
+    "patchCategory": 3,
+    "price": 2,
+    "ilvl": 1,
+    "category": 37,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 5,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "810-1-0-0"
+    ],
+    "attr": {
+      "Defense": 8,
+      "Magic Defense": 14
+    },
+    "icon": 56055,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (Universal Gear) II",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39361",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      39364
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "39364",
+      "obj": {
+        "i": 39364,
+        "n": "False Monarchy Attire Coffer",
+        "l": 1,
+        "c": 26509,
+        "t": 61
+      }
+    }
+  ]
+}

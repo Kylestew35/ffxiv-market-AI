@@ -1,0 +1,127 @@
+{
+  "item": {
+    "name": "Prototype Gordian Gauntlets of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 11462,
+    "patch": 3.01,
+    "patchCategory": 0,
+    "price": 55865,
+    "ilvl": 190,
+    "category": 37,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 587,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1093,
+    "slot": 5,
+    "elvl": 60,
+    "jobs": 59,
+    "models": [
+      "280-1-0-0"
+    ],
+    "attr": {
+      "Defense": 237,
+      "Magic Defense": 237,
+      "Strength": 44,
+      "Vitality": 43,
+      "Tenacity": 49,
+      "Direct Hit Rate": 34
+    },
+    "icon": 48462,
+    "sharedModels": [
+      11538
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Part Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11462",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12676",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prototype Gordian Gear (IL 190)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11462",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12676",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "11538",
+      "obj": {
+        "i": 11538,
+        "n": "Gordian Gauntlets of Fending",
+        "l": 210,
+        "c": 48462,
+        "t": 37
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12676",
+      "obj": {
+        "i": 12676,
+        "n": "Tarnished Gordian Crank",
+        "l": 1,
+        "c": 26270,
+        "t": 61
+      }
+    }
+  ]
+}

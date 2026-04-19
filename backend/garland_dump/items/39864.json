@@ -1,0 +1,99 @@
+{
+  "item": {
+    "name": "Dragonfruit",
+    "description": "This milky white fruit is shielded by scaly skin not entirely unlike that of dragonkind, though whether any member of the race approves of this comparison to vividly pink produce remains an open question.",
+    "id": 39864,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25327,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39864",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39864",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "39869": 1,
+      "39870": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "39869",
+      "obj": {
+        "i": 39869,
+        "n": "Honeyed Dragonfruit",
+        "l": 640,
+        "c": 24098,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "39870",
+      "obj": {
+        "i": 39870,
+        "n": "Dragonfruit Blend",
+        "l": 640,
+        "c": 24409,
+        "t": 46
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Inconceivably Delicate Pickaxe Part",
+    "description": "Poor workmen who blame their tools will have no excuses once this piece is attached.",
+    "id": 31747,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26116,
+    "tradeShops": [
+      {
+        "shop": "Inconceivably Delicate Parts Exchange",
+        "npcs": [
+          1035014
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "31747",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31769",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31769",
+      "obj": {
+        "i": 31769,
+        "n": "Oddly Delicate Raw Jade",
+        "l": 500,
+        "c": 21252,
+        "t": 48
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1035014",
+      "obj": {
+        "i": 1035014,
+        "n": "Spanner",
+        "l": 3435,
+        "s": 3,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 3526,
+        "c": [
+          9.81,
+          14.71
+        ]
+      }
+    }
+  ]
+}

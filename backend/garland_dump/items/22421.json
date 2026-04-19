@@ -1,0 +1,106 @@
+{
+  "item": {
+    "name": "Ground Sloth Pelt",
+    "description": "The coarse, bristly hide of a giant ground sloth.",
+    "id": 22421,
+    "patch": 4.2,
+    "patchCategory": 5,
+    "price": 2328,
+    "ilvl": 350,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21815,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1019450
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22421",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22421",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "22430": 4
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019450",
+      "obj": {
+        "i": 1019450,
+        "n": "Enna",
+        "l": 2403,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.95,
+          11.63
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "22430",
+      "obj": {
+        "i": 22430,
+        "n": "Ground Sloth Leather",
+        "l": 350,
+        "c": 22016,
+        "t": 52
+      }
+    }
+  ]
+}

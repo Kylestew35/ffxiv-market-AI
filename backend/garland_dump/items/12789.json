@@ -1,0 +1,122 @@
+{
+  "item": {
+    "name": "Brown Bolo",
+    "description": "A whip-like creature found in the skies surrounding Tharl Oom Khash in the Churning Mists.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "For most of the sun's turn, the brown bolo will hang stationary from the bottoms of the Churning Mists' floating landmasses. When prey flies or floats by, however, the bolo will throw itself from the crags and wrap around the unsuspecting victim, choking it into submission before propelling itself back to the crag face to feed.",
+      "icon": 79232,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 134,
+          "weather": [
+            "Clouds"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 389,
+          "baits": [
+            [
+              12708
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12789,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1320,
+    "ilvl": 142,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29232,
+    "fishingSpots": [
+      134
+    ],
+    "requiredByLeves": [
+      1227,
+      1230
+    ],
+    "desynthedTo": [
+      5825,
+      5816
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "134",
+      "obj": {
+        "i": 134,
+        "n": "Tharl Oom Khash",
+        "l": 55,
+        "c": 4,
+        "z": 2002,
+        "x": 20.26,
+        "y": 6.39
+      }
+    },
+    {
+      "type": "item",
+      "id": "12708",
+      "obj": {
+        "i": 12708,
+        "n": "Red Balloon",
+        "l": 130,
+        "c": 27025,
+        "t": 33,
+        "p": 16
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1227",
+      "obj": {
+        "i": 1227,
+        "n": "Solo Out the Bolo",
+        "l": 56,
+        "j": 19,
+        "p": 2002
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1230",
+      "obj": {
+        "i": 1230,
+        "n": "Sucking on Face (L)",
+        "l": 56,
+        "j": 19,
+        "p": 2002
+      }
+    },
+    {
+      "type": "item",
+      "id": "5825",
+      "obj": {
+        "i": 5825,
+        "n": "Allagan Silver Piece",
+        "l": 25,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5816",
+      "obj": {
+        "i": 5816,
+        "n": "Yellow Pigment",
+        "l": 28,
+        "c": 21458,
+        "t": 55
+      }
+    }
+  ]
+}

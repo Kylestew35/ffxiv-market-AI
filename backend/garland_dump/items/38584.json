@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Mummer's Shelf",
+    "description": "A shelving unit stocked with various tools and costume pieces one might use in a theatrical production.",
+    "id": 38584,
+    "patch": 6.2,
+    "patchCategory": 9,
+    "price": 8800,
+    "ilvl": 1,
+    "category": 77,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 90,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 51721,
+    "vendors": [
+      1025177
+    ],
+    "tradeShops": [
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38584",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1174"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025177",
+      "obj": {
+        "i": 1025177,
+        "n": "Kasumi",
+        "l": 1484,
+        "s": 1,
+        "t": "Boutique Vendor",
+        "a": 1498,
+        "c": [
+          7.29,
+          7.38
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "item": {
+    "name": "Horn Glue",
+    "description": "An adhesive substance created by boiling down horns.",
+    "id": 5505,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 344,
+    "ilvl": 30,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22607,
+    "ingredient_of": {
+      "2542": 1,
+      "1796": 1,
+      "1663": 1,
+      "1733": 1,
+      "4130": 1,
+      "4153": 1,
+      "2039": 1,
+      "1872": 1,
+      "2543": 1,
+      "2544": 1,
+      "4132": 1,
+      "4155": 1,
+      "4181": 1,
+      "1871": 1,
+      "8787": 3,
+      "8797": 1,
+      "10402": 1,
+      "10404": 1,
+      "7612": 2,
+      "9315": 1,
+      "10156": 18,
+      "10157": 18,
+      "21794": 18,
+      "10361": 18,
+      "10362": 45,
+      "10363": 75,
+      "10364": 18,
+      "10365": 45,
+      "10366": 75,
+      "10367": 18,
+      "10368": 45,
+      "10369": 75,
+      "10370": 18,
+      "10371": 45,
+      "10372": 75,
+      "13092": 15,
+      "13093": 45,
+      "13094": 75
+    },
+    "craft": [
+      {
+        "id": 1150,
+        "job": 14,
+        "rlvl": 30,
+        "durability": 40,
+        "quality": 680,
+        "progress": 51,
+        "lvl": 30,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5436,
+            "amount": 2
+          },
+          {
+            "id": 7,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 38,
+          "hq": 58
+        }
+      }
+    ],
+    "requiredByLeves": [
+      359
+    ],
+    "treasure": [
+      6688
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Aldgoat Horn",
+      "id": 5436,
+      "icon": 22206,
+      "category": 53,
+      "ilvl": 25,
+      "price": 238,
+      "treasure": [
+        6688
+      ],
+      "tradeShops": [
+        {
+          "shop": "Titan Cobaltpiece Exchange",
+          "npcs": [
+            1008909
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5436",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21078",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        32
+      ],
+      "drops": [
+        12810000000879,
+        1940000000274,
+        1930000000273,
+        1940000002050,
+        1930000002049,
+        12830000000881,
+        12820000000880
+      ],
+      "vendors": [
+        1008909
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1930000000273",
+      "obj": {
+        "i": 1930000000273,
+        "n": "Myotragus Billy",
+        "l": "16 - 18",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1940000000274",
+      "obj": {
+        "i": 1940000000274,
+        "n": "Myotragus Nanny",
+        "l": "16 - 18",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12810000000879",
+      "obj": {
+        "i": 12810000000879,
+        "n": "Elder Longhorn",
+        "l": "17",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12820000000880",
+      "obj": {
+        "i": 12820000000880,
+        "n": "Longhorn Billygoat",
+        "l": "16",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "12830000000881",
+      "obj": {
+        "i": 12830000000881,
+        "n": "Longhorn Nannygoat",
+        "l": "14 - 16",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1930000002049",
+      "obj": {
+        "i": 1930000002049,
+        "n": "Mourning Billy",
+        "l": "35",
+        "z": 44
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1940000002050",
+      "obj": {
+        "i": 1940000002050,
+        "n": "Mourning Nanny",
+        "l": "35",
+        "z": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "2542",
+      "obj": {
+        "i": 2542,
+        "n": "Mythril Sledgehammer",
+        "l": 43,
+        "c": 38054,
+        "t": 29,
+        "p": 4516
+      }
+    },
+    {
+      "type": "item",
+      "id": "1796",
+      "obj": {
+        "i": 1796,
+        "n": "Buccaneer's Bardiche",
+        "l": 45,
+        "c": 31426,
+        "t": 3,
+        "p": 9504
+      }
+    },
+    {
+      "type": "item",
+      "id": "1663",
+      "obj": {
+        "i": 1663,
+        "n": "Cobalt Winglet",
+        "l": 49,
+        "c": 30436,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "1733",
+      "obj": {
+        "i": 1733,
+        "n": "Cobalt Claws",
+        "l": 49,
+        "c": 31021,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "4130",
+      "obj": {
+        "i": 4130,
+        "n": "Boarskin Wristbands",
+        "l": 37,
+        "c": 55636,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "4153",
+      "obj": {
+        "i": 4153,
+        "n": "Raptorskin Wristbands",
+        "l": 47,
+        "c": 55641,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "2039",
+      "obj": {
+        "i": 2039,
+        "n": "Jade Crook",
+        "l": 45,
+        "c": 32617,
+        "t": 9,
+        "p": 8184
+      }
+    },
+    {
+      "type": "item",
+      "id": "1872",
+      "obj": {
+        "i": 1872,
+        "n": "Hart Guisarme",
+        "l": 49,
+        "c": 31830,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "5436",
+      "obj": {
+        "i": 5436,
+        "n": "Aldgoat Horn",
+        "l": 25,
+        "c": 22206,
+        "t": 53,
+        "p": 238
+      }
+    },
+    {
+      "type": "item",
+      "id": "2543",
+      "obj": {
+        "i": 2543,
+        "n": "Cobalt Sledgehammer",
+        "l": 47,
+        "c": 38053,
+        "t": 29,
+        "p": 5262
+      }
+    },
+    {
+      "type": "item",
+      "id": "2544",
+      "obj": {
+        "i": 2544,
+        "n": "Militia Sledgehammer",
+        "l": 55,
+        "c": 38055,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "4132",
+      "obj": {
+        "i": 4132,
+        "n": "Boarskin Wristbands of Gathering",
+        "l": 37,
+        "c": 55636,
+        "t": 42,
+        "p": 3409
+      }
+    },
+    {
+      "type": "item",
+      "id": "4155",
+      "obj": {
+        "i": 4155,
+        "n": "Raptorskin Wristbands of Gathering",
+        "l": 47,
+        "c": 55641,
+        "t": 42,
+        "p": 5120
+      }
+    },
+    {
+      "type": "item",
+      "id": "4181",
+      "obj": {
+        "i": 4181,
+        "n": "Gryphonskin Wristbands",
+        "l": 70,
+        "c": 55669,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "1871",
+      "obj": {
+        "i": 1871,
+        "n": "Vintage Guisarme",
+        "l": 50,
+        "c": 31817,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "8787",
+      "obj": {
+        "i": 8787,
+        "n": "Glade Stool",
+        "l": 45,
+        "c": 52538,
+        "t": 57,
+        "p": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "8797",
+      "obj": {
+        "i": 8797,
+        "n": "Wine Barrel",
+        "l": 35,
+        "c": 52543,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "10402",
+      "obj": {
+        "i": 10402,
+        "n": "Mythril Claymore",
+        "l": 38,
+        "c": 34208,
+        "t": 87,
+        "p": 6994
+      }
+    },
+    {
+      "type": "item",
+      "id": "10404",
+      "obj": {
+        "i": 10404,
+        "n": "Cobalt Claymore",
+        "l": 45,
+        "c": 34204,
+        "t": 87,
+        "p": 9322
+      }
+    },
+    {
+      "type": "item",
+      "id": "7612",
+      "obj": {
+        "i": 7612,
+        "n": "Spruce Plywood",
+        "l": 70,
+        "c": 22513,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "9315",
+      "obj": {
+        "i": 9315,
+        "n": "Forager's Sledgehammer",
+        "l": 70,
+        "c": 38056,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "10156",
+      "obj": {
+        "i": 10156,
+        "n": "Bronco-type Hull",
+        "l": 115,
+        "c": 27701,
+        "t": 90
+      }
+    },
+    {
+      "type": "item",
+      "id": "10157",
+      "obj": {
+        "i": 10157,
+        "n": "Invincible-type Hull",
+        "l": 125,
+        "c": 27702,
+        "t": 90
+      }
+    },
+    {
+      "type": "item",
+      "id": "21794",
+      "obj": {
+        "i": 21794,
+        "n": "Shark-class Pressure Hull",
+        "l": 115,
+        "c": 27842,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "10361",
+      "obj": {
+        "i": 10361,
+        "n": "Small Merchant's Walls",
+        "l": 115,
+        "c": 50801,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10362",
+      "obj": {
+        "i": 10362,
+        "n": "Medium Merchant's Walls",
+        "l": 115,
+        "c": 50802,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10363",
+      "obj": {
+        "i": 10363,
+        "n": "Large Merchant's Walls",
+        "l": 115,
+        "c": 50803,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10364",
+      "obj": {
+        "i": 10364,
+        "n": "Small Eatery Walls",
+        "l": 130,
+        "c": 50804,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10365",
+      "obj": {
+        "i": 10365,
+        "n": "Medium Eatery Walls",
+        "l": 130,
+        "c": 50805,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10366",
+      "obj": {
+        "i": 10366,
+        "n": "Large Eatery Walls",
+        "l": 130,
+        "c": 50806,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10367",
+      "obj": {
+        "i": 10367,
+        "n": "Small Outfitter's Walls",
+        "l": 136,
+        "c": 50807,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10368",
+      "obj": {
+        "i": 10368,
+        "n": "Medium Outfitter's Walls",
+        "l": 136,
+        "c": 50808,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10369",
+      "obj": {
+        "i": 10369,
+        "n": "Large Outfitter's Walls",
+        "l": 136,
+        "c": 50809,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10370",
+      "obj": {
+        "i": 10370,
+        "n": "Small Arms Supplier's Walls",
+        "l": 142,
+        "c": 50810,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10371",
+      "obj": {
+        "i": 10371,
+        "n": "Medium Arms Supplier's Walls",
+        "l": 142,
+        "c": 50811,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10372",
+      "obj": {
+        "i": 10372,
+        "n": "Large Arms Supplier's Walls",
+        "l": 142,
+        "c": 50812,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "13092",
+      "obj": {
+        "i": 13092,
+        "n": "Microscopically Small Mogwalls",
+        "l": 160,
+        "c": 50813,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "13093",
+      "obj": {
+        "i": 13093,
+        "n": "Middlingly Medium Mogwalls",
+        "l": 160,
+        "c": 50814,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "13094",
+      "obj": {
+        "i": 13094,
+        "n": "Monstrously Large Mogwalls",
+        "l": 160,
+        "c": 50815,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "359",
+      "obj": {
+        "i": 359,
+        "n": "Stuck in the Moment",
+        "l": 30,
+        "j": 15,
+        "p": 51
+      }
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "item": {
+    "name": "Crescent Moon Cone",
+    "jobCategories": "All Classes",
+    "id": 8557,
+    "patch": 2.3,
+    "patchCategory": 3,
+    "price": 47,
+    "ilvl": 1,
+    "category": 34,
+    "dyeable": 1,
+    "dyecount": 2,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5594,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 3,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "26-1-0-0"
+    ],
+    "attr": {
+      "Defense": 7,
+      "Magic Defense": 13
+    },
+    "attr_hq": {
+      "Defense": 8,
+      "Magic Defense": 14
+    },
+    "icon": 41206,
+    "craft": [
+      {
+        "id": 30506,
+        "job": 13,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 318,
+        "quickSynthControl": 374,
+        "unlockId": 8140,
+        "ingredients": [
+          {
+            "id": 8026,
+            "amount": 1
+          },
+          {
+            "id": 8025,
+            "amount": 1
+          },
+          {
+            "id": 8149,
+            "amount": 5
+          },
+          {
+            "id": 18,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 720,
+          "hq": 740
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Mist Silk",
+      "id": 8026,
+      "icon": 21608,
+      "category": 51,
+      "ilvl": 70,
+      "price": 1164,
+      "treasure": [
+        8156
+      ]
+    },
+    {
+      "name": "Floss Silk",
+      "id": 8025,
+      "icon": 21801,
+      "category": 51,
+      "ilvl": 50,
+      "price": 475,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "8025",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        554
+      ]
+    },
+    {
+      "name": "Fieldcraft Demimateria II",
+      "id": 8149,
+      "icon": 20242,
+      "category": 83,
+      "ilvl": 50,
+      "price": 11000,
+      "desynthedFrom": [
+        20229,
+        17583,
+        20107
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "8156",
+      "obj": {
+        "i": 8156,
+        "n": "Unhidden Leather Map",
+        "l": 50,
+        "c": 25935,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "8140",
+      "obj": {
+        "i": 8140,
+        "n": "Master Weaver: Demimateria",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "8026",
+      "obj": {
+        "i": 8026,
+        "n": "Mist Silk",
+        "l": 70,
+        "c": 21608,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "8025",
+      "obj": {
+        "i": 8025,
+        "n": "Floss Silk",
+        "l": 50,
+        "c": 21801,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "8149",
+      "obj": {
+        "i": 8149,
+        "n": "Fieldcraft Demimateria II",
+        "l": 50,
+        "c": 20242,
+        "t": 83
+      }
+    }
+  ]
+}

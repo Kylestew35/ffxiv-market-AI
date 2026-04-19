@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Titan Cobaltpiece Promissory Note",
+    "description": "A promissory note that can be exchanged for Titan cobaltpieces─crude pieces of flattened cobalt used as high-denomination currency by the kobolds of O'Ghomoro.",
+    "id": 13636,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 1350,
+    "ilvl": 40,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26184,
+    "disposal": [
+      {
+        "amount": 1,
+        "item": 21078,
+        "shop": "Certificate Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ]
+      },
+      {
+        "amount": 1,
+        "item": 21078,
+        "shop": "Currency Exchange",
+        "npcs": [
+          1008909
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    }
+  ]
+}

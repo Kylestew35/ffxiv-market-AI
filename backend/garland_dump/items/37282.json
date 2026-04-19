@@ -1,0 +1,590 @@
+{
+  "item": {
+    "name": "Calamari Ripieni",
+    "description": "Fresh squid stuffed with a vibrant array of vegetables and cheese, then simmered to perfection in dry white wine.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 37282,
+    "patch": 6.1,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 590,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "CP": {
+          "rate": 21,
+          "limit": 66
+        },
+        "Craftsmanship": {
+          "rate": 4,
+          "limit": 96
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "CP": {
+          "rate": 26,
+          "limit": 82
+        },
+        "Craftsmanship": {
+          "rate": 5,
+          "limit": 120
+        }
+      }
+    },
+    "icon": 24331,
+    "craft": [
+      {
+        "id": 34992,
+        "job": 15,
+        "rlvl": 590,
+        "durability": 70,
+        "quality": 12800,
+        "progress": 4300,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3130,
+        "craftsmanshipReq": 3240,
+        "unlockId": 35625,
+        "ingredients": [
+          {
+            "id": 36686,
+            "amount": 1
+          },
+          {
+            "id": 36079,
+            "amount": 2,
+            "quality": 921.0526
+          },
+          {
+            "id": 36081,
+            "amount": 1,
+            "quality": 935.0877
+          },
+          {
+            "id": 36097,
+            "amount": 1
+          },
+          {
+            "id": 27825,
+            "amount": 1
+          },
+          {
+            "id": 36223,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 683,
+          "hq": 703
+        }
+      }
+    ],
+    "quests": [
+      70219
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Thavnairian Calamari",
+      "id": 36686,
+      "icon": 29027,
+      "category": 47,
+      "ilvl": 570,
+      "price": 99999,
+      "fishingSpots": [
+        269
+      ]
+    },
+    {
+      "name": "Perilla Oil",
+      "id": 36079,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5284,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36085,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thavnairian Perilla Leaf",
+      "id": 36085,
+      "icon": 25036,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        916
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Garlean Cheese",
+      "id": 36081,
+      "icon": 24458,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5286,
+          "job": 15,
+          "rlvl": 530,
+          "durability": 40,
+          "quality": 6600,
+          "progress": 1450,
+          "lvl": 84,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36255,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 148,
+            "hq": 168
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ovibos Milk",
+      "id": 36255,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36255",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        939
+      ]
+    },
+    {
+      "name": "Alien Onion",
+      "id": 36097,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 545,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 75,
+          "type": 1
+        },
+        {
+          "id": 84,
+          "type": 1
+        },
+        {
+          "id": 93,
+          "type": 1
+        },
+        {
+          "id": 98,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1646,
+        1647
+      ],
+      "ventures": [
+        932
+      ],
+      "nodes": [
+        848
+      ]
+    },
+    {
+      "name": "Blood Tomato",
+      "id": 27825,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1466,
+        1467,
+        1468
+      ],
+      "ventures": [
+        819
+      ],
+      "nodes": [
+        617
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "269",
+      "obj": {
+        "i": 269,
+        "n": "The Perfumed Tides",
+        "l": 85,
+        "c": 0,
+        "z": 3709,
+        "x": 7.45,
+        "y": 7.57
+      }
+    },
+    {
+      "type": "item",
+      "id": "36085",
+      "obj": {
+        "i": 36085,
+        "n": "Thavnairian Perilla Leaf",
+        "l": 525,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "848",
+      "obj": {
+        "i": 848,
+        "n": "Reah Tahra",
+        "l": 90,
+        "t": 3,
+        "z": 3712
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "35625",
+      "obj": {
+        "i": 35625,
+        "n": "Master Culinarian IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36686",
+      "obj": {
+        "i": 36686,
+        "n": "Thavnairian Calamari",
+        "l": 570,
+        "c": 29027,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36079",
+      "obj": {
+        "i": 36079,
+        "n": "Perilla Oil",
+        "l": 525,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36081",
+      "obj": {
+        "i": 36081,
+        "n": "Garlean Cheese",
+        "l": 533,
+        "c": 24458,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36097",
+      "obj": {
+        "i": 36097,
+        "n": "Alien Onion",
+        "l": 545,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27825",
+      "obj": {
+        "i": 27825,
+        "n": "Blood Tomato",
+        "l": 390,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70219",
+      "obj": {
+        "i": 70219,
+        "n": "Too Few Cooks",
+        "g": 72,
+        "l": "Mare Lamentorum",
+        "s": 3,
+        "f": 1
+      }
+    }
+  ]
+}

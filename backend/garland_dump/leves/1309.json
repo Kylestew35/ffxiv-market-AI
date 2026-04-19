@@ -1,0 +1,703 @@
+{
+  "leve": {
+    "name": "West Meats East",
+    "description": "A distinguished house will hold a banquet to celebrate its loyal retainers, or what we would call “business as usual,” if not for one special request of the kitchen: the wondrous and exotic delectable dish known as the nomad meat pie. ",
+    "id": 1309,
+    "patch": 4.0,
+    "client": "Akamatsu-tei Proprietress, Saeda the Silken",
+    "lvl": 66,
+    "jobCategory": 16,
+    "levemete": 1018998,
+    "areaid": 2404,
+    "xp": 275830,
+    "gil": 879,
+    "rewards": 586,
+    "plate": 80041,
+    "frame": 80005,
+    "areaicon": 110101,
+    "repeats": 2,
+    "requires": [
+      {
+        "item": 19839,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 15,
+      "hq": 867
+    }
+  },
+  "rewards": {
+    "id": 586,
+    "entries": [
+      {
+        "item": 8,
+        "rate": 0.23,
+        "amount": 23
+      },
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 23
+      },
+      {
+        "item": 19853,
+        "rate": 0.23,
+        "amount": 2
+      },
+      {
+        "item": 8,
+        "rate": 0.1,
+        "amount": 30
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 30
+      },
+      {
+        "item": 19869,
+        "rate": 0.1
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Nomad Meat Pie",
+      "id": 19839,
+      "icon": 24354,
+      "category": 46,
+      "ilvl": 279,
+      "price": 2186,
+      "craft": [
+        {
+          "id": 3580,
+          "job": 15,
+          "rlvl": 279,
+          "durability": 80,
+          "quality": 3240,
+          "progress": 880,
+          "lvl": 66,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19873,
+              "amount": 1
+            },
+            {
+              "id": 19841,
+              "amount": 1,
+              "quality": 308.05368
+            },
+            {
+              "id": 19866,
+              "amount": 1
+            },
+            {
+              "id": 12878,
+              "amount": 1
+            },
+            {
+              "id": 12906,
+              "amount": 1
+            },
+            {
+              "id": 19848,
+              "amount": 1,
+              "quality": 320.13422
+            },
+            {
+              "id": 8,
+              "amount": 5
+            },
+            {
+              "id": 13,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 269,
+            "hq": 289
+          }
+        }
+      ],
+      "vendors": [
+        1019335
+      ]
+    },
+    {
+      "name": "Dzo Chuck",
+      "id": 19873,
+      "icon": 25159,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "instances": [
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "ventures": [
+        718
+      ],
+      "drops": [
+        66320000005773
+      ]
+    },
+    {
+      "name": "Gyr Abanian Flour",
+      "id": 19841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 255,
+      "price": 504,
+      "craft": [
+        {
+          "id": 3581,
+          "job": 15,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19868,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gyr Abanian Wheat",
+      "id": 19868,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 255,
+      "price": 504,
+      "leves": [
+        1298,
+        1299,
+        1300
+      ],
+      "ventures": [
+        680
+      ],
+      "nodes": [
+        505
+      ]
+    },
+    {
+      "name": "Sun Cabbage",
+      "id": 19866,
+      "icon": 25208,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        697
+      ],
+      "nodes": [
+        519
+      ]
+    },
+    {
+      "name": "Cyclops Onion",
+      "id": 12878,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        548
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Oriental Soy Sauce",
+      "id": 12906,
+      "icon": 27602,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12906",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12906",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Algae Salt",
+      "id": 19848,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "craft": [
+        {
+          "id": 3586,
+          "job": 15,
+          "rlvl": 265,
+          "durability": 40,
+          "quality": 2304,
+          "progress": 340,
+          "lvl": 62,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19881,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gem Algae",
+      "id": 19881,
+      "icon": 25225,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "ventures": [
+        684
+      ],
+      "nodes": [
+        511
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66320000005773",
+      "obj": {
+        "i": 66320000005773,
+        "n": "Steppe Dzo",
+        "l": "65",
+        "z": 2411
+      }
+    },
+    {
+      "type": "item",
+      "id": "19868",
+      "obj": {
+        "i": 19868,
+        "n": "Gyr Abanian Wheat",
+        "l": 255,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "505",
+      "obj": {
+        "i": 505,
+        "n": "East End",
+        "l": 60,
+        "t": 3,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "node",
+      "id": "519",
+      "obj": {
+        "i": 519,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 3,
+        "z": 2411
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "19881",
+      "obj": {
+        "i": 19881,
+        "n": "Gem Algae",
+        "l": 265,
+        "c": 25225,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019335",
+      "obj": {
+        "i": 1019335,
+        "n": "Steppe Cook",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.3",
+          "29.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19873",
+      "obj": {
+        "i": 19873,
+        "n": "Dzo Chuck",
+        "l": 276,
+        "c": 25159,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19841",
+      "obj": {
+        "i": 19841,
+        "n": "Gyr Abanian Flour",
+        "l": 255,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19866",
+      "obj": {
+        "i": 19866,
+        "n": "Sun Cabbage",
+        "l": 279,
+        "c": 25208,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12878",
+      "obj": {
+        "i": 12878,
+        "n": "Cyclops Onion",
+        "l": 130,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12906",
+      "obj": {
+        "i": 12906,
+        "n": "Oriental Soy Sauce",
+        "l": 136,
+        "c": 27602,
+        "t": 45,
+        "p": 430
+      }
+    },
+    {
+      "type": "item",
+      "id": "19848",
+      "obj": {
+        "i": 19848,
+        "n": "Algae Salt",
+        "l": 265,
+        "c": 25104,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68714",
+      "obj": {
+        "i": 68714,
+        "n": "He Ain't Piggy, He's My Brother",
+        "g": 121,
+        "l": "Idyllshire",
+        "s": 5703,
+        "f": 1
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1309",
+      "obj": {
+        "i": 1309,
+        "n": "West Meats East",
+        "l": 66,
+        "j": 16,
+        "p": 2404
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018998",
+      "obj": {
+        "i": 1018998,
+        "n": "Chantine",
+        "l": 2404
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19869",
+      "obj": {
+        "i": 19869,
+        "n": "Persimmon",
+        "l": 282,
+        "c": 25321,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19839",
+      "obj": {
+        "i": 19839,
+        "n": "Nomad Meat Pie",
+        "l": 279,
+        "c": 24354,
+        "t": 46,
+        "p": 2186
+      }
+    }
+  ]
+}

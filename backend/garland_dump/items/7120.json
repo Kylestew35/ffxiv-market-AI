@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Glade Striking Dummy",
+    "description": "A striking dummy designed in the glade fashion.<br><br>※Up to three dummies may be placed in a single estate, regardless of type.",
+    "id": 7120,
+    "patch": 2.3,
+    "patchCategory": 9,
+    "price": 34927,
+    "ilvl": 70,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 524,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 52140,
+    "tradeShops": [
+      {
+        "shop": "Allied Seals (Order of the Twin Adder)",
+        "npcs": [
+          1009152
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7120",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 180
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

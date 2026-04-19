@@ -1,0 +1,63 @@
+{
+  "item": {
+    "name": "Tiny Troll",
+    "description": "The good kind that makes constructive, well-thought-out comments.<br><br>Use item to acquire the tiny troll minion.",
+    "minionrace": "Monster",
+    "tooltip": "I swear he's part forest troll...\r\n   - Lightly Built Lab Assistant",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Sneeze",
+    "specialactiondescription": "Inflicts a weakness to <span class=\"highlight\">monsters</span> on all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 35982,
+    "patch": 6.0,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59834,
+    "instances": [
+      81,
+      81
+    ],
+    "cost": 20,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 60,
+      "Speed": 2
+    },
+    "models": [
+      "8393-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "81",
+      "obj": {
+        "i": 81,
+        "n": "The Aitiascope",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 89,
+        "max_lvl": 90,
+        "min_ilvl": 520,
+        "max_ilvl": 550
+      }
+    }
+  ]
+}

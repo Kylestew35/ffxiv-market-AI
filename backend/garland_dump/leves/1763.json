@@ -1,0 +1,707 @@
+{
+  "leve": {
+    "name": "Creative Chocolate",
+    "description": "In Tural, we mainly use kukuru beans for beverages, but I hear that across the salt, chocolate has advanced the creation of confectionary to a surprising degree. I believe something like that might be suitable for our tables. The embrace of a chewy crust around a decadent center...a union of bitter and sweet... I trust you can create something like that for me to emulate?",
+    "id": 1763,
+    "patch": 7.0,
+    "client": "Sunperch Chef, Shoape",
+    "lvl": 94,
+    "jobCategory": 16,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 2382950,
+    "gil": 5100,
+    "rewards": 877,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44088,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 1413,
+      "hq": 1473
+    }
+  },
+  "rewards": {
+    "id": 877,
+    "entries": [
+      {
+        "item": 8,
+        "rate": 0.23,
+        "amount": 38
+      },
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 38
+      },
+      {
+        "item": 43988,
+        "rate": 0.23
+      },
+      {
+        "item": 8,
+        "rate": 0.1,
+        "amount": 45
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 45
+      },
+      {
+        "item": 44065,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Gateau au Chocolat",
+      "id": 44088,
+      "icon": 24071,
+      "category": 46,
+      "ilvl": 657,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5602,
+          "job": 15,
+          "rlvl": 665,
+          "durability": 80,
+          "quality": 9800,
+          "progress": 5100,
+          "lvl": 95,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 43975,
+              "amount": 1,
+              "quality": 1111.3574
+            },
+            {
+              "id": 43991,
+              "amount": 1
+            },
+            {
+              "id": 27841,
+              "amount": 1,
+              "quality": 673.4993
+            },
+            {
+              "id": 36256,
+              "amount": 1
+            },
+            {
+              "id": 12895,
+              "amount": 1,
+              "quality": 217.25784
+            },
+            {
+              "id": 36080,
+              "amount": 1,
+              "quality": 885.7435
+            },
+            {
+              "id": 8,
+              "amount": 8
+            },
+            {
+              "id": 13,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 471,
+            "hq": 491
+          }
+        }
+      ]
+    },
+    {
+      "name": "Whipped Cream",
+      "id": 43975,
+      "icon": 25056,
+      "category": 45,
+      "ilvl": 665,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5591,
+          "job": 15,
+          "rlvl": 665,
+          "durability": 40,
+          "quality": 9800,
+          "progress": 2550,
+          "lvl": 95,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 43980,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Shaaloani Oilseeds",
+      "id": 43980,
+      "icon": 25007,
+      "category": 45,
+      "ilvl": 660,
+      "price": 99999,
+      "ventures": [
+        1008
+      ],
+      "nodes": [
+        999
+      ]
+    },
+    {
+      "name": "Sweet Kukuru Bean",
+      "id": 43991,
+      "icon": 25314,
+      "category": 45,
+      "ilvl": 665,
+      "price": 99999,
+      "ventures": [
+        1010
+      ],
+      "nodes": [
+        988
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Egg of Elpis",
+      "id": 36256,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36256",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1644,
+        1645
+      ],
+      "ventures": [
+        945
+      ]
+    },
+    {
+      "name": "Fermented Butter",
+      "id": 12895,
+      "icon": 25052,
+      "category": 45,
+      "ilvl": 130,
+      "price": 205,
+      "craft": [
+        {
+          "id": 2821,
+          "job": 15,
+          "rlvl": 130,
+          "durability": 40,
+          "quality": 1768,
+          "progress": 150,
+          "lvl": 53,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 77,
+            "hq": 97
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Palm Sugar",
+      "id": 36080,
+      "icon": 25103,
+      "category": 45,
+      "ilvl": 530,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5285,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36086,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Palm Syrup",
+      "id": 36086,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 74,
+          "type": 1
+        },
+        {
+          "id": 88,
+          "type": 1
+        },
+        {
+          "id": 81,
+          "type": 1
+        },
+        {
+          "id": 96,
+          "type": 1
+        },
+        {
+          "id": 104,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        914
+      ],
+      "nodes": [
+        839
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "43980",
+      "obj": {
+        "i": 43980,
+        "n": "Shaaloani Oilseeds",
+        "l": 660,
+        "c": 25007,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "999",
+      "obj": {
+        "i": 999,
+        "n": "Yawtanane Grasslands",
+        "l": 95,
+        "t": 3,
+        "z": 4508
+      }
+    },
+    {
+      "type": "node",
+      "id": "988",
+      "obj": {
+        "i": 988,
+        "n": "The Ja Tiika Heartland",
+        "l": 95,
+        "t": 2,
+        "z": 4507
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "36086",
+      "obj": {
+        "i": 36086,
+        "n": "Palm Syrup",
+        "l": 525,
+        "c": 22642,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "839",
+      "obj": {
+        "i": 839,
+        "n": "The Great Work",
+        "l": 85,
+        "t": 2,
+        "z": 3709
+      }
+    },
+    {
+      "type": "item",
+      "id": "43975",
+      "obj": {
+        "i": 43975,
+        "n": "Whipped Cream",
+        "l": 665,
+        "c": 25056,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "43991",
+      "obj": {
+        "i": 43991,
+        "n": "Sweet Kukuru Bean",
+        "l": 665,
+        "c": 25314,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36256",
+      "obj": {
+        "i": 36256,
+        "n": "Egg of Elpis",
+        "l": 539,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12895",
+      "obj": {
+        "i": 12895,
+        "n": "Fermented Butter",
+        "l": 130,
+        "c": 25052,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36080",
+      "obj": {
+        "i": 36080,
+        "n": "Palm Sugar",
+        "l": 530,
+        "c": 25103,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70508",
+      "obj": {
+        "i": 70508,
+        "n": "Teamwork Makes the Craftwork",
+        "g": 209,
+        "l": "Tuliyollal",
+        "s": 150
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70515",
+      "obj": {
+        "i": 70515,
+        "n": "Written in Stone",
+        "g": 210,
+        "l": "Tuliyollal",
+        "s": 250
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70522",
+      "obj": {
+        "i": 70522,
+        "n": "The Missing Drink",
+        "g": 211,
+        "l": "Tuliyollal",
+        "s": 350
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1763",
+      "obj": {
+        "i": 1763,
+        "n": "Creative Chocolate",
+        "l": 94,
+        "j": 16,
+        "p": 4504
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43988",
+      "obj": {
+        "i": 43988,
+        "n": "Turali Pineapple",
+        "l": 665,
+        "c": 25303,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "44065",
+      "obj": {
+        "i": 44065,
+        "n": "Branchbearer Fruit",
+        "l": 660,
+        "c": 25331,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "44088",
+      "obj": {
+        "i": 44088,
+        "n": "Gateau au Chocolat",
+        "l": 657,
+        "c": 24071,
+        "t": 46
+      }
+    }
+  ]
+}

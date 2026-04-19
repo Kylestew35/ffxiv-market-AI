@@ -1,0 +1,123 @@
+{
+  "item": {
+    "name": "Augmented Healer's Culottes",
+    "jobCategories": "WHM",
+    "id": 8419,
+    "patch": 2.3,
+    "patchCategory": 0,
+    "price": 16906,
+    "ilvl": 50,
+    "category": 36,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 45,
+    "jobs": 25,
+    "models": [
+      "39-1-0-0"
+    ],
+    "attr": {
+      "Defense": 64,
+      "Magic Defense": 113,
+      "Mind": 13,
+      "Vitality": 14,
+      "Piety": 23,
+      "Determination": 16
+    },
+    "icon": 45189,
+    "sharedModels": [
+      3463,
+      6077
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Equipment (DoM)",
+        "npcs": [
+          1006987
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8419",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "3463",
+                "amount": 1
+              },
+              {
+                "id": "8049",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "3463",
+      "obj": {
+        "i": 3463,
+        "n": "Healer's Culottes",
+        "l": 50,
+        "c": 45189,
+        "t": 36,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6077",
+      "obj": {
+        "i": 6077,
+        "n": "Cleric's Culottes",
+        "l": 90,
+        "c": 45367,
+        "t": 36
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006987",
+      "obj": {
+        "i": 1006987,
+        "n": "Kakalan",
+        "l": 67,
+        "s": 4,
+        "t": "Forge Sales",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.32,
+          5.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8049",
+      "obj": {
+        "i": 8049,
+        "n": "Healer's Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    }
+  ]
+}

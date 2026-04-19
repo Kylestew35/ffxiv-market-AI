@@ -1,0 +1,423 @@
+{
+  "item": {
+    "name": "Wind-up Dullahan",
+    "description": "Warning: may contain sharp parts.<br><br>Use item to acquire the wind-up dullahan minion.",
+    "minionrace": "Monster",
+    "tooltip": "Pray retrieve the gift ere\r\nit is crushed beneath the\r\niron feet of the dullahans!\r\n  - G'raha Tia",
+    "minionskilltype": "Trap",
+    "specialactionname": "Wandering Armor",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 180 to all enemies within range.<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 6190,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59425,
+    "craft": [
+      {
+        "id": 1384,
+        "job": 10,
+        "rlvl": 50,
+        "durability": 80,
+        "quality": 2000,
+        "progress": 90,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 5061,
+            "amount": 3,
+            "quality": 333.33334
+          },
+          {
+            "id": 3,
+            "amount": 99
+          }
+        ],
+        "complexity": {
+          "nq": 844,
+          "hq": 864
+        }
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 445,
+      "Skill Cost": 30,
+      "Attack": 30,
+      "Defense": 55,
+      "Speed": 2
+    },
+    "models": [
+      "8022-1-1"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Darksteel Nugget",
+      "id": 5061,
+      "icon": 20808,
+      "category": 49,
+      "ilvl": 55,
+      "price": 1089,
+      "craft": [
+        {
+          "id": 1207,
+          "job": 9,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5121,
+              "amount": 3
+            },
+            {
+              "id": 8,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        },
+        {
+          "id": 1254,
+          "job": 10,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5121,
+              "amount": 3
+            },
+            {
+              "id": 9,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        11090,
+        10506,
+        20356,
+        9227,
+        1880,
+        1741,
+        10444,
+        1811,
+        1671,
+        10469,
+        5565,
+        11097,
+        6499,
+        2869,
+        11105
+      ],
+      "treasure": [
+        6692
+      ]
+    },
+    {
+      "name": "Darksteel Ore",
+      "id": 5121,
+      "icon": 21205,
+      "category": 48,
+      "ilvl": 55,
+      "price": 326,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5121",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        510
+      ],
+      "nodes": [
+        222
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5121",
+      "obj": {
+        "i": 5121,
+        "n": "Darksteel Ore",
+        "l": 55,
+        "c": 21205,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "222",
+      "obj": {
+        "i": 222,
+        "n": "Dragonhead",
+        "l": 50,
+        "t": 0,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5061",
+      "obj": {
+        "i": 5061,
+        "n": "Darksteel Nugget",
+        "l": 55,
+        "c": 20808,
+        "t": 49
+      }
+    }
+  ]
+}

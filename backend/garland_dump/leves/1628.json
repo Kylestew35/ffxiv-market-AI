@@ -1,0 +1,507 @@
+{
+  "leve": {
+    "name": "Wishful Inking",
+    "description": "I want to enroll in the Studium so I can join the Stone Sculpture Appreciation Society, but I'm afraid I've failed the entrance examination...five times now. To avoid a sixth disaster, I'd like to request some pots of quality ink to properly focus my study efforts.",
+    "id": 1628,
+    "patch": 6.0,
+    "client": "Aspiring Studium Pupil, Benger",
+    "lvl": 80,
+    "jobCategory": 15,
+    "levemete": 1037264,
+    "areaid": 3706,
+    "xp": 724620,
+    "gil": 2450,
+    "rewards": 793,
+    "plate": 80033,
+    "frame": 80005,
+    "areaicon": 110135,
+    "requires": [
+      {
+        "item": 36237,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 318,
+      "hq": 378
+    }
+  },
+  "rewards": {
+    "id": 793,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 36
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 36
+      },
+      {
+        "item": 27799,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 43
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 43
+      },
+      {
+        "item": 36162,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Enchanted High Durium Ink",
+      "id": 36237,
+      "icon": 25923,
+      "category": 54,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5333,
+          "job": 14,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36162,
+              "amount": 4
+            },
+            {
+              "id": 27799,
+              "amount": 1
+            },
+            {
+              "id": 27782,
+              "amount": 1
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 106,
+            "hq": 126
+          }
+        }
+      ],
+      "treasure": [
+        36611
+      ]
+    },
+    {
+      "name": "High Durium Sand",
+      "id": 36162,
+      "icon": 21242,
+      "category": 48,
+      "ilvl": 515,
+      "price": 99999,
+      "treasure": [
+        36611,
+        39591
+      ],
+      "leves": [
+        1588,
+        1628,
+        1629,
+        1630,
+        1631
+      ],
+      "ventures": [
+        896
+      ],
+      "nodes": [
+        816
+      ]
+    },
+    {
+      "name": "Cubus Flesh",
+      "id": 27799,
+      "icon": 25156,
+      "category": 54,
+      "ilvl": 418,
+      "price": 2491,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027766
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27799",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1628,
+        1629
+      ],
+      "ventures": [
+        786
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "816",
+      "obj": {
+        "i": 816,
+        "n": "Lower Acrinthos",
+        "l": 85,
+        "t": 1,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "36611",
+      "obj": {
+        "i": 36611,
+        "n": "Timeworn Saigaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "39591",
+      "obj": {
+        "i": 39591,
+        "n": "Timeworn Ophiotauroskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027766",
+      "obj": {
+        "i": 1027766,
+        "n": "Goushs Ooan",
+        "l": 2958,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3195,
+        "c": [
+          33.24,
+          18.02
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "34090",
+      "obj": {
+        "i": 34090,
+        "n": "Gaja Grimoire",
+        "l": 515,
+        "c": 33352,
+        "t": 10,
+        "p": 45417
+      }
+    },
+    {
+      "type": "item",
+      "id": "34091",
+      "obj": {
+        "i": 34091,
+        "n": "Gaja Codex",
+        "l": 515,
+        "c": 33351,
+        "t": 98,
+        "p": 45417
+      }
+    },
+    {
+      "type": "item",
+      "id": "34240",
+      "obj": {
+        "i": 34240,
+        "n": "Luncheon Toadskin Grimoire",
+        "l": 525,
+        "c": 33340,
+        "t": 10,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34241",
+      "obj": {
+        "i": 34241,
+        "n": "Luncheon Toadskin Codex",
+        "l": 525,
+        "c": 33339,
+        "t": 98,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34242",
+      "obj": {
+        "i": 34242,
+        "n": "Pewter Astrometer",
+        "l": 525,
+        "c": 34965,
+        "t": 89,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34390",
+      "obj": {
+        "i": 34390,
+        "n": "Saigaskin Grimoire",
+        "l": 533,
+        "c": 33328,
+        "t": 10,
+        "p": 47685
+      }
+    },
+    {
+      "type": "item",
+      "id": "34391",
+      "obj": {
+        "i": 34391,
+        "n": "Saigaskin Codex",
+        "l": 533,
+        "c": 33327,
+        "t": 98,
+        "p": 47685
+      }
+    },
+    {
+      "type": "item",
+      "id": "36162",
+      "obj": {
+        "i": 36162,
+        "n": "High Durium Sand",
+        "l": 515,
+        "c": 21242,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27799",
+      "obj": {
+        "i": 27799,
+        "n": "Cubus Flesh",
+        "l": 418,
+        "c": 25156,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "43644",
+      "obj": {
+        "i": 43644,
+        "n": "Palm Round Brush",
+        "l": 525,
+        "c": 37645,
+        "t": 111
+      }
+    },
+    {
+      "type": "item",
+      "id": "43646",
+      "obj": {
+        "i": 43646,
+        "n": "Red Pine Flat Brush",
+        "l": 533,
+        "c": 37604,
+        "t": 111
+      }
+    },
+    {
+      "type": "item",
+      "id": "41112",
+      "obj": {
+        "i": 41112,
+        "n": "Sake Barrel",
+        "l": 690,
+        "c": 51734,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "35657",
+      "obj": {
+        "i": 35657,
+        "n": "Rarefied Luncheon Toadskin Grimoire",
+        "l": 530,
+        "c": 33340,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "38536",
+      "obj": {
+        "i": 38536,
+        "n": "Island Prism",
+        "l": 1,
+        "c": 26235,
+        "t": 60
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1628",
+      "obj": {
+        "i": 1628,
+        "n": "Wishful Inking",
+        "l": 80,
+        "j": 15,
+        "p": 3706
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037264",
+      "obj": {
+        "i": 1037264,
+        "n": "Ahldiyrn",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36237",
+      "obj": {
+        "i": 36237,
+        "n": "Enchanted High Durium Ink",
+        "l": 520,
+        "c": 25923,
+        "t": 54
+      }
+    }
+  ]
+}

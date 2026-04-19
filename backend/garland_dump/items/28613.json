@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Ballroom Etiquette - Feigning Fatigue",
+    "description": "An illustrated manual of how to avoid the unwanted attention of would-be suitors, overbearing great-aunts, and other such dullards by pretending to have been overcome by a sudden bout of giddiness. Use to learn the /headache emote.",
+    "id": 28613,
+    "patch": 5.15,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26435,
+    "tradeShops": [
+      {
+        "shop": "Exchange Allied Seals",
+        "npcs": [
+          1032254
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28613",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032254",
+      "obj": {
+        "i": 1032254,
+        "n": "Maudlin Latool Ja",
+        "l": 41,
+        "s": 1,
+        "r": 1,
+        "a": 648,
+        "c": [
+          12.54,
+          13.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

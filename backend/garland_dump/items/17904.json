@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Precision Spectacles",
+    "description": "A pair of corrective glasses crafted to accommodate for J'khebica's failing eyesight.",
+    "id": 17904,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 276,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 40953,
+    "craft": [
+      {
+        "id": 32285,
+        "job": 11,
+        "rlvl": 276,
+        "durability": 80,
+        "quality": 1732,
+        "progress": 581,
+        "lvl": 65,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17903,
+            "amount": 1
+          },
+          {
+            "id": 10,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 33,
+          "hq": 53
+        }
+      }
+    ],
+    "usedInQuest": [
+      68137
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Eyewear Materials",
+      "id": 17903,
+      "icon": 20810,
+      "category": 63,
+      "ilvl": 276,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17903",
+      "obj": {
+        "i": 17903,
+        "n": "Eyewear Materials",
+        "l": 276,
+        "c": 20810,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68137",
+      "obj": {
+        "i": 68137,
+        "n": "Blindsided",
+        "g": 167,
+        "l": "Rhalgr's Reach",
+        "s": 650,
+        "f": 1
+      }
+    }
+  ]
+}

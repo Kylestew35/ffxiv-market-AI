@@ -1,0 +1,53 @@
+{
+  "item": {
+    "name": "Art Supply Components",
+    "description": "An assortment of components suitable for crafting art supplies for the enjoyment of the patients of Ser Vaindreau's Grace.",
+    "id": 33238,
+    "patch": 5.5,
+    "patchCategory": 5,
+    "price": 1600,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21002,
+    "vendors": [
+      1035213
+    ],
+    "ingredient_of": {
+      "33228": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1035213",
+      "obj": {
+        "i": 1035213,
+        "n": "Diana",
+        "l": 3435,
+        "s": 1,
+        "t": "Merchant & Scrip Trader",
+        "a": 3636,
+        "c": [
+          9.85,
+          8.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33228",
+      "obj": {
+        "i": 33228,
+        "n": "Art Supplies",
+        "l": 412,
+        "c": 26122,
+        "t": 61
+      }
+    }
+  ]
+}

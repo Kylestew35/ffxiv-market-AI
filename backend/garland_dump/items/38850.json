@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Radio Equipment Materials",
+    "description": "Components apparently vital to the creation of inscrutable equipment. You don't know─you just work here.<br><br>※Only for use in Loporrit society quests.",
+    "id": 38850,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "38851": 1
+    },
+    "usedInQuest": [
+      70221
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "38851",
+      "obj": {
+        "i": 38851,
+        "n": "Radio Equipment",
+        "l": 430,
+        "c": 21012,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70221",
+      "obj": {
+        "i": 70221,
+        "n": "A Million Malms Away",
+        "g": 72,
+        "l": "Mare Lamentorum",
+        "s": 5,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Luminol",
+    "description": "When applied to an object that has recently been in contact with blood, this alchemical admixture will change color.",
+    "id": 17930,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 285,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20681,
+    "craft": [
+      {
+        "id": 32298,
+        "job": 14,
+        "rlvl": 285,
+        "durability": 80,
+        "quality": 1881,
+        "progress": 686,
+        "lvl": 68,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17929,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 2
+          },
+          {
+            "id": 12,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 100027,
+          "hq": 100047
+        }
+      }
+    ],
+    "usedInQuest": [
+      67975
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Luminol Ingredients",
+      "id": 17929,
+      "icon": 22614,
+      "category": 63,
+      "ilvl": 285,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17929",
+      "obj": {
+        "i": 17929,
+        "n": "Luminol Ingredients",
+        "l": 285,
+        "c": 22614,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67975",
+      "obj": {
+        "i": 67975,
+        "n": "No Sin Unpunished",
+        "g": 170,
+        "l": "Ul'dah",
+        "s": 680,
+        "f": 1
+      }
+    }
+  ]
+}

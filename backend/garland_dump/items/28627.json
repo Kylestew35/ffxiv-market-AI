@@ -1,0 +1,81 @@
+{
+  "item": {
+    "name": "Wind-up Hobgoblin",
+    "description": "Crafted in the likeness of your mother...or so certain dwarves would say.<br><br>Use item to acquire the wind-up hobgoblin minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Your mother was\r\na hobgoblin!\r\n   - Giott",
+    "minionskilltype": "Trap",
+    "specialactionname": "Goblin Punch",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 270 to all enemies within range.<br> <span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 28627,
+    "patch": 5.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59762,
+    "tradeShops": [
+      {
+        "shop": "Previous Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28627",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46179",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 510,
+      "Skill Cost": 30,
+      "Attack": 30,
+      "Defense": 60,
+      "Speed": 3
+    },
+    "models": [
+      "8327-1-1"
+    ],
+    "ventures": [
+      852
+    ],
+    "alla": {
+      "source": [
+        "VENTURE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "46179",
+      "obj": {
+        "i": 46179,
+        "n": "Irregular Tomestone of Revelation",
+        "l": 1,
+        "c": "t/26346",
+        "t": 63
+      }
+    }
+  ]
+}

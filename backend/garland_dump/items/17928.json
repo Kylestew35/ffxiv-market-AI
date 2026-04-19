@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Twice-fermented Mun-Tuy Juice",
+    "description": "Fermenting Mun-Tuy extract twice greatly lessens the beans' natural bitterness, resulting in a smoother aftertaste. Side effects of the beverage include a decided loosening of the tongue.",
+    "id": 17928,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 276,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20682,
+    "craft": [
+      {
+        "id": 32297,
+        "job": 14,
+        "rlvl": 276,
+        "durability": 80,
+        "quality": 1732,
+        "progress": 581,
+        "lvl": 65,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17927,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 2
+          },
+          {
+            "id": 12,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 100027,
+          "hq": 100047
+        }
+      }
+    ],
+    "usedInQuest": [
+      67974
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Juice Ingredients",
+      "id": 17927,
+      "icon": 21006,
+      "category": 63,
+      "ilvl": 276,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17927",
+      "obj": {
+        "i": 17927,
+        "n": "Juice Ingredients",
+        "l": 276,
+        "c": 21006,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67974",
+      "obj": {
+        "i": 67974,
+        "n": "Do Goldsmiths Dream of Gilded Sheep",
+        "g": 170,
+        "l": "Ul'dah",
+        "s": 650,
+        "f": 1
+      }
+    }
+  ]
+}

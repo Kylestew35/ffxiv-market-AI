@@ -1,0 +1,164 @@
+{
+  "item": {
+    "name": "Guardian Corps Gauntlets",
+    "description": "Fits: All ♀",
+    "jobCategories": "All Classes",
+    "id": 6042,
+    "patch": 2.05,
+    "patchCategory": 0,
+    "price": 347,
+    "ilvl": 13,
+    "category": 37,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5595,
+    "glamourous": 1,
+    "storable": 1,
+    "slot": 5,
+    "elvl": 13,
+    "jobs": 1,
+    "models": [
+      "147-1-0-0"
+    ],
+    "attr": {
+      "Defense": 12,
+      "Magic Defense": 22,
+      "Strength": 1,
+      "Dexterity": 1,
+      "Intelligence": 1,
+      "Mind": 1,
+      "Vitality": 1
+    },
+    "icon": 44207,
+    "tradeCurrency": [
+      {
+        "shop": "Gender-specific Gear Exchange (♀→♂) I",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6046",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6042",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gender-specific Gear Exchange (♂→♀) I",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6042",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6046",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66689
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "6046",
+      "obj": {
+        "i": 6046,
+        "n": "Bohemian's Gloves",
+        "l": 13,
+        "c": 44208,
+        "t": 37
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66689",
+      "obj": {
+        "i": 66689,
+        "n": "For the Winsome",
+        "g": 250,
+        "l": "Limsa Lominsa",
+        "s": 1
+      }
+    }
+  ]
+}

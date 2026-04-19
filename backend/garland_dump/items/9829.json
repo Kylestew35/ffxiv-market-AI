@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Cid Garlond Card",
+    "description": "An epic (★★★★) card used in the game Triple Triad.<br>Card No. 58",
+    "id": 9829,
+    "patch": 2.51,
+    "patchCategory": 14,
+    "price": 19,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27665,
+    "tripletriad": {
+      "en": {
+        "description": "“Just how long have I worn these damn goggles?”"
+      },
+      "ja": {
+        "description": "「このエンタープライズは、お前たちのような\r\n英雄を、戦場に送るための船だ！」\r\nガーロンド・アイアンワークス代表：シド・ガーロンド"
+      },
+      "de": {
+        "description": "„Dieses Schiff wurde dafür gemacht, um Helden wie dich an die Front zu bringen!“"
+      },
+      "fr": {
+        "description": "“Je suis rassuré de voir que tu n'as rien, mon ami<If(PlayerParameter(4))>e<Else/></If>. Mais par les Douze, avoir envoyé cet appareil magitek s'écraser dans le générateur<Indent/>! Tu es soit un génie, soit <If(PlayerParameter(4))>la femme<Else/>l'homme</If> <If(PlayerParameter(4))>la<Else/>le</If> plus chanceu<If(PlayerParameter(4))>se<Else/>x</If> que j'aie jamais connu<If(PlayerParameter(4))>e<Else/></If><Indent/>! Quoi qu'il en soit, tu as réussi à désactiver le champ de force, c'est ce qui compte.”"
+      },
+      "sellMgp": 800,
+      "plate": 87058,
+      "rarity": 4,
+      "top": 5,
+      "bottom": 9,
+      "left": 2,
+      "right": 9,
+      "rewardFrom": [
+        1009199
+      ]
+    },
+    "treasure": [
+      10130
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009199",
+      "obj": {
+        "i": 1009199,
+        "n": "Sezul Totoloc",
+        "l": 57,
+        "q": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "10130",
+      "obj": {
+        "i": 10130,
+        "n": "Gold Triad Card",
+        "l": 1,
+        "c": 27661,
+        "t": 61
+      }
+    }
+  ]
+}

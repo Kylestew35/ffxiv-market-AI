@@ -1,0 +1,259 @@
+{
+  "item": {
+    "name": "Augmented Hellfire Blade",
+    "jobCategories": "GLA PLD",
+    "id": 14388,
+    "patch": 3.2,
+    "patchCategory": 0,
+    "price": 85536,
+    "ilvl": 240,
+    "category": 2,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 856,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 1,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1230,
+    "slot": 1,
+    "elvl": 60,
+    "jobs": 38,
+    "models": [
+      "201-78-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 76,
+      "Magic Damage": 38,
+      "Delay": 2.24,
+      "Strength": 63,
+      "Vitality": 64,
+      "Critical Hit": 64,
+      "Tenacity": 45
+    },
+    "attr_max": {
+      "Strength": 170,
+      "Dexterity": 170,
+      "Vitality": 173,
+      "Intelligence": 170,
+      "Mind": 170,
+      "Piety": 173,
+      "GP": 2,
+      "CP": 2,
+      "Tenacity": 173,
+      "Direct Hit Rate": 173,
+      "Critical Hit": 173,
+      "Fire Resistance": 51,
+      "Ice Resistance": 51,
+      "Wind Resistance": 51,
+      "Earth Resistance": 51,
+      "Lightning Resistance": 51,
+      "Water Resistance": 51,
+      "Determination": 173,
+      "Skill Speed": 173,
+      "Spell Speed": 173,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 1328,
+      "Control": 534,
+      "Gathering": 1131,
+      "Perception": 323
+    },
+    "icon": 30541,
+    "sharedModels": [
+      14312
+    ],
+    "tradeShops": [
+      {
+        "shop": "Eikonic Gear Reoutfitting (DoW) I",
+        "npcs": [
+          1013747
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14388",
+                "amount": 1
+              },
+              {
+                "id": "14401",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "14312",
+                "amount": 1
+              },
+              {
+                "id": "14325",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allagan Tomestones of Poetics (IL 240 Weapons)",
+        "npcs": [
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14388",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 430
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal Gear (IL 240)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14388",
+                "amount": 1
+              },
+              {
+                "id": "14401",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67773
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "14312",
+      "obj": {
+        "i": 14312,
+        "n": "Hellfire Blade",
+        "l": 230,
+        "c": 30541,
+        "t": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013747",
+      "obj": {
+        "i": 1013747,
+        "n": "Seika",
+        "l": 2082,
+        "s": 22,
+        "t": "Gear Improvement",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.74,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14325",
+      "obj": {
+        "i": 14325,
+        "n": "Hellfire Shield",
+        "l": 230,
+        "c": 30135,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "14401",
+      "obj": {
+        "i": 14401,
+        "n": "Augmented Hellfire Shield",
+        "l": 240,
+        "c": 30135,
+        "t": 11
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67773",
+      "obj": {
+        "i": 67773,
+        "n": "Consequences",
+        "g": 4,
+        "l": "Coerthas Western Highlands",
+        "s": 15
+      }
+    }
+  ]
+}

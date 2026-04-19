@@ -1,0 +1,130 @@
+{
+  "leve": {
+    "name": "Perilous Peaks Poga",
+    "description": "Truth be told, I hate landing at <span class=\"highlight\">Peaks Poga</span> when I travel to Kozama'uka by boat. There are fish in that river with razor-sharp teeth that will leap out of the water to attack you─especially if you're Pelupelu or what they otherwise deem an edible size. The risk of deadly fish bites is not a price we should have to pay to do business there, so go forth and show those nasty biters who's in charge.<br><span class=\"highlight\">Requires: Fishing Tackle</span>",
+    "id": 1802,
+    "patch": 7.0,
+    "client": "Povlu's Peddlery Southern Representative, Toplu",
+    "lvl": 94,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      23.63,
+      14.37
+    ],
+    "zoneid": 4506,
+    "areaid": 4506,
+    "xp": 5803754,
+    "gil": 2560,
+    "rewards": 808,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110197,
+    "requires": [
+      {
+        "item": 43702,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 90,
+      "hq": 105
+    }
+  },
+  "rewards": {
+    "id": 808,
+    "entries": [
+      {
+        "item": 43851,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Pelubane",
+      "id": 43702,
+      "icon": 28581,
+      "category": 47,
+      "ilvl": 660,
+      "price": 99999,
+      "fishingSpots": [
+        304
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "304",
+      "obj": {
+        "i": 304,
+        "n": "Peaks Poga",
+        "l": 94,
+        "c": 1,
+        "z": 4506,
+        "x": 40.0,
+        "y": 15.09
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1802",
+      "obj": {
+        "i": 1802,
+        "n": "Perilous Peaks Poga",
+        "l": 94,
+        "j": 19,
+        "p": 4506
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43851",
+      "obj": {
+        "i": 43851,
+        "n": "Silkmoth Pupa",
+        "l": 645,
+        "c": 27104,
+        "t": 33,
+        "p": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43702",
+      "obj": {
+        "i": 43702,
+        "n": "Pelubane",
+        "l": 660,
+        "c": 28581,
+        "t": 47
+      }
+    }
+  ]
+}

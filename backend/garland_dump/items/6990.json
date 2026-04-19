@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Behemoth Warhorn",
+    "description": "This imposing horn emits a thunderous tone that summons your mighty behemoth.",
+    "mount": {
+      "name": "Behemoth",
+      "action": "Summon your mighty behemoth, trained from birth to carry you...not trample you underfoot like an ant.",
+      "description": "Immediately following the Calamity, an adventurer returning to Gridania from Falcon's Nest in Coerthas claims to have happened upon a den of baby behemoths who had lost their mother. Despite objections from friends and family alike, she kept the beasts, eventually training them to serve as mounts.",
+      "tooltip": "Do not presume to<br>provoke the behemoth to<br>battle. You will die.<br>  - Meurise",
+      "icon": 4008,
+      "guideIcon": 68008
+    },
+    "id": 6990,
+    "patch": 2.1,
+    "patchCategory": 17,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6990",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "42-3-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

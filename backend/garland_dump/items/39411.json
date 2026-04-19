@@ -1,0 +1,263 @@
+{
+  "item": {
+    "name": "Faerie Round Table",
+    "description": "The glass tabletop presents the illusion of solid water, but the claims that faeries assemble here for meetings has yet to be satisfyingly explained.",
+    "id": 39411,
+    "patch": 6.3,
+    "patchCategory": 9,
+    "price": 99999,
+    "ilvl": 560,
+    "category": 77,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 51724,
+    "craft": [
+      {
+        "id": 5513,
+        "job": 8,
+        "rlvl": 560,
+        "durability": 80,
+        "quality": 7200,
+        "progress": 3500,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 27690,
+            "amount": 8,
+            "quality": 190.77005
+          },
+          {
+            "id": 36263,
+            "amount": 6
+          },
+          {
+            "id": 36258,
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "amount": 8
+          },
+          {
+            "id": 9,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 738,
+          "hq": 758
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1236"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Miracle Apple Lumber",
+      "id": 27690,
+      "icon": 22456,
+      "category": 50,
+      "ilvl": 395,
+      "price": 2838,
+      "craft": [
+        {
+          "id": 3813,
+          "job": 8,
+          "rlvl": 395,
+          "durability": 40,
+          "quality": 3040,
+          "progress": 610,
+          "lvl": 72,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27684,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 70,
+            "hq": 90
+          }
+        }
+      ],
+      "desynthedFrom": [
+        26093
+      ],
+      "leves": [
+        1406,
+        1407,
+        1408
+      ]
+    },
+    {
+      "name": "Miracle Apple Log",
+      "id": 27684,
+      "icon": 22404,
+      "category": 50,
+      "ilvl": 395,
+      "price": 210,
+      "voyages": [
+        {
+          "id": 53,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        811
+      ],
+      "nodes": [
+        613
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27684",
+      "obj": {
+        "i": 27684,
+        "n": "Miracle Apple Log",
+        "l": 395,
+        "c": 22404,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "613",
+      "obj": {
+        "i": 613,
+        "n": "The Church at Dammroen Field",
+        "l": 75,
+        "t": 2,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27690",
+      "obj": {
+        "i": 27690,
+        "n": "Miracle Apple Lumber",
+        "l": 395,
+        "c": 22456,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    }
+  ]
+}

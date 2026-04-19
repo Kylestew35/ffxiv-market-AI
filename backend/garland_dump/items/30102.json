@@ -1,0 +1,99 @@
+{
+  "item": {
+    "name": "Construct 14 Identification Key",
+    "description": "A thin, rectangular piece of what appears to be cermet. Placing it near your Construct 14 will magically bring the machine to life.",
+    "mount": {
+      "name": "Construct 14",
+      "action": "Summon forth your Construct 14. Will dispose of friend and foe alike if so commanded, so be careful what you wish for.",
+      "description": "During their excavation in the Clockwork City of Goug, the IVth Imperial Legion discovered a host of worker automata, which they repurposed for war. As the name suggests, this particular construct is the fourteenth to undergo such a transformation.",
+      "tooltip": "Were you able to find<br>any machina worthy of<br>sssalvaging?<br>   - Eshana",
+      "icon": 4175,
+      "guideIcon": 68175
+    },
+    "id": 30102,
+    "patch": 5.35,
+    "patchCategory": 17,
+    "price": 1000,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30102",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 180
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "595-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    }
+  ]
+}

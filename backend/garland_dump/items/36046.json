@@ -1,0 +1,287 @@
+{
+  "item": {
+    "name": "Happiness Juice",
+    "description": "This uniquely sweet drink consists of an entire squeezed carrot, along with an assortment of other scrumptious additions to give it a kick.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36046,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 527,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Craftsmanship": {
+          "rate": 7,
+          "limit": 146
+        },
+        "CP": {
+          "rate": 8,
+          "limit": 26
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Craftsmanship": {
+          "rate": 9,
+          "limit": 183
+        },
+        "CP": {
+          "rate": 10,
+          "limit": 32
+        }
+      }
+    },
+    "icon": 24405,
+    "craft": [
+      {
+        "id": 5261,
+        "job": 15,
+        "rlvl": 535,
+        "durability": 80,
+        "quality": 6700,
+        "progress": 3000,
+        "lvl": 85,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36090,
+            "amount": 2
+          },
+          {
+            "id": 36088,
+            "amount": 2
+          },
+          {
+            "id": 27782,
+            "amount": 1
+          },
+          {
+            "id": 27836,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 154,
+          "hq": 174
+        }
+      }
+    ],
+    "quests": [
+      69671,
+      69678,
+      69685
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 2071750,
+      "seals": 892
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Carrot of Happiness",
+      "id": 36090,
+      "icon": 25207,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "ventures": [
+        923
+      ],
+      "nodes": [
+        902
+      ]
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "id": 36088,
+      "icon": 25219,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "ventures": [
+        912
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "id": 27836,
+      "icon": 25016,
+      "category": 45,
+      "ilvl": 403,
+      "price": 630,
+      "ventures": [
+        827
+      ],
+      "nodes": [
+        629
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "902",
+      "obj": {
+        "i": 902,
+        "n": "Heimdall's Last Sight",
+        "l": 85,
+        "t": 3,
+        "z": 3711
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "629",
+      "obj": {
+        "i": 629,
+        "n": "Embrasure",
+        "l": 75,
+        "t": 3,
+        "z": 2953,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36090",
+      "obj": {
+        "i": 36090,
+        "n": "Carrot of Happiness",
+        "l": 533,
+        "c": 25207,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36088",
+      "obj": {
+        "i": 36088,
+        "n": "Iceberg Lettuce",
+        "l": 520,
+        "c": 25219,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27836",
+      "obj": {
+        "i": 27836,
+        "n": "Peppermint",
+        "l": 403,
+        "c": 25016,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69671",
+      "obj": {
+        "i": 69671,
+        "n": "Rubbished Research",
+        "g": 203,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69678",
+      "obj": {
+        "i": 69678,
+        "n": "One Step Forward",
+        "g": 204,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69685",
+      "obj": {
+        "i": 69685,
+        "n": "Aroma Is Key",
+        "g": 205,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    }
+  ]
+}

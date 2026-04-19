@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Round Table Barding",
+    "description": "A suit of chocobo armor crafted using a design employed during the age of Thordan and his knights twelve.",
+    "id": 13286,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 58622,
+    "tradeShops": [
+      {
+        "shop": "Primal Gear II",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13286",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13627",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1015578",
+      "obj": {
+        "i": 1015578,
+        "n": "Bertana",
+        "l": 2082,
+        "s": 6,
+        "t": "Primal Gear Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.86,
+          5.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13627",
+      "obj": {
+        "i": 13627,
+        "n": "Heavens' Ward Helm Fragment",
+        "l": 1,
+        "c": 20956,
+        "t": 61
+      }
+    }
+  ]
+}

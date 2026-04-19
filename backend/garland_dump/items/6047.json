@@ -1,0 +1,164 @@
+{
+  "item": {
+    "name": "Bohemian's Trousers",
+    "description": "Fits: All ♂",
+    "jobCategories": "All Classes",
+    "id": 6047,
+    "patch": 2.05,
+    "patchCategory": 0,
+    "price": 297,
+    "ilvl": 13,
+    "category": 36,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5595,
+    "glamourous": 1,
+    "storable": 1,
+    "slot": 7,
+    "elvl": 13,
+    "jobs": 1,
+    "models": [
+      "148-1-0-0"
+    ],
+    "attr": {
+      "Defense": 17,
+      "Magic Defense": 29,
+      "Strength": 2,
+      "Dexterity": 2,
+      "Intelligence": 2,
+      "Mind": 2,
+      "Vitality": 2
+    },
+    "icon": 45361,
+    "tradeShops": [
+      {
+        "shop": "Gender-specific Gear Exchange (♀→♂) I",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6047",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6043",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gender-specific Gear Exchange (♂→♀) I",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6043",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6047",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66690
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "6043",
+      "obj": {
+        "i": 6043,
+        "n": "Guardian Corps Skirt",
+        "l": 13,
+        "c": 45360,
+        "t": 36
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66690",
+      "obj": {
+        "i": 66690,
+        "n": "Seeking the Scoop",
+        "g": 250,
+        "l": "Ul'dah",
+        "s": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "item": {
+    "name": "Radiant's Scale Mail of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 35116,
+    "patch": 6.05,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 590,
+    "category": 35,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 1625,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1879,
+    "slot": 4,
+    "elvl": 90,
+    "jobs": 59,
+    "models": [
+      "741-1-0-0"
+    ],
+    "attr": {
+      "Defense": 1026,
+      "Magic Defense": 1026,
+      "Strength": 270,
+      "Vitality": 280,
+      "Determination": 250,
+      "Tenacity": 175
+    },
+    "attr_max": {
+      "Strength": 729,
+      "Dexterity": 729,
+      "Vitality": 756,
+      "Intelligence": 729,
+      "Mind": 729,
+      "Piety": 676,
+      "GP": 4,
+      "CP": 3,
+      "Tenacity": 676,
+      "Defense": 4844,
+      "Direct Hit Rate": 676,
+      "Magic Defense": 4844,
+      "Critical Hit": 676,
+      "Fire Resistance": 69,
+      "Ice Resistance": 69,
+      "Wind Resistance": 69,
+      "Earth Resistance": 69,
+      "Lightning Resistance": 69,
+      "Water Resistance": 69,
+      "Determination": 676,
+      "Skill Speed": 676,
+      "Spell Speed": 676,
+      "Slow Resistance": 15,
+      "Petrification Resistance": 15,
+      "Paralysis Resistance": 15,
+      "Silence Resistance": 15,
+      "Blind Resistance": 15,
+      "Poison Resistance": 15,
+      "Stun Resistance": 15,
+      "Sleep Resistance": 15,
+      "Bind Resistance": 15,
+      "Heavy Resistance": 15,
+      "Doom Resistance": 15,
+      "Craftsmanship": 3571,
+      "Control": 1005,
+      "Gathering": 2259,
+      "Perception": 565
+    },
+    "icon": 43958,
+    "sharedModels": [
+      35121,
+      35191,
+      35196
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Astronomy (DoW)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35116",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "48",
+                "amount": 825
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Radiant's Gear Augmentation (DoW) I",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35191",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35116",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "35121",
+      "obj": {
+        "i": 35121,
+        "n": "Radiant's Scale Mail of Maiming",
+        "l": 590,
+        "c": 43959,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35191",
+      "obj": {
+        "i": 35191,
+        "n": "Augmented Radiant's Scale Mail of Fending",
+        "l": 600,
+        "c": 43958,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35196",
+      "obj": {
+        "i": 35196,
+        "n": "Augmented Radiant's Scale Mail of Maiming",
+        "l": 600,
+        "c": 43959,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Allagan Tomestone of Mathematics",
+        "l": 1,
+        "c": "t/65122",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

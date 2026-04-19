@@ -1,0 +1,661 @@
+{
+  "item": {
+    "name": "Larimar",
+    "description": "A sky blue jewel.",
+    "id": 12541,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 4452,
+    "ilvl": 130,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21324,
+    "vendors": [
+      1001977
+    ],
+    "ingredient_of": {
+      "11896": 1,
+      "10642": 1,
+      "10643": 1,
+      "10882": 1,
+      "10968": 2,
+      "10992": 2,
+      "11016": 2,
+      "11040": 2,
+      "11064": 2,
+      "12027": 2,
+      "10966": 1,
+      "10990": 1,
+      "11014": 1,
+      "11038": 1,
+      "11062": 1,
+      "12991": 2,
+      "18198": 1,
+      "10597": 2,
+      "10886": 1,
+      "10392": 1,
+      "10892": 1,
+      "13028": 2,
+      "13030": 2,
+      "13032": 2,
+      "13033": 1,
+      "13034": 1,
+      "13035": 2,
+      "13037": 2,
+      "14833": 2,
+      "13088": 8,
+      "15472": 2,
+      "31018": 1,
+      "9464": 6,
+      "9465": 6,
+      "23904": 12
+    },
+    "craft": [
+      {
+        "id": 2531,
+        "job": 11,
+        "rlvl": 130,
+        "durability": 40,
+        "quality": 1768,
+        "progress": 150,
+        "lvl": 53,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12551,
+            "amount": 3
+          },
+          {
+            "id": 5262,
+            "amount": 1,
+            "quality": 82.23256
+          },
+          {
+            "id": 10,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 98,
+          "hq": 118
+        }
+      }
+    ],
+    "quests": [
+      67442
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raw Larimar",
+      "id": 12551,
+      "icon": 21472,
+      "category": 48,
+      "ilvl": 130,
+      "price": 2831,
+      "ventures": [
+        448
+      ],
+      "nodes": [
+        285
+      ]
+    },
+    {
+      "name": "Basilisk Whetstone",
+      "id": 5262,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "craft": [
+        {
+          "id": 826,
+          "job": 11,
+          "rlvl": 40,
+          "durability": 40,
+          "quality": 1120,
+          "progress": 69,
+          "lvl": 40,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5263,
+              "amount": 1
+            },
+            {
+              "id": 4,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basilisk Egg",
+      "id": 5263,
+      "icon": 21215,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "ventures": [
+        60,
+        156
+      ],
+      "drops": [
+        16170000001593,
+        1730000000304
+      ],
+      "nodes": [
+        189
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "285",
+      "obj": {
+        "i": 285,
+        "n": "Gorgagne Holding",
+        "l": 55,
+        "t": 0,
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "5263",
+      "obj": {
+        "i": 5263,
+        "n": "Basilisk Egg",
+        "l": 40,
+        "c": 21215,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "189",
+      "obj": {
+        "i": 189,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1730000000304",
+      "obj": {
+        "i": 1730000000304,
+        "n": "Basilisk",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16170000001593",
+      "obj": {
+        "i": 16170000001593,
+        "n": "Quicksand Basilisk",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001977",
+      "obj": {
+        "i": 1001977,
+        "n": "Sileas",
+        "l": 41,
+        "s": 2,
+        "t": "Jeweler",
+        "c": [
+          "10.0",
+          "12.5"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "11896",
+      "obj": {
+        "i": 11896,
+        "n": "Hardsilver Alembic",
+        "l": 100,
+        "c": 35615,
+        "t": 24,
+        "p": 13622
+      }
+    },
+    {
+      "type": "item",
+      "id": "10642",
+      "obj": {
+        "i": 10642,
+        "n": "Hardsilver Staff",
+        "l": 133,
+        "c": 33034,
+        "t": 7,
+        "p": 27383
+      }
+    },
+    {
+      "type": "item",
+      "id": "10643",
+      "obj": {
+        "i": 10643,
+        "n": "Hardsilver Pole",
+        "l": 139,
+        "c": 33050,
+        "t": 7,
+        "p": 28620
+      }
+    },
+    {
+      "type": "item",
+      "id": "10882",
+      "obj": {
+        "i": 10882,
+        "n": "Hardsilver Monocle of Healing",
+        "l": 133,
+        "c": 40949,
+        "t": 34,
+        "p": 15113
+      }
+    },
+    {
+      "type": "item",
+      "id": "10968",
+      "obj": {
+        "i": 10968,
+        "n": "Aurum Regis Necklace of Fending",
+        "l": 145,
+        "c": 54925,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "10992",
+      "obj": {
+        "i": 10992,
+        "n": "Aurum Regis Necklace of Slaying",
+        "l": 145,
+        "c": 54925,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11016",
+      "obj": {
+        "i": 11016,
+        "n": "Aurum Regis Necklace of Aiming",
+        "l": 145,
+        "c": 54925,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11040",
+      "obj": {
+        "i": 11040,
+        "n": "Aurum Regis Necklace of Healing",
+        "l": 145,
+        "c": 54925,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11064",
+      "obj": {
+        "i": 11064,
+        "n": "Aurum Regis Necklace of Casting",
+        "l": 145,
+        "c": 54925,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "12551",
+      "obj": {
+        "i": 12551,
+        "n": "Raw Larimar",
+        "l": 130,
+        "c": 21472,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5262",
+      "obj": {
+        "i": 5262,
+        "n": "Basilisk Whetstone",
+        "l": 40,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12027",
+      "obj": {
+        "i": 12027,
+        "n": "Dragonskin Wristbands",
+        "l": 130,
+        "c": 55720,
+        "t": 42,
+        "p": 14826
+      }
+    },
+    {
+      "type": "item",
+      "id": "10966",
+      "obj": {
+        "i": 10966,
+        "n": "Ramie Ribbon of Fending",
+        "l": 133,
+        "c": 54919,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "10990",
+      "obj": {
+        "i": 10990,
+        "n": "Ramie Ribbon of Slaying",
+        "l": 133,
+        "c": 54919,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11014",
+      "obj": {
+        "i": 11014,
+        "n": "Ramie Ribbon of Aiming",
+        "l": 133,
+        "c": 54919,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11038",
+      "obj": {
+        "i": 11038,
+        "n": "Ramie Ribbon of Healing",
+        "l": 133,
+        "c": 54919,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "11062",
+      "obj": {
+        "i": 11062,
+        "n": "Ramie Ribbon of Casting",
+        "l": 133,
+        "c": 54919,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "12991",
+      "obj": {
+        "i": 12991,
+        "n": "Orthodox Barding",
+        "l": 1,
+        "c": 58613,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "18198",
+      "obj": {
+        "i": 18198,
+        "n": "Koppranickel Pole",
+        "l": 265,
+        "c": 33091,
+        "t": 7,
+        "p": 37778
+      }
+    },
+    {
+      "type": "item",
+      "id": "10597",
+      "obj": {
+        "i": 10597,
+        "n": "Adamantite Knuckles",
+        "l": 150,
+        "c": 31086,
+        "t": 1,
+        "p": 29462
+      }
+    },
+    {
+      "type": "item",
+      "id": "10886",
+      "obj": {
+        "i": 10886,
+        "n": "Aurum Regis Crown of Healing",
+        "l": 180,
+        "c": 40701,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10392",
+      "obj": {
+        "i": 10392,
+        "n": "Thavnairian Headdress",
+        "l": 1,
+        "c": 40693,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10892",
+      "obj": {
+        "i": 10892,
+        "n": "Chimerical Felt Robe of Healing",
+        "l": 150,
+        "c": 42461,
+        "t": 35,
+        "p": 18532
+      }
+    },
+    {
+      "type": "item",
+      "id": "13028",
+      "obj": {
+        "i": 13028,
+        "n": "Gemmaster's Coronal",
+        "l": 170,
+        "c": 40690,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13030",
+      "obj": {
+        "i": 13030,
+        "n": "Gemmaster's Chaplets",
+        "l": 170,
+        "c": 48261,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13032",
+      "obj": {
+        "i": 13032,
+        "n": "Gemmaster's Sandals",
+        "l": 170,
+        "c": 49843,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13033",
+      "obj": {
+        "i": 13033,
+        "n": "Hidemaster's Cap",
+        "l": 170,
+        "c": 41236,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13034",
+      "obj": {
+        "i": 13034,
+        "n": "Hidemaster's Apron",
+        "l": 170,
+        "c": 42430,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13035",
+      "obj": {
+        "i": 13035,
+        "n": "Hidemaster's Gloves",
+        "l": 170,
+        "c": 48479,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13037",
+      "obj": {
+        "i": 13037,
+        "n": "Hidemaster's Workboots",
+        "l": 170,
+        "c": 46466,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14833",
+      "obj": {
+        "i": 14833,
+        "n": "Expeditioner's Tabard",
+        "l": 1,
+        "c": 42499,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13088",
+      "obj": {
+        "i": 13088,
+        "n": "Sephirot Root",
+        "l": 180,
+        "c": 52222,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "15472",
+      "obj": {
+        "i": 15472,
+        "n": "Survival Hat",
+        "l": 1,
+        "c": 41327,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "31018",
+      "obj": {
+        "i": 31018,
+        "n": "Rarefied Hardsilver Monocle",
+        "l": 139,
+        "c": 40949,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "9464",
+      "obj": {
+        "i": 9464,
+        "n": "Level 4 Aetherial Wheel Stand",
+        "l": 1,
+        "c": 52560,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "9465",
+      "obj": {
+        "i": 9465,
+        "n": "Level 5 Aetherial Wheel Stand",
+        "l": 1,
+        "c": 52561,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "23904",
+      "obj": {
+        "i": 23904,
+        "n": "Coelacanth-class Bridge",
+        "l": 145,
+        "c": 27804,
+        "t": 104
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67442",
+      "obj": {
+        "i": 67442,
+        "n": "Unfulfilled Dreams",
+        "g": 116,
+        "l": "Ishgard",
+        "s": 5702
+      }
+    }
+  ]
+}

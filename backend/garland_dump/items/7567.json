@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Tight-beaked Parrot",
+    "description": "For best results, summon while wearing an eyepatch.<br><br>Use item to acquire the tight-beaked parrot minion.",
+    "minionrace": "Critter",
+    "tooltip": "Parley! Parley!\r\nParley! Squaaawk!\r\n  - Loose-beaked Parrot",
+    "minionskilltype": "Special",
+    "specialactionname": "Parley",
+    "specialactiondescription": "Transports action party to the central summoning Gate. ",
+    "id": 7567,
+    "patch": 2.4,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59462,
+    "instances": [
+      28,
+      55001
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [],
+    "attr": {
+      "HP": 365,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 35,
+      "Speed": 3
+    },
+    "models": [
+      "8051-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Sastasha (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    }
+  ]
+}

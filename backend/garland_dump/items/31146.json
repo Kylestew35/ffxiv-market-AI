@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Armament Repair Kit Materials",
+    "description": "Assorted materials necessary for putting together a specialized armament repair kit.<br><br>※Only for use in dwarf society quests.",
+    "id": 31146,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "31147": 1
+    },
+    "usedInQuest": [
+      69438
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31147",
+      "obj": {
+        "i": 31147,
+        "n": "Armament Repair Kit",
+        "l": 290,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69438",
+      "obj": {
+        "i": 69438,
+        "n": "Lakeland Neighbors",
+        "g": 67,
+        "l": "Lakeland",
+        "s": 101,
+        "r": 1
+      }
+    }
+  ]
+}

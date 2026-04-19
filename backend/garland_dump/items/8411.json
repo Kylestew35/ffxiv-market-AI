@@ -1,0 +1,124 @@
+{
+  "item": {
+    "name": "Augmented Choral Chapeau",
+    "jobCategories": "BRD",
+    "id": 8411,
+    "patch": 2.3,
+    "patchCategory": 0,
+    "price": 16906,
+    "ilvl": 50,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5598,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 3,
+    "elvl": 45,
+    "jobs": 24,
+    "models": [
+      "41-1-0-0"
+    ],
+    "attr": {
+      "Defense": 66,
+      "Magic Defense": 66,
+      "Dexterity": 8,
+      "Vitality": 10,
+      "Critical Hit": 14,
+      "Direct Hit Rate": 10
+    },
+    "icon": 41135,
+    "sharedModels": [
+      2901,
+      6069
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Equipment (DoW)",
+        "npcs": [
+          1006987
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8411",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "2901",
+                "amount": 1
+              },
+              {
+                "id": "8047",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "2901",
+      "obj": {
+        "i": 2901,
+        "n": "Choral Chapeau",
+        "l": 50,
+        "c": 41135,
+        "t": 34,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6069",
+      "obj": {
+        "i": 6069,
+        "n": "Bard's Chapeau",
+        "l": 90,
+        "c": 41178,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006987",
+      "obj": {
+        "i": 1006987,
+        "n": "Kakalan",
+        "l": 67,
+        "s": 4,
+        "t": "Forge Sales",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.32,
+          5.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8047",
+      "obj": {
+        "i": 8047,
+        "n": "Choral Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    }
+  ]
+}

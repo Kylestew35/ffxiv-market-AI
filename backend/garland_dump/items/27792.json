@@ -1,0 +1,518 @@
+{
+  "item": {
+    "name": "Grade 2 Dexterity Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to dexterity, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 27792,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 450,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22682,
+    "craft": [
+      {
+        "id": 33333,
+        "job": 14,
+        "rlvl": 450,
+        "durability": 35,
+        "quality": 6320,
+        "progress": 1640,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24272,
+        "ingredients": [
+          {
+            "id": 27796,
+            "amount": 2
+          },
+          {
+            "id": 27785,
+            "amount": 1
+          },
+          {
+            "id": 27815,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 711,
+          "hq": 731
+        }
+      }
+    ],
+    "ingredient_of": {
+      "26432": 3,
+      "26433": 3,
+      "26435": 3,
+      "26444": 3,
+      "26464": 2,
+      "26465": 2,
+      "26466": 2,
+      "26467": 2,
+      "26468": 2,
+      "26470": 2,
+      "26471": 2,
+      "26472": 2,
+      "26473": 2,
+      "26474": 2,
+      "26490": 1,
+      "26495": 1,
+      "26500": 1,
+      "26505": 1
+    },
+    "desynthedFrom": [
+      26472
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Multifaceted Alchemic",
+      "id": 27796,
+      "icon": 22668,
+      "category": 54,
+      "ilvl": 450,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27796",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27796",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light Gerbera",
+      "id": 27785,
+      "icon": 25008,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        838
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Ageflow Aethersand",
+      "id": 27815,
+      "icon": 21229,
+      "category": 54,
+      "ilvl": 420,
+      "price": 630,
+      "reducedFrom": [
+        27515
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27815",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27815",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27515",
+      "obj": {
+        "i": 27515,
+        "n": "Predator",
+        "l": 420,
+        "c": 29193,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24272",
+      "obj": {
+        "i": 24272,
+        "n": "Master Alchemist VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27796",
+      "obj": {
+        "i": 27796,
+        "n": "Multifaceted Alchemic",
+        "l": 450,
+        "c": 22668,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27785",
+      "obj": {
+        "i": 27785,
+        "n": "Light Gerbera",
+        "l": 418,
+        "c": 25008,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27815",
+      "obj": {
+        "i": 27815,
+        "n": "Ageflow Aethersand",
+        "l": 420,
+        "c": 21229,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26432",
+      "obj": {
+        "i": 26432,
+        "n": "Gendawa",
+        "l": 450,
+        "c": 32367,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "26433",
+      "obj": {
+        "i": 26433,
+        "n": "Silktones",
+        "l": 450,
+        "c": 33954,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "26435",
+      "obj": {
+        "i": 26435,
+        "n": "Murderer",
+        "l": 450,
+        "c": 34453,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "26444",
+      "obj": {
+        "i": 26444,
+        "n": "Barathrum",
+        "l": 450,
+        "c": 36219,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "26464",
+      "obj": {
+        "i": 26464,
+        "n": "Facet Turban of Aiming",
+        "l": 450,
+        "c": 41759,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26465",
+      "obj": {
+        "i": 26465,
+        "n": "Facet Tabard of Aiming",
+        "l": 450,
+        "c": 43449,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26466",
+      "obj": {
+        "i": 26466,
+        "n": "Facet Halfgloves of Aiming",
+        "l": 450,
+        "c": 44708,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "26467",
+      "obj": {
+        "i": 26467,
+        "n": "Facet Brais of Aiming",
+        "l": 450,
+        "c": 47565,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26468",
+      "obj": {
+        "i": 26468,
+        "n": "Facet Boots of Aiming",
+        "l": 450,
+        "c": 49034,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26470",
+      "obj": {
+        "i": 26470,
+        "n": "Facet Turban of Scouting",
+        "l": 450,
+        "c": 41452,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26471",
+      "obj": {
+        "i": 26471,
+        "n": "Facet Dolman of Scouting",
+        "l": 450,
+        "c": 43450,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26472",
+      "obj": {
+        "i": 26472,
+        "n": "Facet Gloves of Scouting",
+        "l": 450,
+        "c": 48776,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "26473",
+      "obj": {
+        "i": 26473,
+        "n": "Facet Bottoms of Scouting",
+        "l": 450,
+        "c": 47566,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26474",
+      "obj": {
+        "i": 26474,
+        "n": "Facet Thighboots of Scouting",
+        "l": 450,
+        "c": 47202,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26490",
+      "obj": {
+        "i": 26490,
+        "n": "Facet Earrings of Aiming",
+        "l": 450,
+        "c": 55447,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "26495",
+      "obj": {
+        "i": 26495,
+        "n": "Facet Choker of Aiming",
+        "l": 450,
+        "c": 55017,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "26500",
+      "obj": {
+        "i": 26500,
+        "n": "Facet Bracelet of Aiming",
+        "l": 450,
+        "c": 55817,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "26505",
+      "obj": {
+        "i": 26505,
+        "n": "Facet Ring of Aiming",
+        "l": 450,
+        "c": 54665,
+        "t": 43
+      }
+    }
+  ]
+}

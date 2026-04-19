@@ -1,0 +1,686 @@
+{
+  "item": {
+    "name": "Magic Broom",
+    "description": "For safety reasons, do not fall asleep while it is at work.<br><br>Use item to acquire the magic broom minion.",
+    "minionrace": "Gadget",
+    "tooltip": "A lancer who fears to\r\nattack is naught but a\r\nman holding a pole.\r\n  - Ywain",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Flipp'er Over",
+    "specialactiondescription": "Removes all effects from all enemies and allies within range.",
+    "id": 7568,
+    "patch": 2.2,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59471,
+    "craft": [
+      {
+        "id": 1941,
+        "job": 8,
+        "rlvl": 90,
+        "durability": 80,
+        "quality": 2750,
+        "progress": 210,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "controlReq": 374,
+        "craftsmanshipReq": 391,
+        "ingredients": [
+          {
+            "id": 7775,
+            "amount": 1
+          },
+          {
+            "id": 7776,
+            "amount": 1
+          },
+          {
+            "id": 5414,
+            "amount": 1
+          },
+          {
+            "id": 7606,
+            "amount": 1,
+            "quality": 419.49152
+          },
+          {
+            "id": 4,
+            "amount": 99
+          }
+        ],
+        "complexity": {
+          "nq": 1220,
+          "hq": 1240
+        }
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 420,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 60,
+      "Speed": 2
+    },
+    "models": [
+      "8068-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Glazenut",
+      "id": 7775,
+      "icon": 25315,
+      "category": 54,
+      "ilvl": 90,
+      "price": 427,
+      "seeds": [
+        7756
+      ]
+    },
+    {
+      "name": "Broombush",
+      "id": 7776,
+      "icon": 21653,
+      "category": 54,
+      "ilvl": 70,
+      "price": 332,
+      "seeds": [
+        7757
+      ]
+    },
+    {
+      "name": "Rosewood Branch",
+      "id": 5414,
+      "icon": 22416,
+      "category": 50,
+      "ilvl": 45,
+      "price": 445,
+      "ventures": [
+        303
+      ],
+      "nodes": [
+        147
+      ]
+    },
+    {
+      "name": "Ancient Lumber",
+      "id": 7606,
+      "icon": 22454,
+      "category": 50,
+      "ilvl": 90,
+      "price": 1710,
+      "craft": [
+        {
+          "id": 30290,
+          "job": 8,
+          "rlvl": 90,
+          "durability": 80,
+          "quality": 2750,
+          "progress": 420,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "controlReq": 374,
+          "craftsmanshipReq": 391,
+          "quickSynthCraftsmanship": 451,
+          "unlockId": 7778,
+          "ingredients": [
+            {
+              "id": 7596,
+              "amount": 1
+            },
+            {
+              "id": 7590,
+              "amount": 1
+            },
+            {
+              "id": 16,
+              "amount": 2
+            },
+            {
+              "id": 15,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 210,
+            "hq": 230
+          }
+        }
+      ]
+    },
+    {
+      "name": "Petrified Log",
+      "id": 7596,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 90,
+      "price": 498,
+      "desynthedFrom": [
+        8756
+      ],
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7596",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 7
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Miscellaneous Miscellany",
+          "npcs": [
+            1006972
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "10112",
+                  "amount": 3
+                },
+                {
+                  "id": "7596",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "10100",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7596",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7596",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7596",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 1500
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        27,
+        28,
+        26,
+        32,
+        30,
+        29
+      ],
+      "ventures": [
+        381
+      ]
+    },
+    {
+      "name": "Scarlet Sap",
+      "id": 7590,
+      "icon": 22601,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "voyages": [
+        {
+          "id": 3,
+          "type": 0
+        },
+        {
+          "id": 9,
+          "type": 0
+        },
+        {
+          "id": 15,
+          "type": 0
+        },
+        {
+          "id": 21,
+          "type": 0
+        }
+      ],
+      "ventures": [
+        525
+      ],
+      "nodes": [
+        230
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "147",
+      "obj": {
+        "i": 147,
+        "n": "The Bramble Patch",
+        "l": 50,
+        "t": 2,
+        "z": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "7778",
+      "obj": {
+        "i": 7778,
+        "n": "Master Carpenter I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "7596",
+      "obj": {
+        "i": 7596,
+        "n": "Petrified Log",
+        "l": 90,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "7590",
+      "obj": {
+        "i": 7590,
+        "n": "Scarlet Sap",
+        "l": 70,
+        "c": 22601,
+        "t": 54
+      }
+    },
+    {
+      "type": "instance",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Snowcloak",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Sastasha (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "26",
+      "obj": {
+        "i": 26,
+        "n": "The Sunken Temple of Qarn (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "32",
+      "obj": {
+        "i": 32,
+        "n": "The Keeper of the Lake",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30",
+      "obj": {
+        "i": 30,
+        "n": "The Wanderer's Palace (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "instance",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Amdapor Keep (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10100",
+      "obj": {
+        "i": 10100,
+        "n": "Petrified Orb",
+        "l": 90,
+        "c": 21267,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "10112",
+      "obj": {
+        "i": 10112,
+        "n": "Urushi",
+        "l": 90,
+        "c": 22802,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "230",
+      "obj": {
+        "i": 230,
+        "n": "Alder Springs",
+        "l": 50,
+        "t": 2,
+        "z": 57,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7775",
+      "obj": {
+        "i": 7775,
+        "n": "Glazenut",
+        "l": 90,
+        "c": 25315,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "7776",
+      "obj": {
+        "i": 7776,
+        "n": "Broombush",
+        "l": 70,
+        "c": 21653,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5414",
+      "obj": {
+        "i": 5414,
+        "n": "Rosewood Branch",
+        "l": 45,
+        "c": 22416,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "7606",
+      "obj": {
+        "i": 7606,
+        "n": "Ancient Lumber",
+        "l": 90,
+        "c": 22454,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

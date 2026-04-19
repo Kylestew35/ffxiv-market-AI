@@ -1,0 +1,105 @@
+{
+  "item": {
+    "name": "Owlet",
+    "description": "Who needs eyes in the back of their head when you can spin your head full circle?<br><br>Use item to acquire the owlet minion.",
+    "minionrace": "Critter",
+    "tooltip": "It is difficult to even remember\r\nthe last time I spoke with\r\nsomeone other than my\r\ngood friends the owls.\r\n   - Roiteloin",
+    "minionskilltype": "Special",
+    "specialactionname": "Fundamental Reading",
+    "specialactiondescription": "Reduces minion summoning recast time by 50%.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 12052,
+    "patch": 3.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59530,
+    "instances": [
+      35,
+      55001
+    ],
+    "cost": 25,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 540,
+      "Skill Cost": 20,
+      "Attack": 55,
+      "Defense": 50,
+      "Speed": 4
+    },
+    "models": [
+      "8109-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      33441,
+      36635
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "35",
+      "obj": {
+        "i": 35,
+        "n": "The Fractal Continuum",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 145,
+        "max_ilvl": 210
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "33441",
+      "obj": {
+        "i": 33441,
+        "n": "Fête Present",
+        "l": 1,
+        "c": 26121,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

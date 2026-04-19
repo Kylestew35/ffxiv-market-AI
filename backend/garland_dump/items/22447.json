@@ -1,0 +1,376 @@
+{
+  "item": {
+    "name": "Grade 2 Infusion of Strength",
+    "description": "This diluted brew temporarily increases strength, but for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 22447,
+    "patch": 4.2,
+    "patchCategory": 4,
+    "price": 11340,
+    "ilvl": 320,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 83,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Strength": {
+          "rate": 8,
+          "limit": 82
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Strength": {
+          "rate": 10,
+          "limit": 103
+        }
+      }
+    },
+    "icon": 20701,
+    "craft": [
+      {
+        "id": 32644,
+        "job": 14,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 5200,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22315,
+        "ingredients": [
+          {
+            "id": 21085,
+            "amount": 1
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 19911,
+            "amount": 2
+          },
+          {
+            "id": 20014,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 305,
+          "hq": 325
+        }
+      }
+    ],
+    "quests": [
+      68569,
+      68609
+    ],
+    "desynthedFrom": [
+      24214
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Gyr Abanian Spring Water",
+      "id": 21085,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 300,
+      "price": 333,
+      "ventures": [
+        748
+      ],
+      "nodes": [
+        503
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    },
+    {
+      "name": "Yanxian Parsley",
+      "id": 19911,
+      "icon": 25016,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        701
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Dawnlight Aethersand",
+      "id": 20014,
+      "icon": 22210,
+      "category": 54,
+      "ilvl": 290,
+      "price": 552,
+      "reducedFrom": [
+        20009,
+        20181
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20014",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20014",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "503",
+      "obj": {
+        "i": 503,
+        "n": "Wightrock",
+        "l": 70,
+        "t": 0,
+        "z": 2407,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20009",
+      "obj": {
+        "i": 20009,
+        "n": "Schorl",
+        "l": 279,
+        "c": 21476,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20181",
+      "obj": {
+        "i": 20181,
+        "n": "Snow Crab",
+        "l": 225,
+        "c": 29110,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "22315",
+      "obj": {
+        "i": 22315,
+        "n": "Master Alchemist VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21085",
+      "obj": {
+        "i": 21085,
+        "n": "Gyr Abanian Spring Water",
+        "l": 300,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19911",
+      "obj": {
+        "i": 19911,
+        "n": "Yanxian Parsley",
+        "l": 285,
+        "c": 25016,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "20014",
+      "obj": {
+        "i": 20014,
+        "n": "Dawnlight Aethersand",
+        "l": 290,
+        "c": 22210,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68569",
+      "obj": {
+        "i": 68569,
+        "n": "An Unfinished Masterpiece",
+        "g": 22,
+        "l": "The Interdimensional Rift",
+        "s": 12,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68609",
+      "obj": {
+        "i": 68609,
+        "n": "Conscripts and Contingencies",
+        "g": 7,
+        "l": "Kienkan",
+        "s": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "24214",
+      "obj": {
+        "i": 24214,
+        "n": "Ku'er",
+        "l": 340,
+        "c": 29159,
+        "t": 47
+      }
+    }
+  ]
+}

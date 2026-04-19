@@ -1,0 +1,88 @@
+{
+  "item": {
+    "name": "Peteinosaur",
+    "description": "A winged scalekin recently discovered in the skies near the Diadem.",
+    "id": 17594,
+    "patch": 3.55,
+    "patchCategory": 7,
+    "price": 3000,
+    "ilvl": 220,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29729,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17594",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 40
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17594",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 40
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "17569": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "17569",
+      "obj": {
+        "i": 17569,
+        "n": "Peteinosaur Leather",
+        "l": 220,
+        "c": 22016,
+        "t": 52
+      }
+    }
+  ]
+}

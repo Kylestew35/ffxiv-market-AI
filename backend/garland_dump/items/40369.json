@@ -1,0 +1,63 @@
+{
+  "item": {
+    "name": "Puffin",
+    "description": "Wants to work smarter, not harder.<br><br>Use item to acquire the puffin minion.",
+    "minionrace": "Critter",
+    "tooltip": "Adventurers, you see, are as\r\nmigratory birds in need of a\r\nplace to rest their weary wings.\r\n  - Antoinaut",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Wing Flap",
+    "specialactiondescription": "Grants action party the ability to deal extra damage to Arcana Stones.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 40369,
+    "patch": 6.4,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59878,
+    "instances": [
+      90,
+      90
+    ],
+    "cost": 20,
+    "skill_angle": 0,
+    "aoe": 1,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 410,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 50,
+      "Speed": 2
+    },
+    "models": [
+      "8435-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "90",
+      "obj": {
+        "i": 90,
+        "n": "The Aetherfont",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 605
+      }
+    }
+  ]
+}

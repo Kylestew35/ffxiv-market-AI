@@ -1,0 +1,114 @@
+{
+  "item": {
+    "name": "Ironworks Magitek Degen",
+    "jobCategories": "RDM",
+    "id": 20385,
+    "patch": 4.0,
+    "patchCategory": 0,
+    "price": 42768,
+    "ilvl": 120,
+    "category": 97,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 642,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 690,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 112,
+    "models": [
+      "2302-1-1-0",
+      "2351-15-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 64,
+      "Magic Damage": 64,
+      "Delay": 3.44,
+      "Intelligence": 48,
+      "Vitality": 45,
+      "Critical Hit": 47,
+      "Direct Hit Rate": 33
+    },
+    "icon": 36756,
+    "sharedModels": [
+      20387
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Ironworks Gear Augmentation (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20387",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20385",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "20387",
+      "obj": {
+        "i": 20387,
+        "n": "Augmented Ironworks Magitek Degen",
+        "l": 130,
+        "c": 36756,
+        "t": 97
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

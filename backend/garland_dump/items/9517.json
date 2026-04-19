@@ -1,0 +1,391 @@
+{
+  "item": {
+    "name": "Perfect Cloth",
+    "description": "A better balance of warp and weft has not been seen for centuries.",
+    "id": 9517,
+    "patch": 2.45,
+    "patchCategory": 5,
+    "price": 6771,
+    "ilvl": 90,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 13,
+    "icon": 21612,
+    "craft": [
+      {
+        "id": 30924,
+        "job": 13,
+        "rlvl": 90,
+        "durability": 80,
+        "quality": 2750,
+        "progress": 420,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "hq": 1,
+        "controlReq": 374,
+        "craftsmanshipReq": 391,
+        "unlockId": 7783,
+        "ingredients": [
+          {
+            "id": 9529,
+            "amount": 1
+          },
+          {
+            "id": 9519,
+            "amount": 2
+          },
+          {
+            "id": 5336,
+            "amount": 1,
+            "quality": 170.54263
+          },
+          {
+            "id": 5491,
+            "amount": 1
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 251,
+          "hq": 271
+        }
+      }
+    ],
+    "usedInQuest": [
+      65896
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Stained Cloth",
+      "id": 9529,
+      "icon": 23152,
+      "category": 51,
+      "ilvl": 55,
+      "price": 2069,
+      "desynthedFrom": [
+        9537
+      ]
+    },
+    {
+      "name": "Pumice",
+      "id": 9519,
+      "icon": 21454,
+      "category": 48,
+      "ilvl": 80,
+      "price": 475,
+      "ventures": [
+        538
+      ],
+      "nodes": [
+        250
+      ]
+    },
+    {
+      "name": "Linen Yarn",
+      "id": 5336,
+      "icon": 21659,
+      "category": 51,
+      "ilvl": 32,
+      "price": 186,
+      "craft": [
+        {
+          "id": 587,
+          "job": 13,
+          "rlvl": 32,
+          "durability": 40,
+          "quality": 760,
+          "progress": 55,
+          "lvl": 32,
+          "materialQualityFactor": 0,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5346,
+              "amount": 2
+            },
+            {
+              "id": 6,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 34,
+            "hq": 54
+          }
+        }
+      ],
+      "treasure": [
+        6688,
+        6689,
+        6691
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sylphic Goldleaf Exchange",
+          "npcs": [
+            1005569
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5336",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21075",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005569
+      ]
+    },
+    {
+      "name": "Flax",
+      "id": 5346,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 32,
+      "price": 83,
+      "leves": [
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428
+      ],
+      "ventures": [
+        266
+      ],
+      "nodes": [
+        29
+      ],
+      "seeds": [
+        7741
+      ]
+    },
+    {
+      "name": "Effervescent Water",
+      "id": 5491,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 11,
+      "price": 16,
+      "ventures": [
+        105
+      ],
+      "nodes": [
+        47
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "250",
+      "obj": {
+        "i": 250,
+        "n": "Red Mantis Falls",
+        "l": 50,
+        "t": 1,
+        "z": 32,
+        "s": 3,
+        "lt": "Unspoiled",
+        "ti": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "5346",
+      "obj": {
+        "i": 5346,
+        "n": "Flax",
+        "l": 32,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 3,
+        "z": 56
+      }
+    },
+    {
+      "type": "node",
+      "id": "47",
+      "obj": {
+        "i": 47,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "7783",
+      "obj": {
+        "i": 7783,
+        "n": "Master Weaver I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "9529",
+      "obj": {
+        "i": 9529,
+        "n": "Stained Cloth",
+        "l": 55,
+        "c": 23152,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "9519",
+      "obj": {
+        "i": 9519,
+        "n": "Pumice",
+        "l": 80,
+        "c": 21454,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5336",
+      "obj": {
+        "i": 5336,
+        "n": "Linen Yarn",
+        "l": 32,
+        "c": 21659,
+        "t": 51,
+        "p": 186
+      }
+    },
+    {
+      "type": "item",
+      "id": "5491",
+      "obj": {
+        "i": 5491,
+        "n": "Effervescent Water",
+        "l": 11,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65896",
+      "obj": {
+        "i": 65896,
+        "n": "A Treasured Mother",
+        "g": 87,
+        "l": "Mor Dhona",
+        "s": 10,
+        "r": 1,
+        "f": 1
+      }
+    }
+  ]
+}

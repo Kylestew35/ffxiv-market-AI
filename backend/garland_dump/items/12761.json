@@ -1,0 +1,90 @@
+{
+  "item": {
+    "name": "Dravanian Bass",
+    "description": "A large freshwater fish native to the Whilom River.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "Fishers who are brave enough to venture into the largely untouched areas west of Ishgard are rewarded with specimens like the Dravanian bass which are known to almost always put up a good fight.",
+      "icon": 79206,
+      "weatherRestricted": 1,
+      "timeRestricted": 1,
+      "spots": [
+        {
+          "spot": 118,
+          "during": {
+            "start": 0,
+            "end": 6
+          },
+          "weather": [
+            "Clouds",
+            "Dust Storms",
+            "Fog"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 361,
+          "baits": [
+            [
+              12705,
+              12722
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12761,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1320,
+    "ilvl": 139,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "reducible": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 29206,
+    "fishingSpots": [
+      118
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "118",
+      "obj": {
+        "i": 118,
+        "n": "Whilom River",
+        "l": 52,
+        "c": 1,
+        "z": 2000,
+        "x": 30.63,
+        "y": 14.82
+      }
+    },
+    {
+      "type": "item",
+      "id": "12705",
+      "obj": {
+        "i": 12705,
+        "n": "Purse Web Spider",
+        "l": 136,
+        "c": 22619,
+        "t": 33,
+        "p": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "12722",
+      "obj": {
+        "i": 12722,
+        "n": "Blueclaw Shrimp",
+        "l": 125,
+        "c": 29404,
+        "t": 47
+      }
+    }
+  ]
+}

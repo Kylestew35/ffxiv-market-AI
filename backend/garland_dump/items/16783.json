@@ -1,0 +1,354 @@
+{
+  "item": {
+    "name": "Mhachi Demimatter",
+    "description": "A distinct variety of dark matter only found in areas with ties to the ancient civilization of Mhach.<br><br>[Can be exchanged for select non-combat-based varieties of materia V.]",
+    "id": 16783,
+    "patch": 3.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20404,
+    "tradeCurrency": [
+      {
+        "shop": "Mhachi Matter Exchange",
+        "npcs": [
+          1017107,
+          1019461
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5688",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5693",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5698",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5703",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5708",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5713",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5703",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5708",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5713",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5688",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5693",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "5698",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16783",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      68727
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017107",
+      "obj": {
+        "i": 1017107,
+        "n": "Smacklix",
+        "l": 2082,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 2092,
+        "c": [
+          7.65,
+          4.84
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019461",
+      "obj": {
+        "i": 1019461,
+        "n": "Switchstix",
+        "l": 2403,
+        "s": 1,
+        "t": "Materia Provisioner",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          12.5,
+          11.38
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5688",
+      "obj": {
+        "i": 5688,
+        "n": "Gatherer's Guerdon Materia V",
+        "l": 160,
+        "c": 20255,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 10,
+          "attr": "Gathering",
+          "category": 2
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5693",
+      "obj": {
+        "i": 5693,
+        "n": "Gatherer's Guile Materia V",
+        "l": 160,
+        "c": 20255,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 10,
+          "attr": "Perception",
+          "category": 2
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5698",
+      "obj": {
+        "i": 5698,
+        "n": "Gatherer's Grasp Materia V",
+        "l": 160,
+        "c": 20255,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "GP",
+          "category": 2
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5703",
+      "obj": {
+        "i": 5703,
+        "n": "Craftsman's Competence Materia V",
+        "l": 160,
+        "c": 20253,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 11,
+          "attr": "Craftsmanship",
+          "category": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5708",
+      "obj": {
+        "i": 5708,
+        "n": "Craftsman's Cunning Materia V",
+        "l": 160,
+        "c": 20253,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "CP",
+          "category": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5713",
+      "obj": {
+        "i": 5713,
+        "n": "Craftsman's Command Materia V",
+        "l": 160,
+        "c": 20253,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 7,
+          "attr": "Control",
+          "category": 1
+        }
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68727",
+      "obj": {
+        "i": 68727,
+        "n": "Wok on By",
+        "g": 24,
+        "l": "Kugane",
+        "s": 999
+      }
+    }
+  ]
+}

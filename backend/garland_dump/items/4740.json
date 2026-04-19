@@ -1,0 +1,484 @@
+{
+  "item": {
+    "name": "Princess Pudding",
+    "description": "A tasty Starlight Celebration dessert popular in Limsa Lominsa. This cake-like sweet is formed to resemble the legendary notorious monster, Princess Pudding─a terrible beast rumored to once have roamed the meadows of La Noscea.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 4740,
+    "patch": 1.0,
+    "patchCategory": 6,
+    "price": 7,
+    "ilvl": 5,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Vitality": 1
+      }
+    },
+    "icon": 24060,
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event",
+        "npcs": [
+          1017613,
+          1017614,
+          1017615
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4740",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "4851",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shop",
+        "npcs": [
+          1005790,
+          1005792,
+          1005794,
+          1024166,
+          1024167,
+          1024168
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4740",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7000",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "4740",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21300",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Fallen Star Exchange",
+        "npcs": [
+          1010753,
+          1010757,
+          1010761,
+          1010780,
+          1010781,
+          1010782,
+          1010790,
+          1010791,
+          1010792,
+          1010793,
+          1010794,
+          1010795
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4740",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "9279",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017613",
+      "obj": {
+        "i": 1017613,
+        "n": "Recompense Officer",
+        "l": 53,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017614",
+      "obj": {
+        "i": 1017614,
+        "n": "Recompense Officer",
+        "l": 28,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "11.2",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017615",
+      "obj": {
+        "i": 1017615,
+        "n": "Recompense Officer",
+        "l": 41,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4851",
+      "obj": {
+        "i": 4851,
+        "n": "Powdered Sugar",
+        "l": 5,
+        "c": 25108,
+        "t": 45
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005790",
+      "obj": {
+        "i": 1005790,
+        "n": "Starlight Supplier",
+        "s": 1,
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005792",
+      "obj": {
+        "i": 1005792,
+        "n": "Starlight Supplier",
+        "s": 1,
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005794",
+      "obj": {
+        "i": 1005794,
+        "n": "Starlight Supplier",
+        "s": 1,
+        "r": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "7000",
+      "obj": {
+        "i": 7000,
+        "n": "Eternal Ice",
+        "l": 1,
+        "c": 20015,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010753",
+      "obj": {
+        "i": 1010753,
+        "n": "Mammet Dispensator #012P",
+        "l": 427,
+        "s": 2,
+        "r": 1,
+        "a": 1210,
+        "c": [
+          11.6,
+          11.67
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010757",
+      "obj": {
+        "i": 1010757,
+        "n": "Mammet Dispensator #012P",
+        "l": 425,
+        "s": 2,
+        "r": 1,
+        "a": 1203,
+        "c": [
+          11.51,
+          12.1
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010761",
+      "obj": {
+        "i": 1010761,
+        "n": "Mammet Dispensator #012P",
+        "l": 426,
+        "s": 2,
+        "r": 1,
+        "a": 1221,
+        "c": [
+          11.15,
+          14.17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010780",
+      "obj": {
+        "i": 1010780,
+        "n": "Mammet Dispensator #012P",
+        "l": 53,
+        "s": 2,
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.49,
+          9.15
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010781",
+      "obj": {
+        "i": 1010781,
+        "n": "Mammet Dispensator #012P",
+        "l": 28,
+        "s": 2,
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.49,
+          13.65
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010782",
+      "obj": {
+        "i": 1010782,
+        "n": "Mammet Dispensator #012P",
+        "l": 40,
+        "s": 2,
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.67,
+          9.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "9279",
+      "obj": {
+        "i": 9279,
+        "n": "Green Fallen Star",
+        "l": 1,
+        "c": 21254,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010790",
+      "obj": {
+        "i": 1010790,
+        "n": "Mammet Dispensator #012P",
+        "l": 53,
+        "s": 2,
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.49,
+          9.15
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010791",
+      "obj": {
+        "i": 1010791,
+        "n": "Mammet Dispensator #012P",
+        "l": 28,
+        "s": 2,
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.49,
+          13.65
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010792",
+      "obj": {
+        "i": 1010792,
+        "n": "Mammet Dispensator #012P",
+        "l": 40,
+        "s": 2,
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.67,
+          9.15
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010793",
+      "obj": {
+        "i": 1010793,
+        "n": "Mammet Dispensator #012P",
+        "l": 426,
+        "s": 2,
+        "r": 1,
+        "a": 1221,
+        "c": [
+          11.15,
+          14.17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010794",
+      "obj": {
+        "i": 1010794,
+        "n": "Mammet Dispensator #012P",
+        "l": 425,
+        "s": 2,
+        "r": 1,
+        "a": 1203,
+        "c": [
+          11.51,
+          12.1
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1010795",
+      "obj": {
+        "i": 1010795,
+        "n": "Mammet Dispensator #012P",
+        "l": 427,
+        "s": 2,
+        "r": 1,
+        "a": 1210,
+        "c": [
+          11.6,
+          11.67
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024166",
+      "obj": {
+        "i": 1024166,
+        "n": "Starlight Celebrant",
+        "l": 53,
+        "s": 1,
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024167",
+      "obj": {
+        "i": 1024167,
+        "n": "Starlight Celebrant",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.01,
+          13.88
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024168",
+      "obj": {
+        "i": 1024168,
+        "n": "Starlight Celebrant",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.67,
+          9.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21300",
+      "obj": {
+        "i": 21300,
+        "n": "Starlight Box",
+        "l": 1,
+        "c": 26107,
+        "t": 85
+      }
+    }
+  ]
+}

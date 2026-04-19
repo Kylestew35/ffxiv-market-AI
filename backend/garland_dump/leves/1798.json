@@ -1,0 +1,130 @@
+{
+  "leve": {
+    "name": "Axing for Fish",
+    "description": "Recently, I've been pondering regional Turali folklore, specifically that of the Yok Huy. One story claims that, having faced a crushing loss, their greatest warrior came to the <span class=\"highlight\">Sunken Stars</span> to weep. Despondent, the warrior threw their beloved axe into the water, where it transformed into a fish. I would like to examine such a specimen in closer detail, if you can catch one.<br><span class=\"highlight\">Requires: Fishing Tackle</span>",
+    "id": 1798,
+    "patch": 7.0,
+    "client": "Wing of Reflection Archaeology Specialist, Yoani",
+    "lvl": 90,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      17.17,
+      15.03
+    ],
+    "zoneid": 4505,
+    "areaid": 4505,
+    "xp": 4395018,
+    "gil": 2460,
+    "rewards": 806,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110203,
+    "requires": [
+      {
+        "item": 43676,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 90,
+      "hq": 105
+    }
+  },
+  "rewards": {
+    "id": 806,
+    "entries": [
+      {
+        "item": 43849,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Marbled Hatchetfish",
+      "id": 43676,
+      "icon": 29935,
+      "category": 47,
+      "ilvl": 645,
+      "price": 99999,
+      "fishingSpots": [
+        297
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Sunken Stars",
+        "l": 91,
+        "c": 7,
+        "z": 4505,
+        "x": 20.36,
+        "y": 27.59
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1798",
+      "obj": {
+        "i": 1798,
+        "n": "Axing for Fish",
+        "l": 90,
+        "j": 19,
+        "p": 4505
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43849",
+      "obj": {
+        "i": 43849,
+        "n": "Golden Stonefly Nymph",
+        "l": 620,
+        "c": 27102,
+        "t": 33,
+        "p": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43676",
+      "obj": {
+        "i": 43676,
+        "n": "Marbled Hatchetfish",
+        "l": 645,
+        "c": 29935,
+        "t": 47
+      }
+    }
+  ]
+}

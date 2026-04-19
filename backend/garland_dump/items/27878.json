@@ -1,0 +1,389 @@
+{
+  "item": {
+    "name": "Coffee Biscuit",
+    "description": "A buttery biscuit with a subtle coffee flavor.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27878,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3737,
+    "ilvl": 418,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Perception": {
+          "rate": 6,
+          "limit": 62
+        },
+        "GP": {
+          "rate": 6,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Perception": {
+          "rate": 7,
+          "limit": 77
+        },
+        "GP": {
+          "rate": 8,
+          "limit": 28
+        }
+      }
+    },
+    "icon": 24007,
+    "vendors": [
+      1027240,
+      1027493
+    ],
+    "craft": [
+      {
+        "id": 3908,
+        "job": 15,
+        "rlvl": 418,
+        "durability": 80,
+        "quality": 4500,
+        "progress": 1710,
+        "lvl": 79,
+        "materialQualityFactor": 75,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27841,
+            "amount": 1,
+            "quality": 1121.2902
+          },
+          {
+            "id": 27837,
+            "amount": 1
+          },
+          {
+            "id": 27839,
+            "amount": 1,
+            "quality": 1099.0314
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 258,
+          "hq": 278
+        }
+      }
+    ],
+    "ingredient_of": {
+      "40625": 1
+    },
+    "quests": [
+      69266
+    ],
+    "requiredByLeves": [
+      1477
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1314000,
+      "seals": 857
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Coffee Beans",
+      "id": 27837,
+      "icon": 25919,
+      "category": 45,
+      "ilvl": 415,
+      "price": 210,
+      "leves": [
+        1475,
+        1476,
+        1477
+      ],
+      "ventures": [
+        834
+      ],
+      "nodes": [
+        625
+      ]
+    },
+    {
+      "name": "Garden Beet Sugar",
+      "id": 27839,
+      "icon": 25108,
+      "category": 45,
+      "ilvl": 395,
+      "price": 2838,
+      "craft": [
+        {
+          "id": 3878,
+          "job": 15,
+          "rlvl": 395,
+          "durability": 40,
+          "quality": 3040,
+          "progress": 610,
+          "lvl": 72,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27824,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "leves": [
+        1466,
+        1467,
+        1468
+      ]
+    },
+    {
+      "name": "Garden Beet",
+      "id": 27824,
+      "icon": 25223,
+      "category": 45,
+      "ilvl": 395,
+      "price": 210,
+      "ventures": [
+        824
+      ],
+      "nodes": [
+        617
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "625",
+      "obj": {
+        "i": 625,
+        "n": "Scree",
+        "l": 80,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "item",
+      "id": "27824",
+      "obj": {
+        "i": 27824,
+        "n": "Garden Beet",
+        "l": 395,
+        "c": 25223,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027240",
+      "obj": {
+        "i": 1027240,
+        "n": "Hanji-Fae",
+        "l": 2951,
+        "s": 1,
+        "t": "Culinarian",
+        "a": 3371,
+        "c": [
+          9.56,
+          14.74
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027493",
+      "obj": {
+        "i": 1027493,
+        "n": "Tholl Culinarian",
+        "l": 2954,
+        "s": 1,
+        "a": 3354,
+        "c": [
+          12.0,
+          8.67
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27837",
+      "obj": {
+        "i": 27837,
+        "n": "Coffee Beans",
+        "l": 415,
+        "c": 25919,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27839",
+      "obj": {
+        "i": 27839,
+        "n": "Garden Beet Sugar",
+        "l": 395,
+        "c": 25108,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "40625",
+      "obj": {
+        "i": 40625,
+        "n": "Assorted Cookies",
+        "l": 560,
+        "c": 53464,
+        "t": 78
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69266",
+      "obj": {
+        "i": 69266,
+        "n": "Commercially Flyable",
+        "g": 132,
+        "l": "Eulmore",
+        "s": 8002,
+        "f": 1
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1477",
+      "obj": {
+        "i": 1477,
+        "n": "A Cookie for Your Troubles",
+        "l": 78,
+        "j": 16,
+        "p": 2951
+      }
+    }
+  ]
+}

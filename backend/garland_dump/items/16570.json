@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Dress-up Alisaie",
+    "description": "Now 120% more discernable from the wind-up Alphinaud minion.<br><br>Use item to acquire the dress-up Alisaie minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Is it just my imagination,\r\nor is Alisaie staring daggers\r\nat me?\r\n   - Alphinaud",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Emery-thing I Do",
+    "specialactiondescription": "Increases action party ATK by 40.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 16570,
+    "patch": 3.4,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59618,
+    "tradeShops": [
+      {
+        "shop": "Bronze Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16570",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26823",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 390,
+      "Skill Cost": 20,
+      "Attack": 45,
+      "Defense": 25,
+      "Speed": 3
+    },
+    "models": [
+      "8195-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26823",
+      "obj": {
+        "i": 26823,
+        "n": "Khloe's Bronze Certificate of Commendation",
+        "l": 1,
+        "c": 26186,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Voidvessel Weapon Coffer (IL 655)",
+    "description": "A heavy chest containing a voidvessel weapon.<br><br>Required level: 90. IL: 655. Weapon type determined by current job or class at time of opening. Cannot be opened in instanced areas such as dungeons, PvP areas, or raids.",
+    "id": 41054,
+    "patch": 6.5,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26557,
+    "instances": [
+      20092,
+      20092
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    },
+    "loot": [
+      41034,
+      41035,
+      41034,
+      41034,
+      41035,
+      41035
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20092",
+      "obj": {
+        "i": 20092,
+        "n": "The Abyssal Fracture (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 640
+      }
+    },
+    {
+      "type": "item",
+      "id": "41034",
+      "obj": {
+        "i": 41034,
+        "n": "Voidvessel Claws",
+        "l": 655,
+        "c": 30835,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "41035",
+      "obj": {
+        "i": 41035,
+        "n": "Voidvessel Bardiche",
+        "l": 655,
+        "c": 31245,
+        "t": 3
+      }
+    }
+  ]
+}

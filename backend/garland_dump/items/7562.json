@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Wind-up Warrior of Light",
+    "description": "“Wheresoever thou goest, so too shall Light follow.”<br>─Ancient benediction<br><br>Use item to acquire the wind-up Warrior of Light minion.",
+    "minionrace": "Poppet",
+    "tooltip": "There will be no Warriors\r\nof Light to save you this\r\ntime.\r\n  - Gaius van Baelsar",
+    "minionskilltype": "Damage",
+    "specialactionname": "Life Rush",
+    "specialactiondescription": "Delivers an attack with a potency of 230 to all enemies within range.",
+    "id": 7562,
+    "patch": 2.2,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59467,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7562",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 380,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 75,
+      "Speed": 2
+    },
+    "models": [
+      "8065-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

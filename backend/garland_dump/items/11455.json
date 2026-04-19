@@ -1,0 +1,127 @@
+{
+  "item": {
+    "name": "Prototype Gordian Plate Mail of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 11455,
+    "patch": 3.01,
+    "patchCategory": 0,
+    "price": 93109,
+    "ilvl": 190,
+    "category": 35,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 978,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1093,
+    "slot": 4,
+    "elvl": 60,
+    "jobs": 59,
+    "models": [
+      "280-1-0-0"
+    ],
+    "attr": {
+      "Defense": 318,
+      "Magic Defense": 318,
+      "Strength": 70,
+      "Vitality": 68,
+      "Skill Speed": 78,
+      "Tenacity": 55
+    },
+    "icon": 48073,
+    "sharedModels": [
+      11531
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Part Exchange (DoW) I",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11455",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12675",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prototype Gordian Gear (IL 190)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11455",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12675",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "11531",
+      "obj": {
+        "i": 11531,
+        "n": "Gordian Plate Mail of Fending",
+        "l": 210,
+        "c": 48073,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12675",
+      "obj": {
+        "i": 12675,
+        "n": "Tarnished Gordian Shaft",
+        "l": 1,
+        "c": 23101,
+        "t": 61
+      }
+    }
+  ]
+}

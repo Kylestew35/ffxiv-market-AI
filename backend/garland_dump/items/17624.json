@@ -1,0 +1,44 @@
+{
+  "item": {
+    "name": "Saltswept Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Saltswept</span>. Use to add to your orchestrion list.",
+    "id": 17624,
+    "patch": 3.5,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 121,
+      "name": "Saltswept",
+      "description": "Available for purchase in Aleport.",
+      "category": "Locales I",
+      "order": 27
+    },
+    "vendors": [
+      1003264
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1003264",
+      "obj": {
+        "i": 1003264,
+        "n": "Merchant & Mender",
+        "l": 33,
+        "s": 3,
+        "c": [
+          "26.2",
+          "26.1"
+        ]
+      }
+    }
+  ]
+}

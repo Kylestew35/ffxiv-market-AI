@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Gatherer's Guerdon Materia II",
+    "id": 5685,
+    "patch": 1.0,
+    "patchCategory": 10,
+    "price": 3000,
+    "ilvl": 30,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 54,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20210,
+    "tradeShops": [
+      {
+        "shop": "Ixali Oaknot Exchange (Materia)",
+        "npcs": [
+          1009205
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5685",
+                "amount": 3
+              }
+            ],
+            "currency": [
+              {
+                "id": "21073",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 1,
+      "value": 4,
+      "attr": "Gathering",
+      "category": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    }
+  ]
+}

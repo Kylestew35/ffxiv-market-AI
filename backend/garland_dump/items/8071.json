@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Heat Vent Component Materials",
+    "description": "Materials required to craft components for an airship's heat exhaust vents.<br><br>※Only for use in Ixal society quests.",
+    "id": 8071,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8110": 1
+    },
+    "usedInQuest": [
+      67039
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8110",
+      "obj": {
+        "i": 8110,
+        "n": "Heat Vent Component",
+        "l": 1,
+        "c": 23001,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67039",
+      "obj": {
+        "i": 67039,
+        "n": "Hells-vent on the Heavens",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 46,
+        "r": 1
+      }
+    }
+  ]
+}

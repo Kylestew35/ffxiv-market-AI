@@ -1,0 +1,208 @@
+{
+  "item": {
+    "name": "Augmented Lunar Envoy's Wings",
+    "jobCategories": "SGE",
+    "id": 38023,
+    "patch": 6.2,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 630,
+    "category": 109,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1945,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 181,
+    "models": [
+      "2701-14-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 125,
+      "Magic Damage": 125,
+      "Delay": 2.8,
+      "Mind": 348,
+      "Vitality": 338,
+      "Determination": 283,
+      "Piety": 198
+    },
+    "attr_max": {
+      "Strength": 244,
+      "Dexterity": 348,
+      "Vitality": 376,
+      "Intelligence": 244,
+      "GP": 9,
+      "CP": 7,
+      "Tenacity": 283,
+      "Direct Hit Rate": 283,
+      "Critical Hit": 283,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Skill Speed": 283,
+      "Spell Speed": 283,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 1449,
+      "Control": 770,
+      "Gathering": 1486,
+      "Perception": 849
+    },
+    "icon": 37043,
+    "sharedModels": [
+      37948
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (IL 630 Weapons)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38023",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lunar Envoy's Gear Augmentation (DoM)",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38023",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37948",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lunar Envoy Gear (IL 630)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38023",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "37948",
+      "obj": {
+        "i": 37948,
+        "n": "Lunar Envoy's Wings",
+        "l": 620,
+        "c": 37043,
+        "t": 109
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    }
+  ]
+}

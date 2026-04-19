@@ -1,0 +1,504 @@
+{
+  "item": {
+    "name": "Miso Soup with Tofu",
+    "description": "A Far Eastern staple, often eaten multiple times a day, this soup is made by mixing miso paste with light fish stock. Bite-sized cubes of tofu are added near the end of preparation to ensure the pieces retain their shape.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19834,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2162,
+    "ilvl": 273,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 25,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Craftsmanship": {
+          "rate": 10,
+          "limit": 104
+        },
+        "Control": {
+          "rate": 4,
+          "limit": 39
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Craftsmanship": {
+          "rate": 12,
+          "limit": 130
+        },
+        "Control": {
+          "rate": 5,
+          "limit": 49
+        }
+      }
+    },
+    "icon": 24120,
+    "vendors": [
+      1018986
+    ],
+    "craft": [
+      {
+        "id": 3576,
+        "job": 15,
+        "rlvl": 273,
+        "durability": 80,
+        "quality": 3060,
+        "progress": 780,
+        "lvl": 64,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12907,
+            "amount": 1
+          },
+          {
+            "id": 4864,
+            "amount": 1
+          },
+          {
+            "id": 19842,
+            "amount": 1,
+            "quality": 433.2884
+          },
+          {
+            "id": 19859,
+            "amount": 1
+          },
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 155,
+          "hq": 175
+        }
+      }
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 653600,
+      "seals": 736
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Oriental Miso Paste",
+      "id": 12907,
+      "icon": 27605,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12907",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12907",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Fish Stock",
+      "id": 4864,
+      "icon": 25055,
+      "category": 45,
+      "ilvl": 9,
+      "price": 86,
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Firm Tofu",
+      "id": 19842,
+      "icon": 25059,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "craft": [
+        {
+          "id": 3582,
+          "job": 15,
+          "rlvl": 273,
+          "durability": 40,
+          "quality": 2448,
+          "progress": 390,
+          "lvl": 64,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19862,
+              "amount": 3
+            },
+            {
+              "id": 19847,
+              "amount": 1
+            },
+            {
+              "id": 19872,
+              "amount": 1
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 81,
+            "hq": 101
+          }
+        }
+      ]
+    },
+    {
+      "name": "Soybeans",
+      "id": 19862,
+      "icon": 25228,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        689
+      ],
+      "nodes": [
+        510
+      ]
+    },
+    {
+      "name": "Nigari",
+      "id": 19847,
+      "icon": 22606,
+      "category": 54,
+      "ilvl": 260,
+      "price": 514,
+      "leves": [
+        1313,
+        1315,
+        1478
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Green Leek",
+      "id": 19859,
+      "icon": 25035,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        688
+      ],
+      "nodes": [
+        512
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017613",
+      "obj": {
+        "i": 1017613,
+        "n": "Recompense Officer",
+        "l": 53,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017614",
+      "obj": {
+        "i": 1017614,
+        "n": "Recompense Officer",
+        "l": 28,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "11.2",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017615",
+      "obj": {
+        "i": 1017615,
+        "n": "Recompense Officer",
+        "l": 41,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4680",
+      "obj": {
+        "i": 4680,
+        "n": "Zoni",
+        "l": 9,
+        "c": 24113,
+        "t": 46,
+        "p": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "19862",
+      "obj": {
+        "i": 19862,
+        "n": "Soybeans",
+        "l": 273,
+        "c": 25228,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19847",
+      "obj": {
+        "i": 19847,
+        "n": "Nigari",
+        "l": 260,
+        "c": 22606,
+        "t": 54,
+        "p": 514
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "510",
+      "obj": {
+        "i": 510,
+        "n": "East Othard Coastline",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018986",
+      "obj": {
+        "i": 1018986,
+        "n": "Kurogai",
+        "l": 2404,
+        "s": 1,
+        "t": "Independent Culinarian",
+        "c": [
+          "12.2",
+          "12.7"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12907",
+      "obj": {
+        "i": 12907,
+        "n": "Oriental Miso Paste",
+        "l": 136,
+        "c": 27605,
+        "t": 45,
+        "p": 430
+      }
+    },
+    {
+      "type": "item",
+      "id": "4864",
+      "obj": {
+        "i": 4864,
+        "n": "Fish Stock",
+        "l": 9,
+        "c": 25055,
+        "t": 45,
+        "p": 86
+      }
+    },
+    {
+      "type": "item",
+      "id": "19842",
+      "obj": {
+        "i": 19842,
+        "n": "Firm Tofu",
+        "l": 273,
+        "c": 25059,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19859",
+      "obj": {
+        "i": 19859,
+        "n": "Green Leek",
+        "l": 273,
+        "c": 25035,
+        "t": 45
+      }
+    }
+  ]
+}

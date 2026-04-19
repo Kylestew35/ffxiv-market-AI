@@ -1,0 +1,133 @@
+{
+  "item": {
+    "name": "Raitonfish",
+    "description": "A large freshwater fish named for the levin-manipulating technique mastered by the ninja of Doma.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "There's a whale of a tale about a beast of a fish that eluded the grasp of fishers time and again, but couldn't avoid fate when a novice ninja inadvertently cast a Raiton spell down to a random point in the river.",
+      "icon": 79302,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 170,
+          "weather": [
+            "Rain",
+            "Showers"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 606,
+          "baits": [
+            [
+              20619
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 20114,
+    "patch": 4.0,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 260,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29302,
+    "fishingSpots": [
+      170
+    ],
+    "desynthedTo": [
+      5722,
+      5721,
+      5824,
+      10386
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "170",
+      "obj": {
+        "i": 170,
+        "n": "Doma Castle",
+        "l": 67,
+        "c": 1,
+        "z": 2410,
+        "x": 14.41,
+        "y": 7.41
+      }
+    },
+    {
+      "type": "item",
+      "id": "20619",
+      "obj": {
+        "i": 20619,
+        "n": "Suspending Minnow",
+        "l": 260,
+        "c": 27072,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5722",
+      "obj": {
+        "i": 5722,
+        "n": "Quicktongue Materia IV",
+        "l": 70,
+        "c": 20228,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5721",
+      "obj": {
+        "i": 5721,
+        "n": "Quicktongue Materia III",
+        "l": 45,
+        "c": 20227,
+        "t": 58,
+        "materia": {
+          "tier": 2,
+          "value": 3,
+          "attr": "Spell Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "10386",
+      "obj": {
+        "i": 10386,
+        "n": "Grade 6 Dark Matter",
+        "l": 1,
+        "c": 20404,
+        "t": 60,
+        "p": 120
+      }
+    }
+  ]
+}

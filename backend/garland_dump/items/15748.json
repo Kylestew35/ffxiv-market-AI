@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Moogle Tool Component Materials",
+    "description": "Materials required to craft a moogle tool component.<br><br>※Only for use in moogle society quests.",
+    "id": 15748,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "15722": 1
+    },
+    "usedInQuest": [
+      67860
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15722",
+      "obj": {
+        "i": 15722,
+        "n": "Moogle Tool Component",
+        "l": 55,
+        "c": 21012,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67860",
+      "obj": {
+        "i": 67860,
+        "n": "The Tools Make the Moogle",
+        "g": 54,
+        "l": "The Churning Mists",
+        "s": 5,
+        "f": 1
+      }
+    }
+  ]
+}

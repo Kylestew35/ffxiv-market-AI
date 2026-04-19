@@ -1,0 +1,645 @@
+{
+  "leve": {
+    "name": "Wood You Be Quiet",
+    "description": "A member of the fife and drum corps has approached me with concerns that his instrument practice may be a nuisance to his neighbors. To put his mind at ease─and avoid noise complaints─I should like to offer him a few lengths of ceiba lumber to help insulate his chambers.",
+    "id": 1690,
+    "patch": 7.0,
+    "client": "Resplendent Quarter Chairman, E'enuhanu",
+    "lvl": 92,
+    "jobCategory": 9,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 1665250,
+    "gil": 2535,
+    "rewards": 822,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44020,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 240,
+      "hq": 255
+    }
+  },
+  "rewards": {
+    "id": 822,
+    "entries": [
+      {
+        "item": 10,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 9,
+        "rate": 0.23,
+        "amount": 37
+      },
+      {
+        "item": 44015,
+        "rate": 0.23
+      },
+      {
+        "item": 10,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 9,
+        "rate": 0.1,
+        "amount": 44
+      },
+      {
+        "item": 44015,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Ceiba Lumber",
+      "id": 44020,
+      "icon": 22460,
+      "category": 50,
+      "ilvl": 653,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5624,
+          "job": 8,
+          "rlvl": 653,
+          "durability": 40,
+          "quality": 8600,
+          "progress": 2125,
+          "lvl": 92,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 44015,
+              "amount": 5
+            },
+            {
+              "id": 10,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 88,
+            "hq": 108
+          }
+        }
+      ],
+      "desynthedFrom": [
+        41110,
+        42134,
+        42072
+      ],
+      "treasure": [
+        43556
+      ],
+      "leves": [
+        1691
+      ]
+    },
+    {
+      "name": "Ceiba Log",
+      "id": 44015,
+      "icon": 22403,
+      "category": 50,
+      "ilvl": 653,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 110,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1690
+      ],
+      "ventures": [
+        1001
+      ],
+      "nodes": [
+        986
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "986",
+      "obj": {
+        "i": 986,
+        "n": "Uyuyub'",
+        "l": 95,
+        "t": 2,
+        "z": 4506
+      }
+    },
+    {
+      "type": "item",
+      "id": "44015",
+      "obj": {
+        "i": 44015,
+        "n": "Ceiba Log",
+        "l": 653,
+        "c": 22403,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "41991",
+      "obj": {
+        "i": 41991,
+        "n": "Ruthenium Tonfas",
+        "l": 655,
+        "c": 30844,
+        "t": 1,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41992",
+      "obj": {
+        "i": 41992,
+        "n": "Ruthenium War Axe",
+        "l": 655,
+        "c": 31253,
+        "t": 3,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41993",
+      "obj": {
+        "i": 41993,
+        "n": "Ceiba Spear",
+        "l": 655,
+        "c": 31655,
+        "t": 5,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41994",
+      "obj": {
+        "i": 41994,
+        "n": "Ceiba Longbow",
+        "l": 655,
+        "c": 32043,
+        "t": 4,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41995",
+      "obj": {
+        "i": 41995,
+        "n": "Ceiba Crook",
+        "l": 655,
+        "c": 32473,
+        "t": 9,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41996",
+      "obj": {
+        "i": 41996,
+        "n": "Ceiba Staff",
+        "l": 655,
+        "c": 32888,
+        "t": 7,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41997",
+      "obj": {
+        "i": 41997,
+        "n": "Crocodileskin Index",
+        "l": 655,
+        "c": 37808,
+        "t": 10,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "41998",
+      "obj": {
+        "i": 41998,
+        "n": "Crocodileskin Codex",
+        "l": 655,
+        "c": 37811,
+        "t": 98,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42003",
+      "obj": {
+        "i": 42003,
+        "n": "Ruthenium Blade",
+        "l": 655,
+        "c": 36556,
+        "t": 96,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42008",
+      "obj": {
+        "i": 42008,
+        "n": "Ceiba Wings",
+        "l": 655,
+        "c": 37064,
+        "t": 109,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42010",
+      "obj": {
+        "i": 42010,
+        "n": "Ceiba Round Brush",
+        "l": 655,
+        "c": 37622,
+        "t": 111,
+        "p": 51786
+      }
+    },
+    {
+      "type": "item",
+      "id": "42011",
+      "obj": {
+        "i": 42011,
+        "n": "Ruthenium Kite Shield",
+        "l": 655,
+        "c": 30268,
+        "t": 11,
+        "p": 17262
+      }
+    },
+    {
+      "type": "item",
+      "id": "42144",
+      "obj": {
+        "i": 42144,
+        "n": "Cobalt Tungsten Scimitar",
+        "l": 663,
+        "c": 30682,
+        "t": 2,
+        "p": 34575
+      }
+    },
+    {
+      "type": "item",
+      "id": "42146",
+      "obj": {
+        "i": 42146,
+        "n": "Cobalt Tungsten Axe",
+        "l": 663,
+        "c": 31255,
+        "t": 3,
+        "p": 51862
+      }
+    },
+    {
+      "type": "item",
+      "id": "43231",
+      "obj": {
+        "i": 43231,
+        "n": "Dark Mahogany Fishing Rod",
+        "l": 650,
+        "c": 38509,
+        "t": 32,
+        "p": 51743
+      }
+    },
+    {
+      "type": "item",
+      "id": "41090",
+      "obj": {
+        "i": 41090,
+        "n": "Tomestool",
+        "l": 690,
+        "c": 51730,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "41110",
+      "obj": {
+        "i": 41110,
+        "n": "Wall Cabinet",
+        "l": 690,
+        "c": 51731,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "41817",
+      "obj": {
+        "i": 41817,
+        "n": "Slovenly Chair",
+        "l": 690,
+        "c": 52800,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "41822",
+      "obj": {
+        "i": 41822,
+        "n": "Decorative Hingan Door",
+        "l": 690,
+        "c": 51533,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "44873",
+      "obj": {
+        "i": 44873,
+        "n": "Wood-fired Range",
+        "l": 690,
+        "c": 52821,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "44879",
+      "obj": {
+        "i": 44879,
+        "n": "Botanical Loft",
+        "l": 690,
+        "c": 51576,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "44971",
+      "obj": {
+        "i": 44971,
+        "n": "Tropical Canopy Bed",
+        "l": 690,
+        "c": 52813,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "48111",
+      "obj": {
+        "i": 48111,
+        "n": "Hingan Wall Shelf",
+        "l": 690,
+        "c": 51586,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "48112",
+      "obj": {
+        "i": 48112,
+        "n": "Hingan Wall Cabinet",
+        "l": 690,
+        "c": 51584,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "48113",
+      "obj": {
+        "i": 48113,
+        "n": "Hingan Floor Cabinet",
+        "l": 690,
+        "c": 51745,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "46109",
+      "obj": {
+        "i": 46109,
+        "n": "Lattice Planter Partition",
+        "l": 690,
+        "c": 52840,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "46092",
+      "obj": {
+        "i": 46092,
+        "n": "Straight Tuliyollan Counter",
+        "l": 690,
+        "c": 51749,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "46093",
+      "obj": {
+        "i": 46093,
+        "n": "Curved Tuliyollan Counter",
+        "l": 690,
+        "c": 51750,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "46095",
+      "obj": {
+        "i": 46095,
+        "n": "Tuliyollan Screen",
+        "l": 690,
+        "c": 52868,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "49858",
+      "obj": {
+        "i": 49858,
+        "n": "Il Mheg Planter",
+        "l": 690,
+        "c": 53547,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "43892",
+      "obj": {
+        "i": 43892,
+        "n": "Pelupelu Cover Components",
+        "l": 656,
+        "c": 25977,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "44186",
+      "obj": {
+        "i": 44186,
+        "n": "Rarefied Ceiba Spear",
+        "l": 656,
+        "c": 31655,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44192",
+      "obj": {
+        "i": 44192,
+        "n": "Rarefied Ruthenium War Axe",
+        "l": 656,
+        "c": 31253,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41810",
+      "obj": {
+        "i": 41810,
+        "n": "Country Cottage Wall",
+        "l": 1,
+        "c": 50855,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41811",
+      "obj": {
+        "i": 41811,
+        "n": "Country House Wall",
+        "l": 1,
+        "c": 50856,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41812",
+      "obj": {
+        "i": 41812,
+        "n": "Country Mansion Wall",
+        "l": 1,
+        "c": 50857,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1690",
+      "obj": {
+        "i": 1690,
+        "n": "Wood You Be Quiet",
+        "l": 92,
+        "j": 9,
+        "p": 4504
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1691",
+      "obj": {
+        "i": 1691,
+        "n": "The Wing's Wings",
+        "l": 92,
+        "j": 9,
+        "p": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "42134",
+      "obj": {
+        "i": 42134,
+        "n": "Zormor Bracelet of Fending",
+        "l": 660,
+        "c": 55879,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "42072",
+      "obj": {
+        "i": 42072,
+        "n": "Zormor Cane",
+        "l": 660,
+        "c": 32480,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "43556",
+      "obj": {
+        "i": 43556,
+        "n": "Timeworn Loboskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "44020",
+      "obj": {
+        "i": 44020,
+        "n": "Ceiba Lumber",
+        "l": 653,
+        "c": 22460,
+        "t": 50
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "item": {
+    "name": "Eye of Water",
+    "description": "A polished stone sphere elementally aspected to water.",
+    "id": 5203,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 100,
+    "ilvl": 22,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21255,
+    "ingredient_of": {
+      "3666": 1,
+      "2088": 1,
+      "2094": 1,
+      "1978": 1
+    },
+    "craft": [
+      {
+        "id": 719,
+        "job": 11,
+        "rlvl": 22,
+        "durability": 40,
+        "quality": 456,
+        "progress": 37,
+        "lvl": 22,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5157,
+            "amount": 1
+          },
+          {
+            "id": 4,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 28,
+          "hq": 48
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Water Rock",
+      "id": 5157,
+      "icon": 21451,
+      "category": 48,
+      "ilvl": 22,
+      "price": 168,
+      "ventures": [
+        109
+      ],
+      "nodes": [
+        167
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "167",
+      "obj": {
+        "i": 167,
+        "n": "Oakwood",
+        "l": 25,
+        "t": 1,
+        "z": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "3666",
+      "obj": {
+        "i": 3666,
+        "n": "Boarskin Ringbands of Tides",
+        "l": 46,
+        "c": 44134,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "5157",
+      "obj": {
+        "i": 5157,
+        "n": "Water Rock",
+        "l": 22,
+        "c": 21451,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "2088",
+      "obj": {
+        "i": 2088,
+        "n": "Electrum Scepter",
+        "l": 43,
+        "c": 32805,
+        "t": 6,
+        "p": 5737
+      }
+    },
+    {
+      "type": "item",
+      "id": "2094",
+      "obj": {
+        "i": 2094,
+        "n": "Water Brand",
+        "l": 46,
+        "c": 32815,
+        "t": 6
+      }
+    },
+    {
+      "type": "item",
+      "id": "1978",
+      "obj": {
+        "i": 1978,
+        "n": "Wand of Tides",
+        "l": 42,
+        "c": 32409,
+        "t": 8
+      }
+    }
+  ]
+}

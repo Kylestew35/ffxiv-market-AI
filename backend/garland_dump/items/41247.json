@@ -1,0 +1,98 @@
+{
+  "item": {
+    "name": "Select Duraluminum Ingot",
+    "description": "An ingot of smelted duraluminum, selected for its quality by a Boutique of Splendors procurer.",
+    "id": 41247,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 642,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 40,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20802,
+    "tradeShops": [
+      {
+        "shop": "Crafters' Scrip Exchange",
+        "npcs": [
+          1045069
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41247",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 35
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "41255": 1,
+      "41263": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1045069",
+      "obj": {
+        "i": 1045069,
+        "n": "Quinnana",
+        "l": 2951,
+        "s": 3,
+        "t": "Splendorous Tool Exchange",
+        "r": 1,
+        "a": 3252,
+        "c": [
+          10.44,
+          7.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41255",
+      "obj": {
+        "i": 41255,
+        "n": "Connoisseur's Rousing Chronometer",
+        "l": 642,
+        "c": 53438,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41263",
+      "obj": {
+        "i": 41263,
+        "n": "Connoisseur's Retainer Bell",
+        "l": 643,
+        "c": 52513,
+        "t": 61
+      }
+    }
+  ]
+}

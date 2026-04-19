@@ -1,0 +1,314 @@
+{
+  "item": {
+    "name": "Used Banquet Table",
+    "description": "There's no telling how many banquets have been eaten off of this table.",
+    "id": 28991,
+    "patch": 5.2,
+    "patchCategory": 9,
+    "price": 4000,
+    "ilvl": 430,
+    "category": 77,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 51687,
+    "craft": [
+      {
+        "id": 4609,
+        "job": 8,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 27693,
+            "amount": 4,
+            "quality": 118.7189
+          },
+          {
+            "id": 27689,
+            "amount": 4,
+            "quality": 111.56716
+          },
+          {
+            "id": 27832,
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "amount": 7
+          },
+          {
+            "id": 9,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 690,
+          "hq": 710
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "934"
+    ],
+    "desynthedTo": [
+      27689,
+      27693,
+      27832
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Lignum Vitae Lumber",
+      "id": 27693,
+      "icon": 22454,
+      "category": 50,
+      "ilvl": 415,
+      "price": 3075,
+      "craft": [
+        {
+          "id": 3816,
+          "job": 8,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27687,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "desynthedFrom": [
+        33295,
+        33267,
+        28992,
+        28991,
+        33273,
+        30387,
+        33282,
+        27605,
+        27227,
+        26356
+      ],
+      "leves": [
+        1415,
+        1416,
+        1417
+      ]
+    },
+    {
+      "name": "Lignum Vitae Log",
+      "id": 27687,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        817
+      ],
+      "nodes": [
+        621
+      ]
+    },
+    {
+      "name": "White Oak Lumber",
+      "id": 27689,
+      "icon": 22458,
+      "category": 50,
+      "ilvl": 390,
+      "price": 2799,
+      "craft": [
+        {
+          "id": 3812,
+          "job": 8,
+          "rlvl": 390,
+          "durability": 40,
+          "quality": 3010,
+          "progress": 597,
+          "lvl": 71,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27683,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 70,
+            "hq": 90
+          }
+        }
+      ],
+      "desynthedFrom": [
+        35578,
+        28991,
+        25768,
+        25939
+      ],
+      "leves": [
+        1404,
+        1405
+      ]
+    },
+    {
+      "name": "White Oak Log",
+      "id": 27683,
+      "icon": 22407,
+      "category": 50,
+      "ilvl": 390,
+      "price": 210,
+      "voyages": [
+        {
+          "id": 53,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1403
+      ],
+      "ventures": [
+        810
+      ],
+      "nodes": [
+        614
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27687",
+      "obj": {
+        "i": 27687,
+        "n": "Lignum Vitae Log",
+        "l": 415,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "621",
+      "obj": {
+        "i": 621,
+        "n": "Hare Among Giants",
+        "l": 80,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "27683",
+      "obj": {
+        "i": 27683,
+        "n": "White Oak Log",
+        "l": 390,
+        "c": 22407,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "614",
+      "obj": {
+        "i": 614,
+        "n": "The Bright Cliff",
+        "l": 75,
+        "t": 2,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "item",
+      "id": "27693",
+      "obj": {
+        "i": 27693,
+        "n": "Lignum Vitae Lumber",
+        "l": 415,
+        "c": 22454,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27689",
+      "obj": {
+        "i": 27689,
+        "n": "White Oak Lumber",
+        "l": 390,
+        "c": 22458,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    }
+  ]
+}

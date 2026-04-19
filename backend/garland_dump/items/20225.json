@@ -1,0 +1,139 @@
+{
+  "item": {
+    "name": "Ivory Sole",
+    "description": "The whitish grey skin of this large flatfish allows it to hide itself on the bottom of Loch Seld with such efficiency that for years Ala Mhigans thought the species extinct.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "While the sole may resemble the bottom of a foot, this fastidious fish is mindful not to tread on its predators' toes, and its ivory sheen allows it to step lightly among the flora of the lake floor.",
+      "icon": 79921,
+      "spots": [
+        {
+          "node": 479,
+          "gig": [
+            "Normal Gig Head"
+          ],
+          "ff14anglerId": 719
+        },
+        {
+          "node": 483,
+          "gig": [
+            "Normal Gig Head"
+          ],
+          "ff14anglerId": 719
+        }
+      ]
+    },
+    "id": 20225,
+    "patch": 4.0,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 275,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29921,
+    "nodes": [
+      479,
+      483
+    ],
+    "ingredient_of": {
+      "19815": 1
+    },
+    "desynthedTo": [
+      5824,
+      5817,
+      5716,
+      5518
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "479",
+      "obj": {
+        "i": 479,
+        "n": "Loch Seld Southeastern Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2408
+      }
+    },
+    {
+      "type": "node",
+      "id": "483",
+      "obj": {
+        "i": 483,
+        "n": "Loch Seld Deep Lakebed",
+        "l": 70,
+        "t": 5,
+        "z": 2408,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "item",
+      "id": "19815",
+      "obj": {
+        "i": 19815,
+        "n": "Persimmon Leaf Sushi",
+        "l": 300,
+        "c": 21005,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5817",
+      "obj": {
+        "i": 5817,
+        "n": "Grey Pigment",
+        "l": 28,
+        "c": 21463,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5716",
+      "obj": {
+        "i": 5716,
+        "n": "Quickarm Materia III",
+        "l": 45,
+        "c": 20227,
+        "t": 58,
+        "materia": {
+          "tier": 2,
+          "value": 3,
+          "attr": "Skill Speed",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5518",
+      "obj": {
+        "i": 5518,
+        "n": "Rock Salt",
+        "l": 1,
+        "c": 22617,
+        "t": 54,
+        "p": 3
+      }
+    }
+  ]
+}

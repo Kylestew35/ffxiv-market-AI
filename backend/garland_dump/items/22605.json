@@ -1,0 +1,100 @@
+{
+  "item": {
+    "name": "Proof of a Hero - Monster Hunter: World Version Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Proof of a Hero - Monster Hunter: World Version</span>. Use to add to your orchestrion list.",
+    "id": 22605,
+    "patch": 4.36,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 239,
+      "name": "Proof of a Hero - Monster Hunter: World Version",
+      "description": "Obtained in the Great Hunt (Extreme).",
+      "category": "Trials",
+      "order": 34
+    },
+    "instances": [
+      20054,
+      20054
+    ],
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1025722
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22605",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "23383",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20054",
+      "obj": {
+        "i": 20054,
+        "n": "The Great Hunt (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 350
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025722",
+      "obj": {
+        "i": 1025722,
+        "n": "Smithy",
+        "l": 2404,
+        "s": 1,
+        "r": 1,
+        "a": 728,
+        "c": [
+          9.77,
+          8.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23383",
+      "obj": {
+        "i": 23383,
+        "n": "Rathalos Scale+",
+        "l": 1,
+        "c": 22218,
+        "t": 53
+      }
+    }
+  ]
+}

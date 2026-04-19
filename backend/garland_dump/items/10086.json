@@ -1,0 +1,237 @@
+{
+  "item": {
+    "name": "Tinker's Calm",
+    "description": "A tonic commonly used by Disciples of the Hand to increase focus, allowing for enhanced results when deconstructing complex creations.<br><br><span class=\"highlight-green\">Duration:</span> 10m",
+    "id": 10086,
+    "patch": 2.5,
+    "patchCategory": 4,
+    "price": 2090,
+    "ilvl": 110,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Desynthesis Skill Gain": 30
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Desynthesis Skill Gain": 40
+      }
+    },
+    "icon": 27609,
+    "craft": [
+      {
+        "id": 30935,
+        "job": 14,
+        "rlvl": 110,
+        "durability": 80,
+        "quality": 2900,
+        "progress": 480,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 407,
+        "craftsmanshipReq": 451,
+        "quickSynthCraftsmanship": 620,
+        "unlockId": 9342,
+        "ingredients": [
+          {
+            "id": 10093,
+            "amount": 2
+          },
+          {
+            "id": 10096,
+            "amount": 2
+          },
+          {
+            "id": 9376,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 330,
+          "hq": 350
+        }
+      }
+    ],
+    "quests": [
+      67262
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Virgin Basilisk Egg",
+      "id": 10093,
+      "icon": 21215,
+      "category": 48,
+      "ilvl": 90,
+      "price": 534,
+      "ventures": [
+        541
+      ],
+      "nodes": [
+        252
+      ]
+    },
+    {
+      "name": "Rosemary",
+      "id": 10096,
+      "icon": 25002,
+      "category": 54,
+      "ilvl": 90,
+      "price": 427,
+      "ventures": [
+        542
+      ],
+      "nodes": [
+        251
+      ]
+    },
+    {
+      "name": "Allagan Catalyst",
+      "id": 9376,
+      "icon": 27604,
+      "category": 54,
+      "ilvl": 100,
+      "price": 1702,
+      "desynthedFrom": [
+        16752
+      ],
+      "instances": [
+        30001,
+        30011
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "252",
+      "obj": {
+        "i": 252,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46,
+        "s": 3,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "251",
+      "obj": {
+        "i": 251,
+        "n": "Nine Ivies",
+        "l": 50,
+        "t": 3,
+        "z": 55,
+        "s": 3,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30001",
+      "obj": {
+        "i": 30001,
+        "n": "The Labyrinth of the Ancients",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 50
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30011",
+      "obj": {
+        "i": 30011,
+        "n": "Syrcus Tower",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70
+      }
+    },
+    {
+      "type": "item",
+      "id": "9342",
+      "obj": {
+        "i": 9342,
+        "n": "Master Alchemist II",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "10093",
+      "obj": {
+        "i": 10093,
+        "n": "Virgin Basilisk Egg",
+        "l": 90,
+        "c": 21215,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10096",
+      "obj": {
+        "i": 10096,
+        "n": "Rosemary",
+        "l": 90,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "9376",
+      "obj": {
+        "i": 9376,
+        "n": "Allagan Catalyst",
+        "l": 100,
+        "c": 27604,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67262",
+      "obj": {
+        "i": 67262,
+        "n": "Remembering Ishgard",
+        "g": 116,
+        "l": "Ishgard",
+        "s": 5001
+      }
+    }
+  ]
+}

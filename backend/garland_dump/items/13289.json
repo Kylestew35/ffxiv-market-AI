@@ -1,0 +1,96 @@
+{
+  "item": {
+    "name": "A Knight to Remember",
+    "description": "A commissioned portrait of recently deceased companion Haurchefant Greystone entitled <span class=\"emphasis\">A Knight to Remember</span>.",
+    "id": 13289,
+    "patch": 3.1,
+    "patchCategory": 9,
+    "price": 14400,
+    "ilvl": 1,
+    "category": 79,
+    "dyecount": 0,
+    "sell_price": 357,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 51342,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13289",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13289",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "424"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

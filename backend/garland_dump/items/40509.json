@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Mount Rokkon Framer's Kit",
+    "description": "Tools for enhancing a portrait. Use to unlock embellishments fit for a hunter of the horrors on Mount Rokkon.<br>Includes Portrait Elements: Background, Frame, Accent<br>Includes Plate Elements: Pattern, Portrait Frame",
+    "id": 40509,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26625,
+    "tradeShops": [
+      {
+        "shop": "Shishu Coin Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40509",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39885",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "39885",
+      "obj": {
+        "i": 39885,
+        "n": "Shishu Coin",
+        "l": 1,
+        "c": "t/65102",
+        "t": 100
+      }
+    }
+  ]
+}

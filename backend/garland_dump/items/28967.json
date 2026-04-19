@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Wine Rack",
+    "description": "Nice vintage you've got there. Be a shame if someone were to...quaff it.",
+    "id": 28967,
+    "patch": 5.2,
+    "patchCategory": 9,
+    "price": 450,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53341,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027538
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28967",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 25
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "883"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Oasis Striking Dummy",
+    "description": "A striking dummy designed in the oasis fashion.<br><br>※Up to three dummies may be placed in a single estate, regardless of type.",
+    "id": 7119,
+    "patch": 2.3,
+    "patchCategory": 9,
+    "price": 34927,
+    "ilvl": 70,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 524,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 52138,
+    "tradeShops": [
+      {
+        "shop": "Allied Seals (Immortal Flames)",
+        "npcs": [
+          1001379
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7119",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 180
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

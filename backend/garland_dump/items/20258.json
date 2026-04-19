@@ -1,0 +1,103 @@
+{
+  "item": {
+    "name": "Zenos yae Galvus Card",
+    "description": "A legendary (★★★★★) card used in the game Triple Triad.<br>Card No. 188",
+    "id": 20258,
+    "patch": 4.0,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27666,
+    "instances": [
+      56
+    ],
+    "tradeShops": [
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20258",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "“Do not disappoint me, girl. Or I will kill you.”"
+      },
+      "ja": {
+        "description": "「せいぜい愉しませろ……。\r\nそうでなければ、すぐに潰す」\r\n第XII軍団軍団長：ゼノス・イェー・ガルヴァス"
+      },
+      "de": {
+        "description": "„Da steht ja immer noch jemand. Gut, dann spielen wir eben weiter.“"
+      },
+      "fr": {
+        "description": "“J'espère bien que cette proie va me procurer du plaisir...”"
+      },
+      "type": "Garlean",
+      "sellMgp": 1500,
+      "plate": 87201,
+      "rarity": 5,
+      "top": 6,
+      "bottom": 7,
+      "left": "A",
+      "right": 6,
+      "rewardFrom": [
+        1026600
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "56",
+      "obj": {
+        "i": 56,
+        "n": "Ala Mhigo",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 280,
+        "max_ilvl": 310
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026600",
+      "obj": {
+        "i": 1026600,
+        "n": "Hachinan",
+        "l": 2410
+      }
+    }
+  ]
+}

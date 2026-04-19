@@ -1,0 +1,196 @@
+{
+  "item": {
+    "name": "Augmented Ironworks Mask of Aiming",
+    "jobCategories": "ARC BRD MCH DNC",
+    "id": 8902,
+    "patch": 2.4,
+    "patchCategory": 0,
+    "price": 33567,
+    "ilvl": 130,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 383,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 748,
+    "slot": 3,
+    "elvl": 50,
+    "jobs": 66,
+    "models": [
+      "189-1-0-0"
+    ],
+    "attr": {
+      "Defense": 77,
+      "Magic Defense": 77,
+      "Dexterity": 33,
+      "Vitality": 35,
+      "Direct Hit Rate": 31,
+      "Determination": 22
+    },
+    "icon": 40436,
+    "sharedModels": [
+      8608,
+      9467,
+      9473
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW)",
+        "npcs": [
+          1008119
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8902",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Ironworks Gear Augmentation (DoW)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8902",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8608",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Ironworks Gear (IL 130)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8902",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8608",
+      "obj": {
+        "i": 8608,
+        "n": "Ironworks Mask of Aiming",
+        "l": 120,
+        "c": 40436,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "9467",
+      "obj": {
+        "i": 9467,
+        "n": "Ironworks Mask of Scouting",
+        "l": 120,
+        "c": 40439,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "9473",
+      "obj": {
+        "i": 9473,
+        "n": "Augmented Ironworks Mask of Scouting",
+        "l": 130,
+        "c": 40439,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    }
+  ]
+}

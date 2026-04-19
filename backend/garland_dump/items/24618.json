@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Kojin Material Supplier Permit",
+    "description": "This permit allows the hiring of Kojin material suppliers on the estate.<br><br>※Private chambers (apartments), cottages, houses, and mansions can host 4, 6, 8, and 10 vendors, respectively.",
+    "id": 24618,
+    "patch": 4.56,
+    "patchCategory": 5,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 120,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26192,
+    "tradeShops": [
+      {
+        "shop": "Kojin Sango Exchange",
+        "npcs": [
+          1024219
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24618",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21081",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "243"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024219",
+      "obj": {
+        "i": 1024219,
+        "n": "Shikitahe",
+        "l": 2409,
+        "s": 1,
+        "t": "Sango Exchange",
+        "r": 1,
+        "a": 2769,
+        "c": [
+          29.36,
+          16.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21081",
+      "obj": {
+        "i": 21081,
+        "n": "Kojin Sango",
+        "l": 1,
+        "c": 65058,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Lynx of Divine Light Flute",
+    "description": "Emitting a bright and hopeful tone, this flute summons a lynx of divine light to your side.",
+    "mount": {
+      "name": "Lynx Of Divine Light",
+      "action": "Summon forth your lynx of divine light, which could be what a certain will of the star might look like as a large, winged feline.",
+      "description": "A phantom creation whose elemental aspect is tipped strongly towards the umbral. Its radiant wings call to mind the majesty of Hydaelyn, the will and protector of the star, but the origins of this familiar are shrouded in divine Light.",
+      "tooltip": "So bold, so majestic─<br>just like a Warrior of Light!<br>   - Humphrey",
+      "icon": 4215,
+      "guideIcon": 68215
+    },
+    "id": 36001,
+    "patch": 6.0,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20078,
+      20078
+    ],
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36001",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35816",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36001",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35816",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "716-1-2"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20078",
+      "obj": {
+        "i": 20078,
+        "n": "The Minstrel's Ballad: Hydaelyn's Call",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 560
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35816",
+      "obj": {
+        "i": 35816,
+        "n": "Umbral Totem",
+        "l": 1,
+        "c": 26620,
+        "t": 61
+      }
+    }
+  ]
+}

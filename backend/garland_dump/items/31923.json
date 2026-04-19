@@ -1,0 +1,355 @@
+{
+  "item": {
+    "name": "Grade 4 Skybuilders' Rivets",
+    "description": "Although being covered in rivets tends to make basically anything look a lot more sturdy, the act of driving them in to begin with probably compromises the object's structural integrity to some degree. It certainly has that effect on a person's skull.",
+    "id": 31923,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 450,
+    "ilvl": 40,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 4,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 21014,
+    "craft": [
+      {
+        "id": 34443,
+        "job": 10,
+        "rlvl": 40,
+        "durability": 60,
+        "quality": 3500,
+        "progress": 138,
+        "lvl": 40,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31968,
+            "amount": 5
+          },
+          {
+            "id": 31970,
+            "amount": 5
+          },
+          {
+            "id": 5116,
+            "amount": 2
+          },
+          {
+            "id": 3,
+            "amount": 4
+          },
+          {
+            "id": 5,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 500453,
+          "hq": 500473
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 4 Skybuilders' Ore",
+      "id": 31968,
+      "icon": 23927,
+      "category": 48,
+      "ilvl": 40,
+      "price": 90
+    },
+    {
+      "name": "Approved Grade 4 Skybuilders' Mythrite Sand",
+      "id": 31970,
+      "icon": 23808,
+      "category": 48,
+      "ilvl": 40,
+      "price": 90,
+      "desynthedFrom": [
+        32910
+      ]
+    },
+    {
+      "name": "Cobalt Ore",
+      "id": 5116,
+      "icon": 21216,
+      "category": 48,
+      "ilvl": 43,
+      "price": 228,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5116",
+                  "amount": 6
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "ventures": [
+        157
+      ],
+      "nodes": [
+        189
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "189",
+      "obj": {
+        "i": 189,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "31968",
+      "obj": {
+        "i": 31968,
+        "n": "Approved Grade 4 Skybuilders' Ore",
+        "l": 40,
+        "c": 23927,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "31970",
+      "obj": {
+        "i": 31970,
+        "n": "Approved Grade 4 Skybuilders' Mythrite Sand",
+        "l": 40,
+        "c": 23808,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5116",
+      "obj": {
+        "i": 5116,
+        "n": "Cobalt Ore",
+        "l": 43,
+        "c": 21216,
+        "t": 48
+      }
+    }
+  ]
+}

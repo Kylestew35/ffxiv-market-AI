@@ -1,0 +1,255 @@
+{
+  "item": {
+    "name": "Wanderer's Campfire",
+    "description": "Perfect for driving away the darkness and the chill and, most importantly, toasting marshmallows.<br><br>Use item to acquire the wanderer's campfire minion.",
+    "minionrace": "Gadget",
+    "tooltip": "Few things compare to the simple\r\npleasure of sitting beside a crackling\r\ncampfire of one's own making.\r\n   - Alphinaud",
+    "minionskilltype": "Restoration",
+    "specialactionname": "Warmth",
+    "specialactiondescription": "Restores 200 HP to all allies within range (250 if the ally is a <span class=\"highlight\">gadget</span>).",
+    "id": 33696,
+    "patch": 5.5,
+    "patchCategory": 11,
+    "price": 2000,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59814,
+    "craft": [
+      {
+        "id": 4727,
+        "job": 14,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 5526,
+            "amount": 4
+          },
+          {
+            "id": 27686,
+            "amount": 6
+          },
+          {
+            "id": 27803,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 7
+          },
+          {
+            "id": 12,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 174,
+          "hq": 194
+        }
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 550,
+      "Skill Cost": 60,
+      "Attack": 20,
+      "Defense": 45,
+      "Speed": 1
+    },
+    "models": [
+      "8373-1-1"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Grenade Ash",
+      "id": 5526,
+      "icon": 21001,
+      "category": 54,
+      "ilvl": 40,
+      "price": 216,
+      "ventures": [
+        56,
+        146
+      ],
+      "drops": [
+        16180000001799,
+        20920000000270,
+        21380000001511,
+        3270000000270
+      ],
+      "nodes": [
+        20
+      ],
+      "vendors": [
+        1001015
+      ]
+    },
+    {
+      "name": "Sandteak Log",
+      "id": 27686,
+      "icon": 22403,
+      "category": 50,
+      "ilvl": 409,
+      "price": 210,
+      "ventures": [
+        815
+      ],
+      "nodes": [
+        620
+      ]
+    },
+    {
+      "name": "Volcanic Tuff",
+      "id": 27803,
+      "icon": 22615,
+      "category": 48,
+      "ilvl": 409,
+      "price": 210,
+      "ventures": [
+        805
+      ],
+      "nodes": [
+        600
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Bluefog",
+        "l": 40,
+        "t": 1,
+        "z": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001015",
+      "obj": {
+        "i": 1001015,
+        "n": "Z'ranmaia",
+        "l": 28,
+        "s": 1,
+        "t": "Herbalist",
+        "a": 718,
+        "c": [
+          11.35,
+          8.16
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "3270000000270",
+      "obj": {
+        "i": 3270000000270,
+        "n": "Grenade",
+        "l": "41 - 44",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20920000000270",
+      "obj": {
+        "i": 20920000000270,
+        "n": "Grenade",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "21380000001511",
+      "obj": {
+        "i": 21380000001511,
+        "n": "Bomb Baron",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16180000001799",
+      "obj": {
+        "i": 16180000001799,
+        "n": "Shrapnel",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "node",
+      "id": "620",
+      "obj": {
+        "i": 620,
+        "n": "Ladle",
+        "l": 80,
+        "t": 2,
+        "z": 2955
+      }
+    },
+    {
+      "type": "node",
+      "id": "600",
+      "obj": {
+        "i": 600,
+        "n": "Amity",
+        "l": 80,
+        "t": 1,
+        "z": 2954
+      }
+    },
+    {
+      "type": "item",
+      "id": "5526",
+      "obj": {
+        "i": 5526,
+        "n": "Grenade Ash",
+        "l": 40,
+        "c": 21001,
+        "t": 54,
+        "p": 216
+      }
+    },
+    {
+      "type": "item",
+      "id": "27686",
+      "obj": {
+        "i": 27686,
+        "n": "Sandteak Log",
+        "l": 409,
+        "c": 22403,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27803",
+      "obj": {
+        "i": 27803,
+        "n": "Volcanic Tuff",
+        "l": 409,
+        "c": 22615,
+        "t": 48
+      }
+    }
+  ]
+}

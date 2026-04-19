@@ -1,0 +1,82 @@
+{
+  "item": {
+    "name": "Don't Be Afraid Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Don't Be Afraid</span>. Use to add to your orchestrion list.",
+    "id": 33116,
+    "patch": 5.4,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 417,
+      "name": "Don't Be Afraid (Shadowbringers)",
+      "description": "Obtained in Eden's Promise: Litany.",
+      "category": "Raids II",
+      "order": 22
+    },
+    "instances": [
+      30099,
+      30099
+    ],
+    "tradeShops": [
+      {
+        "shop": "Previous Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33116",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46179",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30099",
+      "obj": {
+        "i": 30099,
+        "n": "Eden's Promise: Litany",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 485
+      }
+    },
+    {
+      "type": "item",
+      "id": "46179",
+      "obj": {
+        "i": 46179,
+        "n": "Irregular Tomestone of Revelation",
+        "l": 1,
+        "c": "t/26346",
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "item": {
+    "name": "Nepto Dragon",
+    "description": "Believed by Eorzean fisherfolk to be the spawn of Thalaos─legendary creator of seas. It is, however, more likely to be no more than an overgrown little Thalaos.<br><br>[Suitable for printing on extra large canvases.]",
+    "fish": {
+      "guide": "Erratic flows of aether released after the Calamity not only resulted in a warping of the landscape, but of the creatures that dwell upon it as well. Such is the case of the Nepto Dragon─a little Thalaos grown to epic proportions.",
+      "icon": 79094,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 108,
+          "weather": [
+            "Rain",
+            "Showers"
+          ],
+          "predator": [
+            {
+              "id": 4913,
+              "amount": 3
+            }
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 290,
+          "baits": [
+            [
+              2606
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 8754,
+    "patch": 2.4,
+    "patchCategory": 7,
+    "price": 950,
+    "ilvl": 80,
+    "category": 47,
+    "dyecount": 0,
+    "sell_price": 29,
+    "rarity": 2,
+    "unlistable": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29094,
+    "usedInQuest": [
+      65782
+    ],
+    "fishingSpots": [
+      108
+    ],
+    "desynthedTo": [
+      5677,
+      5827,
+      5820,
+      5187,
+      5267
+    ]
+  },
+  "partials": [
+    {
+      "type": "quest",
+      "id": "65782",
+      "obj": {
+        "i": 65782,
+        "n": "Feast of Famine",
+        "g": 111,
+        "l": "Limsa Lominsa",
+        "s": 515
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "108",
+      "obj": {
+        "i": 108,
+        "n": "Rhotano Sea (Privateer Sterncastle)",
+        "l": 50,
+        "c": 0,
+        "z": 32,
+        "x": 37.24,
+        "y": 24.02
+      }
+    },
+    {
+      "type": "item",
+      "id": "2606",
+      "obj": {
+        "i": 2606,
+        "n": "Northern Krill",
+        "l": 50,
+        "c": 27023,
+        "t": 33,
+        "p": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "4913",
+      "obj": {
+        "i": 4913,
+        "n": "Little Thalaos",
+        "l": 55,
+        "c": 29054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "5677",
+      "obj": {
+        "i": 5677,
+        "n": "Savage Might Materia IV",
+        "l": 70,
+        "c": 20224,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5827",
+      "obj": {
+        "i": 5827,
+        "n": "Allagan Platinum Piece",
+        "l": 45,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5820",
+      "obj": {
+        "i": 5820,
+        "n": "Purple Pigment",
+        "l": 28,
+        "c": 21461,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5187",
+      "obj": {
+        "i": 5187,
+        "n": "Ruby",
+        "l": 90,
+        "c": 21269,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5267",
+      "obj": {
+        "i": 5267,
+        "n": "Fine Sand",
+        "l": 2,
+        "c": 21464,
+        "t": 48
+      }
+    }
+  ]
+}

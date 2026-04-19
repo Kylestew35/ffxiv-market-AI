@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Far Eastern Doll Display",
+    "description": "A tiered dais used in the Far East to display dolls. Adapted in Eorzea for use on Little Ladies' Day.",
+    "id": 21850,
+    "patch": 4.2,
+    "patchCategory": 9,
+    "price": 9932,
+    "ilvl": 1,
+    "category": 77,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 120,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 51670,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1025470
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21850",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22404",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "663"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025470",
+      "obj": {
+        "i": 1025470,
+        "n": "Royal Servant",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.71,
+          9.14
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22404",
+      "obj": {
+        "i": 22404,
+        "n": "Certificate of Collaboration MMXVIII",
+        "l": 1,
+        "c": 26177,
+        "t": 85
+      }
+    }
+  ]
+}

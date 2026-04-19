@@ -1,0 +1,116 @@
+{
+  "item": {
+    "name": "Magic Bucket",
+    "description": "A fisherman's best friend. He sloshes instead of slobbers.<br><br>Use item to acquire the magic bucket minion.<br><br>[Suitable for printing on small canvases, for some reason.]",
+    "minionrace": "Gadget",
+    "tooltip": "Throw back a guppy today,\r\nand reel in ten fish tomorrow.\r\n   - N'nmulika",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Slippery Floor",
+    "specialactiondescription": "Increases movement speed of all allies within range by 35%.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "fish": {
+      "guide": "There was once a young fisher-cum-sorceress who, cursing the fact she was born with only two hands with which to carry her myriad tackle, called upon the power of unseen spirits to ensorcell a bucket to transport her catch...only to watch it sink to the bottom of a lake when her concentration was broken by a crayfish nipping at her ankles.",
+      "icon": 79431,
+      "spots": [
+        {
+          "spot": 114,
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "snagging": 1,
+          "ff14anglerId": 461,
+          "baits": [
+            [
+              12711
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 15439,
+    "patch": 3.3,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "sell_price": 60,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 29431,
+    "tradeShops": [
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15439",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [],
+    "attr": {
+      "HP": 530,
+      "Skill Cost": 30,
+      "Attack": 20,
+      "Defense": 55,
+      "Speed": 1
+    },
+    "models": [
+      "8174-1-1"
+    ],
+    "fishingSpots": [
+      114
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "114",
+      "obj": {
+        "i": 114,
+        "n": "South Banepool",
+        "l": 53,
+        "c": 1,
+        "z": 2200,
+        "x": 21.78,
+        "y": 11.33
+      }
+    },
+    {
+      "type": "item",
+      "id": "12711",
+      "obj": {
+        "i": 12711,
+        "n": "Brute Leech",
+        "l": 180,
+        "c": 22635,
+        "t": 33
+      }
+    }
+  ]
+}

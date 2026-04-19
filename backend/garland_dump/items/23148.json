@@ -1,0 +1,158 @@
+{
+  "item": {
+    "name": "Pinch of Active Ingredients",
+    "description": "Minerals that serve as the active ingredients in various Gyr Abanian remedies.",
+    "id": 23148,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 205,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22616,
+    "nodes": [
+      489,
+      512
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1025878,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              94,
+              117,
+              140
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              71,
+              86,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1025878,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "489",
+      "obj": {
+        "i": 489,
+        "n": "Rustrock",
+        "l": 65,
+        "t": 1,
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025878",
+      "obj": {
+        "i": 1025878,
+        "n": "Kurenai",
+        "l": 2409,
+        "q": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

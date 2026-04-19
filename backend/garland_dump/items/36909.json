@@ -1,0 +1,102 @@
+{
+  "item": {
+    "name": "Vinegaroon Horn",
+    "description": "Scaly to the touch, this horn of bone emits a primordial sound that summons your vinegaroon.",
+    "mount": {
+      "name": "Vinegaroon",
+      "action": "Summon forth your vinegaroon mount, a carnivorous scalekin with a jaw reminiscent of claws.",
+      "description": "While it is common for dragons to use vinegaroons as servants, men have struggled to domesticate the creatures. In recent years, however, the gleaners have developed a successful training method, allowing them to be employed as beasts of burden.",
+      "tooltip": "Those vinegaroons are always chasing<br>after us moogles, snapping their bladed<br>jaws and swinging their bladed tails.<br>   - Impatient Moogle",
+      "icon": 4231,
+      "guideIcon": 68231
+    },
+    "id": 36909,
+    "patch": 6.1,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Sacks of Nuts Exchange",
+        "npcs": [
+          1037059,
+          1037312
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36909",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 3200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "455-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037059",
+      "obj": {
+        "i": 1037059,
+        "n": "J'lakshai",
+        "l": 3706,
+        "s": 5,
+        "q": 3,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          11.96,
+          13.3
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037312",
+      "obj": {
+        "i": 1037312,
+        "n": "Wilmetta",
+        "l": 3707,
+        "s": 5,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3874,
+        "c": [
+          10.53,
+          7.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

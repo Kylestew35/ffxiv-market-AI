@@ -1,0 +1,383 @@
+{
+  "item": {
+    "name": "Book of Anamorphosis",
+    "description": "A short apocryphal tome presumably created by Eden for recordkeeping purposes.<br><br>Copies of the same Eden's Promise apocrypha can be traded for special gear.",
+    "id": 32142,
+    "patch": 5.4,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26447,
+    "instances": [
+      30102,
+      30102
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Eden's Promise Apocrypha Exchange (DoW) I",
+        "npcs": [
+          1030123,
+          1030124
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32297",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32303",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32309",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Eden's Promise Apocrypha Exchange (DoW) II",
+        "npcs": [
+          1030123,
+          1030124
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32315",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32321",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Eden's Promise Apocrypha Exchange (DoM)",
+        "npcs": [
+          1030123,
+          1030124
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32327",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32333",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Edenmorn Gear (IL 530-535)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32297",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32303",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32309",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32321",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32315",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32333",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "32327",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32142",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30102",
+      "obj": {
+        "i": 30102,
+        "n": "Eden's Promise: Anamorphosis (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 510
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1030123",
+      "obj": {
+        "i": 1030123,
+        "n": "Ghul Gul",
+        "l": 2955,
+        "s": 18,
+        "t": "Eden Relic Exchange",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          26.72,
+          16.43
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1030124",
+      "obj": {
+        "i": 1030124,
+        "n": "Yhal Yal",
+        "l": 2952,
+        "s": 18,
+        "t": "Eden Relic Exchange",
+        "r": 1,
+        "a": 3270,
+        "c": [
+          10.07,
+          11.57
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "32297",
+      "obj": {
+        "i": 32297,
+        "n": "Edenmorn Hose of Fending",
+        "l": 530,
+        "c": 47776,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "32303",
+      "obj": {
+        "i": 32303,
+        "n": "Edenmorn Hose of Maiming",
+        "l": 530,
+        "c": 47778,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "32309",
+      "obj": {
+        "i": 32309,
+        "n": "Edenmorn Hose of Striking",
+        "l": 530,
+        "c": 47779,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "32315",
+      "obj": {
+        "i": 32315,
+        "n": "Edenmorn Hose of Aiming",
+        "l": 530,
+        "c": 47780,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "32321",
+      "obj": {
+        "i": 32321,
+        "n": "Edenmorn Hose of Scouting",
+        "l": 530,
+        "c": 47781,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "32327",
+      "obj": {
+        "i": 32327,
+        "n": "Edenmorn Chausses of Healing",
+        "l": 530,
+        "c": 47777,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "32333",
+      "obj": {
+        "i": 32333,
+        "n": "Edenmorn Chausses of Casting",
+        "l": 530,
+        "c": 47775,
+        "t": 36
+      }
+    }
+  ]
+}

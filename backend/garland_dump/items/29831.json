@@ -1,0 +1,234 @@
+{
+  "item": {
+    "name": "Grade 2 Skybuilders' Stew",
+    "description": "The term “potluck” applies perfectly to this particular dish, as it is traditionally assembled from whatever the chef can dig up from an often poorly lit pantry. The fact that rats tend to squeak and wriggle a fair bit when picked up is probably all that prevents them from being added to the mix. The dead ones, on the other hand...",
+    "id": 29831,
+    "patch": 5.21,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 430,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 53256,
+    "craft": [
+      {
+        "id": 33752,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 60,
+        "quality": 11960,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 29872,
+            "amount": 10
+          },
+          {
+            "id": 29877,
+            "amount": 10
+          },
+          {
+            "id": 29876,
+            "amount": 10
+          },
+          {
+            "id": 27850,
+            "amount": 4
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 3000088,
+          "hq": 3000108
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 2 Skybuilders' Wheat",
+      "id": 29872,
+      "icon": 23872,
+      "category": 45,
+      "ilvl": 430,
+      "price": 210
+    },
+    {
+      "name": "Approved Grade 2 Skybuilders' Cloud Drop Water",
+      "id": 29877,
+      "icon": 23869,
+      "category": 54,
+      "ilvl": 430,
+      "price": 210
+    },
+    {
+      "name": "Approved Grade 2 Skybuilders' Crystal-clear Rock Salt",
+      "id": 29876,
+      "icon": 23870,
+      "category": 54,
+      "ilvl": 430,
+      "price": 210
+    },
+    {
+      "name": "Rail Tenderloin",
+      "id": 27850,
+      "icon": 25151,
+      "category": 45,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027497
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27850",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        775
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027497",
+      "obj": {
+        "i": 1027497,
+        "n": "Zumutt",
+        "l": 2954,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3354,
+        "c": [
+          11.83,
+          8.91
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29872",
+      "obj": {
+        "i": 29872,
+        "n": "Approved Grade 2 Skybuilders' Wheat",
+        "l": 430,
+        "c": 23872,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "29877",
+      "obj": {
+        "i": 29877,
+        "n": "Approved Grade 2 Skybuilders' Cloud Drop Water",
+        "l": 430,
+        "c": 23869,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "29876",
+      "obj": {
+        "i": 29876,
+        "n": "Approved Grade 2 Skybuilders' Crystal-clear Rock Salt",
+        "l": 430,
+        "c": 23870,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27850",
+      "obj": {
+        "i": 27850,
+        "n": "Rail Tenderloin",
+        "l": 390,
+        "c": 25151,
+        "t": 45
+      }
+    }
+  ]
+}

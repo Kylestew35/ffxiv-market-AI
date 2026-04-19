@@ -1,0 +1,471 @@
+{
+  "item": {
+    "name": "Borscht",
+    "description": "A traditional red Garlean soup made of beetroot. Simple to cook, it is a great favorite in both civilian and military kitchens.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36043,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 530,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 59
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 64
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 74
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 80
+        }
+      }
+    },
+    "icon": 24103,
+    "craft": [
+      {
+        "id": 5258,
+        "job": 15,
+        "rlvl": 525,
+        "durability": 80,
+        "quality": 6200,
+        "progress": 2600,
+        "lvl": 83,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36093,
+            "amount": 2
+          },
+          {
+            "id": 36254,
+            "amount": 1
+          },
+          {
+            "id": 36088,
+            "amount": 1
+          },
+          {
+            "id": 36078,
+            "amount": 1,
+            "quality": 510.28806
+          },
+          {
+            "id": 36081,
+            "amount": 1,
+            "quality": 523.0453
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 378,
+          "hq": 398
+        }
+      }
+    ],
+    "quests": [
+      70037,
+      70041,
+      70042
+    ],
+    "requiredByLeves": [
+      1641
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1801250,
+      "seals": 880
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Beet",
+      "id": 36093,
+      "icon": 25231,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "leves": [
+        1642,
+        1643
+      ],
+      "ventures": [
+        922
+      ],
+      "nodes": [
+        843
+      ]
+    },
+    {
+      "name": "Yakow Chuck",
+      "id": 36254,
+      "icon": 25159,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36254",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1639
+      ],
+      "ventures": [
+        940
+      ]
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "id": 36088,
+      "icon": 25219,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "ventures": [
+        912
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Northern Sea Salt",
+      "id": 36078,
+      "icon": 25104,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5283,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36084,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sharlayan Rock Salt",
+      "id": 36084,
+      "icon": 22688,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "leves": [
+        1638
+      ],
+      "ventures": [
+        895
+      ],
+      "nodes": [
+        815
+      ]
+    },
+    {
+      "name": "Garlean Cheese",
+      "id": 36081,
+      "icon": 24458,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5286,
+          "job": 15,
+          "rlvl": 530,
+          "durability": 40,
+          "quality": 6600,
+          "progress": 1450,
+          "lvl": 84,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36255,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 148,
+            "hq": 168
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ovibos Milk",
+      "id": 36255,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36255",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        939
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "36084",
+      "obj": {
+        "i": 36084,
+        "n": "Sharlayan Rock Salt",
+        "l": 520,
+        "c": 22688,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "815",
+      "obj": {
+        "i": 815,
+        "n": "The Aesthete's Tholos",
+        "l": 85,
+        "t": 0,
+        "z": 3708
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36093",
+      "obj": {
+        "i": 36093,
+        "n": "Beet",
+        "l": 533,
+        "c": 25231,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36254",
+      "obj": {
+        "i": 36254,
+        "n": "Yakow Chuck",
+        "l": 520,
+        "c": 25159,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36088",
+      "obj": {
+        "i": 36088,
+        "n": "Iceberg Lettuce",
+        "l": 520,
+        "c": 25219,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36078",
+      "obj": {
+        "i": 36078,
+        "n": "Northern Sea Salt",
+        "l": 520,
+        "c": 25104,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36081",
+      "obj": {
+        "i": 36081,
+        "n": "Garlean Cheese",
+        "l": 533,
+        "c": 24458,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70037",
+      "obj": {
+        "i": 70037,
+        "n": "Energy for All",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1580
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70041",
+      "obj": {
+        "i": 70041,
+        "n": "Mum Is the Word",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1748
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70042",
+      "obj": {
+        "i": 70042,
+        "n": "Who Is Your Daddy",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1749
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1641",
+      "obj": {
+        "i": 1641,
+        "n": "At Any Temperature",
+        "l": 82,
+        "j": 16,
+        "p": 3706
+      }
+    }
+  ]
+}

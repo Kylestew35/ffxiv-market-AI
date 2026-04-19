@@ -1,0 +1,70 @@
+{
+  "item": {
+    "name": "Orthos Display Stand",
+    "description": "An Allagan hologram which depicts a legendary weapon.<br><br>※One per estate only.",
+    "id": 39420,
+    "patch": 6.35,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52354,
+    "tradeShops": [
+      {
+        "shop": "DEEP_DUNGEON_TOKEN2_SHOP",
+        "npcs": [
+          1044503
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39420",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38942",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1044503",
+      "obj": {
+        "i": 1044503,
+        "n": "Synthesis Node",
+        "l": 67,
+        "s": 3,
+        "r": 1,
+        "a": 420,
+        "c": [
+          34.95,
+          19.09
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38942",
+      "obj": {
+        "i": 38942,
+        "n": "Orthos Tomestone",
+        "l": 1,
+        "c": 26636,
+        "t": 61
+      }
+    }
+  ]
+}

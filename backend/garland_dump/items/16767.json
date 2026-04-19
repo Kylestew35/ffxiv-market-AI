@@ -1,0 +1,52 @@
+{
+  "item": {
+    "name": "Brendt, Brennan, & Bremondt Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 151",
+    "id": 16767,
+    "patch": 3.4,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tripletriad": {
+      "en": {
+        "description": "“Become the sort of storied personage I can brag about havin' met, an' I'll consider us square.”"
+      },
+      "ja": {
+        "description": "「お前さんと出会ったことが俺の自慢になるように\r\n立派な冒険者になっておくれよ！」\r\n気さくな三兄弟：ブレモンダ／ブレモンデ／ブレモンド"
+      },
+      "de": {
+        "description": "„Dass du ein großer Held wirst und ich dann allen erzählen kann, dass wir uns kennen! Na, wie klingt das?“"
+      },
+      "fr": {
+        "description": "“Ah, c'est toi<Indent/>! J'racontais juste à mes frères la fois où des Amalj'aa m'ont sauvé des lames de cuivre. <Switch(PlayerParameter(70))><Case(1)>Dur à croire, je sais, mais c'est la vérité<Indent/>!</Case><Case(2)>Dur à croire, je sais, mais c'est la vérité<Indent/>!</Case><Case(3)>T'étais avec moi, tu t'souviens<Indent/>?</Case></Switch>”\r\n“<Switch(PlayerParameter(70))><Case(1)>Tu peux pas imaginer comme je suis fier de t'avoir rencontré<If(PlayerParameter(4))>e<Else/></If> à tes débuts. Dès l'instant où je t'ai vu<If(PlayerParameter(4))>e<Else/></If>, j'ai tout de suite su que tu étais voué<If(PlayerParameter(4))>e<Else/></If> à un avenir brillant.</Case><Case(2)>Tu as débuté comme un<If(PlayerParameter(4))>e<Else/></If> simple <If(PlayerParameter(4))>aventurière<Else/>aventurier</If>, et maintenant tu es <If(PlayerParameter(4))>l'héroïne<Else/>le héros</If> du peuple. Quel bel exemple de réussite<Indent/>!</Case><Case(3)>Tu as débuté comme un<If(PlayerParameter(4))>e<Else/></If> simple <If(PlayerParameter(4))>aventurière<Else/>aventurier</If>, et maintenant tu es <If(PlayerParameter(4))>l'héroïne<Else/>le héros</If> du peuple. Quel bel exemple de réussite<Indent/>!</Case></Switch>”\r\n“Je suis sûr que l'ère qui arrive sera bénéfique pour le commerce comme pour Éorzéa. Je suis content de t'avoir rencontré<If(PlayerParameter(4))>e<Else/></If>, <Switch(PlayerParameter(70))><Case(1)>tu sais.</Case><Case(2)> tu sais.</Case><Case(3)> et à tes débuts en plus<Indent/>!</Case></Switch>”"
+      },
+      "sellMgp": 500,
+      "plate": 87164,
+      "rarity": 3,
+      "top": 4,
+      "bottom": 6,
+      "left": 5,
+      "right": 7,
+      "rewardFrom": [
+        1016299
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016299",
+      "obj": {
+        "i": 1016299,
+        "n": "Nell Half-full",
+        "l": 1665
+      }
+    }
+  ]
+}

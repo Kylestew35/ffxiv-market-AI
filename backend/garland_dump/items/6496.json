@@ -1,0 +1,74 @@
+{
+  "item": {
+    "name": "Sylphic Lamppost",
+    "description": "A quaint lamppost inspired by sylphic colors and curves.",
+    "id": 6496,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 21780,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 52121,
+    "vendors": [
+      1005569
+    ],
+    "tradeShops": [
+      {
+        "shop": "Sylphic Goldleaf Exchange",
+        "npcs": [
+          1005569
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6496",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21075",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    }
+  ]
+}

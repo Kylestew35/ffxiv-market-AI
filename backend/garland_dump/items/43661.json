@@ -1,0 +1,90 @@
+{
+  "item": {
+    "name": "Tropaios Angle Brush",
+    "jobCategories": "PCT",
+    "id": 43661,
+    "patch": 7.0,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 111,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 1,
+    "jobs": 197,
+    "models": [
+      "2901-24-1-0",
+      "2951-24-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 9,
+      "Magic Damage": 9,
+      "Delay": 2.96
+    },
+    "icon": 37608,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (DoM Weapons)",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43661",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 3000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

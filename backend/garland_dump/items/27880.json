@@ -1,0 +1,322 @@
+{
+  "item": {
+    "name": "Lemonade",
+    "description": "An incomparably refreshing blend of sour lemonette juice and sweet golden honey.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27880,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3785,
+    "ilvl": 430,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 46
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 47
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 28
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 58
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 59
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 35
+        }
+      }
+    },
+    "icon": 24404,
+    "craft": [
+      {
+        "id": 3910,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 4600,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 75,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27835,
+            "amount": 1
+          },
+          {
+            "id": 27842,
+            "amount": 2,
+            "quality": 847.25775
+          },
+          {
+            "id": 27782,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 288,
+          "hq": 308
+        }
+      }
+    ],
+    "quests": [
+      69100,
+      69127,
+      69207,
+      69209
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1498000,
+      "seals": 863
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Lemonette",
+      "id": 27835,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 420,
+      "price": 630,
+      "ventures": [
+        858
+      ],
+      "nodes": [
+        632
+      ]
+    },
+    {
+      "name": "Golden Honey",
+      "id": 27842,
+      "icon": 25102,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3881,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27834,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "leves": [
+        1469,
+        1470,
+        1471
+      ]
+    },
+    {
+      "name": "Gianthive Chip",
+      "id": 27834,
+      "icon": 22611,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "ventures": [
+        813
+      ],
+      "nodes": [
+        615
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "632",
+      "obj": {
+        "i": 632,
+        "n": "Sharptongue Drip",
+        "l": 80,
+        "t": 2,
+        "z": 2954,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27834",
+      "obj": {
+        "i": 27834,
+        "n": "Gianthive Chip",
+        "l": 406,
+        "c": 22611,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "615",
+      "obj": {
+        "i": 615,
+        "n": "Woven Oath",
+        "l": 75,
+        "t": 2,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "27835",
+      "obj": {
+        "i": 27835,
+        "n": "Lemonette",
+        "l": 420,
+        "c": 25305,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27842",
+      "obj": {
+        "i": 27842,
+        "n": "Golden Honey",
+        "l": 403,
+        "c": 25102,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69100",
+      "obj": {
+        "i": 69100,
+        "n": "Simple Gifts",
+        "g": 131,
+        "l": "The Crystarium",
+        "s": 9001
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69127",
+      "obj": {
+        "i": 69127,
+        "n": "Tomorrow Is in Your Fins",
+        "g": 138,
+        "l": "The Tempest",
+        "s": 9270
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69207",
+      "obj": {
+        "i": 69207,
+        "n": "Word about Komra",
+        "g": 27,
+        "l": "Kholusia",
+        "s": 1,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69209",
+      "obj": {
+        "i": 69209,
+        "n": "Shaken Resolve",
+        "g": 9,
+        "l": "The Rising Stones",
+        "s": 10
+      }
+    }
+  ]
+}

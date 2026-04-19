@@ -1,0 +1,101 @@
+{
+  "item": {
+    "name": "Pegasus Whistle",
+    "description": "A small opaline ocarina that, when played, emits a rainbow of sound that summons forth a pegasus.",
+    "mount": {
+      "name": "Pegasus",
+      "action": "Summon forth a pegasus─winged white horse of legend.",
+      "description": "While rumors of a winged horse have graced ancient tomes for centuries, until recently, very little in the way of proof of their existence remained save the random feather or horseshoe housed in some remote monastery's reliquary.",
+      "tooltip": "Sprout wings, I will!<br>   - You",
+      "icon": 4047,
+      "guideIcon": 68047
+    },
+    "id": 13287,
+    "patch": 3.1,
+    "patchCategory": 17,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13287",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 4200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "263-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

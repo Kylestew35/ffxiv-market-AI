@@ -1,0 +1,165 @@
+{
+  "item": {
+    "name": "Lime Green Dye",
+    "description": "A labor-saving green dye, used for coloring anything from cloth to metal.",
+    "id": 5773,
+    "patch": 2.1,
+    "patchCategory": 8,
+    "price": 216,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22810,
+    "instances": [
+      37
+    ],
+    "vendors": [
+      1005569
+    ],
+    "tradeShops": [
+      {
+        "shop": "Sylphic Goldleaf Exchange",
+        "npcs": [
+          1005569
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5773",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21075",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66248,
+      66313,
+      67389,
+      68874,
+      69878,
+      70685
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "37",
+      "obj": {
+        "i": 37,
+        "n": "Sohm Al",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 53,
+        "max_lvl": 54,
+        "min_ilvl": 105
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66248",
+      "obj": {
+        "i": 66248,
+        "n": "Meat of the Matter",
+        "g": 112,
+        "l": "East Shroud",
+        "s": 200
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66313",
+      "obj": {
+        "i": 66313,
+        "n": "The Bear and the Young'uns' Cares",
+        "g": 1,
+        "l": "Southern Thanalan",
+        "s": 145
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67389",
+      "obj": {
+        "i": 67389,
+        "n": "A Rocky Start",
+        "g": 120,
+        "l": "The Churning Mists",
+        "s": 5519
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68874",
+      "obj": {
+        "i": 68874,
+        "n": "The Aftermath",
+        "g": 8,
+        "l": "The Rak'tika Greatwood",
+        "s": 600
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69878",
+      "obj": {
+        "i": 69878,
+        "n": "Ending as One",
+        "g": 146,
+        "l": "Ultima Thule",
+        "s": 9210,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70685",
+      "obj": {
+        "i": 70685,
+        "n": "Gwok Away",
+        "g": 152,
+        "l": "Heritage Found",
+        "s": 6001
+      }
+    }
+  ]
+}

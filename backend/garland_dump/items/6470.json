@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Storm Ceiling Fan & Lamp",
+    "description": "Issued by the Maelstrom, this newfangled contraption provides both light and cooling. Relax in style while displaying your patriotic zeal.",
+    "id": 6470,
+    "patch": 2.1,
+    "patchCategory": 9,
+    "price": 13176,
+    "ilvl": 35,
+    "category": 75,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "icon": 51103,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6470",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 6800
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    }
+  ]
+}

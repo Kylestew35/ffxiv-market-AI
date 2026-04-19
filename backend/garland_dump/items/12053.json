@@ -1,0 +1,104 @@
+{
+  "item": {
+    "name": "Ugly Duckling",
+    "description": "Will he turn into a graceful swan? Inquiring minds want to know.<br><br>Use item to acquire the ugly duckling minion.",
+    "minionrace": "Critter",
+    "tooltip": "Hiss at me, he did;\r\nfierce as goose, he was.\r\n   - Jezul Ahuatan",
+    "minionskilltype": "Damage",
+    "specialactionname": "Miserable Company",
+    "specialactiondescription": "Delivers an attack with a potency of 230 to all enemies within range.",
+    "id": 12053,
+    "patch": 3.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59531,
+    "instances": [
+      33,
+      55001
+    ],
+    "cost": 20,
+    "skill_angle": 30,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 60,
+      "Speed": 3
+    },
+    "models": [
+      "8115-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      16170,
+      33441
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "33",
+      "obj": {
+        "i": 33,
+        "n": "Neverreap",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 145,
+        "max_ilvl": 210
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33441",
+      "obj": {
+        "i": 33441,
+        "n": "Fête Present",
+        "l": 1,
+        "c": 26121,
+        "t": 61
+      }
+    }
+  ]
+}

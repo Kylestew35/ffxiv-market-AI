@@ -1,0 +1,75 @@
+{
+  "item": {
+    "name": "Bullpup",
+    "description": "Runt of the canis pugnaces litter.<br><br>Use item to acquire the bullpup minion.",
+    "minionrace": "Critter",
+    "tooltip": "He may be a pup, but he'll\r\nlikely make a meal of anyone\r\nwhat gets close to him.\r\n   - R'kontai",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Fighting Instinct",
+    "specialactiondescription": "Renders all allies within range immune to attacks by <span class=\"highlight\">monsters</span>.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 17525,
+    "patch": 3.5,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59626,
+    "instances": [
+      48
+    ],
+    "cost": 10,
+    "skill_angle": 360,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 420,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 45,
+      "Speed": 2
+    },
+    "models": [
+      "8201-1-1"
+    ],
+    "treasure": [
+      33441
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Baelsar's Wall",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 230
+      }
+    },
+    {
+      "type": "item",
+      "id": "33441",
+      "obj": {
+        "i": 33441,
+        "n": "Fête Present",
+        "l": 1,
+        "c": 26121,
+        "t": 61
+      }
+    }
+  ]
+}

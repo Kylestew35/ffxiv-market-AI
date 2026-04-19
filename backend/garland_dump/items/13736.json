@@ -1,0 +1,140 @@
+{
+  "item": {
+    "name": "Gem Marimo",
+    "description": "A bright-green variety of aquatic moss found on the bottom of lakes. Slight currents cause the moss to gather and form into a ball as it grows.",
+    "id": 13736,
+    "patch": 3.1,
+    "patchCategory": 7,
+    "price": 1425,
+    "ilvl": 150,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29316,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13736",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13736",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "13637": 1,
+      "13638": 1
+    },
+    "fish": {
+      "spots": [
+        {
+          "spot": 10021,
+          "ff14anglerId": 446,
+          "baits": [
+            [
+              12712
+            ]
+          ]
+        }
+      ]
+    },
+    "fishingSpots": [
+      10021
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "13637",
+      "obj": {
+        "i": 13637,
+        "n": "Max-Potion",
+        "l": 150,
+        "c": 20601,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "13638",
+      "obj": {
+        "i": 13638,
+        "n": "Max-Ether",
+        "l": 150,
+        "c": 20621,
+        "t": 44
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10021",
+      "obj": {
+        "i": 10021,
+        "n": "Calm Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 28,
+        "y": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "12712",
+      "obj": {
+        "i": 12712,
+        "n": "Giant Crane Fly",
+        "l": 180,
+        "c": 27002,
+        "t": 33
+      }
+    }
+  ]
+}

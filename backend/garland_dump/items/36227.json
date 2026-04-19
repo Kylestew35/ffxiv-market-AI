@@ -1,0 +1,793 @@
+{
+  "item": {
+    "name": "Grade 5 Strength Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to strength, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 36227,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 548,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22683,
+    "ingredient_of": {
+      "34405": 1,
+      "34406": 2,
+      "34407": 1,
+      "34408": 2,
+      "34409": 1,
+      "34410": 1,
+      "34411": 2,
+      "34412": 1,
+      "34413": 2,
+      "34414": 1,
+      "34436": 1,
+      "34441": 1,
+      "34446": 1,
+      "34451": 1,
+      "34555": 1,
+      "34556": 2,
+      "34557": 1,
+      "34558": 2,
+      "34559": 1,
+      "34560": 1,
+      "34561": 2,
+      "34562": 1,
+      "34563": 2,
+      "34564": 1,
+      "34586": 1,
+      "34591": 1,
+      "34596": 1,
+      "34601": 1,
+      "34705": 1,
+      "34706": 2,
+      "34707": 1,
+      "34708": 2,
+      "34709": 1,
+      "34710": 1,
+      "34711": 2,
+      "34712": 1,
+      "34713": 2,
+      "34714": 1,
+      "34736": 1,
+      "34741": 1,
+      "34746": 1,
+      "34751": 1,
+      "36109": 1,
+      "37840": 1,
+      "39727": 1
+    },
+    "craft": [
+      {
+        "id": 5328,
+        "job": 14,
+        "rlvl": 525,
+        "durability": 40,
+        "quality": 6200,
+        "progress": 1300,
+        "lvl": 83,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27782,
+            "amount": 2
+          },
+          {
+            "id": 36258,
+            "amount": 1
+          },
+          {
+            "id": 27779,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 100,
+          "hq": 120
+        }
+      }
+    ],
+    "desynthedFrom": [
+      34712,
+      34710
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    },
+    "supply": {
+      "count": 3,
+      "xp": 1801250,
+      "seals": 880
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    },
+    {
+      "name": "Sweet Alyssum",
+      "id": 27779,
+      "icon": 22627,
+      "category": 54,
+      "ilvl": 409,
+      "price": 210,
+      "ventures": [
+        832
+      ],
+      "nodes": [
+        623
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "623",
+      "obj": {
+        "i": 623,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "34405",
+      "obj": {
+        "i": 34405,
+        "n": "Bismuth Headgear of Maiming",
+        "l": 533,
+        "c": 41933,
+        "t": 34,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34406",
+      "obj": {
+        "i": 34406,
+        "n": "Saigaskin Coat of Maiming",
+        "l": 533,
+        "c": 43939,
+        "t": 35,
+        "p": 43713
+      }
+    },
+    {
+      "type": "item",
+      "id": "34407",
+      "obj": {
+        "i": 34407,
+        "n": "Saigaskin Armguards of Maiming",
+        "l": 533,
+        "c": 44956,
+        "t": 37,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34408",
+      "obj": {
+        "i": 34408,
+        "n": "Saigaskin Trousers of Maiming",
+        "l": 533,
+        "c": 47836,
+        "t": 36,
+        "p": 43713
+      }
+    },
+    {
+      "type": "item",
+      "id": "34409",
+      "obj": {
+        "i": 34409,
+        "n": "Saigaskin Boots of Maiming",
+        "l": 533,
+        "c": 47267,
+        "t": 38,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34410",
+      "obj": {
+        "i": 34410,
+        "n": "Snow Linen Cap of Striking",
+        "l": 533,
+        "c": 41935,
+        "t": 34,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34411",
+      "obj": {
+        "i": 34411,
+        "n": "Saigaskin Jacket of Striking",
+        "l": 533,
+        "c": 43941,
+        "t": 35,
+        "p": 43713
+      }
+    },
+    {
+      "type": "item",
+      "id": "34412",
+      "obj": {
+        "i": 34412,
+        "n": "Saigaskin Gloves of Striking",
+        "l": 533,
+        "c": 44958,
+        "t": 37,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34413",
+      "obj": {
+        "i": 34413,
+        "n": "Snow Linen Bottoms of Striking",
+        "l": 533,
+        "c": 47838,
+        "t": 36,
+        "p": 43713
+      }
+    },
+    {
+      "type": "item",
+      "id": "34414",
+      "obj": {
+        "i": 34414,
+        "n": "Saigaskin Shoes of Striking",
+        "l": 533,
+        "c": 49447,
+        "t": 38,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34436",
+      "obj": {
+        "i": 34436,
+        "n": "Phrygian Ear Cuffs of Slaying",
+        "l": 533,
+        "c": 55480,
+        "t": 41,
+        "p": 19867
+      }
+    },
+    {
+      "type": "item",
+      "id": "34441",
+      "obj": {
+        "i": 34441,
+        "n": "Phrygian Choker of Slaying",
+        "l": 533,
+        "c": 55043,
+        "t": 40,
+        "p": 19867
+      }
+    },
+    {
+      "type": "item",
+      "id": "34446",
+      "obj": {
+        "i": 34446,
+        "n": "Bismuth Bracelet of Slaying",
+        "l": 533,
+        "c": 55845,
+        "t": 42,
+        "p": 19867
+      }
+    },
+    {
+      "type": "item",
+      "id": "34451",
+      "obj": {
+        "i": 34451,
+        "n": "Bismuth Ring of Slaying",
+        "l": 533,
+        "c": 54696,
+        "t": 43,
+        "p": 19867
+      }
+    },
+    {
+      "type": "item",
+      "id": "34555",
+      "obj": {
+        "i": 34555,
+        "n": "Manganese Helm of the Behemoth Queen",
+        "l": 539,
+        "c": 41875,
+        "t": 34,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34556",
+      "obj": {
+        "i": 34556,
+        "n": "Manganese Armor of the Behemoth Queen",
+        "l": 539,
+        "c": 42786,
+        "t": 35,
+        "p": 44753
+      }
+    },
+    {
+      "type": "item",
+      "id": "34557",
+      "obj": {
+        "i": 34557,
+        "n": "Manganese Gauntlets of the Behemoth Queen",
+        "l": 539,
+        "c": 44898,
+        "t": 37,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34558",
+      "obj": {
+        "i": 34558,
+        "n": "Kumbhiraskin Cuisses of the Behemoth Queen",
+        "l": 539,
+        "c": 46042,
+        "t": 36,
+        "p": 44753
+      }
+    },
+    {
+      "type": "item",
+      "id": "34559",
+      "obj": {
+        "i": 34559,
+        "n": "Manganese Sabatons of the Behemoth Queen",
+        "l": 539,
+        "c": 49372,
+        "t": 38,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34560",
+      "obj": {
+        "i": 34560,
+        "n": "Manganese Helm of the Rising Dragon",
+        "l": 539,
+        "c": 41872,
+        "t": 34,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34561",
+      "obj": {
+        "i": 34561,
+        "n": "Kumbhiraskin Jacket of the Rising Dragon",
+        "l": 539,
+        "c": 42783,
+        "t": 35,
+        "p": 44753
+      }
+    },
+    {
+      "type": "item",
+      "id": "34562",
+      "obj": {
+        "i": 34562,
+        "n": "Manganese Gloves of the Rising Dragon",
+        "l": 539,
+        "c": 44895,
+        "t": 37,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34563",
+      "obj": {
+        "i": 34563,
+        "n": "Scarlet Moko Gaskins of the Rising Dragon",
+        "l": 539,
+        "c": 46039,
+        "t": 36,
+        "p": 44753
+      }
+    },
+    {
+      "type": "item",
+      "id": "34564",
+      "obj": {
+        "i": 34564,
+        "n": "Manganese Gaiters of the Rising Dragon",
+        "l": 539,
+        "c": 49369,
+        "t": 38,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34586",
+      "obj": {
+        "i": 34586,
+        "n": "Blue Zircon Earrings of Slaying",
+        "l": 539,
+        "c": 55482,
+        "t": 41,
+        "p": 20339
+      }
+    },
+    {
+      "type": "item",
+      "id": "34591",
+      "obj": {
+        "i": 34591,
+        "n": "Ironwood Choker of Slaying",
+        "l": 539,
+        "c": 55045,
+        "t": 40,
+        "p": 20339
+      }
+    },
+    {
+      "type": "item",
+      "id": "34596",
+      "obj": {
+        "i": 34596,
+        "n": "Blue Zircon Bracelet of Slaying",
+        "l": 539,
+        "c": 55847,
+        "t": 42,
+        "p": 20339
+      }
+    },
+    {
+      "type": "item",
+      "id": "34601",
+      "obj": {
+        "i": 34601,
+        "n": "Blue Zircon Ring of Slaying",
+        "l": 539,
+        "c": 54698,
+        "t": 43,
+        "p": 20339
+      }
+    },
+    {
+      "type": "item",
+      "id": "34705",
+      "obj": {
+        "i": 34705,
+        "n": "AR-Caean Velvet Cap of Maiming",
+        "l": 545,
+        "c": 41930,
+        "t": 34,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34706",
+      "obj": {
+        "i": 34706,
+        "n": "Chondrite Top of Maiming",
+        "l": 545,
+        "c": 43932,
+        "t": 35,
+        "p": 45793
+      }
+    },
+    {
+      "type": "item",
+      "id": "34707",
+      "obj": {
+        "i": 34707,
+        "n": "Chondrite Gloves of Maiming",
+        "l": 545,
+        "c": 44949,
+        "t": 37,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34708",
+      "obj": {
+        "i": 34708,
+        "n": "AR-Caean Velvet Bottoms of Maiming",
+        "l": 545,
+        "c": 47832,
+        "t": 36,
+        "p": 45793
+      }
+    },
+    {
+      "type": "item",
+      "id": "34709",
+      "obj": {
+        "i": 34709,
+        "n": "Ophiotauroskin Boots of Maiming",
+        "l": 545,
+        "c": 47262,
+        "t": 38,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34710",
+      "obj": {
+        "i": 34710,
+        "n": "AR-Caean Velvet Hat of Striking",
+        "l": 545,
+        "c": 41926,
+        "t": 34,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34711",
+      "obj": {
+        "i": 34711,
+        "n": "AR-Caean Velvet Top of Striking",
+        "l": 545,
+        "c": 43933,
+        "t": 35,
+        "p": 45793
+      }
+    },
+    {
+      "type": "item",
+      "id": "34712",
+      "obj": {
+        "i": 34712,
+        "n": "Chondrite Gloves of Striking",
+        "l": 545,
+        "c": 44950,
+        "t": 37,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34713",
+      "obj": {
+        "i": 34713,
+        "n": "AR-Caean Velvet Bottoms of Striking",
+        "l": 545,
+        "c": 47833,
+        "t": 36,
+        "p": 45793
+      }
+    },
+    {
+      "type": "item",
+      "id": "34714",
+      "obj": {
+        "i": 34714,
+        "n": "Ophiotauroskin Boots of Striking",
+        "l": 545,
+        "c": 47264,
+        "t": 38,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34736",
+      "obj": {
+        "i": 34736,
+        "n": "Star Quartz Earrings of Slaying",
+        "l": 545,
+        "c": 55484,
+        "t": 41,
+        "p": 20811
+      }
+    },
+    {
+      "type": "item",
+      "id": "34741",
+      "obj": {
+        "i": 34741,
+        "n": "Star Quartz Choker of Slaying",
+        "l": 545,
+        "c": 55047,
+        "t": 40,
+        "p": 20811
+      }
+    },
+    {
+      "type": "item",
+      "id": "34746",
+      "obj": {
+        "i": 34746,
+        "n": "Star Quartz Wristband of Slaying",
+        "l": 545,
+        "c": 55849,
+        "t": 42,
+        "p": 20811
+      }
+    },
+    {
+      "type": "item",
+      "id": "34751",
+      "obj": {
+        "i": 34751,
+        "n": "Star Quartz Ring of Slaying",
+        "l": 545,
+        "c": 54700,
+        "t": 43,
+        "p": 20811
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27779",
+      "obj": {
+        "i": 27779,
+        "n": "Sweet Alyssum",
+        "l": 409,
+        "c": 22627,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36109",
+      "obj": {
+        "i": 36109,
+        "n": "Grade 6 Tincture of Strength",
+        "l": 580,
+        "c": 20710,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "37840",
+      "obj": {
+        "i": 37840,
+        "n": "Grade 7 Tincture of Strength",
+        "l": 610,
+        "c": 20710,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "39727",
+      "obj": {
+        "i": 39727,
+        "n": "Grade 8 Tincture of Strength",
+        "l": 640,
+        "c": 20710,
+        "t": 44
+      }
+    }
+  ]
+}

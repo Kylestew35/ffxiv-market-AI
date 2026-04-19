@@ -1,0 +1,230 @@
+{
+  "item": {
+    "name": "Connoisseur's Ornate Door",
+    "description": "A piece crafted to satisfy the discerning eye of an avid collector. The wind will find no gaps to whistle through with this perfectly fitted portal.",
+    "id": 38758,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 570,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 1,
+    "icon": 50103,
+    "craft": [
+      {
+        "id": 35403,
+        "job": 10,
+        "rlvl": 570,
+        "durability": 60,
+        "quality": 9028,
+        "progress": 3700,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 1,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 38750,
+            "amount": 1
+          },
+          {
+            "id": 36193,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 4
+          },
+          {
+            "id": 17,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 317,
+          "hq": 337
+        }
+      }
+    ],
+    "masterpiece": {
+      "rating": [
+        540,
+        900,
+        0
+      ],
+      "amount": 1,
+      "stars": 1,
+      "lvl": [
+        90,
+        90
+      ],
+      "xp": [
+        1128630,
+        1248132,
+        1354356
+      ],
+      "reward": 33914,
+      "rewardAmount": [
+        39,
+        49,
+        78
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Select Titanium Plate",
+      "id": 38750,
+      "icon": 20961,
+      "category": 49,
+      "ilvl": 570,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Crafters' Scrip Exchange",
+          "npcs": [
+            1045069
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "38750",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ironwood Log",
+      "id": 36193,
+      "icon": 22411,
+      "category": 50,
+      "ilvl": 539,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 97,
+          "type": 1
+        },
+        {
+          "id": 77,
+          "type": 1
+        },
+        {
+          "id": 87,
+          "type": 1
+        },
+        {
+          "id": 85,
+          "type": 1
+        },
+        {
+          "id": 106,
+          "type": 1
+        },
+        {
+          "id": 110,
+          "type": 1
+        }
+      ],
+      "desynthedFrom": [
+        35585
+      ],
+      "ventures": [
+        924
+      ],
+      "nodes": [
+        844
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1045069",
+      "obj": {
+        "i": 1045069,
+        "n": "Quinnana",
+        "l": 2951,
+        "s": 3,
+        "t": "Splendorous Tool Exchange",
+        "r": 1,
+        "a": 3252,
+        "c": [
+          10.44,
+          7.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "844",
+      "obj": {
+        "i": 844,
+        "n": "Southerly Zephyrneus",
+        "l": 90,
+        "t": 2,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "38750",
+      "obj": {
+        "i": 38750,
+        "n": "Select Titanium Plate",
+        "l": 570,
+        "c": 20961,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "36193",
+      "obj": {
+        "i": 36193,
+        "n": "Ironwood Log",
+        "l": 539,
+        "c": 22411,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

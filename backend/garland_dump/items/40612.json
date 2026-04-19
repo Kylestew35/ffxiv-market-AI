@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Athena Card",
+    "description": "A legendary (★★★★★) card used in the game Triple Triad.<br>Card No. 368",
+    "id": 40612,
+    "patch": 6.4,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27666,
+    "instances": [
+      30132,
+      30133,
+      30133,
+      30132
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "Pandæmonium's first chief keyward, Athena used a man named Claudien as a vessel to house her memories, traversing eons and coming within an ilm of godhood. Luckily for the whole star, her ambitions were cut short before they could be realized."
+      },
+      "ja": {
+        "description": "初代パンデモニウム長官、アテナの記憶がクローディエンという「神の原型」を得ることで顕現した超越的存在。魂を自在に生み出す「神」たらんとしたが、あと一歩のところで、冒険者によって野望を阻止された。"
+      },
+      "de": {
+        "description": "Eine Existenz, die sich aus den Erinnerungen der Direktorin des ersten Pandæmoniums und Professor Claudien als geeignete Form manifestierte. Athena wollte sich zur Gottheit emporschwingen und nach Belieben Seelen erschaffen, aber ihre ehrgeizigen Pläne wurden glück<SoftHyphen/>licher<SoftHyphen/>weise vereitelt."
+      },
+      "fr": {
+        "description": "Ancienne directrice du Pandæmonium, Athéna s'est servie du professeur Claudien comme réceptacle de ses souvenirs, ceci afin d'accéder au rang de déesse créatrice. Mais elle fut stoppée par <If(PlayerParameter(4))>la Guerrière<Else/>le Guerrier</If> de la Lumière avant de parvenir à ses fins."
+      },
+      "sellMgp": 1500,
+      "plate": 87388,
+      "rarity": 5,
+      "top": 9,
+      "bottom": "A",
+      "left": 4,
+      "right": 5
+    },
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30132",
+      "obj": {
+        "i": 30132,
+        "n": "Anabaseios: The Twelfth Circle",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 615
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30133",
+      "obj": {
+        "i": 30133,
+        "n": "Anabaseios: The Twelfth Circle (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 640
+      }
+    }
+  ]
+}

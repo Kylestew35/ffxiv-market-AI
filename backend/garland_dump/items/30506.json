@@ -1,0 +1,53 @@
+{
+  "item": {
+    "name": "Handpicked Ingredient Materials",
+    "description": "All the materials required to make the ingredients needed for a feast even the eldest of dragons will sing of.",
+    "id": 30506,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26111,
+    "vendors": [
+      1033785
+    ],
+    "ingredient_of": {
+      "30496": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033785",
+      "obj": {
+        "i": 1033785,
+        "n": "Anna",
+        "l": 3435,
+        "s": 1,
+        "t": "Merchant & Scrip Trader",
+        "a": 3476,
+        "c": [
+          14.25,
+          12.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30496",
+      "obj": {
+        "i": 30496,
+        "n": "Handpicked Culinary Essentials",
+        "l": 403,
+        "c": 24014,
+        "t": 61
+      }
+    }
+  ]
+}

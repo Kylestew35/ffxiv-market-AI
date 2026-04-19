@@ -1,0 +1,110 @@
+{
+  "item": {
+    "name": "Dress-up Estinien",
+    "description": "Sun-dried squid not included.<br><br>Use item to acquire the dress-up Estinien minion.",
+    "minionrace": "Poppet",
+    "tooltip": "I find myself less and less\r\ninclined to sear your squid!\r\n   - Orn Khai",
+    "minionskilltype": "Damage",
+    "specialactionname": "Dragon-seared Squid",
+    "specialactiondescription": "Delivers an attack with a potency of 120 to all enemies within range while increasing action party ATK by 20.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 28625,
+    "patch": 5.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59760,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28625",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 1200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 30,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 420,
+      "Skill Cost": 20,
+      "Attack": 70,
+      "Defense": 40,
+      "Speed": 4
+    },
+    "models": [
+      "8326-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

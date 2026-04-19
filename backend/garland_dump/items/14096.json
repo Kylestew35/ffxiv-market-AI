@@ -1,0 +1,130 @@
+{
+  "item": {
+    "name": "Wind-up Nero tol Scaeva",
+    "description": "Better engineered than the wind-up Cid. In every way. <br><br>Use item to acquire the Nero tol Scaeva minion.",
+    "minionrace": "Poppet",
+    "tooltip": "If it were up to me, I'd\r\nlock him up and throw the\r\nkey into Silvertear Lake.\r\n    - Biggs",
+    "minionskilltype": "Damage",
+    "specialactionname": "Reverse Engineering",
+    "specialactiondescription": "Triggers an enemy trap as if it were your own. If the trap deals physical damage, then potency is increased by 150%.",
+    "id": 14096,
+    "patch": 3.2,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59575,
+    "tradeShops": [
+      {
+        "shop": "Purchase Minions (MGP)",
+        "npcs": [
+          1011595
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14096",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 30000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14096",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 30000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 420,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 60,
+      "Speed": 3
+    },
+    "models": [
+      "8149-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011595",
+      "obj": {
+        "i": 1011595,
+        "n": "Minion Trader",
+        "l": 1484,
+        "s": 2,
+        "r": 1,
+        "a": 1663,
+        "c": [
+          7.77,
+          7.02
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "item": {
+    "name": "Prismatic Heart (Left)",
+    "description": "This peculiar contraption creates illusions by weaving together myriad shades of light. Produces the left side of a heart.",
+    "id": 6996,
+    "patch": 2.1,
+    "patchCategory": 13,
+    "price": 8,
+    "ilvl": 1,
+    "category": 85,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22630,
+    "vendors": [
+      1005608,
+      1005611,
+      1005614,
+      1011748,
+      1011749,
+      1011750,
+      1018723,
+      1018724,
+      1018725,
+      1035159,
+      1040901,
+      1043933,
+      1046160,
+      1052353
+    ],
+    "tradeShops": [
+      {
+        "shop": "Bitter Heart Chocolate",
+        "npcs": [
+          1005607,
+          1005610,
+          1005613
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6996",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "6998",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shop",
+        "npcs": [
+          1025313,
+          1027168,
+          1032099,
+          1054056
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6996",
+                "amount": 15
+              }
+            ],
+            "currency": [
+              {
+                "id": "22403",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "6996",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "24894",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "6996",
+                "amount": 10
+              }
+            ],
+            "currency": [
+              {
+                "id": "28650",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "6996",
+                "amount": 2
+              }
+            ],
+            "currency": [
+              {
+                "id": "47863",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66051,
+      67755,
+      67956,
+      68619,
+      68742,
+      70003
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005608",
+      "obj": {
+        "i": 1005608,
+        "n": "House Valentione Maid",
+        "s": 1,
+        "t": "Purveyor of Love"
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005611",
+      "obj": {
+        "i": 1005611,
+        "n": "House Valentione Maid",
+        "s": 1,
+        "t": "Purveyor of Love"
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005614",
+      "obj": {
+        "i": 1005614,
+        "n": "House Valentione Maid",
+        "s": 1,
+        "t": "Purveyor of Love"
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011748",
+      "obj": {
+        "i": 1011748,
+        "n": "House Valentione Maidservant",
+        "s": 1,
+        "t": "Festival Vendor"
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011749",
+      "obj": {
+        "i": 1011749,
+        "n": "House Valentione Maidservant",
+        "s": 1,
+        "t": "Festival Vendor"
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011750",
+      "obj": {
+        "i": 1011750,
+        "n": "House Valentione Maidservant",
+        "l": 28,
+        "s": 1,
+        "t": "Festival Vendor",
+        "a": 737,
+        "c": [
+          11.75,
+          13.53
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018723",
+      "obj": {
+        "i": 1018723,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018724",
+      "obj": {
+        "i": 1018724,
+        "n": "House Valentione Maid",
+        "l": 28,
+        "s": 1,
+        "a": 737,
+        "c": [
+          11.38,
+          13.69
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018725",
+      "obj": {
+        "i": 1018725,
+        "n": "House Valentione Maid",
+        "l": 40,
+        "s": 1,
+        "a": 640,
+        "c": [
+          10.67,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1035159",
+      "obj": {
+        "i": 1035159,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1040901",
+      "obj": {
+        "i": 1040901,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1043933",
+      "obj": {
+        "i": 1043933,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1046160",
+      "obj": {
+        "i": 1046160,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052353",
+      "obj": {
+        "i": 1052353,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005607",
+      "obj": {
+        "i": 1005607,
+        "n": "House Valentione Butler",
+        "s": 2,
+        "t": "Purveyor of Love",
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005610",
+      "obj": {
+        "i": 1005610,
+        "n": "House Valentione Butler",
+        "s": 2,
+        "t": "Purveyor of Love",
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005613",
+      "obj": {
+        "i": 1005613,
+        "n": "House Valentione Butler",
+        "s": 2,
+        "t": "Purveyor of Love",
+        "r": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "6998",
+      "obj": {
+        "i": 6998,
+        "n": "Bitter Heart Chocolate",
+        "l": 1,
+        "c": 24063,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025313",
+      "obj": {
+        "i": 1025313,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22403",
+      "obj": {
+        "i": 22403,
+        "n": "Old Valentione's Day Chocolate",
+        "l": 1,
+        "c": 24063,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027168",
+      "obj": {
+        "i": 1027168,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "24894",
+      "obj": {
+        "i": 24894,
+        "n": "Expired Valentione's Day Chocolate MMXIX",
+        "l": 1,
+        "c": 24063,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032099",
+      "obj": {
+        "i": 1032099,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28650",
+      "obj": {
+        "i": 28650,
+        "n": "Valentione's Day Chocolate MMXX",
+        "l": 1,
+        "c": 24063,
+        "t": 85
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1054056",
+      "obj": {
+        "i": 1054056,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.68,
+          8.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "47863",
+      "obj": {
+        "i": 47863,
+        "n": "Valentione's Day Chocolate",
+        "l": 1,
+        "c": 24063,
+        "t": 85
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66051",
+      "obj": {
+        "i": 66051,
+        "n": "Love in the Woods",
+        "g": 238,
+        "l": "Gridania",
+        "s": 73
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67755",
+      "obj": {
+        "i": 67755,
+        "n": "The Fault in Our Cards",
+        "g": 238,
+        "l": "Limsa Lominsa",
+        "s": 96,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67956",
+      "obj": {
+        "i": 67956,
+        "n": "The Magic Number",
+        "g": 238,
+        "l": "Gridania",
+        "s": 126,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68619",
+      "obj": {
+        "i": 68619,
+        "n": "In Fortune with the Times",
+        "g": 238,
+        "l": "Gridania",
+        "s": 151,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68742",
+      "obj": {
+        "i": 68742,
+        "n": "From Now until Affinity",
+        "g": 238,
+        "l": "Gridania",
+        "s": 171,
+        "r": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70003",
+      "obj": {
+        "i": 70003,
+        "n": "Better Letters",
+        "g": 238,
+        "l": "Gridania",
+        "s": 212,
+        "r": 1
+      }
+    }
+  ]
+}

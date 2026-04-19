@@ -1,0 +1,152 @@
+{
+  "item": {
+    "name": "Talan's Seal of Botany Mastery",
+    "description": "A document bearing master crafter Talan's personal seal. Can be presented in exchange for unparalleled botanist's equipment.",
+    "id": 10109,
+    "patch": 2.5,
+    "patchCategory": 5,
+    "price": 3564,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26177,
+    "tradeCurrency": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10141",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8445",
+                "amount": 1
+              },
+              {
+                "id": "10109",
+                "amount": 1
+              },
+              {
+                "id": "10124",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Lucis Tools (DoL)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10109",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8031",
+                "amount": 30
+              },
+              {
+                "id": "10121",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8445",
+      "obj": {
+        "i": 8445,
+        "n": "Rauni Supra",
+        "l": 75,
+        "c": 38113,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "10124",
+      "obj": {
+        "i": 10124,
+        "n": "Moonstone",
+        "l": 90,
+        "c": 21273,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10141",
+      "obj": {
+        "i": 10141,
+        "n": "Rauni Lucis",
+        "l": 90,
+        "c": 38114,
+        "t": 30,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "8031",
+      "obj": {
+        "i": 8031,
+        "n": "Redolent Log",
+        "l": 75,
+        "c": 22415,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "10121",
+      "obj": {
+        "i": 10121,
+        "n": "Bamboo Paper",
+        "l": 90,
+        "c": 21005,
+        "t": 50
+      }
+    }
+  ]
+}

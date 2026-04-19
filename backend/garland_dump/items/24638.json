@@ -1,0 +1,94 @@
+{
+  "item": {
+    "name": "Wind-up Redback",
+    "description": "Don't tell mom the Kojin minion's red.<br><br>Use item to acquire the wind-up Redback minion.",
+    "minionrace": "Poppet",
+    "tooltip": "I'm a giant tortoise!\r\nA tortoise!\r\n   - Soroban",
+    "minionskilltype": "Damage",
+    "specialactionname": "Kasaya",
+    "specialactiondescription": "Delivers an attack with a potency of 80 to all enemies within range while reducing DEF by 10%.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 24638,
+    "patch": 4.56,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59723,
+    "tradeShops": [
+      {
+        "shop": "Kojin Sango Exchange",
+        "npcs": [
+          1024219
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24638",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21081",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye",
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 40,
+      "Attack": 40,
+      "Defense": 40,
+      "Speed": 3
+    },
+    "models": [
+      "8239-1-3"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024219",
+      "obj": {
+        "i": 1024219,
+        "n": "Shikitahe",
+        "l": 2409,
+        "s": 1,
+        "t": "Sango Exchange",
+        "r": 1,
+        "a": 2769,
+        "c": [
+          29.36,
+          16.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21081",
+      "obj": {
+        "i": 21081,
+        "n": "Kojin Sango",
+        "l": 1,
+        "c": 65058,
+        "t": 100
+      }
+    }
+  ]
+}

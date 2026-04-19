@@ -1,0 +1,176 @@
+{
+  "item": {
+    "name": "Heart Chocolate",
+    "description": "A heart-shaped morsel of dark chocolate, chock-full of bittersweet memories.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 4738,
+    "patch": 1.0,
+    "patchCategory": 6,
+    "price": 23,
+    "ilvl": 14,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Vitality": {
+          "rate": 8,
+          "limit": 2
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Vitality": {
+          "rate": 10,
+          "limit": 3
+        }
+      }
+    },
+    "icon": 24063,
+    "vendors": [
+      1011748,
+      1011749,
+      1011750,
+      1046160
+    ],
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event",
+        "npcs": [
+          1017613,
+          1017614,
+          1017615
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4738",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "4851",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011748",
+      "obj": {
+        "i": 1011748,
+        "n": "House Valentione Maidservant",
+        "s": 1,
+        "t": "Festival Vendor"
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011749",
+      "obj": {
+        "i": 1011749,
+        "n": "House Valentione Maidservant",
+        "s": 1,
+        "t": "Festival Vendor"
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011750",
+      "obj": {
+        "i": 1011750,
+        "n": "House Valentione Maidservant",
+        "l": 28,
+        "s": 1,
+        "t": "Festival Vendor",
+        "a": 737,
+        "c": [
+          11.75,
+          13.53
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1046160",
+      "obj": {
+        "i": 1046160,
+        "n": "House Valentione Maid",
+        "l": 53,
+        "s": 1,
+        "t": "Purveyor of Love",
+        "a": 580,
+        "c": [
+          10.67,
+          8.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017613",
+      "obj": {
+        "i": 1017613,
+        "n": "Recompense Officer",
+        "l": 53,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017614",
+      "obj": {
+        "i": 1017614,
+        "n": "Recompense Officer",
+        "l": 28,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "11.2",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017615",
+      "obj": {
+        "i": 1017615,
+        "n": "Recompense Officer",
+        "l": 41,
+        "s": 10,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4851",
+      "obj": {
+        "i": 4851,
+        "n": "Powdered Sugar",
+        "l": 5,
+        "c": 25108,
+        "t": 45
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "item": {
+    "name": "Gigantpole",
+    "description": "Yes, it can survive for hours on end without any water, and yes, it can fly. Your argument is invalid.<br><br>Use item to acquire the gigantpole minion.<br><br>[Suitable for printing on medium canvases.]",
+    "minionrace": "Monster",
+    "tooltip": "These toads are huge,\r\nwhich means they have\r\nhuge guts.\r\n  - Hamon",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Huge Guts",
+    "specialactiondescription": "Reduces ATK of all enemies within range by 50%.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "fish": {
+      "guide": "Though able to levitate while in tadpole form, the gigantoad loses this biologically unexplainable characteristic the moment it sprouts legs and gravity remembers its duty. It is, however, all for the better, because really, who wants to encounter a flying gigantoad while traipsing through the wilderness?",
+      "icon": 79317,
+      "spots": [
+        {
+          "spot": 82,
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 186,
+          "baits": [
+            [
+              2624
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 6191,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 29317,
+    "cost": 20,
+    "skill_angle": 30,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 495,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 40,
+      "Speed": 4
+    },
+    "models": [
+      "8023-1-1"
+    ],
+    "fishingSpots": [
+      82
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "82",
+      "obj": {
+        "i": 82,
+        "n": "The Burning Wall",
+        "l": 40,
+        "c": 1,
+        "z": 44,
+        "x": 29.15,
+        "y": 24.7
+      }
+    },
+    {
+      "type": "item",
+      "id": "2624",
+      "obj": {
+        "i": 2624,
+        "n": "Topwater Frog",
+        "l": 44,
+        "c": 27054,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

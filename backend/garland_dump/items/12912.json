@@ -1,0 +1,795 @@
+{
+  "item": {
+    "name": "Celestine",
+    "description": "A light-blue crystalline mineral which, when ground and added to any flammable material, will cause it to burn red.",
+    "id": 12912,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 4739,
+    "ilvl": 133,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21286,
+    "ingredient_of": {
+      "15147": 1,
+      "15526": 1,
+      "15527": 2,
+      "15528": 1,
+      "15531": 1,
+      "15532": 2,
+      "15533": 1,
+      "15960": 1,
+      "15961": 1,
+      "15962": 1,
+      "15963": 1,
+      "10159": 9,
+      "10161": 9,
+      "10165": 9,
+      "10167": 9,
+      "10171": 9,
+      "10172": 9,
+      "10173": 9,
+      "10177": 9,
+      "10178": 9,
+      "10179": 9,
+      "14005": 6,
+      "22528": 9,
+      "22529": 9,
+      "22526": 9,
+      "22527": 9,
+      "23906": 9
+    },
+    "craft": [
+      {
+        "id": 31092,
+        "job": 11,
+        "rlvl": 133,
+        "durability": 80,
+        "quality": 2280,
+        "progress": 340,
+        "lvl": 54,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "unlockId": 7781,
+        "ingredients": [
+          {
+            "id": 12223,
+            "amount": 3,
+            "quality": 147.34694
+          },
+          {
+            "id": 5261,
+            "amount": 9
+          },
+          {
+            "id": 16,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 1165,
+          "hq": 1185
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raw Celestine",
+      "id": 12223,
+      "icon": 21472,
+      "category": 48,
+      "ilvl": 133,
+      "price": 2896,
+      "voyages": [
+        {
+          "id": 7,
+          "type": 0
+        },
+        {
+          "id": 8,
+          "type": 0
+        },
+        {
+          "id": 9,
+          "type": 0
+        },
+        {
+          "id": 12,
+          "type": 1
+        },
+        {
+          "id": 17,
+          "type": 1
+        },
+        {
+          "id": 13,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Aqueous Whetstone",
+      "id": 5261,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 70,
+      "price": 415,
+      "desynthedFrom": [
+        7705,
+        7712,
+        7939,
+        12830
+      ],
+      "treasure": [
+        6691,
+        8156,
+        6692
+      ],
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5261",
+                  "amount": 2
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "8156",
+      "obj": {
+        "i": 8156,
+        "n": "Unhidden Leather Map",
+        "l": 50,
+        "c": 25935,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "15147",
+      "obj": {
+        "i": 15147,
+        "n": "Hat Stand",
+        "l": 136,
+        "c": 52590,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "7781",
+      "obj": {
+        "i": 7781,
+        "n": "Master Goldsmith I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12223",
+      "obj": {
+        "i": 12223,
+        "n": "Raw Celestine",
+        "l": 133,
+        "c": 21472,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5261",
+      "obj": {
+        "i": 5261,
+        "n": "Aqueous Whetstone",
+        "l": 70,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "15526",
+      "obj": {
+        "i": 15526,
+        "n": "Ironworks Earring of Gathering",
+        "l": 190,
+        "c": 55367,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "15527",
+      "obj": {
+        "i": 15527,
+        "n": "Ironworks Armillae of Gathering",
+        "l": 190,
+        "c": 55749,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "15528",
+      "obj": {
+        "i": 15528,
+        "n": "Ironworks Ring of Gathering",
+        "l": 190,
+        "c": 54600,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "15531",
+      "obj": {
+        "i": 15531,
+        "n": "Ironworks Earring of Crafting",
+        "l": 190,
+        "c": 55367,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "15532",
+      "obj": {
+        "i": 15532,
+        "n": "Ironworks Armillae of Crafting",
+        "l": 190,
+        "c": 55749,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "15533",
+      "obj": {
+        "i": 15533,
+        "n": "Ironworks Ring of Crafting",
+        "l": 190,
+        "c": 54600,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "15960",
+      "obj": {
+        "i": 15960,
+        "n": "Invincible II Miniature",
+        "l": 180,
+        "c": 53130,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15961",
+      "obj": {
+        "i": 15961,
+        "n": "Odyssey Miniature",
+        "l": 180,
+        "c": 53131,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15962",
+      "obj": {
+        "i": 15962,
+        "n": "Tatanora Miniature",
+        "l": 180,
+        "c": 53132,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "15963",
+      "obj": {
+        "i": 15963,
+        "n": "Viltgance Miniature",
+        "l": 180,
+        "c": 53133,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "10159",
+      "obj": {
+        "i": 10159,
+        "n": "Invincible II-type Hull",
+        "l": 139,
+        "c": 27704,
+        "t": 90
+      }
+    },
+    {
+      "type": "item",
+      "id": "10161",
+      "obj": {
+        "i": 10161,
+        "n": "Tatanora-type Hull",
+        "l": 150,
+        "c": 27706,
+        "t": 90
+      }
+    },
+    {
+      "type": "item",
+      "id": "10165",
+      "obj": {
+        "i": 10165,
+        "n": "Invincible II-type Propellers",
+        "l": 139,
+        "c": 27724,
+        "t": 91
+      }
+    },
+    {
+      "type": "item",
+      "id": "10167",
+      "obj": {
+        "i": 10167,
+        "n": "Tatanora-type Propellers",
+        "l": 150,
+        "c": 27726,
+        "t": 91
+      }
+    },
+    {
+      "type": "item",
+      "id": "10171",
+      "obj": {
+        "i": 10171,
+        "n": "Invincible II-type Forecastle",
+        "l": 139,
+        "c": 27744,
+        "t": 93
+      }
+    },
+    {
+      "type": "item",
+      "id": "10172",
+      "obj": {
+        "i": 10172,
+        "n": "Odyssey-type Forecastle",
+        "l": 145,
+        "c": 27745,
+        "t": 93
+      }
+    },
+    {
+      "type": "item",
+      "id": "10173",
+      "obj": {
+        "i": 10173,
+        "n": "Tatanora-type Forecastle",
+        "l": 150,
+        "c": 27746,
+        "t": 93
+      }
+    },
+    {
+      "type": "item",
+      "id": "10177",
+      "obj": {
+        "i": 10177,
+        "n": "Invincible II-type Aftcastle",
+        "l": 139,
+        "c": 27764,
+        "t": 92
+      }
+    },
+    {
+      "type": "item",
+      "id": "10178",
+      "obj": {
+        "i": 10178,
+        "n": "Odyssey-type Aftcastle",
+        "l": 145,
+        "c": 27765,
+        "t": 92
+      }
+    },
+    {
+      "type": "item",
+      "id": "10179",
+      "obj": {
+        "i": 10179,
+        "n": "Tatanora-type Aftcastle",
+        "l": 150,
+        "c": 27766,
+        "t": 92
+      }
+    },
+    {
+      "type": "item",
+      "id": "14005",
+      "obj": {
+        "i": 14005,
+        "n": "Viltgance-type Forecastle",
+        "l": 160,
+        "c": 27747,
+        "t": 93
+      }
+    },
+    {
+      "type": "item",
+      "id": "22528",
+      "obj": {
+        "i": 22528,
+        "n": "Whale-class Pressure Hull",
+        "l": 133,
+        "c": 27843,
+        "t": 101
+      }
+    },
+    {
+      "type": "item",
+      "id": "22529",
+      "obj": {
+        "i": 22529,
+        "n": "Whale-class Stern",
+        "l": 133,
+        "c": 27823,
+        "t": 102
+      }
+    },
+    {
+      "type": "item",
+      "id": "22526",
+      "obj": {
+        "i": 22526,
+        "n": "Whale-class Bow",
+        "l": 133,
+        "c": 27783,
+        "t": 103
+      }
+    },
+    {
+      "type": "item",
+      "id": "22527",
+      "obj": {
+        "i": 22527,
+        "n": "Whale-class Bridge",
+        "l": 133,
+        "c": 27803,
+        "t": 104
+      }
+    },
+    {
+      "type": "item",
+      "id": "23906",
+      "obj": {
+        "i": 23906,
+        "n": "Coelacanth-class Stern",
+        "l": 145,
+        "c": 27824,
+        "t": 102
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Grade 3 Thanalan Topsoil",
+    "description": "Grade 3 topsoil obtained in the Thanalan region. Increases the likelihood that plants will intercross with one another.",
+    "id": 7766,
+    "patch": 2.2,
+    "patchCategory": 12,
+    "price": 297,
+    "ilvl": 50,
+    "category": 82,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 27409,
+    "nodes": [
+      241
+    ],
+    "tradeShops": [
+      {
+        "shop": "Uncanny Knickknacks",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7766",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13586",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ventures": [
+      508
+    ],
+    "treasure": [
+      8156
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "241",
+      "obj": {
+        "i": 241,
+        "n": "Hammerlea",
+        "l": 50,
+        "t": 1,
+        "z": 42,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          5
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1015578",
+      "obj": {
+        "i": 1015578,
+        "n": "Bertana",
+        "l": 2082,
+        "s": 6,
+        "t": "Primal Gear Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.86,
+          5.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13586",
+      "obj": {
+        "i": 13586,
+        "n": "Unidentifiable Ore",
+        "l": 1,
+        "c": 21478,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "8156",
+      "obj": {
+        "i": 8156,
+        "n": "Unhidden Leather Map",
+        "l": 50,
+        "c": 25935,
+        "t": 61
+      }
+    }
+  ]
+}

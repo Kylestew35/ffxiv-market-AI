@@ -1,0 +1,103 @@
+{
+  "item": {
+    "name": "Tiny Bulb",
+    "description": "Some questions, such as why this bulb can walk, are best left unanswered.<br><br>Use item to acquire the tiny bulb minion.",
+    "minionrace": "Monster",
+    "tooltip": "Each sapling is another\r\nglimpse into the wonder\r\nof the world around us.\r\n  - Fufucha",
+    "minionskilltype": "Trap",
+    "specialactionname": "Sow",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 260 to all enemies within range.<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 6188,
+    "patch": 2.1,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59423,
+    "cost": 25,
+    "skill_angle": 360,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 25,
+      "Attack": 80,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8020-1-1"
+    ],
+    "instances": [
+      55001
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      6690,
+      16170,
+      36635
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "6690",
+      "obj": {
+        "i": 6690,
+        "n": "Timeworn Toadskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,923 @@
+{
+  "item": {
+    "name": "Linen Chausses",
+    "jobCategories": "All Classes",
+    "id": 3379,
+    "patch": 1.0,
+    "patchCategory": 1,
+    "price": 2058,
+    "ilvl": 33,
+    "category": 36,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 49,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 5597,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 33,
+    "jobs": 1,
+    "models": [
+      "5-70-0-0"
+    ],
+    "attr": {
+      "Defense": 24,
+      "Magic Defense": 49,
+      "Control": 21,
+      "CP": 0,
+      "Craftsmanship": 0
+    },
+    "attr_hq": {
+      "Defense": 30,
+      "Magic Defense": 61,
+      "Control": 24
+    },
+    "attr_max": {
+      "Strength": 7,
+      "Dexterity": 7,
+      "Vitality": 8,
+      "Intelligence": 5,
+      "Mind": 5,
+      "Piety": 7,
+      "GP": 3,
+      "CP": 4,
+      "Tenacity": 10,
+      "Defense": 92,
+      "Direct Hit Rate": 10,
+      "Magic Defense": 92,
+      "Critical Hit": 10,
+      "Fire Resistance": 3,
+      "Ice Resistance": 3,
+      "Wind Resistance": 3,
+      "Earth Resistance": 3,
+      "Lightning Resistance": 3,
+      "Water Resistance": 3,
+      "Determination": 10,
+      "Skill Speed": 10,
+      "Spell Speed": 10,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 5,
+      "Control": 28,
+      "Gathering": 25,
+      "Perception": 12
+    },
+    "icon": 45280,
+    "sharedModels": [
+      957,
+      958,
+      3309,
+      3324,
+      3348,
+      3360,
+      3361,
+      3419,
+      3425,
+      3456,
+      6309,
+      10048,
+      27676,
+      27990,
+      31465
+    ],
+    "vendors": [
+      1002373,
+      1005182,
+      1003261,
+      1003269,
+      1003270,
+      1003262,
+      1004430,
+      1000215,
+      1001203,
+      1001965,
+      1011204,
+      1052589,
+      1052601,
+      1052609,
+      1052610,
+      1052641,
+      1052651
+    ],
+    "craft": [
+      {
+        "id": 592,
+        "job": 13,
+        "rlvl": 33,
+        "durability": 80,
+        "quality": 1000,
+        "progress": 111,
+        "lvl": 33,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5327,
+            "amount": 3,
+            "quality": 125.9542
+          },
+          {
+            "id": 5336,
+            "amount": 1,
+            "quality": 122.137405
+          },
+          {
+            "id": 6,
+            "amount": 4
+          },
+          {
+            "id": 4,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 72,
+          "hq": 92
+        }
+      }
+    ],
+    "requiredByLeves": [
+      417
+    ],
+    "supply": {
+      "count": 1,
+      "xp": 88700,
+      "seals": 253
+    },
+    "downgrades": [
+      3363,
+      3376
+    ],
+    "upgrades": [
+      3404
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Undyed Linen",
+      "id": 5327,
+      "icon": 21605,
+      "category": 51,
+      "ilvl": 33,
+      "price": 411,
+      "craft": [
+        {
+          "id": 590,
+          "job": 13,
+          "rlvl": 33,
+          "durability": 40,
+          "quality": 800,
+          "progress": 55,
+          "lvl": 33,
+          "materialQualityFactor": 50,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5336,
+              "amount": 2,
+              "quality": 200.0
+            },
+            {
+              "id": 6,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 32,
+            "hq": 52
+          }
+        }
+      ],
+      "desynthedFrom": [
+        9766
+      ],
+      "treasure": [
+        6688,
+        6689
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sylphic Goldleaf Exchange",
+          "npcs": [
+            1005569
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5327",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21075",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005569
+      ]
+    },
+    {
+      "name": "Linen Yarn",
+      "id": 5336,
+      "icon": 21659,
+      "category": 51,
+      "ilvl": 32,
+      "price": 186,
+      "craft": [
+        {
+          "id": 587,
+          "job": 13,
+          "rlvl": 32,
+          "durability": 40,
+          "quality": 760,
+          "progress": 55,
+          "lvl": 32,
+          "materialQualityFactor": 0,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5346,
+              "amount": 2
+            },
+            {
+              "id": 6,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 34,
+            "hq": 54
+          }
+        }
+      ],
+      "treasure": [
+        6688,
+        6689,
+        6691
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sylphic Goldleaf Exchange",
+          "npcs": [
+            1005569
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5336",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21075",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005569
+      ]
+    },
+    {
+      "name": "Flax",
+      "id": 5346,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 32,
+      "price": 83,
+      "leves": [
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428
+      ],
+      "ventures": [
+        266
+      ],
+      "nodes": [
+        29
+      ],
+      "seeds": [
+        7741
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "5336",
+      "obj": {
+        "i": 5336,
+        "n": "Linen Yarn",
+        "l": 32,
+        "c": 21659,
+        "t": 51,
+        "p": 186
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5346",
+      "obj": {
+        "i": 5346,
+        "n": "Flax",
+        "l": 32,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 3,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "957",
+      "obj": {
+        "i": 957,
+        "n": "Weathered Chausses",
+        "l": 1,
+        "c": "t/45078",
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "958",
+      "obj": {
+        "i": 958,
+        "n": "Weathered Chausses (Grey)",
+        "l": 1,
+        "c": "t/45219",
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3309",
+      "obj": {
+        "i": 3309,
+        "n": "Hempen Chausses",
+        "l": 5,
+        "c": 45048,
+        "t": 36,
+        "p": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "3324",
+      "obj": {
+        "i": 3324,
+        "n": "Cotton Chausses",
+        "l": 15,
+        "c": 45052,
+        "t": 36,
+        "p": 315
+      }
+    },
+    {
+      "type": "item",
+      "id": "3348",
+      "obj": {
+        "i": 3348,
+        "n": "Velveteen Chausses",
+        "l": 24,
+        "c": 45073,
+        "t": 36,
+        "p": 846
+      }
+    },
+    {
+      "type": "item",
+      "id": "3360",
+      "obj": {
+        "i": 3360,
+        "n": "Storm Private's Chausses",
+        "l": 28,
+        "c": 45256,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3361",
+      "obj": {
+        "i": 3361,
+        "n": "Flame Private's Chausses",
+        "l": 28,
+        "c": 45227,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3419",
+      "obj": {
+        "i": 3419,
+        "n": "Mage's Chausses",
+        "l": 52,
+        "c": 45249,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3425",
+      "obj": {
+        "i": 3425,
+        "n": "Woolen Chausses",
+        "l": 43,
+        "c": 45167,
+        "t": 36,
+        "p": 3204
+      }
+    },
+    {
+      "type": "item",
+      "id": "3456",
+      "obj": {
+        "i": 3456,
+        "n": "Felt Chausses",
+        "l": 48,
+        "c": 45168,
+        "t": 36,
+        "p": 3872
+      }
+    },
+    {
+      "type": "item",
+      "id": "6309",
+      "obj": {
+        "i": 6309,
+        "n": "Demagogue Chausses",
+        "l": 60,
+        "c": 45249,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "10048",
+      "obj": {
+        "i": 10048,
+        "n": "Artisan's Chausses",
+        "l": 70,
+        "c": 45522,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "27676",
+      "obj": {
+        "i": 27676,
+        "n": "Altered Woolen Chausses",
+        "l": 41,
+        "c": 45060,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "27990",
+      "obj": {
+        "i": 27990,
+        "n": "Altered Linen Chausses",
+        "l": 36,
+        "c": 45280,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31465",
+      "obj": {
+        "i": 31465,
+        "n": "Manor Chausses",
+        "l": 30,
+        "c": 47720,
+        "t": 36
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002373",
+      "obj": {
+        "i": 1002373,
+        "n": "Encampment Armorer",
+        "l": 56,
+        "s": 2,
+        "c": [
+          "17.1",
+          "28.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005182",
+      "obj": {
+        "i": 1005182,
+        "n": "Merchant & Mender",
+        "l": 350,
+        "s": 5,
+        "a": 237,
+        "c": [
+          19.46,
+          17.44
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003261",
+      "obj": {
+        "i": 1003261,
+        "n": "Merchant & Mender",
+        "l": 32,
+        "s": 5,
+        "c": [
+          "30.6",
+          "31.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003269",
+      "obj": {
+        "i": 1003269,
+        "n": "Independent Armorer",
+        "l": 34,
+        "s": 2,
+        "c": [
+          "30.6",
+          "23.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003270",
+      "obj": {
+        "i": 1003270,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "c": [
+          "26.1",
+          "26.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003262",
+      "obj": {
+        "i": 1003262,
+        "n": "Merchant & Mender",
+        "l": 32,
+        "s": 5,
+        "c": [
+          "20.7",
+          "20.6"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004430",
+      "obj": {
+        "i": 1004430,
+        "n": "Merchant & Mender",
+        "l": 45,
+        "s": 5,
+        "a": 323,
+        "c": [
+          15.92,
+          29.08
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000215",
+      "obj": {
+        "i": 1000215,
+        "n": "Domitien",
+        "l": 53,
+        "s": 15,
+        "t": "Independent Tailor",
+        "c": [
+          "14.3",
+          "9.8"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001203",
+      "obj": {
+        "i": 1001203,
+        "n": "Iron Thunder",
+        "l": 29,
+        "s": 15,
+        "q": 1,
+        "t": "Battlecraft Supplier",
+        "a": 744,
+        "c": [
+          8.11,
+          11.67
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001965",
+      "obj": {
+        "i": 1001965,
+        "n": "Gwalter",
+        "l": 41,
+        "s": 15,
+        "t": "Battlecraft Armorer",
+        "c": [
+          "13.6",
+          "10.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011204",
+      "obj": {
+        "i": 1011204,
+        "n": "Norlaise",
+        "l": 2301,
+        "s": 19,
+        "q": 1,
+        "t": "Armorer",
+        "a": 2317,
+        "c": [
+          7.17,
+          10.18
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052589",
+      "obj": {
+        "i": 1052589,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.87
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052601",
+      "obj": {
+        "i": 1052601,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.87
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052609",
+      "obj": {
+        "i": 1052609,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.86
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052610",
+      "obj": {
+        "i": 1052610,
+        "n": "Godgyth",
+        "l": 5219,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          21.89,
+          21.86
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052641",
+      "obj": {
+        "i": 1052641,
+        "n": "Godgyth",
+        "l": 5301,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "c": [
+          28.7,
+          13.46
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052651",
+      "obj": {
+        "i": 1052651,
+        "n": "Godgyth",
+        "l": 5406,
+        "s": 36,
+        "t": "Merchant & Mender",
+        "a": 5420,
+        "c": [
+          17.45,
+          24.59
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5327",
+      "obj": {
+        "i": 5327,
+        "n": "Undyed Linen",
+        "l": 33,
+        "c": 21605,
+        "t": 51,
+        "p": 411
+      }
+    },
+    {
+      "type": "leve",
+      "id": "417",
+      "obj": {
+        "i": 417,
+        "n": "By the Seat of the Pants",
+        "l": 30,
+        "j": 14,
+        "p": 206
+      }
+    },
+    {
+      "type": "item",
+      "id": "3363",
+      "obj": {
+        "i": 3363,
+        "n": "Velveteen Bottoms",
+        "l": 28,
+        "c": 45155,
+        "t": 36,
+        "p": 1557
+      }
+    },
+    {
+      "type": "item",
+      "id": "3376",
+      "obj": {
+        "i": 3376,
+        "n": "Flame Private's Sarouel",
+        "l": 32,
+        "c": 45229,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3404",
+      "obj": {
+        "i": 3404,
+        "n": "Linen Bottoms",
+        "l": 38,
+        "c": 45310,
+        "t": 36,
+        "p": 2971
+      }
+    }
+  ]
+}

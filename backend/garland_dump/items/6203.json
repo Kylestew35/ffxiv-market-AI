@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Bite-sized Pudding",
+    "description": "Though seemingly delicious, this spoonful of slime is not intended for consumption.<br><br>Use item to acquire the bite-sized pudding minion.",
+    "minionrace": "Monster",
+    "tooltip": "A talking...pudding?\r\n  - You",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Silly Pudding",
+    "specialactiondescription": "Renders the action party immune to all attacks by <span class=\"highlight\">poppets</span>.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 6203,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59437,
+    "instances": [
+      10
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8035-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "10",
+      "obj": {
+        "i": 10,
+        "n": "The Wanderer's Palace",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

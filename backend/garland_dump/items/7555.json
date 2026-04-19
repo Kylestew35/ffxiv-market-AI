@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Bomb Palanquin Horn",
+    "description": "This horn of bone emits a deep tone that summons a bevy of bombs who will bear you in comfort upon a hovering palanquin.",
+    "mount": {
+      "name": "Bomb Palanquin",
+      "action": "Summon forth a bevy of bombs who will bear you in comfort upon a hovering palanquin.",
+      "description": "Upon learning that his creations were forever lacking the power to combust, 789th Order Acolyte Ba Go did what any master of explosives would─attach the bombs to the corners of an iron bench and create a floating coach.",
+      "tooltip": "Hack and slash and<br>tossy-boom. Bang and<br>boom and slashy-doom.♪<br>  - Goblin Diddy",
+      "icon": 4015,
+      "guideIcon": 68015
+    },
+    "id": 7555,
+    "patch": 2.2,
+    "patchCategory": 17,
+    "price": 120000,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "vendors": [
+      1008909
+    ],
+    "tradeShops": [
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7555",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "193-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    }
+  ]
+}

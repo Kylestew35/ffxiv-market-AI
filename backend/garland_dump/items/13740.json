@@ -1,0 +1,137 @@
+{
+  "item": {
+    "name": "Goldsmith Crab",
+    "description": "A tiny freshwater crustacean native to the Diadem.",
+    "id": 13740,
+    "patch": 3.1,
+    "patchCategory": 7,
+    "price": 1425,
+    "ilvl": 150,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29420,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13740",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13740",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fish": {
+      "spots": [
+        {
+          "spot": 10017,
+          "ff14anglerId": 450,
+          "baits": [
+            [
+              12707
+            ]
+          ]
+        },
+        {
+          "spot": 10018,
+          "ff14anglerId": 450,
+          "baits": [
+            [
+              12707
+            ]
+          ]
+        }
+      ]
+    },
+    "fishingSpots": [
+      10017,
+      10018
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10017",
+      "obj": {
+        "i": 10017,
+        "n": "Diadem Grotto",
+        "l": 70,
+        "c": 1,
+        "z": 1647,
+        "x": 14,
+        "y": 34
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10018",
+      "obj": {
+        "i": 10018,
+        "n": "Southern Diadem Lake",
+        "l": 1,
+        "c": 1,
+        "z": 1647,
+        "x": 8,
+        "y": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "12707",
+      "obj": {
+        "i": 12707,
+        "n": "Bladed Steel Jig",
+        "l": 150,
+        "c": 27070,
+        "t": 33
+      }
+    }
+  ]
+}

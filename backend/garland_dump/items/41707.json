@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Standard Rationing Manual",
+    "description": "Literature outlining basic cooking and rationing techniques.<br><br>Increases meal effect duration.<br><span class=\"highlight-green\">Duration Increase:</span> +15m  <span class=\"highlight-green\">Duration:</span> 120m<br>Overwrites company actions with similar effects.",
+    "id": 41707,
+    "patch": 6.51,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 50,
+    "category": 63,
+    "dyecount": 0,
+    "sell_price": 100,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26186,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1046441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41707",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41629",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1046441",
+      "obj": {
+        "i": 1046441,
+        "n": "MGF Trader",
+        "l": 4468,
+        "s": 1,
+        "t": "Prize Claim",
+        "r": 1,
+        "c": [
+          3.85,
+          3.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41629",
+      "obj": {
+        "i": 41629,
+        "n": "MGF",
+        "l": 1,
+        "c": "t/65106",
+        "t": 100
+      }
+    }
+  ]
+}

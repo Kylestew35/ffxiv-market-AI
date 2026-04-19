@@ -1,0 +1,593 @@
+{
+  "item": {
+    "name": "Gripgel",
+    "description": "A particularly strong adhesive created by the serendipitous combination of unknown substances.",
+    "id": 39595,
+    "patch": 6.3,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 620,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22695,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39595",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 250
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Loporrit Carat Exchange",
+        "npcs": [
+          1044404
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39595",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38952",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39595",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 250
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "38890": 3,
+      "38891": 3,
+      "38892": 3,
+      "38893": 3,
+      "38894": 3,
+      "38895": 3,
+      "38896": 3,
+      "38897": 3,
+      "38898": 3,
+      "38899": 3,
+      "38900": 3,
+      "38901": 3,
+      "38902": 3,
+      "38903": 3,
+      "38904": 3,
+      "38905": 3,
+      "38906": 3,
+      "38907": 3,
+      "38908": 3,
+      "38909": 3,
+      "38910": 3,
+      "38911": 3,
+      "38912": 4,
+      "38913": 3,
+      "38914": 4,
+      "38915": 3,
+      "38916": 3,
+      "38917": 4,
+      "38918": 3,
+      "38919": 4,
+      "38920": 3,
+      "38921": 2,
+      "38922": 2,
+      "38923": 2,
+      "38924": 2,
+      "38925": 2,
+      "38926": 2,
+      "38927": 2,
+      "38928": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1044404",
+      "obj": {
+        "i": 1044404,
+        "n": "Coiningway",
+        "l": 3711,
+        "s": 4,
+        "t": "Dreaming Vendor",
+        "r": 1,
+        "a": 4290,
+        "c": [
+          17.43,
+          15.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38952",
+      "obj": {
+        "i": 38952,
+        "n": "Loporrit Carat",
+        "l": 1,
+        "c": "t/65100",
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "38890",
+      "obj": {
+        "i": 38890,
+        "n": "Indagator's Saw",
+        "l": 620,
+        "c": 39001,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "38891",
+      "obj": {
+        "i": 38891,
+        "n": "Indagator's Cross-pein Hammer",
+        "l": 620,
+        "c": 39100,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "38892",
+      "obj": {
+        "i": 38892,
+        "n": "Indagator's Raising Hammer",
+        "l": 620,
+        "c": 39200,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "38893",
+      "obj": {
+        "i": 38893,
+        "n": "Indagator's Lapidary Hammer",
+        "l": 620,
+        "c": 35349,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "38894",
+      "obj": {
+        "i": 38894,
+        "n": "Indagator's Knife",
+        "l": 620,
+        "c": 39400,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "38895",
+      "obj": {
+        "i": 38895,
+        "n": "Indagator's Needle",
+        "l": 620,
+        "c": 39500,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "38896",
+      "obj": {
+        "i": 38896,
+        "n": "Indagator's Alembic",
+        "l": 620,
+        "c": 35649,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "38897",
+      "obj": {
+        "i": 38897,
+        "n": "Indagator's Frypan",
+        "l": 620,
+        "c": 39702,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "38898",
+      "obj": {
+        "i": 38898,
+        "n": "Indagator's Pickaxe",
+        "l": 620,
+        "c": 38302,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "38899",
+      "obj": {
+        "i": 38899,
+        "n": "Indagator's Hatchet",
+        "l": 620,
+        "c": 38400,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "38900",
+      "obj": {
+        "i": 38900,
+        "n": "Indagator's Fishing Rod",
+        "l": 620,
+        "c": 38503,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "38901",
+      "obj": {
+        "i": 38901,
+        "n": "Indagator's Claw Hammer",
+        "l": 620,
+        "c": 35068,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "38902",
+      "obj": {
+        "i": 38902,
+        "n": "Indagator's File",
+        "l": 620,
+        "c": 35165,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "38903",
+      "obj": {
+        "i": 38903,
+        "n": "Indagator's Pliers",
+        "l": 620,
+        "c": 35265,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "38904",
+      "obj": {
+        "i": 38904,
+        "n": "Indagator's Grinding Wheel",
+        "l": 620,
+        "c": 35365,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "38905",
+      "obj": {
+        "i": 38905,
+        "n": "Indagator's Awl",
+        "l": 620,
+        "c": 35460,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "38906",
+      "obj": {
+        "i": 38906,
+        "n": "Indagator's Spinning Wheel",
+        "l": 620,
+        "c": 35566,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "38907",
+      "obj": {
+        "i": 38907,
+        "n": "Indagator's Mortar",
+        "l": 620,
+        "c": 35665,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "38908",
+      "obj": {
+        "i": 38908,
+        "n": "Indagator's Culinary Knife",
+        "l": 620,
+        "c": 35765,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "38909",
+      "obj": {
+        "i": 38909,
+        "n": "Indagator's Sledgehammer",
+        "l": 620,
+        "c": 38065,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "38910",
+      "obj": {
+        "i": 38910,
+        "n": "Indagator's Garden Scythe",
+        "l": 620,
+        "c": 38165,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "38911",
+      "obj": {
+        "i": 38911,
+        "n": "Indagator's Goggles of Crafting",
+        "l": 620,
+        "c": 56546,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "38912",
+      "obj": {
+        "i": 38912,
+        "n": "Indagator's Coat of Crafting",
+        "l": 620,
+        "c": 42927,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38913",
+      "obj": {
+        "i": 38913,
+        "n": "Indagator's Gloves of Crafting",
+        "l": 620,
+        "c": 56066,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "38914",
+      "obj": {
+        "i": 38914,
+        "n": "Indagator's Trousers of Crafting",
+        "l": 620,
+        "c": 47958,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38915",
+      "obj": {
+        "i": 38915,
+        "n": "Indagator's Boots of Crafting",
+        "l": 620,
+        "c": 49553,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "38916",
+      "obj": {
+        "i": 38916,
+        "n": "Indagator's Helmet of Gathering",
+        "l": 620,
+        "c": 56545,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "38917",
+      "obj": {
+        "i": 38917,
+        "n": "Indagator's Doublet Vest of Gathering",
+        "l": 620,
+        "c": 42926,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38918",
+      "obj": {
+        "i": 38918,
+        "n": "Indagator's Armguards of Gathering",
+        "l": 620,
+        "c": 56065,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "38919",
+      "obj": {
+        "i": 38919,
+        "n": "Indagator's Bottoms of Gathering",
+        "l": 620,
+        "c": 47957,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38920",
+      "obj": {
+        "i": 38920,
+        "n": "Indagator's Shoes of Gathering",
+        "l": 620,
+        "c": 49552,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "38921",
+      "obj": {
+        "i": 38921,
+        "n": "Indagator's Earrings of Crafting",
+        "l": 620,
+        "c": 55505,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "38922",
+      "obj": {
+        "i": 38922,
+        "n": "Indagator's Necklace of Crafting",
+        "l": 620,
+        "c": 55064,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "38923",
+      "obj": {
+        "i": 38923,
+        "n": "Indagator's Bracelet of Crafting",
+        "l": 620,
+        "c": 55865,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "38924",
+      "obj": {
+        "i": 38924,
+        "n": "Indagator's Ring of Crafting",
+        "l": 620,
+        "c": 54716,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "38925",
+      "obj": {
+        "i": 38925,
+        "n": "Indagator's Earrings of Gathering",
+        "l": 620,
+        "c": 55504,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "38926",
+      "obj": {
+        "i": 38926,
+        "n": "Indagator's Necklace of Gathering",
+        "l": 620,
+        "c": 55063,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "38927",
+      "obj": {
+        "i": 38927,
+        "n": "Indagator's Bracelet of Gathering",
+        "l": 620,
+        "c": 55864,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "38928",
+      "obj": {
+        "i": 38928,
+        "n": "Indagator's Ring of Gathering",
+        "l": 620,
+        "c": 54715,
+        "t": 43
+      }
+    }
+  ]
+}

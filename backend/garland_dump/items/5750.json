@@ -1,0 +1,124 @@
+{
+  "item": {
+    "name": "Cork Brown Dye",
+    "description": "A labor-saving brown dye, used for coloring anything from cloth to metal.",
+    "id": 5750,
+    "patch": 2.2,
+    "patchCategory": 8,
+    "price": 334,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22809,
+    "vendors": [
+      1008909
+    ],
+    "tradeShops": [
+      {
+        "shop": "Titan Cobaltpiece Exchange",
+        "npcs": [
+          1008909
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5750",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21078",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      66883,
+      67343,
+      69058,
+      70051
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66883",
+      "obj": {
+        "i": 66883,
+        "n": "The Mother of Exiles",
+        "g": 2,
+        "l": "Western Thanalan",
+        "s": 22
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67343",
+      "obj": {
+        "i": 67343,
+        "n": "Something Worth Protecting",
+        "g": 118,
+        "l": "The Dravanian Forelands",
+        "s": 5310
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69058",
+      "obj": {
+        "i": 69058,
+        "n": "Children of the Derelicts",
+        "g": 132,
+        "l": "Eulmore",
+        "s": 7260
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70051",
+      "obj": {
+        "i": 70051,
+        "n": "Methods of Mourning",
+        "g": 145,
+        "l": "Elpis",
+        "s": 6195
+      }
+    }
+  ]
+}

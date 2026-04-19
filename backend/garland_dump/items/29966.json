@@ -1,0 +1,503 @@
+{
+  "item": {
+    "name": "Grade 3 Intelligence Alkahest",
+    "description": "When applied to items such as battle gear, this experimental alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to intelligence, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 29966,
+    "patch": 5.2,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 480,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 32,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22679,
+    "ingredient_of": {
+      "29413": 2,
+      "29414": 2,
+      "29418": 2,
+      "29458": 2,
+      "29459": 2,
+      "29460": 2,
+      "29461": 2,
+      "29462": 2,
+      "29468": 1,
+      "29473": 1,
+      "29478": 1,
+      "29483": 1
+    },
+    "craft": [
+      {
+        "id": 33905,
+        "job": 14,
+        "rlvl": 480,
+        "durability": 35,
+        "quality": 6375,
+        "progress": 2240,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29490,
+        "ingredients": [
+          {
+            "id": 29978,
+            "amount": 3
+          },
+          {
+            "id": 28718,
+            "amount": 1
+          },
+          {
+            "id": 27780,
+            "amount": 1
+          },
+          {
+            "id": 27812,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 403,
+          "hq": 423
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Imperial Fern",
+      "id": 29978,
+      "icon": 25038,
+      "category": 54,
+      "ilvl": 480,
+      "price": 3154,
+      "ventures": [
+        869
+      ],
+      "nodes": [
+        684
+      ]
+    },
+    {
+      "name": "Sublime Solution",
+      "id": 28718,
+      "icon": 22669,
+      "category": 54,
+      "ilvl": 450,
+      "price": 2523,
+      "desynthedFrom": [
+        29382,
+        26916,
+        26915,
+        29399,
+        29367,
+        26923,
+        32628,
+        26929,
+        32592,
+        28252,
+        26928,
+        33508
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28718",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28718",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fernleaf Lavender",
+      "id": 27780,
+      "icon": 25002,
+      "category": 54,
+      "ilvl": 412,
+      "price": 210,
+      "ventures": [
+        833
+      ],
+      "nodes": [
+        623
+      ]
+    },
+    {
+      "name": "Scuroglow Aethersand",
+      "id": 27812,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 409,
+      "price": 599,
+      "reducedFrom": [
+        27809,
+        27806,
+        27543
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27812",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27812",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "684",
+      "obj": {
+        "i": 684,
+        "n": "White Oil Falls",
+        "l": 80,
+        "t": 3,
+        "z": 2954,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "623",
+      "obj": {
+        "i": 623,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27809",
+      "obj": {
+        "i": 27809,
+        "n": "Sweet Marjoram",
+        "l": 409,
+        "c": 25015,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27806",
+      "obj": {
+        "i": 27806,
+        "n": "Solarite",
+        "l": 409,
+        "c": 21467,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27543",
+      "obj": {
+        "i": 27543,
+        "n": "Poecilia",
+        "l": 406,
+        "c": 28442,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29413",
+      "obj": {
+        "i": 29413,
+        "n": "Neo-Ishgardian Rod",
+        "l": 480,
+        "c": 33136,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "29414",
+      "obj": {
+        "i": 29414,
+        "n": "Neo-Ishgardian Grimoire",
+        "l": 480,
+        "c": 33320,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "29418",
+      "obj": {
+        "i": 29418,
+        "n": "Neo-Ishgardian Foil",
+        "l": 480,
+        "c": 36800,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "29458",
+      "obj": {
+        "i": 29458,
+        "n": "Neo-Ishgardian Hat of Casting",
+        "l": 480,
+        "c": 41493,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "29459",
+      "obj": {
+        "i": 29459,
+        "n": "Neo-Ishgardian Top of Casting",
+        "l": 480,
+        "c": 43510,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "29460",
+      "obj": {
+        "i": 29460,
+        "n": "Neo-Ishgardian Gloves of Casting",
+        "l": 480,
+        "c": 48814,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "29461",
+      "obj": {
+        "i": 29461,
+        "n": "Neo-Ishgardian Bottoms of Casting",
+        "l": 480,
+        "c": 47283,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "29462",
+      "obj": {
+        "i": 29462,
+        "n": "Neo-Ishgardian Boots of Casting",
+        "l": 480,
+        "c": 49232,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29468",
+      "obj": {
+        "i": 29468,
+        "n": "Neo-Ishgardian Earring of Casting",
+        "l": 480,
+        "c": 55455,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "29473",
+      "obj": {
+        "i": 29473,
+        "n": "Neo-Ishgardian Choker of Casting",
+        "l": 480,
+        "c": 55021,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "29478",
+      "obj": {
+        "i": 29478,
+        "n": "Neo-Ishgardian Wristbands of Casting",
+        "l": 480,
+        "c": 55824,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "29483",
+      "obj": {
+        "i": 29483,
+        "n": "Neo-Ishgardian Ring of Casting",
+        "l": 480,
+        "c": 54673,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "29490",
+      "obj": {
+        "i": 29490,
+        "n": "Master Alchemist VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29978",
+      "obj": {
+        "i": 29978,
+        "n": "Imperial Fern",
+        "l": 480,
+        "c": 25038,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "28718",
+      "obj": {
+        "i": 28718,
+        "n": "Sublime Solution",
+        "l": 450,
+        "c": 22669,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27780",
+      "obj": {
+        "i": 27780,
+        "n": "Fernleaf Lavender",
+        "l": 412,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27812",
+      "obj": {
+        "i": 27812,
+        "n": "Scuroglow Aethersand",
+        "l": 409,
+        "c": 21233,
+        "t": 54
+      }
+    }
+  ]
+}

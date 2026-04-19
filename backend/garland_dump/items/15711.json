@@ -1,0 +1,162 @@
+{
+  "item": {
+    "name": "Augmented Fieldkeep's Shirt",
+    "jobCategories": "BTN",
+    "id": 15711,
+    "patch": 3.3,
+    "patchCategory": 2,
+    "price": 98010,
+    "ilvl": 200,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 60,
+    "jobs": 18,
+    "models": [
+      "218-1-0-0"
+    ],
+    "attr": {
+      "Defense": 107,
+      "Magic Defense": 214,
+      "Gathering": 167,
+      "Perception": 88,
+      "GP": 5,
+      "Vitality": 25
+    },
+    "icon": 42435,
+    "sharedModels": [
+      10276
+    ],
+    "tradeShops": [
+      {
+        "shop": "Fieldcraft Keep Gear Augmentation",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15711",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10276",
+                "amount": 1
+              },
+              {
+                "id": "14105",
+                "amount": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Fieldcraft Keep Gear (IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15711",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 60/IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15711",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10276",
+      "obj": {
+        "i": 10276,
+        "n": "Fieldkeep's Shirt",
+        "l": 180,
+        "c": 42435,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14105",
+      "obj": {
+        "i": 14105,
+        "n": "Goblin Dice",
+        "l": 1,
+        "c": 26253,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

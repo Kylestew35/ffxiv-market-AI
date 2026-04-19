@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Portable Pool",
+    "description": "A peculiar rubber enclosure that can be filled with water for purposes of mild entertainment.",
+    "id": 27318,
+    "patch": 5.0,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 76,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52275,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1031465
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27318",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27993",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031465",
+      "obj": {
+        "i": 1031465,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "r": 1,
+        "a": 167,
+        "c": [
+          36.26,
+          26.82
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27993",
+      "obj": {
+        "i": 27993,
+        "n": "Faire Voucher MMXIX",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "item": {
+    "name": "King Crab Cake",
+    "description": "Tender spiny king crab meat fills this crispy fried pastry which is topped with a spoonful of creamy herb-filled sauce.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36041,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 530,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 59
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 64
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 74
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 80
+        }
+      }
+    },
+    "icon": 24329,
+    "craft": [
+      {
+        "id": 5256,
+        "job": 15,
+        "rlvl": 525,
+        "durability": 80,
+        "quality": 6200,
+        "progress": 2600,
+        "lvl": 83,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36523,
+            "amount": 1
+          },
+          {
+            "id": 27841,
+            "amount": 1,
+            "quality": 595.47186
+          },
+          {
+            "id": 27851,
+            "amount": 1
+          },
+          {
+            "id": 36079,
+            "amount": 1,
+            "quality": 775.7388
+          },
+          {
+            "id": 12878,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 336,
+          "hq": 356
+        }
+      }
+    ],
+    "quests": [
+      69761,
+      69775,
+      70037,
+      70041
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1801250,
+      "seals": 880
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Spiny King Crab",
+      "id": 36523,
+      "icon": 28053,
+      "category": 47,
+      "ilvl": 510,
+      "price": 99999,
+      "ventures": [
+        952
+      ],
+      "nodes": [
+        889
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Lorikeet Egg",
+      "id": 27851,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 400,
+      "price": 2302,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027665
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27851",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        778
+      ]
+    },
+    {
+      "name": "Perilla Oil",
+      "id": 36079,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5284,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36085,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thavnairian Perilla Leaf",
+      "id": 36085,
+      "icon": 25036,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        916
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Cyclops Onion",
+      "id": 12878,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        548
+      ],
+      "nodes": [
+        297
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "889",
+      "obj": {
+        "i": 889,
+        "n": "Southern Akyaali",
+        "l": 85,
+        "t": 5,
+        "z": 3709
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36085",
+      "obj": {
+        "i": 36085,
+        "n": "Thavnairian Perilla Leaf",
+        "l": 525,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "36523",
+      "obj": {
+        "i": 36523,
+        "n": "Spiny King Crab",
+        "l": 510,
+        "c": 28053,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27851",
+      "obj": {
+        "i": 27851,
+        "n": "Lorikeet Egg",
+        "l": 400,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36079",
+      "obj": {
+        "i": 36079,
+        "n": "Perilla Oil",
+        "l": 525,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12878",
+      "obj": {
+        "i": 12878,
+        "n": "Cyclops Onion",
+        "l": 130,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69761",
+      "obj": {
+        "i": 69761,
+        "n": "And Then a Hero Comes Along",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1601
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69775",
+      "obj": {
+        "i": 69775,
+        "n": "In the Skies above Garlemald",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1740
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70037",
+      "obj": {
+        "i": 70037,
+        "n": "Energy for All",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1580
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70041",
+      "obj": {
+        "i": 70041,
+        "n": "Mum Is the Word",
+        "g": 143,
+        "l": "Garlemald",
+        "s": 1748
+      }
+    }
+  ]
+}

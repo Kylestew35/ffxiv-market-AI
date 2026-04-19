@@ -1,0 +1,101 @@
+{
+  "item": {
+    "name": "Antelope Doe Horn",
+    "description": "A small and slender horn that, when blown, will bring your antelope doe springing to your side.",
+    "mount": {
+      "name": "Antelope Doe",
+      "action": "Summon forth your antelope doe, a female creature identifiable by the bluish tinge of its fur.",
+      "description": "Denizens of grasslands, antelopes once ranged as far as Coerthas before the Calamity buried the region in snow. Though coveted for their meat and milk, the creatures have eluded full domestication owing to their ornery temperament.",
+      "tooltip": "Another day on the hunt,<br>and naught but antelope<br>meat to show for it.<br>   - Isarmoix",
+      "icon": 4197,
+      "guideIcon": 68197
+    },
+    "id": 33674,
+    "patch": 5.5,
+    "patchCategory": 17,
+    "price": 33334,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33674",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 8400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "623-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

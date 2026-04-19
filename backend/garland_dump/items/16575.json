@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Continental Eye",
+    "description": "I see you. You see me.<br><br>Use item to acquire the Continental eye minion.",
+    "minionrace": "Monster",
+    "tooltip": "The business of which I\r\nspeak involves keeping\r\nan eye on that troublesome\r\ntroupe of entertainers.\r\n   - Godriquelain",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Single Gaze",
+    "specialactiondescription": "Removes all beneficial effects from all enemies within range.",
+    "id": 16575,
+    "patch": 3.4,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59625,
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1017844
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16575",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "16778",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 45,
+      "Defense": 40,
+      "Speed": 3
+    },
+    "models": [
+      "8029-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017844",
+      "obj": {
+        "i": 1017844,
+        "n": "Alluring Peddler",
+        "l": 53,
+        "s": 1,
+        "t": "Continental Circus Vendor",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.31,
+          9.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "16778",
+      "obj": {
+        "i": 16778,
+        "n": "Stale Pumpkin Cookie MMXVI",
+        "l": 1,
+        "c": 24067,
+        "t": 85
+      }
+    }
+  ]
+}

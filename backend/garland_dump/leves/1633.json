@@ -1,0 +1,363 @@
+{
+  "leve": {
+    "name": "Liquid Competence",
+    "description": "The entrance examinations are just around the corner, and with them comes a healthy dose of terror. What will my dear old mother think of me if I fail my tests <span class=\"emphasis\">again</span>... Please, there must be some manner of alchemical solution that can transmute cowardice into competence!",
+    "id": 1633,
+    "patch": 6.0,
+    "client": "Aspiring Studium Pupil, Benger",
+    "lvl": 84,
+    "jobCategory": 15,
+    "levemete": 1037264,
+    "areaid": 3706,
+    "xp": 1086090,
+    "gil": 4960,
+    "rewards": 797,
+    "plate": 80033,
+    "frame": 80005,
+    "areaicon": 110135,
+    "requires": [
+      {
+        "item": 36114,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 450,
+      "hq": 465
+    }
+  },
+  "rewards": {
+    "id": 797,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 88
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 88
+      },
+      {
+        "item": 36257,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 108
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 108
+      },
+      {
+        "item": 36259,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Competent Craftsman's Draught",
+      "id": 36114,
+      "icon": 20716,
+      "category": 44,
+      "ilvl": 527,
+      "price": 11828,
+      "craft": [
+        {
+          "id": 5293,
+          "job": 14,
+          "rlvl": 535,
+          "durability": 80,
+          "quality": 6700,
+          "progress": 3000,
+          "lvl": 85,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27782,
+              "amount": 2
+            },
+            {
+              "id": 36258,
+              "amount": 2
+            },
+            {
+              "id": 27779,
+              "amount": 2
+            },
+            {
+              "id": 19853,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            },
+            {
+              "id": 12,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 172,
+            "hq": 192
+          }
+        }
+      ],
+      "treasure": [
+        36611
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    },
+    {
+      "name": "Sweet Alyssum",
+      "id": 27779,
+      "icon": 22627,
+      "category": 54,
+      "ilvl": 409,
+      "price": 210,
+      "ventures": [
+        832
+      ],
+      "nodes": [
+        623
+      ]
+    },
+    {
+      "name": "Kudzu Root",
+      "id": 19853,
+      "icon": 25005,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        691
+      ],
+      "nodes": [
+        509
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "623",
+      "obj": {
+        "i": 623,
+        "n": "The Wild Fete",
+        "l": 80,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "509",
+      "obj": {
+        "i": 509,
+        "n": "Dimwold",
+        "l": 65,
+        "t": 3,
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27779",
+      "obj": {
+        "i": 27779,
+        "n": "Sweet Alyssum",
+        "l": 409,
+        "c": 22627,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1633",
+      "obj": {
+        "i": 1633,
+        "n": "Liquid Competence",
+        "l": 84,
+        "j": 15,
+        "p": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36611",
+      "obj": {
+        "i": 36611,
+        "n": "Timeworn Saigaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037264",
+      "obj": {
+        "i": 1037264,
+        "n": "Ahldiyrn",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36257",
+      "obj": {
+        "i": 36257,
+        "n": "Mousse Flesh",
+        "l": 533,
+        "c": 25156,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36259",
+      "obj": {
+        "i": 36259,
+        "n": "Dynamite Ash",
+        "l": 533,
+        "c": 21001,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36114",
+      "obj": {
+        "i": 36114,
+        "n": "Competent Craftsman's Draught",
+        "l": 527,
+        "c": 20716,
+        "t": 44
+      }
+    }
+  ]
+}

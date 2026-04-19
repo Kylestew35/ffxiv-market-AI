@@ -1,0 +1,119 @@
+{
+  "item": {
+    "name": "Nigari",
+    "description": "A coagulant naturally found in seawater, commonly used in the Far East to make tofu.",
+    "id": 19847,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 514,
+    "ilvl": 260,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22606,
+    "vendors": [
+      1018984,
+      1019333
+    ],
+    "ingredient_of": {
+      "19842": 1,
+      "19904": 1
+    },
+    "leves": [
+      1313,
+      1315,
+      1478
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19842",
+      "obj": {
+        "i": 19842,
+        "n": "Firm Tofu",
+        "l": 273,
+        "c": 25059,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19904",
+      "obj": {
+        "i": 19904,
+        "n": "Growth Formula Eta",
+        "l": 260,
+        "c": 22663,
+        "t": 54,
+        "p": 3843
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1313",
+      "obj": {
+        "i": 1313,
+        "n": "Whinier than the Sword",
+        "l": 60,
+        "j": 15,
+        "p": 2404
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1315",
+      "obj": {
+        "i": 1315,
+        "n": "Magic Beans",
+        "l": 60,
+        "j": 15,
+        "p": 2404
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1478",
+      "obj": {
+        "i": 1478,
+        "n": "Another Man's Ink",
+        "l": 70,
+        "j": 15,
+        "p": 2951
+      }
+    }
+  ]
+}

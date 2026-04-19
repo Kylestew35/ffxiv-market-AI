@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Hellhound Scythe",
+    "jobCategories": "RPR",
+    "id": 35755,
+    "patch": 6.0,
+    "patchCategory": 0,
+    "price": 171,
+    "ilvl": 1,
+    "category": 108,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 1,
+    "jobs": 180,
+    "models": [
+      "2802-9-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 9,
+      "Magic Damage": 5,
+      "Delay": 3.2
+    },
+    "icon": 37208,
+    "sharedModels": [
+      40474
+    ],
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35755",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21067",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Wolf Collar Exchange",
+        "npcs": [
+          1024213
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35755",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21067",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "コメンデーションクリスタルの取引",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40474",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35755",
+                "amount": 1
+              },
+              {
+                "id": "40479",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "40474",
+      "obj": {
+        "i": 40474,
+        "n": "Augmented Hellhound Scythe",
+        "l": 1,
+        "c": 37208,
+        "t": 108
+      }
+    },
+    {
+      "type": "item",
+      "id": "21067",
+      "obj": {
+        "i": 21067,
+        "n": "Wolf Collar",
+        "l": 1,
+        "c": 26517,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024213",
+      "obj": {
+        "i": 1024213,
+        "n": "Collar Quartermaster",
+        "l": 358,
+        "s": 1,
+        "t": "Wolf Collar Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "40479",
+      "obj": {
+        "i": 40479,
+        "n": "Commendation Crystal",
+        "l": 1,
+        "c": 26640,
+        "t": 61
+      }
+    }
+  ]
+}

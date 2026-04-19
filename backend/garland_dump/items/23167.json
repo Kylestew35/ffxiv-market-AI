@@ -1,0 +1,251 @@
+{
+  "item": {
+    "name": "Super-Potion",
+    "description": "This concentrated concoction instantly restores a significant amount of HP.",
+    "id": 23167,
+    "patch": 4.3,
+    "patchCategory": 4,
+    "price": 3532,
+    "ilvl": 290,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 56,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "HP": {
+          "rate": 20,
+          "limit": 2880
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "HP": {
+          "rate": 25,
+          "limit": 3600
+        }
+      }
+    },
+    "icon": 20604,
+    "craft": [
+      {
+        "id": 3761,
+        "job": 14,
+        "rlvl": 290,
+        "durability": 80,
+        "quality": 3600,
+        "progress": 1080,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 19912,
+            "amount": 1
+          },
+          {
+            "id": 19913,
+            "amount": 1
+          },
+          {
+            "id": 19853,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 6
+          },
+          {
+            "id": 12,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 100,
+          "hq": 120
+        }
+      }
+    ],
+    "quests": [
+      68552
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Alyssum",
+      "id": 19912,
+      "icon": 22627,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        702
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Nagxian Cudweed",
+      "id": 19913,
+      "icon": 25028,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        703
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Kudzu Root",
+      "id": 19853,
+      "icon": 25005,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        691
+      ],
+      "nodes": [
+        509
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "509",
+      "obj": {
+        "i": 509,
+        "n": "Dimwold",
+        "l": 65,
+        "t": 3,
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19912",
+      "obj": {
+        "i": 19912,
+        "n": "Alyssum",
+        "l": 285,
+        "c": 22627,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19913",
+      "obj": {
+        "i": 19913,
+        "n": "Nagxian Cudweed",
+        "l": 285,
+        "c": 25028,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68552",
+      "obj": {
+        "i": 68552,
+        "n": "Tortoise in Time",
+        "g": 25,
+        "l": "The Ruby Sea",
+        "s": 311,
+        "f": 1
+      }
+    }
+  ]
+}

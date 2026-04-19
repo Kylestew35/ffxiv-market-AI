@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Bombfish",
+    "description": "He will give you an offer that can't be defused.<br><br>Use item to acquire the bombfish minion.",
+    "minionrace": "Monster",
+    "tooltip": "Won't get nowhere up its\r\ncrack, yunz won't, not with\r\nthat piddly bomb.\r\n   - 13th Order Alchemist Ga Zi",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Inflate",
+    "specialactiondescription": "Increases DEF of all allies within range by 20.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 20529,
+    "patch": 4.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59645,
+    "instances": [
+      50,
+      50
+    ],
+    "cost": 10,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 470,
+      "Skill Cost": 20,
+      "Attack": 25,
+      "Defense": 30,
+      "Speed": 2
+    },
+    "models": [
+      "8218-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      36636,
+      41667
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "50",
+      "obj": {
+        "i": 50,
+        "n": "Shisui of the Violet Tides",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 63,
+        "max_lvl": 64,
+        "min_ilvl": 245
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41667",
+      "obj": {
+        "i": 41667,
+        "n": "Sanctuary Materiel Container",
+        "l": 1,
+        "c": 21002,
+        "t": 61
+      }
+    }
+  ]
+}

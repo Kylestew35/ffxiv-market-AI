@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Coffin Lid",
+    "description": "Pried from the lid of a coffin, this plank of ancient wood is cold to the touch.",
+    "id": 13058,
+    "patch": 3.1,
+    "patchCategory": 5,
+    "price": 17107,
+    "ilvl": 180,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22512,
+    "instances": [
+      30029,
+      30038,
+      30029,
+      30038
+    ],
+    "ingredient_of": {
+      "13076": 1
+    },
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30029",
+      "obj": {
+        "i": 30029,
+        "n": "The Void Ark",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 175
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30038",
+      "obj": {
+        "i": 30038,
+        "n": "The Weeping City of Mhach",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 205
+      }
+    },
+    {
+      "type": "item",
+      "id": "13076",
+      "obj": {
+        "i": 13076,
+        "n": "Mhachi Coffin",
+        "l": 180,
+        "c": 52579,
+        "t": 57
+      }
+    }
+  ]
+}

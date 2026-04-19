@@ -1,0 +1,219 @@
+{
+  "item": {
+    "name": "Augmented Radiant's Chakrams",
+    "jobCategories": "DNC",
+    "id": 35186,
+    "patch": 6.05,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 600,
+    "category": 107,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1895,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 150,
+    "models": [
+      "2601-44-1-0",
+      "2651-44-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 119,
+      "Magic Damage": 60,
+      "Delay": 3.12,
+      "Dexterity": 296,
+      "Vitality": 310,
+      "Determination": 266,
+      "Critical Hit": 186
+    },
+    "attr_max": {
+      "Strength": 296,
+      "Intelligence": 207,
+      "Mind": 207,
+      "Piety": 186,
+      "GP": 9,
+      "CP": 7,
+      "Tenacity": 266,
+      "Direct Hit Rate": 266,
+      "Critical Hit": 266,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Skill Speed": 266,
+      "Spell Speed": 266,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 1351,
+      "Control": 718,
+      "Gathering": 1360,
+      "Perception": 777
+    },
+    "icon": 36258,
+    "sharedModels": [
+      35111
+    ],
+    "tradeShops": [
+      {
+        "shop": "Radiant's Gear Augmentation (DoW) II",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35186",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35111",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Radiant's Gear (DoW, IL 600)",
+        "npcs": [
+          1037059,
+          1037312
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35186",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 140
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "35111",
+      "obj": {
+        "i": 35111,
+        "n": "Radiant's Chakrams",
+        "l": 590,
+        "c": 36258,
+        "t": 107
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037059",
+      "obj": {
+        "i": 1037059,
+        "n": "J'lakshai",
+        "l": 3706,
+        "s": 5,
+        "q": 3,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          11.96,
+          13.3
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037312",
+      "obj": {
+        "i": 1037312,
+        "n": "Wilmetta",
+        "l": 3707,
+        "s": 5,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3874,
+        "c": [
+          10.53,
+          7.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

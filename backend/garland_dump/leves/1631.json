@@ -1,0 +1,829 @@
+{
+  "leve": {
+    "name": "Body over Mind",
+    "description": "I'm hoping to join the Studium's fine arts department, but the more I try to refine my aesthetic sense, the more I can feel it slipping away. Perhaps a strict physical regimen would help focus my mind? An alchemical supplement to enhance my agility, and thus aid me in training mental acuity.",
+    "id": 1631,
+    "patch": 6.0,
+    "client": "Aspiring Studium Pupil, Benger",
+    "lvl": 82,
+    "jobCategory": 15,
+    "levemete": 1037264,
+    "areaid": 3706,
+    "xp": 846040,
+    "gil": 2460,
+    "rewards": 794,
+    "plate": 80033,
+    "frame": 80005,
+    "areaicon": 110135,
+    "requires": [
+      {
+        "item": 36228,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 720,
+      "hq": 765
+    }
+  },
+  "rewards": {
+    "id": 794,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 38
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 38
+      },
+      {
+        "item": 36162,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 45
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 45
+      },
+      {
+        "item": 36258,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Grade 5 Dexterity Alkahest",
+      "id": 36228,
+      "icon": 22682,
+      "category": 54,
+      "ilvl": 548,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5329,
+          "job": 14,
+          "rlvl": 525,
+          "durability": 40,
+          "quality": 6200,
+          "progress": 1300,
+          "lvl": 83,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27782,
+              "amount": 2
+            },
+            {
+              "id": 36258,
+              "amount": 1
+            },
+            {
+              "id": 27785,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 100,
+            "hq": 120
+          }
+        }
+      ],
+      "desynthedFrom": [
+        34715
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Lunatender Blossom",
+      "id": 36258,
+      "icon": 22694,
+      "category": 54,
+      "ilvl": 530,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36258",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1630,
+        1631
+      ],
+      "ventures": [
+        941
+      ]
+    },
+    {
+      "name": "Light Gerbera",
+      "id": 27785,
+      "icon": 25008,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        838
+      ],
+      "nodes": [
+        648
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "34415",
+      "obj": {
+        "i": 34415,
+        "n": "Saigaskin Cap of Aiming",
+        "l": 533,
+        "c": 41938,
+        "t": 34,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34416",
+      "obj": {
+        "i": 34416,
+        "n": "Saigaskin Jacket of Aiming",
+        "l": 533,
+        "c": 43942,
+        "t": 35,
+        "p": 43713
+      }
+    },
+    {
+      "type": "item",
+      "id": "34417",
+      "obj": {
+        "i": 34417,
+        "n": "Saigaskin Gloves of Aiming",
+        "l": 533,
+        "c": 44959,
+        "t": 37,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34418",
+      "obj": {
+        "i": 34418,
+        "n": "Snow Linen Bottoms of Aiming",
+        "l": 533,
+        "c": 47839,
+        "t": 36,
+        "p": 43713
+      }
+    },
+    {
+      "type": "item",
+      "id": "34419",
+      "obj": {
+        "i": 34419,
+        "n": "Saigaskin Shoes of Aiming",
+        "l": 533,
+        "c": 49448,
+        "t": 38,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34420",
+      "obj": {
+        "i": 34420,
+        "n": "Snow Linen Cap of Scouting",
+        "l": 533,
+        "c": 41936,
+        "t": 34,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34421",
+      "obj": {
+        "i": 34421,
+        "n": "Saigaskin Jacket of Scouting",
+        "l": 533,
+        "c": 43943,
+        "t": 35,
+        "p": 43713
+      }
+    },
+    {
+      "type": "item",
+      "id": "34422",
+      "obj": {
+        "i": 34422,
+        "n": "Saigaskin Armguards of Scouting",
+        "l": 533,
+        "c": 44961,
+        "t": 37,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34423",
+      "obj": {
+        "i": 34423,
+        "n": "Snow Linen Sarouel of Scouting",
+        "l": 533,
+        "c": 47841,
+        "t": 36,
+        "p": 43713
+      }
+    },
+    {
+      "type": "item",
+      "id": "34424",
+      "obj": {
+        "i": 34424,
+        "n": "Saigaskin Shoes of Scouting",
+        "l": 533,
+        "c": 47269,
+        "t": 38,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "34437",
+      "obj": {
+        "i": 34437,
+        "n": "Phrygian Ear Cuffs of Aiming",
+        "l": 533,
+        "c": 55480,
+        "t": 41,
+        "p": 19867
+      }
+    },
+    {
+      "type": "item",
+      "id": "34442",
+      "obj": {
+        "i": 34442,
+        "n": "Phrygian Choker of Aiming",
+        "l": 533,
+        "c": 55043,
+        "t": 40,
+        "p": 19867
+      }
+    },
+    {
+      "type": "item",
+      "id": "34447",
+      "obj": {
+        "i": 34447,
+        "n": "Bismuth Bracelet of Aiming",
+        "l": 533,
+        "c": 55845,
+        "t": 42,
+        "p": 19867
+      }
+    },
+    {
+      "type": "item",
+      "id": "34452",
+      "obj": {
+        "i": 34452,
+        "n": "Bismuth Ring of Aiming",
+        "l": 533,
+        "c": 54696,
+        "t": 43,
+        "p": 19867
+      }
+    },
+    {
+      "type": "item",
+      "id": "34565",
+      "obj": {
+        "i": 34565,
+        "n": "Manganese Horn of the Last Unicorn",
+        "l": 539,
+        "c": 41876,
+        "t": 34,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34566",
+      "obj": {
+        "i": 34566,
+        "n": "Scarlet Moko Robe of the Last Unicorn",
+        "l": 539,
+        "c": 42787,
+        "t": 35,
+        "p": 44753
+      }
+    },
+    {
+      "type": "item",
+      "id": "34567",
+      "obj": {
+        "i": 34567,
+        "n": "Kumbhiraskin Armguards of the Last Unicorn",
+        "l": 539,
+        "c": 44899,
+        "t": 37,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34568",
+      "obj": {
+        "i": 34568,
+        "n": "Scarlet Moko Longkilt of the Last Unicorn",
+        "l": 539,
+        "c": 46043,
+        "t": 36,
+        "p": 44753
+      }
+    },
+    {
+      "type": "item",
+      "id": "34569",
+      "obj": {
+        "i": 34569,
+        "n": "Kumbhiraskin Leg Guards of the Last Unicorn",
+        "l": 539,
+        "c": 49373,
+        "t": 38,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34570",
+      "obj": {
+        "i": 34570,
+        "n": "Manganese Helm of the Falling Dragon",
+        "l": 539,
+        "c": 41873,
+        "t": 34,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34571",
+      "obj": {
+        "i": 34571,
+        "n": "Kumbhiraskin Jacket of the Falling Dragon",
+        "l": 539,
+        "c": 42784,
+        "t": 35,
+        "p": 44753
+      }
+    },
+    {
+      "type": "item",
+      "id": "34572",
+      "obj": {
+        "i": 34572,
+        "n": "Manganese Gloves of the Falling Dragon",
+        "l": 539,
+        "c": 44896,
+        "t": 37,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34573",
+      "obj": {
+        "i": 34573,
+        "n": "Scarlet Moko Gaskins of the Falling Dragon",
+        "l": 539,
+        "c": 46040,
+        "t": 36,
+        "p": 44753
+      }
+    },
+    {
+      "type": "item",
+      "id": "34574",
+      "obj": {
+        "i": 34574,
+        "n": "Manganese Gaiters of the Falling Dragon",
+        "l": 539,
+        "c": 49370,
+        "t": 38,
+        "p": 26844
+      }
+    },
+    {
+      "type": "item",
+      "id": "34587",
+      "obj": {
+        "i": 34587,
+        "n": "Blue Zircon Earrings of Aiming",
+        "l": 539,
+        "c": 55482,
+        "t": 41,
+        "p": 20339
+      }
+    },
+    {
+      "type": "item",
+      "id": "34592",
+      "obj": {
+        "i": 34592,
+        "n": "Ironwood Choker of Aiming",
+        "l": 539,
+        "c": 55045,
+        "t": 40,
+        "p": 20339
+      }
+    },
+    {
+      "type": "item",
+      "id": "34597",
+      "obj": {
+        "i": 34597,
+        "n": "Blue Zircon Bracelet of Aiming",
+        "l": 539,
+        "c": 55847,
+        "t": 42,
+        "p": 20339
+      }
+    },
+    {
+      "type": "item",
+      "id": "34602",
+      "obj": {
+        "i": 34602,
+        "n": "Blue Zircon Ring of Aiming",
+        "l": 539,
+        "c": 54698,
+        "t": 43,
+        "p": 20339
+      }
+    },
+    {
+      "type": "item",
+      "id": "34715",
+      "obj": {
+        "i": 34715,
+        "n": "AR-Caean Velvet Cap of Aiming",
+        "l": 545,
+        "c": 41931,
+        "t": 34,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34716",
+      "obj": {
+        "i": 34716,
+        "n": "Ophiotauroskin Top of Aiming",
+        "l": 545,
+        "c": 43934,
+        "t": 35,
+        "p": 45793
+      }
+    },
+    {
+      "type": "item",
+      "id": "34717",
+      "obj": {
+        "i": 34717,
+        "n": "Chondrite Gloves of Aiming",
+        "l": 545,
+        "c": 44951,
+        "t": 37,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34718",
+      "obj": {
+        "i": 34718,
+        "n": "AR-Caean Velvet Bottoms of Aiming",
+        "l": 545,
+        "c": 47834,
+        "t": 36,
+        "p": 45793
+      }
+    },
+    {
+      "type": "item",
+      "id": "34719",
+      "obj": {
+        "i": 34719,
+        "n": "Ophiotauroskin Boots of Aiming",
+        "l": 545,
+        "c": 47265,
+        "t": 38,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34720",
+      "obj": {
+        "i": 34720,
+        "n": "AR-Caean Velvet Hat of Scouting",
+        "l": 545,
+        "c": 41927,
+        "t": 34,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34721",
+      "obj": {
+        "i": 34721,
+        "n": "Ophiotauroskin Top of Scouting",
+        "l": 545,
+        "c": 43936,
+        "t": 35,
+        "p": 45793
+      }
+    },
+    {
+      "type": "item",
+      "id": "34722",
+      "obj": {
+        "i": 34722,
+        "n": "Chondrite Gloves of Scouting",
+        "l": 545,
+        "c": 44954,
+        "t": 37,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34723",
+      "obj": {
+        "i": 34723,
+        "n": "AR-Caean Velvet Bottoms of Scouting",
+        "l": 545,
+        "c": 47830,
+        "t": 36,
+        "p": 45793
+      }
+    },
+    {
+      "type": "item",
+      "id": "34724",
+      "obj": {
+        "i": 34724,
+        "n": "Chondrite Sollerets of Scouting",
+        "l": 545,
+        "c": 47260,
+        "t": 38,
+        "p": 27466
+      }
+    },
+    {
+      "type": "item",
+      "id": "34737",
+      "obj": {
+        "i": 34737,
+        "n": "Star Quartz Earrings of Aiming",
+        "l": 545,
+        "c": 55484,
+        "t": 41,
+        "p": 20811
+      }
+    },
+    {
+      "type": "item",
+      "id": "34742",
+      "obj": {
+        "i": 34742,
+        "n": "Star Quartz Choker of Aiming",
+        "l": 545,
+        "c": 55047,
+        "t": 40,
+        "p": 20811
+      }
+    },
+    {
+      "type": "item",
+      "id": "34747",
+      "obj": {
+        "i": 34747,
+        "n": "Star Quartz Wristband of Aiming",
+        "l": 545,
+        "c": 55849,
+        "t": 42,
+        "p": 20811
+      }
+    },
+    {
+      "type": "item",
+      "id": "34752",
+      "obj": {
+        "i": 34752,
+        "n": "Star Quartz Ring of Aiming",
+        "l": 545,
+        "c": 54700,
+        "t": 43,
+        "p": 20811
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36258",
+      "obj": {
+        "i": 36258,
+        "n": "Lunatender Blossom",
+        "l": 530,
+        "c": 22694,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27785",
+      "obj": {
+        "i": 27785,
+        "n": "Light Gerbera",
+        "l": 418,
+        "c": 25008,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36110",
+      "obj": {
+        "i": 36110,
+        "n": "Grade 6 Tincture of Dexterity",
+        "l": 580,
+        "c": 20709,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "37841",
+      "obj": {
+        "i": 37841,
+        "n": "Grade 7 Tincture of Dexterity",
+        "l": 610,
+        "c": 20709,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "39728",
+      "obj": {
+        "i": 39728,
+        "n": "Grade 8 Tincture of Dexterity",
+        "l": 640,
+        "c": 20709,
+        "t": 44
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1631",
+      "obj": {
+        "i": 1631,
+        "n": "Body over Mind",
+        "l": 82,
+        "j": 15,
+        "p": 3706
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037264",
+      "obj": {
+        "i": 1037264,
+        "n": "Ahldiyrn",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36162",
+      "obj": {
+        "i": 36162,
+        "n": "High Durium Sand",
+        "l": 515,
+        "c": 21242,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36228",
+      "obj": {
+        "i": 36228,
+        "n": "Grade 5 Dexterity Alkahest",
+        "l": 548,
+        "c": 22682,
+        "t": 54
+      }
+    }
+  ]
+}

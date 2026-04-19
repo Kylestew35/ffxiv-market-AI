@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Mudpie",
+    "description": "At last, portable filth.<br><br>Use item to acquire the mudpie minion.",
+    "minionrace": "Monster",
+    "tooltip": "I was almost certain you'd\r\nwant to muddy the waters.\r\n   - Jessie",
+    "minionskilltype": "Damage",
+    "specialactionname": "Muddy Waters",
+    "specialactiondescription": "Delivers an attack with a potency of 60 to all enemies within range while reducing movement speed by 70%.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 23998,
+    "patch": 4.4,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59712,
+    "instances": [
+      62,
+      62
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 380,
+      "Skill Cost": 30,
+      "Attack": 40,
+      "Defense": 50,
+      "Speed": 2
+    },
+    "models": [
+      "8282-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      31357,
+      33797
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "item",
+      "id": "31357",
+      "obj": {
+        "i": 31357,
+        "n": "Southern Front Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33797",
+      "obj": {
+        "i": 33797,
+        "n": "Zadnor Lockbox",
+        "l": 1,
+        "c": 25997,
+        "t": 61
+      }
+    }
+  ]
+}

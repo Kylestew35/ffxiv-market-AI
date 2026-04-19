@@ -1,0 +1,439 @@
+{
+  "item": {
+    "name": "Iron Dwarf",
+    "description": "He prefers the term “little iron person.”<br><br>Use item to acquire the iron dwarf minion.",
+    "minionrace": "Monster",
+    "tooltip": "But if ye've got iron\r\nin yer veins...speak up.\r\n   - Randwulf",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Fist of Iron",
+    "specialactiondescription": "Increases action party ATK by 60.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 12058,
+    "patch": 3.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59536,
+    "craft": [
+      {
+        "id": 31043,
+        "job": 10,
+        "rlvl": 160,
+        "durability": 70,
+        "quality": 2800,
+        "progress": 330,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "craftsmanshipReq": 620,
+        "unlockId": 12246,
+        "ingredients": [
+          {
+            "id": 13003,
+            "amount": 3
+          },
+          {
+            "id": 12651,
+            "amount": 5
+          },
+          {
+            "id": 5104,
+            "amount": 2
+          },
+          {
+            "id": 7775,
+            "amount": 1
+          },
+          {
+            "id": 12937,
+            "amount": 1
+          },
+          {
+            "id": 3,
+            "amount": 99
+          }
+        ],
+        "complexity": {
+          "nq": 1964,
+          "hq": 1984
+        }
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 360,
+      "Skill Cost": 20,
+      "Attack": 35,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8114-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Iron Giant Core",
+      "id": 13003,
+      "icon": 21274,
+      "category": 56,
+      "ilvl": 160,
+      "price": 15206,
+      "voyages": [
+        {
+          "id": 7,
+          "type": 0
+        },
+        {
+          "id": 13,
+          "type": 0
+        },
+        {
+          "id": 17,
+          "type": 0
+        },
+        {
+          "id": 18,
+          "type": 0
+        },
+        {
+          "id": 19,
+          "type": 0
+        },
+        {
+          "id": 21,
+          "type": 0
+        }
+      ]
+    },
+    {
+      "name": "Iron Giant Scrap",
+      "id": 12651,
+      "icon": 20806,
+      "category": 56,
+      "ilvl": 160,
+      "price": 15206,
+      "ventures": [
+        412
+      ]
+    },
+    {
+      "name": "Garlean Steel Joint",
+      "id": 5104,
+      "icon": 20967,
+      "category": 49,
+      "ilvl": 70,
+      "price": 2910,
+      "drops": [
+        2010000001826,
+        24630000002310,
+        18790000000269,
+        18830000002116,
+        22550000002089,
+        2000000000269,
+        21360000001509,
+        2010000001820,
+        19660000002089,
+        2010000003179,
+        2010000001814,
+        36740000003357,
+        2010000003545
+      ]
+    },
+    {
+      "name": "Glazenut",
+      "id": 7775,
+      "icon": 25315,
+      "category": 54,
+      "ilvl": 90,
+      "price": 427,
+      "seeds": [
+        7756
+      ]
+    },
+    {
+      "name": "Dawnborne Aethersand",
+      "id": 12937,
+      "icon": 22648,
+      "category": 54,
+      "ilvl": 150,
+      "price": 950,
+      "reducedFrom": [
+        12966,
+        12967,
+        12969,
+        33149
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "mob",
+      "id": "2000000000269",
+      "obj": {
+        "i": 2000000000269,
+        "n": "Magitek Vanguard",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "18790000000269",
+      "obj": {
+        "i": 18790000000269,
+        "n": "Magitek Vanguard",
+        "l": "50",
+        "z": 260
+      }
+    },
+    {
+      "type": "mob",
+      "id": "21360000001509",
+      "obj": {
+        "i": 21360000001509,
+        "n": "Vanguard Prototype",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "2010000001814",
+      "obj": {
+        "i": 2010000001814,
+        "n": "5th Cohort Vanguard",
+        "l": "47",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "2010000001820",
+      "obj": {
+        "i": 2010000001820,
+        "n": "4th Cohort Vanguard",
+        "l": "49",
+        "z": 42
+      }
+    },
+    {
+      "type": "mob",
+      "id": "2010000001826",
+      "obj": {
+        "i": 2010000001826,
+        "n": "2nd Cohort Vanguard",
+        "l": "50",
+        "z": 32
+      }
+    },
+    {
+      "type": "mob",
+      "id": "19660000002089",
+      "obj": {
+        "i": 19660000002089,
+        "n": "Magitek Vanguard H-1",
+        "l": "50",
+        "z": 430
+      }
+    },
+    {
+      "type": "mob",
+      "id": "22550000002089",
+      "obj": {
+        "i": 22550000002089,
+        "n": "Magitek Vanguard H-1",
+        "l": "50",
+        "z": 260
+      }
+    },
+    {
+      "type": "mob",
+      "id": "18830000002116",
+      "obj": {
+        "i": 18830000002116,
+        "n": "Magitek Vanguard F-1",
+        "l": "50",
+        "z": 260
+      }
+    },
+    {
+      "type": "mob",
+      "id": "24630000002310",
+      "obj": {
+        "i": 24630000002310,
+        "n": "3rd Cohort Vanguard",
+        "l": "42",
+        "z": 55
+      }
+    },
+    {
+      "type": "mob",
+      "id": "2010000003179",
+      "obj": {
+        "i": 2010000003179,
+        "n": "6th Cohort Vanguard",
+        "l": "52",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "36740000003357",
+      "obj": {
+        "i": 36740000003357,
+        "n": "6th Cohort Vanguard",
+        "l": "50",
+        "z": 418
+      }
+    },
+    {
+      "type": "mob",
+      "id": "2010000003545",
+      "obj": {
+        "i": 2010000003545,
+        "n": "6th Legion Vanguard",
+        "l": "59",
+        "z": 2101
+      }
+    },
+    {
+      "type": "item",
+      "id": "12966",
+      "obj": {
+        "i": 12966,
+        "n": "Bright Fire Rock",
+        "l": 145,
+        "c": 21471,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12967",
+      "obj": {
+        "i": 12967,
+        "n": "Bright Lightning Rock",
+        "l": 145,
+        "c": 21475,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12969",
+      "obj": {
+        "i": 12969,
+        "n": "Peat Moss",
+        "l": 145,
+        "c": 27401,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "33149",
+      "obj": {
+        "i": 33149,
+        "n": "Water Mint",
+        "l": 145,
+        "c": 25036,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12246",
+      "obj": {
+        "i": 12246,
+        "n": "Master Armorer III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "13003",
+      "obj": {
+        "i": 13003,
+        "n": "Iron Giant Core",
+        "l": 160,
+        "c": 21274,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "12651",
+      "obj": {
+        "i": 12651,
+        "n": "Iron Giant Scrap",
+        "l": 160,
+        "c": 20806,
+        "t": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "5104",
+      "obj": {
+        "i": 5104,
+        "n": "Garlean Steel Joint",
+        "l": 70,
+        "c": 20967,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "7775",
+      "obj": {
+        "i": 7775,
+        "n": "Glazenut",
+        "l": 90,
+        "c": 25315,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12937",
+      "obj": {
+        "i": 12937,
+        "n": "Dawnborne Aethersand",
+        "l": 150,
+        "c": 22648,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

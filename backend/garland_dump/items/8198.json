@@ -1,0 +1,127 @@
+{
+  "item": {
+    "name": "Treasure Box",
+    "description": "It is unknown what manner of spirit possesses this tiny treasure chest, but the fact that it will not hesitate to nip at the fingers of any who try and pry it open is painfully evident.<br><br>Use item to acquire the treasure box minion.",
+    "minionrace": "Monster",
+    "tooltip": "A pirate don't abandon\r\n'is treasures!\r\n  - Ahtzapfyn",
+    "minionskilltype": "Damage",
+    "specialactionname": "Leaden Lid",
+    "specialactiondescription": "Delivers an attack with a potency of 120 to all enemies within range while increasing action party ATK by 20.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 8198,
+    "patch": 2.3,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59483,
+    "tradeShops": [
+      {
+        "shop": "Allied Seals (Other)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8198",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 440
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 30,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 390,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 35,
+      "Speed": 3
+    },
+    "models": [
+      "8070-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "item": {
+    "name": "Dragonstar aux Marrons",
+    "description": "An ode to the Dragonstar, in dessert form. Fittingly, perhaps, this edible delight is a reimagining of the Sohm Al tart.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Critical Hit Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 38588,
+    "patch": 6.25,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53441,
+    "tradeShops": [
+      {
+        "shop": "Omicron Omnitoken Exchange",
+        "npcs": [
+          1043418
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37854",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1180"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043418",
+      "obj": {
+        "i": 1043418,
+        "n": "N-0598",
+        "l": 3712,
+        "s": 4,
+        "t": "Vending Unit",
+        "r": 1,
+        "a": 4041,
+        "c": [
+          27.76,
+          24.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "37854",
+      "obj": {
+        "i": 37854,
+        "n": "Omicron Omnitoken",
+        "l": 1,
+        "c": "t/65095",
+        "t": 100
+      }
+    }
+  ]
+}

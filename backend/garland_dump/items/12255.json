@@ -1,0 +1,80 @@
+{
+  "item": {
+    "name": "Large Gordian Gear",
+    "description": "A large round cog removed from Alexander's Gordias sector.",
+    "id": 12255,
+    "patch": 3.05,
+    "patchCategory": 5,
+    "price": 6336,
+    "ilvl": 160,
+    "category": 56,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 23,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 26270,
+    "drops": [
+      38920000003772
+    ],
+    "ingredient_of": {
+      "12105": 2,
+      "12107": 1
+    },
+    "instances": [
+      30028
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "12105",
+      "obj": {
+        "i": 12105,
+        "n": "Savage Gordian Bureau",
+        "l": 210,
+        "c": 51648,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "12107",
+      "obj": {
+        "i": 12107,
+        "n": "Savage Gordian Chair",
+        "l": 210,
+        "c": 52571,
+        "t": 57
+      }
+    },
+    {
+      "type": "mob",
+      "id": "38920000003772",
+      "obj": {
+        "i": 38920000003772,
+        "n": "The Manipulator",
+        "l": "60",
+        "z": 1645
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30028",
+      "obj": {
+        "i": 30028,
+        "n": "Alexander - The Burden of the Father (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 205
+      }
+    }
+  ]
+}

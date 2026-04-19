@@ -1,0 +1,595 @@
+{
+  "item": {
+    "name": "Aqueous Whetstone",
+    "description": "A whetstone carved from aqueous rock. Used for sharpening metal or stone blades.",
+    "id": 5261,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 415,
+    "ilvl": 70,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21470,
+    "instances": [
+      22,
+      21,
+      20,
+      23,
+      24,
+      25
+    ],
+    "tradeShops": [
+      {
+        "shop": "Ixali Oaknot Exchange",
+        "npcs": [
+          1009205
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5261",
+                "amount": 2
+              }
+            ],
+            "currency": [
+              {
+                "id": "21073",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5261",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5261",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5261",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "5213": 9,
+      "7982": 2,
+      "8014": 9,
+      "9769": 6,
+      "12549": 1,
+      "15164": 6,
+      "20388": 1,
+      "20390": 1,
+      "20392": 1,
+      "12912": 9,
+      "20358": 1,
+      "20362": 1,
+      "20366": 1,
+      "20370": 1,
+      "20378": 1
+    },
+    "desynthedFrom": [
+      7705,
+      7712,
+      7939,
+      12830
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      6691,
+      8156,
+      6692
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5213",
+      "obj": {
+        "i": 5213,
+        "n": "Radiant Astral Eye",
+        "l": 70,
+        "c": 21259,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "7982",
+      "obj": {
+        "i": 7982,
+        "n": "Emperor's Throne",
+        "l": 100,
+        "c": 52523,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "8014",
+      "obj": {
+        "i": 8014,
+        "n": "Marble Flooring",
+        "l": 55,
+        "c": 51015,
+        "t": 74
+      }
+    },
+    {
+      "type": "item",
+      "id": "9769",
+      "obj": {
+        "i": 9769,
+        "n": "Monochrome Flooring",
+        "l": 70,
+        "c": 51021,
+        "t": 74
+      }
+    },
+    {
+      "type": "item",
+      "id": "12549",
+      "obj": {
+        "i": 12549,
+        "n": "Mormorion",
+        "l": 133,
+        "c": 21331,
+        "t": 48,
+        "p": 4536
+      }
+    },
+    {
+      "type": "item",
+      "id": "15164",
+      "obj": {
+        "i": 15164,
+        "n": "Sharlayan Flooring",
+        "l": 70,
+        "c": 51027,
+        "t": 74
+      }
+    },
+    {
+      "type": "item",
+      "id": "20388",
+      "obj": {
+        "i": 20388,
+        "n": "Mythrite Uchigatana",
+        "l": 115,
+        "c": 36427,
+        "t": 96,
+        "p": 16394
+      }
+    },
+    {
+      "type": "item",
+      "id": "20390",
+      "obj": {
+        "i": 20390,
+        "n": "Mythrite Tachi",
+        "l": 125,
+        "c": 36432,
+        "t": 96,
+        "p": 17820
+      }
+    },
+    {
+      "type": "item",
+      "id": "20392",
+      "obj": {
+        "i": 20392,
+        "n": "Titanium Uchigatana",
+        "l": 133,
+        "c": 36428,
+        "t": 96,
+        "p": 18957
+      }
+    },
+    {
+      "type": "item",
+      "id": "12912",
+      "obj": {
+        "i": 12912,
+        "n": "Celestine",
+        "l": 133,
+        "c": 21286,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20358",
+      "obj": {
+        "i": 20358,
+        "n": "Inferno Katana",
+        "l": 95,
+        "c": 36402,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "20362",
+      "obj": {
+        "i": 20362,
+        "n": "Blood of the Vortex",
+        "l": 95,
+        "c": 36444,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "20366",
+      "obj": {
+        "i": 20366,
+        "n": "Tremor Katana",
+        "l": 95,
+        "c": 36405,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "20370",
+      "obj": {
+        "i": 20370,
+        "n": "Maliferous Moggle Mogtana",
+        "l": 95,
+        "c": 36413,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "20378",
+      "obj": {
+        "i": 20378,
+        "n": "Mighty Thunderstroke",
+        "l": 110,
+        "c": 36445,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "7705",
+      "obj": {
+        "i": 7705,
+        "n": "Chirurgeon",
+        "l": 70,
+        "c": 29336,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "7712",
+      "obj": {
+        "i": 7712,
+        "n": "Jacques the Snipper",
+        "l": 75,
+        "c": 29075,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "7939",
+      "obj": {
+        "i": 7939,
+        "n": "The Terpsichorean",
+        "l": 80,
+        "c": 29364,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12830",
+      "obj": {
+        "i": 12830,
+        "n": "Loosetongue",
+        "l": 180,
+        "c": 29243,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "8156",
+      "obj": {
+        "i": 8156,
+        "n": "Unhidden Leather Map",
+        "l": 50,
+        "c": 25935,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6692",
+      "obj": {
+        "i": 6692,
+        "n": "Timeworn Peisteskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Direwolf Whistle",
+    "description": "A polished bone horn used to summon an Ixal-trained direwolf.",
+    "mount": {
+      "name": "Direwolf",
+      "action": "Summon forth your deadly direwolf, one of five pups found huddling together in the snow near the corpse of their slain mother.",
+      "description": "Mass cullings of the beasts during the Sixth Astral Era prompted naturalists to deem the species extinct. However, this claim was proved false when Ixali scouts discovered a lone pack roaming the sparsely inhabited mountains of Xelphatol.",
+      "tooltip": "I lost two good men<br>to these wolves.<br>  - Corentiaux the Colder",
+      "icon": 4023,
+      "guideIcon": 68023
+    },
+    "id": 8208,
+    "patch": 2.35,
+    "patchCategory": 17,
+    "price": 120000,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "vendors": [
+      1009205
+    ],
+    "tradeShops": [
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8208",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "41-5-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    }
+  ]
+}

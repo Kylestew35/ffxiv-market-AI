@@ -1,0 +1,171 @@
+{
+  "item": {
+    "name": "Augmented Hammerkeep's Slops",
+    "jobCategories": "ARM",
+    "id": 15678,
+    "patch": 3.3,
+    "patchCategory": 1,
+    "price": 98010,
+    "ilvl": 200,
+    "category": 36,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 60,
+    "jobs": 11,
+    "models": [
+      "211-1-0-0"
+    ],
+    "attr": {
+      "Defense": 107,
+      "Magic Defense": 214,
+      "Control": 101,
+      "Craftsmanship": 9
+    },
+    "icon": 45572,
+    "sharedModels": [
+      10243,
+      13026
+    ],
+    "tradeShops": [
+      {
+        "shop": "Tradecraft Keep Gear Augmentation",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15678",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10243",
+                "amount": 1
+              },
+              {
+                "id": "14104",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Tradecraft Keep Gear (IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15678",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 60/IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15678",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 75
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10243",
+      "obj": {
+        "i": 10243,
+        "n": "Hammerkeep's Slops",
+        "l": 180,
+        "c": 45572,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13026",
+      "obj": {
+        "i": 13026,
+        "n": "Hammermaster's Slops",
+        "l": 170,
+        "c": 45572,
+        "t": 36
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14104",
+      "obj": {
+        "i": 14104,
+        "n": "Goblin Cup",
+        "l": 1,
+        "c": 26106,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    }
+  ]
+}

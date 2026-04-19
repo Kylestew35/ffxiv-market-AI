@@ -1,0 +1,952 @@
+{
+  "item": {
+    "name": "Linen Tights",
+    "jobCategories": "All Classes",
+    "id": 3397,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 2375,
+    "ilvl": 36,
+    "category": 36,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 56,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 5597,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 36,
+    "jobs": 1,
+    "models": [
+      "7-73-0-0"
+    ],
+    "attr": {
+      "Defense": 36,
+      "Magic Defense": 64,
+      "Intelligence": 7,
+      "Mind": 7,
+      "Vitality": 7,
+      "Determination": 10
+    },
+    "attr_hq": {
+      "Defense": 40,
+      "Magic Defense": 71,
+      "Intelligence": 8,
+      "Mind": 8,
+      "Vitality": 8,
+      "Determination": 11
+    },
+    "attr_max": {
+      "Strength": 6,
+      "Dexterity": 6,
+      "Piety": 11,
+      "GP": 3,
+      "CP": 4,
+      "Tenacity": 11,
+      "Defense": 41,
+      "Direct Hit Rate": 11,
+      "Critical Hit": 11,
+      "Fire Resistance": 4,
+      "Ice Resistance": 4,
+      "Wind Resistance": 4,
+      "Earth Resistance": 4,
+      "Lightning Resistance": 4,
+      "Water Resistance": 4,
+      "Skill Speed": 11,
+      "Spell Speed": 11,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 5,
+      "Control": 30,
+      "Gathering": 26,
+      "Perception": 13
+    },
+    "icon": 45171,
+    "sharedModels": [
+      963,
+      3312,
+      3327,
+      3355,
+      3364,
+      3395,
+      3413,
+      3450,
+      3476,
+      3478,
+      6719,
+      6766,
+      13701,
+      31439,
+      31533
+    ],
+    "vendors": [
+      1006799,
+      1006798,
+      1003269,
+      1003270,
+      1003262,
+      1000215,
+      1001203,
+      1001965,
+      1011204
+    ],
+    "craft": [
+      {
+        "id": 598,
+        "job": 13,
+        "rlvl": 35,
+        "durability": 80,
+        "quality": 1110,
+        "progress": 123,
+        "lvl": 35,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5327,
+            "amount": 2,
+            "quality": 186.88776
+          },
+          {
+            "id": 5336,
+            "amount": 1,
+            "quality": 181.22449
+          },
+          {
+            "id": 6,
+            "amount": 4
+          },
+          {
+            "id": 4,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 67,
+          "hq": 87
+        }
+      }
+    ],
+    "requiredByLeves": [
+      428
+    ],
+    "leves": [
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641,
+      642
+    ],
+    "supply": {
+      "count": 1,
+      "xp": 102000,
+      "seals": 269
+    },
+    "downgrades": [
+      3372,
+      3389
+    ],
+    "upgrades": [
+      3407,
+      3413
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Undyed Linen",
+      "id": 5327,
+      "icon": 21605,
+      "category": 51,
+      "ilvl": 33,
+      "price": 411,
+      "craft": [
+        {
+          "id": 590,
+          "job": 13,
+          "rlvl": 33,
+          "durability": 40,
+          "quality": 800,
+          "progress": 55,
+          "lvl": 33,
+          "materialQualityFactor": 50,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5336,
+              "amount": 2,
+              "quality": 200.0
+            },
+            {
+              "id": 6,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 32,
+            "hq": 52
+          }
+        }
+      ],
+      "desynthedFrom": [
+        9766
+      ],
+      "treasure": [
+        6688,
+        6689
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sylphic Goldleaf Exchange",
+          "npcs": [
+            1005569
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5327",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21075",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005569
+      ]
+    },
+    {
+      "name": "Linen Yarn",
+      "id": 5336,
+      "icon": 21659,
+      "category": 51,
+      "ilvl": 32,
+      "price": 186,
+      "craft": [
+        {
+          "id": 587,
+          "job": 13,
+          "rlvl": 32,
+          "durability": 40,
+          "quality": 760,
+          "progress": 55,
+          "lvl": 32,
+          "materialQualityFactor": 0,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5346,
+              "amount": 2
+            },
+            {
+              "id": 6,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 34,
+            "hq": 54
+          }
+        }
+      ],
+      "treasure": [
+        6688,
+        6689,
+        6691
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sylphic Goldleaf Exchange",
+          "npcs": [
+            1005569
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5336",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21075",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005569
+      ]
+    },
+    {
+      "name": "Flax",
+      "id": 5346,
+      "icon": 21651,
+      "category": 51,
+      "ilvl": 32,
+      "price": 83,
+      "leves": [
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425,
+        426,
+        427,
+        428
+      ],
+      "ventures": [
+        266
+      ],
+      "nodes": [
+        29
+      ],
+      "seeds": [
+        7741
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "5336",
+      "obj": {
+        "i": 5336,
+        "n": "Linen Yarn",
+        "l": 32,
+        "c": 21659,
+        "t": 51,
+        "p": 186
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5346",
+      "obj": {
+        "i": 5346,
+        "n": "Flax",
+        "l": 32,
+        "c": 21651,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "Lower Paths",
+        "l": 35,
+        "t": 3,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "963",
+      "obj": {
+        "i": 963,
+        "n": "Weathered Tights",
+        "l": 1,
+        "c": "t/45093",
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3312",
+      "obj": {
+        "i": 3312,
+        "n": "Hempen Tights",
+        "l": 5,
+        "c": 45079,
+        "t": 36,
+        "p": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "3327",
+      "obj": {
+        "i": 3327,
+        "n": "Cotton Tights",
+        "l": 15,
+        "c": 45083,
+        "t": 36,
+        "p": 315
+      }
+    },
+    {
+      "type": "item",
+      "id": "3355",
+      "obj": {
+        "i": 3355,
+        "n": "Velveteen Tights",
+        "l": 27,
+        "c": 45088,
+        "t": 36,
+        "p": 1220
+      }
+    },
+    {
+      "type": "item",
+      "id": "3364",
+      "obj": {
+        "i": 3364,
+        "n": "Ascetic's Tights",
+        "l": 26,
+        "c": 45216,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3395",
+      "obj": {
+        "i": 3395,
+        "n": "Flame Sergeant's Tights",
+        "l": 35,
+        "c": 45228,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3413",
+      "obj": {
+        "i": 3413,
+        "n": "Woolen Tights",
+        "l": 41,
+        "c": 45172,
+        "t": 36,
+        "p": 2954
+      }
+    },
+    {
+      "type": "item",
+      "id": "3450",
+      "obj": {
+        "i": 3450,
+        "n": "Warlock's Tights",
+        "l": 55,
+        "c": 45164,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3476",
+      "obj": {
+        "i": 3476,
+        "n": "Harlequin's Tights",
+        "l": 46,
+        "c": 45133,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3478",
+      "obj": {
+        "i": 3478,
+        "n": "Militia Tights",
+        "l": 55,
+        "c": 45201,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "6719",
+      "obj": {
+        "i": 6719,
+        "n": "Austere Tights",
+        "l": 60,
+        "c": 45216,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "6766",
+      "obj": {
+        "i": 6766,
+        "n": "Wolf Tights",
+        "l": 55,
+        "c": 45172,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13701",
+      "obj": {
+        "i": 13701,
+        "n": "Scion Chronocler's Tights",
+        "l": 1,
+        "c": 45727,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31439",
+      "obj": {
+        "i": 31439,
+        "n": "Doctore's Tights",
+        "l": 22,
+        "c": 47716,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "31533",
+      "obj": {
+        "i": 31533,
+        "n": "Vigil Tights",
+        "l": 43,
+        "c": 47726,
+        "t": 36
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006799",
+      "obj": {
+        "i": 1006799,
+        "n": "Merchant & Mender",
+        "l": 63,
+        "s": 5,
+        "a": 385,
+        "c": [
+          26.26,
+          27.91
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006798",
+      "obj": {
+        "i": 1006798,
+        "n": "Merchant & Mender",
+        "l": 63,
+        "s": 5,
+        "a": 1429,
+        "c": [
+          26.35,
+          16.44
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003269",
+      "obj": {
+        "i": 1003269,
+        "n": "Independent Armorer",
+        "l": 34,
+        "s": 2,
+        "c": [
+          "30.6",
+          "23.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003270",
+      "obj": {
+        "i": 1003270,
+        "n": "Junkmonger",
+        "l": 34,
+        "s": 6,
+        "c": [
+          "26.1",
+          "26.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003262",
+      "obj": {
+        "i": 1003262,
+        "n": "Merchant & Mender",
+        "l": 32,
+        "s": 5,
+        "c": [
+          "20.7",
+          "20.6"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000215",
+      "obj": {
+        "i": 1000215,
+        "n": "Domitien",
+        "l": 53,
+        "s": 15,
+        "t": "Independent Tailor",
+        "c": [
+          "14.3",
+          "9.8"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001203",
+      "obj": {
+        "i": 1001203,
+        "n": "Iron Thunder",
+        "l": 29,
+        "s": 15,
+        "q": 1,
+        "t": "Battlecraft Supplier",
+        "a": 744,
+        "c": [
+          8.11,
+          11.67
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001965",
+      "obj": {
+        "i": 1001965,
+        "n": "Gwalter",
+        "l": 41,
+        "s": 15,
+        "t": "Battlecraft Armorer",
+        "c": [
+          "13.6",
+          "10.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011204",
+      "obj": {
+        "i": 1011204,
+        "n": "Norlaise",
+        "l": 2301,
+        "s": 19,
+        "q": 1,
+        "t": "Armorer",
+        "a": 2317,
+        "c": [
+          7.17,
+          10.18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5327",
+      "obj": {
+        "i": 5327,
+        "n": "Undyed Linen",
+        "l": 33,
+        "c": 21605,
+        "t": 51,
+        "p": 411
+      }
+    },
+    {
+      "type": "leve",
+      "id": "428",
+      "obj": {
+        "i": 428,
+        "n": "A Leg Up on the Cold",
+        "l": 35,
+        "j": 14,
+        "p": 385
+      }
+    },
+    {
+      "type": "leve",
+      "id": "630",
+      "obj": {
+        "i": 630,
+        "n": "Coeurl Scratch Fever",
+        "l": 35,
+        "j": 34,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "631",
+      "obj": {
+        "i": 631,
+        "n": "Walk Like a Mandragora",
+        "l": 35,
+        "j": 34,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "632",
+      "obj": {
+        "i": 632,
+        "n": "Necrologos: Igneous Moil",
+        "l": 35,
+        "j": 34,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "633",
+      "obj": {
+        "i": 633,
+        "n": "Bud Bait",
+        "l": 35,
+        "j": 34,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "634",
+      "obj": {
+        "i": 634,
+        "n": "Wonder Wine",
+        "l": 35,
+        "j": 34,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "635",
+      "obj": {
+        "i": 635,
+        "n": "Appetite for Abduction",
+        "l": 35,
+        "j": 34,
+        "p": 32
+      }
+    },
+    {
+      "type": "leve",
+      "id": "636",
+      "obj": {
+        "i": 636,
+        "n": "Now We're Even",
+        "l": 35,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "637",
+      "obj": {
+        "i": 637,
+        "n": "Have a Nice Trip",
+        "l": 35,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "638",
+      "obj": {
+        "i": 638,
+        "n": "Necrologos: Cinerary Rite",
+        "l": 35,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "639",
+      "obj": {
+        "i": 639,
+        "n": "Meat and Bleat",
+        "l": 35,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "640",
+      "obj": {
+        "i": 640,
+        "n": "Little Lost Lamb",
+        "l": 35,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "641",
+      "obj": {
+        "i": 641,
+        "n": "Cower to the People",
+        "l": 35,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "642",
+      "obj": {
+        "i": 642,
+        "n": "Saving Bessy",
+        "l": 35,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "3372",
+      "obj": {
+        "i": 3372,
+        "n": "Velveteen Gaskins",
+        "l": 31,
+        "c": 45285,
+        "t": 36,
+        "p": 2124
+      }
+    },
+    {
+      "type": "item",
+      "id": "3389",
+      "obj": {
+        "i": 3389,
+        "n": "Serpent Sergeant's Breeches",
+        "l": 35,
+        "c": 45235,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "3407",
+      "obj": {
+        "i": 3407,
+        "n": "Linen Gaskins",
+        "l": 39,
+        "c": 45358,
+        "t": 36
+      }
+    }
+  ]
+}

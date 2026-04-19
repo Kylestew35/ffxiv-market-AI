@@ -1,0 +1,98 @@
+{
+  "item": {
+    "name": "Select Bluespirit Tile",
+    "description": "A thin slab of bluespirit, selected for its quality by a Boutique of Splendors procurer.",
+    "id": 39768,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 620,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 40,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21479,
+    "tradeShops": [
+      {
+        "shop": "Crafters' Scrip Exchange",
+        "npcs": [
+          1045069
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39768",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "39776": 1,
+      "39784": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1045069",
+      "obj": {
+        "i": 1045069,
+        "n": "Quinnana",
+        "l": 2951,
+        "s": 3,
+        "t": "Splendorous Tool Exchange",
+        "r": 1,
+        "a": 3252,
+        "c": [
+          10.44,
+          7.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "39776",
+      "obj": {
+        "i": 39776,
+        "n": "Connoisseur's Glaives",
+        "l": 620,
+        "c": 36235,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "39784",
+      "obj": {
+        "i": 39784,
+        "n": "Connoisseur's Baghnakhs",
+        "l": 625,
+        "c": 31179,
+        "t": 61
+      }
+    }
+  ]
+}

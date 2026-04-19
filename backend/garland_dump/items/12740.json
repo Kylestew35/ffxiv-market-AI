@@ -1,0 +1,123 @@
+{
+  "item": {
+    "name": "Grass Carp",
+    "description": "A freshwater fish native to the Hundred Throes, where it conceals itself in the churning waters of the myriad cataracts.<br><br>[Suitable for printing on large canvases.]",
+    "fish": {
+      "guide": "As the name implies, grass carp dine solely on water grasses, shunning the carnivorous eating habits of their cousins for a healthier diet. Unfortunately, this diet gives the fish a very bitter flavor, making it unsuitable for consumption.",
+      "icon": 79407,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 117,
+          "weather": [
+            "Clouds",
+            "Dust Storms",
+            "Fog"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 340,
+          "baits": [
+            [
+              12707
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12740,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1235,
+    "ilvl": 130,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29407,
+    "fishingSpots": [
+      117
+    ],
+    "requiredByLeves": [
+      1215,
+      1218
+    ],
+    "desynthedTo": [
+      5825,
+      5817
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "117",
+      "obj": {
+        "i": 117,
+        "n": "The Hundred Throes",
+        "l": 52,
+        "c": 1,
+        "z": 2000,
+        "x": 31.39,
+        "y": 10.1
+      }
+    },
+    {
+      "type": "item",
+      "id": "12707",
+      "obj": {
+        "i": 12707,
+        "n": "Bladed Steel Jig",
+        "l": 150,
+        "c": 27070,
+        "t": 33
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1215",
+      "obj": {
+        "i": 1215,
+        "n": "Fish Oils and Forgotten Spoils",
+        "l": 52,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1218",
+      "obj": {
+        "i": 1218,
+        "n": "Valuing the Vintage (L)",
+        "l": 52,
+        "j": 19,
+        "p": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "5825",
+      "obj": {
+        "i": 5825,
+        "n": "Allagan Silver Piece",
+        "l": 25,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5817",
+      "obj": {
+        "i": 5817,
+        "n": "Grey Pigment",
+        "l": 28,
+        "c": 21463,
+        "t": 55
+      }
+    }
+  ]
+}

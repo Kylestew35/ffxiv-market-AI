@@ -1,0 +1,101 @@
+{
+  "item": {
+    "name": "Megalotragus Horn",
+    "description": "This imposing horn emits a primordial tone that summons forth your megalotragus, a herbivore so intimidating it puts carnivores to shame.",
+    "mount": {
+      "name": "Megalotragus",
+      "action": "Summon forth your megalotragus, a herbivore so intimidating it puts carnivores to shame.",
+      "description": "Preferring colder climes, this imposing herbivore left its original habitat in Abalathia's Spine and migrated to Coerthas, which had frozen over in the Calamity's wake. Its kind are a primitive species that has largely remained unchanged over time, with some known to awaken to magical powers.",
+      "tooltip": "If you squint just the right<br>way, it looks like it's got<br>ears! Or is it horns...?<br>   - Nashu Mhakaracca",
+      "icon": 4180,
+      "guideIcon": 68180
+    },
+    "id": 30862,
+    "patch": 5.31,
+    "patchCategory": 17,
+    "price": 1000,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30862",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 8400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "670-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

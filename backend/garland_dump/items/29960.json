@@ -1,0 +1,725 @@
+{
+  "item": {
+    "name": "Merbau Lumber",
+    "description": "Processed merbau lumber.",
+    "id": 29960,
+    "patch": 5.2,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 480,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 12,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22471,
+    "ingredient_of": {
+      "29405": 2,
+      "29407": 2,
+      "29408": 2,
+      "29409": 2,
+      "29410": 2,
+      "29412": 2,
+      "29414": 2,
+      "29415": 2,
+      "29417": 2,
+      "29420": 2,
+      "29421": 1,
+      "29438": 1,
+      "29444": 1,
+      "29456": 1,
+      "29464": 2,
+      "29465": 2,
+      "29466": 2,
+      "29467": 2,
+      "29468": 2,
+      "29474": 1,
+      "29475": 1,
+      "29476": 1,
+      "29477": 1,
+      "29478": 1,
+      "29479": 1,
+      "29480": 1,
+      "29481": 1,
+      "29482": 1,
+      "29483": 1,
+      "30442": 2,
+      "30443": 2,
+      "30449": 2,
+      "30450": 5,
+      "30451": 2,
+      "30454": 5,
+      "30456": 5,
+      "30458": 2,
+      "30459": 2,
+      "30460": 2,
+      "30477": 3,
+      "30478": 3,
+      "30479": 3,
+      "30480": 3
+    },
+    "craft": [
+      {
+        "id": 33899,
+        "job": 8,
+        "rlvl": 480,
+        "durability": 35,
+        "quality": 6375,
+        "progress": 2240,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29484,
+        "ingredients": [
+          {
+            "id": 29972,
+            "amount": 4
+          },
+          {
+            "id": 29973,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 456,
+          "hq": 476
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Merbau Log",
+      "id": 29972,
+      "icon": 22423,
+      "category": 50,
+      "ilvl": 480,
+      "price": 3154,
+      "ventures": [
+        867
+      ],
+      "nodes": [
+        683
+      ]
+    },
+    {
+      "name": "Tempest Adhesive",
+      "id": 29973,
+      "icon": 22687,
+      "category": 54,
+      "ilvl": 480,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29973",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29973",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "683",
+      "obj": {
+        "i": 683,
+        "n": "Anden's Airs",
+        "l": 80,
+        "t": 2,
+        "z": 2956,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29405",
+      "obj": {
+        "i": 29405,
+        "n": "Neo-Ishgardian Claws",
+        "l": 480,
+        "c": 31183,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "29407",
+      "obj": {
+        "i": 29407,
+        "n": "Neo-Ishgardian Trident",
+        "l": 480,
+        "c": 31994,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "29408",
+      "obj": {
+        "i": 29408,
+        "n": "Neo-Ishgardian Longbow",
+        "l": 480,
+        "c": 32382,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "29409",
+      "obj": {
+        "i": 29409,
+        "n": "Neo-Ishgardian Daggers",
+        "l": 480,
+        "c": 33969,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "29410",
+      "obj": {
+        "i": 29410,
+        "n": "Neo-Ishgardian Greatsword",
+        "l": 480,
+        "c": 34348,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "29412",
+      "obj": {
+        "i": 29412,
+        "n": "Neo-Ishgardian Cane",
+        "l": 480,
+        "c": 32768,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "29414",
+      "obj": {
+        "i": 29414,
+        "n": "Neo-Ishgardian Grimoire",
+        "l": 480,
+        "c": 33320,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "29415",
+      "obj": {
+        "i": 29415,
+        "n": "Neo-Ishgardian Codex",
+        "l": 480,
+        "c": 33319,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "29417",
+      "obj": {
+        "i": 29417,
+        "n": "Neo-Ishgardian Blade",
+        "l": 480,
+        "c": 36501,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "29420",
+      "obj": {
+        "i": 29420,
+        "n": "Neo-Ishgardian Chakrams",
+        "l": 480,
+        "c": 36239,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "29421",
+      "obj": {
+        "i": 29421,
+        "n": "Neo-Ishgardian Shield",
+        "l": 480,
+        "c": 30208,
+        "t": 11
+      }
+    },
+    {
+      "type": "item",
+      "id": "29438",
+      "obj": {
+        "i": 29438,
+        "n": "Neo-Ishgardian Boots of Striking",
+        "l": 480,
+        "c": 49236,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29444",
+      "obj": {
+        "i": 29444,
+        "n": "Neo-Ishgardian Boots of Aiming",
+        "l": 480,
+        "c": 49237,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29456",
+      "obj": {
+        "i": 29456,
+        "n": "Neo-Ishgardian Boots of Healing",
+        "l": 480,
+        "c": 49234,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29464",
+      "obj": {
+        "i": 29464,
+        "n": "Neo-Ishgardian Earring of Fending",
+        "l": 480,
+        "c": 55455,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "29465",
+      "obj": {
+        "i": 29465,
+        "n": "Neo-Ishgardian Earring of Slaying",
+        "l": 480,
+        "c": 55455,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "29466",
+      "obj": {
+        "i": 29466,
+        "n": "Neo-Ishgardian Earring of Aiming",
+        "l": 480,
+        "c": 55455,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "29467",
+      "obj": {
+        "i": 29467,
+        "n": "Neo-Ishgardian Earring of Healing",
+        "l": 480,
+        "c": 55455,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "29468",
+      "obj": {
+        "i": 29468,
+        "n": "Neo-Ishgardian Earring of Casting",
+        "l": 480,
+        "c": 55455,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "29474",
+      "obj": {
+        "i": 29474,
+        "n": "Neo-Ishgardian Wristbands of Fending",
+        "l": 480,
+        "c": 55824,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "29475",
+      "obj": {
+        "i": 29475,
+        "n": "Neo-Ishgardian Wristbands of Slaying",
+        "l": 480,
+        "c": 55824,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "29476",
+      "obj": {
+        "i": 29476,
+        "n": "Neo-Ishgardian Wristbands of Aiming",
+        "l": 480,
+        "c": 55824,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "29477",
+      "obj": {
+        "i": 29477,
+        "n": "Neo-Ishgardian Wristbands of Healing",
+        "l": 480,
+        "c": 55824,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "29478",
+      "obj": {
+        "i": 29478,
+        "n": "Neo-Ishgardian Wristbands of Casting",
+        "l": 480,
+        "c": 55824,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "29479",
+      "obj": {
+        "i": 29479,
+        "n": "Neo-Ishgardian Ring of Fending",
+        "l": 480,
+        "c": 54673,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "29480",
+      "obj": {
+        "i": 29480,
+        "n": "Neo-Ishgardian Ring of Slaying",
+        "l": 480,
+        "c": 54673,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "29481",
+      "obj": {
+        "i": 29481,
+        "n": "Neo-Ishgardian Ring of Aiming",
+        "l": 480,
+        "c": 54673,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "29482",
+      "obj": {
+        "i": 29482,
+        "n": "Neo-Ishgardian Ring of Healing",
+        "l": 480,
+        "c": 54673,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "29483",
+      "obj": {
+        "i": 29483,
+        "n": "Neo-Ishgardian Ring of Casting",
+        "l": 480,
+        "c": 54673,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "29484",
+      "obj": {
+        "i": 29484,
+        "n": "Master Carpenter VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29972",
+      "obj": {
+        "i": 29972,
+        "n": "Merbau Log",
+        "l": 480,
+        "c": 22423,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "29973",
+      "obj": {
+        "i": 29973,
+        "n": "Tempest Adhesive",
+        "l": 480,
+        "c": 22687,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "30442",
+      "obj": {
+        "i": 30442,
+        "n": "Aesthete's Raising Hammer",
+        "l": 490,
+        "c": 35238,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "30443",
+      "obj": {
+        "i": 30443,
+        "n": "Aesthete's Mallet",
+        "l": 490,
+        "c": 35337,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "30449",
+      "obj": {
+        "i": 30449,
+        "n": "Aesthete's Hatchet",
+        "l": 490,
+        "c": 38138,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "30450",
+      "obj": {
+        "i": 30450,
+        "n": "Aesthete's Fishing Rod",
+        "l": 490,
+        "c": 38241,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "30451",
+      "obj": {
+        "i": 30451,
+        "n": "Aesthete's Claw Hammer",
+        "l": 490,
+        "c": 35068,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "30454",
+      "obj": {
+        "i": 30454,
+        "n": "Aesthete's Grinding Wheel",
+        "l": 490,
+        "c": 35365,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "30456",
+      "obj": {
+        "i": 30456,
+        "n": "Aesthete's Spinning Wheel",
+        "l": 490,
+        "c": 35566,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "30458",
+      "obj": {
+        "i": 30458,
+        "n": "Aesthete's Culinary Knife",
+        "l": 490,
+        "c": 35765,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "30459",
+      "obj": {
+        "i": 30459,
+        "n": "Aesthete's Sledgehammer",
+        "l": 490,
+        "c": 38065,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "30460",
+      "obj": {
+        "i": 30460,
+        "n": "Aesthete's Scythe",
+        "l": 490,
+        "c": 38165,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "30477",
+      "obj": {
+        "i": 30477,
+        "n": "Aesthete's Earrings of Gathering",
+        "l": 490,
+        "c": 55459,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "30478",
+      "obj": {
+        "i": 30478,
+        "n": "Aesthete's Necklace of Gathering",
+        "l": 490,
+        "c": 55024,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "30479",
+      "obj": {
+        "i": 30479,
+        "n": "Aesthete's Bracelet of Gathering",
+        "l": 490,
+        "c": 55827,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "30480",
+      "obj": {
+        "i": 30480,
+        "n": "Aesthete's Ring of Gathering",
+        "l": 490,
+        "c": 54676,
+        "t": 43
+      }
+    }
+  ]
+}

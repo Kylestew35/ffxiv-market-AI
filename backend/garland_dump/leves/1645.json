@@ -1,0 +1,551 @@
+{
+  "leve": {
+    "name": "Comfort Food",
+    "description": "As everyone knows, a hearty, home-cooked meal is a comfort to the soul. Which is why I see it as a duty to provide such foods at my café during these difficult and trying times. That said, I can always use reinforcements in the form of lovingly prepared cuisine.",
+    "id": 1645,
+    "patch": 6.0,
+    "client": "The Last Stand Proprietor, Dickon",
+    "lvl": 86,
+    "jobCategory": 16,
+    "levemete": 1037264,
+    "areaid": 3706,
+    "xp": 1432410,
+    "gil": 5000,
+    "rewards": 804,
+    "plate": 80033,
+    "frame": 80005,
+    "areaicon": 110135,
+    "requires": [
+      {
+        "item": 36054,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 744,
+      "hq": 804
+    }
+  },
+  "rewards": {
+    "id": 804,
+    "entries": [
+      {
+        "item": 8,
+        "rate": 0.23,
+        "amount": 39
+      },
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 39
+      },
+      {
+        "item": 36094,
+        "rate": 0.23
+      },
+      {
+        "item": 8,
+        "rate": 0.1,
+        "amount": 46
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 46
+      },
+      {
+        "item": 36256,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Yakow Moussaka",
+      "id": 36054,
+      "icon": 24112,
+      "category": 46,
+      "ilvl": 540,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5269,
+          "job": 15,
+          "rlvl": 545,
+          "durability": 80,
+          "quality": 6900,
+          "progress": 3200,
+          "lvl": 87,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19854,
+              "amount": 1
+            },
+            {
+              "id": 36254,
+              "amount": 1
+            },
+            {
+              "id": 36089,
+              "amount": 2
+            },
+            {
+              "id": 36255,
+              "amount": 1
+            },
+            {
+              "id": 27841,
+              "amount": 1,
+              "quality": 415.40186
+            },
+            {
+              "id": 36091,
+              "amount": 1
+            },
+            {
+              "id": 8,
+              "amount": 8
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 248,
+            "hq": 268
+          }
+        }
+      ]
+    },
+    {
+      "name": "Doman Eggplant",
+      "id": 19854,
+      "icon": 25205,
+      "category": 45,
+      "ilvl": 288,
+      "price": 551,
+      "ventures": [
+        706
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Yakow Chuck",
+      "id": 36254,
+      "icon": 25159,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36254",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1639
+      ],
+      "ventures": [
+        940
+      ]
+    },
+    {
+      "name": "Giant Popoto",
+      "id": 36089,
+      "icon": 25221,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 75,
+          "type": 1
+        },
+        {
+          "id": 84,
+          "type": 1
+        },
+        {
+          "id": 93,
+          "type": 1
+        },
+        {
+          "id": 98,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        927
+      ],
+      "nodes": [
+        846
+      ]
+    },
+    {
+      "name": "Ovibos Milk",
+      "id": 36255,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36255",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1640,
+        1641
+      ],
+      "ventures": [
+        939
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Cucumber",
+      "id": 36091,
+      "icon": 25212,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "leves": [
+        1642,
+        1643
+      ],
+      "ventures": [
+        918
+      ],
+      "nodes": [
+        843
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "846",
+      "obj": {
+        "i": 846,
+        "n": "Anagnorisis",
+        "l": 90,
+        "t": 3,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "item",
+      "id": "19854",
+      "obj": {
+        "i": 19854,
+        "n": "Doman Eggplant",
+        "l": 288,
+        "c": 25205,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36254",
+      "obj": {
+        "i": 36254,
+        "n": "Yakow Chuck",
+        "l": 520,
+        "c": 25159,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36089",
+      "obj": {
+        "i": 36089,
+        "n": "Giant Popoto",
+        "l": 539,
+        "c": 25221,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36255",
+      "obj": {
+        "i": 36255,
+        "n": "Ovibos Milk",
+        "l": 525,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36091",
+      "obj": {
+        "i": 36091,
+        "n": "Cucumber",
+        "l": 533,
+        "c": 25212,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69693",
+      "obj": {
+        "i": 69693,
+        "n": "Hinageshi in Hingashi",
+        "g": 206,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69700",
+      "obj": {
+        "i": 69700,
+        "n": "The Wandering Whale",
+        "g": 207,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70059",
+      "obj": {
+        "i": 70059,
+        "n": "Of Mothers and Merchants",
+        "g": 139,
+        "l": "Old Sharlayan",
+        "s": 9101,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70251",
+      "obj": {
+        "i": 70251,
+        "n": "That's So Anden",
+        "g": 131,
+        "l": "The Crystarium",
+        "s": 4001,
+        "f": 1
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1645",
+      "obj": {
+        "i": 1645,
+        "n": "Comfort Food",
+        "l": 86,
+        "j": 16,
+        "p": 3706
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037264",
+      "obj": {
+        "i": 1037264,
+        "n": "Ahldiyrn",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36094",
+      "obj": {
+        "i": 36094,
+        "n": "Sideritis Leaves",
+        "l": 539,
+        "c": 25020,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36256",
+      "obj": {
+        "i": 36256,
+        "n": "Egg of Elpis",
+        "l": 539,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36054",
+      "obj": {
+        "i": 36054,
+        "n": "Yakow Moussaka",
+        "l": 540,
+        "c": 24112,
+        "t": 46
+      }
+    }
+  ]
+}

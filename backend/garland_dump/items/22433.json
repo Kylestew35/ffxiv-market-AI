@@ -1,0 +1,679 @@
+{
+  "item": {
+    "name": "Futo-maki Roll",
+    "description": "Crisp dried seaweed and sweet vinegared rice rolled around a smorgasbord of sweet and savory fillings. Thought to bring fortune...or at least end hunger.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 22433,
+    "patch": 4.2,
+    "patchCategory": 6,
+    "price": 2308,
+    "ilvl": 340,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 40
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 47
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 50
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 28
+        }
+      }
+    },
+    "icon": 24023,
+    "craft": [
+      {
+        "id": 32650,
+        "job": 15,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 5200,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22316,
+        "ingredients": [
+          {
+            "id": 22439,
+            "amount": 1
+          },
+          {
+            "id": 20209,
+            "amount": 1
+          },
+          {
+            "id": 20124,
+            "amount": 1
+          },
+          {
+            "id": 19863,
+            "amount": 1
+          },
+          {
+            "id": 19877,
+            "amount": 1
+          },
+          {
+            "id": 19843,
+            "amount": 1,
+            "quality": 437.028
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 397,
+          "hq": 417
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Doman Rice",
+      "id": 22439,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 340,
+      "price": 2308,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22439",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22439",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spiny Lobster",
+      "id": 20209,
+      "icon": 29138,
+      "category": 47,
+      "ilvl": 260,
+      "price": 1000,
+      "ventures": [
+        736
+      ],
+      "nodes": [
+        472,
+        480,
+        530
+      ]
+    },
+    {
+      "name": "Doman Eel",
+      "id": 20124,
+      "icon": 29257,
+      "category": 47,
+      "ilvl": 230,
+      "price": 1000,
+      "fishingSpots": [
+        169
+      ]
+    },
+    {
+      "name": "Shiitake Mushroom",
+      "id": 19863,
+      "icon": 25401,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "ventures": [
+        674
+      ],
+      "nodes": [
+        507
+      ]
+    },
+    {
+      "name": "Gagana Egg",
+      "id": 19877,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 260,
+      "price": 514,
+      "instances": [
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "leves": [
+        1298,
+        1299,
+        1300
+      ],
+      "ventures": [
+        709
+      ],
+      "drops": [
+        65950000005692,
+        74370000005672
+      ]
+    },
+    {
+      "name": "Rice Vinegar",
+      "id": 19843,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "craft": [
+        {
+          "id": 3583,
+          "job": 15,
+          "rlvl": 276,
+          "durability": 40,
+          "quality": 2520,
+          "progress": 415,
+          "lvl": 65,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19849,
+              "amount": 2
+            },
+            {
+              "id": 4819,
+              "amount": 2
+            },
+            {
+              "id": 19872,
+              "amount": 1
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 80,
+            "hq": 100
+          }
+        }
+      ],
+      "leves": [
+        1310,
+        1311,
+        1312
+      ]
+    },
+    {
+      "name": "Koshu Sticky Rice",
+      "id": 19849,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1304,
+        1305,
+        1306
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Sticky Rice",
+      "id": 4819,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 25,
+      "price": 73,
+      "ventures": [
+        241
+      ],
+      "nodes": [
+        41
+      ]
+    },
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "472",
+      "obj": {
+        "i": 472,
+        "n": "The Kobayashi Maru",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "s": 1
+      }
+    },
+    {
+      "type": "node",
+      "id": "480",
+      "obj": {
+        "i": 480,
+        "n": "The Eastern Ruby Sea",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "node",
+      "id": "530",
+      "obj": {
+        "i": 530,
+        "n": "Kobayashi Maru's Northern Wake",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "s": 1,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "169",
+      "obj": {
+        "i": 169,
+        "n": "Prism Canyon",
+        "l": 67,
+        "c": 1,
+        "z": 2410,
+        "x": 31.73,
+        "y": 7.21
+      }
+    },
+    {
+      "type": "node",
+      "id": "507",
+      "obj": {
+        "i": 507,
+        "n": "Onokoro",
+        "l": 65,
+        "t": 2,
+        "z": 2409
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "74370000005672",
+      "obj": {
+        "i": 74370000005672,
+        "n": "Lesser Gagana",
+        "l": "60",
+        "z": 2406
+      }
+    },
+    {
+      "type": "mob",
+      "id": "65950000005692",
+      "obj": {
+        "i": 65950000005692,
+        "n": "Gagana",
+        "l": "67",
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "19849",
+      "obj": {
+        "i": 19849,
+        "n": "Koshu Sticky Rice",
+        "l": 276,
+        "c": 25358,
+        "t": 45,
+        "p": 545
+      }
+    },
+    {
+      "type": "item",
+      "id": "4819",
+      "obj": {
+        "i": 4819,
+        "n": "Sticky Rice",
+        "l": 25,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Oakwood",
+        "l": 25,
+        "t": 3,
+        "z": 34
+      }
+    },
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "22316",
+      "obj": {
+        "i": 22316,
+        "n": "Master Culinarian VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "22439",
+      "obj": {
+        "i": 22439,
+        "n": "Doman Rice",
+        "l": 340,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "20209",
+      "obj": {
+        "i": 20209,
+        "n": "Spiny Lobster",
+        "l": 260,
+        "c": 29138,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "20124",
+      "obj": {
+        "i": 20124,
+        "n": "Doman Eel",
+        "l": 230,
+        "c": 29257,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "19863",
+      "obj": {
+        "i": 19863,
+        "n": "Shiitake Mushroom",
+        "l": 276,
+        "c": 25401,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19877",
+      "obj": {
+        "i": 19877,
+        "n": "Gagana Egg",
+        "l": 260,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19843",
+      "obj": {
+        "i": 19843,
+        "n": "Rice Vinegar",
+        "l": 276,
+        "c": 25451,
+        "t": 45
+      }
+    }
+  ]
+}

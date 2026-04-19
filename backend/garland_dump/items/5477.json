@@ -1,0 +1,267 @@
+{
+  "item": {
+    "name": "Enchanted Silver Ink",
+    "description": "Ink fortified with silver sand to improve aetherial conductivity.",
+    "id": 5477,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 151,
+    "ilvl": 23,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25922,
+    "craft": [
+      {
+        "id": 1139,
+        "job": 14,
+        "rlvl": 23,
+        "durability": 40,
+        "quality": 480,
+        "progress": 39,
+        "lvl": 23,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5270,
+            "amount": 2
+          },
+          {
+            "id": 5496,
+            "amount": 1
+          },
+          {
+            "id": 7,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 52,
+          "hq": 72
+        }
+      }
+    ],
+    "ingredient_of": {
+      "2156": 1,
+      "2166": 1,
+      "10525": 1,
+      "14241": 1,
+      "14242": 1,
+      "14243": 1
+    },
+    "requiredByLeves": [
+      347
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Silver Sand",
+      "id": 5270,
+      "icon": 21204,
+      "category": 48,
+      "ilvl": 22,
+      "price": 45,
+      "desynthedFrom": [
+        4968,
+        4978
+      ],
+      "leves": [
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362
+      ],
+      "ventures": [
+        102
+      ],
+      "nodes": [
+        48
+      ]
+    },
+    {
+      "name": "Acidic Secretions",
+      "id": 5496,
+      "icon": 22603,
+      "category": 54,
+      "ilvl": 23,
+      "price": 56,
+      "ventures": [
+        30
+      ],
+      "drops": [
+        32680000002998,
+        20010000001479,
+        27080000002575,
+        400000000040
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Upper Paths",
+        "l": 25,
+        "t": 1,
+        "z": 56
+      }
+    },
+    {
+      "type": "mob",
+      "id": "400000000040",
+      "obj": {
+        "i": 400000000040,
+        "n": "Shroud Hare",
+        "l": "25 - 28",
+        "z": 57
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20010000001479",
+      "obj": {
+        "i": 20010000001479,
+        "n": "Dark Matter Slug",
+        "l": "50",
+        "z": 466
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27080000002575",
+      "obj": {
+        "i": 27080000002575,
+        "n": "Ruins Dross",
+        "l": "50",
+        "z": 125
+      }
+    },
+    {
+      "type": "mob",
+      "id": "32680000002998",
+      "obj": {
+        "i": 32680000002998,
+        "n": "Spelaean Slug",
+        "l": "50",
+        "z": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "5270",
+      "obj": {
+        "i": 5270,
+        "n": "Silver Sand",
+        "l": 22,
+        "c": 21204,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5496",
+      "obj": {
+        "i": 5496,
+        "n": "Acidic Secretions",
+        "l": 23,
+        "c": 22603,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "2156",
+      "obj": {
+        "i": 2156,
+        "n": "Goatskin Grimoire",
+        "l": 26,
+        "c": 33410,
+        "t": 10,
+        "p": 2522
+      }
+    },
+    {
+      "type": "item",
+      "id": "2166",
+      "obj": {
+        "i": 2166,
+        "n": "Book of Silver",
+        "l": 34,
+        "c": 33416,
+        "t": 10,
+        "p": 5515
+      }
+    },
+    {
+      "type": "item",
+      "id": "10525",
+      "obj": {
+        "i": 10525,
+        "n": "Silver Star Globe",
+        "l": 34,
+        "c": 34828,
+        "t": 89,
+        "p": 5227
+      }
+    },
+    {
+      "type": "item",
+      "id": "14241",
+      "obj": {
+        "i": 14241,
+        "n": "Riptide Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "14242",
+      "obj": {
+        "i": 14242,
+        "n": "Dark Vows Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "14243",
+      "obj": {
+        "i": 14243,
+        "n": "The Dark's Embrace Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "leve",
+      "id": "347",
+      "obj": {
+        "i": 347,
+        "n": "The Writing Is Not on the Wall",
+        "l": 20,
+        "j": 15,
+        "p": 129
+      }
+    }
+  ]
+}

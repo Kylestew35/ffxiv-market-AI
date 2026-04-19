@@ -1,0 +1,53 @@
+{
+  "item": {
+    "name": "Dragon's Crafting Tool Component Materials",
+    "description": "All the materials required to make components for a tool even a dragon can use to craft.",
+    "id": 30505,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 900,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "vendors": [
+      1033785
+    ],
+    "ingredient_of": {
+      "30495": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033785",
+      "obj": {
+        "i": 1033785,
+        "n": "Anna",
+        "l": 3435,
+        "s": 1,
+        "t": "Merchant & Scrip Trader",
+        "a": 3476,
+        "c": [
+          14.25,
+          12.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30495",
+      "obj": {
+        "i": 30495,
+        "n": "Custom Crafting Tool Components",
+        "l": 400,
+        "c": 51373,
+        "t": 61
+      }
+    }
+  ]
+}

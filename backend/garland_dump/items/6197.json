@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Beady Eye",
+    "description": "That feeling you get sometimes that you are being watched? More often than not it is him.<br><br>Use item to acquire the beady eye minion.",
+    "minionrace": "Monster",
+    "tooltip": "Black scorpion to sharpen\r\none's wit; ahriman\r\nmembrane for the mind.\r\n  - Severian",
+    "minionskilltype": "Damage",
+    "specialactionname": "Eyes on Me",
+    "specialactiondescription": "Delivers an attack with a potency of 230 to all enemies within range.",
+    "id": 6197,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59431,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6197",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye",
+      "Gate"
+    ],
+    "attr": {
+      "HP": 440,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 30,
+      "Speed": 3
+    },
+    "models": [
+      "8029-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

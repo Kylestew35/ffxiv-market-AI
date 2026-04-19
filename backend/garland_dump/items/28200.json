@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Amh Araeng Seasonings",
+    "description": "This selection of rare varieties of salt and spices native to Amh Araeng can be used to add a dash of elegance and a pinch of class to even the most unappetizing of dishes.",
+    "id": 28200,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 180,
+    "ilvl": 300,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 25011,
+    "nodes": [
+      591,
+      611
+    ],
+    "satisfaction": [
+      {
+        "level": 2,
+        "npc": 1031801,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          80,
+          80,
+          80
+        ],
+        "gil": [
+          780,
+          980,
+          1170
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              104,
+              127,
+              150
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              76,
+              91,
+              105
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1031801,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "591",
+      "obj": {
+        "i": 591,
+        "n": "Twitch",
+        "l": 70,
+        "t": 1,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "node",
+      "id": "611",
+      "obj": {
+        "i": 611,
+        "n": "Snitch",
+        "l": 70,
+        "t": 3,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031801",
+      "obj": {
+        "i": 1031801,
+        "n": "Kai-Shirr",
+        "l": 2952,
+        "q": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

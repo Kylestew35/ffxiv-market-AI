@@ -1,0 +1,338 @@
+{
+  "item": {
+    "name": "Carrot Nibbles",
+    "description": "Ribbons of thinly sliced carrots of happiness dressed with vinegar make for a healthful and blissfully refreshing dish.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36047,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 527,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Gathering": {
+          "rate": 6,
+          "limit": 76
+        },
+        "Perception": {
+          "rate": 2,
+          "limit": 39
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Gathering": {
+          "rate": 7,
+          "limit": 95
+        },
+        "Perception": {
+          "rate": 3,
+          "limit": 49
+        }
+      }
+    },
+    "icon": 24165,
+    "craft": [
+      {
+        "id": 5262,
+        "job": 15,
+        "rlvl": 535,
+        "durability": 80,
+        "quality": 6700,
+        "progress": 3000,
+        "lvl": 85,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36090,
+            "amount": 2
+          },
+          {
+            "id": 36091,
+            "amount": 2
+          },
+          {
+            "id": 27843,
+            "amount": 1,
+            "quality": 509.78262
+          },
+          {
+            "id": 12878,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 218,
+          "hq": 238
+        }
+      }
+    ],
+    "quests": [
+      69692,
+      69699
+    ],
+    "requiredByLeves": [
+      1643
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 2071750,
+      "seals": 892
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Carrot of Happiness",
+      "id": 36090,
+      "icon": 25207,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "ventures": [
+        923
+      ],
+      "nodes": [
+        902
+      ]
+    },
+    {
+      "name": "Cucumber",
+      "id": 36091,
+      "icon": 25212,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "leves": [
+        1642,
+        1643
+      ],
+      "ventures": [
+        918
+      ],
+      "nodes": [
+        843
+      ]
+    },
+    {
+      "name": "Night Vinegar",
+      "id": 27843,
+      "icon": 25107,
+      "category": 45,
+      "ilvl": 406,
+      "price": 2957,
+      "craft": [
+        {
+          "id": 3882,
+          "job": 15,
+          "rlvl": 406,
+          "durability": 40,
+          "quality": 3280,
+          "progress": 715,
+          "lvl": 75,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27826,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Royal Grapes",
+      "id": 27826,
+      "icon": 24058,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "leves": [
+        1469,
+        1470,
+        1471
+      ],
+      "ventures": [
+        830
+      ],
+      "nodes": [
+        619
+      ]
+    },
+    {
+      "name": "Cyclops Onion",
+      "id": 12878,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        548
+      ],
+      "nodes": [
+        297
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "902",
+      "obj": {
+        "i": 902,
+        "n": "Heimdall's Last Sight",
+        "l": 85,
+        "t": 3,
+        "z": 3711
+      }
+    },
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "item",
+      "id": "27826",
+      "obj": {
+        "i": 27826,
+        "n": "Royal Grapes",
+        "l": 406,
+        "c": 24058,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "619",
+      "obj": {
+        "i": 619,
+        "n": "The Deliberating Doll",
+        "l": 75,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "36090",
+      "obj": {
+        "i": 36090,
+        "n": "Carrot of Happiness",
+        "l": 533,
+        "c": 25207,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36091",
+      "obj": {
+        "i": 36091,
+        "n": "Cucumber",
+        "l": 533,
+        "c": 25212,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27843",
+      "obj": {
+        "i": 27843,
+        "n": "Night Vinegar",
+        "l": 406,
+        "c": 25107,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12878",
+      "obj": {
+        "i": 12878,
+        "n": "Cyclops Onion",
+        "l": 130,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69692",
+      "obj": {
+        "i": 69692,
+        "n": "The Culture of Carrots",
+        "g": 206,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69699",
+      "obj": {
+        "i": 69699,
+        "n": "History Lesson",
+        "g": 207,
+        "l": "Old Sharlayan",
+        "s": 0
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1643",
+      "obj": {
+        "i": 1643,
+        "n": "A Stickler for Carrots",
+        "l": 84,
+        "j": 16,
+        "p": 3706
+      }
+    }
+  ]
+}

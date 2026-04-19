@@ -1,0 +1,100 @@
+{
+  "item": {
+    "name": "Oddly Specific Primordial Ore",
+    "description": "Even among its rocky brethren, this specimen is especially ancient, having weathered the passing of ages, and is regarded as the grandfather of all stones. Well, not literally, that would be impossible for reasons far too complex to explain here. Or anywhere, for that matter.",
+    "id": 31132,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 210,
+    "ilvl": 455,
+    "category": 48,
+    "dyecount": 0,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21225,
+    "nodes": [
+      739,
+      741
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Oddly Specific Materials Exchange (Gathering)",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30337",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31132",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "739",
+      "obj": {
+        "i": 739,
+        "n": "The Aqueduct",
+        "l": 80,
+        "t": 0,
+        "z": 2101,
+        "s": 2
+      }
+    },
+    {
+      "type": "node",
+      "id": "741",
+      "obj": {
+        "i": 741,
+        "n": "Cooling Station",
+        "l": 80,
+        "t": 0,
+        "z": 2101,
+        "s": 2
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30337",
+      "obj": {
+        "i": 30337,
+        "n": "Highly Viscous Miner's Gobbiegoo",
+        "l": 1,
+        "c": 26116,
+        "t": 61
+      }
+    }
+  ]
+}

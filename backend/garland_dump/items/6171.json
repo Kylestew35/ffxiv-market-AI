@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Serpent Hatchling",
+    "description": "Not more than a fortnight out of the shell, but his blood already runs Twin Adder yellow.<br><br>Use item to acquire the serpent hatchling minion.",
+    "minionrace": "Critter",
+    "tooltip": "Chocobo dander can\r\nbe a mite ripe.\r\n  - Chocobokeep",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Serpent Cry",
+    "specialactiondescription": "Removes all effects from all enemies and allies within range.",
+    "id": 6171,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59410,
+    "tradeShops": [
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6171",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 20000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 350,
+      "Skill Cost": 20,
+      "Attack": 55,
+      "Defense": 35,
+      "Speed": 3
+    },
+    "models": [
+      "8002-3-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,982 @@
+{
+  "item": {
+    "name": "Hingan Chochin Lantern",
+    "description": "A round paper lantern with a handle attached for easy transportation.",
+    "id": 20742,
+    "patch": 4.1,
+    "patchCategory": 9,
+    "price": 239,
+    "ilvl": 260,
+    "category": 79,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 51366,
+    "craft": [
+      {
+        "id": 3731,
+        "job": 8,
+        "rlvl": 255,
+        "durability": 80,
+        "quality": 1395,
+        "progress": 630,
+        "lvl": 61,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 19925,
+            "amount": 1,
+            "quality": 275.75583
+          },
+          {
+            "id": 5366,
+            "amount": 2,
+            "quality": 124.360466
+          },
+          {
+            "id": 5501,
+            "amount": 2
+          },
+          {
+            "id": 5998,
+            "amount": 1
+          },
+          {
+            "id": 4,
+            "amount": 7
+          },
+          {
+            "id": 3,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 318,
+          "hq": 338
+        }
+      }
+    ],
+    "ingredient_of": {
+      "22582": 1
+    },
+    "furniture": 1,
+    "models": [
+      "571"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Beech Lumber",
+      "id": 19925,
+      "icon": 22460,
+      "category": 50,
+      "ilvl": 255,
+      "price": 2928,
+      "craft": [
+        {
+          "id": 3608,
+          "job": 8,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19930,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        20747
+      ],
+      "treasure": [
+        17835
+      ],
+      "leves": [
+        1238,
+        1239
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Beech Log",
+      "id": 19930,
+      "icon": 22412,
+      "category": 50,
+      "ilvl": 255,
+      "price": 504,
+      "leves": [
+        1240
+      ],
+      "ventures": [
+        669
+      ],
+      "drops": [
+        74350000005671
+      ],
+      "nodes": [
+        506
+      ]
+    },
+    {
+      "name": "Cedar Lumber",
+      "id": 5366,
+      "icon": 22467,
+      "category": 50,
+      "ilvl": 115,
+      "price": 2448,
+      "craft": [
+        {
+          "id": 2195,
+          "job": 8,
+          "rlvl": 115,
+          "durability": 40,
+          "quality": 1656,
+          "progress": 110,
+          "lvl": 51,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5384,
+              "amount": 5
+            },
+            {
+              "id": 10,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 58,
+            "hq": 78
+          }
+        }
+      ],
+      "desynthedFrom": [
+        20680,
+        37376,
+        20689,
+        11148,
+        11088,
+        9004,
+        11143,
+        12101,
+        23877
+      ],
+      "tradeShops": [
+        {
+          "shop": "Sky Pirate Spoils (Steel)",
+          "npcs": [
+            1016261,
+            1016496,
+            1016498,
+            1016500,
+            1019106
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5366",
+                  "amount": 9
+                }
+              ],
+              "currency": [
+                {
+                  "id": "13631",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        914,
+        915,
+        916,
+        917,
+        918,
+        919
+      ],
+      "vendors": [
+        1017188
+      ]
+    },
+    {
+      "name": "Cedar Log",
+      "id": 5384,
+      "icon": 22415,
+      "category": 50,
+      "ilvl": 115,
+      "price": 637,
+      "leves": [
+        908,
+        909,
+        910,
+        911,
+        912,
+        913
+      ],
+      "ventures": [
+        463
+      ],
+      "nodes": [
+        294
+      ]
+    },
+    {
+      "name": "Potash",
+      "id": 5501,
+      "icon": 27612,
+      "category": 54,
+      "ilvl": 70,
+      "price": 1191,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5501",
+                  "amount": 2
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5501",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5501",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5501",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "name": "Tallow Candle",
+      "id": 5998,
+      "icon": 26102,
+      "category": 61,
+      "ilvl": 20,
+      "price": 225,
+      "desynthedFrom": [
+        21869,
+        44109
+      ],
+      "drops": [
+        29360000002754,
+        29370000002753,
+        27190000002596,
+        27180000002594,
+        27200000002595
+      ],
+      "vendors": [
+        1000236,
+        1001204,
+        1001966,
+        1011201,
+        1018984,
+        1019333,
+        1027992
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19930",
+      "obj": {
+        "i": 19930,
+        "n": "Beech Log",
+        "l": 255,
+        "c": 22412,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "506",
+      "obj": {
+        "i": 506,
+        "n": "East End",
+        "l": 65,
+        "t": 2,
+        "z": 2406
+      }
+    },
+    {
+      "type": "mob",
+      "id": "74350000005671",
+      "obj": {
+        "i": 74350000005671,
+        "n": "Leshy",
+        "l": "60",
+        "z": 2406
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017188",
+      "obj": {
+        "i": 1017188,
+        "n": "Scrap Salvager",
+        "l": 2082,
+        "s": 3,
+        "c": [
+          "5.9",
+          "7.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13631",
+      "obj": {
+        "i": 13631,
+        "n": "Steel Sky Pirate Spoil",
+        "l": 1,
+        "c": 25951,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5384",
+      "obj": {
+        "i": 5384,
+        "n": "Cedar Log",
+        "l": 115,
+        "c": 22415,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "294",
+      "obj": {
+        "i": 294,
+        "n": "Riversmeet",
+        "l": 50,
+        "t": 2,
+        "z": 2200,
+        "s": 3
+      }
+    },
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000236",
+      "obj": {
+        "i": 1000236,
+        "n": "O'rhoyod",
+        "l": 53,
+        "s": 1,
+        "t": "Tradecraft Supplier",
+        "a": 564,
+        "c": [
+          14.42,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001204",
+      "obj": {
+        "i": 1001204,
+        "n": "Engerrand",
+        "l": 29,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Supplier",
+        "a": 744,
+        "c": [
+          8.66,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001966",
+      "obj": {
+        "i": 1001966,
+        "n": "Fridurih",
+        "l": 41,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Merchant",
+        "a": 646,
+        "c": [
+          13.79,
+          9.57
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27180000002594",
+      "obj": {
+        "i": 27180000002594,
+        "n": "Champion Gladiator",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27200000002595",
+      "obj": {
+        "i": 27200000002595,
+        "n": "Champion Lancer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27190000002596",
+      "obj": {
+        "i": 27190000002596,
+        "n": "Champion Marauder",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29370000002753",
+      "obj": {
+        "i": 29370000002753,
+        "n": "Champion Conjurer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29360000002754",
+      "obj": {
+        "i": 29360000002754,
+        "n": "Champion Archer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "19925",
+      "obj": {
+        "i": 19925,
+        "n": "Beech Lumber",
+        "l": 255,
+        "c": 22460,
+        "t": 50,
+        "p": 2928
+      }
+    },
+    {
+      "type": "item",
+      "id": "5366",
+      "obj": {
+        "i": 5366,
+        "n": "Cedar Lumber",
+        "l": 115,
+        "c": 22467,
+        "t": 50,
+        "p": 2448
+      }
+    },
+    {
+      "type": "item",
+      "id": "5501",
+      "obj": {
+        "i": 5501,
+        "n": "Potash",
+        "l": 70,
+        "c": 27612,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5998",
+      "obj": {
+        "i": 5998,
+        "n": "Tallow Candle",
+        "l": 20,
+        "c": 26102,
+        "t": 61,
+        "p": 225
+      }
+    },
+    {
+      "type": "item",
+      "id": "22582",
+      "obj": {
+        "i": 22582,
+        "n": "Odder Otter Andon Lamp",
+        "l": 1,
+        "c": 52261,
+        "t": 76
+      }
+    }
+  ]
+}

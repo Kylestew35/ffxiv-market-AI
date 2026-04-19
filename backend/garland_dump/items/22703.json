@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Trinket Component Materials",
+    "description": "Various materials necessary to craft components for inexpensive trinkets.<br><br>※Only for use in Namazu society quests.",
+    "id": 22703,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 145,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "22729": 1
+    },
+    "usedInQuest": [
+      68644
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22729",
+      "obj": {
+        "i": 22729,
+        "n": "Trinket Components",
+        "l": 145,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68644",
+      "obj": {
+        "i": 68644,
+        "n": "Simpler Gifts",
+        "g": 61,
+        "l": "The Azim Steppe",
+        "s": 6,
+        "r": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "item": {
+    "name": "Laghman",
+    "description": "A popular comfort food in Othard consisting of thick, chewy noodles and tender minced dzo in a wholesome broth.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 24276,
+    "patch": 4.4,
+    "patchCategory": 6,
+    "price": 2368,
+    "ilvl": 370,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Tenacity": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 42
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 23
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Tenacity": {
+          "rate": 10,
+          "limit": 48
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 52
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 29
+        }
+      }
+    },
+    "icon": 24026,
+    "craft": [
+      {
+        "id": 33169,
+        "job": 15,
+        "rlvl": 380,
+        "durability": 70,
+        "quality": 6100,
+        "progress": 1500,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1600,
+        "craftsmanshipReq": 1650,
+        "quickSynthCraftsmanship": 2000,
+        "unlockId": 22316,
+        "ingredients": [
+          {
+            "id": 21089,
+            "amount": 1
+          },
+          {
+            "id": 19841,
+            "amount": 2,
+            "quality": 547.71124
+          },
+          {
+            "id": 19873,
+            "amount": 1
+          },
+          {
+            "id": 19858,
+            "amount": 1
+          },
+          {
+            "id": 4839,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 439,
+          "hq": 459
+        }
+      }
+    ],
+    "quests": [
+      68679,
+      68716
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Secret Recipe Broth",
+      "id": 21089,
+      "icon": 25055,
+      "category": 45,
+      "ilvl": 320,
+      "price": 2186,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21089",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21089",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gyr Abanian Flour",
+      "id": 19841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 255,
+      "price": 504,
+      "craft": [
+        {
+          "id": 3581,
+          "job": 15,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19868,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gyr Abanian Wheat",
+      "id": 19868,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 255,
+      "price": 504,
+      "leves": [
+        1298,
+        1299,
+        1300
+      ],
+      "ventures": [
+        680
+      ],
+      "nodes": [
+        505
+      ]
+    },
+    {
+      "name": "Dzo Chuck",
+      "id": 19873,
+      "icon": 25159,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "instances": [
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "ventures": [
+        718
+      ],
+      "drops": [
+        66320000005773
+      ]
+    },
+    {
+      "name": "Gyr Abanian Carrot",
+      "id": 19858,
+      "icon": 25207,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        695
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Laurel",
+      "id": 4839,
+      "icon": 25009,
+      "category": 45,
+      "ilvl": 35,
+      "price": 129,
+      "ventures": [
+        279
+      ],
+      "nodes": [
+        133
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "19868",
+      "obj": {
+        "i": 19868,
+        "n": "Gyr Abanian Wheat",
+        "l": 255,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "505",
+      "obj": {
+        "i": 505,
+        "n": "East End",
+        "l": 60,
+        "t": 3,
+        "z": 2406,
+        "s": 2
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66320000005773",
+      "obj": {
+        "i": 66320000005773,
+        "n": "Steppe Dzo",
+        "l": "65",
+        "z": 2411
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "133",
+      "obj": {
+        "i": 133,
+        "n": "Broken Water",
+        "l": 35,
+        "t": 3,
+        "z": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "22316",
+      "obj": {
+        "i": 22316,
+        "n": "Master Culinarian VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21089",
+      "obj": {
+        "i": 21089,
+        "n": "Secret Recipe Broth",
+        "l": 320,
+        "c": 25055,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19841",
+      "obj": {
+        "i": 19841,
+        "n": "Gyr Abanian Flour",
+        "l": 255,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19873",
+      "obj": {
+        "i": 19873,
+        "n": "Dzo Chuck",
+        "l": 276,
+        "c": 25159,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19858",
+      "obj": {
+        "i": 19858,
+        "n": "Gyr Abanian Carrot",
+        "l": 279,
+        "c": 25207,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4839",
+      "obj": {
+        "i": 4839,
+        "n": "Laurel",
+        "l": 35,
+        "c": 25009,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68679",
+      "obj": {
+        "i": 68679,
+        "n": "Sisterly Act",
+        "g": 7,
+        "l": "The Rising Stones",
+        "s": 27
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68716",
+      "obj": {
+        "i": 68716,
+        "n": "A Defector's Tidings",
+        "g": 7,
+        "l": "The Dravanian Hinterlands",
+        "s": 35
+      }
+    }
+  ]
+}

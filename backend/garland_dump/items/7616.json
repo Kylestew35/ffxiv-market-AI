@@ -1,0 +1,502 @@
+{
+  "item": {
+    "name": "Gryphonskin Strap",
+    "description": "A continuous strap of leather painstakingly wrought from gryphonskin.",
+    "id": 7616,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 1247,
+    "ilvl": 70,
+    "category": 52,
+    "dyecount": 0,
+    "sell_price": 19,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22030,
+    "tradeCurrency": [
+      {
+        "shop": "Artisan Tools (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7527",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7616",
+                "amount": 2,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Artisan Gear (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7521",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7616",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10053",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7616",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10047",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7616",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10048",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7616",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10145",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7616",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "4720",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7616",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 30301,
+        "job": 12,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "controlReq": 318,
+        "craftsmanshipReq": 347,
+        "unlockId": 7782,
+        "ingredients": [
+          {
+            "id": 5288,
+            "amount": 2,
+            "quality": 625.0
+          },
+          {
+            "id": 5,
+            "amount": 11
+          },
+          {
+            "id": 4,
+            "amount": 10
+          }
+        ],
+        "complexity": {
+          "nq": 296,
+          "hq": 316
+        }
+      }
+    ],
+    "ingredient_of": {
+      "8036": 1
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Hippogryph Leather",
+      "id": 5288,
+      "icon": 22021,
+      "category": 52,
+      "ilvl": 55,
+      "price": 980,
+      "craft": [
+        {
+          "id": 1305,
+          "job": 12,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5316,
+              "amount": 1
+            },
+            {
+              "id": 5525,
+              "amount": 1
+            },
+            {
+              "id": 11,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 109,
+            "hq": 129
+          }
+        }
+      ],
+      "desynthedFrom": [
+        8252,
+        7496,
+        7502,
+        7508,
+        5569,
+        8250
+      ]
+    },
+    {
+      "name": "Hippogryph Skin",
+      "id": 5316,
+      "icon": 21805,
+      "category": 52,
+      "ilvl": 55,
+      "price": 479,
+      "treasure": [
+        5316
+      ],
+      "instances": [
+        10,
+        10
+      ],
+      "drops": [
+        17400000001688,
+        23400000002276,
+        28270000002669,
+        17980000001444,
+        6450000000789
+      ]
+    },
+    {
+      "name": "Black Alumen",
+      "id": 5525,
+      "icon": 22604,
+      "category": 54,
+      "ilvl": 37,
+      "price": 189,
+      "ventures": [
+        145
+      ],
+      "nodes": [
+        49
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5316",
+      "obj": {
+        "i": 5316,
+        "n": "Hippogryph Skin",
+        "l": 55,
+        "c": 21805,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5525",
+      "obj": {
+        "i": 5525,
+        "n": "Black Alumen",
+        "l": 37,
+        "c": 22604,
+        "t": 54
+      }
+    },
+    {
+      "type": "instance",
+      "id": "10",
+      "obj": {
+        "i": 10,
+        "n": "The Wanderer's Palace",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "mob",
+      "id": "6450000000789",
+      "obj": {
+        "i": 6450000000789,
+        "n": "Hippogryph",
+        "l": "46",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17980000001444",
+      "obj": {
+        "i": 17980000001444,
+        "n": "Gwyllgi",
+        "l": "46",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17400000001688",
+      "obj": {
+        "i": 17400000001688,
+        "n": "Recluse Hippogryph",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "23400000002276",
+      "obj": {
+        "i": 23400000002276,
+        "n": "Pit Hippogryph",
+        "l": "50",
+        "z": 48
+      }
+    },
+    {
+      "type": "mob",
+      "id": "28270000002669",
+      "obj": {
+        "i": 28270000002669,
+        "n": "Crossing Hippocerf",
+        "l": "50",
+        "z": 386
+      }
+    },
+    {
+      "type": "node",
+      "id": "49",
+      "obj": {
+        "i": 49,
+        "n": "Urth's Gift",
+        "l": 40,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7527",
+      "obj": {
+        "i": 7527,
+        "n": "Artisan's Round Knife",
+        "l": 70,
+        "c": 35412,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "7521",
+      "obj": {
+        "i": 7521,
+        "n": "Artisan's Spectacles",
+        "l": 70,
+        "c": 40925,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10053",
+      "obj": {
+        "i": 10053,
+        "n": "Artisan's Gown",
+        "l": 70,
+        "c": 42413,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10047",
+      "obj": {
+        "i": 10047,
+        "n": "Artisan's Fingerstalls",
+        "l": 70,
+        "c": 44298,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10048",
+      "obj": {
+        "i": 10048,
+        "n": "Artisan's Chausses",
+        "l": 70,
+        "c": 45522,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "10145",
+      "obj": {
+        "i": 10145,
+        "n": "Artisan's Pattens",
+        "l": 70,
+        "c": 46440,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "4720",
+      "obj": {
+        "i": 4720,
+        "n": "Fish Soup",
+        "l": 43,
+        "c": 24105,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "7782",
+      "obj": {
+        "i": 7782,
+        "n": "Master Leatherworker I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5288",
+      "obj": {
+        "i": 5288,
+        "n": "Hippogryph Leather",
+        "l": 55,
+        "c": 22021,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "8036",
+      "obj": {
+        "i": 8036,
+        "n": "Water-hardened Hippogryph Strap",
+        "l": 75,
+        "c": 22030,
+        "t": 52
+      }
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "item": {
+    "name": "Patient Necessity Materials",
+    "description": "Cleanliness being paramount, the infirmary can never have too many items such as soap─nor the materials with which they are made.",
+    "id": 33229,
+    "patch": 5.5,
+    "patchCategory": 5,
+    "price": 233,
+    "ilvl": 345,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 27614,
+    "nodes": [
+      808,
+      809
+    ],
+    "satisfaction": [
+      {
+        "level": 1,
+        "npc": 1035211,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          30,
+          30,
+          30
+        ],
+        "gil": [
+          670,
+          840,
+          1000
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              94,
+              117,
+              140
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              71,
+              86,
+              100
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1035211,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "808",
+      "obj": {
+        "i": 808,
+        "n": "The Answering Quarter",
+        "l": 75,
+        "t": 0,
+        "z": 2001
+      }
+    },
+    {
+      "type": "node",
+      "id": "809",
+      "obj": {
+        "i": 809,
+        "n": "The Makers' Quarter",
+        "l": 75,
+        "t": 2,
+        "z": 2001
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1035211",
+      "obj": {
+        "i": 1035211,
+        "n": "Charlemend",
+        "l": 3435
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

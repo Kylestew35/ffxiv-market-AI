@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Weathered Astrum Sabatons",
+    "jobCategories": "LNC DRG RPR",
+    "id": 7242,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 22809,
+    "ilvl": 100,
+    "category": 38,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 295,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 8,
+    "elvl": 50,
+    "jobs": 76,
+    "models": [
+      "152-1-0-0"
+    ],
+    "attr": {
+      "Defense": 94,
+      "Magic Defense": 74,
+      "Strength": 22,
+      "Vitality": 23,
+      "Direct Hit Rate": 25,
+      "Determination": 18
+    },
+    "icon": 46932,
+    "sharedModels": [
+      7308,
+      10752
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (DoW)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7308",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7242",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7308",
+      "obj": {
+        "i": 7308,
+        "n": "Astrum Sabatons",
+        "l": 110,
+        "c": 46932,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "10752",
+      "obj": {
+        "i": 10752,
+        "n": "Adamantite Leg Guards of Maiming",
+        "l": 150,
+        "c": 47021,
+        "t": 38,
+        "p": 22809
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

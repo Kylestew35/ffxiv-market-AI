@@ -1,0 +1,131 @@
+{
+  "item": {
+    "name": "Wide-eyed Fawn",
+    "description": "His mother was either lost in a terrible hunting accident...or perhaps is just lost.<br><br>Use item to acquire the wide-eyed fawn minion.",
+    "minionrace": "Critter",
+    "tooltip": "When making an offering\r\nof antelope innards, it is\r\nproper they are still warm.\r\n  - Common Knowledge",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Dilation",
+    "specialactiondescription": "Renders all allies within range immune to attacks by <span class=\"highlight\">monsters</span>.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 6178,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59417,
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (Other)",
+        "npcs": [
+          1008119
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6178",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6178",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 20,
+      "Attack": 55,
+      "Defense": 40,
+      "Speed": 4
+    },
+    "models": [
+      "8011-1-1"
+    ],
+    "treasure": [
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

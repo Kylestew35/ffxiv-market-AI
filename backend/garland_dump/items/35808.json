@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Haunted Pumpkin Set",
+    "description": "Quite why ghosts would wish to haunt an assortment of prize gourds is anyone's guess. Perhaps they are the vengeful spirits of runners-up in a vegetable-growing contest?",
+    "id": 35808,
+    "patch": 6.0,
+    "patchCategory": 9,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 76,
+    "dyecount": 0,
+    "sell_price": 57,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 52321,
+    "tradeShops": [
+      {
+        "shop": "Pumpkin Cookies",
+        "npcs": [
+          1035274
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35808",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35832",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1035274",
+      "obj": {
+        "i": 1035274,
+        "n": "Shady Smock",
+        "l": 53,
+        "s": 1,
+        "t": "Continental Circus Vendor",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.31,
+          9.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35832",
+      "obj": {
+        "i": 35832,
+        "n": "Pumpkin Cookie",
+        "l": 1,
+        "c": 24067,
+        "t": 85
+      }
+    }
+  ]
+}

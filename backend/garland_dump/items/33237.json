@@ -1,0 +1,53 @@
+{
+  "item": {
+    "name": "High Tea Components",
+    "description": "An assortment of components suitable for crafting items required for hosting high tea at Ser Vaindreau's Grace.",
+    "id": 33237,
+    "patch": 5.5,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 1,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25979,
+    "vendors": [
+      1035213
+    ],
+    "ingredient_of": {
+      "33227": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1035213",
+      "obj": {
+        "i": 1035213,
+        "n": "Diana",
+        "l": 3435,
+        "s": 1,
+        "t": "Merchant & Scrip Trader",
+        "a": 3636,
+        "c": [
+          9.85,
+          8.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33227",
+      "obj": {
+        "i": 33227,
+        "n": "High Tea Essentials",
+        "l": 406,
+        "c": 53037,
+        "t": 61
+      }
+    }
+  ]
+}

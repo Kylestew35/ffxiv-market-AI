@@ -1,0 +1,240 @@
+{
+  "item": {
+    "name": "Super-Ether",
+    "description": "Processed via the alchemical extraction of aetheric essence occurring in elemental crystals, the contents of this vial instantly restore a significant amount of MP.",
+    "id": 23168,
+    "patch": 4.3,
+    "patchCategory": 4,
+    "price": 4416,
+    "ilvl": 290,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 69,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "MP": {
+          "rate": 14,
+          "limit": 1400
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "MP": {
+          "rate": 18,
+          "limit": 1800
+        }
+      }
+    },
+    "icon": 20627,
+    "craft": [
+      {
+        "id": 3762,
+        "job": 14,
+        "rlvl": 290,
+        "durability": 80,
+        "quality": 3600,
+        "progress": 1080,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19872,
+            "amount": 1
+          },
+          {
+            "id": 19914,
+            "amount": 1
+          },
+          {
+            "id": 19915,
+            "amount": 1
+          },
+          {
+            "id": 19853,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 6
+          },
+          {
+            "id": 12,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 100,
+          "hq": 120
+        }
+      }
+    ],
+    "quests": [
+      68552
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Crescent Spring Water",
+      "id": 19872,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 273,
+      "price": 540,
+      "leves": [
+        1322,
+        1324
+      ],
+      "ventures": [
+        651
+      ],
+      "nodes": [
+        488
+      ]
+    },
+    {
+      "name": "Chickweed",
+      "id": 19914,
+      "icon": 25008,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        704
+      ],
+      "nodes": [
+        519
+      ]
+    },
+    {
+      "name": "Nipplewort",
+      "id": 19915,
+      "icon": 25030,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "ventures": [
+        705
+      ],
+      "nodes": [
+        519
+      ]
+    },
+    {
+      "name": "Kudzu Root",
+      "id": 19853,
+      "icon": 25005,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        691
+      ],
+      "nodes": [
+        509
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "488",
+      "obj": {
+        "i": 488,
+        "n": "The Gensui Chain",
+        "l": 65,
+        "t": 0,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "519",
+      "obj": {
+        "i": 519,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 3,
+        "z": 2411
+      }
+    },
+    {
+      "type": "node",
+      "id": "509",
+      "obj": {
+        "i": 509,
+        "n": "Dimwold",
+        "l": 65,
+        "t": 3,
+        "z": 2406
+      }
+    },
+    {
+      "type": "item",
+      "id": "19872",
+      "obj": {
+        "i": 19872,
+        "n": "Crescent Spring Water",
+        "l": 273,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19914",
+      "obj": {
+        "i": 19914,
+        "n": "Chickweed",
+        "l": 285,
+        "c": 25008,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19915",
+      "obj": {
+        "i": 19915,
+        "n": "Nipplewort",
+        "l": 288,
+        "c": 25030,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68552",
+      "obj": {
+        "i": 68552,
+        "n": "Tortoise in Time",
+        "g": 25,
+        "l": "The Ruby Sea",
+        "s": 311,
+        "f": 1
+      }
+    }
+  ]
+}

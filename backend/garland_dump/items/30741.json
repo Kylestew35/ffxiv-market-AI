@@ -1,0 +1,207 @@
+{
+  "item": {
+    "name": "Bozjan Coat of Healing",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 30741,
+    "patch": 5.35,
+    "patchCategory": 0,
+    "price": 2,
+    "ilvl": 495,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 2,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 80,
+    "jobs": 64,
+    "models": [
+      "670-1-0-0"
+    ],
+    "attr": {
+      "Defense": 304,
+      "Magic Defense": 531,
+      "Mind": 187,
+      "Vitality": 174,
+      "Critical Hit": 184,
+      "Determination": 129
+    },
+    "attr_max": {
+      "Strength": 131,
+      "Dexterity": 187,
+      "Vitality": 193,
+      "Intelligence": 131,
+      "Piety": 129,
+      "GP": 8,
+      "CP": 6,
+      "Tenacity": 184,
+      "Defense": 417,
+      "Direct Hit Rate": 184,
+      "Fire Resistance": 25,
+      "Ice Resistance": 25,
+      "Wind Resistance": 25,
+      "Earth Resistance": 25,
+      "Lightning Resistance": 25,
+      "Water Resistance": 25,
+      "Determination": 184,
+      "Skill Speed": 184,
+      "Spell Speed": 184,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 825,
+      "Control": 316,
+      "Gathering": 550,
+      "Perception": 275
+    },
+    "icon": 43921,
+    "sharedModels": [
+      30746,
+      31384,
+      31389
+    ],
+    "tradeShops": [
+      {
+        "shop": "Bozjan Gear Exchange",
+        "npcs": [
+          1034205
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30741",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31351",
+                "amount": 28
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Bozjan Gear Augmentation",
+        "npcs": [
+          1034205
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "31384",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30741",
+                "amount": 1
+              },
+              {
+                "id": "31353",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "30746",
+      "obj": {
+        "i": 30746,
+        "n": "Bozjan Coat of Casting",
+        "l": 495,
+        "c": 43920,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31384",
+      "obj": {
+        "i": 31384,
+        "n": "Augmented Bozjan Coat of Healing",
+        "l": 495,
+        "c": 43921,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31389",
+      "obj": {
+        "i": 31389,
+        "n": "Augmented Bozjan Coat of Casting",
+        "l": 495,
+        "c": 43920,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1034205",
+      "obj": {
+        "i": 1034205,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 2,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31351",
+      "obj": {
+        "i": 31351,
+        "n": "Bozjan Coin",
+        "l": 1,
+        "c": 26272,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31353",
+      "obj": {
+        "i": 31353,
+        "n": "Bozjan Runner's Secrets (Body Gear)",
+        "l": 1,
+        "c": 26108,
+        "t": 61
+      }
+    }
+  ]
+}

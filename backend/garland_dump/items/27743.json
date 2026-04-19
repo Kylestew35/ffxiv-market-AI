@@ -1,0 +1,820 @@
+{
+  "item": {
+    "name": "Chalicotherium Leather",
+    "description": "A large piece of cured chalicotherium skin.",
+    "id": 27743,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 450,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22007,
+    "craft": [
+      {
+        "id": 33330,
+        "job": 12,
+        "rlvl": 450,
+        "durability": 35,
+        "quality": 6320,
+        "progress": 1640,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24270,
+        "ingredients": [
+          {
+            "id": 27737,
+            "amount": 4
+          },
+          {
+            "id": 27744,
+            "amount": 2
+          },
+          {
+            "id": 17,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 820,
+          "hq": 840
+        }
+      }
+    ],
+    "ingredient_of": {
+      "26438": 2,
+      "26439": 2,
+      "26449": 2,
+      "26452": 1,
+      "26455": 2,
+      "26458": 1,
+      "26459": 2,
+      "26460": 2,
+      "26461": 2,
+      "26462": 2,
+      "26465": 1,
+      "26467": 2,
+      "26468": 2,
+      "26470": 1,
+      "26471": 1,
+      "26472": 2,
+      "26473": 2,
+      "26474": 2,
+      "26476": 1,
+      "26477": 1,
+      "26479": 2,
+      "26480": 2,
+      "26482": 1,
+      "26483": 1,
+      "26484": 2,
+      "26485": 2,
+      "26486": 2,
+      "28474": 2,
+      "28476": 2,
+      "28477": 2,
+      "28481": 2,
+      "28589": 2,
+      "28591": 2,
+      "30057": 2,
+      "33888": 1,
+      "33897": 3,
+      "33898": 2,
+      "33903": 1,
+      "38542": 1,
+      "38551": 3,
+      "38552": 2,
+      "38557": 1
+    },
+    "desynthedFrom": [
+      31799,
+      31795,
+      31797,
+      26485,
+      32597,
+      32612,
+      30698
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Chalicotherium Skin",
+      "id": 27737,
+      "icon": 21808,
+      "category": 52,
+      "ilvl": 450,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27737",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27737",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Multifaceted Alumen",
+      "id": 27744,
+      "icon": 22656,
+      "category": 54,
+      "ilvl": 450,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27744",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27744",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "24270",
+      "obj": {
+        "i": 24270,
+        "n": "Master Leatherworker VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27737",
+      "obj": {
+        "i": 27737,
+        "n": "Chalicotherium Skin",
+        "l": 450,
+        "c": 21808,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "27744",
+      "obj": {
+        "i": 27744,
+        "n": "Multifaceted Alumen",
+        "l": 450,
+        "c": 22656,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26438",
+      "obj": {
+        "i": 26438,
+        "n": "Galdrabok",
+        "l": 450,
+        "c": 33290,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "26439",
+      "obj": {
+        "i": 26439,
+        "n": "Pragmatism",
+        "l": 450,
+        "c": 33289,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "26449",
+      "obj": {
+        "i": 26449,
+        "n": "Facet Chain Hose of Fending",
+        "l": 450,
+        "c": 47561,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26452",
+      "obj": {
+        "i": 26452,
+        "n": "Facet Circlet of Maiming",
+        "l": 450,
+        "c": 40334,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26455",
+      "obj": {
+        "i": 26455,
+        "n": "Facet Bottoms of Maiming",
+        "l": 450,
+        "c": 47563,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26458",
+      "obj": {
+        "i": 26458,
+        "n": "Facet Circlet of Striking",
+        "l": 450,
+        "c": 40834,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26459",
+      "obj": {
+        "i": 26459,
+        "n": "Facet Cyclas of Striking",
+        "l": 450,
+        "c": 43448,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26460",
+      "obj": {
+        "i": 26460,
+        "n": "Facet Gloves of Striking",
+        "l": 450,
+        "c": 48775,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "26461",
+      "obj": {
+        "i": 26461,
+        "n": "Facet Gaskins of Striking",
+        "l": 450,
+        "c": 47564,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26462",
+      "obj": {
+        "i": 26462,
+        "n": "Facet Sandals of Striking",
+        "l": 450,
+        "c": 49033,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26465",
+      "obj": {
+        "i": 26465,
+        "n": "Facet Tabard of Aiming",
+        "l": 450,
+        "c": 43449,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26467",
+      "obj": {
+        "i": 26467,
+        "n": "Facet Brais of Aiming",
+        "l": 450,
+        "c": 47565,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26468",
+      "obj": {
+        "i": 26468,
+        "n": "Facet Boots of Aiming",
+        "l": 450,
+        "c": 49034,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26470",
+      "obj": {
+        "i": 26470,
+        "n": "Facet Turban of Scouting",
+        "l": 450,
+        "c": 41452,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26471",
+      "obj": {
+        "i": 26471,
+        "n": "Facet Dolman of Scouting",
+        "l": 450,
+        "c": 43450,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26472",
+      "obj": {
+        "i": 26472,
+        "n": "Facet Gloves of Scouting",
+        "l": 450,
+        "c": 48776,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "26473",
+      "obj": {
+        "i": 26473,
+        "n": "Facet Bottoms of Scouting",
+        "l": 450,
+        "c": 47566,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26474",
+      "obj": {
+        "i": 26474,
+        "n": "Facet Thighboots of Scouting",
+        "l": 450,
+        "c": 47202,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26476",
+      "obj": {
+        "i": 26476,
+        "n": "Facet Hat of Healing",
+        "l": 450,
+        "c": 41451,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26477",
+      "obj": {
+        "i": 26477,
+        "n": "Facet Coat of Healing",
+        "l": 450,
+        "c": 43880,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26479",
+      "obj": {
+        "i": 26479,
+        "n": "Facet Trousers of Healing",
+        "l": 450,
+        "c": 47562,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26480",
+      "obj": {
+        "i": 26480,
+        "n": "Facet Boots of Healing",
+        "l": 450,
+        "c": 49032,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "26482",
+      "obj": {
+        "i": 26482,
+        "n": "Facet Hat of Casting",
+        "l": 450,
+        "c": 41450,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "26483",
+      "obj": {
+        "i": 26483,
+        "n": "Facet Coat of Casting",
+        "l": 450,
+        "c": 43879,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "26484",
+      "obj": {
+        "i": 26484,
+        "n": "Facet Halfgloves of Casting",
+        "l": 450,
+        "c": 44706,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "26485",
+      "obj": {
+        "i": 26485,
+        "n": "Facet Bottoms of Casting",
+        "l": 450,
+        "c": 47560,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "26486",
+      "obj": {
+        "i": 26486,
+        "n": "Facet Boots of Casting",
+        "l": 450,
+        "c": 49031,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28474",
+      "obj": {
+        "i": 28474,
+        "n": "Facet Gloves of Crafting",
+        "l": 460,
+        "c": 44758,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28476",
+      "obj": {
+        "i": 28476,
+        "n": "Facet Boots of Crafting",
+        "l": 460,
+        "c": 49098,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28477",
+      "obj": {
+        "i": 28477,
+        "n": "Facet Cap of Gathering",
+        "l": 460,
+        "c": 41478,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28481",
+      "obj": {
+        "i": 28481,
+        "n": "Facet Boots of Gathering",
+        "l": 460,
+        "c": 49097,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28589",
+      "obj": {
+        "i": 28589,
+        "n": "Urban Boots",
+        "l": 1,
+        "c": 49208,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28591",
+      "obj": {
+        "i": 28591,
+        "n": "Rebel Boots",
+        "l": 1,
+        "c": 49209,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "30057",
+      "obj": {
+        "i": 30057,
+        "n": "Dalmascan Leather Shoes",
+        "l": 1,
+        "c": 49239,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "33888",
+      "obj": {
+        "i": 33888,
+        "n": "Augmented Zelos",
+        "l": 430,
+        "c": 31181,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "33897",
+      "obj": {
+        "i": 33897,
+        "n": "Augmented Epikairekakia",
+        "l": 430,
+        "c": 33316,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "33898",
+      "obj": {
+        "i": 33898,
+        "n": "Augmented Enochlesis",
+        "l": 430,
+        "c": 33315,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "33903",
+      "obj": {
+        "i": 33903,
+        "n": "Augmented Zelotupia",
+        "l": 430,
+        "c": 36237,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "38542",
+      "obj": {
+        "i": 38542,
+        "n": "The Fae's Crown Claws",
+        "l": 430,
+        "c": 31166,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "38551",
+      "obj": {
+        "i": 38551,
+        "n": "The Fae's Crown Grimoire",
+        "l": 430,
+        "c": 33286,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "38552",
+      "obj": {
+        "i": 38552,
+        "n": "The Fae's Crown Codex",
+        "l": 430,
+        "c": 33285,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "38557",
+      "obj": {
+        "i": 38557,
+        "n": "The Fae's Crown Tathlums",
+        "l": 430,
+        "c": 36217,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "31799",
+      "obj": {
+        "i": 31799,
+        "n": "Landsaint's Coat",
+        "l": 500,
+        "c": 43926,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "31795",
+      "obj": {
+        "i": 31795,
+        "n": "Handsaint's Fingerless Gloves",
+        "l": 500,
+        "c": 44827,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "31797",
+      "obj": {
+        "i": 31797,
+        "n": "Handsaint's Shoes",
+        "l": 500,
+        "c": 49294,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "32597",
+      "obj": {
+        "i": 32597,
+        "n": "Heirloom Jacket of Aiming",
+        "l": 485,
+        "c": 43546,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "32612",
+      "obj": {
+        "i": 32612,
+        "n": "Heirloom Shoes of Healing",
+        "l": 485,
+        "c": 49292,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "30698",
+      "obj": {
+        "i": 30698,
+        "n": "YoRHa Type-53 Boots of Aiming",
+        "l": 490,
+        "c": 49249,
+        "t": 38
+      }
+    }
+  ]
+}

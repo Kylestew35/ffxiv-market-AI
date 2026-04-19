@@ -1,0 +1,563 @@
+{
+  "item": {
+    "name": "Crab Cakes",
+    "description": "To preserve the toothsome texture of blue crab, chunks of flesh are gently folded into flour and molded into cakes, which are panfried to golden perfection.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 30481,
+    "patch": 5.3,
+    "patchCategory": 6,
+    "price": 2000,
+    "ilvl": 490,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "GP": {
+          "rate": 23,
+          "limit": 44
+        },
+        "Perception": {
+          "rate": 2,
+          "limit": 38
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "GP": {
+          "rate": 28,
+          "limit": 55
+        },
+        "Perception": {
+          "rate": 3,
+          "limit": 47
+        }
+      }
+    },
+    "icon": 24329,
+    "craft": [
+      {
+        "id": 33949,
+        "job": 15,
+        "rlvl": 480,
+        "durability": 70,
+        "quality": 8500,
+        "progress": 2800,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29491,
+        "ingredients": [
+          {
+            "id": 30487,
+            "amount": 1
+          },
+          {
+            "id": 27841,
+            "amount": 1,
+            "quality": 909.58575
+          },
+          {
+            "id": 27851,
+            "amount": 1
+          },
+          {
+            "id": 12878,
+            "amount": 1
+          },
+          {
+            "id": 30590,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 352,
+          "hq": 372
+        }
+      }
+    ],
+    "quests": [
+      69426,
+      69535,
+      69616,
+      69689,
+      69696
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Blue Crab",
+      "id": 30487,
+      "icon": 28013,
+      "category": 47,
+      "ilvl": 460,
+      "price": 233,
+      "ventures": [
+        872
+      ],
+      "fishingSpots": [
+        211
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Lorikeet Egg",
+      "id": 27851,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 400,
+      "price": 2302,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027665
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27851",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        778
+      ]
+    },
+    {
+      "name": "Cyclops Onion",
+      "id": 12878,
+      "icon": 25203,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        548
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Levinstrike Aethersand",
+      "id": 30590,
+      "icon": 21238,
+      "category": 54,
+      "ilvl": 490,
+      "price": 1000,
+      "reducedFrom": [
+        30592,
+        30591,
+        30593
+      ],
+      "desynthedFrom": [
+        32049
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "30590",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "30590",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "211",
+      "obj": {
+        "i": 211,
+        "n": "The Western Kholusian Coast",
+        "l": 72,
+        "c": 0,
+        "z": 2954,
+        "x": 8.41,
+        "y": 35.23
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "30592",
+      "obj": {
+        "i": 30592,
+        "n": "Levin Mint",
+        "l": 460,
+        "c": 25039,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "30591",
+      "obj": {
+        "i": 30591,
+        "n": "Thunder Rock",
+        "l": 460,
+        "c": 21482,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "30593",
+      "obj": {
+        "i": 30593,
+        "n": "Fuchsia Bloom",
+        "l": 460,
+        "c": 28479,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29491",
+      "obj": {
+        "i": 29491,
+        "n": "Master Culinarian VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "30487",
+      "obj": {
+        "i": 30487,
+        "n": "Blue Crab",
+        "l": 460,
+        "c": 28013,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27851",
+      "obj": {
+        "i": 27851,
+        "n": "Lorikeet Egg",
+        "l": 400,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12878",
+      "obj": {
+        "i": 12878,
+        "n": "Cyclops Onion",
+        "l": 130,
+        "c": 25203,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "30590",
+      "obj": {
+        "i": 30590,
+        "n": "Levinstrike Aethersand",
+        "l": 490,
+        "c": 21238,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69426",
+      "obj": {
+        "i": 69426,
+        "n": "An Ode to Unity",
+        "g": 100,
+        "l": "The Firmament",
+        "s": 1003,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69535",
+      "obj": {
+        "i": 69535,
+        "n": "Not by Bread Alone",
+        "g": 99,
+        "l": "The Firmament",
+        "s": 19,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69616",
+      "obj": {
+        "i": 69616,
+        "n": "Those Who Serve",
+        "g": 100,
+        "l": "The Firmament",
+        "s": 1503,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69689",
+      "obj": {
+        "i": 69689,
+        "n": "Cultured Pursuits",
+        "g": 206,
+        "l": "Old Sharlayan",
+        "s": 0,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69696",
+      "obj": {
+        "i": 69696,
+        "n": "Fear the Thesis",
+        "g": 207,
+        "l": "Old Sharlayan",
+        "s": 0,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Toy Alexander",
+    "description": "A special something for all good Illuminati gobs and girls.<br><br>Use item to acquire the toy Alexander minion.",
+    "minionrace": "Monster",
+    "tooltip": "From what I understand, this\r\n“Alexander” was active for no\r\nmore than a few seconds.\r\n   - Biggs",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Rise Up",
+    "specialactiondescription": "Increases DEF of all allies within range by 10 (30 if the ally is a <span class=\"highlight\">monster</span>).<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 16574,
+    "patch": 3.4,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59615,
+    "instances": [
+      30042,
+      30046,
+      30042,
+      30046
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 600,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 60,
+      "Speed": 2
+    },
+    "models": [
+      "8196-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30042",
+      "obj": {
+        "i": 30042,
+        "n": "Alexander - The Soul of the Creator",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 230
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30046",
+      "obj": {
+        "i": 30046,
+        "n": "Alexander - The Soul of the Creator (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 255
+      }
+    }
+  ]
+}

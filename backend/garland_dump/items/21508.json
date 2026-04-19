@@ -1,0 +1,149 @@
+{
+  "item": {
+    "name": "Diamond Shield",
+    "jobCategories": "GLA PLD",
+    "id": 21508,
+    "patch": 4.2,
+    "patchCategory": 0,
+    "price": 35670,
+    "ilvl": 375,
+    "category": 11,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 543,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 17837,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1500,
+    "slot": 2,
+    "elvl": 70,
+    "jobs": 38,
+    "models": [
+      "101-72-1-0"
+    ],
+    "attr": {
+      "Block Strength": 600,
+      "Block Rate": 600,
+      "Strength": 40,
+      "Vitality": 41,
+      "Determination": 39,
+      "Critical Hit": 27
+    },
+    "icon": 30175,
+    "tradeShops": [
+      {
+        "shop": "Sigmascape Datalog Exchange (DoW) I",
+        "npcs": [
+          1019452
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21508",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21784",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Diamond Gear (IL 370-375)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21493",
+                "amount": 1
+              },
+              {
+                "id": "21508",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21784",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      21791
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019452",
+      "obj": {
+        "i": 1019452,
+        "n": "Gelfradus",
+        "l": 2403,
+        "s": 18,
+        "t": "Omega Parts Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.82,
+          12.09
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21784",
+      "obj": {
+        "i": 21784,
+        "n": "Sigmascape Datalog v4.0",
+        "l": 1,
+        "c": 26433,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "21493",
+      "obj": {
+        "i": 21493,
+        "n": "Diamond Sword",
+        "l": 375,
+        "c": 30582,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "21791",
+      "obj": {
+        "i": 21791,
+        "n": "Diamond Weapon Coffer (IL 375)",
+        "l": 1,
+        "c": 26557,
+        "t": 61
+      }
+    }
+  ]
+}

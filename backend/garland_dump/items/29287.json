@@ -1,0 +1,231 @@
+{
+  "item": {
+    "name": "Augmented Crystarium Thighboots of Maiming",
+    "jobCategories": "LNC DRG RPR",
+    "id": 29287,
+    "patch": 5.2,
+    "patchCategory": 0,
+    "price": 65576,
+    "ilvl": 500,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 975,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1726,
+    "slot": 8,
+    "elvl": 80,
+    "jobs": 76,
+    "models": [
+      "650-2-0-0"
+    ],
+    "attr": {
+      "Defense": 400,
+      "Magic Defense": 315,
+      "Strength": 120,
+      "Vitality": 123,
+      "Critical Hit": 118,
+      "Skill Speed": 83
+    },
+    "attr_max": {
+      "Dexterity": 108,
+      "Intelligence": 108,
+      "Mind": 108,
+      "Piety": 106,
+      "GP": 16,
+      "CP": 9,
+      "Tenacity": 118,
+      "Direct Hit Rate": 118,
+      "Fire Resistance": 16,
+      "Ice Resistance": 16,
+      "Wind Resistance": 16,
+      "Earth Resistance": 16,
+      "Lightning Resistance": 16,
+      "Water Resistance": 16,
+      "Determination": 118,
+      "Skill Speed": 118,
+      "Spell Speed": 118,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 56,
+      "Control": 321,
+      "Gathering": 28,
+      "Perception": 308
+    },
+    "icon": 49228,
+    "sharedModels": [
+      29201,
+      29207,
+      29281
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW, IL 500)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29287",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Crystarium Gear Augmentation (DoW) I",
+        "npcs": [
+          1027563
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29287",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29207",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Crystarium Gear (IL 500)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29287",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "29201",
+      "obj": {
+        "i": 29201,
+        "n": "Crystarium Thighboots of Fending",
+        "l": 490,
+        "c": 49226,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29207",
+      "obj": {
+        "i": 29207,
+        "n": "Crystarium Thighboots of Maiming",
+        "l": 490,
+        "c": 49228,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "29281",
+      "obj": {
+        "i": 29281,
+        "n": "Augmented Crystarium Thighboots of Fending",
+        "l": 500,
+        "c": 49226,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027563",
+      "obj": {
+        "i": 1027563,
+        "n": "Shee-Tatch",
+        "l": 2952,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.34,
+          12.05
+        ]
+      }
+    }
+  ]
+}

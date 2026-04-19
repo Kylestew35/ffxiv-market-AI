@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Clockwork Lantern",
+    "description": "Hands-free illumination for the busy insomniac.<br><br>Use item to acquire the clockwork lantern minion.",
+    "minionrace": "Gadget",
+    "tooltip": "They can scarce make do\r\nwithout their lanterns.\r\n   - Armelle",
+    "minionskilltype": "Trap",
+    "specialactionname": "Light My Fire",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 260 to all enemies within range.<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 23034,
+    "patch": 4.3,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59700,
+    "tradeShops": [
+      {
+        "shop": "Miscellaneous",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23034",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "25",
+                "amount": 15000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 650,
+      "Skill Cost": 30,
+      "Attack": 20,
+      "Defense": 70,
+      "Speed": 2
+    },
+    "models": [
+      "8263-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "Wolf Mark",
+        "l": 55,
+        "c": 65014,
+        "t": 63
+      }
+    }
+  ]
+}

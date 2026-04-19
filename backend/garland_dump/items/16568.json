@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Dress-up Thancred",
+    "description": "Take a walk on Thancred's wild side...but with fewer nutkins.<br><br>Use item to acquire the dress-up Thancred minion.",
+    "minionrace": "Poppet",
+    "tooltip": "I say, did you not see Thancred\r\nanywhere? I'm beginning to fear\r\nfor the fellow...\r\n   - Papalymo",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Going Commando",
+    "specialactiondescription": "Reduces movement speed of all enemies within range by 50%.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 16568,
+    "patch": 3.4,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59617,
+    "tradeShops": [
+      {
+        "shop": "Bronze Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16568",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26823",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 120,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 420,
+      "Skill Cost": 30,
+      "Attack": 55,
+      "Defense": 30,
+      "Speed": 4
+    },
+    "models": [
+      "8194-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26823",
+      "obj": {
+        "i": 26823,
+        "n": "Khloe's Bronze Certificate of Commendation",
+        "l": 1,
+        "c": 26186,
+        "t": 61
+      }
+    }
+  ]
+}

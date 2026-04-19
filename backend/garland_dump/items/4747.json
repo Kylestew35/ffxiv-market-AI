@@ -1,0 +1,341 @@
+{
+  "item": {
+    "name": "Apple Juice",
+    "description": "Juice freshly squeezed from shiny red mirror apples.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 4747,
+    "patch": 1.0,
+    "patchCategory": 6,
+    "price": 189,
+    "ilvl": 40,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 8
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 9
+        },
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 7
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 10
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 11
+        },
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 9
+        }
+      }
+    },
+    "icon": 24402,
+    "craft": [
+      {
+        "id": 991,
+        "job": 15,
+        "rlvl": 40,
+        "durability": 80,
+        "quality": 1400,
+        "progress": 138,
+        "lvl": 40,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 6146,
+            "amount": 6
+          },
+          {
+            "id": 2,
+            "amount": 5
+          },
+          {
+            "id": 7,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 100,
+          "hq": 120
+        }
+      }
+    ],
+    "quests": [
+      66304,
+      67285,
+      67489
+    ],
+    "requiredByLeves": [
+      311
+    ],
+    "leves": [
+      643,
+      644,
+      645,
+      646,
+      647,
+      648,
+      649,
+      650,
+      651,
+      652,
+      653,
+      654,
+      655
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 155000,
+      "seals": 307
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Mirror Apple",
+      "id": 6146,
+      "icon": 25308,
+      "category": 45,
+      "ilvl": 39,
+      "price": 206,
+      "ventures": [
+        295
+      ],
+      "nodes": [
+        142
+      ],
+      "seeds": [
+        7731
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "142",
+      "obj": {
+        "i": 142,
+        "n": "Whitebrim",
+        "l": 45,
+        "t": 2,
+        "z": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "6146",
+      "obj": {
+        "i": 6146,
+        "n": "Mirror Apple",
+        "l": 39,
+        "c": 25308,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66304",
+      "obj": {
+        "i": 66304,
+        "n": "An Apple a Day",
+        "g": 112,
+        "l": "South Shroud",
+        "s": 260
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67285",
+      "obj": {
+        "i": 67285,
+        "n": "Unclear Motives",
+        "g": 117,
+        "l": "The Sea of Clouds",
+        "s": 5006
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67489",
+      "obj": {
+        "i": 67489,
+        "n": "Lean and Hungry Gentlemen",
+        "g": 121,
+        "l": "Idyllshire",
+        "s": 5820
+      }
+    },
+    {
+      "type": "leve",
+      "id": "311",
+      "obj": {
+        "i": 311,
+        "n": "Made by Apple in Coerthas",
+        "l": 40,
+        "j": 16,
+        "p": 27
+      }
+    },
+    {
+      "type": "leve",
+      "id": "643",
+      "obj": {
+        "i": 643,
+        "n": "Subduing the Subprime",
+        "l": 40,
+        "j": 34,
+        "p": 46
+      }
+    },
+    {
+      "type": "leve",
+      "id": "644",
+      "obj": {
+        "i": 644,
+        "n": "Necrologos: Pale Oblation",
+        "l": 40,
+        "j": 34,
+        "p": 46
+      }
+    },
+    {
+      "type": "leve",
+      "id": "645",
+      "obj": {
+        "i": 645,
+        "n": "Don't Forget to Cry",
+        "l": 40,
+        "j": 34,
+        "p": 46
+      }
+    },
+    {
+      "type": "leve",
+      "id": "646",
+      "obj": {
+        "i": 646,
+        "n": "Circling the Ceruleum",
+        "l": 40,
+        "j": 34,
+        "p": 46
+      }
+    },
+    {
+      "type": "leve",
+      "id": "647",
+      "obj": {
+        "i": 647,
+        "n": "Someone's in the Doghouse",
+        "l": 40,
+        "j": 34,
+        "p": 46
+      }
+    },
+    {
+      "type": "leve",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Blow-up Incubator",
+        "l": 40,
+        "j": 34,
+        "p": 46
+      }
+    },
+    {
+      "type": "leve",
+      "id": "649",
+      "obj": {
+        "i": 649,
+        "n": "Necrologos: Whispers of the Gem",
+        "l": 40,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "650",
+      "obj": {
+        "i": 650,
+        "n": "Got a Gut Feeling about This",
+        "l": 40,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "651",
+      "obj": {
+        "i": 651,
+        "n": "You Look Good Enough to Eat",
+        "l": 40,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "652",
+      "obj": {
+        "i": 652,
+        "n": "The Area's a Bit Sketchy",
+        "l": 40,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "653",
+      "obj": {
+        "i": 653,
+        "n": "The Tropes of the Trade",
+        "l": 40,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "654",
+      "obj": {
+        "i": 654,
+        "n": "Pets Are Family Too",
+        "l": 40,
+        "j": 34,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "655",
+      "obj": {
+        "i": 655,
+        "n": "We Can Dismember It for You Wholesale",
+        "l": 40,
+        "j": 34,
+        "p": 63
+      }
+    }
+  ]
+}

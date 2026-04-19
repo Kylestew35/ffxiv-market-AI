@@ -1,0 +1,657 @@
+{
+  "item": {
+    "name": "Beech Mask of Healing",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 18079,
+    "patch": 4.0,
+    "patchCategory": 0,
+    "price": 19994,
+    "ilvl": 255,
+    "category": 34,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 300,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "equip": 1,
+    "sockets": 2,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "slot": 3,
+    "elvl": 60,
+    "jobs": 64,
+    "models": [
+      "361-4-0-0"
+    ],
+    "attr": {
+      "Defense": 98,
+      "Magic Defense": 172,
+      "Mind": 50,
+      "Vitality": 47,
+      "Critical Hit": 50,
+      "Piety": 35
+    },
+    "attr_hq": {
+      "Defense": 109,
+      "Magic Defense": 191,
+      "Mind": 56,
+      "Vitality": 52,
+      "Critical Hit": 56,
+      "Piety": 39
+    },
+    "attr_max": {
+      "Strength": 40,
+      "Dexterity": 56,
+      "Vitality": 58,
+      "Intelligence": 40,
+      "GP": 6,
+      "CP": 7,
+      "Tenacity": 56,
+      "Defense": 150,
+      "Direct Hit Rate": 56,
+      "Fire Resistance": 16,
+      "Ice Resistance": 16,
+      "Wind Resistance": 16,
+      "Earth Resistance": 16,
+      "Lightning Resistance": 16,
+      "Water Resistance": 16,
+      "Determination": 56,
+      "Skill Speed": 56,
+      "Spell Speed": 56,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 25,
+      "Control": 139,
+      "Gathering": 22,
+      "Perception": 220
+    },
+    "icon": 41717,
+    "sharedModels": [
+      15389,
+      15395,
+      18085,
+      18133
+    ],
+    "vendors": [
+      1019443,
+      1019513,
+      1020837,
+      1021554,
+      1011204
+    ],
+    "craft": [
+      {
+        "id": 3002,
+        "job": 8,
+        "rlvl": 255,
+        "durability": 80,
+        "quality": 2790,
+        "progress": 630,
+        "lvl": 61,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19925,
+            "amount": 2,
+            "quality": 345.36407
+          },
+          {
+            "id": 19919,
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "amount": 3
+          },
+          {
+            "id": 9,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 86,
+          "hq": 106
+        }
+      }
+    ],
+    "quests": [
+      67986
+    ],
+    "downgrades": [
+      10884
+    ],
+    "upgrades": [
+      18235
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Beech Lumber",
+      "id": 19925,
+      "icon": 22460,
+      "category": 50,
+      "ilvl": 255,
+      "price": 2928,
+      "craft": [
+        {
+          "id": 3608,
+          "job": 8,
+          "rlvl": 255,
+          "durability": 40,
+          "quality": 2232,
+          "progress": 315,
+          "lvl": 61,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19930,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        20747
+      ],
+      "treasure": [
+        17835
+      ],
+      "leves": [
+        1238,
+        1239
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Beech Log",
+      "id": 19930,
+      "icon": 22412,
+      "category": 50,
+      "ilvl": 255,
+      "price": 504,
+      "leves": [
+        1240
+      ],
+      "ventures": [
+        669
+      ],
+      "drops": [
+        74350000005671
+      ],
+      "nodes": [
+        506
+      ]
+    },
+    {
+      "name": "Muud Suud Horn",
+      "id": 19919,
+      "icon": 22205,
+      "category": 53,
+      "ilvl": 260,
+      "price": 514,
+      "treasure": [
+        17835
+      ],
+      "instances": [
+        50,
+        52,
+        53,
+        54,
+        55,
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "ventures": [
+        710
+      ],
+      "drops": [
+        65850000005709,
+        65850000005704
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19930",
+      "obj": {
+        "i": 19930,
+        "n": "Beech Log",
+        "l": 255,
+        "c": 22412,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "506",
+      "obj": {
+        "i": 506,
+        "n": "East End",
+        "l": 65,
+        "t": 2,
+        "z": 2406
+      }
+    },
+    {
+      "type": "mob",
+      "id": "74350000005671",
+      "obj": {
+        "i": 74350000005671,
+        "n": "Leshy",
+        "l": "60",
+        "z": 2406
+      }
+    },
+    {
+      "type": "instance",
+      "id": "50",
+      "obj": {
+        "i": 50,
+        "n": "Shisui of the Violet Tides",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 63,
+        "max_lvl": 64,
+        "min_ilvl": 245
+      }
+    },
+    {
+      "type": "instance",
+      "id": "52",
+      "obj": {
+        "i": 52,
+        "n": "The Sirensong Sea",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 61,
+        "max_lvl": 62,
+        "min_ilvl": 240
+      }
+    },
+    {
+      "type": "instance",
+      "id": "53",
+      "obj": {
+        "i": 53,
+        "n": "Bardam's Mettle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 65,
+        "max_lvl": 66,
+        "min_ilvl": 250
+      }
+    },
+    {
+      "type": "instance",
+      "id": "54",
+      "obj": {
+        "i": 54,
+        "n": "Doma Castle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 67,
+        "max_lvl": 68,
+        "min_ilvl": 255
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55",
+      "obj": {
+        "i": 55,
+        "n": "Castrum Abania",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 69,
+        "max_lvl": 70,
+        "min_ilvl": 260,
+        "max_ilvl": 290
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "65850000005704",
+      "obj": {
+        "i": 65850000005704,
+        "n": "Ruud Suud",
+        "l": "61",
+        "z": 2407
+      }
+    },
+    {
+      "type": "mob",
+      "id": "65850000005709",
+      "obj": {
+        "i": 65850000005709,
+        "n": "Muud Suud",
+        "l": "68",
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "15389",
+      "obj": {
+        "i": 15389,
+        "n": "Prophet's Mask",
+        "l": 215,
+        "c": 41650,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "15395",
+      "obj": {
+        "i": 15395,
+        "n": "Panegyrist's Mask",
+        "l": 215,
+        "c": 41651,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "18085",
+      "obj": {
+        "i": 18085,
+        "n": "Beech Mask of Casting",
+        "l": 255,
+        "c": 41716,
+        "t": 34,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "18133",
+      "obj": {
+        "i": 18133,
+        "n": "Ghost Barque Mask of Maiming",
+        "l": 260,
+        "c": 41706,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019443",
+      "obj": {
+        "i": 1019443,
+        "n": "Independent Merchant",
+        "l": 2403,
+        "s": 10,
+        "c": [
+          "12.7",
+          "11.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019513",
+      "obj": {
+        "i": 1019513,
+        "n": "Merchant & Mender",
+        "l": 2406,
+        "s": 7,
+        "c": [
+          "8.7",
+          "10.9"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1020837",
+      "obj": {
+        "i": 1020837,
+        "n": "Independent Merchant",
+        "l": 2407,
+        "s": 7,
+        "c": [
+          "24.6",
+          "5.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1021554",
+      "obj": {
+        "i": 1021554,
+        "n": "Merchant & Mender",
+        "l": 2407,
+        "s": 7,
+        "c": [
+          "19.6",
+          "11.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011204",
+      "obj": {
+        "i": 1011204,
+        "n": "Norlaise",
+        "l": 2301,
+        "s": 19,
+        "q": 1,
+        "t": "Armorer",
+        "a": 2317,
+        "c": [
+          7.17,
+          10.18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19925",
+      "obj": {
+        "i": 19925,
+        "n": "Beech Lumber",
+        "l": 255,
+        "c": 22460,
+        "t": 50,
+        "p": 2928
+      }
+    },
+    {
+      "type": "item",
+      "id": "19919",
+      "obj": {
+        "i": 19919,
+        "n": "Muud Suud Horn",
+        "l": 260,
+        "c": 22205,
+        "t": 53
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67986",
+      "obj": {
+        "i": 67986,
+        "n": "A Bargain Struck",
+        "g": 6,
+        "l": "Rhalgr's Reach",
+        "s": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "10884",
+      "obj": {
+        "i": 10884,
+        "n": "Chimerical Felt Klobuk of Healing",
+        "l": 145,
+        "c": 41265,
+        "t": 34,
+        "p": 14469
+      }
+    },
+    {
+      "type": "item",
+      "id": "18235",
+      "obj": {
+        "i": 18235,
+        "n": "Koppranickel Temple Chain",
+        "l": 265,
+        "c": 40769,
+        "t": 34,
+        "p": 20778
+      }
+    }
+  ]
+}

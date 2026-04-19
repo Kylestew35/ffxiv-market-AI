@@ -1,0 +1,686 @@
+{
+  "item": {
+    "name": "Black Willow Lumber",
+    "description": "Processed black willow lumber.",
+    "id": 22429,
+    "patch": 4.2,
+    "patchCategory": 5,
+    "price": 2910,
+    "ilvl": 350,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22454,
+    "ingredient_of": {
+      "21698": 3,
+      "21699": 3,
+      "21703": 3,
+      "21704": 1,
+      "21758": 2,
+      "21759": 2,
+      "21760": 2,
+      "21761": 2,
+      "21762": 2,
+      "21763": 2,
+      "21764": 2,
+      "21765": 2,
+      "21766": 2,
+      "21767": 2,
+      "22536": 4,
+      "22538": 3,
+      "22539": 3,
+      "22540": 3,
+      "22569": 4,
+      "22579": 3,
+      "22884": 2,
+      "22885": 2,
+      "22887": 2,
+      "22891": 2,
+      "22892": 2,
+      "22893": 4,
+      "22894": 6,
+      "22895": 2,
+      "22898": 4,
+      "22900": 6,
+      "22901": 2,
+      "22902": 2,
+      "22903": 2,
+      "22904": 2,
+      "22910": 4,
+      "22917": 4,
+      "22918": 4,
+      "22919": 2,
+      "23863": 2
+    },
+    "craft": [
+      {
+        "id": 32636,
+        "job": 8,
+        "rlvl": 350,
+        "durability": 35,
+        "quality": 3900,
+        "progress": 1147,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "yield": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22309,
+        "ingredients": [
+          {
+            "id": 22419,
+            "amount": 4
+          },
+          {
+            "id": 22416,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          },
+          {
+            "id": 15,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 456,
+          "hq": 476
+        }
+      }
+    ],
+    "desynthedFrom": [
+      21698
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Black Willow Log",
+      "id": 22419,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 320,
+      "price": 333,
+      "ventures": [
+        753
+      ],
+      "nodes": [
+        537
+      ]
+    },
+    {
+      "name": "Thavnairian Adhesive",
+      "id": 22416,
+      "icon": 22638,
+      "category": 54,
+      "ilvl": 350,
+      "price": 2328,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1019450
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22416",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22416",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "537",
+      "obj": {
+        "i": 537,
+        "n": "Pike Falls",
+        "l": 70,
+        "t": 2,
+        "z": 2406,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019450",
+      "obj": {
+        "i": 1019450,
+        "n": "Enna",
+        "l": 2403,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.95,
+          11.63
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21698",
+      "obj": {
+        "i": 21698,
+        "n": "Black Willow Spear",
+        "l": 350,
+        "c": 31955,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "21699",
+      "obj": {
+        "i": 21699,
+        "n": "Black Willow Greatbow",
+        "l": 350,
+        "c": 32346,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "21703",
+      "obj": {
+        "i": 21703,
+        "n": "Black Willow Cane",
+        "l": 350,
+        "c": 32730,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "21704",
+      "obj": {
+        "i": 21704,
+        "n": "Silvergrace Rod",
+        "l": 350,
+        "c": 33098,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "21758",
+      "obj": {
+        "i": 21758,
+        "n": "Black Willow Necklace of Fending",
+        "l": 350,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "21759",
+      "obj": {
+        "i": 21759,
+        "n": "Black Willow Necklace of Slaying",
+        "l": 350,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "21760",
+      "obj": {
+        "i": 21760,
+        "n": "Black Willow Necklace of Aiming",
+        "l": 350,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "21761",
+      "obj": {
+        "i": 21761,
+        "n": "Black Willow Necklace of Healing",
+        "l": 350,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "21762",
+      "obj": {
+        "i": 21762,
+        "n": "Black Willow Necklace of Casting",
+        "l": 350,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "21763",
+      "obj": {
+        "i": 21763,
+        "n": "Black Willow Armillae of Fending",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21764",
+      "obj": {
+        "i": 21764,
+        "n": "Black Willow Armillae of Slaying",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21765",
+      "obj": {
+        "i": 21765,
+        "n": "Black Willow Armillae of Aiming",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21766",
+      "obj": {
+        "i": 21766,
+        "n": "Black Willow Armillae of Healing",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21767",
+      "obj": {
+        "i": 21767,
+        "n": "Black Willow Armillae of Casting",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "22309",
+      "obj": {
+        "i": 22309,
+        "n": "Master Carpenter VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "22419",
+      "obj": {
+        "i": 22419,
+        "n": "Black Willow Log",
+        "l": 320,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "22416",
+      "obj": {
+        "i": 22416,
+        "n": "Thavnairian Adhesive",
+        "l": 350,
+        "c": 22638,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "22536",
+      "obj": {
+        "i": 22536,
+        "n": "Merry Mog Bed",
+        "l": 1,
+        "c": 52640,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "22538",
+      "obj": {
+        "i": 22538,
+        "n": "Odder Otter Dining Table",
+        "l": 1,
+        "c": 51675,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "22539",
+      "obj": {
+        "i": 22539,
+        "n": "Odder Otter Screen",
+        "l": 1,
+        "c": 52636,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "22540",
+      "obj": {
+        "i": 22540,
+        "n": "Odder Otter Chair",
+        "l": 1,
+        "c": 52634,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "22569",
+      "obj": {
+        "i": 22569,
+        "n": "Southern Kitchen",
+        "l": 1,
+        "c": 51677,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "22579",
+      "obj": {
+        "i": 22579,
+        "n": "Odder Otter Bench",
+        "l": 1,
+        "c": 52260,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "22884",
+      "obj": {
+        "i": 22884,
+        "n": "Nightsteel Saw",
+        "l": 345,
+        "c": 35028,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "22885",
+      "obj": {
+        "i": 22885,
+        "n": "Nightsteel Cross-pein Hammer",
+        "l": 345,
+        "c": 35127,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "22887",
+      "obj": {
+        "i": 22887,
+        "n": "Nightsteel Lapidary Hammer",
+        "l": 345,
+        "c": 35326,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "22891",
+      "obj": {
+        "i": 22891,
+        "n": "Nightsteel Frypan",
+        "l": 345,
+        "c": 35729,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "22892",
+      "obj": {
+        "i": 22892,
+        "n": "Nightsteel Pickaxe",
+        "l": 345,
+        "c": 38029,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "22893",
+      "obj": {
+        "i": 22893,
+        "n": "Nightsteel Hatchet",
+        "l": 345,
+        "c": 38127,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "22894",
+      "obj": {
+        "i": 22894,
+        "n": "Black Willow Fishing Rod",
+        "l": 345,
+        "c": 38230,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "22895",
+      "obj": {
+        "i": 22895,
+        "n": "Nightsteel Claw Hammer",
+        "l": 325,
+        "c": 35068,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "22898",
+      "obj": {
+        "i": 22898,
+        "n": "Silvergrace Grinding Wheel",
+        "l": 325,
+        "c": 35365,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "22900",
+      "obj": {
+        "i": 22900,
+        "n": "Black Willow Spinning Wheel",
+        "l": 325,
+        "c": 35566,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "22901",
+      "obj": {
+        "i": 22901,
+        "n": "Nightsteel Mortar",
+        "l": 325,
+        "c": 35665,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "22902",
+      "obj": {
+        "i": 22902,
+        "n": "Nightsteel Culinary Knife",
+        "l": 325,
+        "c": 35765,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "22903",
+      "obj": {
+        "i": 22903,
+        "n": "Nightsteel Sledgehammer",
+        "l": 325,
+        "c": 38065,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "22904",
+      "obj": {
+        "i": 22904,
+        "n": "Nightsteel Scythe",
+        "l": 325,
+        "c": 38165,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "22910",
+      "obj": {
+        "i": 22910,
+        "n": "Yamashi Kasa",
+        "l": 340,
+        "c": 41414,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "22917",
+      "obj": {
+        "i": 22917,
+        "n": "Black Willow Necklace of Crafting",
+        "l": 340,
+        "c": 54914,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "22918",
+      "obj": {
+        "i": 22918,
+        "n": "Black Willow Armillae of Crafting",
+        "l": 340,
+        "c": 55719,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "22919",
+      "obj": {
+        "i": 22919,
+        "n": "Black Willow Ring of Crafting",
+        "l": 340,
+        "c": 54572,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "23863",
+      "obj": {
+        "i": 23863,
+        "n": "Suzaku Wall Hanging",
+        "l": 1,
+        "c": 51381,
+        "t": 79
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Quaqua Horn",
+    "description": "When blown, this horn produces a woody sound that summons forth your quaqua.",
+    "mount": {
+      "name": "Quaqua",
+      "action": "Summon forth your quaqua, a familiar hailing from the south sea isles that has either a permanent snarl or grin, depending on one's outlook on life.",
+      "description": "Employed by a treasure hunter of Aloalo Island, this familiar was born of an early form of arcanima, an art which emerged in the south sea isles. The being's origin is attested by its predominantly wooden construction, a method which precedes the use of gemstones to create Carbuncles.",
+      "tooltip": "Them younglin's will be grinnin'<br>ear to ear when they see what<br>you've got in store!<br>   - Baenfaeld",
+      "icon": 4278,
+      "guideIcon": 68278
+    },
+    "id": 41499,
+    "patch": 6.51,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Aloalo Coin Exchange",
+        "npcs": [
+          1043625
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41499",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41079",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "875-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043625",
+      "obj": {
+        "i": 1043625,
+        "n": "Trisassant",
+        "l": 3706,
+        "s": 12,
+        "t": "Guildship Exchange",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          12.04,
+          13.36
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41079",
+      "obj": {
+        "i": 41079,
+        "n": "Aloalo Coin",
+        "l": 1,
+        "c": "t/65105",
+        "t": 100
+      }
+    }
+  ]
+}

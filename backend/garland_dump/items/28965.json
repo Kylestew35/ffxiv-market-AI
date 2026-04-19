@@ -1,0 +1,633 @@
+{
+  "item": {
+    "name": "Cosmetics Box",
+    "description": "This enormous case is replete with enough paints and powders to satisfy an entire Eorzean theater troupe─or one Eulmoran dame.",
+    "id": 28965,
+    "patch": 5.2,
+    "patchCategory": 9,
+    "price": 450,
+    "ilvl": 430,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "icon": 53343,
+    "craft": [
+      {
+        "id": 4600,
+        "job": 14,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 27693,
+            "amount": 2,
+            "quality": 280.0763
+          },
+          {
+            "id": 27778,
+            "amount": 2,
+            "quality": 276.027
+          },
+          {
+            "id": 5815,
+            "amount": 1
+          },
+          {
+            "id": 5820,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 7
+          },
+          {
+            "id": 12,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 418,
+          "hq": 438
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "872"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Lignum Vitae Lumber",
+      "id": 27693,
+      "icon": 22454,
+      "category": 50,
+      "ilvl": 415,
+      "price": 3075,
+      "craft": [
+        {
+          "id": 3816,
+          "job": 8,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27687,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "desynthedFrom": [
+        33295,
+        33267,
+        28992,
+        28991,
+        33273,
+        30387,
+        33282,
+        27605,
+        27227,
+        26356
+      ],
+      "leves": [
+        1415,
+        1416,
+        1417
+      ]
+    },
+    {
+      "name": "Lignum Vitae Log",
+      "id": 27687,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        817
+      ],
+      "nodes": [
+        621
+      ]
+    },
+    {
+      "name": "Growth Formula Kappa",
+      "id": 27778,
+      "icon": 22663,
+      "category": 54,
+      "ilvl": 409,
+      "price": 2996,
+      "craft": [
+        {
+          "id": 3866,
+          "job": 14,
+          "rlvl": 409,
+          "durability": 40,
+          "quality": 3360,
+          "progress": 750,
+          "lvl": 76,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27763,
+              "amount": 2
+            },
+            {
+              "id": 27774,
+              "amount": 2
+            },
+            {
+              "id": 27782,
+              "amount": 1
+            },
+            {
+              "id": 13,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 130,
+            "hq": 150
+          }
+        }
+      ],
+      "desynthedFrom": [
+        33281,
+        35564,
+        32250
+      ]
+    },
+    {
+      "name": "Hoptrap Leaf",
+      "id": 27763,
+      "icon": 25202,
+      "category": 54,
+      "ilvl": 390,
+      "price": 2239,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027385
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27763",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1487,
+        1489
+      ],
+      "ventures": [
+        773
+      ]
+    },
+    {
+      "name": "Vampire Vine Sap",
+      "id": 27774,
+      "icon": 22643,
+      "category": 54,
+      "ilvl": 406,
+      "price": 2365,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027709
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27774",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        781
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Red Pigment",
+      "id": 5815,
+      "icon": 21456,
+      "category": 55,
+      "ilvl": 28,
+      "price": 97,
+      "desynthedFrom": [
+        24209,
+        24881,
+        27483,
+        20019,
+        23063,
+        23065,
+        24218,
+        24885,
+        27423,
+        27477,
+        27482,
+        20030,
+        20048,
+        23056,
+        24206,
+        27451,
+        27414,
+        27421,
+        27469,
+        20054,
+        27454,
+        27463,
+        27471,
+        22392,
+        27424,
+        27487,
+        27464,
+        20143,
+        21176,
+        23058,
+        27484,
+        27504,
+        27481,
+        27510,
+        20153,
+        20154,
+        20159,
+        20168,
+        20175,
+        20177,
+        20186,
+        20187,
+        20189,
+        20193,
+        20194,
+        20200,
+        20201,
+        20209,
+        20211,
+        20231,
+        27546,
+        27549,
+        27554,
+        27556,
+        27568,
+        27563,
+        27572
+      ],
+      "ventures": [
+        120,
+        256
+      ],
+      "nodes": [
+        139,
+        201
+      ]
+    },
+    {
+      "name": "Purple Pigment",
+      "id": 5820,
+      "icon": 21461,
+      "category": 55,
+      "ilvl": 28,
+      "price": 97,
+      "desynthedFrom": [
+        8754,
+        12746,
+        12798,
+        14216,
+        27427,
+        5021,
+        12834,
+        4901,
+        4980,
+        17577,
+        5008,
+        12743,
+        4910,
+        12836,
+        12788,
+        21180,
+        27517,
+        27520,
+        27521,
+        27531,
+        27526,
+        27552,
+        27551
+      ],
+      "ventures": [
+        125,
+        261
+      ],
+      "nodes": [
+        175,
+        202
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27687",
+      "obj": {
+        "i": 27687,
+        "n": "Lignum Vitae Log",
+        "l": 415,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "621",
+      "obj": {
+        "i": 621,
+        "n": "Hare Among Giants",
+        "l": 80,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "27763",
+      "obj": {
+        "i": 27763,
+        "n": "Hoptrap Leaf",
+        "l": 390,
+        "c": 25202,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27774",
+      "obj": {
+        "i": 27774,
+        "n": "Vampire Vine Sap",
+        "l": 406,
+        "c": 22643,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027385",
+      "obj": {
+        "i": 1027385,
+        "n": "Siulmet",
+        "l": 2953,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          35.55,
+          20.58
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027709",
+      "obj": {
+        "i": 1027709,
+        "n": "Nacille",
+        "l": 2957,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3179,
+        "c": [
+          27.97,
+          18.26
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "139",
+      "obj": {
+        "i": 139,
+        "n": "Three-malm Bend",
+        "l": 30,
+        "t": 2,
+        "z": 30
+      }
+    },
+    {
+      "type": "node",
+      "id": "201",
+      "obj": {
+        "i": 201,
+        "n": "Wellwick Wood",
+        "l": 30,
+        "t": 1,
+        "z": 44
+      }
+    },
+    {
+      "type": "node",
+      "id": "175",
+      "obj": {
+        "i": 175,
+        "n": "Spineless Basin",
+        "l": 30,
+        "t": 2,
+        "z": 43
+      }
+    },
+    {
+      "type": "node",
+      "id": "202",
+      "obj": {
+        "i": 202,
+        "n": "Broken Water",
+        "l": 30,
+        "t": 1,
+        "z": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27693",
+      "obj": {
+        "i": 27693,
+        "n": "Lignum Vitae Lumber",
+        "l": 415,
+        "c": 22454,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27778",
+      "obj": {
+        "i": 27778,
+        "n": "Growth Formula Kappa",
+        "l": 409,
+        "c": 22663,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5815",
+      "obj": {
+        "i": 5815,
+        "n": "Red Pigment",
+        "l": 28,
+        "c": 21456,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5820",
+      "obj": {
+        "i": 5820,
+        "n": "Purple Pigment",
+        "l": 28,
+        "c": 21461,
+        "t": 55
+      }
+    }
+  ]
+}

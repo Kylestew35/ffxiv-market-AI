@@ -1,0 +1,119 @@
+{
+  "item": {
+    "name": "Tiny Tatsunoko",
+    "description": "If the Hingan word for sea horse is tatsunoko, would that make this a sea pony? <span class=\"emphasis\">Your</span> little sea pony?<br><br>Use item to acquire the tiny tatsunoko minion.<br><br>[Suitable for printing on small canvases.]",
+    "minionrace": "Critter",
+    "tooltip": "His tiny minions won't\r\nstand a chance!\r\n   - Haermaga",
+    "minionskilltype": "Damage",
+    "specialactionname": "Trapdoor",
+    "specialactiondescription": "Triggers an enemy trap as if it were your own. If the trap deals physical damage, then potency is increased by 150%.",
+    "fish": {
+      "guide": "While it is the female tatsunoko who lays the eggs, it is the male who sees them through gestation in a brood pouch on its belly. And if that doesn't make you truly stop and think, nothing will.",
+      "icon": 79149,
+      "spots": [
+        {
+          "node": 480,
+          "gig": [
+            "Large Gig Head"
+          ],
+          "predator": [
+            {
+              "id": 20217,
+              "amount": 7
+            }
+          ],
+          "ff14anglerId": 734
+        }
+      ]
+    },
+    "id": 20528,
+    "patch": 4.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 29149,
+    "nodes": [
+      480
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 300,
+      "Skill Cost": 30,
+      "Attack": 45,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8215-1-1"
+    ],
+    "treasure": [
+      23224,
+      36636,
+      41667
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "480",
+      "obj": {
+        "i": 480,
+        "n": "The Eastern Ruby Sea",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "item",
+      "id": "23224",
+      "obj": {
+        "i": 23224,
+        "n": "Gold-haloed Sack",
+        "l": 1,
+        "c": 25991,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36636",
+      "obj": {
+        "i": 36636,
+        "n": "Materiel Container 4.0",
+        "l": 1,
+        "c": 26527,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41667",
+      "obj": {
+        "i": 41667,
+        "n": "Sanctuary Materiel Container",
+        "l": 1,
+        "c": 21002,
+        "t": 61
+      }
+    }
+  ]
+}

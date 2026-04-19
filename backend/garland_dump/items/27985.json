@@ -1,0 +1,153 @@
+{
+  "item": {
+    "name": "Regional Folklore Trader's Token B",
+    "description": "A certified note that can be exchanged for tomes of regional folklore.",
+    "id": 27985,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26171,
+    "tradeCurrency": [
+      {
+        "shop": "Fieldcraft Items",
+        "npcs": [
+          1027540
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26808",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27985",
+                "amount": 40
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26809",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27985",
+                "amount": 40
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26810",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27985",
+                "amount": 40
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27985",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027540",
+      "obj": {
+        "i": 1027540,
+        "n": "Splendors Vendor",
+        "l": 2952,
+        "s": 1,
+        "r": 1,
+        "a": 3266,
+        "c": [
+          11.76,
+          10.99
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26808",
+      "obj": {
+        "i": 26808,
+        "n": "Tome of Geological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26168,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "26809",
+      "obj": {
+        "i": 26809,
+        "n": "Tome of Botanical Folklore - Norvrandt",
+        "l": 1,
+        "c": 26165,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

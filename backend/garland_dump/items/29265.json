@@ -1,0 +1,235 @@
+{
+  "item": {
+    "name": "Augmented Crystarium Greatsword",
+    "jobCategories": "DRK",
+    "id": 29265,
+    "patch": 5.2,
+    "patchCategory": 0,
+    "price": 119230,
+    "ilvl": 500,
+    "category": 87,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1726,
+    "slot": 13,
+    "elvl": 80,
+    "jobs": 98,
+    "models": [
+      "1501-91-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 102,
+      "Magic Damage": 51,
+      "Delay": 2.96,
+      "Strength": 197,
+      "Vitality": 203,
+      "Determination": 194,
+      "Tenacity": 136
+    },
+    "attr_max": {
+      "Strength": 532,
+      "Dexterity": 532,
+      "Vitality": 549,
+      "Intelligence": 532,
+      "Mind": 532,
+      "Piety": 524,
+      "GP": 3,
+      "CP": 3,
+      "Tenacity": 524,
+      "Direct Hit Rate": 524,
+      "Critical Hit": 524,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 524,
+      "Skill Speed": 524,
+      "Spell Speed": 524,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 3124,
+      "Control": 1284,
+      "Gathering": 2940,
+      "Perception": 840
+    },
+    "icon": 34349,
+    "sharedModels": [
+      29185,
+      37748,
+      39018
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (IL 500 Weapons)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29265",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Crystarium Gear Augmentation (DoW) I",
+        "npcs": [
+          1027563
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29265",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29185",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Crystarium Gear (IL 500)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29265",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "29185",
+      "obj": {
+        "i": 29185,
+        "n": "Crystarium Greatsword",
+        "l": 490,
+        "c": 34349,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "37748",
+      "obj": {
+        "i": 37748,
+        "n": "Rinascita Greatsword",
+        "l": 610,
+        "c": 34383,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "39018",
+      "obj": {
+        "i": 39018,
+        "n": "Augmented Rinascita Greatsword",
+        "l": 620,
+        "c": 34383,
+        "t": 87
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027563",
+      "obj": {
+        "i": 1027563,
+        "n": "Shee-Tatch",
+        "l": 2952,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.34,
+          12.05
+        ]
+      }
+    }
+  ]
+}

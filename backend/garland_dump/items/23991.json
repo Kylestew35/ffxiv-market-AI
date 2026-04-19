@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "OMG",
+    "description": "Weird. Technological. Fascinating.<br><br>Use item to acquire the OMG minion.",
+    "minionrace": "Monster",
+    "tooltip": "Soon, Omega, soon...\r\nI will see you rise again!\r\n   - Nero tol Scaeva",
+    "minionskilltype": "Damage",
+    "specialactionname": "Targeting",
+    "specialactiondescription": "Delivers an attack with a potency of 150 to all enemies within range while inflicting a weakness to <span class=\"highlight\">monsters</span>.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 23991,
+    "patch": 4.4,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59705,
+    "instances": [
+      30072,
+      30076,
+      30072,
+      30076
+    ],
+    "tradeShops": [
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23991",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 30,
+    "skill_angle": 30,
+    "strengths": [
+      "Shield",
+      "Arcana"
+    ],
+    "attr": {
+      "HP": 540,
+      "Skill Cost": 60,
+      "Attack": 70,
+      "Defense": 65,
+      "Speed": 1
+    },
+    "models": [
+      "8277-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30072",
+      "obj": {
+        "i": 30072,
+        "n": "Alphascape V4.0",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 355
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30076",
+      "obj": {
+        "i": 30076,
+        "n": "Alphascape V4.0 (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 380
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    }
+  ]
+}

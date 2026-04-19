@@ -1,0 +1,216 @@
+{
+  "item": {
+    "name": "Shucked Clam",
+    "description": "The plump, meaty flesh of a clam, thoroughly boiled and cleaned of detritus. Live bait for ocean fishing.",
+    "jobCategories": "FSH",
+    "id": 43856,
+    "patch": 7.0,
+    "patchCategory": 2,
+    "price": 99999,
+    "ilvl": 675,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 97,
+    "jobs": 19,
+    "icon": 27107,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43856",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43856",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cosmocredit Exchange (Materials/Materia/Items)",
+        "npcs": [
+          1052588,
+          1052600,
+          1052607,
+          1052608,
+          1052640,
+          1052650
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43856",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "45690",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052588",
+      "obj": {
+        "i": 1052588,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5225,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052600",
+      "obj": {
+        "i": 1052600,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052607",
+      "obj": {
+        "i": 1052607,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052608",
+      "obj": {
+        "i": 1052608,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5225,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052640",
+      "obj": {
+        "i": 1052640,
+        "n": "Mesouaidonque",
+        "l": 5301,
+        "s": 3,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5316,
+        "c": [
+          28.67,
+          13.48
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052650",
+      "obj": {
+        "i": 1052650,
+        "n": "Mesouaidonque",
+        "l": 5406,
+        "s": 3,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5420,
+        "c": [
+          17.45,
+          24.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "45690",
+      "obj": {
+        "i": 45690,
+        "n": "Cosmocredit",
+        "l": 1,
+        "c": "t/65112",
+        "t": 63
+      }
+    }
+  ]
+}

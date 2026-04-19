@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Serpent Chocobo Issuance",
+    "description": "Present this deed to the Order of the Twin Adder company stables to receive your own chocobo.",
+    "id": 6018,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26191,
+    "tradeShops": [
+      {
+        "shop": "Order of the Twin Adder",
+        "npcs": [
+          1002393
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6018",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      66236
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66236",
+      "obj": {
+        "i": 66236,
+        "n": "My Little Chocobo (Twin Adder)",
+        "g": 112,
+        "l": "Gridania",
+        "s": 200,
+        "f": 1
+      }
+    }
+  ]
+}

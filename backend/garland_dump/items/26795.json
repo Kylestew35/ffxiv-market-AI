@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Eden Minor",
+    "description": "Free of sin, though not for lack of trying.<br><br>Use item to acquire the Eden Minor minion.",
+    "minionrace": "Monster",
+    "tooltip": "For what was once\r\nshattered may be\r\nforged anew.\r\n   - Ryne",
+    "minionskilltype": "Damage",
+    "specialactionname": "Eternal Breath",
+    "specialactiondescription": "Delivers an attack with a potency of 380 to all enemies within range.",
+    "id": 26795,
+    "patch": 5.01,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59741,
+    "instances": [
+      30084,
+      30085,
+      30084,
+      30085
+    ],
+    "cost": 30,
+    "skill_angle": 30,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 450,
+      "Skill Cost": 60,
+      "Attack": 85,
+      "Defense": 45,
+      "Speed": 2
+    },
+    "models": [
+      "8309-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30084",
+      "obj": {
+        "i": 30084,
+        "n": "Eden's Gate: Sepulture",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 425
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30085",
+      "obj": {
+        "i": 30085,
+        "n": "Eden's Gate: Sepulture (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 450
+      }
+    }
+  ]
+}

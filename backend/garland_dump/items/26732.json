@@ -1,0 +1,423 @@
+{
+  "item": {
+    "name": "Gatherer's Guerdon Materia VIII",
+    "description": "Cannot be melded onto a piece of equipment past the first advanced materia melding slot.",
+    "id": 26732,
+    "patch": 5.0,
+    "patchCategory": 10,
+    "price": 8400,
+    "ilvl": 430,
+    "category": 58,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 151,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20277,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027567,
+          1027995
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Qitari Compliment Exchange",
+        "npcs": [
+          1032661
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28187",
+                "amount": 9
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 300
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Fête Tokens",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33870",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Materia)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 200
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "materia": {
+      "tier": 7,
+      "value": 20,
+      "attr": "Gathering",
+      "category": 2
+    },
+    "quests": [
+      68774,
+      68777
+    ],
+    "desynthedFrom": [
+      28930,
+      33321,
+      32054,
+      33242,
+      29788,
+      29791
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027567",
+      "obj": {
+        "i": 1027567,
+        "n": "Thex",
+        "l": 2952,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 3269,
+        "c": [
+          10.68,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027995",
+      "obj": {
+        "i": 1027995,
+        "n": "Cholline",
+        "l": 2951,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          10.72,
+          13.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26822",
+      "obj": {
+        "i": 26822,
+        "n": "Cracked Stellacrystal",
+        "l": 1,
+        "c": 20036,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032661",
+      "obj": {
+        "i": 1032661,
+        "n": "Yuqurl Manl",
+        "l": 2957,
+        "s": 4,
+        "t": "Qitari Vendor",
+        "r": 1,
+        "a": 3472,
+        "c": [
+          37.37,
+          17.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28187",
+      "obj": {
+        "i": 28187,
+        "n": "Qitari Compliment",
+        "l": 1,
+        "c": 65077,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33870",
+      "obj": {
+        "i": 33870,
+        "n": "Fête Token",
+        "l": 1,
+        "c": 26171,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68774",
+      "obj": {
+        "i": 68774,
+        "n": "The Myth Takes Form",
+        "g": 200,
+        "l": "The Crystarium",
+        "s": 430
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68777",
+      "obj": {
+        "i": 68777,
+        "n": "Morsel of the Deep",
+        "g": 201,
+        "l": "The Crystarium",
+        "s": 530
+      }
+    },
+    {
+      "type": "item",
+      "id": "28930",
+      "obj": {
+        "i": 28930,
+        "n": "Ondo Sigh",
+        "l": 460,
+        "c": 29197,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "33321",
+      "obj": {
+        "i": 33321,
+        "n": "Dammroen Herring",
+        "l": 490,
+        "c": 28493,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "32054",
+      "obj": {
+        "i": 32054,
+        "n": "The Ondotaker",
+        "l": 490,
+        "c": 29199,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "33242",
+      "obj": {
+        "i": 33242,
+        "n": "Ealad Skaan",
+        "l": 490,
+        "c": 28495,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29788",
+      "obj": {
+        "i": 29788,
+        "n": "Sothis",
+        "l": 1,
+        "c": 28009,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29791",
+      "obj": {
+        "i": 29791,
+        "n": "Elasmosaurus",
+        "l": 1,
+        "c": 28012,
+        "t": 47
+      }
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "item": {
+    "name": "Buckwheat Tea",
+    "description": "A dark, nutty infusion made from steeping buckwheat kernels in boiling water.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19809,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2098,
+    "ilvl": 265,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 24,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Skill Speed": {
+          "rate": 8,
+          "limit": 34
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 35
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Skill Speed": {
+          "rate": 10,
+          "limit": 43
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 44
+        }
+      }
+    },
+    "icon": 24406,
+    "craft": [
+      {
+        "id": 3553,
+        "job": 15,
+        "rlvl": 265,
+        "durability": 80,
+        "quality": 2880,
+        "progress": 680,
+        "lvl": 62,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19850,
+            "amount": 3
+          },
+          {
+            "id": 19871,
+            "amount": 1
+          },
+          {
+            "id": 4846,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 3
+          },
+          {
+            "id": 13,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 76,
+          "hq": 96
+        }
+      }
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 644280,
+      "seals": 713
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Buckwheat Kernels",
+      "id": 19850,
+      "icon": 25356,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "leves": [
+        1301,
+        1302,
+        1303
+      ],
+      "ventures": [
+        682
+      ],
+      "nodes": [
+        512
+      ]
+    },
+    {
+      "name": "Gyr Abanian Mineral Water",
+      "id": 19871,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 260,
+      "price": 514,
+      "leves": [
+        1317,
+        1318
+      ],
+      "ventures": [
+        648
+      ],
+      "nodes": [
+        486
+      ]
+    },
+    {
+      "name": "Thanalan Tea Leaves",
+      "id": 4846,
+      "icon": 25020,
+      "category": 45,
+      "ilvl": 49,
+      "price": 229,
+      "ventures": [
+        304
+      ],
+      "nodes": [
+        149
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "node",
+      "id": "486",
+      "obj": {
+        "i": 486,
+        "n": "The Striped Hills",
+        "l": 65,
+        "t": 0,
+        "z": 2406
+      }
+    },
+    {
+      "type": "node",
+      "id": "149",
+      "obj": {
+        "i": 149,
+        "n": "Sagolii Desert",
+        "l": 50,
+        "t": 3,
+        "z": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19850",
+      "obj": {
+        "i": 19850,
+        "n": "Buckwheat Kernels",
+        "l": 265,
+        "c": 25356,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19871",
+      "obj": {
+        "i": 19871,
+        "n": "Gyr Abanian Mineral Water",
+        "l": 260,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "4846",
+      "obj": {
+        "i": 4846,
+        "n": "Thanalan Tea Leaves",
+        "l": 49,
+        "c": 25020,
+        "t": 45
+      }
+    }
+  ]
+}

@@ -1,0 +1,765 @@
+{
+  "item": {
+    "name": "Grade 2 Dexterity Dissolvent",
+    "description": "When applied to items such as battle gear, this alchemical liquid will dissolve away minute amounts of aether aspected to elements detrimental to dexterity, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 12618,
+    "patch": 3.05,
+    "patchCategory": 5,
+    "price": 3065,
+    "ilvl": 180,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 18,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20674,
+    "ingredient_of": {
+      "10802": 1,
+      "10809": 2,
+      "10816": 1,
+      "10837": 1,
+      "10844": 1,
+      "10851": 2,
+      "10858": 1,
+      "10872": 2,
+      "10879": 1,
+      "10830": 2,
+      "17321": 1,
+      "17322": 2,
+      "17323": 1,
+      "17324": 2,
+      "17325": 1,
+      "17326": 1,
+      "17327": 2,
+      "17328": 1,
+      "17329": 2,
+      "17330": 1
+    },
+    "craft": [
+      {
+        "id": 31202,
+        "job": 14,
+        "rlvl": 180,
+        "durability": 70,
+        "quality": 2900,
+        "progress": 740,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 695,
+        "craftsmanshipReq": 718,
+        "quickSynthCraftsmanship": 850,
+        "unlockId": 12250,
+        "ingredients": [
+          {
+            "id": 12973,
+            "amount": 1
+          },
+          {
+            "id": 12641,
+            "amount": 1
+          },
+          {
+            "id": 12633,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 481,
+          "hq": 501
+        }
+      }
+    ],
+    "desynthedFrom": [
+      10809
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Clary Sage",
+      "id": 12973,
+      "icon": 25009,
+      "category": 45,
+      "ilvl": 150,
+      "price": 712,
+      "nodes": [
+        327,
+        329
+      ]
+    },
+    {
+      "name": "Gaelicatnip",
+      "id": 12641,
+      "icon": 25030,
+      "category": 54,
+      "ilvl": 150,
+      "price": 712,
+      "desynthedFrom": [
+        12829
+      ],
+      "ventures": [
+        479
+      ],
+      "nodes": [
+        361
+      ]
+    },
+    {
+      "name": "Skyspring Water",
+      "id": 12633,
+      "icon": 22653,
+      "category": 54,
+      "ilvl": 180,
+      "price": 1140,
+      "tradeShops": [
+        {
+          "shop": "Tradecraft Items",
+          "npcs": [
+            1012229
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12633",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "12839",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Sky Pirate Spoils (Brass)",
+          "npcs": [
+            1016261,
+            1016496,
+            1016498,
+            1016500,
+            1019106
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12633",
+                  "amount": 10
+                }
+              ],
+              "currency": [
+                {
+                  "id": "13630",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12633",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12633",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 50
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        33,
+        35,
+        41,
+        40,
+        43,
+        42,
+        55001
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "327",
+      "obj": {
+        "i": 327,
+        "n": "Ok' Vundu Mok",
+        "l": 60,
+        "t": 3,
+        "z": 2100,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "329",
+      "obj": {
+        "i": 329,
+        "n": "Red Rim",
+        "l": 60,
+        "t": 3,
+        "z": 2200,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          0
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "361",
+      "obj": {
+        "i": 361,
+        "n": "The Answering Quarter",
+        "l": 60,
+        "t": 3,
+        "z": 2001
+      }
+    },
+    {
+      "type": "instance",
+      "id": "33",
+      "obj": {
+        "i": 33,
+        "n": "Neverreap",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 145,
+        "max_ilvl": 210
+      }
+    },
+    {
+      "type": "instance",
+      "id": "35",
+      "obj": {
+        "i": 35,
+        "n": "The Fractal Continuum",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 145,
+        "max_ilvl": 210
+      }
+    },
+    {
+      "type": "instance",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Saint Mocianne's Arboretum",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 170,
+        "max_ilvl": 240
+      }
+    },
+    {
+      "type": "instance",
+      "id": "40",
+      "obj": {
+        "i": 40,
+        "n": "Pharos Sirius (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 170,
+        "max_ilvl": 240
+      }
+    },
+    {
+      "type": "instance",
+      "id": "43",
+      "obj": {
+        "i": 43,
+        "n": "The Antitower",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 180
+      }
+    },
+    {
+      "type": "instance",
+      "id": "42",
+      "obj": {
+        "i": 42,
+        "n": "The Lost City of Amdapor (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 180
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012229",
+      "obj": {
+        "i": 1012229,
+        "n": "Splendors Vendor",
+        "l": 2082,
+        "s": 2,
+        "r": 1,
+        "a": 2094,
+        "c": [
+          5.73,
+          7.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12839",
+      "obj": {
+        "i": 12839,
+        "n": "Blue Crafters' Scrip Token",
+        "l": 1,
+        "c": 26171,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13630",
+      "obj": {
+        "i": 13630,
+        "n": "Brass Sky Pirate Spoil",
+        "l": 1,
+        "c": 25950,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "10802",
+      "obj": {
+        "i": 10802,
+        "n": "Griffin Leather Blinder of Aiming",
+        "l": 180,
+        "c": 40468,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10809",
+      "obj": {
+        "i": 10809,
+        "n": "Griffin Leather Longcoat of Aiming",
+        "l": 180,
+        "c": 43694,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10816",
+      "obj": {
+        "i": 10816,
+        "n": "Griffin Leather Gloves of Aiming",
+        "l": 180,
+        "c": 44384,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10837",
+      "obj": {
+        "i": 10837,
+        "n": "Griffin Leather Thighboots of Aiming",
+        "l": 180,
+        "c": 46534,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "10844",
+      "obj": {
+        "i": 10844,
+        "n": "Griffin Leather Tricorne of Scouting",
+        "l": 180,
+        "c": 41269,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10851",
+      "obj": {
+        "i": 10851,
+        "n": "Griffin Leather Coat of Scouting",
+        "l": 180,
+        "c": 42463,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10858",
+      "obj": {
+        "i": 10858,
+        "n": "Griffin Leather Bracers of Scouting",
+        "l": 180,
+        "c": 44383,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10872",
+      "obj": {
+        "i": 10872,
+        "n": "Griffin Leather Brais of Scouting",
+        "l": 180,
+        "c": 45685,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "10879",
+      "obj": {
+        "i": 10879,
+        "n": "Griffin Leather Boots of Scouting",
+        "l": 180,
+        "c": 46533,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "10830",
+      "obj": {
+        "i": 10830,
+        "n": "Astral Silk Slops of Aiming",
+        "l": 180,
+        "c": 45686,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "12250",
+      "obj": {
+        "i": 12250,
+        "n": "Master Alchemist III",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12973",
+      "obj": {
+        "i": 12973,
+        "n": "Clary Sage",
+        "l": 150,
+        "c": 25009,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12641",
+      "obj": {
+        "i": 12641,
+        "n": "Gaelicatnip",
+        "l": 150,
+        "c": 25030,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12633",
+      "obj": {
+        "i": 12633,
+        "n": "Skyspring Water",
+        "l": 180,
+        "c": 22653,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "17321",
+      "obj": {
+        "i": 17321,
+        "n": "Sky Rat Mask of Aiming",
+        "l": 255,
+        "c": 40497,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17322",
+      "obj": {
+        "i": 17322,
+        "n": "Sky Rat Harness of Aiming",
+        "l": 255,
+        "c": 43320,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17323",
+      "obj": {
+        "i": 17323,
+        "n": "Sky Rat Fingerless Gloves of Aiming",
+        "l": 255,
+        "c": 48577,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17324",
+      "obj": {
+        "i": 17324,
+        "n": "Sky Rat Breeches of Aiming",
+        "l": 255,
+        "c": 45870,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17325",
+      "obj": {
+        "i": 17325,
+        "n": "Sky Rat Ironclad Boots of Aiming",
+        "l": 255,
+        "c": 47074,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "17326",
+      "obj": {
+        "i": 17326,
+        "n": "Sky Rat Mask of Scouting",
+        "l": 255,
+        "c": 40498,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "17327",
+      "obj": {
+        "i": 17327,
+        "n": "Sky Rat Harness of Scouting",
+        "l": 255,
+        "c": 43321,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "17328",
+      "obj": {
+        "i": 17328,
+        "n": "Sky Rat Hook of Scouting",
+        "l": 255,
+        "c": 48578,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "17329",
+      "obj": {
+        "i": 17329,
+        "n": "Sky Rat Breeches of Scouting",
+        "l": 255,
+        "c": 45871,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17330",
+      "obj": {
+        "i": 17330,
+        "n": "Sky Rat Hookboots of Scouting",
+        "l": 255,
+        "c": 47075,
+        "t": 38
+      }
+    }
+  ]
+}

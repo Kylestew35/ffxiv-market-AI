@@ -1,0 +1,857 @@
+{
+  "item": {
+    "name": "Max-Ether",
+    "description": "Processed via the alchemical extraction of aetheric essence occurring in elemental crystals, the contents of this vial instantly restore a considerable amount of MP.",
+    "id": 13638,
+    "patch": 3.1,
+    "patchCategory": 4,
+    "price": 2376,
+    "ilvl": 150,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 36,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "MP": {
+          "rate": 12,
+          "limit": 1200
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "MP": {
+          "rate": 15,
+          "limit": 1500
+        }
+      }
+    },
+    "icon": 20621,
+    "instances": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "craft": [
+      {
+        "id": 2846,
+        "job": 14,
+        "rlvl": 150,
+        "durability": 70,
+        "quality": 2700,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 13752,
+            "amount": 1
+          },
+          {
+            "id": 13736,
+            "amount": 1
+          },
+          {
+            "id": 12971,
+            "amount": 1
+          },
+          {
+            "id": 12640,
+            "amount": 1
+          },
+          {
+            "id": 6153,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 6
+          },
+          {
+            "id": 12,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 361,
+          "hq": 381
+        }
+      }
+    ],
+    "quests": [
+      67695,
+      67771,
+      67780
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Royal Mistletoe",
+      "id": 13752,
+      "icon": 25001,
+      "category": 54,
+      "ilvl": 150,
+      "price": 712,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13752",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13752",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gem Marimo",
+      "id": 13736,
+      "icon": 29316,
+      "category": 47,
+      "ilvl": 150,
+      "price": 1425,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13736",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials/Bait)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "13736",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "fishingSpots": [
+        10021
+      ]
+    },
+    {
+      "name": "Highland Oregano",
+      "id": 12971,
+      "icon": 25015,
+      "category": 45,
+      "ilvl": 139,
+      "price": 660,
+      "nodes": [
+        327,
+        329
+      ]
+    },
+    {
+      "name": "Dandelion",
+      "id": 12640,
+      "icon": 25029,
+      "category": 54,
+      "ilvl": 148,
+      "price": 703,
+      "ventures": [
+        477
+      ],
+      "nodes": [
+        359
+      ],
+      "vendors": [
+        1017172
+      ]
+    },
+    {
+      "name": "Filtered Water",
+      "id": 6153,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 20
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        22,
+        21,
+        20,
+        23,
+        24,
+        25
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "10021",
+      "obj": {
+        "i": 10021,
+        "n": "Calm Cloudtop",
+        "l": 80,
+        "c": 4,
+        "z": 1647,
+        "x": 28,
+        "y": 33
+      }
+    },
+    {
+      "type": "node",
+      "id": "327",
+      "obj": {
+        "i": 327,
+        "n": "Ok' Vundu Mok",
+        "l": 60,
+        "t": 3,
+        "z": 2100,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "329",
+      "obj": {
+        "i": 329,
+        "n": "Red Rim",
+        "l": 60,
+        "t": 3,
+        "z": 2200,
+        "s": 1,
+        "lt": "Ephemeral",
+        "ti": [
+          0
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "359",
+      "obj": {
+        "i": 359,
+        "n": "Four Arms",
+        "l": 60,
+        "t": 3,
+        "z": 2002
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "instance",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "The Lost City of Amdapor",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Halatali (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Brayflox's Longstop (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 55,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "23",
+      "obj": {
+        "i": 23,
+        "n": "Hullbreaker Isle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "24",
+      "obj": {
+        "i": 24,
+        "n": "The Tam-Tara Deepcroft (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "instance",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Stone Vigil (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "instance",
+      "id": "50",
+      "obj": {
+        "i": 50,
+        "n": "Shisui of the Violet Tides",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 63,
+        "max_lvl": 64,
+        "min_ilvl": 245
+      }
+    },
+    {
+      "type": "instance",
+      "id": "51",
+      "obj": {
+        "i": 51,
+        "n": "The Temple of the Fist",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 280,
+        "max_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "52",
+      "obj": {
+        "i": 52,
+        "n": "The Sirensong Sea",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 61,
+        "max_lvl": 62,
+        "min_ilvl": 240
+      }
+    },
+    {
+      "type": "instance",
+      "id": "53",
+      "obj": {
+        "i": 53,
+        "n": "Bardam's Mettle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 65,
+        "max_lvl": 66,
+        "min_ilvl": 250
+      }
+    },
+    {
+      "type": "instance",
+      "id": "54",
+      "obj": {
+        "i": 54,
+        "n": "Doma Castle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 67,
+        "max_lvl": 68,
+        "min_ilvl": 255
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55",
+      "obj": {
+        "i": 55,
+        "n": "Castrum Abania",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 69,
+        "max_lvl": 70,
+        "min_ilvl": 260,
+        "max_ilvl": 290
+      }
+    },
+    {
+      "type": "instance",
+      "id": "56",
+      "obj": {
+        "i": 56,
+        "n": "Ala Mhigo",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 280,
+        "max_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "57",
+      "obj": {
+        "i": 57,
+        "n": "Kugane Castle",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 280,
+        "max_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "item",
+      "id": "13752",
+      "obj": {
+        "i": 13752,
+        "n": "Royal Mistletoe",
+        "l": 150,
+        "c": 25001,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "13736",
+      "obj": {
+        "i": 13736,
+        "n": "Gem Marimo",
+        "l": 150,
+        "c": 29316,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "12971",
+      "obj": {
+        "i": 12971,
+        "n": "Highland Oregano",
+        "l": 139,
+        "c": 25015,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12640",
+      "obj": {
+        "i": 12640,
+        "n": "Dandelion",
+        "l": 148,
+        "c": 25029,
+        "t": 54,
+        "p": 703
+      }
+    },
+    {
+      "type": "item",
+      "id": "6153",
+      "obj": {
+        "i": 6153,
+        "n": "Filtered Water",
+        "l": 70,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67695",
+      "obj": {
+        "i": 67695,
+        "n": "In the Eye of the Beholder",
+        "g": 4,
+        "l": "The Dravanian Hinterlands",
+        "s": 4
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67771",
+      "obj": {
+        "i": 67771,
+        "n": "Once More, a Favor",
+        "g": 4,
+        "l": "Coerthas Western Highlands",
+        "s": 13
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67780",
+      "obj": {
+        "i": 67780,
+        "n": "Winning Over the Wyrm",
+        "g": 4,
+        "l": "The Dravanian Forelands",
+        "s": 22
+      }
+    }
+  ]
+}

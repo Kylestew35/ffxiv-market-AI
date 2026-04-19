@@ -1,0 +1,640 @@
+{
+  "item": {
+    "name": "Vermicelli",
+    "description": "Thin noodles made with highland flour, eggs, water, and salt. These have been dried and will keep indefinitely.",
+    "id": 12908,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 861,
+    "ilvl": 136,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25058,
+    "ingredient_of": {
+      "12092": 2,
+      "27857": 3,
+      "36058": 1,
+      "14136": 1,
+      "14137": 1,
+      "15651": 1,
+      "16711": 1,
+      "16713": 1,
+      "27883": 1,
+      "31079": 3,
+      "31087": 2,
+      "31900": 2,
+      "38269": 1,
+      "39788": 2,
+      "44176": 1
+    },
+    "craft": [
+      {
+        "id": 2823,
+        "job": 15,
+        "rlvl": 139,
+        "durability": 35,
+        "quality": 1936,
+        "progress": 210,
+        "lvl": 56,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12881,
+            "amount": 3,
+            "quality": 192.73055
+          },
+          {
+            "id": 12631,
+            "amount": 1
+          },
+          {
+            "id": 12901,
+            "amount": 1
+          },
+          {
+            "id": 2,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 315,
+          "hq": 335
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Highland Flour",
+      "id": 12881,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 133,
+      "price": 842,
+      "craft": [
+        {
+          "id": 2817,
+          "job": 15,
+          "rlvl": 125,
+          "durability": 40,
+          "quality": 1712,
+          "progress": 130,
+          "lvl": 52,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12880,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Highland Wheat",
+      "id": 12880,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        466
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Dravanian Spring Water",
+      "id": 12631,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 130,
+      "price": 823,
+      "desynthedFrom": [
+        21928,
+        20263,
+        23102,
+        12750,
+        17545
+      ],
+      "ventures": [
+        449
+      ],
+      "nodes": [
+        287
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "12880",
+      "obj": {
+        "i": 12880,
+        "n": "Highland Wheat",
+        "l": 130,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "287",
+      "obj": {
+        "i": 287,
+        "n": "The Smoldering Wastes",
+        "l": 55,
+        "t": 0,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12092",
+      "obj": {
+        "i": 12092,
+        "n": "Riviera Lunch",
+        "l": 139,
+        "c": 53067,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "12881",
+      "obj": {
+        "i": 12881,
+        "n": "Highland Flour",
+        "l": 133,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12631",
+      "obj": {
+        "i": 12631,
+        "n": "Dravanian Spring Water",
+        "l": 130,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "item",
+      "id": "27857",
+      "obj": {
+        "i": 27857,
+        "n": "Spaghetti al Nero",
+        "l": 400,
+        "c": 24027,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "36058",
+      "obj": {
+        "i": 36058,
+        "n": "The Noodles of Elpis",
+        "l": 545,
+        "c": 24019,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "14136",
+      "obj": {
+        "i": 14136,
+        "n": "Peperoncino",
+        "l": 180,
+        "c": 24016,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "14137",
+      "obj": {
+        "i": 14137,
+        "n": "Boscaiola",
+        "l": 210,
+        "c": 24017,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "15651",
+      "obj": {
+        "i": 15651,
+        "n": "Pasta Ortolano",
+        "l": 220,
+        "c": 24018,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "16711",
+      "obj": {
+        "i": 16711,
+        "n": "Spaghetti Carbonara",
+        "l": 250,
+        "c": 24019,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "16713",
+      "obj": {
+        "i": 16713,
+        "n": "Spaghetti Pescatore",
+        "l": 250,
+        "c": 24020,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "27883",
+      "obj": {
+        "i": 27883,
+        "n": "Creamy Salmon Pasta",
+        "l": 450,
+        "c": 24029,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "31079",
+      "obj": {
+        "i": 31079,
+        "n": "Rarefied Peperoncino",
+        "l": 145,
+        "c": 24016,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31087",
+      "obj": {
+        "i": 31087,
+        "n": "Rarefied Spaghetti al Nero",
+        "l": 403,
+        "c": 24027,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "31900",
+      "obj": {
+        "i": 31900,
+        "n": "Chicken Fettuccine",
+        "l": 510,
+        "c": 24033,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "38269",
+      "obj": {
+        "i": 38269,
+        "n": "Urchin Pasta",
+        "l": 610,
+        "c": 24042,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "39788",
+      "obj": {
+        "i": 39788,
+        "n": "Connoisseur's Spaghetti al Nero",
+        "l": 625,
+        "c": 24027,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44176",
+      "obj": {
+        "i": 44176,
+        "n": "Chicken Pasta",
+        "l": 710,
+        "c": 24019,
+        "t": 46
+      }
+    }
+  ]
+}

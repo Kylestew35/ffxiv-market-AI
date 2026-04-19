@@ -1,0 +1,332 @@
+{
+  "item": {
+    "name": "Augmented Credendum Cuirass of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 40111,
+    "patch": 6.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 660,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1625,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1995,
+    "slot": 4,
+    "elvl": 90,
+    "jobs": 59,
+    "models": [
+      "818-1-0-0"
+    ],
+    "attr": {
+      "Defense": 1196,
+      "Magic Defense": 1196,
+      "Strength": 394,
+      "Vitality": 440,
+      "Critical Hit": 292,
+      "Determination": 204
+    },
+    "attr_max": {
+      "Strength": 1065,
+      "Dexterity": 1065,
+      "Vitality": 1188,
+      "Intelligence": 1065,
+      "Mind": 1065,
+      "Piety": 789,
+      "GP": 4,
+      "CP": 4,
+      "Tenacity": 789,
+      "Defense": 5644,
+      "Direct Hit Rate": 789,
+      "Magic Defense": 5644,
+      "Critical Hit": 789,
+      "Fire Resistance": 69,
+      "Ice Resistance": 69,
+      "Wind Resistance": 69,
+      "Earth Resistance": 69,
+      "Lightning Resistance": 69,
+      "Water Resistance": 69,
+      "Determination": 789,
+      "Skill Speed": 789,
+      "Spell Speed": 789,
+      "Slow Resistance": 15,
+      "Petrification Resistance": 15,
+      "Paralysis Resistance": 15,
+      "Silence Resistance": 15,
+      "Blind Resistance": 15,
+      "Poison Resistance": 15,
+      "Stun Resistance": 15,
+      "Sleep Resistance": 15,
+      "Bind Resistance": 15,
+      "Heavy Resistance": 15,
+      "Doom Resistance": 15,
+      "Craftsmanship": 4320,
+      "Control": 1212,
+      "Gathering": 2763,
+      "Perception": 691
+    },
+    "icon": 42953,
+    "sharedModels": [
+      40036,
+      40041,
+      40116
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW, IL 660)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40111",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 510
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Credendum Gear Augmentation (DoW) I",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40111",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "40036",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Silver Chocobo Feather Exchange V (Lv. 90 Gear)",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40111",
+                "amount": 1
+              },
+              {
+                "id": "40113",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12995",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Credendum Gear (IL 660)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40111",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 510
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "40036",
+      "obj": {
+        "i": 40036,
+        "n": "Credendum Cuirass of Fending",
+        "l": 650,
+        "c": 42953,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "40041",
+      "obj": {
+        "i": 40041,
+        "n": "Credendum Cuirass of Maiming",
+        "l": 650,
+        "c": 42954,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "40116",
+      "obj": {
+        "i": 40116,
+        "n": "Augmented Credendum Cuirass of Maiming",
+        "l": 660,
+        "c": 42954,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12995",
+      "obj": {
+        "i": 12995,
+        "n": "Silver Chocobo Feather",
+        "l": 1,
+        "c": 21909,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "40113",
+      "obj": {
+        "i": 40113,
+        "n": "Augmented Credendum Breeches of Fending",
+        "l": 660,
+        "c": 47983,
+        "t": 36
+      }
+    }
+  ]
+}

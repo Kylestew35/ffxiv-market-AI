@@ -1,0 +1,513 @@
+{
+  "item": {
+    "name": "Unidentifiable Seeds",
+    "description": "These highly collectable seeds appear to be from flora not recorded in the Raimdelle Codex.",
+    "id": 13588,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 15000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27459,
+    "tradeShops": [
+      {
+        "shop": "Sylphic Goldleaf Exchange",
+        "npcs": [
+          1005569
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21075",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Vanu Whitebone Exchange",
+        "npcs": [
+          1016093
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21074",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Precision Gordian Part Exchange",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13587",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Black Copper Gil Exchange",
+        "npcs": [
+          1016804
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21079",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Carved Kupo Nut Exchange",
+        "npcs": [
+          1017172
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21080",
+                "amount": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allagan Tomestones of Poetics (Special Arms)",
+        "npcs": [
+          1008119,
+          1012228
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Allied Seals (Other)",
+        "npcs": [
+          1001379,
+          1009152,
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 300
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Special Arms Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13588",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 150
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Anima Weapon Materials",
+        "npcs": [
+          1016290
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13580",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13588",
+                "amount": 10
+              },
+              {
+                "id": "13595",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016093",
+      "obj": {
+        "i": 1016093,
+        "n": "Luna Vanu",
+        "l": 2100,
+        "s": 2,
+        "q": 8,
+        "t": "Whitebone Exchange",
+        "r": 1,
+        "a": 2240,
+        "c": [
+          7.04,
+          14.28
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21074",
+      "obj": {
+        "i": 21074,
+        "n": "Vanu Whitebone",
+        "l": 1,
+        "c": 65055,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016290",
+      "obj": {
+        "i": 1016290,
+        "n": "Cristiana",
+        "l": 67,
+        "s": 1,
+        "q": 1,
+        "t": "Anima Weapon Modification",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          21.39,
+          5.5
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13595",
+      "obj": {
+        "i": 13595,
+        "n": "Kingcake",
+        "l": 160,
+        "c": 24057,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "13580",
+      "obj": {
+        "i": 13580,
+        "n": "Fast-acting Allagan Catalyst",
+        "l": 1,
+        "c": 27616,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13587",
+      "obj": {
+        "i": 13587,
+        "n": "Precision Gordian Shaft",
+        "l": 1,
+        "c": 23101,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017172",
+      "obj": {
+        "i": 1017172,
+        "n": "Mogmul Mogbelly",
+        "l": 2002,
+        "s": 4,
+        "q": 4,
+        "t": "Craver of Kupo Nuts",
+        "r": 1,
+        "a": 2095,
+        "c": [
+          15.99,
+          28.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21080",
+      "obj": {
+        "i": 21080,
+        "n": "Carved Kupo Nut",
+        "l": 1,
+        "c": 65057,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001379",
+      "obj": {
+        "i": 1001379,
+        "n": "Hunt Billmaster",
+        "l": 40,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.18,
+          9.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009152",
+      "obj": {
+        "i": 1009152,
+        "n": "Hunt Billmaster",
+        "l": 52,
+        "s": 4,
+        "q": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.76,
+          11.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

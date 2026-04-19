@@ -1,0 +1,185 @@
+{
+  "item": {
+    "name": "Asphodelos War Scythe",
+    "jobCategories": "RPR",
+    "id": 35263,
+    "patch": 6.05,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 605,
+    "category": 108,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1861,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1904,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 180,
+    "models": [
+      "2810-1-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 120,
+      "Magic Damage": 60,
+      "Delay": 3.2,
+      "Strength": 304,
+      "Vitality": 320,
+      "Critical Hit": 269,
+      "Determination": 188
+    },
+    "attr_max": {
+      "Dexterity": 274,
+      "Intelligence": 274,
+      "Mind": 274,
+      "Piety": 242,
+      "GP": 9,
+      "CP": 7,
+      "Tenacity": 269,
+      "Direct Hit Rate": 269,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Determination": 269,
+      "Skill Speed": 269,
+      "Spell Speed": 269,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 1369,
+      "Control": 726,
+      "Gathering": 1381,
+      "Perception": 789
+    },
+    "icon": 37220,
+    "instances": [
+      30108
+    ],
+    "tradeShops": [
+      {
+        "shop": "Asphodelos Mythos Exchange (DoW) I",
+        "npcs": [
+          1037303,
+          1039555
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35263",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35826",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Asphodelos Gear (IL 600-605)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35263",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35826",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30108",
+      "obj": {
+        "i": 30108,
+        "n": "Asphodelos: The Fourth Circle (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 580
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037303",
+      "obj": {
+        "i": 1037303,
+        "n": "Djole",
+        "l": 3707,
+        "s": 18,
+        "t": "Pandæmonium Relic Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.34,
+          9.72
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039555",
+      "obj": {
+        "i": 1039555,
+        "n": "Mylenie",
+        "l": 3708,
+        "s": 18,
+        "t": "Pandæmonium Relic Exchange",
+        "r": 1,
+        "a": 3852,
+        "c": [
+          8.38,
+          27.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35826",
+      "obj": {
+        "i": 35826,
+        "n": "Asphodelos Mythos IV",
+        "l": 1,
+        "c": 26453,
+        "t": 61
+      }
+    }
+  ]
+}

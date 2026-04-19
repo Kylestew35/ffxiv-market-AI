@@ -1,0 +1,123 @@
+{
+  "item": {
+    "name": "Augmented Wizard's Tonban",
+    "jobCategories": "BLM",
+    "id": 8424,
+    "patch": 2.3,
+    "patchCategory": 0,
+    "price": 16906,
+    "ilvl": 50,
+    "category": 36,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "slot": 7,
+    "elvl": 45,
+    "jobs": 26,
+    "models": [
+      "40-1-0-0"
+    ],
+    "attr": {
+      "Defense": 64,
+      "Magic Defense": 113,
+      "Intelligence": 13,
+      "Vitality": 14,
+      "Spell Speed": 23,
+      "Critical Hit": 16
+    },
+    "icon": 45190,
+    "sharedModels": [
+      3464,
+      6082
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Equipment (DoM)",
+        "npcs": [
+          1006987
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8424",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "3464",
+                "amount": 1
+              },
+              {
+                "id": "8048",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "3464",
+      "obj": {
+        "i": 3464,
+        "n": "Wizard's Tonban",
+        "l": 50,
+        "c": 45190,
+        "t": 36,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6082",
+      "obj": {
+        "i": 6082,
+        "n": "Sorcerer's Tonban",
+        "l": 90,
+        "c": 45368,
+        "t": 36
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006987",
+      "obj": {
+        "i": 1006987,
+        "n": "Kakalan",
+        "l": 67,
+        "s": 4,
+        "t": "Forge Sales",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.32,
+          5.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8048",
+      "obj": {
+        "i": 8048,
+        "n": "Wizard's Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    }
+  ]
+}

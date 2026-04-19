@@ -1,0 +1,62 @@
+{
+  "item": {
+    "name": "Puff of Darkness",
+    "description": "When standing nearby, prithee refrain from coughing, sneezing, waving, flailing, or performing any other means of wild gesticulation, lest the puff be lost for eternity.<br><br>Use item to acquire the puff of Darkness minion.",
+    "minionrace": "Monster",
+    "tooltip": "What I do not smother,\r\nI devour. What I cannot\r\ndevour, I destroy.\r\n  - The Cloud of Darkness",
+    "minionskilltype": "Damage",
+    "specialactionname": "Nanoparticle Beam",
+    "specialactiondescription": "Delivers an attack with a potency of 150 to all enemies within range while reducing DEF by 30%.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 10072,
+    "patch": 2.5,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59517,
+    "instances": [
+      30020,
+      30020
+    ],
+    "cost": 30,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 540,
+      "Skill Cost": 20,
+      "Attack": 70,
+      "Defense": 60,
+      "Speed": 4
+    },
+    "models": [
+      "8122-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30020",
+      "obj": {
+        "i": 30020,
+        "n": "The World of Darkness",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 90
+      }
+    }
+  ]
+}

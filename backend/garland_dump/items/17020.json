@@ -1,0 +1,451 @@
+{
+  "item": {
+    "name": "Yarn Basket",
+    "description": "The stuff of feline dreams.",
+    "id": 17020,
+    "patch": 3.5,
+    "patchCategory": 9,
+    "price": 22176,
+    "ilvl": 70,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 53137,
+    "craft": [
+      {
+        "id": 2936,
+        "job": 8,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 1250,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "ingredients": [
+          {
+            "id": 5365,
+            "amount": 1
+          },
+          {
+            "id": 5337,
+            "amount": 6,
+            "quality": 80.18092
+          },
+          {
+            "id": 16,
+            "amount": 1
+          },
+          {
+            "id": 15,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 448,
+          "hq": 468
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "488"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Bamboo Stick",
+      "id": 5365,
+      "icon": 22451,
+      "category": 50,
+      "ilvl": 70,
+      "price": 1330,
+      "desynthedFrom": [
+        28983,
+        13095
+      ],
+      "ventures": [
+        534
+      ],
+      "nodes": [
+        232
+      ]
+    },
+    {
+      "name": "Woolen Yarn",
+      "id": 5337,
+      "icon": 21660,
+      "category": 51,
+      "ilvl": 39,
+      "price": 258,
+      "craft": [
+        {
+          "id": 608,
+          "job": 13,
+          "rlvl": 38,
+          "durability": 40,
+          "quality": 1024,
+          "progress": 64,
+          "lvl": 38,
+          "materialQualityFactor": 0,
+          "yield": 2,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5347,
+              "amount": 2
+            },
+            {
+              "id": 6,
+              "amount": 2
+            }
+          ],
+          "complexity": {
+            "nq": 58,
+            "hq": 78
+          }
+        }
+      ],
+      "desynthedFrom": [
+        31531,
+        2866,
+        7083,
+        2867,
+        3401
+      ],
+      "treasure": [
+        6688,
+        6691
+      ]
+    },
+    {
+      "name": "Fleece",
+      "id": 5347,
+      "icon": 21655,
+      "category": 51,
+      "ilvl": 38,
+      "price": 297,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5347",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        429,
+        430,
+        431,
+        432,
+        433,
+        434,
+        435,
+        436,
+        437,
+        438,
+        439,
+        440
+      ],
+      "ventures": [
+        53
+      ],
+      "drops": [
+        7190000000795,
+        17800000001427
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "232",
+      "obj": {
+        "i": 232,
+        "n": "Bronze Lake",
+        "l": 50,
+        "t": 2,
+        "z": 34,
+        "s": 2,
+        "lt": "Unspoiled",
+        "ti": [
+          7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5347",
+      "obj": {
+        "i": 5347,
+        "n": "Fleece",
+        "l": 38,
+        "c": 21655,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "mob",
+      "id": "7190000000795",
+      "obj": {
+        "i": 7190000000795,
+        "n": "Ornery Karakul",
+        "l": "35 - 39",
+        "z": 63
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17800000001427",
+      "obj": {
+        "i": 17800000001427,
+        "n": "Downy Dunstan",
+        "l": "36",
+        "z": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5365",
+      "obj": {
+        "i": 5365,
+        "n": "Bamboo Stick",
+        "l": 70,
+        "c": 22451,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "5337",
+      "obj": {
+        "i": 5337,
+        "n": "Woolen Yarn",
+        "l": 39,
+        "c": 21660,
+        "t": 51
+      }
+    }
+  ]
+}

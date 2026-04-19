@@ -1,0 +1,1751 @@
+{
+  "item": {
+    "name": "Stuffed Chysahl",
+    "description": "Ground okeanis stuffed into a large chysahl head and sprinkled with fresh chives.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 12868,
+    "patch": 3.0,
+    "patchCategory": 6,
+    "price": 1069,
+    "ilvl": 150,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 14,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "GP": {
+          "rate": 6,
+          "limit": 30
+        },
+        "Perception": {
+          "rate": 2,
+          "limit": 11
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "GP": {
+          "rate": 7,
+          "limit": 38
+        },
+        "Perception": {
+          "rate": 3,
+          "limit": 14
+        }
+      }
+    },
+    "icon": 24159,
+    "craft": [
+      {
+        "id": 2815,
+        "job": 15,
+        "rlvl": 150,
+        "durability": 70,
+        "quality": 2700,
+        "progress": 580,
+        "lvl": 60,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12900,
+            "amount": 3
+          },
+          {
+            "id": 12875,
+            "amount": 2
+          },
+          {
+            "id": 4756,
+            "amount": 1,
+            "quality": 37.641296
+          },
+          {
+            "id": 12884,
+            "amount": 2
+          },
+          {
+            "id": 12890,
+            "amount": 1,
+            "quality": 141.4092
+          },
+          {
+            "id": 12901,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 6
+          },
+          {
+            "id": 13,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 478,
+          "hq": 498
+        }
+      }
+    ],
+    "quests": [
+      67527,
+      68676,
+      68713
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 638020,
+      "seals": 690
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Chysahl Greens",
+      "id": 12900,
+      "icon": 25222,
+      "category": 45,
+      "ilvl": 150,
+      "price": 950,
+      "ventures": [
+        603
+      ],
+      "nodes": [
+        344
+      ]
+    },
+    {
+      "name": "Okeanis Tail",
+      "id": 12875,
+      "icon": 25160,
+      "category": 45,
+      "ilvl": 145,
+      "price": 1607,
+      "ventures": [
+        435
+      ],
+      "drops": [
+        40260000003610
+      ]
+    },
+    {
+      "name": "Cream Cheese",
+      "id": 4756,
+      "icon": 24455,
+      "category": 45,
+      "ilvl": 37,
+      "price": 153,
+      "craft": [
+        {
+          "id": 983,
+          "job": 15,
+          "rlvl": 36,
+          "durability": 40,
+          "quality": 928,
+          "progress": 62,
+          "lvl": 36,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 6149,
+              "amount": 2
+            },
+            {
+              "id": 4852,
+              "amount": 1,
+              "quality": 44.903225
+            },
+            {
+              "id": 2,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 65,
+            "hq": 85
+          }
+        }
+      ]
+    },
+    {
+      "name": "Night Milk",
+      "id": 6149,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 28,
+      "price": 84,
+      "tradeShops": [
+        {
+          "shop": "Rainbowtide Psashp Exchange",
+          "npcs": [
+            1008907
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6149",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21077",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        41
+      ],
+      "drops": [
+        14200000001608,
+        3220000001313,
+        14080000000894
+      ],
+      "vendors": [
+        1008907
+      ]
+    },
+    {
+      "name": "Sweet Cream",
+      "id": 4852,
+      "icon": 25056,
+      "category": 45,
+      "ilvl": 6,
+      "price": 4,
+      "craft": [
+        {
+          "id": 912,
+          "job": 15,
+          "rlvl": 6,
+          "durability": 40,
+          "quality": 136,
+          "progress": 18,
+          "lvl": 6,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 4753,
+              "amount": 1
+            },
+            {
+              "id": 2,
+              "amount": 1
+            }
+          ],
+          "complexity": {
+            "nq": 21,
+            "hq": 41
+          }
+        }
+      ]
+    },
+    {
+      "name": "Buffalo Milk",
+      "id": 4753,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 3,
+      "price": 4,
+      "vendors": [
+        1003249,
+        1000236,
+        1001204,
+        1001966,
+        1004423,
+        1011201,
+        1018984,
+        1019333,
+        1027992,
+        1008837,
+        1008838,
+        1008839,
+        1008840,
+        1008841,
+        1008842,
+        1008843,
+        1008844,
+        1008845,
+        1008846,
+        1013117,
+        1013118,
+        1018662,
+        1018663,
+        1018664,
+        1018665,
+        1018666,
+        1018667,
+        1018668,
+        1018669,
+        1018670,
+        1018671,
+        1018672,
+        1018673,
+        1024548,
+        1024549,
+        1024550,
+        1024551,
+        1024552,
+        1024553,
+        1024554,
+        1024555,
+        1024556,
+        1024557,
+        1024558,
+        1024559,
+        1025039,
+        1025043,
+        1025717,
+        1026169,
+        1027015,
+        1045242,
+        1045256,
+        1056020,
+        1056024
+      ]
+    },
+    {
+      "name": "Chives",
+      "id": 12884,
+      "icon": 25035,
+      "category": 45,
+      "ilvl": 136,
+      "price": 646,
+      "leves": [
+        1040,
+        1041,
+        1042,
+        1043,
+        1044,
+        1045
+      ],
+      "ventures": [
+        609
+      ],
+      "nodes": [
+        339
+      ],
+      "seeds": [
+        13766
+      ]
+    },
+    {
+      "name": "Hollandaise Sauce",
+      "id": 12890,
+      "icon": 25109,
+      "category": 45,
+      "ilvl": 139,
+      "price": 440,
+      "craft": [
+        {
+          "id": 2818,
+          "job": 15,
+          "rlvl": 136,
+          "durability": 35,
+          "quality": 1880,
+          "progress": 190,
+          "lvl": 55,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12889,
+              "amount": 1
+            },
+            {
+              "id": 12871,
+              "amount": 1
+            },
+            {
+              "id": 12895,
+              "amount": 1,
+              "quality": 307.0352
+            },
+            {
+              "id": 4830,
+              "amount": 1
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 176,
+            "hq": 196
+          }
+        }
+      ]
+    },
+    {
+      "name": "Heavens Lemon",
+      "id": 12889,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 136,
+      "price": 861,
+      "leves": [
+        1046,
+        1047,
+        1048,
+        1049,
+        1050,
+        1051
+      ],
+      "ventures": [
+        610
+      ],
+      "nodes": [
+        342
+      ]
+    },
+    {
+      "name": "Gastornis Egg",
+      "id": 12871,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 120,
+      "price": 902,
+      "ventures": [
+        416
+      ],
+      "drops": [
+        48120000003495,
+        40550000004059
+      ]
+    },
+    {
+      "name": "Fermented Butter",
+      "id": 12895,
+      "icon": 25052,
+      "category": 45,
+      "ilvl": 130,
+      "price": 205,
+      "craft": [
+        {
+          "id": 2821,
+          "job": 15,
+          "rlvl": 130,
+          "durability": 40,
+          "quality": 1768,
+          "progress": 150,
+          "lvl": 53,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 77,
+            "hq": 97
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Black Pepper",
+      "id": 4830,
+      "icon": 25007,
+      "category": 45,
+      "ilvl": 12,
+      "price": 13,
+      "tradeShops": [
+        {
+          "shop": "Rainbowtide Psashp Exchange",
+          "npcs": [
+            1008907
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "4830",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21077",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        203
+      ],
+      "nodes": [
+        25
+      ],
+      "vendors": [
+        1003249,
+        1008907,
+        1008837,
+        1008838,
+        1008839,
+        1008840,
+        1008841,
+        1008842,
+        1008843,
+        1008844,
+        1008845,
+        1008846,
+        1013117,
+        1013118,
+        1018662,
+        1018663,
+        1018664,
+        1018665,
+        1018666,
+        1018667,
+        1018668,
+        1018669,
+        1018670,
+        1018671,
+        1018672,
+        1018673,
+        1024548,
+        1024549,
+        1024550,
+        1024551,
+        1024552,
+        1024553,
+        1024554,
+        1024555,
+        1024556,
+        1024557,
+        1024558,
+        1024559,
+        1025039,
+        1025043,
+        1025717,
+        1026169,
+        1027015,
+        1045242,
+        1045256,
+        1056020,
+        1056024
+      ],
+      "seeds": [
+        7737
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "344",
+      "obj": {
+        "i": 344,
+        "n": "Twinpools",
+        "l": 60,
+        "t": 3,
+        "z": 2200,
+        "lt": "Unspoiled",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "40260000003610",
+      "obj": {
+        "i": 40260000003610,
+        "n": "Okeanis",
+        "l": "59",
+        "z": 2001
+      }
+    },
+    {
+      "type": "item",
+      "id": "6149",
+      "obj": {
+        "i": 6149,
+        "n": "Night Milk",
+        "l": 28,
+        "c": 24453,
+        "t": 45,
+        "p": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "4852",
+      "obj": {
+        "i": 4852,
+        "n": "Sweet Cream",
+        "l": 6,
+        "c": 25056,
+        "t": 45
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008907",
+      "obj": {
+        "i": 1008907,
+        "n": "Sahagin Vendor",
+        "l": 33,
+        "s": 2,
+        "r": 1,
+        "a": 945,
+        "c": [
+          16.99,
+          22.44
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21077",
+      "obj": {
+        "i": 21077,
+        "n": "Rainbowtide Psashp",
+        "l": 1,
+        "c": 65053,
+        "t": 100
+      }
+    },
+    {
+      "type": "mob",
+      "id": "14080000000894",
+      "obj": {
+        "i": 14080000000894,
+        "n": "Rutting Buffalo",
+        "l": "31",
+        "z": 32
+      }
+    },
+    {
+      "type": "mob",
+      "id": "3220000001313",
+      "obj": {
+        "i": 3220000001313,
+        "n": "Large Buffalo",
+        "l": "31",
+        "z": 32
+      }
+    },
+    {
+      "type": "mob",
+      "id": "14200000001608",
+      "obj": {
+        "i": 14200000001608,
+        "n": "Butting Buffalo",
+        "l": "31",
+        "z": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "4753",
+      "obj": {
+        "i": 4753,
+        "n": "Buffalo Milk",
+        "l": 3,
+        "c": 24453,
+        "t": 45,
+        "p": 4
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003249",
+      "obj": {
+        "i": 1003249,
+        "n": "Jossy",
+        "l": 28,
+        "s": 1,
+        "t": "Guild Supplier",
+        "a": 709,
+        "c": [
+          9.99,
+          7.95
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000236",
+      "obj": {
+        "i": 1000236,
+        "n": "O'rhoyod",
+        "l": 53,
+        "s": 1,
+        "t": "Tradecraft Supplier",
+        "a": 564,
+        "c": [
+          14.42,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001204",
+      "obj": {
+        "i": 1001204,
+        "n": "Engerrand",
+        "l": 29,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Supplier",
+        "a": 744,
+        "c": [
+          8.66,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001966",
+      "obj": {
+        "i": 1001966,
+        "n": "Fridurih",
+        "l": 41,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Merchant",
+        "a": 646,
+        "c": [
+          13.79,
+          9.57
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004423",
+      "obj": {
+        "i": 1004423,
+        "n": "Alehouse Wench",
+        "l": 43,
+        "s": 1,
+        "c": [
+          "19.5",
+          "20.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017646",
+      "obj": {
+        "i": 1017646,
+        "n": "The Iceman",
+        "l": 32,
+        "s": 1,
+        "t": "Moonfire Faire Vendor",
+        "a": 206,
+        "c": [
+          31.64,
+          29.18
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008837",
+      "obj": {
+        "i": 1008837,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008838",
+      "obj": {
+        "i": 1008838,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008839",
+      "obj": {
+        "i": 1008839,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008840",
+      "obj": {
+        "i": 1008840,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008841",
+      "obj": {
+        "i": 1008841,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008842",
+      "obj": {
+        "i": 1008842,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008843",
+      "obj": {
+        "i": 1008843,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008844",
+      "obj": {
+        "i": 1008844,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008845",
+      "obj": {
+        "i": 1008845,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008846",
+      "obj": {
+        "i": 1008846,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013117",
+      "obj": {
+        "i": 1013117,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013118",
+      "obj": {
+        "i": 1013118,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018662",
+      "obj": {
+        "i": 1018662,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018663",
+      "obj": {
+        "i": 1018663,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018664",
+      "obj": {
+        "i": 1018664,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018665",
+      "obj": {
+        "i": 1018665,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018666",
+      "obj": {
+        "i": 1018666,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018667",
+      "obj": {
+        "i": 1018667,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018668",
+      "obj": {
+        "i": 1018668,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018669",
+      "obj": {
+        "i": 1018669,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018670",
+      "obj": {
+        "i": 1018670,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018671",
+      "obj": {
+        "i": 1018671,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018672",
+      "obj": {
+        "i": 1018672,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018673",
+      "obj": {
+        "i": 1018673,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024548",
+      "obj": {
+        "i": 1024548,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024549",
+      "obj": {
+        "i": 1024549,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024550",
+      "obj": {
+        "i": 1024550,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024551",
+      "obj": {
+        "i": 1024551,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024552",
+      "obj": {
+        "i": 1024552,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024553",
+      "obj": {
+        "i": 1024553,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024554",
+      "obj": {
+        "i": 1024554,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024555",
+      "obj": {
+        "i": 1024555,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024556",
+      "obj": {
+        "i": 1024556,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024557",
+      "obj": {
+        "i": 1024557,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024558",
+      "obj": {
+        "i": 1024558,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024559",
+      "obj": {
+        "i": 1024559,
+        "n": "Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025039",
+      "obj": {
+        "i": 1025039,
+        "n": "Allagan Resupply Node",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025043",
+      "obj": {
+        "i": 1025043,
+        "n": "Ananta Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025717",
+      "obj": {
+        "i": 1025717,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1026169",
+      "obj": {
+        "i": 1026169,
+        "n": "Namazu Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027015",
+      "obj": {
+        "i": 1027015,
+        "n": "Kojin Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045242",
+      "obj": {
+        "i": 1045242,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1045256",
+      "obj": {
+        "i": 1045256,
+        "n": "Loporrit Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056020",
+      "obj": {
+        "i": 1056020,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1056024",
+      "obj": {
+        "i": 1056024,
+        "n": "Felyne Material Supplier",
+        "s": 3
+      }
+    },
+    {
+      "type": "node",
+      "id": "339",
+      "obj": {
+        "i": 339,
+        "n": "Riversmeet",
+        "l": 55,
+        "t": 3,
+        "z": 2200,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12889",
+      "obj": {
+        "i": 12889,
+        "n": "Heavens Lemon",
+        "l": 136,
+        "c": 25305,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12871",
+      "obj": {
+        "i": 12871,
+        "n": "Gastornis Egg",
+        "l": 120,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12895",
+      "obj": {
+        "i": 12895,
+        "n": "Fermented Butter",
+        "l": 130,
+        "c": 25052,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4830",
+      "obj": {
+        "i": 4830,
+        "n": "Black Pepper",
+        "l": 12,
+        "c": 25007,
+        "t": 45,
+        "p": 13
+      }
+    },
+    {
+      "type": "node",
+      "id": "342",
+      "obj": {
+        "i": 342,
+        "n": "Vundu Ok' Bendu",
+        "l": 60,
+        "t": 2,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "48120000003495",
+      "obj": {
+        "i": 48120000003495,
+        "n": "Gastornis",
+        "l": "50",
+        "z": 2100
+      }
+    },
+    {
+      "type": "mob",
+      "id": "40550000004059",
+      "obj": {
+        "i": 40550000004059,
+        "n": "Gastornis Tercel",
+        "l": "56",
+        "z": 2100
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "node",
+      "id": "25",
+      "obj": {
+        "i": 25,
+        "n": "The Clutch",
+        "l": 15,
+        "t": 3,
+        "z": 43
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12900",
+      "obj": {
+        "i": 12900,
+        "n": "Chysahl Greens",
+        "l": 150,
+        "c": 25222,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12875",
+      "obj": {
+        "i": 12875,
+        "n": "Okeanis Tail",
+        "l": 145,
+        "c": 25160,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4756",
+      "obj": {
+        "i": 4756,
+        "n": "Cream Cheese",
+        "l": 37,
+        "c": 24455,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12884",
+      "obj": {
+        "i": 12884,
+        "n": "Chives",
+        "l": 136,
+        "c": 25035,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12890",
+      "obj": {
+        "i": 12890,
+        "n": "Hollandaise Sauce",
+        "l": 139,
+        "c": 25109,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67527",
+      "obj": {
+        "i": 67527,
+        "n": "Environmental Unbalance",
+        "g": 122,
+        "l": "Azys Lla",
+        "s": 5913
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68676",
+      "obj": {
+        "i": 68676,
+        "n": "Up Where They Trade All Day in the Sun",
+        "g": 128,
+        "l": "The Ruby Sea",
+        "s": 1005,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68713",
+      "obj": {
+        "i": 68713,
+        "n": "Between a Rock and the Hard Place",
+        "g": 121,
+        "l": "Idyllshire",
+        "s": 5702,
+        "f": 1
+      }
+    }
+  ]
+}

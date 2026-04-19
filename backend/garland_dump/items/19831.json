@@ -1,0 +1,566 @@
+{
+  "item": {
+    "name": "Gameni",
+    "description": "A hodgepodge of boldly sliced tubers, mushrooms, and hornbill tenders, stewed slowly in a soy-based broth.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19831,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2180,
+    "ilvl": 276,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 25,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "GP": {
+          "rate": 6,
+          "limit": 34
+        },
+        "Gathering": {
+          "rate": 2,
+          "limit": 18
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "GP": {
+          "rate": 7,
+          "limit": 42
+        },
+        "Gathering": {
+          "rate": 3,
+          "limit": 23
+        }
+      }
+    },
+    "icon": 24160,
+    "vendors": [
+      1018986
+    ],
+    "craft": [
+      {
+        "id": 3573,
+        "job": 15,
+        "rlvl": 276,
+        "durability": 80,
+        "quality": 3150,
+        "progress": 830,
+        "lvl": 65,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 19874,
+            "amount": 1
+          },
+          {
+            "id": 19860,
+            "amount": 1
+          },
+          {
+            "id": 19865,
+            "amount": 1
+          },
+          {
+            "id": 19863,
+            "amount": 1
+          },
+          {
+            "id": 19858,
+            "amount": 1
+          },
+          {
+            "id": 12906,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 141,
+          "hq": 161
+        }
+      }
+    ],
+    "requiredByLeves": [
+      1306
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 660240,
+      "seals": 748
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Hornbill Tenderloin",
+      "id": 19874,
+      "icon": 25151,
+      "category": 45,
+      "ilvl": 265,
+      "price": 524,
+      "instances": [
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "ventures": [
+        714
+      ],
+      "drops": [
+        74500000005703,
+        66790000005771,
+        66790000005759,
+        66790000005748
+      ]
+    },
+    {
+      "name": "Bamboo Shoot",
+      "id": 19860,
+      "icon": 25229,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "ventures": [
+        673
+      ],
+      "nodes": [
+        522
+      ]
+    },
+    {
+      "name": "Lotus Root",
+      "id": 19865,
+      "icon": 25226,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        696
+      ],
+      "nodes": [
+        525
+      ]
+    },
+    {
+      "name": "Shiitake Mushroom",
+      "id": 19863,
+      "icon": 25401,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "ventures": [
+        674
+      ],
+      "nodes": [
+        507
+      ]
+    },
+    {
+      "name": "Gyr Abanian Carrot",
+      "id": 19858,
+      "icon": 25207,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        695
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Oriental Soy Sauce",
+      "id": 12906,
+      "icon": 27602,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12906",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12906",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "74500000005703",
+      "obj": {
+        "i": 74500000005703,
+        "n": "Gyr Abanian Hornbill",
+        "l": "60",
+        "z": 2407
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66790000005748",
+      "obj": {
+        "i": 66790000005748,
+        "n": "Ruby Hornbill",
+        "l": "63",
+        "z": 2409
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66790000005759",
+      "obj": {
+        "i": 66790000005759,
+        "n": "River Hornbill",
+        "l": "64",
+        "z": 2410
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66790000005771",
+      "obj": {
+        "i": 66790000005771,
+        "n": "Whitewing Hornbill",
+        "l": "67",
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "522",
+      "obj": {
+        "i": 522,
+        "n": "The Glittering Basin",
+        "l": 65,
+        "t": 2,
+        "z": 2410,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "525",
+      "obj": {
+        "i": 525,
+        "n": "Valley of the Fallen Rainbow",
+        "l": 70,
+        "t": 3,
+        "z": 2410,
+        "lt": "Unspoiled",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "507",
+      "obj": {
+        "i": 507,
+        "n": "Onokoro",
+        "l": 65,
+        "t": 2,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018986",
+      "obj": {
+        "i": 1018986,
+        "n": "Kurogai",
+        "l": 2404,
+        "s": 1,
+        "t": "Independent Culinarian",
+        "c": [
+          "12.2",
+          "12.7"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19874",
+      "obj": {
+        "i": 19874,
+        "n": "Hornbill Tenderloin",
+        "l": 265,
+        "c": 25151,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19860",
+      "obj": {
+        "i": 19860,
+        "n": "Bamboo Shoot",
+        "l": 276,
+        "c": 25229,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19865",
+      "obj": {
+        "i": 19865,
+        "n": "Lotus Root",
+        "l": 279,
+        "c": 25226,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19863",
+      "obj": {
+        "i": 19863,
+        "n": "Shiitake Mushroom",
+        "l": 276,
+        "c": 25401,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19858",
+      "obj": {
+        "i": 19858,
+        "n": "Gyr Abanian Carrot",
+        "l": 279,
+        "c": 25207,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12906",
+      "obj": {
+        "i": 12906,
+        "n": "Oriental Soy Sauce",
+        "l": 136,
+        "c": 27602,
+        "t": 45,
+        "p": 430
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1306",
+      "obj": {
+        "i": 1306,
+        "n": "Souper",
+        "l": 64,
+        "j": 16,
+        "p": 2404
+      }
+    }
+  ]
+}

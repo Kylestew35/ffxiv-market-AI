@@ -1,0 +1,62 @@
+{
+  "item": {
+    "name": "Octomammoth Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 364",
+    "id": 40605,
+    "patch": 6.4,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "instances": [
+      90,
+      90
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "This colossal sea monster made its way into the Isle of Haam via an underwater cave system, where it claimed the Aetherfont as its territory. After being defeated by an adventurer, it became clear that many of the unexplained incidents in local waters could be attributed to the octopus-like fiend."
+      },
+      "ja": {
+        "description": "蛸に似た大型の水棲生物。地下洞窟経由で海から島内へ進入、エーテル豊富な間欠泉付近を縄張りとしていたようだ。冒険者に討伐された後、近海の海難事故の何割かはこの生物の仕業だったのではと、にわかに注目されている。"
+      },
+      "de": {
+        "description": "Dieses krakenartige Wasserwesen ist über unterirdische Höhlen auf die Insel gelangt und hat das Gebiet um die ätherreichen Geysire zu seinem Revier gemacht. Obwohl die Kreatur besiegt und verjagt wurde, machen nach verschiedenen Seeunfällen in den umliegenden Gewässern Gerüchte über ein abermaliges Auftreten die Runde."
+      },
+      "fr": {
+        "description": "Ce gigantesque monstre marin semblable à une pieuvre a gagné l'île de Haam grâce aux nappes d'eau souterraines qui relient ses bassins à l'océan. S'il était le maître de la terre aux geysers d'éther jusqu'à sa défaite aux mains <If(PlayerParameter(4))>de la Guerrière<Else/>du Guerrier</If> de la Lumière, sa disparition semble avoir été accompagnée d'une baisse drastique du nombre de naufrages dans les eaux environnantes..."
+      },
+      "sellMgp": 500,
+      "plate": 87381,
+      "rarity": 3,
+      "top": 6,
+      "bottom": 4,
+      "left": 5,
+      "right": 8
+    },
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "90",
+      "obj": {
+        "i": 90,
+        "n": "The Aetherfont",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 605
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Giant Beaver",
+    "description": "A mystery better left unsolved.<br><br>Use item to acquire the giant beaver minion.",
+    "minionrace": "Critter",
+    "tooltip": "Something tells me\r\nthat's one more mystery\r\nbetter left unsolved.\r\n   - Ellie",
+    "minionskilltype": "Special",
+    "specialactionname": "Squeal",
+    "specialactiondescription": "Instantly restores damaged ally Shield. ",
+    "id": 26796,
+    "patch": 5.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59742,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027955
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26796",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27951",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 460,
+      "Skill Cost": 20,
+      "Attack": 55,
+      "Defense": 55,
+      "Speed": 3
+    },
+    "models": [
+      "8307-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "27951",
+      "obj": {
+        "i": 27951,
+        "n": "Dancing Wing",
+        "l": 450,
+        "c": 59579,
+        "t": 51
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027955",
+      "obj": {
+        "i": 1027955,
+        "n": "Giant Beaver",
+        "l": 2956,
+        "s": 1,
+        "t": "Beaver Merchant",
+        "r": 1,
+        "a": 3148,
+        "c": [
+          20.63,
+          36.33
+        ]
+      }
+    }
+  ]
+}

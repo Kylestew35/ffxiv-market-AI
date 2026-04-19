@@ -1,0 +1,947 @@
+{
+  "item": {
+    "name": "Bayberry Cloth",
+    "description": "Cloth woven from kudzu and colored with wax myrtle.",
+    "id": 37834,
+    "patch": 6.2,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 610,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21684,
+    "ingredient_of": {
+      "37752": 2,
+      "37763": 1,
+      "37765": 3,
+      "37768": 1,
+      "37770": 3,
+      "37772": 2,
+      "37773": 3,
+      "37774": 1,
+      "37775": 3,
+      "37777": 2,
+      "37778": 3,
+      "37779": 1,
+      "37780": 3,
+      "37781": 1,
+      "37782": 2,
+      "37783": 3,
+      "37784": 1,
+      "37785": 3,
+      "37787": 2,
+      "37788": 3,
+      "37789": 1,
+      "37790": 3,
+      "37792": 2,
+      "37793": 3,
+      "37794": 1,
+      "37795": 3,
+      "37807": 1,
+      "37808": 1,
+      "37809": 1,
+      "37810": 1,
+      "37811": 1,
+      "38894": 1,
+      "38912": 5,
+      "38913": 2,
+      "38914": 4,
+      "38915": 2,
+      "38917": 4,
+      "38918": 2,
+      "38919": 4,
+      "38926": 2,
+      "38927": 2,
+      "39308": 2,
+      "39309": 3,
+      "39311": 3,
+      "39313": 3,
+      "39314": 2,
+      "39315": 3,
+      "39470": 2,
+      "40663": 2,
+      "40404": 2,
+      "40405": 3,
+      "40406": 3,
+      "40408": 2,
+      "40409": 3,
+      "40410": 3,
+      "40412": 2,
+      "40413": 3,
+      "40414": 3,
+      "40380": 2,
+      "40661": 2
+    },
+    "craft": [
+      {
+        "id": 35106,
+        "job": 13,
+        "rlvl": 610,
+        "durability": 35,
+        "quality": 8200,
+        "progress": 3696,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3280,
+        "craftsmanshipReq": 3700,
+        "unlockId": 37739,
+        "ingredients": [
+          {
+            "id": 37821,
+            "amount": 5
+          },
+          {
+            "id": 37829,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 540,
+          "hq": 560
+        }
+      }
+    ],
+    "desynthedFrom": [
+      40781
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Bayberry",
+      "id": 37821,
+      "icon": 25015,
+      "category": 54,
+      "ilvl": 600,
+      "price": 99999,
+      "ventures": [
+        980
+      ],
+      "nodes": [
+        695
+      ]
+    },
+    {
+      "name": "Palebloom Kudzu Cloth",
+      "id": 37829,
+      "icon": 21607,
+      "category": 51,
+      "ilvl": 600,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37829",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "37829",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "695",
+      "obj": {
+        "i": 695,
+        "n": "Mornveil Forest",
+        "l": 90,
+        "t": 2,
+        "z": 3708,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "37752",
+      "obj": {
+        "i": 37752,
+        "n": "Rinascita Index",
+        "l": 610,
+        "c": 33364,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "37763",
+      "obj": {
+        "i": 37763,
+        "n": "Rinascita Cuirass of Fending",
+        "l": 610,
+        "c": 42899,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37765",
+      "obj": {
+        "i": 37765,
+        "n": "Rinascita Poleyns of Fending",
+        "l": 610,
+        "c": 47930,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37768",
+      "obj": {
+        "i": 37768,
+        "n": "Rinascita Cuirass of Maiming",
+        "l": 610,
+        "c": 42900,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37770",
+      "obj": {
+        "i": 37770,
+        "n": "Rinascita Poleyns of Maiming",
+        "l": 610,
+        "c": 47933,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37772",
+      "obj": {
+        "i": 37772,
+        "n": "Rinascita Hood of Striking",
+        "l": 610,
+        "c": 56522,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37773",
+      "obj": {
+        "i": 37773,
+        "n": "Rinascita Jacket of Striking",
+        "l": 610,
+        "c": 42903,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37774",
+      "obj": {
+        "i": 37774,
+        "n": "Rinascita Armguards of Striking",
+        "l": 610,
+        "c": 56040,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37775",
+      "obj": {
+        "i": 37775,
+        "n": "Rinascita Poleyns of Striking",
+        "l": 610,
+        "c": 47934,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37777",
+      "obj": {
+        "i": 37777,
+        "n": "Rinascita Beret of Aiming",
+        "l": 610,
+        "c": 56527,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37778",
+      "obj": {
+        "i": 37778,
+        "n": "Rinascita Jacket of Aiming",
+        "l": 610,
+        "c": 42904,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37779",
+      "obj": {
+        "i": 37779,
+        "n": "Rinascita Gloves of Aiming",
+        "l": 610,
+        "c": 56045,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37780",
+      "obj": {
+        "i": 37780,
+        "n": "Rinascita Poleyns of Aiming",
+        "l": 610,
+        "c": 47935,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37781",
+      "obj": {
+        "i": 37781,
+        "n": "Rinascita Sabatons of Aiming",
+        "l": 610,
+        "c": 49527,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "37782",
+      "obj": {
+        "i": 37782,
+        "n": "Rinascita Hood of Scouting",
+        "l": 610,
+        "c": 56523,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37783",
+      "obj": {
+        "i": 37783,
+        "n": "Rinascita Jacket of Scouting",
+        "l": 610,
+        "c": 42902,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37784",
+      "obj": {
+        "i": 37784,
+        "n": "Rinascita Armguards of Scouting",
+        "l": 610,
+        "c": 56041,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37785",
+      "obj": {
+        "i": 37785,
+        "n": "Rinascita Poleyns of Scouting",
+        "l": 610,
+        "c": 47936,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37787",
+      "obj": {
+        "i": 37787,
+        "n": "Rinascita Beret of Healing",
+        "l": 610,
+        "c": 56526,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37788",
+      "obj": {
+        "i": 37788,
+        "n": "Rinascita Coat of Healing",
+        "l": 610,
+        "c": 42901,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37789",
+      "obj": {
+        "i": 37789,
+        "n": "Rinascita Gloves of Healing",
+        "l": 610,
+        "c": 56044,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37790",
+      "obj": {
+        "i": 37790,
+        "n": "Rinascita Poleyns of Healing",
+        "l": 610,
+        "c": 47932,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37792",
+      "obj": {
+        "i": 37792,
+        "n": "Rinascita Hood of Casting",
+        "l": 610,
+        "c": 56521,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37793",
+      "obj": {
+        "i": 37793,
+        "n": "Rinascita Coat of Casting",
+        "l": 610,
+        "c": 42898,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37794",
+      "obj": {
+        "i": 37794,
+        "n": "Rinascita Armguards of Casting",
+        "l": 610,
+        "c": 56039,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "37795",
+      "obj": {
+        "i": 37795,
+        "n": "Rinascita Poleyns of Casting",
+        "l": 610,
+        "c": 47931,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37807",
+      "obj": {
+        "i": 37807,
+        "n": "Rinascita Bracelet of Fending",
+        "l": 610,
+        "c": 55862,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "37808",
+      "obj": {
+        "i": 37808,
+        "n": "Rinascita Bracelet of Slaying",
+        "l": 610,
+        "c": 55862,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "37809",
+      "obj": {
+        "i": 37809,
+        "n": "Rinascita Bracelet of Aiming",
+        "l": 610,
+        "c": 55862,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "37810",
+      "obj": {
+        "i": 37810,
+        "n": "Rinascita Bracelet of Healing",
+        "l": 610,
+        "c": 55862,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "37811",
+      "obj": {
+        "i": 37811,
+        "n": "Rinascita Bracelet of Casting",
+        "l": 610,
+        "c": 55862,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "37739",
+      "obj": {
+        "i": 37739,
+        "n": "Master Weaver X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "37821",
+      "obj": {
+        "i": 37821,
+        "n": "Bayberry",
+        "l": 600,
+        "c": 25015,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "37829",
+      "obj": {
+        "i": 37829,
+        "n": "Palebloom Kudzu Cloth",
+        "l": 600,
+        "c": 21607,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "38894",
+      "obj": {
+        "i": 38894,
+        "n": "Indagator's Knife",
+        "l": 620,
+        "c": 39400,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "38912",
+      "obj": {
+        "i": 38912,
+        "n": "Indagator's Coat of Crafting",
+        "l": 620,
+        "c": 42927,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38913",
+      "obj": {
+        "i": 38913,
+        "n": "Indagator's Gloves of Crafting",
+        "l": 620,
+        "c": 56066,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "38914",
+      "obj": {
+        "i": 38914,
+        "n": "Indagator's Trousers of Crafting",
+        "l": 620,
+        "c": 47958,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38915",
+      "obj": {
+        "i": 38915,
+        "n": "Indagator's Boots of Crafting",
+        "l": 620,
+        "c": 49553,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "38917",
+      "obj": {
+        "i": 38917,
+        "n": "Indagator's Doublet Vest of Gathering",
+        "l": 620,
+        "c": 42926,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38918",
+      "obj": {
+        "i": 38918,
+        "n": "Indagator's Armguards of Gathering",
+        "l": 620,
+        "c": 56065,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "38919",
+      "obj": {
+        "i": 38919,
+        "n": "Indagator's Bottoms of Gathering",
+        "l": 620,
+        "c": 47957,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "38926",
+      "obj": {
+        "i": 38926,
+        "n": "Indagator's Necklace of Gathering",
+        "l": 620,
+        "c": 55063,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "38927",
+      "obj": {
+        "i": 38927,
+        "n": "Indagator's Bracelet of Gathering",
+        "l": 620,
+        "c": 55864,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "39308",
+      "obj": {
+        "i": 39308,
+        "n": "Salon Server's Hat",
+        "l": 1,
+        "c": 56547,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39309",
+      "obj": {
+        "i": 39309,
+        "n": "Salon Server's Vest",
+        "l": 1,
+        "c": 42929,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39311",
+      "obj": {
+        "i": 39311,
+        "n": "Salon Server's Bottoms",
+        "l": 1,
+        "c": 47960,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39313",
+      "obj": {
+        "i": 39313,
+        "n": "Salon Server's Dress Vest",
+        "l": 1,
+        "c": 42928,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39314",
+      "obj": {
+        "i": 39314,
+        "n": "Salon Server's Dress Gloves",
+        "l": 1,
+        "c": 56067,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39315",
+      "obj": {
+        "i": 39315,
+        "n": "Salon Server's Skirt",
+        "l": 1,
+        "c": 47959,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39470",
+      "obj": {
+        "i": 39470,
+        "n": "Flamecloaked Barding",
+        "l": 1,
+        "c": 58773,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "40663",
+      "obj": {
+        "i": 40663,
+        "n": "Eventide Sword Stand",
+        "l": 610,
+        "c": 53461,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "40404",
+      "obj": {
+        "i": 40404,
+        "n": "Plain Pajama Eye Mask",
+        "l": 1,
+        "c": 56591,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "40405",
+      "obj": {
+        "i": 40405,
+        "n": "Plain Pajama Shirt",
+        "l": 1,
+        "c": 42972,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "40406",
+      "obj": {
+        "i": 40406,
+        "n": "Plain Pajama Bottoms",
+        "l": 1,
+        "c": 57500,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "40408",
+      "obj": {
+        "i": 40408,
+        "n": "Cactuar Pajama Eye Mask",
+        "l": 1,
+        "c": 56592,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "40409",
+      "obj": {
+        "i": 40409,
+        "n": "Cactuar Pajama Shirt",
+        "l": 1,
+        "c": 42973,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "40410",
+      "obj": {
+        "i": 40410,
+        "n": "Cactuar Pajama Bottoms",
+        "l": 1,
+        "c": 57501,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "40412",
+      "obj": {
+        "i": 40412,
+        "n": "Chocobo Pajama Eye Mask",
+        "l": 1,
+        "c": 56593,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "40413",
+      "obj": {
+        "i": 40413,
+        "n": "Chocobo Pajama Shirt",
+        "l": 1,
+        "c": 42974,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "40414",
+      "obj": {
+        "i": 40414,
+        "n": "Chocobo Pajama Bottoms",
+        "l": 1,
+        "c": 57502,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "40380",
+      "obj": {
+        "i": 40380,
+        "n": "Wind-up Barbariccia",
+        "l": 1,
+        "c": 59888,
+        "t": 81
+      }
+    },
+    {
+      "type": "item",
+      "id": "40661",
+      "obj": {
+        "i": 40661,
+        "n": "Blighted Earth Sword Stand",
+        "l": 610,
+        "c": 53475,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "40781",
+      "obj": {
+        "i": 40781,
+        "n": "Voidmoon Top of Aiming",
+        "l": 635,
+        "c": 57029,
+        "t": 35
+      }
+    }
+  ]
+}

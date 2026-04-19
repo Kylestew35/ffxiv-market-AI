@@ -1,0 +1,385 @@
+{
+  "item": {
+    "name": "Hingan Hanging Andon Lamp",
+    "description": "An octagonal ceiling lamp designed to complement Hingan residences.",
+    "id": 20721,
+    "patch": 4.1,
+    "patchCategory": 9,
+    "price": 4000,
+    "ilvl": 270,
+    "category": 75,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 51130,
+    "craft": [
+      {
+        "id": 3717,
+        "job": 8,
+        "rlvl": 270,
+        "durability": 80,
+        "quality": 1485,
+        "progress": 730,
+        "lvl": 63,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 5372,
+            "amount": 5,
+            "quality": 133.07143
+          },
+          {
+            "id": 5998,
+            "amount": 8
+          },
+          {
+            "id": 10,
+            "amount": 4
+          },
+          {
+            "id": 9,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 117,
+          "hq": 137
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Pine Lumber",
+      "id": 5372,
+      "icon": 22466,
+      "category": 50,
+      "ilvl": 276,
+      "price": 3072,
+      "craft": [
+        {
+          "id": 3610,
+          "job": 8,
+          "rlvl": 273,
+          "durability": 40,
+          "quality": 2448,
+          "progress": 390,
+          "lvl": 64,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5389,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 58,
+            "hq": 78
+          }
+        }
+      ],
+      "treasure": [
+        17835
+      ],
+      "leves": [
+        1241,
+        1242,
+        1243,
+        1244,
+        1246
+      ],
+      "vendors": [
+        1022232
+      ]
+    },
+    {
+      "name": "Pine Log",
+      "id": 5389,
+      "icon": 22414,
+      "category": 50,
+      "ilvl": 276,
+      "price": 90,
+      "leves": [
+        1245
+      ],
+      "ventures": [
+        672
+      ],
+      "nodes": [
+        508
+      ]
+    },
+    {
+      "name": "Tallow Candle",
+      "id": 5998,
+      "icon": 26102,
+      "category": 61,
+      "ilvl": 20,
+      "price": 225,
+      "desynthedFrom": [
+        21869,
+        44109
+      ],
+      "drops": [
+        29360000002754,
+        29370000002753,
+        27190000002596,
+        27180000002594,
+        27200000002595
+      ],
+      "vendors": [
+        1000236,
+        1001204,
+        1001966,
+        1011201,
+        1018984,
+        1019333,
+        1027992
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5389",
+      "obj": {
+        "i": 5389,
+        "n": "Pine Log",
+        "l": 276,
+        "c": 22414,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "17835",
+      "obj": {
+        "i": 17835,
+        "n": "Timeworn Gaganaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "508",
+      "obj": {
+        "i": 508,
+        "n": "The Heron's Flight",
+        "l": 65,
+        "t": 2,
+        "z": 2410
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000236",
+      "obj": {
+        "i": 1000236,
+        "n": "O'rhoyod",
+        "l": 53,
+        "s": 1,
+        "t": "Tradecraft Supplier",
+        "a": 564,
+        "c": [
+          14.42,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001204",
+      "obj": {
+        "i": 1001204,
+        "n": "Engerrand",
+        "l": 29,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Supplier",
+        "a": 744,
+        "c": [
+          8.66,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001966",
+      "obj": {
+        "i": 1001966,
+        "n": "Fridurih",
+        "l": 41,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Merchant",
+        "a": 646,
+        "c": [
+          13.79,
+          9.57
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27180000002594",
+      "obj": {
+        "i": 27180000002594,
+        "n": "Champion Gladiator",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27200000002595",
+      "obj": {
+        "i": 27200000002595,
+        "n": "Champion Lancer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27190000002596",
+      "obj": {
+        "i": 27190000002596,
+        "n": "Champion Marauder",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29370000002753",
+      "obj": {
+        "i": 29370000002753,
+        "n": "Champion Conjurer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29360000002754",
+      "obj": {
+        "i": 29360000002754,
+        "n": "Champion Archer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "5372",
+      "obj": {
+        "i": 5372,
+        "n": "Pine Lumber",
+        "l": 276,
+        "c": 22466,
+        "t": 50,
+        "p": 3072
+      }
+    },
+    {
+      "type": "item",
+      "id": "5998",
+      "obj": {
+        "i": 5998,
+        "n": "Tallow Candle",
+        "l": 20,
+        "c": 26102,
+        "t": 61,
+        "p": 225
+      }
+    }
+  ]
+}

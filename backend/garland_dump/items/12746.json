@@ -1,0 +1,110 @@
+{
+  "item": {
+    "name": "Storm Core",
+    "description": "A spherical creature found in the upper atmospheric region of the Sea of Clouds.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "Similar to glacier cores, but with an elemental aspect of lightning instead of ice, the Vanu Vanu have, for generations, captured storm cores and placed them in baskets to serve as lighting for their homes.",
+      "icon": 79718,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 138,
+          "weather": [
+            "Clouds",
+            "Fog",
+            "Wind"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "ff14anglerId": 346,
+          "baits": [
+            [
+              12708
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 12746,
+    "patch": 3.0,
+    "patchCategory": 7,
+    "price": 1263,
+    "ilvl": 133,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29718,
+    "fishingSpots": [
+      138
+    ],
+    "desynthedTo": [
+      5202,
+      5825,
+      5820
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "138",
+      "obj": {
+        "i": 138,
+        "n": "The Blue Window",
+        "l": 56,
+        "c": 4,
+        "z": 2100,
+        "x": 7.66,
+        "y": 11.54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12708",
+      "obj": {
+        "i": 12708,
+        "n": "Red Balloon",
+        "l": 130,
+        "c": 27025,
+        "t": 33,
+        "p": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "5202",
+      "obj": {
+        "i": 5202,
+        "n": "Eye of Lightning",
+        "l": 22,
+        "c": 21257,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5825",
+      "obj": {
+        "i": 5825,
+        "n": "Allagan Silver Piece",
+        "l": 25,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5820",
+      "obj": {
+        "i": 5820,
+        "n": "Purple Pigment",
+        "l": 28,
+        "c": 21461,
+        "t": 55
+      }
+    }
+  ]
+}

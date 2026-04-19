@@ -1,0 +1,1267 @@
+{
+  "leve": {
+    "name": "Hell on Leather",
+    "description": "Leather-bound volumes must be kept clean and dry to preserve the integrity of their covers. This lesson was apparently not one learned by whomever packed our shipment of books from Thavnair! These tomes arrived in a ghastly state, and I will require a goodly supply of gaja leather to effect their restoration.",
+    "id": 1608,
+    "patch": 6.0,
+    "client": "Noumenon Librarian, Isilswys",
+    "lvl": 80,
+    "jobCategory": 13,
+    "levemete": 1037264,
+    "areaid": 3706,
+    "xp": 724620,
+    "gil": 2450,
+    "rewards": 786,
+    "plate": 80033,
+    "frame": 80005,
+    "areaicon": 110135,
+    "requires": [
+      {
+        "item": 36247,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 240,
+      "hq": 255
+    }
+  },
+  "rewards": {
+    "id": 786,
+    "entries": [
+      {
+        "item": 11,
+        "rate": 0.23,
+        "amount": 36
+      },
+      {
+        "item": 10,
+        "rate": 0.23,
+        "amount": 36
+      },
+      {
+        "item": 36242,
+        "rate": 0.23
+      },
+      {
+        "item": 11,
+        "rate": 0.1,
+        "amount": 43
+      },
+      {
+        "item": 10,
+        "rate": 0.1,
+        "amount": 43
+      },
+      {
+        "item": 36242,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Gaja Leather",
+      "id": 36247,
+      "icon": 22008,
+      "category": 52,
+      "ilvl": 515,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5318,
+          "job": 12,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36242,
+              "amount": 4
+            },
+            {
+              "id": 27817,
+              "amount": 1
+            },
+            {
+              "id": 11,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 136,
+            "hq": 156
+          }
+        }
+      ],
+      "desynthedFrom": [
+        34258,
+        32524,
+        34274,
+        34272,
+        34278
+      ],
+      "treasure": [
+        36611,
+        36612
+      ],
+      "leves": [
+        1609
+      ]
+    },
+    {
+      "name": "Gaja Hide",
+      "id": 36242,
+      "icon": 21818,
+      "category": 52,
+      "ilvl": 515,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36242",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1608
+      ],
+      "ventures": [
+        933
+      ]
+    },
+    {
+      "name": "Yellow Alumen",
+      "id": 27817,
+      "icon": 22657,
+      "category": 54,
+      "ilvl": 385,
+      "price": 630,
+      "ventures": [
+        800
+      ],
+      "nodes": [
+        591
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "591",
+      "obj": {
+        "i": 591,
+        "n": "Twitch",
+        "l": 70,
+        "t": 1,
+        "z": 2955,
+        "s": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "34085",
+      "obj": {
+        "i": 34085,
+        "n": "High Durium Cleavers",
+        "l": 515,
+        "c": 33999,
+        "t": 84,
+        "p": 45417
+      }
+    },
+    {
+      "type": "item",
+      "id": "34090",
+      "obj": {
+        "i": 34090,
+        "n": "Gaja Grimoire",
+        "l": 515,
+        "c": 33352,
+        "t": 10,
+        "p": 45417
+      }
+    },
+    {
+      "type": "item",
+      "id": "34091",
+      "obj": {
+        "i": 34091,
+        "n": "Gaja Codex",
+        "l": 515,
+        "c": 33351,
+        "t": 98,
+        "p": 45417
+      }
+    },
+    {
+      "type": "item",
+      "id": "34099",
+      "obj": {
+        "i": 34099,
+        "n": "High Durium Shield",
+        "l": 515,
+        "c": 30238,
+        "t": 11,
+        "p": 15139
+      }
+    },
+    {
+      "type": "item",
+      "id": "34101",
+      "obj": {
+        "i": 34101,
+        "n": "Gajaskin Coat of Fending",
+        "l": 515,
+        "c": 42811,
+        "t": 35,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34102",
+      "obj": {
+        "i": 34102,
+        "n": "High Durium Armguards of Fending",
+        "l": 515,
+        "c": 44939,
+        "t": 37,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34103",
+      "obj": {
+        "i": 34103,
+        "n": "Darkhempen Trousers of Fending",
+        "l": 515,
+        "c": 47818,
+        "t": 36,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34104",
+      "obj": {
+        "i": 34104,
+        "n": "Gajaskin Boots of Fending",
+        "l": 515,
+        "c": 49438,
+        "t": 38,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34106",
+      "obj": {
+        "i": 34106,
+        "n": "Gajaskin Vest of Maiming",
+        "l": 515,
+        "c": 42812,
+        "t": 35,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34107",
+      "obj": {
+        "i": 34107,
+        "n": "High Durium Armguards of Maiming",
+        "l": 515,
+        "c": 44940,
+        "t": 37,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34108",
+      "obj": {
+        "i": 34108,
+        "n": "Darkhempen Trousers of Maiming",
+        "l": 515,
+        "c": 47819,
+        "t": 36,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34109",
+      "obj": {
+        "i": 34109,
+        "n": "Gajaskin Boots of Maiming",
+        "l": 515,
+        "c": 49439,
+        "t": 38,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34111",
+      "obj": {
+        "i": 34111,
+        "n": "Gajaskin Vest of Striking",
+        "l": 515,
+        "c": 42809,
+        "t": 35,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34112",
+      "obj": {
+        "i": 34112,
+        "n": "Fingerless Gajaskin Gloves of Striking",
+        "l": 515,
+        "c": 44941,
+        "t": 37,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34113",
+      "obj": {
+        "i": 34113,
+        "n": "Darkhempen Skirt of Striking",
+        "l": 515,
+        "c": 47820,
+        "t": 36,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34114",
+      "obj": {
+        "i": 34114,
+        "n": "Gajaskin Shoes of Striking",
+        "l": 515,
+        "c": 49435,
+        "t": 38,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34116",
+      "obj": {
+        "i": 34116,
+        "n": "Gajaskin Jacket of Aiming",
+        "l": 515,
+        "c": 42813,
+        "t": 35,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34117",
+      "obj": {
+        "i": 34117,
+        "n": "High Durium Armguards of Aiming",
+        "l": 515,
+        "c": 44942,
+        "t": 37,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34118",
+      "obj": {
+        "i": 34118,
+        "n": "Darkhempen Trousers of Aiming",
+        "l": 515,
+        "c": 47821,
+        "t": 36,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34119",
+      "obj": {
+        "i": 34119,
+        "n": "Gajaskin Shoes of Aiming",
+        "l": 515,
+        "c": 49436,
+        "t": 38,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34121",
+      "obj": {
+        "i": 34121,
+        "n": "Gajaskin Vest of Scouting",
+        "l": 515,
+        "c": 42810,
+        "t": 35,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34122",
+      "obj": {
+        "i": 34122,
+        "n": "Fingerless Gajaskin Gloves of Scouting",
+        "l": 515,
+        "c": 44943,
+        "t": 37,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34123",
+      "obj": {
+        "i": 34123,
+        "n": "Darkhempen Skirt of Scouting",
+        "l": 515,
+        "c": 47822,
+        "t": 36,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34124",
+      "obj": {
+        "i": 34124,
+        "n": "Gajaskin Shoes of Scouting",
+        "l": 515,
+        "c": 49437,
+        "t": 38,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34125",
+      "obj": {
+        "i": 34125,
+        "n": "Gajaskin Circlet of Healing",
+        "l": 515,
+        "c": 41917,
+        "t": 34,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34126",
+      "obj": {
+        "i": 34126,
+        "n": "Darkhempen Coat of Healing",
+        "l": 515,
+        "c": 42808,
+        "t": 35,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34128",
+      "obj": {
+        "i": 34128,
+        "n": "Darkhempen Bottoms of Healing",
+        "l": 515,
+        "c": 47817,
+        "t": 36,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34129",
+      "obj": {
+        "i": 34129,
+        "n": "Gajaskin Boots of Healing",
+        "l": 515,
+        "c": 49434,
+        "t": 38,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34130",
+      "obj": {
+        "i": 34130,
+        "n": "Gajaskin Circlet of Casting",
+        "l": 515,
+        "c": 41916,
+        "t": 34,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34131",
+      "obj": {
+        "i": 34131,
+        "n": "Darkhempen Coat of Casting",
+        "l": 515,
+        "c": 42807,
+        "t": 35,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34133",
+      "obj": {
+        "i": 34133,
+        "n": "Darkhempen Bottoms of Casting",
+        "l": 515,
+        "c": 47816,
+        "t": 36,
+        "p": 41633
+      }
+    },
+    {
+      "type": "item",
+      "id": "34134",
+      "obj": {
+        "i": 34134,
+        "n": "Gajaskin Boots of Casting",
+        "l": 515,
+        "c": 49433,
+        "t": 38,
+        "p": 24978
+      }
+    },
+    {
+      "type": "item",
+      "id": "34231",
+      "obj": {
+        "i": 34231,
+        "n": "High Durium Cesti",
+        "l": 525,
+        "c": 30808,
+        "t": 1,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34233",
+      "obj": {
+        "i": 34233,
+        "n": "Palm Halberd",
+        "l": 525,
+        "c": 31619,
+        "t": 5,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34234",
+      "obj": {
+        "i": 34234,
+        "n": "Palm Longbow",
+        "l": 525,
+        "c": 32008,
+        "t": 4,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34236",
+      "obj": {
+        "i": 34236,
+        "n": "High Durium Greatsword",
+        "l": 525,
+        "c": 34371,
+        "t": 87,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34239",
+      "obj": {
+        "i": 34239,
+        "n": "Pewter Rod",
+        "l": 525,
+        "c": 33161,
+        "t": 7,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34246",
+      "obj": {
+        "i": 34246,
+        "n": "High Durium Glaives",
+        "l": 525,
+        "c": 36262,
+        "t": 107,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34248",
+      "obj": {
+        "i": 34248,
+        "n": "High Durium War Scythe",
+        "l": 525,
+        "c": 37233,
+        "t": 108,
+        "p": 46551
+      }
+    },
+    {
+      "type": "item",
+      "id": "34251",
+      "obj": {
+        "i": 34251,
+        "n": "High Durium Armor of Fending",
+        "l": 525,
+        "c": 43971,
+        "t": 35,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34253",
+      "obj": {
+        "i": 34253,
+        "n": "Luncheon Toadskin Hose of Fending",
+        "l": 525,
+        "c": 46072,
+        "t": 36,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34256",
+      "obj": {
+        "i": 34256,
+        "n": "High Durium Armor of Maiming",
+        "l": 525,
+        "c": 43973,
+        "t": 35,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34258",
+      "obj": {
+        "i": 34258,
+        "n": "Luncheon Toadskin Hose of Maiming",
+        "l": 525,
+        "c": 46073,
+        "t": 36,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34261",
+      "obj": {
+        "i": 34261,
+        "n": "Luncheon Toadskin Jacket of Striking",
+        "l": 525,
+        "c": 43974,
+        "t": 35,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34262",
+      "obj": {
+        "i": 34262,
+        "n": "Luncheon Toadskin Gloves of Striking",
+        "l": 525,
+        "c": 44922,
+        "t": 37,
+        "p": 25600
+      }
+    },
+    {
+      "type": "item",
+      "id": "34263",
+      "obj": {
+        "i": 34263,
+        "n": "Luncheon Toadskin Hose of Striking",
+        "l": 525,
+        "c": 46078,
+        "t": 36,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34264",
+      "obj": {
+        "i": 34264,
+        "n": "Luncheon Toadskin Boots of Striking",
+        "l": 525,
+        "c": 49408,
+        "t": 38,
+        "p": 25600
+      }
+    },
+    {
+      "type": "item",
+      "id": "34266",
+      "obj": {
+        "i": 34266,
+        "n": "Almasty Serge Coat of Aiming",
+        "l": 525,
+        "c": 43975,
+        "t": 35,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34268",
+      "obj": {
+        "i": 34268,
+        "n": "Luncheon Toadskin Hose of Aiming",
+        "l": 525,
+        "c": 46074,
+        "t": 36,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34269",
+      "obj": {
+        "i": 34269,
+        "n": "Luncheon Toadskin Thighboots of Aiming",
+        "l": 525,
+        "c": 49409,
+        "t": 38,
+        "p": 25600
+      }
+    },
+    {
+      "type": "item",
+      "id": "34271",
+      "obj": {
+        "i": 34271,
+        "n": "Luncheon Toadskin Jacket of Scouting",
+        "l": 525,
+        "c": 43976,
+        "t": 35,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34272",
+      "obj": {
+        "i": 34272,
+        "n": "Luncheon Toadskin Gloves of Scouting",
+        "l": 525,
+        "c": 44925,
+        "t": 37,
+        "p": 25600
+      }
+    },
+    {
+      "type": "item",
+      "id": "34273",
+      "obj": {
+        "i": 34273,
+        "n": "Luncheon Toadskin Hose of Scouting",
+        "l": 525,
+        "c": 46075,
+        "t": 36,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34274",
+      "obj": {
+        "i": 34274,
+        "n": "Luncheon Toadskin Thighboots of Scouting",
+        "l": 525,
+        "c": 49410,
+        "t": 38,
+        "p": 25600
+      }
+    },
+    {
+      "type": "item",
+      "id": "34276",
+      "obj": {
+        "i": 34276,
+        "n": "Almasty Serge Coat of Healing",
+        "l": 525,
+        "c": 43972,
+        "t": 35,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34278",
+      "obj": {
+        "i": 34278,
+        "n": "Luncheon Toadskin Hose of Healing",
+        "l": 525,
+        "c": 46077,
+        "t": 36,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34279",
+      "obj": {
+        "i": 34279,
+        "n": "Luncheon Toadskin Thighboots of Healing",
+        "l": 525,
+        "c": 49406,
+        "t": 38,
+        "p": 25600
+      }
+    },
+    {
+      "type": "item",
+      "id": "34281",
+      "obj": {
+        "i": 34281,
+        "n": "Almasty Serge Coat of Casting",
+        "l": 525,
+        "c": 43968,
+        "t": 35,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34283",
+      "obj": {
+        "i": 34283,
+        "n": "Luncheon Toadskin Hose of Casting",
+        "l": 525,
+        "c": 46076,
+        "t": 36,
+        "p": 42673
+      }
+    },
+    {
+      "type": "item",
+      "id": "34284",
+      "obj": {
+        "i": 34284,
+        "n": "Luncheon Toadskin Thighboots of Casting",
+        "l": 525,
+        "c": 49402,
+        "t": 38,
+        "p": 25600
+      }
+    },
+    {
+      "type": "item",
+      "id": "35321",
+      "obj": {
+        "i": 35321,
+        "n": "High Durium Cross-pein Hammer",
+        "l": 480,
+        "c": 35142,
+        "t": 14,
+        "p": 45984
+      }
+    },
+    {
+      "type": "item",
+      "id": "35328",
+      "obj": {
+        "i": 35328,
+        "n": "High Durium Pickaxe",
+        "l": 480,
+        "c": 38048,
+        "t": 28,
+        "p": 45984
+      }
+    },
+    {
+      "type": "item",
+      "id": "35330",
+      "obj": {
+        "i": 35330,
+        "n": "Horse Chestnut Fishing Rod",
+        "l": 480,
+        "c": 38245,
+        "t": 32,
+        "p": 45984
+      }
+    },
+    {
+      "type": "item",
+      "id": "35404",
+      "obj": {
+        "i": 35404,
+        "n": "Darkhempen Hat",
+        "l": 480,
+        "c": 41908,
+        "t": 34,
+        "p": 25289
+      }
+    },
+    {
+      "type": "item",
+      "id": "35405",
+      "obj": {
+        "i": 35405,
+        "n": "Darkhempen Dogi",
+        "l": 480,
+        "c": 42799,
+        "t": 35,
+        "p": 42153
+      }
+    },
+    {
+      "type": "item",
+      "id": "35406",
+      "obj": {
+        "i": 35406,
+        "n": "Gajaskin Handekko",
+        "l": 480,
+        "c": 44927,
+        "t": 37,
+        "p": 25289
+      }
+    },
+    {
+      "type": "item",
+      "id": "35407",
+      "obj": {
+        "i": 35407,
+        "n": "Darkhempen Momohiki",
+        "l": 480,
+        "c": 46054,
+        "t": 36,
+        "p": 42153
+      }
+    },
+    {
+      "type": "item",
+      "id": "35408",
+      "obj": {
+        "i": 35408,
+        "n": "Gajaskin Tabi",
+        "l": 480,
+        "c": 49384,
+        "t": 38,
+        "p": 25289
+      }
+    },
+    {
+      "type": "item",
+      "id": "35411",
+      "obj": {
+        "i": 35411,
+        "n": "Gajaskin Tekko",
+        "l": 480,
+        "c": 44926,
+        "t": 37,
+        "p": 25289
+      }
+    },
+    {
+      "type": "item",
+      "id": "35412",
+      "obj": {
+        "i": 35412,
+        "n": "Darkhempen Kyakui",
+        "l": 480,
+        "c": 46053,
+        "t": 36,
+        "p": 42153
+      }
+    },
+    {
+      "type": "item",
+      "id": "35413",
+      "obj": {
+        "i": 35413,
+        "n": "Gajaskin Zori",
+        "l": 480,
+        "c": 49383,
+        "t": 38,
+        "p": 25289
+      }
+    },
+    {
+      "type": "item",
+      "id": "35414",
+      "obj": {
+        "i": 35414,
+        "n": "Snow Linen Turban of Crafting",
+        "l": 520,
+        "c": 41892,
+        "t": 34,
+        "p": 26222
+      }
+    },
+    {
+      "type": "item",
+      "id": "35446",
+      "obj": {
+        "i": 35446,
+        "n": "Ametrine Armillae of Crafting",
+        "l": 480,
+        "c": 55856,
+        "t": 42,
+        "p": 19159
+      }
+    },
+    {
+      "type": "item",
+      "id": "35450",
+      "obj": {
+        "i": 35450,
+        "n": "Horse Chestnut Bracelet of Gathering",
+        "l": 480,
+        "c": 55853,
+        "t": 42,
+        "p": 19159
+      }
+    },
+    {
+      "type": "item",
+      "id": "36242",
+      "obj": {
+        "i": 36242,
+        "n": "Gaja Hide",
+        "l": 515,
+        "c": 21818,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "27817",
+      "obj": {
+        "i": 27817,
+        "n": "Yellow Alumen",
+        "l": 385,
+        "c": 22657,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "35632",
+      "obj": {
+        "i": 35632,
+        "n": "Rarefied High Durium Greatsword",
+        "l": 530,
+        "c": 34371,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "35646",
+      "obj": {
+        "i": 35646,
+        "n": "Rarefied Gajaskin Shoes",
+        "l": 520,
+        "c": 49435,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "35647",
+      "obj": {
+        "i": 35647,
+        "n": "Rarefied Luncheon Toadskin Hose",
+        "l": 530,
+        "c": 46073,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "35651",
+      "obj": {
+        "i": 35651,
+        "n": "Rarefied Darkhempen Hat",
+        "l": 520,
+        "c": 41908,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "35656",
+      "obj": {
+        "i": 35656,
+        "n": "Rarefied Gajaskin Codex",
+        "l": 520,
+        "c": 33351,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "35812",
+      "obj": {
+        "i": 35812,
+        "n": "Small Cafe Walls",
+        "l": 1,
+        "c": 50846,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "35813",
+      "obj": {
+        "i": 35813,
+        "n": "Medium Cafe Walls",
+        "l": 1,
+        "c": 50847,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "35814",
+      "obj": {
+        "i": 35814,
+        "n": "Large Cafe Walls",
+        "l": 1,
+        "c": 50848,
+        "t": 66
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1608",
+      "obj": {
+        "i": 1608,
+        "n": "Hell on Leather",
+        "l": 80,
+        "j": 13,
+        "p": 3706
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1609",
+      "obj": {
+        "i": 1609,
+        "n": "Running up the Tabi",
+        "l": 80,
+        "j": 13,
+        "p": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "32524",
+      "obj": {
+        "i": 32524,
+        "n": "Augmented Cryptlurker's Vambraces of Maiming",
+        "l": 530,
+        "c": 44822,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "36611",
+      "obj": {
+        "i": 36611,
+        "n": "Timeworn Saigaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36612",
+      "obj": {
+        "i": 36612,
+        "n": "Timeworn Kumbhiraskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037264",
+      "obj": {
+        "i": 1037264,
+        "n": "Ahldiyrn",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36247",
+      "obj": {
+        "i": 36247,
+        "n": "Gaja Leather",
+        "l": 515,
+        "c": 22008,
+        "t": 52
+      }
+    }
+  ]
+}

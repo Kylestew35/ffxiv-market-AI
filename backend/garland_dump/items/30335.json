@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Miner's Gobbiegoo",
+    "description": "A Skysteel tool coating crafted by means that are intriguing─but not quite so intriguing that you would risk finding out what they are. Tastes of soil, which is a perfectly reasonable thing to know.",
+    "id": 30335,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26115,
+    "tradeShops": [
+      {
+        "shop": "Oddly Specific Materials Exchange (Gathering)",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30335",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31127",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31127",
+      "obj": {
+        "i": 31127,
+        "n": "Oddly Specific Schorl",
+        "l": 445,
+        "c": 21476,
+        "t": 48
+      }
+    }
+  ]
+}

@@ -1,0 +1,894 @@
+{
+  "item": {
+    "name": "Alumina Whetstone",
+    "description": "A whestone carved from alumina. Used for sharpening metal or stone blades.",
+    "id": 28714,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 3154,
+    "ilvl": 450,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21470,
+    "ingredient_of": {
+      "28461": 3,
+      "28462": 3,
+      "28463": 3,
+      "28464": 3,
+      "28465": 3,
+      "28466": 3,
+      "28467": 3,
+      "28468": 3,
+      "28469": 3,
+      "28470": 3,
+      "28471": 3,
+      "28509": 3,
+      "28510": 3,
+      "28511": 3,
+      "28512": 3,
+      "28513": 3,
+      "28514": 3,
+      "28515": 3,
+      "28516": 3,
+      "28517": 3,
+      "28518": 3,
+      "39550": 2,
+      "39551": 2,
+      "39554": 2,
+      "39555": 2,
+      "39556": 2,
+      "39563": 2,
+      "39564": 2,
+      "39567": 2,
+      "41601": 2,
+      "41602": 2,
+      "41605": 2,
+      "41606": 2,
+      "41607": 2,
+      "41613": 2,
+      "41614": 2,
+      "41616": 2,
+      "41618": 2,
+      "44978": 2,
+      "44981": 2,
+      "44982": 2,
+      "44984": 2,
+      "44985": 2,
+      "44988": 2,
+      "44989": 2,
+      "44990": 2,
+      "44991": 2,
+      "44994": 2
+    },
+    "craft": [
+      {
+        "id": 33529,
+        "job": 11,
+        "rlvl": 450,
+        "durability": 35,
+        "quality": 6320,
+        "progress": 1640,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24269,
+        "ingredients": [
+          {
+            "id": 28717,
+            "amount": 3
+          },
+          {
+            "id": 28718,
+            "amount": 1
+          },
+          {
+            "id": 27812,
+            "amount": 1
+          },
+          {
+            "id": 16,
+            "amount": 2
+          },
+          {
+            "id": 14,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 397,
+          "hq": 417
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Beryllium Ore",
+      "id": 28717,
+      "icon": 21455,
+      "category": 48,
+      "ilvl": 450,
+      "price": 630,
+      "ventures": [
+        861
+      ],
+      "nodes": [
+        609
+      ]
+    },
+    {
+      "name": "Sublime Solution",
+      "id": 28718,
+      "icon": 22669,
+      "category": 54,
+      "ilvl": 450,
+      "price": 2523,
+      "desynthedFrom": [
+        29382,
+        26916,
+        26915,
+        29399,
+        29367,
+        26923,
+        32628,
+        26929,
+        32592,
+        28252,
+        26928,
+        33508
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28718",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "28718",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 125
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scuroglow Aethersand",
+      "id": 27812,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 409,
+      "price": 599,
+      "reducedFrom": [
+        27809,
+        27806,
+        27543
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27812",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27812",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "609",
+      "obj": {
+        "i": 609,
+        "n": "Saint Fathric's Temple",
+        "l": 80,
+        "t": 0,
+        "z": 2956,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27809",
+      "obj": {
+        "i": 27809,
+        "n": "Sweet Marjoram",
+        "l": 409,
+        "c": 25015,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27806",
+      "obj": {
+        "i": 27806,
+        "n": "Solarite",
+        "l": 409,
+        "c": 21467,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27543",
+      "obj": {
+        "i": 27543,
+        "n": "Poecilia",
+        "l": 406,
+        "c": 28442,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "28461",
+      "obj": {
+        "i": 28461,
+        "n": "Facet Saw",
+        "l": 460,
+        "c": 35035,
+        "t": 12
+      }
+    },
+    {
+      "type": "item",
+      "id": "28462",
+      "obj": {
+        "i": 28462,
+        "n": "Facet Cross-pein Hammer",
+        "l": 460,
+        "c": 35134,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "28463",
+      "obj": {
+        "i": 28463,
+        "n": "Facet Raising Hammer",
+        "l": 460,
+        "c": 35234,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "28464",
+      "obj": {
+        "i": 28464,
+        "n": "Facet Mallet",
+        "l": 460,
+        "c": 35333,
+        "t": 18
+      }
+    },
+    {
+      "type": "item",
+      "id": "28465",
+      "obj": {
+        "i": 28465,
+        "n": "Facet Round Knife",
+        "l": 460,
+        "c": 35434,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "28466",
+      "obj": {
+        "i": 28466,
+        "n": "Facet Needle",
+        "l": 460,
+        "c": 35534,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "28467",
+      "obj": {
+        "i": 28467,
+        "n": "Facet Alembic",
+        "l": 460,
+        "c": 35633,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "28468",
+      "obj": {
+        "i": 28468,
+        "n": "Facet Frypan",
+        "l": 460,
+        "c": 35736,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "28469",
+      "obj": {
+        "i": 28469,
+        "n": "Facet Pickaxe",
+        "l": 460,
+        "c": 38036,
+        "t": 28
+      }
+    },
+    {
+      "type": "item",
+      "id": "28470",
+      "obj": {
+        "i": 28470,
+        "n": "Facet Hatchet",
+        "l": 460,
+        "c": 38134,
+        "t": 30
+      }
+    },
+    {
+      "type": "item",
+      "id": "28471",
+      "obj": {
+        "i": 28471,
+        "n": "Facet Fishing Rod",
+        "l": 460,
+        "c": 38237,
+        "t": 32
+      }
+    },
+    {
+      "type": "item",
+      "id": "28509",
+      "obj": {
+        "i": 28509,
+        "n": "Facet Claw Hammer",
+        "l": 460,
+        "c": 35065,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "28510",
+      "obj": {
+        "i": 28510,
+        "n": "Facet File",
+        "l": 460,
+        "c": 35162,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "28511",
+      "obj": {
+        "i": 28511,
+        "n": "Facet Pliers",
+        "l": 460,
+        "c": 35262,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "28512",
+      "obj": {
+        "i": 28512,
+        "n": "Facet Grinding Wheel",
+        "l": 460,
+        "c": 35362,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "28513",
+      "obj": {
+        "i": 28513,
+        "n": "Facet Awl",
+        "l": 460,
+        "c": 35454,
+        "t": 21
+      }
+    },
+    {
+      "type": "item",
+      "id": "28514",
+      "obj": {
+        "i": 28514,
+        "n": "Facet Spinning Wheel",
+        "l": 460,
+        "c": 35563,
+        "t": 23
+      }
+    },
+    {
+      "type": "item",
+      "id": "28515",
+      "obj": {
+        "i": 28515,
+        "n": "Facet Mortar",
+        "l": 460,
+        "c": 35662,
+        "t": 25
+      }
+    },
+    {
+      "type": "item",
+      "id": "28516",
+      "obj": {
+        "i": 28516,
+        "n": "Facet Culinary Knife",
+        "l": 460,
+        "c": 35762,
+        "t": 27
+      }
+    },
+    {
+      "type": "item",
+      "id": "28517",
+      "obj": {
+        "i": 28517,
+        "n": "Facet Sledgehammer",
+        "l": 460,
+        "c": 38062,
+        "t": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "28518",
+      "obj": {
+        "i": 28518,
+        "n": "Facet Scythe",
+        "l": 460,
+        "c": 38162,
+        "t": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "24269",
+      "obj": {
+        "i": 24269,
+        "n": "Master Goldsmith VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "28717",
+      "obj": {
+        "i": 28717,
+        "n": "Beryllium Ore",
+        "l": 450,
+        "c": 21455,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "28718",
+      "obj": {
+        "i": 28718,
+        "n": "Sublime Solution",
+        "l": 450,
+        "c": 22669,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27812",
+      "obj": {
+        "i": 27812,
+        "n": "Scuroglow Aethersand",
+        "l": 409,
+        "c": 21233,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "39550",
+      "obj": {
+        "i": 39550,
+        "n": "Rubellux Cesti",
+        "l": 430,
+        "c": 31184,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "39551",
+      "obj": {
+        "i": 39551,
+        "n": "Rubellux Battleaxe",
+        "l": 430,
+        "c": 31595,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "39554",
+      "obj": {
+        "i": 39554,
+        "n": "Rubellux Daggers",
+        "l": 430,
+        "c": 33972,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "39555",
+      "obj": {
+        "i": 39555,
+        "n": "Rubellux Greatsword",
+        "l": 430,
+        "c": 34350,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "39556",
+      "obj": {
+        "i": 39556,
+        "n": "Rubellux Knifelock",
+        "l": 430,
+        "c": 34470,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "39563",
+      "obj": {
+        "i": 39563,
+        "n": "Rubellux Hanger",
+        "l": 430,
+        "c": 36803,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "39564",
+      "obj": {
+        "i": 39564,
+        "n": "Rubellux Sawback",
+        "l": 430,
+        "c": 36043,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "39567",
+      "obj": {
+        "i": 39567,
+        "n": "Paladin's Rubellux Arms",
+        "l": 1,
+        "c": 26634,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "41601",
+      "obj": {
+        "i": 41601,
+        "n": "Smaragdine Knuckles",
+        "l": 430,
+        "c": 31197,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "41602",
+      "obj": {
+        "i": 41602,
+        "n": "Smaragdine Battleaxe",
+        "l": 430,
+        "c": 31207,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "41605",
+      "obj": {
+        "i": 41605,
+        "n": "Smaragdine Cleavers",
+        "l": 430,
+        "c": 33983,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "41606",
+      "obj": {
+        "i": 41606,
+        "n": "Smaragdine Greatsword",
+        "l": 430,
+        "c": 34361,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "41607",
+      "obj": {
+        "i": 41607,
+        "n": "Smaragdine Pistol",
+        "l": 430,
+        "c": 34407,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "41613",
+      "obj": {
+        "i": 41613,
+        "n": "Smaragdine Blade",
+        "l": 430,
+        "c": 36512,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "41614",
+      "obj": {
+        "i": 41614,
+        "n": "Smaragdine Rapier",
+        "l": 430,
+        "c": 36811,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "41616",
+      "obj": {
+        "i": 41616,
+        "n": "Smaragdine Chakrams",
+        "l": 430,
+        "c": 36252,
+        "t": 107
+      }
+    },
+    {
+      "type": "item",
+      "id": "41618",
+      "obj": {
+        "i": 41618,
+        "n": "Paladin's Smaragdine Arms",
+        "l": 1,
+        "c": 26634,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44978",
+      "obj": {
+        "i": 44978,
+        "n": "Adamant Battleaxe",
+        "l": 430,
+        "c": 31209,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "44981",
+      "obj": {
+        "i": 44981,
+        "n": "Adamant Cleavers",
+        "l": 430,
+        "c": 33985,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "44982",
+      "obj": {
+        "i": 44982,
+        "n": "Adamant Guillotine",
+        "l": 430,
+        "c": 34363,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "44984",
+      "obj": {
+        "i": 44984,
+        "n": "Adamant Cane",
+        "l": 430,
+        "c": 32782,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "44985",
+      "obj": {
+        "i": 44985,
+        "n": "Adamant Rod",
+        "l": 430,
+        "c": 33153,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "44988",
+      "obj": {
+        "i": 44988,
+        "n": "Adamant Planisphere",
+        "l": 430,
+        "c": 34957,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "44989",
+      "obj": {
+        "i": 44989,
+        "n": "Adamant Blade",
+        "l": 430,
+        "c": 36514,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "44990",
+      "obj": {
+        "i": 44990,
+        "n": "Adamant Hanger",
+        "l": 430,
+        "c": 36813,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "44991",
+      "obj": {
+        "i": 44991,
+        "n": "Adamant Gunblade",
+        "l": 430,
+        "c": 36055,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "44994",
+      "obj": {
+        "i": 44994,
+        "n": "Paladin's Adamant Arms",
+        "l": 1,
+        "c": 26634,
+        "t": 61
+      }
+    }
+  ]
+}

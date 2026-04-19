@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Rigging Component Materials",
+    "description": "Materials required to craft components for an airship's rigging.<br><br>※Only for use in Ixal society quests.",
+    "id": 8057,
+    "patch": 2.35,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "8096": 1
+    },
+    "usedInQuest": [
+      67041
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8096",
+      "obj": {
+        "i": 8096,
+        "n": "Rigging Component",
+        "l": 1,
+        "c": 21005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67041",
+      "obj": {
+        "i": 67041,
+        "n": "Of Rodents and Rigging",
+        "g": 49,
+        "l": "North Shroud",
+        "s": 22,
+        "r": 1
+      }
+    }
+  ]
+}

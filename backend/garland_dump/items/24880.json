@@ -1,0 +1,163 @@
+{
+  "item": {
+    "name": "Noctis Lucis Caelum Card",
+    "description": "A legendary (★★★★★) card used in the game Triple Triad.<br>Card No. Ex. 14",
+    "id": 24880,
+    "patch": 4.56,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27671,
+    "tradeShops": [
+      {
+        "shop": "Triple Triad Cards",
+        "npcs": [
+          1010478,
+          1016294,
+          1016296
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24880",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 200000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shop",
+        "npcs": [
+          1028254
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24880",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 10000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "“Once this is all over, I say we break down the borders─come together as one nation.”"
+      },
+      "ja": {
+        "description": "「いろいろケリついたら、\r\n生まれとか関係ねー国にしようぜ」\r\n伝説の英雄：ノクティス・ルシス・チェラム"
+      },
+      "de": {
+        "description": "„Prinz zu sein ist auch nicht leicht.“"
+      },
+      "fr": {
+        "description": "“Quand tout sera réglé... plus personne n'aura à se soucier de ses origines.”"
+      },
+      "sellMgp": 1500,
+      "plate": 87252,
+      "rarity": 5,
+      "top": 7,
+      "bottom": 9,
+      "left": 1,
+      "right": "A"
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010478",
+      "obj": {
+        "i": 1010478,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 1487,
+        "c": [
+          4.14,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016294",
+      "obj": {
+        "i": 1016294,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.02,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016296",
+      "obj": {
+        "i": 1016296,
+        "n": "Triple Triad Trader",
+        "l": 1665,
+        "s": 1,
+        "r": 1,
+        "c": [
+          3.56,
+          3.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1028254",
+      "obj": {
+        "i": 1028254,
+        "n": "Ironworks Vendor",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1485,
+        "c": [
+          5.28,
+          6.34
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Grilled Corn",
+    "description": "Sweet millioncorn on the cob, basted with authentic Hingan soy sauce and broiled over an open flame.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Critical Hit Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 33256,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53401,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1036606
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33256",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33714",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1030"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1036606",
+      "obj": {
+        "i": 1036606,
+        "n": "Moonfire Faire Vendor",
+        "l": 32,
+        "s": 1,
+        "r": 1,
+        "a": 169,
+        "c": [
+          34.81,
+          25.93
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33714",
+      "obj": {
+        "i": 33714,
+        "n": "Faire Voucher",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    }
+  ]
+}

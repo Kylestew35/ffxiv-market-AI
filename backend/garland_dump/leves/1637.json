@@ -1,0 +1,430 @@
+{
+  "leve": {
+    "name": "Mindful Study",
+    "description": "The sixth time's the charm! My heartfelt gratitude to all the talented artisans whose support allowed me to finally pass the Studium's rigorous entrance examinations. But now the thought of maintaining my grades gnaws away at my fragile mind. Is there a potion that might help with that...?",
+    "id": 1637,
+    "patch": 6.0,
+    "client": "Studium First-year Pupil, Benger",
+    "lvl": 88,
+    "jobCategory": 15,
+    "levemete": 1037264,
+    "areaid": 3706,
+    "xp": 1494330,
+    "gil": 5040,
+    "rewards": 799,
+    "plate": 80033,
+    "frame": 80005,
+    "areaicon": 110135,
+    "requires": [
+      {
+        "item": 36108,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 450,
+      "hq": 465
+    }
+  },
+  "rewards": {
+    "id": 799,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 90
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 90
+      },
+      {
+        "item": 36261,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 112
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 112
+      },
+      {
+        "item": 36261,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Grade 5 Tincture of Mind",
+      "id": 36108,
+      "icon": 20708,
+      "category": 44,
+      "ilvl": 560,
+      "price": 3167,
+      "craft": [
+        {
+          "id": 5292,
+          "job": 14,
+          "rlvl": 555,
+          "durability": 80,
+          "quality": 7100,
+          "progress": 3400,
+          "lvl": 89,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36263,
+              "amount": 2
+            },
+            {
+              "id": 36261,
+              "amount": 2
+            },
+            {
+              "id": 27784,
+              "amount": 2
+            },
+            {
+              "id": 36223,
+              "amount": 2
+            },
+            {
+              "id": 13,
+              "amount": 8
+            },
+            {
+              "id": 12,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 396,
+            "hq": 416
+          }
+        }
+      ],
+      "treasure": [
+        36611
+      ]
+    },
+    {
+      "name": "Ambrosial Water",
+      "id": 36263,
+      "icon": 22693,
+      "category": 54,
+      "ilvl": 539,
+      "price": 99999,
+      "leves": [
+        1634,
+        1635
+      ],
+      "ventures": [
+        906
+      ],
+      "nodes": [
+        824
+      ]
+    },
+    {
+      "name": "Berkanan Sap",
+      "id": 36261,
+      "icon": 22675,
+      "category": 54,
+      "ilvl": 545,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36261",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1636,
+        1637
+      ],
+      "ventures": [
+        948
+      ]
+    },
+    {
+      "name": "Tiger Lily",
+      "id": 27784,
+      "icon": 25022,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        837
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Moonlight Aethersand",
+      "id": 36223,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 560,
+      "price": 99999,
+      "reducedFrom": [
+        36285,
+        36287,
+        36525
+      ],
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36223",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "824",
+      "obj": {
+        "i": 824,
+        "n": "Northerly Zephyrneus",
+        "l": 90,
+        "t": 1,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36285",
+      "obj": {
+        "i": 36285,
+        "n": "Lunar Quartz",
+        "l": 534,
+        "c": 21459,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "36287",
+      "obj": {
+        "i": 36287,
+        "n": "Ewer Clay",
+        "l": 534,
+        "c": 21465,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36525",
+      "obj": {
+        "i": 36525,
+        "n": "Gilled Topknot",
+        "l": 527,
+        "c": 28054,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "36263",
+      "obj": {
+        "i": 36263,
+        "n": "Ambrosial Water",
+        "l": 539,
+        "c": 22693,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36261",
+      "obj": {
+        "i": 36261,
+        "n": "Berkanan Sap",
+        "l": 545,
+        "c": 22675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27784",
+      "obj": {
+        "i": 27784,
+        "n": "Tiger Lily",
+        "l": 418,
+        "c": 25022,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "36223",
+      "obj": {
+        "i": 36223,
+        "n": "Moonlight Aethersand",
+        "l": 560,
+        "c": 21233,
+        "t": 54
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1637",
+      "obj": {
+        "i": 1637,
+        "n": "Mindful Study",
+        "l": 88,
+        "j": 15,
+        "p": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36611",
+      "obj": {
+        "i": 36611,
+        "n": "Timeworn Saigaskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037264",
+      "obj": {
+        "i": 1037264,
+        "n": "Ahldiyrn",
+        "l": 3706
+      }
+    },
+    {
+      "type": "item",
+      "id": "36108",
+      "obj": {
+        "i": 36108,
+        "n": "Grade 5 Tincture of Mind",
+        "l": 560,
+        "c": 20708,
+        "t": 44
+      }
+    }
+  ]
+}

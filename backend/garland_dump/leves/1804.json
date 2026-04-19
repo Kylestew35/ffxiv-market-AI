@@ -1,0 +1,130 @@
+{
+  "leve": {
+    "name": "Starry-finned",
+    "description": "Contrary to assumption, Yak T'el folklore also includes stories of the Yok Huy due to their presence there in ages past. For instance, a Yok Huy mage is said to have gathered the stars and sealed them within a fish, which is why the night sky is no longer visible from the depths of the forest. Perhaps you can still find stars gleaming within fish that swim in <span class=\"highlight\">Cenote Jayunja</span>?<br><span class=\"highlight\">Requires: Fishing Tackle</span>",
+    "id": 1804,
+    "patch": 7.0,
+    "client": "Wing of Reflection Archaeology Specialist, Yoani",
+    "lvl": 96,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      23.12,
+      27.91
+    ],
+    "zoneid": 4507,
+    "areaid": 4507,
+    "xp": 6726582,
+    "gil": 2610,
+    "rewards": 809,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110198,
+    "requires": [
+      {
+        "item": 43739,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 90,
+      "hq": 105
+    }
+  },
+  "rewards": {
+    "id": 809,
+    "entries": [
+      {
+        "item": 43852,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Welkin Catfish",
+      "id": 43739,
+      "icon": 28606,
+      "category": 47,
+      "ilvl": 670,
+      "price": 99999,
+      "fishingSpots": [
+        315
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "315",
+      "obj": {
+        "i": 315,
+        "n": "Cenote Jayunja",
+        "l": 94,
+        "c": 1,
+        "z": 4507,
+        "x": 19.74,
+        "y": 31.95
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1804",
+      "obj": {
+        "i": 1804,
+        "n": "Starry-finned",
+        "l": 96,
+        "j": 19,
+        "p": 4507
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43852",
+      "obj": {
+        "i": 43852,
+        "n": "Honeybee",
+        "l": 655,
+        "c": 27105,
+        "t": 33,
+        "p": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43739",
+      "obj": {
+        "i": 43739,
+        "n": "Welkin Catfish",
+        "l": 670,
+        "c": 28606,
+        "t": 47
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "item": {
+    "name": "Augmented Lunar Envoy's Bardiche",
+    "jobCategories": "MRD WAR",
+    "id": 38008,
+    "patch": 6.2,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 630,
+    "category": 3,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1945,
+    "slot": 13,
+    "elvl": 90,
+    "jobs": 44,
+    "models": [
+      "401-122-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 125,
+      "Magic Damage": 63,
+      "Delay": 3.36,
+      "Strength": 348,
+      "Vitality": 376,
+      "Determination": 283,
+      "Critical Hit": 198
+    },
+    "attr_max": {
+      "Strength": 940,
+      "Dexterity": 940,
+      "Vitality": 1016,
+      "Intelligence": 940,
+      "Mind": 940,
+      "Piety": 765,
+      "GP": 4,
+      "CP": 4,
+      "Tenacity": 765,
+      "Direct Hit Rate": 765,
+      "Critical Hit": 765,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 765,
+      "Skill Speed": 765,
+      "Spell Speed": 765,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 4637,
+      "Control": 1848,
+      "Gathering": 4457,
+      "Perception": 1274
+    },
+    "icon": 31231,
+    "sharedModels": [
+      37933
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (IL 630 Weapons)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38008",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lunar Envoy's Gear Augmentation (DoW) I",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38008",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37933",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Lunar Envoy Gear (IL 630)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38008",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "37933",
+      "obj": {
+        "i": 37933,
+        "n": "Lunar Envoy's Bardiche",
+        "l": 620,
+        "c": 31231,
+        "t": 3
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    }
+  ]
+}

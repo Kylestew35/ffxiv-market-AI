@@ -1,0 +1,181 @@
+{
+  "item": {
+    "name": "Hand-poured Coffee",
+    "description": "Aromatic coffee brewed by the time-honored pour-over method.<br><br>※Cannot be retrieved once used.<br>※Can be used up to 10 times.<br><br>Meal benefits when used:<br>  <span class=\"highlight-green\">Perception Bonus:</span> +4% (Max 10)<br>  <span class=\"highlight-green\">VIT Bonus:</span> +5% (Max 12)<br>  <span class=\"highlight-green\">Gear Durability Bonus:</span> +3<br>  <span class=\"highlight-green\">EXP Bonus:</span> +3%<br>  <span class=\"highlight-green\">Duration:</span> 30m<br>  (Duration can be extended to 60m by consuming multiple servings)",
+    "id": 33278,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 430,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 15,
+    "icon": 53403,
+    "craft": [
+      {
+        "id": 4709,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "ingredients": [
+          {
+            "id": 27837,
+            "amount": 4
+          },
+          {
+            "id": 27782,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 130,
+          "hq": 150
+        }
+      }
+    ],
+    "ingredient_of": {
+      "38621": 1,
+      "41817": 1,
+      "41829": 1
+    },
+    "furniture": 1,
+    "models": [
+      "1056"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Coffee Beans",
+      "id": 27837,
+      "icon": 25919,
+      "category": 45,
+      "ilvl": 415,
+      "price": 210,
+      "leves": [
+        1475,
+        1476,
+        1477
+      ],
+      "ventures": [
+        834
+      ],
+      "nodes": [
+        625
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "625",
+      "obj": {
+        "i": 625,
+        "n": "Scree",
+        "l": 80,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "27837",
+      "obj": {
+        "i": 27837,
+        "n": "Coffee Beans",
+        "l": 415,
+        "c": 25919,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "38621",
+      "obj": {
+        "i": 38621,
+        "n": "Blooming Garden Table",
+        "l": 560,
+        "c": 52345,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "41817",
+      "obj": {
+        "i": 41817,
+        "n": "Slovenly Chair",
+        "l": 690,
+        "c": 52800,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "41829",
+      "obj": {
+        "i": 41829,
+        "n": "Twintop Table",
+        "l": 690,
+        "c": 51736,
+        "t": 77
+      }
+    }
+  ]
+}

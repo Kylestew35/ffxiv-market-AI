@@ -1,0 +1,165 @@
+{
+  "item": {
+    "name": "Genji Shield",
+    "jobCategories": "GLA PLD",
+    "id": 19374,
+    "patch": 4.05,
+    "patchCategory": 0,
+    "price": 34770,
+    "ilvl": 345,
+    "category": 11,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 543,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 17837,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 1440,
+    "slot": 2,
+    "elvl": 70,
+    "jobs": 38,
+    "models": [
+      "101-66-1-0"
+    ],
+    "attr": {
+      "Block Strength": 600,
+      "Block Rate": 600,
+      "Strength": 37,
+      "Vitality": 37,
+      "Tenacity": 36,
+      "Determination": 25
+    },
+    "icon": 30170,
+    "instances": [
+      30056
+    ],
+    "tradeShops": [
+      {
+        "shop": "Deltascape Datalog Exchange (DoW) I",
+        "npcs": [
+          1019452
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19374",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "19121",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Genji Gear (IL 340-345)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "19359",
+                "amount": 1
+              },
+              {
+                "id": "19374",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "19121",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      17868
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30056",
+      "obj": {
+        "i": 30056,
+        "n": "Deltascape V4.0 (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 320
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019452",
+      "obj": {
+        "i": 1019452,
+        "n": "Gelfradus",
+        "l": 2403,
+        "s": 18,
+        "t": "Omega Parts Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.82,
+          12.09
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19121",
+      "obj": {
+        "i": 19121,
+        "n": "Deltascape Datalog v4.0",
+        "l": 1,
+        "c": 26433,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "19359",
+      "obj": {
+        "i": 19359,
+        "n": "Genji Shichishito",
+        "l": 345,
+        "c": 30576,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "17868",
+      "obj": {
+        "i": 17868,
+        "n": "Genji Weapon Coffer (IL 345)",
+        "l": 1,
+        "c": 26557,
+        "t": 61
+      }
+    }
+  ]
+}

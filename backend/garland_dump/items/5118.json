@@ -1,0 +1,338 @@
+{
+  "item": {
+    "name": "Gold Ore",
+    "description": "A decent-sized piece of rock containing the precious metal gold.",
+    "id": 5118,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 326,
+    "ilvl": 55,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21212,
+    "nodes": [
+      223
+    ],
+    "tradeShops": [
+      {
+        "shop": "Curious Crop Exchange",
+        "npcs": [
+          1005633,
+          1005640,
+          1005647,
+          1018091,
+          1018094,
+          1018097,
+          1019101,
+          1019111,
+          1039487,
+          1039493
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5118",
+                "amount": 3
+              }
+            ],
+            "currency": [
+              {
+                "id": "15858",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "5068": 3,
+      "12522": 1,
+      "27707": 1,
+      "27709": 1,
+      "5069": 1
+    },
+    "ventures": [
+      509
+    ],
+    "voyages": [
+      {
+        "id": 1,
+        "type": 0
+      },
+      {
+        "id": 7,
+        "type": 0
+      },
+      {
+        "id": 13,
+        "type": 0
+      },
+      {
+        "id": 19,
+        "type": 0
+      },
+      {
+        "id": 26,
+        "type": 1
+      }
+    ],
+    "alla": {
+      "source": [
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE",
+        "VOYAGE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "223",
+      "obj": {
+        "i": 223,
+        "n": "The Burning Wall",
+        "l": 50,
+        "t": 0,
+        "z": 44,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          9
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5068",
+      "obj": {
+        "i": 5068,
+        "n": "Rose Gold Nugget",
+        "l": 55,
+        "c": 20821,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "12522",
+      "obj": {
+        "i": 12522,
+        "n": "Aurum Regis Nugget",
+        "l": 148,
+        "c": 20827,
+        "t": 49,
+        "p": 2930
+      }
+    },
+    {
+      "type": "item",
+      "id": "27707",
+      "obj": {
+        "i": 27707,
+        "n": "Stonegold Nugget",
+        "l": 390,
+        "c": 20816,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "27709",
+      "obj": {
+        "i": 27709,
+        "n": "Stonegold Ingot",
+        "l": 395,
+        "c": 20809,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "5069",
+      "obj": {
+        "i": 5069,
+        "n": "Gold Ingot",
+        "l": 90,
+        "c": 20809,
+        "t": 49
+      }
+    }
+  ]
+}

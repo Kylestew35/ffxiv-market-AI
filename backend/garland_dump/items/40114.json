@@ -1,0 +1,236 @@
+{
+  "item": {
+    "name": "Augmented Credendum Sollerets of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 40114,
+    "patch": 6.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 660,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 975,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 1995,
+    "slot": 8,
+    "elvl": 90,
+    "jobs": 59,
+    "models": [
+      "818-1-0-0"
+    ],
+    "attr": {
+      "Defense": 892,
+      "Magic Defense": 892,
+      "Strength": 248,
+      "Vitality": 277,
+      "Critical Hit": 184,
+      "Determination": 129
+    },
+    "attr_max": {
+      "Strength": 671,
+      "Dexterity": 671,
+      "Vitality": 748,
+      "Intelligence": 671,
+      "Mind": 671,
+      "Piety": 497,
+      "GP": 8,
+      "CP": 5,
+      "Tenacity": 497,
+      "Defense": 4209,
+      "Direct Hit Rate": 497,
+      "Magic Defense": 4209,
+      "Critical Hit": 497,
+      "Fire Resistance": 43,
+      "Ice Resistance": 43,
+      "Wind Resistance": 43,
+      "Earth Resistance": 43,
+      "Lightning Resistance": 43,
+      "Water Resistance": 43,
+      "Determination": 497,
+      "Skill Speed": 497,
+      "Spell Speed": 497,
+      "Slow Resistance": 15,
+      "Petrification Resistance": 15,
+      "Paralysis Resistance": 15,
+      "Silence Resistance": 15,
+      "Blind Resistance": 15,
+      "Poison Resistance": 15,
+      "Stun Resistance": 15,
+      "Sleep Resistance": 15,
+      "Bind Resistance": 15,
+      "Heavy Resistance": 15,
+      "Doom Resistance": 15,
+      "Craftsmanship": 288,
+      "Control": 1212,
+      "Gathering": 138,
+      "Perception": 760
+    },
+    "icon": 49576,
+    "sharedModels": [
+      40039,
+      40044,
+      40119
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW, IL 660)",
+        "npcs": [
+          1037301
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40114",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Credendum Gear Augmentation (DoW) I",
+        "npcs": [
+          1037300
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40114",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "40039",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Credendum Gear (IL 660)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40114",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "40039",
+      "obj": {
+        "i": 40039,
+        "n": "Credendum Sollerets of Fending",
+        "l": 650,
+        "c": 49576,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "40044",
+      "obj": {
+        "i": 40044,
+        "n": "Credendum Sollerets of Maiming",
+        "l": 650,
+        "c": 49577,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "40119",
+      "obj": {
+        "i": 40119,
+        "n": "Augmented Credendum Sollerets of Maiming",
+        "l": 660,
+        "c": 49577,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037300",
+      "obj": {
+        "i": 1037300,
+        "n": "Khaldeen",
+        "l": 3707,
+        "s": 10,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.89,
+          10.47
+        ]
+      }
+    }
+  ]
+}

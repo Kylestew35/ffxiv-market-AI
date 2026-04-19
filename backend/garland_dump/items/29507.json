@@ -1,0 +1,99 @@
+{
+  "item": {
+    "name": "Lingonberry",
+    "description": "Plump, ripe, and bursting with flavor. Perfect for jams and sweet treats.",
+    "id": 29507,
+    "patch": 5.2,
+    "patchCategory": 5,
+    "price": 2523,
+    "ilvl": 480,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25310,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29507",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29507",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "29497": 2,
+      "29498": 2
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "29497",
+      "obj": {
+        "i": 29497,
+        "n": "Ovim Meatballs",
+        "l": 480,
+        "c": 24368,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "29498",
+      "obj": {
+        "i": 29498,
+        "n": "Mors",
+        "l": 480,
+        "c": 24403,
+        "t": 46
+      }
+    }
+  ]
+}

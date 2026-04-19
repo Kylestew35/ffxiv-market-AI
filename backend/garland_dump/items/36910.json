@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Pod 602 Identification Key",
+    "description": "A thin, rectangular piece of some unknown material. Placing it near your pod 602 will magically bring the machine to life.",
+    "mount": {
+      "name": "Pod 602",
+      "action": "Summon forth your pod 602 mount. May leave you hanging, but will never let you go. Unless it malfunctions, or runs out of energy, or...you get the idea.",
+      "description": "Recovered from the ruins of the machine lifeforms, this diminutive white machina was created to provide YoRHa units with movement support. On account of this, it can easily transport one person...if not exactly in style or comfort.",
+      "tooltip": "Those who are ready and<br>willing to fight will never<br>want for transportation!<br>   - Grand Company Flyer",
+      "icon": 4227,
+      "guideIcon": 68227
+    },
+    "id": 36910,
+    "patch": 6.1,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36910",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 300000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "774-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

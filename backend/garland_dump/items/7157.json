@@ -1,0 +1,106 @@
+{
+  "item": {
+    "name": "White Raven Armor Fragment",
+    "description": "A fragment of the armor worn by Legatus Nael van Darnus of the Garlean Empire.",
+    "id": 7157,
+    "patch": 2.2,
+    "patchCategory": 5,
+    "price": 8553,
+    "ilvl": 90,
+    "category": 56,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 13,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20967,
+    "drops": [
+      27420000002612,
+      31470000002612
+    ],
+    "ingredient_of": {
+      "7100": 1,
+      "7101": 1
+    },
+    "instances": [
+      30010,
+      30015
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7100",
+      "obj": {
+        "i": 7100,
+        "n": "Projection Module",
+        "l": 90,
+        "c": 52018,
+        "t": 80
+      }
+    },
+    {
+      "type": "item",
+      "id": "7101",
+      "obj": {
+        "i": 7101,
+        "n": "Purification Module",
+        "l": 90,
+        "c": 52017,
+        "t": 80
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27420000002612",
+      "obj": {
+        "i": 27420000002612,
+        "n": "Nael Deus Darnus",
+        "l": "50",
+        "z": 1304
+      }
+    },
+    {
+      "type": "mob",
+      "id": "31470000002612",
+      "obj": {
+        "i": 31470000002612,
+        "n": "Nael Deus Darnus",
+        "l": "50",
+        "z": 1304
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30010",
+      "obj": {
+        "i": 30010,
+        "n": "The Second Coil of Bahamut - Turn 4",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 105
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30015",
+      "obj": {
+        "i": 30015,
+        "n": "The Second Coil of Bahamut (Savage) - Turn 4",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 105
+      }
+    }
+  ]
+}

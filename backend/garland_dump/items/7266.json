@@ -1,0 +1,126 @@
+{
+  "item": {
+    "name": "Weathered Daystar Gloves",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 7266,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 16632,
+    "ilvl": 100,
+    "category": 37,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 295,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 5,
+    "elvl": 50,
+    "jobs": 64,
+    "models": [
+      "153-1-0-0"
+    ],
+    "attr": {
+      "Defense": 54,
+      "Magic Defense": 94,
+      "Mind": 22,
+      "Vitality": 21,
+      "Spell Speed": 25,
+      "Determination": 18,
+      "Direct Hit Rate": 5
+    },
+    "icon": 44256,
+    "sharedModels": [
+      7332,
+      10899
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (DoM)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7332",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7266",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7332",
+      "obj": {
+        "i": 7332,
+        "n": "Daystar Gloves",
+        "l": 110,
+        "c": 44256,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10899",
+      "obj": {
+        "i": 10899,
+        "n": "Serpentskin Gloves of Healing",
+        "l": 150,
+        "c": 44380,
+        "t": 37,
+        "p": 16632
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

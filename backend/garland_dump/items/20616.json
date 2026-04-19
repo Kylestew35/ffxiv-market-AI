@@ -1,0 +1,128 @@
+{
+  "item": {
+    "name": "Silkworm",
+    "description": "The plump, cream-colored larva of a silkworm moth. Live bait for salt lake fishing.",
+    "jobCategories": "FSH",
+    "id": 20616,
+    "patch": 4.0,
+    "patchCategory": 2,
+    "price": 63,
+    "ilvl": 260,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 68,
+    "jobs": 19,
+    "icon": 27034,
+    "vendors": [
+      1027241,
+      1018987
+    ],
+    "tradeShops": [
+      {
+        "shop": "Bait/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20616",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 60 Materials/Bait/Tokens)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20616",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      68434
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027241",
+      "obj": {
+        "i": 1027241,
+        "n": "Vernarth",
+        "l": 2951,
+        "s": 4,
+        "t": "Tool Supplier",
+        "a": 3254,
+        "c": [
+          9.33,
+          14.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018987",
+      "obj": {
+        "i": 1018987,
+        "n": "Shichiho",
+        "l": 2404,
+        "s": 4,
+        "t": "Tool Supplier",
+        "c": [
+          "12.7",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68434",
+      "obj": {
+        "i": 68434,
+        "n": "Always a Bigger Fish",
+        "g": 174,
+        "l": "Limsa Lominsa",
+        "s": 680,
+        "f": 1
+      }
+    }
+  ]
+}

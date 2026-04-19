@@ -1,0 +1,273 @@
+{
+  "item": {
+    "name": "Light-heavy Holohelm",
+    "description": "When activated, this electrope-powered device from the Arcadion projects a holographic helmet.<br><br>Two helms can be traded for special headgear.",
+    "id": 43541,
+    "patch": 7.01,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26653,
+    "tradeCurrency": [
+      {
+        "shop": "Light-heavy Hologear Exchange (DoW) I",
+        "npcs": [
+          1049081
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "42815",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43541",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "42820",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43541",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "42825",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43541",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Light-heavy Hologear Exchange (DoW) II",
+        "npcs": [
+          1049081
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "42830",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43541",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "42835",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43541",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Light-heavy Hologear Exchange (DoM)",
+        "npcs": [
+          1049081
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "42840",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43541",
+                "amount": 2
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "42845",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43541",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instances": [
+      30135,
+      30137
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1049081",
+      "obj": {
+        "i": 1049081,
+        "n": "Hhihwi",
+        "l": 4503,
+        "s": 18,
+        "t": "Arcadion Relic Exchange",
+        "r": 1,
+        "a": 4647,
+        "c": [
+          8.73,
+          13.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "42815",
+      "obj": {
+        "i": 42815,
+        "n": "Light-heavy Bandana of Fending",
+        "l": 710,
+        "c": 56704,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "42820",
+      "obj": {
+        "i": 42820,
+        "n": "Light-heavy Bandana of Maiming",
+        "l": 710,
+        "c": 56705,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "42825",
+      "obj": {
+        "i": 42825,
+        "n": "Light-heavy Hood of Striking",
+        "l": 710,
+        "c": 56708,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "42830",
+      "obj": {
+        "i": 42830,
+        "n": "Light-heavy Mask of Aiming",
+        "l": 710,
+        "c": 56709,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "42835",
+      "obj": {
+        "i": 42835,
+        "n": "Light-heavy Hood of Scouting",
+        "l": 710,
+        "c": 56710,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "42840",
+      "obj": {
+        "i": 42840,
+        "n": "Light-heavy Hat of Healing",
+        "l": 710,
+        "c": 56706,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "42845",
+      "obj": {
+        "i": 42845,
+        "n": "Light-heavy Hat of Casting",
+        "l": 710,
+        "c": 56707,
+        "t": 34
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30135",
+      "obj": {
+        "i": 30135,
+        "n": "AAC Light-heavyweight M1",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 100,
+        "max_lvl": 100,
+        "min_ilvl": 685
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30137",
+      "obj": {
+        "i": 30137,
+        "n": "AAC Light-heavyweight M2",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 100,
+        "max_lvl": 100,
+        "min_ilvl": 685
+      }
+    }
+  ]
+}

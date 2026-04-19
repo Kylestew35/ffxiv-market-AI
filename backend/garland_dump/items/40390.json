@@ -1,0 +1,133 @@
+{
+  "item": {
+    "name": "Magicked Children's Bed",
+    "description": "For as long as beds have existed, children have dreamed of having one that flies. Thanks to this winsome piece lovingly crafted for younglings─and the young at heart─that dream is now a reality.",
+    "mount": {
+      "name": "Magicked Children's Bed",
+      "action": "Summon forth your magicked children's bed, and enjoy the carefree sleep of a child wherever you go.",
+      "description": "Crafted especially for children, this magicked bed hovers by virtue of crystals sourced from floating isles, and gives the sensation of sleeping on a cloud. The design is said to be directly inspired by the beds used at Menphina's Arms.",
+      "tooltip": "Keep that up and I'll send you<br>to bed without supper.<br>   - Y'shtola",
+      "icon": 4262,
+      "guideIcon": 68262
+    },
+    "id": 40390,
+    "patch": 6.4,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 52463,
+    "tradeShops": [
+      {
+        "shop": "Gold Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40390",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22443",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40390",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "584-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22443",
+      "obj": {
+        "i": 22443,
+        "n": "Khloe's Gold Certificate of Commendation",
+        "l": 1,
+        "c": 26191,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    }
+  ]
+}

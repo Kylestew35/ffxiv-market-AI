@@ -1,0 +1,52 @@
+{
+  "item": {
+    "name": "Raw Cold-weather Gear Materials",
+    "description": "Assorted materials needed to create the various components of Coerthan cold-weather gear.",
+    "id": 23160,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 150,
+    "ilvl": 270,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "vendors": [
+      1019175
+    ],
+    "ingredient_of": {
+      "23155": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019175",
+      "obj": {
+        "i": 1019175,
+        "n": "Blue Merchant",
+        "l": 2409,
+        "s": 7,
+        "c": [
+          "27.9",
+          "17.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "23155",
+      "obj": {
+        "i": 23155,
+        "n": "Cold-weather Gear Components",
+        "l": 270,
+        "c": 23001,
+        "t": 61,
+        "p": 300
+      }
+    }
+  ]
+}

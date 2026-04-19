@@ -1,0 +1,609 @@
+{
+  "item": {
+    "name": "Deinosuchus Leather",
+    "description": "A large piece of cured deinosuchus skin.",
+    "id": 39721,
+    "patch": 6.4,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 640,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21831,
+    "ingredient_of": {
+      "39635": 1,
+      "39636": 2,
+      "39650": 1,
+      "39651": 4,
+      "39654": 2,
+      "39655": 1,
+      "39656": 4,
+      "39659": 2,
+      "39660": 2,
+      "39661": 2,
+      "39662": 2,
+      "39663": 2,
+      "39664": 2,
+      "39665": 1,
+      "39666": 4,
+      "39669": 2,
+      "39670": 2,
+      "39671": 2,
+      "39672": 2,
+      "39673": 2,
+      "39674": 2,
+      "39677": 1,
+      "39678": 2,
+      "39679": 2,
+      "39682": 1,
+      "39683": 2,
+      "39684": 2,
+      "39700": 1,
+      "39701": 1,
+      "39702": 1,
+      "39703": 1,
+      "39704": 1,
+      "41594": 2
+    },
+    "craft": [
+      {
+        "id": 35579,
+        "job": 12,
+        "rlvl": 640,
+        "durability": 35,
+        "quality": 9090,
+        "progress": 4488,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3660,
+        "craftsmanshipReq": 3950,
+        "unlockId": 37738,
+        "ingredients": [
+          {
+            "id": 39709,
+            "amount": 5
+          },
+          {
+            "id": 39715,
+            "amount": 2
+          },
+          {
+            "id": 17,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 540,
+          "hq": 560
+        }
+      }
+    ],
+    "alla": {
+      "source": [
+        "VENTURE"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Field Mustard",
+      "id": 39709,
+      "icon": 22696,
+      "category": 54,
+      "ilvl": 640,
+      "price": 99999,
+      "ventures": [
+        1047
+      ],
+      "nodes": [
+        935
+      ]
+    },
+    {
+      "name": "Deinosuchus Skin",
+      "id": 39715,
+      "icon": 21828,
+      "category": 52,
+      "ilvl": 640,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39715",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "39715",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "935",
+      "obj": {
+        "i": 935,
+        "n": "Regio Urbanissima",
+        "l": 90,
+        "t": 3,
+        "z": 3710,
+        "s": 3,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39635",
+      "obj": {
+        "i": 39635,
+        "n": "Diadochos Main Gauches",
+        "l": 640,
+        "c": 33617,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "39636",
+      "obj": {
+        "i": 39636,
+        "n": "Diadochos Greatsword",
+        "l": 640,
+        "c": 34395,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "39650",
+      "obj": {
+        "i": 39650,
+        "n": "Diadochos Headband of Fending",
+        "l": 640,
+        "c": 56581,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39651",
+      "obj": {
+        "i": 39651,
+        "n": "Diadochos Jacket of Fending",
+        "l": 640,
+        "c": 42962,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39654",
+      "obj": {
+        "i": 39654,
+        "n": "Diadochos Boots of Fending",
+        "l": 640,
+        "c": 49584,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39655",
+      "obj": {
+        "i": 39655,
+        "n": "Diadochos Headband of Maiming",
+        "l": 640,
+        "c": 56582,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39656",
+      "obj": {
+        "i": 39656,
+        "n": "Diadochos Jacket of Maiming",
+        "l": 640,
+        "c": 42963,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39659",
+      "obj": {
+        "i": 39659,
+        "n": "Diadochos Boots of Maiming",
+        "l": 640,
+        "c": 49585,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39660",
+      "obj": {
+        "i": 39660,
+        "n": "Diadochos Headband of Striking",
+        "l": 640,
+        "c": 56586,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39661",
+      "obj": {
+        "i": 39661,
+        "n": "Diadochos Jacket of Striking",
+        "l": 640,
+        "c": 42967,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39662",
+      "obj": {
+        "i": 39662,
+        "n": "Diadochos Gloves of Striking",
+        "l": 640,
+        "c": 56099,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39663",
+      "obj": {
+        "i": 39663,
+        "n": "Diadochos Bottoms of Striking",
+        "l": 640,
+        "c": 47997,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39664",
+      "obj": {
+        "i": 39664,
+        "n": "Diadochos Shoes of Striking",
+        "l": 640,
+        "c": 49589,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39665",
+      "obj": {
+        "i": 39665,
+        "n": "Diadochos Headband of Aiming",
+        "l": 640,
+        "c": 56583,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39666",
+      "obj": {
+        "i": 39666,
+        "n": "Diadochos Jacket of Aiming",
+        "l": 640,
+        "c": 42964,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39669",
+      "obj": {
+        "i": 39669,
+        "n": "Diadochos Boots of Aiming",
+        "l": 640,
+        "c": 49586,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39670",
+      "obj": {
+        "i": 39670,
+        "n": "Diadochos Headband of Scouting",
+        "l": 640,
+        "c": 56587,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "39671",
+      "obj": {
+        "i": 39671,
+        "n": "Diadochos Jacket of Scouting",
+        "l": 640,
+        "c": 42968,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "39672",
+      "obj": {
+        "i": 39672,
+        "n": "Diadochos Gloves of Scouting",
+        "l": 640,
+        "c": 56100,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39673",
+      "obj": {
+        "i": 39673,
+        "n": "Diadochos Bottoms of Scouting",
+        "l": 640,
+        "c": 47998,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39674",
+      "obj": {
+        "i": 39674,
+        "n": "Diadochos Shoes of Scouting",
+        "l": 640,
+        "c": 49590,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39677",
+      "obj": {
+        "i": 39677,
+        "n": "Diadochos Armlets of Healing",
+        "l": 640,
+        "c": 56097,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39678",
+      "obj": {
+        "i": 39678,
+        "n": "Diadochos Bottoms of Healing",
+        "l": 640,
+        "c": 47995,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39679",
+      "obj": {
+        "i": 39679,
+        "n": "Diadochos Boots of Healing",
+        "l": 640,
+        "c": 49587,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39682",
+      "obj": {
+        "i": 39682,
+        "n": "Diadochos Armlets of Casting",
+        "l": 640,
+        "c": 56098,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "39683",
+      "obj": {
+        "i": 39683,
+        "n": "Diadochos Bottoms of Casting",
+        "l": 640,
+        "c": 47996,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "39684",
+      "obj": {
+        "i": 39684,
+        "n": "Diadochos Boots of Casting",
+        "l": 640,
+        "c": 49588,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "39700",
+      "obj": {
+        "i": 39700,
+        "n": "Diadochos Ring of Fending",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39701",
+      "obj": {
+        "i": 39701,
+        "n": "Diadochos Ring of Slaying",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39702",
+      "obj": {
+        "i": 39702,
+        "n": "Diadochos Ring of Aiming",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39703",
+      "obj": {
+        "i": 39703,
+        "n": "Diadochos Ring of Healing",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "39704",
+      "obj": {
+        "i": 39704,
+        "n": "Diadochos Ring of Casting",
+        "l": 640,
+        "c": 54724,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "37738",
+      "obj": {
+        "i": 37738,
+        "n": "Master Leatherworker X",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "39709",
+      "obj": {
+        "i": 39709,
+        "n": "Field Mustard",
+        "l": 640,
+        "c": 22696,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "39715",
+      "obj": {
+        "i": 39715,
+        "n": "Deinosuchus Skin",
+        "l": 640,
+        "c": 21828,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "41594",
+      "obj": {
+        "i": 41594,
+        "n": "Martial Artist's Pumps",
+        "l": 1,
+        "c": 49633,
+        "t": 38
+      }
+    }
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "item": {
+    "name": "Militia Choker",
+    "jobCategories": "All Classes",
+    "id": 4380,
+    "patch": 1.0,
+    "patchCategory": 0,
+    "price": 5336,
+    "ilvl": 55,
+    "category": 40,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 50,
+    "rarity": 2,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "sockets": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 317,
+    "slot": 10,
+    "elvl": 50,
+    "jobs": 1,
+    "models": [
+      "4-4-0-0"
+    ],
+    "attr": {
+      "Vitality": 8,
+      "Tenacity": 11,
+      "Determination": 7,
+      "Strength": 6
+    },
+    "attr_hq": {
+      "Vitality": 9,
+      "Tenacity": 12,
+      "Determination": 8,
+      "Strength": 7,
+      "Defense": 1,
+      "Magic Defense": 1
+    },
+    "attr_max": {
+      "Strength": 20,
+      "Dexterity": 20,
+      "Vitality": 24,
+      "Intelligence": 20,
+      "Mind": 20,
+      "Piety": 32,
+      "GP": 21,
+      "CP": 19,
+      "Tenacity": 32,
+      "Direct Hit Rate": 32,
+      "Critical Hit": 32,
+      "Fire Resistance": 10,
+      "Ice Resistance": 10,
+      "Wind Resistance": 10,
+      "Earth Resistance": 10,
+      "Lightning Resistance": 10,
+      "Water Resistance": 10,
+      "Determination": 32,
+      "Skill Speed": 32,
+      "Spell Speed": 32,
+      "Craftsmanship": 23,
+      "Control": 26,
+      "Gathering": 11,
+      "Perception": 6
+    },
+    "icon": 54842,
+    "sharedModels": [
+      4304,
+      4308,
+      4314,
+      4319,
+      4333,
+      4360,
+      4388,
+      6928,
+      6929,
+      8452,
+      12023,
+      12024,
+      12025,
+      14123,
+      15890,
+      18486,
+      18487,
+      18488,
+      18489,
+      18490,
+      22922
+    ],
+    "craft": [
+      {
+        "id": 1317,
+        "job": 12,
+        "rlvl": 55,
+        "durability": 80,
+        "quality": 2200,
+        "progress": 210,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 1,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 255,
+        "quickSynthControl": 318,
+        "ingredients": [
+          {
+            "id": 5288,
+            "amount": 1,
+            "quality": 636.8421
+          },
+          {
+            "id": 5322,
+            "amount": 1
+          },
+          {
+            "id": 11,
+            "amount": 3
+          },
+          {
+            "id": 10,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 138,
+          "hq": 158
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Hippogryph Leather",
+      "id": 5288,
+      "icon": 22021,
+      "category": 52,
+      "ilvl": 55,
+      "price": 980,
+      "craft": [
+        {
+          "id": 1305,
+          "job": 12,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5316,
+              "amount": 1
+            },
+            {
+              "id": 5525,
+              "amount": 1
+            },
+            {
+              "id": 11,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 109,
+            "hq": 129
+          }
+        }
+      ],
+      "desynthedFrom": [
+        8252,
+        7496,
+        7502,
+        7508,
+        5569,
+        8250
+      ]
+    },
+    {
+      "name": "Hippogryph Skin",
+      "id": 5316,
+      "icon": 21805,
+      "category": 52,
+      "ilvl": 55,
+      "price": 479,
+      "treasure": [
+        5316
+      ],
+      "instances": [
+        10,
+        10
+      ],
+      "drops": [
+        17400000001688,
+        23400000002276,
+        28270000002669,
+        17980000001444,
+        6450000000789
+      ]
+    },
+    {
+      "name": "Black Alumen",
+      "id": 5525,
+      "icon": 22604,
+      "category": 54,
+      "ilvl": 37,
+      "price": 189,
+      "ventures": [
+        145
+      ],
+      "nodes": [
+        49
+      ]
+    },
+    {
+      "name": "Raptor Sinew",
+      "id": 5322,
+      "icon": 21005,
+      "category": 52,
+      "ilvl": 40,
+      "price": 337,
+      "desynthedFrom": [
+        7508,
+        7496,
+        7502
+      ],
+      "treasure": [
+        6691
+      ],
+      "ventures": [
+        57
+      ],
+      "drops": [
+        27760000002659,
+        20000000412,
+        20000000411,
+        24370000002375,
+        530000000130,
+        20000000002
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "5316",
+      "obj": {
+        "i": 5316,
+        "n": "Hippogryph Skin",
+        "l": 55,
+        "c": 21805,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5525",
+      "obj": {
+        "i": 5525,
+        "n": "Black Alumen",
+        "l": 37,
+        "c": 22604,
+        "t": 54
+      }
+    },
+    {
+      "type": "instance",
+      "id": "10",
+      "obj": {
+        "i": 10,
+        "n": "The Wanderer's Palace",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "mob",
+      "id": "6450000000789",
+      "obj": {
+        "i": 6450000000789,
+        "n": "Hippogryph",
+        "l": "46",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17980000001444",
+      "obj": {
+        "i": 17980000001444,
+        "n": "Gwyllgi",
+        "l": "46",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17400000001688",
+      "obj": {
+        "i": 17400000001688,
+        "n": "Recluse Hippogryph",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "23400000002276",
+      "obj": {
+        "i": 23400000002276,
+        "n": "Pit Hippogryph",
+        "l": "50",
+        "z": 48
+      }
+    },
+    {
+      "type": "mob",
+      "id": "28270000002669",
+      "obj": {
+        "i": 28270000002669,
+        "n": "Crossing Hippocerf",
+        "l": "50",
+        "z": 386
+      }
+    },
+    {
+      "type": "node",
+      "id": "49",
+      "obj": {
+        "i": 49,
+        "n": "Urth's Gift",
+        "l": 40,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20000000002",
+      "obj": {
+        "i": 20000000002,
+        "n": "Ruins Runner",
+        "l": "50",
+        "z": 404
+      }
+    },
+    {
+      "type": "mob",
+      "id": "530000000130",
+      "obj": {
+        "i": 530000000130,
+        "n": "Lindwurm",
+        "l": "28 - 33",
+        "z": 54
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20000000411",
+      "obj": {
+        "i": 20000000411,
+        "n": "Grass Raptor",
+        "l": "32",
+        "z": 32
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20000000412",
+      "obj": {
+        "i": 20000000412,
+        "n": "Velociraptor",
+        "l": "34",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "24370000002375",
+      "obj": {
+        "i": 24370000002375,
+        "n": "Territorial Raptor",
+        "l": "36",
+        "z": 34
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27760000002659",
+      "obj": {
+        "i": 27760000002659,
+        "n": "Eoraptor",
+        "l": "50",
+        "z": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "6691",
+      "obj": {
+        "i": 6691,
+        "n": "Timeworn Boarskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "4304",
+      "obj": {
+        "i": 4304,
+        "n": "Leather Choker",
+        "l": 5,
+        "c": 54836,
+        "t": 40,
+        "p": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "4308",
+      "obj": {
+        "i": 4308,
+        "n": "Hard Leather Choker",
+        "l": 15,
+        "c": 54840,
+        "t": 40,
+        "p": 294
+      }
+    },
+    {
+      "type": "item",
+      "id": "4314",
+      "obj": {
+        "i": 4314,
+        "n": "Goatskin Choker",
+        "l": 25,
+        "c": 54835,
+        "t": 40,
+        "p": 897
+      }
+    },
+    {
+      "type": "item",
+      "id": "4319",
+      "obj": {
+        "i": 4319,
+        "n": "Patriot's Choker",
+        "l": 27,
+        "c": 54834,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "4333",
+      "obj": {
+        "i": 4333,
+        "n": "Boarskin Choker",
+        "l": 35,
+        "c": 54840,
+        "t": 40,
+        "p": 2116
+      }
+    },
+    {
+      "type": "item",
+      "id": "4360",
+      "obj": {
+        "i": 4360,
+        "n": "Raptorskin Choker",
+        "l": 45,
+        "c": 54836,
+        "t": 40,
+        "p": 3234
+      }
+    },
+    {
+      "type": "item",
+      "id": "4388",
+      "obj": {
+        "i": 4388,
+        "n": "Gryphonskin Choker",
+        "l": 70,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "6928",
+      "obj": {
+        "i": 6928,
+        "n": "Direwolf Choker of Slaying",
+        "l": 90,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "6929",
+      "obj": {
+        "i": 6929,
+        "n": "Direwolf Choker of Aiming",
+        "l": 90,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "8452",
+      "obj": {
+        "i": 8452,
+        "n": "Dodore Choker",
+        "l": 55,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "12023",
+      "obj": {
+        "i": 12023,
+        "n": "Wyvernskin Choker",
+        "l": 90,
+        "c": 54916,
+        "t": 40,
+        "p": 6985
+      }
+    },
+    {
+      "type": "item",
+      "id": "12024",
+      "obj": {
+        "i": 12024,
+        "n": "Dragonskin Choker",
+        "l": 140,
+        "c": 54915,
+        "t": 40,
+        "p": 10866
+      }
+    },
+    {
+      "type": "item",
+      "id": "12025",
+      "obj": {
+        "i": 12025,
+        "n": "Griffin Leather Choker",
+        "l": 170,
+        "c": 54917,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "14123",
+      "obj": {
+        "i": 14123,
+        "n": "Landmaster's Choker",
+        "l": 180,
+        "c": 54917,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "15890",
+      "obj": {
+        "i": 15890,
+        "n": "Augmented Landmaster's Choker",
+        "l": 200,
+        "c": 54917,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "18486",
+      "obj": {
+        "i": 18486,
+        "n": "Nomad's Choker of Fending",
+        "l": 276,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "18487",
+      "obj": {
+        "i": 18487,
+        "n": "Nomad's Choker of Slaying",
+        "l": 276,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "18488",
+      "obj": {
+        "i": 18488,
+        "n": "Nomad's Choker of Aiming",
+        "l": 276,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "18489",
+      "obj": {
+        "i": 18489,
+        "n": "Nomad's Choker of Healing",
+        "l": 276,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "18490",
+      "obj": {
+        "i": 18490,
+        "n": "Nomad's Choker of Casting",
+        "l": 276,
+        "c": 54877,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "22922",
+      "obj": {
+        "i": 22922,
+        "n": "Slothskin Necklace of Gathering",
+        "l": 340,
+        "c": 54917,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "5288",
+      "obj": {
+        "i": 5288,
+        "n": "Hippogryph Leather",
+        "l": 55,
+        "c": 22021,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5322",
+      "obj": {
+        "i": 5322,
+        "n": "Raptor Sinew",
+        "l": 40,
+        "c": 21005,
+        "t": 52
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Hecteye",
+    "description": "Got no Hyuran grace, you're an eye without a face.<br><br>Use item to acquire the hecteye minion.",
+    "minionrace": "Monster",
+    "tooltip": "I keep one eye open at\r\nall times, an' two more\r\noften than not.\r\n   - Baderon",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Surveillance",
+    "specialactiondescription": "Reduces movement speed of all enemies within range by 70%.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 15448,
+    "patch": 3.35,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59610,
+    "tradeShops": [
+      {
+        "shop": "Gelmorran Potsherd Exchange",
+        "npcs": [
+          1017338
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15448",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15422",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 120,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 450,
+      "Skill Cost": 30,
+      "Attack": 35,
+      "Defense": 35,
+      "Speed": 2
+    },
+    "models": [
+      "8151-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017338",
+      "obj": {
+        "i": 1017338,
+        "n": "E-Una-Kotor",
+        "l": 56,
+        "s": 2,
+        "r": 1,
+        "a": 129,
+        "c": [
+          25.12,
+          20.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15422",
+      "obj": {
+        "i": 15422,
+        "n": "Gelmorran Potsherd",
+        "l": 230,
+        "c": 25975,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Highly Viscous Miner's Gobbiegoo",
+    "description": "This Skysteel tool coating is darker than the depths of a mineshaft, and more viscous than...regular goo.",
+    "id": 30337,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26116,
+    "tradeShops": [
+      {
+        "shop": "Oddly Specific Materials Exchange (Gathering)",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30337",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31132",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31132",
+      "obj": {
+        "i": 31132,
+        "n": "Oddly Specific Primordial Ore",
+        "l": 455,
+        "c": 21225,
+        "t": 48
+      }
+    }
+  ]
+}

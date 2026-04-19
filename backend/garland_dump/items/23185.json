@@ -1,0 +1,384 @@
+{
+  "item": {
+    "name": "Konpeito",
+    "description": "Colorful clusters of crystalline sugar─a childhood treat for Hingans and Domans alike.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 23185,
+    "patch": 4.3,
+    "patchCategory": 6,
+    "price": 2268,
+    "ilvl": 320,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Perception": {
+          "rate": 6,
+          "limit": 54
+        },
+        "GP": {
+          "rate": 3,
+          "limit": 17
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Perception": {
+          "rate": 7,
+          "limit": 68
+        },
+        "GP": {
+          "rate": 4,
+          "limit": 21
+        }
+      }
+    },
+    "icon": 24085,
+    "craft": [
+      {
+        "id": 33014,
+        "job": 15,
+        "rlvl": 350,
+        "durability": 70,
+        "quality": 5200,
+        "progress": 1350,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22316,
+        "ingredients": [
+          {
+            "id": 19844,
+            "amount": 2,
+            "quality": 609.2704
+          },
+          {
+            "id": 22446,
+            "amount": 1
+          },
+          {
+            "id": 20013,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 524,
+          "hq": 544
+        }
+      }
+    ],
+    "quests": [
+      70270
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Beet Sugar",
+      "id": 19844,
+      "icon": 25103,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "craft": [
+        {
+          "id": 3584,
+          "job": 15,
+          "rlvl": 273,
+          "durability": 40,
+          "quality": 2448,
+          "progress": 390,
+          "lvl": 64,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19856,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sugar Beet",
+      "id": 19856,
+      "icon": 25223,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        687
+      ],
+      "nodes": [
+        512
+      ]
+    },
+    {
+      "name": "Honeydew Honey",
+      "id": 22446,
+      "icon": 25102,
+      "category": 45,
+      "ilvl": 340,
+      "price": 2308,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22446",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22446",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dusklight Aethersand",
+      "id": 20013,
+      "icon": 21219,
+      "category": 54,
+      "ilvl": 279,
+      "price": 546,
+      "reducedFrom": [
+        20012,
+        33153,
+        20180
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "19856",
+      "obj": {
+        "i": 19856,
+        "n": "Sugar Beet",
+        "l": 273,
+        "c": 25223,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20012",
+      "obj": {
+        "i": 20012,
+        "n": "Doman Yellow",
+        "l": 279,
+        "c": 27407,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "33153",
+      "obj": {
+        "i": 33153,
+        "n": "Rhodolite",
+        "l": 300,
+        "c": 21474,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20180",
+      "obj": {
+        "i": 20180,
+        "n": "False Scad",
+        "l": 225,
+        "c": 29135,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "22316",
+      "obj": {
+        "i": 22316,
+        "n": "Master Culinarian VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19844",
+      "obj": {
+        "i": 19844,
+        "n": "Beet Sugar",
+        "l": 273,
+        "c": 25103,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "22446",
+      "obj": {
+        "i": 22446,
+        "n": "Honeydew Honey",
+        "l": 340,
+        "c": 25102,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "20013",
+      "obj": {
+        "i": 20013,
+        "n": "Dusklight Aethersand",
+        "l": 279,
+        "c": 21219,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70270",
+      "obj": {
+        "i": 70270,
+        "n": "Of Price and Ruin",
+        "g": 107,
+        "l": "Kugane",
+        "s": 210
+      }
+    }
+  ]
+}

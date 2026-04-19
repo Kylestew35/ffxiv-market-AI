@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Rubellite Weapon",
+    "description": "Scaled down or no, it can scratch you up good.<br><br>Use item to acquire the Rubellite Weapon minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Feast your eyes on the likeness of the\r\nCrimson Conqueror, the Vermilion Villain,\r\nthe Scarlet...Scoundrel, the one and only\r\nRuby Weapon!\r\n   - Warmachina Fanatic",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Rubellite Dynamics",
+    "specialactiondescription": "Increases action party ATK by 40.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 40373,
+    "patch": 6.4,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59882,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (Other)",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40373",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 30,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 490,
+      "Skill Cost": 20,
+      "Attack": 85,
+      "Defense": 65,
+      "Speed": 2
+    },
+    "models": [
+      "8439-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

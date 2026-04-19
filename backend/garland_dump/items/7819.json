@@ -1,0 +1,136 @@
+{
+  "item": {
+    "name": "Tidal Wave Staff",
+    "jobCategories": "THM BLM",
+    "id": 7819,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 30888,
+    "ilvl": 100,
+    "category": 7,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 535,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 55,
+    "models": [
+      "1001-10-2-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 62,
+      "Delay": 3.2,
+      "Intelligence": 37,
+      "Vitality": 34,
+      "Critical Hit": 40,
+      "Determination": 28
+    },
+    "icon": 32854,
+    "sharedModels": [
+      6699
+    ],
+    "tradeShops": [
+      {
+        "shop": "Primal Gear",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7819",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6699",
+                "amount": 1
+              },
+              {
+                "id": "7850",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal Gear (IL 100-115)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7819",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "6699",
+                "amount": 1
+              },
+              {
+                "id": "7850",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "6699",
+      "obj": {
+        "i": 6699,
+        "n": "Wave Staff",
+        "l": 95,
+        "c": 32854,
+        "t": 7
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7850",
+      "obj": {
+        "i": 7850,
+        "n": "Mirror of the Whorl",
+        "l": 1,
+        "c": 26105,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "item": {
+    "name": "Wooden Reel Table",
+    "description": "Formerly used to carry ropes and cables, this wooden reel has been repurposed as a table.",
+    "id": 33263,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 430,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 51701,
+    "craft": [
+      {
+        "id": 4700,
+        "job": 8,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 2300,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "ingredients": [
+          {
+            "id": 27693,
+            "amount": 8,
+            "quality": 82.65501
+          },
+          {
+            "id": 27692,
+            "amount": 6,
+            "quality": 81.45999
+          },
+          {
+            "id": 10,
+            "amount": 7
+          },
+          {
+            "id": 9,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 1158,
+          "hq": 1178
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1037"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Lignum Vitae Lumber",
+      "id": 27693,
+      "icon": 22454,
+      "category": 50,
+      "ilvl": 415,
+      "price": 3075,
+      "craft": [
+        {
+          "id": 3816,
+          "job": 8,
+          "rlvl": 415,
+          "durability": 40,
+          "quality": 3520,
+          "progress": 820,
+          "lvl": 78,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27687,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "desynthedFrom": [
+        33295,
+        33267,
+        28992,
+        28991,
+        33273,
+        30387,
+        33282,
+        27605,
+        27227,
+        26356
+      ],
+      "leves": [
+        1415,
+        1416,
+        1417
+      ]
+    },
+    {
+      "name": "Lignum Vitae Log",
+      "id": 27687,
+      "icon": 22402,
+      "category": 50,
+      "ilvl": 415,
+      "price": 630,
+      "ventures": [
+        817
+      ],
+      "nodes": [
+        621
+      ]
+    },
+    {
+      "name": "Sandteak Lumber",
+      "id": 27692,
+      "icon": 22453,
+      "category": 50,
+      "ilvl": 409,
+      "price": 2996,
+      "craft": [
+        {
+          "id": 3815,
+          "job": 8,
+          "rlvl": 409,
+          "durability": 40,
+          "quality": 3360,
+          "progress": 750,
+          "lvl": 76,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27686,
+              "amount": 4
+            },
+            {
+              "id": 10,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "desynthedFrom": [
+        32225,
+        33273,
+        33271
+      ],
+      "leves": [
+        1412,
+        1413,
+        1414
+      ]
+    },
+    {
+      "name": "Sandteak Log",
+      "id": 27686,
+      "icon": 22403,
+      "category": 50,
+      "ilvl": 409,
+      "price": 210,
+      "ventures": [
+        815
+      ],
+      "nodes": [
+        620
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27687",
+      "obj": {
+        "i": 27687,
+        "n": "Lignum Vitae Log",
+        "l": 415,
+        "c": 22402,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "621",
+      "obj": {
+        "i": 621,
+        "n": "Hare Among Giants",
+        "l": 80,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "27686",
+      "obj": {
+        "i": 27686,
+        "n": "Sandteak Log",
+        "l": 409,
+        "c": 22403,
+        "t": 50
+      }
+    },
+    {
+      "type": "node",
+      "id": "620",
+      "obj": {
+        "i": 620,
+        "n": "Ladle",
+        "l": 80,
+        "t": 2,
+        "z": 2955
+      }
+    },
+    {
+      "type": "item",
+      "id": "27693",
+      "obj": {
+        "i": 27693,
+        "n": "Lignum Vitae Lumber",
+        "l": 415,
+        "c": 22454,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27692",
+      "obj": {
+        "i": 27692,
+        "n": "Sandteak Lumber",
+        "l": 409,
+        "c": 22453,
+        "t": 50
+      }
+    }
+  ]
+}

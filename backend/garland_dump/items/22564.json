@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Stuffed Namazu",
+    "description": "A lovingly rendered plush Namazu, complete with most meaningful bell and glazed gaze. ",
+    "id": 22564,
+    "patch": 4.3,
+    "patchCategory": 9,
+    "price": 239,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "sell_price": 60,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53228,
+    "tradeShops": [
+      {
+        "shop": "Namazu Koban Exchange",
+        "npcs": [
+          1025604
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22564",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22525",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "687"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025604",
+      "obj": {
+        "i": 1025604,
+        "n": "Gyosho",
+        "l": 2411,
+        "s": 8,
+        "t": "Festival Vendor",
+        "r": 1,
+        "a": 2850,
+        "c": [
+          5.84,
+          23.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22525",
+      "obj": {
+        "i": 22525,
+        "n": "Namazu Koban",
+        "l": 1,
+        "c": 65064,
+        "t": 100
+      }
+    }
+  ]
+}

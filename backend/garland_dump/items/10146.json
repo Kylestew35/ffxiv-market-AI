@@ -1,0 +1,373 @@
+{
+  "item": {
+    "name": "Better Crowned Pie",
+    "description": "A galette-style pie decorated with a golden crown and served at Ishgardian festivals. Baked using Talan's own special recipe.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 10146,
+    "patch": 2.5,
+    "patchCategory": 6,
+    "price": 740,
+    "ilvl": 110,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "attr": {
+      "action": {
+        "Gathering": {
+          "rate": 6,
+          "limit": 24
+        },
+        "Control": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Increased Spiritbond Gain": 2
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Gathering": {
+          "rate": 7,
+          "limit": 30
+        },
+        "Control": {
+          "rate": 10,
+          "limit": 48
+        }
+      }
+    },
+    "icon": 24057,
+    "tradeShops": [
+      {
+        "shop": "Assorted Accoutrements",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10124",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10120",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10121",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10122",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10112",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10113",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10114",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10115",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10116",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10117",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10118",
+                "amount": 6
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "10146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10119",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10124",
+      "obj": {
+        "i": 10124,
+        "n": "Moonstone",
+        "l": 90,
+        "c": 21273,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10120",
+      "obj": {
+        "i": 10120,
+        "n": "Magicked Oilcloth",
+        "l": 90,
+        "c": 21615,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "10121",
+      "obj": {
+        "i": 10121,
+        "n": "Bamboo Paper",
+        "l": 90,
+        "c": 21005,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "10122",
+      "obj": {
+        "i": 10122,
+        "n": "Glacier Crystal",
+        "l": 90,
+        "c": 20002,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "10112",
+      "obj": {
+        "i": 10112,
+        "n": "Urushi",
+        "l": 90,
+        "c": 22802,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "10113",
+      "obj": {
+        "i": 10113,
+        "n": "Composite Whetstone",
+        "l": 90,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10114",
+      "obj": {
+        "i": 10114,
+        "n": "Heat-resistant Plaster",
+        "l": 90,
+        "c": 27605,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "10115",
+      "obj": {
+        "i": 10115,
+        "n": "Clear Fluorite",
+        "l": 90,
+        "c": 21275,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "10116",
+      "obj": {
+        "i": 10116,
+        "n": "Lampblack Linseed Oil",
+        "l": 90,
+        "c": 22637,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "10117",
+      "obj": {
+        "i": 10117,
+        "n": "Camel Hair",
+        "l": 90,
+        "c": 21827,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "10118",
+      "obj": {
+        "i": 10118,
+        "n": "Black Cinnabar",
+        "l": 90,
+        "c": 22629,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "10119",
+      "obj": {
+        "i": 10119,
+        "n": "Duck Bones",
+        "l": 90,
+        "c": 22201,
+        "t": 45
+      }
+    }
+  ]
+}

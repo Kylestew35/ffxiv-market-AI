@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Doman Rice Balls",
+    "description": "Simple triangular balls of steamed sticky rice sprinkled with naught but a pinch of sea salt so that one might appreciate the subtle flavors of the original ingredients.",
+    "id": 17934,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 270,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 53158,
+    "craft": [
+      {
+        "id": 32300,
+        "job": 15,
+        "rlvl": 270,
+        "durability": 80,
+        "quality": 1633,
+        "progress": 511,
+        "lvl": 63,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17933,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 100027,
+          "hq": 100047
+        }
+      }
+    ],
+    "usedInQuest": [
+      68141
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Rice Ball Ingredients",
+      "id": 17933,
+      "icon": 25358,
+      "category": 63,
+      "ilvl": 270,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17933",
+      "obj": {
+        "i": 17933,
+        "n": "Rice Ball Ingredients",
+        "l": 270,
+        "c": 25358,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68141",
+      "obj": {
+        "i": 68141,
+        "n": "Rice to the Occasion",
+        "g": 171,
+        "l": "Mor Dhona",
+        "s": 630,
+        "f": 1
+      }
+    }
+  ]
+}

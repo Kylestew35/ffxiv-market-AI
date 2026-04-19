@@ -1,0 +1,110 @@
+{
+  "item": {
+    "name": "Ehll Tou Card",
+    "description": "An uncommon (★★) card used in the game Triple Triad.<br>Card No. 288",
+    "id": 31341,
+    "patch": 5.31,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27663,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "31341",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "“This is only the first of many steps in healing the rift between man and dragon─the first verse of a new song that will be sung by all!”"
+      },
+      "ja": {
+        "description": "「こうやって竜とヒトとが交流して、\r\n新しい竜詩ができあがっていくんでちね」\r\nものづくりの翼：エル・トゥ"
+      },
+      "de": {
+        "description": "„Dies ist nur der erste von vielen Schritten, die notwendig sind, um die Kluft zwischen unseren Völkern zu überwinden. Es wird die erste Strophe eines neuen Liedes, das von allen gesungen werden wird!“"
+      },
+      "fr": {
+        "description": "“Ah là là, laissez-moi vous dire que cette nouvelle ère de paix commence sur les chapeaux de roues<Indent/>!”"
+      },
+      "sellMgp": 300,
+      "plate": 87295,
+      "rarity": 2,
+      "top": 1,
+      "bottom": 1,
+      "left": 7,
+      "right": 7
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

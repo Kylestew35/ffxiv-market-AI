@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Disembodied Head Resonator",
+    "description": "A metal tuning fork that, when struck, emits a high-pitched tone which can animate inanimate objects possessing voidal properties─including your personal disembodied stone head.",
+    "mount": {
+      "name": "Disembodied Head",
+      "action": "Summon forth your disembodied head. Not <Emphasis>your</Emphasis> disembodied head. <Emphasis>A</Emphasis> disembodied head. That's yours.",
+      "description": "E-Una-Kotor created this winged monstrosity using stone hewn from the very walls of the Palace of the Dead in an attempt to better understand the guardian golems which watch over the Lost City of Amdapor. That the face chosen for the design bears an uncanny likeness to a certain someone is one stone best left unturned.",
+      "tooltip": "Unggghhh, my head...<br>   - Lewenhart",
+      "icon": 4068,
+      "guideIcon": 68068
+    },
+    "id": 15933,
+    "patch": 3.35,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 22632,
+    "tradeShops": [
+      {
+        "shop": "Gelmorran Potsherd Exchange",
+        "npcs": [
+          1017338
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15933",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15422",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15933",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 50
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "43-4-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017338",
+      "obj": {
+        "i": 1017338,
+        "n": "E-Una-Kotor",
+        "l": 56,
+        "s": 2,
+        "r": 1,
+        "a": 129,
+        "c": [
+          25.12,
+          20.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15422",
+      "obj": {
+        "i": 15422,
+        "n": "Gelmorran Potsherd",
+        "l": 230,
+        "c": 25975,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    }
+  ]
+}

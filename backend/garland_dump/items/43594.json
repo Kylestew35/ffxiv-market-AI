@@ -1,0 +1,104 @@
+{
+  "item": {
+    "name": "Wings of Resolve",
+    "description": "Manifest your wings of resolve and soar the skies with an aura of undying pride.",
+    "mount": {
+      "name": "Wings Of Resolve",
+      "action": "Manifest your wings of resolve. Their deep-blue hue exudes the burden of a lost man.",
+      "description": "Calling to mind Zoraal Ja, King of Resolve of Alexandria, these magicked wings grant their wearer an aura of undying pride. Though they were discovered near the throne on the summit of Everkeep, the truth of their nature is shrouded in mystery.",
+      "tooltip": "When the army fails in its duty,<br>it is the charge of the King of Resolve<br>to clean up its mess.<br>   - Zoraal Ja",
+      "icon": 4284,
+      "guideIcon": 68284
+    },
+    "id": 43594,
+    "patch": 7.0,
+    "patchCategory": 17,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26071,
+    "tradeShops": [
+      {
+        "shop": "Sublime Curiosities",
+        "npcs": [
+          1049080
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43594",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "43540",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "883-2-1"
+    ],
+    "instances": [
+      20097
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1049080",
+      "obj": {
+        "i": 1049080,
+        "n": "Uah'shepya",
+        "l": 4503,
+        "s": 9,
+        "t": "Miscellany",
+        "r": 1,
+        "a": 4647,
+        "c": [
+          8.69,
+          13.52
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "43540",
+      "obj": {
+        "i": 43540,
+        "n": "Resilient Totem",
+        "l": 1,
+        "c": 26663,
+        "t": 61
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20097",
+      "obj": {
+        "i": 20097,
+        "n": "Everkeep (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 100,
+        "max_lvl": 100,
+        "min_ilvl": 690
+      }
+    }
+  ]
+}

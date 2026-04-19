@@ -1,0 +1,96 @@
+{
+  "item": {
+    "name": "Tiny Tortoise",
+    "description": "Will not carry you to an underwater kingdom if you ride on its back.<br><br>Use item to acquire the tiny tortoise minion.<br><br>[Suitable for printing on medium canvases.]",
+    "minionrace": "Monster",
+    "tooltip": "What is that foul stench!?\r\nIt's like the inside of an\r\nadamantoise's arse!\r\n  -  Wood Wailer Sentry",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Baby Stomp",
+    "specialactiondescription": "Reduces DEF of all enemies within range by 25%.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "fish": {
+      "guide": "Not native to Eorzea, the first adamantoise to arrive in the realm is believed to have been mixed in with a shipment of dodo eggs from the Near East. Why anyone would import dodo eggs when there are more than enough of the birds living in Eorzea already is a mystery for the ages...but the whole affair more than likely involves a hungry Qiqirn.",
+      "icon": 79064,
+      "spots": [
+        {
+          "spot": 48,
+          "hookset": "Powerful Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 185,
+          "baits": [
+            [
+              2628
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 6185,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 29064,
+    "cost": 20,
+    "skill_angle": 120,
+    "strengths": [],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 60,
+      "Speed": 3
+    },
+    "models": [
+      "8017-1-1"
+    ],
+    "fishingSpots": [
+      48
+    ],
+    "desynthedTo": [
+      5267
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "The Salt Strand",
+        "l": 20,
+        "c": 0,
+        "z": 31,
+        "x": 17.38,
+        "y": 36.07
+      }
+    },
+    {
+      "type": "item",
+      "id": "2628",
+      "obj": {
+        "i": 2628,
+        "n": "Yumizuno",
+        "l": 48,
+        "c": 27068,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5267",
+      "obj": {
+        "i": 5267,
+        "n": "Fine Sand",
+        "l": 2,
+        "c": 21464,
+        "t": 48
+      }
+    }
+  ]
+}

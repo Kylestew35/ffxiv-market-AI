@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Indoor BBQ Spit",
+    "description": "Just what you need to cook meat. A must-have item for any hungry hunter. Of monsters. A monster hunter, you might even say.",
+    "id": 22571,
+    "patch": 4.36,
+    "patchCategory": 9,
+    "price": 2,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53217,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1025722
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22571",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22599",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "701"
+    ],
+    "quests": [
+      67090
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025722",
+      "obj": {
+        "i": 1025722,
+        "n": "Smithy",
+        "l": 2404,
+        "s": 1,
+        "r": 1,
+        "a": 728,
+        "c": [
+          9.77,
+          8.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22599",
+      "obj": {
+        "i": 22599,
+        "n": "Rathalos Scale",
+        "l": 1,
+        "c": 22217,
+        "t": 53
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67090",
+      "obj": {
+        "i": 67090,
+        "n": "The New King on the Block",
+        "g": 250,
+        "l": "Kugane",
+        "s": 120,
+        "f": 1
+      }
+    }
+  ]
+}

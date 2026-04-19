@@ -1,0 +1,52 @@
+{
+  "item": {
+    "name": "Far Eastern Antique Component Materials",
+    "description": "Various materials necessary to craft Far Eastern antique components.",
+    "id": 21097,
+    "patch": 4.1,
+    "patchCategory": 5,
+    "price": 125,
+    "ilvl": 160,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25978,
+    "vendors": [
+      1022232
+    ],
+    "ingredient_of": {
+      "21092": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1022232",
+      "obj": {
+        "i": 1022232,
+        "n": "Material Supplier",
+        "l": 2403,
+        "s": 2,
+        "c": [
+          "9.6",
+          "11.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21092",
+      "obj": {
+        "i": 21092,
+        "n": "Far Eastern Antique Component",
+        "l": 160,
+        "c": 26109,
+        "t": 61,
+        "p": 250
+      }
+    }
+  ]
+}

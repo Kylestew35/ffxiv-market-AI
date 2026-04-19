@@ -1,0 +1,116 @@
+{
+  "item": {
+    "name": "The Sinsteeped",
+    "description": "A king among sinspitters, and lord of the waters of the Quadrivium.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "During spawning season, this wavekin becomes enveloped in milky eggs. A small panic was caused when a citizen of the Crystarium mistook a pregnant fish for a waterborne sin eater, and although the mistake was soon realized, the incident earned the creature this ominous moniker forevermore.",
+      "icon": 78480,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 200,
+          "weather": [
+            "Clear Skies",
+            "Fair Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 1900,
+          "ff14anglerId": 3301,
+          "baits": [
+            [
+              27582
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 30432,
+    "patch": 5.3,
+    "patchCategory": 7,
+    "price": 533,
+    "ilvl": 460,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28480,
+    "fishingSpots": [
+      200
+    ],
+    "desynthedTo": [
+      29979,
+      26733
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "200",
+      "obj": {
+        "i": 200,
+        "n": "The Quadrivium",
+        "l": 70,
+        "c": 1,
+        "z": 2951,
+        "x": 10.41,
+        "y": 15.61
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27582",
+      "obj": {
+        "i": 27582,
+        "n": "Fruit Worm",
+        "l": 320,
+        "c": 27036,
+        "t": 33,
+        "p": 64
+      }
+    },
+    {
+      "type": "item",
+      "id": "29979",
+      "obj": {
+        "i": 29979,
+        "n": "Dried Hi-Ether",
+        "l": 480,
+        "c": 22613,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26733",
+      "obj": {
+        "i": 26733,
+        "n": "Gatherer's Guile Materia VIII",
+        "l": 430,
+        "c": 20277,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 20,
+          "attr": "Perception",
+          "category": 2
+        }
+      }
+    }
+  ]
+}

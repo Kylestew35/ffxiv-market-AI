@@ -1,0 +1,201 @@
+{
+  "item": {
+    "name": "Oysters on the Half Shell",
+    "description": "A large plate of delectable raw sweetflesh oysters paired with refreshing lemon slices.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27882,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3785,
+    "ilvl": 430,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 46
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 47
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 28
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 58
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 59
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 35
+        }
+      }
+    },
+    "icon": 24316,
+    "craft": [
+      {
+        "id": 3912,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 4600,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27513,
+            "amount": 3
+          },
+          {
+            "id": 27835,
+            "amount": 2
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 196,
+          "hq": 216
+        }
+      }
+    ],
+    "quests": [
+      69183,
+      69209
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1498000,
+      "seals": 863
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Sweetflesh Oyster",
+      "id": 27513,
+      "icon": 29097,
+      "category": 47,
+      "ilvl": 418,
+      "price": 630,
+      "ventures": [
+        850
+      ],
+      "fishingSpots": [
+        236
+      ]
+    },
+    {
+      "name": "Lemonette",
+      "id": 27835,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 420,
+      "price": 630,
+      "ventures": [
+        858
+      ],
+      "nodes": [
+        632
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "236",
+      "obj": {
+        "i": 236,
+        "n": "The Norvrandt Slope",
+        "l": 80,
+        "c": 0,
+        "z": 2958,
+        "x": 29.03,
+        "y": 14.91
+      }
+    },
+    {
+      "type": "node",
+      "id": "632",
+      "obj": {
+        "i": 632,
+        "n": "Sharptongue Drip",
+        "l": 80,
+        "t": 2,
+        "z": 2954,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27513",
+      "obj": {
+        "i": 27513,
+        "n": "Sweetflesh Oyster",
+        "l": 418,
+        "c": 29097,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "27835",
+      "obj": {
+        "i": 27835,
+        "n": "Lemonette",
+        "l": 420,
+        "c": 25305,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69183",
+      "obj": {
+        "i": 69183,
+        "n": "To Storm-tossed Seas",
+        "g": 8,
+        "l": "The Crystarium",
+        "s": 990
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69209",
+      "obj": {
+        "i": 69209,
+        "n": "Shaken Resolve",
+        "g": 9,
+        "l": "The Rising Stones",
+        "s": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "item": {
+    "name": "Damascene Cloth",
+    "description": "This cloth was woven using a long and complicated process. It is a traditional fabric from the south of Othard.",
+    "id": 24816,
+    "patch": 4.55,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21622,
+    "tradeCurrency": [
+      {
+        "shop": "Gear Exchange",
+        "npcs": [
+          1028222
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24855",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "24816",
+                "amount": 3
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "24856",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "24816",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1028222",
+      "obj": {
+        "i": 1028222,
+        "n": "Nostalgic Fellow",
+        "l": 2404,
+        "s": 1,
+        "t": "Exchange",
+        "r": 1,
+        "a": 2922,
+        "c": [
+          7.82,
+          14.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "24855",
+      "obj": {
+        "i": 24855,
+        "n": "Vermilion Cloak of Casting",
+        "l": 300,
+        "c": 42627,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "24856",
+      "obj": {
+        "i": 24856,
+        "n": "Vermilion Cloak of Healing",
+        "l": 300,
+        "c": 42627,
+        "t": 35
+      }
+    }
+  ]
+}

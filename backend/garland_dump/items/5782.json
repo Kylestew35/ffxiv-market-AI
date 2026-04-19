@@ -1,0 +1,89 @@
+{
+  "item": {
+    "name": "Adamantoise Green Dye",
+    "description": "A labor-saving green dye, used for coloring anything from cloth to metal.",
+    "id": 5782,
+    "patch": 2.2,
+    "patchCategory": 8,
+    "price": 334,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22810,
+    "vendors": [
+      1008909
+    ],
+    "tradeShops": [
+      {
+        "shop": "Titan Cobaltpiece Exchange",
+        "npcs": [
+          1008909
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5782",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21078",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67094
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67094",
+      "obj": {
+        "i": 67094,
+        "n": "Simply to Dye For",
+        "g": 115,
+        "l": "Mor Dhona",
+        "s": 10,
+        "f": 1
+      }
+    }
+  ]
+}

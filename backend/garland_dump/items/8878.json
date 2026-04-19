@@ -1,0 +1,172 @@
+{
+  "item": {
+    "name": "Augmented Ironworks Gauntlets of Fending",
+    "jobCategories": "GLA MRD PLD WAR DRK GNB",
+    "id": 8878,
+    "patch": 2.4,
+    "patchCategory": 0,
+    "price": 34810,
+    "ilvl": 130,
+    "category": 37,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 383,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 748,
+    "slot": 5,
+    "elvl": 50,
+    "jobs": 59,
+    "models": [
+      "187-1-0-0"
+    ],
+    "attr": {
+      "Defense": 140,
+      "Magic Defense": 140,
+      "Strength": 33,
+      "Vitality": 35,
+      "Tenacity": 31,
+      "Determination": 22
+    },
+    "icon": 48446,
+    "sharedModels": [
+      8584
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoW)",
+        "npcs": [
+          1008119
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8878",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Ironworks Gear Augmentation (DoW)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8878",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8584",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Ironworks Gear (IL 130)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8878",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8584",
+      "obj": {
+        "i": 8584,
+        "n": "Ironworks Gauntlets of Fending",
+        "l": 120,
+        "c": 48446,
+        "t": 37
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008119",
+      "obj": {
+        "i": 1008119,
+        "n": "Auriana",
+        "l": 67,
+        "s": 4,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.75,
+          6.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    }
+  ]
+}

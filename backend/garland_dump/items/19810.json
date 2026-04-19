@@ -1,0 +1,556 @@
+{
+  "item": {
+    "name": "Steppe Tea",
+    "description": "A thick, creamy beverage popular on the Azim Steppe made from steeped fermented tea leaves and a generous helping of dzo milk.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19810,
+    "patch": 4.05,
+    "patchCategory": 6,
+    "price": 2268,
+    "ilvl": 320,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 37
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 38
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 22
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 46
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 48
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 28
+        }
+      }
+    },
+    "icon": 24410,
+    "craft": [
+      {
+        "id": 32417,
+        "job": 15,
+        "rlvl": 320,
+        "durability": 70,
+        "quality": 4800,
+        "progress": 1200,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1220,
+        "craftsmanshipReq": 1320,
+        "quickSynthCraftsmanship": 1500,
+        "unlockId": 17876,
+        "ingredients": [
+          {
+            "id": 19840,
+            "amount": 1
+          },
+          {
+            "id": 19878,
+            "amount": 1
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 12893,
+            "amount": 1
+          },
+          {
+            "id": 20013,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 414,
+          "hq": 434
+        }
+      }
+    ],
+    "ingredient_of": {
+      "22580": 3
+    },
+    "quests": [
+      68566
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Tea Brick",
+      "id": 19840,
+      "icon": 26109,
+      "category": 45,
+      "ilvl": 320,
+      "price": 567,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "19840",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "19840",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Steppe Milk",
+      "id": 19878,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "instances": [
+        58,
+        59,
+        60,
+        61,
+        63,
+        62,
+        64
+      ],
+      "ventures": [
+        719
+      ],
+      "drops": [
+        66320000005773
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    },
+    {
+      "name": "Dark Chestnut",
+      "id": 12893,
+      "icon": 25302,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "ventures": [
+        549
+      ],
+      "nodes": [
+        295
+      ]
+    },
+    {
+      "name": "Dusklight Aethersand",
+      "id": 20013,
+      "icon": 21219,
+      "category": 54,
+      "ilvl": 279,
+      "price": 546,
+      "reducedFrom": [
+        20012,
+        33153,
+        20180
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20013",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "instance",
+      "id": "58",
+      "obj": {
+        "i": 58,
+        "n": "The Drowned City of Skalla",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 300,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "59",
+      "obj": {
+        "i": 59,
+        "n": "Hells' Lid",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "60",
+      "obj": {
+        "i": 60,
+        "n": "The Fractal Continuum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 310
+      }
+    },
+    {
+      "type": "instance",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "The Swallow's Compass",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 330
+      }
+    },
+    {
+      "type": "instance",
+      "id": "63",
+      "obj": {
+        "i": 63,
+        "n": "The Burn",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "62",
+      "obj": {
+        "i": 62,
+        "n": "Saint Mocianne's Arboretum (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 340
+      }
+    },
+    {
+      "type": "instance",
+      "id": "64",
+      "obj": {
+        "i": 64,
+        "n": "The Ghimlyt Dark",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 360
+      }
+    },
+    {
+      "type": "mob",
+      "id": "66320000005773",
+      "obj": {
+        "i": 66320000005773,
+        "n": "Steppe Dzo",
+        "l": "65",
+        "z": 2411
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "295",
+      "obj": {
+        "i": 295,
+        "n": "The Smoldering Wastes",
+        "l": 55,
+        "t": 2,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20012",
+      "obj": {
+        "i": 20012,
+        "n": "Doman Yellow",
+        "l": 279,
+        "c": 27407,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "33153",
+      "obj": {
+        "i": 33153,
+        "n": "Rhodolite",
+        "l": 300,
+        "c": 21474,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20180",
+      "obj": {
+        "i": 20180,
+        "n": "False Scad",
+        "l": 225,
+        "c": 29135,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "17876",
+      "obj": {
+        "i": 17876,
+        "n": "Master Culinarian V",
+        "l": 1,
+        "c": 26158,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "19840",
+      "obj": {
+        "i": 19840,
+        "n": "Tea Brick",
+        "l": 320,
+        "c": 26109,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19878",
+      "obj": {
+        "i": 19878,
+        "n": "Steppe Milk",
+        "l": 276,
+        "c": 24453,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12893",
+      "obj": {
+        "i": 12893,
+        "n": "Dark Chestnut",
+        "l": 136,
+        "c": 25302,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "20013",
+      "obj": {
+        "i": 20013,
+        "n": "Dusklight Aethersand",
+        "l": 279,
+        "c": 21219,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "22580",
+      "obj": {
+        "i": 22580,
+        "n": "Picnic Set",
+        "l": 1,
+        "c": 52259,
+        "t": 76
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68566",
+      "obj": {
+        "i": 68566,
+        "n": "A Fortune in Salt",
+        "g": 123,
+        "l": "Rhalgr's Reach",
+        "s": 10040
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Augmented Minekeep's Helmet",
+    "jobCategories": "MIN",
+    "id": 15705,
+    "patch": 3.3,
+    "patchCategory": 2,
+    "price": 58806,
+    "ilvl": 200,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 10386,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 3,
+    "elvl": 60,
+    "jobs": 17,
+    "models": [
+      "217-1-0-0"
+    ],
+    "attr": {
+      "Defense": 80,
+      "Magic Defense": 159,
+      "Perception": 176,
+      "Vitality": 16
+    },
+    "icon": 40190,
+    "sharedModels": [
+      10270
+    ],
+    "tradeShops": [
+      {
+        "shop": "Fieldcraft Keep Gear Augmentation",
+        "npcs": [
+          1017190
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15705",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10270",
+                "amount": 1
+              },
+              {
+                "id": "14105",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Fieldcraft Keep Gear (IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15705",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 60/IL 200)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15705",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10270",
+      "obj": {
+        "i": 10270,
+        "n": "Minekeep's Helmet",
+        "l": 180,
+        "c": 40190,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1017190",
+      "obj": {
+        "i": 1017190,
+        "n": "Grinmox",
+        "l": 2082,
+        "s": 8,
+        "t": "Gear Augmentation",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.71,
+          7.48
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "14105",
+      "obj": {
+        "i": 14105,
+        "n": "Goblin Dice",
+        "l": 1,
+        "c": 26253,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

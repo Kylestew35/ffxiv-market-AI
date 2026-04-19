@@ -1,0 +1,74 @@
+{
+  "item": {
+    "name": "Vicarious Vacationer",
+    "description": "A lean, mean, holidaying machine.<br><br>Use item to acquire the vicarious vacationer minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Next you'll be telling me you're one\r\nof the Warriors of Light, back from\r\na half-decade long holiday!\r\n   - Mother Miounne",
+    "minionskilltype": "Trap",
+    "specialactionname": "Holiday Spirit",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 260 to all enemies within range.<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 41476,
+    "patch": 6.5,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59896,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "41476",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37549",
+                "amount": 4000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 520,
+      "Skill Cost": 25,
+      "Attack": 20,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8452-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "37549",
+      "obj": {
+        "i": 37549,
+        "n": "Seafarer's Cowrie",
+        "l": 1,
+        "c": "t/65096",
+        "t": 63
+      }
+    }
+  ]
+}

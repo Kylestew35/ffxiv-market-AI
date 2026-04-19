@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Allagan Melon",
+    "description": "Capable of movement and tremendously juicy.<br><br>Use item to acquire the Allagan melon minion.",
+    "minionrace": "Gadget",
+    "tooltip": "And you say his muscles swelled\r\nto bursting, like firm melons\r\nripening in the summer sun!?\r\n   - Company Muscle",
+    "minionskilltype": "Trap",
+    "specialactionname": "Melon Mine",
+    "specialactiondescription": "Sets a trap that, when triggered, delivers an attack with a potency of 270 to all enemies within range.<br> <span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 30873,
+    "patch": 5.3,
+    "patchCategory": 11,
+    "price": 100,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59786,
+    "seeds": [
+      30364
+    ],
+    "ingredient_of": {
+      "30427": 1
+    },
+    "cost": 30,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 690,
+      "Skill Cost": 30,
+      "Attack": 40,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8347-1-1"
+    ],
+    "alla": {
+      "source": [
+        "GARDENING"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "30364",
+      "obj": {
+        "i": 30364,
+        "n": "Allagan Melon Seeds",
+        "l": 1,
+        "c": 27457,
+        "t": 82,
+        "p": 300
+      }
+    },
+    {
+      "type": "item",
+      "id": "30427",
+      "obj": {
+        "i": 30427,
+        "n": "Sliced Watermelon",
+        "l": 430,
+        "c": 53370,
+        "t": 78
+      }
+    }
+  ]
+}

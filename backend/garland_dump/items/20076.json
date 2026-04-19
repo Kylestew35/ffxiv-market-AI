@@ -1,0 +1,104 @@
+{
+  "item": {
+    "name": "Bull's Bite",
+    "description": "A small carnivorous fish found solely in the isolated Gyr Abanian pond known as the Bull's Bath.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "According to the old wives' tale, swaddling Raubahn would bite into big beefy bits of this fish, bones and all, before his milk teeth had grown in. According to the man himself, the tale is wildly apocryphal, but the name stuck nevertheless.",
+      "icon": 79303,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 194,
+          "weather": [
+            "Clouds",
+            "Dust Storms",
+            "Fog",
+            "Wind"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 600,
+          "baits": [
+            [
+              20615
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 20076,
+    "patch": 4.0,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 260,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29303,
+    "fishingSpots": [
+      194
+    ],
+    "desynthedTo": [
+      5818,
+      5824
+    ],
+    "supply": {
+      "count": 1,
+      "xp": 695100,
+      "seals": 782
+    }
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "194",
+      "obj": {
+        "i": 194,
+        "n": "The Bull's Bath",
+        "l": 68,
+        "c": 1,
+        "z": 2407,
+        "x": 20.58,
+        "y": 32.67
+      }
+    },
+    {
+      "type": "item",
+      "id": "20615",
+      "obj": {
+        "i": 20615,
+        "n": "Midge Larva",
+        "l": 225,
+        "c": 27033,
+        "t": 33,
+        "p": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5818",
+      "obj": {
+        "i": 5818,
+        "n": "Brown Pigment",
+        "l": 28,
+        "c": 21462,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Cradle of Hope Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Cradle of Hope</span>. Use to add to your orchestrion list.",
+    "id": 38639,
+    "patch": 6.25,
+    "patchCategory": 16,
+    "price": 2,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 546,
+      "name": "Cradle of Hope",
+      "description": "Available for exchange at A-4 Research.",
+      "category": "Locales II",
+      "order": 44
+    },
+    "tradeShops": [
+      {
+        "shop": "Omicron Omnitoken Exchange",
+        "npcs": [
+          1043418
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38639",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37854",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043418",
+      "obj": {
+        "i": 1043418,
+        "n": "N-0598",
+        "l": 3712,
+        "s": 4,
+        "t": "Vending Unit",
+        "r": 1,
+        "a": 4041,
+        "c": [
+          27.76,
+          24.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "37854",
+      "obj": {
+        "i": 37854,
+        "n": "Omicron Omnitoken",
+        "l": 1,
+        "c": "t/65095",
+        "t": 100
+      }
+    }
+  ]
+}

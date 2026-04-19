@@ -1,0 +1,1048 @@
+{
+  "item": {
+    "name": "Arachne Velveteen",
+    "description": "Thick cloth woven from the web of the chimerical monstrosity Arachne.",
+    "id": 9362,
+    "patch": 2.4,
+    "patchCategory": 5,
+    "price": 1829,
+    "ilvl": 110,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21604,
+    "craft": [
+      {
+        "id": 30863,
+        "job": 13,
+        "rlvl": 110,
+        "durability": 80,
+        "quality": 2900,
+        "progress": 480,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 407,
+        "craftsmanshipReq": 451,
+        "quickSynthCraftsmanship": 620,
+        "unlockId": 9341,
+        "ingredients": [
+          {
+            "id": 9365,
+            "amount": 1
+          },
+          {
+            "id": 9367,
+            "amount": 1
+          },
+          {
+            "id": 18,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 325,
+          "hq": 345
+        }
+      }
+    ],
+    "ingredient_of": {
+      "9042": 3,
+      "9043": 5,
+      "9044": 3,
+      "9045": 5,
+      "9063": 5,
+      "9065": 5,
+      "9073": 5,
+      "9075": 5,
+      "9485": 3,
+      "9486": 5,
+      "9487": 3,
+      "9488": 5,
+      "13810": 2,
+      "13812": 3,
+      "13815": 2,
+      "13817": 3,
+      "13820": 2,
+      "13822": 3,
+      "13825": 2,
+      "13826": 1,
+      "13827": 3,
+      "13828": 1,
+      "13830": 2,
+      "13831": 1,
+      "13832": 3,
+      "13833": 1,
+      "13851": 2,
+      "13856": 1,
+      "13861": 1,
+      "13863": 2,
+      "13864": 3,
+      "13866": 2,
+      "13867": 1,
+      "13869": 3,
+      "13870": 1,
+      "13871": 2,
+      "13873": 2,
+      "13874": 3,
+      "13876": 2,
+      "13877": 1,
+      "13895": 2,
+      "13900": 1,
+      "13902": 1,
+      "13903": 2,
+      "13905": 3,
+      "13907": 1,
+      "13908": 2,
+      "13910": 1,
+      "13912": 3,
+      "13913": 3,
+      "13914": 1,
+      "13915": 3,
+      "13916": 1,
+      "13917": 1,
+      "13918": 2,
+      "13920": 3,
+      "13921": 1,
+      "13922": 1,
+      "13923": 2,
+      "13925": 3
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Allagan Silk",
+      "id": 9365,
+      "icon": 21657,
+      "category": 51,
+      "ilvl": 90,
+      "price": 712,
+      "desynthedFrom": [
+        8776
+      ],
+      "instances": [
+        30002,
+        30003,
+        30005,
+        30006,
+        30003,
+        30005,
+        30006,
+        30002
+      ]
+    },
+    {
+      "name": "Arachne Web",
+      "id": 9367,
+      "icon": 21664,
+      "category": 51,
+      "ilvl": 110,
+      "price": 871,
+      "tradeShops": [
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9367",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 2250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9367",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 2250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "9367",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 2250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30002",
+      "obj": {
+        "i": 30002,
+        "n": "The Binding Coil of Bahamut - Turn 1",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30003",
+      "obj": {
+        "i": 30003,
+        "n": "The Binding Coil of Bahamut - Turn 2",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 73
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30005",
+      "obj": {
+        "i": 30005,
+        "n": "The Binding Coil of Bahamut - Turn 4",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 77
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30006",
+      "obj": {
+        "i": 30006,
+        "n": "The Binding Coil of Bahamut - Turn 5",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 82
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "9341",
+      "obj": {
+        "i": 9341,
+        "n": "Master Weaver II",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "9365",
+      "obj": {
+        "i": 9365,
+        "n": "Allagan Silk",
+        "l": 90,
+        "c": 21657,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "9367",
+      "obj": {
+        "i": 9367,
+        "n": "Arachne Web",
+        "l": 110,
+        "c": 21664,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "9042",
+      "obj": {
+        "i": 9042,
+        "n": "Arachne Bandana of Striking",
+        "l": 110,
+        "c": 41628,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "9043",
+      "obj": {
+        "i": 9043,
+        "n": "Arachne Shirt of Striking",
+        "l": 110,
+        "c": 42401,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "9044",
+      "obj": {
+        "i": 9044,
+        "n": "Arachne Field Dressing of Striking",
+        "l": 110,
+        "c": 44288,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "9045",
+      "obj": {
+        "i": 9045,
+        "n": "Arachne Gaskins of Striking",
+        "l": 110,
+        "c": 45502,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "9063",
+      "obj": {
+        "i": 9063,
+        "n": "Arachne Robe",
+        "l": 110,
+        "c": 42400,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "9065",
+      "obj": {
+        "i": 9065,
+        "n": "Arachne Culottes of Healing",
+        "l": 110,
+        "c": 45500,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "9073",
+      "obj": {
+        "i": 9073,
+        "n": "Arachne Bolero",
+        "l": 110,
+        "c": 42399,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "9075",
+      "obj": {
+        "i": 9075,
+        "n": "Arachne Culottes of Casting",
+        "l": 110,
+        "c": 45498,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "9485",
+      "obj": {
+        "i": 9485,
+        "n": "Arachne Bandana of Scouting",
+        "l": 110,
+        "c": 41630,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "9486",
+      "obj": {
+        "i": 9486,
+        "n": "Arachne Shirt of Scouting",
+        "l": 110,
+        "c": 42405,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "9487",
+      "obj": {
+        "i": 9487,
+        "n": "Arachne Field Dressing of Scouting",
+        "l": 110,
+        "c": 44291,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "9488",
+      "obj": {
+        "i": 9488,
+        "n": "Arachne Gaskins of Scouting",
+        "l": 110,
+        "c": 45508,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13810",
+      "obj": {
+        "i": 13810,
+        "n": "Replica Allagan Cuirass of Maiming",
+        "l": 50,
+        "c": 48038,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13812",
+      "obj": {
+        "i": 13812,
+        "n": "Replica Allagan Trousers of Maiming",
+        "l": 50,
+        "c": 45376,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13815",
+      "obj": {
+        "i": 13815,
+        "n": "Replica Allagan Cuirass of Striking",
+        "l": 50,
+        "c": 43191,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13817",
+      "obj": {
+        "i": 13817,
+        "n": "Replica Allagan Trousers of Striking",
+        "l": 50,
+        "c": 45371,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13820",
+      "obj": {
+        "i": 13820,
+        "n": "Replica Allagan Cuirass of Aiming",
+        "l": 50,
+        "c": 43192,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13822",
+      "obj": {
+        "i": 13822,
+        "n": "Replica Allagan Trousers of Aiming",
+        "l": 50,
+        "c": 45372,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13825",
+      "obj": {
+        "i": 13825,
+        "n": "Replica Allagan Tunic of Healing",
+        "l": 50,
+        "c": 43633,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13826",
+      "obj": {
+        "i": 13826,
+        "n": "Replica Allagan Gloves of Healing",
+        "l": 50,
+        "c": 44214,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13827",
+      "obj": {
+        "i": 13827,
+        "n": "Replica Allagan Breeches of Healing",
+        "l": 50,
+        "c": 45373,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13828",
+      "obj": {
+        "i": 13828,
+        "n": "Replica Allagan Boots of Healing",
+        "l": 50,
+        "c": 46371,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13830",
+      "obj": {
+        "i": 13830,
+        "n": "Replica Allagan Tunic of Casting",
+        "l": 50,
+        "c": 43634,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13831",
+      "obj": {
+        "i": 13831,
+        "n": "Replica Allagan Gloves of Casting",
+        "l": 50,
+        "c": 44215,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13832",
+      "obj": {
+        "i": 13832,
+        "n": "Replica Allagan Breeches of Casting",
+        "l": 50,
+        "c": 45375,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13833",
+      "obj": {
+        "i": 13833,
+        "n": "Replica Allagan Boots of Casting",
+        "l": 50,
+        "c": 46372,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13851",
+      "obj": {
+        "i": 13851,
+        "n": "Replica High Allagan Trousers of Fending",
+        "l": 50,
+        "c": 45440,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13856",
+      "obj": {
+        "i": 13856,
+        "n": "Replica High Allagan Trousers of Maiming",
+        "l": 50,
+        "c": 45442,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13861",
+      "obj": {
+        "i": 13861,
+        "n": "Replica High Allagan Trousers of Striking",
+        "l": 50,
+        "c": 45443,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13863",
+      "obj": {
+        "i": 13863,
+        "n": "Replica High Allagan Mask of Aiming",
+        "l": 50,
+        "c": 40433,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13864",
+      "obj": {
+        "i": 13864,
+        "n": "Replica High Allagan Coat of Aiming",
+        "l": 50,
+        "c": 43645,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13866",
+      "obj": {
+        "i": 13866,
+        "n": "Replica High Allagan Breeches of Aiming",
+        "l": 50,
+        "c": 45444,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13867",
+      "obj": {
+        "i": 13867,
+        "n": "Replica High Allagan Boots of Aiming",
+        "l": 50,
+        "c": 46939,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13869",
+      "obj": {
+        "i": 13869,
+        "n": "Replica High Allagan Coat of Healing",
+        "l": 50,
+        "c": 42382,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13870",
+      "obj": {
+        "i": 13870,
+        "n": "Replica High Allagan Gloves of Healing",
+        "l": 50,
+        "c": 44261,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13871",
+      "obj": {
+        "i": 13871,
+        "n": "Replica High Allagan Pantaloons of Healing",
+        "l": 50,
+        "c": 45441,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13873",
+      "obj": {
+        "i": 13873,
+        "n": "Replica High Allagan Mask of Casting",
+        "l": 50,
+        "c": 40428,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13874",
+      "obj": {
+        "i": 13874,
+        "n": "Replica High Allagan Coat of Casting",
+        "l": 50,
+        "c": 43644,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13876",
+      "obj": {
+        "i": 13876,
+        "n": "Replica High Allagan Breeches of Casting",
+        "l": 50,
+        "c": 45429,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13877",
+      "obj": {
+        "i": 13877,
+        "n": "Replica High Allagan Boots of Casting",
+        "l": 50,
+        "c": 46929,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13895",
+      "obj": {
+        "i": 13895,
+        "n": "Replica Dreadwyrm Sarouel of Fending",
+        "l": 50,
+        "c": 45486,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13900",
+      "obj": {
+        "i": 13900,
+        "n": "Replica Dreadwyrm Breeches of Maiming",
+        "l": 50,
+        "c": 45488,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13902",
+      "obj": {
+        "i": 13902,
+        "n": "Replica Dreadwyrm Circlet of Striking",
+        "l": 50,
+        "c": 40665,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13903",
+      "obj": {
+        "i": 13903,
+        "n": "Replica Dreadwyrm Cyclas of Striking",
+        "l": 50,
+        "c": 43214,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13905",
+      "obj": {
+        "i": 13905,
+        "n": "Replica Dreadwyrm Slops of Striking",
+        "l": 50,
+        "c": 45489,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13907",
+      "obj": {
+        "i": 13907,
+        "n": "Replica Dreadwyrm Chapeau of Aiming",
+        "l": 50,
+        "c": 41218,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13908",
+      "obj": {
+        "i": 13908,
+        "n": "Replica Dreadwyrm Tabard of Aiming",
+        "l": 50,
+        "c": 43215,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13910",
+      "obj": {
+        "i": 13910,
+        "n": "Replica Dreadwyrm Breeches of Aiming",
+        "l": 50,
+        "c": 45490,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13912",
+      "obj": {
+        "i": 13912,
+        "n": "Replica Dreadwyrm Hood of Healing",
+        "l": 50,
+        "c": 41626,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13913",
+      "obj": {
+        "i": 13913,
+        "n": "Replica Dreadwyrm Robe of Healing",
+        "l": 50,
+        "c": 42394,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13914",
+      "obj": {
+        "i": 13914,
+        "n": "Replica Dreadwyrm Gloves of Healing",
+        "l": 50,
+        "c": 44281,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "13915",
+      "obj": {
+        "i": 13915,
+        "n": "Replica Dreadwyrm Tonban of Healing",
+        "l": 50,
+        "c": 45487,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13916",
+      "obj": {
+        "i": 13916,
+        "n": "Replica Dreadwyrm Shoes of Healing",
+        "l": 50,
+        "c": 46418,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13917",
+      "obj": {
+        "i": 13917,
+        "n": "Replica Dreadwyrm Petasos of Casting",
+        "l": 50,
+        "c": 41217,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13918",
+      "obj": {
+        "i": 13918,
+        "n": "Replica Dreadwyrm Robe of Casting",
+        "l": 50,
+        "c": 42393,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13920",
+      "obj": {
+        "i": 13920,
+        "n": "Replica Dreadwyrm Tonban of Casting",
+        "l": 50,
+        "c": 45485,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "13921",
+      "obj": {
+        "i": 13921,
+        "n": "Replica Dreadwyrm Shoes of Casting",
+        "l": 50,
+        "c": 46417,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "13922",
+      "obj": {
+        "i": 13922,
+        "n": "Replica Dreadwyrm Circlet of Scouting",
+        "l": 50,
+        "c": 40671,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "13923",
+      "obj": {
+        "i": 13923,
+        "n": "Replica Dreadwyrm Cyclas of Scouting",
+        "l": 50,
+        "c": 43216,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13925",
+      "obj": {
+        "i": 13925,
+        "n": "Replica Dreadwyrm Slops of Scouting",
+        "l": 50,
+        "c": 45506,
+        "t": 36
+      }
+    }
+  ]
+}

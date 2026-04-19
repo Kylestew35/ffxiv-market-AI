@@ -1,0 +1,103 @@
+{
+  "item": {
+    "name": "Enchanted Rubber",
+    "description": "A variety of pliable rubber imbued with arcane magicks to improve aetherial conductivity.",
+    "id": 13577,
+    "patch": 3.15,
+    "patchCategory": 5,
+    "price": 15000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22658,
+    "tradeShops": [
+      {
+        "shop": "Anima Weapon Materials",
+        "npcs": [
+          1016290
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13577",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13582",
+                "amount": 10
+              },
+              {
+                "id": "13589",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      67750
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1016290",
+      "obj": {
+        "i": 1016290,
+        "n": "Cristiana",
+        "l": 67,
+        "s": 1,
+        "q": 1,
+        "t": "Anima Weapon Modification",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          21.39,
+          5.5
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13582",
+      "obj": {
+        "i": 13582,
+        "n": "Unidentifiable Bone",
+        "l": 1,
+        "c": 22216,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "13589",
+      "obj": {
+        "i": 13589,
+        "n": "Adamantite Francesca",
+        "l": 160,
+        "c": 30383,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67750",
+      "obj": {
+        "i": 67750,
+        "n": "Coming into Its Own",
+        "g": 88,
+        "l": "Azys Lla",
+        "s": 4,
+        "r": 1,
+        "f": 1
+      }
+    }
+  ]
+}

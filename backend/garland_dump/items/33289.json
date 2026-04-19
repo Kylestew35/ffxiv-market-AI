@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Archon Egg Pouch",
+    "description": "A compact, stylish pouch with a strap to be slung over the shoulder, designed with an egg motif perfect for the Hatching-tide season.",
+    "id": 33289,
+    "patch": 5.5,
+    "patchCategory": 9,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "sell_price": 30,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 53388,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1036535
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33289",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33331",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1068"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1036535",
+      "obj": {
+        "i": 1036535,
+        "n": "Dreamer",
+        "l": 53,
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.3,
+          9.23
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33331",
+      "obj": {
+        "i": 33331,
+        "n": "Special Archon Egg",
+        "l": 1,
+        "c": 21310,
+        "t": 85
+      }
+    }
+  ]
+}

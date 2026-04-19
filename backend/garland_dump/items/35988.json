@@ -1,0 +1,77 @@
+{
+  "item": {
+    "name": "Nosferatu",
+    "description": "Nothing if not gentlemanly...and perhaps bloodthirsty.<br><br>Use item to acquire the nosferatu minion.",
+    "minionrace": "Monster",
+    "tooltip": "Aren't bats just the cutest little\r\nplague-bearers you ever did see?\r\n   - Bat Enthusiast",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Bloodsucker",
+    "specialactiondescription": "Changes action party auto-attacks to area of effect attacks.<br><span class=\"highlight-green\">Duration:</span> 12s",
+    "id": 35988,
+    "patch": 6.0,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59840,
+    "instances": [
+      30107,
+      30108,
+      30107
+    ],
+    "cost": 30,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 570,
+      "Skill Cost": 20,
+      "Attack": 75,
+      "Defense": 50,
+      "Speed": 3
+    },
+    "models": [
+      "8399-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30107",
+      "obj": {
+        "i": 30107,
+        "n": "Asphodelos: The Fourth Circle",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 565
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30108",
+      "obj": {
+        "i": 30108,
+        "n": "Asphodelos: The Fourth Circle (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 580
+      }
+    }
+  ]
+}

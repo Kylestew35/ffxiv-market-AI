@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Adamantoise Whistle",
+    "description": "A small polished whistle carved from thick turtle shell. Emits a low-pitched tone which summons an adamantoise mount to your side.",
+    "mount": {
+      "name": "Adamantoise",
+      "action": "Summon forth your adamantoise mount. He(?) is actually quite faster than he appears.",
+      "description": "Native to the Near Eastern island of Thavnair, adamantoises were long thought to be impossible to domesticate. However, through the efforts of both Ul'dahn naturalists and thaumaturges, a handful have been successfully trained not only to accept riders, but also wield ancient magicks which allow the colossal scalekin to fly.",
+      "tooltip": "M-Me? Perfectly fine!<br>S-Solid as an adamantoise!<br>  - Cocobezi",
+      "icon": 4034,
+      "guideIcon": 68034
+    },
+    "id": 10078,
+    "patch": 2.51,
+    "patchCategory": 17,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "tradeShops": [
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "10078",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 200000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "23-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

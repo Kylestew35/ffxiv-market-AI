@@ -1,0 +1,654 @@
+{
+  "item": {
+    "name": "Golden Silk",
+    "description": "A sleek and shining fabric woven from golden cocoons.",
+    "id": 36213,
+    "patch": 6.05,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21623,
+    "ingredient_of": {
+      "35041": 3,
+      "35042": 1,
+      "35043": 3,
+      "35045": 1,
+      "35046": 3,
+      "35047": 1,
+      "35048": 3,
+      "35051": 2,
+      "35052": 1,
+      "35053": 3,
+      "35055": 2,
+      "35056": 2,
+      "35057": 2,
+      "35058": 3,
+      "35061": 2,
+      "35063": 3,
+      "35066": 3,
+      "35068": 3,
+      "35071": 3,
+      "35073": 3,
+      "35075": 1,
+      "35076": 1,
+      "35077": 1,
+      "35078": 1,
+      "35079": 1,
+      "36708": 2,
+      "36709": 3,
+      "36711": 3,
+      "36713": 2,
+      "36714": 3,
+      "38440": 2,
+      "48177": 1
+    },
+    "craft": [
+      {
+        "id": 34894,
+        "job": 13,
+        "rlvl": 580,
+        "durability": 35,
+        "quality": 7800,
+        "progress": 2925,
+        "lvl": 90,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35623,
+        "ingredients": [
+          {
+            "id": 36207,
+            "amount": 4
+          },
+          {
+            "id": 36221,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 516,
+          "hq": 536
+        }
+      }
+    ],
+    "desynthedFrom": [
+      38988,
+      37161,
+      38172,
+      35078,
+      38174,
+      35061
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Golden Cocoon",
+      "id": 36207,
+      "icon": 21682,
+      "category": 51,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        971
+      ],
+      "nodes": [
+        857
+      ]
+    },
+    {
+      "name": "Thavnairian Thread",
+      "id": 36221,
+      "icon": 21669,
+      "category": 51,
+      "ilvl": 580,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1037301
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36221",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36221",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "857",
+      "obj": {
+        "i": 857,
+        "n": "The Shroud of the Samgha",
+        "l": 90,
+        "t": 3,
+        "z": 3709,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037301",
+      "obj": {
+        "i": 1037301,
+        "n": "Cihanti",
+        "l": 3707,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.85,
+          10.43
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "35041",
+      "obj": {
+        "i": 35041,
+        "n": "Classical Hoplomachus's Lorica",
+        "l": 580,
+        "c": 42789,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35042",
+      "obj": {
+        "i": 35042,
+        "n": "Classical Hoplomachus's Manicae",
+        "l": 580,
+        "c": 44901,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35043",
+      "obj": {
+        "i": 35043,
+        "n": "Classical Hoplomachus's Loincloth",
+        "l": 580,
+        "c": 46045,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35045",
+      "obj": {
+        "i": 35045,
+        "n": "Classical Eques's Headgear",
+        "l": 580,
+        "c": 41946,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35046",
+      "obj": {
+        "i": 35046,
+        "n": "Classical Eques's Chiton",
+        "l": 580,
+        "c": 42819,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35047",
+      "obj": {
+        "i": 35047,
+        "n": "Classical Eques's Manicae",
+        "l": 580,
+        "c": 44969,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35048",
+      "obj": {
+        "i": 35048,
+        "n": "Classical Eques's Loincloth",
+        "l": 580,
+        "c": 46047,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35051",
+      "obj": {
+        "i": 35051,
+        "n": "Classical Secutor's Lorica",
+        "l": 580,
+        "c": 42791,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35052",
+      "obj": {
+        "i": 35052,
+        "n": "Classical Secutor's Manicae",
+        "l": 580,
+        "c": 44903,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35053",
+      "obj": {
+        "i": 35053,
+        "n": "Classical Secutor's Loincloth",
+        "l": 580,
+        "c": 46048,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35055",
+      "obj": {
+        "i": 35055,
+        "n": "Classical Sagittarius's Headband",
+        "l": 580,
+        "c": 41881,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35056",
+      "obj": {
+        "i": 35056,
+        "n": "Classical Sagittarius's Chiton",
+        "l": 580,
+        "c": 42792,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35057",
+      "obj": {
+        "i": 35057,
+        "n": "Classical Sagittarius's Wrist Torque",
+        "l": 580,
+        "c": 44905,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "35058",
+      "obj": {
+        "i": 35058,
+        "n": "Classical Sagittarius's Loincloth",
+        "l": 580,
+        "c": 46049,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35061",
+      "obj": {
+        "i": 35061,
+        "n": "Classical Dimachaerius's Lorica",
+        "l": 580,
+        "c": 42793,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35063",
+      "obj": {
+        "i": 35063,
+        "n": "Classical Dimachaerius's Loincloth",
+        "l": 580,
+        "c": 46050,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35066",
+      "obj": {
+        "i": 35066,
+        "n": "Classical Medicus's Chiton",
+        "l": 580,
+        "c": 42790,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35068",
+      "obj": {
+        "i": 35068,
+        "n": "Classical Medicus's Loincloth",
+        "l": 580,
+        "c": 46046,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35071",
+      "obj": {
+        "i": 35071,
+        "n": "Classical Signifer's Chiton",
+        "l": 580,
+        "c": 42788,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "35073",
+      "obj": {
+        "i": 35073,
+        "n": "Classical Signifer's Culottes",
+        "l": 580,
+        "c": 46044,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35075",
+      "obj": {
+        "i": 35075,
+        "n": "Classical Earrings of Fending",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35076",
+      "obj": {
+        "i": 35076,
+        "n": "Classical Earrings of Slaying",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35077",
+      "obj": {
+        "i": 35077,
+        "n": "Classical Earrings of Aiming",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35078",
+      "obj": {
+        "i": 35078,
+        "n": "Classical Earrings of Healing",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35079",
+      "obj": {
+        "i": 35079,
+        "n": "Classical Earrings of Casting",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35623",
+      "obj": {
+        "i": 35623,
+        "n": "Master Weaver IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36207",
+      "obj": {
+        "i": 36207,
+        "n": "Golden Cocoon",
+        "l": 580,
+        "c": 21682,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "36221",
+      "obj": {
+        "i": 36221,
+        "n": "Thavnairian Thread",
+        "l": 580,
+        "c": 21669,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "36708",
+      "obj": {
+        "i": 36708,
+        "n": "Pactmaker's Turban of Crafting",
+        "l": 590,
+        "c": 41988,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "36709",
+      "obj": {
+        "i": 36709,
+        "n": "Pactmaker's Vest of Crafting",
+        "l": 590,
+        "c": 42864,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "36711",
+      "obj": {
+        "i": 36711,
+        "n": "Pactmaker's Sarouel of Crafting",
+        "l": 590,
+        "c": 47893,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "36713",
+      "obj": {
+        "i": 36713,
+        "n": "Pactmaker's Ushanka of Gathering",
+        "l": 590,
+        "c": 41989,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "36714",
+      "obj": {
+        "i": 36714,
+        "n": "Pactmaker's Coat of Gathering",
+        "l": 590,
+        "c": 42865,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38440",
+      "obj": {
+        "i": 38440,
+        "n": "Windswept Barding",
+        "l": 1,
+        "c": 58770,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "48177",
+      "obj": {
+        "i": 48177,
+        "n": "Longbow of Sanctifying Light",
+        "l": 560,
+        "c": 32001,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "38988",
+      "obj": {
+        "i": 38988,
+        "n": "Manalis Coat of Casting",
+        "l": 605,
+        "c": 42934,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37161",
+      "obj": {
+        "i": 37161,
+        "n": "Panthean Hat of Casting",
+        "l": 590,
+        "c": 41950,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "38172",
+      "obj": {
+        "i": 38172,
+        "n": "Troian Cloak of Aiming",
+        "l": 595,
+        "c": 42886,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "38174",
+      "obj": {
+        "i": 38174,
+        "n": "Troian Longkilt of Aiming",
+        "l": 595,
+        "c": 47918,
+        "t": 36
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Scarmiglione Card",
+    "description": "An epic (★★★★) card used in the game Triple Triad.<br>Card No. 345",
+    "id": 38436,
+    "patch": 6.2,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27665,
+    "tradeShops": [
+      {
+        "shop": "Triple Triad Cards",
+        "npcs": [
+          1010478,
+          1016294,
+          1016296
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38436",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 40000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "The archfiend of earth, and one of Golbez's circle of four. Scarmiglione consumed voidsent with gluttonous abandon, the conflicting energies giving rise to his hideous and misshapen appearance. Possessed of incredible regenerative properties, his deathless form seemed beyond defeat until Zero finally bound him in crystal."
+      },
+      "ja": {
+        "description": "ゴルベーザ四天王の一角たる土の大妖異。数多の妖異を貪欲に喰らったゆえか肉体の変異が進んでおり、醜悪な外見を有している。高い再生能力とガスを武器に冒険者らを苦しめたが、ゼロによってメモリアに封印された。"
+      },
+      "de": {
+        "description": "Elementarfürst der Erde und einer von Golbez' vier Vertrauten. Scarmiglione verzehrte Nichts<SoftHyphen/>gesand<SoftHyphen/>te mit gefräßiger Hingabe, deren Energie zu seiner abscheulichen und missgestalteten Erscheinung führten. Er besitzt unglaubliche regenerative Eigenschaften und schien unsterblich, bis Zero ihn schließlich in einen Kristall bannte."
+      },
+      "fr": {
+        "description": "L'un des quatre généraux de Golbez, aussi appelé le “maître de la terre”. À force de dévorer d'autres créatures du néant, il a subi de nombreuses mutations lui donnant une apparence repoussante. Sa capacité de régénération ex<SoftHyphen/>traor<SoftHyphen/>di<SoftHyphen/>nai<SoftHyphen/>re et ses gaz toxiques donnèrent du fil à retordre <If(PlayerParameter(4))>à la Guerrière<Else/>au Guerrier</If> de la Lumière, et c'est finalement Zero qui l'enferma dans un mémoria."
+      },
+      "sellMgp": 800,
+      "plate": 87364,
+      "rarity": 4,
+      "top": 7,
+      "bottom": 8,
+      "left": 7,
+      "right": 6
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1010478",
+      "obj": {
+        "i": 1010478,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 1487,
+        "c": [
+          4.14,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016294",
+      "obj": {
+        "i": 1016294,
+        "n": "Triple Triad Trader",
+        "l": 1484,
+        "s": 1,
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.02,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016296",
+      "obj": {
+        "i": 1016296,
+        "n": "Triple Triad Trader",
+        "l": 1665,
+        "s": 1,
+        "r": 1,
+        "c": [
+          3.56,
+          3.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    }
+  ]
+}

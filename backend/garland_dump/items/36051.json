@@ -1,0 +1,478 @@
+{
+  "item": {
+    "name": "Lentil Curry",
+    "description": "A dish that combines lentils with a sumptuous blend of spices in a silky coconut milk stew.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36051,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 539,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 60
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 65
+        },
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 36
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 75
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 81
+        },
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 45
+        }
+      }
+    },
+    "icon": 24035,
+    "craft": [
+      {
+        "id": 5266,
+        "job": 15,
+        "rlvl": 540,
+        "durability": 80,
+        "quality": 6800,
+        "progress": 3100,
+        "lvl": 86,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36092,
+            "amount": 2
+          },
+          {
+            "id": 36082,
+            "amount": 1,
+            "quality": 521.8786
+          },
+          {
+            "id": 36095,
+            "amount": 1
+          },
+          {
+            "id": 27841,
+            "amount": 1,
+            "quality": 392.3826
+          },
+          {
+            "id": 27830,
+            "amount": 1
+          },
+          {
+            "id": 36090,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 8
+          }
+        ],
+        "complexity": {
+          "nq": 312,
+          "hq": 332
+        }
+      }
+    ],
+    "quests": [
+      69793,
+      69798
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Eblan Lentils",
+      "id": 36092,
+      "icon": 25355,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "ventures": [
+        919
+      ],
+      "nodes": [
+        843
+      ]
+    },
+    {
+      "name": "Coconut Milk",
+      "id": 36082,
+      "icon": 25947,
+      "category": 45,
+      "ilvl": 536,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5287,
+          "job": 15,
+          "rlvl": 530,
+          "durability": 40,
+          "quality": 6600,
+          "progress": 1450,
+          "lvl": 84,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36087,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coconut",
+      "id": 36087,
+      "icon": 25323,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 74,
+          "type": 1
+        },
+        {
+          "id": 81,
+          "type": 1
+        },
+        {
+          "id": 88,
+          "type": 1
+        },
+        {
+          "id": 96,
+          "type": 1
+        },
+        {
+          "id": 104,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        915
+      ],
+      "nodes": [
+        839
+      ]
+    },
+    {
+      "name": "Elder Nutmeg Seeds",
+      "id": 36095,
+      "icon": 25021,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "ventures": [
+        928
+      ],
+      "nodes": [
+        844
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Bomba Rice",
+      "id": 27830,
+      "icon": 25358,
+      "category": 45,
+      "ilvl": 415,
+      "price": 210,
+      "leves": [
+        1475,
+        1476,
+        1477
+      ],
+      "ventures": [
+        835
+      ],
+      "nodes": [
+        625
+      ]
+    },
+    {
+      "name": "Carrot of Happiness",
+      "id": 36090,
+      "icon": 25207,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "ventures": [
+        923
+      ],
+      "nodes": [
+        902
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "item",
+      "id": "36087",
+      "obj": {
+        "i": 36087,
+        "n": "Coconut",
+        "l": 525,
+        "c": 25323,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "839",
+      "obj": {
+        "i": 839,
+        "n": "The Great Work",
+        "l": 85,
+        "t": 2,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "844",
+      "obj": {
+        "i": 844,
+        "n": "Southerly Zephyrneus",
+        "l": 90,
+        "t": 2,
+        "z": 3713
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "625",
+      "obj": {
+        "i": 625,
+        "n": "Scree",
+        "l": 80,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "902",
+      "obj": {
+        "i": 902,
+        "n": "Heimdall's Last Sight",
+        "l": 85,
+        "t": 3,
+        "z": 3711
+      }
+    },
+    {
+      "type": "item",
+      "id": "36092",
+      "obj": {
+        "i": 36092,
+        "n": "Eblan Lentils",
+        "l": 533,
+        "c": 25355,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36082",
+      "obj": {
+        "i": 36082,
+        "n": "Coconut Milk",
+        "l": 536,
+        "c": 25947,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36095",
+      "obj": {
+        "i": 36095,
+        "n": "Elder Nutmeg Seeds",
+        "l": 539,
+        "c": 25021,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27830",
+      "obj": {
+        "i": 27830,
+        "n": "Bomba Rice",
+        "l": 415,
+        "c": 25358,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36090",
+      "obj": {
+        "i": 36090,
+        "n": "Carrot of Happiness",
+        "l": 533,
+        "c": 25207,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69793",
+      "obj": {
+        "i": 69793,
+        "n": "In Agama's Footsteps",
+        "g": 142,
+        "l": "Thavnair",
+        "s": 2010,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69798",
+      "obj": {
+        "i": 69798,
+        "n": "My Friend the Yeti",
+        "g": 142,
+        "l": "Thavnair",
+        "s": 2070
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "item": {
+    "name": "Steel Fan",
+    "description": "A king among noble's fans, and lord of the waters of White Oil Falls.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "Records state that the lord of Eulmore was once presented with a fan of metallic jade sheen, which, after a brief moment's disdainful appraisal, he promptly flung over the balcony and into the sea. Had that discarded treasure suddenly rippled and swam away, it would have greatly resembled this shimmering wavekin.",
+      "icon": 78487,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 208,
+          "transition": [
+            "Clouds"
+          ],
+          "weather": [
+            "Fog"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 1950,
+          "ff14anglerId": 3345,
+          "baits": [
+            [
+              27585
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 32050,
+    "patch": 5.4,
+    "patchCategory": 7,
+    "price": 533,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28487,
+    "fishingSpots": [
+      208
+    ],
+    "desynthedTo": [
+      32949,
+      26728
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "208",
+      "obj": {
+        "i": 208,
+        "n": "White Oil Falls",
+        "l": 71,
+        "c": 1,
+        "z": 2954,
+        "x": 29.43,
+        "y": 21.42
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27585",
+      "obj": {
+        "i": 27585,
+        "n": "Marble Nymph",
+        "l": 360,
+        "c": 27038,
+        "t": 33,
+        "p": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26728",
+      "obj": {
+        "i": 26728,
+        "n": "Heavens' Eye Materia VIII",
+        "l": 420,
+        "c": 20279,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Direct Hit Rate",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Wyvern Horn",
+    "description": "This heavy horn emits a bellowing blare that summons your trained wyvern mount.",
+    "mount": {
+      "name": "Wyvern",
+      "action": "Summon forth your wyvern, master of the skies and forever-loyal servant.",
+      "description": "Fifty score years ago, this wyvern made a pact with a knight to aid in vanquishing evil from the skies. Even now, long after the knight's passing, the wyvern has kept that promise, ever circling the heavens─ignoring the calls of his brethren to take up arms against mankind.",
+      "tooltip": "A wyvern... I'd only ever<br>heard stories about them.<br>   - Saintrelmaux",
+      "icon": 4050,
+      "guideIcon": 68050
+    },
+    "id": 13288,
+    "patch": 3.1,
+    "patchCategory": 17,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26038,
+    "tradeShops": [
+      {
+        "shop": "Uncanny Knickknacks",
+        "npcs": [
+          1015578
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "13288",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "13625",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "312-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1015578",
+      "obj": {
+        "i": 1015578,
+        "n": "Bertana",
+        "l": 2082,
+        "s": 6,
+        "t": "Primal Gear Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.86,
+          5.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13625",
+      "obj": {
+        "i": 13625,
+        "n": "Clan Mark Log",
+        "l": 1,
+        "c": 26169,
+        "t": 61
+      }
+    }
+  ]
+}

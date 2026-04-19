@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Capybara Pup",
+    "description": "Loves bath time, and you.<br><br>Use item to acquire the capybara pup minion.",
+    "minionrace": "Critter",
+    "tooltip": "Such simple creatures, rats.\r\n   - Charibert",
+    "minionskilltype": "Dismantling",
+    "specialactionname": "Bucktooth",
+    "specialactiondescription": "Delivers 5% damage to the nearest enemy Arcana Stone.",
+    "id": 24002,
+    "patch": 4.4,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59716,
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 30,
+      "Attack": 40,
+      "Defense": 30,
+      "Speed": 3
+    },
+    "models": [
+      "8283-1-1"
+    ],
+    "instances": [
+      55002,
+      55003,
+      55004
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55002",
+      "obj": {
+        "i": 55002,
+        "n": "The Lost Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55003",
+      "obj": {
+        "i": 55003,
+        "n": "The Hidden Canals of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55004",
+      "obj": {
+        "i": 55004,
+        "n": "The Shifting Altars of Uznair",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 70,
+        "max_ilvl": 370
+      }
+    }
+  ]
+}

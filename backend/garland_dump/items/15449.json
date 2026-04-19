@@ -1,0 +1,85 @@
+{
+  "item": {
+    "name": "Taoist Moogle",
+    "description": "The mogpath that can be spoken of is not the true mogpath, kupo.<br><br>Use item to acquire the Taoist moogle minion.",
+    "minionrace": "Poppet",
+    "tooltip": "I wasn't joking, by the way.\r\nAbout the moogle punching.\r\n   - Sidurgu",
+    "minionskilltype": "Special",
+    "specialactionname": "Enter the Moogle",
+    "specialactiondescription": "Knocks back all enemies within range.",
+    "id": 15449,
+    "patch": 4.4,
+    "patchCategory": 11,
+    "price": 140,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59611,
+    "vendors": [
+      1005970
+    ],
+    "tradeShops": [
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15449",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 120,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 410,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 35,
+      "Speed": 3
+    },
+    "models": [
+      "8188-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005970",
+      "obj": {
+        "i": 1005970,
+        "n": "Itinerant Moogle",
+        "s": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    }
+  ]
+}

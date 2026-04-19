@@ -1,0 +1,88 @@
+{
+  "item": {
+    "name": "Coeurl Yellow Dye",
+    "description": "A labor-saving yellow dye, used for coloring anything from cloth to metal.",
+    "id": 5767,
+    "patch": 2.1,
+    "patchCategory": 8,
+    "price": 216,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22806,
+    "vendors": [
+      1005554
+    ],
+    "tradeShops": [
+      {
+        "shop": "Steel Amalj'ok Exchange",
+        "npcs": [
+          1005554
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5767",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21076",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67516
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005554",
+      "obj": {
+        "i": 1005554,
+        "n": "Amalj'aa Vendor",
+        "l": 45,
+        "s": 2,
+        "r": 1,
+        "a": 482,
+        "c": [
+          23.28,
+          14.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21076",
+      "obj": {
+        "i": 21076,
+        "n": "Steel Amalj'ok",
+        "l": 1,
+        "c": 65050,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67516",
+      "obj": {
+        "i": 67516,
+        "n": "Good Clean Fun",
+        "g": 122,
+        "l": "Azys Lla",
+        "s": 5902
+      }
+    }
+  ]
+}

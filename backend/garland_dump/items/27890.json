@@ -1,0 +1,781 @@
+{
+  "item": {
+    "name": "Lemon Curd Sachertorte",
+    "description": "A rich cake of indulgent chocolate accented with the perfect amount of tart lemon curd.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27890,
+    "patch": 5.05,
+    "patchCategory": 6,
+    "price": 3785,
+    "ilvl": 450,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 50
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 50
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 30
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 62
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 62
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 37
+        }
+      }
+    },
+    "icon": 24071,
+    "craft": [
+      {
+        "id": 33349,
+        "job": 15,
+        "rlvl": 450,
+        "durability": 70,
+        "quality": 7900,
+        "progress": 2050,
+        "lvl": 80,
+        "materialQualityFactor": 75,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24273,
+        "ingredients": [
+          {
+            "id": 27846,
+            "amount": 2
+          },
+          {
+            "id": 27841,
+            "amount": 1,
+            "quality": 883.3796
+          },
+          {
+            "id": 27835,
+            "amount": 2
+          },
+          {
+            "id": 12894,
+            "amount": 2,
+            "quality": 274.0011
+          },
+          {
+            "id": 12895,
+            "amount": 1,
+            "quality": 284.96115
+          },
+          {
+            "id": 7604,
+            "amount": 2
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 911,
+          "hq": 931
+        }
+      }
+    ],
+    "quests": [
+      69215,
+      69302
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Kriollo Kukuru Bean",
+      "id": 27846,
+      "icon": 25314,
+      "category": 45,
+      "ilvl": 450,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27846",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27846",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat Flour",
+      "id": 27841,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 403,
+      "price": 2917,
+      "craft": [
+        {
+          "id": 3880,
+          "job": 15,
+          "rlvl": 403,
+          "durability": 40,
+          "quality": 3200,
+          "progress": 680,
+          "lvl": 74,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27832,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Upland Wheat",
+      "id": 27832,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        28991
+      ],
+      "ventures": [
+        826
+      ],
+      "nodes": [
+        618
+      ]
+    },
+    {
+      "name": "Lemonette",
+      "id": 27835,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 420,
+      "price": 630,
+      "ventures": [
+        858
+      ],
+      "nodes": [
+        632
+      ]
+    },
+    {
+      "name": "Sour Cream",
+      "id": 12894,
+      "icon": 25056,
+      "category": 45,
+      "ilvl": 125,
+      "price": 396,
+      "craft": [
+        {
+          "id": 2820,
+          "job": 15,
+          "rlvl": 115,
+          "durability": 40,
+          "quality": 1656,
+          "progress": 110,
+          "lvl": 51,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 3
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 67,
+            "hq": 87
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Fermented Butter",
+      "id": 12895,
+      "icon": 25052,
+      "category": 45,
+      "ilvl": 130,
+      "price": 205,
+      "craft": [
+        {
+          "id": 2821,
+          "job": 15,
+          "rlvl": 130,
+          "durability": 40,
+          "quality": 1768,
+          "progress": 150,
+          "lvl": 53,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 77,
+            "hq": 97
+          }
+        }
+      ]
+    },
+    {
+      "name": "Royal Kukuru Bean",
+      "id": 7604,
+      "icon": 25314,
+      "category": 45,
+      "ilvl": 90,
+      "price": 570,
+      "tradeShops": [
+        {
+          "shop": "Ixali Oaknot Exchange",
+          "npcs": [
+            1009205
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7604",
+                  "amount": 10
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21073",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Maelstrom",
+          "npcs": [
+            1002387
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7604",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "20",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Order of the Twin Adder",
+          "npcs": [
+            1002393
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7604",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Immortal Flames",
+          "npcs": [
+            1002390
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "7604",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "22",
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "instances": [
+        27,
+        28,
+        26
+      ],
+      "seeds": [
+        7750
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27832",
+      "obj": {
+        "i": 27832,
+        "n": "Upland Wheat",
+        "l": 400,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "618",
+      "obj": {
+        "i": 618,
+        "n": "Seagazer",
+        "l": 75,
+        "t": 3,
+        "z": 2954
+      }
+    },
+    {
+      "type": "node",
+      "id": "632",
+      "obj": {
+        "i": 632,
+        "n": "Sharptongue Drip",
+        "l": 80,
+        "t": 2,
+        "z": 2954,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "instance",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Snowcloak",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Sastasha (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "instance",
+      "id": "26",
+      "obj": {
+        "i": 26,
+        "n": "The Sunken Temple of Qarn (Hard)",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 80
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002393",
+      "obj": {
+        "i": 1002393,
+        "n": "Serpent Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.89,
+          11.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21",
+      "obj": {
+        "i": 21,
+        "n": "Serpent Seal",
+        "l": 1,
+        "c": 65005,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "24273",
+      "obj": {
+        "i": 24273,
+        "n": "Master Culinarian VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27846",
+      "obj": {
+        "i": 27846,
+        "n": "Kriollo Kukuru Bean",
+        "l": 450,
+        "c": 25314,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27841",
+      "obj": {
+        "i": 27841,
+        "n": "Upland Wheat Flour",
+        "l": 403,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27835",
+      "obj": {
+        "i": 27835,
+        "n": "Lemonette",
+        "l": 420,
+        "c": 25305,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12894",
+      "obj": {
+        "i": 12894,
+        "n": "Sour Cream",
+        "l": 125,
+        "c": 25056,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12895",
+      "obj": {
+        "i": 12895,
+        "n": "Fermented Butter",
+        "l": 130,
+        "c": 25052,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "7604",
+      "obj": {
+        "i": 7604,
+        "n": "Royal Kukuru Bean",
+        "l": 90,
+        "c": 25314,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69215",
+      "obj": {
+        "i": 69215,
+        "n": "For the People",
+        "g": 9,
+        "l": "Eulmore",
+        "s": 70
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69302",
+      "obj": {
+        "i": 69302,
+        "n": "An Old Friend",
+        "g": 9,
+        "l": "The Rak'tika Greatwood",
+        "s": 160
+      }
+    }
+  ]
+}

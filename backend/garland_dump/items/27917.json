@@ -1,0 +1,98 @@
+{
+  "item": {
+    "name": "Rencounter Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Rencounter</span>. Use to add to your orchestrion list.",
+    "id": 27917,
+    "patch": 5.0,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 329,
+      "name": "Rencounter",
+      "description": "Available for exchange in the Crystarium or Eulmore.",
+      "category": "Locales II",
+      "order": 18
+    },
+    "tradeShops": [
+      {
+        "shop": "Sacks of Nuts Exchange",
+        "npcs": [
+          1027988,
+          1029975
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27917",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 300
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027988",
+      "obj": {
+        "i": 1027988,
+        "n": "Xylle",
+        "l": 2951,
+        "s": 5,
+        "q": 4,
+        "t": "Clan Nutsy Member",
+        "r": 1,
+        "a": 3246,
+        "c": [
+          9.48,
+          9.58
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1029975",
+      "obj": {
+        "i": 1029975,
+        "n": "Ilfroy",
+        "l": 2952,
+        "s": 5,
+        "t": "Clan Nutsy Member",
+        "r": 1,
+        "a": 3265,
+        "c": [
+          11.05,
+          10.84
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

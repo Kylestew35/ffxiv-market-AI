@@ -1,0 +1,217 @@
+{
+  "item": {
+    "name": "Book of Spades",
+    "jobCategories": "ACN SMN",
+    "id": 7358,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 35022,
+    "ilvl": 110,
+    "category": 10,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 589,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 633,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 69,
+    "models": [
+      "1717-1-3-0"
+    ],
+    "attr": {
+      "Physical Damage": 63,
+      "Magic Damage": 63,
+      "Delay": 3.12,
+      "Intelligence": 42,
+      "Vitality": 39,
+      "Determination": 44,
+      "Critical Hit": 31
+    },
+    "icon": 33476,
+    "sharedModels": [
+      7292,
+      10651,
+      18043
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gerolt's Masterworks Repair (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7358",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7292",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gerolt's Masterworks",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7358",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gerolt's Masterworks (IL 110)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7358",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      31701
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7292",
+      "obj": {
+        "i": 7292,
+        "n": "Weathered Book of Spades",
+        "l": 100,
+        "c": 33476,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "10651",
+      "obj": {
+        "i": 10651,
+        "n": "Noble Gold",
+        "l": 150,
+        "c": 33529,
+        "t": 10,
+        "p": 31838
+      }
+    },
+    {
+      "type": "item",
+      "id": "18043",
+      "obj": {
+        "i": 18043,
+        "n": "Koppranickel Index",
+        "l": 255,
+        "c": 33233,
+        "t": 10,
+        "p": 36352
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31701",
+      "obj": {
+        "i": 31701,
+        "n": "Level 50 Weapon Coffer (IL 110)",
+        "l": 1,
+        "c": 26557,
+        "t": 61
+      }
+    }
+  ]
+}

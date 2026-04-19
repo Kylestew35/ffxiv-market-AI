@@ -1,0 +1,107 @@
+{
+  "item": {
+    "name": "Wind-up Gunnhildr",
+    "description": "Protects her people as a queen, a god, and now a mammet.<br><br>Use item to acquire the wind-up Gunnhildr minion.",
+    "minionrace": "Poppet",
+    "tooltip": "The will of Queen Gunnhildr\r\nshall not be denied.\r\n   - Misija",
+    "minionskilltype": "Trap",
+    "specialactionname": "White Queen",
+    "specialactiondescription": "Sets a trap that, when triggered, reduces the movement speed of all enemies within range by 70%.<br><span class=\"highlight-green\">Duration:</span> 20s<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 33700,
+    "patch": 5.55,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59818,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33700",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 30,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 450,
+      "Skill Cost": 30,
+      "Attack": 75,
+      "Defense": 55,
+      "Speed": 2
+    },
+    "models": [
+      "8377-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "item": {
+    "name": "Thicker than a Knife's Blade Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Thicker than a Knife's Blade</span>. Use to add to your orchestrion list.",
+    "id": 17625,
+    "patch": 3.5,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 122,
+      "name": "Thicker than a Knife's Blade",
+      "description": "Available for Centurio Seal exchange at the Forgotten Knight.",
+      "category": "Locales I",
+      "order": 47
+    },
+    "tradeShops": [
+      {
+        "shop": "Exchange Centurio Seals",
+        "npcs": [
+          1012225
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17625",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 300
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012225",
+      "obj": {
+        "i": 1012225,
+        "n": "Ardolain",
+        "l": 2300,
+        "s": 2,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.05,
+          11.85
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

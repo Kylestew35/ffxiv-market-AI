@@ -1,0 +1,68 @@
+{
+  "item": {
+    "name": "Thorne Dynasty Map",
+    "description": "A faded map detailing the location of treasure buried during the rule of House Thorne.<br><br>※Use the action <span class=\"highlight\">Decipher</span> to extract the map and examine its contents.<br>※Level 40 recommended.",
+    "id": 9900,
+    "patch": 2.51,
+    "patchCategory": 5,
+    "price": 200,
+    "ilvl": 40,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25940,
+    "vendors": [
+      1011782
+    ],
+    "quests": [
+      66035,
+      66036
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011782",
+      "obj": {
+        "i": 1011782,
+        "n": "Capitalistic Chambermaid",
+        "l": 40,
+        "s": 2,
+        "r": 1,
+        "a": 613,
+        "c": [
+          11.96,
+          8.41
+        ]
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66035",
+      "obj": {
+        "i": 66035,
+        "n": "A Thorne-y Relationship",
+        "g": 240,
+        "l": "Ul'dah",
+        "s": 77
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66036",
+      "obj": {
+        "i": 66036,
+        "n": "Digging for Dolls",
+        "g": 240,
+        "l": "Ul'dah",
+        "s": 78,
+        "r": 1
+      }
+    }
+  ]
+}

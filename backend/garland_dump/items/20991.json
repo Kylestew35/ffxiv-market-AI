@@ -1,0 +1,160 @@
+{
+  "item": {
+    "name": "Hellhound Staff",
+    "jobCategories": "THM BLM",
+    "id": 20991,
+    "patch": 4.1,
+    "patchCategory": 0,
+    "price": 2,
+    "ilvl": 1,
+    "category": 7,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5594,
+    "glamourous": 1,
+    "slot": 13,
+    "elvl": 1,
+    "jobs": 55,
+    "models": [
+      "1001-67-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 9,
+      "Magic Damage": 9,
+      "Delay": 3.28
+    },
+    "icon": 33095,
+    "sharedModels": [
+      40465
+    ],
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20991",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21067",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Wolf Collar Exchange",
+        "npcs": [
+          1024213
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20991",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21067",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "コメンデーションクリスタルの取引",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40465",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20991",
+                "amount": 1
+              },
+              {
+                "id": "40479",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "40465",
+      "obj": {
+        "i": 40465,
+        "n": "Augmented Hellhound Staff",
+        "l": 1,
+        "c": 33095,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "21067",
+      "obj": {
+        "i": 21067,
+        "n": "Wolf Collar",
+        "l": 1,
+        "c": 26517,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024213",
+      "obj": {
+        "i": 1024213,
+        "n": "Collar Quartermaster",
+        "l": 358,
+        "s": 1,
+        "t": "Wolf Collar Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "40479",
+      "obj": {
+        "i": 40479,
+        "n": "Commendation Crystal",
+        "l": 1,
+        "c": 26640,
+        "t": 61
+      }
+    }
+  ]
+}

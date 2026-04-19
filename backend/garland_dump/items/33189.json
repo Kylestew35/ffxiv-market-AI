@@ -1,0 +1,87 @@
+{
+  "item": {
+    "name": "Resplendent Goldsmith's Material A",
+    "description": "The clinking sound coming from within is suspiciously similar to that of broken glass. This does not bode well.",
+    "id": 33189,
+    "patch": 5.5,
+    "patchCategory": 5,
+    "price": 200,
+    "ilvl": 510,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 40,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21002,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33189",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33189",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 25
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "36314": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "36314",
+      "obj": {
+        "i": 36314,
+        "n": "Resplendent Goldsmith's Component A",
+        "l": 510,
+        "c": 20974,
+        "t": 61
+      }
+    }
+  ]
+}

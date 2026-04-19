@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Audio Materials",
+    "description": "An assortment of pieces compatible with Loporrit-made sound systems.<br><br>※Only for use in Loporrit society quests.",
+    "id": 38852,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "38853": 1
+    },
+    "usedInQuest": [
+      70223
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "38853",
+      "obj": {
+        "i": 38853,
+        "n": "Audio Spare Parts",
+        "l": 430,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70223",
+      "obj": {
+        "i": 70223,
+        "n": "Don't Stop the Music",
+        "g": 73,
+        "l": "Mare Lamentorum",
+        "s": 101,
+        "r": 1
+      }
+    }
+  ]
+}

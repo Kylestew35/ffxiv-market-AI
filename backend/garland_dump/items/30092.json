@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "The Behatted Serpent of Ronka",
+    "description": "Tremble, child of man, for a creature of purest divinity wiggleth before thee in all of its behatted glory.<br><br>Use item to acquire the Behatted Serpent of Ronka minion.",
+    "minionrace": "Critter",
+    "tooltip": "Screee-eee!\r\n   - The Behatted Serpent of Ronka",
+    "minionskilltype": "Damage",
+    "specialactionname": "Lost Mystery",
+    "specialactiondescription": "Delivers an attack with a potency of 90 to all enemies within range.",
+    "id": 30092,
+    "patch": 5.2,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59770,
+    "tradeShops": [
+      {
+        "shop": "Qitari Compliment Exchange",
+        "npcs": [
+          1032661
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30092",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28187",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 120,
+    "aoe": 1,
+    "strengths": [],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 55,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8333-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032661",
+      "obj": {
+        "i": 1032661,
+        "n": "Yuqurl Manl",
+        "l": 2957,
+        "s": 4,
+        "t": "Qitari Vendor",
+        "r": 1,
+        "a": 3472,
+        "c": [
+          37.37,
+          17.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28187",
+      "obj": {
+        "i": 28187,
+        "n": "Qitari Compliment",
+        "l": 1,
+        "c": 65077,
+        "t": 100
+      }
+    }
+  ]
+}

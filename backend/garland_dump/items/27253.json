@@ -1,0 +1,114 @@
+{
+  "item": {
+    "name": "Offering of Sweets",
+    "description": "A variety of colorful confections to excite and delight the fae.",
+    "id": 27253,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 406,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25997,
+    "craft": [
+      {
+        "id": 33484,
+        "job": 14,
+        "rlvl": 406,
+        "durability": 80,
+        "quality": 2255,
+        "progress": 1001,
+        "lvl": 75,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 27252,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 2
+          },
+          {
+            "id": 12,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 100033,
+          "hq": 100053
+        }
+      },
+      {
+        "id": 33490,
+        "job": 15,
+        "rlvl": 406,
+        "durability": 80,
+        "quality": 2255,
+        "progress": 1001,
+        "lvl": 75,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 27252,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 2
+          },
+          {
+            "id": 13,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 100033,
+          "hq": 100053
+        }
+      }
+    ],
+    "usedInQuest": [
+      68770
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Sweets Ingredients",
+      "id": 27252,
+      "icon": 26110,
+      "category": 63,
+      "ilvl": 406,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27252",
+      "obj": {
+        "i": 27252,
+        "n": "Sweets Ingredients",
+        "l": 406,
+        "c": 26110,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68770",
+      "obj": {
+        "i": 68770,
+        "n": "Where We Belong",
+        "g": 199,
+        "l": "The Crystarium",
+        "s": 320
+      }
+    }
+  ]
+}

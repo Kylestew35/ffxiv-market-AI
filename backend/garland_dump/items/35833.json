@@ -1,0 +1,130 @@
+{
+  "item": {
+    "name": "Bicolor Gemstone Voucher",
+    "description": "Proof that you have delivered many a bicolor gemstone.<br><br>Copies of the same bicolor gemstone voucher can be traded with Edelina in Mor Dhona for special items.",
+    "id": 35833,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25906,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35833",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Bicolor Gemstone Vouchers",
+        "npcs": [
+          1036913
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36005",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35833",
+                "amount": 500
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "36340",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35833",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036913",
+      "obj": {
+        "i": 1036913,
+        "n": "Edelina",
+        "l": 67,
+        "s": 2,
+        "t": "Luxury Trader",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.19,
+          4.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36005",
+      "obj": {
+        "i": 36005,
+        "n": "Wivre Horn",
+        "l": 1,
+        "c": 26038,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36340",
+      "obj": {
+        "i": 36340,
+        "n": "Fallen Angel Wings",
+        "l": 1,
+        "c": 58017,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "item": {
+    "name": "Wind-up Ramza",
+    "description": "Stands ready to fight for truth, justice, and the Ivalician way.<br><br>Use item to acquire the wind-up Ramza minion.",
+    "minionrace": "Poppet",
+    "tooltip": "Put that damnable thing\r\ndown, Ramza. You're not\r\nhelping matters!\r\n   - Jenomis cen Lexentale",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "I'm Trying!",
+    "specialactiondescription": "Renders action party immune to all attacks.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 21061,
+    "patch": 4.5,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59670,
+    "instances": [
+      30077,
+      30077
+    ],
+    "tradeShops": [
+      {
+        "shop": "Irregular Tomestone Exchange (Seasonal)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21061",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33329",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 30,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 620,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 50,
+      "Speed": 4
+    },
+    "models": [
+      "8243-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30077",
+      "obj": {
+        "i": 30077,
+        "n": "The Orbonne Monastery",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 70,
+        "max_lvl": 70,
+        "min_ilvl": 365
+      }
+    },
+    {
+      "type": "item",
+      "id": "33329",
+      "obj": {
+        "i": 33329,
+        "n": "Irregular Tomestone of Pageantry",
+        "l": 1,
+        "c": "t/26328",
+        "t": 63
+      }
+    }
+  ]
+}

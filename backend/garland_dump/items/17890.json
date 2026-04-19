@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Custom-made Hammer",
+    "description": "A remarkably small hammer intended for use on projects requiring extreme delicacy.",
+    "id": 17890,
+    "patch": 4.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 285,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 35116,
+    "craft": [
+      {
+        "id": 32278,
+        "job": 9,
+        "rlvl": 285,
+        "durability": 80,
+        "quality": 1881,
+        "progress": 686,
+        "lvl": 68,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 17889,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 2
+          },
+          {
+            "id": 11,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 100027,
+          "hq": 100047
+        }
+      }
+    ],
+    "usedInQuest": [
+      68154
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Guild-forged Ingot",
+      "id": 17889,
+      "icon": 20832,
+      "category": 63,
+      "ilvl": 285,
+      "price": 2
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "17889",
+      "obj": {
+        "i": 17889,
+        "n": "Guild-forged Ingot",
+        "l": 285,
+        "c": 20832,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68154",
+      "obj": {
+        "i": 68154,
+        "n": "The Missing Piece",
+        "g": 165,
+        "l": "Limsa Lominsa",
+        "s": 680,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Wall Repair Supplies Materials",
+    "description": "Materials required to craft various tools for repairing the walls surrounding Bahrr Lehs.<br><br>※Only for use in moogle society quests.",
+    "id": 15755,
+    "patch": 3.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 55,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "15729": 1
+    },
+    "usedInQuest": [
+      67830
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "15729",
+      "obj": {
+        "i": 15729,
+        "n": "Wall Repair Supplies",
+        "l": 55,
+        "c": 21005,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67830",
+      "obj": {
+        "i": 67830,
+        "n": "Moogle on the Wall",
+        "g": 55,
+        "l": "The Churning Mists",
+        "s": 13,
+        "r": 1
+      }
+    }
+  ]
+}

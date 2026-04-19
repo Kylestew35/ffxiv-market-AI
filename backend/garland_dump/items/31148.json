@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Grooming Kit Materials",
+    "description": "Assorted materials necessary for preparing a grooming kit for dwarven beards.<br><br>※Only for use in dwarf society quests.",
+    "id": 31148,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "31149": 1
+    },
+    "usedInQuest": [
+      69439
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31149",
+      "obj": {
+        "i": 31149,
+        "n": "Grooming Kit",
+        "l": 290,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69439",
+      "obj": {
+        "i": 69439,
+        "n": "Clean Beard, Clear Mind",
+        "g": 67,
+        "l": "Lakeland",
+        "s": 102,
+        "r": 1
+      }
+    }
+  ]
+}

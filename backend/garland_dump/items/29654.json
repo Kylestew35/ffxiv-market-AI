@@ -1,0 +1,386 @@
+{
+  "item": {
+    "name": "Oddly Specific Fitting",
+    "description": "On one hand, it is a relatively simple matter to understand why precision in the measurement and shaping of this joining piece is required. On the other, the instructions also requested that it “smell lightly of La Noscean orange,” so perhaps some skepticism is warranted.",
+    "id": 29654,
+    "patch": 5.25,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 430,
+    "category": 49,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21013,
+    "tradeCurrency": [
+      {
+        "shop": "Skysteel Prototype +1 Augmentation",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29635",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29624",
+                "amount": 1
+              },
+              {
+                "id": "29654",
+                "amount": 30,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 33770,
+        "job": 9,
+        "rlvl": 450,
+        "durability": 70,
+        "quality": 7900,
+        "progress": 1845,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 29662,
+            "amount": 1
+          },
+          {
+            "id": 27713,
+            "amount": 1,
+            "quality": 1902.8857
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 11,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 289,
+          "hq": 309
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Oddly Specific Iron Sand",
+      "id": 29662,
+      "icon": 21204,
+      "category": 48,
+      "ilvl": 440,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29662",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Skysteel Prototype Augmentation)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29662",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Titanbronze Ingot",
+      "id": 27713,
+      "icon": 20803,
+      "category": 49,
+      "ilvl": 409,
+      "price": 2996,
+      "craft": [
+        {
+          "id": 3820,
+          "job": 9,
+          "rlvl": 409,
+          "durability": 40,
+          "quality": 3360,
+          "progress": 750,
+          "lvl": 76,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27701,
+              "amount": 4
+            },
+            {
+              "id": 12537,
+              "amount": 1
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 88,
+            "hq": 108
+          }
+        },
+        {
+          "id": 3825,
+          "job": 10,
+          "rlvl": 409,
+          "durability": 40,
+          "quality": 3360,
+          "progress": 750,
+          "lvl": 76,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27701,
+              "amount": 4
+            },
+            {
+              "id": 12537,
+              "amount": 1
+            },
+            {
+              "id": 9,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 88,
+            "hq": 108
+          }
+        }
+      ],
+      "desynthedFrom": [
+        32244,
+        28227,
+        27132,
+        35770,
+        28221
+      ],
+      "leves": [
+        1442,
+        1443,
+        1444,
+        1458,
+        1459
+      ]
+    },
+    {
+      "name": "Titancopper Ore",
+      "id": 27701,
+      "icon": 21202,
+      "category": 48,
+      "ilvl": 412,
+      "price": 210,
+      "leves": [
+        1457
+      ],
+      "ventures": [
+        796
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Titanium Ore",
+      "id": 12537,
+      "icon": 21222,
+      "category": 48,
+      "ilvl": 136,
+      "price": 807,
+      "desynthedFrom": [
+        12772
+      ],
+      "leves": [
+        980,
+        981,
+        982,
+        983,
+        984,
+        985,
+        1010,
+        1011,
+        1012,
+        1013,
+        1014,
+        1015
+      ],
+      "ventures": [
+        546
+      ],
+      "nodes": [
+        286
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27701",
+      "obj": {
+        "i": 27701,
+        "n": "Titancopper Ore",
+        "l": 412,
+        "c": 21202,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "12537",
+      "obj": {
+        "i": 12537,
+        "n": "Titanium Ore",
+        "l": 136,
+        "c": 21222,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "286",
+      "obj": {
+        "i": 286,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 0,
+        "z": 2000
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29624",
+      "obj": {
+        "i": 29624,
+        "n": "Skysteel Cross-pein Hammer +1",
+        "l": 455,
+        "c": 35136,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "29635",
+      "obj": {
+        "i": 29635,
+        "n": "Dragonsung Cross-pein Hammer",
+        "l": 475,
+        "c": 35135,
+        "t": 14
+      }
+    },
+    {
+      "type": "item",
+      "id": "29662",
+      "obj": {
+        "i": 29662,
+        "n": "Oddly Specific Iron Sand",
+        "l": 440,
+        "c": 21204,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27713",
+      "obj": {
+        "i": 27713,
+        "n": "Titanbronze Ingot",
+        "l": 409,
+        "c": 20803,
+        "t": 49
+      }
+    }
+  ]
+}

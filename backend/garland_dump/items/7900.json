@@ -1,0 +1,115 @@
+{
+  "item": {
+    "name": "Pahsana Fruit",
+    "description": "A bright-red tomato-like fruit brought back from the New World by Lominsan explorers. While too tangy for most people's tastes, chocobos are known to enjoy the flavor, and thus the fruits are often used as fodder for the animals.<br><br>Increases your chocobo companion's enmity.",
+    "id": 7900,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 348,
+    "ilvl": 55,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25209,
+    "seeds": [
+      8173
+    ],
+    "vendors": [
+      1016804
+    ],
+    "tradeShops": [
+      {
+        "shop": "Black Copper Gil Exchange",
+        "npcs": [
+          1016804
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7900",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21079",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "9618": 1,
+      "9619": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8173",
+      "obj": {
+        "i": 8173,
+        "n": "Pahsana Fruit Seeds",
+        "l": 1,
+        "c": 27453,
+        "t": 82
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "9618",
+      "obj": {
+        "i": 9618,
+        "n": "Grade 1 Feed - Acceleration Blend",
+        "l": 30,
+        "c": 27552,
+        "t": 61,
+        "p": 1500
+      }
+    },
+    {
+      "type": "item",
+      "id": "9619",
+      "obj": {
+        "i": 9619,
+        "n": "Grade 2 Feed - Acceleration Blend",
+        "l": 70,
+        "c": 27552,
+        "t": 61
+      }
+    }
+  ]
+}

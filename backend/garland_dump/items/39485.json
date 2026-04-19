@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Moon-hopper Identification Key",
+    "description": "A thin, rectangular piece of some unknown material. Placing it near your moon-hopper will magically bring the machine to life.",
+    "mount": {
+      "name": "Moon-hopper",
+      "action": "Summon forth the moon-hopper. Guaranteed to instill a sense of well-being within all those in earshot.",
+      "description": "This enhanced version of the supporter was lovingly created by the ever-innovative Inventingway. Not satisfied with merely making it ridable, the Loporrit also fitted a compact speaker that can belt out Dreamingway's feel-good sounds.",
+      "tooltip": "Well, then, let's hop to it!<br>   - Dreamingway",
+      "icon": 4245,
+      "guideIcon": 68245
+    },
+    "id": 39485,
+    "patch": 6.35,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Loporrit Carat Exchange",
+        "npcs": [
+          1044404
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39485",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38952",
+                "amount": 18
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "773-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1044404",
+      "obj": {
+        "i": 1044404,
+        "n": "Coiningway",
+        "l": 3711,
+        "s": 4,
+        "t": "Dreaming Vendor",
+        "r": 1,
+        "a": 4290,
+        "c": [
+          17.43,
+          15.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38952",
+      "obj": {
+        "i": 38952,
+        "n": "Loporrit Carat",
+        "l": 1,
+        "c": "t/65100",
+        "t": 100
+      }
+    }
+  ]
+}

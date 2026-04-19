@@ -1,0 +1,503 @@
+{
+  "item": {
+    "name": "Boiled Amberjack Head",
+    "description": "The head of an amberjack boiled in a soy-based sauce with thick-sliced daikon radish.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19823,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2198,
+    "ilvl": 285,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 35
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 37
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 21
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 44
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 46
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 26
+        }
+      }
+    },
+    "icon": 24321,
+    "craft": [
+      {
+        "id": 3565,
+        "job": 15,
+        "rlvl": 285,
+        "durability": 80,
+        "quality": 3420,
+        "progress": 980,
+        "lvl": 68,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 20199,
+            "amount": 1
+          },
+          {
+            "id": 19855,
+            "amount": 1
+          },
+          {
+            "id": 12906,
+            "amount": 1
+          },
+          {
+            "id": 19880,
+            "amount": 1
+          },
+          {
+            "id": 19857,
+            "amount": 1
+          },
+          {
+            "id": 19844,
+            "amount": 1,
+            "quality": 311.22
+          },
+          {
+            "id": 8,
+            "amount": 5
+          },
+          {
+            "id": 13,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 213,
+          "hq": 233
+        }
+      }
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 695100,
+      "seals": 782
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Amberjack",
+      "id": 20199,
+      "icon": 29140,
+      "category": 47,
+      "ilvl": 245,
+      "price": 1000,
+      "tradeShops": [
+        {
+          "shop": "Kojin Sango Exchange",
+          "npcs": [
+            1024219
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20199",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21081",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "nodes": [
+        472
+      ]
+    },
+    {
+      "name": "Daikon Radish",
+      "id": 19855,
+      "icon": 25215,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        694
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Oriental Soy Sauce",
+      "id": 12906,
+      "icon": 27602,
+      "category": 45,
+      "ilvl": 136,
+      "price": 430,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12906",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12906",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1018984,
+        1019333
+      ]
+    },
+    {
+      "name": "Ruby Tide Kelp",
+      "id": 19880,
+      "icon": 25217,
+      "category": 45,
+      "ilvl": 282,
+      "price": 548,
+      "ventures": [
+        699
+      ],
+      "nodes": [
+        529
+      ]
+    },
+    {
+      "name": "Jhammel Ginger",
+      "id": 19857,
+      "icon": 25012,
+      "category": 45,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        700
+      ],
+      "nodes": [
+        526
+      ]
+    },
+    {
+      "name": "Beet Sugar",
+      "id": 19844,
+      "icon": 25103,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "craft": [
+        {
+          "id": 3584,
+          "job": 15,
+          "rlvl": 273,
+          "durability": 40,
+          "quality": 2448,
+          "progress": 390,
+          "lvl": 64,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19856,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sugar Beet",
+      "id": 19856,
+      "icon": 25223,
+      "category": 45,
+      "ilvl": 273,
+      "price": 540,
+      "ventures": [
+        687
+      ],
+      "nodes": [
+        512
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "472",
+      "obj": {
+        "i": 472,
+        "n": "The Kobayashi Maru",
+        "l": 70,
+        "t": 5,
+        "z": 2409,
+        "s": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1024219",
+      "obj": {
+        "i": 1024219,
+        "n": "Shikitahe",
+        "l": 2409,
+        "s": 1,
+        "t": "Sango Exchange",
+        "r": 1,
+        "a": 2769,
+        "c": [
+          29.36,
+          16.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21081",
+      "obj": {
+        "i": 21081,
+        "n": "Kojin Sango",
+        "l": 1,
+        "c": 65058,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "529",
+      "obj": {
+        "i": 529,
+        "n": "Rasen Kaikyo",
+        "l": 70,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "526",
+      "obj": {
+        "i": 526,
+        "n": "Abalathia's Skull",
+        "l": 70,
+        "t": 3,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          4,
+          16
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19856",
+      "obj": {
+        "i": 19856,
+        "n": "Sugar Beet",
+        "l": 273,
+        "c": 25223,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "512",
+      "obj": {
+        "i": 512,
+        "n": "The Last Forest",
+        "l": 65,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "20199",
+      "obj": {
+        "i": 20199,
+        "n": "Amberjack",
+        "l": 245,
+        "c": 29140,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "19855",
+      "obj": {
+        "i": 19855,
+        "n": "Daikon Radish",
+        "l": 279,
+        "c": 25215,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12906",
+      "obj": {
+        "i": 12906,
+        "n": "Oriental Soy Sauce",
+        "l": 136,
+        "c": 27602,
+        "t": 45,
+        "p": 430
+      }
+    },
+    {
+      "type": "item",
+      "id": "19880",
+      "obj": {
+        "i": 19880,
+        "n": "Ruby Tide Kelp",
+        "l": 282,
+        "c": 25217,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19857",
+      "obj": {
+        "i": 19857,
+        "n": "Jhammel Ginger",
+        "l": 285,
+        "c": 25012,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19844",
+      "obj": {
+        "i": 19844,
+        "n": "Beet Sugar",
+        "l": 273,
+        "c": 25103,
+        "t": 45
+      }
+    }
+  ]
+}

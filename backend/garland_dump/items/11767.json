@@ -1,0 +1,200 @@
+{
+  "item": {
+    "name": "Parashu",
+    "jobCategories": "WAR",
+    "id": 11767,
+    "patch": 3.05,
+    "patchCategory": 0,
+    "price": 112266,
+    "ilvl": 210,
+    "category": 3,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "sell_price": 1123,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1170,
+    "slot": 13,
+    "elvl": 60,
+    "jobs": 22,
+    "models": [
+      "401-20-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 73,
+      "Magic Damage": 37,
+      "Delay": 3.44,
+      "Strength": 78,
+      "Vitality": 77,
+      "Critical Hit": 84,
+      "Tenacity": 59
+    },
+    "icon": 31490,
+    "sharedModels": [
+      10288,
+      13599,
+      13613,
+      13778
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Gear Repair (WAR)",
+        "npcs": [
+          1013747
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11767",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10288",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Artifact Gear Exchange (DoW, IL 210) I",
+        "npcs": [
+          1012158
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11767",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 140
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "10288",
+      "obj": {
+        "i": 10288,
+        "n": "Antiquated Parashu",
+        "l": 200,
+        "c": 31490,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "13599",
+      "obj": {
+        "i": 13599,
+        "n": "Parashu Awoken",
+        "l": 200,
+        "c": 31490,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "13613",
+      "obj": {
+        "i": 13613,
+        "n": "Animated Parashu",
+        "l": 170,
+        "c": 31490,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "13778",
+      "obj": {
+        "i": 13778,
+        "n": "Parashu Awoken Replica",
+        "l": 1,
+        "c": 31490,
+        "t": 3,
+        "p": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1013747",
+      "obj": {
+        "i": 1013747,
+        "n": "Seika",
+        "l": 2082,
+        "s": 22,
+        "t": "Gear Improvement",
+        "r": 1,
+        "a": 2094,
+        "c": [
+          6.74,
+          7.45
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012158",
+      "obj": {
+        "i": 1012158,
+        "n": "Yolaine",
+        "l": 2300,
+        "s": 5,
+        "t": "Centurio Seal Exchange",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.06,
+          11.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    }
+  ]
+}

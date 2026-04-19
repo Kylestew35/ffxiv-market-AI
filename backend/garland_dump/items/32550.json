@@ -1,0 +1,233 @@
+{
+  "item": {
+    "name": "Augmented Cryptlurker's Shoes of Healing",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 32550,
+    "patch": 5.4,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 530,
+    "category": 38,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 975,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1778,
+    "slot": 8,
+    "elvl": 80,
+    "jobs": 64,
+    "models": [
+      "710-1-0-0"
+    ],
+    "attr": {
+      "Defense": 244,
+      "Magic Defense": 427,
+      "Mind": 129,
+      "Vitality": 122,
+      "Piety": 126,
+      "Critical Hit": 88
+    },
+    "attr_max": {
+      "Strength": 90,
+      "Dexterity": 129,
+      "Vitality": 136,
+      "Intelligence": 90,
+      "GP": 17,
+      "CP": 10,
+      "Tenacity": 126,
+      "Defense": 336,
+      "Direct Hit Rate": 126,
+      "Critical Hit": 126,
+      "Fire Resistance": 16,
+      "Ice Resistance": 16,
+      "Wind Resistance": 16,
+      "Earth Resistance": 16,
+      "Lightning Resistance": 16,
+      "Water Resistance": 16,
+      "Determination": 126,
+      "Skill Speed": 126,
+      "Spell Speed": 126,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 60,
+      "Control": 347,
+      "Gathering": 31,
+      "Perception": 341
+    },
+    "icon": 49287,
+    "sharedModels": [
+      32470,
+      32476,
+      32556
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Poetics (DoM, IL 530)",
+        "npcs": [
+          1027564
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32550",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cryptlurker Gear Augmentation (DoM)",
+        "npcs": [
+          1027563
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32550",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "32470",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cryptlurker Gear (IL 530)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32550",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28",
+                "amount": 345
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "32470",
+      "obj": {
+        "i": 32470,
+        "n": "Cryptlurker's Shoes of Healing",
+        "l": 520,
+        "c": 49287,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "32476",
+      "obj": {
+        "i": 32476,
+        "n": "Cryptlurker's Shoes of Casting",
+        "l": 520,
+        "c": 49286,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "32556",
+      "obj": {
+        "i": 32556,
+        "n": "Augmented Cryptlurker's Shoes of Casting",
+        "l": 530,
+        "c": 49286,
+        "t": 38
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027563",
+      "obj": {
+        "i": 1027563,
+        "n": "Shee-Tatch",
+        "l": 2952,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.34,
+          12.05
+        ]
+      }
+    }
+  ]
+}

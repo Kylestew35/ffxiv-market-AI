@@ -1,0 +1,124 @@
+{
+  "item": {
+    "name": "Augmented Wizard's Coat",
+    "jobCategories": "BLM",
+    "id": 8422,
+    "patch": 2.3,
+    "patchCategory": 0,
+    "price": 30995,
+    "ilvl": 55,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "repair_item": 5598,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 4,
+    "elvl": 50,
+    "jobs": 26,
+    "models": [
+      "40-1-0-0"
+    ],
+    "attr": {
+      "Defense": 66,
+      "Magic Defense": 115,
+      "Intelligence": 15,
+      "Vitality": 16,
+      "Direct Hit Rate": 24,
+      "Spell Speed": 17
+    },
+    "icon": 42237,
+    "sharedModels": [
+      3226,
+      6080
+    ],
+    "tradeShops": [
+      {
+        "shop": "Artifact Equipment (DoM)",
+        "npcs": [
+          1006987
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8422",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "3226",
+                "amount": 1
+              },
+              {
+                "id": "8048",
+                "amount": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "3226",
+      "obj": {
+        "i": 3226,
+        "n": "Wizard's Coat",
+        "l": 55,
+        "c": 42237,
+        "t": 35,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6080",
+      "obj": {
+        "i": 6080,
+        "n": "Sorcerer's Coat",
+        "l": 90,
+        "c": 43631,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006987",
+      "obj": {
+        "i": 1006987,
+        "n": "Kakalan",
+        "l": 67,
+        "s": 4,
+        "t": "Forge Sales",
+        "r": 1,
+        "a": 1393,
+        "c": [
+          22.32,
+          5.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "8048",
+      "obj": {
+        "i": 8048,
+        "n": "Wizard's Attire Augmentation",
+        "l": 90,
+        "c": 26108,
+        "t": 56
+      }
+    }
+  ]
+}

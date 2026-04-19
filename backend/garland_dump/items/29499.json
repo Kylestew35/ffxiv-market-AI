@@ -1,0 +1,670 @@
+{
+  "item": {
+    "name": "Lemon Waffle",
+    "description": "Crispy on the outside and moist on the inside, this baked delight with a distinctive texture has a slight hint of citrus.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 29499,
+    "patch": 5.2,
+    "patchCategory": 6,
+    "price": 3785,
+    "ilvl": 480,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 53
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 54
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 32
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 66
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 68
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 40
+        }
+      }
+    },
+    "icon": 24091,
+    "craft": [
+      {
+        "id": 33888,
+        "job": 15,
+        "rlvl": 480,
+        "durability": 70,
+        "quality": 8500,
+        "progress": 2800,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2195,
+        "craftsmanshipReq": 2480,
+        "quickSynthCraftsmanship": 2620,
+        "unlockId": 29491,
+        "ingredients": [
+          {
+            "id": 29508,
+            "amount": 2
+          },
+          {
+            "id": 27839,
+            "amount": 1,
+            "quality": 494.47717
+          },
+          {
+            "id": 27835,
+            "amount": 2
+          },
+          {
+            "id": 27851,
+            "amount": 2
+          },
+          {
+            "id": 12895,
+            "amount": 1,
+            "quality": 162.73932
+          },
+          {
+            "id": 19846,
+            "amount": 1,
+            "quality": 337.99704
+          },
+          {
+            "id": 14,
+            "amount": 2
+          },
+          {
+            "id": 19,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 679,
+          "hq": 699
+        }
+      }
+    ],
+    "quests": [
+      69316,
+      69546
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Strong Flour",
+      "id": 29508,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 480,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29508",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29508",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden Beet Sugar",
+      "id": 27839,
+      "icon": 25108,
+      "category": 45,
+      "ilvl": 395,
+      "price": 2838,
+      "craft": [
+        {
+          "id": 3878,
+          "job": 15,
+          "rlvl": 395,
+          "durability": 40,
+          "quality": 3040,
+          "progress": 610,
+          "lvl": 72,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27824,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ],
+      "leves": [
+        1466,
+        1467,
+        1468
+      ]
+    },
+    {
+      "name": "Garden Beet",
+      "id": 27824,
+      "icon": 25223,
+      "category": 45,
+      "ilvl": 395,
+      "price": 210,
+      "ventures": [
+        824
+      ],
+      "nodes": [
+        617
+      ]
+    },
+    {
+      "name": "Lemonette",
+      "id": 27835,
+      "icon": 25305,
+      "category": 45,
+      "ilvl": 420,
+      "price": 630,
+      "ventures": [
+        858
+      ],
+      "nodes": [
+        632
+      ]
+    },
+    {
+      "name": "Lorikeet Egg",
+      "id": 27851,
+      "icon": 25251,
+      "category": 45,
+      "ilvl": 400,
+      "price": 2302,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027665
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27851",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        778
+      ]
+    },
+    {
+      "name": "Fermented Butter",
+      "id": 12895,
+      "icon": 25052,
+      "category": 45,
+      "ilvl": 130,
+      "price": 205,
+      "craft": [
+        {
+          "id": 2821,
+          "job": 15,
+          "rlvl": 130,
+          "durability": 40,
+          "quality": 1768,
+          "progress": 150,
+          "lvl": 53,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 77,
+            "hq": 97
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    },
+    {
+      "name": "Cottonseed Oil",
+      "id": 19846,
+      "icon": 25452,
+      "category": 45,
+      "ilvl": 270,
+      "price": 534,
+      "craft": [
+        {
+          "id": 3585,
+          "job": 15,
+          "rlvl": 270,
+          "durability": 40,
+          "quality": 2376,
+          "progress": 365,
+          "lvl": 63,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19979,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ruby Cotton Boll",
+      "id": 19979,
+      "icon": 21652,
+      "category": 51,
+      "ilvl": 265,
+      "price": 2098,
+      "leves": [
+        1301,
+        1302,
+        1303
+      ],
+      "ventures": [
+        686
+      ],
+      "nodes": [
+        511
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27824",
+      "obj": {
+        "i": 27824,
+        "n": "Garden Beet",
+        "l": 395,
+        "c": 25223,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "632",
+      "obj": {
+        "i": 632,
+        "n": "Sharptongue Drip",
+        "l": 80,
+        "t": 2,
+        "z": 2954,
+        "lt": "Unspoiled",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "19979",
+      "obj": {
+        "i": 19979,
+        "n": "Ruby Cotton Boll",
+        "l": 265,
+        "c": 21652,
+        "t": 51
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "item",
+      "id": "29491",
+      "obj": {
+        "i": 29491,
+        "n": "Master Culinarian VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "29508",
+      "obj": {
+        "i": 29508,
+        "n": "Strong Flour",
+        "l": 480,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27839",
+      "obj": {
+        "i": 27839,
+        "n": "Garden Beet Sugar",
+        "l": 395,
+        "c": 25108,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27835",
+      "obj": {
+        "i": 27835,
+        "n": "Lemonette",
+        "l": 420,
+        "c": 25305,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27851",
+      "obj": {
+        "i": 27851,
+        "n": "Lorikeet Egg",
+        "l": 400,
+        "c": 25251,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12895",
+      "obj": {
+        "i": 12895,
+        "n": "Fermented Butter",
+        "l": 130,
+        "c": 25052,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19846",
+      "obj": {
+        "i": 19846,
+        "n": "Cottonseed Oil",
+        "l": 270,
+        "c": 25452,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69316",
+      "obj": {
+        "i": 69316,
+        "n": "The Journey Continues",
+        "g": 9,
+        "l": "Eulmore",
+        "s": 300
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69546",
+      "obj": {
+        "i": 69546,
+        "n": "Forget Us Not",
+        "g": 10,
+        "l": "The Rising Stones",
+        "s": 360
+      }
+    }
+  ]
+}

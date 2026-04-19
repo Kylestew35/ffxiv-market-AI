@@ -1,0 +1,99 @@
+{
+  "item": {
+    "name": "Loaghtan Fillet",
+    "description": "Taken from the upper loin of a domesticated loaghtan, this meat is tender enough that it does not require any preparation before cooking.",
+    "id": 14145,
+    "patch": 3.2,
+    "patchCategory": 5,
+    "price": 1140,
+    "ilvl": 180,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 2,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25159,
+    "tradeShops": [
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14145",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14145",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "14138": 2,
+      "16714": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "14138",
+      "obj": {
+        "i": 14138,
+        "n": "Loaghtan Steak",
+        "l": 210,
+        "c": 24355,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "16714",
+      "obj": {
+        "i": 16714,
+        "n": "Loaghtan Cordon Bleu",
+        "l": 250,
+        "c": 24363,
+        "t": 46
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Culinary Knife Component Materials",
+    "description": "Materials required to craft components for a culinary knife.<br><br>※Only for use in Namazu society quests.",
+    "id": 22717,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 150,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "22743": 1
+    },
+    "usedInQuest": [
+      68662
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "22743",
+      "obj": {
+        "i": 22743,
+        "n": "Culinary Knife Component",
+        "l": 150,
+        "c": 21003,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68662",
+      "obj": {
+        "i": 68662,
+        "n": "A Favor Repaid",
+        "g": 61,
+        "l": "The Azim Steppe",
+        "s": 23,
+        "r": 1
+      }
+    }
+  ]
+}

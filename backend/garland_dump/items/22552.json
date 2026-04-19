@@ -1,0 +1,434 @@
+{
+  "item": {
+    "name": "Assorted Candles",
+    "description": "Whatever you enshrine with these many, many candles is your business.",
+    "id": 22552,
+    "patch": 4.3,
+    "patchCategory": 9,
+    "price": 3000,
+    "ilvl": 1,
+    "category": 78,
+    "dyeable": 1,
+    "dyecount": 1,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 14,
+    "icon": 53229,
+    "craft": [
+      {
+        "id": 32991,
+        "job": 14,
+        "rlvl": 320,
+        "durability": 70,
+        "quality": 2400,
+        "progress": 1200,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "controlReq": 1220,
+        "craftsmanshipReq": 1320,
+        "unlockId": 22315,
+        "ingredients": [
+          {
+            "id": 23222,
+            "amount": 2
+          },
+          {
+            "id": 5998,
+            "amount": 5
+          },
+          {
+            "id": 5999,
+            "amount": 5
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 430,
+          "hq": 450
+        }
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "675"
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Marine Wax Ester",
+      "id": 23222,
+      "icon": 22609,
+      "category": 61,
+      "ilvl": 1,
+      "price": 3,
+      "voyages": [
+        {
+          "id": 59,
+          "type": 1
+        },
+        {
+          "id": 62,
+          "type": 1
+        },
+        {
+          "id": 18,
+          "type": 1
+        },
+        {
+          "id": 25,
+          "type": 1
+        },
+        {
+          "id": 15,
+          "type": 1
+        },
+        {
+          "id": 36,
+          "type": 1
+        }
+      ]
+    },
+    {
+      "name": "Tallow Candle",
+      "id": 5998,
+      "icon": 26102,
+      "category": 61,
+      "ilvl": 20,
+      "price": 225,
+      "desynthedFrom": [
+        21869,
+        44109
+      ],
+      "drops": [
+        29360000002754,
+        29370000002753,
+        27190000002596,
+        27180000002594,
+        27200000002595
+      ],
+      "vendors": [
+        1000236,
+        1001204,
+        1001966,
+        1011201,
+        1018984,
+        1019333,
+        1027992
+      ]
+    },
+    {
+      "name": "Beeswax Candle",
+      "id": 5999,
+      "icon": 26101,
+      "category": 61,
+      "ilvl": 5,
+      "price": 45,
+      "vendors": [
+        1005633,
+        1005640,
+        1005647,
+        1019101,
+        1039487
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1000236",
+      "obj": {
+        "i": 1000236,
+        "n": "O'rhoyod",
+        "l": 53,
+        "s": 1,
+        "t": "Tradecraft Supplier",
+        "a": 564,
+        "c": [
+          14.42,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001204",
+      "obj": {
+        "i": 1001204,
+        "n": "Engerrand",
+        "l": 29,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Supplier",
+        "a": 744,
+        "c": [
+          8.66,
+          11.82
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001966",
+      "obj": {
+        "i": 1001966,
+        "n": "Fridurih",
+        "l": 41,
+        "s": 1,
+        "q": 1,
+        "t": "Tradecraft Merchant",
+        "a": 646,
+        "c": [
+          13.79,
+          9.57
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018984",
+      "obj": {
+        "i": 1018984,
+        "n": "Shirakashi",
+        "l": 2404,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 2917,
+        "c": [
+          12.1,
+          12.73
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019333",
+      "obj": {
+        "i": 1019333,
+        "n": "Traveling Material Supplier",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.7",
+          "29.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27180000002594",
+      "obj": {
+        "i": 27180000002594,
+        "n": "Champion Gladiator",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27200000002595",
+      "obj": {
+        "i": 27200000002595,
+        "n": "Champion Lancer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "27190000002596",
+      "obj": {
+        "i": 27190000002596,
+        "n": "Champion Marauder",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29370000002753",
+      "obj": {
+        "i": 29370000002753,
+        "n": "Champion Conjurer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "mob",
+      "id": "29360000002754",
+      "obj": {
+        "i": 29360000002754,
+        "n": "Champion Archer",
+        "l": "50",
+        "z": 49
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22315",
+      "obj": {
+        "i": 22315,
+        "n": "Master Alchemist VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "23222",
+      "obj": {
+        "i": 23222,
+        "n": "Marine Wax Ester",
+        "l": 1,
+        "c": 22609,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5998",
+      "obj": {
+        "i": 5998,
+        "n": "Tallow Candle",
+        "l": 20,
+        "c": 26102,
+        "t": 61,
+        "p": 225
+      }
+    },
+    {
+      "type": "item",
+      "id": "5999",
+      "obj": {
+        "i": 5999,
+        "n": "Beeswax Candle",
+        "l": 5,
+        "c": 26101,
+        "t": 61,
+        "p": 45
+      }
+    }
+  ]
+}

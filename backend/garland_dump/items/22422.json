@@ -1,0 +1,542 @@
+{
+  "item": {
+    "name": "Grade 3 Reisui of Strength",
+    "description": "When applied to items such as battle gear, this Far Eastern potation will, similarly to Eorzean dissolvents, dissolve away minute amounts of aether aspected to elements detrimental to strength, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 22422,
+    "patch": 4.2,
+    "patchCategory": 5,
+    "price": 2910,
+    "ilvl": 350,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 28,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20644,
+    "ingredient_of": {
+      "21696": 3,
+      "21698": 3,
+      "21708": 3,
+      "21717": 1,
+      "21718": 2,
+      "21719": 1,
+      "21720": 2,
+      "21721": 1,
+      "21723": 1,
+      "21724": 2,
+      "21725": 1,
+      "21726": 2,
+      "21727": 1,
+      "21754": 1,
+      "21759": 1,
+      "21764": 1,
+      "21769": 1
+    },
+    "craft": [
+      {
+        "id": 32639,
+        "job": 14,
+        "rlvl": 350,
+        "durability": 35,
+        "quality": 3900,
+        "progress": 1147,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22315,
+        "ingredients": [
+          {
+            "id": 21082,
+            "amount": 1
+          },
+          {
+            "id": 21085,
+            "amount": 1
+          },
+          {
+            "id": 19911,
+            "amount": 2
+          },
+          {
+            "id": 20014,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 396,
+          "hq": 416
+        }
+      }
+    ],
+    "alla": {
+      "source": [
+        "VENTURE"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Gyr Abanian Alchemic",
+      "id": 21082,
+      "icon": 22666,
+      "category": 54,
+      "ilvl": 320,
+      "price": 1000,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21082",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21082",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gyr Abanian Spring Water",
+      "id": 21085,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 300,
+      "price": 333,
+      "ventures": [
+        748
+      ],
+      "nodes": [
+        503
+      ]
+    },
+    {
+      "name": "Yanxian Parsley",
+      "id": 19911,
+      "icon": 25016,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        701
+      ],
+      "nodes": [
+        517
+      ]
+    },
+    {
+      "name": "Dawnlight Aethersand",
+      "id": 20014,
+      "icon": 22210,
+      "category": 54,
+      "ilvl": 290,
+      "price": 552,
+      "reducedFrom": [
+        20009,
+        20181
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20014",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "20014",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "503",
+      "obj": {
+        "i": 503,
+        "n": "Wightrock",
+        "l": 70,
+        "t": 0,
+        "z": 2407,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "20009",
+      "obj": {
+        "i": 20009,
+        "n": "Schorl",
+        "l": 279,
+        "c": 21476,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "20181",
+      "obj": {
+        "i": 20181,
+        "n": "Snow Crab",
+        "l": 225,
+        "c": 29110,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "21696",
+      "obj": {
+        "i": 21696,
+        "n": "Nightsteel Claws",
+        "l": 350,
+        "c": 31147,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "21698",
+      "obj": {
+        "i": 21698,
+        "n": "Black Willow Spear",
+        "l": 350,
+        "c": 31955,
+        "t": 5
+      }
+    },
+    {
+      "type": "item",
+      "id": "21708",
+      "obj": {
+        "i": 21708,
+        "n": "Nightsteel Katana",
+        "l": 350,
+        "c": 36463,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "21717",
+      "obj": {
+        "i": 21717,
+        "n": "Nightsteel Helm of Maiming",
+        "l": 350,
+        "c": 40295,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "21718",
+      "obj": {
+        "i": 21718,
+        "n": "Nightsteel Mail of Maiming",
+        "l": 350,
+        "c": 48166,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21719",
+      "obj": {
+        "i": 21719,
+        "n": "Nightsteel Gauntlets of Maiming",
+        "l": 350,
+        "c": 48700,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21720",
+      "obj": {
+        "i": 21720,
+        "n": "True Linen Breeches of Maiming",
+        "l": 350,
+        "c": 47390,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21721",
+      "obj": {
+        "i": 21721,
+        "n": "Nightsteel Greaves of Maiming",
+        "l": 350,
+        "c": 47140,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "21723",
+      "obj": {
+        "i": 21723,
+        "n": "Silvergrace Halfmask of Striking",
+        "l": 350,
+        "c": 41722,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "21724",
+      "obj": {
+        "i": 21724,
+        "n": "True Linen Coat of Striking",
+        "l": 350,
+        "c": 42589,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21725",
+      "obj": {
+        "i": 21725,
+        "n": "True Linen Halfgloves of Striking",
+        "l": 350,
+        "c": 44619,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21726",
+      "obj": {
+        "i": 21726,
+        "n": "True Linen Trousers of Striking",
+        "l": 350,
+        "c": 47391,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21727",
+      "obj": {
+        "i": 21727,
+        "n": "Slothskin Boots of Striking",
+        "l": 350,
+        "c": 49142,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "21754",
+      "obj": {
+        "i": 21754,
+        "n": "Silvergrace Earring of Slaying",
+        "l": 350,
+        "c": 55340,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "21759",
+      "obj": {
+        "i": 21759,
+        "n": "Black Willow Necklace of Slaying",
+        "l": 350,
+        "c": 54929,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "21764",
+      "obj": {
+        "i": 21764,
+        "n": "Black Willow Armillae of Slaying",
+        "l": 350,
+        "c": 55734,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "21769",
+      "obj": {
+        "i": 21769,
+        "n": "Silvergrace Ring of Slaying",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "22315",
+      "obj": {
+        "i": 22315,
+        "n": "Master Alchemist VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21082",
+      "obj": {
+        "i": 21082,
+        "n": "Gyr Abanian Alchemic",
+        "l": 320,
+        "c": 22666,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "21085",
+      "obj": {
+        "i": 21085,
+        "n": "Gyr Abanian Spring Water",
+        "l": 300,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19911",
+      "obj": {
+        "i": 19911,
+        "n": "Yanxian Parsley",
+        "l": 285,
+        "c": 25016,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "20014",
+      "obj": {
+        "i": 20014,
+        "n": "Dawnlight Aethersand",
+        "l": 290,
+        "c": 22210,
+        "t": 54
+      }
+    }
+  ]
+}

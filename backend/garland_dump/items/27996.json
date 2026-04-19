@@ -1,0 +1,332 @@
+{
+  "item": {
+    "name": "Grade 2 Tincture of Dexterity",
+    "description": "This diluted brew temporarily increases dexterity for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 27996,
+    "patch": 5.05,
+    "patchCategory": 4,
+    "price": 12617,
+    "ilvl": 450,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 95,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Dexterity": {
+          "rate": 8,
+          "limit": 99
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Dexterity": {
+          "rate": 10,
+          "limit": 124
+        }
+      }
+    },
+    "icon": 20709,
+    "craft": [
+      {
+        "id": 33338,
+        "job": 14,
+        "rlvl": 450,
+        "durability": 70,
+        "quality": 7900,
+        "progress": 2050,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1990,
+        "craftsmanshipReq": 2140,
+        "quickSynthCraftsmanship": 2480,
+        "unlockId": 24272,
+        "ingredients": [
+          {
+            "id": 27796,
+            "amount": 1
+          },
+          {
+            "id": 27785,
+            "amount": 1
+          },
+          {
+            "id": 27812,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 596,
+          "hq": 616
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Multifaceted Alchemic",
+      "id": 27796,
+      "icon": 22668,
+      "category": 54,
+      "ilvl": 450,
+      "price": 3154,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27796",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27796",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Light Gerbera",
+      "id": 27785,
+      "icon": 25008,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        838
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Scuroglow Aethersand",
+      "id": 27812,
+      "icon": 21233,
+      "category": 54,
+      "ilvl": 409,
+      "price": 599,
+      "reducedFrom": [
+        27809,
+        27806,
+        27543
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27812",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27812",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27809",
+      "obj": {
+        "i": 27809,
+        "n": "Sweet Marjoram",
+        "l": 409,
+        "c": 25015,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27806",
+      "obj": {
+        "i": 27806,
+        "n": "Solarite",
+        "l": 409,
+        "c": 21467,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27543",
+      "obj": {
+        "i": 27543,
+        "n": "Poecilia",
+        "l": 406,
+        "c": 28442,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "24272",
+      "obj": {
+        "i": 24272,
+        "n": "Master Alchemist VII",
+        "l": 1,
+        "c": 26160,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27796",
+      "obj": {
+        "i": 27796,
+        "n": "Multifaceted Alchemic",
+        "l": 450,
+        "c": 22668,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27785",
+      "obj": {
+        "i": 27785,
+        "n": "Light Gerbera",
+        "l": 418,
+        "c": 25008,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27812",
+      "obj": {
+        "i": 27812,
+        "n": "Scuroglow Aethersand",
+        "l": 409,
+        "c": 21233,
+        "t": 54
+      }
+    }
+  ]
+}

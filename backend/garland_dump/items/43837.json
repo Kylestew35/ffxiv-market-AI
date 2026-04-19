@@ -1,0 +1,66 @@
+{
+  "item": {
+    "name": "Lightning Eel",
+    "description": "This long, slinky fish stores potent lightning energy within a special gland in its body.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "Fishers must exercise caution when aiming their spears at this eel, lest they inadvertently pierce its lightning gland and receive a nasty shock for their trouble.",
+      "icon": 78653
+    },
+    "id": 43837,
+    "patch": 7.0,
+    "patchCategory": 7,
+    "price": 99999,
+    "ilvl": 670,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28653,
+    "nodes": [
+      1010,
+      1013
+    ],
+    "requiredByLeves": [
+      1805
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "1010",
+      "obj": {
+        "i": 1010,
+        "n": "Eastern Iq Rrax Tsoly",
+        "l": 100,
+        "t": 5,
+        "z": 4507
+      }
+    },
+    {
+      "type": "node",
+      "id": "1013",
+      "obj": {
+        "i": 1013,
+        "n": "Iq Rrax Tsoly Depths",
+        "l": 100,
+        "t": 5,
+        "z": 4507,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1805",
+      "obj": {
+        "i": 1805,
+        "n": "Eeling Cleanse",
+        "l": 96,
+        "j": 19,
+        "p": 4507
+      }
+    }
+  ]
+}

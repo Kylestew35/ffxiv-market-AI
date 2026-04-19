@@ -1,0 +1,110 @@
+{
+  "item": {
+    "name": "Pure White Dye",
+    "description": "A rare and expensive white dye, used for coloring anything from cloth to metal.",
+    "id": 8732,
+    "patch": 2.38,
+    "patchCategory": 8,
+    "price": 668,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "rarity": 2,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 22820,
+    "tradeShops": [
+      {
+        "shop": "Gold Chocobo Feather Exchange",
+        "npcs": [
+          1006004,
+          1006005,
+          1006006
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8732",
+                "amount": 5
+              }
+            ],
+            "currency": [
+              {
+                "id": "12994",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "mog": {
+      "price": 1,
+      "id": 41
+    },
+    "alla": {
+      "source": [
+        "MOGSTATION"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006004",
+      "obj": {
+        "i": 1006004,
+        "n": "Calamity Salvager",
+        "l": 53,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "10.0",
+          "8.4"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006005",
+      "obj": {
+        "i": 1006005,
+        "n": "Calamity Salvager",
+        "l": 28,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "11.3",
+          "14.3"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1006006",
+      "obj": {
+        "i": 1006006,
+        "n": "Calamity Salvager",
+        "l": 41,
+        "s": 50,
+        "r": 1,
+        "c": [
+          "12.6",
+          "13.1"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12994",
+      "obj": {
+        "i": 12994,
+        "n": "Gold Chocobo Feather",
+        "l": 1,
+        "c": 21901,
+        "t": 61
+      }
+    }
+  ]
+}

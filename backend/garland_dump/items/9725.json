@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Egg Floor Lamp",
+    "description": "A Hatching-tide-themed floor lamp.",
+    "id": 9725,
+    "patch": 2.55,
+    "patchCategory": 9,
+    "price": 7209,
+    "ilvl": 1,
+    "category": 57,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 52548,
+    "tradeShops": [
+      {
+        "shop": "Lucky Egg Exchange",
+        "npcs": [
+          1011806,
+          1011807,
+          1011808
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9725",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10087",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "343"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011806",
+      "obj": {
+        "i": 1011806,
+        "n": "Dreamer",
+        "l": 53,
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 580,
+        "c": [
+          10.32,
+          9.25
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011807",
+      "obj": {
+        "i": 1011807,
+        "n": "Dreamer",
+        "l": 40,
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 640,
+        "c": [
+          10.67,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011808",
+      "obj": {
+        "i": 1011808,
+        "n": "Dreamer",
+        "l": 28,
+        "s": 1,
+        "t": "Egg Advocate",
+        "r": 1,
+        "a": 737,
+        "c": [
+          11.13,
+          13.68
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10087",
+      "obj": {
+        "i": 10087,
+        "n": "Lucky Egg",
+        "l": 1,
+        "c": 21308,
+        "t": 85
+      }
+    }
+  ]
+}

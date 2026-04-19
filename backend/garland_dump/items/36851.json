@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Wind-up Arkasodara",
+    "description": "Comes with modesty covered.<br><br>Use item to acquire the wind-up Arkasodara minion.",
+    "minionrace": "Monster",
+    "tooltip": "Never have I felt so invigorated,\r\nto have such a mighty Arkasodara\r\nfighting by my side!\r\n   - Ogul",
+    "minionskilltype": "Damage",
+    "specialactionname": "Alchemical Concoction",
+    "specialactiondescription": "Delivers 10 points of damage every second to all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 20s",
+    "id": 36851,
+    "patch": 6.15,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59844,
+    "tradeShops": [
+      {
+        "shop": "Arkasodara Pana Exchange",
+        "npcs": [
+          1042424
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36851",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36657",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 120,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 20,
+      "Attack": 30,
+      "Defense": 70,
+      "Speed": 2
+    },
+    "models": [
+      "8402-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1042424",
+      "obj": {
+        "i": 1042424,
+        "n": "Ghanta",
+        "l": 3709,
+        "s": 2,
+        "t": "Peddler",
+        "r": 1,
+        "a": 4030,
+        "c": [
+          20.51,
+          28.49
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36657",
+      "obj": {
+        "i": 36657,
+        "n": "Arkasodara Pana",
+        "l": 1,
+        "c": "t/65091",
+        "t": 100
+      }
+    }
+  ]
+}

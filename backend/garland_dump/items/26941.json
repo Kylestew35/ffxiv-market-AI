@@ -1,0 +1,207 @@
+{
+  "item": {
+    "name": "Edengrace Greatsword",
+    "jobCategories": "DRK",
+    "id": 26941,
+    "patch": 5.05,
+    "patchCategory": 0,
+    "price": 119230,
+    "ilvl": 475,
+    "category": 87,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 1861,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1682,
+    "slot": 13,
+    "elvl": 80,
+    "jobs": 98,
+    "models": [
+      "1501-86-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 100,
+      "Magic Damage": 50,
+      "Delay": 2.96,
+      "Strength": 185,
+      "Vitality": 189,
+      "Critical Hit": 184,
+      "Determination": 129
+    },
+    "attr_max": {
+      "Strength": 499,
+      "Dexterity": 499,
+      "Vitality": 509,
+      "Intelligence": 499,
+      "Mind": 499,
+      "Piety": 497,
+      "GP": 3,
+      "CP": 3,
+      "Tenacity": 497,
+      "Direct Hit Rate": 497,
+      "Critical Hit": 497,
+      "Fire Resistance": 71,
+      "Ice Resistance": 71,
+      "Wind Resistance": 71,
+      "Earth Resistance": 71,
+      "Lightning Resistance": 71,
+      "Water Resistance": 71,
+      "Determination": 497,
+      "Skill Speed": 497,
+      "Spell Speed": 497,
+      "Slow Resistance": 12,
+      "Petrification Resistance": 12,
+      "Paralysis Resistance": 12,
+      "Silence Resistance": 12,
+      "Blind Resistance": 12,
+      "Poison Resistance": 12,
+      "Stun Resistance": 12,
+      "Sleep Resistance": 12,
+      "Bind Resistance": 12,
+      "Heavy Resistance": 12,
+      "Doom Resistance": 12,
+      "Craftsmanship": 2900,
+      "Control": 1188,
+      "Gathering": 2678,
+      "Perception": 765
+    },
+    "icon": 34330,
+    "instances": [
+      30085
+    ],
+    "tradeShops": [
+      {
+        "shop": "Eden's Gate Apocrypha Exchange (DoW) I",
+        "npcs": [
+          1030123,
+          1030124
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26941",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27403",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Edengrace Gear (IL 470-475)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26941",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27403",
+                "amount": 8
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      26892
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30085",
+      "obj": {
+        "i": 30085,
+        "n": "Eden's Gate: Sepulture (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 450
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1030123",
+      "obj": {
+        "i": 1030123,
+        "n": "Ghul Gul",
+        "l": 2955,
+        "s": 18,
+        "t": "Eden Relic Exchange",
+        "r": 1,
+        "a": 3374,
+        "c": [
+          26.72,
+          16.43
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1030124",
+      "obj": {
+        "i": 1030124,
+        "n": "Yhal Yal",
+        "l": 2952,
+        "s": 18,
+        "t": "Eden Relic Exchange",
+        "r": 1,
+        "a": 3270,
+        "c": [
+          10.07,
+          11.57
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27403",
+      "obj": {
+        "i": 27403,
+        "n": "Book of Sepulture",
+        "l": 1,
+        "c": 26448,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "26892",
+      "obj": {
+        "i": 26892,
+        "n": "Edengrace Weapon Coffer (IL 475)",
+        "l": 1,
+        "c": 26557,
+        "t": 61
+      }
+    }
+  ]
+}

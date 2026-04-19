@@ -1,0 +1,663 @@
+{
+  "item": {
+    "name": "Master Alchemist IV",
+    "description": "This esoteric tome─the fourth in an equally esoteric series─contains advanced alchemy recipes that can only be learned by highly skilled alchemists.",
+    "id": 14132,
+    "patch": 3.2,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26157,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Master Recipes I)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14132",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Master Recipes I",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "14132",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocks": [
+      13797,
+      13798,
+      13842,
+      13843,
+      14161,
+      14171,
+      14172,
+      14173,
+      14174,
+      14175,
+      14176,
+      14177,
+      14178,
+      14179,
+      14180,
+      14189,
+      14267,
+      13088,
+      13089,
+      15580,
+      15581,
+      15645,
+      15822,
+      16637,
+      16638,
+      16908,
+      16716,
+      16717,
+      16718,
+      16719,
+      16720,
+      16822,
+      15594,
+      15595,
+      15608,
+      15609,
+      17614,
+      17615,
+      17641,
+      17853,
+      17854,
+      22530,
+      22557,
+      24330,
+      24331,
+      25032,
+      25033,
+      25048,
+      25049
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "13797",
+      "obj": {
+        "i": 13797,
+        "n": "Replica Allagan Grimoire of Casting",
+        "l": 50,
+        "c": 33459,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "13798",
+      "obj": {
+        "i": 13798,
+        "n": "Replica Allagan Grimoire of Healing",
+        "l": 50,
+        "c": 33460,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "13842",
+      "obj": {
+        "i": 13842,
+        "n": "Replica High Allagan Grimoire of Casting",
+        "l": 50,
+        "c": 33472,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "13843",
+      "obj": {
+        "i": 13843,
+        "n": "Replica High Allagan Grimoire of Healing",
+        "l": 50,
+        "c": 33473,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "14161",
+      "obj": {
+        "i": 14161,
+        "n": "Camphor",
+        "l": 210,
+        "c": 22610,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14171",
+      "obj": {
+        "i": 14171,
+        "n": "Grade 3 Strength Dissolvent",
+        "l": 210,
+        "c": 20670,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14172",
+      "obj": {
+        "i": 14172,
+        "n": "Grade 3 Dexterity Dissolvent",
+        "l": 210,
+        "c": 20674,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14173",
+      "obj": {
+        "i": 14173,
+        "n": "Grade 3 Vitality Dissolvent",
+        "l": 210,
+        "c": 20672,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14174",
+      "obj": {
+        "i": 14174,
+        "n": "Grade 3 Intelligence Dissolvent",
+        "l": 210,
+        "c": 20671,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14175",
+      "obj": {
+        "i": 14175,
+        "n": "Grade 3 Mind Dissolvent",
+        "l": 210,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14176",
+      "obj": {
+        "i": 14176,
+        "n": "Max-Potion of Strength",
+        "l": 210,
+        "c": 20701,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "14177",
+      "obj": {
+        "i": 14177,
+        "n": "Max-Potion of Dexterity",
+        "l": 210,
+        "c": 20702,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "14178",
+      "obj": {
+        "i": 14178,
+        "n": "Max-Potion of Vitality",
+        "l": 210,
+        "c": 20703,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "14179",
+      "obj": {
+        "i": 14179,
+        "n": "Max-Potion of Intelligence",
+        "l": 210,
+        "c": 20704,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "14180",
+      "obj": {
+        "i": 14180,
+        "n": "Max-Potion of Mind",
+        "l": 210,
+        "c": 20705,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "14189",
+      "obj": {
+        "i": 14189,
+        "n": "Powdered Horn",
+        "l": 180,
+        "c": 22210,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "14267",
+      "obj": {
+        "i": 14267,
+        "n": "Answers Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "13088",
+      "obj": {
+        "i": 13088,
+        "n": "Sephirot Root",
+        "l": 180,
+        "c": 52222,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "13089",
+      "obj": {
+        "i": 13089,
+        "n": "Sephirot Tree",
+        "l": 210,
+        "c": 52223,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "15580",
+      "obj": {
+        "i": 15580,
+        "n": "Endless Expanse Grimoire",
+        "l": 180,
+        "c": 33503,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "15581",
+      "obj": {
+        "i": 15581,
+        "n": "Endless Expanse Codex",
+        "l": 180,
+        "c": 33504,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "15645",
+      "obj": {
+        "i": 15645,
+        "n": "Luminous Fiber",
+        "l": 220,
+        "c": 20909,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "15822",
+      "obj": {
+        "i": 15822,
+        "n": "Revenge of the Horde Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "16637",
+      "obj": {
+        "i": 16637,
+        "n": "Hemiskin Grimoire",
+        "l": 250,
+        "c": 33540,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "16638",
+      "obj": {
+        "i": 16638,
+        "n": "Hemiskin Codex",
+        "l": 250,
+        "c": 33541,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "16908",
+      "obj": {
+        "i": 16908,
+        "n": "Tempered Glass",
+        "l": 180,
+        "c": 22651,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "16716",
+      "obj": {
+        "i": 16716,
+        "n": "Supramax-Potion of Strength",
+        "l": 250,
+        "c": 20701,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "16717",
+      "obj": {
+        "i": 16717,
+        "n": "Supramax-Potion of Dexterity",
+        "l": 250,
+        "c": 20702,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "16718",
+      "obj": {
+        "i": 16718,
+        "n": "Supramax-Potion of Vitality",
+        "l": 250,
+        "c": 20703,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "16719",
+      "obj": {
+        "i": 16719,
+        "n": "Supramax-Potion of Intelligence",
+        "l": 250,
+        "c": 20704,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "16720",
+      "obj": {
+        "i": 16720,
+        "n": "Supramax-Potion of Mind",
+        "l": 250,
+        "c": 20705,
+        "t": 44
+      }
+    },
+    {
+      "type": "item",
+      "id": "16822",
+      "obj": {
+        "i": 16822,
+        "n": "Equilibrium Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "15594",
+      "obj": {
+        "i": 15594,
+        "n": "Dead Hive Grimoire",
+        "l": 180,
+        "c": 33511,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "15595",
+      "obj": {
+        "i": 15595,
+        "n": "Dead Hive Codex",
+        "l": 180,
+        "c": 33512,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "15608",
+      "obj": {
+        "i": 15608,
+        "n": "Grimoire of the Round",
+        "l": 180,
+        "c": 33536,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "15609",
+      "obj": {
+        "i": 15609,
+        "n": "Codex of the Round",
+        "l": 180,
+        "c": 33537,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "17614",
+      "obj": {
+        "i": 17614,
+        "n": "Word of the Fiend",
+        "l": 180,
+        "c": 33550,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "17615",
+      "obj": {
+        "i": 17615,
+        "n": "Song of the Fiend",
+        "l": 180,
+        "c": 33551,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "17641",
+      "obj": {
+        "i": 17641,
+        "n": "Infinity Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "17853",
+      "obj": {
+        "i": 17853,
+        "n": "Revelation Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "17854",
+      "obj": {
+        "i": 17854,
+        "n": "Beauty's Wicked Wiles Orchestrion Roll",
+        "l": 1,
+        "c": 25945,
+        "t": 94
+      }
+    },
+    {
+      "type": "item",
+      "id": "22530",
+      "obj": {
+        "i": 22530,
+        "n": "Solid-brick Interior Wall",
+        "l": 1,
+        "c": 51240,
+        "t": 73
+      }
+    },
+    {
+      "type": "item",
+      "id": "22557",
+      "obj": {
+        "i": 22557,
+        "n": "Wine Glass",
+        "l": 1,
+        "c": 53211,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "24330",
+      "obj": {
+        "i": 24330,
+        "n": "Seeing Horde Grimoire",
+        "l": 180,
+        "c": 33556,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "24331",
+      "obj": {
+        "i": 24331,
+        "n": "Seeing Horde Codex",
+        "l": 180,
+        "c": 33557,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "25032",
+      "obj": {
+        "i": 25032,
+        "n": "Word of the Goddess",
+        "l": 180,
+        "c": 33542,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "25033",
+      "obj": {
+        "i": 25033,
+        "n": "Song of the Goddess",
+        "l": 180,
+        "c": 33543,
+        "t": 98
+      }
+    },
+    {
+      "type": "item",
+      "id": "25048",
+      "obj": {
+        "i": 25048,
+        "n": "Word of the Demon",
+        "l": 180,
+        "c": 33572,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "25049",
+      "obj": {
+        "i": 25049,
+        "n": "Song of the Demon",
+        "l": 180,
+        "c": 33573,
+        "t": 98
+      }
+    }
+  ]
+}

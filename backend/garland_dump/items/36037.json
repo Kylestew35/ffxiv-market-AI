@@ -1,0 +1,360 @@
+{
+  "item": {
+    "name": "Zurek",
+    "description": "This filling rye soup is overflowing with soft vegetables and has a satisfyingly sour kick.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36037,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 520,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 58
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 62
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 72
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 77
+        }
+      }
+    },
+    "icon": 24104,
+    "craft": [
+      {
+        "id": 5252,
+        "job": 15,
+        "rlvl": 517,
+        "durability": 80,
+        "quality": 5200,
+        "progress": 2000,
+        "lvl": 81,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36077,
+            "amount": 1,
+            "quality": 570.4641
+          },
+          {
+            "id": 36088,
+            "amount": 2
+          },
+          {
+            "id": 27782,
+            "amount": 1
+          },
+          {
+            "id": 27833,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 236,
+          "hq": 256
+        }
+      }
+    ],
+    "quests": [
+      69734,
+      69737,
+      70019
+    ],
+    "requiredByLeves": [
+      1639
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1542750,
+      "seals": 869
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Dark Rye Flour",
+      "id": 36077,
+      "icon": 25356,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5282,
+          "job": 15,
+          "rlvl": 517,
+          "durability": 40,
+          "quality": 5200,
+          "progress": 1000,
+          "lvl": 81,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36083,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dark Rye",
+      "id": 36083,
+      "icon": 25359,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 79,
+          "type": 1
+        },
+        {
+          "id": 91,
+          "type": 1
+        },
+        {
+          "id": 99,
+          "type": 1
+        },
+        {
+          "id": 107,
+          "type": 1
+        }
+      ],
+      "leves": [
+        1639
+      ],
+      "ventures": [
+        911
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "id": 36088,
+      "icon": 25219,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "ventures": [
+        912
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Underground Spring Water",
+      "id": 27782,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 415,
+      "price": 630,
+      "leves": [
+        1490,
+        1492
+      ],
+      "ventures": [
+        797
+      ],
+      "nodes": [
+        598
+      ]
+    },
+    {
+      "name": "Broad Beans",
+      "id": 27833,
+      "icon": 25353,
+      "category": 45,
+      "ilvl": 395,
+      "price": 630,
+      "ventures": [
+        823
+      ],
+      "nodes": [
+        628
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "36083",
+      "obj": {
+        "i": 36083,
+        "n": "Dark Rye",
+        "l": 520,
+        "c": 25359,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "628",
+      "obj": {
+        "i": 628,
+        "n": "Phisor Lran",
+        "l": 75,
+        "t": 3,
+        "z": 2956,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36077",
+      "obj": {
+        "i": 36077,
+        "n": "Dark Rye Flour",
+        "l": 520,
+        "c": 25356,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36088",
+      "obj": {
+        "i": 36088,
+        "n": "Iceberg Lettuce",
+        "l": 520,
+        "c": 25219,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27782",
+      "obj": {
+        "i": 27782,
+        "n": "Underground Spring Water",
+        "l": 415,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27833",
+      "obj": {
+        "i": 27833,
+        "n": "Broad Beans",
+        "l": 395,
+        "c": 25353,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69734",
+      "obj": {
+        "i": 69734,
+        "n": "Tikka Hike",
+        "g": 140,
+        "l": "Thavnair",
+        "s": 1220
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69737",
+      "obj": {
+        "i": 69737,
+        "n": "High Importance, Low Urgency",
+        "g": 140,
+        "l": "Thavnair",
+        "s": 1250
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70019",
+      "obj": {
+        "i": 70019,
+        "n": "Dream Big",
+        "g": 141,
+        "l": "Labyrinthos",
+        "s": 1194
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1639",
+      "obj": {
+        "i": 1639,
+        "n": "Topping Up the Pot",
+        "l": 80,
+        "j": 16,
+        "p": 3706
+      }
+    }
+  ]
+}

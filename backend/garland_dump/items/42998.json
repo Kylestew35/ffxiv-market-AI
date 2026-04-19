@@ -1,0 +1,256 @@
+{
+  "item": {
+    "name": "Quetzalli Shoes of Healing",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 42998,
+    "patch": 7.05,
+    "patchCategory": 0,
+    "price": 99999,
+    "ilvl": 720,
+    "category": 38,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 975,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 12,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 33916,
+    "glamourous": 1,
+    "delivery": 2059,
+    "slot": 8,
+    "elvl": 100,
+    "jobs": 64,
+    "models": [
+      "854-1-0-0"
+    ],
+    "attr": {
+      "Defense": 448,
+      "Magic Defense": 784,
+      "Mind": 352,
+      "Vitality": 331,
+      "Piety": 231,
+      "Critical Hit": 162
+    },
+    "attr_max": {
+      "Strength": 247,
+      "Dexterity": 352,
+      "Vitality": 368,
+      "Intelligence": 247,
+      "GP": 20,
+      "CP": 12,
+      "Tenacity": 231,
+      "Defense": 616,
+      "Direct Hit Rate": 231,
+      "Critical Hit": 231,
+      "Fire Resistance": 16,
+      "Ice Resistance": 16,
+      "Wind Resistance": 16,
+      "Earth Resistance": 16,
+      "Lightning Resistance": 16,
+      "Water Resistance": 16,
+      "Determination": 231,
+      "Skill Speed": 231,
+      "Spell Speed": 231,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 109,
+      "Control": 594,
+      "Gathering": 53,
+      "Perception": 586
+    },
+    "icon": 49725,
+    "sharedModels": [
+      43003,
+      43075,
+      43080
+    ],
+    "tradeShops": [
+      {
+        "shop": "Allagan Tomestones of Heliometry (DoM, IL 720)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "42998",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "48",
+                "amount": 495
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Quetzalli Gear Exchange (DoM, IL 720)",
+        "npcs": [
+          1048387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "42998",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 70
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Quetzalli Gear Augmentation (DoM)",
+        "npcs": [
+          1049078
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43075",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "42998",
+                "amount": 1
+              },
+              {
+                "id": "43554",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "43003",
+      "obj": {
+        "i": 43003,
+        "n": "Quetzalli Shoes of Casting",
+        "l": 720,
+        "c": 49726,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "43075",
+      "obj": {
+        "i": 43075,
+        "n": "Augmented Quetzalli Shoes of Healing",
+        "l": 730,
+        "c": 49725,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "43080",
+      "obj": {
+        "i": 43080,
+        "n": "Augmented Quetzalli Shoes of Casting",
+        "l": 730,
+        "c": 49726,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "48",
+      "obj": {
+        "i": 48,
+        "n": "Allagan Tomestone of Mathematics",
+        "l": 1,
+        "c": "t/65122",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1049078",
+      "obj": {
+        "i": 1049078,
+        "n": "Theone",
+        "l": 4503,
+        "s": 9,
+        "t": "Gear Exchange",
+        "r": 1,
+        "a": 4647,
+        "c": [
+          8.54,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "43554",
+      "obj": {
+        "i": 43554,
+        "n": "Surgelight Twine",
+        "l": 1,
+        "c": 21686,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048387",
+      "obj": {
+        "i": 1048387,
+        "n": "Ryubool Ja",
+        "l": 4504,
+        "s": 5,
+        "t": "Dawn Hunt Vendor",
+        "r": 1,
+        "a": 4537,
+        "c": [
+          13.97,
+          13.49
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

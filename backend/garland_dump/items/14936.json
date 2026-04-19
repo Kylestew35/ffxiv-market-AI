@@ -1,0 +1,94 @@
+{
+  "item": {
+    "name": "Faust Armor Plating",
+    "description": "A heavy square of body armor removed from the Illuminati-constructed battlemachina Faust.",
+    "id": 14936,
+    "patch": 3.2,
+    "patchCategory": 5,
+    "price": 8731,
+    "ilvl": 210,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20958,
+    "drops": [
+      54250000004708,
+      55970000004708
+    ],
+    "ingredient_of": {
+      "14066": 3
+    },
+    "instances": [
+      30033,
+      30037
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "14066",
+      "obj": {
+        "i": 14066,
+        "n": "Faust Striking Dummy",
+        "l": 210,
+        "c": 52220,
+        "t": 76
+      }
+    },
+    {
+      "type": "mob",
+      "id": "54250000004708",
+      "obj": {
+        "i": 54250000004708,
+        "n": "Brute Justice",
+        "l": "60",
+        "z": 1731
+      }
+    },
+    {
+      "type": "mob",
+      "id": "55970000004708",
+      "obj": {
+        "i": 55970000004708,
+        "n": "Brute Justice",
+        "l": "60",
+        "z": 1731
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30033",
+      "obj": {
+        "i": 30033,
+        "n": "Alexander - The Burden of the Son",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 200
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30037",
+      "obj": {
+        "i": 30037,
+        "n": "Alexander - The Burden of the Son (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 225
+      }
+    }
+  ]
+}

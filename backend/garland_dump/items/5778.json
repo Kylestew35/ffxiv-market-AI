@@ -1,0 +1,90 @@
+{
+  "item": {
+    "name": "Apple Green Dye",
+    "description": "A labor-saving green dye, used for coloring anything from cloth to metal.",
+    "id": 5778,
+    "patch": 2.2,
+    "patchCategory": 8,
+    "price": 334,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22810,
+    "instances": [
+      37
+    ],
+    "vendors": [
+      1008909
+    ],
+    "tradeShops": [
+      {
+        "shop": "Titan Cobaltpiece Exchange",
+        "npcs": [
+          1008909
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5778",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21078",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "37",
+      "obj": {
+        "i": 37,
+        "n": "Sohm Al",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 53,
+        "max_lvl": 54,
+        "min_ilvl": 105
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008909",
+      "obj": {
+        "i": 1008909,
+        "n": "Kobold Vendor",
+        "l": 350,
+        "s": 2,
+        "r": 1,
+        "a": 944,
+        "c": [
+          21.65,
+          17.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21078",
+      "obj": {
+        "i": 21078,
+        "n": "Titan Cobaltpiece",
+        "l": 1,
+        "c": 65052,
+        "t": 100
+      }
+    }
+  ]
+}

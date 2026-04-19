@@ -1,0 +1,111 @@
+{
+  "item": {
+    "name": "Gourmand Crab",
+    "description": "Though this crab is omnivorous in the sense that it will eat both flesh and plant matter, this should not be taken to mean that it does not have a discerning palate.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "A close cousin of the robber crab that lives alongside it, the gourmand crab is a pickier eater than its omnivorous ally, feeding only on the blue berries that lend its shell its distinctive hue.",
+      "icon": 78463,
+      "spots": [
+        {
+          "node": 643,
+          "gig": [
+            "Normal Gig Head"
+          ],
+          "ff14anglerId": 3168
+        },
+        {
+          "node": 647,
+          "gig": [
+            "Normal Gig Head"
+          ],
+          "ff14anglerId": 3168
+        }
+      ]
+    },
+    "id": 27571,
+    "patch": 5.0,
+    "patchCategory": 7,
+    "price": 270,
+    "ilvl": 409,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 8,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28463,
+    "nodes": [
+      643,
+      647
+    ],
+    "requiredByLeves": [
+      1562
+    ],
+    "ventures": [
+      847
+    ],
+    "desynthedTo": [
+      5814,
+      28062
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "643",
+      "obj": {
+        "i": 643,
+        "n": "North Lake Tusi Mek'ta",
+        "l": 80,
+        "t": 5,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "647",
+      "obj": {
+        "i": 647,
+        "n": "Deep Lake Tusi Mek'ta",
+        "l": 80,
+        "t": 5,
+        "z": 2957,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1562",
+      "obj": {
+        "i": 1562,
+        "n": "Crab Corps",
+        "l": 76,
+        "j": 19,
+        "p": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "5814",
+      "obj": {
+        "i": 5814,
+        "n": "Blue Pigment",
+        "l": 28,
+        "c": 21457,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "28062",
+      "obj": {
+        "i": 28062,
+        "n": "Nightworld Bronze Piece",
+        "l": 385,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

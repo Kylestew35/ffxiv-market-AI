@@ -1,0 +1,100 @@
+{
+  "item": {
+    "name": "Morning Glory Plot",
+    "description": "Brilliant purple flowers that will follow the sun as it makes its journey across the morning sky.<br><br>※Up to ten flower plots may be placed in a single garden, regardless of type.",
+    "id": 15158,
+    "patch": 3.3,
+    "patchCategory": 9,
+    "price": 24552,
+    "ilvl": 50,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 57,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 52225,
+    "tradeShops": [
+      {
+        "shop": "Spend company credits (items)",
+        "npcs": [
+          1000165,
+          1002389,
+          1003925
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15158",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "fccredit",
+                "amount": 2000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1000165",
+      "obj": {
+        "i": 1000165,
+        "n": "OIC Quartermaster",
+        "l": 52,
+        "s": 1,
+        "r": 1,
+        "a": 591,
+        "c": [
+          9.77,
+          11.1
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1002389",
+      "obj": {
+        "i": 1002389,
+        "n": "OIC Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1003925",
+      "obj": {
+        "i": 1003925,
+        "n": "OIC Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 1801,
+        "c": [
+          8.29,
+          9.21
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "fccredit",
+      "obj": {
+        "i": "fccredit",
+        "n": "Company Credit",
+        "l": 1,
+        "c": "custom/fccredit",
+        "t": 63
+      }
+    }
+  ]
+}

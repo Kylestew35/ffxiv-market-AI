@@ -1,0 +1,141 @@
+{
+  "leve": {
+    "name": "Eeling Cleanse",
+    "description": "It is our duty as palace mages to lend an ear to ancient spirits. However, our bodies must first be cleansed by donning the mantle of an eel imbued with lightning energies. You will find such creatures in the depths of <span class=\"highlight\">Iq Rrax Tsoly</span>, a cenote found in the Xbr'aal's forests.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1805,
+    "patch": 7.0,
+    "client": "Vollok Shoonsa Mage, Riwoll Ja",
+    "lvl": 96,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      23.12,
+      27.91
+    ],
+    "zoneid": 4507,
+    "areaid": 4507,
+    "xp": 6726582,
+    "gil": 2610,
+    "rewards": 809,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110201,
+    "requires": [
+      {
+        "item": 43837,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 809,
+    "entries": [
+      {
+        "item": 43852,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Lightning Eel",
+      "id": 43837,
+      "icon": 28653,
+      "category": 47,
+      "ilvl": 670,
+      "price": 99999,
+      "nodes": [
+        1010,
+        1013
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "1010",
+      "obj": {
+        "i": 1010,
+        "n": "Eastern Iq Rrax Tsoly",
+        "l": 100,
+        "t": 5,
+        "z": 4507
+      }
+    },
+    {
+      "type": "node",
+      "id": "1013",
+      "obj": {
+        "i": 1013,
+        "n": "Iq Rrax Tsoly Depths",
+        "l": 100,
+        "t": 5,
+        "z": 4507,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1805",
+      "obj": {
+        "i": 1805,
+        "n": "Eeling Cleanse",
+        "l": 96,
+        "j": 19,
+        "p": 4507
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43852",
+      "obj": {
+        "i": 43852,
+        "n": "Honeybee",
+        "l": 655,
+        "c": 27105,
+        "t": 33,
+        "p": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43837",
+      "obj": {
+        "i": 43837,
+        "n": "Lightning Eel",
+        "l": 670,
+        "c": 28653,
+        "t": 47
+      }
+    }
+  ]
+}

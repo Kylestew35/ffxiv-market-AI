@@ -1,0 +1,162 @@
+{
+  "item": {
+    "name": "Vermilion Cloak of Casting",
+    "description": "Cannot equip gear to head.",
+    "jobCategories": "THM ACN BLM SMN RDM BLU PCT",
+    "id": 24855,
+    "patch": 4.55,
+    "patchCategory": 0,
+    "price": 146916,
+    "ilvl": 300,
+    "category": 35,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1422,
+    "rarity": 1,
+    "convertable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "sockets": 5,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 15,
+    "elvl": 70,
+    "jobs": 63,
+    "models": [
+      "6078-1-0-0"
+    ],
+    "special": {
+      "bonusId": 7,
+      "attr": [
+        {
+          "name": "Elemental Bonus",
+          "value": 218,
+          "index": 0
+        },
+        {
+          "name": "Haste",
+          "value": -3,
+          "index": 1
+        }
+      ]
+    },
+    "attr": {
+      "Defense": 312,
+      "Magic Defense": 545,
+      "Intelligence": 177,
+      "Vitality": 157,
+      "Direct Hit Rate": 179,
+      "Critical Hit": 125
+    },
+    "attr_max": {
+      "Strength": 177,
+      "Dexterity": 124,
+      "Vitality": 174,
+      "Mind": 124,
+      "Piety": 125,
+      "GP": 12,
+      "CP": 12,
+      "Tenacity": 179,
+      "Defense": 428,
+      "Critical Hit": 179,
+      "Elemental Bonus": 660,
+      "Fire Resistance": 41,
+      "Ice Resistance": 41,
+      "Wind Resistance": 41,
+      "Earth Resistance": 41,
+      "Lightning Resistance": 41,
+      "Water Resistance": 41,
+      "Determination": 179,
+      "Skill Speed": 179,
+      "Spell Speed": 179,
+      "Haste": 0,
+      "Slow Resistance": 9,
+      "Petrification Resistance": 9,
+      "Paralysis Resistance": 9,
+      "Silence Resistance": 9,
+      "Blind Resistance": 9,
+      "Poison Resistance": 9,
+      "Stun Resistance": 9,
+      "Sleep Resistance": 9,
+      "Bind Resistance": 9,
+      "Heavy Resistance": 9,
+      "Doom Resistance": 9,
+      "Craftsmanship": 465,
+      "Control": 273,
+      "Gathering": 263,
+      "Perception": 375
+    },
+    "icon": 42627,
+    "sharedModels": [
+      24856
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gear Exchange",
+        "npcs": [
+          1028222
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "24855",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "24816",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "24856",
+      "obj": {
+        "i": 24856,
+        "n": "Vermilion Cloak of Healing",
+        "l": 300,
+        "c": 42627,
+        "t": 35
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1028222",
+      "obj": {
+        "i": 1028222,
+        "n": "Nostalgic Fellow",
+        "l": 2404,
+        "s": 1,
+        "t": "Exchange",
+        "r": 1,
+        "a": 2922,
+        "c": [
+          7.82,
+          14.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "24816",
+      "obj": {
+        "i": 24816,
+        "n": "Damascene Cloth",
+        "l": 1,
+        "c": 21622,
+        "t": 51
+      }
+    }
+  ]
+}

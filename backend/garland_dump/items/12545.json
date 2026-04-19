@@ -1,0 +1,578 @@
+{
+  "item": {
+    "name": "Star Sapphire",
+    "description": "A blue jewel that has been shaped and polished instead of faceted, creating the illusion of a six-pointed star within the stone.",
+    "id": 12545,
+    "patch": 3.0,
+    "patchCategory": 5,
+    "price": 4620,
+    "ilvl": 136,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21289,
+    "vendors": [
+      1001977
+    ],
+    "ingredient_of": {
+      "10972": 2,
+      "10978": 2,
+      "10996": 2,
+      "11002": 2,
+      "11020": 2,
+      "11026": 2,
+      "11044": 2,
+      "11050": 2,
+      "11068": 2,
+      "11074": 2,
+      "11957": 1,
+      "10656": 2,
+      "18061": 1,
+      "25665": 1,
+      "25677": 1,
+      "25837": 1,
+      "26139": 1,
+      "26163": 1,
+      "10639": 2,
+      "12108": 1,
+      "10851": 2,
+      "12028": 2,
+      "13000": 2,
+      "13038": 1,
+      "14080": 1,
+      "24495": 1,
+      "31048": 1
+    },
+    "craft": [
+      {
+        "id": 2535,
+        "job": 11,
+        "rlvl": 136,
+        "durability": 35,
+        "quality": 1880,
+        "progress": 190,
+        "lvl": 55,
+        "materialQualityFactor": 50,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 12555,
+            "amount": 3
+          },
+          {
+            "id": 5262,
+            "amount": 1,
+            "quality": 83.92857
+          },
+          {
+            "id": 10,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 98,
+          "hq": 118
+        }
+      }
+    ],
+    "desynthedFrom": [
+      23058
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "VOYAGE"
+      ]
+    },
+    "voyages": [
+      {
+        "id": 10,
+        "type": 1
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Raw Star Sapphire",
+      "id": 12555,
+      "icon": 21472,
+      "category": 48,
+      "ilvl": 136,
+      "price": 2961,
+      "ventures": [
+        451
+      ],
+      "nodes": [
+        286
+      ]
+    },
+    {
+      "name": "Basilisk Whetstone",
+      "id": 5262,
+      "icon": 21470,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "craft": [
+        {
+          "id": 826,
+          "job": 11,
+          "rlvl": 40,
+          "durability": 40,
+          "quality": 1120,
+          "progress": 69,
+          "lvl": 40,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5263,
+              "amount": 1
+            },
+            {
+              "id": 4,
+              "amount": 5
+            }
+          ],
+          "complexity": {
+            "nq": 46,
+            "hq": 66
+          }
+        }
+      ]
+    },
+    {
+      "name": "Basilisk Egg",
+      "id": 5263,
+      "icon": 21215,
+      "category": 48,
+      "ilvl": 40,
+      "price": 202,
+      "ventures": [
+        60,
+        156
+      ],
+      "drops": [
+        16170000001593,
+        1730000000304
+      ],
+      "nodes": [
+        189
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "286",
+      "obj": {
+        "i": 286,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 0,
+        "z": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "5263",
+      "obj": {
+        "i": 5263,
+        "n": "Basilisk Egg",
+        "l": 40,
+        "c": 21215,
+        "t": 48
+      }
+    },
+    {
+      "type": "node",
+      "id": "189",
+      "obj": {
+        "i": 189,
+        "n": "Bluefog",
+        "l": 50,
+        "t": 0,
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "1730000000304",
+      "obj": {
+        "i": 1730000000304,
+        "n": "Basilisk",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16170000001593",
+      "obj": {
+        "i": 16170000001593,
+        "n": "Quicksand Basilisk",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001977",
+      "obj": {
+        "i": 1001977,
+        "n": "Sileas",
+        "l": 41,
+        "s": 2,
+        "t": "Jeweler",
+        "c": [
+          "10.0",
+          "12.5"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10972",
+      "obj": {
+        "i": 10972,
+        "n": "Hardsilver Bangle of Fending",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "10978",
+      "obj": {
+        "i": 10978,
+        "n": "Hardsilver Earrings of Fending",
+        "l": 133,
+        "c": 55327,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "10996",
+      "obj": {
+        "i": 10996,
+        "n": "Hardsilver Bangle of Slaying",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11002",
+      "obj": {
+        "i": 11002,
+        "n": "Hardsilver Earrings of Slaying",
+        "l": 133,
+        "c": 55327,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "11020",
+      "obj": {
+        "i": 11020,
+        "n": "Hardsilver Bangle of Aiming",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11026",
+      "obj": {
+        "i": 11026,
+        "n": "Hardsilver Earrings of Aiming",
+        "l": 133,
+        "c": 55327,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "11044",
+      "obj": {
+        "i": 11044,
+        "n": "Hardsilver Bangle of Healing",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11050",
+      "obj": {
+        "i": 11050,
+        "n": "Hardsilver Earrings of Healing",
+        "l": 133,
+        "c": 55327,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "11068",
+      "obj": {
+        "i": 11068,
+        "n": "Hardsilver Bangle of Casting",
+        "l": 133,
+        "c": 55724,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "11074",
+      "obj": {
+        "i": 11074,
+        "n": "Hardsilver Earrings of Casting",
+        "l": 133,
+        "c": 55327,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "12555",
+      "obj": {
+        "i": 12555,
+        "n": "Raw Star Sapphire",
+        "l": 136,
+        "c": 21472,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5262",
+      "obj": {
+        "i": 5262,
+        "n": "Basilisk Whetstone",
+        "l": 40,
+        "c": 21470,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "11957",
+      "obj": {
+        "i": 11957,
+        "n": "Ramie Turban of Crafting",
+        "l": 100,
+        "c": 40470,
+        "t": 34,
+        "p": 9979
+      }
+    },
+    {
+      "type": "item",
+      "id": "10656",
+      "obj": {
+        "i": 10656,
+        "n": "Noble's Picatrix",
+        "l": 145,
+        "c": 33522,
+        "t": 98,
+        "p": 30777
+      }
+    },
+    {
+      "type": "item",
+      "id": "18061",
+      "obj": {
+        "i": 18061,
+        "n": "Koppranickel Turban of Striking",
+        "l": 255,
+        "c": 41712,
+        "t": 34,
+        "p": 19994
+      }
+    },
+    {
+      "type": "item",
+      "id": "25665",
+      "obj": {
+        "i": 25665,
+        "n": "Brightlinen Himation of Aiming",
+        "l": 385,
+        "c": 43873,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25677",
+      "obj": {
+        "i": 25677,
+        "n": "Brightlinen Cyclas of Healing",
+        "l": 385,
+        "c": 43470,
+        "t": 35,
+        "p": 36432
+      }
+    },
+    {
+      "type": "item",
+      "id": "25837",
+      "obj": {
+        "i": 25837,
+        "n": "Iridescent Top of Healing",
+        "l": 395,
+        "c": 43891,
+        "t": 35,
+        "p": 37471
+      }
+    },
+    {
+      "type": "item",
+      "id": "26139",
+      "obj": {
+        "i": 26139,
+        "n": "Ovim Wool Coat of Striking",
+        "l": 409,
+        "c": 43884,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "26163",
+      "obj": {
+        "i": 26163,
+        "n": "Ovim Wool Tunic of Casting",
+        "l": 409,
+        "c": 43881,
+        "t": 35,
+        "p": 39553
+      }
+    },
+    {
+      "type": "item",
+      "id": "10639",
+      "obj": {
+        "i": 10639,
+        "n": "Birch Rod",
+        "l": 150,
+        "c": 32667,
+        "t": 9,
+        "p": 29462
+      }
+    },
+    {
+      "type": "item",
+      "id": "12108",
+      "obj": {
+        "i": 12108,
+        "n": "Star Sapphire Music Box",
+        "l": 150,
+        "c": 53068,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "10851",
+      "obj": {
+        "i": 10851,
+        "n": "Griffin Leather Coat of Scouting",
+        "l": 180,
+        "c": 42463,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "12028",
+      "obj": {
+        "i": 12028,
+        "n": "Griffin Leather Wristbands",
+        "l": 170,
+        "c": 55722,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "13000",
+      "obj": {
+        "i": 13000,
+        "n": "Chivalric Coat of Scouting",
+        "l": 160,
+        "c": 42463,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "13038",
+      "obj": {
+        "i": 13038,
+        "n": "Boltmaster's Gibus",
+        "l": 170,
+        "c": 41237,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "14080",
+      "obj": {
+        "i": 14080,
+        "n": "Sephirotic Barding",
+        "l": 1,
+        "c": 58626,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "24495",
+      "obj": {
+        "i": 24495,
+        "n": "Seiryu Statuette",
+        "l": 350,
+        "c": 53277,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "31048",
+      "obj": {
+        "i": 31048,
+        "n": "Rarefied Ramie Turban",
+        "l": 139,
+        "c": 40470,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "23058",
+      "obj": {
+        "i": 23058,
+        "n": "Sapphire Fan",
+        "l": 320,
+        "c": 29524,
+        "t": 47
+      }
+    }
+  ]
+}

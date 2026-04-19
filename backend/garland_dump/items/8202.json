@@ -1,0 +1,113 @@
+{
+  "item": {
+    "name": "Nutkin",
+    "description": "That nutkins are infamous for being shy and timid creatures shows that this brave beastkin comes complete with a pair of iron acorns on him.<br><br>Use item to acquire the nutkin minion.",
+    "minionrace": "Critter",
+    "tooltip": "I had no idea squirrels\r\ncould bite so hard!\r\n  - Arold",
+    "minionskilltype": "Trap",
+    "specialactionname": "Skull Eater",
+    "specialactiondescription": "Sets a trap that, when triggered, reduces the movement speed of all enemies within range by 70%.<br><span class=\"highlight-green\">Duration:</span> 20s<br><span class=\"highlight-green\">Activation Delay:</span> 10s",
+    "id": 8202,
+    "patch": 2.3,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59487,
+    "cost": 30,
+    "skill_angle": 360,
+    "strengths": [],
+    "attr": {
+      "HP": 450,
+      "Skill Cost": 30,
+      "Attack": 100,
+      "Defense": 50,
+      "Speed": 4
+    },
+    "models": [
+      "8078-1-1"
+    ],
+    "instances": [
+      55001
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE",
+        "LOOT",
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    },
+    "treasure": [
+      8156,
+      16170,
+      33441,
+      36635
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "55001",
+      "obj": {
+        "i": 55001,
+        "n": "The Aquapolis",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 60,
+        "max_ilvl": 180
+      }
+    },
+    {
+      "type": "item",
+      "id": "8156",
+      "obj": {
+        "i": 8156,
+        "n": "Unhidden Leather Map",
+        "l": 50,
+        "c": 25935,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33441",
+      "obj": {
+        "i": 33441,
+        "n": "Fête Present",
+        "l": 1,
+        "c": 26121,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

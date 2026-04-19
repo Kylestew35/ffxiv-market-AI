@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Exciting Tonic",
+    "description": "An exciting pink liquid available in the Excitatron 6000. So exciting, in fact, that some collectors will even barter goods for just another bottle.",
+    "id": 39590,
+    "patch": 6.3,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22663,
+    "tradeCurrency": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39491",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "39590",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "instances": [
+      55009
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "39491",
+      "obj": {
+        "i": 39491,
+        "n": "Pinky Identification Key",
+        "l": 1,
+        "c": 26014,
+        "t": 63
+      }
+    },
+    {
+      "type": "instance",
+      "id": "55009",
+      "obj": {
+        "i": 55009,
+        "n": "The Excitatron 6000",
+        "c": 61808,
+        "t": "Treasure Hunt",
+        "min_lvl": 1,
+        "max_lvl": 90,
+        "max_ilvl": 635
+      }
+    }
+  ]
+}

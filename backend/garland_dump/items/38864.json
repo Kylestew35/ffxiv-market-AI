@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Cleaner Upgrade Component Materials",
+    "description": "Materials for a component needed to upgrade the cleaner machina.<br><br>※Only for use in Loporrit society quests.",
+    "id": 38864,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "38865": 1
+    },
+    "usedInQuest": [
+      70231
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "38865",
+      "obj": {
+        "i": 38865,
+        "n": "Cleaner Upgrade Component",
+        "l": 430,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70231",
+      "obj": {
+        "i": 70231,
+        "n": "Clean Times",
+        "g": 73,
+        "l": "Mare Lamentorum",
+        "s": 109,
+        "r": 1
+      }
+    }
+  ]
+}

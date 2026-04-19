@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Ananta Junkmonger Permit",
+    "description": "This permit allows the hiring of Ananta junkmongers on the estate.<br><br>※Private chambers (apartments), cottages, houses, and mansions can host 4, 6, 8, and 10 vendors, respectively.",
+    "id": 21860,
+    "patch": 4.2,
+    "patchCategory": 5,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 120,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26192,
+    "tradeShops": [
+      {
+        "shop": "Ananta Dreamstaff Exchange",
+        "npcs": [
+          1024774
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "21860",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21935",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "243"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1024774",
+      "obj": {
+        "i": 1024774,
+        "n": "Madhura",
+        "l": 2406,
+        "s": 1,
+        "t": "Dreamstaff Exchange",
+        "r": 1,
+        "a": 2632,
+        "c": [
+          20.98,
+          26.25
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21935",
+      "obj": {
+        "i": 21935,
+        "n": "Ananta Dreamstaff",
+        "l": 1,
+        "c": 65061,
+        "t": 100
+      }
+    }
+  ]
+}

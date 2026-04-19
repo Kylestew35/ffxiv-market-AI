@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Bitty Duckbill",
+    "description": "Do not attempt to put on your feet.<br><br>Use item to acquire the bitty duckbill minion.",
+    "minionrace": "Critter",
+    "tooltip": "Aren't you just the most\r\nadorable little thing!?\r\n    - Jessie",
+    "minionskilltype": "Damage",
+    "specialactionname": "Venomous Spurs",
+    "specialactiondescription": "Delivers 20 points of damage every second to all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 26794,
+    "patch": 5.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59740,
+    "tradeShops": [
+      {
+        "shop": "Sacks of Nuts Exchange",
+        "npcs": [
+          1027988,
+          1029975
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26794",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 800
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 30,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 540,
+      "Skill Cost": 60,
+      "Attack": 30,
+      "Defense": 70,
+      "Speed": 3
+    },
+    "models": [
+      "8306-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027988",
+      "obj": {
+        "i": 1027988,
+        "n": "Xylle",
+        "l": 2951,
+        "s": 5,
+        "q": 4,
+        "t": "Clan Nutsy Member",
+        "r": 1,
+        "a": 3246,
+        "c": [
+          9.48,
+          9.58
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1029975",
+      "obj": {
+        "i": 1029975,
+        "n": "Ilfroy",
+        "l": 2952,
+        "s": 5,
+        "t": "Clan Nutsy Member",
+        "r": 1,
+        "a": 3265,
+        "c": [
+          11.05,
+          10.84
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

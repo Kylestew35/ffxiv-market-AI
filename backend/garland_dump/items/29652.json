@@ -1,0 +1,241 @@
+{
+  "item": {
+    "name": "Oddly Specific Seed Extract",
+    "description": "An exact quantity of extract produced through an exacting extraction process.",
+    "id": 29652,
+    "patch": 5.25,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 430,
+    "category": 54,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25055,
+    "tradeCurrency": [
+      {
+        "shop": "Skysteel Prototype Augmentation",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "29630",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29619",
+                "amount": 1
+              },
+              {
+                "id": "29652",
+                "amount": 20,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 33768,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 80,
+        "quality": 4600,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 29668,
+            "amount": 1
+          },
+          {
+            "id": 27968,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 215,
+          "hq": 235
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Oddly Specific Seeds",
+      "id": 29668,
+      "icon": 25354,
+      "category": 54,
+      "ilvl": 440,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29668",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Skysteel Prototype Augmentation)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "29668",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Highland Spring Water",
+      "id": 27968,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 400,
+      "price": 630,
+      "desynthedFrom": [
+        29986
+      ],
+      "leves": [
+        1482,
+        1483
+      ],
+      "ventures": [
+        791
+      ],
+      "nodes": [
+        592
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "592",
+      "obj": {
+        "i": 592,
+        "n": "The Bookman's Shelves",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29619",
+      "obj": {
+        "i": 29619,
+        "n": "Skysteel Frypan",
+        "l": 440,
+        "c": 35738,
+        "t": 26,
+        "p": 80000
+      }
+    },
+    {
+      "type": "item",
+      "id": "29630",
+      "obj": {
+        "i": 29630,
+        "n": "Skysteel Frypan +1",
+        "l": 455,
+        "c": 35738,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "29668",
+      "obj": {
+        "i": 29668,
+        "n": "Oddly Specific Seeds",
+        "l": 440,
+        "c": 25354,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27968",
+      "obj": {
+        "i": 27968,
+        "n": "Highland Spring Water",
+        "l": 400,
+        "c": 22678,
+        "t": 54
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Nagxian Cat",
+    "description": "The very soul of grace and nobility, and can see souls to boot.<br><br>Use item to acquire the Nagxian cat minion.",
+    "minionrace": "Critter",
+    "tooltip": "I've never beheld such grace,\r\nsuch elegance, such...\r\nunfathomable beauty!\r\n   - Stricken Traveler",
+    "minionskilltype": "Disarming",
+    "specialactionname": "Noble Ease",
+    "specialactiondescription": "Removes all effects from all enemies and allies within range.",
+    "id": 35976,
+    "patch": 6.0,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59828,
+    "tradeShops": [
+      {
+        "shop": "Sacks of Nuts Exchange",
+        "npcs": [
+          1037059,
+          1037312
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35976",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 800
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 470,
+      "Skill Cost": 20,
+      "Attack": 65,
+      "Defense": 55,
+      "Speed": 4
+    },
+    "models": [
+      "8387-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037059",
+      "obj": {
+        "i": 1037059,
+        "n": "J'lakshai",
+        "l": 3706,
+        "s": 5,
+        "q": 3,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3827,
+        "c": [
+          11.96,
+          13.3
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037312",
+      "obj": {
+        "i": 1037312,
+        "n": "Wilmetta",
+        "l": 3707,
+        "s": 5,
+        "t": "Guildship Hunt Vendor",
+        "r": 1,
+        "a": 3874,
+        "c": [
+          10.53,
+          7.47
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

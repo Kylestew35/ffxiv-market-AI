@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Morbol Seedling",
+    "description": "For the nonce, his breath is the worst of your problems.<br><br>Use item to acquire the morbol seedling minion.",
+    "minionrace": "Monster",
+    "tooltip": "Did a morbol just empty\r\nits innards? I feel ill...\r\n  - Imperial Soldier",
+    "minionskilltype": "Damage",
+    "specialactionname": "Bad Breath",
+    "specialactiondescription": "Delivers 10 points of damage every second to all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 20s",
+    "id": 6173,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59412,
+    "instances": [
+      5
+    ],
+    "ingredient_of": {
+      "6473": 1
+    },
+    "cost": 30,
+    "skill_angle": 120,
+    "aoe": 1,
+    "strengths": [
+      "Eye",
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 560,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 75,
+      "Speed": 1
+    },
+    "models": [
+      "8005-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "5",
+      "obj": {
+        "i": 5,
+        "n": "The Aurum Vale",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 47,
+        "max_lvl": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "6473",
+      "obj": {
+        "i": 6473,
+        "n": "Morbol Chandelier",
+        "l": 50,
+        "c": 51102,
+        "t": 75
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "item": {
+    "name": "Weathered Suit of Astrum Mail",
+    "jobCategories": "LNC DRG RPR",
+    "id": 7239,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 27799,
+    "ilvl": 100,
+    "category": 35,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 491,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 4,
+    "elvl": 50,
+    "jobs": 76,
+    "models": [
+      "152-1-0-0"
+    ],
+    "attr": {
+      "Defense": 126,
+      "Magic Defense": 99,
+      "Strength": 36,
+      "Vitality": 37,
+      "Direct Hit Rate": 39,
+      "Skill Speed": 27
+    },
+    "icon": 43204,
+    "sharedModels": [
+      7305,
+      10724
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (DoW)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7305",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7239",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7305",
+      "obj": {
+        "i": 7305,
+        "n": "Suit of Astrum Mail",
+        "l": 110,
+        "c": 43204,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10724",
+      "obj": {
+        "i": 10724,
+        "n": "Adamantite Mail of Maiming",
+        "l": 150,
+        "c": 43279,
+        "t": 35,
+        "p": 27799
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

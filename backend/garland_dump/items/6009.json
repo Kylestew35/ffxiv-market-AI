@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Voidal Resonator",
+    "description": "A metal tuning fork that, when struck, emits a low tone which opens a temporary rift in the void, allowing your personal ahriman─and your personal ahriman only─to pass through to this plane.",
+    "mount": {
+      "name": "Ahriman",
+      "action": "Summon forth a riding ahriman, bound to this realm with powerful magicks guaranteed to never fade.",
+      "description": "Though little is known of the void and the creatures which call the extra-dimensional realm home, scholars have discovered that there is a strict hierarchy amongst voidsent consisting of twelve distinct tiers. Ahrimans are believed to fall into the fifth, making them formidable foes...when not enthralled by curses.",
+      "tooltip": "Ye'd 'ave t' be blinder'n an<br>ahriman wi' an eyepatch t'<br>miss the camp.<br>  - Baderon Tenfingers",
+      "icon": 4004,
+      "guideIcon": 68004
+    },
+    "id": 6009,
+    "patch": 1.0,
+    "patchCategory": 17,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 22632,
+    "tradeShops": [
+      {
+        "shop": "Achievement Rewards",
+        "npcs": [
+          1008145
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6009",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21172",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "43-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1008145",
+      "obj": {
+        "i": 1008145,
+        "n": "Jonathas",
+        "l": 53,
+        "s": 1,
+        "t": "Master of the Rolls",
+        "r": 1,
+        "a": 575,
+        "c": [
+          10.62,
+          6.34
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21172",
+      "obj": {
+        "i": 21172,
+        "n": "Achievement Certificate",
+        "l": 1,
+        "c": 65059,
+        "t": 100
+      }
+    }
+  ]
+}

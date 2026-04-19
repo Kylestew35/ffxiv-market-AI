@@ -1,0 +1,91 @@
+{
+  "item": {
+    "name": "Storm Hatchling",
+    "description": "Not more than a fortnight out of the shell, but his blood already runs Maelstrom red. Till sea swallows all!<br><br>Use item to acquire the storm hatchling minion.",
+    "minionrace": "Critter",
+    "tooltip": "Chocobo dander can\r\nbe a mite ripe.\r\n  - Chocobokeep",
+    "minionskilltype": "Enfeeblement",
+    "specialactionname": "Storm Cry",
+    "specialactiondescription": "Binds all enemies within range.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 6170,
+    "patch": 1.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59409,
+    "tradeShops": [
+      {
+        "shop": "Maelstrom",
+        "npcs": [
+          1002387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6170",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "20",
+                "amount": 20000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 315,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 35,
+      "Speed": 3
+    },
+    "models": [
+      "8002-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002387",
+      "obj": {
+        "i": 1002387,
+        "n": "Storm Quartermaster",
+        "l": 28,
+        "s": 1,
+        "r": 1,
+        "a": 755,
+        "c": [
+          13.17,
+          12.79
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Storm Seal",
+        "l": 1,
+        "c": 65004,
+        "t": 63
+      }
+    }
+  ]
+}

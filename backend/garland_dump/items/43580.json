@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Bluecoat Cat",
+    "description": "Surprisingly sweet-tempered despite its regal bearing.<br><br>Use item to acquire the bluecoat cat minion.",
+    "minionrace": "Critter",
+    "tooltip": "Why is your laboratory overrun with felines?\r\nDid the stress finally break you?\r\n   - Margrat",
+    "minionskilltype": "Damage",
+    "specialactionname": "Noble Gaze",
+    "specialactiondescription": "Delivers an attack with a potency of 90 to all enemies within range.",
+    "id": 43580,
+    "patch": 7.0,
+    "patchCategory": 11,
+    "price": 99999,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59918,
+    "tradeShops": [
+      {
+        "shop": "Sacks of Nuts Exchange",
+        "npcs": [
+          1048387
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43580",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26533",
+                "amount": 800
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 120,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 480,
+      "Skill Cost": 20,
+      "Attack": 20,
+      "Defense": 30,
+      "Speed": 3
+    },
+    "models": [
+      "8473-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1048387",
+      "obj": {
+        "i": 1048387,
+        "n": "Ryubool Ja",
+        "l": 4504,
+        "s": 5,
+        "t": "Dawn Hunt Vendor",
+        "r": 1,
+        "a": 4537,
+        "c": [
+          13.97,
+          13.49
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26533",
+      "obj": {
+        "i": 26533,
+        "n": "Sack of Nuts",
+        "l": 1,
+        "c": 65068,
+        "t": 100
+      }
+    }
+  ]
+}

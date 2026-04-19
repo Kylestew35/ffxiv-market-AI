@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Wind-up Daivadipa",
+    "description": "Can discern good and evil─so long as they are at knee height.<br><br>Use item to acquire the wind-up Daivadipa minion.",
+    "minionrace": "Monster",
+    "tooltip": "Naught will escape my\r\nall-seeing eyes, no, no.\r\n   - Gyoka",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Divine Eye",
+    "specialactiondescription": "Increases ATK of all allies within range by 10.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 35990,
+    "patch": 6.0,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59842,
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "35990",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36634",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 360,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 55,
+      "Defense": 55,
+      "Speed": 3
+    },
+    "models": [
+      "8401-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36634",
+      "obj": {
+        "i": 36634,
+        "n": "Daivadipa's Bead",
+        "l": 1,
+        "c": 21320,
+        "t": 61
+      }
+    }
+  ]
+}

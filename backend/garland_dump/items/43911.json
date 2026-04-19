@@ -1,0 +1,114 @@
+{
+  "item": {
+    "name": "Kukuru Pulp Juice",
+    "description": "A sweet and tangy drink with a texture that is ever so faintly pulpy.",
+    "id": 43911,
+    "patch": 7.0,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 665,
+    "category": 63,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 24422,
+    "craft": [
+      {
+        "id": 35774,
+        "job": 14,
+        "rlvl": 665,
+        "durability": 80,
+        "quality": 5880,
+        "progress": 3825,
+        "lvl": 95,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 43939,
+            "amount": 1
+          },
+          {
+            "id": 13,
+            "amount": 8
+          },
+          {
+            "id": 12,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 100099,
+          "hq": 100119
+        }
+      },
+      {
+        "id": 35780,
+        "job": 15,
+        "rlvl": 665,
+        "durability": 80,
+        "quality": 5880,
+        "progress": 3825,
+        "lvl": 95,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 43939,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 100099,
+          "hq": 100119
+        }
+      }
+    ],
+    "usedInQuest": [
+      70522
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Yok Kukuru Pod",
+      "id": 43939,
+      "icon": 26110,
+      "category": 63,
+      "ilvl": 665,
+      "price": 99999
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "43939",
+      "obj": {
+        "i": 43939,
+        "n": "Yok Kukuru Pod",
+        "l": 665,
+        "c": 26110,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70522",
+      "obj": {
+        "i": 70522,
+        "n": "The Missing Drink",
+        "g": 211,
+        "l": "Tuliyollal",
+        "s": 350
+      }
+    }
+  ]
+}

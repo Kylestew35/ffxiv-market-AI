@@ -1,0 +1,140 @@
+{
+  "item": {
+    "name": "Weathered Vajras",
+    "jobCategories": "ROG NIN",
+    "id": 9246,
+    "patch": 2.4,
+    "patchCategory": 0,
+    "price": 19958,
+    "ilvl": 100,
+    "category": 84,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 535,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 93,
+    "models": [
+      "1801-19-1-0",
+      "1851-19-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 31,
+      "Delay": 2.56,
+      "Dexterity": 37,
+      "Vitality": 38,
+      "Direct Hit Rate": 40,
+      "Determination": 28
+    },
+    "icon": 33859,
+    "sharedModels": [
+      9247,
+      10621,
+      18038
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9247",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "9246",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "9247",
+      "obj": {
+        "i": 9247,
+        "n": "Vajras",
+        "l": 110,
+        "c": 33859,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "10621",
+      "obj": {
+        "i": 10621,
+        "n": "Adamantite Main Gauches",
+        "l": 150,
+        "c": 33873,
+        "t": 84,
+        "p": 19958
+      }
+    },
+    {
+      "type": "item",
+      "id": "18038",
+      "obj": {
+        "i": 18038,
+        "n": "High Steel Main Gauches",
+        "l": 255,
+        "c": 33911,
+        "t": 84,
+        "p": 36352
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "item": {
+    "name": "Shiva's Diamond Spear",
+    "jobCategories": "LNC DRG",
+    "id": 9552,
+    "patch": 2.45,
+    "patchCategory": 0,
+    "price": 39346,
+    "ilvl": 115,
+    "category": 5,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 615,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 662,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 47,
+    "models": [
+      "501-14-2-0"
+    ],
+    "attr": {
+      "Physical Damage": 64,
+      "Magic Damage": 32,
+      "Delay": 2.88,
+      "Strength": 45,
+      "Vitality": 46,
+      "Direct Hit Rate": 46,
+      "Critical Hit": 32
+    },
+    "icon": 31883,
+    "sharedModels": [
+      9014
+    ],
+    "tradeShops": [
+      {
+        "shop": "Primal Gear",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9552",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "9014",
+                "amount": 1
+              },
+              {
+                "id": "9559",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal Gear (IL 100-115)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9552",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "9014",
+                "amount": 1
+              },
+              {
+                "id": "9559",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "9014",
+      "obj": {
+        "i": 9014,
+        "n": "True Ice Spear",
+        "l": 110,
+        "c": 31883,
+        "t": 5
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "9559",
+      "obj": {
+        "i": 9559,
+        "n": "Diamond Dust",
+        "l": 1,
+        "c": 20003,
+        "t": 63
+      }
+    }
+  ]
+}

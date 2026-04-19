@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Highly Viscous Fisher's Gobbiegoo",
+    "description": "Try not to think about the process involved in rendering the “materials” you provided into this gloopy, pinkish Skysteel tool coating.",
+    "id": 30340,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26116,
+    "tradeShops": [
+      {
+        "shop": "Oddly Specific Materials Exchange (Gathering)",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30340",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31134",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31134",
+      "obj": {
+        "i": 31134,
+        "n": "Allagan Hunter",
+        "l": 460,
+        "c": 29462,
+        "t": 47
+      }
+    }
+  ]
+}

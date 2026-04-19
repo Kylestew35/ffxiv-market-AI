@@ -1,0 +1,315 @@
+{
+  "item": {
+    "name": "Amra Salad",
+    "description": "This salad, tossed with light dressing and filled with chopped amra fruit, is a sweet and savory treat.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36038,
+    "patch": 6.0,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 525,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Tenacity": {
+          "rate": 8,
+          "limit": 58
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 62
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Tenacity": {
+          "rate": 10,
+          "limit": 73
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 78
+        }
+      }
+    },
+    "icon": 24166,
+    "craft": [
+      {
+        "id": 5253,
+        "job": 15,
+        "rlvl": 520,
+        "durability": 80,
+        "quality": 5700,
+        "progress": 2300,
+        "lvl": 82,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 36264,
+            "amount": 1
+          },
+          {
+            "id": 36088,
+            "amount": 2
+          },
+          {
+            "id": 36098,
+            "amount": 1
+          },
+          {
+            "id": 27825,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 8
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 142,
+          "hq": 162
+        }
+      }
+    ],
+    "quests": [
+      69734,
+      69748,
+      70019,
+      70027
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1735500,
+      "seals": 874
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Amra",
+      "id": 36264,
+      "icon": 25325,
+      "category": 45,
+      "ilvl": 515,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36264",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        935
+      ]
+    },
+    {
+      "name": "Iceberg Lettuce",
+      "id": 36088,
+      "icon": 25219,
+      "category": 45,
+      "ilvl": 520,
+      "price": 99999,
+      "ventures": [
+        912
+      ],
+      "nodes": [
+        838
+      ]
+    },
+    {
+      "name": "Thavnairian Paprika",
+      "id": 36098,
+      "icon": 25018,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "ventures": [
+        917
+      ],
+      "nodes": [
+        840
+      ]
+    },
+    {
+      "name": "Blood Tomato",
+      "id": 27825,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1466,
+        1467,
+        1468
+      ],
+      "ventures": [
+        819
+      ],
+      "nodes": [
+        617
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "838",
+      "obj": {
+        "i": 838,
+        "n": "Meryall Agronomics",
+        "l": 85,
+        "t": 3,
+        "z": 3708
+      }
+    },
+    {
+      "type": "node",
+      "id": "840",
+      "obj": {
+        "i": 840,
+        "n": "Giantsgall Grounds",
+        "l": 85,
+        "t": 3,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "item",
+      "id": "36264",
+      "obj": {
+        "i": 36264,
+        "n": "Amra",
+        "l": 515,
+        "c": 25325,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36088",
+      "obj": {
+        "i": 36088,
+        "n": "Iceberg Lettuce",
+        "l": 520,
+        "c": 25219,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36098",
+      "obj": {
+        "i": 36098,
+        "n": "Thavnairian Paprika",
+        "l": 525,
+        "c": 25018,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27825",
+      "obj": {
+        "i": 27825,
+        "n": "Blood Tomato",
+        "l": 390,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69734",
+      "obj": {
+        "i": 69734,
+        "n": "Tikka Hike",
+        "g": 140,
+        "l": "Thavnair",
+        "s": 1220
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69748",
+      "obj": {
+        "i": 69748,
+        "n": "My Fair Mammet",
+        "g": 139,
+        "l": "Old Sharlayan",
+        "s": 1420
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70019",
+      "obj": {
+        "i": 70019,
+        "n": "Dream Big",
+        "g": 141,
+        "l": "Labyrinthos",
+        "s": 1194
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70027",
+      "obj": {
+        "i": 70027,
+        "n": "Ogul Repays Her Favors",
+        "g": 142,
+        "l": "Thavnair",
+        "s": 1223,
+        "f": 1
+      }
+    }
+  ]
+}

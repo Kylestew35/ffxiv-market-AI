@@ -1,0 +1,168 @@
+{
+  "item": {
+    "name": "Gordian Crown of Healing",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 11529,
+    "patch": 3.05,
+    "patchCategory": 0,
+    "price": 61746,
+    "ilvl": 210,
+    "category": 34,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 1,
+    "sell_price": 649,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 10386,
+    "glamourous": 1,
+    "delivery": 1170,
+    "slot": 3,
+    "elvl": 60,
+    "jobs": 64,
+    "models": [
+      "283-1-0-0"
+    ],
+    "attr": {
+      "Defense": 98,
+      "Magic Defense": 172,
+      "Mind": 48,
+      "Vitality": 42,
+      "Determination": 51,
+      "Spell Speed": 36
+    },
+    "icon": 40679,
+    "instances": [
+      30027
+    ],
+    "sharedModels": [
+      11453,
+      11454,
+      11530
+    ],
+    "tradeShops": [
+      {
+        "shop": "Gordian Manifesto Exchange (DoM)",
+        "npcs": [
+          1012227
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11529",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12683",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Gordian Gear (IL 210)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "11529",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "12683",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "30027",
+      "obj": {
+        "i": 30027,
+        "n": "Alexander - The Arm of the Father (Savage)",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 60,
+        "max_lvl": 60,
+        "min_ilvl": 200
+      }
+    },
+    {
+      "type": "item",
+      "id": "11453",
+      "obj": {
+        "i": 11453,
+        "n": "Prototype Gordian Crown of Healing",
+        "l": 190,
+        "c": 40679,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "11454",
+      "obj": {
+        "i": 11454,
+        "n": "Prototype Gordian Crown of Casting",
+        "l": 190,
+        "c": 40680,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "11530",
+      "obj": {
+        "i": 11530,
+        "n": "Gordian Crown of Casting",
+        "l": 210,
+        "c": 40680,
+        "t": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1012227",
+      "obj": {
+        "i": 1012227,
+        "n": "Sabina",
+        "l": 2082,
+        "s": 19,
+        "t": "Alexander Parts Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.71,
+          5.37
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "12683",
+      "obj": {
+        "i": 12683,
+        "n": "Gordian Manifesto - Page 3",
+        "l": 1,
+        "c": 26156,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "item": {
+    "name": "Petal Shell",
+    "description": "Sometimes mistaken for underwater flowers, though sadly, the aroma they produce is far less pleasant.<br><br>Can only be caught when equipped with a dragonsung fishing rod.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Aptly named for their resemblance to plum blossom petals, these vividly colored bivalves have long been used not only for decoration, but also in the construction of various tools.",
+      "icon": 79419,
+      "spots": [
+        {
+          "spot": 174,
+          "hookset": "Precision Hookset",
+          "tug": "Light",
+          "baits": [
+            [
+              30136
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 31129,
+    "patch": 5.35,
+    "patchCategory": 7,
+    "price": 210,
+    "ilvl": 460,
+    "category": 47,
+    "dyecount": 0,
+    "sell_price": 7,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 29419,
+    "tradeCurrency": [
+      {
+        "shop": "Oddly Specific Materials Exchange (Gathering)",
+        "npcs": [
+          1032900
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30339",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31129",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fishingSpots": [
+      174
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1032900",
+      "obj": {
+        "i": 1032900,
+        "n": "Denys",
+        "l": 2300,
+        "s": 6,
+        "t": "Skysteel Tool Exchange",
+        "r": 1,
+        "a": 2314,
+        "c": [
+          8.02,
+          10.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30339",
+      "obj": {
+        "i": 30339,
+        "n": "Fisher's Gobbiegoo",
+        "l": 1,
+        "c": 26115,
+        "t": 61
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "174",
+      "obj": {
+        "i": 174,
+        "n": "Plum Spring",
+        "l": 70,
+        "c": 1,
+        "z": 2410,
+        "x": 36.03,
+        "y": 23.82
+      }
+    },
+    {
+      "type": "item",
+      "id": "30136",
+      "obj": {
+        "i": 30136,
+        "n": "Signature Skyball",
+        "l": 430,
+        "c": 27007,
+        "t": 33,
+        "p": 100
+      }
+    }
+  ]
+}

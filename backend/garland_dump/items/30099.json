@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "Amaro Hatchling",
+    "description": "It may make a fine steed if you live long enough to see it reach maturity.<br><br>Use item to acquire the amaro hatchling minion.",
+    "minionrace": "Monster",
+    "tooltip": "Oh, how I envy the amaro.\r\nIn all of creation, no animal\r\nis so pure, so perfect...\r\n   - Bethric",
+    "minionskilltype": "Special",
+    "specialactionname": "Ways of Ronka",
+    "specialactiondescription": "Reduces minion summoning recast time by 50%.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 30099,
+    "patch": 5.4,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59777,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027998
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30099",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 35,
+      "Speed": 3
+    },
+    "models": [
+      "8338-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

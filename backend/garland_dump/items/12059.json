@@ -1,0 +1,122 @@
+{
+  "item": {
+    "name": "Griffin Hatchling",
+    "description": "Not to be confused with a gryphon hatchling, a griffon hatchling, a gryfon hatchling, or a gryphus hatchling.<br><br>Use item to acquire the griffin hatchling minion.",
+    "minionrace": "Monster",
+    "tooltip": "You'd be surprised at how\r\nmany...end up sliced to\r\nribbons by beak and talon.\r\n   - Fafafono",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Wingbeat",
+    "specialactiondescription": "Renders all allies within range immune to attacks by <span class=\"highlight\">poppets</span>.<br><span class=\"highlight-green\">Duration:</span> 5s",
+    "id": 12059,
+    "patch": 3.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59537,
+    "tradeShops": [
+      {
+        "shop": "Exchange Centurio Seals",
+        "npcs": [
+          1012225
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12059",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "10307",
+                "amount": 400
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Previous Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "12059",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "46179",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 360,
+    "strengths": [],
+    "attr": {
+      "HP": 310,
+      "Skill Cost": 20,
+      "Attack": 65,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8113-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012225",
+      "obj": {
+        "i": 1012225,
+        "n": "Ardolain",
+        "l": 2300,
+        "s": 2,
+        "q": 4,
+        "t": "Clan Centurio Member",
+        "r": 1,
+        "a": 2310,
+        "c": [
+          13.05,
+          11.85
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "10307",
+      "obj": {
+        "i": 10307,
+        "n": "Centurio Seal",
+        "l": 1,
+        "c": 65034,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "46179",
+      "obj": {
+        "i": 46179,
+        "n": "Irregular Tomestone of Revelation",
+        "l": 1,
+        "c": "t/26346",
+        "t": 63
+      }
+    }
+  ]
+}

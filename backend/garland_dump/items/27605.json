@@ -1,0 +1,213 @@
+{
+  "item": {
+    "name": "The King's Rod",
+    "jobCategories": "THM BLM",
+    "id": 27605,
+    "patch": 5.0,
+    "patchCategory": 0,
+    "price": 5000,
+    "ilvl": 450,
+    "category": 7,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 1772,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "equip": 1,
+    "sockets": 2,
+    "advancedMeldingForbidden": 1,
+    "repair_item": 17837,
+    "glamourous": 1,
+    "delivery": 1638,
+    "slot": 13,
+    "elvl": 80,
+    "jobs": 55,
+    "models": [
+      "1001-76-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 97,
+      "Magic Damage": 97,
+      "Delay": 3.28,
+      "Intelligence": 174,
+      "Vitality": 157,
+      "Direct Hit Rate": 174,
+      "Spell Speed": 122
+    },
+    "attr_max": {
+      "Strength": 174,
+      "Dexterity": 122,
+      "Vitality": 174,
+      "Mind": 122,
+      "Piety": 122,
+      "GP": 8,
+      "CP": 6,
+      "Tenacity": 174,
+      "Critical Hit": 174,
+      "Fire Resistance": 26,
+      "Ice Resistance": 26,
+      "Wind Resistance": 26,
+      "Earth Resistance": 26,
+      "Lightning Resistance": 26,
+      "Water Resistance": 26,
+      "Determination": 174,
+      "Skill Speed": 174,
+      "Spell Speed": 174,
+      "Slow Resistance": 4,
+      "Petrification Resistance": 4,
+      "Paralysis Resistance": 4,
+      "Silence Resistance": 4,
+      "Blind Resistance": 4,
+      "Poison Resistance": 4,
+      "Stun Resistance": 4,
+      "Sleep Resistance": 4,
+      "Bind Resistance": 4,
+      "Heavy Resistance": 4,
+      "Doom Resistance": 4,
+      "Craftsmanship": 843,
+      "Control": 459,
+      "Gathering": 802,
+      "Perception": 458
+    },
+    "icon": 33119,
+    "sharedModels": [
+      38550
+    ],
+    "instances": [
+      20063,
+      20063
+    ],
+    "tradeShops": [
+      {
+        "shop": "Totem Gear (Titania)",
+        "npcs": [
+          1027565
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27605",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27391",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal/Warden/Weapon Gear (IL 450-525)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "27605",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27391",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "desynthedTo": [
+      27693,
+      27951
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "38550",
+      "obj": {
+        "i": 38550,
+        "n": "The Fae's Crown Rod",
+        "l": 430,
+        "c": 33119,
+        "t": 7
+      }
+    },
+    {
+      "type": "instance",
+      "id": "20063",
+      "obj": {
+        "i": 20063,
+        "n": "The Dancing Plague (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 80,
+        "max_lvl": 80,
+        "min_ilvl": 430
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027565",
+      "obj": {
+        "i": 1027565,
+        "n": "Fathard",
+        "l": 2952,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 3275,
+        "c": [
+          10.18,
+          11.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27391",
+      "obj": {
+        "i": 27391,
+        "n": "King Totem",
+        "l": 1,
+        "c": 26555,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "27693",
+      "obj": {
+        "i": 27693,
+        "n": "Lignum Vitae Lumber",
+        "l": 415,
+        "c": 22454,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "27951",
+      "obj": {
+        "i": 27951,
+        "n": "Dancing Wing",
+        "l": 450,
+        "c": 59579,
+        "t": 51
+      }
+    }
+  ]
+}

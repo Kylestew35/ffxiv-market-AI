@@ -1,0 +1,127 @@
+{
+  "item": {
+    "name": "Weathered Glanzfaust",
+    "jobCategories": "PGL MNK",
+    "id": 7286,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 29462,
+    "ilvl": 100,
+    "category": 1,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 535,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 9,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 41,
+    "models": [
+      "301-12-1-0",
+      "351-12-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 62,
+      "Magic Damage": 31,
+      "Delay": 2.4,
+      "Strength": 37,
+      "Vitality": 38,
+      "Direct Hit Rate": 40,
+      "Determination": 28
+    },
+    "icon": 31071,
+    "sharedModels": [
+      7352,
+      10597
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (Weapons)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7352",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7286",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7352",
+      "obj": {
+        "i": 7352,
+        "n": "Glanzfaust",
+        "l": 110,
+        "c": 31071,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "10597",
+      "obj": {
+        "i": 10597,
+        "n": "Adamantite Knuckles",
+        "l": 150,
+        "c": 31086,
+        "t": 1,
+        "p": 29462
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

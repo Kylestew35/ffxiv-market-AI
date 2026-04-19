@@ -1,0 +1,1048 @@
+{
+  "item": {
+    "name": "Stonegold Ingot",
+    "description": "An ingot of smelted stonegold.",
+    "id": 27709,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2838,
+    "ilvl": 395,
+    "category": 49,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 11,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20809,
+    "craft": [
+      {
+        "id": 3828,
+        "job": 11,
+        "rlvl": 395,
+        "durability": 40,
+        "quality": 3040,
+        "progress": 610,
+        "lvl": 72,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27697,
+            "amount": 4
+          },
+          {
+            "id": 5118,
+            "amount": 1
+          },
+          {
+            "id": 10,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 88,
+          "hq": 108
+        }
+      }
+    ],
+    "ingredient_of": {
+      "25788": 1,
+      "25789": 1,
+      "25790": 1,
+      "25793": 1,
+      "25794": 1,
+      "25795": 1,
+      "25800": 3,
+      "25801": 1,
+      "25802": 3,
+      "25803": 1,
+      "25804": 1,
+      "25805": 1,
+      "25822": 1,
+      "25834": 1,
+      "25848": 2,
+      "25849": 2,
+      "25850": 2,
+      "25851": 2,
+      "25852": 2,
+      "25853": 2,
+      "25854": 2,
+      "25855": 2,
+      "25856": 2,
+      "25857": 2,
+      "25858": 2,
+      "25859": 2,
+      "25860": 2,
+      "25861": 2,
+      "25862": 2,
+      "25863": 1,
+      "25864": 1,
+      "25865": 1,
+      "25866": 1,
+      "25867": 1,
+      "26278": 1,
+      "26279": 1,
+      "26283": 2,
+      "26285": 1,
+      "27103": 1,
+      "29684": 2,
+      "30385": 5,
+      "35763": 2,
+      "35781": 2,
+      "38674": 5,
+      "27233": 2,
+      "27987": 1,
+      "31027": 2,
+      "35589": 2
+    },
+    "leves": [
+      1511,
+      1512,
+      1513
+    ],
+    "desynthedFrom": [
+      23518,
+      23481
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "VENTURE"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Truegold Ore",
+      "id": 27697,
+      "icon": 21212,
+      "category": 48,
+      "ilvl": 395,
+      "price": 210,
+      "leves": [
+        1451
+      ],
+      "ventures": [
+        790
+      ],
+      "nodes": [
+        592
+      ]
+    },
+    {
+      "name": "Gold Ore",
+      "id": 5118,
+      "icon": 21212,
+      "category": 48,
+      "ilvl": 55,
+      "price": 326,
+      "voyages": [
+        {
+          "id": 1,
+          "type": 0
+        },
+        {
+          "id": 7,
+          "type": 0
+        },
+        {
+          "id": 13,
+          "type": 0
+        },
+        {
+          "id": 19,
+          "type": 0
+        },
+        {
+          "id": 26,
+          "type": 1
+        }
+      ],
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5118",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        509
+      ],
+      "nodes": [
+        223
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "592",
+      "obj": {
+        "i": 592,
+        "n": "The Bookman's Shelves",
+        "l": 75,
+        "t": 0,
+        "z": 2956
+      }
+    },
+    {
+      "type": "node",
+      "id": "223",
+      "obj": {
+        "i": 223,
+        "n": "The Burning Wall",
+        "l": 50,
+        "t": 0,
+        "z": 44,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          9
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27697",
+      "obj": {
+        "i": 27697,
+        "n": "Truegold Ore",
+        "l": 395,
+        "c": 21212,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "5118",
+      "obj": {
+        "i": 5118,
+        "n": "Gold Ore",
+        "l": 55,
+        "c": 21212,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "25788",
+      "obj": {
+        "i": 25788,
+        "n": "Deepgold Sword",
+        "l": 395,
+        "c": 30606,
+        "t": 2,
+        "p": 27252
+      }
+    },
+    {
+      "type": "item",
+      "id": "25789",
+      "obj": {
+        "i": 25789,
+        "n": "Deepgold Knuckles",
+        "l": 395,
+        "c": 31171,
+        "t": 1,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25790",
+      "obj": {
+        "i": 25790,
+        "n": "Deepgold Axe",
+        "l": 395,
+        "c": 31580,
+        "t": 3,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25793",
+      "obj": {
+        "i": 25793,
+        "n": "Deepgold Daggers",
+        "l": 395,
+        "c": 33957,
+        "t": 84,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25794",
+      "obj": {
+        "i": 25794,
+        "n": "Deepgold Greatsword",
+        "l": 395,
+        "c": 34336,
+        "t": 87,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25795",
+      "obj": {
+        "i": 25795,
+        "n": "Deepgold Arquebus",
+        "l": 395,
+        "c": 34456,
+        "t": 88,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25800",
+      "obj": {
+        "i": 25800,
+        "n": "Stonegold Orrery",
+        "l": 395,
+        "c": 34930,
+        "t": 89,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25801",
+      "obj": {
+        "i": 25801,
+        "n": "Deepgold Uchigatana",
+        "l": 395,
+        "c": 36489,
+        "t": 96,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25802",
+      "obj": {
+        "i": 25802,
+        "n": "Stonegold Rapier",
+        "l": 395,
+        "c": 36788,
+        "t": 97,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25803",
+      "obj": {
+        "i": 25803,
+        "n": "Deepgold Bayonet",
+        "l": 395,
+        "c": 36022,
+        "t": 106,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25804",
+      "obj": {
+        "i": 25804,
+        "n": "Deepgold Chakrams",
+        "l": 395,
+        "c": 36221,
+        "t": 107,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "25805",
+      "obj": {
+        "i": 25805,
+        "n": "Deepgold Shield",
+        "l": 395,
+        "c": 30196,
+        "t": 11,
+        "p": 13626
+      }
+    },
+    {
+      "type": "item",
+      "id": "25822",
+      "obj": {
+        "i": 25822,
+        "n": "Gliderskin Thighboots of Striking",
+        "l": 395,
+        "c": 49051,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25834",
+      "obj": {
+        "i": 25834,
+        "n": "Gliderskin Thighboots of Scouting",
+        "l": 395,
+        "c": 49052,
+        "t": 38,
+        "p": 22482
+      }
+    },
+    {
+      "type": "item",
+      "id": "25848",
+      "obj": {
+        "i": 25848,
+        "n": "Diaspore Earrings of Fending",
+        "l": 395,
+        "c": 55434,
+        "t": 41,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25849",
+      "obj": {
+        "i": 25849,
+        "n": "Diaspore Earrings of Slaying",
+        "l": 395,
+        "c": 55434,
+        "t": 41,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25850",
+      "obj": {
+        "i": 25850,
+        "n": "Diaspore Earrings of Aiming",
+        "l": 395,
+        "c": 55434,
+        "t": 41,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25851",
+      "obj": {
+        "i": 25851,
+        "n": "Diaspore Earrings of Healing",
+        "l": 395,
+        "c": 55434,
+        "t": 41,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25852",
+      "obj": {
+        "i": 25852,
+        "n": "Diaspore Earrings of Casting",
+        "l": 395,
+        "c": 55434,
+        "t": 41,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25853",
+      "obj": {
+        "i": 25853,
+        "n": "Diaspore Choker of Fending",
+        "l": 395,
+        "c": 55004,
+        "t": 40,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25854",
+      "obj": {
+        "i": 25854,
+        "n": "Diaspore Choker of Slaying",
+        "l": 395,
+        "c": 55004,
+        "t": 40,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25855",
+      "obj": {
+        "i": 25855,
+        "n": "Diaspore Choker of Aiming",
+        "l": 395,
+        "c": 55004,
+        "t": 40,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25856",
+      "obj": {
+        "i": 25856,
+        "n": "Diaspore Choker of Healing",
+        "l": 395,
+        "c": 55004,
+        "t": 40,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25857",
+      "obj": {
+        "i": 25857,
+        "n": "Diaspore Choker of Casting",
+        "l": 395,
+        "c": 55004,
+        "t": 40,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25858",
+      "obj": {
+        "i": 25858,
+        "n": "Diaspore Bracelet of Fending",
+        "l": 395,
+        "c": 55804,
+        "t": 42,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25859",
+      "obj": {
+        "i": 25859,
+        "n": "Diaspore Bracelet of Slaying",
+        "l": 395,
+        "c": 55804,
+        "t": 42,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25860",
+      "obj": {
+        "i": 25860,
+        "n": "Diaspore Bracelet of Aiming",
+        "l": 395,
+        "c": 55804,
+        "t": 42,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25861",
+      "obj": {
+        "i": 25861,
+        "n": "Diaspore Bracelet of Healing",
+        "l": 395,
+        "c": 55804,
+        "t": 42,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25862",
+      "obj": {
+        "i": 25862,
+        "n": "Diaspore Bracelet of Casting",
+        "l": 395,
+        "c": 55804,
+        "t": 42,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25863",
+      "obj": {
+        "i": 25863,
+        "n": "Diaspore Ring of Fending",
+        "l": 395,
+        "c": 54652,
+        "t": 43,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25864",
+      "obj": {
+        "i": 25864,
+        "n": "Diaspore Ring of Slaying",
+        "l": 395,
+        "c": 54652,
+        "t": 43,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25865",
+      "obj": {
+        "i": 25865,
+        "n": "Diaspore Ring of Aiming",
+        "l": 395,
+        "c": 54652,
+        "t": 43,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25866",
+      "obj": {
+        "i": 25866,
+        "n": "Diaspore Ring of Healing",
+        "l": 395,
+        "c": 54652,
+        "t": 43,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "25867",
+      "obj": {
+        "i": 25867,
+        "n": "Diaspore Ring of Casting",
+        "l": 395,
+        "c": 54652,
+        "t": 43,
+        "p": 17032
+      }
+    },
+    {
+      "type": "item",
+      "id": "26278",
+      "obj": {
+        "i": 26278,
+        "n": "Dwarven Mythril Grimoire",
+        "l": 415,
+        "c": 33300,
+        "t": 10,
+        "p": 44283
+      }
+    },
+    {
+      "type": "item",
+      "id": "26279",
+      "obj": {
+        "i": 26279,
+        "n": "Dwarven Mythril Codex",
+        "l": 415,
+        "c": 33299,
+        "t": 98,
+        "p": 44283
+      }
+    },
+    {
+      "type": "item",
+      "id": "26283",
+      "obj": {
+        "i": 26283,
+        "n": "Dwarven Mythril Manatrigger",
+        "l": 415,
+        "c": 36029,
+        "t": 106,
+        "p": 44283
+      }
+    },
+    {
+      "type": "item",
+      "id": "26285",
+      "obj": {
+        "i": 26285,
+        "n": "Dwarven Mythril Shield",
+        "l": 415,
+        "c": 30198,
+        "t": 11,
+        "p": 14761
+      }
+    },
+    {
+      "type": "item",
+      "id": "27103",
+      "obj": {
+        "i": 27103,
+        "n": "Manasilver Needle",
+        "l": 370,
+        "c": 35533,
+        "t": 22,
+        "p": 42012
+      }
+    },
+    {
+      "type": "item",
+      "id": "29684",
+      "obj": {
+        "i": 29684,
+        "n": "Fat Cat Wall Chronometer",
+        "l": 430,
+        "c": 51428,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "30385",
+      "obj": {
+        "i": 30385,
+        "n": "Wooden Staircase Bookshelf",
+        "l": 430,
+        "c": 52690,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "35763",
+      "obj": {
+        "i": 35763,
+        "n": "Deepgold Sickle",
+        "l": 395,
+        "c": 37212,
+        "t": 108,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "35781",
+      "obj": {
+        "i": 35781,
+        "n": "Stonegold Syrinxi",
+        "l": 395,
+        "c": 37011,
+        "t": 109,
+        "p": 40878
+      }
+    },
+    {
+      "type": "item",
+      "id": "38674",
+      "obj": {
+        "i": 38674,
+        "n": "Leveilleur Estate Interior Wall",
+        "l": 560,
+        "c": 51255,
+        "t": 73
+      }
+    },
+    {
+      "type": "item",
+      "id": "27233",
+      "obj": {
+        "i": 27233,
+        "n": "Metal Worm Jar",
+        "l": 400,
+        "c": 26578,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27987",
+      "obj": {
+        "i": 27987,
+        "n": "Innocence Barding",
+        "l": 1,
+        "c": 58713,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "31027",
+      "obj": {
+        "i": 31027,
+        "n": "Rarefied Stonegold Orrery",
+        "l": 403,
+        "c": 34930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "35589",
+      "obj": {
+        "i": 35589,
+        "n": "Gold Cog",
+        "l": 530,
+        "c": 26269,
+        "t": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1511",
+      "obj": {
+        "i": 1511,
+        "n": "Slimming Down",
+        "l": 72,
+        "j": 12,
+        "p": 2951
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1512",
+      "obj": {
+        "i": 1512,
+        "n": "Neck on the Line",
+        "l": 72,
+        "j": 12,
+        "p": 2951
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1513",
+      "obj": {
+        "i": 1513,
+        "n": "Gentleman Donor",
+        "l": 72,
+        "j": 12,
+        "p": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "23518",
+      "obj": {
+        "i": 23518,
+        "n": "Augmented Scaevan Mask of Healing",
+        "l": 400,
+        "c": 40517,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23481",
+      "obj": {
+        "i": 23481,
+        "n": "Augmented Scaevan Magitek Rod",
+        "l": 400,
+        "c": 33106,
+        "t": 7
+      }
+    }
+  ]
+}

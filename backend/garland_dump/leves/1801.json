@@ -1,0 +1,128 @@
+{
+  "leve": {
+    "name": "Order for Odd Fish",
+    "description": "We've got an odd order from an even odder fishmonger: he says he's looking for a fish that's evenly spotted, thin as a plate, and that lives in the waters of a wide rainforest. Can't say I believe such a fish exists─and even if it did, I can't imagine what customer would buy it! Still, it'd be worth taking a dip in <span class=\"highlight\">the eastern waters of Marsh Ligaka</span> just in case.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1801,
+    "patch": 7.0,
+    "client": "Povlu's Peddlery Southern Representative, Toplu",
+    "lvl": 92,
+    "jobCategory": 19,
+    "levemete": 1048392,
+    "coords": [
+      23.63,
+      14.37
+    ],
+    "zoneid": 4506,
+    "areaid": 4506,
+    "xp": 5080188,
+    "gil": 2510,
+    "rewards": 807,
+    "plate": 80074,
+    "frame": 80005,
+    "areaicon": 110200,
+    "requires": [
+      {
+        "item": 43811,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 807,
+    "entries": [
+      {
+        "item": 43850,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Potglaze Stingray",
+      "id": 43811,
+      "icon": 28638,
+      "category": 47,
+      "ilvl": 650,
+      "price": 99999,
+      "nodes": [
+        1006
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "1006",
+      "obj": {
+        "i": 1006,
+        "n": "Eastern Marsh Ligaka",
+        "l": 95,
+        "t": 5,
+        "z": 4506
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1801",
+      "obj": {
+        "i": 1801,
+        "n": "Order for Odd Fish",
+        "l": 92,
+        "j": 19,
+        "p": 4506
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048392",
+      "obj": {
+        "i": 1048392,
+        "n": "Br'uk Ts'on",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "43850",
+      "obj": {
+        "i": 43850,
+        "n": "Crimson Lugworm",
+        "l": 620,
+        "c": 27103,
+        "t": 33,
+        "p": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "43811",
+      "obj": {
+        "i": 43811,
+        "n": "Potglaze Stingray",
+        "l": 650,
+        "c": 28638,
+        "t": 47
+      }
+    }
+  ]
+}

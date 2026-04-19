@@ -1,0 +1,923 @@
+{
+  "item": {
+    "name": "Eikon Cloth",
+    "description": "Finely woven cloth blessed by a primal.",
+    "id": 14152,
+    "patch": 3.2,
+    "patchCategory": 5,
+    "price": 3492,
+    "ilvl": 210,
+    "category": 51,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21621,
+    "craft": [
+      {
+        "id": 31485,
+        "job": 13,
+        "rlvl": 210,
+        "durability": 70,
+        "quality": 3300,
+        "progress": 880,
+        "lvl": 60,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 820,
+        "craftsmanshipReq": 850,
+        "quickSynthCraftsmanship": 995,
+        "unlockId": 14131,
+        "ingredients": [
+          {
+            "id": 14153,
+            "amount": 2
+          },
+          {
+            "id": 14154,
+            "amount": 3
+          },
+          {
+            "id": 12597,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 3
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 474,
+          "hq": 494
+        }
+      }
+    ],
+    "ingredient_of": {
+      "14715": 1,
+      "14719": 1,
+      "14720": 2,
+      "14721": 1,
+      "14724": 1,
+      "14725": 2,
+      "14726": 1,
+      "14727": 2,
+      "14728": 2,
+      "14729": 2,
+      "14730": 3,
+      "14731": 1,
+      "14732": 2,
+      "14733": 2,
+      "14734": 2,
+      "14735": 3,
+      "14736": 1,
+      "14737": 2,
+      "14738": 2,
+      "14739": 2,
+      "14740": 3,
+      "14741": 1,
+      "14744": 1,
+      "14745": 2,
+      "14746": 1,
+      "15506": 1,
+      "15508": 1,
+      "15515": 2,
+      "15516": 2,
+      "15517": 2,
+      "15518": 1,
+      "17015": 1,
+      "17605": 1,
+      "17609": 1,
+      "20440": 1,
+      "24325": 1,
+      "24333": 1
+    },
+    "desynthedFrom": [
+      17415,
+      16204,
+      11537,
+      14600,
+      16214,
+      14431,
+      11817,
+      16220
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Eikon Fiber",
+      "id": 14153,
+      "icon": 21657,
+      "category": 51,
+      "ilvl": 210,
+      "price": 1663,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1012228
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Sky Pirate Spoils (Brass)",
+          "npcs": [
+            1016261,
+            1016496,
+            1016498,
+            1016500,
+            1019106
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14153",
+                  "amount": 4
+                }
+              ],
+              "currency": [
+                {
+                  "id": "13630",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "14153",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frost Cotton Boll",
+      "id": 14154,
+      "icon": 25032,
+      "category": 51,
+      "ilvl": 210,
+      "price": 748,
+      "ventures": [
+        623
+      ],
+      "nodes": [
+        345
+      ]
+    },
+    {
+      "name": "Rainbow Cotton Boll",
+      "id": 12597,
+      "icon": 25032,
+      "category": 51,
+      "ilvl": 115,
+      "price": 409,
+      "desynthedFrom": [
+        17953
+      ],
+      "ventures": [
+        464
+      ],
+      "nodes": [
+        296
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1012228",
+      "obj": {
+        "i": 1012228,
+        "n": "Hismena",
+        "l": 2082,
+        "s": 8,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.78,
+          5.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016261",
+      "obj": {
+        "i": 1016261,
+        "n": "Spoils Collector",
+        "l": 2301,
+        "s": 3,
+        "r": 1,
+        "a": 2323,
+        "c": [
+          14.75,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016496",
+      "obj": {
+        "i": 1016496,
+        "n": "Spoils Collector",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1222,
+        "c": [
+          11.23,
+          15.11
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016498",
+      "obj": {
+        "i": 1016498,
+        "n": "Spoils Collector",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1200,
+        "c": [
+          10.93,
+          8.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016500",
+      "obj": {
+        "i": 1016500,
+        "n": "Spoils Collector",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1152,
+        "c": [
+          11.77,
+          7.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019106",
+      "obj": {
+        "i": 1019106,
+        "n": "Spoils Collector",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "a": 1912,
+        "c": [
+          9.13,
+          9.26
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "13630",
+      "obj": {
+        "i": 13630,
+        "n": "Brass Sky Pirate Spoil",
+        "l": 1,
+        "c": 25950,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "345",
+      "obj": {
+        "i": 345,
+        "n": "Twinpools",
+        "l": 60,
+        "t": 3,
+        "z": 2200,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "296",
+      "obj": {
+        "i": 296,
+        "n": "Twinpools",
+        "l": 55,
+        "t": 3,
+        "z": 2200
+      }
+    },
+    {
+      "type": "item",
+      "id": "14131",
+      "obj": {
+        "i": 14131,
+        "n": "Master Weaver IV",
+        "l": 1,
+        "c": 26157,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "14153",
+      "obj": {
+        "i": 14153,
+        "n": "Eikon Fiber",
+        "l": 210,
+        "c": 21657,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "14154",
+      "obj": {
+        "i": 14154,
+        "n": "Frost Cotton Boll",
+        "l": 210,
+        "c": 25032,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "12597",
+      "obj": {
+        "i": 12597,
+        "n": "Rainbow Cotton Boll",
+        "l": 115,
+        "c": 25032,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "14715",
+      "obj": {
+        "i": 14715,
+        "n": "Eikon Leather Breeches of Fending",
+        "l": 220,
+        "c": 45751,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14719",
+      "obj": {
+        "i": 14719,
+        "n": "Eikon Leather Armguards of Maiming",
+        "l": 220,
+        "c": 44431,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "14720",
+      "obj": {
+        "i": 14720,
+        "n": "Eikon Cloth Brais of Maiming",
+        "l": 220,
+        "c": 45752,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14721",
+      "obj": {
+        "i": 14721,
+        "n": "Eikon Leather Leg Guards of Maiming",
+        "l": 220,
+        "c": 47045,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14724",
+      "obj": {
+        "i": 14724,
+        "n": "Eikon Leather Armguards of Striking",
+        "l": 220,
+        "c": 44432,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "14725",
+      "obj": {
+        "i": 14725,
+        "n": "Eikon Cloth Brais of Striking",
+        "l": 220,
+        "c": 45753,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14726",
+      "obj": {
+        "i": 14726,
+        "n": "Eikon Leather Leg Guards of Striking",
+        "l": 220,
+        "c": 47046,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14727",
+      "obj": {
+        "i": 14727,
+        "n": "Eikon Cloth Hat of Aiming",
+        "l": 220,
+        "c": 41313,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "14728",
+      "obj": {
+        "i": 14728,
+        "n": "Eikon Cloth Acton of Aiming",
+        "l": 220,
+        "c": 43296,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14729",
+      "obj": {
+        "i": 14729,
+        "n": "Eikon Cloth Sleeves of Aiming",
+        "l": 220,
+        "c": 48543,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "14730",
+      "obj": {
+        "i": 14730,
+        "n": "Eikon Cloth Culottes of Aiming",
+        "l": 220,
+        "c": 45755,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14731",
+      "obj": {
+        "i": 14731,
+        "n": "Eikon Leather Thighboots of Aiming",
+        "l": 220,
+        "c": 46591,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14732",
+      "obj": {
+        "i": 14732,
+        "n": "Eikon Cloth Hat of Scouting",
+        "l": 220,
+        "c": 41312,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "14733",
+      "obj": {
+        "i": 14733,
+        "n": "Eikon Cloth Acton of Scouting",
+        "l": 220,
+        "c": 43295,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14734",
+      "obj": {
+        "i": 14734,
+        "n": "Eikon Cloth Sleeves of Scouting",
+        "l": 220,
+        "c": 48542,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "14735",
+      "obj": {
+        "i": 14735,
+        "n": "Eikon Cloth Culottes of Scouting",
+        "l": 220,
+        "c": 45754,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14736",
+      "obj": {
+        "i": 14736,
+        "n": "Eikon Leather Thighboots of Scouting",
+        "l": 220,
+        "c": 46590,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14737",
+      "obj": {
+        "i": 14737,
+        "n": "Eikon Cloth Hat of Healing",
+        "l": 220,
+        "c": 41314,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "14738",
+      "obj": {
+        "i": 14738,
+        "n": "Eikon Cloth Acton of Healing",
+        "l": 220,
+        "c": 43712,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14739",
+      "obj": {
+        "i": 14739,
+        "n": "Eikon Cloth Sleeves of Healing",
+        "l": 220,
+        "c": 44433,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "14740",
+      "obj": {
+        "i": 14740,
+        "n": "Eikon Cloth Culottes of Healing",
+        "l": 220,
+        "c": 45756,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14741",
+      "obj": {
+        "i": 14741,
+        "n": "Eikon Leather Boots of Healing",
+        "l": 220,
+        "c": 46592,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "14744",
+      "obj": {
+        "i": 14744,
+        "n": "Eikon Leather Armguards of Casting",
+        "l": 220,
+        "c": 44434,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "14745",
+      "obj": {
+        "i": 14745,
+        "n": "Eikon Cloth Brais of Casting",
+        "l": 220,
+        "c": 45757,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "14746",
+      "obj": {
+        "i": 14746,
+        "n": "Eikon Leather Boots of Casting",
+        "l": 220,
+        "c": 46593,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "15506",
+      "obj": {
+        "i": 15506,
+        "n": "Ironworks Vest of Gathering",
+        "l": 190,
+        "c": 42513,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "15508",
+      "obj": {
+        "i": 15508,
+        "n": "Ironworks Slops of Gathering",
+        "l": 190,
+        "c": 45782,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "15515",
+      "obj": {
+        "i": 15515,
+        "n": "Ironworks Cap of Crafting",
+        "l": 190,
+        "c": 41320,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "15516",
+      "obj": {
+        "i": 15516,
+        "n": "Ironworks Apron of Crafting",
+        "l": 190,
+        "c": 42511,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "15517",
+      "obj": {
+        "i": 15517,
+        "n": "Ironworks Sleeves of Crafting",
+        "l": 190,
+        "c": 44447,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "15518",
+      "obj": {
+        "i": 15518,
+        "n": "Ironworks Breeches of Crafting",
+        "l": 190,
+        "c": 45780,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "17015",
+      "obj": {
+        "i": 17015,
+        "n": "Scathach Miniature",
+        "l": 210,
+        "c": 53126,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "17605",
+      "obj": {
+        "i": 17605,
+        "n": "Fists of the Fiend",
+        "l": 180,
+        "c": 31111,
+        "t": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "17609",
+      "obj": {
+        "i": 17609,
+        "n": "Points of the Fiend",
+        "l": 180,
+        "c": 33897,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "20440",
+      "obj": {
+        "i": 20440,
+        "n": "Katana of the Fiend",
+        "l": 180,
+        "c": 36453,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "24325",
+      "obj": {
+        "i": 24325,
+        "n": "Seeing Horde Daggers",
+        "l": 180,
+        "c": 33900,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "24333",
+      "obj": {
+        "i": 24333,
+        "n": "Seeing Horde Katana",
+        "l": 180,
+        "c": 36401,
+        "t": 96
+      }
+    },
+    {
+      "type": "item",
+      "id": "17415",
+      "obj": {
+        "i": 17415,
+        "n": "Filibuster's Hood of Healing",
+        "l": 245,
+        "c": 41671,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "16204",
+      "obj": {
+        "i": 16204,
+        "n": "Valkyrie's Trousers of Striking",
+        "l": 225,
+        "c": 45811,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "11537",
+      "obj": {
+        "i": 11537,
+        "n": "Gordian Gown of Casting",
+        "l": 210,
+        "c": 43664,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14600",
+      "obj": {
+        "i": 14600,
+        "n": "Midan Coat of Healing",
+        "l": 240,
+        "c": 43710,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "16214",
+      "obj": {
+        "i": 16214,
+        "n": "Valkyrie's Coat of Scouting",
+        "l": 225,
+        "c": 43723,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "14431",
+      "obj": {
+        "i": 14431,
+        "n": "Augmented Slipstream Breeches of Maiming",
+        "l": 240,
+        "c": 45760,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "11817",
+      "obj": {
+        "i": 11817,
+        "n": "Machinist's Brais",
+        "l": 210,
+        "c": 45568,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "16220",
+      "obj": {
+        "i": 16220,
+        "n": "Valkyrie's Coat of Healing",
+        "l": 225,
+        "c": 43720,
+        "t": 35
+      }
+    }
+  ]
+}

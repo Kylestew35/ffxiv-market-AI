@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Wind-up Omega-F",
+    "description": "Combat role allocation test initiated. Analyzing...<br><br>Use item to acquire the wind-up Omega-F minion.",
+    "minionrace": "Monster",
+    "tooltip": "Initiating system\r\nshutdown...",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Resonance F",
+    "specialactiondescription": "Increases ATK of all allies within range by 20 (60 if the ally is wind-up Omega-M).<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 26799,
+    "patch": 5.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59745,
+    "tradeShops": [
+      {
+        "shop": "Silver Certificates of Commendation",
+        "npcs": [
+          1017653
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26799",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22444",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "aoe": 1,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 400,
+      "Skill Cost": 20,
+      "Attack": 85,
+      "Defense": 20,
+      "Speed": 4
+    },
+    "models": [
+      "8311-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017653",
+      "obj": {
+        "i": 1017653,
+        "n": "Khloe Aliapoh",
+        "l": 2082,
+        "s": 3,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22444",
+      "obj": {
+        "i": 22444,
+        "n": "Khloe's Silver Certificate of Commendation",
+        "l": 1,
+        "c": 26190,
+        "t": 61
+      }
+    }
+  ]
+}

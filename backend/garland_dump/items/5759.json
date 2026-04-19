@@ -1,0 +1,112 @@
+{
+  "item": {
+    "name": "Shale Brown Dye",
+    "description": "A labor-saving brown dye, used for coloring anything from cloth to metal.",
+    "id": 5759,
+    "patch": 2.1,
+    "patchCategory": 8,
+    "price": 216,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22809,
+    "vendors": [
+      1005569
+    ],
+    "tradeShops": [
+      {
+        "shop": "Sylphic Goldleaf Exchange",
+        "npcs": [
+          1005569
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "5759",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21075",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "quests": [
+      67450,
+      69058,
+      70051
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005569",
+      "obj": {
+        "i": 1005569,
+        "n": "Sylphic Vendor",
+        "l": 55,
+        "s": 2,
+        "r": 1,
+        "a": 113,
+        "c": [
+          22.37,
+          26.4
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21075",
+      "obj": {
+        "i": 21075,
+        "n": "Sylphic Goldleaf",
+        "l": 1,
+        "c": 65051,
+        "t": 100
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67450",
+      "obj": {
+        "i": 67450,
+        "n": "Ok' Zundu's Got Talent",
+        "g": 117,
+        "l": "The Sea of Clouds",
+        "s": 5713
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69058",
+      "obj": {
+        "i": 69058,
+        "n": "Children of the Derelicts",
+        "g": 132,
+        "l": "Eulmore",
+        "s": 7260
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70051",
+      "obj": {
+        "i": 70051,
+        "n": "Methods of Mourning",
+        "g": 145,
+        "l": "Elpis",
+        "s": 6195
+      }
+    }
+  ]
+}

@@ -1,0 +1,957 @@
+{
+  "item": {
+    "name": "Firebricks",
+    "description": "Rectangular clay bricks that have been hardened through firing and can withstand intense heat.",
+    "id": 7013,
+    "patch": 2.1,
+    "patchCategory": 5,
+    "price": 123,
+    "ilvl": 20,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21003,
+    "craft": [
+      {
+        "id": 1582,
+        "job": 14,
+        "rlvl": 18,
+        "durability": 40,
+        "quality": 360,
+        "progress": 33,
+        "lvl": 18,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5229,
+            "amount": 2
+          },
+          {
+            "id": 5513,
+            "amount": 1
+          },
+          {
+            "id": 7,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 31,
+          "hq": 51
+        }
+      }
+    ],
+    "ingredient_of": {
+      "6393": 10,
+      "6394": 15,
+      "6396": 20,
+      "6397": 30,
+      "6420": 4,
+      "6434": 4,
+      "27269": 6,
+      "29687": 10,
+      "30394": 10,
+      "30396": 12,
+      "32251": 4,
+      "32249": 5,
+      "33276": 4,
+      "33295": 5,
+      "36865": 5,
+      "36868": 10,
+      "36871": 15,
+      "36874": 5,
+      "36877": 10,
+      "36880": 15,
+      "36897": 3,
+      "39429": 6,
+      "39423": 5,
+      "40681": 4,
+      "44873": 2,
+      "22530": 5,
+      "10361": 30,
+      "10362": 90,
+      "10363": 165,
+      "10364": 30,
+      "10365": 90,
+      "10366": 165,
+      "10367": 30,
+      "10368": 90,
+      "10369": 165,
+      "10370": 30,
+      "10371": 90,
+      "10372": 165,
+      "41810": 6,
+      "41811": 6,
+      "41812": 6
+    },
+    "desynthedFrom": [
+      33295,
+      6393,
+      6397
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH",
+        "DESYNTH",
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Mudstone",
+      "id": 5229,
+      "icon": 21455,
+      "category": 48,
+      "ilvl": 19,
+      "price": 31,
+      "desynthedFrom": [
+        4950,
+        7706
+      ],
+      "ventures": [
+        100
+      ],
+      "drops": [
+        19980000001461,
+        28380000002522,
+        300000004108,
+        21570000001527,
+        300000000365,
+        14900000001691,
+        14910000001692,
+        14920000001693,
+        300000000131,
+        5790000000558,
+        300000000030,
+        22650000002188,
+        18930000001981,
+        16260000001601,
+        32520000003058,
+        17550000001569,
+        300000000280,
+        300000003621,
+        300000004286
+      ],
+      "nodes": [
+        166
+      ],
+      "vendors": [
+        1005633,
+        1005640,
+        1005647,
+        1019101,
+        1039487
+      ]
+    },
+    {
+      "name": "Potter's Clay",
+      "id": 5513,
+      "icon": 22634,
+      "category": 54,
+      "ilvl": 7,
+      "price": 9,
+      "desynthedFrom": [
+        13095
+      ],
+      "ventures": [
+        84
+      ],
+      "nodes": [
+        152
+      ],
+      "vendors": [
+        1004418
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "166",
+      "obj": {
+        "i": 166,
+        "n": "Skull Valley",
+        "l": 20,
+        "t": 1,
+        "z": 33
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000000030",
+      "obj": {
+        "i": 300000000030,
+        "n": "Clay Golem",
+        "l": "28",
+        "z": 57
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000000131",
+      "obj": {
+        "i": 300000000131,
+        "n": "Crater Golem",
+        "l": "43",
+        "z": 54
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000000280",
+      "obj": {
+        "i": 300000000280,
+        "n": "Sandstone Golem",
+        "l": "29",
+        "z": 45
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000000365",
+      "obj": {
+        "i": 300000000365,
+        "n": "Basalt Golem",
+        "l": "34",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "5790000000558",
+      "obj": {
+        "i": 5790000000558,
+        "n": "Nunyunuwi",
+        "l": "33",
+        "z": 56
+      }
+    },
+    {
+      "type": "mob",
+      "id": "19980000001461",
+      "obj": {
+        "i": 19980000001461,
+        "n": "Dark Matter Golem",
+        "l": "50",
+        "z": 464
+      }
+    },
+    {
+      "type": "mob",
+      "id": "21570000001527",
+      "obj": {
+        "i": 21570000001527,
+        "n": "Number 128",
+        "l": "34",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17550000001569",
+      "obj": {
+        "i": 17550000001569,
+        "n": "Temple Guardian",
+        "l": "35",
+        "z": 50
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16260000001601",
+      "obj": {
+        "i": 16260000001601,
+        "n": "Arkose Golem",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "mob",
+      "id": "14900000001691",
+      "obj": {
+        "i": 14900000001691,
+        "n": "Stone Marionette",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "14910000001692",
+      "obj": {
+        "i": 14910000001692,
+        "n": "Marble Marionette",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "14920000001693",
+      "obj": {
+        "i": 14920000001693,
+        "n": "Megalith Marionette",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "18930000001981",
+      "obj": {
+        "i": 18930000001981,
+        "n": "Chert Golem",
+        "l": "43",
+        "z": 55
+      }
+    },
+    {
+      "type": "mob",
+      "id": "22650000002188",
+      "obj": {
+        "i": 22650000002188,
+        "n": "Pumice Golem",
+        "l": "28",
+        "z": 57
+      }
+    },
+    {
+      "type": "mob",
+      "id": "28380000002522",
+      "obj": {
+        "i": 28380000002522,
+        "n": "U'Ghamaro Golem",
+        "l": "49",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "32520000003058",
+      "obj": {
+        "i": 32520000003058,
+        "n": "Qarn Guardian",
+        "l": "50",
+        "z": 50
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000003621",
+      "obj": {
+        "i": 300000003621,
+        "n": "Limestone Golem",
+        "l": "55",
+        "z": 2002
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000004108",
+      "obj": {
+        "i": 300000004108,
+        "n": "Gabbro Golem",
+        "l": "54",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "300000004286",
+      "obj": {
+        "i": 300000004286,
+        "n": "Wrothful Golem",
+        "l": "55",
+        "z": 2002
+      }
+    },
+    {
+      "type": "node",
+      "id": "152",
+      "obj": {
+        "i": 152,
+        "n": "Treespeak",
+        "l": 10,
+        "t": 0,
+        "z": 57
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004418",
+      "obj": {
+        "i": 1004418,
+        "n": "Esmenet",
+        "l": 698,
+        "s": 1,
+        "t": "Guild Supplier",
+        "c": [
+          "8.9",
+          "13.6"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "5229",
+      "obj": {
+        "i": 5229,
+        "n": "Mudstone",
+        "l": 19,
+        "c": 21455,
+        "t": 48,
+        "p": 31
+      }
+    },
+    {
+      "type": "item",
+      "id": "5513",
+      "obj": {
+        "i": 5513,
+        "n": "Potter's Clay",
+        "l": 7,
+        "c": 22634,
+        "t": 54,
+        "p": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "6393",
+      "obj": {
+        "i": 6393,
+        "n": "Oasis Cottage Wall (Composite)",
+        "l": 20,
+        "c": 50226,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6394",
+      "obj": {
+        "i": 6394,
+        "n": "Oasis Cottage Wall (Stone)",
+        "l": 20,
+        "c": 50227,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6396",
+      "obj": {
+        "i": 6396,
+        "n": "Oasis House Wall (Composite)",
+        "l": 35,
+        "c": 50217,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6397",
+      "obj": {
+        "i": 6397,
+        "n": "Oasis House Wall (Stone)",
+        "l": 35,
+        "c": 50218,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6420",
+      "obj": {
+        "i": 6420,
+        "n": "Riviera Stone Chimney",
+        "l": 37,
+        "c": 50505,
+        "t": 69,
+        "p": 14208
+      }
+    },
+    {
+      "type": "item",
+      "id": "6434",
+      "obj": {
+        "i": 6434,
+        "n": "Riviera Wall Chimney",
+        "l": 36,
+        "c": 50307,
+        "t": 70
+      }
+    },
+    {
+      "type": "item",
+      "id": "27269",
+      "obj": {
+        "i": 27269,
+        "n": "Brick Flooring",
+        "l": 20,
+        "c": 51039,
+        "t": 74
+      }
+    },
+    {
+      "type": "item",
+      "id": "29687",
+      "obj": {
+        "i": 29687,
+        "n": "Brick Garden Wall",
+        "l": 430,
+        "c": 52290,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "30394",
+      "obj": {
+        "i": 30394,
+        "n": "Indoor Pond",
+        "l": 430,
+        "c": 52685,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "30396",
+      "obj": {
+        "i": 30396,
+        "n": "Red Brick Kitchen",
+        "l": 430,
+        "c": 52296,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "32251",
+      "obj": {
+        "i": 32251,
+        "n": "Fruitful Fountain",
+        "l": 430,
+        "c": 52307,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "32249",
+      "obj": {
+        "i": 32249,
+        "n": "Brick Paving",
+        "l": 430,
+        "c": 52310,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "33276",
+      "obj": {
+        "i": 33276,
+        "n": "Red Brick Counter",
+        "l": 430,
+        "c": 51695,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "33295",
+      "obj": {
+        "i": 33295,
+        "n": "Glade Gazebo",
+        "l": 430,
+        "c": 52314,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "36865",
+      "obj": {
+        "i": 36865,
+        "n": "Highland Cottage Roof (Composite)",
+        "l": 150,
+        "c": 50448,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "36868",
+      "obj": {
+        "i": 36868,
+        "n": "Highland House Roof (Composite)",
+        "l": 150,
+        "c": 50445,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "36871",
+      "obj": {
+        "i": 36871,
+        "n": "Highland Mansion Roof (Composite)",
+        "l": 150,
+        "c": 50442,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "36874",
+      "obj": {
+        "i": 36874,
+        "n": "Highland Cottage Wall (Composite)",
+        "l": 150,
+        "c": 50248,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "36877",
+      "obj": {
+        "i": 36877,
+        "n": "Highland House Wall (Composite)",
+        "l": 150,
+        "c": 50245,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "36880",
+      "obj": {
+        "i": 36880,
+        "n": "Highland Mansion Wall (Composite)",
+        "l": 150,
+        "c": 50242,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "36897",
+      "obj": {
+        "i": 36897,
+        "n": "Highland Composite Awning",
+        "l": 150,
+        "c": 50315,
+        "t": 70
+      }
+    },
+    {
+      "type": "item",
+      "id": "39429",
+      "obj": {
+        "i": 39429,
+        "n": "Hannish Interior Wall",
+        "l": 560,
+        "c": 51256,
+        "t": 73
+      }
+    },
+    {
+      "type": "item",
+      "id": "39423",
+      "obj": {
+        "i": 39423,
+        "n": "Simple Fountain",
+        "l": 560,
+        "c": 52356,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "40681",
+      "obj": {
+        "i": 40681,
+        "n": "Well Pump",
+        "l": 560,
+        "c": 52372,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "44873",
+      "obj": {
+        "i": 44873,
+        "n": "Wood-fired Range",
+        "l": 690,
+        "c": 52821,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "22530",
+      "obj": {
+        "i": 22530,
+        "n": "Solid-brick Interior Wall",
+        "l": 1,
+        "c": 51240,
+        "t": 73
+      }
+    },
+    {
+      "type": "item",
+      "id": "10361",
+      "obj": {
+        "i": 10361,
+        "n": "Small Merchant's Walls",
+        "l": 115,
+        "c": 50801,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10362",
+      "obj": {
+        "i": 10362,
+        "n": "Medium Merchant's Walls",
+        "l": 115,
+        "c": 50802,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10363",
+      "obj": {
+        "i": 10363,
+        "n": "Large Merchant's Walls",
+        "l": 115,
+        "c": 50803,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10364",
+      "obj": {
+        "i": 10364,
+        "n": "Small Eatery Walls",
+        "l": 130,
+        "c": 50804,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10365",
+      "obj": {
+        "i": 10365,
+        "n": "Medium Eatery Walls",
+        "l": 130,
+        "c": 50805,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10366",
+      "obj": {
+        "i": 10366,
+        "n": "Large Eatery Walls",
+        "l": 130,
+        "c": 50806,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10367",
+      "obj": {
+        "i": 10367,
+        "n": "Small Outfitter's Walls",
+        "l": 136,
+        "c": 50807,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10368",
+      "obj": {
+        "i": 10368,
+        "n": "Medium Outfitter's Walls",
+        "l": 136,
+        "c": 50808,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10369",
+      "obj": {
+        "i": 10369,
+        "n": "Large Outfitter's Walls",
+        "l": 136,
+        "c": 50809,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10370",
+      "obj": {
+        "i": 10370,
+        "n": "Small Arms Supplier's Walls",
+        "l": 142,
+        "c": 50810,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10371",
+      "obj": {
+        "i": 10371,
+        "n": "Medium Arms Supplier's Walls",
+        "l": 142,
+        "c": 50811,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10372",
+      "obj": {
+        "i": 10372,
+        "n": "Large Arms Supplier's Walls",
+        "l": 142,
+        "c": 50812,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41810",
+      "obj": {
+        "i": 41810,
+        "n": "Country Cottage Wall",
+        "l": 1,
+        "c": 50855,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41811",
+      "obj": {
+        "i": 41811,
+        "n": "Country House Wall",
+        "l": 1,
+        "c": 50856,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "41812",
+      "obj": {
+        "i": 41812,
+        "n": "Country Mansion Wall",
+        "l": 1,
+        "c": 50857,
+        "t": 66
+      }
+    }
+  ]
+}

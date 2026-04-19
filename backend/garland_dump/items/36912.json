@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Bluefeather Lynx Flute",
+    "description": "Emitting an uplifting tone evocative of light when it shines across a dark and starless sea, this flute summons a bluefeather lynx to your side.",
+    "mount": {
+      "name": "Bluefeather Lynx",
+      "action": "Summon forth your bluefeather lynx mount, which could be what a certain feathered familiar might look like as a large, winged feline.",
+      "description": "A phantom creation composed of the esoteric power of dynamis. It is believed that the Endsinger brought forth this mysterious entity, but for what purpose is unclear. Could it be a tribute, perhaps, bestowed upon one who has overcome her aria of despair?",
+      "tooltip": "The light of hope shall ever<br>guide our steps so long as we<br>have the will to press onward.<br>   - Edmont de Fortemps",
+      "icon": 4233,
+      "guideIcon": 68233
+    },
+    "id": 36912,
+    "patch": 6.1,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20083,
+      20083
+    ],
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36912",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36809",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36912",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36809",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "716-1-3"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20083",
+      "obj": {
+        "i": 20083,
+        "n": "The Minstrel's Ballad: Endsinger's Aria",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 580
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36809",
+      "obj": {
+        "i": 36809,
+        "n": "Ultimatum Totem",
+        "l": 1,
+        "c": 26626,
+        "t": 61
+      }
+    }
+  ]
+}

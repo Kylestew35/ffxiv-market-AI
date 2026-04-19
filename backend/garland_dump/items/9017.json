@@ -1,0 +1,173 @@
+{
+  "item": {
+    "name": "True Ice Cane",
+    "jobCategories": "CNJ WHM",
+    "id": 9017,
+    "patch": 2.4,
+    "patchCategory": 0,
+    "price": 32408,
+    "ilvl": 110,
+    "category": 9,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 589,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 11,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 633,
+    "slot": 13,
+    "elvl": 50,
+    "jobs": 53,
+    "models": [
+      "801-25-1-0"
+    ],
+    "attr": {
+      "Physical Damage": 63,
+      "Magic Damage": 63,
+      "Delay": 3.36,
+      "Mind": 42,
+      "Vitality": 39,
+      "Critical Hit": 44,
+      "Piety": 31,
+      "Direct Hit Rate": 9
+    },
+    "icon": 32659,
+    "instances": [
+      20025,
+      20025
+    ],
+    "sharedModels": [
+      9555
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Primal Gear",
+        "npcs": [
+          1008118
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9555",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "9017",
+                "amount": 1
+              },
+              {
+                "id": "9559",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Primal Gear (IL 100-115)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9555",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "9017",
+                "amount": 1
+              },
+              {
+                "id": "9559",
+                "amount": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "desynthedTo": [
+      9378
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20025",
+      "obj": {
+        "i": 20025,
+        "n": "The Akh Afah Amphitheatre (Extreme)",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 95
+      }
+    },
+    {
+      "type": "item",
+      "id": "9555",
+      "obj": {
+        "i": 9555,
+        "n": "Shiva's Diamond Cane",
+        "l": 115,
+        "c": 32659,
+        "t": 9
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008118",
+      "obj": {
+        "i": 1008118,
+        "n": "Aelina",
+        "l": 67,
+        "s": 7,
+        "t": "Servant of Splendors",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.69,
+          6.7
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "9559",
+      "obj": {
+        "i": 9559,
+        "n": "Diamond Dust",
+        "l": 1,
+        "c": 20003,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "9378",
+      "obj": {
+        "i": 9378,
+        "n": "Diamond Tear",
+        "l": 110,
+        "c": 21291,
+        "t": 48
+      }
+    }
+  ]
+}

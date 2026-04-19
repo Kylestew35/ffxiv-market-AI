@@ -1,0 +1,885 @@
+{
+  "item": {
+    "name": "Water-hardened Hippogryph Strap",
+    "description": "A continuous strap of leather painstakingly wrought from gryphonskin and then treated with water to increase hardness.",
+    "id": 8036,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 742,
+    "ilvl": 75,
+    "category": 52,
+    "dyecount": 0,
+    "sell_price": 12,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "repair": 12,
+    "icon": 22030,
+    "tradeCurrency": [
+      {
+        "shop": "Master Crafting Tomes",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9340",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8036",
+                "amount": 1,
+                "hq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Supra Tools (DoH)",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8440",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "2429",
+                "amount": 1
+              },
+              {
+                "id": "8155",
+                "amount": 1
+              },
+              {
+                "id": "8036",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Miscellaneous Miscellany",
+        "npcs": [
+          1006972
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8150",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "8036",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "craft": [
+      {
+        "id": 30421,
+        "job": 12,
+        "rlvl": 90,
+        "durability": 80,
+        "quality": 2750,
+        "progress": 420,
+        "lvl": 50,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "hq": 1,
+        "controlReq": 374,
+        "craftsmanshipReq": 391,
+        "unlockId": 7782,
+        "ingredients": [
+          {
+            "id": 7616,
+            "amount": 1,
+            "quality": 458.33334
+          },
+          {
+            "id": 8150,
+            "amount": 2
+          },
+          {
+            "id": 5,
+            "amount": 12
+          },
+          {
+            "id": 4,
+            "amount": 11
+          }
+        ],
+        "complexity": {
+          "nq": 604,
+          "hq": 624
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Gryphonskin Strap",
+      "id": 7616,
+      "icon": 22030,
+      "category": 52,
+      "ilvl": 70,
+      "price": 1247,
+      "craft": [
+        {
+          "id": 30301,
+          "job": 12,
+          "rlvl": 70,
+          "durability": 80,
+          "quality": 2500,
+          "progress": 250,
+          "lvl": 50,
+          "materialQualityFactor": 50,
+          "stars": 2,
+          "hq": 1,
+          "controlReq": 318,
+          "craftsmanshipReq": 347,
+          "unlockId": 7782,
+          "ingredients": [
+            {
+              "id": 5288,
+              "amount": 2,
+              "quality": 625.0
+            },
+            {
+              "id": 5,
+              "amount": 11
+            },
+            {
+              "id": 4,
+              "amount": 10
+            }
+          ],
+          "complexity": {
+            "nq": 296,
+            "hq": 316
+          }
+        }
+      ]
+    },
+    {
+      "name": "Hippogryph Leather",
+      "id": 5288,
+      "icon": 22021,
+      "category": 52,
+      "ilvl": 55,
+      "price": 980,
+      "craft": [
+        {
+          "id": 1305,
+          "job": 12,
+          "rlvl": 55,
+          "durability": 40,
+          "quality": 1760,
+          "progress": 105,
+          "lvl": 50,
+          "materialQualityFactor": 0,
+          "stars": 1,
+          "hq": 1,
+          "quickSynth": 1,
+          "craftsmanshipReq": 275,
+          "quickSynthCraftsmanship": 347,
+          "ingredients": [
+            {
+              "id": 5316,
+              "amount": 1
+            },
+            {
+              "id": 5525,
+              "amount": 1
+            },
+            {
+              "id": 11,
+              "amount": 3
+            }
+          ],
+          "complexity": {
+            "nq": 109,
+            "hq": 129
+          }
+        }
+      ],
+      "desynthedFrom": [
+        8252,
+        7496,
+        7502,
+        7508,
+        5569,
+        8250
+      ]
+    },
+    {
+      "name": "Hippogryph Skin",
+      "id": 5316,
+      "icon": 21805,
+      "category": 52,
+      "ilvl": 55,
+      "price": 479,
+      "treasure": [
+        5316
+      ],
+      "instances": [
+        10,
+        10
+      ],
+      "drops": [
+        17400000001688,
+        23400000002276,
+        28270000002669,
+        17980000001444,
+        6450000000789
+      ]
+    },
+    {
+      "name": "Black Alumen",
+      "id": 5525,
+      "icon": 22604,
+      "category": 54,
+      "ilvl": 37,
+      "price": 189,
+      "ventures": [
+        145
+      ],
+      "nodes": [
+        49
+      ]
+    },
+    {
+      "name": "Fieldcraft Demimateria III",
+      "id": 8150,
+      "icon": 20243,
+      "category": 83,
+      "ilvl": 70,
+      "price": 20000,
+      "desynthedFrom": [
+        13089,
+        9285,
+        9283,
+        9284,
+        9286,
+        9288,
+        9287,
+        14117,
+        14941,
+        9296,
+        36697,
+        10090,
+        7093,
+        7094,
+        7087,
+        21823,
+        35439
+      ],
+      "tradeShops": [
+        {
+          "shop": "Miscellaneous Miscellany",
+          "npcs": [
+            1006972
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "8032",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "8033",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "8034",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "8035",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "8036",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "8037",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "8038",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "8039",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 50 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "8150",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1006972",
+      "obj": {
+        "i": 1006972,
+        "n": "Talan",
+        "l": 67,
+        "s": 10,
+        "t": "Friend to the Land and Hand",
+        "r": 1,
+        "a": 1392,
+        "c": [
+          22.02,
+          6.95
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "7527",
+      "obj": {
+        "i": 7527,
+        "n": "Artisan's Round Knife",
+        "l": 70,
+        "c": 35412,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "7521",
+      "obj": {
+        "i": 7521,
+        "n": "Artisan's Spectacles",
+        "l": 70,
+        "c": 40925,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "10053",
+      "obj": {
+        "i": 10053,
+        "n": "Artisan's Gown",
+        "l": 70,
+        "c": 42413,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "10047",
+      "obj": {
+        "i": 10047,
+        "n": "Artisan's Fingerstalls",
+        "l": 70,
+        "c": 44298,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "10048",
+      "obj": {
+        "i": 10048,
+        "n": "Artisan's Chausses",
+        "l": 70,
+        "c": 45522,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "10145",
+      "obj": {
+        "i": 10145,
+        "n": "Artisan's Pattens",
+        "l": 70,
+        "c": 46440,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "4720",
+      "obj": {
+        "i": 4720,
+        "n": "Fish Soup",
+        "l": 43,
+        "c": 24105,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "7782",
+      "obj": {
+        "i": 7782,
+        "n": "Master Leatherworker I",
+        "l": 1,
+        "c": 26002,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "5288",
+      "obj": {
+        "i": 5288,
+        "n": "Hippogryph Leather",
+        "l": 55,
+        "c": 22021,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5316",
+      "obj": {
+        "i": 5316,
+        "n": "Hippogryph Skin",
+        "l": 55,
+        "c": 21805,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "5525",
+      "obj": {
+        "i": 5525,
+        "n": "Black Alumen",
+        "l": 37,
+        "c": 22604,
+        "t": 54
+      }
+    },
+    {
+      "type": "instance",
+      "id": "10",
+      "obj": {
+        "i": 10,
+        "n": "The Wanderer's Palace",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 45,
+        "max_ilvl": 110
+      }
+    },
+    {
+      "type": "mob",
+      "id": "6450000000789",
+      "obj": {
+        "i": 6450000000789,
+        "n": "Hippogryph",
+        "l": "46",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17980000001444",
+      "obj": {
+        "i": 17980000001444,
+        "n": "Gwyllgi",
+        "l": "46",
+        "z": 67
+      }
+    },
+    {
+      "type": "mob",
+      "id": "17400000001688",
+      "obj": {
+        "i": 17400000001688,
+        "n": "Recluse Hippogryph",
+        "l": "50",
+        "z": 128
+      }
+    },
+    {
+      "type": "mob",
+      "id": "23400000002276",
+      "obj": {
+        "i": 23400000002276,
+        "n": "Pit Hippogryph",
+        "l": "50",
+        "z": 48
+      }
+    },
+    {
+      "type": "mob",
+      "id": "28270000002669",
+      "obj": {
+        "i": 28270000002669,
+        "n": "Crossing Hippocerf",
+        "l": "50",
+        "z": 386
+      }
+    },
+    {
+      "type": "node",
+      "id": "49",
+      "obj": {
+        "i": 49,
+        "n": "Urth's Gift",
+        "l": 40,
+        "t": 0,
+        "z": 56
+      }
+    },
+    {
+      "type": "item",
+      "id": "8030",
+      "obj": {
+        "i": 8030,
+        "n": "Antumbral Rock",
+        "l": 75,
+        "c": 21213,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "8040",
+      "obj": {
+        "i": 8040,
+        "n": "Talan's Seal of Mining",
+        "l": 1,
+        "c": 26176,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "8031",
+      "obj": {
+        "i": 8031,
+        "n": "Redolent Log",
+        "l": 75,
+        "c": 22415,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "8041",
+      "obj": {
+        "i": 8041,
+        "n": "Talan's Seal of Botany",
+        "l": 1,
+        "c": 26176,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "7930",
+      "obj": {
+        "i": 7930,
+        "n": "Olgoi-Khorkhoi",
+        "l": 80,
+        "c": 29376,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "8042",
+      "obj": {
+        "i": 8042,
+        "n": "Talan's Seal of Fishing",
+        "l": 1,
+        "c": 26176,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "8032",
+      "obj": {
+        "i": 8032,
+        "n": "Reinforced Spruce Plywood",
+        "l": 75,
+        "c": 22513,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "8033",
+      "obj": {
+        "i": 8033,
+        "n": "Balanced Darksteel Hook",
+        "l": 75,
+        "c": 23201,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "8034",
+      "obj": {
+        "i": 8034,
+        "n": "Reinforced Darksteel Wire",
+        "l": 75,
+        "c": 20901,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "8035",
+      "obj": {
+        "i": 8035,
+        "n": "Calibrated Rose Gold Cog",
+        "l": 75,
+        "c": 26271,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "8036",
+      "obj": {
+        "i": 8036,
+        "n": "Water-hardened Hippogryph Strap",
+        "l": 75,
+        "c": 22030,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "8037",
+      "obj": {
+        "i": 8037,
+        "n": "Intricate Silver Brocade",
+        "l": 75,
+        "c": 21608,
+        "t": 51
+      }
+    },
+    {
+      "type": "item",
+      "id": "8038",
+      "obj": {
+        "i": 8038,
+        "n": "Concentrated Spirits of Salt",
+        "l": 75,
+        "c": 22612,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "8039",
+      "obj": {
+        "i": 8039,
+        "n": "Rich Tomato Relish",
+        "l": 75,
+        "c": 25101,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "9340",
+      "obj": {
+        "i": 9340,
+        "n": "Master Leatherworker II",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "2429",
+      "obj": {
+        "i": 2429,
+        "n": "Pinga",
+        "l": 55,
+        "c": 35411,
+        "t": 20,
+        "p": 1000
+      }
+    },
+    {
+      "type": "item",
+      "id": "8155",
+      "obj": {
+        "i": 8155,
+        "n": "Mastercraft Demimateria",
+        "l": 70,
+        "c": 21285,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "8440",
+      "obj": {
+        "i": 8440,
+        "n": "Pinga Supra",
+        "l": 75,
+        "c": 35413,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "8150",
+      "obj": {
+        "i": 8150,
+        "n": "Fieldcraft Demimateria III",
+        "l": 70,
+        "c": 20243,
+        "t": 83
+      }
+    },
+    {
+      "type": "item",
+      "id": "7616",
+      "obj": {
+        "i": 7616,
+        "n": "Gryphonskin Strap",
+        "l": 70,
+        "c": 22030,
+        "t": 52
+      }
+    }
+  ]
+}

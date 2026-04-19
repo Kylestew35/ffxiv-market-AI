@@ -1,0 +1,123 @@
+{
+  "item": {
+    "name": "Ironfrog Ambler",
+    "description": "A darling, diminutive, dwarven-made...automaton.<br><br>Use item to acquire the ironfrog ambler minion.",
+    "minionrace": "Gadget",
+    "tooltip": "A-digging we will go!\r\n   - Korutt",
+    "minionskilltype": "Dismantling",
+    "specialactionname": "Soul of Mining",
+    "specialactiondescription": "Delivers 5% damage to the nearest enemy Arcana Stone.",
+    "id": 26805,
+    "patch": 5.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59751,
+    "tradeShops": [
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26805",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 30
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Glorious Gewgaws",
+        "npcs": [
+          1027565
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26805",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27973",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye"
+    ],
+    "attr": {
+      "HP": 435,
+      "Skill Cost": 30,
+      "Attack": 50,
+      "Defense": 60,
+      "Speed": 2
+    },
+    "models": [
+      "8316-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027565",
+      "obj": {
+        "i": 1027565,
+        "n": "Fathard",
+        "l": 2952,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 3275,
+        "c": [
+          10.18,
+          11.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27973",
+      "obj": {
+        "i": 27973,
+        "n": "Formidable Cog",
+        "l": 1,
+        "c": 26269,
+        "t": 49
+      }
+    }
+  ]
+}

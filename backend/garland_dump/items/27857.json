@@ -1,0 +1,834 @@
+{
+  "item": {
+    "name": "Spaghetti al Nero",
+    "description": "A tangy dish of thin noodles tossed with squid ink and blood tomato sauce that has the unfortunate side effect of turning your teeth jet black.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27857,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3453,
+    "ilvl": 400,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 27,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Determination": {
+          "rate": 8,
+          "limit": 41
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 46
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Determination": {
+          "rate": 10,
+          "limit": 51
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 57
+        }
+      }
+    },
+    "icon": 24027,
+    "craft": [
+      {
+        "id": 3887,
+        "job": 15,
+        "rlvl": 400,
+        "durability": 80,
+        "quality": 3900,
+        "progress": 1290,
+        "lvl": 73,
+        "materialQualityFactor": 75,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27840,
+            "amount": 2,
+            "quality": 422.68787
+          },
+          {
+            "id": 27838,
+            "amount": 1,
+            "quality": 412.12067
+          },
+          {
+            "id": 12908,
+            "amount": 3,
+            "quality": 143.71387
+          },
+          {
+            "id": 27825,
+            "amount": 3
+          },
+          {
+            "id": 8,
+            "amount": 6
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 1393,
+          "hq": 1413
+        }
+      }
+    ],
+    "quests": [
+      68887,
+      68966,
+      68986,
+      68995
+    ],
+    "requiredByLeves": [
+      1466
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 831000,
+      "seals": 823
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Squid Ink",
+      "id": 27840,
+      "icon": 25060,
+      "category": 45,
+      "ilvl": 400,
+      "price": 2878,
+      "craft": [
+        {
+          "id": 3879,
+          "job": 15,
+          "rlvl": 400,
+          "durability": 40,
+          "quality": 3120,
+          "progress": 645,
+          "lvl": 73,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27457,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 136,
+            "hq": 156
+          }
+        }
+      ]
+    },
+    {
+      "name": "Spearhead Squid",
+      "id": 27457,
+      "icon": 29177,
+      "category": 47,
+      "ilvl": 395,
+      "price": 600,
+      "ventures": [
+        842
+      ],
+      "fishingSpots": [
+        213
+      ]
+    },
+    {
+      "name": "Frantoio Oil",
+      "id": 27838,
+      "icon": 25451,
+      "category": 45,
+      "ilvl": 390,
+      "price": 2799,
+      "craft": [
+        {
+          "id": 3877,
+          "job": 15,
+          "rlvl": 390,
+          "durability": 40,
+          "quality": 3010,
+          "progress": 597,
+          "lvl": 71,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27820,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 6
+            }
+          ],
+          "complexity": {
+            "nq": 76,
+            "hq": 96
+          }
+        }
+      ]
+    },
+    {
+      "name": "Frantoio",
+      "id": 27820,
+      "icon": 25307,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1463,
+        1464,
+        1465
+      ],
+      "ventures": [
+        808
+      ],
+      "nodes": [
+        612
+      ]
+    },
+    {
+      "name": "Vermicelli",
+      "id": 12908,
+      "icon": 25058,
+      "category": 45,
+      "ilvl": 136,
+      "price": 861,
+      "craft": [
+        {
+          "id": 2823,
+          "job": 15,
+          "rlvl": 139,
+          "durability": 35,
+          "quality": 1936,
+          "progress": 210,
+          "lvl": 56,
+          "materialQualityFactor": 50,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12881,
+              "amount": 3,
+              "quality": 192.73055
+            },
+            {
+              "id": 12631,
+              "amount": 1
+            },
+            {
+              "id": 12901,
+              "amount": 1
+            },
+            {
+              "id": 2,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 315,
+            "hq": 335
+          }
+        }
+      ]
+    },
+    {
+      "name": "Highland Flour",
+      "id": 12881,
+      "icon": 25351,
+      "category": 45,
+      "ilvl": 133,
+      "price": 842,
+      "craft": [
+        {
+          "id": 2817,
+          "job": 15,
+          "rlvl": 125,
+          "durability": 40,
+          "quality": 1712,
+          "progress": 130,
+          "lvl": 52,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12880,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Highland Wheat",
+      "id": 12880,
+      "icon": 25357,
+      "category": 45,
+      "ilvl": 130,
+      "price": 823,
+      "ventures": [
+        466
+      ],
+      "nodes": [
+        297
+      ]
+    },
+    {
+      "name": "Dravanian Spring Water",
+      "id": 12631,
+      "icon": 22614,
+      "category": 54,
+      "ilvl": 130,
+      "price": 823,
+      "desynthedFrom": [
+        21928,
+        20263,
+        23102,
+        12750,
+        17545
+      ],
+      "ventures": [
+        449
+      ],
+      "nodes": [
+        287
+      ]
+    },
+    {
+      "name": "Abalathian Rock Salt",
+      "id": 12901,
+      "icon": 22617,
+      "category": 45,
+      "ilvl": 139,
+      "price": 1980,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "12901",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15857",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "leves": [
+        1076,
+        1077,
+        1078,
+        1079,
+        1080,
+        1081
+      ],
+      "ventures": [
+        593
+      ],
+      "nodes": [
+        318
+      ],
+      "vendors": [
+        1011201
+      ]
+    },
+    {
+      "name": "Blood Tomato",
+      "id": 27825,
+      "icon": 25209,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1466,
+        1467,
+        1468
+      ],
+      "ventures": [
+        819
+      ],
+      "nodes": [
+        617
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "27457",
+      "obj": {
+        "i": 27457,
+        "n": "Spearhead Squid",
+        "l": 395,
+        "c": 29177,
+        "t": 47
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "213",
+      "obj": {
+        "i": 213,
+        "n": "The Eastern Kholusian Coast",
+        "l": 72,
+        "c": 0,
+        "z": 2954,
+        "x": 35.23,
+        "y": 35.83
+      }
+    },
+    {
+      "type": "item",
+      "id": "27820",
+      "obj": {
+        "i": 27820,
+        "n": "Frantoio",
+        "l": 390,
+        "c": 25307,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "612",
+      "obj": {
+        "i": 612,
+        "n": "The Chiliad",
+        "l": 75,
+        "t": 2,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "12881",
+      "obj": {
+        "i": 12881,
+        "n": "Highland Flour",
+        "l": 133,
+        "c": 25351,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12631",
+      "obj": {
+        "i": 12631,
+        "n": "Dravanian Spring Water",
+        "l": 130,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "12901",
+      "obj": {
+        "i": 12901,
+        "n": "Abalathian Rock Salt",
+        "l": 139,
+        "c": 22617,
+        "t": 45,
+        "p": 1980
+      }
+    },
+    {
+      "type": "item",
+      "id": "12880",
+      "obj": {
+        "i": 12880,
+        "n": "Highland Wheat",
+        "l": 130,
+        "c": 25357,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Chocobo Forest",
+        "l": 55,
+        "t": 3,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "287",
+      "obj": {
+        "i": 287,
+        "n": "The Smoldering Wastes",
+        "l": 55,
+        "t": 0,
+        "z": 2000
+      }
+    },
+    {
+      "type": "node",
+      "id": "318",
+      "obj": {
+        "i": 318,
+        "n": "The Gauntlet",
+        "l": 60,
+        "t": 1,
+        "z": 2100,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011201",
+      "obj": {
+        "i": 1011201,
+        "n": "Pasdevillet",
+        "l": 2301,
+        "s": 1,
+        "t": "Sundries Vendor",
+        "a": 2317,
+        "c": [
+          7.33,
+          10.71
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15857",
+      "obj": {
+        "i": 15857,
+        "n": "Althyk Lavender",
+        "l": 155,
+        "c": 25002,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "617",
+      "obj": {
+        "i": 617,
+        "n": "The Woolen Way",
+        "l": 75,
+        "t": 3,
+        "z": 2956
+      }
+    },
+    {
+      "type": "item",
+      "id": "27840",
+      "obj": {
+        "i": 27840,
+        "n": "Squid Ink",
+        "l": 400,
+        "c": 25060,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27838",
+      "obj": {
+        "i": 27838,
+        "n": "Frantoio Oil",
+        "l": 390,
+        "c": 25451,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12908",
+      "obj": {
+        "i": 12908,
+        "n": "Vermicelli",
+        "l": 136,
+        "c": 25058,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27825",
+      "obj": {
+        "i": 27825,
+        "n": "Blood Tomato",
+        "l": 390,
+        "c": 25209,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68887",
+      "obj": {
+        "i": 68887,
+        "n": "A Clam to Die For",
+        "g": 134,
+        "l": "Kholusia",
+        "s": 1120
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68966",
+      "obj": {
+        "i": 68966,
+        "n": "The Key Ingredient",
+        "g": 136,
+        "l": "Il Mheg",
+        "s": 3201
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68986",
+      "obj": {
+        "i": 68986,
+        "n": "Oh, Snap",
+        "g": 137,
+        "l": "The Rak'tika Greatwood",
+        "s": 4160
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68995",
+      "obj": {
+        "i": 68995,
+        "n": "Her True Calling",
+        "g": 133,
+        "l": "Lakeland",
+        "s": 4060
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1466",
+      "obj": {
+        "i": 1466,
+        "n": "His Dark Utensils",
+        "l": 72,
+        "j": 16,
+        "p": 2951
+      }
+    }
+  ]
+}

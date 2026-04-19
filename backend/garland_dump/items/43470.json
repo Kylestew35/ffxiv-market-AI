@@ -1,0 +1,90 @@
+{
+  "item": {
+    "name": "Mica Suit",
+    "description": "Cannot equip gear to hands, legs, and feet.",
+    "jobCategories": "All Classes",
+    "id": 43470,
+    "patch": 7.0,
+    "patchCategory": 3,
+    "price": 2,
+    "ilvl": 1,
+    "category": 35,
+    "unique": 1,
+    "dyeable": 1,
+    "dyecount": 2,
+    "rarity": 1,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 13,
+    "equip": 1,
+    "repair_item": 5594,
+    "crestworthy": 1,
+    "glamourous": 1,
+    "slot": 16,
+    "elvl": 1,
+    "jobs": 1,
+    "models": [
+      "6190-1-0-0"
+    ],
+    "attr": {
+      "Defense": 37,
+      "Magic Defense": 64
+    },
+    "icon": 57139,
+    "tradeShops": [
+      {
+        "shop": "Sublime Curiosities",
+        "npcs": [
+          1049080
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43470",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41804",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1049080",
+      "obj": {
+        "i": 1049080,
+        "n": "Uah'shepya",
+        "l": 4503,
+        "s": 9,
+        "t": "Miscellany",
+        "r": 1,
+        "a": 4647,
+        "c": [
+          8.69,
+          13.52
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41804",
+      "obj": {
+        "i": 41804,
+        "n": "Mica Magicog",
+        "l": 1,
+        "c": 26273,
+        "t": 61
+      }
+    }
+  ]
+}

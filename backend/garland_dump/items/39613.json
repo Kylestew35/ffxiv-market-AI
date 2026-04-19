@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Battle 1 from FINAL FANTASY IV Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Battle 1 from FINAL FANTASY IV</span>. Use to add to your orchestrion list.",
+    "id": 39613,
+    "patch": 6.35,
+    "patchCategory": 16,
+    "price": 2,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 582,
+      "name": "Battle 1 from FINAL FANTASY IV",
+      "description": "Available for exchange in Hoper's Hold.",
+      "category": "Locales II",
+      "order": 46
+    },
+    "tradeShops": [
+      {
+        "shop": "Loporrit Carat Exchange",
+        "npcs": [
+          1044404
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39613",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "38952",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1044404",
+      "obj": {
+        "i": 1044404,
+        "n": "Coiningway",
+        "l": 3711,
+        "s": 4,
+        "t": "Dreaming Vendor",
+        "r": 1,
+        "a": 4290,
+        "c": [
+          17.43,
+          15.89
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "38952",
+      "obj": {
+        "i": 38952,
+        "n": "Loporrit Carat",
+        "l": 1,
+        "c": "t/65100",
+        "t": 100
+      }
+    }
+  ]
+}

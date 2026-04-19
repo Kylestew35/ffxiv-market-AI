@@ -1,0 +1,951 @@
+{
+  "item": {
+    "name": "Master Goldsmith VI",
+    "description": "This esoteric tome─the sixth in an equally esoteric series─contains advanced goldsmithing recipes that can only be learned by esoterically skilled goldsmiths.",
+    "id": 22312,
+    "patch": 4.2,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26155,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Master Recipes I)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22312",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Master Recipes I",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22312",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33913",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unlocks": [
+      21704,
+      21707,
+      21709,
+      21723,
+      21753,
+      21754,
+      21755,
+      21756,
+      21757,
+      21768,
+      21769,
+      21770,
+      21771,
+      21772,
+      22428,
+      21813,
+      21815,
+      21833,
+      21836,
+      21843,
+      21869,
+      21924,
+      20746,
+      22532,
+      22537,
+      22541,
+      22582,
+      22889,
+      22916,
+      22921,
+      23777,
+      23780,
+      23782,
+      23796,
+      23802,
+      23808,
+      23814,
+      23820,
+      23826,
+      23827,
+      23828,
+      23829,
+      23830,
+      23841,
+      23842,
+      23843,
+      23844,
+      23845,
+      24251,
+      15144,
+      24495,
+      24868,
+      27300,
+      30077,
+      30080,
+      30082,
+      30823,
+      30825,
+      30831,
+      30836,
+      30839,
+      30841,
+      30851,
+      30852,
+      30855,
+      30857,
+      33605,
+      33606,
+      33609,
+      33611,
+      37326,
+      37329,
+      37331
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "21704",
+      "obj": {
+        "i": 21704,
+        "n": "Silvergrace Rod",
+        "l": 350,
+        "c": 33098,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "21707",
+      "obj": {
+        "i": 21707,
+        "n": "Silvergrace Planisphere",
+        "l": 350,
+        "c": 34906,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "21709",
+      "obj": {
+        "i": 21709,
+        "n": "Silvergrace Rapier",
+        "l": 350,
+        "c": 36764,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "21723",
+      "obj": {
+        "i": 21723,
+        "n": "Silvergrace Halfmask of Striking",
+        "l": 350,
+        "c": 41722,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "21753",
+      "obj": {
+        "i": 21753,
+        "n": "Silvergrace Earring of Fending",
+        "l": 350,
+        "c": 55340,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "21754",
+      "obj": {
+        "i": 21754,
+        "n": "Silvergrace Earring of Slaying",
+        "l": 350,
+        "c": 55340,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "21755",
+      "obj": {
+        "i": 21755,
+        "n": "Silvergrace Earring of Aiming",
+        "l": 350,
+        "c": 55340,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "21756",
+      "obj": {
+        "i": 21756,
+        "n": "Silvergrace Earring of Healing",
+        "l": 350,
+        "c": 55340,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "21757",
+      "obj": {
+        "i": 21757,
+        "n": "Silvergrace Earring of Casting",
+        "l": 350,
+        "c": 55340,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "21768",
+      "obj": {
+        "i": 21768,
+        "n": "Silvergrace Ring of Fending",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "21769",
+      "obj": {
+        "i": 21769,
+        "n": "Silvergrace Ring of Slaying",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "21770",
+      "obj": {
+        "i": 21770,
+        "n": "Silvergrace Ring of Aiming",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "21771",
+      "obj": {
+        "i": 21771,
+        "n": "Silvergrace Ring of Healing",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "21772",
+      "obj": {
+        "i": 21772,
+        "n": "Silvergrace Ring of Casting",
+        "l": 350,
+        "c": 54584,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "22428",
+      "obj": {
+        "i": 22428,
+        "n": "Silvergrace Ingot",
+        "l": 350,
+        "c": 20826,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "21813",
+      "obj": {
+        "i": 21813,
+        "n": "Odder Otter Lantern",
+        "l": 320,
+        "c": 53204,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21815",
+      "obj": {
+        "i": 21815,
+        "n": "Moogle Wall Chronometer",
+        "l": 320,
+        "c": 51371,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "21833",
+      "obj": {
+        "i": 21833,
+        "n": "Carbuncle Bathtub",
+        "l": 320,
+        "c": 52629,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "21836",
+      "obj": {
+        "i": 21836,
+        "n": "Hanya Mask",
+        "l": 320,
+        "c": 51367,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "21843",
+      "obj": {
+        "i": 21843,
+        "n": "Eorzean Lantern",
+        "l": 320,
+        "c": 53192,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "21869",
+      "obj": {
+        "i": 21869,
+        "n": "Classic Chandelier",
+        "l": 320,
+        "c": 51132,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "21924",
+      "obj": {
+        "i": 21924,
+        "n": "Byakko Barding",
+        "l": 1,
+        "c": 58689,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "20746",
+      "obj": {
+        "i": 20746,
+        "n": "Crimson Coral Object",
+        "l": 320,
+        "c": 53175,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "22532",
+      "obj": {
+        "i": 22532,
+        "n": "Odder Otter Hanging Andon Lamp",
+        "l": 1,
+        "c": 51133,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "22537",
+      "obj": {
+        "i": 22537,
+        "n": "Mellow Mog Lamp",
+        "l": 1,
+        "c": 52641,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "22541",
+      "obj": {
+        "i": 22541,
+        "n": "Odder Otter Wall Lantern",
+        "l": 1,
+        "c": 51379,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "22582",
+      "obj": {
+        "i": 22582,
+        "n": "Odder Otter Andon Lamp",
+        "l": 1,
+        "c": 52261,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "22889",
+      "obj": {
+        "i": 22889,
+        "n": "Silvergrace Needle",
+        "l": 345,
+        "c": 35527,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "22916",
+      "obj": {
+        "i": 22916,
+        "n": "Silvergrace Earrings of Crafting",
+        "l": 340,
+        "c": 55421,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "22921",
+      "obj": {
+        "i": 22921,
+        "n": "Silvergrace Earrings of Gathering",
+        "l": 340,
+        "c": 55421,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "23777",
+      "obj": {
+        "i": 23777,
+        "n": "Rakshasa Rod",
+        "l": 380,
+        "c": 33109,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "23780",
+      "obj": {
+        "i": 23780,
+        "n": "Rakshasa Ephemeris",
+        "l": 380,
+        "c": 34917,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "23782",
+      "obj": {
+        "i": 23782,
+        "n": "Rakshasa Rapier",
+        "l": 380,
+        "c": 36775,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "23796",
+      "obj": {
+        "i": 23796,
+        "n": "Rakshasa Gantai of Striking",
+        "l": 380,
+        "c": 41736,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23802",
+      "obj": {
+        "i": 23802,
+        "n": "Rakshasa Gantai of Aiming",
+        "l": 380,
+        "c": 41737,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23808",
+      "obj": {
+        "i": 23808,
+        "n": "Rakshasa Gantai of Scouting",
+        "l": 380,
+        "c": 41738,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23814",
+      "obj": {
+        "i": 23814,
+        "n": "Rakshasa Kanmuri of Healing",
+        "l": 380,
+        "c": 40816,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23820",
+      "obj": {
+        "i": 23820,
+        "n": "Rakshasa Kanmuri of Casting",
+        "l": 380,
+        "c": 40815,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23826",
+      "obj": {
+        "i": 23826,
+        "n": "Rakshasa Earring of Fending",
+        "l": 380,
+        "c": 55426,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "23827",
+      "obj": {
+        "i": 23827,
+        "n": "Rakshasa Earring of Slaying",
+        "l": 380,
+        "c": 55426,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "23828",
+      "obj": {
+        "i": 23828,
+        "n": "Rakshasa Earring of Aiming",
+        "l": 380,
+        "c": 55426,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "23829",
+      "obj": {
+        "i": 23829,
+        "n": "Rakshasa Earring of Healing",
+        "l": 380,
+        "c": 55426,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "23830",
+      "obj": {
+        "i": 23830,
+        "n": "Rakshasa Earring of Casting",
+        "l": 380,
+        "c": 55426,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "23841",
+      "obj": {
+        "i": 23841,
+        "n": "Rakshasa Ring of Fending",
+        "l": 380,
+        "c": 54647,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "23842",
+      "obj": {
+        "i": 23842,
+        "n": "Rakshasa Ring of Slaying",
+        "l": 380,
+        "c": 54647,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "23843",
+      "obj": {
+        "i": 23843,
+        "n": "Rakshasa Ring of Aiming",
+        "l": 380,
+        "c": 54647,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "23844",
+      "obj": {
+        "i": 23844,
+        "n": "Rakshasa Ring of Healing",
+        "l": 380,
+        "c": 54647,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "23845",
+      "obj": {
+        "i": 23845,
+        "n": "Rakshasa Ring of Casting",
+        "l": 380,
+        "c": 54647,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "24251",
+      "obj": {
+        "i": 24251,
+        "n": "Evergleam Ingot",
+        "l": 380,
+        "c": 20826,
+        "t": 49
+      }
+    },
+    {
+      "type": "item",
+      "id": "15144",
+      "obj": {
+        "i": 15144,
+        "n": "Washbasin",
+        "l": 320,
+        "c": 52651,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "24495",
+      "obj": {
+        "i": 24495,
+        "n": "Seiryu Statuette",
+        "l": 350,
+        "c": 53277,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "24868",
+      "obj": {
+        "i": 24868,
+        "n": "Carbuncle Chandelier",
+        "l": 320,
+        "c": 51135,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "27300",
+      "obj": {
+        "i": 27300,
+        "n": "Titania Shadow Box",
+        "l": 450,
+        "c": 51400,
+        "t": 79
+      }
+    },
+    {
+      "type": "item",
+      "id": "30077",
+      "obj": {
+        "i": 30077,
+        "n": "Shinryu's Ephemeral Rod",
+        "l": 290,
+        "c": 33096,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "30080",
+      "obj": {
+        "i": 30080,
+        "n": "Shinryu's Ephemeral Ephemeris",
+        "l": 290,
+        "c": 34904,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "30082",
+      "obj": {
+        "i": 30082,
+        "n": "Shinryu's Ephemeral Rapier",
+        "l": 290,
+        "c": 36762,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "30823",
+      "obj": {
+        "i": 30823,
+        "n": "Tsukuyomi's Moonlit Ephemeris",
+        "l": 290,
+        "c": 34912,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "30825",
+      "obj": {
+        "i": 30825,
+        "n": "Tsukuyomi's Moonlit Rapier",
+        "l": 290,
+        "c": 36770,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "30831",
+      "obj": {
+        "i": 30831,
+        "n": "Suzaku's Flame-kissed Greatbow",
+        "l": 290,
+        "c": 32355,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "30836",
+      "obj": {
+        "i": 30836,
+        "n": "Suzaku's Flame-kissed Rod",
+        "l": 290,
+        "c": 33107,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "30839",
+      "obj": {
+        "i": 30839,
+        "n": "Suzaku's Flame-kissed Ephemeris",
+        "l": 290,
+        "c": 34915,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "30841",
+      "obj": {
+        "i": 30841,
+        "n": "Suzaku's Flame-kissed Rapier",
+        "l": 290,
+        "c": 36773,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "30851",
+      "obj": {
+        "i": 30851,
+        "n": "Seiryu's Sanctified Cane",
+        "l": 290,
+        "c": 32746,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "30852",
+      "obj": {
+        "i": 30852,
+        "n": "Seiryu's Sanctified Rod",
+        "l": 290,
+        "c": 33114,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "30855",
+      "obj": {
+        "i": 30855,
+        "n": "Seiryu's Sanctified Ephemeris",
+        "l": 290,
+        "c": 34922,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "30857",
+      "obj": {
+        "i": 30857,
+        "n": "Seiryu's Sanctified Rapier",
+        "l": 290,
+        "c": 36780,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "33605",
+      "obj": {
+        "i": 33605,
+        "n": "Byakko's Enspirited Cane",
+        "l": 290,
+        "c": 32733,
+        "t": 9
+      }
+    },
+    {
+      "type": "item",
+      "id": "33606",
+      "obj": {
+        "i": 33606,
+        "n": "Byakko's Enspirited Rod",
+        "l": 290,
+        "c": 33101,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "33609",
+      "obj": {
+        "i": 33609,
+        "n": "Byakko's Enspirited Ephemeris",
+        "l": 290,
+        "c": 34909,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "33611",
+      "obj": {
+        "i": 33611,
+        "n": "Byakko's Enspirited Estoc",
+        "l": 290,
+        "c": 36767,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "37326",
+      "obj": {
+        "i": 37326,
+        "n": "Susano's Rapturous Rod",
+        "l": 290,
+        "c": 33085,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "37329",
+      "obj": {
+        "i": 37329,
+        "n": "Susano's Rapturous Ephemeris",
+        "l": 290,
+        "c": 34895,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "37331",
+      "obj": {
+        "i": 37331,
+        "n": "Susano's Rapturous Rapier",
+        "l": 290,
+        "c": 36725,
+        "t": 97
+      }
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "item": {
+    "name": "Peach Juice",
+    "description": "A generous serving of juice, freshly squeezed from sweet peaches.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 36071,
+    "patch": 6.05,
+    "patchCategory": 6,
+    "price": 99999,
+    "ilvl": 580,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Piety": {
+          "rate": 8,
+          "limit": 72
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 74
+        },
+        "Determination": {
+          "rate": 8,
+          "limit": 43
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Piety": {
+          "rate": 10,
+          "limit": 90
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 93
+        },
+        "Determination": {
+          "rate": 10,
+          "limit": 54
+        }
+      }
+    },
+    "icon": 24409,
+    "craft": [
+      {
+        "id": 34879,
+        "job": 15,
+        "rlvl": 580,
+        "durability": 70,
+        "quality": 10920,
+        "progress": 3900,
+        "lvl": 90,
+        "materialQualityFactor": 50,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 3080,
+        "craftsmanshipReq": 3180,
+        "unlockId": 35625,
+        "ingredients": [
+          {
+            "id": 36101,
+            "amount": 1
+          },
+          {
+            "id": 36214,
+            "amount": 1
+          },
+          {
+            "id": 36080,
+            "amount": 2,
+            "quality": 783.16644
+          },
+          {
+            "id": 36096,
+            "amount": 1
+          },
+          {
+            "id": 36092,
+            "amount": 1
+          },
+          {
+            "id": 27836,
+            "amount": 1
+          },
+          {
+            "id": 14,
+            "amount": 3
+          },
+          {
+            "id": 19,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 553,
+          "hq": 573
+        }
+      }
+    ],
+    "quests": [
+      70129
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "White Peach",
+      "id": 36101,
+      "icon": 25324,
+      "category": 45,
+      "ilvl": 580,
+      "price": 99999,
+      "tradeShops": [
+        {
+          "shop": "Purple Scrip Exchange (Lv. 90 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36101",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "36101",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Potent Spice",
+      "id": 36214,
+      "icon": 25024,
+      "category": 45,
+      "ilvl": 580,
+      "price": 99999,
+      "ventures": [
+        969
+      ],
+      "nodes": [
+        856,
+        857,
+        858
+      ]
+    },
+    {
+      "name": "Palm Sugar",
+      "id": 36080,
+      "icon": 25103,
+      "category": 45,
+      "ilvl": 530,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5285,
+          "job": 15,
+          "rlvl": 520,
+          "durability": 40,
+          "quality": 5700,
+          "progress": 1150,
+          "lvl": 82,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 36086,
+              "amount": 6
+            },
+            {
+              "id": 8,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 94,
+            "hq": 114
+          }
+        }
+      ]
+    },
+    {
+      "name": "Palm Syrup",
+      "id": 36086,
+      "icon": 22642,
+      "category": 45,
+      "ilvl": 525,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 74,
+          "type": 1
+        },
+        {
+          "id": 88,
+          "type": 1
+        },
+        {
+          "id": 81,
+          "type": 1
+        },
+        {
+          "id": 96,
+          "type": 1
+        },
+        {
+          "id": 104,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        914
+      ],
+      "nodes": [
+        839
+      ]
+    },
+    {
+      "name": "Sykon",
+      "id": 36096,
+      "icon": 25318,
+      "category": 45,
+      "ilvl": 539,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 75,
+          "type": 1
+        },
+        {
+          "id": 84,
+          "type": 1
+        },
+        {
+          "id": 93,
+          "type": 1
+        },
+        {
+          "id": 98,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        926
+      ],
+      "nodes": [
+        844
+      ]
+    },
+    {
+      "name": "Eblan Lentils",
+      "id": 36092,
+      "icon": 25355,
+      "category": 45,
+      "ilvl": 533,
+      "price": 99999,
+      "ventures": [
+        919
+      ],
+      "nodes": [
+        843
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "id": 27836,
+      "icon": 25016,
+      "category": 45,
+      "ilvl": 403,
+      "price": 630,
+      "ventures": [
+        827
+      ],
+      "nodes": [
+        629
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "856",
+      "obj": {
+        "i": 856,
+        "n": "Lethe",
+        "l": 90,
+        "t": 2,
+        "z": 3713,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          6,
+          18
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "857",
+      "obj": {
+        "i": 857,
+        "n": "The Shroud of the Samgha",
+        "l": 90,
+        "t": 3,
+        "z": 3709,
+        "s": 1,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "858",
+      "obj": {
+        "i": 858,
+        "n": "The Tube",
+        "l": 90,
+        "t": 3,
+        "z": 3712,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36086",
+      "obj": {
+        "i": 36086,
+        "n": "Palm Syrup",
+        "l": 525,
+        "c": 22642,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "839",
+      "obj": {
+        "i": 839,
+        "n": "The Great Work",
+        "l": 85,
+        "t": 2,
+        "z": 3709
+      }
+    },
+    {
+      "type": "node",
+      "id": "844",
+      "obj": {
+        "i": 844,
+        "n": "Southerly Zephyrneus",
+        "l": 90,
+        "t": 2,
+        "z": 3713
+      }
+    },
+    {
+      "type": "node",
+      "id": "843",
+      "obj": {
+        "i": 843,
+        "n": "Liminal Station IV",
+        "l": 85,
+        "t": 3,
+        "z": 3710
+      }
+    },
+    {
+      "type": "node",
+      "id": "629",
+      "obj": {
+        "i": 629,
+        "n": "Embrasure",
+        "l": 75,
+        "t": 3,
+        "z": 2953,
+        "lt": "Unspoiled",
+        "ti": [
+          10,
+          22
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35625",
+      "obj": {
+        "i": 35625,
+        "n": "Master Culinarian IX",
+        "l": 1,
+        "c": 26156,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "36101",
+      "obj": {
+        "i": 36101,
+        "n": "White Peach",
+        "l": 580,
+        "c": 25324,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36214",
+      "obj": {
+        "i": 36214,
+        "n": "Potent Spice",
+        "l": 580,
+        "c": 25024,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36080",
+      "obj": {
+        "i": 36080,
+        "n": "Palm Sugar",
+        "l": 530,
+        "c": 25103,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36096",
+      "obj": {
+        "i": 36096,
+        "n": "Sykon",
+        "l": 539,
+        "c": 25318,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "36092",
+      "obj": {
+        "i": 36092,
+        "n": "Eblan Lentils",
+        "l": 533,
+        "c": 25355,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27836",
+      "obj": {
+        "i": 27836,
+        "n": "Peppermint",
+        "l": 403,
+        "c": 25016,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70129",
+      "obj": {
+        "i": 70129,
+        "n": "Shadowed Remnants",
+        "g": 12,
+        "l": "Hydromantic Terraces",
+        "s": 630
+      }
+    }
+  ]
+}

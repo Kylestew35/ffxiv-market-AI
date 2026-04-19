@@ -1,0 +1,721 @@
+{
+  "leve": {
+    "name": "Cutting Edge of Culinary Quality",
+    "description": "Every dish we place upon the tables of Vollok Shoonsa must be unmatched in flavor and flawless in presentation. Which is to say, our chefs' knives should slice with peerless precision! We are in need of whetstones capable of accommodating such exacting standards.",
+    "id": 1753,
+    "patch": 7.0,
+    "client": "Sunperch Chef, Shoape",
+    "lvl": 94,
+    "jobCategory": 15,
+    "levemete": 1048391,
+    "areaid": 4504,
+    "xp": 1902430,
+    "gil": 2550,
+    "rewards": 867,
+    "plate": 80069,
+    "frame": 80005,
+    "areaicon": 110184,
+    "requires": [
+      {
+        "item": 44013,
+        "amount": 3
+      }
+    ],
+    "complexity": {
+      "nq": 240,
+      "hq": 255
+    }
+  },
+  "rewards": {
+    "id": 867,
+    "entries": [
+      {
+        "item": 13,
+        "rate": 0.23,
+        "amount": 38
+      },
+      {
+        "item": 12,
+        "rate": 0.23,
+        "amount": 38
+      },
+      {
+        "item": 44034,
+        "rate": 0.23
+      },
+      {
+        "item": 13,
+        "rate": 0.1,
+        "amount": 45
+      },
+      {
+        "item": 12,
+        "rate": 0.1,
+        "amount": 45
+      },
+      {
+        "item": 44070,
+        "rate": 0.1,
+        "amount": 2
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Magnesia Whetstone",
+      "id": 44013,
+      "icon": 20974,
+      "category": 48,
+      "ilvl": 665,
+      "price": 99999,
+      "craft": [
+        {
+          "id": 5660,
+          "job": 14,
+          "rlvl": 665,
+          "durability": 40,
+          "quality": 9800,
+          "progress": 2550,
+          "lvl": 95,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 44007,
+              "amount": 4
+            },
+            {
+              "id": 13,
+              "amount": 8
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ],
+      "desynthedFrom": [
+        42704
+      ]
+    },
+    {
+      "name": "Magnesia Powder",
+      "id": 44007,
+      "icon": 21204,
+      "category": 48,
+      "ilvl": 665,
+      "price": 99999,
+      "voyages": [
+        {
+          "id": 114,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        994
+      ],
+      "nodes": [
+        985
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "985",
+      "obj": {
+        "i": 985,
+        "n": "Eshceyaani Wilds",
+        "l": 100,
+        "t": 1,
+        "z": 4508
+      }
+    },
+    {
+      "type": "item",
+      "id": "44012",
+      "obj": {
+        "i": 44012,
+        "n": "Black Star",
+        "l": 680,
+        "c": 21338,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "44007",
+      "obj": {
+        "i": 44007,
+        "n": "Magnesia Powder",
+        "l": 665,
+        "c": 21204,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "42298",
+      "obj": {
+        "i": 42298,
+        "n": "Titanium Gold Falchion",
+        "l": 669,
+        "c": 30674,
+        "t": 2,
+        "p": 34611
+      }
+    },
+    {
+      "type": "item",
+      "id": "42300",
+      "obj": {
+        "i": 42300,
+        "n": "Titanium Gold Battleaxe",
+        "l": 669,
+        "c": 31248,
+        "t": 3,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42301",
+      "obj": {
+        "i": 42301,
+        "n": "Acacia Fork",
+        "l": 669,
+        "c": 31650,
+        "t": 5,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42307",
+      "obj": {
+        "i": 42307,
+        "n": "Titanium Gold Knives",
+        "l": 669,
+        "c": 33624,
+        "t": 84,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42308",
+      "obj": {
+        "i": 42308,
+        "n": "Titanium Gold Greatsword",
+        "l": 669,
+        "c": 34004,
+        "t": 87,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42311",
+      "obj": {
+        "i": 42311,
+        "n": "Titanium Gold Blade",
+        "l": 669,
+        "c": 36551,
+        "t": 96,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42312",
+      "obj": {
+        "i": 42312,
+        "n": "White Gold Foil",
+        "l": 669,
+        "c": 36851,
+        "t": 97,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42313",
+      "obj": {
+        "i": 42313,
+        "n": "Titanium Gold Gunblade",
+        "l": 669,
+        "c": 36095,
+        "t": 106,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42315",
+      "obj": {
+        "i": 42315,
+        "n": "Titanium Gold Sickle",
+        "l": 669,
+        "c": 37265,
+        "t": 108,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42317",
+      "obj": {
+        "i": 42317,
+        "n": "Titanium Gold Saberfangs",
+        "l": 669,
+        "c": 37414,
+        "t": 110,
+        "p": 51916
+      }
+    },
+    {
+      "type": "item",
+      "id": "42452",
+      "obj": {
+        "i": 42452,
+        "n": "Ra'Kaznar Katzbalger",
+        "l": 675,
+        "c": 30672,
+        "t": 2,
+        "p": 34647
+      }
+    },
+    {
+      "type": "item",
+      "id": "42454",
+      "obj": {
+        "i": 42454,
+        "n": "Ra'Kaznar Labrys",
+        "l": 675,
+        "c": 31246,
+        "t": 3,
+        "p": 51970
+      }
+    },
+    {
+      "type": "item",
+      "id": "42455",
+      "obj": {
+        "i": 42455,
+        "n": "Claro Walnut Spear",
+        "l": 675,
+        "c": 31648,
+        "t": 5,
+        "p": 51970
+      }
+    },
+    {
+      "type": "item",
+      "id": "42461",
+      "obj": {
+        "i": 42461,
+        "n": "Ra'Kaznar Daggers",
+        "l": 675,
+        "c": 33622,
+        "t": 84,
+        "p": 51970
+      }
+    },
+    {
+      "type": "item",
+      "id": "42462",
+      "obj": {
+        "i": 42462,
+        "n": "Ra'Kaznar Greatsword",
+        "l": 675,
+        "c": 34001,
+        "t": 87,
+        "p": 51970
+      }
+    },
+    {
+      "type": "item",
+      "id": "42465",
+      "obj": {
+        "i": 42465,
+        "n": "Ra'Kaznar Samurai Blade",
+        "l": 675,
+        "c": 36564,
+        "t": 96,
+        "p": 51970
+      }
+    },
+    {
+      "type": "item",
+      "id": "42466",
+      "obj": {
+        "i": 42466,
+        "n": "Ra'Kaznar Hanger",
+        "l": 675,
+        "c": 36849,
+        "t": 97,
+        "p": 51970
+      }
+    },
+    {
+      "type": "item",
+      "id": "42471",
+      "obj": {
+        "i": 42471,
+        "n": "Ra'Kaznar Twinfangs",
+        "l": 675,
+        "c": 37403,
+        "t": 110,
+        "p": 51970
+      }
+    },
+    {
+      "type": "item",
+      "id": "42509",
+      "obj": {
+        "i": 42509,
+        "n": "Black Star Ear Cuff of Fending",
+        "l": 675,
+        "c": 55531,
+        "t": 41,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42510",
+      "obj": {
+        "i": 42510,
+        "n": "Black Star Ear Cuff of Slaying",
+        "l": 675,
+        "c": 55531,
+        "t": 41,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42511",
+      "obj": {
+        "i": 42511,
+        "n": "Black Star Ear Cuff of Aiming",
+        "l": 675,
+        "c": 55531,
+        "t": 41,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42512",
+      "obj": {
+        "i": 42512,
+        "n": "Black Star Ear Cuff of Healing",
+        "l": 675,
+        "c": 55531,
+        "t": 41,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42513",
+      "obj": {
+        "i": 42513,
+        "n": "Black Star Ear Cuff of Casting",
+        "l": 675,
+        "c": 55531,
+        "t": 41,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42524",
+      "obj": {
+        "i": 42524,
+        "n": "Black Star Ring of Fending",
+        "l": 675,
+        "c": 54733,
+        "t": 43,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42525",
+      "obj": {
+        "i": 42525,
+        "n": "Black Star Ring of Slaying",
+        "l": 675,
+        "c": 54733,
+        "t": 43,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42526",
+      "obj": {
+        "i": 42526,
+        "n": "Black Star Ring of Aiming",
+        "l": 675,
+        "c": 54733,
+        "t": 43,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42527",
+      "obj": {
+        "i": 42527,
+        "n": "Black Star Ring of Healing",
+        "l": 675,
+        "c": 54733,
+        "t": 43,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "42528",
+      "obj": {
+        "i": 42528,
+        "n": "Black Star Ring of Casting",
+        "l": 675,
+        "c": 54733,
+        "t": 43,
+        "p": 21654
+      }
+    },
+    {
+      "type": "item",
+      "id": "43263",
+      "obj": {
+        "i": 43263,
+        "n": "Ra'Kaznar Saw",
+        "l": 690,
+        "c": 39008,
+        "t": 12,
+        "p": 52107
+      }
+    },
+    {
+      "type": "item",
+      "id": "43267",
+      "obj": {
+        "i": 43267,
+        "n": "Ra'Kaznar Round Knife",
+        "l": 690,
+        "c": 39408,
+        "t": 20,
+        "p": 52107
+      }
+    },
+    {
+      "type": "item",
+      "id": "43271",
+      "obj": {
+        "i": 43271,
+        "n": "Ra'Kaznar Pickaxe",
+        "l": 690,
+        "c": 38309,
+        "t": 28,
+        "p": 52107
+      }
+    },
+    {
+      "type": "item",
+      "id": "43272",
+      "obj": {
+        "i": 43272,
+        "n": "Ra'Kaznar Hatchet",
+        "l": 690,
+        "c": 38407,
+        "t": 30,
+        "p": 52107
+      }
+    },
+    {
+      "type": "item",
+      "id": "43274",
+      "obj": {
+        "i": 43274,
+        "n": "Ra'Kaznar Claw Hammer",
+        "l": 690,
+        "c": 35072,
+        "t": 13,
+        "p": 52107
+      }
+    },
+    {
+      "type": "item",
+      "id": "43276",
+      "obj": {
+        "i": 43276,
+        "n": "Ra'Kaznar Pliers",
+        "l": 690,
+        "c": 35269,
+        "t": 17,
+        "p": 52107
+      }
+    },
+    {
+      "type": "item",
+      "id": "43279",
+      "obj": {
+        "i": 43279,
+        "n": "Claro Walnut Spinning Wheel",
+        "l": 690,
+        "c": 35570,
+        "t": 23,
+        "p": 52107
+      }
+    },
+    {
+      "type": "item",
+      "id": "43283",
+      "obj": {
+        "i": 43283,
+        "n": "Ra'Kaznar Garden Scythe",
+        "l": 690,
+        "c": 38169,
+        "t": 31,
+        "p": 52107
+      }
+    },
+    {
+      "type": "item",
+      "id": "41147",
+      "obj": {
+        "i": 41147,
+        "n": "Sharlayan Reflecting Pool",
+        "l": 690,
+        "c": 52397,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "44189",
+      "obj": {
+        "i": 44189,
+        "n": "Rarefied Claro Walnut Grinding Wheel",
+        "l": 685,
+        "c": 35369,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44193",
+      "obj": {
+        "i": 44193,
+        "n": "Rarefied Cobalt Tungsten Scimitars",
+        "l": 665,
+        "c": 30682,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44205",
+      "obj": {
+        "i": 44205,
+        "n": "Rarefied Cobalt Tungsten Tuck",
+        "l": 665,
+        "c": 36859,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44208",
+      "obj": {
+        "i": 44208,
+        "n": "Rarefied Black Star Earrings",
+        "l": 690,
+        "c": 55534,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "44887",
+      "obj": {
+        "i": 44887,
+        "n": "Eternal Cenotaph",
+        "l": 710,
+        "c": 53509,
+        "t": 78
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1753",
+      "obj": {
+        "i": 1753,
+        "n": "Cutting Edge of Culinary Quality",
+        "l": 94,
+        "j": 15,
+        "p": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "42704",
+      "obj": {
+        "i": 42704,
+        "n": "Neo Kingdom Codex",
+        "l": 700,
+        "c": 37801,
+        "t": 98
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048391",
+      "obj": {
+        "i": 1048391,
+        "n": "Ponawme",
+        "l": 4504
+      }
+    },
+    {
+      "type": "item",
+      "id": "44034",
+      "obj": {
+        "i": 44034,
+        "n": "Yak T'el Spring Water",
+        "l": 670,
+        "c": 22614,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "44070",
+      "obj": {
+        "i": 44070,
+        "n": "Ty'aitya Wingblade",
+        "l": 660,
+        "c": 22306,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "44013",
+      "obj": {
+        "i": 44013,
+        "n": "Magnesia Whetstone",
+        "l": 665,
+        "c": 20974,
+        "t": 48
+      }
+    }
+  ]
+}

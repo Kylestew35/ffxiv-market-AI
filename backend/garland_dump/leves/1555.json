@@ -1,0 +1,153 @@
+{
+  "leve": {
+    "name": "The Source of the Problem",
+    "description": "There are worries that foreign species of fish are negatively affecting the ecosystem surrounding the Source. The plan is to release purple ghosts into the lake, and have them electrocute only the non-native species. For the sake of Lakeland, I pray it works.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1555,
+    "patch": 5.0,
+    "client": "Facet of Fishing Deputy Chief, Vrue-Shirr",
+    "lvl": 70,
+    "jobCategory": 19,
+    "levemete": 1027849,
+    "coords": [
+      9.63,
+      18.89
+    ],
+    "zoneid": 2953,
+    "areaid": 2953,
+    "xp": 901955,
+    "gil": 650,
+    "rewards": 732,
+    "plate": 80068,
+    "frame": 80005,
+    "areaicon": 110179,
+    "repeats": 2,
+    "requires": [
+      {
+        "item": 27518,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 180,
+      "hq": 225
+    }
+  },
+  "rewards": {
+    "id": 732,
+    "entries": [
+      {
+        "item": 27582,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Purple Ghost",
+      "id": 27518,
+      "icon": 29597,
+      "category": 47,
+      "ilvl": 390,
+      "price": 240,
+      "nodes": [
+        635,
+        645
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "635",
+      "obj": {
+        "i": 635,
+        "n": "Northeast Source",
+        "l": 70,
+        "t": 5,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "645",
+      "obj": {
+        "i": 645,
+        "n": "Eastern Isle of Ken",
+        "l": 75,
+        "t": 5,
+        "z": 2953,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1555",
+      "obj": {
+        "i": 1555,
+        "n": "The Source of the Problem",
+        "l": 70,
+        "j": 19,
+        "p": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "28062",
+      "obj": {
+        "i": 28062,
+        "n": "Nightworld Bronze Piece",
+        "l": 385,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027849",
+      "obj": {
+        "i": 1027849,
+        "n": "Shue-Hann",
+        "l": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "27582",
+      "obj": {
+        "i": 27582,
+        "n": "Fruit Worm",
+        "l": 320,
+        "c": 27036,
+        "t": 33,
+        "p": 64
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27518",
+      "obj": {
+        "i": 27518,
+        "n": "Purple Ghost",
+        "l": 390,
+        "c": 29597,
+        "t": 47
+      }
+    }
+  ]
+}

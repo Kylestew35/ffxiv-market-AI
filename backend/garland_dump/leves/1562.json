@@ -1,0 +1,166 @@
+{
+  "leve": {
+    "name": "Crab Corps",
+    "description": "Business truly is booming! I've been asked to supply food for a banquet by the Settlement council. It seems the soldiers have done something worth celebrating. Such a special occasion calls for an equally special dish, and I believe I have just the thing─gourmand crab soup! Assuming I had the crabs to make it, of course.<br><span class=\"highlight\">Requires: Spearfishing Gig</span>",
+    "id": 1562,
+    "patch": 5.0,
+    "client": "Facet of Nourishing Famed Culinarian, Saulfort",
+    "lvl": 76,
+    "jobCategory": 19,
+    "levemete": 1027849,
+    "coords": [
+      13.61,
+      36.65
+    ],
+    "zoneid": 2957,
+    "areaid": 2957,
+    "xp": 2091086,
+    "gil": 2070,
+    "rewards": 730,
+    "plate": 80067,
+    "frame": 80005,
+    "areaicon": 110183,
+    "requires": [
+      {
+        "item": 27571,
+        "amount": 9
+      }
+    ],
+    "complexity": {
+      "nq": 108,
+      "hq": 153
+    }
+  },
+  "rewards": {
+    "id": 730,
+    "entries": [
+      {
+        "item": 27585,
+        "rate": 0.5,
+        "amount": 3
+      },
+      {
+        "item": 21072,
+        "rate": 0.5
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Gourmand Crab",
+      "id": 27571,
+      "icon": 28463,
+      "category": 47,
+      "ilvl": 409,
+      "price": 270,
+      "ventures": [
+        847
+      ],
+      "nodes": [
+        643,
+        647
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "643",
+      "obj": {
+        "i": 643,
+        "n": "North Lake Tusi Mek'ta",
+        "l": 80,
+        "t": 5,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "647",
+      "obj": {
+        "i": 647,
+        "n": "Deep Lake Tusi Mek'ta",
+        "l": 80,
+        "t": 5,
+        "z": 2957,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1562",
+      "obj": {
+        "i": 1562,
+        "n": "Crab Corps",
+        "l": 76,
+        "j": 19,
+        "p": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "5814",
+      "obj": {
+        "i": 5814,
+        "n": "Blue Pigment",
+        "l": 28,
+        "c": 21457,
+        "t": 55
+      }
+    },
+    {
+      "type": "item",
+      "id": "28062",
+      "obj": {
+        "i": 28062,
+        "n": "Nightworld Bronze Piece",
+        "l": 385,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027849",
+      "obj": {
+        "i": 1027849,
+        "n": "Shue-Hann",
+        "l": 2951
+      }
+    },
+    {
+      "type": "item",
+      "id": "27585",
+      "obj": {
+        "i": 27585,
+        "n": "Marble Nymph",
+        "l": 360,
+        "c": 27038,
+        "t": 33,
+        "p": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "21072",
+      "obj": {
+        "i": 21072,
+        "n": "Venture",
+        "l": 1,
+        "c": 65049,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27571",
+      "obj": {
+        "i": 27571,
+        "n": "Gourmand Crab",
+        "l": 409,
+        "c": 28463,
+        "t": 47
+      }
+    }
+  ]
+}

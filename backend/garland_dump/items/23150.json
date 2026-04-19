@@ -1,0 +1,158 @@
+{
+  "item": {
+    "name": "Phial of Thermal Fluid",
+    "description": "This liquid can be applied, to great effect, as insulation.",
+    "id": 23150,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 333,
+    "ilvl": 215,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 22660,
+    "nodes": [
+      551,
+      552
+    ],
+    "satisfaction": [
+      {
+        "level": 3,
+        "npc": 1025878,
+        "probability": 1,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          130,
+          130,
+          130
+        ],
+        "gil": [
+          900,
+          1120,
+          1340
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              114,
+              137,
+              160
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              81,
+              96,
+              110
+            ]
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "npc": 1025878,
+        "probability": 23,
+        "rating": [
+          240,
+          450,
+          600
+        ],
+        "satisfaction": [
+          0,
+          0,
+          0
+        ],
+        "gil": [
+          1120,
+          1400,
+          1670
+        ],
+        "items": [
+          {
+            "id": 33914,
+            "amount": [
+              134,
+              157,
+              180
+            ]
+          },
+          {
+            "id": 41785,
+            "amount": [
+              91,
+              106,
+              120
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "node",
+      "id": "551",
+      "obj": {
+        "i": 551,
+        "n": "The Bed of Bones",
+        "l": 65,
+        "t": 0,
+        "z": 2200
+      }
+    },
+    {
+      "type": "node",
+      "id": "552",
+      "obj": {
+        "i": 552,
+        "n": "Gorgagne Holding",
+        "l": 65,
+        "t": 3,
+        "z": 2200
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1025878",
+      "obj": {
+        "i": 1025878,
+        "n": "Kurenai",
+        "l": 2409,
+        "q": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "41785",
+      "obj": {
+        "i": 41785,
+        "n": "Orange Gatherers' Scrip",
+        "l": 1,
+        "c": 65109,
+        "t": 100
+      }
+    }
+  ]
+}

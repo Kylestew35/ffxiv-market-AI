@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Protonaught",
+    "description": "The amount it can lift would put a full-grown Roegadyn to shame.<br><br>Use item to acquire the protonaught minion.",
+    "minionrace": "Monster",
+    "tooltip": "Bigger is not necessarily better.\r\n   - Man with a Familiar Voice",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Steam Clean",
+    "specialactiondescription": "Increases action party DEF by 40.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 36853,
+    "patch": 6.1,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59846,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (Other)",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36853",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 1000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 370,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 40,
+      "Speed": 2
+    },
+    "models": [
+      "8404-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

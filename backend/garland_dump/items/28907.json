@@ -1,0 +1,728 @@
+{
+  "item": {
+    "name": "Skysteel Leather",
+    "description": "The most advanced technology of the Skysteel Manufactory went into the creation of this piece of leather. According to Biggs, equipment made from this material will allow its user to hear sounds before they are made.",
+    "id": 28907,
+    "patch": 5.1,
+    "patchCategory": 5,
+    "price": 3,
+    "ilvl": 260,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22016,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28907",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "28811": 1,
+      "28812": 2,
+      "28816": 1,
+      "28817": 2,
+      "28818": 1,
+      "28819": 2,
+      "28820": 2,
+      "28821": 1,
+      "28822": 2,
+      "28823": 2,
+      "28825": 2,
+      "28827": 2,
+      "28828": 1,
+      "28829": 2,
+      "28830": 2,
+      "28831": 1,
+      "28832": 2,
+      "28833": 1,
+      "28834": 1,
+      "28835": 2,
+      "28837": 2,
+      "28838": 1,
+      "28839": 1,
+      "28840": 2,
+      "28842": 2,
+      "28844": 2,
+      "28845": 1,
+      "28846": 1,
+      "28847": 1,
+      "28849": 2,
+      "28850": 1,
+      "28851": 1,
+      "28852": 1,
+      "28854": 2,
+      "28855": 1,
+      "28856": 1,
+      "28857": 1,
+      "28859": 2,
+      "28860": 1,
+      "28861": 1,
+      "28862": 1,
+      "28864": 2,
+      "28865": 1,
+      "28866": 1,
+      "28867": 1,
+      "28869": 2,
+      "28870": 1,
+      "28871": 1,
+      "28872": 1,
+      "28874": 2,
+      "28875": 1,
+      "28876": 1,
+      "28877": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "28811",
+      "obj": {
+        "i": 28811,
+        "n": "Replica Sky Pirate's Gaskins of Fending",
+        "l": 1,
+        "c": 45706,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28812",
+      "obj": {
+        "i": 28812,
+        "n": "Replica Sky Pirate's Boots of Fending",
+        "l": 1,
+        "c": 47030,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28816",
+      "obj": {
+        "i": 28816,
+        "n": "Replica Sky Pirate's Gaskins of Maiming",
+        "l": 1,
+        "c": 45707,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28817",
+      "obj": {
+        "i": 28817,
+        "n": "Replica Sky Pirate's Boots of Maiming",
+        "l": 1,
+        "c": 47031,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28818",
+      "obj": {
+        "i": 28818,
+        "n": "Replica Sky Pirate's Mask of Striking",
+        "l": 1,
+        "c": 40951,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28819",
+      "obj": {
+        "i": 28819,
+        "n": "Replica Sky Pirate's Jacket of Striking",
+        "l": 1,
+        "c": 42480,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28820",
+      "obj": {
+        "i": 28820,
+        "n": "Replica Sky Pirate's Gloves of Striking",
+        "l": 1,
+        "c": 44402,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28821",
+      "obj": {
+        "i": 28821,
+        "n": "Replica Sky Pirate's Trousers of Striking",
+        "l": 1,
+        "c": 45708,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28822",
+      "obj": {
+        "i": 28822,
+        "n": "Replica Sky Pirate's Boots of Striking",
+        "l": 1,
+        "c": 46553,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28823",
+      "obj": {
+        "i": 28823,
+        "n": "Replica Sky Pirate's Beret of Aiming",
+        "l": 1,
+        "c": 41280,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28825",
+      "obj": {
+        "i": 28825,
+        "n": "Replica Sky Pirate's Gloves of Aiming",
+        "l": 1,
+        "c": 44404,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28827",
+      "obj": {
+        "i": 28827,
+        "n": "Replica Sky Pirate's Boots of Aiming",
+        "l": 1,
+        "c": 46555,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28828",
+      "obj": {
+        "i": 28828,
+        "n": "Replica Sky Pirate's Mask of Scouting",
+        "l": 1,
+        "c": 40952,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28829",
+      "obj": {
+        "i": 28829,
+        "n": "Replica Sky Pirate's Jacket of Scouting",
+        "l": 1,
+        "c": 42481,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28830",
+      "obj": {
+        "i": 28830,
+        "n": "Replica Sky Pirate's Gloves of Scouting",
+        "l": 1,
+        "c": 44403,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28831",
+      "obj": {
+        "i": 28831,
+        "n": "Replica Sky Pirate's Trousers of Scouting",
+        "l": 1,
+        "c": 45709,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28832",
+      "obj": {
+        "i": 28832,
+        "n": "Replica Sky Pirate's Boots of Scouting",
+        "l": 1,
+        "c": 46554,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28833",
+      "obj": {
+        "i": 28833,
+        "n": "Replica Sky Pirate's Cap of Healing",
+        "l": 1,
+        "c": 41281,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28834",
+      "obj": {
+        "i": 28834,
+        "n": "Replica Sky Pirate's Coat of Healing",
+        "l": 1,
+        "c": 43697,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28835",
+      "obj": {
+        "i": 28835,
+        "n": "Replica Sky Pirate's Gloves of Healing",
+        "l": 1,
+        "c": 44405,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28837",
+      "obj": {
+        "i": 28837,
+        "n": "Replica Sky Pirate's Shoes of Healing",
+        "l": 1,
+        "c": 46556,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28838",
+      "obj": {
+        "i": 28838,
+        "n": "Replica Sky Pirate's Cap of Casting",
+        "l": 1,
+        "c": 41282,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "28839",
+      "obj": {
+        "i": 28839,
+        "n": "Replica Sky Pirate's Coat of Casting",
+        "l": 1,
+        "c": 43698,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28840",
+      "obj": {
+        "i": 28840,
+        "n": "Replica Sky Pirate's Gloves of Casting",
+        "l": 1,
+        "c": 44406,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28842",
+      "obj": {
+        "i": 28842,
+        "n": "Replica Sky Pirate's Shoes of Casting",
+        "l": 1,
+        "c": 46557,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28844",
+      "obj": {
+        "i": 28844,
+        "n": "Replica Sky Rat Harness of Fending",
+        "l": 1,
+        "c": 43316,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28845",
+      "obj": {
+        "i": 28845,
+        "n": "Replica Sky Rat Hook of Fending",
+        "l": 1,
+        "c": 48573,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28846",
+      "obj": {
+        "i": 28846,
+        "n": "Replica Sky Rat Breeches of Fending",
+        "l": 1,
+        "c": 45866,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28847",
+      "obj": {
+        "i": 28847,
+        "n": "Replica Sky Rat Hookboots of Fending",
+        "l": 1,
+        "c": 47070,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28849",
+      "obj": {
+        "i": 28849,
+        "n": "Replica Sky Rat Harness of Maiming",
+        "l": 1,
+        "c": 43318,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28850",
+      "obj": {
+        "i": 28850,
+        "n": "Replica Sky Rat Hook of Maiming",
+        "l": 1,
+        "c": 48575,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28851",
+      "obj": {
+        "i": 28851,
+        "n": "Replica Sky Rat Breeches of Maiming",
+        "l": 1,
+        "c": 45868,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28852",
+      "obj": {
+        "i": 28852,
+        "n": "Replica Sky Rat Hookboots of Maiming",
+        "l": 1,
+        "c": 47072,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28854",
+      "obj": {
+        "i": 28854,
+        "n": "Replica Sky Rat Harness of Striking",
+        "l": 1,
+        "c": 43319,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28855",
+      "obj": {
+        "i": 28855,
+        "n": "Replica Sky Rat Fingerless Gloves of Striking",
+        "l": 1,
+        "c": 48576,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28856",
+      "obj": {
+        "i": 28856,
+        "n": "Replica Sky Rat Breeches of Striking",
+        "l": 1,
+        "c": 45869,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28857",
+      "obj": {
+        "i": 28857,
+        "n": "Replica Sky Rat Ironclad Boots of Striking",
+        "l": 1,
+        "c": 47073,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28859",
+      "obj": {
+        "i": 28859,
+        "n": "Replica Sky Rat Harness of Aiming",
+        "l": 1,
+        "c": 43320,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28860",
+      "obj": {
+        "i": 28860,
+        "n": "Replica Sky Rat Fingerless Gloves of Aiming",
+        "l": 1,
+        "c": 48577,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28861",
+      "obj": {
+        "i": 28861,
+        "n": "Replica Sky Rat Breeches of Aiming",
+        "l": 1,
+        "c": 45870,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28862",
+      "obj": {
+        "i": 28862,
+        "n": "Replica Sky Rat Ironclad Boots of Aiming",
+        "l": 1,
+        "c": 47074,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28864",
+      "obj": {
+        "i": 28864,
+        "n": "Replica Sky Rat Harness of Scouting",
+        "l": 1,
+        "c": 43321,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28865",
+      "obj": {
+        "i": 28865,
+        "n": "Replica Sky Rat Hook of Scouting",
+        "l": 1,
+        "c": 48578,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28866",
+      "obj": {
+        "i": 28866,
+        "n": "Replica Sky Rat Breeches of Scouting",
+        "l": 1,
+        "c": 45871,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28867",
+      "obj": {
+        "i": 28867,
+        "n": "Replica Sky Rat Hookboots of Scouting",
+        "l": 1,
+        "c": 47075,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28869",
+      "obj": {
+        "i": 28869,
+        "n": "Replica Sky Rat Harness of Healing",
+        "l": 1,
+        "c": 43317,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28870",
+      "obj": {
+        "i": 28870,
+        "n": "Replica Sky Rat Hook of Healing",
+        "l": 1,
+        "c": 48574,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28871",
+      "obj": {
+        "i": 28871,
+        "n": "Replica Sky Rat Breeches of Healing",
+        "l": 1,
+        "c": 45867,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28872",
+      "obj": {
+        "i": 28872,
+        "n": "Replica Sky Rat Hookboots of Healing",
+        "l": 1,
+        "c": 47071,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "28874",
+      "obj": {
+        "i": 28874,
+        "n": "Replica Sky Rat Harness of Casting",
+        "l": 1,
+        "c": 43315,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "28875",
+      "obj": {
+        "i": 28875,
+        "n": "Replica Sky Rat Fingerless Gloves of Casting",
+        "l": 1,
+        "c": 48572,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "28876",
+      "obj": {
+        "i": 28876,
+        "n": "Replica Sky Rat Breeches of Casting",
+        "l": 1,
+        "c": 45865,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "28877",
+      "obj": {
+        "i": 28877,
+        "n": "Replica Sky Rat Ironclad Boots of Casting",
+        "l": 1,
+        "c": 47069,
+        "t": 38
+      }
+    }
+  ]
+}

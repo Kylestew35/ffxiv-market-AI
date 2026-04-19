@@ -1,0 +1,130 @@
+{
+  "item": {
+    "name": "Heavy Hatchling",
+    "description": "Currently, “baby fat” is the prevailing excuse for this cherubic chick's gigant-like girth.<br><br>Use item to acquire the heavy hatchling minion.",
+    "minionrace": "Critter",
+    "tooltip": "I cannot deny what you say is\r\ntrue any more than I can deny\r\na chocobo's arse is yellow.\r\n  - Path Companion",
+    "minionskilltype": "Special",
+    "specialactionname": "Insatiable",
+    "specialactiondescription": "Doubles the amount of HP restored to allies stationed in Gates.<br><span class=\"highlight-green\">Duration:</span> 20s",
+    "id": 9346,
+    "patch": 2.4,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59506,
+    "tradeShops": [
+      {
+        "shop": "Purchase Minions (MGP)",
+        "npcs": [
+          1011595
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9346",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 20000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Prize Exchange (Registrable Miscellany)",
+        "npcs": [
+          1011039
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "9346",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "29",
+                "amount": 20000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 15,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate"
+    ],
+    "attr": {
+      "HP": 360,
+      "Skill Cost": 20,
+      "Attack": 35,
+      "Defense": 75,
+      "Speed": 2
+    },
+    "models": [
+      "8084-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1011595",
+      "obj": {
+        "i": 1011595,
+        "n": "Minion Trader",
+        "l": 1484,
+        "s": 2,
+        "r": 1,
+        "a": 1663,
+        "c": [
+          7.77,
+          7.02
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "29",
+      "obj": {
+        "i": 29,
+        "n": "MGP",
+        "l": 1,
+        "c": 65025,
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011039",
+      "obj": {
+        "i": 1011039,
+        "n": "Gold Saucer Attendant",
+        "l": 1484,
+        "s": 4,
+        "t": "Prize Claim",
+        "r": 1,
+        "a": 1492,
+        "c": [
+          5.15,
+          6.68
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Elemental Wheel",
+    "description": "Depicts the intrinsic relationships between the six elements, which govern all life on this star, and probably a few other stars to boot.",
+    "id": 32232,
+    "patch": 5.4,
+    "patchCategory": 9,
+    "price": 170,
+    "ilvl": 1,
+    "category": 79,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 5,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 51444,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027665
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "32232",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "1015"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027665",
+      "obj": {
+        "i": 1027665,
+        "n": "Sul Lad",
+        "l": 2956,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3147,
+        "c": [
+          16.42,
+          30.83
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Construct VI-S Core",
+    "description": "The golem summoned by this core is painted red so it goes faster. Painting the core itself red, however, does not appear to offer any discernible benefit.",
+    "mount": {
+      "name": "Construct VI-S",
+      "action": "Summon forth your Construct VI-S. Painted red so it goes faster. Theoretically.",
+      "description": "This flashy golem was constructed by a band of commerce-minded kobolds hoping to establish regular trade with their seafaring neighbors. Coated in Lominsan red, propulsion power is apparently enhanced by as much as thirty percent.",
+      "tooltip": "No one'll tell me what the<br>bloody “S” stands for...<br>   - Lieutenant Skaetswys",
+      "icon": 4196,
+      "guideIcon": 68196
+    },
+    "id": 33145,
+    "patch": 5.4,
+    "patchCategory": 17,
+    "price": 33334,
+    "ilvl": 1,
+    "category": 63,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1000,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Exchange Faux Leaves",
+        "npcs": [
+          1033921
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33145",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "30341",
+                "amount": 600
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "609-1-2"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1033921",
+      "obj": {
+        "i": 1033921,
+        "n": "Faux Commander",
+        "l": 2082,
+        "s": 1,
+        "q": 1,
+        "r": 1,
+        "a": 2093,
+        "c": [
+          5.77,
+          6.13
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "30341",
+      "obj": {
+        "i": 30341,
+        "n": "Faux Leaf",
+        "l": 1,
+        "c": 65078,
+        "t": 100
+      }
+    }
+  ]
+}

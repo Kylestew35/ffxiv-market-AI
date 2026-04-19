@@ -1,0 +1,429 @@
+{
+  "item": {
+    "name": "Stewed River Bream",
+    "description": "River bream topped in a sauce made by thickening the broth in which the fish was stewed.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 19827,
+    "patch": 4.0,
+    "patchCategory": 6,
+    "price": 2208,
+    "ilvl": 290,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 26,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Determination": {
+          "rate": 8,
+          "limit": 35
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 37
+        },
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 21
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Determination": {
+          "rate": 10,
+          "limit": 44
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 46
+        },
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 26
+        }
+      }
+    },
+    "icon": 24312,
+    "craft": [
+      {
+        "id": 3569,
+        "job": 15,
+        "rlvl": 290,
+        "durability": 80,
+        "quality": 3600,
+        "progress": 1080,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 20218,
+            "amount": 1
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 19846,
+            "amount": 1,
+            "quality": 289.97614
+          },
+          {
+            "id": 19853,
+            "amount": 1
+          },
+          {
+            "id": 19866,
+            "amount": 1
+          },
+          {
+            "id": 19854,
+            "amount": 1
+          },
+          {
+            "id": 8,
+            "amount": 6
+          },
+          {
+            "id": 13,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 220,
+          "hq": 240
+        }
+      }
+    ],
+    "quests": [
+      68503,
+      68566
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 730750,
+      "seals": 805
+    }
+  },
+  "ingredients": [
+    {
+      "name": "River Bream",
+      "id": 20218,
+      "icon": 29470,
+      "category": 47,
+      "ilvl": 275,
+      "price": 1000,
+      "nodes": [
+        473
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    },
+    {
+      "name": "Cottonseed Oil",
+      "id": 19846,
+      "icon": 25452,
+      "category": 45,
+      "ilvl": 270,
+      "price": 534,
+      "craft": [
+        {
+          "id": 3585,
+          "job": 15,
+          "rlvl": 270,
+          "durability": 40,
+          "quality": 2376,
+          "progress": 365,
+          "lvl": 63,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 19979,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Ruby Cotton Boll",
+      "id": 19979,
+      "icon": 21652,
+      "category": 51,
+      "ilvl": 265,
+      "price": 2098,
+      "leves": [
+        1301,
+        1302,
+        1303
+      ],
+      "ventures": [
+        686
+      ],
+      "nodes": [
+        511
+      ]
+    },
+    {
+      "name": "Kudzu Root",
+      "id": 19853,
+      "icon": 25005,
+      "category": 45,
+      "ilvl": 276,
+      "price": 545,
+      "leves": [
+        1307,
+        1308,
+        1309
+      ],
+      "ventures": [
+        691
+      ],
+      "nodes": [
+        509
+      ]
+    },
+    {
+      "name": "Sun Cabbage",
+      "id": 19866,
+      "icon": 25208,
+      "category": 45,
+      "ilvl": 279,
+      "price": 546,
+      "ventures": [
+        697
+      ],
+      "nodes": [
+        519
+      ]
+    },
+    {
+      "name": "Doman Eggplant",
+      "id": 19854,
+      "icon": 25205,
+      "category": 45,
+      "ilvl": 288,
+      "price": 551,
+      "ventures": [
+        706
+      ],
+      "nodes": [
+        517
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "473",
+      "obj": {
+        "i": 473,
+        "n": "The Sunken Junk",
+        "l": 70,
+        "t": 5,
+        "z": 2410
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "19979",
+      "obj": {
+        "i": 19979,
+        "n": "Ruby Cotton Boll",
+        "l": 265,
+        "c": 21652,
+        "t": 51
+      }
+    },
+    {
+      "type": "node",
+      "id": "511",
+      "obj": {
+        "i": 511,
+        "n": "Rasen Kaikyo",
+        "l": 65,
+        "t": 3,
+        "z": 2409
+      }
+    },
+    {
+      "type": "node",
+      "id": "509",
+      "obj": {
+        "i": 509,
+        "n": "Dimwold",
+        "l": 65,
+        "t": 3,
+        "z": 2406
+      }
+    },
+    {
+      "type": "node",
+      "id": "519",
+      "obj": {
+        "i": 519,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 3,
+        "z": 2411
+      }
+    },
+    {
+      "type": "node",
+      "id": "517",
+      "obj": {
+        "i": 517,
+        "n": "Doma",
+        "l": 70,
+        "t": 3,
+        "z": 2410
+      }
+    },
+    {
+      "type": "item",
+      "id": "20218",
+      "obj": {
+        "i": 20218,
+        "n": "River Bream",
+        "l": 275,
+        "c": 29470,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19846",
+      "obj": {
+        "i": 19846,
+        "n": "Cottonseed Oil",
+        "l": 270,
+        "c": 25452,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19853",
+      "obj": {
+        "i": 19853,
+        "n": "Kudzu Root",
+        "l": 276,
+        "c": 25005,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19866",
+      "obj": {
+        "i": 19866,
+        "n": "Sun Cabbage",
+        "l": 279,
+        "c": 25208,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "19854",
+      "obj": {
+        "i": 19854,
+        "n": "Doman Eggplant",
+        "l": 288,
+        "c": 25205,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68503",
+      "obj": {
+        "i": 68503,
+        "n": "A Sultana's Strings",
+        "g": 7,
+        "l": "The Lochs",
+        "s": 6
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68566",
+      "obj": {
+        "i": 68566,
+        "n": "A Fortune in Salt",
+        "g": 123,
+        "l": "Rhalgr's Reach",
+        "s": 10040
+      }
+    }
+  ]
+}

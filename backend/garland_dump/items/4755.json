@@ -1,0 +1,107 @@
+{
+  "item": {
+    "name": "Blue Cheese",
+    "description": "This creamy, pungent cheese gets its distinct flavor from the thin layer of grey-blue mold growing upon it.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 4755,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 15,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Vitality": {
+          "rate": 8,
+          "limit": 2
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Vitality": {
+          "rate": 10,
+          "limit": 3
+        }
+      }
+    },
+    "icon": 24451,
+    "vendors": [
+      1004427,
+      1004038
+    ],
+    "ingredient_of": {
+      "4683": 1,
+      "4685": 1,
+      "4687": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1004427",
+      "obj": {
+        "i": 1004427,
+        "n": "Shopkeep",
+        "l": 44,
+        "s": 1,
+        "c": [
+          "13.9",
+          "24.8"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1004038",
+      "obj": {
+        "i": 1004038,
+        "n": "Merchant & Mender",
+        "l": 42,
+        "s": 3,
+        "c": [
+          "12.1",
+          "13.8"
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4683",
+      "obj": {
+        "i": 4683,
+        "n": "Roasted Nopales",
+        "l": 16,
+        "c": 24158,
+        "t": 46,
+        "p": 29
+      }
+    },
+    {
+      "type": "item",
+      "id": "4685",
+      "obj": {
+        "i": 4685,
+        "n": "Alligator Salad",
+        "l": 30,
+        "c": 24157,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "4687",
+      "obj": {
+        "i": 4687,
+        "n": "Stuffed Artichoke",
+        "l": 39,
+        "c": 24159,
+        "t": 46
+      }
+    }
+  ]
+}

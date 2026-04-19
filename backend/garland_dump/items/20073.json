@@ -1,0 +1,172 @@
+{
+  "item": {
+    "name": "Meditator",
+    "description": "Possessed of the unique ability to survive for extended periods out of water, the meditator will periodically “bathe” on the banks of the rivers and lakes in which it resides.<br><br>[Suitable for printing on medium canvases.]",
+    "fish": {
+      "guide": "This fish is in the unique habit of entering a catatonic, simulated death state in order to survive the dry season, appearing not unlike an ascetic deep in meditation.",
+      "icon": 79400,
+      "weatherRestricted": 1,
+      "spots": [
+        {
+          "spot": 193,
+          "weather": [
+            "Clouds",
+            "Wind",
+            "Fog",
+            "Dust Storms"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 612,
+          "baits": [
+            [
+              20675
+            ]
+          ]
+        },
+        {
+          "spot": 194,
+          "weather": [
+            "Clouds",
+            "Dust Storms",
+            "Fog",
+            "Wind"
+          ],
+          "hookset": "Powerful Hookset",
+          "tug": "Medium",
+          "ff14anglerId": 612,
+          "baits": [
+            [
+              20675
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 20073,
+    "patch": 4.0,
+    "patchCategory": 7,
+    "price": 1000,
+    "ilvl": 275,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 7,
+    "rarity": 1,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29400,
+    "fishingSpots": [
+      193,
+      194
+    ],
+    "desynthedTo": [
+      5632,
+      5633,
+      5824,
+      5816
+    ],
+    "supply": {
+      "count": 1,
+      "xp": 714000,
+      "seals": 794
+    }
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "193",
+      "obj": {
+        "i": 193,
+        "n": "The Ephor",
+        "l": 70,
+        "c": 1,
+        "z": 2407,
+        "x": 32.03,
+        "y": 17.02
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "194",
+      "obj": {
+        "i": 194,
+        "n": "The Bull's Bath",
+        "l": 68,
+        "c": 1,
+        "z": 2407,
+        "x": 20.58,
+        "y": 32.67
+      }
+    },
+    {
+      "type": "item",
+      "id": "20675",
+      "obj": {
+        "i": 20675,
+        "n": "Stonefly Larva",
+        "l": 300,
+        "c": 27013,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "5632",
+      "obj": {
+        "i": 5632,
+        "n": "Piety Materia IV",
+        "l": 70,
+        "c": 20216,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5633",
+      "obj": {
+        "i": 5633,
+        "n": "Piety Materia V",
+        "l": 160,
+        "c": 20256,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5824",
+      "obj": {
+        "i": 5824,
+        "n": "Allagan Bronze Piece",
+        "l": 15,
+        "c": 26001,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "5816",
+      "obj": {
+        "i": 5816,
+        "n": "Yellow Pigment",
+        "l": 28,
+        "c": 21458,
+        "t": 55
+      }
+    }
+  ]
+}

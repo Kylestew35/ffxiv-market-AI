@@ -1,0 +1,355 @@
+{
+  "item": {
+    "name": "Metallic Brass Dye",
+    "description": "A labor-saving yellow dye, used for coloring anything from cloth to metal.",
+    "id": 30124,
+    "patch": 5.21,
+    "patchCategory": 8,
+    "price": 2,
+    "ilvl": 1,
+    "category": 55,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 2,
+    "stackSize": 999,
+    "icon": 22815,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30124",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 500
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Fête Tokens",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30124",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33870",
+                "amount": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Shop",
+        "npcs": [
+          1046441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30124",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37549",
+                "amount": 2500
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "30124",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "41629",
+                "amount": 750
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Cosmocredit Exchange (Materials/Materia/Items)",
+        "npcs": [
+          1052588,
+          1052600,
+          1052607,
+          1052608,
+          1052640,
+          1052650
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "30124",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "45690",
+                "amount": 1500
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      33441
+    ],
+    "alla": {
+      "source": [
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33870",
+      "obj": {
+        "i": 33870,
+        "n": "Fête Token",
+        "l": 1,
+        "c": 26171,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "37549",
+      "obj": {
+        "i": 37549,
+        "n": "Seafarer's Cowrie",
+        "l": 1,
+        "c": "t/65096",
+        "t": 63
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1046441",
+      "obj": {
+        "i": 1046441,
+        "n": "MGF Trader",
+        "l": 4468,
+        "s": 1,
+        "t": "Prize Claim",
+        "r": 1,
+        "c": [
+          3.85,
+          3.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "41629",
+      "obj": {
+        "i": 41629,
+        "n": "MGF",
+        "l": 1,
+        "c": "t/65106",
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052588",
+      "obj": {
+        "i": 1052588,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5225,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052600",
+      "obj": {
+        "i": 1052600,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052607",
+      "obj": {
+        "i": 1052607,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052608",
+      "obj": {
+        "i": 1052608,
+        "n": "Mesouaidonque",
+        "l": 5219,
+        "s": 2,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5225,
+        "c": [
+          21.87,
+          21.89
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052640",
+      "obj": {
+        "i": 1052640,
+        "n": "Mesouaidonque",
+        "l": 5301,
+        "s": 3,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5316,
+        "c": [
+          28.67,
+          13.48
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1052650",
+      "obj": {
+        "i": 1052650,
+        "n": "Mesouaidonque",
+        "l": 5406,
+        "s": 3,
+        "t": "Credit Exchange",
+        "r": 1,
+        "a": 5420,
+        "c": [
+          17.45,
+          24.55
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "45690",
+      "obj": {
+        "i": 45690,
+        "n": "Cosmocredit",
+        "l": 1,
+        "c": "t/65112",
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "33441",
+      "obj": {
+        "i": 33441,
+        "n": "Fête Present",
+        "l": 1,
+        "c": 26121,
+        "t": 61
+      }
+    }
+  ]
+}

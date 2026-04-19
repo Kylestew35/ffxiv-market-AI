@@ -1,0 +1,83 @@
+{
+  "item": {
+    "name": "Traveling Supporter Identification Key",
+    "description": "A thin, rectangular piece of some unknown material. Placing it near your traveling supporter will magically bring the machine to life.",
+    "mount": {
+      "name": "Traveling Supporter",
+      "action": "Summon forth your traveling supporter. Proof that there is nothing a pair of bunny ears can't improve.",
+      "description": "This advanced bipedal machina was found wandering the Carteneau Flats by a quartermaster of the Eorzean Alliance. While it bears a striking resemblance to Allagan clockwork soldiers, it appears to have been enhanced by unknown hands (or paws).",
+      "tooltip": "The supporter? I never would have<br>suspected... It's supposed to help us<br>farm carrots, not eat them!<br>   - Watchingway",
+      "icon": 4264,
+      "guideIcon": 68264
+    },
+    "id": 40383,
+    "patch": 6.4,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26014,
+    "tradeShops": [
+      {
+        "shop": "Trophy Crystal Exchange (Other)",
+        "npcs": [
+          1038441
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "40383",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36656",
+                "amount": 5000
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "795-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1038441",
+      "obj": {
+        "i": 1038441,
+        "n": "Crystal Quartermaster",
+        "l": 358,
+        "s": 10,
+        "t": "Trophy Crystal Exchange",
+        "r": 1,
+        "a": 422,
+        "c": [
+          4.49,
+          6.11
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36656",
+      "obj": {
+        "i": 36656,
+        "n": "Trophy Crystal",
+        "l": 1,
+        "c": "t/65090",
+        "t": 100
+      }
+    }
+  ]
+}

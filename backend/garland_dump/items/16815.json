@@ -1,0 +1,78 @@
+{
+  "item": {
+    "name": "Notice of Death Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Notice of Death</span>. Use to add to your orchestrion list.",
+    "id": 16815,
+    "patch": 3.45,
+    "patchCategory": 16,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 94,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 150,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 100,
+      "name": "Notice of Death",
+      "description": "Available for Gelmorran potsherd exchange at Quarrymill upon clearing the 200th floor of the Palace of the Dead.",
+      "category": "Dungeons I",
+      "order": 29
+    },
+    "tradeShops": [
+      {
+        "shop": "Gelmorran Potsherd Exchange",
+        "npcs": [
+          1017338
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "16815",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15422",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017338",
+      "obj": {
+        "i": 1017338,
+        "n": "E-Una-Kotor",
+        "l": 56,
+        "s": 2,
+        "r": 1,
+        "a": 129,
+        "c": [
+          25.12,
+          20.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15422",
+      "obj": {
+        "i": 15422,
+        "n": "Gelmorran Potsherd",
+        "l": 230,
+        "c": 25975,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Machining Supply Materials",
+    "description": "Materials fit to create supplies fit for a befittingly named Inventingway.<br><br>※Only for use in Loporrit society quests.",
+    "id": 38844,
+    "patch": 6.35,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26001,
+    "ingredient_of": {
+      "38845": 1
+    },
+    "usedInQuest": [
+      70218
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "38845",
+      "obj": {
+        "i": 38845,
+        "n": "Machining Supplies",
+        "l": 430,
+        "c": 21012,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "70218",
+      "obj": {
+        "i": 70218,
+        "n": "The Incredible Machines",
+        "g": 72,
+        "l": "Mare Lamentorum",
+        "s": 2,
+        "f": 1
+      }
+    }
+  ]
+}

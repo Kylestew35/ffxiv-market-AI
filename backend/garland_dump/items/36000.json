@@ -1,0 +1,125 @@
+{
+  "item": {
+    "name": "Lynx of Eternal Darkness Flute",
+    "description": "Emitting a shadowy and stoic tone, this flute summons a lynx of eternal darkness to your side.",
+    "mount": {
+      "name": "Lynx Of Eternal Darkness",
+      "action": "Summon forth your lynx of eternal darkness, which could be what a certain eldest of all primals might look like as a large, winged feline.",
+      "description": "A phantom creation whose elemental aspect is tipped strongly towards the astral. Its shadowed wings call to mind the valiance of Zodiark, eldest and mightiest of primals, but the origins of this familiar are shrouded in eternal Darkness.",
+      "tooltip": "Who are you, the Warrior<br>of bleedin' Darkness!?<br>   - Gallant Guardsman",
+      "icon": 4214,
+      "guideIcon": 68214
+    },
+    "id": 36000,
+    "patch": 6.0,
+    "patchCategory": 17,
+    "price": 2,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26039,
+    "instances": [
+      20081,
+      20081
+    ],
+    "tradeShops": [
+      {
+        "shop": "Out-of-this-world Oddities",
+        "npcs": [
+          1037302
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36000",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35815",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Mounts/Miscellany",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36000",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "35815",
+                "amount": 99
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "models": [
+      "716-1-1"
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "20081",
+      "obj": {
+        "i": 20081,
+        "n": "The Minstrel's Ballad: Zodiark's Fall",
+        "c": 61804,
+        "t": "Trials",
+        "min_lvl": 90,
+        "max_lvl": 90,
+        "min_ilvl": 560
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037302",
+      "obj": {
+        "i": 1037302,
+        "n": "Nesvaaz",
+        "l": 3707,
+        "s": 10,
+        "t": "Totem and Sundry Exchange",
+        "r": 1,
+        "a": 3872,
+        "c": [
+          10.57,
+          10.12
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "35815",
+      "obj": {
+        "i": 35815,
+        "n": "Astral Totem",
+        "l": 1,
+        "c": 26619,
+        "t": 61
+      }
+    }
+  ]
+}

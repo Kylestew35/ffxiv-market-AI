@@ -1,0 +1,70 @@
+{
+  "item": {
+    "name": "Sustaining Potion",
+    "description": "Grants the effect of Rehabilitation (HP regeneration) to yourself.<br><br><span class=\"highlight-green\">Duration:</span> 30s<br>※Only available for use in the Palace of the Dead.",
+    "id": 20309,
+    "patch": 4.0,
+    "patchCategory": 4,
+    "price": 2,
+    "ilvl": 180,
+    "category": 44,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20626,
+    "tradeShops": [
+      {
+        "shop": "Gelmorran Potsherd Exchange",
+        "npcs": [
+          1017338
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "20309",
+                "amount": 20
+              }
+            ],
+            "currency": [
+              {
+                "id": "15422",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017338",
+      "obj": {
+        "i": 1017338,
+        "n": "E-Una-Kotor",
+        "l": 56,
+        "s": 2,
+        "r": 1,
+        "a": 129,
+        "c": [
+          25.12,
+          20.69
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15422",
+      "obj": {
+        "i": 15422,
+        "n": "Gelmorran Potsherd",
+        "l": 230,
+        "c": 25975,
+        "t": 61
+      }
+    }
+  ]
+}

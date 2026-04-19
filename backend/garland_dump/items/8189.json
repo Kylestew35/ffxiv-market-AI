@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Wind-up Ixal",
+    "description": "He believes he can fly. He believes he can touch the sky. Unfortunately he cannot.<br><br>Use item to acquire the wind-up Ixal minion.",
+    "minionrace": "Poppet",
+    "tooltip": "I heard a Wood Wailer\r\ntelling Mummy that an\r\nIxal teared his face off.\r\n  - Gridanian Child",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "All for Nine",
+    "specialactiondescription": "Increases action party DEF by 40.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 8189,
+    "patch": 2.35,
+    "patchCategory": 11,
+    "price": 25000,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59474,
+    "vendors": [
+      1009205
+    ],
+    "tradeShops": [
+      {
+        "shop": "Newest Irregular Tomestone Exchange",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "8189",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "49122",
+                "amount": 15
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 10,
+    "skill_angle": 0,
+    "strengths": [
+      "Gate",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 390,
+      "Skill Cost": 20,
+      "Attack": 40,
+      "Defense": 30,
+      "Speed": 2
+    },
+    "models": [
+      "8053-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "49122",
+      "obj": {
+        "i": 49122,
+        "n": "Irregular Tomestone of Aphorism",
+        "l": 1,
+        "c": "t/26347",
+        "t": 63
+      }
+    }
+  ]
+}

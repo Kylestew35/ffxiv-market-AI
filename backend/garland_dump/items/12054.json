@@ -1,0 +1,102 @@
+{
+  "item": {
+    "name": "Gaelikitten",
+    "description": "Rumors that the gods kill one of these adorable creatures every time a young man thinks pleasurable thoughts are unfounded.<br><br>Use item to acquire the gaelikitten minion.",
+    "minionrace": "Critter",
+    "tooltip": "Watch it!\r\nThis kitten has claws!\r\n   - Aldis",
+    "minionskilltype": "Damage",
+    "specialactionname": "Gaelikick",
+    "specialactiondescription": "Delivers an attack with a potency of 90 to all enemies within range while inflicting a weakness to <span class=\"highlight\">critters</span>.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 12054,
+    "patch": 3.0,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 60,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 59532,
+    "instances": [
+      37
+    ],
+    "cost": 15,
+    "skill_angle": 30,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 490,
+      "Skill Cost": 30,
+      "Attack": 30,
+      "Defense": 40,
+      "Speed": 3
+    },
+    "models": [
+      "8117-1-1"
+    ],
+    "treasure": [
+      16170,
+      33441,
+      36635
+    ],
+    "alla": {
+      "source": [
+        "LOOT",
+        "LOOT",
+        "LOOT"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "instance",
+      "id": "37",
+      "obj": {
+        "i": 37,
+        "n": "Sohm Al",
+        "c": 61801,
+        "t": "Dungeons",
+        "min_lvl": 53,
+        "max_lvl": 54,
+        "min_ilvl": 105
+      }
+    },
+    {
+      "type": "item",
+      "id": "16170",
+      "obj": {
+        "i": 16170,
+        "n": "Bronze-trimmed Sack",
+        "l": 1,
+        "c": 25990,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "33441",
+      "obj": {
+        "i": 33441,
+        "n": "Fête Present",
+        "l": 1,
+        "c": 26121,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "36635",
+      "obj": {
+        "i": 36635,
+        "n": "Materiel Container 3.0",
+        "l": 1,
+        "c": 26523,
+        "t": 61
+      }
+    }
+  ]
+}

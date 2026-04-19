@@ -1,0 +1,73 @@
+{
+  "item": {
+    "name": "Riviera Striking Dummy",
+    "description": "A striking dummy designed in the riviera fashion.<br><br>※Up to three dummies may be placed in a single estate, regardless of type.",
+    "id": 7118,
+    "patch": 2.3,
+    "patchCategory": 9,
+    "price": 34927,
+    "ilvl": 70,
+    "category": 76,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 524,
+    "rarity": 1,
+    "stackSize": 1,
+    "repair": 8,
+    "icon": 52139,
+    "tradeShops": [
+      {
+        "shop": "Allied Seals (Maelstrom)",
+        "npcs": [
+          1009552
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7118",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27",
+                "amount": 180
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009552",
+      "obj": {
+        "i": 1009552,
+        "n": "Hunt Billmaster",
+        "l": 28,
+        "s": 4,
+        "q": 2,
+        "r": 1,
+        "a": 1802,
+        "c": [
+          13.17,
+          12.46
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27",
+      "obj": {
+        "i": 27,
+        "n": "Allied Seal",
+        "l": 1,
+        "c": 65024,
+        "t": 63
+      }
+    }
+  ]
+}

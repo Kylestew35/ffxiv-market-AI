@@ -1,0 +1,208 @@
+{
+  "item": {
+    "name": "Dried Plums",
+    "description": "Dried pixie plums, sweetened in the sun.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 4730,
+    "patch": 1.0,
+    "patchCategory": 6,
+    "price": 44,
+    "ilvl": 21,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 6
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 4
+        },
+        "Direct Hit Rate": {
+          "rate": 8,
+          "limit": 3
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 8
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 5
+        },
+        "Direct Hit Rate": {
+          "rate": 10,
+          "limit": 4
+        }
+      }
+    },
+    "icon": 24058,
+    "vendors": [
+      1000595,
+      1011040
+    ],
+    "craft": [
+      {
+        "id": 954,
+        "job": 15,
+        "rlvl": 22,
+        "durability": 70,
+        "quality": 570,
+        "progress": 75,
+        "lvl": 22,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 4812,
+            "amount": 1
+          },
+          {
+            "id": 2,
+            "amount": 2
+          },
+          {
+            "id": 7,
+            "amount": 1
+          }
+        ],
+        "complexity": {
+          "nq": 34,
+          "hq": 54
+        }
+      }
+    ],
+    "usedInQuest": [
+      65795
+    ],
+    "quests": [
+      66249,
+      67268
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 30600,
+      "seals": 169
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Pixie Plums",
+      "id": 4812,
+      "icon": 25311,
+      "category": 45,
+      "ilvl": 21,
+      "price": 42,
+      "ventures": [
+        228
+      ],
+      "nodes": [
+        41
+      ],
+      "seeds": [
+        7729
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Oakwood",
+        "l": 25,
+        "t": 3,
+        "z": 34
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1000595",
+      "obj": {
+        "i": 1000595,
+        "n": "Alehouse Wench",
+        "l": 56,
+        "s": 1,
+        "a": 119,
+        "c": [
+          18.01,
+          19.79
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1011040",
+      "obj": {
+        "i": 1011040,
+        "n": "Grege",
+        "l": 1484,
+        "s": 1,
+        "q": 2,
+        "t": "Tap Keeper",
+        "a": 1492,
+        "c": [
+          5.04,
+          6.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "4812",
+      "obj": {
+        "i": 4812,
+        "n": "Pixie Plums",
+        "l": 21,
+        "c": 25311,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "65795",
+      "obj": {
+        "i": 65795,
+        "n": "Releasing a Burden",
+        "g": 171,
+        "l": "Limsa Lominsa",
+        "s": 200,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66249",
+      "obj": {
+        "i": 66249,
+        "n": "Stand-in Sentry",
+        "g": 112,
+        "l": "East Shroud",
+        "s": 200
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67268",
+      "obj": {
+        "i": 67268,
+        "n": "Contingency Supplies",
+        "g": 114,
+        "l": "Coerthas Western Highlands",
+        "s": 5001
+      }
+    }
+  ]
+}

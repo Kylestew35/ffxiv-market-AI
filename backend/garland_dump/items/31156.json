@@ -1,0 +1,48 @@
+{
+  "item": {
+    "name": "Steel Plate Component Materials",
+    "description": "Assorted materials necessary for creating a steel plate component.<br><br>※Only for use in dwarf society quests.",
+    "id": 31156,
+    "patch": 5.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 25919,
+    "ingredient_of": {
+      "31157": 1
+    },
+    "usedInQuest": [
+      69444
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "31157",
+      "obj": {
+        "i": 31157,
+        "n": "Steel Plate Component",
+        "l": 290,
+        "c": 21005,
+        "t": 61
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69444",
+      "obj": {
+        "i": 69444,
+        "n": "Foundations of Steel",
+        "g": 67,
+        "l": "Lakeland",
+        "s": 107,
+        "r": 1
+      }
+    }
+  ]
+}

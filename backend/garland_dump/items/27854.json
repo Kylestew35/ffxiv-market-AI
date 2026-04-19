@@ -1,0 +1,264 @@
+{
+  "item": {
+    "name": "Purple Carrot Juice",
+    "description": "A hearty and healthful beverage prepared from the pulp of purple carrots and pixie apples.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27854,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3359,
+    "ilvl": 390,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 27,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Skill Speed": {
+          "rate": 8,
+          "limit": 40
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 43
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Skill Speed": {
+          "rate": 10,
+          "limit": 50
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 54
+        }
+      }
+    },
+    "icon": 24416,
+    "vendors": [
+      1027240
+    ],
+    "craft": [
+      {
+        "id": 3884,
+        "job": 15,
+        "rlvl": 390,
+        "durability": 80,
+        "quality": 3763,
+        "progress": 1195,
+        "lvl": 71,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27818,
+            "amount": 3
+          },
+          {
+            "id": 27831,
+            "amount": 6
+          },
+          {
+            "id": 8,
+            "amount": 6
+          },
+          {
+            "id": 13,
+            "amount": 5
+          }
+        ],
+        "complexity": {
+          "nq": 130,
+          "hq": 150
+        }
+      }
+    ],
+    "quests": [
+      68847,
+      68881,
+      68910,
+      68914,
+      69938
+    ],
+    "requiredByLeves": [
+      1465
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 754500,
+      "seals": 811
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Purple Carrot",
+      "id": 27818,
+      "icon": 25230,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "desynthedFrom": [
+        27517
+      ],
+      "ventures": [
+        821
+      ],
+      "nodes": [
+        616
+      ]
+    },
+    {
+      "name": "Pixie Apple",
+      "id": 27831,
+      "icon": 25308,
+      "category": 45,
+      "ilvl": 390,
+      "price": 210,
+      "leves": [
+        1463,
+        1464,
+        1465
+      ],
+      "ventures": [
+        809
+      ],
+      "nodes": [
+        613
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "616",
+      "obj": {
+        "i": 616,
+        "n": "The Forest of the Lost Shepherd",
+        "l": 75,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "node",
+      "id": "613",
+      "obj": {
+        "i": 613,
+        "n": "The Church at Dammroen Field",
+        "l": 75,
+        "t": 2,
+        "z": 2956
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027240",
+      "obj": {
+        "i": 1027240,
+        "n": "Hanji-Fae",
+        "l": 2951,
+        "s": 1,
+        "t": "Culinarian",
+        "a": 3371,
+        "c": [
+          9.56,
+          14.74
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27818",
+      "obj": {
+        "i": 27818,
+        "n": "Purple Carrot",
+        "l": 390,
+        "c": 25230,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27831",
+      "obj": {
+        "i": 27831,
+        "n": "Pixie Apple",
+        "l": 390,
+        "c": 25308,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68847",
+      "obj": {
+        "i": 68847,
+        "n": "Courting Cooperation",
+        "g": 8,
+        "l": "Il Mheg",
+        "s": 330
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68881",
+      "obj": {
+        "i": 68881,
+        "n": "Pour One Out",
+        "g": 131,
+        "l": "The Crystarium",
+        "s": 30
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68910",
+      "obj": {
+        "i": 68910,
+        "n": "Wright for the Job",
+        "g": 134,
+        "l": "Kholusia",
+        "s": 1213,
+        "f": 1
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68914",
+      "obj": {
+        "i": 68914,
+        "n": "Semi Auto-malik",
+        "g": 135,
+        "l": "Amh Araeng",
+        "s": 1413
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69938",
+      "obj": {
+        "i": 69938,
+        "n": "A Taste of the Moon",
+        "g": 11,
+        "l": "Mare Lamentorum",
+        "s": 556
+      }
+    },
+    {
+      "type": "leve",
+      "id": "1465",
+      "obj": {
+        "i": 1465,
+        "n": "Cure for What Ails",
+        "l": 70,
+        "j": 16,
+        "p": 2951
+      }
+    }
+  ]
+}

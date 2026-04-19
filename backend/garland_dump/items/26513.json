@@ -1,0 +1,153 @@
+{
+  "item": {
+    "name": "Unkiu-class Bridge Frame",
+    "description": "The essential metal framework around which an unkiu-class bridge might be constructed.",
+    "id": 26513,
+    "patch": 5.05,
+    "patchCategory": 5,
+    "price": 4950,
+    "ilvl": 180,
+    "category": 56,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 24,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 21003,
+    "tradeShops": [
+      {
+        "shop": "Submersible Frames",
+        "npcs": [
+          1005633,
+          1005640,
+          1005647,
+          1019101,
+          1039487
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26513",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21797",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "24353": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21797",
+      "obj": {
+        "i": 21797,
+        "n": "Unkiu-class Bridge",
+        "l": 125,
+        "c": 27801,
+        "t": 104
+      }
+    },
+    {
+      "type": "item",
+      "id": "24353",
+      "obj": {
+        "i": 24353,
+        "n": "Modified Unkiu-class Bridge",
+        "l": 180,
+        "c": 27806,
+        "t": 104
+      }
+    }
+  ]
+}

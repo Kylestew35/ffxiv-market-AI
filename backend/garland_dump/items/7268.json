@@ -1,0 +1,126 @@
+{
+  "item": {
+    "name": "Weathered Daystar Sollerets",
+    "jobCategories": "CNJ WHM SCH AST SGE",
+    "id": 7268,
+    "patch": 2.2,
+    "patchCategory": 0,
+    "price": 22809,
+    "ilvl": 100,
+    "category": 38,
+    "unique": 1,
+    "dyecount": 0,
+    "sell_price": 295,
+    "rarity": 3,
+    "convertable": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "repair": 10,
+    "equip": 1,
+    "repair_item": 5598,
+    "glamourous": 1,
+    "delivery": 575,
+    "slot": 8,
+    "elvl": 50,
+    "jobs": 64,
+    "models": [
+      "153-1-0-0"
+    ],
+    "attr": {
+      "Defense": 54,
+      "Magic Defense": 94,
+      "Mind": 22,
+      "Vitality": 21,
+      "Spell Speed": 25,
+      "Critical Hit": 18,
+      "Direct Hit Rate": 5
+    },
+    "icon": 46931,
+    "sharedModels": [
+      7334,
+      10920
+    ],
+    "tradeCurrency": [
+      {
+        "shop": "Gerolt's Masterworks Repair (DoM)",
+        "npcs": [
+          1008945
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7334",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "7268",
+                "amount": 1
+              },
+              {
+                "id": "28",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "7334",
+      "obj": {
+        "i": 7334,
+        "n": "Daystar Sollerets",
+        "l": 110,
+        "c": 46931,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "10920",
+      "obj": {
+        "i": 10920,
+        "n": "Aurum Regis Sollerets of Healing",
+        "l": 150,
+        "c": 47025,
+        "t": 38,
+        "p": 26611
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1008945",
+      "obj": {
+        "i": 1008945,
+        "n": "Drake",
+        "l": 57,
+        "s": 19,
+        "q": 3,
+        "t": "Replica Vendor",
+        "r": 1,
+        "a": 139,
+        "c": [
+          30.42,
+          20.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    }
+  ]
+}

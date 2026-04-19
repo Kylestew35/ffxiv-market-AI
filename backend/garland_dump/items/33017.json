@@ -1,0 +1,108 @@
+{
+  "item": {
+    "name": "Trinity Avowed Card",
+    "description": "A rare (★★★) card used in the game Triple Triad.<br>Card No. 299",
+    "id": 33017,
+    "patch": 5.41,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27664,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33017",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "An amalgamation of three members of Gunnhildr's Blades─Xeven the Vengeful, Isolde the Eagle-eye, and Stanik the Unwavering. Originally enthralled at the behest of Misija, the trio's physical forms were eventually meshed into a singular, abhorrent entity within which now resides the sum of their arcane and martial expertise."
+      },
+      "ja": {
+        "description": "闘神セイブ・ザ・クイーンのテンパードと化した「グンヒルドの剣」たちの成れの果て。三位一体の存在であり、魔術を極めた飛将のゼヴェン、弓術に優れた花嵐のイソルデ、勇猛果敢な羅刹のスタニックの特性を併せ持つ。"
+      },
+      "de": {
+        "description": "Eine monströse Chimäre, geformt aus drei einst stolzen Kriegern der Königinnenwache: General Xeven, Isolde Blütensturm und Stanik der Schlächter, die allesamt nur noch als Schatten ihrer selbst zu erkennen sind."
+      },
+      "fr": {
+        "description": "Cette entité inhumaine est née de la fusion entre trois nouvelles lames de Gunnhildr subjuguées par la divinité guerrière Garde-la-Reine<Indent/>: Xeven le feu du ciel, un puissant mage<Indent/>; Isolde l'ouragan de fleurs, une archère inégalée<Indent/>; et Stanik le chevalier implacable, dont la férocité était inouïe."
+      },
+      "sellMgp": 500,
+      "plate": 87308,
+      "rarity": 3,
+      "top": 8,
+      "bottom": 6,
+      "left": 1,
+      "right": 7
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    }
+  ]
+}

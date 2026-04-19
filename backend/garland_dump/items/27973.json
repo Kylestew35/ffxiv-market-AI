@@ -1,0 +1,119 @@
+{
+  "item": {
+    "name": "Formidable Cog",
+    "description": "A small component extracted from the interior of the imposing automaton Formidable.",
+    "id": 27973,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 49,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 26269,
+    "tradeCurrency": [
+      {
+        "shop": "Glorious Gewgaws",
+        "npcs": [
+          1027565
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26781",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27973",
+                "amount": 12
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26805",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "27973",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fates": [
+      1464
+    ],
+    "alla": {
+      "source": [
+        "FATE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027565",
+      "obj": {
+        "i": 1027565,
+        "n": "Fathard",
+        "l": 2952,
+        "s": 5,
+        "t": "Token Exchange",
+        "r": 1,
+        "a": 3275,
+        "c": [
+          10.18,
+          11.75
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26781",
+      "obj": {
+        "i": 26781,
+        "n": "Ironfrog Mover Ignition Key",
+        "l": 1,
+        "c": 26014,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "26805",
+      "obj": {
+        "i": 26805,
+        "n": "Ironfrog Ambler",
+        "l": 1,
+        "c": 59751,
+        "t": 81
+      }
+    },
+    {
+      "type": "fate",
+      "id": "1464",
+      "obj": {
+        "i": 1464,
+        "n": "A Finale Most Formidable",
+        "l": 80,
+        "t": "Notorious Monster",
+        "z": 2954,
+        "c": [
+          34,
+          21
+        ]
+      }
+    }
+  ]
+}

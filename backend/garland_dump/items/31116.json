@@ -1,0 +1,324 @@
+{
+  "item": {
+    "name": "Oddly Specific Paste",
+    "description": "Great pains must be taken while mixing to ensure the paste does not end up as a semi-liquid, or even worse, a liquid.",
+    "id": 31116,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 480,
+    "category": 54,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 1,
+    "icon": 22673,
+    "craft": [
+      {
+        "id": 34374,
+        "job": 15,
+        "rlvl": 480,
+        "durability": 70,
+        "quality": 8500,
+        "progress": 1960,
+        "lvl": 80,
+        "materialQualityFactor": 50,
+        "stars": 3,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31124,
+            "amount": 1
+          },
+          {
+            "id": 27843,
+            "amount": 1,
+            "quality": 1936.5881
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 291,
+          "hq": 311
+        }
+      }
+    ],
+    "masterpiece": {
+      "rating": [
+        400,
+        600,
+        800
+      ],
+      "amount": 1,
+      "stars": 3,
+      "lvl": [
+        80,
+        80
+      ],
+      "xp": [
+        2157120,
+        2372832,
+        2588544
+      ],
+      "reward": 33914,
+      "rewardAmount": [
+        250,
+        313,
+        500
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Oddly Specific Aloe",
+      "id": 31124,
+      "icon": 25213,
+      "category": 45,
+      "ilvl": 485,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+          "npcs": [
+            1031680,
+            1031691
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31124",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28063",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31124",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Skysteel Prototype Augmentation)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31124",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Night Vinegar",
+      "id": 27843,
+      "icon": 25107,
+      "category": 45,
+      "ilvl": 406,
+      "price": 2957,
+      "craft": [
+        {
+          "id": 3882,
+          "job": 15,
+          "rlvl": 406,
+          "durability": 40,
+          "quality": 3280,
+          "progress": 715,
+          "lvl": 75,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 27826,
+              "amount": 5
+            },
+            {
+              "id": 8,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 82,
+            "hq": 102
+          }
+        }
+      ]
+    },
+    {
+      "name": "Royal Grapes",
+      "id": 27826,
+      "icon": 24058,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "leves": [
+        1469,
+        1470,
+        1471
+      ],
+      "ventures": [
+        830
+      ],
+      "nodes": [
+        619
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "27826",
+      "obj": {
+        "i": 27826,
+        "n": "Royal Grapes",
+        "l": 406,
+        "c": 24058,
+        "t": 45
+      }
+    },
+    {
+      "type": "node",
+      "id": "619",
+      "obj": {
+        "i": 619,
+        "n": "The Deliberating Doll",
+        "l": 75,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "31124",
+      "obj": {
+        "i": 31124,
+        "n": "Oddly Specific Aloe",
+        "l": 485,
+        "c": 25213,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "27843",
+      "obj": {
+        "i": 27843,
+        "n": "Night Vinegar",
+        "l": 406,
+        "c": 25107,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

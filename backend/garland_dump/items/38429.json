@@ -1,0 +1,92 @@
+{
+  "item": {
+    "name": "N-7000 Card",
+    "description": "A common (★) card used in the game Triple Triad.<br>Card No. 349",
+    "id": 38429,
+    "patch": 6.25,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27662,
+    "tradeShops": [
+      {
+        "shop": "Omicron Omnitoken Exchange",
+        "npcs": [
+          1043418
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "38429",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "37854",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "“This unit finds the furry life-form's suggestion...<whirr>...difficult to process.”"
+      },
+      "ja": {
+        "description": "「ガガガ……毛むくじゃら有機生命体の提案は、\r\n実に意味不明です」\r\nオミクロン：N-7000"
+      },
+      "de": {
+        "description": "„<klick> ... <ratter> ... Vorschlag der haarigen organischen Lebensform ist<Indent/>... schwierig zu verarbeiten.„"
+      },
+      "fr": {
+        "description": "“Bip bip... Pshhh... Impossible de traiter la requête de la petite boule de poils pensante... Erreur... Erreur...”"
+      },
+      "sellMgp": 100,
+      "plate": 87357,
+      "rarity": 1,
+      "top": 1,
+      "bottom": 1,
+      "left": 6,
+      "right": 5
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1043418",
+      "obj": {
+        "i": 1043418,
+        "n": "N-0598",
+        "l": 3712,
+        "s": 4,
+        "t": "Vending Unit",
+        "r": 1,
+        "a": 4041,
+        "c": [
+          27.76,
+          24.77
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "37854",
+      "obj": {
+        "i": 37854,
+        "n": "Omicron Omnitoken",
+        "l": 1,
+        "c": "t/65095",
+        "t": 100
+      }
+    }
+  ]
+}

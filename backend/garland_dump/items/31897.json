@@ -1,0 +1,357 @@
+{
+  "item": {
+    "name": "Grade 4 Tincture of Mind",
+    "description": "This diluted brew temporarily increases mind for twice the duration of similar potions.<br><br><span class=\"highlight-green\">Duration:</span> 30s",
+    "id": 31897,
+    "patch": 5.4,
+    "patchCategory": 4,
+    "price": 3167,
+    "ilvl": 510,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 95,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Mind": {
+          "rate": 8,
+          "limit": 115
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Mind": {
+          "rate": 10,
+          "limit": 144
+        }
+      }
+    },
+    "icon": 20708,
+    "craft": [
+      {
+        "id": 34565,
+        "job": 14,
+        "rlvl": 510,
+        "durability": 70,
+        "quality": 9500,
+        "progress": 3600,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 2540,
+        "craftsmanshipReq": 2620,
+        "quickSynthCraftsmanship": 2900,
+        "unlockId": 29490,
+        "ingredients": [
+          {
+            "id": 32949,
+            "amount": 2
+          },
+          {
+            "id": 27784,
+            "amount": 1
+          },
+          {
+            "id": 30590,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 3
+          },
+          {
+            "id": 18,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 436,
+          "hq": 456
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Spirit Extract",
+      "id": 32949,
+      "icon": 20675,
+      "category": 54,
+      "ilvl": 510,
+      "price": 3154,
+      "desynthedFrom": [
+        33322,
+        33316,
+        33321,
+        33323,
+        33324,
+        32051,
+        33326,
+        32049,
+        33325,
+        33320,
+        32053,
+        33317,
+        33319,
+        32050,
+        33318,
+        32052,
+        32054,
+        33324,
+        32617,
+        32637
+      ],
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1027564
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "32949",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "32949",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tiger Lily",
+      "id": 27784,
+      "icon": 25022,
+      "category": 54,
+      "ilvl": 418,
+      "price": 210,
+      "ventures": [
+        837
+      ],
+      "nodes": [
+        648
+      ]
+    },
+    {
+      "name": "Levinstrike Aethersand",
+      "id": 30590,
+      "icon": 21238,
+      "category": 54,
+      "ilvl": 490,
+      "price": 1000,
+      "reducedFrom": [
+        30592,
+        30591,
+        30593
+      ],
+      "desynthedFrom": [
+        32049
+      ],
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "30590",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Bait/Tokens)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "30590",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33914",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027564",
+      "obj": {
+        "i": 1027564,
+        "n": "Aymark",
+        "l": 2952,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 3264,
+        "c": [
+          10.26,
+          11.9
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "node",
+      "id": "648",
+      "obj": {
+        "i": 648,
+        "n": "Weed",
+        "l": 80,
+        "t": 3,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "30592",
+      "obj": {
+        "i": 30592,
+        "n": "Levin Mint",
+        "l": 460,
+        "c": 25039,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "30591",
+      "obj": {
+        "i": 30591,
+        "n": "Thunder Rock",
+        "l": 460,
+        "c": 21482,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "30593",
+      "obj": {
+        "i": 30593,
+        "n": "Fuchsia Bloom",
+        "l": 460,
+        "c": 28479,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "29490",
+      "obj": {
+        "i": 29490,
+        "n": "Master Alchemist VIII",
+        "l": 1,
+        "c": 26159,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27784",
+      "obj": {
+        "i": 27784,
+        "n": "Tiger Lily",
+        "l": 418,
+        "c": 25022,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "30590",
+      "obj": {
+        "i": 30590,
+        "n": "Levinstrike Aethersand",
+        "l": 490,
+        "c": 21238,
+        "t": 54
+      }
+    }
+  ]
+}

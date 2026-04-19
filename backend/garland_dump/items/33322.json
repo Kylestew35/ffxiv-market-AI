@@ -1,0 +1,117 @@
+{
+  "item": {
+    "name": "Celestial",
+    "description": "A king among toadheads, and humbled lord of the waters of Father Collard's Failings.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Once upon a time, these bulbous-eyed wavekin swam in the palace ponds, the jealously guarded treasures of the royal house of Voeburt. Relegated now to some obscure waterway, one must assume they have long since fallen from majestic favor.",
+      "icon": 78498,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 222,
+          "transition": [
+            "Thunderstorms"
+          ],
+          "weather": [
+            "Clear Skies"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 2150,
+          "baits": [
+            [
+              27589
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 33322,
+    "patch": 5.5,
+    "patchCategory": 7,
+    "price": 2000,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28498,
+    "fishingSpots": [
+      222
+    ],
+    "desynthedTo": [
+      32949,
+      26727
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "222",
+      "obj": {
+        "i": 222,
+        "n": "Father Collard's Failings",
+        "l": 75,
+        "c": 1,
+        "z": 2956,
+        "x": 31.93,
+        "y": 22.32
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27589",
+      "obj": {
+        "i": 27589,
+        "n": "Baitbugs",
+        "l": 430,
+        "c": 27040,
+        "t": 33
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26727",
+      "obj": {
+        "i": 26727,
+        "n": "Piety Materia VIII",
+        "l": 420,
+        "c": 20278,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    }
+  ]
+}

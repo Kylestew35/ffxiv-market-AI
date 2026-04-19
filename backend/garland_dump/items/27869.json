@@ -1,0 +1,433 @@
+{
+  "item": {
+    "name": "Baked Megapiranha",
+    "description": "The fearsome megapiranha makes for a succulent main course, served with a delightfully simple butter sauce. Better to eat a piranha than be eaten by one.<br><br><span class=\"highlight-green\">EXP Bonus:</span> +3% <span class=\"highlight-green\">Duration:</span> 30m<br>(Duration can be extended to 60m by consuming multiple servings)",
+    "id": 27869,
+    "patch": 5.0,
+    "patchCategory": 6,
+    "price": 3595,
+    "ilvl": 409,
+    "category": 46,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 29,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Critical Hit": {
+          "rate": 8,
+          "limit": 42
+        },
+        "Vitality": {
+          "rate": 8,
+          "limit": 46
+        },
+        "Spell Speed": {
+          "rate": 8,
+          "limit": 26
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Critical Hit": {
+          "rate": 10,
+          "limit": 53
+        },
+        "Vitality": {
+          "rate": 10,
+          "limit": 58
+        },
+        "Spell Speed": {
+          "rate": 10,
+          "limit": 32
+        }
+      }
+    },
+    "icon": 24311,
+    "vendors": [
+      1031305
+    ],
+    "craft": [
+      {
+        "id": 3899,
+        "job": 15,
+        "rlvl": 409,
+        "durability": 80,
+        "quality": 4200,
+        "progress": 1500,
+        "lvl": 76,
+        "materialQualityFactor": 75,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 27576,
+            "amount": 3
+          },
+          {
+            "id": 19907,
+            "amount": 1
+          },
+          {
+            "id": 27829,
+            "amount": 2
+          },
+          {
+            "id": 12895,
+            "amount": 1,
+            "quality": 165.45454
+          },
+          {
+            "id": 8,
+            "amount": 7
+          },
+          {
+            "id": 13,
+            "amount": 6
+          }
+        ],
+        "complexity": {
+          "nq": 237,
+          "hq": 257
+        }
+      }
+    ],
+    "quests": [
+      68872,
+      69041,
+      69065,
+      69166
+    ],
+    "supply": {
+      "count": 3,
+      "xp": 1016500,
+      "seals": 840
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Megapiranha",
+      "id": 27576,
+      "icon": 29212,
+      "category": 47,
+      "ilvl": 415,
+      "price": 270,
+      "ventures": [
+        848
+      ],
+      "nodes": [
+        644,
+        647
+      ]
+    },
+    {
+      "name": "Ala Mhigan Salt Crystal",
+      "id": 19907,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 288,
+      "price": 551,
+      "desynthedFrom": [
+        20025,
+        20039,
+        20035,
+        20040,
+        20041,
+        23062,
+        24992,
+        20239
+      ],
+      "leves": [
+        1325,
+        1327
+      ],
+      "ventures": [
+        666
+      ],
+      "nodes": [
+        502
+      ]
+    },
+    {
+      "name": "Creamtop Mushroom",
+      "id": 27829,
+      "icon": 25402,
+      "category": 45,
+      "ilvl": 406,
+      "price": 210,
+      "desynthedFrom": [
+        35564
+      ],
+      "ventures": [
+        829
+      ],
+      "nodes": [
+        619
+      ]
+    },
+    {
+      "name": "Fermented Butter",
+      "id": 12895,
+      "icon": 25052,
+      "category": 45,
+      "ilvl": 130,
+      "price": 205,
+      "craft": [
+        {
+          "id": 2821,
+          "job": 15,
+          "rlvl": 130,
+          "durability": 40,
+          "quality": 1768,
+          "progress": 150,
+          "lvl": 53,
+          "materialQualityFactor": 0,
+          "yield": 3,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 12888,
+              "amount": 5
+            },
+            {
+              "id": 2,
+              "amount": 7
+            }
+          ],
+          "complexity": {
+            "nq": 77,
+            "hq": 97
+          }
+        }
+      ]
+    },
+    {
+      "name": "Yak Milk",
+      "id": 12888,
+      "icon": 24453,
+      "category": 45,
+      "ilvl": 120,
+      "price": 617,
+      "leves": [
+        1028,
+        1029,
+        1030,
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039
+      ],
+      "ventures": [
+        417
+      ],
+      "drops": [
+        39880000003479
+      ],
+      "vendors": [
+        1027992
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "644",
+      "obj": {
+        "i": 644,
+        "n": "The Covered Halls of Dwatl",
+        "l": 80,
+        "t": 5,
+        "z": 2957
+      }
+    },
+    {
+      "type": "node",
+      "id": "647",
+      "obj": {
+        "i": 647,
+        "n": "Deep Lake Tusi Mek'ta",
+        "l": 80,
+        "t": 5,
+        "z": 2957,
+        "lt": "Concealed"
+      }
+    },
+    {
+      "type": "node",
+      "id": "502",
+      "obj": {
+        "i": 502,
+        "n": "Loch Seld",
+        "l": 70,
+        "t": 1,
+        "z": 2408,
+        "lt": "Unspoiled",
+        "ti": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "619",
+      "obj": {
+        "i": 619,
+        "n": "The Deliberating Doll",
+        "l": 75,
+        "t": 3,
+        "z": 2957
+      }
+    },
+    {
+      "type": "item",
+      "id": "12888",
+      "obj": {
+        "i": 12888,
+        "n": "Yak Milk",
+        "l": 120,
+        "c": 24453,
+        "t": 45,
+        "p": 617
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027992",
+      "obj": {
+        "i": 1027992,
+        "n": "Vral",
+        "l": 2951,
+        "s": 1,
+        "t": "Material Supplier",
+        "a": 3254,
+        "c": [
+          9.02,
+          12.37
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "39880000003479",
+      "obj": {
+        "i": 39880000003479,
+        "n": "Wooly Yak",
+        "l": "51",
+        "z": 2200
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031305",
+      "obj": {
+        "i": 1031305,
+        "n": "Viis Culinarian",
+        "l": 2957,
+        "s": 1,
+        "a": 3179,
+        "c": [
+          28.24,
+          18.54
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "27576",
+      "obj": {
+        "i": 27576,
+        "n": "Megapiranha",
+        "l": 415,
+        "c": 29212,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "19907",
+      "obj": {
+        "i": 19907,
+        "n": "Ala Mhigan Salt Crystal",
+        "l": 288,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27829",
+      "obj": {
+        "i": 27829,
+        "n": "Creamtop Mushroom",
+        "l": 406,
+        "c": 25402,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "12895",
+      "obj": {
+        "i": 12895,
+        "n": "Fermented Butter",
+        "l": 130,
+        "c": 25052,
+        "t": 45
+      }
+    },
+    {
+      "type": "quest",
+      "id": "68872",
+      "obj": {
+        "i": 68872,
+        "n": "Mi Casa, Toupasa",
+        "g": 8,
+        "l": "The Rak'tika Greatwood",
+        "s": 580
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69041",
+      "obj": {
+        "i": 69041,
+        "n": "Worm in the Ointment",
+        "g": 135,
+        "l": "Amh Araeng",
+        "s": 6190
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69065",
+      "obj": {
+        "i": 69065,
+        "n": "An Axle to Grind",
+        "g": 135,
+        "l": "Amh Araeng",
+        "s": 7070
+      }
+    },
+    {
+      "type": "quest",
+      "id": "69166",
+      "obj": {
+        "i": 69166,
+        "n": "Return to Eulmore",
+        "g": 8,
+        "l": "The Crystarium",
+        "s": 820
+      }
+    }
+  ]
+}

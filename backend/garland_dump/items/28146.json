@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Allagan Tomestone of Frivolity",
+    "description": "While this particular tomestone does not appear to have any function whatsoever, it does add a dash of Allagan style to your interior. Be careful where you place it, however, as it will be even more useless if you accidentally step on it.",
+    "id": 28146,
+    "patch": 5.1,
+    "patchCategory": 9,
+    "price": 6000,
+    "ilvl": 1,
+    "category": 78,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 30,
+    "rarity": 1,
+    "stackSize": 1,
+    "icon": 53321,
+    "tradeShops": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027998
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "28146",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26807",
+                "amount": 100
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "859"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    }
+  ]
+}

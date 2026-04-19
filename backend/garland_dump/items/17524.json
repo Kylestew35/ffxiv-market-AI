@@ -1,0 +1,110 @@
+{
+  "item": {
+    "name": "Pegasus Colt",
+    "description": "Unfortunately does not emit rainbows from any of its orifices.<br><br>Use item to acquire the pegasus colt minion.",
+    "minionrace": "Critter",
+    "tooltip": "I still don't understand\r\nwhy a horn is so important\r\nto you.\r\n   - Ohl Deeh",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Tail 'n Mane",
+    "specialactiondescription": "Increases speed of all allies within range by 35%.<br><span class=\"highlight-green\">Duration:</span> 6s",
+    "id": 17524,
+    "patch": 3.55,
+    "patchCategory": 11,
+    "price": 2400,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59613,
+    "tradeShops": [
+      {
+        "shop": "Skybuilders' Scrips",
+        "npcs": [
+          1031680,
+          1031691
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "17524",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "28063",
+                "amount": 800
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 25,
+    "skill_angle": 360,
+    "strengths": [
+      "Shield"
+    ],
+    "attr": {
+      "HP": 500,
+      "Skill Cost": 30,
+      "Attack": 70,
+      "Defense": 45,
+      "Speed": 3
+    },
+    "models": [
+      "8199-1-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    }
+  ]
+}

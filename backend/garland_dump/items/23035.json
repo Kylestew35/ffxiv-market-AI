@@ -1,0 +1,93 @@
+{
+  "item": {
+    "name": "Attendee #777",
+    "description": "Wasshoi, yes, yes.<br><br>Use item to acquire the attendee #777 minion.",
+    "minionrace": "Poppet",
+    "tooltip": "I am happy to have met some-\r\none so delici─deft of hand.\r\n   - Cirina",
+    "minionskilltype": "Enhancement",
+    "specialactionname": "Dawn of Civilization",
+    "specialactiondescription": "Increases DEF of all allies within range by 20.<br><span class=\"highlight-green\">Duration:</span> 10s",
+    "id": 23035,
+    "patch": 4.3,
+    "patchCategory": 11,
+    "price": 2,
+    "ilvl": 1,
+    "category": 81,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 59694,
+    "tradeShops": [
+      {
+        "shop": "Namazu Koban Exchange",
+        "npcs": [
+          1025604
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "23035",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22525",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 20,
+    "skill_angle": 360,
+    "strengths": [
+      "Eye",
+      "Shield"
+    ],
+    "attr": {
+      "HP": 430,
+      "Skill Cost": 20,
+      "Attack": 50,
+      "Defense": 65,
+      "Speed": 1
+    },
+    "models": [
+      "8226-2-1"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025604",
+      "obj": {
+        "i": 1025604,
+        "n": "Gyosho",
+        "l": 2411,
+        "s": 8,
+        "t": "Festival Vendor",
+        "r": 1,
+        "a": 2850,
+        "c": [
+          5.84,
+          23.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22525",
+      "obj": {
+        "i": 22525,
+        "n": "Namazu Koban",
+        "l": 1,
+        "c": 65064,
+        "t": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "item": {
+    "name": "ADS Plating",
+    "description": "A piece of darksteel plating retrieved from an Allagan automated defense system node.",
+    "id": 6218,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 2910,
+    "ilvl": 70,
+    "category": 48,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20954,
+    "drops": [
+      20070000001466
+    ],
+    "ingredient_of": {
+      "6474": 1,
+      "6605": 1
+    },
+    "instances": [
+      30002
+    ],
+    "alla": {
+      "source": [
+        "INSTANCE"
+      ]
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "6474",
+      "obj": {
+        "i": 6474,
+        "n": "Illumination Module",
+        "l": 70,
+        "c": 51101,
+        "t": 75
+      }
+    },
+    {
+      "type": "item",
+      "id": "6605",
+      "obj": {
+        "i": 6605,
+        "n": "Diagnostics Module",
+        "l": 70,
+        "c": 51618,
+        "t": 77
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20070000001466",
+      "obj": {
+        "i": 20070000001466,
+        "n": "Caduceus",
+        "l": "50",
+        "z": 464
+      }
+    },
+    {
+      "type": "instance",
+      "id": "30002",
+      "obj": {
+        "i": 30002,
+        "n": "The Binding Coil of Bahamut - Turn 1",
+        "c": 61802,
+        "t": "Raids",
+        "min_lvl": 50,
+        "max_lvl": 50,
+        "min_ilvl": 70
+      }
+    }
+  ]
+}

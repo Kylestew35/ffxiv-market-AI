@@ -1,0 +1,643 @@
+{
+  "item": {
+    "name": "X-Potion of Vitality",
+    "description": "This powerful concoction temporarily increases vitality.<br><br><span class=\"highlight-green\">Duration:</span> 15s",
+    "id": 4611,
+    "patch": 1.0,
+    "patchCategory": 4,
+    "price": 1330,
+    "ilvl": 70,
+    "category": 44,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 20,
+    "rarity": 1,
+    "stackSize": 999,
+    "attr": {
+      "action": {
+        "Vitality": {
+          "rate": 16,
+          "limit": 70
+        }
+      }
+    },
+    "attr_hq": {
+      "action": {
+        "Vitality": {
+          "rate": 20,
+          "limit": 87
+        }
+      }
+    },
+    "icon": 20666,
+    "vendors": [
+      1018985,
+      1019334,
+      1027239,
+      1027589,
+      1037309,
+      1037054,
+      1041054,
+      1048382,
+      1049077
+    ],
+    "craft": [
+      {
+        "id": 1917,
+        "job": 14,
+        "rlvl": 70,
+        "durability": 80,
+        "quality": 2500,
+        "progress": 250,
+        "lvl": 50,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 318,
+        "quickSynthControl": 374,
+        "ingredients": [
+          {
+            "id": 6152,
+            "amount": 1
+          },
+          {
+            "id": 5526,
+            "amount": 1
+          },
+          {
+            "id": 5537,
+            "amount": 1
+          },
+          {
+            "id": 7,
+            "amount": 8
+          },
+          {
+            "id": 6,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 141,
+          "hq": 161
+        }
+      }
+    ],
+    "quests": [
+      67348
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Volcanic Rock Salt",
+      "id": 6152,
+      "icon": 22617,
+      "category": 54,
+      "ilvl": 70,
+      "price": 443,
+      "tradeShops": [
+        {
+          "shop": "Curious Crop Exchange",
+          "npcs": [
+            1005633,
+            1005640,
+            1005647,
+            1018091,
+            1018094,
+            1018097,
+            1019101,
+            1019111,
+            1039487,
+            1039493
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "6152",
+                  "amount": 5
+                }
+              ],
+              "currency": [
+                {
+                  "id": "15858",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        511
+      ],
+      "nodes": [
+        224
+      ]
+    },
+    {
+      "name": "Grenade Ash",
+      "id": 5526,
+      "icon": 21001,
+      "category": 54,
+      "ilvl": 40,
+      "price": 216,
+      "ventures": [
+        56,
+        146
+      ],
+      "drops": [
+        16180000001799,
+        20920000000270,
+        21380000001511,
+        3270000000270
+      ],
+      "nodes": [
+        20
+      ],
+      "vendors": [
+        1001015
+      ]
+    },
+    {
+      "name": "Thavnairian Mistletoe",
+      "id": 5537,
+      "icon": 25001,
+      "category": 54,
+      "ilvl": 55,
+      "price": 348,
+      "leves": [
+        375,
+        376,
+        377,
+        378,
+        379,
+        380
+      ],
+      "ventures": [
+        517
+      ],
+      "nodes": [
+        213
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "224",
+      "obj": {
+        "i": 224,
+        "n": "Raincatcher Gully",
+        "l": 50,
+        "t": 1,
+        "z": 32,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018091",
+      "obj": {
+        "i": 1018091,
+        "n": "Apartment Merchant",
+        "l": 1813,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018094",
+      "obj": {
+        "i": 1018094,
+        "n": "Apartment Merchant",
+        "l": 1811,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018097",
+      "obj": {
+        "i": 1018097,
+        "n": "Apartment Merchant",
+        "l": 1815,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.15,
+          6.03
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019111",
+      "obj": {
+        "i": 1019111,
+        "n": "Apartment Merchant",
+        "l": 2272,
+        "s": 11,
+        "r": 1,
+        "c": [
+          "6.1",
+          "6.0"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039493",
+      "obj": {
+        "i": 1039493,
+        "n": "Apartment Merchant",
+        "l": 3694,
+        "s": 11,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          6.17,
+          5.94
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15858",
+      "obj": {
+        "i": 15858,
+        "n": "Voidrake",
+        "l": 155,
+        "c": 25004,
+        "t": 54
+      }
+    },
+    {
+      "type": "node",
+      "id": "20",
+      "obj": {
+        "i": 20,
+        "n": "Bluefog",
+        "l": 40,
+        "t": 1,
+        "z": 46
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1001015",
+      "obj": {
+        "i": 1001015,
+        "n": "Z'ranmaia",
+        "l": 28,
+        "s": 1,
+        "t": "Herbalist",
+        "a": 718,
+        "c": [
+          11.35,
+          8.16
+        ]
+      }
+    },
+    {
+      "type": "mob",
+      "id": "3270000000270",
+      "obj": {
+        "i": 3270000000270,
+        "n": "Grenade",
+        "l": "41 - 44",
+        "z": 350
+      }
+    },
+    {
+      "type": "mob",
+      "id": "20920000000270",
+      "obj": {
+        "i": 20920000000270,
+        "n": "Grenade",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "21380000001511",
+      "obj": {
+        "i": 21380000001511,
+        "n": "Bomb Baron",
+        "l": "49",
+        "z": 46
+      }
+    },
+    {
+      "type": "mob",
+      "id": "16180000001799",
+      "obj": {
+        "i": 16180000001799,
+        "n": "Shrapnel",
+        "l": "38",
+        "z": 47
+      }
+    },
+    {
+      "type": "node",
+      "id": "213",
+      "obj": {
+        "i": 213,
+        "n": "Whitebrim",
+        "l": 50,
+        "t": 2,
+        "z": 63,
+        "s": 1,
+        "lt": "Unspoiled",
+        "ti": [
+          17
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1018985",
+      "obj": {
+        "i": 1018985,
+        "n": "Hyakuyaku",
+        "l": 2404,
+        "s": 1,
+        "t": "Apothecary",
+        "c": [
+          "12.1",
+          "12.7"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019334",
+      "obj": {
+        "i": 1019334,
+        "n": "Traveling Apothecary",
+        "l": 2411,
+        "s": 1,
+        "c": [
+          "32.3",
+          "27.8"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027239",
+      "obj": {
+        "i": 1027239,
+        "n": "Philline",
+        "l": 2951,
+        "s": 1,
+        "t": "Apothecary",
+        "a": 3371,
+        "c": [
+          9.82,
+          14.91
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027589",
+      "obj": {
+        "i": 1027589,
+        "n": "Darldia",
+        "l": 2952,
+        "s": 1,
+        "t": "Apothecary",
+        "a": 3264,
+        "c": [
+          10.33,
+          12.54
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037309",
+      "obj": {
+        "i": 1037309,
+        "n": "Fahruvvet",
+        "l": 3707,
+        "s": 1,
+        "t": "Merchant",
+        "a": 3873,
+        "c": [
+          12.07,
+          9.76
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1037054",
+      "obj": {
+        "i": 1037054,
+        "n": "Synnove",
+        "l": 3706,
+        "s": 1,
+        "t": "Apothecary",
+        "a": 3815,
+        "c": [
+          12.83,
+          10.32
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1041054",
+      "obj": {
+        "i": 1041054,
+        "n": "Unskynwyb",
+        "l": 3706,
+        "s": 1,
+        "t": "Merchant & Mender",
+        "a": 3801,
+        "c": [
+          4.91,
+          9.34
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1048382",
+      "obj": {
+        "i": 1048382,
+        "n": "Goplu",
+        "l": 4504,
+        "s": 1,
+        "t": "Independent Merchant",
+        "a": 4537,
+        "c": [
+          13.2,
+          12.8
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1049077",
+      "obj": {
+        "i": 1049077,
+        "n": "Ketek",
+        "l": 4503,
+        "s": 7,
+        "t": "Merchant & Mender",
+        "a": 4647,
+        "c": [
+          8.64,
+          14.03
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "6152",
+      "obj": {
+        "i": 6152,
+        "n": "Volcanic Rock Salt",
+        "l": 70,
+        "c": 22617,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "5526",
+      "obj": {
+        "i": 5526,
+        "n": "Grenade Ash",
+        "l": 40,
+        "c": 21001,
+        "t": 54,
+        "p": 216
+      }
+    },
+    {
+      "type": "item",
+      "id": "5537",
+      "obj": {
+        "i": 5537,
+        "n": "Thavnairian Mistletoe",
+        "l": 55,
+        "c": 25001,
+        "t": 54
+      }
+    },
+    {
+      "type": "quest",
+      "id": "67348",
+      "obj": {
+        "i": 67348,
+        "n": "Back in the Game",
+        "g": 118,
+        "l": "The Dravanian Forelands",
+        "s": 5316
+      }
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "item": {
+    "name": "Grade 4 Reisui of Dexterity",
+    "description": "When applied to items such as battle gear, this Far Eastern potation will, similarly to Eorzean dissolvents, dissolve away minute amounts of aether aspected to elements detrimental to dexterity, and by doing so, better attune the item and its wearer to the remaining beneficial elements.",
+    "id": 24257,
+    "patch": 4.4,
+    "patchCategory": 5,
+    "price": 2985,
+    "ilvl": 380,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 28,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 20641,
+    "ingredient_of": {
+      "23772": 3,
+      "23773": 3,
+      "23775": 3,
+      "23802": 1,
+      "23803": 2,
+      "23804": 1,
+      "23805": 2,
+      "23806": 1,
+      "23808": 1,
+      "23809": 2,
+      "23810": 1,
+      "23811": 2,
+      "23812": 1,
+      "23828": 1,
+      "23833": 1,
+      "23838": 1,
+      "23843": 1
+    },
+    "craft": [
+      {
+        "id": 33158,
+        "job": 14,
+        "rlvl": 380,
+        "durability": 35,
+        "quality": 4575,
+        "progress": 1275,
+        "lvl": 70,
+        "materialQualityFactor": 50,
+        "stars": 4,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1600,
+        "craftsmanshipReq": 1650,
+        "quickSynthCraftsmanship": 2000,
+        "unlockId": 22315,
+        "ingredients": [
+          {
+            "id": 21082,
+            "amount": 1
+          },
+          {
+            "id": 24255,
+            "amount": 1
+          },
+          {
+            "id": 19912,
+            "amount": 2
+          },
+          {
+            "id": 23182,
+            "amount": 1
+          },
+          {
+            "id": 19,
+            "amount": 2
+          },
+          {
+            "id": 18,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 416,
+          "hq": 436
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Gyr Abanian Alchemic",
+      "id": 21082,
+      "icon": 22666,
+      "category": 54,
+      "ilvl": 320,
+      "price": 1000,
+      "tradeShops": [
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21082",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 70 Materials)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "21082",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Azim Spring Water",
+      "id": 24255,
+      "icon": 22678,
+      "category": 54,
+      "ilvl": 320,
+      "price": 333,
+      "ventures": [
+        758
+      ],
+      "nodes": [
+        536
+      ]
+    },
+    {
+      "name": "Alyssum",
+      "id": 19912,
+      "icon": 22627,
+      "category": 54,
+      "ilvl": 285,
+      "price": 549,
+      "ventures": [
+        702
+      ],
+      "nodes": [
+        516
+      ]
+    },
+    {
+      "name": "Duskglow Aethersand",
+      "id": 23182,
+      "icon": 21006,
+      "category": 54,
+      "ilvl": 340,
+      "price": 2308,
+      "reducedFrom": [
+        23220,
+        23221
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "536",
+      "obj": {
+        "i": 536,
+        "n": "Nhaama's Retreat",
+        "l": 70,
+        "t": 0,
+        "z": 2411,
+        "s": 2,
+        "lt": "Legendary",
+        "ti": [
+          8,
+          20
+        ]
+      }
+    },
+    {
+      "type": "node",
+      "id": "516",
+      "obj": {
+        "i": 516,
+        "n": "Mount Yorn",
+        "l": 70,
+        "t": 3,
+        "z": 2407
+      }
+    },
+    {
+      "type": "item",
+      "id": "23220",
+      "obj": {
+        "i": 23220,
+        "n": "Yanxian Soil",
+        "l": 340,
+        "c": 21466,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "23221",
+      "obj": {
+        "i": 23221,
+        "n": "Yanxian Verbena",
+        "l": 340,
+        "c": 25009,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "23772",
+      "obj": {
+        "i": 23772,
+        "n": "Rakshasa Greatbow",
+        "l": 380,
+        "c": 32357,
+        "t": 4
+      }
+    },
+    {
+      "type": "item",
+      "id": "23773",
+      "obj": {
+        "i": 23773,
+        "n": "Rakshasa Daggers",
+        "l": 380,
+        "c": 33944,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "23775",
+      "obj": {
+        "i": 23775,
+        "n": "Rakshasa Revolver",
+        "l": 380,
+        "c": 34443,
+        "t": 88
+      }
+    },
+    {
+      "type": "item",
+      "id": "23802",
+      "obj": {
+        "i": 23802,
+        "n": "Rakshasa Gantai of Aiming",
+        "l": 380,
+        "c": 41737,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23803",
+      "obj": {
+        "i": 23803,
+        "n": "Rakshasa Haori of Aiming",
+        "l": 380,
+        "c": 43842,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "23804",
+      "obj": {
+        "i": 23804,
+        "n": "Rakshasa Tekko of Aiming",
+        "l": 380,
+        "c": 44654,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "23805",
+      "obj": {
+        "i": 23805,
+        "n": "Rakshasa Hakama of Aiming",
+        "l": 380,
+        "c": 47472,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "23806",
+      "obj": {
+        "i": 23806,
+        "n": "Rakshasa Zori of Aiming",
+        "l": 380,
+        "c": 49875,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "23808",
+      "obj": {
+        "i": 23808,
+        "n": "Rakshasa Gantai of Scouting",
+        "l": 380,
+        "c": 41738,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "23809",
+      "obj": {
+        "i": 23809,
+        "n": "Rakshasa Haori of Scouting",
+        "l": 380,
+        "c": 43843,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "23810",
+      "obj": {
+        "i": 23810,
+        "n": "Rakshasa Tekko of Scouting",
+        "l": 380,
+        "c": 44655,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "23811",
+      "obj": {
+        "i": 23811,
+        "n": "Rakshasa Hakama of Scouting",
+        "l": 380,
+        "c": 47473,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "23812",
+      "obj": {
+        "i": 23812,
+        "n": "Rakshasa Zori of Scouting",
+        "l": 380,
+        "c": 49876,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "23828",
+      "obj": {
+        "i": 23828,
+        "n": "Rakshasa Earring of Aiming",
+        "l": 380,
+        "c": 55426,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "23833",
+      "obj": {
+        "i": 23833,
+        "n": "Rakshasa Necklace of Aiming",
+        "l": 380,
+        "c": 54993,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "23838",
+      "obj": {
+        "i": 23838,
+        "n": "Rakshasa Bracelet of Aiming",
+        "l": 380,
+        "c": 55798,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "23843",
+      "obj": {
+        "i": 23843,
+        "n": "Rakshasa Ring of Aiming",
+        "l": 380,
+        "c": 54647,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "22315",
+      "obj": {
+        "i": 22315,
+        "n": "Master Alchemist VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21082",
+      "obj": {
+        "i": 21082,
+        "n": "Gyr Abanian Alchemic",
+        "l": 320,
+        "c": 22666,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "24255",
+      "obj": {
+        "i": 24255,
+        "n": "Azim Spring Water",
+        "l": 320,
+        "c": 22678,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "19912",
+      "obj": {
+        "i": 19912,
+        "n": "Alyssum",
+        "l": 285,
+        "c": 22627,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "23182",
+      "obj": {
+        "i": 23182,
+        "n": "Duskglow Aethersand",
+        "l": 340,
+        "c": 21006,
+        "t": 54
+      }
+    }
+  ]
+}

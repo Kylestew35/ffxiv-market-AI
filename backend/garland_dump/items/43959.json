@@ -1,0 +1,71 @@
+{
+  "item": {
+    "name": "Ixal Framer's Kit",
+    "description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for an allied Ehcatl crafter.<br>Includes Portrait Elements: Background, Accent<br>Includes Plate Elements: Base Plate, Top Border, Bottom Border, Accent",
+    "id": 43959,
+    "patch": 7.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26625,
+    "tradeShops": [
+      {
+        "shop": "Ixali Oaknot Exchange",
+        "npcs": [
+          1009205
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "43959",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21073",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21073",
+      "obj": {
+        "i": 21073,
+        "n": "Ixali Oaknot",
+        "l": 1,
+        "c": 65054,
+        "t": 100
+      }
+    }
+  ]
+}

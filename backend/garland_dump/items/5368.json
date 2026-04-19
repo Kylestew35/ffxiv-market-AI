@@ -1,0 +1,868 @@
+{
+  "item": {
+    "name": "Yew Lumber",
+    "description": "Processed yew lumber.",
+    "id": 5368,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 108,
+    "ilvl": 20,
+    "category": 50,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22459,
+    "vendors": [
+      1005633,
+      1005640,
+      1005647,
+      1019101,
+      1039487,
+      1009205
+    ],
+    "ingredient_of": {
+      "2345": 1,
+      "2396": 1,
+      "2371": 1,
+      "2434": 1,
+      "1764": 1,
+      "2332": 1,
+      "2485": 1,
+      "2421": 1,
+      "2511": 1,
+      "2563": 1,
+      "2553": 1,
+      "2498": 1,
+      "2499": 1,
+      "2011": 1,
+      "2576": 1,
+      "2151": 1,
+      "6347": 5,
+      "6351": 10,
+      "6358": 5,
+      "6374": 10,
+      "6384": 10,
+      "6385": 5,
+      "6405": 6,
+      "6429": 2,
+      "6439": 4,
+      "6513": 2,
+      "6550": 4,
+      "6576": 4,
+      "6577": 4,
+      "6592": 3,
+      "6606": 2,
+      "6611": 2,
+      "6622": 3,
+      "6645": 2,
+      "6650": 1,
+      "2010": 1,
+      "7973": 3,
+      "9193": 1,
+      "9746": 2,
+      "12095": 3,
+      "10156": 18,
+      "10361": 30,
+      "10362": 90,
+      "10363": 165,
+      "10364": 30,
+      "10365": 90,
+      "10366": 165,
+      "10367": 30,
+      "10368": 90,
+      "10369": 165,
+      "10370": 30,
+      "10371": 90,
+      "10372": 165
+    },
+    "craft": [
+      {
+        "id": 1047,
+        "job": 8,
+        "rlvl": 21,
+        "durability": 40,
+        "quality": 432,
+        "progress": 37,
+        "lvl": 21,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5386,
+            "amount": 3
+          },
+          {
+            "id": 4,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 40,
+          "hq": 60
+        }
+      }
+    ],
+    "desynthedFrom": [
+      6358
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Yew Log",
+      "id": 5386,
+      "icon": 22409,
+      "category": 50,
+      "ilvl": 20,
+      "price": 31,
+      "leves": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "ventures": [
+        220
+      ],
+      "nodes": [
+        22
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Nine Ivies",
+        "l": 20,
+        "t": 2,
+        "z": 55
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005633",
+      "obj": {
+        "i": 1005633,
+        "n": "Material Supplier",
+        "l": 425,
+        "s": 3,
+        "r": 1,
+        "a": 1202,
+        "c": [
+          11.04,
+          11.4
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005640",
+      "obj": {
+        "i": 1005640,
+        "n": "Material Supplier",
+        "l": 427,
+        "s": 3,
+        "r": 1,
+        "a": 1115,
+        "c": [
+          10.97,
+          8.96
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1005647",
+      "obj": {
+        "i": 1005647,
+        "n": "Material Supplier",
+        "l": 426,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          11.94,
+          8.33
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1019101",
+      "obj": {
+        "i": 1019101,
+        "n": "Material Supplier",
+        "l": 2412,
+        "s": 3,
+        "r": 1,
+        "c": [
+          "10.5",
+          "12.2"
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1039487",
+      "obj": {
+        "i": 1039487,
+        "n": "Material Supplier",
+        "l": 4139,
+        "s": 3,
+        "r": 1,
+        "a": 1146,
+        "c": [
+          10.23,
+          12.23
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1009205",
+      "obj": {
+        "i": 1009205,
+        "n": "Ixali Vendor",
+        "l": 57,
+        "s": 3,
+        "r": 1,
+        "a": 1385,
+        "c": [
+          24.98,
+          22.8
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "2345",
+      "obj": {
+        "i": 2345,
+        "n": "Initiate's Cross-pein Hammer",
+        "l": 21,
+        "c": 35102,
+        "t": 14,
+        "p": 988
+      }
+    },
+    {
+      "type": "item",
+      "id": "2396",
+      "obj": {
+        "i": 2396,
+        "n": "Initiate's Chaser Hammer",
+        "l": 21,
+        "c": 35303,
+        "t": 18,
+        "p": 988
+      }
+    },
+    {
+      "type": "item",
+      "id": "2371",
+      "obj": {
+        "i": 2371,
+        "n": "Initiate's Doming Hammer",
+        "l": 21,
+        "c": 35202,
+        "t": 16,
+        "p": 1009
+      }
+    },
+    {
+      "type": "item",
+      "id": "2434",
+      "obj": {
+        "i": 2434,
+        "n": "Initiate's Awl",
+        "l": 23,
+        "c": 35452,
+        "t": 21,
+        "p": 1013
+      }
+    },
+    {
+      "type": "item",
+      "id": "1764",
+      "obj": {
+        "i": 1764,
+        "n": "Iron Bill",
+        "l": 23,
+        "c": 31416,
+        "t": 3,
+        "p": 2027
+      }
+    },
+    {
+      "type": "item",
+      "id": "2332",
+      "obj": {
+        "i": 2332,
+        "n": "Initiate's Claw Hammer",
+        "l": 24,
+        "c": 35052,
+        "t": 13,
+        "p": 1225
+      }
+    },
+    {
+      "type": "item",
+      "id": "2485",
+      "obj": {
+        "i": 2485,
+        "n": "Initiate's Mortar",
+        "l": 24,
+        "c": 35652,
+        "t": 25,
+        "p": 1321
+      }
+    },
+    {
+      "type": "item",
+      "id": "2421",
+      "obj": {
+        "i": 2421,
+        "n": "Iron Round Knife",
+        "l": 23,
+        "c": 35405,
+        "t": 20,
+        "p": 1295
+      }
+    },
+    {
+      "type": "item",
+      "id": "2511",
+      "obj": {
+        "i": 2511,
+        "n": "Initiate's Culinary Knife",
+        "l": 24,
+        "c": 35752,
+        "t": 27,
+        "p": 1225
+      }
+    },
+    {
+      "type": "item",
+      "id": "2563",
+      "obj": {
+        "i": 2563,
+        "n": "Initiate's Scythe",
+        "l": 24,
+        "c": 38152,
+        "t": 31,
+        "p": 1225
+      }
+    },
+    {
+      "type": "item",
+      "id": "2553",
+      "obj": {
+        "i": 2553,
+        "n": "Plumed Steel Hatchet",
+        "l": 34,
+        "c": 38106,
+        "t": 30,
+        "p": 3786
+      }
+    },
+    {
+      "type": "item",
+      "id": "2498",
+      "obj": {
+        "i": 2498,
+        "n": "Iron Frypan",
+        "l": 23,
+        "c": 35705,
+        "t": 26,
+        "p": 1239
+      }
+    },
+    {
+      "type": "item",
+      "id": "2499",
+      "obj": {
+        "i": 2499,
+        "n": "Bomb Frypan",
+        "l": 28,
+        "c": 35706,
+        "t": 26,
+        "p": 2284
+      }
+    },
+    {
+      "type": "item",
+      "id": "5386",
+      "obj": {
+        "i": 5386,
+        "n": "Yew Log",
+        "l": 20,
+        "c": 22409,
+        "t": 50
+      }
+    },
+    {
+      "type": "item",
+      "id": "2011",
+      "obj": {
+        "i": 2011,
+        "n": "Yew Crook",
+        "l": 25,
+        "c": 32609,
+        "t": 9,
+        "p": 2271
+      }
+    },
+    {
+      "type": "item",
+      "id": "2576",
+      "obj": {
+        "i": 2576,
+        "n": "Yew Fishing Rod",
+        "l": 25,
+        "c": 38206,
+        "t": 32,
+        "p": 1795
+      }
+    },
+    {
+      "type": "item",
+      "id": "2151",
+      "obj": {
+        "i": 2151,
+        "n": "Yew Picatrix",
+        "l": 22,
+        "c": 33407,
+        "t": 10,
+        "p": 1566
+      }
+    },
+    {
+      "type": "item",
+      "id": "6347",
+      "obj": {
+        "i": 6347,
+        "n": "Riviera Cottage Roof (Wood)",
+        "l": 20,
+        "c": 50419,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "6351",
+      "obj": {
+        "i": 6351,
+        "n": "Riviera House Roof (Composite)",
+        "l": 35,
+        "c": 50411,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "6358",
+      "obj": {
+        "i": 6358,
+        "n": "Glade Cottage Roof (Stone)",
+        "l": 20,
+        "c": 50424,
+        "t": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "6374",
+      "obj": {
+        "i": 6374,
+        "n": "Riviera Cottage Wall (Wood)",
+        "l": 20,
+        "c": 50219,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6384",
+      "obj": {
+        "i": 6384,
+        "n": "Glade Cottage Wall (Composite)",
+        "l": 20,
+        "c": 50223,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6385",
+      "obj": {
+        "i": 6385,
+        "n": "Glade Cottage Wall (Stone)",
+        "l": 20,
+        "c": 50224,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "6405",
+      "obj": {
+        "i": 6405,
+        "n": "Glade Rounded Window",
+        "l": 21,
+        "c": 50705,
+        "t": 67
+      }
+    },
+    {
+      "type": "item",
+      "id": "6429",
+      "obj": {
+        "i": 6429,
+        "n": "Riviera Awning",
+        "l": 32,
+        "c": 50302,
+        "t": 70
+      }
+    },
+    {
+      "type": "item",
+      "id": "6439",
+      "obj": {
+        "i": 6439,
+        "n": "Oasis Placard",
+        "l": 24,
+        "c": 50003,
+        "t": 71,
+        "p": 4352
+      }
+    },
+    {
+      "type": "item",
+      "id": "6513",
+      "obj": {
+        "i": 6513,
+        "n": "Riviera Chair",
+        "l": 20,
+        "c": 52452,
+        "t": 57,
+        "p": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6550",
+      "obj": {
+        "i": 6550,
+        "n": "Glade Wardrobe",
+        "l": 25,
+        "c": 52432,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "6576",
+      "obj": {
+        "i": 6576,
+        "n": "Riviera Partition",
+        "l": 20,
+        "c": 52440,
+        "t": 57,
+        "p": 3000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6577",
+      "obj": {
+        "i": 6577,
+        "n": "Glade Partition",
+        "l": 30,
+        "c": 52441,
+        "t": 57,
+        "p": 3000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6592",
+      "obj": {
+        "i": 6592,
+        "n": "Glade Bathtub",
+        "l": 50,
+        "c": 52444,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "6606",
+      "obj": {
+        "i": 6606,
+        "n": "Riviera Table",
+        "l": 20,
+        "c": 51620,
+        "t": 77,
+        "p": 2000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6611",
+      "obj": {
+        "i": 6611,
+        "n": "Glade Dining Table",
+        "l": 25,
+        "c": 51626,
+        "t": 77,
+        "p": 3000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6622",
+      "obj": {
+        "i": 6622,
+        "n": "Glade Cartonnier",
+        "l": 20,
+        "c": 52482,
+        "t": 77,
+        "p": 5000
+      }
+    },
+    {
+      "type": "item",
+      "id": "6645",
+      "obj": {
+        "i": 6645,
+        "n": "Potted Azalea",
+        "l": 33,
+        "c": 53024,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "6650",
+      "obj": {
+        "i": 6650,
+        "n": "Weighing Scale",
+        "l": 30,
+        "c": 53018,
+        "t": 78
+      }
+    },
+    {
+      "type": "item",
+      "id": "2010",
+      "obj": {
+        "i": 2010,
+        "n": "Pastoral Yew Cane",
+        "l": 23,
+        "c": 32603,
+        "t": 9,
+        "p": 1830
+      }
+    },
+    {
+      "type": "item",
+      "id": "7973",
+      "obj": {
+        "i": 7973,
+        "n": "Riviera Half Partition",
+        "l": 40,
+        "c": 52515,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "9193",
+      "obj": {
+        "i": 9193,
+        "n": "Steel Daggers",
+        "l": 26,
+        "c": 33815,
+        "t": 84,
+        "p": 1737
+      }
+    },
+    {
+      "type": "item",
+      "id": "9746",
+      "obj": {
+        "i": 9746,
+        "n": "Riviera Garden Table Set",
+        "l": 46,
+        "c": 52190,
+        "t": 76
+      }
+    },
+    {
+      "type": "item",
+      "id": "12095",
+      "obj": {
+        "i": 12095,
+        "n": "Glade Half Partition",
+        "l": 35,
+        "c": 52567,
+        "t": 77
+      }
+    },
+    {
+      "type": "item",
+      "id": "10156",
+      "obj": {
+        "i": 10156,
+        "n": "Bronco-type Hull",
+        "l": 115,
+        "c": 27701,
+        "t": 90
+      }
+    },
+    {
+      "type": "item",
+      "id": "10361",
+      "obj": {
+        "i": 10361,
+        "n": "Small Merchant's Walls",
+        "l": 115,
+        "c": 50801,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10362",
+      "obj": {
+        "i": 10362,
+        "n": "Medium Merchant's Walls",
+        "l": 115,
+        "c": 50802,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10363",
+      "obj": {
+        "i": 10363,
+        "n": "Large Merchant's Walls",
+        "l": 115,
+        "c": 50803,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10364",
+      "obj": {
+        "i": 10364,
+        "n": "Small Eatery Walls",
+        "l": 130,
+        "c": 50804,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10365",
+      "obj": {
+        "i": 10365,
+        "n": "Medium Eatery Walls",
+        "l": 130,
+        "c": 50805,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10366",
+      "obj": {
+        "i": 10366,
+        "n": "Large Eatery Walls",
+        "l": 130,
+        "c": 50806,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10367",
+      "obj": {
+        "i": 10367,
+        "n": "Small Outfitter's Walls",
+        "l": 136,
+        "c": 50807,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10368",
+      "obj": {
+        "i": 10368,
+        "n": "Medium Outfitter's Walls",
+        "l": 136,
+        "c": 50808,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10369",
+      "obj": {
+        "i": 10369,
+        "n": "Large Outfitter's Walls",
+        "l": 136,
+        "c": 50809,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10370",
+      "obj": {
+        "i": 10370,
+        "n": "Small Arms Supplier's Walls",
+        "l": 142,
+        "c": 50810,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10371",
+      "obj": {
+        "i": 10371,
+        "n": "Medium Arms Supplier's Walls",
+        "l": 142,
+        "c": 50811,
+        "t": 66
+      }
+    },
+    {
+      "type": "item",
+      "id": "10372",
+      "obj": {
+        "i": 10372,
+        "n": "Large Arms Supplier's Walls",
+        "l": 142,
+        "c": 50812,
+        "t": 66
+      }
+    }
+  ]
+}

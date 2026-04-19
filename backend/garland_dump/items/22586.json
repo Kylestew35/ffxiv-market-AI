@@ -1,0 +1,76 @@
+{
+  "item": {
+    "name": "Namazu Junkmonger Permit",
+    "description": "This permit allows the hiring of Namazu junkmongers on the estate.<br><br>※Private chambers (apartments), cottages, houses, and mansions can host 4, 6, 8, and 10 vendors, respectively.",
+    "id": 22586,
+    "patch": 4.3,
+    "patchCategory": 5,
+    "price": 5000,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 120,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26192,
+    "tradeShops": [
+      {
+        "shop": "Namazu Koban Exchange",
+        "npcs": [
+          1025604
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "22586",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22525",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "furniture": 1,
+    "models": [
+      "243"
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1025604",
+      "obj": {
+        "i": 1025604,
+        "n": "Gyosho",
+        "l": 2411,
+        "s": 8,
+        "t": "Festival Vendor",
+        "r": 1,
+        "a": 2850,
+        "c": [
+          5.84,
+          23.51
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22525",
+      "obj": {
+        "i": 22525,
+        "n": "Namazu Koban",
+        "l": 1,
+        "c": 65064,
+        "t": 100
+      }
+    }
+  ]
+}

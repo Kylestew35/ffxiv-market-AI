@@ -1,0 +1,86 @@
+{
+  "item": {
+    "name": "Flame Chocobo Issuance",
+    "description": "Present this deed to the Immortal Flames company stables to receive your own chocobo.",
+    "id": 6019,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 19,
+    "ilvl": 1,
+    "category": 63,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26191,
+    "tradeShops": [
+      {
+        "shop": "Immortal Flames",
+        "npcs": [
+          1002390
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "6019",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "22",
+                "amount": 200
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "usedInQuest": [
+      66238
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1002390",
+      "obj": {
+        "i": 1002390,
+        "n": "Flame Quartermaster",
+        "l": 40,
+        "s": 1,
+        "r": 1,
+        "a": 614,
+        "c": [
+          8.38,
+          9.08
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "22",
+      "obj": {
+        "i": 22,
+        "n": "Flame Seal",
+        "l": 1,
+        "c": 65006,
+        "t": 63
+      }
+    },
+    {
+      "type": "quest",
+      "id": "66238",
+      "obj": {
+        "i": 66238,
+        "n": "My Little Chocobo (Immortal Flames)",
+        "g": 113,
+        "l": "Ul'dah",
+        "s": 200,
+        "f": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "item": {
+    "name": "Charibenet",
+    "description": "Lord of the waters of Clearpool, Charibenet is (was) one of the largest, most voracious ice faeries to ever be captured.<br><br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "After witnessing the voracity with which it devoured its kin, it almost seemed wrong not to name this gluttonous ice faerie after the Holy See's infamous First Inquisitor.",
+      "icon": 79734,
+      "weatherRestricted": 1,
+      "folklore": 12701,
+      "spots": [
+        {
+          "spot": 112,
+          "weather": [
+            "Blizzards"
+          ],
+          "predator": [
+            {
+              "id": 12715,
+              "amount": 5
+            }
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "ff14anglerId": 504,
+          "baits": [
+            [
+              12705,
+              12715
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 17592,
+    "patch": 3.5,
+    "patchCategory": 7,
+    "price": 3000,
+    "ilvl": 250,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 90,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 29734,
+    "fishingSpots": [
+      112
+    ],
+    "desynthedTo": [
+      5632,
+      5633,
+      5827
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "112",
+      "obj": {
+        "i": 112,
+        "n": "Clearpool",
+        "l": 60,
+        "c": 1,
+        "z": 2200,
+        "x": 36.78,
+        "y": 5.97
+      }
+    },
+    {
+      "type": "item",
+      "id": "12701",
+      "obj": {
+        "i": 12701,
+        "n": "Tome of Ichthyological Folklore - Coerthas",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "12705",
+      "obj": {
+        "i": 12705,
+        "n": "Purse Web Spider",
+        "l": 136,
+        "c": 22619,
+        "t": 33,
+        "p": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "12715",
+      "obj": {
+        "i": 12715,
+        "n": "Ice Faerie",
+        "l": 120,
+        "c": 29803,
+        "t": 47
+      }
+    },
+    {
+      "type": "item",
+      "id": "5632",
+      "obj": {
+        "i": 5632,
+        "n": "Piety Materia IV",
+        "l": 70,
+        "c": 20216,
+        "t": 58,
+        "materia": {
+          "tier": 3,
+          "value": 4,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5633",
+      "obj": {
+        "i": 5633,
+        "n": "Piety Materia V",
+        "l": 160,
+        "c": 20256,
+        "t": 58,
+        "materia": {
+          "tier": 4,
+          "value": 6,
+          "attr": "Piety",
+          "category": 0,
+          "advancedMeldingForbidden": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "5827",
+      "obj": {
+        "i": 5827,
+        "n": "Allagan Platinum Piece",
+        "l": 45,
+        "c": 26001,
+        "t": 61
+      }
+    }
+  ]
+}

@@ -1,0 +1,863 @@
+{
+  "item": {
+    "name": "Endwood Aethersand",
+    "description": "The coarse-grained, elementally aspected remnants of highly concentrated aetherially reduced mineral matter.",
+    "id": 36225,
+    "patch": 6.0,
+    "patchCategory": 5,
+    "price": 99999,
+    "ilvl": 560,
+    "category": 54,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 3,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 21236,
+    "tradeShops": [
+      {
+        "shop": "Purple Scrip Exchange (Lv. 90 Bait/Tokens)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36225",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Purple Scrip Exchange (Lv. 90 Materials/Bait/Tokens)",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36225",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materials",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "36225",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "33914",
+                "amount": 20
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "35020": 1,
+      "35022": 1,
+      "35026": 1,
+      "35029": 1,
+      "35030": 1,
+      "35034": 1,
+      "35035": 1,
+      "35040": 1,
+      "35043": 1,
+      "35045": 1,
+      "35048": 1,
+      "35050": 1,
+      "35053": 1,
+      "35055": 1,
+      "35058": 1,
+      "35060": 1,
+      "35063": 1,
+      "35065": 1,
+      "35068": 1,
+      "35070": 1,
+      "35073": 1,
+      "35075": 1,
+      "35076": 1,
+      "35077": 1,
+      "35078": 1,
+      "35079": 1,
+      "36691": 1,
+      "36692": 1,
+      "36693": 1,
+      "36694": 1,
+      "36698": 1,
+      "36699": 1,
+      "36700": 1,
+      "36701": 1,
+      "36708": 1,
+      "36709": 1,
+      "36713": 1,
+      "36714": 1,
+      "37742": 1,
+      "37744": 1,
+      "37748": 1,
+      "37751": 1,
+      "37752": 1,
+      "37756": 1,
+      "37757": 1,
+      "37762": 1,
+      "37765": 1,
+      "37767": 1,
+      "37770": 1,
+      "37772": 1,
+      "37775": 1,
+      "37777": 1,
+      "37780": 1,
+      "37782": 1,
+      "37785": 1,
+      "37787": 1,
+      "37790": 1,
+      "37792": 1,
+      "37795": 1,
+      "37797": 1,
+      "37798": 1,
+      "37799": 1,
+      "37800": 1,
+      "37801": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "35020",
+      "obj": {
+        "i": 35020,
+        "n": "Classical Longsword",
+        "l": 580,
+        "c": 30647,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "35022",
+      "obj": {
+        "i": 35022,
+        "n": "Classical Battleaxe",
+        "l": 580,
+        "c": 31221,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "35026",
+      "obj": {
+        "i": 35026,
+        "n": "Classical Greatsword",
+        "l": 580,
+        "c": 34375,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "35029",
+      "obj": {
+        "i": 35029,
+        "n": "Classical Longpole",
+        "l": 580,
+        "c": 33165,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "35030",
+      "obj": {
+        "i": 35030,
+        "n": "Classical Index",
+        "l": 580,
+        "c": 33348,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "35034",
+      "obj": {
+        "i": 35034,
+        "n": "Classical Smallsword",
+        "l": 580,
+        "c": 36825,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "35035",
+      "obj": {
+        "i": 35035,
+        "n": "Classical Gunblade",
+        "l": 580,
+        "c": 36067,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "35040",
+      "obj": {
+        "i": 35040,
+        "n": "Classical Hoplomachus's Headgear",
+        "l": 580,
+        "c": 41878,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35043",
+      "obj": {
+        "i": 35043,
+        "n": "Classical Hoplomachus's Loincloth",
+        "l": 580,
+        "c": 46045,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35045",
+      "obj": {
+        "i": 35045,
+        "n": "Classical Eques's Headgear",
+        "l": 580,
+        "c": 41946,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35048",
+      "obj": {
+        "i": 35048,
+        "n": "Classical Eques's Loincloth",
+        "l": 580,
+        "c": 46047,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35050",
+      "obj": {
+        "i": 35050,
+        "n": "Classical Secutor's Mask",
+        "l": 580,
+        "c": 41880,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35053",
+      "obj": {
+        "i": 35053,
+        "n": "Classical Secutor's Loincloth",
+        "l": 580,
+        "c": 46048,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35055",
+      "obj": {
+        "i": 35055,
+        "n": "Classical Sagittarius's Headband",
+        "l": 580,
+        "c": 41881,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35058",
+      "obj": {
+        "i": 35058,
+        "n": "Classical Sagittarius's Loincloth",
+        "l": 580,
+        "c": 46049,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35060",
+      "obj": {
+        "i": 35060,
+        "n": "Classical Dimachaerius's Mask",
+        "l": 580,
+        "c": 41882,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35063",
+      "obj": {
+        "i": 35063,
+        "n": "Classical Dimachaerius's Loincloth",
+        "l": 580,
+        "c": 46050,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35065",
+      "obj": {
+        "i": 35065,
+        "n": "Classical Medicus's Laurel Wreath",
+        "l": 580,
+        "c": 41879,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35068",
+      "obj": {
+        "i": 35068,
+        "n": "Classical Medicus's Loincloth",
+        "l": 580,
+        "c": 46046,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35070",
+      "obj": {
+        "i": 35070,
+        "n": "Classical Signifer's Horns",
+        "l": 580,
+        "c": 41877,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "35073",
+      "obj": {
+        "i": 35073,
+        "n": "Classical Signifer's Culottes",
+        "l": 580,
+        "c": 46044,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "35075",
+      "obj": {
+        "i": 35075,
+        "n": "Classical Earrings of Fending",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35076",
+      "obj": {
+        "i": 35076,
+        "n": "Classical Earrings of Slaying",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35077",
+      "obj": {
+        "i": 35077,
+        "n": "Classical Earrings of Aiming",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35078",
+      "obj": {
+        "i": 35078,
+        "n": "Classical Earrings of Healing",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "35079",
+      "obj": {
+        "i": 35079,
+        "n": "Classical Earrings of Casting",
+        "l": 580,
+        "c": 55472,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "36691",
+      "obj": {
+        "i": 36691,
+        "n": "Pactmaker's Creasing Knife",
+        "l": 590,
+        "c": 35447,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "36692",
+      "obj": {
+        "i": 36692,
+        "n": "Pactmaker's Needle",
+        "l": 590,
+        "c": 35547,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "36693",
+      "obj": {
+        "i": 36693,
+        "n": "Pactmaker's Alembic",
+        "l": 590,
+        "c": 35646,
+        "t": 24
+      }
+    },
+    {
+      "type": "item",
+      "id": "36694",
+      "obj": {
+        "i": 36694,
+        "n": "Pactmaker's Arkasodara Frypan",
+        "l": 590,
+        "c": 35749,
+        "t": 26
+      }
+    },
+    {
+      "type": "item",
+      "id": "36698",
+      "obj": {
+        "i": 36698,
+        "n": "Pactmaker's Claw Hammer",
+        "l": 590,
+        "c": 35066,
+        "t": 13
+      }
+    },
+    {
+      "type": "item",
+      "id": "36699",
+      "obj": {
+        "i": 36699,
+        "n": "Pactmaker's File",
+        "l": 590,
+        "c": 35163,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "36700",
+      "obj": {
+        "i": 36700,
+        "n": "Pactmaker's Pliers",
+        "l": 590,
+        "c": 35263,
+        "t": 17
+      }
+    },
+    {
+      "type": "item",
+      "id": "36701",
+      "obj": {
+        "i": 36701,
+        "n": "Pactmaker's Grinding Wheel",
+        "l": 590,
+        "c": 35363,
+        "t": 19
+      }
+    },
+    {
+      "type": "item",
+      "id": "36708",
+      "obj": {
+        "i": 36708,
+        "n": "Pactmaker's Turban of Crafting",
+        "l": 590,
+        "c": 41988,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "36709",
+      "obj": {
+        "i": 36709,
+        "n": "Pactmaker's Vest of Crafting",
+        "l": 590,
+        "c": 42864,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "36713",
+      "obj": {
+        "i": 36713,
+        "n": "Pactmaker's Ushanka of Gathering",
+        "l": 590,
+        "c": 41989,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "36714",
+      "obj": {
+        "i": 36714,
+        "n": "Pactmaker's Coat of Gathering",
+        "l": 590,
+        "c": 42865,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "37742",
+      "obj": {
+        "i": 37742,
+        "n": "Rinascita Sword",
+        "l": 610,
+        "c": 30655,
+        "t": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "37744",
+      "obj": {
+        "i": 37744,
+        "n": "Rinascita Labrys",
+        "l": 610,
+        "c": 31229,
+        "t": 3
+      }
+    },
+    {
+      "type": "item",
+      "id": "37748",
+      "obj": {
+        "i": 37748,
+        "n": "Rinascita Greatsword",
+        "l": 610,
+        "c": 34383,
+        "t": 87
+      }
+    },
+    {
+      "type": "item",
+      "id": "37751",
+      "obj": {
+        "i": 37751,
+        "n": "Rinascita Rod",
+        "l": 610,
+        "c": 32864,
+        "t": 7
+      }
+    },
+    {
+      "type": "item",
+      "id": "37752",
+      "obj": {
+        "i": 37752,
+        "n": "Rinascita Index",
+        "l": 610,
+        "c": 33364,
+        "t": 10
+      }
+    },
+    {
+      "type": "item",
+      "id": "37756",
+      "obj": {
+        "i": 37756,
+        "n": "Rinascita Rapier",
+        "l": 610,
+        "c": 36833,
+        "t": 97
+      }
+    },
+    {
+      "type": "item",
+      "id": "37757",
+      "obj": {
+        "i": 37757,
+        "n": "Rinascita Manatrigger",
+        "l": 610,
+        "c": 36076,
+        "t": 106
+      }
+    },
+    {
+      "type": "item",
+      "id": "37762",
+      "obj": {
+        "i": 37762,
+        "n": "Rinascita Helm of Fending",
+        "l": 610,
+        "c": 56524,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37765",
+      "obj": {
+        "i": 37765,
+        "n": "Rinascita Poleyns of Fending",
+        "l": 610,
+        "c": 47930,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37767",
+      "obj": {
+        "i": 37767,
+        "n": "Rinascita Helm of Maiming",
+        "l": 610,
+        "c": 56525,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37770",
+      "obj": {
+        "i": 37770,
+        "n": "Rinascita Poleyns of Maiming",
+        "l": 610,
+        "c": 47933,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37772",
+      "obj": {
+        "i": 37772,
+        "n": "Rinascita Hood of Striking",
+        "l": 610,
+        "c": 56522,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37775",
+      "obj": {
+        "i": 37775,
+        "n": "Rinascita Poleyns of Striking",
+        "l": 610,
+        "c": 47934,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37777",
+      "obj": {
+        "i": 37777,
+        "n": "Rinascita Beret of Aiming",
+        "l": 610,
+        "c": 56527,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37780",
+      "obj": {
+        "i": 37780,
+        "n": "Rinascita Poleyns of Aiming",
+        "l": 610,
+        "c": 47935,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37782",
+      "obj": {
+        "i": 37782,
+        "n": "Rinascita Hood of Scouting",
+        "l": 610,
+        "c": 56523,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37785",
+      "obj": {
+        "i": 37785,
+        "n": "Rinascita Poleyns of Scouting",
+        "l": 610,
+        "c": 47936,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37787",
+      "obj": {
+        "i": 37787,
+        "n": "Rinascita Beret of Healing",
+        "l": 610,
+        "c": 56526,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37790",
+      "obj": {
+        "i": 37790,
+        "n": "Rinascita Poleyns of Healing",
+        "l": 610,
+        "c": 47932,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37792",
+      "obj": {
+        "i": 37792,
+        "n": "Rinascita Hood of Casting",
+        "l": 610,
+        "c": 56521,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "37795",
+      "obj": {
+        "i": 37795,
+        "n": "Rinascita Poleyns of Casting",
+        "l": 610,
+        "c": 47931,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "37797",
+      "obj": {
+        "i": 37797,
+        "n": "Rinascita Earring of Fending",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37798",
+      "obj": {
+        "i": 37798,
+        "n": "Rinascita Earring of Slaying",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37799",
+      "obj": {
+        "i": 37799,
+        "n": "Rinascita Earring of Aiming",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37800",
+      "obj": {
+        "i": 37800,
+        "n": "Rinascita Earring of Healing",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    },
+    {
+      "type": "item",
+      "id": "37801",
+      "obj": {
+        "i": 37801,
+        "n": "Rinascita Earring of Casting",
+        "l": 610,
+        "c": 55501,
+        "t": 41
+      }
+    }
+  ]
+}

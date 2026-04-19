@@ -1,0 +1,759 @@
+{
+  "item": {
+    "name": "Ground Sloth Leather",
+    "description": "A large piece of cured ground sloth hide.",
+    "id": 22430,
+    "patch": 4.2,
+    "patchCategory": 5,
+    "price": 2910,
+    "ilvl": 350,
+    "category": 52,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 4,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 22016,
+    "ingredient_of": {
+      "21700": 1,
+      "21707": 1,
+      "21714": 1,
+      "21720": 2,
+      "21724": 2,
+      "21726": 2,
+      "21727": 2,
+      "21731": 2,
+      "21732": 2,
+      "21733": 2,
+      "21737": 2,
+      "21738": 2,
+      "21739": 2,
+      "21741": 1,
+      "21742": 1,
+      "21743": 1,
+      "21744": 2,
+      "21745": 2,
+      "21747": 1,
+      "21748": 1,
+      "21749": 1,
+      "21750": 2,
+      "21751": 2,
+      "23097": 4,
+      "22886": 2,
+      "22888": 2,
+      "22889": 2,
+      "22896": 2,
+      "22906": 2,
+      "22907": 6,
+      "22909": 6,
+      "22911": 2,
+      "22912": 4,
+      "22914": 6,
+      "22922": 4,
+      "22923": 4,
+      "22924": 2,
+      "23000": 1,
+      "23374": 1,
+      "24004": 2,
+      "24006": 1,
+      "24591": 2,
+      "24592": 1,
+      "24593": 2
+    },
+    "craft": [
+      {
+        "id": 32637,
+        "job": 12,
+        "rlvl": 350,
+        "durability": 35,
+        "quality": 3900,
+        "progress": 1147,
+        "lvl": 70,
+        "materialQualityFactor": 0,
+        "stars": 3,
+        "yield": 2,
+        "hq": 1,
+        "quickSynth": 1,
+        "controlReq": 1350,
+        "craftsmanshipReq": 1500,
+        "quickSynthCraftsmanship": 1650,
+        "unlockId": 22313,
+        "ingredients": [
+          {
+            "id": 22421,
+            "amount": 4
+          },
+          {
+            "id": 22415,
+            "amount": 2
+          },
+          {
+            "id": 17,
+            "amount": 2
+          },
+          {
+            "id": 16,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 820,
+          "hq": 840
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Ground Sloth Pelt",
+      "id": 22421,
+      "icon": 21815,
+      "category": 52,
+      "ilvl": 350,
+      "price": 2328,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1019450
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22421",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22421",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thavnairian Alumen",
+      "id": 22415,
+      "icon": 22673,
+      "category": 54,
+      "ilvl": 350,
+      "price": 2328,
+      "tradeShops": [
+        {
+          "shop": "Allagan Tomestones of Poetics (Other)",
+          "npcs": [
+            1019450
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22415",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "22415",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1019450",
+      "obj": {
+        "i": 1019450,
+        "n": "Enna",
+        "l": 2403,
+        "s": 7,
+        "t": "Tomestone Exchange",
+        "r": 1,
+        "a": 2705,
+        "c": [
+          13.95,
+          11.63
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28",
+      "obj": {
+        "i": 28,
+        "n": "Allagan Tomestone of Poetics",
+        "l": 1,
+        "c": 65023,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "21700",
+      "obj": {
+        "i": 21700,
+        "n": "Nightsteel Daggers",
+        "l": 350,
+        "c": 33933,
+        "t": 84
+      }
+    },
+    {
+      "type": "item",
+      "id": "21707",
+      "obj": {
+        "i": 21707,
+        "n": "Silvergrace Planisphere",
+        "l": 350,
+        "c": 34906,
+        "t": 89
+      }
+    },
+    {
+      "type": "item",
+      "id": "21714",
+      "obj": {
+        "i": 21714,
+        "n": "True Linen Skirt of Fending",
+        "l": 350,
+        "c": 47388,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21720",
+      "obj": {
+        "i": 21720,
+        "n": "True Linen Breeches of Maiming",
+        "l": 350,
+        "c": 47390,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21724",
+      "obj": {
+        "i": 21724,
+        "n": "True Linen Coat of Striking",
+        "l": 350,
+        "c": 42589,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21726",
+      "obj": {
+        "i": 21726,
+        "n": "True Linen Trousers of Striking",
+        "l": 350,
+        "c": 47391,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21727",
+      "obj": {
+        "i": 21727,
+        "n": "Slothskin Boots of Striking",
+        "l": 350,
+        "c": 49142,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "21731",
+      "obj": {
+        "i": 21731,
+        "n": "Slothskin Gloves of Aiming",
+        "l": 350,
+        "c": 44620,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21732",
+      "obj": {
+        "i": 21732,
+        "n": "True Linen Breeches of Aiming",
+        "l": 350,
+        "c": 47392,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21733",
+      "obj": {
+        "i": 21733,
+        "n": "Slothskin Boots of Aiming",
+        "l": 350,
+        "c": 49143,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "21737",
+      "obj": {
+        "i": 21737,
+        "n": "Slothskin Gloves of Scouting",
+        "l": 350,
+        "c": 44621,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21738",
+      "obj": {
+        "i": 21738,
+        "n": "True Linen Breeches of Scouting",
+        "l": 350,
+        "c": 47393,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21739",
+      "obj": {
+        "i": 21739,
+        "n": "Slothskin Thighboots of Scouting",
+        "l": 350,
+        "c": 49144,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "21741",
+      "obj": {
+        "i": 21741,
+        "n": "True Linen Hat of Healing",
+        "l": 350,
+        "c": 41402,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "21742",
+      "obj": {
+        "i": 21742,
+        "n": "True Linen Robe of Healing",
+        "l": 350,
+        "c": 43819,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21743",
+      "obj": {
+        "i": 21743,
+        "n": "True Linen Gloves of Healing",
+        "l": 350,
+        "c": 44618,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21744",
+      "obj": {
+        "i": 21744,
+        "n": "True Linen Breeches of Healing",
+        "l": 350,
+        "c": 47389,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21745",
+      "obj": {
+        "i": 21745,
+        "n": "Slothskin Boots of Healing",
+        "l": 350,
+        "c": 49141,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "21747",
+      "obj": {
+        "i": 21747,
+        "n": "True Linen Hat of Casting",
+        "l": 350,
+        "c": 41401,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "21748",
+      "obj": {
+        "i": 21748,
+        "n": "True Linen Robe of Casting",
+        "l": 350,
+        "c": 43818,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "21749",
+      "obj": {
+        "i": 21749,
+        "n": "True Linen Gloves of Casting",
+        "l": 350,
+        "c": 44617,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "21750",
+      "obj": {
+        "i": 21750,
+        "n": "True Linen Breeches of Casting",
+        "l": 350,
+        "c": 47387,
+        "t": 36
+      }
+    },
+    {
+      "type": "item",
+      "id": "21751",
+      "obj": {
+        "i": 21751,
+        "n": "Slothskin Boots of Casting",
+        "l": 350,
+        "c": 49140,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "22313",
+      "obj": {
+        "i": 22313,
+        "n": "Master Leatherworker VI",
+        "l": 1,
+        "c": 26155,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "22421",
+      "obj": {
+        "i": 22421,
+        "n": "Ground Sloth Pelt",
+        "l": 350,
+        "c": 21815,
+        "t": 52
+      }
+    },
+    {
+      "type": "item",
+      "id": "22415",
+      "obj": {
+        "i": 22415,
+        "n": "Thavnairian Alumen",
+        "l": 350,
+        "c": 22673,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "23097",
+      "obj": {
+        "i": 23097,
+        "n": "Grand Chair",
+        "l": 1,
+        "c": 52635,
+        "t": 57
+      }
+    },
+    {
+      "type": "item",
+      "id": "22886",
+      "obj": {
+        "i": 22886,
+        "n": "Nightsteel Raising Hammer",
+        "l": 345,
+        "c": 35227,
+        "t": 16
+      }
+    },
+    {
+      "type": "item",
+      "id": "22888",
+      "obj": {
+        "i": 22888,
+        "n": "Nightsteel Round Knife",
+        "l": 345,
+        "c": 35427,
+        "t": 20
+      }
+    },
+    {
+      "type": "item",
+      "id": "22889",
+      "obj": {
+        "i": 22889,
+        "n": "Silvergrace Needle",
+        "l": 345,
+        "c": 35527,
+        "t": 22
+      }
+    },
+    {
+      "type": "item",
+      "id": "22896",
+      "obj": {
+        "i": 22896,
+        "n": "Nightsteel File",
+        "l": 325,
+        "c": 35165,
+        "t": 15
+      }
+    },
+    {
+      "type": "item",
+      "id": "22906",
+      "obj": {
+        "i": 22906,
+        "n": "Onishi Dogi",
+        "l": 340,
+        "c": 42603,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "22907",
+      "obj": {
+        "i": 22907,
+        "n": "Onishi Tekko",
+        "l": 340,
+        "c": 44634,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "22909",
+      "obj": {
+        "i": 22909,
+        "n": "Onishi Zori",
+        "l": 340,
+        "c": 49870,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "22911",
+      "obj": {
+        "i": 22911,
+        "n": "Yamashi Dogi",
+        "l": 340,
+        "c": 42602,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "22912",
+      "obj": {
+        "i": 22912,
+        "n": "Yamashi Tekko",
+        "l": 340,
+        "c": 44633,
+        "t": 37
+      }
+    },
+    {
+      "type": "item",
+      "id": "22914",
+      "obj": {
+        "i": 22914,
+        "n": "Yamashi Zori",
+        "l": 340,
+        "c": 49869,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "22922",
+      "obj": {
+        "i": 22922,
+        "n": "Slothskin Necklace of Gathering",
+        "l": 340,
+        "c": 54917,
+        "t": 40
+      }
+    },
+    {
+      "type": "item",
+      "id": "22923",
+      "obj": {
+        "i": 22923,
+        "n": "Slothskin Armillae of Gathering",
+        "l": 340,
+        "c": 55722,
+        "t": 42
+      }
+    },
+    {
+      "type": "item",
+      "id": "22924",
+      "obj": {
+        "i": 22924,
+        "n": "Slothskin Ring of Gathering",
+        "l": 340,
+        "c": 54569,
+        "t": 43
+      }
+    },
+    {
+      "type": "item",
+      "id": "23000",
+      "obj": {
+        "i": 23000,
+        "n": "Boulevardier's Dress Shoes",
+        "l": 1,
+        "c": 49871,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "23374",
+      "obj": {
+        "i": 23374,
+        "n": "Quaintrelle's Dress Shoes",
+        "l": 1,
+        "c": 49871,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "24004",
+      "obj": {
+        "i": 24004,
+        "n": "Whisperfine Woolen Coat",
+        "l": 1,
+        "c": 43844,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "24006",
+      "obj": {
+        "i": 24006,
+        "n": "Whisperfine Woolen Boots",
+        "l": 1,
+        "c": 49192,
+        "t": 38
+      }
+    },
+    {
+      "type": "item",
+      "id": "24591",
+      "obj": {
+        "i": 24591,
+        "n": "Rain Hood",
+        "l": 1,
+        "c": 41748,
+        "t": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "24592",
+      "obj": {
+        "i": 24592,
+        "n": "Raincoat",
+        "l": 1,
+        "c": 43859,
+        "t": 35
+      }
+    },
+    {
+      "type": "item",
+      "id": "24593",
+      "obj": {
+        "i": 24593,
+        "n": "Rain Boots",
+        "l": 1,
+        "c": 49111,
+        "t": 38
+      }
+    }
+  ]
+}

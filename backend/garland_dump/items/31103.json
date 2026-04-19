@@ -1,0 +1,276 @@
+{
+  "item": {
+    "name": "Oddly Specific Mythril Rings",
+    "description": "The requirement that each ring be the same size does not seem to be especially odd or specific at first, but such opinions soon change upon realizing they must be crafted while blindfolded.",
+    "id": 31103,
+    "patch": 5.35,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 460,
+    "category": 49,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 1,
+    "icon": 20913,
+    "craft": [
+      {
+        "id": 34361,
+        "job": 10,
+        "rlvl": 460,
+        "durability": 70,
+        "quality": 8100,
+        "progress": 1909,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "stars": 2,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31119,
+            "amount": 1
+          },
+          {
+            "id": 27703,
+            "amount": 2
+          },
+          {
+            "id": 9,
+            "amount": 7
+          },
+          {
+            "id": 11,
+            "amount": 7
+          }
+        ],
+        "complexity": {
+          "nq": 221,
+          "hq": 241
+        }
+      }
+    ],
+    "masterpiece": {
+      "rating": [
+        360,
+        540,
+        720
+      ],
+      "amount": 1,
+      "stars": 2,
+      "lvl": [
+        80,
+        80
+      ],
+      "xp": [
+        725032,
+        796936,
+        874832
+      ],
+      "reward": 33914,
+      "rewardAmount": [
+        12,
+        15,
+        24
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Oddly Specific Mythrite Sand",
+      "id": 31119,
+      "icon": 21218,
+      "category": 48,
+      "ilvl": 485,
+      "price": 2523,
+      "tradeShops": [
+        {
+          "shop": "Skybuilders' Scrips (Materials/Materia/Items)",
+          "npcs": [
+            1031680,
+            1031691
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31119",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "28063",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Materials",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31119",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "shop": "Purple Scrip Exchange (Lv. 80 Materials/Skysteel Prototype Augmentation)",
+          "npcs": [],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "31119",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "33913",
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dimythrite Ore",
+      "id": 27703,
+      "icon": 21208,
+      "category": 48,
+      "ilvl": 420,
+      "price": 630,
+      "voyages": [
+        {
+          "id": 58,
+          "type": 1
+        }
+      ],
+      "ventures": [
+        799
+      ],
+      "nodes": [
+        598
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1031680",
+      "obj": {
+        "i": 1031680,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.06,
+          14.02
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1031691",
+      "obj": {
+        "i": 1031691,
+        "n": "Enie",
+        "l": 3435,
+        "s": 4,
+        "t": "Scrip Exchange",
+        "r": 1,
+        "a": 3436,
+        "c": [
+          12.0,
+          14.06
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "28063",
+      "obj": {
+        "i": 28063,
+        "n": "Skybuilders' Scrip",
+        "l": 1,
+        "c": 65073,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "33913",
+      "obj": {
+        "i": 33913,
+        "n": "Purple Crafters' Scrip",
+        "l": 1,
+        "c": 65088,
+        "t": 100
+      }
+    },
+    {
+      "type": "node",
+      "id": "598",
+      "obj": {
+        "i": 598,
+        "n": "The Church of the First Light",
+        "l": 80,
+        "t": 0,
+        "z": 2953
+      }
+    },
+    {
+      "type": "item",
+      "id": "31119",
+      "obj": {
+        "i": 31119,
+        "n": "Oddly Specific Mythrite Sand",
+        "l": 485,
+        "c": 21218,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "27703",
+      "obj": {
+        "i": 27703,
+        "n": "Dimythrite Ore",
+        "l": 420,
+        "c": 21208,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "33914",
+      "obj": {
+        "i": 33914,
+        "n": "Purple Gatherers' Scrip",
+        "l": 1,
+        "c": 65087,
+        "t": 100
+      }
+    }
+  ]
+}

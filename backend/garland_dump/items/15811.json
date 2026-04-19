@@ -1,0 +1,79 @@
+{
+  "item": {
+    "name": "Moonfire Faire Orchestrion Roll",
+    "description": "Music roll for <span class=\"emphasis\">Moonfire Faire</span>. Use to add to your orchestrion list.",
+    "id": 15811,
+    "patch": 3.35,
+    "patchCategory": 16,
+    "price": 7,
+    "ilvl": 1,
+    "category": 94,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 25945,
+    "orchestrion": {
+      "id": 60,
+      "name": "Moonfire Faire",
+      "description": "Seasonal event reward.",
+      "category": "Seasonal",
+      "order": 65535
+    },
+    "tradeShops": [
+      {
+        "shop": "Seasonal Event Prizes",
+        "npcs": [
+          1017230
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "15811",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "15424",
+                "amount": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1017230",
+      "obj": {
+        "i": 1017230,
+        "n": "P'obyano",
+        "l": 32,
+        "s": 1,
+        "t": "Moonfire Faire Vendor",
+        "r": 1,
+        "a": 206,
+        "c": [
+          32.66,
+          28.92
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "15424",
+      "obj": {
+        "i": 15424,
+        "n": "Faire Voucher MMXVI",
+        "l": 1,
+        "c": 25918,
+        "t": 85
+      }
+    }
+  ]
+}

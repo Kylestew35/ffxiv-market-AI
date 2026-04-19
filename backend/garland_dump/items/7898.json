@@ -1,0 +1,115 @@
+{
+  "item": {
+    "name": "Tantalplant",
+    "description": "A vibrant purple vegetable commonly found growing in the Near East. While too bitter for most people's tastes, chocobos are known to enjoy the flavor, and thus these aubergines are often used as fodder for the animals.<br><br>Increases your chocobo companion's maximum HP.",
+    "id": 7898,
+    "patch": 2.3,
+    "patchCategory": 5,
+    "price": 348,
+    "ilvl": 55,
+    "category": 61,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 6,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25205,
+    "seeds": [
+      8172
+    ],
+    "vendors": [
+      1016804
+    ],
+    "tradeShops": [
+      {
+        "shop": "Black Copper Gil Exchange",
+        "npcs": [
+          1016804
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "7898",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "21079",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ingredient_of": {
+      "9624": 1,
+      "9625": 1
+    }
+  },
+  "partials": [
+    {
+      "type": "item",
+      "id": "8172",
+      "obj": {
+        "i": 8172,
+        "n": "Tantalplant Seeds",
+        "l": 1,
+        "c": 27453,
+        "t": 82
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1016804",
+      "obj": {
+        "i": 1016804,
+        "n": "Vath Stickpeddler",
+        "l": 2000,
+        "s": 2,
+        "r": 1,
+        "a": 2021,
+        "c": [
+          23.68,
+          19.1
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21079",
+      "obj": {
+        "i": 21079,
+        "n": "Black Copper Gil",
+        "l": 1,
+        "c": 65056,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "9624",
+      "obj": {
+        "i": 9624,
+        "n": "Grade 1 Feed - Endurance Blend",
+        "l": 30,
+        "c": 27551,
+        "t": 61,
+        "p": 1500
+      }
+    },
+    {
+      "type": "item",
+      "id": "9625",
+      "obj": {
+        "i": 9625,
+        "n": "Grade 2 Feed - Endurance Blend",
+        "l": 70,
+        "c": 27551,
+        "t": 61
+      }
+    }
+  ]
+}

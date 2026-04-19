@@ -1,0 +1,108 @@
+{
+  "item": {
+    "name": "Diablo Armament Card",
+    "description": "An epic (★★★★) card used in the game Triple Triad.<br>Card No. 312",
+    "id": 33340,
+    "patch": 5.55,
+    "patchCategory": 14,
+    "price": 2,
+    "ilvl": 1,
+    "category": 86,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 27665,
+    "tradeShops": [
+      {
+        "shop": "Exchange Bozjan clusters for items.",
+        "npcs": [
+          1034007,
+          1036895
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "33340",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "31135",
+                "amount": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "tripletriad": {
+      "en": {
+        "description": "Hidden deep within the ruins below Zadnor, it was recently unearthed by Menenius of the IVth Imperial Legion. Evidence indicates that it is a voidsent which has undergone aetherochemical enhancement, in order to participate in the subjugation of the southern continent."
+      },
+      "ja": {
+        "description": "メネニウス率いる聖遺物探索隊が、ザトゥノル高原にて発掘した遺物。異界ヴォイドから召喚した高位貴族級の大妖異を、魔科学的に強化した存在のようだ。おそらく南方大陸攻略の切り札として、開発していた兵器と思われる。"
+      },
+      "de": {
+        "description": "Das Diablo-Armament ist ein von der IV. Legion in Zadnor ausgegrabenes Artefakt, das Tribunus Menenius zur Unterwerfung Bozjas zu nutzen gedachte. Die Waffe selbst ist tatsächlich ein hochrangiger Nichts<SoftHyphen/>gesand<SoftHyphen/>ter, der einst von den Allagern aus dem Nichts beschworen und durch Ätherochemie noch zusätzlich verstärkt wurde. Es wird vermutet, dass diese mobile Artillerie-Batterie eigens für die Invasion der Allager auf den Südkontinent Meracydia entwickelt wurde und Breschen in die feindlichen Schlachtreihen schlagen sollte."
+      },
+      "fr": {
+        "description": "Les troupes de la 4e légion chargées de trouver des reliques sacrées en Zadnor ont déterré cet artefact allagois lors de leurs recherches. Leur commandant Menenius comptait s'en servir à son avantage afin d'écraser les résistants bozjiens. Diablo lui-même semble être un démon de haut rang dans la hiérarchie du néant. Les Allagois l'ont fait venir dans notre monde et ont usé de leur magismologie afin de le rendre encore plus puissant qu'il ne l'était déjà."
+      },
+      "sellMgp": 800,
+      "plate": 87325,
+      "rarity": 4,
+      "top": 4,
+      "bottom": 9,
+      "left": 9,
+      "right": 4
+    }
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1034007",
+      "obj": {
+        "i": 1034007,
+        "n": "Resistance Supplier",
+        "l": 3534,
+        "s": 1,
+        "r": 1,
+        "a": 3536,
+        "c": [
+          15.33,
+          29.99
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1036895",
+      "obj": {
+        "i": 1036895,
+        "n": "Resistance Supplier",
+        "l": 3662,
+        "s": 1,
+        "r": 1,
+        "a": 3664,
+        "c": [
+          35.95,
+          34.29
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31135",
+      "obj": {
+        "i": 31135,
+        "n": "Bozjan Cluster",
+        "l": 1,
+        "c": 65082,
+        "t": 63
+      }
+    }
+  ]
+}

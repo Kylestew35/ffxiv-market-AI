@@ -1,0 +1,340 @@
+{
+  "item": {
+    "name": "Cracked Stellacrystal",
+    "description": "A many-pointed crystalline manifestation of aetheric energy cracked through in several places.<br><br>[Can be exchanged for select non-combat-based varieties of materia VIII.]",
+    "id": 26822,
+    "patch": 5.0,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 999,
+    "icon": 20036,
+    "tradeCurrency": [
+      {
+        "shop": "Shop",
+        "npcs": [
+          1027567,
+          1027995
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26733",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26734",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26735",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26736",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26737",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "shop": "Materia",
+        "npcs": [],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "26735",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26736",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26737",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26732",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26733",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          },
+          {
+            "item": [
+              {
+                "id": "26734",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "26822",
+                "amount": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027567",
+      "obj": {
+        "i": 1027567,
+        "n": "Thex",
+        "l": 2952,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 3269,
+        "c": [
+          10.68,
+          11.0
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027995",
+      "obj": {
+        "i": 1027995,
+        "n": "Cholline",
+        "l": 2951,
+        "s": 1,
+        "t": "Materia Vendor",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          10.72,
+          13.24
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26732",
+      "obj": {
+        "i": 26732,
+        "n": "Gatherer's Guerdon Materia VIII",
+        "l": 430,
+        "c": 20277,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 20,
+          "attr": "Gathering",
+          "category": 2
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "26733",
+      "obj": {
+        "i": 26733,
+        "n": "Gatherer's Guile Materia VIII",
+        "l": 430,
+        "c": 20277,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 20,
+          "attr": "Perception",
+          "category": 2
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "26734",
+      "obj": {
+        "i": 26734,
+        "n": "Gatherer's Grasp Materia VIII",
+        "l": 430,
+        "c": 20277,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 9,
+          "attr": "GP",
+          "category": 2
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "26735",
+      "obj": {
+        "i": 26735,
+        "n": "Craftsman's Competence Materia VIII",
+        "l": 430,
+        "c": 20276,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 21,
+          "attr": "Craftsmanship",
+          "category": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "26736",
+      "obj": {
+        "i": 26736,
+        "n": "Craftsman's Cunning Materia VIII",
+        "l": 430,
+        "c": 20276,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 9,
+          "attr": "CP",
+          "category": 1
+        }
+      }
+    },
+    {
+      "type": "item",
+      "id": "26737",
+      "obj": {
+        "i": 26737,
+        "n": "Craftsman's Command Materia VIII",
+        "l": 430,
+        "c": 20276,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 13,
+          "attr": "Control",
+          "category": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "item": {
+    "name": "Grade 4 Skybuilders' Stew",
+    "description": "Many culinarians believe the secret to a good stew is to never allow the pot to become empty by constantly topping it up with fresh ingredients. This may in fact be an elaborate ploy to avoid ever having to wash the pot, not to mention that some parts of the stew may have been in the mix for several years without being served. Diners are advised to “eat around” anything that seems a bit suspicious.",
+    "id": 31952,
+    "patch": 5.41,
+    "patchCategory": 5,
+    "price": 1050,
+    "ilvl": 430,
+    "category": 61,
+    "dyecount": 0,
+    "sell_price": 35,
+    "rarity": 1,
+    "unlistable": 1,
+    "collectable": 1,
+    "stackSize": 999,
+    "icon": 53256,
+    "craft": [
+      {
+        "id": 34472,
+        "job": 15,
+        "rlvl": 430,
+        "durability": 60,
+        "quality": 11960,
+        "progress": 1780,
+        "lvl": 80,
+        "materialQualityFactor": 0,
+        "hq": 1,
+        "ingredients": [
+          {
+            "id": 31983,
+            "amount": 10
+          },
+          {
+            "id": 31988,
+            "amount": 10
+          },
+          {
+            "id": 31987,
+            "amount": 10
+          },
+          {
+            "id": 27852,
+            "amount": 4
+          },
+          {
+            "id": 8,
+            "amount": 4
+          },
+          {
+            "id": 13,
+            "amount": 2
+          }
+        ],
+        "complexity": {
+          "nq": 3000088,
+          "hq": 3000108
+        }
+      }
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Approved Grade 4 Skybuilders' Wheat",
+      "id": 31983,
+      "icon": 23872,
+      "category": 45,
+      "ilvl": 430,
+      "price": 210
+    },
+    {
+      "name": "Approved Grade 4 Skybuilders' Truespring Water",
+      "id": 31988,
+      "icon": 23923,
+      "category": 54,
+      "ilvl": 430,
+      "price": 210
+    },
+    {
+      "name": "Approved Grade 4 Skybuilders' Finest Rock Salt",
+      "id": 31987,
+      "icon": 23839,
+      "category": 54,
+      "ilvl": 430,
+      "price": 210
+    },
+    {
+      "name": "Ovim Meat",
+      "id": 27852,
+      "icon": 25152,
+      "category": 45,
+      "ilvl": 409,
+      "price": 2397,
+      "tradeShops": [
+        {
+          "shop": "Shop",
+          "npcs": [
+            1027998,
+            1027538,
+            1027892
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "27852",
+                  "amount": 1
+                }
+              ],
+              "currency": [
+                {
+                  "id": "26807",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "ventures": [
+        782
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1027998",
+      "obj": {
+        "i": 1027998,
+        "n": "Gramsol",
+        "l": 2951,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3254,
+        "c": [
+          11.11,
+          13.62
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "26807",
+      "obj": {
+        "i": 26807,
+        "n": "Bicolor Gemstone",
+        "l": 1,
+        "c": 65071,
+        "t": 100
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027538",
+      "obj": {
+        "i": 1027538,
+        "n": "Pedronille",
+        "l": 2952,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3278,
+        "c": [
+          10.59,
+          12.24
+        ]
+      }
+    },
+    {
+      "type": "npc",
+      "id": "1027892",
+      "obj": {
+        "i": 1027892,
+        "n": "Halden",
+        "l": 2955,
+        "s": 1,
+        "t": "Gemstone Trader",
+        "r": 1,
+        "a": 3135,
+        "c": [
+          10.66,
+          17.15
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "31983",
+      "obj": {
+        "i": 31983,
+        "n": "Approved Grade 4 Skybuilders' Wheat",
+        "l": 430,
+        "c": 23872,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "31988",
+      "obj": {
+        "i": 31988,
+        "n": "Approved Grade 4 Skybuilders' Truespring Water",
+        "l": 430,
+        "c": 23923,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "31987",
+      "obj": {
+        "i": 31987,
+        "n": "Approved Grade 4 Skybuilders' Finest Rock Salt",
+        "l": 430,
+        "c": 23839,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "27852",
+      "obj": {
+        "i": 27852,
+        "n": "Ovim Meat",
+        "l": 409,
+        "c": 25152,
+        "t": 45
+      }
+    }
+  ]
+}

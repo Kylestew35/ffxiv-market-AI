@@ -1,0 +1,118 @@
+{
+  "item": {
+    "name": "Sunken Tome",
+    "description": "A king among spotted ctenopoma, and lord of the waters of the Haughty One.<br><br>[Suitable for display in aquariums tier 1 and higher.]<br>[Suitable for printing on small canvases.]",
+    "fish": {
+      "guide": "Certain of the blotchy patterns upon this fish's scales appear to be lettering, distorted as if drawn in watery ink. One story claims the freshwater denizen was once the tome of a royal archivist who, fleeing from a sin eater, dropped it into a mountain stream, with the book assuming its current form in some arcane act of self-preservation.",
+      "icon": 78488,
+      "weatherRestricted": 1,
+      "folklore": 26810,
+      "spots": [
+        {
+          "spot": 220,
+          "transition": [
+            "Fair Skies"
+          ],
+          "weather": [
+            "Thunderstorms"
+          ],
+          "hookset": "Precision Hookset",
+          "tug": "Heavy",
+          "gatheringReq": 1950,
+          "ff14anglerId": 3347,
+          "baits": [
+            [
+              27585
+            ]
+          ]
+        }
+      ]
+    },
+    "id": 32052,
+    "patch": 5.4,
+    "patchCategory": 7,
+    "price": 533,
+    "ilvl": 490,
+    "category": 47,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 119,
+    "rarity": 2,
+    "stackSize": 999,
+    "repair": 15,
+    "icon": 28488,
+    "fishingSpots": [
+      220
+    ],
+    "desynthedTo": [
+      32949,
+      26730
+    ]
+  },
+  "partials": [
+    {
+      "type": "fishing",
+      "id": "220",
+      "obj": {
+        "i": 220,
+        "n": "The Haughty One",
+        "l": 74,
+        "c": 1,
+        "z": 2956,
+        "x": 22.02,
+        "y": 9.11
+      }
+    },
+    {
+      "type": "item",
+      "id": "26810",
+      "obj": {
+        "i": 26810,
+        "n": "Tome of Ichthyological Folklore - Norvrandt",
+        "l": 1,
+        "c": 26164,
+        "t": 63
+      }
+    },
+    {
+      "type": "item",
+      "id": "27585",
+      "obj": {
+        "i": 27585,
+        "n": "Marble Nymph",
+        "l": 360,
+        "c": 27038,
+        "t": 33,
+        "p": 65
+      }
+    },
+    {
+      "type": "item",
+      "id": "32949",
+      "obj": {
+        "i": 32949,
+        "n": "Spirit Extract",
+        "l": 510,
+        "c": 20675,
+        "t": 54
+      }
+    },
+    {
+      "type": "item",
+      "id": "26730",
+      "obj": {
+        "i": 26730,
+        "n": "Savage Might Materia VIII",
+        "l": 420,
+        "c": 20279,
+        "t": 58,
+        "materia": {
+          "tier": 7,
+          "value": 24,
+          "attr": "Determination",
+          "category": 0
+        }
+      }
+    }
+  ]
+}

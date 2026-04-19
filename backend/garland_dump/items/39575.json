@@ -1,0 +1,72 @@
+{
+  "item": {
+    "name": "Arkasodara Framer's Kit",
+    "description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for an allied hippo-lover.<br>Includes Portrait Elements: Background, Accent<br>Includes Plate Elements: Base Plate, Top Border, Bottom Border, Accent",
+    "id": 39575,
+    "patch": 6.3,
+    "patchCategory": 5,
+    "price": 2,
+    "ilvl": 1,
+    "category": 61,
+    "unique": 1,
+    "dyecount": 0,
+    "rarity": 1,
+    "unlistable": 1,
+    "stackSize": 1,
+    "icon": 26625,
+    "tradeShops": [
+      {
+        "shop": "Arkasodara Pana Exchange",
+        "npcs": [
+          1042424
+        ],
+        "listings": [
+          {
+            "item": [
+              {
+                "id": "39575",
+                "amount": 1
+              }
+            ],
+            "currency": [
+              {
+                "id": "36657",
+                "amount": 6
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1042424",
+      "obj": {
+        "i": 1042424,
+        "n": "Ghanta",
+        "l": 3709,
+        "s": 2,
+        "t": "Peddler",
+        "r": 1,
+        "a": 4030,
+        "c": [
+          20.51,
+          28.49
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "36657",
+      "obj": {
+        "i": 36657,
+        "n": "Arkasodara Pana",
+        "l": 1,
+        "c": "t/65091",
+        "t": 100
+      }
+    }
+  ]
+}

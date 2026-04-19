@@ -1,0 +1,518 @@
+{
+  "item": {
+    "name": "Spinner",
+    "description": "A metal river lure designed to resemble both a mayfly and a minnow, allowing for use in a variety of different situations.",
+    "jobCategories": "FSH",
+    "id": 2620,
+    "patch": 1.0,
+    "patchCategory": 2,
+    "price": 468,
+    "ilvl": 39,
+    "category": 33,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 10,
+    "rarity": 1,
+    "stackSize": 999,
+    "equip": 1,
+    "slot": 0,
+    "elvl": 39,
+    "jobs": 19,
+    "icon": 27062,
+    "craft": [
+      {
+        "id": 1450,
+        "job": 11,
+        "rlvl": 39,
+        "durability": 80,
+        "quality": 1340,
+        "progress": 137,
+        "lvl": 39,
+        "materialQualityFactor": 50,
+        "yield": 3,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 5065,
+            "amount": 1,
+            "quality": 330.14493
+          },
+          {
+            "id": 4900,
+            "amount": 1
+          },
+          {
+            "id": 4,
+            "amount": 5
+          },
+          {
+            "id": 2,
+            "amount": 4
+          }
+        ],
+        "complexity": {
+          "nq": 93,
+          "hq": 113
+        }
+      }
+    ],
+    "leves": [
+      782,
+      783,
+      784,
+      785,
+      786,
+      787,
+      788,
+      789
+    ]
+  },
+  "ingredients": [
+    {
+      "name": "Mythril Ingot",
+      "id": 5065,
+      "icon": 20811,
+      "category": 49,
+      "ilvl": 34,
+      "price": 514,
+      "craft": [
+        {
+          "id": 135,
+          "job": 9,
+          "rlvl": 38,
+          "durability": 40,
+          "quality": 1024,
+          "progress": 64,
+          "lvl": 38,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5114,
+              "amount": 3
+            },
+            {
+              "id": 2,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        },
+        {
+          "id": 260,
+          "job": 10,
+          "rlvl": 36,
+          "durability": 40,
+          "quality": 928,
+          "progress": 62,
+          "lvl": 36,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5114,
+              "amount": 3
+            },
+            {
+              "id": 3,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        },
+        {
+          "id": 786,
+          "job": 11,
+          "rlvl": 34,
+          "durability": 40,
+          "quality": 840,
+          "progress": 57,
+          "lvl": 34,
+          "materialQualityFactor": 0,
+          "hq": 1,
+          "quickSynth": 1,
+          "ingredients": [
+            {
+              "id": 5114,
+              "amount": 3
+            },
+            {
+              "id": 4,
+              "amount": 4
+            }
+          ],
+          "complexity": {
+            "nq": 52,
+            "hq": 72
+          }
+        }
+      ],
+      "desynthedFrom": [
+        31543,
+        2783,
+        4143,
+        1788,
+        31555,
+        31559,
+        10501,
+        9219
+      ],
+      "treasure": [
+        6688,
+        6689,
+        6690
+      ],
+      "tradeShops": [
+        {
+          "shop": "Steel Amalj'ok Exchange",
+          "npcs": [
+            1005554
+          ],
+          "listings": [
+            {
+              "item": [
+                {
+                  "id": "5065",
+                  "amount": 3
+                }
+              ],
+              "currency": [
+                {
+                  "id": "21076",
+                  "amount": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "vendors": [
+        1005554
+      ]
+    },
+    {
+      "name": "Mythril Ore",
+      "id": 5114,
+      "icon": 21208,
+      "category": 48,
+      "ilvl": 34,
+      "price": 154,
+      "leves": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        477,
+        478,
+        479,
+        480,
+        481,
+        482,
+        483,
+        484,
+        485,
+        486,
+        487,
+        488
+      ],
+      "ventures": [
+        138
+      ],
+      "nodes": [
+        177
+      ]
+    },
+    {
+      "name": "Whitelip Oyster",
+      "id": 4900,
+      "icon": 29059,
+      "category": 47,
+      "ilvl": 35,
+      "price": 259,
+      "ventures": [
+        335
+      ],
+      "fishingSpots": [
+        53,
+        61,
+        74,
+        101
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "npc",
+      "id": "1005554",
+      "obj": {
+        "i": 1005554,
+        "n": "Amalj'aa Vendor",
+        "l": 45,
+        "s": 2,
+        "r": 1,
+        "a": 482,
+        "c": [
+          23.28,
+          14.17
+        ]
+      }
+    },
+    {
+      "type": "item",
+      "id": "21076",
+      "obj": {
+        "i": 21076,
+        "n": "Steel Amalj'ok",
+        "l": 1,
+        "c": 65050,
+        "t": 100
+      }
+    },
+    {
+      "type": "item",
+      "id": "5114",
+      "obj": {
+        "i": 5114,
+        "n": "Mythril Ore",
+        "l": 34,
+        "c": 21208,
+        "t": 48
+      }
+    },
+    {
+      "type": "item",
+      "id": "6688",
+      "obj": {
+        "i": 6688,
+        "n": "Timeworn Leather Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6689",
+      "obj": {
+        "i": 6689,
+        "n": "Timeworn Goatskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "item",
+      "id": "6690",
+      "obj": {
+        "i": 6690,
+        "n": "Timeworn Toadskin Map",
+        "l": 40,
+        "c": 25930,
+        "t": 61
+      }
+    },
+    {
+      "type": "node",
+      "id": "177",
+      "obj": {
+        "i": 177,
+        "n": "Sagolii Desert",
+        "l": 35,
+        "t": 0,
+        "z": 45
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "53",
+      "obj": {
+        "i": 53,
+        "n": "North Bloodshore",
+        "l": 35,
+        "c": 0,
+        "z": 32,
+        "x": 33.03,
+        "y": 24.22
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "61",
+      "obj": {
+        "i": 61,
+        "n": "Halfstone",
+        "l": 35,
+        "c": 0,
+        "z": 33,
+        "x": 17.56,
+        "y": 20.98
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "74",
+      "obj": {
+        "i": 74,
+        "n": "Cape Westwind",
+        "l": 45,
+        "c": 0,
+        "z": 42,
+        "x": 9.93,
+        "y": 7.37
+      }
+    },
+    {
+      "type": "fishing",
+      "id": "101",
+      "obj": {
+        "i": 101,
+        "n": "Sapsa Spawning Grounds",
+        "l": 45,
+        "c": 0,
+        "z": 33,
+        "x": 17.14,
+        "y": 15.77
+      }
+    },
+    {
+      "type": "item",
+      "id": "5065",
+      "obj": {
+        "i": 5065,
+        "n": "Mythril Ingot",
+        "l": 34,
+        "c": 20811,
+        "t": 49,
+        "p": 514
+      }
+    },
+    {
+      "type": "item",
+      "id": "4900",
+      "obj": {
+        "i": 4900,
+        "n": "Whitelip Oyster",
+        "l": 35,
+        "c": 29059,
+        "t": 47
+      }
+    },
+    {
+      "type": "leve",
+      "id": "782",
+      "obj": {
+        "i": 782,
+        "n": "The Perks of Politics",
+        "l": 35,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "783",
+      "obj": {
+        "i": 783,
+        "n": "Hands off Our Fish",
+        "l": 35,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "784",
+      "obj": {
+        "i": 784,
+        "n": "Fry Me a River",
+        "l": 35,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "785",
+      "obj": {
+        "i": 785,
+        "n": "Gathering Light",
+        "l": 35,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "786",
+      "obj": {
+        "i": 786,
+        "n": "Empire Builder",
+        "l": 40,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "787",
+      "obj": {
+        "i": 787,
+        "n": "Laird of the Lakes",
+        "l": 40,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "788",
+      "obj": {
+        "i": 788,
+        "n": "Make a Fish",
+        "l": 40,
+        "j": 19,
+        "p": 63
+      }
+    },
+    {
+      "type": "leve",
+      "id": "789",
+      "obj": {
+        "i": 789,
+        "n": "Rationally Speaking",
+        "l": 40,
+        "j": 19,
+        "p": 63
+      }
+    }
+  ]
+}

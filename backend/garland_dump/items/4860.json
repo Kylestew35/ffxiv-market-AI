@@ -1,0 +1,147 @@
+{
+  "item": {
+    "name": "Dark Vinegar",
+    "description": "A high-quality distilled vinegar made from select lowland grapes.",
+    "id": 4860,
+    "patch": 1.0,
+    "patchCategory": 5,
+    "price": 64,
+    "ilvl": 30,
+    "category": 45,
+    "dyecount": 0,
+    "tradeable": 1,
+    "sell_price": 1,
+    "rarity": 1,
+    "stackSize": 999,
+    "icon": 25107,
+    "craft": [
+      {
+        "id": 973,
+        "job": 15,
+        "rlvl": 31,
+        "durability": 40,
+        "quality": 720,
+        "progress": 53,
+        "lvl": 31,
+        "materialQualityFactor": 0,
+        "yield": 3,
+        "hq": 1,
+        "quickSynth": 1,
+        "ingredients": [
+          {
+            "id": 6145,
+            "amount": 4
+          },
+          {
+            "id": 2,
+            "amount": 3
+          }
+        ],
+        "complexity": {
+          "nq": 52,
+          "hq": 72
+        }
+      }
+    ],
+    "ingredient_of": {
+      "4685": 1,
+      "7619": 1
+    },
+    "requiredByLeves": [
+      297
+    ],
+    "desynthedFrom": [
+      9536
+    ],
+    "alla": {
+      "source": [
+        "DESYNTH"
+      ]
+    }
+  },
+  "ingredients": [
+    {
+      "name": "Noble Grapes",
+      "id": 6145,
+      "icon": 24058,
+      "category": 45,
+      "ilvl": 21,
+      "price": 42,
+      "ventures": [
+        232
+      ],
+      "nodes": [
+        41
+      ]
+    }
+  ],
+  "partials": [
+    {
+      "type": "node",
+      "id": "41",
+      "obj": {
+        "i": 41,
+        "n": "Oakwood",
+        "l": 25,
+        "t": 3,
+        "z": 34
+      }
+    },
+    {
+      "type": "item",
+      "id": "6145",
+      "obj": {
+        "i": 6145,
+        "n": "Noble Grapes",
+        "l": 21,
+        "c": 24058,
+        "t": 45
+      }
+    },
+    {
+      "type": "item",
+      "id": "4685",
+      "obj": {
+        "i": 4685,
+        "n": "Alligator Salad",
+        "l": 30,
+        "c": 24157,
+        "t": 46
+      }
+    },
+    {
+      "type": "item",
+      "id": "7619",
+      "obj": {
+        "i": 7619,
+        "n": "Spicy Tomato Relish",
+        "l": 70,
+        "c": 25101,
+        "t": 45
+      }
+    },
+    {
+      "type": "leve",
+      "id": "297",
+      "obj": {
+        "i": 297,
+        "n": "Pretty as a Picture",
+        "l": 30,
+        "j": 16,
+        "p": 206
+      }
+    },
+    {
+      "type": "item",
+      "id": "9536",
+      "obj": {
+        "i": 9536,
+        "n": "Aged Decanter",
+        "l": 55,
+        "c": 25057,
+        "t": 61,
+        "p": 3000
+      }
+    }
+  ]
+}
