@@ -7,12 +7,11 @@ type Message = {
   content: string;
 };
 
-export function ChatWindow() {
+export function ChatWindow({ world }: { world: string }) {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
 
-  // Correct env var
   const backend = process.env.NEXT_PUBLIC_CHAT_AI_URL;
 
   async function sendMessage(e: React.FormEvent) {
@@ -28,12 +27,13 @@ export function ChatWindow() {
       const res = await fetch(backend, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: userMessage.content }),
+        body: JSON.stringify({
+          question: userMessage.content,
+          world: world, // send selected world
+        }),
       });
 
       const data = await res.json();
-
-      // Correct field
       const aiText = data.output ?? "No response.";
 
       const aiMessage: Message = { role: "assistant", content: aiText };
