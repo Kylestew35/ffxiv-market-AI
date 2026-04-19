@@ -1,136 +1,99 @@
-// frontend/src/app/components/ItemDetail.tsx
-
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-type Recommendation = {
-  item: { id: number; name: string };
-  currentWorld: string;
-  marketSummary: {
-    minNQ: number | null;
-    minHQ: number | null;
-    numListings: number;
-  };
-  worldSummaries?: {
-    [world: string]: {
-      minNQ: number | null;
-      minHQ: number | null;
-      numListings: number;
-    };
-  };
-  options: {
-    id: string;
-    label: string;
-    world?: string;
-    minNQ?: number | null;
-    minHQ?: number | null;
-    reason: string;
-  }[];
-  aiInsight?: string;
+type Message = {
+  role: "user" | "assistant";
+  content: string;
 };
 
-type Props = {
-  world: string;
-  itemId: number | null;
-};
-
-export function ItemDetail({ world, itemId }: Props) {
-  const [data, setData] = useState<Recommendation | null>(null);
+export function ChatWindow() {
+  const [input, setInput] = useState("");
+  const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
 
   const backend = process.env.NEXT_PUBLIC_BACKEND_URL;
 
-  useEffect(() => {
-    if (!world || !itemId || !backend) {
-      setData(null);
-      return;
-    }
+  async function sendMessage(e: React.FormEvent) {
+    e.preventDefault();
+    if (!input.trim() || !backend) return;
+
+    const userMessage: Message = { role: "user", content: input.trim() };
+    setMessages((prev) => [...prev, userMessage]);
+    setInput("");
     setLoading(true);
-    (async () => {
-      try {
-        const res = await fetch(
-          `${backend}/market?world=${encodeURIComponent(
-            world,
-          )}&itemId=${itemId}`,
-        );
-        const json = await res.json();
-        setData(json);
-      } finally {
-        setLoading(false);
-      }
-    })();
-  }, [world, itemId, backend]);
 
-  if (!itemId) {
-    return (
-      <div className="h-full bg-slate-950/90 border border-slate-700 rounded-xl p-5 flex items-center justify-center text-slate-400 text-sm">
-        Select an item from the list to view market data.
-      </div>
-    );
-  }
+    try {
+      const res = await fetch(`${backend}/chat-ai`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question: userMessage.content }),
+      });
 
-  if (loading) {
-    return (
-      <div className="h-full bg-slate-950/90 border border-slate-700 rounded-xl p-5 flex items-center justify-center text-sm">
-        Loading market data...
-      </div>
-    );
-  }
+      const data = await res.json();
 
-  if (!data) {
-    return (
-      <div className="h-full bg-slate-950/90 border border-slate-700 rounded-xl p-5 flex items-center justify-center text-sm">
-        No data available.
-      </div>
-    );
+      // FIX: backend returns "output", not "answer"
+      const aiText =
+        data.output ??
+        data.answer ?? // fallback if backend ever changes
+        "No response.";
+
+      const aiMessage: Message = { role: "assistant", content: aiText };
+      setMessages((prev) => [...prev, aiMessage]);
+    } catch (err) {
+      setMessages((prev) => [
+        ...prev,
+        { role: "assistant", content: "Error contacting backend." },
+      ]);
+    } finally {
+      setLoading(false);
+    }
   }
 
   return (
-    <div className="h-full bg-slate-950/90 border border-slate-700 rounded-xl p-5 space-y-4">
-      <div className="flex items-baseline justify-between gap-4">
-        <div>
-          <div className="text-xs uppercase tracking-[0.25em] text-slate-400 mb-1">
-            Item Insight
-          </div>
-          <h2 className="text-2xl font-semibold text-slate-100">
-            {data.item.name}
-          </h2>
-          <div className="text-xs text-slate-400 mt-1">
-            World: <span className="text-slate-200">{data.currentWorld}</span>
-          </div>
-        </div>
-        <div className="text-right text-xs text-slate-400">
-          Listings:{" "}
-          <span className="text-slate-200">
-            {data.marketSummary.numListings}
-          </span>
-          <br />
-          Min NQ:{" "}
-          <span className="text-emerald-300">
-            {data.marketSummary.minNQ ?? "—"}
-          </span>{" "}
-          gil
-          <br />
-          Min HQ:{" "}
-          <span className="text-amber-300">
-            {data.marketSummary.minHQ ?? "—"}
-          </span>{" "}
-          gil
-        </div>
+    <div className="bg-slate-950/90 border border-slate-700 rounded-xl p-4 flex flex-col gap-3 h-full">
+      <div className="text-xs uppercase tracking-[0.25em] text-slate-400">
+        AI Question Box
       </div>
 
-      {data.aiInsight && (
-        <div className="bg-slate-900/80 border border-slate-700 rounded-lg p-3 text-xs text-slate-200 leading-relaxed">
-          {data.aiInsight.split("\n").map((line, idx) =>
-            line.trim() ? (
-              <p key={idx} className="mb-2 last:mb-0">
-                {line}
-              </p>
-            ) : null,
-          )}
-        </div>
-      )}
+      <div className="max-h-80 overflow-y-auto space-y-2 border border-slate-800 rounded-lg p-2 bg-slate-900/80">
+        {messages.length === 0 && (
+          <div className="text-xs text-slate-500">
+            Ask anything about prices, strategies, or market behavior. This chat
+            does not use your selected item—just general questions.
+          </div>
+        )}
+
+        {messages.map((m, idx) => (
+          <div
+            key={idx}
+            className={`text-sm whitespace-pre-wrap ${
+              m.role === "user" ? "text-slate-200" : "text-slate-300"
+            }`}
+          >
+            <span className="text-xs uppercase text-slate-500 mr-1">
+              {m.role === "user" ? "You:" : "AI:"}
+            </span>
+            {m.content}
+          </div>
+        ))}
+      </div>
+
+      <form onSubmit={sendMessage} className="flex gap-2">
+        <input
+          className="flex-1 px-3 py-2 rounded-lg bg-slate-800 border border-slate-700 text-sm text-slate-100 placeholder:text-slate-400"
+          placeholder="Ask a question about FFXIV markets..."
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+        />
+        <button
+          type="submit"
+          disabled={loading}
+          className="px-4 py-2 rounded-lg bg-slate-800 border border-slate-600 text-sm text-slate-200 disabled:opacity-50"
+        >
+          {loading ? "Thinking..." : "Send"}
+        </button>
+      </form>
     </div>
   );
 }
