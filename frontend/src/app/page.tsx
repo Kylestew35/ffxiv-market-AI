@@ -65,7 +65,7 @@ export default function Page() {
 
       <section className="grid md:grid-cols-3 gap-5">
         <div className="md:col-span-3">
-          <ChatWindow world={world} />
+          <ChatWindow />
         </div>
       </section>
     </main>
