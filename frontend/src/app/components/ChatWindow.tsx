@@ -12,7 +12,7 @@ export function ChatWindow() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
 
-  // FIX 1: use the correct env variable
+  // Correct env var
   const backend = process.env.NEXT_PUBLIC_CHAT_AI_URL;
 
   async function sendMessage(e: React.FormEvent) {
@@ -25,7 +25,7 @@ export function ChatWindow() {
     setLoading(true);
 
     try {
-      const res = await fetch(`${backend}`, {
+      const res = await fetch(backend, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: userMessage.content }),
@@ -33,12 +33,12 @@ export function ChatWindow() {
 
       const data = await res.json();
 
-      // FIX 2: backend returns "output", not "answer"
+      // Correct field
       const aiText = data.output ?? "No response.";
 
       const aiMessage: Message = { role: "assistant", content: aiText };
       setMessages((prev) => [...prev, aiMessage]);
-    } catch (err) {
+    } catch {
       setMessages((prev) => [
         ...prev,
         { role: "assistant", content: "Error contacting backend." },
