@@ -7,7 +7,7 @@ type Message = {
   content: string;
 };
 
-export function ChatWindow() {
+export function ChatWindow({ world }: { world: string }) {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
@@ -27,11 +27,15 @@ export function ChatWindow() {
       const res = await fetch(`${backend}/chat-ai`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: userMessage.content }),
+        body: JSON.stringify({
+          question: userMessage.content,
+          world: world,
+          dataCenter: "Aether"
+        }),
       });
 
       const data = await res.json();
-      const aiText = data.answer ?? "No response.";
+      const aiText = data.output ?? "No response.";
 
       const aiMessage: Message = { role: "assistant", content: aiText };
       setMessages((prev) => [...prev, aiMessage]);
@@ -46,7 +50,7 @@ export function ChatWindow() {
         AI Question Box
       </div>
 
-      <div className=" max-h-80 overflow-y-auto space-y-2 border border-slate-800 rounded-lg p-2 bg-slate-900/80">
+      <div className="max-h-80 overflow-y-auto space-y-2 border border-slate-800 rounded-lg p-2 bg-slate-900/80">
         {messages.length === 0 && (
           <div className="text-xs text-slate-500">
             Ask anything about prices, strategies, or market behavior. This chat
