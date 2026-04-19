@@ -7,7 +7,7 @@ type Message = {
   content: string;
 };
 
-export function ChatWindow() {
+export function ChatWindow({ world }: { world: string }) {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
   const [loading, setLoading] = useState(false);
@@ -27,11 +27,19 @@ export function ChatWindow() {
       const res = await fetch(`${backend}/chat-ai`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: userMessage.content }),
+        body: JSON.stringify({
+          question: userMessage.content,
+          world: world,
+        }),
       });
 
       const data = await res.json();
-      const aiText = data.answer ?? "No response.";
+
+      // NEW: Support new backend shape
+      const aiText =
+        data.output ||
+        data.answer ||
+        "No response.";
 
       const aiMessage: Message = { role: "assistant", content: aiText };
       setMessages((prev) => [...prev, aiMessage]);
@@ -46,11 +54,10 @@ export function ChatWindow() {
         AI Question Box
       </div>
 
-      <div className=" max-h-80 overflow-y-auto space-y-2 border border-slate-800 rounded-lg p-2 bg-slate-900/80">
+      <div className="max-h-80 overflow-y-auto space-y-2 border border-slate-800 rounded-lg p-2 bg-slate-900/80">
         {messages.length === 0 && (
           <div className="text-xs text-slate-500">
-            Ask anything about prices, strategies, or market behavior. This chat
-            does not use your selected item—just general questions.
+            Ask anything about items, prices, crafting, gathering, or general FFXIV knowledge.
           </div>
         )}
         {messages.map((m, idx) => (
@@ -71,7 +78,7 @@ export function ChatWindow() {
       <form onSubmit={sendMessage} className="flex gap-2">
         <input
           className="flex-1 px-3 py-2 rounded-lg bg-slate-800 border border-slate-700 text-sm text-slate-100 placeholder:text-slate-400"
-          placeholder="Ask a question about FFXIV markets..."
+          placeholder="Ask anything about FFXIV..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
