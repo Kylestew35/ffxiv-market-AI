@@ -34,41 +34,28 @@ export function ChatWindow({ world }: { world: string }) {
         }),
       });
 
-      if (!res.ok) {
-        throw new Error(`HTTP ${res.status}`);
+      const rawData = await res.json();
+      console.log("📦 Full response from backend:", rawData);   // ← Debug
+
+      // === IMPORTANT: Parse the body string ===
+      let parsed;
+      if (rawData.body && typeof rawData.body === "string") {
+        parsed = JSON.parse(rawData.body);
+      } else {
+        parsed = rawData;
       }
 
-      const responseData = await res.json();
-      console.log("📦 Full Lambda Response:", responseData); // Debugging
+      const aiText = parsed.output || 
+                     parsed.message || 
+                     "No response received.";
 
-      // === CRITICAL FIX: Parse the body string ===
-      let parsedBody;
-      try {
-        parsedBody = typeof responseData.body === "string"
-          ? JSON.parse(responseData.body)
-          : responseData.body || responseData;
-      } catch (e) {
-        parsedBody = responseData;
-      }
-
-      const aiText = parsedBody.output || 
-                     parsedBody.message || 
-                     "No response from server.";
-
-      const aiMessage: Message = { 
-        role: "assistant", 
-        content: aiText 
-      };
-
+      const aiMessage: Message = { role: "assistant", content: aiText };
       setMessages((prev) => [...prev, aiMessage]);
     } catch (error) {
-      console.error("Fetch error:", error);
+      console.error("Error:", error);
       setMessages((prev) => [
         ...prev,
-        { 
-          role: "assistant", 
-          content: "❌ Error connecting to server. Please try again." 
-        }
+        { role: "assistant", content: "❌ Failed to get response from server." }
       ]);
     } finally {
       setLoading(false);
@@ -84,21 +71,21 @@ export function ChatWindow({ world }: { world: string }) {
       <div className="flex-1 max-h-96 overflow-y-auto space-y-4 border border-slate-800 rounded-lg p-4 bg-slate-900/80">
         {messages.length === 0 && (
           <div className="text-slate-500 text-sm italic">
-            Try asking: "What's Cobalt Ore price?" or "How to get Cobalt Ore?"
+            Ask anything like "Cobalt Ore price" or "How to get Cobalt Ore?"
           </div>
         )}
 
         {messages.map((m, idx) => (
           <div
             key={idx}
-            className={`p-3 rounded-2xl text-sm ${
+            className={`p-4 rounded-2xl text-sm leading-relaxed ${
               m.role === "user"
-                ? "bg-sky-600/90 text-white ml-8"
+                ? "bg-sky-600 text-white ml-8"
                 : "bg-slate-700 text-slate-100 mr-8"
             }`}
           >
             <span className="block text-xs opacity-70 mb-1">
-              {m.role === "user" ? "You" : "AI Assistant"}
+              {m.role === "user" ? "You" : "AI"}
             </span>
             {m.content}
           </div>
@@ -107,15 +94,15 @@ export function ChatWindow({ world }: { world: string }) {
 
       <form onSubmit={sendMessage} className="flex gap-2">
         <input
-          className="flex-1 px-4 py-3 bg-slate-800 border border-slate-600 rounded-2xl text-sm focus:outline-none focus:border-sky-500"
-          placeholder="Ask about any item (e.g. Cobalt Ore price)"
+          className="flex-1 px-4 py-3 bg-slate-800 border border-slate-600 rounded-2xl focus:outline-none focus:border-sky-500"
+          placeholder="Ask about any item..."
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
         <button
           type="submit"
           disabled={loading}
-          className="px-6 py-3 bg-sky-600 hover:bg-sky-500 disabled:bg-slate-700 rounded-2xl text-sm font-medium transition-colors"
+          className="px-6 py-3 bg-sky-600 hover:bg-sky-500 disabled:bg-slate-700 rounded-2xl font-medium"
         >
           {loading ? "..." : "Send"}
         </button>
