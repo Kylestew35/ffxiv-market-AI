@@ -14,9 +14,21 @@ export function ChatWindow({ world }: { world: string }) {
 
   const backend = process.env.NEXT_PUBLIC_BACKEND_URL;
 
+  console.log("ChatWindow mounted. Backend URL:", backend); // Debug on load
+
   async function sendMessage(e: React.FormEvent) {
     e.preventDefault();
-    if (!input.trim() || !backend) return;
+    console.log("🚀 sendMessage triggered. Input:", input); // Should appear when you click Send
+
+    if (!input.trim()) {
+      console.log("❌ Input is empty");
+      return;
+    }
+    if (!backend) {
+      console.error("❌ NEXT_PUBLIC_BACKEND_URL is not set!");
+      alert("Backend URL is not configured!");
+      return;
+    }
 
     const userMessage: Message = { role: "user", content: input.trim() };
     setMessages((prev) => [...prev, userMessage]);
@@ -25,6 +37,8 @@ export function ChatWindow({ world }: { world: string }) {
     setLoading(true);
 
     try {
+      console.log(`📡 Fetching to: ${backend}/chat-ai`);
+
       const res = await fetch(`${backend}/chat-ai`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -34,28 +48,26 @@ export function ChatWindow({ world }: { world: string }) {
         }),
       });
 
-      const rawData = await res.json();
-      console.log("📦 Full response from backend:", rawData);   // ← Debug
+      console.log("📥 Response status:", res.status);
 
-      // === IMPORTANT: Parse the body string ===
-      let parsed;
+      const rawData = await res.json();
+      console.log("📦 Full Lambda Response:", rawData);
+
+      // Parse body
+      let parsed = rawData;
       if (rawData.body && typeof rawData.body === "string") {
         parsed = JSON.parse(rawData.body);
-      } else {
-        parsed = rawData;
       }
 
-      const aiText = parsed.output || 
-                     parsed.message || 
-                     "No response received.";
+      const aiText = parsed.output || "No response received.";
 
       const aiMessage: Message = { role: "assistant", content: aiText };
       setMessages((prev) => [...prev, aiMessage]);
     } catch (error) {
-      console.error("Error:", error);
+      console.error("❌ Fetch Error:", error);
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", content: "❌ Failed to get response from server." }
+        { role: "assistant", content: "❌ Could not connect to server." }
       ]);
     } finally {
       setLoading(false);
@@ -71,17 +83,15 @@ export function ChatWindow({ world }: { world: string }) {
       <div className="flex-1 max-h-96 overflow-y-auto space-y-4 border border-slate-800 rounded-lg p-4 bg-slate-900/80">
         {messages.length === 0 && (
           <div className="text-slate-500 text-sm italic">
-            Ask anything like "Cobalt Ore price" or "How to get Cobalt Ore?"
+            Type something and click Send. Check console (F12) for debug info.
           </div>
         )}
 
         {messages.map((m, idx) => (
           <div
             key={idx}
-            className={`p-4 rounded-2xl text-sm leading-relaxed ${
-              m.role === "user"
-                ? "bg-sky-600 text-white ml-8"
-                : "bg-slate-700 text-slate-100 mr-8"
+            className={`p-4 rounded-2xl text-sm ${
+              m.role === "user" ? "bg-sky-600 text-white ml-8" : "bg-slate-700 text-slate-100 mr-8"
             }`}
           >
             <span className="block text-xs opacity-70 mb-1">
@@ -95,7 +105,7 @@ export function ChatWindow({ world }: { world: string }) {
       <form onSubmit={sendMessage} className="flex gap-2">
         <input
           className="flex-1 px-4 py-3 bg-slate-800 border border-slate-600 rounded-2xl focus:outline-none focus:border-sky-500"
-          placeholder="Ask about any item..."
+          placeholder="e.g. cobalt ore price"
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
