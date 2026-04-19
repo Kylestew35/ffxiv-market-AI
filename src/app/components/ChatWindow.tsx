@@ -27,11 +27,15 @@ export function ChatWindow() {
       const res = await fetch(`${backend}/chat-ai`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: userMessage.content }),
+        body: JSON.stringify({
+          itemName: userMessage.content,
+          world: "Midgardsormr",
+          dataCenter: "Aether"
+        }),
       });
 
       const data = await res.json();
-      const aiText = data.answer ?? "No response.";
+      const aiText = data.output ?? "No response.";
 
       const aiMessage: Message = { role: "assistant", content: aiText };
       setMessages((prev) => [...prev, aiMessage]);
